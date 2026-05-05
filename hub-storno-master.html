@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Reise stornieren: Überhöhte Stornogebühren anfechten</title>
+  <meta name="description" content="Müssen Sie Ihre Reise absagen? Erfahren Sie, wann Stornogebühren von Reiseveranstaltern unzulässig sind und wie Sie sich gegen überzogene Forderungen wehren.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & Internationalisierung -->
+  <link rel="canonical" href="https://www.fix-my-trip.com/de/storno-info.html">
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/storno-info.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/storno-info.html">
+
+  <!-- Bibliothek für die PDF-Generierung aus HTML -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- FAQ Schema.org JSON-LD für Rich Snippets bei Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Wie hoch dürfen Stornogebühren maximal sein?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Höhe der Stornogebühren richtet sich meist nach den AGB des Veranstalters und staffelt sich nach der Nähe zum Abreisedatum. Gesetzlich gilt jedoch: Die Gebühren müssen angemessen sein. Der Veranstalter darf nur den Preis abzüglich dessen verlangen, was er durch die Stornierung an Aufwendungen spart oder durch eine anderweitige Vergabe (z.B. an neue Kunden) einnimmt. Pauschale Forderungen von 80 % oder 90 % weit vor Reiseantritt sind oft unzulässig."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Was passiert, wenn ich eine Ersatzperson stelle?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Bei einer Pauschalreise haben Sie gemäß § 651e BGB das Recht, bis zu sieben Tage vor Reisebeginn eine Ersatzperson zu benennen, die in den Vertrag eintritt. Der Reiseveranstalter darf in diesem Fall keine horrenden Stornogebühren verlangen, sondern lediglich die tatsächlich entstandenen Mehrkosten für die Umbuchung (meist eine kleine Bearbeitungsgebühr zwischen 30 € und 50 €)."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Wann kann ich eine Reise völlig kostenlos stornieren?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ein kostenfreier Rücktritt ist möglich, wenn am Urlaubsort oder in dessen unmittelbarer Nähe 'unvermeidbare, außergewöhnliche Umstände' auftreten, die die Durchführung der Reise erheblich beeinträchtigen. Typische Beispiele sind der Ausbruch eines Krieges, schwere Naturkatastrophen oder gefährliche Pandemien, für die offizielle Reisewarnungen des Auswärtigen Amtes vorliegen."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Muss ich die Stornogebühren zahlen, wenn ich eine Reiserücktrittsversicherung habe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wenn Sie aus einem versicherten Grund (z.B. unerwartete schwere Krankheit, Jobverlust) stornieren, übernimmt die Reiserücktrittsversicherung in der Regel die Stornokosten. Achtung: Viele Versicherungen prüfen jedoch selbst, ob die vom Veranstalter verlangte Gebühr rechtmäßig ist, und weigern sich, überzogene Pauschalen zu zahlen. Auch hier lohnt sich oft ein Widerspruch beim Veranstalter."
+      }
+    }]
+  }
+  </script>
+
+  
+</head>
+<body>
+
+<header class="site-header" style="padding: 20px 0; border-bottom: 2px solid #eee; margin-bottom: 30px;">
+  <a href="index.html" style="font-size: 1.5em; font-weight: bold; text-decoration: none;">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Reise stornieren: So wehren Sie sich gegen überhöhte Stornogebühren</h1>
+  
+  <p>Eine plötzliche Krankheit, geänderte Urlaubspläne oder familiäre Notfälle – es gibt viele Gründe, warum man eine gebuchte Pauschalreise absagen muss. Neben der Enttäuschung über den verpassten Urlaub folgt oft der nächste Schock: Der Reiseveranstalter stellt <strong>enorme Stornogebühren</strong> in Rechnung. Oft fordern Anbieter pauschal 40 %, 60 % oder sogar 80 % des Reisepreises, selbst wenn die Absage Wochen oder Monate im Voraus geschieht.</p>
+  
+  <p>Was viele Urlauber nicht wissen: <strong>Stornopauschalen dürfen nicht beliebig hoch sein.</strong> Der Gesetzgeber schreibt vor, dass Veranstalter ersparte Aufwendungen (wie nicht bezahlte Hotelnächte oder Flugsteuern) abziehen müssen. Wenn Ihr Reiseanbieter die Stornierung als lukrative Einnahmequelle nutzt, können Sie diese Forderungen anfechten und einen großen Teil Ihres Geldes retten.</p>
+
+  <!-- DAS IST DER MAGISCHE BEREICH FÜR DIE INTERNE VERLINKUNG -->
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Widerspruch / Storno-Anfechtung generieren</h2>
+    <p>Wählen Sie Ihren Reiseveranstalter aus, um ein rechtssicheres Schreiben zur Anfechtung überzogener Stornogebühren zu erstellen (100% kostenlos):</p>
+    
+    <select id="stornoSelect">
+      <option value="">-- Bitte Reiseveranstalter wählen --</option>
+      <!-- Das Skript fügt hier die Anbieter als Options ein -->
+      {{STORNO_OPTIONS}}
+      <!-- Fallback für Anbieter, die nicht in der Liste sind -->
+      <option value="reisestorno-gebuehren-allgemein.html">Mein Veranstalter ist nicht dabei (Allgemeines Formular)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Zum Formular für diesen Veranstalter</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Reiseveranstalter & Portale im Überblick</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{STORNO_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Checkliste: Richtig stornieren und Kosten senken</h2>
+  <p>Gehen Sie bei einer unausweichlichen Reiseabsage strategisch vor, um den finanziellen Schaden so gering wie möglich zu halten:</p>
+  
+  <div class="checklist-box" id="checklistToPrint">
+  <!-- Optional: Eine versteckte oder sichtbare Überschrift, die nur im PDF gut aussieht -->
+  <h3 style="margin-top:0; color:#1565c0;">Checkliste</h3>
+
+    <ul>
+      <li><strong>AGB prüfen:</strong> Schauen Sie in den Reiseunterlagen nach der Storno-Staffelung (wie viel % werden zu welchem Zeitpunkt fällig?).</li>
+      <li><strong>Frühzeitig stornieren:</strong> Warten Sie nicht! Jeder Tag zählt. Je früher Sie absagen, desto niedriger ist in der Regel die vertragliche Stornostufe.</li>
+      <li><strong>Ersatzperson suchen:</strong> Gemäß § 651e BGB können Sie bei Pauschalreisen den Vertrag auf eine andere Person übertragen. Suchen Sie in Ihrem Umfeld nach jemandem, der die Reise übernehmen möchte.</li>
+      <li><strong>Nachweis verlangen:</strong> Fordern Sie den Veranstalter schriftlich auf, den konkreten Schaden zu beziffern, anstatt eine überzogene Pauschale hinzunehmen. Oft können Plätze anderweitig weiterverkauft werden.</li>
+      <li><strong>Reiseversicherungen checken:</strong> Prüfen Sie, ob Sie bei Buchung (oder über Ihre Kreditkarte) eine Reiserücktrittsversicherung abgeschlossen haben und ob ein Versicherungsfall vorliegt.</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('checkliste-zoll.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+  Checkliste als PDF generieren & speichern
+</button>
+
+  <h2 style="margin-top: 40px;">Fallbeispiele: Wenn der Veranstalter zu viel verlangt</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Beispiel 1: Stornierung 5 Monate vor Abflug</h3>
+    <p>Familie Meier bucht eine teure Kreuzfahrt, muss diese aber 5 Monate vor Ablegen stornieren. Der Veranstalter verlangt laut seinen AGB pauschal 40 % des Reisepreises als Entschädigung.<br>
+    <strong>Ergebnis:</strong> Eine derart hohe Pauschale so weit im Voraus ist juristisch oft nicht haltbar, da die Kabine problemlos weiterverkauft werden kann. Die Familie widerspricht und verlangt die konkrete Schadensberechnung. Der Veranstalter lenkt ein und senkt die Gebühr auf eine Bearbeitungspauschale von 10 %.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Beispiel 2: Der Trick mit der Ersatzperson</h3>
+    <p>Herr Bauer bricht sich kurz vor seinem Mallorca-Urlaub das Bein. Sein Bruder springt ein. Der Veranstalter sagt, das sei eine komplette Stornierung (80 % Gebühr) plus eine teure Neubuchung zum aktuellen (höheren) Tagespreis.<br>
+    <strong>Ergebnis:</strong> Das ist rechtswidrig! Bei einer Pauschalreise darf der Bruder den Vertrag übernehmen. Der Veranstalter darf laut Gesetz nur die tatsächlichen Mehrkosten (z.B. für die Umschreibung des Flugtickets) berechnen. Mit unserem Musterbrief setzt Herr Bauer die Umbuchung für lediglich 50 € durch.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">FAQ: Ihre Rechte bei Reisestornierungen</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">Wie hoch dürfen Stornogebühren maximal sein?</div>
+    <div class="faq-answer">Die Höhe der Stornogebühren richtet sich meist nach den AGB des Veranstalters und staffelt sich nach der Nähe zum Abreisedatum. Gesetzlich gilt jedoch: Die Gebühren müssen angemessen sein. Der Veranstalter darf nur den Preis abzüglich dessen verlangen, was er durch die Stornierung an Aufwendungen spart oder durch eine anderweitige Vergabe (z.B. an neue Kunden) einnimmt. Pauschale Forderungen von 80 % oder 90 % weit vor Reiseantritt sind oft unzulässig.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Was passiert, wenn ich eine Ersatzperson stelle?</div>
+    <div class="faq-answer">Bei einer Pauschalreise haben Sie gemäß § 651e BGB das Recht, bis zu sieben Tage vor Reisebeginn eine Ersatzperson zu benennen, die in den Vertrag eintritt. Der Reiseveranstalter darf in diesem Fall keine horrenden Stornogebühren verlangen, sondern lediglich die tatsächlich entstandenen Mehrkosten für die Umbuchung (meist eine kleine Bearbeitungsgebühr zwischen 30 € und 50 €).</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Wann kann ich eine Reise völlig kostenlos stornieren?</div>
+    <div class="faq-answer">Ein kostenfreier Rücktritt ist möglich, wenn am Urlaubsort oder in dessen unmittelbarer Nähe "unvermeidbare, außergewöhnliche Umstände" auftreten, die die Durchführung der Reise erheblich beeinträchtigen. Typische Beispiele sind der Ausbruch eines Krieges, schwere Naturkatastrophen oder gefährliche Pandemien, für die offizielle Reisewarnungen des Auswärtigen Amtes vorliegen.</div>
+  </div>
+  
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">Muss ich die Stornogebühren zahlen, wenn ich eine Reiserücktrittsversicherung habe?</div>
+    <div class="faq-answer">Wenn Sie aus einem versicherten Grund (z.B. unerwartete schwere Krankheit, Jobverlust) stornieren, übernimmt die Reiserücktrittsversicherung in der Regel die Stornokosten abzüglich eines etwaigen Selbstbehalts. Achtung: Viele Versicherungen prüfen jedoch selbst, ob die vom Veranstalter verlangte Gebühr rechtmäßig ist, und weigern sich, überzogene Pauschalen zu zahlen. Auch hier lohnt sich oft ein Widerspruch beim Veranstalter, bei dem Ihnen unsere Schreiben helfen.</div>
+  </div>
+
+</div>
+<div class="trust-section">
+    <h3>Expertise im Reiserecht & Fahrgastrechten</h3>
+    <p class="trust-text">
+        Unsere Ratgeber und Generatoren basieren auf der strikten Auswertung aktueller EU-Verordnungen (wie EG 261/2004), BGH-Urteilen und dem nationalen Reiserecht. 
+        Sie werden von Marc (Projektleitung) & Team entwickelt, um Reisenden eine rechtssichere Durchsetzung gegenüber Airlines und Reiseveranstaltern zu ermöglichen.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Wichtiger Hinweis: Unsere Tools bieten Hilfe zur Selbsthilfe bei Flugverspätung, Hotelmängeln oder Zugausfällen. Sie ersetzen keine individuelle Rechtsberatung durch einen Anwalt.
+        </span>
+    </p>
+
+    <!-- Umlaut in URL entfernt! -->
+    <a href="ueber-uns.html" class="trust-link">
+        Details zur rechtlichen Methodik & Redaktion erfahren →
+    </a>
+
+    <div class="lotse-card">
+        <p>
+            <strong>Problem mit dem Flug, der Bahn oder dem Hotel?</strong><br>
+            Fix-my-Trip prüft in wenigen Schritten Ihren Anspruch auf Entschädigung, Ticket-Erstattung oder Mietminderung.
+        </p>
+    </div>
+
+    <p class="feedback-note">
+
+      
+        💡 <strong>Reiserecht ändert sich ständig.</strong> Haben Sie eine neue Klausel entdeckt? <a href="mailto:support@fix-my-trip.com" style="color: #777; text-decoration: underline;">Geben Sie uns Feedback</a>, damit wir die Generatoren aktuell halten können.
+    </p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Über uns</a> | 
+        <a href="index.html">Startseite</a> | 
+        <a href="impressum.html">Impressum</a> | 
+        <a href="datenschutz.html">Datenschutz</a>
+    </nav>
+</footer>
+
+<script>
+// Leitet den Nutzer auf das entsprechende Generator-Formular weiter
+function routeToGenerator() {
+    const selectElement = document.getElementById('stornoSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Bitte wählen Sie zuerst einen Veranstalter aus der Liste aus.");
+    }
+}
+
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // 15mm Rand rundherum
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, // Hohe Auflösung
+            scrollY: 0, // WICHTIG: Fixt das Problem mit der leeren Seite!
+            windowWidth: document.documentElement.offsetWidth // Stellt sicher, dass die Breite stimmt
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    // PDF generieren
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

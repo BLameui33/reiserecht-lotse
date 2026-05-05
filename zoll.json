@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "fake-markenkleidung-plagiate",
+    "artikel": "Fake-Markenkleidung / Plagiate",
+    "problem": "Der Zoll hat gefälschte Markenartikel (T-Shirts, Taschen, Schuhe) aus dem Urlaub beschlagnahmt."
+  },
+  {
+    "slug": "gefaelschte-uhren-rolex",
+    "artikel": "Gefälschte Luxusuhren (z.B. Fake Rolex)",
+    "problem": "Der Zoll hat eine oder mehrere gefälschte Uhren im Reisegepäck gefunden und einbehalten."
+  },
+  {
+    "slug": "zigaretten-tabak-freimenge",
+    "artikel": "Zigaretten & Tabak (Freimenge überschritten)",
+    "problem": "Sie hatten mehr als die erlaubten 200 Zigaretten dabei und sollen nun hohe Steuern nachzahlen oder haben eine Strafe erhalten."
+  },
+  {
+    "slug": "elektronik-smartphone-kamera",
+    "artikel": "Elektronik (Smartphone / Kamera)",
+    "problem": "Der Zoll wirft Ihnen vor, teure Elektronik im Ausland gekauft und nicht angemeldet zu haben (Überschreitung der 430 € Freigrenze)."
+  },
+  {
+    "slug": "goldschmuck-schmuck-freigrenze",
+    "artikel": "Goldschmuck & Juwelen",
+    "problem": "Sie haben teuren Schmuck (z.B. aus der Türkei oder Dubai) über der 430 € Freigrenze eingeführt und sind fälschlicherweise durch den grünen Ausgang gegangen."
+  },
+  {
+    "slug": "bargeld-ueber-10000-euro",
+    "artikel": "Bargeld (über 10.000 €)",
+    "problem": "Sie haben bei der Ein- oder Ausreise Barmittel im Wert von 10.000 Euro oder mehr mitgeführt und diese nicht vorab beim Zoll angemeldet."
+  },
+  {
+    "slug": "medikamente-potenzmittel",
+    "artikel": "Medikamente & Potenzmittel",
+    "problem": "Der Zoll hat rezeptpflichtige Medikamente oder Potenzmittel (z.B. Viagra, Kamagra) wegen Verstoßes gegen das Arzneimittelgesetz beschlagnahmt."
+  },
+  {
+    "slug": "lebensmittel-fleisch-milchprodukte",
+    "artikel": "Lebensmittel (Fleisch & Milchprodukte)",
+    "problem": "Wegen Seuchengefahr wurde die Einfuhr von tierischen Erzeugnissen (Wurst, Fleisch, Käse) aus Nicht-EU-Ländern gestoppt und die Ware vernichtet."
+  },
+  {
+    "slug": "alkohol-spirituosen-freimenge",
+    "artikel": "Alkohol & Spirituosen",
+    "problem": "Sie haben die Freimenge für harten Alkohol (meist 1 Liter) oder Wein/Bier überschritten und der Zoll fordert nun Abgaben oder verhängt ein Bußgeld."
+  },
+  {
+    "slug": "waffen-messer-pfefferspray",
+    "artikel": "Waffen, Messer & Pfefferspray",
+    "problem": "Ein im Urlaub gekauftes Messer, Pfefferspray oder eine Softair-Waffe fällt unter das Waffengesetz und wurde als illegale Einfuhr strafrechtlich erfasst."
+  },
+  {
+    "slug": "artenschutz-souvenirs-elfenbein-korallen",
+    "artikel": "Artengeschützte Souvenirs (Korallen, Elfenbein)",
+    "problem": "Beschlagnahmung von Urlaubssouvenirs (Korallen, Muscheln, Schlangenleder) wegen eines Verstoßes gegen das Washingtoner Artenschutzübereinkommen (CITES)."
+  },
+  {
+    "slug": "drogen-cbd-produkte",
+    "artikel": "Betäubungsmittel & CBD-Produkte",
+    "problem": "Der Zoll hat im Ausland (z.B. Holland oder Übersee) legal gekaufte Cannabis-Produkte, CBD-Öle oder andere Betäubungsmittel sichergestellt."
+  },
+  {
+    "slug": "fake-kosmetik-parfum",
+    "artikel": "Gefälschte Kosmetik & Parfum",
+    "problem": "Der Zoll hat nachgemachtes Markenparfum beschlagnahmt; hier droht neben der Markenrechtsverletzung oft auch die Vernichtung wegen gesundheitsschädlicher Inhaltsstoffe."
+  },
+  {
+    "slug": "antiquitaeten-kulturgueterschutz",
+    "artikel": "Antiquitäten & Kulturgüter",
+    "problem": "Ihnen wird vorgeworfen, historische Artefakte, Steine, Münzen oder Antiquitäten ohne Ausfuhrgenehmigung des Urlaubslandes eingeführt zu haben."
+  },
+  {
+    "slug": "pflanzen-samen-blumenzwiebeln",
+    "artikel": "Pflanzen & Saatgut",
+    "problem": "Sie haben lebende Pflanzen, Samen oder Blumenzwiebeln aus einem Nicht-EU-Land ohne das zwingend erforderliche Pflanzengesundheitszeugnis mitgebracht."
+  },
+  {
+    "slug": "nahrungsergaenzungsmittel-sportler",
+    "artikel": "Nahrungsergänzungsmittel (Sport & Fitness)",
+    "problem": "Importierte Supplements (z.B. aus den USA) wurden einbehalten, weil sie in der EU als illegale Arzneimittel gelten oder verbotene Substanzen enthalten."
+  },
+  {
+    "slug": "kfz-ersatzteile-tuning",
+    "artikel": "Autoteile & Tuning-Zubehör",
+    "problem": "Teure KFZ-Teile (oft online bestellt oder mitgebracht) überschreiten die Freigrenze oder wurden wegen fehlender EU-Zulassung (CE/E-Prüfzeichen) gestoppt."
+  },
+  {
+    "slug": "traditionelle-chinesische-medizin-tcm",
+    "artikel": "Heilmittel & Traditionelle Medizin (TCM)",
+    "problem": "Beschlagnahmung asiatischer Heilmittel, da diese tierische oder pflanzliche Bestandteile geschützter Arten enthalten (z.B. Bärengalle, bestimmte Orchideen)."
+  },
+  {
+    "slug": "hund-haustier-einfuhr",
+    "artikel": "Haustiere (Hunde & Katzen)",
+    "problem": "Fehlende Tollwut-Impfung, falsche Papiere oder unzulässige Rasse bei der Einfuhr eines Tieres (z.B. Straßenhund) – das Tier muss auf Ihre Kosten in Quarantäne."
+  },
+  {
+    "slug": "allgemein-urlaubsmitbringsel",
+    "artikel": "Urlaubsmitbringsel",
+    "problem": "Sie haben bei der Einreise den grünen Ausgang gewählt, obwohl Sie anmeldepflichtige Waren, Souvenirs oder Zahlungsmittel dabei hatten. Der Zoll fordert nun Steuern nach oder hat ein Straf- bzw. Bußgeldverfahren eingeleitet."
+  }
+]

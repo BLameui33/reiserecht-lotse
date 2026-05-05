@@ -1,0 +1,192 @@
+[
+  {
+    "slug": "tui",
+    "name": "TUI Deutschland GmbH",
+    "adresse": "Karl-Wiechert-Allee 23\n30625 Hannover\nDeutschland"
+  },
+  {
+    "slug": "alltours",
+    "name": "alltours flugreisen gmbh",
+    "adresse": "Dreischeibenhaus 1\n40211 Düsseldorf\nDeutschland"
+  },
+  {
+    "slug": "schauinsland",
+    "name": "schauinsland-reisen gmbh",
+    "adresse": "Stresemannstraße 80\n47051 Duisburg\nDeutschland"
+  },
+  {
+    "slug": "dertour",
+    "name": "DERTOUR Deutschland GmbH",
+    "adresse": "Emil-von-Behring-Straße 6\n60439 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "anex-tour",
+    "name": "ANEX Tour GmbH",
+    "adresse": "Gladbecker Straße 1-3\n40472 Düsseldorf\nDeutschland"
+  },
+  {
+    "slug": "vtours",
+    "name": "vtours GmbH",
+    "adresse": "Weißenburger Straße 30\n63739 Aschaffenburg\nDeutschland"
+  },
+  {
+    "slug": "berge-und-meer",
+    "name": "Berge & Meer Touristik GmbH",
+    "adresse": "Andréestraße 27\n56578 Rengsdorf\nDeutschland"
+  },
+  {
+    "slug": "lmx-touristik",
+    "name": "LMX Touristik GmbH",
+    "adresse": "Walter-Köhn-Straße 4d\n04229 Leipzig\nDeutschland"
+  },
+  {
+    "slug": "olimar",
+    "name": "OLIMAR Reisen Vertriebs GmbH",
+    "adresse": "Glockengasse 2\n50667 Köln\nDeutschland"
+  },
+  {
+    "slug": "aida",
+    "name": "AIDA Cruises - German Branch of Costa Crociere S.p.A.",
+    "adresse": "Am Strande 3d\n18055 Rostock\nDeutschland"
+  },
+  {
+    "slug": "tui-cruises",
+    "name": "TUI Cruises GmbH",
+    "adresse": "Heidenkampsweg 58\n20097 Hamburg\nDeutschland"
+  },
+  {
+    "slug": "phoenix-reisen",
+    "name": "Phoenix Reisen GmbH",
+    "adresse": "Pfälzer Straße 14\n53111 Bonn\nDeutschland"
+  },
+  {
+    "slug": "studiosus",
+    "name": "Studiosus Reisen München GmbH",
+    "adresse": "Riesstraße 25\n80992 München\nDeutschland"
+  },
+  {
+    "slug": "ameropa",
+    "name": "Ameropa-Reisen GmbH",
+    "adresse": "Hewlett-Packard-Straße 4\n61352 Bad Homburg\nDeutschland"
+  },
+  {
+    "slug": "gebeco",
+    "name": "Gebeco GmbH & Co. KG",
+    "adresse": "Holzkoppelweg 19\n24118 Kiel\nDeutschland"
+  },
+  {
+    "slug": "ferien-touristik",
+    "name": "FERIEN Touristik GmbH",
+    "adresse": "Schiessstraße 44a\n40549 Düsseldorf\nDeutschland"
+  },
+  {
+    "slug": "robinson-club",
+    "name": "Robinson Club GmbH",
+    "adresse": "Karl-Wiechert-Allee 4\n30625 Hannover\nDeutschland"
+  },
+  {
+    "slug": "aldiana",
+    "name": "Aldiana GmbH",
+    "adresse": "Emil-von-Behring-Straße 6\n60439 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "eti",
+    "name": "Express Travel International GmbH",
+    "adresse": "Bockenheimer Anlage 11\n60322 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "chamaeleon",
+    "name": "Chamäleon Reisen GmbH",
+    "adresse": "Pannwitzstraße 5\n13403 Berlin\nDeutschland"
+  },
+  {
+    "slug": "holidaycheck-reisen",
+    "name": "HolidayCheck Reisen GmbH",
+    "adresse": "Neumarkter Str. 61\n81673 München\nDeutschland"
+  },
+  {
+    "slug": "trendtours",
+    "name": "Trendtours Touristik GmbH",
+    "adresse": "Düsseldorfer Str. 9\n65760 Eschborn\nDeutschland"
+  },
+  {
+    "slug": "coral-travel",
+    "name": "Coral Touristik GmbH",
+    "adresse": "Emanuel-Leutze-Str. 8\n40547 Düsseldorf\nDeutschland"
+  },
+  {
+    "slug": "rsd-reisen",
+    "name": "RSD Reise Service Deutschland GmbH",
+    "adresse": "Elsenheimerstraße 61\n80687 München\nDeutschland"
+  },
+  {
+    "slug": "clevertours",
+    "name": "Clevertours.com GmbH",
+    "adresse": "Emil-von-Behring-Str. 6\n60439 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "for-you-travel",
+    "name": "For You Travel GmbH",
+    "adresse": "Arena-Str. 1\n40474 Düsseldorf\nDeutschland"
+  },
+  {
+    "slug": "bentour",
+    "name": "Bentour Reisen GmbH",
+    "adresse": "Schubertstraße 22\n72649 Wolfschlugen\nDeutschland"
+  },
+  {
+    "slug": "bavaria-fernreisen",
+    "name": "Bavaria Fernreisen GmbH",
+    "adresse": "Parkstraße 1\n61118 Bad Vilbel\nDeutschland"
+  },
+  {
+    "slug": "its",
+    "name": "ITS (DERTOUR Deutschland GmbH)",
+    "adresse": "Emil-von-Behring-Straße 6\n60439 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "jahn-reisen",
+    "name": "Jahn Reisen (DERTOUR Deutschland GmbH)",
+    "adresse": "Emil-von-Behring-Straße 6\n60439 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "meiers-weltreisen",
+    "name": "Meiers Weltreisen (DERTOUR Deutschland GmbH)",
+    "adresse": "Emil-von-Behring-Straße 6\n60439 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "bucher-reisen",
+    "name": "Bucher Reisen (ANEX Tour GmbH)",
+    "adresse": "Gladbecker Straße 1-3\n40472 Düsseldorf\nDeutschland"
+  },
+  {
+    "slug": "oeger-tours",
+    "name": "ÖGER TOURS (ANEX Tour GmbH)",
+    "adresse": "Gladbecker Straße 1-3\n40472 Düsseldorf\nDeutschland"
+  },
+  {
+    "slug": "ltur",
+    "name": "ltur GmbH",
+    "adresse": "Karlsruher Str. 22\n76437 Rastatt\nDeutschland"
+  },
+  {
+    "slug": "eurotours",
+    "name": "Eurotours Deutschland GmbH",
+    "adresse": "Parkring 2 / EG\n85748 Garching\nDeutschland"
+  },
+  {
+    "slug": "hlx",
+    "name": "HLX Touristik GmbH",
+    "adresse": "Augustaplatz 8\n76530 Baden-Baden\nDeutschland"
+  },
+  {
+    "slug": "byebye",
+    "name": "BYEBYE GmbH",
+    "adresse": "Dreischeibenhaus 1\n40211 Düsseldorf\nDeutschland"
+  },
+  {
+    "slug": "anderer-veranstalter",
+    "name": "Ihren Reiseveranstalter",
+    "adresse": ""
+  }
+]

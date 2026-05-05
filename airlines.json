@@ -1,0 +1,528 @@
+[
+  {
+    "slug": "lufthansa",
+    "name": "Deutsche Lufthansa AG",
+    "adresse": "Lufthansa Aviation Center\nAirportring\n60546 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "ryanair",
+    "name": "Ryanair DAC",
+    "adresse": "Airside Business Park\nSwords, Co. Dublin\nIrland"
+  },
+  {
+    "slug": "eurowings",
+    "name": "Eurowings GmbH",
+    "adresse": "Waldstraße 249\n51147 Köln\nDeutschland"
+  },
+  {
+    "slug": "condor",
+    "name": "Condor Flugdienst GmbH",
+    "adresse": "An der Gehespitz 50\n63263 Neu-Isenburg\nDeutschland"
+  },
+  {
+    "slug": "tuifly",
+    "name": "TUIfly GmbH",
+    "adresse": "Flughafenstraße 10\n30855 Langenhagen\nDeutschland"
+  },
+  {
+    "slug": "aer-lingus",
+    "name": "Aer Lingus",
+    "adresse": "Head Office Building\nDublin Airport\nDublin\nIrland"
+  },
+  {
+    "slug": "easyjet",
+    "name": "easyJet Airline Company Limited",
+    "adresse": "Hangar 89\nLondon Luton Airport\nLuton LU2 9PF\nEngland"
+  },
+  {
+    "slug": "wizz-air",
+    "name": "Wizz Air Hungary Ltd.",
+    "adresse": "Laurus Offices, Kőér street 2/A\nBuilding B, H-1103\nBudapest\nUngarn"
+  },
+  {
+    "slug": "turkish-airlines",
+    "name": "Turkish Airlines",
+    "adresse": "Flughafen Atatürk\nYesilkoy, 34149\nIstanbul\nTürkei"
+  },
+  {
+    "slug": "sunexpress",
+    "name": "SunExpress Deutschland GmbH",
+    "adresse": "De-Saint-Exupéry-Straße 10\n60549 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "vueling",
+    "name": "Vueling Airlines S.A.",
+    "adresse": "Parque de Negocios Mas Blau II\nPlaza de l'Estany, núm 5\n08820 Barcelona\nSpanien"
+  },
+  {
+    "slug": "british-airways",
+    "name": "British Airways Plc (Niederlassung Deutschland)",
+    "adresse": "c/o Design Offices\nBarckhausstraße 1\n60325 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "klm",
+    "name": "KLM Royal Dutch Airlines",
+    "adresse": "Direktion für Deutschland\nZeil 5\n60313 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "air-france",
+    "name": "Air France",
+    "adresse": "De-Saint-Exupéry Straße 10\n60549 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "emirates",
+    "name": "Emirates",
+    "adresse": "Direktion für Deutschland\nGrüneburgweg 16\n60322 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "qatar-airways",
+    "name": "Qatar Airways",
+    "adresse": "Zeil 65\n60313 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "tap-air-portugal",
+    "name": "TAP Air Portugal",
+    "adresse": "Hanauer Landstraße 114\n60314 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "iberia",
+    "name": "IBERIA LAE SA Operadora Unipersonal",
+    "adresse": "C/ Martínez Villergas, 49\n28027 Madrid\nSpanien"
+  },
+  {
+    "slug": "finnair",
+    "name": "Finnair plc (Finnair Oyj)",
+    "adresse": "Bredeneyer Str. 2b\n45133 Essen\nDeutschland"
+  },
+  {
+    "slug": "sas",
+    "name": "Scandinavian Airlines System (SAS)",
+    "adresse": "SAS Customer Care\n195 87 Stockholm\nSchweden"
+  },
+  {
+    "slug": "delta-air-lines",
+    "name": "Delta Air Lines, Inc.",
+    "adresse": "Zweigniederlassung Deutschland\nFlughafen Frankfurt, Terminal 2D\n60549 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "united-airlines",
+    "name": "United Airlines, Inc.",
+    "adresse": "Zweigniederlassung in Deutschland\nLufthansa Aviation Center, Airportring\n60546 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "american-airlines",
+    "name": "American Airlines",
+    "adresse": "Lyoner Str. 9\n60528 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "singapore-airlines",
+    "name": "Singapore Airlines",
+    "adresse": "Gebäude 234, HBK 61, Frankfurt Airport Center 1\nHugo-Eckener-Ring\n60549 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "corendon-airlines",
+    "name": "Corendon Touristik GmbH",
+    "adresse": "Zentralgebäude Ost – raum 5.044, Terminal Ring 1\n40474 Düsseldorf\nDeutschland"
+  },
+  {
+    "slug": "pegasus-airlines",
+    "name": "Pegasus Airlines",
+    "adresse": "Schadowplatz 16\n40212 Düsseldorf\nDeutschland"
+  },
+  {
+    "slug": "swiss",
+    "name": "Swiss International Air Lines AG",
+    "adresse": "Malzgasse 15\n4052 Basel\nSchweiz"
+  },
+  {
+    "slug": "thai-airways",
+    "name": "THAI AIRWAYS International Public Company Ltd.",
+    "adresse": "Zeil 127\n60313 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "ana",
+    "name": "ANA Holdings Inc. (All Nippon Airways)",
+    "adresse": "Rossmarkt 21\n60311 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "cathay-pacific",
+    "name": "Cathay Pacific",
+    "adresse": "Lyoner Straße 15\n60528 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "austrian-airlines",
+    "name": "Austrian Airlines AG",
+    "adresse": "Feedback Management\nPostfach 33\n1300 Wien-Flughafen\nÖsterreich"
+  },
+  {
+    "slug": "air-canada",
+    "name": "Air Canada",
+    "adresse": "Hahnstraße 70\n60528 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "etihad-airways",
+    "name": "Etihad Airways",
+    "adresse": "OpernTurm\nBockenheimer Landstr. 2-4\n60306 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "latam-airlines",
+    "name": "LATAM Airlines",
+    "adresse": "Kaiserstr. 5\n60311 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "qantas-airways",
+    "name": "Qantas Airways Limited",
+    "adresse": "Zweigniederlassung Deutschland\nKaiserstraße 77\n60329 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "japan-airlines",
+    "name": "Japan Airlines Co., Ltd. (JAL)",
+    "adresse": "Roßmarkt 15\n60311 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "air-new-zealand",
+    "name": "Air New Zealand",
+    "adresse": "Speicherstraße 57\n60327 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "air-china",
+    "name": "Air China Limited",
+    "adresse": "Düsseldorfer Str. 4\n60329 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "korean-air",
+    "name": "Korean Air",
+    "adresse": "An der Welle 4\n60322 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "air-india",
+    "name": "Air India Limited",
+    "adresse": "Kaiserstraße 11\n60311 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "lot-polish-airlines",
+    "name": "LOT Polish Airlines",
+    "adresse": "Hugo-Eckener-Ring 1\n60549 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "brussels-airlines",
+    "name": "Brussels Airlines SA/NV",
+    "adresse": "100-102, Avenue des Saisons\nPostfach 30\n1050 Brüssel\nBelgien"
+  },
+  {
+    "slug": "ita-airways",
+    "name": "Italia Trasporto Aereo S.p.A. (Headquarter)",
+    "adresse": "Via XX Settembre, 97\n00187 Rom (RM)\nItalien"
+  },
+  {
+    "slug": "air-baltic",
+    "name": "Air Baltic",
+    "adresse": "Deutschland-Büro\nTorstraße 177\n10115 Berlin\nDeutschland"
+  },
+  {
+    "slug": "aegean-airlines",
+    "name": "Aegean Airlines S.A.",
+    "adresse": "Zentrale Deutschland\nAm Hauptbahnhof 10\n60329 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "air-europa",
+    "name": "Air Europa Líneas Aéreas S.A.U.",
+    "adresse": "Carretera Arenal-Llucmajor, KM 21.5\nCP: 07620 Llucmajor - Balearic Islands\nSpanien"
+  },
+  {
+    "slug": "smartwings",
+    "name": "Smartwings a.s.",
+    "adresse": "K letisti 1068/30\n160 08 Praha 6\nTschechische Republik"
+  },
+  {
+    "slug": "discover-airlines",
+    "name": "EW Discover GmbH",
+    "adresse": "Hugo-Eckener Ring 1\nFAC, Building 234, D7.01\n60549 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "edelweiss-air",
+    "name": "Edelweiss Air AG",
+    "adresse": "Customer Relations\nThe Circle 32, Postfach\n8058 Zürich-Flughafen\nSchweiz"
+  },
+  {
+    "slug": "oman-air",
+    "name": "Oman Air S.A.O.C.",
+    "adresse": "Zweigniederlassung Deutschland\nHahnstr. 70\n60528 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "gulf-air",
+    "name": "Gulf Air",
+    "adresse": "Lyoner Str. 14\n60528 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "norwegian-air-shuttle",
+    "name": "Norwegian Air Shuttle ASA",
+    "adresse": "Flughafenstr. 1-3\n22335 Hamburg Fuhlsbüttel\nDeutschland"
+  },
+  {
+    "slug": "icelandair",
+    "name": "Icelandair",
+    "adresse": "Weissfrauenstraße 12-16\n60311 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "volotea",
+    "name": "Volotea S.L.",
+    "adresse": "Travessera de Gracia 56\n4. Stockwerk\n08006 Barcelona\nSpanien"
+  },
+  {
+    "slug": "air-transat",
+    "name": "Air Transat (Transat Tours Canada Inc.)",
+    "adresse": "Kundenservice, Place du Parc\n300 Léo Pariseau Street, Suite 200\nMontreal (Quebec) H2X 4C2\nKanada"
+  },
+  {
+    "slug": "saudia",
+    "name": "Saudi Arabian Airlines (Saudia)",
+    "adresse": "Friedensstr. 6\n60311 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "el-al",
+    "name": "EL AL Israel Airlines Ltd.",
+    "adresse": "Eschersheimer Landstr. 162\n60322 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "eva-air",
+    "name": "EVA Airways Corp.",
+    "adresse": "Terminalstraße Mitte 18\nMAC Süd, Ebene 04, Raum 548\n85356 München-Flughafen\nDeutschland"
+  },
+  {
+    "slug": "vietnam-airlines",
+    "name": "Vietnam Airlines",
+    "adresse": "Rossmarkt 5\n60311 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "jet2",
+    "name": "Jet2.com Limited",
+    "adresse": "Data Protection Department / Legal Services\nPO Box 284\nLeeds LS11 1GE\nVereinigtes Königreich"
+  },
+  {
+    "slug": "tui-airways-uk",
+    "name": "TUI UK Limited (TUI Airways)",
+    "adresse": "Wigmore House, Wigmore Lane\nLuton LU2 9TN\nVereinigtes Königreich"
+  },
+  {
+    "slug": "croatia-airlines",
+    "name": "Croatia Airlines d.d.",
+    "adresse": "Kaiserstrasse 7\n60311 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "air-serbia",
+    "name": "Air Serbia a.d.",
+    "adresse": "Služba za podršku gostima\nJurija Gagarina 12\n11070 Belgrad\nSerbien"
+  },
+  {
+    "slug": "tarom",
+    "name": "TAROM",
+    "adresse": "Customer Relations\nCalea Bucureştilor nr. 224 F, Otopeni\nJudeţul Ilfov\nRumänien"
+  },
+  {
+    "slug": "south-african-airways",
+    "name": "South African Airways",
+    "adresse": "Administration office\nDarmstädter Landstr. 125\n60598 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "ethiopian-airlines",
+    "name": "Ethiopian Airlines S.C.",
+    "adresse": "Kaiserstr. 77\n60329 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "tunisair",
+    "name": "Tunisair",
+    "adresse": "Kaiserstraße 44\n60329 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "royal-air-maroc",
+    "name": "Royal Air Maroc",
+    "adresse": "Roßmarkt 5\n60311 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "egyptair",
+    "name": "EgyptAir",
+    "adresse": "Am Hauptbahnhof 12 D\n60329 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "kuwait-airways",
+    "name": "Kuwait Airways",
+    "adresse": "Bethmannstraße 56\n60311 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "middle-east-airlines",
+    "name": "Middle East Airlines Air Liban",
+    "adresse": "Frankfurt Airport-Center 1\n60549 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "air-malta",
+    "name": "Air Malta Plc.",
+    "adresse": "Direktion für Deutschland\nMainzer Landstraße 158\n60327 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "royal-jordanian",
+    "name": "Royal Jordanian",
+    "adresse": "Kaiserstr. 3\n60311 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "malaysia-airlines",
+    "name": "Malaysia Airlines",
+    "adresse": "Wilhelm-Leuschner-Str. 78\n60329 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "china-southern-airlines",
+    "name": "China Southern Airlines",
+    "adresse": "Frankfurt Airport Cargo City Süd\nGebäude 533\n60549 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "garuda-indonesia",
+    "name": "Garuda Indonesia",
+    "adresse": "Große Bockenheimer Straße 15\n60313 Frankfurt am Main\nDeutschland"
+  },
+  
+  
+  
+  {
+    "slug": "air-astana",
+    "name": "Air Astana JSC",
+    "adresse": "c/o Aviareps AG\nKaiserstraße 77\n60329 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "rwandair",
+    "name": "RwandAir Ltd.",
+    "adresse": "c/o Friends Touristik Marketing GmbH & Co. KG\nHochstraße 17\n60313 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "kenya-airways",
+    "name": "Kenya Airways",
+    "adresse": "c/o APG Germany\nLeonhardstrasse 22\n61169 Friedberg\nDeutschland"
+  },
+  {
+    "slug": "srilankan-airlines",
+    "name": "SriLankan Airlines",
+    "adresse": "c/o Aviareps AG\nKaiserstraße 77\n60329 Frankfurt am Main\nDeutschland"
+  },
+   {
+    "slug": "luxair",
+    "name": "Luxair S.A.",
+    "adresse": "25, rue Gabriel Lippmann\nL-5365 Munsbach\nLuxemburg"
+  },
+  {
+    "slug": "air-dolomiti",
+    "name": "Air Dolomiti S.p.A.",
+    "adresse": "Maximiliansplatz 12a\n80333 München\nDeutschland"
+  },
+
+  {
+    "slug": "helvetic-airways",
+    "name": "Helvetic Airways AG",
+    "adresse": "Steinackerstrasse 56\nCH-8302 Kloten\nSchweiz"
+  },
+  
+  {
+    "slug": "wideroe",
+    "name": "Widerøe's Flyveselskap AS",
+    "adresse": "Customer Relations\nLangstranda 6, Postbox 247\n8001 Bodø\nNorwegen"
+  },
+  {
+    "slug": "neos-air",
+    "name": "Neos S.p.A.",
+    "adresse": "Via Della Chiesa 68\n21019 Somma Lombardo (Varese)\nItalien"
+  },
+  
+  {
+    "slug": "binter-canarias",
+    "name": "Binter Canarias S.A.",
+    "adresse": "Aeropuerto de Gran Canaria\nC/ La Paleta 6\n35230 Las Palmas\nSpanien"
+  },
+  
+  {
+    "slug": "transavia",
+    "name": "Transavia France S.A.S.",
+    "adresse": "Coeur d’Orly – Bâtiment Belaïa\n7 avenue de l’Union\n94310 Orly\nFrankreich"
+  },
+  {
+    "slug": "play-airlines",
+    "name": "PLAY airlines",
+    "adresse": "Suðurlandsbraut 14\n108 Reykjavik\nIsland"
+  },
+  {
+    "slug": "air-cairo",
+    "name": "Air Cairo",
+    "adresse": "Smart Village, Building B211\nKilo 28 Cairo Alexandria Desert Road\nGiza\nÄgypten"
+  },
+  {
+    "slug": "arkia",
+    "name": "Arkia Israeli Airlines Ltd.",
+    "adresse": "P.O. Box 39301\nTel Aviv 61392\nIsrael"
+  },
+  {
+    "slug": "georgian-airways",
+    "name": "Georgian Airways",
+    "adresse": "Mittelgasse 2\n55130 Mainz\nDeutschland"
+  },
+  {
+    "slug": "air-arabia",
+    "name": "Air Arabia PJSC",
+    "adresse": "Air Arabia Building\nSharjah International Airport\nP.O. Box 132\nVereinigte Arabische Emirate"
+  },
+  {
+    "slug": "flyone",
+    "name": "FLYONE",
+    "adresse": "bd. Dacia 80/3\nMD-2026 Chișinău\nMoldau"
+  },
+  {
+    "slug": "nouvelair",
+    "name": "Nouvelair Tunisie S.A.",
+    "adresse": "Zone Touristique Dkhila BP 66\n5065 Monastir\nTunesien"
+  },
+  {
+    "slug": "sky-express",
+    "name": "SKY express S.A.",
+    "adresse": "Building 57, Athens International Airport\nSpata, Attica 19019\nGriechenland"
+  },
+
+  
+  {
+    "slug": "air-algerie",
+    "name": "Air Algérie",
+    "adresse": "Friedensstraße 5\n60311 Frankfurt am Main\nDeutschland"
+  },
+  
+  {
+    "slug": "air-seychelles",
+    "name": "Air Seychelles Ltd",
+    "adresse": "P.O. Box 386\nPointe Larue, Mahé\nSeychellen"
+  },
+  
+  {
+    "slug": "bulgaria-air",
+    "name": "Bulgaria Air",
+    "adresse": "1, Brussels Blvd\nSofia Airport\n1540 Sofia\nBulgarien"
+  },
+  
+  
+  
+  {
+    "slug": "air-mauritius",
+    "name": "Air Mauritius Ltd. (GSA Deutschland/AT)",
+    "adresse": "Opernring 1 / Top E-439\n1010 Wien\nÖsterreich"
+  },
+  {
+    "slug": "aeromexico",
+    "name": "Aerovías de México, S.A. de C.V.",
+    "adresse": "Paseo de la Reforma 445\nCuauhtémoc\n06500 Ciudad de México\nMexiko"
+  },
+  {
+    "slug": "avianca",
+    "name": "Avianca",
+    "adresse": "c/o Aviareps AG\nKaiserstraße 77\n60329 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "andere-airline",
+    "name": "Airlines",
+    "adresse": ""
+  }
+ 
+   
+]

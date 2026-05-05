@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Einreisebestimmungen weltweit: Visum, Reisepass & Regeln prüfen</title>
+  <meta name="description" content="Aktuelle Einreisebestimmungen und Visa-Regeln für alle Länder. Brauchen Sie ESTA, eTA oder einen Reisepass? Nutzen Sie unseren kostenlosen Checker.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & Internationalisierung -->
+  <link rel="canonical" href="https://www.fix-my-trip.com/de/einreise-info.html">
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/einreise-info.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/einreise-info.html">
+
+  <!-- Bibliothek für die PDF-Generierung aus HTML -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- FAQ Schema.org JSON-LD für Rich Snippets bei Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Wie lange muss mein Reisepass gültig sein?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Für die meisten Nicht-EU-Länder muss der Reisepass zum Zeitpunkt der Einreise noch mindestens sechs Monate gültig sein. Viele Länder verlangen zudem, dass der Pass noch mindestens zwei freie Seiten für Stempel und Visa enthält."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Was ist der Unterschied zwischen einem Visum und einer eTA / ESTA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ein klassisches Visum muss oft vorab bei einer Botschaft oder online (als e-Visum) mit Bearbeitungszeit beantragt werden. ESTA (USA) oder eTA (Kanada) sind hingegen elektronische Einreisegenehmigungen für Staatsbürger aus Ländern, die eigentlich von der Visumpflicht befreit sind (wie Deutschland). Sie müssen dennoch vor Abflug online eingeholt werden."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Brauche ich ein Visum, wenn ich an einem Flughafen nur umsteige (Transit)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Das hängt stark vom Transitland ab. In den USA benötigen Sie selbst für einen reinen Transit ohne Verlassen des Sicherheitsbereichs zwingend ein ESTA oder Transitvisum. In vielen asiatischen oder arabischen Ländern können Sie sich im internationalen Transitbereich hingegen ohne Visum aufhalten."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Was passiert, wenn ich ohne gültiges Visum oder die nötigen Dokumente am Flughafen stehe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Fluggesellschaften prüfen Ihre Dokumente meist schon beim Check-in oder Boarding. Fehlen Dokumente, wird Ihnen die Beförderung verweigert, da die Airline sonst hohe Strafen zahlen muss. Sie bleiben auf den Kosten für den verpassten Flug sitzen, da dies in Ihrer eigenen Verantwortung liegt."
+      }
+    }]
+  }
+  </script>
+
+</head>
+<body>
+
+<header class="site-header" style="padding: 20px 0; border-bottom: 2px solid #eee; margin-bottom: 30px;">
+  <a href="index.html" style="font-size: 1.5em; font-weight: bold; text-decoration: none;">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Einreisebestimmungen weltweit: Visum, Reisepass & Regeln</h1>
+  
+  <div class="seo-text">
+    <p>Die Vorfreude auf den Urlaub ist groß, doch die Planung einer Auslandsreise beginnt immer mit den richtigen Reisedokumenten. Ob für einen Strandurlaub in Asien, einen Städtetrip nach London oder eine Geschäftsreise in die USA: Es ist essenziell, sich frühzeitig darüber zu informieren, welche <strong>Einreisebestimmungen</strong> für Ihr Zielland gelten.</p>
+    <p>Benötigen Sie ein klassisches Touristenvisum, das vorab beantragt werden muss? Reicht eine elektronische Einreisegenehmigung (wie das ESTA für die USA oder eTA für Kanada)? Oder genügt innerhalb Europas sogar Ihr einfacher Personalausweis? Unser Ratgeber und interaktiver Checker liefert Ihnen die exakten Antworten für Ihr nächstes Reiseziel.</p>
+  </div>
+
+  <!-- INTERAKTIVER BEREICH & INTERNE VERLINKUNG FÜR CRAWLER -->
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Visum-Checker starten</h2>
+    <p>Wählen Sie Ihr Reiseziel aus, um die exakten Einreisebedingungen und Visum-Anforderungen zu prüfen (100% kostenlos):</p>
+    
+    <select id="countrySelect">
+      <option value="">-- Bitte Zielland wählen --</option>
+      <!-- Das Skript fügt hier die Länder als Optionen ein -->
+      <option value="einreisebestimmungen-usa.html">USA</option>
+<option value="einreisebestimmungen-aegypten.html">Ägypten</option>
+<option value="einreisebestimmungen-tuerkei.html">Türkei</option>
+<option value="einreisebestimmungen-uk.html">Großbritannien</option>
+<option value="einreisebestimmungen-thailand.html">Thailand</option>
+<option value="einreisebestimmungen-australien.html">Australien</option>
+<option value="einreisebestimmungen-kanada.html">Kanada</option>
+<option value="einreisebestimmungen-vae.html">Vereinigte Arabische Emirate (Dubai)</option>
+<option value="einreisebestimmungen-malediven.html">Malediven</option>
+<option value="einreisebestimmungen-indonesien.html">Indonesien</option>
+<option value="einreisebestimmungen-vietnam.html">Vietnam</option>
+<option value="einreisebestimmungen-sri-lanka.html">Sri Lanka</option>
+<option value="einreisebestimmungen-suedafrika.html">Südafrika</option>
+<option value="einreisebestimmungen-japan.html">Japan</option>
+<option value="einreisebestimmungen-dominikanische-republik.html">Dominikanische Republik</option>
+<option value="einreisebestimmungen-mexiko.html">Mexiko</option>
+<option value="einreisebestimmungen-kuba.html">Kuba</option>
+<option value="einreisebestimmungen-brasilien.html">Brasilien</option>
+<option value="einreisebestimmungen-costa-rica.html">Costa Rica</option>
+<option value="einreisebestimmungen-neuseeland.html">Neuseeland</option>
+<option value="einreisebestimmungen-philippinen.html">Philippinen</option>
+<option value="einreisebestimmungen-malaysia.html">Malaysia</option>
+<option value="einreisebestimmungen-singapur.html">Singapur</option>
+<option value="einreisebestimmungen-suedkorea.html">Südkorea</option>
+<option value="einreisebestimmungen-china.html">China</option>
+<option value="einreisebestimmungen-indien.html">Indien</option>
+<option value="einreisebestimmungen-kenia.html">Kenia</option>
+<option value="einreisebestimmungen-tansania.html">Tansania (Zanzibar)</option>
+<option value="einreisebestimmungen-seychellen.html">Seychellen</option>
+<option value="einreisebestimmungen-mauritius.html">Mauritius</option>
+<option value="einreisebestimmungen-marokko.html">Marokko</option>
+<option value="einreisebestimmungen-tunesien.html">Tunesien</option>
+<option value="einreisebestimmungen-oman.html">Oman</option>
+<option value="einreisebestimmungen-katar.html">Katar (Doha)</option>
+<option value="einreisebestimmungen-saudi-arabien.html">Saudi-Arabien</option>
+<option value="einreisebestimmungen-jordanien.html">Jordanien</option>
+<option value="einreisebestimmungen-jamaika.html">Jamaika</option>
+<option value="einreisebestimmungen-peru.html">Peru</option>
+<option value="einreisebestimmungen-kolumbien.html">Kolumbien</option>
+<option value="einreisebestimmungen-argentinien.html">Argentinien</option>
+<option value="einreisebestimmungen-chile.html">Chile</option>
+<option value="einreisebestimmungen-ecuador.html">Ecuador</option>
+<option value="einreisebestimmungen-bolivien.html">Bolivien</option>
+<option value="einreisebestimmungen-panama.html">Panama</option>
+<option value="einreisebestimmungen-guatemala.html">Guatemala</option>
+<option value="einreisebestimmungen-bahamas.html">Bahamas</option>
+<option value="einreisebestimmungen-barbados.html">Barbados</option>
+<option value="einreisebestimmungen-namibia.html">Namibia</option>
+<option value="einreisebestimmungen-botswana.html">Botswana</option>
+<option value="einreisebestimmungen-uganda.html">Uganda</option>
+<option value="einreisebestimmungen-madagaskar.html">Madagaskar</option>
+<option value="einreisebestimmungen-kap-verde.html">Kap Verde (Kapverden)</option>
+<option value="einreisebestimmungen-georgien.html">Georgien</option>
+<option value="einreisebestimmungen-kambodscha.html">Kambodscha</option>
+<option value="einreisebestimmungen-laos.html">Laos</option>
+<option value="einreisebestimmungen-taiwan.html">Taiwan</option>
+<option value="einreisebestimmungen-nepal.html">Nepal</option>
+<option value="einreisebestimmungen-usbekistan.html">Usbekistan</option>
+<option value="einreisebestimmungen-fidschi.html">Fidschi</option>
+<option value="einreisebestimmungen-armenien.html">Armenien</option>
+<option value="einreisebestimmungen-anderes-land-allgemein.html">Anderes Reiseland (Allgemeine Bestimmungen)</option>
+
+      <option value="einreisebestimmungen-allgemein.html">Mein Zielland ist nicht dabei (Allgemeine Infos)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Einreisebedingungen prüfen</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Beliebte Reiseländer von A bis Z</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      <a href="einreisebestimmungen-usa.html">USA</a>
+<a href="einreisebestimmungen-aegypten.html">Ägypten</a>
+<a href="einreisebestimmungen-tuerkei.html">Türkei</a>
+<a href="einreisebestimmungen-uk.html">Großbritannien</a>
+<a href="einreisebestimmungen-thailand.html">Thailand</a>
+<a href="einreisebestimmungen-australien.html">Australien</a>
+<a href="einreisebestimmungen-kanada.html">Kanada</a>
+<a href="einreisebestimmungen-vae.html">Vereinigte Arabische Emirate (Dubai)</a>
+<a href="einreisebestimmungen-malediven.html">Malediven</a>
+<a href="einreisebestimmungen-indonesien.html">Indonesien</a>
+<a href="einreisebestimmungen-vietnam.html">Vietnam</a>
+<a href="einreisebestimmungen-sri-lanka.html">Sri Lanka</a>
+<a href="einreisebestimmungen-suedafrika.html">Südafrika</a>
+<a href="einreisebestimmungen-japan.html">Japan</a>
+<a href="einreisebestimmungen-dominikanische-republik.html">Dominikanische Republik</a>
+<a href="einreisebestimmungen-mexiko.html">Mexiko</a>
+<a href="einreisebestimmungen-kuba.html">Kuba</a>
+<a href="einreisebestimmungen-brasilien.html">Brasilien</a>
+<a href="einreisebestimmungen-costa-rica.html">Costa Rica</a>
+<a href="einreisebestimmungen-neuseeland.html">Neuseeland</a>
+<a href="einreisebestimmungen-philippinen.html">Philippinen</a>
+<a href="einreisebestimmungen-malaysia.html">Malaysia</a>
+<a href="einreisebestimmungen-singapur.html">Singapur</a>
+<a href="einreisebestimmungen-suedkorea.html">Südkorea</a>
+<a href="einreisebestimmungen-china.html">China</a>
+<a href="einreisebestimmungen-indien.html">Indien</a>
+<a href="einreisebestimmungen-kenia.html">Kenia</a>
+<a href="einreisebestimmungen-tansania.html">Tansania (Zanzibar)</a>
+<a href="einreisebestimmungen-seychellen.html">Seychellen</a>
+<a href="einreisebestimmungen-mauritius.html">Mauritius</a>
+<a href="einreisebestimmungen-marokko.html">Marokko</a>
+<a href="einreisebestimmungen-tunesien.html">Tunesien</a>
+<a href="einreisebestimmungen-oman.html">Oman</a>
+<a href="einreisebestimmungen-katar.html">Katar (Doha)</a>
+<a href="einreisebestimmungen-saudi-arabien.html">Saudi-Arabien</a>
+<a href="einreisebestimmungen-jordanien.html">Jordanien</a>
+<a href="einreisebestimmungen-jamaika.html">Jamaika</a>
+<a href="einreisebestimmungen-peru.html">Peru</a>
+<a href="einreisebestimmungen-kolumbien.html">Kolumbien</a>
+<a href="einreisebestimmungen-argentinien.html">Argentinien</a>
+<a href="einreisebestimmungen-chile.html">Chile</a>
+<a href="einreisebestimmungen-ecuador.html">Ecuador</a>
+<a href="einreisebestimmungen-bolivien.html">Bolivien</a>
+<a href="einreisebestimmungen-panama.html">Panama</a>
+<a href="einreisebestimmungen-guatemala.html">Guatemala</a>
+<a href="einreisebestimmungen-bahamas.html">Bahamas</a>
+<a href="einreisebestimmungen-barbados.html">Barbados</a>
+<a href="einreisebestimmungen-namibia.html">Namibia</a>
+<a href="einreisebestimmungen-botswana.html">Botswana</a>
+<a href="einreisebestimmungen-uganda.html">Uganda</a>
+<a href="einreisebestimmungen-madagaskar.html">Madagaskar</a>
+<a href="einreisebestimmungen-kap-verde.html">Kap Verde (Kapverden)</a>
+<a href="einreisebestimmungen-georgien.html">Georgien</a>
+<a href="einreisebestimmungen-kambodscha.html">Kambodscha</a>
+<a href="einreisebestimmungen-laos.html">Laos</a>
+<a href="einreisebestimmungen-taiwan.html">Taiwan</a>
+<a href="einreisebestimmungen-nepal.html">Nepal</a>
+<a href="einreisebestimmungen-usbekistan.html">Usbekistan</a>
+<a href="einreisebestimmungen-fidschi.html">Fidschi</a>
+<a href="einreisebestimmungen-armenien.html">Armenien</a>
+<a href="einreisebestimmungen-anderes-land-allgemein.html">Anderes Reiseland (Allgemeine Bestimmungen)</a>
+
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Welche Reisedokumente sind Pflicht?</h2>
+  <div class="seo-text">
+    <p>Abhängig von Ihrer Staatsangehörigkeit und dem Zielland variieren die Anforderungen erheblich. Grundsätzlich gibt es drei Szenarien:</p>
+    <ul>
+      <li><strong>Personalausweis:</strong> Innerhalb des Schengen-Raums und in vielen europäischen Ländern völlig ausreichend.</li>
+      <li><strong>Reisepass (ohne Visum):</strong> Für viele Fernreiseziele (z.B. Thailand, Japan) dürfen deutsche Touristen für eine bestimmte Dauer visumfrei einreisen, benötigen aber einen Reisepass, der zum Zeitpunkt der Einreise oft noch mindestens 6 Monate gültig sein muss.</li>
+      <li><strong>Reisepass mit Visum / e-Visum:</strong> Für Länder wie China, Indien oder die USA müssen Sie zwingend vor Reiseantritt ein Visum oder eine elektronische Reisegenehmigung beantragen. Wer dies vergisst, darf nicht ins Flugzeug steigen.</li>
+    </ul>
+  </div>
+
+  <h2 style="margin-top: 40px;">Checkliste: Dokumente vor dem Abflug prüfen</h2>
+  <p>Mit dieser Liste stellen Sie sicher, dass Sie am Flughafen keine bösen Überraschungen erleben. Drucken Sie sie einfach als PDF aus!</p>
+  
+  <!-- Die ID "checklistToPrint" liegt exakt um den Kasten, der gedruckt werden soll -->
+  <div class="checklist-box" id="checklistToPrint">
+    <h3 style="margin-top:0; color:#1565c0;">Einreise-Checkliste für Fernreisen</h3>
+    <ul>
+      <li><strong>Gültigkeit des Reisepasses:</strong> Ist Ihr Pass am Tag der Einreise noch mindestens 6 Monate gültig und hat noch freie Seiten? (Achtung bei vorläufigen Reisepässen: Diese werden nicht überall akzeptiert!).</li>
+      <li><strong>Visum / ESTA / eTA:</strong> Haben Sie die elektronische Einreisegenehmigung genehmigt bekommen und ausgedruckt dabei?</li>
+      <li><strong>Rück- oder Weiterflugticket:</strong> Fast alle Länder außerhalb der EU verlangen bei Einreise den Nachweis, dass Sie das Land wieder verlassen werden.</li>
+      <li><strong>Hotelbuchung & Finanzen:</strong> Oft müssen Sie an der Grenze die erste Übernachtung oder ausreichende finanzielle Mittel nachweisen.</li>
+      <li><strong>Impfbestimmungen (Gelbfieber etc.):</strong> Haben Sie Ihren internationalen Impfausweis (gelbes Heft) dabei, falls das Land bestimmte Impfungen für die Einreise vorschreibt?</li>
+    </ul>
+  </div>
+  
+  <!-- Button generiert das PDF on-the-fly, ignoriert sich selbst im PDF (data-html2canvas-ignore) -->
+  <button onclick="generateChecklistPDF('checkliste-einreise.pdf')" class="btn-download" data-html2canvas-ignore="true">
+    Checkliste als PDF generieren & speichern
+  </button>
+
+  <h2 style="margin-top: 40px;">Fallbeispiele: Wenn die Einreise verweigert wird</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Beispiel 1: Der abgelaufene Reisepass nach Bali</h3>
+    <p>Markus freut sich auf seinen Urlaub in Indonesien. Am Check-in-Schalter in Frankfurt stellt die Mitarbeiterin fest, dass sein Reisepass nur noch 3 Monate gültig ist. Indonesien verlangt strikt 6 Monate.<br>
+    <strong>Ergebnis:</strong> Markus darf nicht an Bord. Da dies in seinem eigenen Verantwortungsbereich liegt, greift weder die Fluggastrechteverordnung noch eine normale Reiserücktrittsversicherung. Das Geld für den Flug ist futsch.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Beispiel 2: Transit in den USA unterschätzt</h3>
+    <p>Familie Weber fliegt von München über Miami (USA) nach Costa Rica. Da sie in Miami den Flughafen nicht verlassen, haben sie kein ESTA für die USA beantragt.<br>
+    <strong>Ergebnis:</strong> In den USA gibt es keinen klassischen "internationalen Transitbereich". Jeder Passagier reist offiziell ein und direkt wieder aus. Ohne ESTA verweigert die Airline in München das Boarding. Der Anschlussflug nach Costa Rica verfällt.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">FAQ: Häufige Fragen zu Visa & Einreise</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">Wie lange muss mein Reisepass gültig sein?</div>
+    <div class="faq-answer">Für die meisten Nicht-EU-Länder muss der Reisepass zum Zeitpunkt der Einreise noch mindestens sechs Monate gültig sein. Viele Länder verlangen zudem, dass der Pass noch mindestens zwei freie Seiten für Stempel und Visa enthält. Innerhalb der EU reicht meist ein gültiger Personalausweis aus.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Was ist der Unterschied zwischen einem Visum und einer eTA / ESTA?</div>
+    <div class="faq-answer">Ein klassisches Visum muss oft vorab bei einer Botschaft oder online (als e-Visum) mit entsprechender Bearbeitungszeit beantragt werden. ESTA (USA) oder eTA (Kanada) sind hingegen elektronische Einreisegenehmigungen für Staatsbürger aus Ländern, die eigentlich von der Visumpflicht befreit sind (wie Deutschland). Sie müssen dennoch zwingend vor Abflug online eingeholt werden.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Brauche ich ein Visum, wenn ich an einem Flughafen nur umsteige (Transit)?</div>
+    <div class="faq-answer">Das hängt stark vom jeweiligen Transitland ab. In den USA benötigen Sie selbst für einen reinen Transit ohne Verlassen des Sicherheitsbereichs zwingend ein ESTA oder Transitvisum. In vielen asiatischen oder arabischen Ländern können Sie sich im internationalen Transitbereich hingegen ohne Visum aufhalten.</div>
+  </div>
+  
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">Was passiert, wenn ich ohne gültiges Visum oder die nötigen Dokumente am Flughafen stehe?</div>
+    <div class="faq-answer">Die Fluggesellschaften prüfen Ihre Dokumente meist schon beim Check-in oder spätestens beim Boarding. Fehlen Dokumente, wird Ihnen die Beförderung konsequent verweigert, da die Airline sonst hohe Strafen am Zielort zahlen muss und für Ihren Rücktransport aufkommen müsste. Sie bleiben auf den Kosten für den verpassten Flug komplett sitzen.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise im Reiserecht & Fahrgastrechten</h3>
+    <p class="trust-text">
+        Unsere Ratgeber und Generatoren basieren auf der strikten Auswertung aktueller EU-Verordnungen (wie EG 261/2004), BGH-Urteilen und dem nationalen Reiserecht. 
+        Sie werden von Jan (Projektleitung) & Team entwickelt, um Reisenden eine rechtssichere Durchsetzung gegenüber Airlines und Reiseveranstaltern zu ermöglichen.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Wichtiger Hinweis: Unsere Tools bieten Hilfe zur Selbsthilfe bei Flugverspätung, Hotelmängeln oder Zugausfällen. Sie ersetzen keine individuelle Rechtsberatung durch einen Anwalt.
+        </span>
+    </p>
+
+    <!-- Umlaut in URL entfernt! -->
+    <a href="ueber-uns.html" class="trust-link">
+        Details zur rechtlichen Methodik & Redaktion erfahren →
+    </a>
+
+    <div class="lotse-card">
+        <p>
+            <strong>Problem mit dem Flug, der Bahn oder dem Hotel?</strong><br>
+            Fix-my-Trip prüft in wenigen Schritten Ihren Anspruch auf Entschädigung, Ticket-Erstattung oder Mietminderung.
+        </p>
+    </div>
+
+    <p class="feedback-note">
+
+      
+        💡 <strong>Reiserecht ändert sich ständig.</strong> Haben Sie eine neue Klausel entdeckt? <a href="mailto:support@fix-my-trip.com" style="color: #777; text-decoration: underline;">Geben Sie uns Feedback</a>, damit wir die Generatoren aktuell halten können.
+    </p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Über uns</a> | 
+        <a href="index.html">Startseite</a> | 
+        <a href="impressum.html">Impressum</a> | 
+        <a href="datenschutz.html">Datenschutz</a>
+    </nav>
+</footer>
+
+<script>
+// Leitet den Nutzer über das Dropdown weiter (UX)
+function routeToGenerator() {
+    const selectElement = document.getElementById('countrySelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Bitte wählen Sie zuerst ein Zielland aus der Liste aus.");
+    }
+}
+
+// Generiert das PDF aus der HTML-Checkliste (Sicher gegen leere Seiten Bug!)
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // 15mm Rand
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, // Hohe Auflösung für scharfe Texte
+            scrollY: 0, // Zwingt den Canvas, oben zu starten (fixt leere Seiten bei Scroll!)
+            windowWidth: document.documentElement.offsetWidth
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    // Erzeugt das PDF und startet den Download
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

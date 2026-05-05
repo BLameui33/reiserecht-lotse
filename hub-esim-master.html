@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>eSIM & Roaming: Datenvolumen im Ausland prüfen & Tarife vergleichen</title>
+  <meta name="description" content="Ratgeber zur eSIM im Ausland: Vermeiden Sie teure Roaming-Kosten. Nutzen Sie unsere Tools zur Prüfung der eSIM-Kompatibilität und des Datenvolumens.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & Internationalisierung -->
+  <link rel="canonical" href="https://www.fix-my-trip.com/de/esim-roaming-info.html">
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/esim-roaming-info.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/esim-roaming-info.html">
+
+  <!-- Bibliothek für die PDF-Generierung aus HTML -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- FAQ Schema.org JSON-LD für Rich Snippets bei Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Was ist eine eSIM und wie unterscheidet sie sich von einer normalen SIM?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Eine eSIM (embedded SIM) ist ein fest im Smartphone verbauter Chip, der digital mit Mobilfunkprofilen bespielt werden kann. Sie benötigen keine physische Plastikkarte mehr und können Tarife, insbesondere für das Ausland, sekundenschnell per QR-Code oder App aktivieren."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Kann ich meine normale SIM-Karte und eine eSIM gleichzeitig nutzen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, die meisten modernen Smartphones unterstützen Dual-SIM. Sie können Ihre physische SIM-Karte für Anrufe und SMS unter Ihrer gewohnten Nummer aktiv lassen und die eSIM gezielt nur für mobiles Datenvolumen im Reiseland einsetzen."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Unterstützt mein Smartphone eSIM?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die meisten neueren Smartphones (z.B. iPhone ab XS, Samsung Galaxy S20 aufwärts, Google Pixel ab Generation 3) sind eSIM-fähig. Nutzen Sie unseren kostenlosen eSIM-Checker auf dieser Seite, um die Kompatibilität Ihres genauen Modells zu prüfen."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Wie vermeide ich Roaming-Gebühren außerhalb der EU?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Schalten Sie vor der Einreise in ein Nicht-EU-Land das Datenroaming für Ihre Haupt-SIM aus. Kaufen und installieren Sie vorab eine lokale oder regionale eSIM. Sobald Sie ankommen, aktivieren Sie das Datenroaming ausschließlich für das eSIM-Profil."
+      }
+    }]
+  }
+  </script>
+
+  
+</head>
+<body>
+
+<header class="site-header" style="padding: 20px 0; border-bottom: 2px solid #eee; margin-bottom: 30px;">
+  <a href="index.html" style="font-size: 1.5em; font-weight: bold; text-decoration: none;">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>eSIM & Roaming: So surfen Sie weltweit ohne Kostenfalle</h1>
+  
+  <p>Wer außerhalb der Europäischen Union reist, kennt das Problem: Das Inklusiv-Datenvolumen des heimischen Tarifs gilt nicht mehr und die Roaming-Gebühren der Mobilfunkanbieter schnellen in astronomische Höhen. Oft kosten wenige Megabyte bereits mehrere Euro. Die Lösung für dieses Problem ist die <strong>eSIM (embedded SIM)</strong>.</p>
+  
+  <p>Mit einer eSIM laden Sie sich einfach ein digitales Mobilfunkprofil für Ihr Reiseland herunter – ganz ohne lästigen Kartenwechsel am Flughafen. In unserem Ratgeber erfahren Sie, wie Sie Ihr Datenvolumen im Blick behalten, prüfen ob Ihr Smartphone kompatibel ist und den besten Tarif für Ihr nächstes Abenteuer finden.</p>
+
+  <!-- DAS IST DER MAGISCHE BEREICH FÜR DIE INTERNE VERLINKUNG -->
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">eSIM Tools & Checkers starten</h2>
+    <p>Wählen Sie aus, was Sie überprüfen möchten, um sicher und günstig im Ausland online zu sein (100% kostenlos):</p>
+    
+    <select id="toolSelect">
+      <option value="">-- Bitte Tool oder Anbieter wählen --</option>
+      <!-- Das Skript fügt hier die Optionen als Options ein -->
+      {{ESIM_OPTIONS}}
+      <!-- Fallback für allgemeine Anfragen -->
+      <option value="esim-kompatibilitaet-allgemein.html">Mein Anliegen ist nicht dabei (Allgemeiner eSIM-Check)</option>
+    </select>
+    
+    <button onclick="routeToTool()" class="btn-route">Jetzt kostenlos prüfen</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Beliebte eSIM-Anbieter & Roaming-Checks</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{ESIM_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Die ultimative eSIM & Roaming Checkliste</h2>
+  <p>Damit Sie bei Ankunft im Urlaubsland nicht plötzlich ohne Internet dastehen oder in eine Kostenfalle tappen, arbeiten Sie diese Punkte vor dem Abflug ab:</p>
+  
+  
+
+  <div class="checklist-box" id="checklistToPrint">
+  <!-- Optional: Eine versteckte oder sichtbare Überschrift, die nur im PDF gut aussieht -->
+  <h3 style="margin-top:0; color:#1565c0;">Checkliste</h3>
+
+    <ul>
+      <li><strong>Kompatibilität prüfen:</strong> Hat mein Smartphone einen eSIM-Chip? (Nutzen Sie unseren Checker oben).</li>
+      <li><strong>Geräte-Sperre checken:</strong> Ist das Handy frei für andere Netze (kein SIM-Lock)?</li>
+      <li><strong>Heimisches Datenroaming deaktivieren:</strong> Vor dem Abflug in den Einstellungen das Datenroaming der Haupt-SIM abschalten!</li>
+      <li><strong>eSIM im WLAN kaufen & installieren:</strong> Die eSIM am besten noch zu Hause oder im Hotel-WLAN per QR-Code einrichten.</li>
+      <li><strong>Datenleitung zuweisen:</strong> In den Smartphone-Einstellungen die neue eSIM als primäre Quelle für "Mobile Daten" festlegen.</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('checkliste-zoll.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+  Checkliste als PDF generieren & speichern
+</button>
+
+  <h2 style="margin-top: 40px;">Fallbeispiele: So viel Geld spart die eSIM</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Fallbeispiel 1: Die Geschäftsreise in die USA</h3>
+    <p>Herr Müller fliegt für 7 Tage nach New York. Sein deutscher Provider verlangt für ein "Travel Surf Paket" stolze 29,99 € für nur 3 GB Datenvolumen. Überschreitet er dieses, zahlt er 1,49 € pro MB. <br>
+    <strong>Die Lösung:</strong> Er nutzt vorab unseren eSIM-Vergleich und kauft eine USA-eSIM mit 10 GB Datenvolumen für nur 15 €. Er spart Geld, hat mehr als dreimal so viel Datenvolumen und ist direkt nach der Landung online.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Fallbeispiel 2: Backpacking durch Asien (Thailand, Vietnam, Japan)</h3>
+    <p>Sarah plant eine mehrwöchige Reise durch drei asiatische Länder. Früher hätte sie an jedem Flughafen eine lokale physische SIM-Karte kaufen, den Chip wechseln und wertvolle Zeit verlieren müssen. <br>
+    <strong>Die Lösung:</strong> Sie bucht eine regionale "Asien-eSIM", die alle drei Länder abdeckt. Die Netze wechseln beim Grenzübertritt automatisch, ihre deutsche Nummer bleibt für Notfall-SMS (z.B. Online-Banking TANs) aktiv.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">Häufig gestellte Fragen (FAQ) zur eSIM im Ausland</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">Was ist eine eSIM und wie unterscheidet sie sich von einer normalen SIM?</div>
+    <div class="faq-answer">Eine eSIM (embedded SIM) ist ein fest im Smartphone verbauter Chip, der digital mit Mobilfunkprofilen bespielt werden kann. Sie benötigen keine physische Plastikkarte mehr und können Tarife, insbesondere für das Ausland, sekundenschnell per QR-Code oder App aktivieren.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Kann ich meine normale SIM-Karte und eine eSIM gleichzeitig nutzen?</div>
+    <div class="faq-answer">Ja, die meisten modernen Smartphones unterstützen Dual-SIM. Sie können Ihre physische SIM-Karte für Anrufe und SMS unter Ihrer gewohnten Nummer aktiv lassen (Achtung vor Roaming-Gebühren bei Rufannahme!) und die eSIM gezielt nur für das mobile Datenvolumen im Reiseland einsetzen.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Unterstützt mein Smartphone eSIM?</div>
+    <div class="faq-answer">Die meisten neueren Smartphones, wie das iPhone ab der XS-Serie, Samsung Galaxy S20 aufwärts oder Google Pixel ab Generation 3, sind eSIM-fähig. Um zu 100% sicher zu gehen, nutzen Sie unseren kostenlosen eSIM-Checker im oberen Bereich dieser Seite.</div>
+  </div>
+  
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">Wie vermeide ich Roaming-Gebühren außerhalb der EU?</div>
+    <div class="faq-answer">Der wichtigste Schritt: Schalten Sie vor der Einreise in ein Nicht-EU-Land das Datenroaming für Ihre Haupt-SIM-Karte aus. Kaufen und installieren Sie vorab eine lokale oder regionale eSIM. Sobald Sie ankommen, aktivieren Sie das Datenroaming ausschließlich für das neu angelegte eSIM-Profil in Ihren Einstellungen.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise im Reiserecht & Fahrgastrechten</h3>
+    <p class="trust-text">
+        Unsere Ratgeber und Generatoren basieren auf der strikten Auswertung aktueller EU-Verordnungen (wie EG 261/2004), BGH-Urteilen und dem nationalen Reiserecht. 
+        Sie werden von Marc (Projektleitung) & Team entwickelt, um Reisenden eine rechtssichere Durchsetzung gegenüber Airlines und Reiseveranstaltern zu ermöglichen.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Wichtiger Hinweis: Unsere Tools bieten Hilfe zur Selbsthilfe bei Flugverspätung, Hotelmängeln oder Zugausfällen. Sie ersetzen keine individuelle Rechtsberatung durch einen Anwalt.
+        </span>
+    </p>
+
+    <!-- Umlaut in URL entfernt! -->
+    <a href="ueber-uns.html" class="trust-link">
+        Details zur rechtlichen Methodik & Redaktion erfahren →
+    </a>
+
+    <div class="lotse-card">
+        <p>
+            <strong>Problem mit dem Flug, der Bahn oder dem Hotel?</strong><br>
+            Fix-my-Trip prüft in wenigen Schritten Ihren Anspruch auf Entschädigung, Ticket-Erstattung oder Mietminderung.
+        </p>
+    </div>
+
+    <p class="feedback-note">
+
+      
+        💡 <strong>Reiserecht ändert sich ständig.</strong> Haben Sie eine neue Klausel entdeckt? <a href="mailto:support@fix-my-trip.com" style="color: #777; text-decoration: underline;">Geben Sie uns Feedback</a>, damit wir die Generatoren aktuell halten können.
+    </p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Über uns</a> | 
+        <a href="index.html">Startseite</a> | 
+        <a href="impressum.html">Impressum</a> | 
+        <a href="datenschutz.html">Datenschutz</a>
+    </nav>
+</footer>
+
+<script>
+// Leitet den Nutzer auf die entsprechende Tool- oder Checker-Seite weiter
+function routeToTool() {
+    const selectElement = document.getElementById('toolSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Bitte wählen Sie zuerst eine Option aus der Liste aus.");
+    }
+}
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // 15mm Rand rundherum
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, // Hohe Auflösung
+            scrollY: 0, // WICHTIG: Fixt das Problem mit der leeren Seite!
+            windowWidth: document.documentElement.offsetWidth // Stellt sicher, dass die Breite stimmt
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    // PDF generieren
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

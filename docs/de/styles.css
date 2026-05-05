@@ -1,0 +1,2379 @@
+/* ==========================================================================
+   Fix my Trip — PREMIUM DESIGN SYSTEM
+   Fahrgastrechte Bahn & ÖPNV
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   GOOGLE FONTS IMPORT
+   -------------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+
+
+/* --------------------------------------------------------------------------
+   1. CSS-VARIABLEN
+   -------------------------------------------------------------------------- */
+:root {
+  /* Kernfarben */
+  --primary:          #b71c1c;
+  --primary-dark:     #7f0000;
+  --primary-mid:      #c62828;
+  --primary-light:    #ef9a9a;
+  --primary-pale:     #fff5f5;
+  --primary-tint:     #fdecea;
+
+  --danger:           #c62828;
+  --danger-dark:      #8e0000;
+
+  --accent:           #ff6f60;    /* Warmer Korall-Akzent */
+  --gold:             #c9a84c;    /* Goldakzent für Premium-Elemente */
+
+  /* Neutrals */
+  --bg:               #faf9f8;
+  --box-bg:           #ffffff;
+  --surface:          #f7f4f3;
+  --surface-mid:      #f0ebe9;
+  --border:           #e8dedd;
+  --border-light:     #f0ebe9;
+  --border-strong:    #c9b8b7;
+
+  /* Typografie */
+  --text:             #2c1f1f;
+  --text-mid:         #4a3535;
+  --text-muted:       #8a7070;
+  --text-label:       #3d2b2b;
+  --text-light:       #b09898;
+
+  /* Header */
+  --header-bg:        #1a0808;
+  --header-border:    #3d1515;
+
+  /* Footer */
+  --footer-bg:        #130505;
+  --footer-text:      #c9a8a8;
+  --footer-border:    #2d1010;
+
+  /* Shadows */
+  --shadow-sm:        0 1px 4px rgba(100, 20, 20, 0.08);
+  --shadow-md:        0 4px 16px rgba(100, 20, 20, 0.10);
+  --shadow-lg:        0 8px 32px rgba(100, 20, 20, 0.14);
+  --shadow-inset:     inset 0 1px 3px rgba(0,0,0,0.08);
+
+  /* Spacing */
+  --radius-sm:        4px;
+  --radius-md:        8px;
+  --radius-lg:        12px;
+
+  /* Fonts */
+  --font-display:     'Playfair Display', Georgia, serif;
+  --font-body:        'Source Sans 3', 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+
+/* --------------------------------------------------------------------------
+   2. RESET & BASE
+   -------------------------------------------------------------------------- */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--text);
+  background-color: var(--bg);
+  background-image: radial-gradient(ellipse at 80% 0%, rgba(183,28,28,0.04) 0%, transparent 60%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  color: var(--text);
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+
+h1 { font-size: 2em; margin-bottom: 0.5em; }
+h2 { font-size: 1.55em; margin-bottom: 0.45em; }
+h3 { font-size: 1.2em; margin-bottom: 0.4em; }
+
+p { margin: 0 0 1em; }
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover { color: var(--primary-dark); }
+
+strong { font-weight: 700; color: var(--text); }
+
+
+/* --------------------------------------------------------------------------
+   3. SITE WRAPPER
+   -------------------------------------------------------------------------- */
+.site-wrapper {
+  flex: 1;
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+}
+
+
+/* --------------------------------------------------------------------------
+   4. HEADER
+   -------------------------------------------------------------------------- */
+.site-header {
+  background: var(--header-bg);
+  border-bottom: 1px solid var(--header-border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 20px rgba(183, 28, 28, 0.25);
+}
+
+.site-header__inner {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Wenn Header direkt als <header class="site-header"> ohne __inner verwendet wird */
+header.site-header {
+  display: block;
+  padding: 0;
+}
+
+header.site-header > a.site-logo,
+header.site-header > .site-logo {
+  margin-left: 20px;
+}
+
+/* Logo */
+.site-logo {
+  font-family: var(--font-display);
+  font-size: 1.45em;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  letter-spacing: -0.02em;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: opacity 0.2s;
+  line-height: 64px;
+}
+
+.site-logo:hover {
+  color: #ffffff;
+  opacity: 0.82;
+}
+
+/* Header Tagline / Subline */
+.site-header__tagline,
+header.site-header > span {
+  font-size: 0.8em !important;
+  font-weight: 300 !important;
+  color: #7a5050 !important;
+  letter-spacing: 0.05em !important;
+  text-transform: uppercase !important;
+  font-family: var(--font-body) !important;
+  line-height: 64px !important;
+  padding-right: 20px;
+}
+
+
+/* --------------------------------------------------------------------------
+   5. PAGE CONTAINER
+   -------------------------------------------------------------------------- */
+.page-container {
+  background: var(--box-bg);
+  padding: 40px 45px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-lg);
+  margin-top: 32px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Dekorative Farblinie oben */
+.page-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--primary-dark), var(--primary-mid), var(--accent));
+}
+
+
+/* --------------------------------------------------------------------------
+   6. USP-BAR
+   -------------------------------------------------------------------------- */
+.usp-bar {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 20px 0 28px;
+  background: var(--primary-pale);
+  padding: 14px 18px;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(183, 28, 28, 0.15);
+}
+
+.usp-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  font-size: 0.875em;
+  color: var(--primary-dark);
+  padding: 4px 12px;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 20px;
+  border: 1px solid rgba(183, 28, 28, 0.12);
+}
+
+.usp-item::before {
+  content: "✓";
+  font-size: 0.75em;
+  font-weight: 800;
+  color: var(--primary);
+}
+
+
+/* --------------------------------------------------------------------------
+   7. INFO-BOXEN
+   -------------------------------------------------------------------------- */
+.info-box {
+  padding: 16px 20px;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  margin: 20px 0;
+  font-size: 0.96em;
+}
+
+.info-box--primary,
+.info-box.blue,
+.info-box.red {
+  background: var(--primary-tint);
+  border-left: 4px solid var(--primary);
+  color: var(--primary-dark);
+}
+
+.info-box--warning,
+.info-box.warning {
+  background: #fffbf0;
+  border-left: 4px solid #c9a84c;
+  color: #7a5a00;
+}
+
+.info-box--danger,
+.info-box.danger {
+  background: #fcebeb;
+  border-left: 4px solid var(--danger);
+  color: #7f0000;
+}
+
+.info-box p:last-child { margin-bottom: 0; }
+
+
+/* --------------------------------------------------------------------------
+   8. FIELDSET & LEGEND
+   -------------------------------------------------------------------------- */
+fieldset {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 28px 28px 22px;
+  margin-bottom: 28px;
+  background: var(--surface);
+  position: relative;
+  transition: border-color 0.2s;
+}
+
+fieldset:focus-within {
+  border-color: var(--primary-light);
+}
+
+legend {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1em;
+  background: linear-gradient(135deg, var(--primary-dark), var(--primary-mid));
+  color: #fff;
+  padding: 7px 18px;
+  border-radius: var(--radius-sm);
+  letter-spacing: 0.01em;
+  box-shadow: 0 2px 8px rgba(183, 28, 28, 0.25);
+}
+
+
+/* --------------------------------------------------------------------------
+   9. LABELS & FORM-FELDER
+   -------------------------------------------------------------------------- */
+label {
+  display: block;
+  margin-top: 18px;
+  font-weight: 600;
+  font-size: 0.9em;
+  color: var(--text-label);
+  letter-spacing: 0.01em;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 11px 14px;
+  margin-top: 6px;
+  border: 1.5px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  box-sizing: border-box;
+  font-size: 0.97em;
+  font-family: var(--font-body);
+  background: #fff;
+  color: var(--text);
+  box-shadow: var(--shadow-inset);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input[type="text"]:hover,
+input[type="date"]:hover,
+input[type="number"]:hover,
+input[type="email"]:hover,
+input[type="tel"]:hover,
+select:hover,
+textarea:hover {
+  border-color: var(--primary-light);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(183, 28, 28, 0.12);
+  outline: none;
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+  line-height: 1.6;
+}
+
+select {
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='none' stroke='%23b71c1c' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' d='M1 1.5l5 5 5-5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  padding-right: 38px;
+}
+
+label.required::after {
+  content: " *";
+  color: var(--primary);
+  font-weight: 400;
+}
+
+
+/* --------------------------------------------------------------------------
+   10. CHECKBOX-GRUPPE
+   -------------------------------------------------------------------------- */
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 0.95em;
+  margin-top: 0;
+  background: #fff;
+  padding: 11px 14px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background 0.18s, border-color 0.18s;
+}
+
+.checkbox-group label:hover {
+  background: var(--primary-pale);
+  border-color: var(--primary-light);
+}
+
+.checkbox-group input[type="checkbox"] {
+  width: 17px;
+  height: 17px;
+  margin-right: 12px;
+  margin-top: 0;
+  flex-shrink: 0;
+  accent-color: var(--primary);
+}
+
+
+/* --------------------------------------------------------------------------
+   11. BUTTONS
+   -------------------------------------------------------------------------- */
+.button-primary {
+  background: linear-gradient(135deg, var(--primary-mid), var(--primary-dark));
+  color: #ffffff;
+  border: none;
+  padding: 17px 24px;
+  font-size: 1.1em;
+  font-family: var(--font-body);
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  width: 100%;
+  margin-top: 12px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(183, 28, 28, 0.35);
+  transition: transform 0.15s, box-shadow 0.15s, background 0.2s;
+}
+
+.button-primary::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(255,255,255,0.08) 0%, transparent 100%);
+  pointer-events: none;
+}
+
+.button-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(183, 28, 28, 0.42);
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+}
+
+.button-primary:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(183, 28, 28, 0.3);
+}
+
+.button-secondary {
+  background: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 10px 22px;
+  font-size: 0.95em;
+  font-family: var(--font-body);
+  font-weight: 600;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  letter-spacing: 0.01em;
+  transition: background 0.2s, color 0.2s;
+}
+
+.button-secondary:hover {
+  background: var(--primary);
+  color: #fff;
+}
+
+
+/* --------------------------------------------------------------------------
+   12. RECHNER-BANNER
+   -------------------------------------------------------------------------- */
+.calc-banner {
+  background: linear-gradient(135deg, var(--primary-dark) 0%, #560000 100%);
+  color: #ffffff;
+  padding: 24px 28px;
+  border-radius: var(--radius-md);
+  text-align: center;
+  margin: 28px 0;
+  font-family: var(--font-display);
+  font-size: 1.1em;
+  font-weight: 600;
+  box-shadow: 0 6px 24px rgba(100, 0, 0, 0.3), inset 0 1px 0 rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.06);
+  position: relative;
+  overflow: hidden;
+}
+
+.calc-banner::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(ellipse at center, rgba(255,255,255,0.04) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+#liveAmount {
+  display: block;
+  font-size: 2em;
+  font-weight: 700;
+  color: #ff9a9a;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin-top: 6px;
+  text-shadow: 0 0 30px rgba(255, 100, 100, 0.4);
+}
+
+
+/* --------------------------------------------------------------------------
+   13. SEO-CONTENT BEREICH
+   -------------------------------------------------------------------------- */
+.seo-content {
+  margin-top: 56px;
+  padding-top: 36px;
+  border-top: 1px solid var(--border);
+}
+
+.seo-content h2 {
+  font-family: var(--font-display);
+  font-size: 1.5em;
+  color: var(--text);
+  margin-bottom: 0.6em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.seo-content h2::before {
+  content: '';
+  display: inline-block;
+  width: 28px;
+  height: 3px;
+  background: var(--primary);
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.seo-content p {
+  color: var(--text-mid);
+  font-size: 0.97em;
+  line-height: 1.75;
+}
+
+
+/* --------------------------------------------------------------------------
+   14. SEO-TABELLE
+   -------------------------------------------------------------------------- */
+.seo-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 0.92em;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.seo-table th,
+.seo-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+
+.seo-table th {
+  background: linear-gradient(135deg, var(--primary-dark), var(--primary-mid));
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.88em;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.seo-table tr:last-child td { border-bottom: none; }
+
+.seo-table tr:nth-child(even) td {
+  background: var(--primary-pale);
+}
+
+.seo-table tr:hover td {
+  background: var(--primary-tint);
+}
+
+
+/* --------------------------------------------------------------------------
+   15. FAQ / AKKORDEON
+   -------------------------------------------------------------------------- */
+details {
+  background: var(--box-bg);
+  margin-bottom: 8px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  overflow: hidden;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+details[open] {
+  border-color: rgba(183, 28, 28, 0.3);
+  box-shadow: 0 2px 12px rgba(183, 28, 28, 0.08);
+}
+
+summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  cursor: pointer;
+  padding: 16px 20px;
+  font-weight: 600;
+  font-size: 1em;
+  color: var(--text);
+  transition: background 0.18s;
+  user-select: none;
+}
+
+summary::-webkit-details-marker { display: none; }
+
+summary::after {
+  content: '+';
+  font-size: 1.3em;
+  font-weight: 300;
+  color: var(--primary);
+  line-height: 1;
+  flex-shrink: 0;
+  margin-left: 12px;
+}
+
+details[open] summary {
+  background: var(--primary-pale);
+  border-bottom: 1px solid var(--border);
+  color: var(--primary-dark);
+}
+
+details[open] summary::after { content: '−'; }
+
+details p,
+details > div {
+  padding: 16px 20px;
+  margin: 0;
+  font-size: 0.96em;
+  color: var(--text-mid);
+  line-height: 1.75;
+}
+
+
+/* --------------------------------------------------------------------------
+   16. FOOTER
+   -------------------------------------------------------------------------- */
+.site-footer {
+  background: var(--footer-bg);
+  border-top: 1px solid var(--footer-border);
+  margin-top: auto;
+  box-shadow: 0 -4px 30px rgba(183, 28, 28, 0.12);
+}
+
+.site-footer__inner {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 40px 20px 28px;
+}
+
+.site-footer__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+  flex-wrap: wrap;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--footer-border);
+}
+
+.site-footer__brand {
+  flex: 1;
+  min-width: 200px;
+}
+
+.site-footer__logo {
+  font-family: var(--font-display);
+  font-size: 1.25em;
+  font-weight: 700;
+  color: #f5e0e0;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+  transition: opacity 0.2s;
+}
+
+.site-footer__logo:hover { opacity: 0.8; color: #f5e0e0; }
+
+.site-footer__tagline {
+  font-size: 0.75em;
+  color: #5a3030;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-top: 4px;
+  display: block;
+}
+
+.site-footer__desc {
+  font-size: 0.875em;
+  color: #7a5555;
+  line-height: 1.6;
+  margin-top: 12px;
+  max-width: 260px;
+}
+
+/* Footer Nav */
+.site-footer__nav-group {
+  min-width: 130px;
+}
+
+.site-footer__nav-title {
+  font-size: 0.7em;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #6b3535;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.site-footer__nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.site-footer__nav-list a {
+  font-size: 0.875em;
+  color: var(--footer-text);
+  text-decoration: none;
+  transition: color 0.18s;
+  display: inline-block;
+}
+
+.site-footer__nav-list a:hover { color: #ef9a9a; }
+
+/* Footer Bottom */
+.site-footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-top: 20px;
+}
+
+.site-footer__copy {
+  font-size: 0.8em;
+  color: #3d1a1a;
+}
+
+.site-footer__legal {
+  display: flex;
+  gap: 18px;
+}
+
+.site-footer__legal a {
+  font-size: 0.8em;
+  color: #4a2020;
+  text-decoration: none;
+  transition: color 0.18s;
+}
+
+.site-footer__legal a:hover { color: #ef9a9a; }
+
+.site-footer__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.76em;
+  color: #5a3030;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid #2d1010;
+  border-radius: 20px;
+  padding: 5px 12px;
+  margin-top: 16px;
+}
+
+.site-footer__badge::before {
+  content: "ℹ";
+  color: #6b3535;
+}
+
+
+/* --------------------------------------------------------------------------
+   17. UTILITY-KLASSEN
+   -------------------------------------------------------------------------- */
+.text-primary  { color: var(--primary); }
+.text-danger   { color: var(--danger); }
+.text-muted    { color: var(--text-muted); }
+.text-center   { text-align: center; }
+.text-small    { font-size: 0.875em; }
+.font-display  { font-family: var(--font-display); }
+
+.mt-0 { margin-top: 0; }     .mb-0 { margin-bottom: 0; }
+.mt-1 { margin-top: 8px; }   .mb-1 { margin-bottom: 8px; }
+.mt-2 { margin-top: 16px; }  .mb-2 { margin-bottom: 16px; }
+.mt-3 { margin-top: 24px; }  .mb-3 { margin-bottom: 24px; }
+.mt-4 { margin-top: 32px; }  .mb-4 { margin-bottom: 32px; }
+
+.hidden { display: none !important; }
+
+.divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 28px 0;
+}
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0;
+  margin: -1px; overflow: hidden; clip: rect(0,0,0,0);
+  white-space: nowrap; border: 0;
+}
+
+
+/* --------------------------------------------------------------------------
+   18. RESPONSIVE
+   -------------------------------------------------------------------------- */
+@media (max-width: 640px) {
+  .site-header__inner { height: 56px; }
+  .site-logo { font-size: 1.2em; line-height: 56px; }
+  .site-header__tagline,
+  header.site-header > span { line-height: 56px !important; font-size: 0.72em !important; }
+
+  .site-wrapper { padding: 0 14px 32px; }
+
+  .page-container {
+    padding: 24px 18px;
+    margin-top: 18px;
+    border-radius: var(--radius-md);
+  }
+
+  .usp-bar { flex-direction: column; gap: 8px; }
+
+  h1 { font-size: 1.55em; }
+  h2 { font-size: 1.3em; }
+
+  .button-primary { padding: 15px; font-size: 1em; }
+
+  .site-footer__top { flex-direction: column; gap: 24px; }
+  .site-footer__bottom { flex-direction: column; align-items: flex-start; gap: 8px; }
+
+  fieldset { padding: 20px 16px; }
+  .seo-content { margin-top: 40px; }
+}
+
+@media (max-width: 400px) {
+  .page-container { padding: 18px 14px; }
+}
+
+
+/* Overlay Hintergrund - standardmäßig versteckt! */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  
+  /* HIER IST DIE WICHTIGE ÄNDERUNG: */
+  display: none; /* Macht das Pop-up beim Laden der Seite unsichtbar */
+  
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  backdrop-filter: blur(3px);
+}
+
+/* Diese Klasse wird von deinem JavaScript (.classList.add('active')) hinzugefügt */
+.overlay.active {
+  display: flex; /* Zeigt das Pop-up an und zentriert es */
+}
+
+/* Modal Container */
+.donate-modal {
+  background: #ffffff;
+  width: 90%;
+  max-width: 450px;
+  border-radius: 12px;
+  padding: 30px 25px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+  /* Dezenter, aber präsenter roter Akzent am oberen Rand */
+  border-top: 6px solid #d32f2f;
+}
+
+/* Emoji */
+.donate-emoji {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+  line-height: 1;
+}
+
+/* Überschriften & Text */
+.donate-modal h2 {
+  margin: 0 0 10px;
+  color: #222;
+  font-size: 1.6rem;
+}
+
+.donate-modal .sub {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+/* Spenden-Hinweis (dezente rote Hervorhebung) */
+.donate-hint {
+  background-color: #fdf2f2; /* Sehr zartes Rot/Rosa */
+  border-left: 4px solid #d32f2f; /* Roter Rand links als Anker */
+  padding: 15px;
+  border-radius: 4px 8px 8px 4px;
+  font-size: 0.9rem;
+  color: #444;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+/* Buttons für Schnellauswahl */
+.donate-amounts {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  justify-content: center;
+}
+
+.donate-amounts button {
+  flex: 1;
+  padding: 12px 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #555;
+  background-color: #f8f9fa;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Hover-Effekt für nicht ausgewählte Buttons */
+.donate-amounts button:hover:not(.selected) {
+  border-color: #d32f2f;
+  color: #d32f2f;
+  background-color: #fffafb;
+}
+
+/* Aktiver/Ausgewählter Zustand */
+.donate-amounts button.selected {
+  background-color: #d32f2f;
+  color: white;
+  border-color: #d32f2f;
+  box-shadow: 0 4px 12px rgba(211, 47, 47, 0.25);
+}
+
+/* Eigenes Feld */
+.custom-amount-wrapper {
+  position: relative;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.custom-amount-wrapper .currency-symbol {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.custom-amount-wrapper input {
+  width: 100%;
+  padding: 12px 15px 12px 35px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s ease;
+  box-sizing: border-box;
+}
+
+.custom-amount-wrapper input:focus {
+  border-color: #d32f2f;
+}
+
+/* Haupt-Spenden-Button (Call to Action) */
+.btn-donate {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  font-size: 1.15rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #d32f2f;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  box-shadow: 0 6px 15px rgba(211, 47, 47, 0.3);
+  margin-bottom: 15px;
+}
+
+.btn-donate:hover {
+  background-color: #b71c1c; /* Etwas dunkleres Rot beim Hovern */
+  transform: translateY(-2px);
+}
+
+.btn-donate:active {
+  transform: translateY(0);
+}
+
+/* Schließen Button (Dezent) */
+.btn-skip {
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 0.9rem;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: color 0.2s ease;
+  padding: 5px;
+}
+
+.btn-skip:hover {
+  color: #333;
+}
+
+/* PayPal Hinweis */
+.paypal-note {
+  font-size: 0.8rem;
+  color: #aaa;
+  margin: 0;
+}
+
+/* Sektion über dem Footer (Trust-Bereich) */
+.trust-section {
+  background-color: #fcfcfc; /* Fast weiß für einen cleanen Look */
+  border-top: 1px solid #eaeaea;
+  padding: 60px 20px; /* Mehr Platz zum Atmen */
+  margin-top: 50px;
+  text-align: center;
+  font-family: inherit;
+}
+
+.trust-section h3 {
+  font-size: 1.2rem;
+  color: #222;
+  font-weight: 700;
+  margin-bottom: 15px;
+  letter-spacing: -0.01em;
+}
+
+.trust-text {
+  font-size: 0.95rem;
+  color: #555;
+  max-width: 650px;
+  margin: 0 auto 25px auto;
+  line-height: 1.7;
+}
+
+.trust-link {
+  color: #1565c0;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: opacity 0.2s;
+}
+
+.trust-link:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+/* Die "Lotsen"-Box (Card-Design) */
+.lotse-card {
+  margin: 40px auto;
+  max-width: 550px;
+  background-color: #ffffff;
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03); /* Ganz weicher Schatten */
+}
+
+.lotse-card p {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.lotse-card a {
+  color: #1565c0;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 2px solid #e3f2fd;
+  transition: border-color 0.2s;
+}
+
+.lotse-card a:hover {
+  border-bottom-color: #1565c0;
+}
+
+/* Feedback-Zeile */
+.feedback-note {
+  font-size: 0.85rem;
+  color: #999;
+  margin-top: 30px;
+}
+
+/* Der eigentliche Footer */
+footer {
+  background-color: #1a1a1a; /* Dunkel für edlen Kontrast */
+  color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+footer a {
+  color: #bbb;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.2s;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+footer p {
+  margin-bottom: 10px;
+  opacity: 0.7;
+}
+
+
+/* ==========================================================================
+   REISE-LOTSE — HUB PAGE STYLES
+   Ergänzungs-CSS für Hub-Seiten (hub.css)
+   Setzt styles.css voraus, überschreibt/ergänzt nur hub-spezifische Klassen.
+   ========================================================================== */
+
+
+/* --------------------------------------------------------------------------
+   1. HUB CONTENT WRAPPER
+   -------------------------------------------------------------------------- */
+.hub-content {
+  background: var(--box-bg);
+  padding: 40px 45px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-lg);
+  margin-top: 32px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Dekorativer Farbstreifen oben (identisch zu .page-container) */
+.hub-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--primary-dark), var(--primary-mid), var(--accent));
+  pointer-events: none;
+}
+
+.hub-content > h1:first-of-type {
+  font-family: var(--font-display);
+  font-size: 1.9em;
+  color: var(--text);
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+  padding-right: 20px;
+}
+
+.hub-content > p {
+  color: var(--text-mid);
+  font-size: 0.97em;
+  line-height: 1.75;
+  margin-bottom: 1em;
+}
+
+.hub-content h2 {
+  font-family: var(--font-display);
+  font-size: 1.45em;
+  color: var(--text);
+  margin-top: 40px;
+  margin-bottom: 0.5em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hub-content h2::before {
+  content: '';
+  display: inline-block;
+  width: 24px;
+  height: 3px;
+  background: var(--primary);
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+
+/* --------------------------------------------------------------------------
+   2. ROUTER BOX (Airline-Auswahl)
+   -------------------------------------------------------------------------- */
+.router-box {
+  background: var(--primary-pale);
+  border: 1px solid rgba(183, 28, 28, 0.2);
+  border-radius: var(--radius-lg);
+  padding: 28px 32px;
+  margin: 28px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Subtile Hintergrund-Textur */
+.router-box::after {
+  content: '';
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 160px;
+  height: 160px;
+  background: radial-gradient(circle, rgba(183,28,28,0.07) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.router-box h2 {
+  font-family: var(--font-display);
+  font-size: 1.25em;
+  color: var(--primary-dark) !important;
+  margin-top: 0 !important;
+  margin-bottom: 10px;
+}
+
+/* Dekorlinie für h2 in router-box deaktivieren */
+.router-box h2::before {
+  display: none;
+}
+
+.router-box p {
+  font-size: 0.92em;
+  color: var(--text-mid);
+  margin-bottom: 16px;
+}
+
+/* Select innerhalb router-box */
+.router-box select,
+#airlineSelect {
+  width: 100%;
+  padding: 12px 38px 12px 14px;
+  margin-bottom: 14px;
+  border: 1.5px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  font-size: 1em;
+  font-family: var(--font-body);
+  background: #fff;
+  color: var(--text);
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='none' stroke='%23b71c1c' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' d='M1 1.5l5 5 5-5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.07);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.router-box select:focus,
+#airlineSelect:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(183, 28, 28, 0.12);
+  outline: none;
+}
+
+
+/* --------------------------------------------------------------------------
+   3. BUTTONS (Hub-spezifisch)
+   -------------------------------------------------------------------------- */
+
+/* Router-Button (volle Breite, prominent) */
+.btn-route {
+  display: block;
+  width: 100%;
+  background: linear-gradient(135deg, var(--primary-mid), var(--primary-dark));
+  color: #ffffff;
+  border: none;
+  padding: 15px 24px;
+  font-size: 1.05em;
+  font-family: var(--font-body);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(183, 28, 28, 0.32);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.btn-route::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(255,255,255,0.08) 0%, transparent 100%);
+  pointer-events: none;
+}
+
+.btn-route:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(183, 28, 28, 0.4);
+}
+
+.btn-route:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(183, 28, 28, 0.28);
+}
+
+/* Download/PDF-Button (sekundär, dezenter) */
+.btn-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  color: var(--primary);
+  border: 1.5px solid var(--primary);
+  padding: 10px 20px;
+  font-size: 0.9em;
+  font-family: var(--font-body);
+  font-weight: 600;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  margin-top: 12px;
+  letter-spacing: 0.01em;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.btn-download::before {
+  content: "↓";
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.btn-download:hover {
+  background: var(--primary);
+  color: #fff;
+  box-shadow: 0 3px 10px rgba(183, 28, 28, 0.25);
+}
+
+
+/* --------------------------------------------------------------------------
+   4. LINK-GRID (100+ Links — Multi-Column)
+   -------------------------------------------------------------------------- */
+.all-items-section {
+  margin-top: 48px;
+  padding-top: 32px;
+  border-top: 1px solid var(--border);
+}
+
+.all-items-section h2 {
+  margin-bottom: 20px;
+}
+
+/* Das Grid selbst: CSS Columns für gleichmäßige Aufteilung bei vielen Links */
+.link-grid {
+  column-count: 3;
+  column-gap: 0;
+  line-height: 1;
+
+  /* Verhindert, dass Elemente zwischen Spalten gebrochen werden */
+  column-fill: balance;
+}
+
+/* Jeder Link als Block */
+.link-grid a {
+  display: block;
+  break-inside: avoid;           /* Kein Zeilenumbruch mitten im Link */
+  padding: 7px 12px;
+  margin: 2px 4px;
+  font-size: 0.875em;
+  color: var(--primary-dark);
+  text-decoration: none;
+  border-radius: var(--radius-sm);
+  border-left: 2px solid transparent;
+  transition: background 0.15s, border-color 0.15s, color 0.15s, padding-left 0.15s;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 400;
+}
+
+.link-grid a:hover {
+  background: var(--primary-pale);
+  border-left-color: var(--primary);
+  color: var(--primary);
+  padding-left: 16px;
+}
+
+/* Suchfeld über der Link-Liste — optional, aber nützlich bei 100+ Links */
+.link-grid-search {
+  width: 100%;
+  padding: 10px 14px 10px 36px;
+  margin-bottom: 16px;
+  border: 1.5px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  font-size: 0.93em;
+  font-family: var(--font-body);
+  color: var(--text);
+  background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23b71c1c' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cpath d='M21 21l-4.35-4.35'/%3E%3C/svg%3E") no-repeat 12px center;
+  box-sizing: border-box;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.link-grid-search:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(183, 28, 28, 0.1);
+  outline: none;
+}
+
+/* Alphabetische Gruppe (optional) */
+.link-grid-group {
+  break-inside: avoid;
+  margin-bottom: 8px;
+}
+
+.link-grid-group-label {
+  font-size: 0.7em;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--primary);
+  padding: 8px 12px 4px;
+  display: block;
+  border-bottom: 1px solid var(--border-light);
+  margin-bottom: 2px;
+}
+
+/* Zähler-Badge (z.B. "124 Airlines") */
+.link-grid-count {
+  display: inline-block;
+  font-size: 0.78em;
+  color: var(--text-muted);
+  font-weight: 400;
+  margin-left: 8px;
+}
+
+
+/* --------------------------------------------------------------------------
+   5. CHECKLISTE
+   -------------------------------------------------------------------------- */
+.checklist-box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 24px 28px;
+  margin: 20px 0 12px;
+  position: relative;
+}
+
+/* Linker Akzentstreifen */
+.checklist-box::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(180deg, var(--primary), var(--accent));
+  border-radius: var(--radius-md) 0 0 var(--radius-md);
+}
+
+.checklist-box h3 {
+  font-family: var(--font-display);
+  font-size: 1.05em;
+  color: var(--primary-dark);
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.checklist-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.checklist-box ul li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 0.93em;
+  color: var(--text-mid);
+  line-height: 1.55;
+  padding: 10px 14px;
+  background: #fff;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-light);
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.checklist-box ul li:hover {
+  border-color: rgba(183, 28, 28, 0.2);
+  background: var(--primary-pale);
+}
+
+/* Checkmark-Icon vor jedem Item */
+.checklist-box ul li::before {
+  content: '✓';
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 22px;
+  height: 22px;
+  background: var(--primary);
+  color: #fff;
+  font-size: 0.75em;
+  font-weight: 800;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.checklist-box ul li strong {
+  color: var(--text);
+  font-weight: 700;
+}
+
+
+/* --------------------------------------------------------------------------
+   6. CASE STUDIES (Fallbeispiele)
+   -------------------------------------------------------------------------- */
+.case-study {
+  background: var(--box-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 22px 26px;
+  margin-bottom: 14px;
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.case-study::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(180deg, var(--primary-mid), var(--accent));
+}
+
+.case-study:hover {
+  box-shadow: var(--shadow-md);
+  border-color: rgba(183, 28, 28, 0.25);
+}
+
+.case-study h3 {
+  font-family: var(--font-display);
+  font-size: 1em;
+  color: var(--text);
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.case-study p {
+  font-size: 0.92em;
+  color: var(--text-mid);
+  line-height: 1.7;
+  margin: 0;
+}
+
+.case-study strong {
+  color: var(--primary-dark);
+}
+
+/* Ergebnis-Highlight im Case Study */
+.case-study p > strong:last-of-type {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+
+/* --------------------------------------------------------------------------
+   7. FAQ (Hub-eigenes Design, ohne <details>)
+   -------------------------------------------------------------------------- */
+.faq-item {
+  border-bottom: 1px solid var(--border);
+  padding: 0;
+  transition: background 0.18s;
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+}
+
+.faq-question {
+  font-weight: 700;
+  font-size: 1em;
+  color: var(--text);
+  padding: 18px 44px 18px 0;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+  transition: color 0.18s;
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+.faq-question::after {
+  content: '+';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.4em;
+  font-weight: 300;
+  color: var(--primary);
+  line-height: 1;
+  transition: transform 0.2s, content 0.2s;
+}
+
+.faq-question:hover {
+  color: var(--primary);
+}
+
+/* Geöffneter Zustand — via JS .is-open Klasse */
+.faq-item.is-open .faq-question {
+  color: var(--primary-dark);
+}
+
+.faq-item.is-open .faq-question::after {
+  content: '−';
+}
+
+.faq-answer {
+  font-size: 0.93em;
+  color: var(--text-mid);
+  line-height: 1.75;
+  /* Standardmäßig sichtbar (kein JS nötig), kann per JS animiert werden */
+  padding-bottom: 18px;
+  padding-right: 44px;
+}
+
+/* Wenn FAQ per JS toggelbar gemacht wird: */
+.faq-answer.is-hidden {
+  display: none;
+}
+
+
+/* --------------------------------------------------------------------------
+   8. RESPONSIVE (Hub-spezifisch)
+   -------------------------------------------------------------------------- */
+@media (max-width: 760px) {
+  .link-grid {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 640px) {
+  .hub-content {
+    padding: 24px 18px;
+    margin-top: 18px;
+    border-radius: var(--radius-md);
+  }
+
+  .router-box {
+    padding: 20px 18px;
+  }
+
+  .link-grid {
+    column-count: 1;
+  }
+
+  .link-grid a {
+    white-space: normal;
+    text-overflow: unset;
+    overflow: visible;
+  }
+
+  .checklist-box {
+    padding: 18px 16px;
+  }
+
+  .case-study {
+    padding: 18px 16px;
+  }
+
+  .faq-question {
+    padding-right: 36px;
+    font-size: 0.97em;
+  }
+
+  .all-items-section {
+    margin-top: 36px;
+    padding-top: 24px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hub-content {
+    padding: 16px 12px;
+  }
+}
+
+
+
+
+/* --------------------------------------------------------------------------
+   1. CROSSLINK BOX (Themen-Wolke)
+   -------------------------------------------------------------------------- */
+.crosslink-box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px 28px;
+  margin: 40px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Dezenter Rot-Akzent oben links */
+.crosslink-box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--primary), transparent 70%);
+}
+
+.crosslink-box h3 {
+  font-family: var(--font-display);
+  font-size: 0.95em;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 0 0 16px 0;
+}
+
+/* Link-Cloud Container */
+.seo-link-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* Jeder Link als Pill */
+.seo-link-cloud a {
+  display: inline-block;
+  padding: 6px 14px;
+  font-size: 0.855em;
+  font-family: var(--font-body);
+  font-weight: 600;
+  color: var(--primary-dark);
+  background: var(--box-bg);
+  border: 1.5px solid var(--border);
+  border-radius: 20px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.18s, border-color 0.18s, color 0.18s, transform 0.12s, box-shadow 0.18s;
+}
+
+.seo-link-cloud a:hover {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #ffffff;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 10px rgba(183, 28, 28, 0.22);
+}
+
+.seo-link-cloud a:active {
+  transform: translateY(0);
+}
+
+
+/* --------------------------------------------------------------------------
+   2. BACK TO HUB BANNER
+   -------------------------------------------------------------------------- */
+.back-to-hub-banner {
+  margin: 32px 0 8px;
+}
+
+.back-to-hub-banner a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 22px;
+  background: var(--primary-pale);
+  border: 1.5px solid rgba(183, 28, 28, 0.18);
+  border-radius: var(--radius-md);
+  font-size: 0.9em;
+  font-weight: 600;
+  color: var(--primary-dark);
+  text-decoration: none;
+  transition: background 0.18s, border-color 0.18s, color 0.18s, box-shadow 0.18s;
+}
+
+.back-to-hub-banner a:hover {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #ffffff;
+  box-shadow: 0 4px 14px rgba(183, 28, 28, 0.28);
+}
+
+.back-to-hub-banner .arrow {
+  font-size: 1.1em;
+  line-height: 1;
+  transition: transform 0.2s;
+}
+
+.back-to-hub-banner a:hover .arrow {
+  transform: translateX(-3px);
+}
+
+
+.legal-sources-box {
+    background-color: #f8f9fa; /* Leichtes Grau für den Hintergrund */
+    border-left: 4px solid #2c3e50; /* Seröser, dunkler Rand links */
+    padding: 1.5rem;
+    margin: 2rem 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.sources-heading {
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+}
+
+.sources-intro {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.sources-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.sources-list li {
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.sources-list li:last-child {
+    margin-bottom: 0;
+}
+
+.source-link {
+    display: inline-block;
+    margin-top: 0.2rem;
+    font-size: 0.9rem;
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.source-link:hover {
+    text-decoration: underline;
+}
+
+
+
+/* =========================================================
+   Hero-Bereich (Ganz oben)
+   ========================================================= */
+.mission-hero {
+    text-align: center;
+    background-color: #fffafb; /* Ein extrem dezentes, helles Rot/Rosa als Hintergrund */
+    border: 1px solid #ffebee;
+    padding: 3rem 2rem;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+    border-bottom: none;
+}
+
+.mission-hero h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.lead-text {
+    font-size: 1.15rem;
+    color: #555555;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* =========================================================
+   CSS Grid (Automatisch responsiv für Prinzipien & Portale)
+   ========================================================= */
+.grid-3, .grid-4 {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.grid-3 {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.grid-4 {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+/* =========================================================
+   Karten-Design (Prinzipien & Portale)
+   ========================================================= */
+.principle-card, .portal-card {
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.principle-card:hover, .portal-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(211, 47, 47, 0.08); /* Zarter roter Hover-Schatten */
+    border-color: #ffcdd2;
+}
+
+.principle-card h3, .portal-card h3 {
+    color: #d32f2f;
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+}
+
+.principle-card p, .portal-card p {
+    font-size: 0.95rem;
+    color: #555555;
+    margin-bottom: 1rem;
+}
+
+/* =========================================================
+   Buttons
+   ========================================================= */
+.btn-portal {
+    display: inline-block;
+    background-color: #d32f2f;
+    color: #ffffff;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+    transition: background-color 0.2s ease;
+}
+
+.btn-portal:hover {
+    background-color: #b71c1c;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* =========================================================
+   Sonstiges / Kleingedrucktes
+   ========================================================= */
+.hinweis {
+    font-size: 0.85rem;
+    color: #888888;
+    margin-top: 2rem;
+    border-top: 1px solid #eeeeee;
+    padding-top: 1rem;
+}
+
+
+
+
+/* --------------------------------------------------------------------------
+   1. HIGHLIGHT BOX / PRÜFDATUM
+   -------------------------------------------------------------------------- */
+.highlight-box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 13px 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.875em;
+  color: var(--text-mid);
+}
+
+.highlight-box::before {
+  content: "✓";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 22px;
+  height: 22px;
+  background: var(--primary);
+  color: #fff;
+  font-size: 0.75em;
+  font-weight: 800;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.highlight-box p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.highlight-box strong {
+  color: var(--text-label);
+  font-weight: 700;
+}
+
+/* Prüfdatum-Variante */
+.pruefdatum-box {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border-left: 3px solid var(--primary);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  background: var(--primary-pale);
+}
+
+#pruefdatum {
+  color: var(--primary-dark);
+  font-weight: 600;
+}
+
+
+/* --------------------------------------------------------------------------
+   2. INDEX — HERO
+   -------------------------------------------------------------------------- */
+.hero {
+  background: linear-gradient(135deg, var(--primary-dark) 0%, #560000 55%, #3d0000 100%);
+  color: #ffffff;
+  padding: 56px 40px 52px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hintergrund-Textur */
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 20% 50%, rgba(255,255,255,0.04) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(255,100,100,0.06) 0%, transparent 45%);
+  pointer-events: none;
+}
+
+.hero h1 {
+  font-family: var(--font-display);
+  font-size: 2.1em;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.2;
+  margin: 0 auto 20px;
+  max-width: 620px;
+  position: relative;
+  letter-spacing: -0.02em;
+}
+
+.hero p {
+  font-size: 1em;
+  color: rgba(255,255,255,0.75);
+  max-width: 580px;
+  margin: 0 auto 28px;
+  line-height: 1.7;
+  font-weight: 300;
+  position: relative;
+}
+
+/* Trust Badges */
+.trust-badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255,255,255,0.09);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 20px;
+  padding: 7px 16px;
+  font-size: 0.845em;
+  font-weight: 600;
+  color: rgba(255,255,255,0.9);
+  letter-spacing: 0.01em;
+  backdrop-filter: blur(4px);
+}
+
+
+/* --------------------------------------------------------------------------
+   3. INDEX — MISSION SECTION
+   -------------------------------------------------------------------------- */
+.mission-section {
+  background: var(--box-bg);
+  border-bottom: 1px solid var(--border);
+  padding: 36px 40px;
+  text-align: center;
+}
+
+.mission-section h2 {
+  font-family: var(--font-display);
+  font-size: 1.5em;
+  color: var(--text);
+  margin-bottom: 14px;
+}
+
+.mission-section p {
+  font-size: 0.96em;
+  color: var(--text-mid);
+  max-width: 620px;
+  margin: 0 auto;
+  line-height: 1.75;
+}
+
+.mission-section strong {
+  color: var(--primary-dark);
+}
+
+
+/* --------------------------------------------------------------------------
+   4. INDEX — CONTAINER & SECTION TITLE
+   -------------------------------------------------------------------------- */
+.container {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 36px 20px 48px;
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: 1.2em;
+  color: var(--text-muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 40px 0 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-title::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  background: var(--primary);
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+
+/* --------------------------------------------------------------------------
+   5. INDEX — CARD GRID
+   -------------------------------------------------------------------------- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background: var(--box-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px 22px 20px;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.18s, box-shadow 0.18s, border-color 0.18s;
+}
+
+/* Farbiger Streifen oben je nach Silo */
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(183, 28, 28, 0.2);
+}
+
+/* Silo-Farben */
+.silo-flug::before  { background: linear-gradient(90deg, #b71c1c, #e53935); }
+.silo-hotel::before { background: linear-gradient(90deg, #880e4f, #c2185b); }
+.silo-pre::before   { background: linear-gradient(90deg, #4527a0, #7b1fa2); }
+.silo-zoll::before  { background: linear-gradient(90deg, #e65100, #f57c00); }
+
+/* Card Icon */
+.card-icon {
+  font-size: 2em;
+  line-height: 1;
+  margin-bottom: 14px;
+}
+
+/* Card Heading */
+.card h3 {
+  font-family: var(--font-display);
+  font-size: 1.05em;
+  color: var(--text);
+  margin: 0 0 8px;
+  line-height: 1.3;
+}
+
+/* Card Text */
+.card p {
+  font-size: 0.875em;
+  color: var(--text-mid);
+  line-height: 1.6;
+  margin: 0 0 16px;
+  flex: 1;
+}
+
+/* Card CTA */
+.card-link {
+  font-size: 0.845em;
+  font-weight: 700;
+  color: var(--primary);
+  margin-top: auto;
+  transition: color 0.18s, gap 0.18s;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.card:hover .card-link {
+  color: var(--primary-dark);
+  gap: 7px;
+}
+
+
+/* --------------------------------------------------------------------------
+   6. INDEX — FOOTER
+   -------------------------------------------------------------------------- */
+footer {
+  background: var(--footer-bg);
+  border-top: 1px solid var(--footer-border);
+  padding: 28px 20px;
+  text-align: center;
+  box-shadow: 0 -4px 30px rgba(183, 28, 28, 0.1);
+}
+
+footer p {
+  font-size: 0.82em;
+  color: #3d1a1a;
+  margin: 0 0 12px;
+}
+
+footer div a {
+  font-size: 0.82em;
+  color: #5a3030;
+  text-decoration: none;
+  margin: 0 12px;
+  transition: color 0.18s;
+}
+
+footer div a:hover {
+  color: #ef9a9a;
+}
+
+
+/* --------------------------------------------------------------------------
+   7. RESPONSIVE
+   -------------------------------------------------------------------------- */
+@media (max-width: 640px) {
+  .hero {
+    padding: 36px 20px 32px;
+  }
+
+  .hero h1 {
+    font-size: 1.55em;
+  }
+
+  .trust-badges {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mission-section {
+    padding: 28px 20px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .container {
+    padding: 24px 14px 36px;
+  }
+
+  .highlight-box,
+  .pruefdatum-box {
+    font-size: 0.83em;
+  }
+}
+
+
+
+
+

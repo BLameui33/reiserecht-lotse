@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Flug nicht angetreten: Steuern & Gebühren zurückfordern</title>
+  <meta name="description" content="Flug storniert oder verpasst? Fordern Sie Ihre Steuern, Flughafen- und Sicherheitsgebühren von der Airline zurück. Unser Ratgeber und Musterbrief-Generator helfen.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & Internationalisierung -->
+  <link rel="canonical" href="https://www.fix-my-trip.com/de/steuern-info.html">
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/steuern-info.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/steuern-info.html">
+
+  <!-- Bibliothek für die PDF-Generierung aus HTML -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- FAQ Schema.org JSON-LD für Rich Snippets bei Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Bekomme ich auch bei einem nicht-stornierbaren Ticket (Billigtarif) Geld zurück?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja! Selbst wenn Sie den günstigsten Tarif (z.B. Economy Light) gebucht haben, bei dem der reine Flugpreis nicht erstattet wird, muss die Airline Ihnen die nicht angefallenen Steuern und Gebühren (wie Flughafengebühren und Sicherheitszuschläge) zurückzahlen. Diese Kosten führt die Airline nämlich nur ab, wenn Sie auch tatsächlich fliegen."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Darf die Airline eine Bearbeitungsgebühr für die Erstattung verlangen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nein. Der Bundesgerichtshof (BGH) hat mehrfach entschieden, dass pauschale Bearbeitungsentgelte für die Erstattung von Steuern und Gebühren unzulässig sind. Die Airline darf das Geld also nicht einfach mit fiktiven Gebühren verrechnen oder einbehalten."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Bekomme ich auch den Kerosinzuschlag (Treibstoffzuschlag) zurück?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Das hängt vom Einzelfall und den AGB der Airline ab. Oft wird der Kerosinzuschlag (meist als YQ oder YR auf dem Ticket ausgewiesen) von den Airlines als Teil des reinen Flugpreises deklariert und bei Billigtarifen nicht erstattet. Echte Fremdgebühren (Flughafensteuern) müssen jedoch immer erstattet werden."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Wie lange rückwirkend kann ich die Steuern zurückfordern?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In Deutschland gilt die regelmäßige gesetzliche Verjährungsfrist von drei Jahren. Die Frist beginnt am Ende des Jahres, in dem der Flug stattfinden sollte. Für einen nicht angetretenen Flug im Mai 2023 haben Sie also bis zum 31. Dezember 2026 Zeit."
+      }
+    }]
+  }
+  </script>
+
+  
+</head>
+<body>
+
+<header class="site-header" style="padding: 20px 0; border-bottom: 2px solid #eee; margin-bottom: 30px;">
+  <a href="index.html" style="font-size: 1.5em; font-weight: bold; text-decoration: none;">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Flug verpasst oder storniert? So fordern Sie Steuern & Gebühren zurück</h1>
+  
+  <p>Sie konnten Ihren Flug krankheitsbedingt nicht antreten, haben ihn verpasst (No-Show) oder freiwillig storniert? Bei günstigen, "nicht-stornierbaren" Tarifen ist der reine Ticketpreis dann meist verloren. Was viele Airlines Ihnen jedoch verschweigen: <strong>Einen großen Teil des Geldes können Sie trotzdem zurückfordern!</strong></p>
+  
+  <p>Ein Flugticket setzt sich aus dem Basis-Flugpreis sowie diversen Steuern, Flughafen- und Sicherheitsgebühren zusammen. Da die Airline diese Gebühren nur an den Flughafen oder den Staat abführen muss, wenn Sie <em>tatsächlich an Bord gehen</em>, bereichert sie sich unrechtmäßig, wenn sie diese bei einem Nichtantritt behält. Fordern Sie Ihr Geld jetzt ohne Risiko ein.</p>
+
+  <!-- DAS IST DER MAGISCHE BEREICH FÜR DIE INTERNE VERLINKUNG -->
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Rückforderung generieren</h2>
+    <p>Wählen Sie Ihre Fluggesellschaft aus, um ein rechtssicheres Forderungsschreiben auf Erstattung Ihrer Steuern & Gebühren zu erstellen (100% kostenlos):</p>
+    
+    <select id="airlineSelect">
+      <option value="">-- Bitte Fluggesellschaft wählen --</option>
+      <!-- Das Skript fügt hier die Airlines als Options ein -->
+      {{STEUER_OPTIONS}}
+      <!-- Fallback für Airlines, die nicht in der Liste sind -->
+      <option value="steuern-gebuehren-erstattung-allgemein.html">Meine Airline ist nicht dabei (Allgemeines Formular)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Zum Generator für diese Airline</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Anspruchsprüfung nach Fluggesellschaft</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{STEUER_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Checkliste: So gehen Sie richtig vor</h2>
+  <p>Damit die Airline Ihre Erstattung nicht durch fiktive Gebühren oder Ausreden verzögert, sollten Sie diese Punkte beachten:</p>
+  
+  <div class="checklist-box" id="checklistToPrint">
+  <!-- Optional: Eine versteckte oder sichtbare Überschrift, die nur im PDF gut aussieht -->
+  <h3 style="margin-top:0; color:#1565c0;">Checkliste</h3>
+
+    <ul>
+      <li><strong>Buchungsbestätigung prüfen:</strong> Suchen Sie auf Ihrem E-Ticket nach Begriffen wie "Taxes", "Fees", "Flughafengebühren" oder Codes wie "XT". So sehen Sie genau, wie hoch Ihr Erstattungsanspruch ist.</li>
+      <li><strong>Flug proaktiv stornieren:</strong> Auch wenn es für den Anspruch auf Steuern nicht zwingend nötig ist (No-Show reicht rechtlich aus), beschleunigt eine offizielle Stornierung vor Abflug oft den Erstattungsprozess.</li>
+      <li><strong>Auf die eigene IBAN verweisen:</strong> Geben Sie bei der Forderung unbedingt an, wohin das Geld überwiesen werden soll, falls die ursprüngliche Kreditkarte abgelaufen ist.</li>
+      <li><strong>Bearbeitungsgebühren ablehnen:</strong> Streicht die Airline ungefragt 25 € bis 50 € "Bearbeitungsentgelt" von Ihrer Rückzahlung ab, widersprechen Sie sofort unter Verweis auf die BGH-Rechtsprechung.</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('checkliste-zoll.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+  Checkliste als PDF generieren & speichern
+</button>
+
+  <h2 style="margin-top: 40px;">Fallbeispiele: Warum sich der Aufwand lohnt</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Beispiel 1: Der Flug nach London (Billigflieger)</h3>
+    <p>Anna bucht einen Billigflug für 65 €. Sie wird krank und kann nicht fliegen. Der Tarif ist nicht stornierbar. Ein Blick auf die Ticketaufschlüsselung zeigt: Der reine Flugpreis beträgt nur 15 €, die restlichen 50 € sind Steuern und Passagiergebühren von den Flughäfen.<br>
+    <strong>Ergebnis:</strong> Anna fordert die Gebühren über unser Formular zurück. Die Airline muss ihr die vollen <strong>50 €</strong> erstatten, obwohl der Flug selbst nicht erstattungsfähig war.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Beispiel 2: Unzulässige Bearbeitungsgebühr</h3>
+    <p>Markus storniert einen Flug und fordert 80 € Steuern zurück. Die Airline überweist ihm nur 30 € und behält 50 € als "Stornierungs- und Bearbeitungsentgelt" ein, worauf sie sich in ihren AGB beruft.<br>
+    <strong>Ergebnis:</strong> Solche Klauseln sind laut Bundesgerichtshof unwirksam! Markus nutzt unser Portal, um dem Einbehalt zu widersprechen, und die Airline muss auch die restlichen <strong>50 €</strong> nachzahlen.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">FAQ: Häufige Fragen zur Steuer-Erstattung</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">Bekomme ich auch bei einem nicht-stornierbaren Ticket Geld zurück?</div>
+    <div class="faq-answer">Ja! Selbst wenn Sie den günstigsten Tarif (z.B. Economy Light) gebucht haben, bei dem der reine Flugpreis nicht erstattet wird, muss die Airline Ihnen die nicht angefallenen Steuern und Gebühren (wie Flughafengebühren und Sicherheitszuschläge) zurückzahlen. Diese Kosten führt die Airline nämlich nur ab, wenn Sie auch tatsächlich fliegen.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Darf die Airline eine Bearbeitungsgebühr für die Erstattung verlangen?</div>
+    <div class="faq-answer">Nein. Der Bundesgerichtshof (BGH) hat mehrfach entschieden, dass pauschale Bearbeitungsentgelte für die Erstattung von Steuern und Gebühren unzulässig sind. Die Airline darf das Geld also nicht einfach mit fiktiven Gebühren verrechnen oder einbehalten.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Bekomme ich auch den Kerosinzuschlag (Treibstoffzuschlag) zurück?</div>
+    <div class="faq-answer">Das hängt vom Einzelfall und den AGB der Airline ab. Oft wird der Kerosinzuschlag (meist als YQ oder YR auf dem Ticket ausgewiesen) von den Airlines als Teil des reinen Flugpreises deklariert und bei Billigtarifen nicht erstattet. Echte Fremdgebühren (Flughafensteuern) müssen jedoch immer erstattet werden.</div>
+  </div>
+  
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">Wie lange rückwirkend kann ich die Steuern zurückfordern?</div>
+    <div class="faq-answer">In Deutschland gilt die regelmäßige gesetzliche Verjährungsfrist von drei Jahren. Die Frist beginnt am Ende des Jahres, in dem der Flug stattfinden sollte. Für einen nicht angetretenen Flug im Mai 2023 haben Sie also bis zum 31. Dezember 2026 Zeit.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise im Reiserecht & Fahrgastrechten</h3>
+    <p class="trust-text">
+        Unsere Ratgeber und Generatoren basieren auf der strikten Auswertung aktueller EU-Verordnungen (wie EG 261/2004), BGH-Urteilen und dem nationalen Reiserecht. 
+        Sie werden von Marc (Projektleitung) & Team entwickelt, um Reisenden eine rechtssichere Durchsetzung gegenüber Airlines und Reiseveranstaltern zu ermöglichen.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Wichtiger Hinweis: Unsere Tools bieten Hilfe zur Selbsthilfe bei Flugverspätung, Hotelmängeln oder Zugausfällen. Sie ersetzen keine individuelle Rechtsberatung durch einen Anwalt.
+        </span>
+    </p>
+
+    <!-- Umlaut in URL entfernt! -->
+    <a href="ueber-uns.html" class="trust-link">
+        Details zur rechtlichen Methodik & Redaktion erfahren →
+    </a>
+
+    <div class="lotse-card">
+        <p>
+            <strong>Problem mit dem Flug, der Bahn oder dem Hotel?</strong><br>
+            Fix-my-Trip prüft in wenigen Schritten Ihren Anspruch auf Entschädigung, Ticket-Erstattung oder Mietminderung.
+        </p>
+    </div>
+
+    <p class="feedback-note">
+
+      
+        💡 <strong>Reiserecht ändert sich ständig.</strong> Haben Sie eine neue Klausel entdeckt? <a href="mailto:support@fix-my-trip.com" style="color: #777; text-decoration: underline;">Geben Sie uns Feedback</a>, damit wir die Generatoren aktuell halten können.
+    </p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Über uns</a> | 
+        <a href="index.html">Startseite</a> | 
+        <a href="impressum.html">Impressum</a> | 
+        <a href="datenschutz.html">Datenschutz</a>
+    </nav>
+</footer>
+
+<script>
+function routeToGenerator() {
+    const selectElement = document.getElementById('airlineSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Bitte wählen Sie zuerst eine Fluggesellschaft aus der Liste aus.");
+    }
+}
+
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // 15mm Rand rundherum
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, // Hohe Auflösung
+            scrollY: 0, // WICHTIG: Fixt das Problem mit der leeren Seite!
+            windowWidth: document.documentElement.offsetWidth // Stellt sicher, dass die Breite stimmt
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    // PDF generieren
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

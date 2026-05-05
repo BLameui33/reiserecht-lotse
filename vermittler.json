@@ -1,0 +1,132 @@
+[
+  {
+    "slug": "check24",
+    "name": "CHECK24 Vergleichsportal Reise GmbH",
+    "adresse": "Trappentreustraße 1 - 3\n80339 München\nDeutschland"
+  },
+  {
+    "slug": "holidaycheck",
+    "name": "HolidayCheck AG",
+    "adresse": "Bahnweg 8\n8598 Bottighofen\nSchweiz"
+  },
+  {
+    "slug": "aldi-reisen",
+    "name": "ALDI Reisen (Vermittler)",
+    "adresse": "Gilt als Vermittler für verschiedene Veranstalter\n(Adresse des Kundenservice laut Buchung einsetzen)"
+  },
+  {
+    "slug": "ab-in-den-urlaub",
+    "name": "Invia Travel Germany GmbH (ab-in-den-urlaub.de)",
+    "adresse": "Dittrichring 18-20\n04109 Leipzig\nDeutschland"
+  },
+  {
+    "slug": "weg-de",
+    "name": "BravoNext SA (weg.de)",
+    "adresse": "Vicolo de’ Calvi 2\n6830 Chiasso\nSchweiz"
+  },
+  {
+    "slug": "sonnenklar-tv",
+    "name": "Euvia Travel GmbH (sonnenklar.TV)",
+    "adresse": "Landsberger Str. 88\n80339 München\nDeutschland"
+  },
+  {
+    "slug": "lidl-reisen",
+    "name": "Lidl Digital Trading GmbH & Co. KG",
+    "adresse": "Stiftsbergstraße 1\n74172 Neckarsulm\nDeutschland"
+  },
+  {
+    "slug": "tchibo-reisen",
+    "name": "Tchibo GmbH",
+    "adresse": "Überseering 18\n22297 Hamburg\nDeutschland"
+  },
+  {
+    "slug": "nix-wie-weg",
+    "name": "Nix-wie-weg.de GmbH & Co. KG",
+    "adresse": "Alter Schlachthof 3\n92637 Weiden\nDeutschland"
+  },
+  {
+    "slug": "kurz-mal-weg",
+    "name": "KMW Reisen GmbH (kurz-mal-weg.de)",
+    "adresse": "Stralsunder Str. 10\n04156 Leipzig\nDeutschland"
+  },
+  {
+    "slug": "expedia",
+    "name": "Expedia.com GmbH",
+    "adresse": "Seidlstraße 26\n80335 München\nDeutschland"
+  },
+  {
+    "slug": "booking-com",
+    "name": "Booking.com B.V.",
+    "adresse": "Oosterdokskade 163\n1011 DL Amsterdam\nNiederlande"
+  },
+  {
+    "slug": "lastminute-de",
+    "name": "BravoNext SA (lastminute.de)",
+    "adresse": "Vicolo de’ Calvi 2\n6830 Chiasso\nSchweiz"
+  },
+  {
+    "slug": "reisen-de",
+    "name": "Invia Travel Germany GmbH (reisen.de)",
+    "adresse": "Dittrichring 18-20\n04109 Leipzig\nDeutschland"
+  },
+  {
+    "slug": "opodo",
+    "name": "Vacaciones eDreams, S.L. (Opodo)",
+    "adresse": "Calle de López de Hoyos 35\n28002 Madrid\nSpanien"
+  },
+  {
+    "slug": "edreams",
+    "name": "Vacaciones eDreams, S.L.",
+    "adresse": "Calle de López de Hoyos 35\n28002 Madrid\nSpanien"
+  },
+  {
+    "slug": "urlaubspiraten",
+    "name": "HolidayPirates GmbH",
+    "adresse": "Wallstraße 59-65\n10179 Berlin\nDeutschland"
+  },
+  {
+    "slug": "urlaubsguru",
+    "name": "UNIQ GmbH (Urlaubsguru)",
+    "adresse": "Rhenus Platz 2\n59439 Holzwickede\nDeutschland"
+  },
+  {
+    "slug": "rewe-reisen",
+    "name": "REWE Markt GmbH",
+    "adresse": "Domstraße 20\n50668 Köln\nDeutschland"
+  },
+  {
+    "slug": "penny-reisen",
+    "name": "PENNY-Markt GmbH",
+    "adresse": "Domstraße 20\n50668 Köln\nDeutschland"
+  },
+  {
+    "slug": "netto-urlaub",
+    "name": "Netto Marken-Discount Stiftung & Co. KG",
+    "adresse": "Industriepark Ponholz 1\n93142 Maxhütte-Haidhof\nDeutschland"
+  },
+  {
+    "slug": "secret-escapes",
+    "name": "Secret Escapes GmbH",
+    "adresse": "Reichenberger Str. 124\n10999 Berlin\nDeutschland"
+  },
+  {
+    "slug": "der-reisebuero",
+    "name": "DER Deutsches Reisebüro GmbH & Co. OHG",
+    "adresse": "Emil-von-Behring-Straße 6\n60439 Frankfurt am Main\nDeutschland"
+  },
+  {
+    "slug": "travelscout24",
+    "name": "Triplemind GmbH (TravelScout24)",
+    "adresse": "Berliner Straße 269\n63067 Offenbach am Main\nDeutschland"
+  },
+  {
+    "slug": "tourlane",
+    "name": "Tourlane GmbH",
+    "adresse": "Prinzessinnenstraße 19-20\n10969 Berlin\nDeutschland"
+  },
+  {
+    "slug": "anderer-vermittler",
+    "name": "Ihren Reisevermittler",
+    "adresse": ""
+  }
+]

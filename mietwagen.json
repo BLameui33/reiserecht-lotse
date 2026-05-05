@@ -1,0 +1,130 @@
+[
+  {
+    "slug": "sixt",
+    "name": "Sixt",
+    "schalter_taktik": "Sixt-Mitarbeiter bieten oft sehr aggressiv Reifen- und Scheibenschutz an. Auch Upgrades auf teurere Fahrzeugklassen werden gerne als 'heute besonders günstig' verkauft.",
+    "kaution_hinweis": "Sixt blockt in der Regel mindestens 300 € bis 500 € als Kaution auf Ihrer Kreditkarte, auch bei Prepaid-Buchungen."
+  },
+  {
+    "slug": "europcar",
+    "name": "Europcar",
+    "schalter_taktik": "Bei Europcar wird häufig die sogenannte 'Premium Protection' (Vollkasko ohne Selbstbeteiligung) am Schalter beworben, selbst wenn Sie diese schon über einen Vermittler gebucht haben.",
+    "kaution_hinweis": "Die Kaution (Deposit) wird auf der Kreditkarte geblockt und hängt stark von der gebuchten Fahrzeugklasse ab (oft 300 € - 800 €)."
+  },
+  {
+    "slug": "goldcar",
+    "name": "Goldcar",
+    "schalter_taktik": "Goldcar ist berüchtigt für extrem harte Upselling-Taktiken. Mitarbeitern wird oft eine Provision gezahlt, wenn sie Ihnen die hauseigene 'Super Relax'-Versicherung verkaufen. Sie behaupten oft fälschlicherweise, Drittanbieter-Versicherungen seien nicht gültig.",
+    "kaution_hinweis": "Achtung: Goldcar blockt oft sehr hohe Kautionen (bis zu 1.500 €), wenn Sie deren eigene Versicherung nicht kaufen. Ihre Kreditkarte muss diesen Rahmen hergeben!"
+  },
+  {
+    "slug": "hertz",
+    "name": "Hertz",
+    "schalter_taktik": "Hertz versucht oft, die 'SuperCover' zu verkaufen und bietet an Tankregelungen (z.B. die erste Tankfüllung vorab zu kaufen) zu drehen. Das ist meist ein Verlustgeschäft für Sie.",
+    "kaution_hinweis": "Hertz verlangt zwingend eine physische Kreditkarte (keine Debitkarte!) auf den Namen des Hauptfahrers, um die Kaution zu blocken."
+  },
+  {
+    "slug": "avis",
+    "name": "Avis",
+    "schalter_taktik": "Avis bewirbt am Schalter oft hartnäckig die 'Avis Inclusive' oder zusätzliche Personeninsassenversicherungen. Auch teure Tank-Optionen werden Ihnen routinemäßig als 'bequemer' angeboten.",
+    "kaution_hinweis": "Die Kaution beträgt je nach Fahrzeuggruppe meist den voraussichtlichen Mietpreis plus eine Pauschale von etwa 200 € bis 300 €."
+  },
+  {
+    "slug": "enterprise",
+    "name": "Enterprise",
+    "schalter_taktik": "Die Mitarbeiter sind meist sehr freundlich, versuchen aber dennoch konsequent, kostenpflichtige Upgrades oder die hauseigene 'Excess Protection' (Selbstbeteiligungs-Ausschluss) zu verkaufen.",
+    "kaution_hinweis": "Enterprise blockt in der Regel eine eher moderate Kaution von etwa 250 € bis 300 €, verlangt aber meist zwingend eine vollwertige Kreditkarte."
+  },
+  {
+    "slug": "record-go",
+    "name": "Record Go",
+    "schalter_taktik": "Extrem hohes Frustpotenzial: Lockt mit Spottpreisen online. Am Schalter wird extrem aggressiv die 'Just Go'- oder 'Total Comfort'-Versicherung verkauft, oft einhergehend mit der Androhung horrender Kautionssummen.",
+    "kaution_hinweis": "Wenn Sie die hauseigene Versicherung ablehnen, wird eine extrem hohe Kaution (oft 1.500 € bis 2.000 €) geblockt. Schäden werden bei Rückgabe oft pingelig genau gesucht."
+  },
+  {
+    "slug": "centauro",
+    "name": "Centauro",
+    "schalter_taktik": "Folgt dem gleichen Low-Cost-Muster wie Goldcar: Günstig buchen, teuer am Schalter zahlen. Die hauseigene 'Smart Cover'-Versicherung wird mit allen psychologischen Tricks gepusht.",
+    "kaution_hinweis": "Ohne Abschluss des 'Smart Cover' wird eine Kaution von ca. 1.050 € bis 1.200 € fällig. Debitkarten werden meist nur akzeptiert, wenn man die teure Zusatzversicherung kauft."
+  },
+  {
+    "slug": "ok-mobility",
+    "name": "OK Mobility",
+    "schalter_taktik": "Dieser Anbieter drängt massiv auf den Abschluss des 'Premium Cover'. Die Mitarbeiter warnen eindringlich vor kleinsten Kratzern, die ohne deren Versicherung sehr teuer abgerechnet werden.",
+    "kaution_hinweis": "Blockt extrem hohe Kautionen (teilweise weit über 1.500 €), wenn die hauseigene Versicherung abgelehnt wird. Eine penible Schadensdokumentation per Video vor Abfahrt ist hier absolute Pflicht!"
+  },
+  {
+    "slug": "firefly",
+    "name": "Firefly",
+    "schalter_taktik": "Als Billig-Ableger von Hertz berüchtigt für extrem lange Schlangen und hartnäckiges Upselling. Basisversicherungen von Online-Vermittlern werden oft als 'unzureichend' oder 'kompliziert' schlechtgeredet.",
+    "kaution_hinweis": "Blockt Kautionen von ca. 800 € bis über 1.000 €. Oft werden auch unvorteilhafte Tankregelungen (voll/leer) verkauft, die Ihre Kreditkarte belasten."
+  },
+  {
+    "slug": "clickrent",
+    "name": "ClickRent",
+    "schalter_taktik": "Lockt mit niedrigen Preisen an beliebten Urlaubszielen. Am Schalter wird gerne behauptet, externe Broker-Versicherungen würden bei Pannen nicht helfen, um den hauseigenen 'Relax'-Tarif durchzudrücken.",
+    "kaution_hinweis": "Sehr strenge Kautionsregeln: Es werden oft 1.050 € bis 1.500 € geblockt. Fehlt das Limit auf der vorgelegten Karte, wird man de facto zum Kauf der Versicherung gezwungen."
+  },
+  {
+    "slug": "alamo",
+    "name": "Alamo",
+    "schalter_taktik": "Alamo fokussiert sich stark auf Urlauber und versucht oft, am Schalter die 'Roadside Plus' (Erweiterte Pannenhilfe) sowie Vorab-Tankfüllungen zu völlig überhöhten Preisen zu verkaufen.",
+    "kaution_hinweis": "Die Kaution ist bei Alamo oft verhältnismäßig niedrig, meist wird der voraussichtliche Mietpreis plus ca. 20% bis 30% auf der Kreditkarte geblockt."
+  },
+  {
+    "slug": "budget",
+    "name": "Budget",
+    "schalter_taktik": "Als die günstigere Tochter von Avis versucht Budget, die geringeren Basispreise durch den aggressiven Verkauf von Zusatzversicherungen und GPS-Geräten am Schalter zu kompensieren.",
+    "kaution_hinweis": "Wie bei der Muttergesellschaft Avis wird meist der Mietpreis plus eine Pauschale von ca. 200 € bis 300 € geblockt. Physische Kreditkarte ist zwingend erforderlich."
+  },
+  {
+    "slug": "thrifty",
+    "name": "Thrifty",
+    "schalter_taktik": "Die Hertz-Tochter ist bekannt dafür, am Schalter intensiv ihre teure 'SuperCover' anzubieten, um den Kunden Angst vor der oft hohen regulären Selbstbeteiligung zu machen.",
+    "kaution_hinweis": "Thrifty blockt die Kaution extrem streng auf einer physischen Kreditkarte des Hauptfahrers; Prepaid- oder Debitkarten werden am Schalter fast nie akzeptiert."
+  },
+  {
+    "slug": "sunny-cars",
+    "name": "Sunny Cars",
+    "schalter_taktik": "Vermittler (Broker) ohne eigene Schalter. Das Problem: Der lokale Flottenanbieter versucht oft Versicherungen zu verkaufen, die Sie durch das Sunny Cars 'Alles-inklusive'-Paket bereits haben. Bleiben Sie hart!",
+    "kaution_hinweis": "Sunny Cars selbst verlangt keine Kaution, aber der lokale Vermieter vor Ort blockt eine Kaution. Sunny Cars erstattet Ihnen diese Summe im Schadensfall nach Prüfung zurück."
+  },
+  {
+    "slug": "billiger-mietwagen",
+    "name": "Billiger-Mietwagen",
+    "schalter_taktik": "Ist nur ein Preisvergleich/Vermittler. Am Schalter des lokalen Anbieters wird oft behauptet: 'Wir haben mit Billiger-Mietwagen nichts zu tun, Sie brauchen unsere Versicherung.' Nichts unterschreiben!",
+    "kaution_hinweis": "Die Kaution richtet sich immer nach den AGB des lokalen Anbieters vor Ort (z.B. Avis, Europcar, Goldcar). Sie benötigen zwingend eine Kreditkarte mit ausreichendem Limit auf den Namen des Hauptfahrers."
+  },
+  {
+    "slug": "check24",
+    "name": "Check24",
+    "schalter_taktik": "Check24 ist ein reines Vergleichsportal ohne eigene Mietstationen. Auch wenn Sie hier den Premium-Schutz gebucht haben, versucht der lokale Vermieter bei Abholung oft, eigene Kaskoversicherungen zu verkaufen.",
+    "kaution_hinweis": "Die Kautionshöhe wird ausschließlich vom lokalen Vermieter bestimmt. Wenn Sie über Check24 'Ohne Kaution' buchen, übernimmt oft ein Partner die Bürgschaft – lesen Sie aber genau das Kleingedruckte."
+  },
+  {
+    "slug": "rentalcars",
+    "name": "Rentalcars",
+    "schalter_taktik": "Gehört zu Booking.com. Lokale Vermieter warnen am Schalter oft gezielt davor, dass der 'Vollschutz' von Rentalcars im Schadensfall kompliziert abzuwickeln sei, um Ihnen eine eigene, zweite Police anzudrehen.",
+    "kaution_hinweis": "Kaution wird vom lokalen Partner geblockt. Wichtig: Die von Rentalcars verkaufte Versicherung befreit Sie NICHT von der Kautionspflicht vor Ort!"
+  },
+  {
+    "slug": "auto-europe",
+    "name": "Auto Europe",
+    "schalter_taktik": "Auto Europe ist ein Broker. Das bedeutet, Sie stehen am Schalter von Partnern wie Sixt oder Centauro. Diese werden immer versuchen, Ihnen Upgrades oder Extra-Versicherungen aufzuschwatzen.",
+    "kaution_hinweis": "Kautionsregelungen hängen vom lokalen Partner ab. Auto Europe bietet oft 'Erstattung der Selbstbeteiligung' an – vor Ort muss die Kaution dennoch in voller Höhe hinterlegt werden."
+  },
+  {
+    "slug": "national",
+    "name": "National",
+    "schalter_taktik": "Fokussiert sich eher auf Geschäftsreisende in den USA und Europa. Upselling ist hier oft subtiler, es werden primär teure Fahrzeug-Upgrades in die Premium-Klasse oder Maut-Pakete (Toll Pass) angeboten.",
+    "kaution_hinweis": "Die Kaution ist meist moderat (Mietpreis + ca. 250 €). National akzeptiert an einigen Standorten auch Debitkarten, dann aber oft verbunden mit Versicherungszwang."
+  },
+  
+  {
+    "slug": "allgemeine-autovermietungen",
+    "name": "Autovermietungen",
+    "schalter_taktik": "Egal bei welchem Anbieter: Bleiben Sie standhaft! Vermieter schulen ihr Personal oft darauf, mit Horrorszenarien (z.B. hohe Diebstahlraten) teure Zusatzversicherungen zu verkaufen. Wenn Sie vorab über einen Vermittler eine Vollkasko abgeschlossen haben, reicht das. Unterschreiben Sie nichts, was Sie nicht verstehen.",
+    "kaution_hinweis": "Die wichtigste Regel: Sie benötigen fast immer eine physische, vollwertige Kreditkarte (Credit, nicht Debit!) auf den Namen des Hauptfahrers. Das Limit muss hoch genug sein (oft bis zu 1.500 €). Ohne passende Karte droht am Schalter der Zwangskauf einer teuren Versicherung."
+  }
+
+]

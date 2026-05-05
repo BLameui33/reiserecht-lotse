@@ -1,0 +1,490 @@
+[
+  {
+    "slug": "usa",
+    "name": "USA",
+    "visum_status": "ESTA erforderlich",
+    "pass_monate": 6,
+    "visum_text": "Für die touristische Einreise in die USA benötigen deutsche Staatsbürger zwingend eine elektronische Einreisegenehmigung (ESTA). Diese muss zwingend vor dem Abflug online beantragt werden. Ein reguläres Visum ist nur nötig, wenn Sie länger als 90 Tage bleiben oder bestimmte Kriterien nicht erfüllen.",
+    "affiliate_hinweis": "⚠️ <strong>Kostenfalle:</strong> Die USA gehören nicht zum EU-Roaming. 1 MB Datenvolumen kann bei deutschen Anbietern bis zu 1,50 € kosten. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Sichern Sie sich hier vorab eine USA-eSIM ab 4,50 €.</a>"
+  },
+  {
+    "slug": "aegypten",
+    "name": "Ägypten",
+    "visum_status": "Visum erforderlich (e-Visa oder On-Arrival)",
+    "pass_monate": 6,
+    "visum_text": "Deutsche Staatsangehörige benötigen für die Einreise nach Ägypten ein Visum. Dieses kann als e-Visa vorab online beantragt werden. Alternativ gibt es das 'Visa on Arrival' direkt am Flughafen (oft mit langen Warteschlangen verbunden).",
+    "affiliate_hinweis": "⚠️ <strong>Roaming-Warnung:</strong> In Ägypten ist mobiles Internet extrem teuer. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Installieren Sie hier eine Airalo eSIM für Ägypten und sparen Sie sich hohe Gebühren.</a>"
+  },
+  {
+    "slug": "tuerkei",
+    "name": "Türkei",
+    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "pass_monate": 0,
+    "visum_text": "Für touristische Aufenthalte von bis zu 90 Tagen (innerhalb eines Zeitraums von 180 Tagen) benötigen deutsche Staatsangehörige kein Visum. Die Einreise ist sogar mit dem Personalausweis möglich.",
+    "affiliate_hinweis": "⚠️ <strong>Achtung Smartphone:</strong> Die Türkei fällt aus den meisten EU-Roaming-Tarifen heraus. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Sichern Sie sich hier eine günstige Türkei-eSIM vorab.</a>"
+  },
+  {
+    "slug": "uk",
+    "name": "Großbritannien",
+    "visum_status": "ETA erforderlich",
+    "pass_monate": 0,
+    "visum_text": "Für touristische Aufenthalte bis zu 6 Monaten benötigen Deutsche kein klassisches Visum, jedoch ist die elektronische Einreisegenehmigung (ETA) verpflichtend. Ein gültiger Reisepass ist zwingend erforderlich; der Personalausweis reicht nicht mehr aus.",
+    "affiliate_hinweis": "💡 <strong>Daten-Tipp:</strong> Viele deutsche Anbieter verlangen seit dem Brexit Roaming-Gebühren für UK. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Bleiben Sie hier mit einer UK-eSIM günstig online.</a>"
+  },
+  {
+    "slug": "thailand",
+    "name": "Thailand",
+    "visum_status": "Kein Visum nötig (bis 60 Tage)",
+    "pass_monate": 6,
+    "visum_text": "Für touristische Aufenthalte bis zu 60 Tagen können deutsche Staatsbürger visumfrei einreisen. Der Reisepass muss bei Einreise noch mindestens 6 Monate gültig sein. Ein Weiter- oder Rückflugticket muss ggf. vorgelegt werden.",
+    "affiliate_hinweis": "⚠️ <strong>Kein Roaming:</strong> Surfen in Thailand mit deutscher SIM ist teuer. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Sichern Sie sich hier Ihre Thailand-eSIM für sofortiges Internet nach der Landung.</a>"
+  },
+  {
+    "slug": "australien",
+    "name": "Australien",
+    "visum_status": "eVisitor Visum erforderlich",
+    "pass_monate": 6,
+    "visum_text": "Deutsche benötigen für die Einreise nach Australien zwingend ein Visum. Für Touristen ist das eVisitor Visum (Subclass 651) ideal, das kostenlos online beantragt wird und Aufenthalte bis zu 3 Monaten erlaubt.",
+    "affiliate_hinweis": "💡 <strong>Roadtrip-Tipp:</strong> Australien erkundet man am besten flexibel im eigenen Auto. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Hier Mietwagen-Preise für Australien vergleichen.</a>"
+  },
+  {
+    "slug": "kanada",
+    "name": "Kanada",
+    "visum_status": "eTA erforderlich",
+    "pass_monate": 6,
+    "visum_text": "Wer auf dem Luftweg nach Kanada einreist, benötigt kein Visum, aber zwingend eine elektronische Einreisegenehmigung (eTA). Bei der Einreise über den Landweg (z.B. aus den USA) ist keine eTA erforderlich.",
+    "affiliate_hinweis": "⚠️ <strong>Mietwagen-Tipp:</strong> Buchen Sie Ihren Mietwagen für Kanada unbedingt noch in Deutschland, um volle Versicherungsabdeckung zu haben. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Hier Mietwagen-Preise vergleichen.</a>"
+  },
+  {
+    "slug": "vae",
+    "name": "Vereinigte Arabische Emirate (Dubai)",
+    "visum_status": "Kostenloses Visa on Arrival",
+    "pass_monate": 6,
+    "visum_text": "Deutsche erhalten bei der Einreise in die VAE (z.B. nach Dubai oder Abu Dhabi) kostenlos ein 'Visa on Arrival' in den Pass gestempelt. Dieses berechtigt zu einem Aufenthalt von bis zu 90 Tagen innerhalb von 180 Tagen.",
+    "affiliate_hinweis": "⚠️ <strong>Internet in Dubai:</strong> Umgehen Sie teure Roaming-Kosten und komplizierte Registrierungen vor Ort. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Sichern Sie sich hier eine VAE-eSIM.</a>"
+  },
+  {
+    "slug": "malediven",
+    "name": "Malediven",
+    "visum_status": "Kostenloses Visa on Arrival",
+    "pass_monate": 6,
+    "visum_text": "Für die Malediven ist vorab kein Visum notwendig. Ein 30-tägiges Touristenvisum wird bei der Ankunft am Flughafen kostenlos erteilt. Wichtig: Eine elektronische Einreiseerklärung (IMUGA) muss vor Abflug online ausgefüllt werden.",
+    "affiliate_hinweis": "💡 <strong>Daten-Tipp:</strong> WLAN auf den Inseln ist oft langsam oder teuer. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Bleiben Sie mit einer Malediven-eSIM flexibel online.</a>"
+  },
+  {
+    "slug": "indonesien",
+    "name": "Indonesien",
+    "visum_status": "Visa on Arrival / e-VoA erforderlich",
+    "pass_monate": 6,
+    "visum_text": "Egal ob Sie eine Rundreise planen oder explizit ein Visum für Bali suchen: Für Indonesien ist ein Visum (Visa on Arrival) erforderlich. Dieses können Sie bei Ankunft kaufen oder zur Vermeidung von Wartezeiten als e-VoA online vorab beantragen (30 Tage gültig).",
+    "affiliate_hinweis": "⚠️ <strong>Kostenfalle Roaming:</strong> Ohne lokale SIM-Karte entstehen in Indonesien enorme Kosten. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Hol dir hier vorab deine Indonesien-eSIM.</a>"
+  },
+  {
+    "slug": "vietnam",
+    "name": "Vietnam",
+    "visum_status": "Kein Visum nötig (bis 45 Tage)",
+    "pass_monate": 6,
+    "visum_text": "Deutsche Staatsangehörige können für bis zu 45 Tage visumfrei nach Vietnam einreisen. Wer länger bleiben möchte (bis zu 90 Tage), muss vorab ein e-Visum beantragen.",
+    "affiliate_hinweis": "💡 <strong>Immer online:</strong> In Vietnam ist mobiles Internet für Navigation und Grab-Taxis unverzichtbar. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Hier Vietnam-eSIM vorab sichern.</a>"
+  },
+  {
+    "slug": "sri-lanka",
+    "name": "Sri Lanka",
+    "visum_status": "e-Visa / ETA erforderlich",
+    "pass_monate": 6,
+    "visum_text": "Für Sri Lanka besteht Visumpflicht. Das e-Visum (ETA) sollte zwingend vor der Reise online beantragt werden. Es berechtigt zu einem Aufenthalt von bis zu 30 Tagen.",
+    "affiliate_hinweis": "⚠️ <strong>Kein EU-Tarif:</strong> Sri Lanka gehört zu den teuersten Roaming-Zonen. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Nutzen Sie hier eine günstige eSIM für Sri Lanka.</a>"
+  },
+  {
+    "slug": "suedafrika",
+    "name": "Südafrika",
+    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "pass_monate": 1,
+    "visum_text": "Deutsche benötigen für touristische Aufenthalte von bis zu 90 Tagen kein Visum. Sie erhalten bei Einreise eine Besuchergenehmigung (Visitor's Visa) an der Grenze. Der Pass muss maschinenlesbar sein und mindestens zwei freie Seiten haben.",
+    "affiliate_hinweis": "💡 <strong>Mietwagen für Südafrika:</strong> Für die Garden Route oder Nationalparks ist ein eigener Mietwagen die beste Wahl. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Hier günstige Mietwagen mit Vollkasko vergleichen.</a>"
+  },
+  {
+    "slug": "japan",
+    "name": "Japan",
+    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "pass_monate": 0,
+    "visum_text": "Deutsche können als 'Temporary Visitor' für bis zu 90 Tage visumfrei nach Japan einreisen. Der Reisepass muss lediglich für die Dauer des Aufenthalts gültig sein. Eine vorherige Web-Registrierung (Visit Japan Web) beschleunigt die Einreise.",
+    "affiliate_hinweis": "⚠️ <strong>Mobiles Internet:</strong> Für Übersetzer-Apps und Bahn-Navigation ist mobiles Internet in Japan Pflicht. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Holen Sie sich hier Ihre Japan-eSIM.</a>"
+  },
+  {
+    "slug": "dominikanische-republik",
+    "name": "Dominikanische Republik",
+    "visum_status": "E-Ticket erforderlich (Kein Visum)",
+    "pass_monate": 6,
+    "visum_text": "Für einen touristischen Aufenthalt bis zu 30 Tagen benötigen Deutsche kein Visum. Es muss jedoch zwingend ein kostenloses elektronisches Formular (E-Ticket) für Ein- und Ausreise online ausgefüllt werden.",
+    "affiliate_hinweis": "⚠️ <strong>Roaming-Gefahr:</strong> In der Karibik sind deutsche Mobilfunktarife extrem teuer. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Sichern Sie sich hier Ihre DomRep-eSIM.</a>"
+  },
+  {
+    "slug": "mexiko",
+    "name": "Mexiko",
+    "visum_status": "Kein Visum nötig (bis 180 Tage)",
+    "pass_monate": 6,
+    "visum_text": "Die Einreise für deutsche Touristen ist ohne Visum möglich. Bei der Ankunft kann ein Aufenthalt von bis zu 180 Tagen gewährt werden. Manchmal wird am Flughafen eine Touristenkarte (FMM) ausgefüllt, oft geschieht dies mittlerweile digital.",
+    "affiliate_hinweis": "💡 <strong>Überall Internet:</strong> Egal ob in Cancun oder Tulum – bleiben Sie ohne Roaming-Gebühren online. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Hier Mexiko-eSIM aktivieren.</a>"
+  },
+  {
+    "slug": "kuba",
+    "name": "Kuba",
+    "visum_status": "Touristenkarte erforderlich",
+    "pass_monate": 6,
+    "visum_text": "Für Kuba benötigen Sie eine Touristenkarte (Tarjeta del Turista) anstelle eines klassischen Visums, gültig für 90 Tage. Außerdem ist der Nachweis einer gültigen Auslandskrankenversicherung (auf Spanisch oder Englisch) zwingend vorgeschrieben.",
+    "affiliate_hinweis": "💡 <strong>Daten-Plan:</strong> WLAN in Kuba ist oft kompliziert. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Informieren Sie sich hier über Reise-eSIMs für Kuba, um vernetzt zu bleiben.</a>"
+  },
+  {
+    "slug": "brasilien",
+    "name": "Brasilien",
+    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "pass_monate": 6,
+    "visum_text": "Deutsche Touristen können für maximal 90 Tage im Halbjahr visumfrei nach Brasilien einreisen. Bei der Einreise muss ein Rück- oder Weiterflugticket sowie ein Nachweis über ausreichende finanzielle Mittel vorgelegt werden können.",
+    "affiliate_hinweis": "⚠️ <strong>Roaming-Warnung:</strong> Roaming-Kosten in Brasilien sind extrem hoch. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Brasilien-eSIM hier kaufen und sofort surfen.</a>"
+  },
+  {
+    "slug": "costa-rica",
+    "name": "Costa Rica",
+    "visum_status": "Kein Visum nötig (bis 180 Tage)",
+    "pass_monate": 6,
+    "visum_text": "Keine Visumpflicht für Deutsche. Bei der Einreise können bis zu 180 Tage Aufenthalt gewährt werden. Zwingend erforderlich ist ein Ticket für den Rück- oder Weiterflug (Bus- oder Flugticket).",
+    "affiliate_hinweis": "💡 <strong>Mietwagen in Costa Rica:</strong> Für die Nationalparks und unbefestigte Wege empfiehlt sich ein 4x4-Fahrzeug. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Hier 4x4-Mietwagen für Costa Rica vergleichen.</a>"
+  },
+  {
+    "slug": "neuseeland",
+    "name": "Neuseeland",
+    "visum_status": "NZeTA erforderlich",
+    "pass_monate": 3,
+    "visum_text": "Deutsche benötigen für Aufenthalte bis zu 3 Monaten kein Visum, aber zwingend die elektronische Einreisegenehmigung (NZeTA). Zusammen mit der NZeTA wird automatisch eine Touristenabgabe (IVL) erhoben.",
+    "affiliate_hinweis": "💡 <strong>Roadtrip-Paradies:</strong> Erkunden Sie Neuseeland im eigenen Camper oder Auto. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Hier Mietwagen in Neuseeland buchen.</a>"
+  },
+  {
+    "slug": "philippinen",
+    "name": "Philippinen",
+    "visum_status": "Kein Visum nötig (bis 30 Tage)",
+    "pass_monate": 6,
+    "visum_text": "Für einen Aufenthalt von bis zu 30 Tagen benötigen deutsche Staatsbürger kein Visum. Zwingend vorgeschrieben ist ein gültiges Rück- oder Weiterflugticket sowie die elektronische Registrierung (eTravel) vor Abflug.",
+    "affiliate_hinweis": "⚠️ <strong>Roaming-Warnung:</strong> Surfen auf den Philippinen kann mit deutschen SIMs sehr teuer werden. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Sichern Sie sich hier eine Philippinen-eSIM.</a>"
+  },
+  {
+    "slug": "malaysia",
+    "name": "Malaysia",
+    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "pass_monate": 6,
+    "visum_text": "Visumfreie Einreise für Deutsche für bis zu 90 Tage. Achtung: Seit 2024 ist das Ausfüllen der digitalen Ankunftskarte (MDAC - Malaysia Digital Arrival Card) innerhalb von 3 Tagen vor Ankunft verpflichtend.",
+    "affiliate_hinweis": "⚠️ <strong>Internet-Verbindung:</strong> WLAN gibt es in Hotels, unterwegs jedoch selten. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Vermeiden Sie teures Roaming mit einer eSIM für Malaysia.</a>"
+  },
+  {
+    "slug": "singapur",
+    "name": "Singapur",
+    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "pass_monate": 6,
+    "visum_text": "Für Singapur benötigen Sie als Tourist kein Visum. Sie müssen jedoch zwingend bis zu 3 Tage vor Ankunft die 'SG Arrival Card' online ausfüllen, in der Gesundheits- und Reiseinfos abgefragt werden.",
+    "affiliate_hinweis": "💡 <strong>Schnell & Günstig:</strong> Singapur ist perfekt vernetzt, aber Roaming ist teuer. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Holen Sie sich hier eine günstige eSIM für Singapur.</a>"
+  },
+  {
+    "slug": "suedkorea",
+    "name": "Südkorea",
+    "visum_status": "K-ETA erforderlich",
+    "pass_monate": 6,
+    "visum_text": "Visumfreie Einreise bis 90 Tage. Allerdings ist die elektronische Reisegenehmigung (K-ETA) zwingend erforderlich und muss vor Abflug online genehmigt sein. Sie erspart auch das Ausfüllen der Ankunftskarte im Flugzeug.",
+    "affiliate_hinweis": "⚠️ <strong>Navigation in Korea:</strong> Google Maps funktioniert kaum. Nutzen Sie lokale Apps mit mobilem Internet. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Südkorea-eSIM hier buchen.</a>"
+  },
+  {
+    "slug": "china",
+    "name": "China",
+    "visum_status": "Visumfrei (bis 15 Tage) / sonst Visum",
+    "pass_monate": 6,
+    "visum_text": "Dank einer Sonderregelung können Deutsche aktuell für touristische Aufenthalte bis zu 15 Tagen visumfrei einreisen. Für Aufenthalte über 15 Tage muss zwingend vorab ein klassisches Visum bei einem Visa Application Service Center beantragt werden.",
+    "affiliate_hinweis": "💡 <strong>Daten-Tipp:</strong> Umgehen Sie Roaming-Kosten und bleiben Sie in China vernetzt. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Hier China-eSIM vorab sichern.</a>"
+  },
+  {
+    "slug": "indien",
+    "name": "Indien",
+    "visum_status": "e-Visa erforderlich",
+    "pass_monate": 6,
+    "visum_text": "Die Einreise ist nur mit einem gültigen Visum möglich. Für Touristen wird das e-Visa empfohlen, das vorab online beantragt wird. Der Reisepass muss mindestens zwei freie Seiten haben.",
+    "affiliate_hinweis": "⚠️ <strong>Internet-Kosten:</strong> Roaming in Indien ist für deutsche Tarife sehr kostspielig. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Nutzen Sie hier eine preiswerte eSIM für Indien.</a>"
+  },
+  {
+    "slug": "kenia",
+    "name": "Kenia",
+    "visum_status": "eTA erforderlich",
+    "pass_monate": 6,
+    "visum_text": "Kenia hat das Visum abgeschafft, fordert nun aber von allen Reisenden (auch Kindern) zwingend eine elektronische Einreisegenehmigung (eTA). Diese muss rechtzeitig vor Abflug online beantragt werden.",
+    "affiliate_hinweis": "💡 <strong>Safari-Vernetzt:</strong> Teilen Sie Ihre Safari-Erlebnisse direkt von unterwegs. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Sichern Sie sich hier eine eSIM für Kenia.</a>"
+  },
+  {
+    "slug": "tansania",
+    "name": "Tansania (Zanzibar)",
+    "visum_status": "Visum / e-Visa erforderlich",
+    "pass_monate": 6,
+    "visum_text": "Deutsche benötigen für Tansania und das beliebte Zanzibar ein Visum. Das e-Visum sollte spätestens 10 Tage vor der Abreise online beantragt werden. Ein 'Visa on Arrival' ist möglich, kann aber zu langen Wartezeiten führen.",
+    "affiliate_hinweis": "⚠️ <strong>Roaming-Schutz:</strong> Tansania gehört nicht zum EU-Roaming. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Holen Sie sich hier Ihre eSIM für Tansania und Zanzibar.</a>"
+  },
+  {
+    "slug": "seychellen",
+    "name": "Seychellen",
+    "visum_status": "Travel Authorization erforderlich",
+    "pass_monate": 0,
+    "visum_text": "Für die Seychellen besteht keine Visumpflicht. Vor dem Abflug muss jedoch zwingend eine kostenpflichtige Einreisegenehmigung (Travel Authorization) online eingeholt werden. Der Pass muss mindestens bis zur Ausreise gültig sein.",
+    "affiliate_hinweis": "💡 <strong>Insel-Internet:</strong> Bleiben Sie auf allen Inseln günstig vernetzt. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Sichern Sie sich hier Ihre Seychellen-eSIM.</a>"
+  },
+  {
+    "slug": "mauritius",
+    "name": "Mauritius",
+    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "pass_monate": 0,
+    "visum_text": "Keine Visumpflicht. Deutsche Staatsangehörige können bis zu 90 Tage einreisen. Der Reisepass muss über das Reiseende hinaus gültig sein. Ein Weiter- oder Rückflugticket sowie eine Hotelbuchung müssen vorgelegt werden.",
+    "affiliate_hinweis": "⚠️ <strong>Mobiles Internet:</strong> EU-Roaming gilt auf Mauritius nicht. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Sichern Sie sich hier vorab eine Mauritius-eSIM.</a>"
+  },
+  {
+    "slug": "marokko",
+    "name": "Marokko",
+    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "pass_monate": 0,
+    "visum_text": "Für touristische Zwecke können Deutsche bis zu 90 Tage ohne Visum nach Marokko einreisen. Der Reisepass muss für die gesamte Dauer des Aufenthalts gültig sein (Empfehlung: 6 Monate).",
+    "affiliate_hinweis": "💡 <strong>Navigation:</strong> Für Roadtrips durch das Atlasgebirge ist mobiles Internet essenziell. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Hier Marokko-eSIM ab 6 € sichern.</a>"
+  },
+  {
+    "slug": "tunesien",
+    "name": "Tunesien",
+    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "pass_monate": 6,
+    "visum_text": "Keine Visumpflicht für Pauschaltouristen und Individualreisende aus Deutschland bis zu 90 Tagen. Die Einreise mit dem Personalausweis ist nur im Rahmen einer organisierten Pauschalreise inkl. Flug- und Hotelbuchung möglich, ansonsten ist der Reisepass nötig.",
+    "affiliate_hinweis": "⚠️ <strong>Roaming-Warnung:</strong> Tunesien liegt außerhalb der EU-Roaming-Zone. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Sichern Sie sich hier vorab eine Tunesien-eSIM.</a>"
+  },
+  {
+    "slug": "oman",
+    "name": "Oman",
+    "visum_status": "Visumfrei bis 14 Tage / sonst e-Visa",
+    "pass_monate": 6,
+    "visum_text": "Für Aufenthalte von bis zu 14 Tagen benötigen Deutsche kein Visum mehr. Wer länger bleiben möchte, muss zwingend vorab ein e-Visa online beantragen. Eine Hotelbuchung und ein Rückflugticket müssen vorliegen.",
+    "affiliate_hinweis": "💡 <strong>Überall online:</strong> Nutzen Sie mobiles Internet für die Navigation in der Wüste. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Holen Sie sich hier Ihre Oman-eSIM.</a>"
+  },
+  {
+    "slug": "katar",
+    "name": "Katar (Doha)",
+    "visum_status": "Kostenloses Visa on Arrival",
+    "pass_monate": 6,
+    "visum_text": "Deutsche Staatsangehörige erhalten bei der Einreise ein kostenloses 'Visa Waiver' (Visa on Arrival), welches für Aufenthalte von bis zu 90 Tagen innerhalb eines Zeitraums von 180 Tagen gültig ist.",
+    "affiliate_hinweis": "⚠️ <strong>Internet beim Stopover:</strong> Bleiben Sie auch bei kurzen Aufenthalten in Doha günstig vernetzt. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Installieren Sie eine Katar-eSIM.</a>"
+  },
+  {
+    "slug": "saudi-arabien",
+    "name": "Saudi-Arabien",
+    "visum_status": "e-Visa / Visa on Arrival",
+    "pass_monate": 6,
+    "visum_text": "Deutsche Touristen können ein e-Visum vorab online beantragen oder ein 'Visa on Arrival' bei der Ankunft erhalten. Das Visum ist ein Jahr gültig und erlaubt mehrfache Einreisen (bis max. 90 Tage am Stück).",
+    "affiliate_hinweis": "💡 <strong>Daten-Tipp:</strong> Vermeiden Sie teure Roaming-Tarife in Saudi-Arabien. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Hier günstige Saudi-Arabien-eSIM sichern.</a>"
+  },
+  {
+    "slug": "jordanien",
+    "name": "Jordanien",
+    "visum_status": "Visum erforderlich (Oft via Jordan Pass)",
+    "pass_monate": 6,
+    "visum_text": "Visumpflicht. Das Visum kann oft bei der Einreise am Flughafen ausgestellt werden. Bleiben Sie länger als 3 Nächte, empfiehlt sich der Kauf des 'Jordan Pass' vor der Reise: Dieser erlässt die Visumgebühr und beinhaltet den Eintritt nach Petra.",
+    "affiliate_hinweis": "⚠️ <strong>Roaming-Warnung:</strong> Mobiles Internet in Jordanien ist ohne lokale Lösung teuer. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Sichern Sie sich hier eine Jordanien-eSIM.</a>"
+  },
+  {
+    "slug": "jamaika",
+    "name": "Jamaika",
+    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "pass_monate": 6,
+    "visum_text": "Für einen touristischen Aufenthalt bis zu 90 Tagen benötigen Deutsche kein Visum. Es muss jedoch zwingend ein Einreiseformular (Online Passenger Declaration) kostenlos vor Abflug ausgefüllt werden.",
+    "affiliate_hinweis": "⚠️ <strong>Karibik-Internet:</strong> Telefonieren und Surfen auf Jamaika ist mit deutschen SIM-Karten sündhaft teuer. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Laden Sie sich eine eSIM auf Ihr Smartphone.</a>"
+  },
+  {
+    "slug": "peru",
+    "name": "Peru",
+    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "pass_monate": 6,
+    "visum_text": "Für Peru gilt keine Visumpflicht. Deutsche Touristen erhalten bei der Einreise in der Regel eine Aufenthaltsgenehmigung für 90 Tage (im Halbjahr). Ein Weiter- oder Rückflugticket muss vorgezeigt werden.",
+    "affiliate_hinweis": "💡 <strong>Vernetzen in Peru:</strong> Bleiben Sie auch in den Anden online. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Sichern Sie sich hier eine eSIM für Peru.</a>"
+  },
+  {
+    "slug": "kolumbien",
+    "name": "Kolumbien",
+    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "pass_monate": 6,
+    "visum_text": "Visumfreie Einreise für Deutsche für bis zu 90 Tage. Zwingend vorgeschrieben ist das Ausfüllen des Online-Einreiseformulars 'Check-MIG' innerhalb von 72 Stunden vor dem Abflug.",
+    "affiliate_hinweis": "⚠️ <strong>Roaming-Schutz:</strong> Kolumbien liegt weit außerhalb der EU-Tarife. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Hier Kolumbien-eSIM ab wenigen Euro kaufen.</a>"
+  },
+  {
+    "slug": "argentinien",
+    "name": "Argentinien",
+    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "pass_monate": 0,
+    "visum_text": "Keine Visumpflicht für deutsche Staatsbürger bis zu 90 Tagen. Der Reisepass muss für die gesamte Dauer des geplanten Aufenthalts gültig sein. Oft wird bei der Einreise ein Nachweis über die Weiter- oder Rückreise verlangt.",
+    "affiliate_hinweis": "⚠️ <strong>Patagonien Roadtrip:</strong> Die Strecken in Argentinien sind riesig. Ein guter Mietwagen ist essenziell. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Finden Sie hier verlässliche Mietwagen für Südamerika.</a>"
+  },
+  {
+    "slug": "chile",
+    "name": "Chile",
+    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "pass_monate": 6,
+    "visum_text": "Für touristische Aufenthalte bis zu 90 Tagen wird kein Visum benötigt. Bei der Einreise erhalten Sie eine Touristenkarte (Tarjeta de Turismo), die Sie bis zur Ausreise sorgfältig aufbewahren müssen.",
+    "affiliate_hinweis": "💡 <strong>Mietwagen in Südamerika:</strong> Chile eignet sich perfekt für Roadtrips (z.B. auf der Carretera Austral). <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Finden Sie hier den passenden Mietwagen.</a>"
+  },
+  {
+    "slug": "ecuador",
+    "name": "Ecuador",
+    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "pass_monate": 6,
+    "visum_text": "Deutsche können für bis zu 90 Tage visumfrei nach Ecuador (inklusive Galapagos-Inseln) einreisen. Ein Weiter- oder Rückflugticket muss bei Einreise vorgezeigt werden können.",
+    "affiliate_hinweis": "💡 <strong>Überall online:</strong> Bleiben Sie auch auf den Galapagos-Inseln vernetzt. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Sichern Sie sich hier eine eSIM für Ecuador.</a>"
+  },
+  {
+    "slug": "bolivien",
+    "name": "Bolivien",
+    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "pass_monate": 6,
+    "visum_text": "Die Einreise ist für bis zu 90 Tage visumfrei. Bei der Ankunft erhalten Touristen zunächst meist einen Stempel für 30 Tage, der im Land bei der Migrationsbehörde kostenlos auf 90 Tage verlängert werden kann.",
+    "affiliate_hinweis": "⚠️ <strong>Roaming-Warnung:</strong> Vermeiden Sie hohe Gebühren für mobiles Internet in Bolivien. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Holen Sie sich hier eine Bolivien-eSIM.</a>"
+  },
+  {
+    "slug": "panama",
+    "name": "Panama",
+    "visum_status": "Kein Visum nötig (bis 180 Tage)",
+    "pass_monate": 3,
+    "visum_text": "Keine Visumpflicht für Deutsche. Bei Ankunft wird oft eine Aufenthaltsgenehmigung für bis zu 180 Tage erteilt. Der Pass muss bei Einreise noch mindestens 3 Monate gültig sein. Ein Ausreiseticket ist Pflicht.",
+    "affiliate_hinweis": "⚠️ <strong>Internet in Mittelamerika:</strong> Sparen Sie sich die Suche nach lokalen SIM-Karten. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Mit dieser Panama-eSIM sind Sie sofort online.</a>"
+  },
+  {
+    "slug": "guatemala",
+    "name": "Guatemala",
+    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "pass_monate": 6,
+    "visum_text": "Einreise ohne Visum für bis zu 90 Tage möglich (gilt für den gesamten C4-Raum). Wer auf dem Landweg einreist, wird an der Grenze manchmal zur Zahlung einer kleinen, inoffiziellen Bearbeitungsgebühr aufgefordert.",
+    "affiliate_hinweis": "💡 <strong>Vernetzen in Guatemala:</strong> Nutzen Sie Google Maps ohne teure Roaming-Gebühren. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Sichern Sie sich hier eine eSIM für Guatemala.</a>"
+  },
+  {
+    "slug": "bahamas",
+    "name": "Bahamas",
+    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "pass_monate": 6,
+    "visum_text": "Deutsche Staatsangehörige benötigen für einen touristischen Aufenthalt von bis zu 90 Tagen kein Visum. Ein Rück- oder Weiterflugticket ist bei der Einreise jedoch zwingend vorzulegen.",
+    "affiliate_hinweis": "⚠️ <strong>Hohe Roaming-Kosten:</strong> Die Karibik gehört zu den teuersten Roaming-Zonen. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Sichern Sie sich hier vorab eine Bahamas-eSIM.</a>"
+  },
+  {
+    "slug": "barbados",
+    "name": "Barbados",
+    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "pass_monate": 6,
+    "visum_text": "Visumfreie Einreise für bis zu 90 Tage. Zwingend erforderlich ist das Ausfüllen des kostenlosen Online-Einreiseformulars (ED Card) innerhalb von 72 Stunden vor der Ankunft, um die Einreise zu beschleunigen.",
+    "affiliate_hinweis": "💡 <strong>Daten-Tipp:</strong> Bleiben Sie am Strand von Barbados günstig online. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Hier Barbados-eSIM aktivieren.</a>"
+  },
+  {
+    "slug": "namibia",
+    "name": "Namibia",
+    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "pass_monate": 6,
+    "visum_text": "Für Aufenthalte bis zu 90 Tagen im Kalenderjahr ist für deutsche Touristen kein Visum erforderlich. Der Reisepass muss jedoch zwingend noch mindestens 6 Monate über das Rückreisedatum hinaus gültig sein.",
+    "affiliate_hinweis": "💡 <strong>Safari-Fahrzeuge:</strong> Für Namibia ist ein robuster Mietwagen (meist 4x4) unerlässlich. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Sichern Sie sich Ihr Fahrzeug hier frühzeitig.</a>"
+  },
+  {
+    "slug": "botswana",
+    "name": "Botswana",
+    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "pass_monate": 6,
+    "visum_text": "Deutsche erhalten an den Grenzübergängen oder Flughäfen kostenlos eine Einreisegenehmigung (Visitor's Pass) für maximal 90 Tage im Kalenderjahr. Rück- oder Weiterflugticket ist vorzuweisen.",
+    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Botswana lässt sich hervorragend als Selbstfahrer erkunden. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Hier Mietwagen für Botswana vergleichen.</a>"
+  },
+  {
+    "slug": "uganda",
+    "name": "Uganda",
+    "visum_status": "e-Visa erforderlich",
+    "pass_monate": 6,
+    "visum_text": "Für Uganda besteht strikte Visumpflicht. Das Visum muss zwingend vor der Einreise als elektronisches e-Visa online beantragt werden. Zudem ist der Nachweis einer Gelbfieberimpfung für die Einreise vorgeschrieben.",
+    "affiliate_hinweis": "⚠️ <strong>Roaming-Schutz:</strong> Mobiles Internet ist in Uganda für Touristen ohne lokale Karte teuer. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Sichern Sie sich hier Ihre Uganda-eSIM.</a>"
+  },
+  {
+    "slug": "madagaskar",
+    "name": "Madagaskar",
+    "visum_status": "e-Visa oder Visa on Arrival",
+    "pass_monate": 6,
+    "visum_text": "Deutsche benötigen ein Visum. Dieses kann vorab als e-Visa oder bei der Ankunft am Flughafen (Visa on Arrival) erworben werden. Die Aufenthaltsdauer beträgt wahlweise 15, 30 oder 60 Tage (unterschiedliche Gebühren).",
+    "affiliate_hinweis": "⚠️ <strong>Navigation & Internet:</strong> Das Straßennetz ist abenteuerlich und WLAN selten. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Installieren Sie vorab eine Madagaskar-eSIM für Notfälle.</a>"
+  },
+  {
+    "slug": "kap-verde",
+    "name": "Kap Verde (Kapverden)",
+    "visum_status": "EASE-Registrierung (Kein Visum)",
+    "pass_monate": 6,
+    "visum_text": "Für Aufenthalte bis zu 30 Tagen benötigen Deutsche kein Visum. Sie müssen sich jedoch bis spätestens 5 Tage vor Reiseantritt online über die offizielle EASE-Plattform registrieren und die Flughafensicherheitssteuer (TSA) bezahlen.",
+    "affiliate_hinweis": "💡 <strong>Immer vernetzt:</strong> Bleiben Sie auf den Inseln günstig online. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Sichern Sie sich hier Ihre Kapverden-eSIM.</a>"
+  },
+  {
+    "slug": "georgien",
+    "name": "Georgien",
+    "visum_status": "Kein Visum nötig (bis 1 Jahr)",
+    "pass_monate": 0,
+    "visum_text": "Georgien hat eine der großzügigsten Einreiseregelungen weltweit: Deutsche Staatsangehörige können sich mit dem Reisepass (oder sogar dem Personalausweis) bis zu einem vollen Jahr visumfrei im Land aufhalten.",
+    "affiliate_hinweis": "⚠️ <strong>Internet in Georgien:</strong> Georgien gehört nicht zum EU-Roaming. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Kaufen Sie hier eine eSIM für Georgien für Ihre Wanderungen.</a>"
+  },
+  {
+    "slug": "kambodscha",
+    "name": "Kambodscha",
+    "visum_status": "e-Visa oder Visa on Arrival",
+    "pass_monate": 6,
+    "visum_text": "Es besteht Visumpflicht. Touristen können entweder vorab das elektronische e-Visa beantragen (empfohlen) oder am Flughafen/an den Grenzübergängen das Visa on Arrival erwerben. Hierfür werden Passfotos und US-Dollar in bar benötigt.",
+    "affiliate_hinweis": "💡 <strong>Daten-Tipp:</strong> Bleiben Sie bei den Tempeln von Angkor online. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Hier Kambodscha-eSIM vorab buchen.</a>"
+  },
+  {
+    "slug": "laos",
+    "name": "Laos",
+    "visum_status": "e-Visa oder Visa on Arrival",
+    "pass_monate": 6,
+    "visum_text": "Einreise ist nur mit Visum möglich. Sie können das Visum als e-Visa online beantragen oder als Visa on Arrival vor Ort erhalten. Für das On-Arrival-Visum brauchen Sie Passfotos und US-Dollar.",
+    "affiliate_hinweis": "⚠️ <strong>Roaming-Warnung:</strong> Mobiles Internet in Laos kann für deutsche Urlauber teuer werden. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Sichern Sie sich hier eine günstige eSIM für Laos.</a>"
+  },
+  {
+    "slug": "taiwan",
+    "name": "Taiwan",
+    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "pass_monate": 6,
+    "visum_text": "Deutsche Staatsangehörige können für touristische Aufenthalte von bis zu 90 Tagen visumfrei nach Taiwan einreisen. Ein bestätigtes Rück- oder Weiterflugticket ist auf Verlangen vorzulegen.",
+    "affiliate_hinweis": "💡 <strong>Daten-Tipp:</strong> Taiwan bietet exzellentes mobiles Internet, aber Roaming ist teuer. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Sichern Sie sich hier Ihre Taiwan-eSIM.</a>"
+  },
+  {
+    "slug": "nepal",
+    "name": "Nepal",
+    "visum_status": "Visa on Arrival (Online-Registrierung)",
+    "pass_monate": 6,
+    "visum_text": "Touristen benötigen ein Visum, das unkompliziert als Visa on Arrival am Flughafen in Kathmandu erteilt wird. Um Zeit zu sparen, muss das zwingende Online-Antragsformular bereits vor der Abreise elektronisch ausgefüllt werden.",
+    "affiliate_hinweis": "⚠️ <strong>Roaming-Kosten:</strong> Im Himalaya ist mobiles Internet ohne lokale Lösung sehr teuer. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Hier Nepal-eSIM für Trekking-Touren sichern.</a>"
+  },
+  {
+    "slug": "usbekistan",
+    "name": "Usbekistan",
+    "visum_status": "Kein Visum nötig (bis 30 Tage)",
+    "pass_monate": 6,
+    "visum_text": "Für touristische Aufenthalte von bis zu 30 Tagen ist für deutsche Staatsangehörige kein Visum mehr erforderlich. Wichtig: Innerhalb von 3 Tagen nach der Ankunft muss man sich registrieren lassen (übernimmt in der Regel das Hotel).",
+    "affiliate_hinweis": "💡 <strong>Vernetzen an der Seidenstraße:</strong> Bleiben Sie auch in Samarkand und Buchara online. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Hier eSIM für Usbekistan buchen.</a>"
+  },
+  {
+    "slug": "fidschi",
+    "name": "Fidschi",
+    "visum_status": "Kein Visum nötig (bis 4 Monate)",
+    "pass_monate": 6,
+    "visum_text": "Deutsche erhalten bei der Ankunft eine kostenlose Besuchergenehmigung (Visitor Permit) für bis zu 4 Monate in den Pass gestempelt. Zwingend erforderlich ist ein Rück- oder Weiterflugticket und der Nachweis über ausreichende Geldmittel.",
+    "affiliate_hinweis": "⚠️ <strong>Kostenfalle:</strong> Roaming-Gebühren auf Fidschi sind astronomisch. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#d32f2f;'>Mit dieser Fidschi-eSIM bleiben Sie günstig erreichbar.</a>"
+  },
+  {
+    "slug": "armenien",
+    "name": "Armenien",
+    "visum_status": "Kein Visum nötig (bis 180 Tage)",
+    "pass_monate": 5,
+    "visum_text": "Deutsche können für einen Aufenthalt von bis zu 180 Tagen innerhalb eines Kalenderjahres visumfrei nach Armenien einreisen. Der Reisepass muss bei Einreise noch mindestens 5 Monate gültig sein.",
+    "affiliate_hinweis": "💡 <strong>Daten-Tipp:</strong> Bleiben Sie in Armenien ohne Roaming-Gebühren online. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Sichern Sie sich hier Ihre eSIM für Armenien.</a>"
+  },
+  {
+    "slug": "anderes-land-allgemein",
+    "name": "Anderes Reiseland (Allgemeine Bestimmungen)",
+    "visum_status": "Bitte Bestimmungen individuell prüfen",
+    "pass_monate": 6,
+    "visum_text": "Für dieses Reiseziel liegen uns aktuell keine spezifischen Daten vor. Bitte prüfen Sie die Einreisebestimmungen auf der Seite des Auswärtigen Amtes. Als Faustregel gilt weltweit: Ihr Reisepass sollte noch mindestens 6 Monate gültig sein.",
+    "affiliate_hinweis": "💡 <strong>Weltweit online:</strong> Egal wo die Reise hingeht – sparen Sie sich teure Roaming-Kosten mit einer globalen eSIM. <a href='[[REISE_AFFILIATE_LINK]]' style='color:#0056b3;'>Hier weltweite eSIM-Tarife ansehen.</a>"
+  }
+]

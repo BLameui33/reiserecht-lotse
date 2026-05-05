@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Gepäckverlust & Beschädigung: Rechte & Schadenersatz einfordern</title>
+  <meta name="description" content="Koffer weg oder kaputt? Erfahren Sie Ihre Rechte nach dem Montrealer Übereinkommen und fordern Sie bis zu 1.600 € Entschädigung. Inkl. Musterbrief-Generator.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & Internationalisierung -->
+  <link rel="canonical" href="https://www.fix-my-trip.com/de/gepaeck-info.html">
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/gepaeck-info.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/gepaeck-info.html">
+
+  <!-- Bibliothek für die PDF-Generierung aus HTML -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- FAQ Schema.org JSON-LD für Rich Snippets -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Was muss ich sofort tun, wenn mein Koffer fehlt oder kaputt ist?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Melden Sie den Verlust oder Schaden noch VOR Verlassen des Sicherheitsbereichs am Gepäckermittlungsschalter (Lost & Found). Dort müssen Sie zwingend den sogenannten PIR (Property Irregularity Report) ausfüllen. Ohne diesen Beleg ist es extrem schwer, später Ansprüche geltend zu machen."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Wie viel Entschädigung steht mir bei Gepäckproblemen zu?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gemäß dem Montrealer Übereinkommen haftet die Fluggesellschaft bis zu einem Höchstbetrag von ca. 1.288 Sonderziehungsrechten (SZR). Das entspricht aktuell etwa 1.500 bis 1.600 Euro pro Passagier. Dies gilt für den Wert des Koffers und den nachweisbaren Inhalt."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Darf ich Ersatzkleidung kaufen, wenn mein Koffer verspätet ist?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Sie dürfen notwendige Ersatzkäufe tätigen (z.B. Hygieneartikel, Unterwäsche, einfache Kleidung). Die Käufe müssen jedoch verhältnismäßig sein (keine Luxusmarken) und Sie müssen alle Kassenbons aufheben, um das Geld von der Airline zurückzufordern."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Welche Fristen gelten für die Schadensmeldung?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Achtung, die Fristen sind streng! Bei beschädigtem Gepäck müssen Sie die schriftliche Forderung (inkl. Rechnungen) spätestens 7 Tage nach Erhalt des Koffers bei der Airline einreichen. Bei verspätetem Gepäck haben Sie 21 Tage ab dem Zeitpunkt Zeit, an dem Sie den Koffer wieder in Empfang genommen haben."
+      }
+    }]
+  }
+  </script>
+
+  
+</head>
+<body>
+
+<header class="site-header" style="padding: 20px 0; border-bottom: 2px solid #eee; margin-bottom: 30px;">
+  <a href="index.html" style="font-size: 1.5em; font-weight: bold; text-decoration: none;">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Gepäckverlust & Beschädigung: So erhalten Sie Schadenersatz</h1>
+  
+  <p>Sie warten vergeblich am Gepäckband oder Ihr Koffer kommt völlig demoliert an? Das ist nicht nur ärgerlich, sondern verursacht auch unvorhergesehene Kosten. Glücklicherweise sind Ihre Rechte hierbei international durch das <strong>Montrealer Übereinkommen</strong> stark geregelt. Fluggesellschaften haften bei Verspätung, Beschädigung oder Verlust von aufgegebenem Reisegepäck mit bis zu ca. <strong>1.600 € pro Passagier</strong>.</p>
+  
+  <p>Der wichtigste Schlüssel zum Erfolg ist hierbei die sofortige Dokumentation vor Ort und die strikte Einhaltung der Meldefristen. Mit unseren Formularen machen Sie Ihre Ansprüche auf Ersatzkäufe oder den Wertverlust Ihres Gepäcks ganz einfach geltend.</p>
+
+  <!-- DAS IST DER MAGISCHE BEREICH FÜR DIE INTERNE VERLINKUNG -->
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Forderungsschreiben generieren</h2>
+    <p>Wählen Sie Ihre Fluggesellschaft aus, um das exakt passende Formular für Ihren Gepäckschaden oder Verlust zu erstellen (100% kostenlos):</p>
+    
+    <select id="airlineSelect">
+      <option value="">-- Bitte Fluggesellschaft wählen --</option>
+      {{GEPAECK_OPTIONS}}
+      <option value="gepaeck-entschaedigung-allgemein.html">Meine Airline ist nicht dabei (Allgemeines Formular)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Zum Generator für diese Airline</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Anspruchsprüfung nach Fluggesellschaft</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{GEPAECK_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Checkliste: Notfallplan am Gepäckband</h2>
+  <p>Handeln Sie schnell, sobald Sie feststellen, dass Ihr Koffer fehlt oder beschädigt ist. Arbeiten Sie diese Punkte ab, bevor Sie den Flughafen verlassen:</p>
+  
+  <div class="checklist-box" id="checklistToPrint">
+  <!-- Optional: Eine versteckte oder sichtbare Überschrift, die nur im PDF gut aussieht -->
+  <h3 style="margin-top:0; color:#1565c0;">Checkliste</h3>
+
+    <ul>
+      <li><strong>PIR-Formular ausfüllen:</strong> Gehen Sie SOFORT zum "Lost & Found"-Schalter und lassen Sie sich den "Property Irregularity Report" (PIR) aushändigen.</li>
+      <li><strong>Gepäckabschnitt behalten:</strong> Werfen Sie den kleinen Aufkleber mit der Gepäckregistrierungsnummer, den Sie beim Check-in bekommen haben, keinesfalls weg.</li>
+      <li><strong>Schäden fotografieren:</strong> Machen Sie bei einem beschädigten Koffer detaillierte Fotos direkt am Flughafen.</li>
+      <li><strong>Belege für Ersatzkäufe sammeln:</strong> Heben Sie alle Kassenbons für Zahnbürste, Duschgel und Notfallkleidung auf.</li>
+      <li><strong>Fristen beachten:</strong> Melden Sie Schäden schriftlich binnen 7 Tagen, Verspätungen und Auslagen binnen 21 Tagen nach Erhalt des Koffers.</li>
+    </ul>
+    <!-- Hier ist das 'download' Attribut, welches die Datei direkt herunterlädt -->
+  </div>
+  <button onclick="generateChecklistPDF('checkliste-zoll.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+  Checkliste als PDF generieren & speichern
+</button>
+
+  <h2 style="margin-top: 40px;">Fallbeispiele: So viel wird erstattet</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Beispiel 1: Koffer kommt 2 Tage zu spät im Strandurlaub an</h3>
+    <p>Lisa fliegt nach Mallorca, doch ihr Koffer landet fälschlicherweise in London. Sie kauft sich am Ankunftstag Sonnencreme, Zahnpflegeprodukte, einen Bikini und Wechselkleidung für insgesamt 150 €.<br>
+    <strong>Ergebnis:</strong> Da es sich um absolut notwendige Ersatzkäufe für den Urlaub handelt und sie alle Quittungen aufgehoben hat, muss die Airline die vollen <strong>150 €</strong> erstatten.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Beispiel 2: Kofferrollen abgerissen</h3>
+    <p>Herr Schmitt holt seinen 2 Jahre alten Marken-Hartschalenkoffer (Neupreis 200 €) vom Band und stellt fest, dass zwei Rollen komplett herausgebrochen sind. Er füllt sofort das PIR-Formular aus.<br>
+    <strong>Ergebnis:</strong> Die Airline prüft, ob der Koffer repariert werden kann. Ist das nicht möglich, erstattet sie den Zeitwert des Koffers (hier etwa <strong>150 € bis 170 €</strong>). Kratzer oder Dellen gelten übrigens meist als normale Abnutzung und werden nicht erstattet.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">FAQ: Gepäckrechte im Überblick</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">Was muss ich sofort tun, wenn mein Koffer fehlt oder kaputt ist?</div>
+    <div class="faq-answer">Melden Sie den Verlust oder Schaden noch VOR Verlassen des Sicherheitsbereichs am Gepäckermittlungsschalter (Lost & Found). Dort müssen Sie zwingend den sogenannten PIR (Property Irregularity Report) ausfüllen. Ohne diesen Beleg ist es extrem schwer, später Ansprüche geltend zu machen.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Wie viel Entschädigung steht mir bei Gepäckproblemen zu?</div>
+    <div class="faq-answer">Gemäß dem Montrealer Übereinkommen haftet die Fluggesellschaft bis zu einem Höchstbetrag von ca. 1.288 Sonderziehungsrechten (SZR). Das entspricht aktuell etwa 1.500 bis 1.600 Euro pro Passagier. Dies gilt für den Zeitwert des Koffers und den nachweisbaren Inhalt.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Darf ich Ersatzkleidung kaufen, wenn mein Koffer verspätet ist?</div>
+    <div class="faq-answer">Ja, Sie dürfen notwendige Ersatzkäufe tätigen (z.B. Hygieneartikel, Unterwäsche, einfache Kleidung). Die Käufe müssen jedoch verhältnismäßig sein (keine Luxusmarken) und Sie müssen alle Kassenbons aufheben, um das Geld von der Airline zurückzufordern. Tipp: Sind Sie auf dem Rückflug nach Hause, werden Kleidungskäufe meist nicht erstattet, da man davon ausgeht, dass Sie alles Nötige zu Hause haben.</div>
+  </div>
+  
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">Welche Fristen gelten für die Schadensmeldung?</div>
+    <div class="faq-answer">Achtung, die Fristen sind extrem streng! Bei beschädigtem Gepäck müssen Sie die schriftliche Forderung (inkl. Rechnungen) spätestens <strong>7 Tage</strong> nach Erhalt des Koffers bei der Airline einreichen. Bei verspätetem Gepäck haben Sie <strong>21 Tage</strong> ab dem Zeitpunkt Zeit, an dem Sie den Koffer wieder in Empfang genommen haben. Der PIR am Flughafen reicht zur Einhaltung der Frist allein NICHT aus!</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise im Reiserecht & Fahrgastrechten</h3>
+    <p class="trust-text">
+        Unsere Ratgeber und Generatoren basieren auf der strikten Auswertung aktueller EU-Verordnungen (wie EG 261/2004), BGH-Urteilen und dem nationalen Reiserecht. 
+        Sie werden von Marc (Projektleitung) & Team entwickelt, um Reisenden eine rechtssichere Durchsetzung gegenüber Airlines und Reiseveranstaltern zu ermöglichen.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Wichtiger Hinweis: Unsere Tools bieten Hilfe zur Selbsthilfe bei Flugverspätung, Hotelmängeln oder Zugausfällen. Sie ersetzen keine individuelle Rechtsberatung durch einen Anwalt.
+        </span>
+    </p>
+
+    <!-- Umlaut in URL entfernt! -->
+    <a href="ueber-uns.html" class="trust-link">
+        Details zur rechtlichen Methodik & Redaktion erfahren →
+    </a>
+
+    <div class="lotse-card">
+        <p>
+            <strong>Problem mit dem Flug, der Bahn oder dem Hotel?</strong><br>
+            Fix-my-Trip prüft in wenigen Schritten Ihren Anspruch auf Entschädigung, Ticket-Erstattung oder Mietminderung.
+        </p>
+    </div>
+
+    <p class="feedback-note">
+
+      
+        💡 <strong>Reiserecht ändert sich ständig.</strong> Haben Sie eine neue Klausel entdeckt? <a href="mailto:support@fix-my-trip.com" style="color: #777; text-decoration: underline;">Geben Sie uns Feedback</a>, damit wir die Generatoren aktuell halten können.
+    </p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Über uns</a> | 
+        <a href="index.html">Startseite</a> | 
+        <a href="impressum.html">Impressum</a> | 
+        <a href="datenschutz.html">Datenschutz</a>
+    </nav>
+</footer>
+
+<script>
+function routeToGenerator() {
+    const selectElement = document.getElementById('airlineSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Bitte wählen Sie zuerst eine Fluggesellschaft aus der Liste aus.");
+    }
+}
+
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // 15mm Rand rundherum
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, // Hohe Auflösung
+            scrollY: 0, // WICHTIG: Fixt das Problem mit der leeren Seite!
+            windowWidth: document.documentElement.offsetWidth // Stellt sicher, dass die Breite stimmt
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    // PDF generieren
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>
