@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Stornierung durch Gastgeber",
+        "slug": "gastgeber-storniert-kurzfristig",
+        "beschreibung": "Der Host hat Ihre Buchung kurzfristig abgesagt und Sie stehen ohne Unterkunft da? Wir helfen Ihnen, die volle Rückerstattung und ggf. Schadensersatz für die Mehrkosten eines Ersatzhotels einzufordern."
+    },
+    {
+        "name": "Schimmel, Dreck & Ungeziefer",
+        "slug": "dreck-schimmel-ungeziefer",
+        "beschreibung": "Schimmel im Badezimmer, Kakerlaken in der Küche oder einfach nur dreckige Bettwäsche? Solche hygienischen Mängel müssen Sie nicht hinnehmen. Dokumentieren Sie alles für Ihre AirCover-Erstattung."
+    },
+    {
+        "name": "Falsche Angaben & Fake-Fotos",
+        "slug": "falsche-angaben-fake-fotos",
+        "beschreibung": "Die Luxus-Villa entpuppt sich als Souterrain-Wohnung oder die Fotos im Inserat waren völlig veraltet? Wenn das Objekt nicht der Beschreibung entspricht, haben Sie Anspruch auf eine deutliche Preisreduzierung."
+    },
+    {
+        "name": "Fehlende Ausstattung (WLAN, Pool, Klima)",
+        "slug": "ausstattung-fehlt-defekt",
+        "beschreibung": "Kein WLAN trotz Homeoffice-Planung oder der beworbene Pool ist grün und unbenutzbar? Fehlende zugesicherte Ausstattungsmerkmale berechtigen Sie zur Minderung des Mietpreises."
+    },
+    {
+        "name": "Kaution unrechtmäßig einbehalten",
+        "slug": "kaution-unrechtmaessig-einbehalten",
+        "beschreibung": "Der Gastgeber behauptet nach der Abreise Schäden, die Sie nicht verursacht haben, und behält die Kaution ein? Wehren Sie sich gegen unberechtigte Forderungen und fordern Sie Ihr Geld zurück."
+    },
+    {
+        "name": "AirCover Käuferschutz abgelehnt",
+        "slug": "aircover-abgelehnt-geld-zurueck",
+        "beschreibung": "Airbnb hat Ihren Fall geschlossen oder die Erstattung abgelehnt, obwohl der Mangel offensichtlich war? Erhöhen Sie den Druck mit einem offiziellen juristischen Schreiben an die Rechtsabteilung."
+    },
+    {
+    "name": "Allgemeines Airbnb Problem",
+    "slug": "allgemein",
+    "beschreibung": "Ihr spezifisches Problem ist oben nicht aufgeführt? Kein Problem. Nutzen Sie dieses allgemeine Formular, um jeden beliebigen Mangel bei Airbnb rechtssicher zu reklamieren."
+}
+]

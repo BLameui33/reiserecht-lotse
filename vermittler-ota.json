@@ -1,0 +1,16 @@
+[
+  { "name": "Opodo", "slug": "opodo", "adresse": "Vacaciones eDreams, S.L.\nCalle de Manzanares 4\n28005 Madrid, Spanien" },
+  { "name": "eDreams", "slug": "edreams", "adresse": "Vacaciones eDreams, S.L.\nCalle de Manzanares 4\n28005 Madrid, Spanien" },
+  { "name": "Kiwi.com", "slug": "kiwi-com", "adresse": "Kiwi.com s.r.o.\nPalachovo náměstí 797/4\n625 00 Brno, Tschechien" },
+  { "name": "Booking.com Flights", "slug": "booking-flights", "adresse": "Booking.com B.V.\nHerengracht 597\n1017 CE Amsterdam, Niederlande" },
+  { "name": "Expedia", "slug": "expedia", "adresse": "Expedia, Inc.\n1111 Expedia Group Way W\nSeattle, WA 98119, USA" },
+  { "name": "Flugladen.de", "slug": "flugladen", "adresse": "Travix Nederland B.V.\nPiet Heinkade 55\n1019 GM Amsterdam, Niederlande" },
+  { "name": "Trip.com", "slug": "trip-com", "adresse": "Trip.com Travel Singapore Pte. Ltd.\n30 Raffles Place, #29-01\nSingapore 048622" },
+  { "name": "Gotogate", "slug": "gotogate", "adresse": "Etraveli Group AB\nBox 1340\n751 43 Uppsala, Schweden" },
+  { "name": "Mytrip", "slug": "mytrip", "adresse": "Etraveli Group AB\nBox 1340\n751 43 Uppsala, Schweden" },
+  { "name": "Fluege.de", "slug": "fluege-de", "adresse": "Invia Flights Germany GmbH\nDittrichring 18-20\n04109 Leipzig, Deutschland" },
+  { "name": "lastminute.de", "slug": "lastminute-de", "adresse": "BravoNext SA\nVicolo de’ Calvi 2\n6830 Chiasso, Schweiz" },
+  { "name": "Cheaptickets.de", "slug": "cheaptickets", "adresse": "Travix Nederland B.V.\nPiet Heinkade 55\n1019 GM Amsterdam, Niederlande" },
+  { "name": "Check24 Flüge", "slug": "check24-fluege", "adresse": "CHECK24 Vergleichsportal Flug GmbH\nTrappentreustr. 1 - 3\n80339 München, Deutschland" },
+  { "name": "Anderes Flugportal (Allgemeine Vorlage)", "slug": "allgemein", "adresse": "[Name des Flugportals]\n[z.B. Kundenservice / Rückerstattungen]\n[Straße und Hausnummer]\n[PLZ und Ort]" }
+]

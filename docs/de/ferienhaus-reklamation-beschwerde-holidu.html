@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Holidu Beschwerde: Ferienhaus Miete mindern (PDF-Rechner)</title>
+
+  <meta name="description" content="Ferienhaus-Mängel bei Holidu? Schimmel, kaputter Pool oder kein WLAN? Berechnen Sie Ihre Mietminderung und generieren Sie das fertige Beschwerde-PDF.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="canonical" href="https://www.fix-my-trip.com/de/ferienhaus-reklamation-beschwerde-holidu.html">
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/ferienhaus-reklamation-beschwerde-holidu.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/ferienhaus-reklamation-beschwerde-holidu.html">
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "PDF-Generator: Mietminderung Ferienhaus bei Holidu",
+    "applicationCategory": "LegalApplication",
+    "operatingSystem": "All",
+    "description": "Kostenloses Tool zur Berechnung von Mietminderungen für Ferienhäuser und Erstellung eines juristischen Musterbriefs an Holidu.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Muss ich mich direkt vor Ort beschweren?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, zwingend! Sie müssen dem Vermieter oder der lokalen Agentur von Holidu den Mangel unverzüglich melden und die Chance zur Behebung (Abhilfe) geben. Wer bis nach dem Urlaub schweigt, verliert sein Recht auf Mietminderung."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Gilt die Frankfurter Tabelle auch für Ferienhäuser?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Nein, rechtlich gesehen greift bei Ferienhäusern das Mietrecht (§ 536 BGB), nicht das Reiserecht. Deutsche Gerichte ziehen die Frankfurter Tabelle aber oft als groben Orientierungswert heran, um die Höhe der Mietminderung zu schätzen."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Was mache ich, wenn das Haus komplett unbewohnbar ist?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ist das Haus nicht bewohnbar (z.B. schwerer Wasserschaden, Heizungsausfall im Winter, extremer Schimmel), können Sie den Vertrag fristlos kündigen, Ersatzkosten für ein Hotel fordern und 100% der Miete für die Ausfalltage zurückverlangen."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+  <span style="font-size: 0.9em; color: #666;">Ihr Recht bei Ferienunterkünften</span>
+</header>
+
+<div class="page-container">
+
+  <h1>Ferienhaus-Mängel bei Holidu reklamieren: Miete zurückholen</h1>
+
+  <div class="back-to-hub-banner">
+  <a href="ferienhaus-maengel-info.html">
+    <span class="arrow">&larr;</span> Zurück zur Übersicht: Alle Ferienhaus-Anbieter
+  </a>
+  </div>
+  
+  <div class="usp-bar">
+    <div class="usp-item">Basierend auf Mietrecht (§ 536 BGB)</div>
+    <div class="usp-item">Integrierter Minderungs-Rechner</div>
+    <div class="usp-item">Juristisch präziser PDF-Musterbrief</div>
+    <div class="usp-item">100% Kostenlos</div>
+  </div>
+
+  <p>Auf den Fotos eine Traumvilla, in der Realität Schimmel an den Wänden, ein leerer Pool oder eine kaputte Heizung? Wenn Ihre gebuchte Unterkunft bei <strong>Holidu</strong> erhebliche Mängel aufweist, greift in der Regel das Mietrecht. Nutzen Sie unseren kostenlosen Generator, um eine realistische Mietminderung zu berechnen und ein rechtssicheres Forderungsschreiben zu erstellen.</p>
+
+  <div class="info-box warning">
+    <strong>Wichtig: Melden Sie den Mangel sofort!</strong> Um Geld von Holidu zurückzufordern, müssen Sie den Mangel zwingend <strong>vor Ort an den Vermieter oder die lokale Schlüsselübergabe-Stelle gemeldet</strong> haben. Sie müssen dem Gastgeber die Möglichkeit geben, das Problem zu lösen (z.B. durch Reinigung oder Reparatur). Wer nichts sagt und erst zu Hause meckert, geht meist leer aus!
+  </div>
+
+  <form id="fewoForm">
+    <fieldset style="border-color: #ff9800; background: #fffdf7;">
+      <legend style="background: #ff9800; color: #333;">1. Anbieter prüfen</legend>
+      <label>Ferienhaus-Portal / Vermittler:</label>
+      <input type="text" id="aName" value="Holidu" required>
+      <label>Anschrift des Anbieters:</label>
+      <textarea id="aAdresse" rows="3" required>Holidu GmbH
+Riesstraße 24
+80992 München</textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>2. Ihre Buchungsdaten</legend>
+      <label>Buchungsnummer / Referenznummer:</label>
+      <input type="text" id="fBuchung" placeholder="z.B. 12345678" required>
+      <label>Name & Ort des Ferienhauses:</label>
+      <input type="text" id="fObjekt" placeholder="z.B. Villa Sol, Mallorca" required>
+      <label>Mietzeitraum (von - bis):</label>
+      <input type="text" id="fZeitraum" placeholder="z.B. 01.08.2026 - 14.08.2026" required>
+      
+      <label style="color: var(--primary);">Gesamter Mietpreis (in Euro):</label>
+      <input type="number" step="0.01" id="fPreis" placeholder="z.B. 1800" required>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. Mängel-Rechner (Richtwerte)</legend>
+      <p style="font-size: 0.9em; color: #666; margin-top: 0;">Wählen Sie aus, welche Mängel zutrafen. Die Quoten basieren auf durchschnittlicher Rechtsprechung deutscher Amtsgerichte zum Mietrecht.</p>
+      
+      <div class="checkbox-group" id="mangelCheckboxes">
+        <label><input type="checkbox" value="15" data-text="Swimmingpool nicht nutzbar (ohne Wasser, verdreckt)"> Pool nicht nutzbar (15% Minderung)</label>
+        <label><input type="checkbox" value="20" data-text="Erheblicher Schimmelbefall / Feuchtigkeitsschäden"> Schimmel / Feuchtigkeit (20% Minderung)</label>
+        <label><input type="checkbox" value="30" data-text="Kompletter Heizungsausfall (in kalten Monaten)"> Heizung kaputt im Winter (30% Minderung)</label>
+        <label><input type="checkbox" value="10" data-text="WLAN / Internet fehlt, obwohl ausdrücklich zugesichert"> Fehlendes WLAN/Internet (10% Minderung)</label>
+        <label><input type="checkbox" value="15" data-text="Starke Verschmutzung des Objekts oder Ungeziefer"> Starke Verschmutzung / Ungeziefer (15% Minderung)</label>
+        <label><input type="checkbox" value="15" data-text="Erheblicher Baulärm auf dem Nachbargrundstück"> Baulärm nebenan (15% Minderung)</label>
+        <label><input type="checkbox" value="10" data-text="Fehlende Kern-Ausstattung (z.B. Waschmaschine defekt)"> Zugesagte Ausstattung fehlt (10% Minderung)</label>
+      </div>
+
+      <div class="calc-banner">
+        Ihre berechnete Rückforderung:<br>
+        <span id="liveAmount">0,00 €</span>
+        <div style="font-size: 0.5em; font-weight: normal; margin-top: 5px;">(Minderungsquote: <span id="livePercent">0</span>%)</div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>4. Ihre Daten & Bankverbindung</legend>
+      <label>Ihr Vor- und Nachname (Hauptmieter):</label>
+      <input type="text" id="sName" placeholder="z. B. Max Mustermann" required>
+      <label>Straße und Hausnummer:</label>
+      <input type="text" id="sStrasse" placeholder="z. B. Musterstraße 1" required>
+      <label>PLZ und Ort:</label>
+      <input type="text" id="sPLZOrt" placeholder="z. B. 12345 Berlin" required>
+      <label>IBAN für die Erstattung:</label>
+      <input type="text" id="bIBAN" placeholder="DE..." required>
+    </fieldset>
+
+    <button type="submit" class="button-primary">📄 Reklamations-PDF an Holidu generieren</button>
+  </form>
+
+  <div class="seo-content">
+    <h2>Mängel am Ferienhaus bei Holidu: Ihre Rechte</h2>
+    <p>Anders als bei einer gebuchten Club-Anlage mit Flug (Pauschalreise) greift bei der reinen Buchung eines Ferienhauses oder einer Ferienwohnung über Portale wie Holidu in der Regel das <strong>Mietrecht</strong>. Das bedeutet: Der Vermieter schuldet Ihnen die Überlassung der Immobilie in dem Zustand, der vertraglich (meist durch das Inserat und die Fotos) vereinbart wurde.</p>
+
+    <h3>Mietminderung nach § 536 BGB</h3>
+    <p>Fehlt eine zugesicherte Eigenschaft (z.B. der Pool ist leer, obwohl als Highlight beworben) oder ist der Gebrauch der Unterkunft durch einen Mangel (z.B. extremer Schimmel, Baulärm, Kakerlaken) beeinträchtigt, haben Sie das Recht auf Mietminderung. Die gesetzliche Grundlage hierfür in Deutschland ist § 536 BGB. Sie zahlen nur die Miete, die dem tatsächlichen Wert der mangelhaften Unterkunft entspricht.</p>
+
+    <h3>Der wichtigste Schritt: Mangel sofort melden!</h3>
+    <p>Der größte Fehler, den Urlauber machen: Sie ärgern sich zwei Wochen lang über das dreckige Haus, reisen ab und fordern dann Geld von Holidu zurück. Das funktioniert so gut wie nie! Sie haben eine Schadensminderungspflicht. Sie müssen den Mangel <strong>unverzüglich beim Vermieter oder der Agentur vor Ort anzeigen</strong> und eine Behebung fordern. Nur wenn der Mangel nicht beseitigt wird (oder nicht beseitigt werden kann, wie bei Baulärm), sichern Sie sich Ihren Anspruch auf Rückerstattung.</p>
+
+    <h3>Beweise sichern</h3>
+    <p>Ohne Beweise ist Ihre Beschwerde wertlos. Dokumentieren Sie jeden Mangel akribisch. Machen Sie Fotos und Videos (am besten mit eingeblendetem Datum/Uhrzeit). Fertigen Sie ein kurzes Mängelprotokoll an und ziehen Sie – wenn möglich – Nachbarn oder Mitreisende als Zeugen hinzu. Die schriftliche Kommunikation mit Holidu oder dem Vermieter vor Ort (z.B. über das Portal oder per E-Mail) ist der beste Nachweis, dass Sie sich rechtzeitig beschwert haben.</p>
+
+    <div class="faq-section">
+      <h2>Häufige Fragen (FAQ) zur Ferienhaus-Reklamation</h2>
+      
+      <details>
+        <summary>Gilt die Frankfurter Tabelle auch für Ferienhäuser?</summary>
+        <p>Streng genommen: Nein. Die Frankfurter Tabelle wurde für das Pauschalreiserecht entwickelt. Bei Ferienhäusern gilt meist Mietrecht. Allerdings nutzen deutsche Amtsgerichte die Prozentsätze der Frankfurter Tabelle oft als pragmatische Orientierungshilfe, um die Höhe einer Mietminderung bei Ferienwohnungen festzulegen. Daher basieren unsere Richtwerte ebenfalls auf diesen Erfahrungswerten.</p>
+      </details>
+
+      <details>
+        <summary>Wer ist mein Ansprechpartner? Das Portal oder der Hausbesitzer?</summary>
+        <p>Das ist rechtlich oft knifflig und hängt von den AGB ab. Holidu tritt oft nur als Vermittler auf. Ihr eigentlicher Vertragspartner (und damit Gegner für die Forderung) ist der Hauseigentümer. Aus pragmatischen Gründen sollte das erste Beschwerdeschreiben aber immer an Holidu gerichtet werden, da diese oft einen internen Konfliktlösungsprozess haben oder Gelder (wie Kautionen) einbehalten können. Unser PDF richtet sich daher primär an die Adresse des Portals.</p>
+      </details>
+
+      <details>
+        <summary>Was ist, wenn ich die Reise stornieren will?</summary>
+        <p>Wenn das Haus völlig unbewohnbar ist (z.B. massive Fäkalien-Verschmutzung, kein fließend Wasser, extreme Gesundheitsgefahr durch Schimmel), können Sie den Mietvertrag aus wichtigem Grund fristlos kündigen. In diesem Fall können Sie die komplette Miete zurückverlangen und sogar Schadensersatz für ein notwendiges Ersatz-Hotel fordern.</p>
+      </details>
+    </div>
+  </div>
+
+<div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
+  <h3>Weitere interessante Themen:</h3>
+  <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="ferienhaus-reklamation-beschwerde-interhome.html">Interhome</a>
+<a href="ferienhaus-reklamation-beschwerde-traum-ferienwohnungen.html">Traum-Ferienwohnungen</a>
+<a href="ferienhaus-reklamation-beschwerde-belvilla.html">Belvilla</a>
+<a href="ferienhaus-reklamation-beschwerde-novasol.html">Novasol</a>
+<a href="ferienhaus-reklamation-beschwerde-casamundo.html">Casamundo</a>
+
+  </div>
+</div>
+
+<aside class="legal-sources-box" aria-labelledby="sources-title-fewo">
+    <h3 id="sources-title-fewo" class="sources-heading">Rechtsgrundlagen</h3>
+    <p class="sources-intro">
+        Die Mängelanzeigen für Ferienunterkünfte stützen sich primär auf das Mietrecht:
+    </p>
+    <ul class="sources-list">
+        <li>
+            <strong>Bürgerliches Gesetzbuch (BGB) – Mietminderung bei Sach- und Rechtsmängeln (§ 536 BGB)</strong>: 
+            Weist die Mietsache (das Ferienhaus) einen Mangel auf, der die Tauglichkeit zum vertragsgemäßen Gebrauch aufhebt oder mindert, ist der Mieter für die Zeit der Dauerhaftigkeit nur zur Zahlung einer angemessen herabgesetzten Miete verpflichtet.
+            <br>
+            <a href="https://www.gesetze-im-internet.de/bgb/__536.html" target="_blank" rel="noopener noreferrer" class="source-link">
+                Offizieller Text auf Gesetze-im-Internet.de (BMJ)
+            </a>
+        </li>
+    </ul>
+</aside>
+</div>
+
+<div class="trust-section">
+    <h3>Expertise im Reiserecht</h3>
+    <p class="trust-text">
+        Unsere Generatoren basieren auf der Auswertung aktueller Urteile zum Miet- und Reiserecht. 
+        Sie werden entwickelt, um Verbrauchern eine rechtssichere Durchsetzung auf Augenhöhe zu ermöglichen.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Wichtiger Hinweis: Unsere Tools bieten Hilfe zur Selbsthilfe. Sie ersetzen keine individuelle Rechtsberatung durch einen Anwalt.
+        </span>
+    </p>
+    <a href="ueber-uns.html" class="trust-link">
+        Details zur rechtlichen Methodik erfahren →
+    </a>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Über uns</a> | 
+        <a href="index.html">Startseite</a> | 
+        <a href="impressum.html">Impressum</a> | 
+        <a href="datenschutz.html">Datenschutz</a>
+    </nav>
+</footer>
+
+<script>
+// Live-Rechner Logik
+const preisInp = document.getElementById('fPreis');
+const checkboxes = document.querySelectorAll('#mangelCheckboxes input[type="checkbox"]');
+const liveAmountEl = document.getElementById('liveAmount');
+const livePercentEl = document.getElementById('livePercent');
+
+function updateCalc() {
+    let price = parseFloat(preisInp.value) || 0;
+    let totalPercent = 0;
+    
+    checkboxes.forEach(cb => {
+        if(cb.checked) totalPercent += parseInt(cb.value);
+    });
+    
+    if(totalPercent > 100) totalPercent = 100;
+    
+    let refund = (price * totalPercent) / 100;
+    
+    livePercentEl.textContent = totalPercent;
+    liveAmountEl.textContent = refund.toLocaleString('de-DE', {style: 'currency', currency: 'EUR'});
+}
+
+preisInp.addEventListener('input', updateCalc);
+checkboxes.forEach(cb => cb.addEventListener('change', updateCalc));
+
+// PDF Generierung
+document.getElementById('fewoForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+
+    const pageH = 297;
+    const marginBottom = 20;
+    const lineH = 6;
+
+    function checkNewPage(doc, y, neededHeight = lineH) {
+        if (y + neededHeight > pageH - marginBottom) {
+            doc.addPage();
+            return 30;
+        }
+        return y;
+    }
+
+    function writeLines(doc, lines, startY, lh = lineH) {
+        let y = startY;
+        for (const line of lines) {
+            y = checkNewPage(doc, y);
+            doc.text(line, 25, y);
+            y += lh;
+        }
+        return y;
+    }
+
+    const anbieter = document.getElementById('aName').value;
+    const anbieterAddr = document.getElementById('aAdresse').value.replace(/\\n/g, '\n');
+    
+    const sName = document.getElementById('sName').value;
+    const sStrasse = document.getElementById('sStrasse').value;
+    const sPLZOrt = document.getElementById('sPLZOrt').value;
+    const bIBAN = document.getElementById('bIBAN').value;
+    
+    const fBuchung = document.getElementById('fBuchung').value;
+    const fObjekt = document.getElementById('fObjekt').value;
+    const fZeitraum = document.getElementById('fZeitraum').value;
+    const fPreis = parseFloat(document.getElementById('fPreis').value) || 0;
+
+    let selectedMaengel = [];
+    let totalPercent = 0;
+    checkboxes.forEach(cb => {
+        if(cb.checked) {
+            selectedMaengel.push(`- ${cb.getAttribute('data-text')} (${cb.value}%)`);
+            totalPercent += parseInt(cb.value);
+        }
+    });
+
+    if(selectedMaengel.length === 0) {
+        alert("Bitte wählen Sie mindestens einen Mangel aus.");
+        return;
+    }
+
+    if(totalPercent > 100) totalPercent = 100;
+    let refundAmount = ((fPreis * totalPercent) / 100).toFixed(2).replace('.', ',');
+
+    let deadline = new Date();
+    deadline.setDate(deadline.getDate() + 14);
+    const deadlineStr = deadline.toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'});
+    const todayStr = new Date().toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'});
+
+    doc.setFont("helvetica");
+
+    // Absender klein
+    doc.setFontSize(8);
+    doc.setTextColor(100, 100, 100);
+    doc.text(`${sName} • ${sStrasse} • ${sPLZOrt}`, 25, 45);
+    doc.setLineWidth(0.2);
+    doc.setDrawColor(150, 150, 150);
+    doc.line(25, 46.5, 95, 46.5);
+
+    // Empfänger
+    doc.setFontSize(11);
+    doc.setTextColor(0, 0, 0);
+    const receiverLines = doc.splitTextToSize(anbieter + "\n" + anbieterAddr, 80);
+    doc.text(receiverLines, 25, 53);
+
+    // Absenderblock Rechts
+    doc.setFontSize(10);
+    doc.text("Absender:", 130, 45);
+    doc.setFont("helvetica", "bold");
+    doc.text(sName, 130, 50);
+    doc.setFont("helvetica", "normal");
+    doc.text(sStrasse, 130, 55);
+    doc.text(sPLZOrt, 130, 60);
+
+    doc.text(`Datum: ${todayStr}`, 185, 80, {align: 'right'});
+
+    // Betreff
+    doc.setFontSize(12);
+    doc.setFont("helvetica", "bold");
+    doc.text(`Mängelanzeige und Forderung auf Mietminderung`, 25, 95);
+    
+    // Fakten
+    doc.setFontSize(10.5);
+    doc.setFont("helvetica", "bold");
+    doc.text("Buchungsnummer:", 25, 105);
+    doc.text("Ferienobjekt:", 25, 110);
+    doc.text("Mietzeitraum:", 25, 115);
+    doc.text("Gesamtmietpreis:", 25, 120);
+
+    doc.setFont("helvetica", "normal");
+    doc.text(fBuchung, 70, 105);
+    doc.text(fObjekt, 70, 110);
+    doc.text(fZeitraum, 70, 115);
+    doc.text(`${fPreis.toFixed(2).replace('.', ',')} EUR`, 70, 120);
+
+    doc.setDrawColor(0, 0, 0);
+    doc.line(25, 125, 185, 125);
+
+    let yPos = 135;
+    doc.setFontSize(11);
+
+    // Einleitungsabsätze (Mietrechtlich angepasst)
+    const para1 = doc.splitTextToSize(
+        `Sehr geehrte Damen und Herren,\n\n` +
+        `hiermit mache ich Ansprüche auf Mietminderung für das oben genannte Ferienobjekt geltend. Die Unterkunft wies erhebliche Mängel auf und entsprach nicht der vertraglichen Vereinbarung bzw. Beschreibung. Ich habe diese Mängel unverzüglich vor Ort bei der zuständigen Stelle/dem Vermieter angezeigt und Abhilfe verlangt. Eine angemessene Behebung der Mängel erfolgte jedoch nicht.\n\n` +
+        `Folgende Mängel lagen vor:`,
+        160
+    );
+    yPos = writeLines(doc, para1, yPos);
+    yPos += 5;
+
+    // Mängel-Liste
+    doc.setFont("helvetica", "italic");
+    selectedMaengel.forEach(mangel => {
+        const linesMangel = doc.splitTextToSize(mangel, 150);
+        linesMangel.forEach(line => {
+            yPos = checkNewPage(doc, yPos);
+            doc.text(line, 30, yPos);
+            yPos += lineH;
+        });
+    });
+    doc.setFont("helvetica", "normal");
+    yPos += 5;
+
+    // Minderungsberechnung (Mietrecht)
+    const para2 = doc.splitTextToSize(
+        `Aufgrund der erheblichen Einschränkung in der Nutzbarkeit des Ferienobjekts mindert sich die Miete kraft Gesetzes (analog § 536 BGB). Unter Heranziehung etablierter Rechtsprechung erachte ich eine Minderungsquote von insgesamt ${totalPercent} % für angemessen.\n\n` +
+        `Daraus resultiert ein Erstattungsanspruch in Höhe von:`,
+        160
+    );
+    yPos = writeLines(doc, para2, yPos);
+    yPos += 5;
+
+    // Summe
+    yPos = checkNewPage(doc, yPos, 10);
+    doc.setFont("helvetica", "bold");
+    doc.text(`${refundAmount} EUR`, 105, yPos, { align: 'center' });
+    doc.setFont("helvetica", "normal");
+    yPos += 12;
+
+    // Fristsatz
+    yPos = checkNewPage(doc, yPos);
+    doc.text(`Ich setze Ihnen zur Begleichung dieser berechtigten Forderung eine Frist bis zum:`, 25, yPos);
+    yPos += 10;
+
+    yPos = checkNewPage(doc, yPos, 10);
+    doc.setFont("helvetica", "bold");
+    doc.text(`>>> ${deadlineStr} (Datum des Zahlungseingangs) <<<`, 105, yPos, { align: 'center' });
+    doc.setFont("helvetica", "normal");
+    yPos += 12;
+
+    // IBAN
+    const para3 = doc.splitTextToSize(
+        `auf mein folgendes Konto:\n\nKontoinhaber: ${sName}\nIBAN: ${bIBAN}`,
+        160
+    );
+    yPos = writeLines(doc, para3, yPos);
+    yPos += 10;
+
+    // Juristischer Hinweis
+    const para4 = doc.splitTextToSize(
+        `Sollte diese Frist fruchtlos verstreichen, werde ich anwaltliche Hilfe zur Durchsetzung meiner Ansprüche in Anspruch nehmen. Die Kosten hierfür fallen als Verzugsschaden Ihnen zur Last. Entsprechende Beweismittel (Fotos/Videos) behalte ich mir für ein mögliches Verfahren vor. Bitte leiten Sie dieses Schreiben bei Bedarf an den Hauseigentümer weiter.`,
+        160
+    );
+    yPos = writeLines(doc, para4, yPos);
+    yPos += 15;
+
+    // Unterschrift
+    yPos = checkNewPage(doc, yPos, 40);
+    doc.text("Mit freundlichen Grüßen,", 25, yPos);
+    yPos += 25;
+
+    doc.setLineWidth(0.5);
+    doc.line(25, yPos, 80, yPos);
+    doc.line(100, yPos, 185, yPos);
+
+    doc.setFontSize(9);
+    doc.setTextColor(100, 100, 100);
+    doc.text("Ort, Datum", 25, yPos + 5);
+    doc.text(`Unterschrift (${sName})`, 100, yPos + 5);
+
+    const cleanAnbieter = anbieter.replace(/[^a-zA-Z0-9]/g, '_');
+    doc.save(`Ferienhaus_Maengel_${cleanAnbieter}_${fBuchung}.pdf`);
+    setTimeout(() => document.getElementById('donateOverlay').classList.add('active'), 800);
+});
+
+// Donation Overlay Logik bleibt unverändert...
+const PAYPAL_EMAIL = 'info@kassen-lotse.de';
+let donateAmount = 5;
+
+function selectPreset(amount, btn) {
+  donateAmount = amount;
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  document.getElementById('customAmount').value = '';
+  document.getElementById('customAmount').classList.remove('selected-custom');
+  updateDonateButton();
+}
+
+function handleCustomInput(input) {
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  const val = parseFloat(input.value);
+  if (val && val >= 1) {
+    donateAmount = val;
+    input.classList.add('selected-custom');
+  } else {
+    donateAmount = 0;
+    input.classList.remove('selected-custom');
+  }
+  updateDonateButton();
+}
+
+function updateDonateButton() {
+  const btn = document.getElementById('btnDonate');
+  if (donateAmount >= 1) {
+    btn.textContent = `Jetzt ${donateAmount % 1 === 0 ? donateAmount : donateAmount.toFixed(2)} € spenden`;
+    btn.disabled = false;
+  } else {
+    btn.textContent = 'Betrag eingeben';
+    btn.disabled = true;
+  }
+}
+
+function openPayPal() {
+  if (donateAmount < 1) return;
+  const amountStr = donateAmount.toFixed(2);
+  const url = `https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=${encodeURIComponent(PAYPAL_EMAIL)}&amount=${amountStr}&currency_code=EUR&item_name=Fix my Trip+Unterst%C3%BCtzung&no_note=1&no_shipping=1`;
+  window.open(url, '_blank');
+  closeOverlay();
+}
+
+function closeOverlay() {
+  document.getElementById('donateOverlay').classList.remove('active');
+}
+</script>
+
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <div class="donate-emoji">🎉</div>
+    <h2>Ihr Brief ist fertig!</h2>
+    <p class="sub">Sie haben sich gerade <strong style="color:#2e7d32;">Provision</strong> gespart –<br>kein Drittanbieter, keine Abgaben, alles gehört Ihnen.</p>
+    <div class="donate-hint">
+      Dieser Service ist und bleibt <strong>100 % kostenlos</strong>. Wenn er Ihnen geholfen hat, freuen wir uns sehr über eine kleine freiwillige Unterstützung.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Schnellauswahl:</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Eigener Betrag eingeben …" oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Jetzt 5 € spenden</button>
+    <button class="btn-skip" onclick="closeOverlay()">Nein danke, ich schließe das Fenster</button>
+  </div>
+</div>
+</body>
+</html>

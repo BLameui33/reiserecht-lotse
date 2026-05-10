@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>{{VERMITTLER_NAME}} Rückerstattung: Ticketpreis zurückfordern (Ohne Provision!) | PDF</title>
+  <meta name="description" content="Probleme mit der Flug-Erstattung bei {{VERMITTLER_NAME}}? Airline und Portal schieben sich die Schuld zu? Generieren Sie hier kostenlos Ihre rechtssichere Fristsetzung.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="canonical" href="https://www.fix-my-trip.com/de/{{DATEINAME}}">
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/{{DATEINAME}}">
+  <link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/{{DATEINAME}}">
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Fristsetzungs-Generator: Ticket-Rückerstattung von {{VERMITTLER_NAME}}",
+    "applicationCategory": "LegalApplication",
+    "operatingSystem": "All",
+    "description": "Kostenloses Tool zur Erstellung einer juristischen Fristsetzung zur Ticketrückerstattung gegenüber dem Vermittler {{VERMITTLER_NAME}}.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Warum zahlt {{VERMITTLER_NAME}} mein Geld nicht zurück?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Buchungsportale wie {{VERMITTLER_NAME}} nutzen oft eine Verzögerungstaktik. Sie behaupten, das Geld von der Airline noch nicht erhalten zu haben. Rechtlich gesehen ist das irrelevant, sobald die Airline die Erstattung an den Vermittler geleistet hat. Der Vermittler muss das Geld unverzüglich an Sie weiterleiten."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wie lange darf eine Rückerstattung über das Portal dauern?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Gemäß EU-Verordnung 261/2004 muss eine Ticketrückerstattung innerhalb von 7 Tagen erfolgen. Da bei Buchungen über Portale der Geldfluss über den Vermittler läuft, entstehen oft Verzögerungen. Eine Fristsetzung von 14 Tagen ist juristisch angemessen, um das Portal in Verzug zu setzen."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Was tun, wenn der Kundenservice von {{VERMITTLER_NAME}} nicht erreichbar ist?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Vergeuden Sie keine Zeit in Chatbots. Setzen Sie schriftlich eine klare Frist. Unser PDF-Generator erstellt ein juristisch präzises Schreiben, das Sie per E-Mail oder Post an {{VERMITTLER_NAME}} senden können, um den Rechtsweg zu ebnen."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+  <span style="font-size: 0.9em; color: #666;">Juristische Vorlagen für die OTA-Falle</span>
+</header>
+
+<div class="page-container">
+  <h1>{{VERMITTLER_NAME}} zahlt nicht? Flug-Erstattung jetzt erzwingen</h1>
+
+  <div class="back-to-hub-banner">
+    <a href="ota-rueckerstattung-info.html">
+      <span class="arrow">&larr;</span> Zurück zur Übersicht: Alle Buchungsportale
+    </a>
+  </div>
+  
+  <div class="usp-bar">
+    <div class="usp-item">0% Provision (100% Erstattung für Sie)</div>
+    <div class="usp-item">Stoppt das Ping-Pong-Spiel</div>
+    <div class="usp-item">Juristisch wasserdichte Fristsetzung</div>
+    <div class="usp-item">Sofort-PDF ohne Anmeldung</div>
+  </div>
+
+  <p>Flug gestrichen, aber <strong>{{VERMITTLER_NAME}}</strong> rückt Ihr Geld nicht raus? Das ist das schwärzeste Loch der Reisebranche: Die Airline sagt, sie habe gezahlt – das Portal behauptet, es sei kein Geld da. In der Zwischenzeit hängen Sie in unerreichbaren Chatbots fest. <br><strong>Schluss damit.</strong> Nutzen Sie unseren kostenlosen Generator, um {{VERMITTLER_NAME}} rechtssicher in Verzug zu setzen. Wir fordern die volle Rückzahlung Ihres Ticketpreises innerhalb von 14 Tagen. Ohne Provision, ohne Dienstleister – direkt auf Ihr Konto.</p>
+
+  <div class="highlight-box pruefdatum-box" role="note" aria-label="Redaktionell geprüft" style="margin-top: 15px; margin-bottom: 30px;">
+    <p><strong>Redaktionell geprüft am:</strong> <span id="pruefdatum">07.05.2026</span></p>
+  </div>
+
+  <form id="otaForm">
+    <fieldset style="border-color: #d32f2f; background: #fff5f5;">
+      <legend style="background: #d32f2f; color: #fff;">1. Portal (Vermittler) prüfen</legend>
+      <label>Name des Buchungsportals:</label>
+      <input type="text" id="vName" value="{{VERMITTLER_NAME}}" required>
+      <label>Anschrift des Portals:</label>
+      <textarea id="vAdresse" rows="3" required>{{VERMITTLER_ADRESSE}}</textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>2. Ihre Daten (Zahlungsempfänger)</legend>
+      <label>Ihr Vor- und Nachname:</label>
+      <input type="text" id="sName" placeholder="z. B. Max Mustermann" required>
+      <label>Straße und Hausnummer:</label>
+      <input type="text" id="sStrasse" placeholder="z. B. Musterstraße 1" required>
+      <label>PLZ und Ort:</label>
+      <input type="text" id="sPLZOrt" placeholder="z. B. 12345 Berlin" required>
+      <label>E-Mail-Adresse:</label>
+      <input type="email" id="sEmail" placeholder="z. B. max@beispiel.de" required>
+      <label>IBAN für die Rückzahlung:</label>
+      <input type="text" id="bIBAN" placeholder="DE..." required>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. Buchungsdaten & Betrag</legend>
+      <label>Buchungsnummer des Portals (OTA-ID):</label>
+      <input type="text" id="fOrder" placeholder="z.B. 123456789" required>
+      <label>Name der Fluggesellschaft:</label>
+      <input type="text" id="fAirline" placeholder="z.B. Lufthansa oder Ryanair" required>
+      <label>Ticketpreis (Gesamtbetrag in EUR):</label>
+      <input type="number" id="fPreis" step="0.01" placeholder="z.B. 450.50" required>
+      <label>Flugdatum (des ersten ausgefallenen Fluges):</label>
+      <input type="date" id="fDatum" required>
+    </fieldset>
+
+    <button type="submit" class="button-primary">📄 Fristsetzungs-PDF jetzt generieren</button>
+  </form>
+
+  <div class="seo-content">
+    <h2>Die OTA-Falle: Warum {{VERMITTLER_NAME}} Ihre Erstattung verzögert</h2>
+    <p>Wer seinen Flug über Portale wie <strong>{{VERMITTLER_NAME}}</strong> bucht, spart bei der Buchung oft 10 oder 20 Euro. Doch bei einer Annullierung wird dieser kleine Rabatt zur teuren Falle. Da Sie einen Vertrag mit dem Vermittler und nicht direkt mit der Airline (für die Zahlung) haben, fließt das Geld der Airline bei einer Stornierung zurück auf das Konto des Vermittlers. </p>
+
+    <h3>Das "Ping-Pong-Spiel" zwischen Airline und {{VERMITTLER_NAME}}</h3>
+    <p>Die Airline hat den Flug gestrichen und die Erstattung bereits eingeleitet? Dann liegt Ihr Geld bereits bei {{VERMITTLER_NAME}}. Wenn Sie dort nachfragen, erhalten Sie meist nur standardisierte Antworten: "Wir warten auf die Bestätigung der Airline". Das ist oft eine bewusste Verzögerungstaktik, um mit der Liquidität tausender Kunden zu arbeiten. Rechtlich gesehen haben Sie einen Anspruch auf Auszahlung des Geldes, sobald der Vermittler dieses von der Airline erhalten hat.</p>
+
+    <h3>Ihre Rechte gemäß EU 261/2004 und BGB</h3>
+    <p>Obwohl die EU-Verordnung 261/2004 vorschreibt, dass Ticketkosten innerhalb von 7 Tagen erstattet werden müssen, versuchen Portale wie {{VERMITTLER_NAME}} oft, zusätzliche "Bearbeitungsgebühren" einzubehalten. </p>
+    <ul>
+      <li><strong>Volle Erstattung:</strong> Bei einer Annullierung durch die Airline haben Sie Anspruch auf 100% des gezahlten Ticketpreises.</li>
+      <li><strong>Verzug setzen:</strong> Durch eine schriftliche Fristsetzung (unser PDF) setzen Sie {{VERMITTLER_NAME}} rechtssicher in Verzug. Erst danach können Sie Verzugszinsen fordern oder einen Anwalt einschalten, dessen Kosten das Portal tragen muss.</li>
+      <li><strong>Keine Gutscheine:</strong> Sie müssen keine Reisegutscheine von {{VERMITTLER_NAME}} akzeptieren. Sie haben ein Recht auf Cash.</li>
+    </ul>
+
+    <div class="faq-section">
+      <h2>Häufige Fragen zur Erstattung durch Buchungsportale</h2>
+      
+      <details>
+        <summary>Die Airline sagt, das Geld ist schon beim Portal. {{VERMITTLER_NAME}} verneint das. Wer lügt?</summary>
+        <p>In 95% der Fälle sagt die Airline die Wahrheit. Airlines erstatten fast immer auf das ursprüngliche Zahlungsmittel. Da {{VERMITTLER_NAME}} den Flug für Sie mit einer Firmenkreditkarte bezahlt hat, landet das Geld dort. Das Portal muss diesen Eingang dann manuell Ihrer Buchung zuordnen – und genau hier wird oft gespart oder verzögert.</p>
+      </details>
+      
+      <details>
+        <summary>Was passiert, wenn {{VERMITTLER_NAME}} nach der Frist nicht zahlt?</summary>
+        <p>Nach Ablauf der 14-tägigen Frist befindet sich das Unternehmen im Verzug. Sie können dann ein gerichtliches Mahnverfahren einleiten (einfach online möglich) oder die Schlichtungsstelle für den öffentlichen Personenverkehr (söp) einschalten. Da das Portal im Verzug ist, muss es im Falle eines Rechtsstreits auch Ihre Anwaltskosten übernehmen.</p>
+      </details>
+      
+      <details>
+        <summary>Darf {{VERMITTLER_NAME}} Gebühren für die Stornierung verlangen?</summary>
+        <p>Wenn die Airline den Flug gestrichen hat, darf das Portal keine zusätzlichen Service-Gebühren für die Rückabwicklung vom Ticketpreis abziehen. Sie haben Anspruch auf den vollen Betrag, den die Airline erstattet hat.</p>
+      </details>
+    </div>
+  </div>
+
+  <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
+    <h3>Andere Portale & Hilfestellungen:</h3>
+    <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
+      {{BELIEBTE_LINKS}}
+    </div>
+  </div>
+
+  <aside class="legal-sources-box" aria-labelledby="sources-title-ota">
+    <h3 id="sources-title-ota" class="sources-heading">Rechtliche Grundlagen für Erstattungen</h3>
+    <ul class="sources-list">
+        <li>
+            <strong>Art. 8 Abs. 1 VO (EG) Nr. 261/2004</strong>: Regelt die Erstattung des Ticketpreises innerhalb von sieben Tagen bei Annullierung.
+            <br>
+            <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32004R0261" target="_blank" rel="noopener noreferrer" class="source-link">Offizieller EU-Text</a>
+        </li>
+        <li>
+            <strong>§ 286 BGB (Verzug des Schuldners)</strong>: Die Grundlage, um nach Ablauf einer Frist Schadensersatz (z.B. Anwaltskosten) geltend zu machen.
+        </li>
+        <li>
+            <strong>§ 675 BGB (Geschäftsbesorgungsvertrag)</strong>: Regelt die Pflichten des Vermittlers gegenüber dem Reisenden.
+        </li>
+    </ul>
+  </aside>
+</div>
+
+<div class="trust-section">
+    <h3>Expertise gegen die OTA-Falle</h3>
+    <p class="trust-text">
+        Unser Generator wurde entwickelt, um das Machtgefälle zwischen riesigen Buchungsportalen und Reisenden auszugleichen. Wir analysieren täglich Nutzerbeschwerden über Opodo, Kiwi und Co., um die effektivsten juristischen Formulierungen bereitzustellen.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Hinweis: Dieses Tool bietet Hilfe zur Selbsthilfe. Es stellt keine individuelle Rechtsberatung dar.
+        </span>
+    </p>
+    <a href="ueber-uns.html" class="trust-link">Methodik & Redaktion erfahren →</a>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Über uns</a> | 
+        <a href="index.html">Startseite</a> | 
+        <a href="impressum.html">Impressum</a> | 
+        <a href="datenschutz.html">Datenschutz</a>
+    </nav>
+</footer>
+
+<script>
+/* ── PDF & Spenden-Logik ── */
+const PAYPAL_EMAIL = 'info@kassen-lotse.de';
+let donateAmount = 5;
+
+document.getElementById('otaForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF();
+
+  const vName = document.getElementById('vName').value;
+  const vAddr = document.getElementById('vAdresse').value.replace(/\\n/g, '\n');
+  const sName = document.getElementById('sName').value;
+  const sStrasse = document.getElementById('sStrasse').value;
+  const sPLZOrt = document.getElementById('sPLZOrt').value;
+  const sEmail = document.getElementById('sEmail').value;
+  const bIBAN = document.getElementById('bIBAN').value;
+  const fOrder = document.getElementById('fOrder').value;
+  const fAirline = document.getElementById('fAirline').value;
+  const fPreis = document.getElementById('fPreis').value;
+  const rawDate = document.getElementById('fDatum').value;
+  const fDatumParts = rawDate.split('-');
+  const fDatum = `${fDatumParts[2]}.${fDatumParts[1]}.${fDatumParts[0]}`;
+
+  let deadline = new Date();
+  deadline.setDate(deadline.getDate() + 14);
+  const deadlineStr = deadline.toLocaleDateString('de-DE');
+  const todayStr = new Date().toLocaleDateString('de-DE');
+
+  doc.setFont("helvetica");
+
+  // Absenderzeile klein über Empfänger
+  doc.setFontSize(8);
+  doc.setTextColor(100, 100, 100);
+  doc.text(`${sName} • ${sStrasse} • ${sPLZOrt}`, 25, 45);
+  doc.line(25, 46.5, 95, 46.5);
+
+  // Empfänger
+  doc.setFontSize(11);
+  doc.setTextColor(0, 0, 0);
+  const receiverLines = doc.splitTextToSize(vName + "\n" + vAddr, 80);
+  doc.text(receiverLines, 25, 53);
+
+  // Absender rechts
+  doc.setFontSize(10);
+  doc.text("Absender:", 130, 45);
+  doc.setFont("helvetica", "bold");
+  doc.text(sName, 130, 50);
+  doc.setFont("helvetica", "normal");
+  doc.text(sStrasse, 130, 55);
+  doc.text(sPLZOrt, 130, 60);
+  doc.text(`Datum: ${todayStr}`, 185, 80, {align: 'right'});
+
+  // Betreff
+  doc.setFontSize(12);
+  doc.setFont("helvetica", "bold");
+  doc.text(`Fristsetzung zur Ticketrückerstattung | Buchung: ${fOrder}`, 25, 95);
+
+  // Textkörper
+  doc.setFontSize(10.5);
+  doc.setFont("helvetica", "normal");
+  
+  let text = `Sehr geehrte Damen und Herren,\n\n` +
+    `bezüglich meiner oben genannten Buchung vom ${fDatum} bei Ihrem Portal für den Flug mit ${fAirline} fordere ich Sie hiermit auf, den ausstehenden Erstattungsbetrag in Höhe von:\n\n` +
+    `${fPreis} EUR\n\n` +
+    `unverzüglich an mich auszuzahlen. Die Fluggesellschaft hat den Flug annulliert und die Erstattung der Ticketkosten nach meinen Informationen bereits an Sie als Vermittler geleistet.\n\n` +
+    `Ich setze Ihnen hiermit eine letzte Frist für den Zahlungseingang auf meinem Konto bis zum:\n\n` +
+    `>>> ${deadlineStr} <<<\n\n` +
+    `Bankverbindung für die Erstattung:\n` +
+    `Kontoinhaber: ${sName}\n` +
+    `IBAN: ${bIBAN}\n\n` +
+    `Sollte die Frist fruchtlos verstreichen, werde ich das Unternehmen ohne weitere Ankündigung in Verzug setzen und ein gerichtliches Mahnverfahren einleiten. Zudem behalte ich mir vor, den Vorgang der zuständigen Aufsichtsbehörde zu melden. Die dadurch entstehenden Kosten fallen gemäß § 286 BGB zu Ihren Lasten.\n\n` +
+    `Mit freundlichen Grüßen,\n\n\n` +
+    `__________________________\n` +
+    `${sName}`;
+
+  const splitText = doc.splitTextToSize(text, 160);
+  doc.text(splitText, 25, 110);
+
+  doc.save(`Erstattung_${vName}_${fOrder}.pdf`);
+
+  setTimeout(() => {
+    document.getElementById('donateOverlay').classList.add('active');
+  }, 800);
+});
+
+function selectPreset(amount, btn) {
+  donateAmount = amount;
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+}
+
+function openPayPal() {
+  window.open(`https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=${encodeURIComponent(PAYPAL_EMAIL)}&amount=${donateAmount}&currency_code=EUR&item_name=FixMyTrip+Support`, '_blank');
+  closeOverlay();
+}
+
+function closeOverlay() {
+  document.getElementById('donateOverlay').classList.remove('active');
+}
+</script>
+
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <div class="donate-emoji">🎉</div>
+    <h2>Brief ist fertig!</h2>
+    <p>Holen Sie sich Ihr Geld von {{VERMITTLER_NAME}} zurück.</p>
+    <div class="donate-hint">
+        Wir behalten keine 30% Provision wie andere Portale. Fix my Trip ist komplett kostenlos. Wenn wir Ihnen helfen konnten, freuen wir uns über eine kleine Unterstützung!
+    </div>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <button class="btn-donate" onclick="openPayPal()">Jetzt unterstützen</button>
+    <button class="btn-skip" onclick="closeOverlay()">Schließen</button>
+  </div>
+</div>
+
+</body>
+</html>

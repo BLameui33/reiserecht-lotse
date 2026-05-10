@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Eurostar Verspätung: Entschädigung einfordern | PDF-Generator</title>
+
+  <meta name="description" content="Zug verspätet oder Anschluss verpasst? Erstellen Sie kostenlos das offizielle Forderungsschreiben an Eurostar und holen Sie sich bis zu 50% des Ticketpreises zurück.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="canonical" href="https://www.fix-my-trip.com/zugverspaetung-entschaedigung-eurostar.html">
+  <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="/logo-lotse-fav.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "PDF-Generator: Rechte bei Eurostar durchsetzen",
+    "applicationCategory": "LegalApplication",
+    "operatingSystem": "All",
+    "description": "Kostenloses Tool zur Berechnung von Entschädigungen und Erstellung eines juristischen Musterbriefs an Eurostar.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+    }
+  }
+  </script>
+
+  <!-- FAQ Schema für maximale Präsenz in den Google Rich Snippets -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Muss Eurostar auch bei Unwetter oder Notarzteinsätzen zahlen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Seit der Reform im Juni 2023 greift eine wichtige Neuerung: Bei außergewöhnlichen Umständen (wie extremen Unwettern, Kabeldiebstahl oder Personen im Gleis) entfällt der Anspruch auf die 25% oder 50% finanzielle Entschädigung. Bei Streiks des eigenen Personals, Weichenstörungen oder Zugdefekten muss Eurostar jedoch zahlen."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Gibt es beim Deutschlandticket (49-Euro-Ticket) Geld zurück?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, aber es ist komplizierter. Das Deutschlandticket gilt als ermäßigte Zeitkarte. Pro Verspätung ab 60 Minuten steht Ihnen eine Pauschale von 1,50 Euro zu. Da Auszahlungen unter 4 Euro gesetzlich nicht stattfinden, müssen Sie während des Gültigkeitsmonats mindestens drei Verspätungen (3 x 1,50 € = 4,50 €) sammeln und gesammelt einreichen. Der maximale Erstattungsbetrag pro Monat ist auf 25 % des Ticketpreises begrenzt."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Darf ich einen teureren ICE nehmen, wenn mein Regionalzug ausfällt?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Grundsätzlich ja, wenn eine Ankunftsverspätung von mindestens 20 Minuten droht. Sie müssen sich jedoch zunächst selbst ein gültiges ICE-Ticket kaufen und dieses anschließend zur Erstattung über das Servicecenter Fahrgastrechte einreichen. Wichtig: Diese Regelung gilt ausdrücklich NICHT für das Deutschlandticket! Wer mit dem 49-Euro-Ticket in den ICE steigt, bleibt auf den Kosten sitzen."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+  <span style="font-size: 0.9em; color: #666;">Fahrgastrechte Bahn & ÖPNV</span>
+</header>
+
+<div class="page-container">
+
+  <!-- Above the Fold: Klare Lösung für ein frustrierendes Alltagsproblem -->
+  <h1>Eurostar Verspätung? Bis zu 50% Erstattung rechtssicher einfordern</h1>
+  
+  <div class="usp-bar">
+    <div class="usp-item">Offizielle Anschrift integriert</div>
+    <div class="usp-item">Basiert auf EU-Verordnung 2021/782</div>
+    <div class="usp-item">100% Kostenlos & sofortiges PDF</div>
+  </div>
+
+  <div class="info-box red">
+    <p><strong>Das Formular für Ihr Geld:</strong> Wieder am zugigen Bahnhof gestrandet oder den rettenden Anschlusszug verpasst? Ab 60 Minuten Verspätung an Ihrem Zielbahnhof haben Sie gesetzlichen Anspruch auf eine Teilrückerstattung Ihres Ticketpreises. Füllen Sie dieses Formular aus und generieren Sie mit einem Klick ein rechtssicheres Anschreiben an das zentrale <strong>Servicecenter Fahrgastrechte</strong>. Kein unübersichtliches App-Geklicke, sondern ein formal belastbarer Antrag für die Post oder den Schalter bei Eurostar.</p>
+  </div>
+  <div class="highlight-box pruefdatum-box" role="note" aria-label="Redaktionell geprüft" style="margin-top: 15px; margin-bottom: 30px;">
+    <p><strong>Redaktionell geprüft am:</strong> <span id="pruefdatum">05.05.2026</span></p>
+  </div>
+
+  <!-- Formular-Bereich (Struktur & IDs unangetastet) -->
+  <form id="trainForm">
+    <fieldset>
+      <legend>1. Ihre Daten & Bankverbindung</legend>
+      <label>Ihr Vor- und Nachname:</label>
+      <input type="text" id="sName" placeholder="z. B. Max Mustermann" required>
+      <label>Straße und Hausnummer:</label>
+      <input type="text" id="sStrasse" placeholder="z. B. Bahnhofstraße 1" required>
+      <label>PLZ und Ort:</label>
+      <input type="text" id="sPLZOrt" placeholder="z. B. 12345 Berlin" required>
+      <label>IBAN für die Auszahlung:</label>
+      <input type="text" id="bIBAN" placeholder="DE..." required>
+    </fieldset>
+
+    <fieldset>
+      <legend>2. Die Reisedaten</legend>
+      <label>Datum der Fahrt:</label>
+      <input type="date" id="fDatum" required>
+      <label>Auftragsnummer / Ticketnummer (zu finden auf dem Ticket):</label>
+      <input type="text" id="fTicket" placeholder="z.B. XWVU12" required>
+      <label>Startbahnhof:</label>
+      <input type="text" id="fStart" placeholder="z.B. München Hbf" required>
+      <label>Geplanter Zielbahnhof:</label>
+      <input type="text" id="fZiel" placeholder="z.B. Hamburg Hbf" required>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. Die Verspätung</legend>
+      <label>Wie viel später sind Sie an Ihrem Zielort angekommen?</label>
+      <select id="fVerspaetung" required>
+        <option value="60">Zwischen 60 und 119 Minuten (25% Erstattung)</option>
+        <option value="120">Mehr als 120 Minuten (50% Erstattung)</option>
+        <option value="cancel">Fahrt komplett ausgefallen (100% Erstattung / Abbruch)</option>
+      </select>
+
+      <label>Was war der Grund? (Optional, hilft aber bei der Bearbeitung):</label>
+      <select id="fGrund">
+        <option value="Zug hatte Verspätung">Zug hatte Vorverspätung</option>
+        <option value="Anschlusszug verpasst">Anschlusszug verpasst</option>
+        <option value="Zug ist komplett ausgefallen">Zug ist komplett ausgefallen</option>
+        <option value="Personalmangel / Streik">Personalmangel oder Streik</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>4. Empfänger der Forderung</legend>
+      <label>Anschrift des Anbieters:</label>
+      <textarea id="rAddress" rows="4" style="width: 100%; font-family: inherit; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">Eurostar Traveller Care
+2nd Floor, Kent House
+81 Station Road
+Ashford, TN23 1AP
+Vereinigtes Königreich</textarea>
+      <small style="color: #666;">Dies ist die offizielle Adresse von Eurostar. Sie können diese bei Bedarf ergänzen.</small>
+    </fieldset>
+
+    <button type="submit" class="button-primary">📄 Erstattungsantrag als PDF generieren</button>
+  </form>
+
+  <!-- Umfassender SEO Content Bereich -->
+  <div class="seo-content">
+    <h2>Ihre Fahrgastrechte bei Eurostar im Detail</h2>
+    <p>Wer regelmäßig mit dem ICE, IC oder im Regionalverkehr (RE, RB) von Eurostar unterwegs ist, kennt das Problem: Ausfallende Züge, Signalstörungen und verpasste Anschlüsse rauben Zeit und Nerven. Die gute Nachricht: Wenn der Fahrplan völlig aus dem Takt gerät, schützt Sie das europäische Eisenbahnrecht. Die EU-Fahrgastrechteverordnung (VO 2021/782) regelt verbindlich, wie viel Geld Ihnen als Ausgleich zusteht.</p>
+
+    <h3>Eurostar: Wie hoch ist die Entschädigung bei Verspätungen?</h3>
+    <p>Ein weit verbreiteter Irrtum: Es zählt <em>nicht</em> die Verspätung eines einzelnen Zuges unterwegs, sondern ausschließlich <strong>Ihre Ankunftszeit am gebuchten Zielbahnhof</strong>. Fährt Ihr erster Zug nur 10 Minuten zu spät, aber Sie verpassen dadurch den entscheidenden Anschluss-ICE und kommen schlussendlich eine Stunde später an, greifen Ihre Fahrgastrechte in vollem Umfang.</p>
+    
+    <table class="seo-table">
+      <thead>
+        <tr>
+          <th>Verspätung am Zielort</th>
+          <th>Ihre Entschädigung (Einzelticket)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ab 60 Minuten (bis 119 Min.)</td>
+          <td><strong>25 %</strong> des gezahlten Fahrpreises</td>
+        </tr>
+        <tr>
+          <td>Ab 120 Minuten (2 Stunden +)</td>
+          <td><strong>50 %</strong> des gezahlten Fahrpreises</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p><em>Wichtige Regel für Hin- und Rückfahrten:</em> Haben Sie ein Ticket gekauft, das sowohl die Hin- als auch die Rückfahrt auf einem Beleg bündelt, wird die Verspätung isoliert betrachtet. Die Berechnungsgrundlage ist dann exakt die Hälfte des bezahlten Gesamtpreises.</p>
+
+    <h3>Ausnahmen: Wann Eurostar nicht mehr zahlen muss</h3>
+    <p>Seit Juni 2023 ist eine Reform der Fahrgastrechte in Kraft getreten, die den Verkehrsunternehmen mehr Spielraum gibt. Bei sogenannten "außergewöhnlichen Umständen", die für das Verkehrsunternehmen unvermeidbar waren, entfällt der Anspruch auf die finanzielle Teilrückerstattung. Dazu zählen:</p>
+    <ul>
+      <li>Extreme Wetterbedingungen (Sturmtiefs, Orkanböen, starke Überschwemmungen). Normale winterliche Bedingungen oder normaler Herbststurm zählen jedoch zum Betriebsrisiko.</li>
+      <li>Fremdverschulden Dritter (z.B. Kabeldiebstahl, Notarzteinsätze, "Personen im Gleis" oder Sabotage).</li>
+    </ul>
+    <p><strong>Gute Nachricht:</strong> Bei einem Streik des eigenen Personals (z.B. GDL oder EVG), bei Weichenstörungen, defekten Stellwerken oder kaputten Zügen greifen diese Ausnahmen <em>nicht</em>. Hier muss Eurostar Ihnen das Geld erstatten!</p>
+
+    <!-- FAQ Bereich -->
+    <div class="faq-section">
+      <h2>Häufige Fragen (FAQ) zur Entschädigung bei Eurostar</h2>
+      
+      <details>
+        <summary>Was ist mit dem Deutschlandticket (49-Euro-Ticket)?</summary>
+        <p>Das Deutschlandticket gilt rechtlich als stark ermäßigtes Zeitfahrticket im Nahverkehr. Hier greift eine gesonderte Pauschalregelung: Pro erlittener Verspätung ab 60 Minuten erhalten Sie 1,50 Euro. Da die Bahn Beträge unter 4 Euro gesetzlich nicht auszahlen darf ("Bagatellgrenze"), müssen Sie innerhalb des Gültigkeitsmonats mindestens drei Verspätungen ansammeln (3 x 1,50 € = 4,50 €) und diese dann gebündelt einreichen.</p>
+      </details>
+      
+      <details>
+        <summary>Was muss ich meinem PDF-Antrag beilegen?</summary>
+        <p>Drucken Sie das hier generierte PDF-Dokument aus, unterschreiben Sie es zwingend händisch und legen Sie <strong>Ihre Fahrkarte</strong> bei. Handelt es sich um ein Papierticket (z.B. aus dem Automaten), muss das Original mit in den Umschlag. Bei Online-Tickets drucken Sie das PDF-Ticket einfach aus. Senden Sie die Unterlagen an das Servicecenter Fahrgastrechte in 60647 Frankfurt am Main.</p>
+      </details>
+
+      <details>
+        <summary>Darf ich bei Verspätung einfach einen anderen Zug nehmen?</summary>
+        <p>Ja, die sogenannte "Zugbindung" wird automatisch aufgehoben, wenn Sie an Ihrem Zielort voraussichtlich eine Verspätung von mindestens 20 Minuten erwarten müssen. Sie dürfen dann jeden anderen Zug von Eurostar nutzen, der nicht reservierungspflichtig ist, um Ihr Ziel zu erreichen. <em>Achtung: Nahverkehrstickets (wie das Deutschlandticket) berechtigen bei Ausfällen nicht mehr automatisch zur Nutzung eines ICEs.</em></p>
+      </details>
+    </div>
+  </div>
+
+  <div class="popular-links" style="margin-top: 40px; padding: 20px; background: #f9f9f9; border-radius: 8px;">
+        <h3>Weitere Anbieter & Regionen:</h3>
+        <div class="link-grid">
+            <a href="zugverspaetung-entschaedigung-deutsche-bahn.html">Deutsche Bahn</a>
+<a href="zugverspaetung-entschaedigung-mav.html">MÁV-START</a>
+<a href="zugverspaetung-entschaedigung-cp.html">CP (Comboios de Portugal)</a>
+<a href="zugverspaetung-entschaedigung-vlexx.html">vlexx</a>
+<a href="zugverspaetung-entschaedigung-avlo.html">Avlo (Renfe)</a>
+
+        </div>
+    </div>
+  </div>
+
+  <!-- Quellen-Box: Deutsche Bahn Verspätung -->
+<aside class="legal-sources-box" aria-labelledby="sources-title">
+    <h3 id="sources-title" class="sources-heading">Offizielle Rechtsgrundlagen</h3>
+    <p class="sources-intro">
+        Die Berechnungen und Anschreiben dieses Generators basieren auf folgenden geltenden Gesetzen und europäischen Verordnungen:
+    </p>
+    <ul class="sources-list">
+        <li>
+            <strong>Verordnung (EU) 2021/782</strong> (Rechte und Pflichten der Fahrgäste im Eisenbahnverkehr): 
+            Maßgebliches europäisches Recht für Entschädigungen bei Zugverspätungen und Zugausfällen.
+            <br>
+            <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32021R0782" target="_blank" rel="noopener noreferrer" class="source-link">
+                Offizieller Text auf EUR-Lex (Europa.eu)
+            </a>
+        </li>
+        <li>
+            <strong>Eisenbahn-Verkehrsordnung (EVO)</strong> (insbes. § 17 Fahrgastrechte): 
+            Nationale deutsche Verordnung, die die EU-Fahrgastrechte ergänzt und Details zur Beförderung regelt.
+            <br>
+            <a href="https://www.gesetze-im-internet.de/evo/" target="_blank" rel="noopener noreferrer" class="source-link">
+                Offizieller Text auf Gesetze-im-Internet.de (BMJ)
+            </a>
+        </li>
+    </ul>
+</aside>
+
+
+
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise im Reiserecht & Fahrgastrechten</h3>
+    <p class="trust-text">
+        Unsere Ratgeber und Generatoren basieren auf der strikten Auswertung aktueller EU-Verordnungen (wie EG 261/2004), BGH-Urteilen und dem nationalen Reiserecht. 
+        Sie werden von Marc (Projektleitung) & Team entwickelt, um Reisenden eine rechtssichere Durchsetzung gegenüber Airlines und Reiseveranstaltern zu ermöglichen.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Wichtiger Hinweis: Unsere Tools bieten Hilfe zur Selbsthilfe bei Flugverspätung, Hotelmängeln oder Zugausfällen. Sie ersetzen keine individuelle Rechtsberatung durch einen Anwalt.
+        </span>
+    </p>
+
+    <!-- Umlaut in URL entfernt! -->
+    <a href="ueber-uns.html" class="trust-link">
+        Details zur rechtlichen Methodik & Redaktion erfahren →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Problem mit dem Flug, der Bahn oder dem Hotel?</strong><br>
+        Fix-My-Trip prüft in wenigen Schritten Ihren Anspruch auf Entschädigung, Ticket-Erstattung oder Reisepreisminderung. <br>
+        <em>Ein Service aus dem Netzwerk der Lotse-Portale.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Fehler im Tool entdeckt?</strong> Da wir als automatisiertes Portal keine individuelle Rechtsberatung leisten, helfen Sie uns enorm, wenn Sie Bugs oder veraltete Anbieter melden: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Feedback an unsere Zentrale senden</a>.
+</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Über uns</a> | 
+        <a href="index.html">Startseite</a> | 
+        <a href="impressum.html">Impressum</a> | 
+        <a href="datenschutz.html">Datenschutz</a>
+    </nav>
+</footer>
+
+<script>
+document.getElementById('trainForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+    
+    // Fest verdrahtete Adresse des DB Servicecenters
+    // Dynamische Adresse aus dem Textfeld ziehen
+const empfaenger = document.getElementById('rAddress').value;
+    
+    const sName = document.getElementById('sName').value;
+    const sStrasse = document.getElementById('sStrasse').value;
+    const sPLZOrt = document.getElementById('sPLZOrt').value;
+    const bIBAN = document.getElementById('bIBAN').value;
+    
+    const fTicket = document.getElementById('fTicket').value;
+    const fStart = document.getElementById('fStart').value;
+    const fZiel = document.getElementById('fZiel').value;
+    const fGrund = document.getElementById('fGrund').value;
+    
+    const rawDate = document.getElementById('fDatum').value;
+    const fDatumParts = rawDate.split('-');
+    const fDatum = `${fDatumParts[2]}.${fDatumParts[1]}.${fDatumParts[0]}`;
+
+    const verspaetungTyp = document.getElementById('fVerspaetung').value;
+
+    let deadline = new Date();
+    deadline.setDate(deadline.getDate() + 14);
+    const deadlineStr = deadline.toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'});
+    const todayStr = new Date().toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'});
+
+    doc.setFont("helvetica");
+
+    // 1. Fensterzeile (Absender in klein)
+    doc.setFontSize(8);
+    doc.setTextColor(100, 100, 100);
+    doc.text(`${sName} • ${sStrasse} • ${sPLZOrt}`, 25, 45);
+    doc.setLineWidth(0.2);
+    doc.setDrawColor(150, 150, 150);
+    doc.line(25, 46.5, 95, 46.5);
+
+    // 2. Empfänger (Servicecenter)
+    doc.setFontSize(11);
+    doc.setTextColor(0, 0, 0);
+    const receiverLines = doc.splitTextToSize(empfaenger, 80);
+    doc.text(receiverLines, 25, 53);
+
+    // 3. Absenderblock Rechts
+    doc.setFontSize(10);
+    doc.text("Absender:", 130, 45);
+    doc.setFont("helvetica", "bold");
+    doc.text(sName, 130, 50);
+    doc.setFont("helvetica", "normal");
+    doc.text(sStrasse, 130, 55);
+    doc.text(sPLZOrt, 130, 60);
+
+    doc.text(`Datum: ${todayStr}`, 185, 80, {align: 'right'});
+
+    // 4. Betreff
+    doc.setFontSize(12);
+    doc.setFont("helvetica", "bold");
+    doc.text(`Antrag auf Entschädigung gemäß den Fahrgastrechten (VO (EU) 2021/782)`, 25, 95);
+    
+    // 5. Fakten-Box
+    doc.setFontSize(10.5);
+    doc.setFont("helvetica", "bold");
+    doc.text("Auftrags-/Ticketnummer:", 25, 105);
+    doc.text("Reisedatum:", 25, 110);
+    doc.text("Strecke:", 25, 115);
+
+    doc.setFont("helvetica", "normal");
+    doc.text(fTicket, 75, 105);
+    doc.text(fDatum, 75, 110);
+    doc.text(`${fStart} nach ${fZiel}`, 75, 115);
+
+    doc.setDrawColor(0, 0, 0);
+    doc.line(25, 120, 185, 120); 
+
+    // 6. Haupttext je nach Verspätung
+    // 6. Haupttext je nach Verspätung
+const pageH = 297;
+const marginBottom = 20;
+const lineH = 6;
+
+function checkNewPage(doc, y, neededHeight = lineH) {
+    if (y + neededHeight > pageH - marginBottom) {
+        doc.addPage();
+        return 30;
+    }
+    return y;
+}
+
+function writeLines(doc, lines, startY, lh = lineH) {
+    let y = startY;
+    for (const line of lines) {
+        y = checkNewPage(doc, y);
+        doc.text(line, 25, y);
+        y += lh;
+    }
+    return y;
+}
+
+let yPos = 130;
+doc.setFontSize(11);
+
+let forderung = "";
+if (verspaetungTyp === "60") {
+    forderung = "Da ich meinen Zielbahnhof mit einer Verspätung von mehr als 60 Minuten, jedoch unter 120 Minuten, erreicht habe, mache ich hiermit meinen Anspruch auf Entschädigung in Höhe von 25 % des Ticketpreises geltend.";
+} else if (verspaetungTyp === "120") {
+    forderung = "Da ich meinen Zielbahnhof mit einer Verspätung von mehr als 120 Minuten erreicht habe, mache ich hiermit meinen Anspruch auf Entschädigung in Höhe von 50 % des Ticketpreises geltend.";
+} else {
+    forderung = "Da die Fahrt nicht stattfand bzw. abgebrochen wurde, mache ich hiermit meinen Anspruch auf vollständige Erstattung des Ticketpreises geltend.";
+}
+
+const para1 = doc.splitTextToSize(
+    `Sehr geehrte Damen und Herren,\n\n` +
+    `ich wende mich an Sie, um meine Fahrgastrechte bezüglich der oben genannten Reise geltend zu machen.\n\n` +
+    `Auf der Fahrt kam es zu erheblichen Unregelmäßigkeiten. Als Grund hierfür lag vor: ${fGrund}.\n\n` +
+    forderung + `\n\n` +
+    `Die notwendigen Belege (Fahrkarte) liegen diesem Schreiben bei. Ich bitte Sie, den Erstattungsbetrag innerhalb der nächsten 14 Tage auf mein folgendes Konto zu überweisen:`,
+    160
+);
+yPos = writeLines(doc, para1, yPos);
+yPos += 8;
+
+const para2 = doc.splitTextToSize(
+    `Kontoinhaber: ${sName}\nIBAN: ${bIBAN}`,
+    160
+);
+yPos = writeLines(doc, para2, yPos);
+yPos += 15;
+
+const para3 = doc.splitTextToSize(
+    `Ich gehe von einer reibungslosen und zügigen Bearbeitung meines Anliegens aus und erwarte den Eingang der Zahlung bis spätestens zum ${deadlineStr}.`,
+    160
+);
+yPos = writeLines(doc, para3, yPos);
+yPos += 20;
+
+// Unterschrift – immer zusammenhalten
+yPos = checkNewPage(doc, yPos, 40);
+doc.text("Mit freundlichen Grüßen,", 25, yPos);
+yPos += 25;
+
+doc.setLineWidth(0.5);
+doc.line(25, yPos, 80, yPos);
+doc.line(100, yPos, 185, yPos);
+
+doc.setFontSize(9);
+doc.setTextColor(100, 100, 100);
+doc.text("Ort, Datum", 25, yPos + 5);
+doc.text(`Unterschrift (${sName})`, 100, yPos + 5);
+
+doc.save(`Fahrgastrechte_Eurostar_${fTicket}.pdf`);
+setTimeout(() => document.getElementById('donateOverlay').classList.add('active'), 800);
+});
+
+/* ══════════════════════════════════════════
+   ▶▶ DEINE PAYPAL-E-MAIL HIER EINTRAGEN ◀◀
+   ══════════════════════════════════════════ */
+const PAYPAL_EMAIL = 'info@kassen-lotse.de';
+
+let donateAmount = 5;
+
+function selectPreset(amount, btn) {
+  donateAmount = amount;
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  document.getElementById('customAmount').value = '';
+  document.getElementById('customAmount').classList.remove('selected-custom');
+  updateDonateButton();
+}
+
+function handleCustomInput(input) {
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  const val = parseFloat(input.value);
+  if (val && val >= 1) {
+    donateAmount = val;
+    input.classList.add('selected-custom');
+  } else {
+    donateAmount = 0;
+    input.classList.remove('selected-custom');
+  }
+  updateDonateButton();
+}
+
+function updateDonateButton() {
+  const btn = document.getElementById('btnDonate');
+  if (donateAmount >= 1) {
+    btn.textContent = `Jetzt ${donateAmount % 1 === 0 ? donateAmount : donateAmount.toFixed(2)} € spenden`;
+    btn.disabled = false;
+  } else {
+    btn.textContent = 'Betrag eingeben';
+    btn.disabled = true;
+  }
+}
+
+function openPayPal() {
+  if (donateAmount < 1) return;
+  const amountStr = donateAmount.toFixed(2);
+  const url = `https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=${encodeURIComponent(PAYPAL_EMAIL)}&amount=${amountStr}&currency_code=EUR&item_name=Fix my Trip+Unterst%C3%BCtzung&no_note=1&no_shipping=1`;
+  window.open(url, '_blank');
+  closeOverlay();
+}
+
+function closeOverlay() {
+  document.getElementById('donateOverlay').classList.remove('active');
+}
+</script>
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <div class="donate-emoji">🎉</div>
+    <h2>Ihr Brief ist fertig!</h2>
+    <p class="sub">Sie haben sich gerade <strong style="color:#2e7d32;">Provision</strong> gespart –<br>kein Drittanbieter, keine Abgaben, alles gehört Ihnen.</p>
+    <div class="donate-hint">
+      Dieser Service ist und bleibt <strong>100 % kostenlos</strong>. Wenn er Ihnen geholfen hat, freuen wir uns sehr über eine kleine freiwillige Unterstützung – damit Fix my Trip auch für andere Reisende kostenlos bleibt.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Schnellauswahl:</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Eigener Betrag eingeben …" oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Jetzt 5 € spenden</button>
+    <button class="btn-skip" onclick="closeOverlay()">Nein danke, ich schließe das Fenster</button>
+    <p class="paypal-note">Freiwillig &amp; sicher über PayPal</p>
+  </div>
+</div>
+</body>
+</html>

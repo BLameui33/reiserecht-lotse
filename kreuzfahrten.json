@@ -1,0 +1,22 @@
+[
+  { "slug": "aida-cruises", "name": "AIDA Cruises", "adresse": "AIDA Cruises - German Branch of Costa Crociere S.p.A.\nKundendialog / Guest Relations\nAm Strande 3d\n18055 Rostock" },
+  { "slug": "tui-cruises-mein-schiff", "name": "TUI Cruises (Mein Schiff)", "adresse": "TUI Cruises GmbH\nKundenbetreuung\nHeidenkampsweg 58\n20097 Hamburg" },
+  { "slug": "msc-cruises", "name": "MSC Cruises", "adresse": "MSC Cruises S.A. (Niederlassung München)\nKundenservice\nGarmischer Str. 7\n80339 München" },
+  { "slug": "costa-kreuzfahrten", "name": "Costa Kreuzfahrten", "adresse": "Costa Crociere S.p.A. - Niederlassung Deutschland\nKundenservice\nAm Sandtorkai 39\n20457 Hamburg" },
+  { "slug": "ncl-norwegian-cruise-line", "name": "Norwegian Cruise Line (NCL)", "adresse": "NCL (Bahamas) Ltd. - Niederlassung Wiesbaden\nKreuzfahrtgasse 1\n65193 Wiesbaden" },
+  { "slug": "royal-caribbean", "name": "Royal Caribbean International", "adresse": "RCL Cruises Ltd. - Zweigniederlassung Frankfurt\nSpeicherstraße 59\n60327 Frankfurt am Main" },
+  { "slug": "hurtigruten", "name": "Hurtigruten", "adresse": "Hurtigruten GmbH\nKundenbetreuung\nGroßer Grasbrook 10\n20457 Hamburg" },
+  { "slug": "phoenix-reisen", "name": "Phoenix Reisen", "adresse": "Phoenix Reisen GmbH\nPfälzer Str. 14\n53111 Bonn" },
+  { "slug": "hapag-lloyd-cruises", "name": "Hapag-Lloyd Cruises", "adresse": "Hapag-Lloyd Kreuzfahrten GmbH\nKundenbetreuung\nBallindamm 25\n20095 Hamburg" },
+  { "slug": "cunard-line", "name": "Cunard Line", "adresse": "Cunard Line - Eine Marke der Carnival plc\nAm Sandtorkai 38\n20457 Hamburg" },
+  { "slug": "holland-america-line", "name": "Holland America Line", "adresse": "Holland America Line / Carnival plc\nNiederlassung München\nPlatz der Ideen 2\n40476 Düsseldorf" },
+  { "slug": "princess-cruises", "name": "Princess Cruises", "adresse": "Princess Cruises - Inter-Connect GmbH\nArnulfstr. 31\n80636 München" },
+  { "slug": "nicko-cruises", "name": "nicko cruises", "adresse": "nicko cruises Schiffsreisen GmbH\nMittlerer Pfad 2\n70499 Stuttgart" },
+  { "slug": "plantours-kreuzfahrten", "name": "Plantours Kreuzfahrten", "adresse": "plantours & Partner GmbH\nMartinistraße 50\n28195 Bremen" },
+  { "slug": "a-rosa-flusskreuzfahrten", "name": "A-ROSA Flussschiff", "adresse": "A-ROSA Flussschiff GmbH\nKundenbetreuung\nLoggerweg 5\n18055 Rostock" },
+  { 
+    "slug": "allgemein", 
+    "name": "Andere Reederei (Allgemeine Vorlage)", 
+    "adresse": "[Name der Reederei]\n[z.B. Abteilung Kundenservice]\n[Straße und Hausnummer]\n[PLZ und Ort]" 
+  }
+]

@@ -1,0 +1,266 @@
+[
+  {
+    "name": "Deutsche Bahn",
+    "slug": "deutsche-bahn",
+    "adresse": "Servicecenter Fahrgastrechte\n60647 Frankfurt am Main\nDeutschland",
+    "land": "Deutschland"
+  },
+  {
+    "name": "ICE (Deutsche Bahn)",
+    "slug": "ice",
+    "adresse": "Servicecenter Fahrgastrechte\n60647 Frankfurt am Main\nDeutschland",
+    "land": "Deutschland"
+  },
+  {
+    "name": "AVE (Renfe)",
+    "slug": "ave",
+    "adresse": "Renfe Viajeros S.A.\nAvenida de Ciudad de Barcelona 6\n28007 Madrid\nSpanien",
+    "land": "Spanien"
+  },
+  {
+    "name": "OUIGO España",
+    "slug": "ouigo-espana",
+    "adresse": "OUIGO España S.A.U.\nCalle de Alcalá 44\n28014 Madrid\nSpanien",
+    "land": "Spanien"
+  },
+  {
+    "name": "Avlo (Renfe)",
+    "slug": "avlo",
+    "adresse": "Renfe Viajeros S.A.\nAvenida de Ciudad de Barcelona 6\n28007 Madrid\nSpanien",
+    "land": "Spanien"
+  },
+  {
+    "name": "Frecciarossa (Trenitalia)",
+    "slug": "frecciarossa",
+    "adresse": "Trenitalia S.p.A.\nUfficio Reclami e Rimborsi\nPiazza della Croce Rossa 1\n00161 Rom\nItalien",
+    "land": "Italien"
+  },
+  {
+    "name": "Trenord",
+    "slug": "trenord",
+    "adresse": "Trenord S.r.l.\nPiazzale Cadorna 14\n20123 Mailand\nItalien",
+    "land": "Italien"
+  },
+  {
+    "name": "TGV (SNCF)",
+    "slug": "tgv",
+    "adresse": "Service Relation Client SNCF\n62973 ARRAS Cedex 9\nFrankreich",
+    "land": "Frankreich"
+  },
+  {
+    "name": "Nightjet (ÖBB)",
+    "slug": "nightjet",
+    "adresse": "ÖBB-Personenverkehr AG\nKundenservice\nPostfach 75\n1020 Wien\nÖsterreich",
+    "land": "Österreich"
+  },
+  {
+    "name": "FlixTrain",
+    "slug": "flixtrain",
+    "adresse": "FlixTrain GmbH\nFahrgastrechte\nPostfach 10 30 47\n70026 Stuttgart\nDeutschland",
+    "land": "Deutschland"
+  },
+  {
+    "name": "ÖBB (Österreichische Bundesbahnen)",
+    "slug": "oebb",
+    "adresse": "ÖBB-Personenverkehr AG\nKundenservice\nPostfach 75\n1020 Wien\nÖsterreich",
+    "land": "Österreich"
+  },
+  {
+    "name": "WESTbahn",
+    "slug": "westbahn",
+    "adresse": "WESTbahn Management GmbH\nEuropaplatz 3\n1150 Wien\nÖsterreich",
+    "land": "Österreich"
+  },
+  {
+    "name": "SBB (Schweizerische Bundesbahnen)",
+    "slug": "sbb",
+    "adresse": "SBB Kundendienst\nPostfach\n3000 Bern 65\nSchweiz",
+    "land": "Schweiz"
+  },
+  {
+    "name": "SNCF (Société Nationale des Chemins de fer Français)",
+    "slug": "sncf",
+    "adresse": "Service Relation Client SNCF\n62973 ARRAS Cedex 9\nFrankreich",
+    "land": "Frankreich"
+  },
+  {
+    "name": "Trenitalia",
+    "slug": "trenitalia",
+    "adresse": "Trenitalia S.p.A.\nUfficio Reclami e Rimborsi\nPiazza della Croce Rossa 1\n00161 Rom\nItalien",
+    "land": "Italien"
+  },
+  {
+    "name": "Renfe",
+    "slug": "renfe",
+    "adresse": "Renfe Viajeros S.A.\nAvenida de Ciudad de Barcelona 6\n28007 Madrid\nSpanien",
+    "land": "Spanien"
+  },
+  {
+    "name": "NS (Nederlandse Spoorwegen)",
+    "slug": "ns",
+    "adresse": "NS Klantenservice\nPostbus 2372\n3500 GJ Utrecht\nNiederlande",
+    "land": "Niederlande"
+  },
+  {
+    "name": "SNCB / NMBS (Belgische Bahn)",
+    "slug": "sncb",
+    "adresse": "SNCB Customer Service\nAvenue de la Porte de Hal 40\n1060 Brüssel\nBelgien",
+    "land": "Belgien"
+  },
+  {
+    "name": "Eurostar",
+    "slug": "eurostar",
+    "adresse": "Eurostar Traveller Care\n2nd Floor, Kent House\n81 Station Road\nAshford, TN23 1AP\nVereinigtes Königreich",
+    "land": "Vereinigtes Königreich"
+  },
+  {
+    "name": "ČD (České dráhy)",
+    "slug": "cd",
+    "adresse": "České dráhy a.s.\nnábřeží L. Svobody 1222/1\n110 15 Prag 1\nTschechien",
+    "land": "Tschechien"
+  },
+  {
+    "name": "DSB (Danske Statsbaner)",
+    "slug": "dsb",
+    "adresse": "DSB Kundecenter\nTelegade 2\n2630 Taastrup\nDänemark",
+    "land": "Dänemark"
+  },
+  {
+    "name": "metronom",
+    "slug": "metronom",
+    "adresse": "metronom Eisenbahngesellschaft mbH\nKundenzentrum\nSt.-Viti-Straße 15\n29525 Uelzen\nDeutschland",
+    "land": "Deutschland"
+  },
+  {
+    "name": "ODEG (Ostdeutsche Eisenbahn)",
+    "slug": "odeg",
+    "adresse": "ODEG Kundenservice\nMöllendorffstraße 49\n10367 Berlin\nDeutschland",
+    "land": "Deutschland"
+  },
+  {
+    "name": "National Express",
+    "slug": "national-express",
+    "adresse": "National Express Rail GmbH\nKundendialog\nKölner Straße 266\n51149 Köln\nDeutschland",
+    "land": "Deutschland"
+  },
+  {
+    "name": "BRB (Bayerische Regiobahn)",
+    "slug": "brb",
+    "adresse": "Bayerische Regiobahn GmbH\nKundencenter\nBahnhofplatz 9\n83646 Bad Tölz\nDeutschland",
+    "land": "Deutschland"
+  },
+  {
+    "name": "agilis",
+    "slug": "agilis",
+    "adresse": "agilis Eisenbahngesellschaft mbH & Co. KG\nKundencenter\nGalgenbergstraße 2a\n93053 Regensburg\nDeutschland",
+    "land": "Deutschland"
+  },
+  {
+    "name": "vlexx",
+    "slug": "vlexx",
+    "adresse": "vlexx GmbH\nKundencenter\nMombacher Str. 36\n55122 Mainz\nDeutschland",
+    "land": "Deutschland"
+  },
+  {
+    "name": "erixx",
+    "slug": "erixx",
+    "adresse": "erixx GmbH\nKundenzentrum\nSt.-Viti-Straße 15\n29525 Uelzen\nDeutschland",
+    "land": "Deutschland"
+  },
+  {
+    "name": "eurobahn",
+    "slug": "eurobahn",
+    "adresse": "eurobahn GmbH & Co. KG\nKundencenter\nUnionstraße 3\n59067 Hamm\nDeutschland",
+    "land": "Deutschland"
+  },
+  {
+    "name": "cantus",
+    "slug": "cantus",
+    "adresse": "cantus Verkehrsgesellschaft mbH\nKundenzentrum\nBahnhofstraße 1\n34117 Kassel\nDeutschland",
+    "land": "Deutschland"
+  },
+  {
+    "name": "PKP Intercity",
+    "slug": "pkp",
+    "adresse": "PKP Intercity S.A.\nAl. Jerozolimskie 142A\n02-305 Warschau\nPolen",
+    "land": "Polen"
+  },
+  {
+    "name": "SJ (Statens Järnvägar)",
+    "slug": "sj",
+    "adresse": "SJ AB\nKundservice\n105 50 Stockholm\nSchweden",
+    "land": "Schweden"
+  },
+  {
+    "name": "Italo (NTV)",
+    "slug": "italo",
+    "adresse": "Italo - Nuovo Trasporto Viaggiatori S.p.A.\nServizio Clienti\nViale del Policlinico 149/b\n00161 Rom\nItalien",
+    "land": "Italien"
+  },
+  {
+    "name": "iryo",
+    "slug": "iryo",
+    "adresse": "Intermodalidad de Levante S.A.\nCalle de Méndez Álvaro 56\n28045 Madrid\nSpanien",
+    "land": "Spanien"
+  },
+  {
+    "name": "CP (Comboios de Portugal)",
+    "slug": "cp",
+    "adresse": "CP - Comboios de Portugal\nCalçada do Duque 20\n1200-156 Lissabon\nPortugal",
+    "land": "Portugal"
+  },
+  {
+    "name": "MÁV-START",
+    "slug": "mav",
+    "adresse": "MÁV-START Zrt.\nÜgyfélszolgálat\nPf. 56.\n1426 Budapest\nUngarn",
+    "land": "Ungarn"
+  },
+  {
+    "name": "VR (VR-Yhtymä)",
+    "slug": "vr",
+    "adresse": "VR-Yhtymä Oyj\nAsiakaspalvelu\nPL 7020\n00063 VR\nFinnland",
+    "land": "Finnland"
+  },
+  {
+    "name": "CFR Călători",
+    "slug": "cfr",
+    "adresse": "SNTFC CFR Călători S.A.\nBd. Dinicu Golescu 38\nSector 1\n010873 Bukarest\nRumänien",
+    "land": "Rumänien"
+  },
+  {
+    "name": "ZSSK (Železničná spoločnosť Slovensko)",
+    "slug": "zssk",
+    "adresse": "ZSSK a.s.\nZákaznícke centrum\nRožňavská 1\n832 72 Bratislava\nSlowakei",
+    "land": "Slowakei"
+  },
+  {
+    "name": "NordWestBahn",
+    "slug": "nordwestbahn",
+    "adresse": "NordWestBahn GmbH\nKundendialog\nPostfach 42 64\n49032 Osnabrück\nDeutschland",
+    "land": "Deutschland"
+  },
+  {
+    "name": "HLB (Hessische Landesbahn)",
+    "slug": "hlb",
+    "adresse": "Hessische Landesbahn GmbH\nKundenservice\nErlenstraße 2\n60325 Frankfurt am Main\nDeutschland",
+    "land": "Deutschland"
+  },
+  {
+    "name": "SWEG",
+    "slug": "sweg",
+    "adresse": "SWEG Südwestdeutsche Landesverkehrs-GmbH\nKundencenter\nRheinstraße 8\n77933 Lahr\nDeutschland",
+    "land": "Deutschland"
+  },
+  {
+    "name": "VIAS",
+    "slug": "vias",
+    "adresse": "VIAS Rail GmbH\nKundenservice\nKölner Straße 266\n51149 Köln\nDeutschland",
+    "land": "Deutschland"
+  },
+  {
+    "name": "NEB (Niederbarnimer Eisenbahn)",
+    "slug": "neb",
+    "adresse": "Niederbarnimer Eisenbahn AG\nKundencenter\nGeorgenstraße 22\n10117 Berlin\nDeutschland",
+    "land": "Deutschland"
+  }
+]

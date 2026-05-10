@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Ferienhaus & Ferienwohnung Mängel: So fordern Sie eine Mietminderung</title>
+  <meta name="description" content="Schimmel, kaputter Pool oder kein WLAN im Ferienhaus? Ratgeber zu Ihren Rechten bei FeWo-Mängeln. Fordern Sie Geld vom Anbieter zurück (inkl. PDF-Generator).">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="canonical" href="https://www.fix-my-trip.com/de/ferienhaus-maengel-info.html">
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/ferienhaus-maengel-info.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/ferienhaus-maengel-info.html">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Greift bei Ferienhäusern das Pauschalreiserecht?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nein, in der Regel nicht. Wenn Sie nur ein Ferienhaus oder eine Ferienwohnung buchen (ohne Flug oder Mietwagen als Paket), greift das klassische Mietrecht (§ 536 BGB). Sie haben bei Mängeln das Recht auf Mietminderung."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Wem muss ich den Mangel im Ferienhaus melden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sie müssen den Mangel zwingend unverzüglich vor Ort melden. Ansprechpartner ist der direkte Vermieter, die Hausverwaltung vor Ort oder die im Vertrag genannte Schlüsselagentur. Melden Sie es zusätzlich dem Buchungsportal."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Kann ich die Frankfurter Tabelle für Ferienwohnungen nutzen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rechtlich gesehen gilt die Frankfurter Tabelle nur für Pauschalreisen. In der Praxis ziehen deutsche Amtsgerichte die Prozentsätze der Tabelle aber sehr häufig heran, um eine angemessene Mietminderung bei Ferienhäusern zu schätzen."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Was mache ich bei einer Überbuchung oder Stornierung kurz vor Anreise?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Storniert der Vermieter grundlos kurzfristig, macht er sich schadenersatzpflichtig. Er muss Ihnen in der Regel die Mehrkosten für eine vergleichbare Ersatzunterkunft (z.B. ein teureres Hotel in der Nähe) erstatten."
+      }
+    }]
+  }
+  </script>
+</head>
+<body>
+
+<header class="site-header" style="padding: 20px 0; border-bottom: 2px solid #eee; margin-bottom: 30px;">
+  <a href="index.html" style="font-size: 1.5em; font-weight: bold; text-decoration: none;">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Ferienhaus-Mängel: Ihre Rechte auf Mietminderung</h1>
+  
+  <p>Die Fotos zeigten eine traumhafte Villa, doch die Realität sieht anders aus: Ein grüner Pool, Schimmel an den Wänden, Ungeziefer oder eine defekte Heizung im Winterurlaub. Wenn Ihr gebuchtes Ferienhaus oder Ihre Ferienwohnung erhebliche Mängel aufweist, greift in den meisten Fällen das <strong>Mietrecht (§ 536 BGB)</strong>.</p>
+  
+  <p>Das Gesetz ist hier auf Ihrer Seite: Wenn die Unterkunft nicht der versprochenen Beschreibung entspricht, dürfen Sie die Miete mindern. <strong>Der größte Fehler:</strong> Urlauber ärgern sich zwei Wochen lang, reisen ab und fordern dann Geld vom Portal zurück. Das funktioniert nicht! Sie müssen dem Vermieter vor Ort sofort die Chance zur Nachbesserung geben. Nutzen Sie unsere kostenlosen Generatoren, um branchenübliche Minderungsquoten durchzusetzen.</p>
+
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Mängelanzeige generieren</h2>
+    <p>Wählen Sie Ihr Ferienhaus-Portal oder Ihren Vermittler aus, um ein maßgeschneidertes, rechtssicheres Forderungsschreiben (PDF) zu erstellen (100% kostenlos):</p>
+    
+    <select id="organizerSelect">
+      <option value="">-- Bitte Ferienhaus-Anbieter / Portal wählen --</option>
+      {{FEWO_OPTIONS}}
+      <option value="ferienhaus-reklamation-allgemein.html">Mein Anbieter ist nicht dabei (Allgemeines Formular)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Zum Generator für diesen Anbieter</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Ferienhaus-Portale & Vermittler im Überblick</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{FEWO_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Checkliste: So verhalten Sie sich bei FeWo-Mängeln vor Ort</h2>
+  <p>Wer Mängel kommentarlos hinnimmt, verliert seinen Anspruch auf Erstattung. Gehen Sie zwingend nach dieser Checkliste vor:</p>
+  
+  <div class="checklist-box" id="checklistToPrint">
+    <h3 style="margin-top:0; color:#1565c0;">Checkliste für Ferienhäuser</h3>
+    <ul>
+      <li><strong>Mangel unverzüglich melden:</strong> Kontaktieren Sie sofort den Eigentümer, die Hausverwaltung oder die Schlüsselübergabe-Stelle vor Ort.</li>
+      <li><strong>Portal informieren:</strong> Schreiben Sie parallel eine Nachricht über das Nachrichtensystem des Anbieters (z.B. Novasol, Booking), um die rechtzeitige Meldung zu dokumentieren.</li>
+      <li><strong>Abhilfe fordern & Frist setzen:</strong> Verlangen Sie eine sofortige Reparatur (z.B. Poolreinigung, Heizung reparieren) oder eine Reinigung.</li>
+      <li><strong>Beweise sichern:</strong> Machen Sie aussagekräftige Fotos und Videos (mit Datumsstempel) von Schmutz, Schimmel oder Defekten.</li>
+      <li><strong>Zeugen notieren:</strong> Notieren Sie Namen und Adressen von Zeugen (z.B. Nachbarn oder Mitreisenden, die nicht zur Familie gehören).</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('checkliste-ferienhaus.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+    Checkliste als PDF generieren & speichern
+  </button>
+
+  <h2 style="margin-top: 40px;">Fallbeispiele: Anspruch auf Minderung nach Mietrecht</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Beispiel 1: Pool unnutzbar</h3>
+    <p>Familie Becker bucht für 2.500 € eine Finca auf Mallorca. Der als Highlight beworbene Pool ist bei Ankunft komplett verdreckt, die Pumpe ist kaputt. Trotz sofortiger Meldung an die Agentur passiert tagelang nichts.<br>
+    <strong>Ergebnis:</strong> Der Ausfall einer versprochenen Kernausstattung wie einem Swimmingpool berechtigt nach gängiger Amtsgerichts-Rechtsprechung zu einer Mietminderung von <strong>15 % bis 20 %</strong> für die Dauer des Ausfalls.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Beispiel 2: Heizungsausfall im Winterurlaub</h3>
+    <p>Ein Ehepaar mietet eine Hütte in Dänemark im Dezember. Die Heizung fällt am zweiten Tag komplett aus, die Innentemperatur sinkt auf 12 Grad. Der Hausmeister ist nicht erreichbar.<br>
+    <strong>Ergebnis:</strong> Ein Totalausfall der Heizung in den Wintermonaten stellt einen gravierenden Mietmangel dar. Ist das Haus praktisch unbewohnbar, drohen dem Vermieter bis zu <strong>100 % Mietminderung</strong> für die betroffenen Tage. Die Mieter können sogar ins Hotel ziehen und die Mehrkosten fordern.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">Häufig gestellte Fragen (FAQ) zu FeWo-Mängeln</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">Greift bei Ferienhäusern das Pauschalreiserecht?</div>
+    <div class="faq-answer">Nein, in der Regel nicht. Wenn Sie nur eine Unterkunft mieten (ohne zusätzliche touristische Leistungen wie Flüge als Paket), greift das klassische Mietrecht (§ 536 BGB). Die Mängelhaftung richtet sich danach, ob die Immobilie dem vertraglich zugesicherten Zustand entspricht.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Wem muss ich den Mangel im Ferienhaus melden?</div>
+    <div class="faq-answer">Sie müssen den Mangel zwingend unverzüglich vor Ort melden. Ihr erster Ansprechpartner ist der direkte Vermieter, die lokale Hausverwaltung oder die im Vertrag genannte Schlüsselagentur. Melden Sie es aus Beweisgründen auch sofort dem Buchungsportal (schriftlich).</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Kann ich die Frankfurter Tabelle für Ferienwohnungen nutzen?</div>
+    <div class="faq-answer">Rechtlich gesehen gilt die Frankfurter Tabelle nur für Pauschalreisen. In der mietrechtlichen Praxis ziehen deutsche Amtsgerichte die Prozentsätze der Tabelle jedoch sehr häufig analog heran, um eine angemessene Mietminderungsquote zu schätzen. Unsere Generatoren orientieren sich an diesen Werten.</div>
+  </div>
+  
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">Gegen wen richte ich mein Forderungsschreiben?</div>
+    <div class="faq-answer">Das ist rechtlich oft komplex. Portale (wie FeWo-direkt oder Casamundo) agieren meist nur als Vermittler, der rechtliche Vertragspartner ist der Hauseigentümer. Aus pragmatischen Gründen empfehlen wir jedoch, die Mietminderung zunächst über das Portal bzw. den Vermittler geltend zu machen, da diese oft interne Beschwerdestellen haben oder Gelder (Kautionen) verwalten. Das PDF-Tool richtet die Anschrift daher an das gewählte Portal.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise im Reise- & Mietrecht</h3>
+    <p class="trust-text">
+        Unsere Ratgeber und Generatoren basieren auf der Auswertung aktueller Amtsgerichtsurteile und dem BGB. 
+        Sie werden von Marc (Projektleitung) & Team entwickelt, um Mietern eine rechtssichere Durchsetzung gegenüber Portalen und Vermietern zu ermöglichen.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Wichtiger Hinweis: Unsere Tools bieten Hilfe zur Selbsthilfe bei Ferienhaus-Mängeln. Sie ersetzen keine individuelle Rechtsberatung durch einen Anwalt.
+        </span>
+    </p>
+
+    <a href="ueber-uns.html" class="trust-link">
+        Details zur rechtlichen Methodik & Redaktion erfahren →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Problem mit dem Flug, der Bahn oder dem Ferienhaus?</strong><br>
+        Fix-My-Trip prüft in wenigen Schritten Ihren Anspruch auf Erstattung oder Mietminderung. <br>
+        <em>Ein Service aus dem Netzwerk der Lotse-Portale.</em>
+    </p>
+    </div>
+
+    <p class="feedback-note">
+        💡 <strong>Fehler im Tool entdeckt?</strong> Helfen Sie uns enorm, wenn Sie Bugs oder veraltete Anbieter melden: 
+        <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Feedback an unsere Zentrale senden</a>.
+    </p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Über uns</a> | 
+        <a href="index.html">Startseite</a> | 
+        <a href="impressum.html">Impressum</a> | 
+        <a href="datenschutz.html">Datenschutz</a>
+    </nav>
+</footer>
+
+<script>
+function routeToGenerator() {
+    const selectElement = document.getElementById('organizerSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Bitte wählen Sie zuerst ein Portal oder einen Anbieter aus der Liste aus.");
+    }
+}
+
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15,
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2,
+            scrollY: 0,
+            windowWidth: document.documentElement.offsetWidth
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

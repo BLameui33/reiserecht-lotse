@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Novasol",
+        "slug": "novasol",
+        "adresse": "NOVASOL A/S Zweigniederlassung Deutschland\nGotenstraße 11\n20097 Hamburg"
+    },
+    {
+        "name": "FeWo-direkt (Vrbo)",
+        "slug": "fewo-direkt",
+        "adresse": "EG Vacation Rentals Ireland Limited\n50 Block Novum, Brown Square\nDublin\nIrland"
+    },
+    {
+        "name": "Belvilla",
+        "slug": "belvilla",
+        "adresse": "Belvilla Services B.V.\nPiet Heinkade 55\n1019 GM Amsterdam\nNiederlande"
+    },
+    {
+        "name": "Casamundo",
+        "slug": "casamundo",
+        "adresse": "Casamundo GmbH\nPappelallee 78/79\n10437 Berlin"
+    },
+    {
+        "name": "DanCenter",
+        "slug": "dancenter",
+        "adresse": "DanCenter GmbH\nSpitalerstraße 16\n20095 Hamburg"
+    },
+    {
+        "name": "Interhome",
+        "slug": "interhome",
+        "adresse": "HTS Touristik GmbH (Interhome)\nHeinrich-von-Stephan-Straße 15\n79100 Freiburg im Breisgau"
+    },
+    {
+        "name": "Holidu",
+        "slug": "holidu",
+        "adresse": "Holidu GmbH\nRiesstraße 24\n80992 München"
+    },
+    {
+        "name": "Traum-Ferienwohnungen",
+        "slug": "traum-ferienwohnungen",
+        "adresse": "Traum-Ferienwohnungen GmbH\nAn der Reeperbahn 6\n28217 Bremen"
+    },
+    {
+        "name": "e-domizil",
+        "slug": "e-domizil",
+        "adresse": "e-domizil GmbH\nTaunusstraße 21\n60329 Frankfurt am Main"
+    },
+    {
+    "name": "Allgemeines Formular",
+    "slug": "allgemein",
+    "adresse": "[Bitte Anschrift des Anbieters hier eintragen]"
+}
+]

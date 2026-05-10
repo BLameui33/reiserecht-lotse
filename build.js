@@ -181,4 +181,195 @@ fs.writeFileSync(path.join(outputDir, 'esim-roaming-info.html'), loadTemplate('h
 fs.writeFileSync(path.join(outputDir, 'mietwagen-info.html'), loadTemplate('hub-mietwagen-master.html').replace(/\{\{MIETWAGEN_OPTIONS\}\}/g, optMiet).replace(/\{\{MIETWAGEN_LINKS\}\}/g, linkMiet), 'utf8');
 fs.writeFileSync(path.join(outputDir, 'zoll-info.html'), loadTemplate('hub-zoll-master.html').replace(/\{\{ZOLL_OPTIONS\}\}/g, optZoll).replace(/\{\{ZOLL_LINKS\}\}/g, linkZoll), 'utf8');
 
+
+// =====================================================================
+// SILO 5: BAHN (Zugverspätungen)
+// =====================================================================
+const bahnAnbieter = JSON.parse(fs.readFileSync(path.join(__dirname, 'bahn.json'), 'utf8'));
+const bahnTpl = loadTemplate('bahn-master.html');
+
+let optBahn = "";
+let linkBahn = "";
+
+bahnAnbieter.forEach(b => {
+    let fBahn = `zugverspaetung-entschaedigung-${b.slug}.html`;
+
+    // Cross-Links zu anderen Bahnanbietern generieren (SEO!)
+    let crossBahn = generateCrossLinks(bahnAnbieter, b, item => `zugverspaetung-entschaedigung-${item.slug}.html`, item => item.name);
+
+    // Seite schreiben
+    let content = bahnTpl
+        .replace(/\{\{BAHN_NAME\}\}/g, b.name)
+        .replace(/\{\{BAHN_ADRESSE\}\}/g, b.adresse)
+        .replace(/\{\{DATEINAME\}\}/g, fBahn)
+        .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossBahn);
+
+    fs.writeFileSync(path.join(outputDir, fBahn), content, 'utf8');
+    
+    // Daten für den Hub (Übersichtsseite) sammeln
+    optBahn += `<option value="${fBahn}">${b.name}</option>\n`;
+    linkBahn += `<a href="${fBahn}">${b.name}</a>\n`;
+});
+
+// Hub-Seite für Bahn schreiben
+fs.writeFileSync(
+    path.join(outputDir, 'zugverspaetung-info.html'), 
+    loadTemplate('hub-bahn-master.html')
+        .replace(/\{\{BAHN_OPTIONS\}\}/g, optBahn)
+        .replace(/\{\{BAHN_LINKS\}\}/g, linkBahn), 
+    'utf8'
+);
+
+// =====================================================================
+// SILO 6: OTA (Online Travel Agents)
+// =====================================================================
+
+const otaVermittler = JSON.parse(fs.readFileSync(path.join(__dirname, 'vermittler-ota.json'), 'utf8'));
+const otaTpl = loadTemplate('ota-vermittler-master.html');
+
+let optOta = "", linkOta = "";
+
+otaVermittler.forEach(v => {
+    let fOta = `rueckerstattung-flug-portal-${v.slug}.html`;
+    let crossOta = generateCrossLinks(otaVermittler, v, item => `rueckerstattung-flug-portal-${item.slug}.html`, item => item.name);
+
+    fs.writeFileSync(path.join(outputDir, fOta), 
+        otaTpl.replace(/\{\{VERMITTLER_NAME\}\}/g, v.name)
+              .replace(/\{\{VERMITTLER_ADRESSE\}\}/g, v.adresse)
+              .replace(/\{\{DATEINAME\}\}/g, fOta)
+              .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossOta), 
+        'utf8'
+    );
+
+    optOta += `<option value="${fOta}">${v.name}</option>\n`;
+    linkOta += `<a href="${fOta}">${v.name}</a>\n`;
+});
+
+// Hub-Seite schreiben
+fs.writeFileSync(path.join(outputDir, 'ota-rueckerstattung-info.html'), 
+    loadTemplate('hub-ota-master.html')
+        .replace(/\{\{OTA_OPTIONS\}\}/g, optOta)
+        .replace(/\{\{OTA_LINKS\}\}/g, linkOta), 
+    'utf8'
+);
+
+// =====================================================================
+// SILO 7: KREUZFAHRTEN (Würzburger Tabelle)
+// =====================================================================
+const kreuzfahrten = JSON.parse(fs.readFileSync(path.join(__dirname, 'kreuzfahrten.json'), 'utf8'));
+const kreuzfahrtTpl = loadTemplate('kreuzfahrt-master.html');
+
+let optCruise = "";
+let linkCruise = "";
+
+kreuzfahrten.forEach(c => {
+    // Spoke-Dateiname generieren
+    let fCruise = `kreuzfahrt-maengel-minderung-${c.slug}.html`;
+
+    // SEO-Cross-Links generieren
+    let crossCruise = generateCrossLinks(kreuzfahrten, c, item => `kreuzfahrt-maengel-minderung-${item.slug}.html`, item => item.name);
+
+    // Spoke-Seite schreiben
+    let content = kreuzfahrtTpl
+        .replace(/\{\{CRUISE_LINE\}\}/g, c.name)
+        .replace(/\{\{CRUISE_ADRESSE\}\}/g, c.adresse)
+        .replace(/\{\{DATEINAME\}\}/g, fCruise)
+        .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossCruise);
+
+    fs.writeFileSync(path.join(outputDir, fCruise), content, 'utf8');
+    
+    // Daten für Hub-Seite sammeln
+    optCruise += `<option value="${fCruise}">${c.name}</option>\n`;
+    linkCruise += `<a href="${fCruise}">${c.name}</a>\n`;
+});
+
+// Hub-Seite schreiben (Übersicht aller Reedereien)
+fs.writeFileSync(
+    path.join(outputDir, 'kreuzfahrt-minderung.html'), 
+    loadTemplate('hub-kreuzfahrt-master.html')
+        .replace(/\{\{CRUISE_OPTIONS\}\}/g, optCruise)
+        .replace(/\{\{CRUISE_LINKS\}\}/g, linkCruise), 
+    'utf8'
+);
+
+// =====================================================================
+// SILO 8: FERIENHÄUSER & FERIENWOHNUNGEN
+// =====================================================================
+const fewoAnbieter = JSON.parse(fs.readFileSync(path.join(__dirname, 'ferienhaus.json'), 'utf8'));
+const fewoTpl = loadTemplate('ferienhaus-master.html');
+
+let optFewo = "";
+let linkFewo = "";
+
+fewoAnbieter.forEach(f => {
+    // Dateiname für die Anbieter-Unterseite (Spoke)
+    let fFileName = `ferienhaus-reklamation-beschwerde-${f.slug}.html`;
+
+    // SEO-Cross-Links zu anderen Ferienhaus-Anbietern generieren
+    let crossFewo = generateCrossLinks(fewoAnbieter, f, item => `ferienhaus-reklamation-beschwerde-${item.slug}.html`, item => item.name);
+
+    // Spoke-Seite schreiben
+    let content = fewoTpl
+        .replace(/\{\{ANBIETER_NAME\}\}/g, f.name)
+        .replace(/\{\{ANBIETER_ADRESSE\}\}/g, f.adresse)
+        .replace(/\{\{DATEINAME\}\}/g, fFileName)
+        .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossFewo);
+
+    fs.writeFileSync(path.join(outputDir, fFileName), content, 'utf8');
+    
+    // Daten für die Hub-Seite (Übersicht) sammeln
+    optFewo += `<option value="${fFileName}">${f.name}</option>\n`;
+    linkFewo += `<a href="${fFileName}">${f.name}</a>\n`;
+});
+
+// Hub-Seite für Ferienhäuser schreiben
+fs.writeFileSync(
+    path.join(outputDir, 'ferienhaus-maengel-info.html'), 
+    loadTemplate('hub-ferienhaus-master.html')
+        .replace(/\{\{FEWO_OPTIONS\}\}/g, optFewo)
+        .replace(/\{\{FEWO_LINKS\}\}/g, linkFewo), 
+    'utf8'
+);
+
+// =====================================================================
+// SILO 9: AIRBNB (Sonderfall Problemlösungen)
+// =====================================================================
+const airbnbThemen = JSON.parse(fs.readFileSync(path.join(__dirname, 'airbnb.json'), 'utf8'));
+const airbnbTpl = loadTemplate('airbnb-master.html');
+
+let optAirbnb = "";
+let linkAirbnb = "";
+
+airbnbThemen.forEach(a => {
+    // Spoke-Dateiname generieren (optimiert für Suchanfragen)
+    let fAirbnb = `airbnb-beschwerde-${a.slug}.html`;
+
+    // SEO-Cross-Links generieren
+    let crossAirbnb = generateCrossLinks(airbnbThemen, a, item => `airbnb-beschwerde-${item.slug}.html`, item => item.name);
+
+    // Spoke-Seite schreiben
+    let content = airbnbTpl
+    .replace(/\{\{PROBLEM_KATEGORIE\}\}/g, a.name)
+    .replace(/\{\{MANGEL_BESCHREIBUNG\}\}/g, a.beschreibung) 
+    .replace(/\{\{DATEINAME\}\}/g, fAirbnb)
+    .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossAirbnb);
+
+fs.writeFileSync(path.join(outputDir, fAirbnb), content, 'utf8');
+    
+    // Daten für Hub-Seite sammeln
+    optAirbnb += `<option value="${fAirbnb}">${a.name}</option>\n`;
+    linkAirbnb += `<a href="${fAirbnb}">${a.name}</a>\n`;
+});
+
+// Hub-Seite für Airbnb schreiben
+fs.writeFileSync(
+    path.join(outputDir, 'airbnb-probleme-info.html'), 
+    loadTemplate('hub-airbnb-master.html')
+        .replace(/\{\{AIRBNB_OPTIONS\}\}/g, optAirbnb)
+        .replace(/\{\{AIRBNB_LINKS\}\}/g, linkAirbnb), 
+    'utf8'
+);
+
+
+
 console.log('🎉 Fertig! Alle Hubs & Spokes wurden generiert.');

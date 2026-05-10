@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Zugverspätung & Ausfall: Entschädigung fordern (EU 2021/782)</title>
+  <meta name="description" content="Ihre Rechte bei Zugverspätung, Zugausfall oder verpasstem Anschluss. Erfahren Sie, wie Sie bis zu 50% Erstattung gemäß EU-Fahrgastrechteverordnung einfordern.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="canonical" href="https://www.fix-my-trip.com/de/zugverspaetung-info.html">
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/zugverspaetung-info.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/zugverspaetung-info.html">
+  
+  <!-- Bibliothek für die PDF-Generierung aus HTML -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <!-- FAQ Schema für Google Rich Snippets -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Ab wie vielen Minuten Verspätung steht mir eine Entschädigung zu?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gemäß der EU-Verordnung 2021/782 haben Sie Anspruch auf Entschädigung, wenn Sie Ihren Zielbahnhof mit mindestens 60 Minuten Verspätung erreichen. Ab 60 Minuten gibt es 25 %, ab 120 Minuten 50 % des Ticketpreises zurück."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Zahlt die Bahn auch bei Unwetter oder Notarzteinsätzen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Seit Juni 2023 gelten neue Ausnahmen: Bei extremen Wetterbedingungen, Notarzteinsätzen oder Personen im Gleis entfällt der Anspruch auf finanzielle Entschädigung. Bei Streiks des Bahnpersonals oder technischen Defekten muss jedoch weiterhin gezahlt werden."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Bekomme ich beim Deutschlandticket Geld zurück?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, aber es gilt eine Sonderregel für Zeitkarten. Sie erhalten pauschal 1,50 € pro Verspätung (ab 60 Min). Da Beträge unter 4 € nicht ausgezahlt werden, müssen Sie mindestens drei Verspätungen im Monat sammeln und zusammen einreichen."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Darf ich einen anderen Zug (z.B. ICE) nehmen, wenn mein Zug ausfällt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wenn am Zielort eine Verspätung von über 20 Minuten droht, wird die Zugbindung aufgehoben. Sie dürfen höherwertige, nicht reservierungspflichtige Züge nutzen. Achtung: Dies gilt ausdrücklich NICHT, wenn Sie mit einem erheblich ermäßigten Ticket wie dem Deutschlandticket reisen."
+      }
+    }]
+  }
+  </script>
+</head>
+<body>
+
+<header class="site-header" style="padding: 20px 0; border-bottom: 2px solid #eee; margin-bottom: 30px;">
+  <a href="index.html" style="font-size: 1.5em; font-weight: bold; text-decoration: none;">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Zugverspätung & Ausfall: So fordern Sie bis zu 50 % Erstattung</h1>
+  
+  <p>Ein verpasster Anschlusszug oder ein kompletter Zugausfall ist mehr als nur ein Ärgernis. Zum Glück sind Ihre Fahrgastrechte durch die <strong>EU-Verordnung 2021/782</strong> klar geregelt. Erreichen Sie Ihren Zielort mit mehr als 60 Minuten Verspätung, steht Ihnen eine Rückerstattung von <strong>25 % des Ticketpreises</strong> zu. Ab 120 Minuten sind es sogar <strong>50 %</strong>.</p>
+  
+  <p>Wichtig dabei: Es zählt immer die Ankunftszeit am gebuchten Zielbahnhof, nicht die Verspätung eines einzelnen Zuges unterwegs. Unser Portal hilft Ihnen dabei, den oftmals mühsamen Papierkram zu umgehen und Ihr Recht auf Entschädigung formal korrekt geltend zu machen.</p>
+
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">PDF-Forderungsschreiben generieren</h2>
+    <p>Wählen Sie Ihr Bahnunternehmen aus, um ein rechtssicheres Formular inklusive der korrekten Empfängeranschrift zu erstellen:</p>
+    
+    <select id="bahnSelect">
+      <option value="">-- Bitte Bahnanbieter wählen --</option>
+      {{BAHN_OPTIONS}}
+      <option value="zugverspaetung-entschaedigung-allgemein.html">Mein Anbieter ist nicht dabei (Allgemeines Formular)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Zum Generator für diesen Anbieter</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Anbieter-Auswahl: Direkte Formulare</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{BAHN_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Checkliste: Soforthilfe am Bahnhof</h2>
+  <p>Wenn Sie aktuell am Bahnhof feststecken, folgen Sie diesen Schritten, um Ihre Fahrgastrechte später problemlos durchzusetzen:</p>
+
+  <div class="checklist-box" id="checklistToPrint">
+    <h3 style="margin-top:0; color:#1565c0;">Checkliste bei Zugverspätung</h3>
+    <ul>
+      <li><strong>Verspätung bestätigen lassen:</strong> Lassen Sie sich die Verspätung auf Ihrem Ticket vom Zugbegleiter oder am Service-Point bestätigen.</li>
+      <li><strong>Beweise sichern:</strong> Fotografieren Sie die Anzeigetafel am Gleis oder machen Sie Screenshots aus der Navigator-App.</li>
+      <li><strong>Zugbindung prüfen:</strong> Ab 20 Minuten absehbarer Ankunftsverspätung entfällt bei normalen Tickets die Zugbindung – Sie dürfen andere Züge nutzen.</li>
+      <li><strong>Belege sammeln:</strong> Heben Sie Originaltickets, Taxiquittungen oder Hotelrechnungen unbedingt auf.</li>
+      <li><strong>Betreuung einfordern:</strong> Bei mehr als 60 Minuten Verspätung haben Sie Anspruch auf kostenlose Erfrischungen und Mahlzeiten (im angemessenen Rahmen).</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('checkliste-bahnverspaetung.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+    Checkliste als PDF generieren & speichern
+  </button>
+
+  <h2 style="margin-top: 40px;">Fallbeispiele: Wann das Bahnunternehmen zahlen muss</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Beispiel 1: Anschlusszug verpasst wegen Weichenstörung</h3>
+    <p>Ein Reisender fährt mit dem RE (nur 10 Minuten verspätet), verpasst dadurch aber den gebuchten ICE. Er muss einen späteren Zug nehmen und kommt 65 Minuten zu spät am Zielort an. Grund: Defekte Weiche.<br>
+    <strong>Ergebnis:</strong> Technische Störungen liegen im Verantwortungsbereich der Bahn. Dem Fahrgast stehen <strong>25 % Erstattung</strong> des Ticketpreises zu.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Beispiel 2: Unwetter stoppt den Zugverkehr</h3>
+    <p>Ein ICE strandet für 3 Stunden, weil ein schwerer Orkan Bäume auf die Gleise geworfen hat.<br>
+    <strong>Ergebnis:</strong> Hier greift seit Juni 2023 die Ausnahmeregelung ("außergewöhnliche Umstände"). Eine <strong>finanzielle Entschädigung entfällt</strong>. Das Bahnunternehmen muss jedoch trotzdem Hilfe leisten (Getränke, Taxi oder Hotelübernachtung organisieren).</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">FAQ: Ihre Fahrgastrechte im Detail</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">Kann ich bei Verspätung einfach ein Taxi nehmen?</div>
+    <div class="faq-answer">Ja, aber nur unter strengen Voraussetzungen: Wenn Ihre planmäßige Ankunftszeit zwischen 0:00 Uhr und 5:00 Uhr liegt und Sie mindestens 60 Minuten verspätet ankommen würden. Auch bei Ausfall des letzten Zuges am Tag greift dies. Die Kosten werden in der Regel bis maximal 120 € erstattet. Vorher müssen Sie jedoch versuchen, das Personal nach Alternativen zu fragen.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Wie lange habe ich Zeit, meinen Anspruch einzureichen?</div>
+    <div class="faq-answer">Ansprüche auf Entschädigung oder Erstattung müssen innerhalb von drei Monaten nach Ablauf der Geltungsdauer der Fahrkarte beim Bahnunternehmen eingereicht werden. Warten Sie also nicht zu lange!</div>
+  </div>
+
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">Was ist die "Bagatellgrenze"?</div>
+    <div class="faq-answer">Gesetzlich ist geregelt, dass Erstattungsbeträge unter 4,00 € nicht ausgezahlt werden. Dies betrifft vor allem Zeitkarten-Inhaber (wie beim Deutschlandticket), die daher mehrere Verspätungen ansammeln und gebündelt einreichen müssen, um über diese 4-Euro-Hürde zu kommen.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise im Reiserecht & Fahrgastrechten</h3>
+    <p class="trust-text">
+        Unsere Ratgeber und Generatoren basieren auf der strikten Auswertung aktueller EU-Verordnungen (wie VO 2021/782), BGH-Urteilen und dem nationalen Reiserecht. 
+        Sie werden von Marc (Projektleitung) & Team entwickelt, um Reisenden eine rechtssichere Durchsetzung gegenüber Verkehrsunternehmen zu ermöglichen.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Wichtiger Hinweis: Unsere Tools bieten Hilfe zur Selbsthilfe bei Flugverspätung, Hotelmängeln oder Zugausfällen. Sie ersetzen keine individuelle Rechtsberatung durch einen Anwalt.
+        </span>
+    </p>
+
+    <a href="ueber-uns.html" class="trust-link">
+        Details zur rechtlichen Methodik & Redaktion erfahren →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Problem mit dem Flug, der Bahn oder dem Hotel?</strong><br>
+        Fix-My-Trip prüft in wenigen Schritten Ihren Anspruch auf Entschädigung, Ticket-Erstattung oder Reisepreisminderung. <br>
+        <em>Ein Service aus dem Netzwerk der Lotse-Portale.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Fehler im Tool entdeckt?</strong> Da wir als automatisiertes Portal keine individuelle Rechtsberatung leisten, helfen Sie uns enorm, wenn Sie Bugs oder veraltete Anbieter melden: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Feedback an unsere Zentrale senden</a>.
+</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Über uns</a> | 
+        <a href="index.html">Startseite</a> | 
+        <a href="impressum.html">Impressum</a> | 
+        <a href="datenschutz.html">Datenschutz</a>
+    </nav>
+</footer>
+
+<script>
+function routeToGenerator() {
+    const selectElement = document.getElementById('bahnSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Bitte wählen Sie zuerst einen Anbieter aus der Liste aus.");
+    }
+}
+
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // 15mm Rand rundherum
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, 
+            scrollY: 0, 
+            windowWidth: document.documentElement.offsetWidth 
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

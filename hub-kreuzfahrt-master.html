@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Kreuzfahrt-Mängel: Reisepreis mindern nach Würzburger Tabelle</title>
+  <meta name="description" content="Ihre Rechte bei Kreuzfahrt-Mängeln wie Routenänderung, Lärm oder Hafenausfall. Fordern Sie bis zu 30% Reisepreisminderung nach der Würzburger Tabelle.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="canonical" href="https://www.fix-my-trip.com/de/kreuzfahrt-minderung.html">
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/kreuzfahrt-minderung.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/kreuzfahrt-minderung.html">
+  
+  <!-- Bibliothek für die PDF-Generierung aus HTML -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Was ist die Würzburger Tabelle für Kreuzfahrten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Würzburger Tabelle ist eine von Reiserechtsexperten entwickelte Richtlinie. Sie listet typische Kreuzfahrt-Mängel auf und ordnet ihnen prozentuale Minderungsquoten zu, die vor deutschen Gerichten als Orientierung für Rückzahlungen dienen."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Muss ich ein Bordguthaben als Entschädigung akzeptieren?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nein. Reedereien versuchen oft, Beschwerden an Bord mit einem kleinen Bordguthaben (z.B. 50 € oder Freigetränke) abzufertigen. Rechtlich haben Sie nach § 651m BGB jedoch Anspruch auf eine Barauszahlung (Minderung des Reisepreises), die meist deutlich höher ausfällt."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Gilt eine Routenänderung wegen Wetter als Mangel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja. Auch wenn die Sicherheit Vorrang hat und der Kapitän den Hafen wegen Sturm streichen muss, liegt eine Abweichung vom Reisevertrag vor. Das Betriebsrisiko trägt die Reederei. Ein Hafenausfall berechtigt oft zu einer Minderung des Tagesreisepreises."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Wie lange habe ich nach der Kreuzfahrt Zeit für Beschwerden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die gesetzliche Verjährungsfrist im deutschen Reiserecht beträgt zwei Jahre nach dem vertraglich vorgesehenen Reiseende. Es ist jedoch ratsam, Ansprüche zeitnah geltend zu machen, idealerweise innerhalb weniger Wochen."
+      }
+    }]
+  }
+  </script>
+</head>
+<body>
+
+<header class="site-header" style="padding: 20px 0; border-bottom: 2px solid #eee; margin-bottom: 30px;">
+  <a href="index.html" style="font-size: 1.5em; font-weight: bold; text-decoration: none;">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Kreuzfahrt-Mängel: So fordern Sie eine Reisepreisminderung (Würzburger Tabelle)</h1>
+  
+  <p>Eine Kreuzfahrt ist meist ein teurer Traumurlaub. Entspricht die Kabine nicht dem Standard, wird die Reiseroute spontan geändert oder herrscht unerträglicher Baulärm an Deck, ist der Ärger groß. Was viele Gäste nicht wissen: Eine Kreuzfahrt gilt juristisch als Pauschalreise. Damit sind Sie durch das <strong>deutsche Reiserecht (§ 651m BGB)</strong> hervorragend geschützt.</p>
+  
+  <p>Anstatt sich am Guest-Relations-Schalter mit einem kostenlosen Cocktail oder 50 € Bordguthaben abspeisen zu lassen, haben Sie das Recht auf eine harte Barauszahlung. Die sogenannte <strong>Würzburger Tabelle</strong> dient als juristischer Kompass und gesteht Passagieren bei erheblichen Mängeln oft eine Rückerstattung von <strong>10 % bis zu 30 % des anteiligen Reisepreises</strong> zu. Wir helfen Ihnen, diese Summe durchzusetzen.</p>
+
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">PDF-Forderungsschreiben generieren</h2>
+    <p>Wählen Sie Ihre Reederei aus, um ein rechtssicheres Dokument zu erstellen, das exakt auf den jeweiligen Anbieter zugeschnitten ist:</p>
+    
+    <select id="cruiseSelect">
+      <option value="">-- Bitte Reederei wählen --</option>
+      {{CRUISE_OPTIONS}}
+      <option value="kreuzfahrt-maengel-minderung-allgemein.html">Meine Reederei ist nicht dabei (Allgemeines Formular)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Zum Generator für diese Reederei</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Anspruchsprüfung nach Reederei</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{CRUISE_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Checkliste: Soforthilfe bei Kreuzfahrt-Mängeln</h2>
+  <p>Das wichtigste bei Reisemängeln ist die Beweissicherung vor Ort. Folgen Sie an Bord diesen Schritten, um Ihre spätere Minderung abzusichern:</p>
+  
+  <div class="checklist-box" id="checklistToPrint">
+  <!-- Optional: Eine versteckte oder sichtbare Überschrift, die nur im PDF gut aussieht -->
+  <h3 style="margin-top:0; color:#1565c0;">Checkliste: Mängel an Bord</h3>
+
+    <ul>
+      <li><strong>Mangelanzeige:</strong> Melden Sie das Problem SOFORT an der Rezeption (Guest Relations). Wer den Mangel verschweigt, verliert später seine Rechte.</li>
+      <li><strong>Frist zur Abhilfe setzen:</strong> Verlangen Sie eine Lösung (z.B. eine andere Kabine) und notieren Sie den Namen des Mitarbeiters.</li>
+      <li><strong>Beweise sichern:</strong> Machen Sie Fotos (z.B. von Schmutz oder Defekten) oder führen Sie ein genaues Lärm- und Geruchsprotokoll mit Datum und Uhrzeit.</li>
+      <li><strong>Zeugen suchen:</strong> Tauschen Sie Handynummern mit anderen betroffenen Passagieren aus. Die Aussagen unabhängiger Mitreisender sind Gold wert.</li>
+      <li><strong>Keine endgültigen Vergleiche unterschreiben:</strong> Wenn Sie Bordguthaben annehmen, unterschreiben Sie nicht "zur Abgeltung aller Ansprüche", sondern vermerken Sie "Unter Vorbehalt".</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('checkliste-kreuzfahrt.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+  Checkliste als PDF generieren & speichern
+</button>
+
+  <h2 style="margin-top: 40px;">Fallbeispiele nach Würzburger Tabelle</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Beispiel 1: Routenänderung & Hafenausfall</h3>
+    <p>Auf einer Mittelmeer-Kreuzfahrt (Gesamtpreis 3.000 € für 10 Tage = 300 €/Tag) fällt das Highlight Santorini wegen starken Winden ohne gleichwertigen Ersatzhafen aus.<br>
+    <strong>Ergebnis:</strong> Da der Reisevertrag nicht erfüllt wurde, rechtfertigt die Würzburger Tabelle eine Minderung. Für den verlorenen Tag stehen dem Passagier oft ca. <strong>20 bis 30 % des Tagespreises</strong> zu (ca. 60 - 90 € pro Person).</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Beispiel 2: Unzumutbarer Lärm in der Kabine</h3>
+    <p>Die zugewiesene Kabine liegt direkt unter dem Nachtclub des Schiffes. Bis 3 Uhr morgens ist an Schlaf nicht zu denken. Die Rezeption hat kein Ersatz-Zimmer frei. <br>
+    <strong>Ergebnis:</strong> Lärm, der die Nachtruhe massiv stört, ist ein schwerer Mangel. Über den betroffenen Zeitraum hinweg können hier Minderungen von <strong>bis zu 30 % des anteiligen Reisepreises</strong> eingefordert werden.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">FAQ: Ihre Rechte im Detail</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">Auf welche Summe wird der Prozentsatz angerechnet?</div>
+    <div class="faq-answer">Die Minderung wird immer anteilig berechnet. Betrifft der Mangel die gesamte Reise (z.B. fehlender Balkon, der gebucht wurde), wird vom Gesamtreisepreis gemindert. Tritt das Problem nur tageweise auf (z.B. 2 Tage Baulärm am Pool), wird der Reisepreis durch die Reisetage geteilt und die Quote auf diesen "Tagesreisepreis" angewendet.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Was passiert, wenn die Reederei höhere Gewalt geltend macht?</div>
+    <div class="faq-answer">Im Reiserecht (Minderungsrecht) greift die Ausrede "höhere Gewalt" (wie z.B. Sturm oder dichter Nebel) für die reine Minderung des Reisepreises meist nicht. Der Reisepreis mindert sich automatisch, wenn die Leistung nicht wie gebucht erbracht wird – unabhängig davon, ob die Reederei schuld ist. (Anders sieht es bei zusätzlichem Schadensersatz wegen vertaner Urlaubszeit aus).</div>
+  </div>
+
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">Darf ich eine Außen-Kabine verlangen, wenn meine Innenkabine defekt ist?</div>
+    <div class="faq-answer">Ja. Ist die gebuchte Kabinenkategorie aufgrund eines Mangels nicht nutzbar und keine identische Kabine frei, muss Ihnen die Reederei ein kostenloses Upgrade anbieten. Lehnt die Reederei dies ab und Sie müssen in der mangelhaften Kabine bleiben, erhöhen sich Ihre Minderungsansprüche drastisch.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise im Reiserecht & Fahrgastrechten</h3>
+    <p class="trust-text">
+        Unsere Ratgeber und Generatoren basieren auf der strikten Auswertung aktueller EU-Verordnungen (wie EG 261/2004), BGH-Urteilen und dem nationalen Reiserecht. 
+        Sie werden von Marc (Projektleitung) & Team entwickelt, um Reisenden eine rechtssichere Durchsetzung gegenüber Airlines und Reiseveranstaltern zu ermöglichen.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Wichtiger Hinweis: Unsere Tools bieten Hilfe zur Selbsthilfe bei Kreuzfahrt-Mängeln, Hotel-Problemen oder Zugausfällen. Sie ersetzen keine individuelle Rechtsberatung durch einen Anwalt.
+        </span>
+    </p>
+
+    <a href="ueber-uns.html" class="trust-link">
+        Details zur rechtlichen Methodik & Redaktion erfahren →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Problem auf der Kreuzfahrt, dem Flug oder im Hotel?</strong><br>
+        Fix-My-Trip prüft in wenigen Schritten Ihren Anspruch auf Entschädigung, Ticket-Erstattung oder Reisepreisminderung. <br>
+        <em>Ein Service aus dem Netzwerk der Lotse-Portale.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Fehler im Tool entdeckt?</strong> Da wir als automatisiertes Portal keine individuelle Rechtsberatung leisten, helfen Sie uns enorm, wenn Sie Bugs oder veraltete Anbieter melden: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Feedback an unsere Zentrale senden</a>.
+</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Über uns</a> | 
+        <a href="index.html">Startseite</a> | 
+        <a href="impressum.html">Impressum</a> | 
+        <a href="datenschutz.html">Datenschutz</a>
+    </nav>
+</footer>
+
+<script>
+function routeToGenerator() {
+    const selectElement = document.getElementById('cruiseSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Bitte wählen Sie zuerst eine Reederei aus der Liste aus.");
+    }
+}
+
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // 15mm Rand rundherum
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, // Hohe Auflösung
+            scrollY: 0, // WICHTIG: Fixt das Problem mit der leeren Seite!
+            windowWidth: document.documentElement.offsetWidth // Stellt sicher, dass die Breite stimmt
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    // PDF generieren
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>
