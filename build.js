@@ -32,6 +32,7 @@ function generateCrossLinks(allItems, currentItem, urlGenerator, nameGenerator, 
     return html;
 }
 
+
 // =====================================================================
 // SILO 1: FLUG (Airlines)
 // =====================================================================
@@ -41,7 +42,7 @@ const steuerTpl = loadTemplate('steuern-master.html');
 const gepaeckTpl = loadTemplate('gepaeck-master.html');
 
 let optFlug = "", optSteuer = "", optGepaeck = "";
-let linkFlug = "", linkSteuer = "", linkGepaeck = ""; // NEU: Für Hub-Seite
+let linkFlug = "", linkSteuer = "", linkGepaeck = "";
 
 airlines.forEach(a => {
     let fFlug = `flugverspaetung-entschaedigung-${a.slug}.html`;
@@ -53,26 +54,57 @@ airlines.forEach(a => {
     let crossSteuer = generateCrossLinks(airlines, a, item => `steuern-gebuehren-zurueckfordern-${item.slug}.html`, item => item.name);
     let crossGepaeck = generateCrossLinks(airlines, a, item => `koffer-verloren-beschaedigt-${item.slug}.html`, item => item.name);
 
-    // Unterseiten schreiben (jetzt mit {{BELIEBTE_LINKS}})
-    fs.writeFileSync(path.join(outputDir, fFlug), flugTpl.replace(/\{\{AIRLINE_NAME\}\}/g, a.name).replace(/\{\{AIRLINE_ADRESSE\}\}/g, a.adresse).replace(/\{\{DATEINAME\}\}/g, fFlug).replace(/\{\{BELIEBTE_LINKS\}\}/g, crossFlug), 'utf8');
-    fs.writeFileSync(path.join(outputDir, fSteuer), steuerTpl.replace(/\{\{AIRLINE_NAME\}\}/g, a.name).replace(/\{\{AIRLINE_ADRESSE\}\}/g, a.adresse).replace(/\{\{DATEINAME\}\}/g, fSteuer).replace(/\{\{BELIEBTE_LINKS\}\}/g, crossSteuer), 'utf8');
-    fs.writeFileSync(path.join(outputDir, fGepaeck), gepaeckTpl.replace(/\{\{AIRLINE_NAME\}\}/g, a.name).replace(/\{\{AIRLINE_ADRESSE\}\}/g, a.adresse).replace(/\{\{DATEINAME\}\}/g, fGepaeck).replace(/\{\{BELIEBTE_LINKS\}\}/g, crossGepaeck), 'utf8');
+    // --- NEU: Logik für den allgemeinen Eintrag ---
+    let textName = a.name;
+    let inputAdresse = a.adresse;
+
+    if (a.slug === 'andere-airline') {
+        textName = "Ihrer Fluggesellschaft"; // Fix für den Fließtext (z.B. "Gepäckverlust bei Ihrer Fluggesellschaft")
+        inputAdresse = ""; // Textarea leeren
+    }
+
+    // Hilfsfunktion: Repariert die Formularfelder und tauscht Variablen aus
+    const processTemplate = (tpl, fName, crossLinks) => {
+        let content = tpl;
+        
+        // Formular-Felder nur beim allgemeinen Formular leeren
+        if (a.slug === 'andere-airline') {
+            content = content
+                .replace(/value="\{\{AIRLINE_NAME\}\}"/g, `value="" placeholder="Name der Airline eintragen"`)
+                .replace(/>\{\{AIRLINE_ADRESSE\}\}</g, ` placeholder="Bitte Adresse der Fluggesellschaft eintragen">`);
+        }
+        
+        // Standard-Ersetzungen für alle
+        return content
+            .replace(/\{\{AIRLINE_NAME\}\}/g, textName)
+            .replace(/\{\{AIRLINE_ADRESSE\}\}/g, inputAdresse)
+            .replace(/\{\{DATEINAME\}\}/g, fName)
+            .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks);
+    };
+
+    // Unterseiten schreiben
+    fs.writeFileSync(path.join(outputDir, fFlug), processTemplate(flugTpl, fFlug, crossFlug), 'utf8');
+    fs.writeFileSync(path.join(outputDir, fSteuer), processTemplate(steuerTpl, fSteuer, crossSteuer), 'utf8');
+    fs.writeFileSync(path.join(outputDir, fGepaeck), processTemplate(gepaeckTpl, fGepaeck, crossGepaeck), 'utf8');
     
-    // Dropdown & Link-Verzeichnis aufbauen
-    optFlug += `<option value="${fFlug}">${a.name}</option>\n`;
-    linkFlug += `<a href="${fFlug}">${a.name}</a>\n`;
+    // Dropdown & Link-Verzeichnis aufbauen (Lesbaren Namen für Dropdown erzwingen)
+    let displayName = a.slug === 'andere-airline' ? "Andere Airline (Allgemeines Formular)" : a.name;
 
-    optSteuer += `<option value="${fSteuer}">${a.name}</option>\n`;
-    linkSteuer += `<a href="${fSteuer}">${a.name}</a>\n`;
+    optFlug += `<option value="${fFlug}">${displayName}</option>\n`;
+    linkFlug += `<a href="${fFlug}">${displayName}</a>\n`;
 
-    optGepaeck += `<option value="${fGepaeck}">${a.name}</option>\n`;
-    linkGepaeck += `<a href="${fGepaeck}">${a.name}</a>\n`;
+    optSteuer += `<option value="${fSteuer}">${displayName}</option>\n`;
+    linkSteuer += `<a href="${fSteuer}">${displayName}</a>\n`;
+
+    optGepaeck += `<option value="${fGepaeck}">${displayName}</option>\n`;
+    linkGepaeck += `<a href="${fGepaeck}">${displayName}</a>\n`;
 });
 
-// Hubs schreiben (jetzt mit {{_LINKS}})
+// Hubs schreiben
 fs.writeFileSync(path.join(outputDir, 'flugverspaetung-info.html'), loadTemplate('hub-flug-master.html').replace(/\{\{AIRLINE_OPTIONS\}\}/g, optFlug).replace(/\{\{AIRLINE_LINKS\}\}/g, linkFlug), 'utf8');
 fs.writeFileSync(path.join(outputDir, 'steuern-info.html'), loadTemplate('hub-steuern-master.html').replace(/\{\{STEUER_OPTIONS\}\}/g, optSteuer).replace(/\{\{STEUER_LINKS\}\}/g, linkSteuer), 'utf8');
 fs.writeFileSync(path.join(outputDir, 'gepaeck-info.html'), loadTemplate('hub-gepaeck-master.html').replace(/\{\{GEPAECK_OPTIONS\}\}/g, optGepaeck).replace(/\{\{GEPAECK_LINKS\}\}/g, linkGepaeck), 'utf8');
+
 
 
 // =====================================================================
@@ -85,8 +117,9 @@ const vermittlerTpl = loadTemplate('vermittler-master.html');
 const stornoTpl = loadTemplate('storno-master.html');
 
 let optHotel = "", optStorno = "";
-let linkHotel = "", linkStorno = ""; // NEU
+let linkHotel = "", linkStorno = "";
 
+// --- TEIL 1: REISEVERANSTALTER ---
 veranstalter.forEach(v => {
     let fHotel = `hotel-reklamation-beschwerde-${v.slug}.html`;
     let fStorno = `reise-stornieren-kosten-pruefen-${v.slug}.html`;
@@ -94,16 +127,42 @@ veranstalter.forEach(v => {
     let crossHotel = generateCrossLinks(veranstalter, v, item => `hotel-reklamation-beschwerde-${item.slug}.html`, item => item.name);
     let crossStorno = generateCrossLinks(veranstalter, v, item => `reise-stornieren-kosten-pruefen-${item.slug}.html`, item => item.name);
 
-    fs.writeFileSync(path.join(outputDir, fHotel), hotelTpl.replace(/\{\{VERANSTALTER_NAME\}\}/g, v.name).replace(/\{\{VERANSTALTER_ADRESSE\}\}/g, v.adresse).replace(/\{\{DATEINAME\}\}/g, fHotel).replace(/\{\{BELIEBTE_LINKS\}\}/g, crossHotel), 'utf8');
-    fs.writeFileSync(path.join(outputDir, fStorno), stornoTpl.replace(/\{\{VERANSTALTER_NAME\}\}/g, v.name).replace(/\{\{VERANSTALTER_ADRESSE\}\}/g, v.adresse).replace(/\{\{DATEINAME\}\}/g, fStorno).replace(/\{\{BELIEBTE_LINKS\}\}/g, crossStorno), 'utf8');
-    
-    optHotel += `<option value="${fHotel}">${v.name}</option>\n`;
-    linkHotel += `<a href="${fHotel}">${v.name}</a>\n`;
+    let textName = v.name;
+    let inputAdresse = v.adresse;
 
-    optStorno += `<option value="${fStorno}">${v.name}</option>\n`;
-    linkStorno += `<a href="${fStorno}">${v.name}</a>\n`;
+    // Logik für allgemeinen Veranstalter
+    if (v.slug === 'anderer-veranstalter') {
+        textName = "Ihrem Reiseveranstalter"; 
+        inputAdresse = ""; 
+    }
+
+    const processTemplate = (tpl, fName, crossLinks) => {
+        let content = tpl;
+        if (v.slug === 'anderer-veranstalter') {
+            content = content
+                .replace(/value="\{\{VERANSTALTER_NAME\}\}"/g, `value="" placeholder="Name des Veranstalters eintragen"`)
+                .replace(/>\{\{VERANSTALTER_ADRESSE\}\}</g, ` placeholder="Bitte Adresse des Veranstalters eintragen">`);
+        }
+        return content
+            .replace(/\{\{VERANSTALTER_NAME\}\}/g, textName)
+            .replace(/\{\{VERANSTALTER_ADRESSE\}\}/g, inputAdresse)
+            .replace(/\{\{DATEINAME\}\}/g, fName)
+            .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks);
+    };
+
+    fs.writeFileSync(path.join(outputDir, fHotel), processTemplate(hotelTpl, fHotel, crossHotel), 'utf8');
+    fs.writeFileSync(path.join(outputDir, fStorno), processTemplate(stornoTpl, fStorno, crossStorno), 'utf8');
+    
+    let displayName = v.slug === 'anderer-veranstalter' ? "Anderer Veranstalter (Allgemein)" : v.name;
+
+    optHotel += `<option value="${fHotel}">${displayName}</option>\n`;
+    linkHotel += `<a href="${fHotel}">${displayName}</a>\n`;
+
+    optStorno += `<option value="${fStorno}">${displayName}</option>\n`;
+    linkStorno += `<a href="${fStorno}">${displayName}</a>\n`;
 });
 
+// --- TEIL 2: VERMITTLER (Portale) ---
 vermittler.forEach(v => {
     let fPort = `hotel-reklamation-${v.slug}.html`;
     let fStorno = `reise-stornieren-kosten-pruefen-${v.slug}.html`;
@@ -111,19 +170,60 @@ vermittler.forEach(v => {
     let crossHotelPort = generateCrossLinks(vermittler, v, item => `hotel-reklamation-${item.slug}.html`, item => item.name);
     let crossStornoPort = generateCrossLinks(vermittler, v, item => `reise-stornieren-kosten-pruefen-${item.slug}.html`, item => item.name);
 
-    fs.writeFileSync(path.join(outputDir, fPort), vermittlerTpl.replace(/\{\{VERMITTLER_NAME\}\}/g, v.name).replace(/\{\{VERMITTLER_ADRESSE\}\}/g, v.adresse).replace(/\{\{DATEINAME\}\}/g, fPort).replace(/\{\{BELIEBTE_LINKS\}\}/g, crossHotelPort), 'utf8');
-    fs.writeFileSync(path.join(outputDir, fStorno), stornoTpl.replace(/\{\{VERANSTALTER_NAME\}\}/g, v.name).replace(/\{\{VERANSTALTER_ADRESSE\}\}/g, v.adresse).replace(/\{\{DATEINAME\}\}/g, fStorno).replace(/\{\{BELIEBTE_LINKS\}\}/g, crossStornoPort), 'utf8');
+    let textName = v.name;
+    let inputAdresse = v.adresse;
+
+    // Logik für allgemeinen Vermittler
+    if (v.slug === 'anderer-vermittler') {
+        textName = "Ihrem Buchungsportal"; 
+        inputAdresse = ""; 
+    }
+
+    // Für das Portal-Template
+    const processTemplatePort = (tpl, fName, crossLinks) => {
+        let content = tpl;
+        if (v.slug === 'anderer-vermittler') {
+            content = content
+                .replace(/value="\{\{VERMITTLER_NAME\}\}"/g, `value="" placeholder="Name des Portals eintragen"`)
+                .replace(/>\{\{VERMITTLER_ADRESSE\}\}</g, ` placeholder="Bitte Adresse des Portals eintragen">`);
+        }
+        return content
+            .replace(/\{\{VERMITTLER_NAME\}\}/g, textName)
+            .replace(/\{\{VERMITTLER_ADRESSE\}\}/g, inputAdresse)
+            .replace(/\{\{DATEINAME\}\}/g, fName)
+            .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks);
+    };
+
+    // Für das Storno-Template (dieses nutzt VERANSTALTER-Platzhalter!)
+    const processTemplateStorno = (tpl, fName, crossLinks) => {
+        let content = tpl;
+        if (v.slug === 'anderer-vermittler') {
+            content = content
+                .replace(/value="\{\{VERANSTALTER_NAME\}\}"/g, `value="" placeholder="Name des Portals eintragen"`)
+                .replace(/>\{\{VERANSTALTER_ADRESSE\}\}</g, ` placeholder="Bitte Adresse des Portals eintragen">`);
+        }
+        return content
+            .replace(/\{\{VERANSTALTER_NAME\}\}/g, textName)
+            .replace(/\{\{VERANSTALTER_ADRESSE\}\}/g, inputAdresse)
+            .replace(/\{\{DATEINAME\}\}/g, fName)
+            .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks);
+    };
+
+    fs.writeFileSync(path.join(outputDir, fPort), processTemplatePort(vermittlerTpl, fPort, crossHotelPort), 'utf8');
+    fs.writeFileSync(path.join(outputDir, fStorno), processTemplateStorno(stornoTpl, fStorno, crossStornoPort), 'utf8');
     
-    optHotel += `<option value="${fPort}">${v.name} (Portal)</option>\n`;
-    linkHotel += `<a href="${fPort}">${v.name} (Portal)</a>\n`;
+    let displayName = v.slug === 'anderer-vermittler' ? "Anderes Portal (Allgemein)" : v.name;
+
+    optHotel += `<option value="${fPort}">${displayName} (Portal)</option>\n`;
+    linkHotel += `<a href="${fPort}">${displayName} (Portal)</a>\n`;
     
-    optStorno += `<option value="${fStorno}">${v.name}</option>\n`;
-    linkStorno += `<a href="${fStorno}">${v.name}</a>\n`;
+    optStorno += `<option value="${fStorno}">${displayName}</option>\n`;
+    linkStorno += `<a href="${fStorno}">${displayName}</a>\n`;
 });
 
+// Hubs schreiben
 fs.writeFileSync(path.join(outputDir, 'hotel-maengel-info.html'), loadTemplate('hub-hotel-master.html').replace(/\{\{HOTEL_OPTIONS\}\}/g, optHotel).replace(/\{\{HOTEL_LINKS\}\}/g, linkHotel), 'utf8');
 fs.writeFileSync(path.join(outputDir, 'storno-info.html'), loadTemplate('hub-storno-master.html').replace(/\{\{STORNO_OPTIONS\}\}/g, optStorno).replace(/\{\{STORNO_LINKS\}\}/g, linkStorno), 'utf8');
-
 
 // =====================================================================
 // SILO 3 & 4: PRE-TRAVEL & ZOLL
@@ -220,6 +320,8 @@ fs.writeFileSync(
     'utf8'
 );
 
+
+
 // =====================================================================
 // SILO 6: OTA (Online Travel Agents)
 // =====================================================================
@@ -233,14 +335,36 @@ otaVermittler.forEach(v => {
     let fOta = `rueckerstattung-flug-portal-${v.slug}.html`;
     let crossOta = generateCrossLinks(otaVermittler, v, item => `rueckerstattung-flug-portal-${item.slug}.html`, item => item.name);
 
-    fs.writeFileSync(path.join(outputDir, fOta), 
-        otaTpl.replace(/\{\{VERMITTLER_NAME\}\}/g, v.name)
-              .replace(/\{\{VERMITTLER_ADRESSE\}\}/g, v.adresse)
-              .replace(/\{\{DATEINAME\}\}/g, fOta)
-              .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossOta), 
-        'utf8'
-    );
+    // --- NEU: Logik für das allgemeine OTA-Formular ---
+    let textName = v.name;
+    let inputAdresse = v.adresse;
 
+    if (v.slug === 'allgemein') {
+        textName = "Ihrem Buchungsportal"; // Fix für H1 und Fließtext
+        inputAdresse = ""; // Textarea leeren für sauberes PDF
+    }
+
+    const processTemplateOta = (tpl, fName, crossLinks) => {
+        let content = tpl;
+        
+        // Formular-Felder nur beim allgemeinen Formular leeren und mit Platzhaltern versehen
+        if (v.slug === 'allgemein') {
+            content = content
+                .replace(/value="\{\{VERMITTLER_NAME\}\}"/g, `value="" placeholder="Name des Portals eintragen"`)
+                .replace(/>\{\{VERMITTLER_ADRESSE\}\}</g, ` placeholder="Bitte Adresse des Portals eintragen">`);
+        }
+        
+        return content
+            .replace(/\{\{VERMITTLER_NAME\}\}/g, textName)
+            .replace(/\{\{VERMITTLER_ADRESSE\}\}/g, inputAdresse)
+            .replace(/\{\{DATEINAME\}\}/g, fName)
+            .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks);
+    };
+
+    // Spoke-Seite schreiben
+    fs.writeFileSync(path.join(outputDir, fOta), processTemplateOta(otaTpl, fOta, crossOta), 'utf8');
+
+    // Dropdown & Link-Verzeichnis
     optOta += `<option value="${fOta}">${v.name}</option>\n`;
     linkOta += `<a href="${fOta}">${v.name}</a>\n`;
 });
@@ -269,14 +393,34 @@ kreuzfahrten.forEach(c => {
     // SEO-Cross-Links generieren
     let crossCruise = generateCrossLinks(kreuzfahrten, c, item => `kreuzfahrt-maengel-minderung-${item.slug}.html`, item => item.name);
 
-    // Spoke-Seite schreiben
-    let content = kreuzfahrtTpl
-        .replace(/\{\{CRUISE_LINE\}\}/g, c.name)
-        .replace(/\{\{CRUISE_ADRESSE\}\}/g, c.adresse)
-        .replace(/\{\{DATEINAME\}\}/g, fCruise)
-        .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossCruise);
+    // --- NEU: Logik für die allgemeine Kreuzfahrt-Vorlage ---
+    let textName = c.name;
+    let inputAdresse = c.adresse;
 
-    fs.writeFileSync(path.join(outputDir, fCruise), content, 'utf8');
+    if (c.slug === 'allgemein') {
+        textName = "Ihrer Reederei"; // Fix für H1 und Fließtext (z.B. "Mängel bei Ihrer Reederei reklamieren")
+        inputAdresse = ""; // Textarea für das Formular leeren
+    }
+
+    const processTemplateCruise = (tpl, fName, crossLinks) => {
+        let content = tpl;
+        
+        // Formular-Felder beim allgemeinen Formular leeren und mit Platzhaltern versehen
+        if (c.slug === 'allgemein') {
+            content = content
+                .replace(/value="\{\{CRUISE_LINE\}\}"/g, `value="" placeholder="Name der Reederei eintragen"`)
+                .replace(/>\{\{CRUISE_ADRESSE\}\}</g, ` placeholder="Bitte Adresse der Reederei eintragen">`);
+        }
+        
+        return content
+            .replace(/\{\{CRUISE_LINE\}\}/g, textName)
+            .replace(/\{\{CRUISE_ADRESSE\}\}/g, inputAdresse)
+            .replace(/\{\{DATEINAME\}\}/g, fName)
+            .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks);
+    };
+
+    // Spoke-Seite schreiben
+    fs.writeFileSync(path.join(outputDir, fCruise), processTemplateCruise(kreuzfahrtTpl, fCruise, crossCruise), 'utf8');
     
     // Daten für Hub-Seite sammeln
     optCruise += `<option value="${fCruise}">${c.name}</option>\n`;
