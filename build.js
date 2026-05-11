@@ -302,22 +302,34 @@ let optFewo = "";
 let linkFewo = "";
 
 fewoAnbieter.forEach(f => {
-    // Dateiname für die Anbieter-Unterseite (Spoke)
     let fFileName = `ferienhaus-reklamation-beschwerde-${f.slug}.html`;
-
-    // SEO-Cross-Links zu anderen Ferienhaus-Anbietern generieren
     let crossFewo = generateCrossLinks(fewoAnbieter, f, item => `ferienhaus-reklamation-beschwerde-${item.slug}.html`, item => item.name);
 
-    // Spoke-Seite schreiben
+    // --- NEU: Grammatik- und Formular-Logik für "allgemein" ---
+    let textName = f.name;
+    let inputValue = f.name;
+    let titleName = f.name + " Beschwerde";
+    let inputAdresse = f.adresse;
+
+    if (f.slug === 'allgemein') {
+        textName = "Ihrem Anbieter";          // Repariert H1 und Fließtext (z.B. "bei Ihrem Anbieter")
+        inputValue = "";                      // Formularfeld (Name) bleibt leer
+        inputAdresse = "";                    // Formularfeld (Adresse) bleibt leer
+        titleName = "Allgemeine Beschwerde";  // Repariert den <title> Tag im Header
+    }
+
+    // Spoke-Seite schreiben mit intelligentem Replace
     let content = fewoTpl
-        .replace(/\{\{ANBIETER_NAME\}\}/g, f.name)
-        .replace(/\{\{ANBIETER_ADRESSE\}\}/g, f.adresse)
+        .replace(/\{\{ANBIETER_NAME\}\} Beschwerde/g, titleName) 
+        .replace(/value="\{\{ANBIETER_NAME\}\}"/g, `value="${inputValue}" placeholder="Name des Anbieters eintragen"`) 
+        .replace(/>\{\{ANBIETER_ADRESSE\}\}</g, ` placeholder="${f.adresse}">${inputAdresse}<`) 
+        .replace(/\{\{ANBIETER_NAME\}\}/g, textName) 
         .replace(/\{\{DATEINAME\}\}/g, fFileName)
         .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossFewo);
 
     fs.writeFileSync(path.join(outputDir, fFileName), content, 'utf8');
     
-    // Daten für die Hub-Seite (Übersicht) sammeln
+    // Daten für Hub-Seite sammeln
     optFewo += `<option value="${fFileName}">${f.name}</option>\n`;
     linkFewo += `<a href="${fFileName}">${f.name}</a>\n`;
 });

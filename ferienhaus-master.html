@@ -96,6 +96,17 @@
     <strong>Wichtig: Melden Sie den Mangel sofort!</strong> Um Geld von {{ANBIETER_NAME}} zurückzufordern, müssen Sie den Mangel zwingend <strong>vor Ort an den Vermieter oder die lokale Schlüsselübergabe-Stelle gemeldet</strong> haben. Sie müssen dem Gastgeber die Möglichkeit geben, das Problem zu lösen (z.B. durch Reinigung oder Reparatur). Wer nichts sagt und erst zu Hause meckert, geht meist leer aus!
   </div>
 
+  <div class="legal-info-box">
+    <strong>Wichtiger Hinweis zur Nutzung</strong><br>
+    Dieses Tool ist ein <strong>automatisierter Musterbrief-Generator</strong> (Hilfe zur Selbsthilfe). Es fügt Ihre Daten lediglich in juristische Standardvorlagen ein. Es findet <strong>keine individuelle Prüfung</strong> Ihres Falls statt. Dieser kostenlose Service ersetzt keine anwaltliche Rechtsberatung. Die Nutzung erfolgt auf eigene Verantwortung, eine Erfolgsgarantie wird nicht übernommen.
+</div>
+
+
+
+<div class="highlight-box pruefdatum-box" role="note" aria-label="Redaktionell geprüft" style="margin-top: 15px; margin-bottom: 30px;">
+    <p><strong>Redaktionell geprüft am:</strong> <span id="pruefdatum">05.05.2026</span></p>
+  </div>
+
   <form id="fewoForm">
     <fieldset style="border-color: #ff9800; background: #fffdf7;">
       <legend style="background: #ff9800; color: #333;">1. Anbieter prüfen</legend>
@@ -151,7 +162,12 @@
       <input type="text" id="bIBAN" placeholder="DE..." required>
     </fieldset>
 
+    <div class="submit-area">
+    <p class="submit-disclaimer">
+        Mit Klick auf "PDF generieren" verstehen Sie, dass dieser automatisierte Service<br>keine Rechtsberatung darstellt und Sie die Forderung eigenverantwortlich stellen.
+    </p>
     <button type="submit" class="button-primary">📄 Reklamations-PDF an {{ANBIETER_NAME}} generieren</button>
+</div>
   </form>
 
   <div class="seo-content">
