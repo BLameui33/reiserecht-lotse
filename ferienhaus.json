@@ -48,5 +48,40 @@
     "name": "Allgemeines Formular",
     "slug": "allgemein",
     "adresse": "[Bitte Anschrift des Anbieters hier eintragen]"
-}
+},
+{
+        "name": "HomeToGo",
+        "slug": "hometogo",
+        "adresse": "HomeToGo GmbH\nPappelallee 78/79\n10437 Berlin"
+    },
+    {
+        "name": "Booking.com",
+        "slug": "booking",
+        "adresse": "Booking.com B.V.\nOosterdokskade 163\n1011 DL Amsterdam\nNiederlande"
+    },
+    {
+        "name": "BestFewo",
+        "slug": "bestfewo",
+        "adresse": "BestSearch Media GmbH\nZeppelinstraße 73\n14471 Potsdam"
+    },
+    {
+        "name": "Ferienwohnungen.de",
+        "slug": "ferienwohnungen-de",
+        "adresse": "ferienwohnungen.de GmbH\nCeller Str. 101 a\n38114 Braunschweig"
+    },
+    {
+        "name": "Atraveo",
+        "slug": "atraveo",
+        "adresse": "atraveo GmbH\nParsevalstraße 7a\n40468 Düsseldorf"
+    },
+    {
+        "name": "Naturhäuschen",
+        "slug": "naturhaeuschen",
+        "adresse": "Nature.house B.V.\nCeresstraat 13\n4811 CA Breda\nNiederlande"
+    },
+    {
+        "name": "Tourist-Online",
+        "slug": "tourist-online",
+        "adresse": "tourist-online.de GmbH\nTaunusstraße 21\n60329 Frankfurt am Main"
+    }
 ]
