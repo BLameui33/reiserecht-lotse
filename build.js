@@ -66,15 +66,12 @@ airlines.forEach(a => {
     // Hilfsfunktion: Repariert die Formularfelder und tauscht Variablen aus
     const processTemplate = (tpl, fName, crossLinks) => {
         let content = tpl;
-        
-        // Formular-Felder nur beim allgemeinen Formular leeren
         if (a.slug === 'andere-airline') {
             content = content
                 .replace(/value="\{\{AIRLINE_NAME\}\}"/g, `value="" placeholder="Name der Airline eintragen"`)
-                .replace(/>\{\{AIRLINE_ADRESSE\}\}</g, ` placeholder="Bitte Adresse der Fluggesellschaft eintragen">`);
+                // HIER IST DER FIX: Das < am Ende wurde wieder hinzugefügt!
+                .replace(/>\{\{AIRLINE_ADRESSE\}\}</g, ` placeholder="Bitte Adresse der Fluggesellschaft eintragen">${inputAdresse}<`);
         }
-        
-        // Standard-Ersetzungen für alle
         return content
             .replace(/\{\{AIRLINE_NAME\}\}/g, textName)
             .replace(/\{\{AIRLINE_ADRESSE\}\}/g, inputAdresse)
@@ -141,7 +138,7 @@ veranstalter.forEach(v => {
         if (v.slug === 'anderer-veranstalter') {
             content = content
                 .replace(/value="\{\{VERANSTALTER_NAME\}\}"/g, `value="" placeholder="Name des Veranstalters eintragen"`)
-                .replace(/>\{\{VERANSTALTER_ADRESSE\}\}</g, ` placeholder="Bitte Adresse des Veranstalters eintragen">`);
+                .replace(/>\{\{VERANSTALTER_ADRESSE\}\}</g, ` placeholder="Bitte Adresse des Veranstalters eintragen">${inputAdresse}<`);
         }
         return content
             .replace(/\{\{VERANSTALTER_NAME\}\}/g, textName)
@@ -180,12 +177,13 @@ vermittler.forEach(v => {
     }
 
     // Für das Portal-Template
+    // Für das Portal-Template
     const processTemplatePort = (tpl, fName, crossLinks) => {
         let content = tpl;
         if (v.slug === 'anderer-vermittler') {
             content = content
                 .replace(/value="\{\{VERMITTLER_NAME\}\}"/g, `value="" placeholder="Name des Portals eintragen"`)
-                .replace(/>\{\{VERMITTLER_ADRESSE\}\}</g, ` placeholder="Bitte Adresse des Portals eintragen">`);
+                .replace(/>\{\{VERMITTLER_ADRESSE\}\}</g, ` placeholder="Bitte Adresse des Portals eintragen">${inputAdresse}<`);
         }
         return content
             .replace(/\{\{VERMITTLER_NAME\}\}/g, textName)
@@ -194,13 +192,13 @@ vermittler.forEach(v => {
             .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks);
     };
 
-    // Für das Storno-Template (dieses nutzt VERANSTALTER-Platzhalter!)
+    // Für das Storno-Template
     const processTemplateStorno = (tpl, fName, crossLinks) => {
         let content = tpl;
         if (v.slug === 'anderer-vermittler') {
             content = content
                 .replace(/value="\{\{VERANSTALTER_NAME\}\}"/g, `value="" placeholder="Name des Portals eintragen"`)
-                .replace(/>\{\{VERANSTALTER_ADRESSE\}\}</g, ` placeholder="Bitte Adresse des Portals eintragen">`);
+                .replace(/>\{\{VERANSTALTER_ADRESSE\}\}</g, ` placeholder="Bitte Adresse des Portals eintragen">${inputAdresse}<`);
         }
         return content
             .replace(/\{\{VERANSTALTER_NAME\}\}/g, textName)
@@ -346,14 +344,11 @@ otaVermittler.forEach(v => {
 
     const processTemplateOta = (tpl, fName, crossLinks) => {
         let content = tpl;
-        
-        // Formular-Felder nur beim allgemeinen Formular leeren und mit Platzhaltern versehen
         if (v.slug === 'allgemein') {
             content = content
                 .replace(/value="\{\{VERMITTLER_NAME\}\}"/g, `value="" placeholder="Name des Portals eintragen"`)
-                .replace(/>\{\{VERMITTLER_ADRESSE\}\}</g, ` placeholder="Bitte Adresse des Portals eintragen">`);
+                .replace(/>\{\{VERMITTLER_ADRESSE\}\}</g, ` placeholder="Bitte Adresse des Portals eintragen">${inputAdresse}<`);
         }
-        
         return content
             .replace(/\{\{VERMITTLER_NAME\}\}/g, textName)
             .replace(/\{\{VERMITTLER_ADRESSE\}\}/g, inputAdresse)
@@ -404,14 +399,11 @@ kreuzfahrten.forEach(c => {
 
     const processTemplateCruise = (tpl, fName, crossLinks) => {
         let content = tpl;
-        
-        // Formular-Felder beim allgemeinen Formular leeren und mit Platzhaltern versehen
         if (c.slug === 'allgemein') {
             content = content
                 .replace(/value="\{\{CRUISE_LINE\}\}"/g, `value="" placeholder="Name der Reederei eintragen"`)
-                .replace(/>\{\{CRUISE_ADRESSE\}\}</g, ` placeholder="Bitte Adresse der Reederei eintragen">`);
+                .replace(/>\{\{CRUISE_ADRESSE\}\}</g, ` placeholder="Bitte Adresse der Reederei eintragen">${inputAdresse}<`);
         }
-        
         return content
             .replace(/\{\{CRUISE_LINE\}\}/g, textName)
             .replace(/\{\{CRUISE_ADRESSE\}\}/g, inputAdresse)
