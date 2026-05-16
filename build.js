@@ -518,6 +518,107 @@ fs.writeFileSync(
     'utf8'
 );
 
+// =====================================================================
+// SILO 10: FLUGHAFEN-PARKEN (Parkgebühren-Schock-Rechner)
+// =====================================================================
+const flughaefen = JSON.parse(fs.readFileSync(path.join(__dirname, 'flughafen.json'), 'utf8'));
+const flughafenTpl = loadTemplate('flughafen-parken-master.html');
 
+let optFlughafen = "";
+let linkFlughafen = "";
+
+flughaefen.forEach(f => {
+    // Spoke-Dateiname generieren (z.B. parken-flughafen-frankfurt.html)
+    let fFileName = `parken-flughafen-${f.slug}.html`;
+
+    // SEO-Cross-Links generieren
+    let crossFlughafen = generateCrossLinks(flughaefen, f, item => `parken-flughafen-${item.slug}.html`, item => item.name);
+
+    // Werte aus der JSON holen (mit Fallbacks, falls mal ein Feld in der JSON vergessen wird)
+    let terminalPreis14 = f.terminal_preis_14 || "280 €";
+    let alternativePreisStart = f.alternative_preis_start || "60 €";
+    let affiliateLink = f.affiliate_link || "https://www.parkos.de/"; // Hier deinen Default-Ref-Link einsetzen
+    
+    // JS-Werte für den Rechner (damit MUC teurer rechnet als z.B. FMM)
+    let terminalRate = f.terminal_rate_per_day || 22.00;
+    let alternativeRate = f.alternative_rate_per_day || 5.00;
+
+    // Spoke-Seite schreiben
+    let content = flughafenTpl
+        .replace(/\{\{FLUGHAFEN_NAME\}\}/g, f.name)
+        .replace(/\{\{FLUGHAFEN_KUERZEL\}\}/g, f.kuerzel)
+        .replace(/\{\{TERMINAL_PREIS_14_TAGE\}\}/g, terminalPreis14)
+        .replace(/\{\{ALTERNATIVE_PREIS_START\}\}/g, alternativePreisStart)
+        .replace(/\{\{AFFILIATE_LINK\}\}/g, affiliateLink)
+        .replace(/\{\{DATEINAME\}\}/g, fFileName)
+        .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossFlughafen)
+        // Injiziert die Variablen in dein JavaScript (siehe HTML Anpassung unten!)
+        .replace(/\{\{TERMINAL_RATE_PER_DAY\}\}/g, terminalRate)
+        .replace(/\{\{ALTERNATIVE_RATE_PER_DAY\}\}/g, alternativeRate);
+
+    fs.writeFileSync(path.join(outputDir, fFileName), content, 'utf8');
+    
+    // Daten für Hub-Seite sammeln
+    optFlughafen += `<option value="${fFileName}">${f.name} (${f.kuerzel})</option>\n`;
+    linkFlughafen += `<a href="${fFileName}">${f.name} (${f.kuerzel})</a>\n`;
+});
+
+// Hub-Seite für Flughäfen schreiben
+// (Dafür benötigst du noch eine kleine 'hub-flughafen-parken-master.html')
+if (fs.existsSync(path.join(__dirname, 'hub-flughafen-parken-master.html'))) {
+    fs.writeFileSync(
+        path.join(outputDir, 'flughafen-parken-info.html'), 
+        loadTemplate('hub-flughafen-parken-master.html')
+            .replace(/\{\{FLUGHAFEN_OPTIONS\}\}/g, optFlughafen)
+            .replace(/\{\{FLUGHAFEN_LINKS\}\}/g, linkFlughafen), 
+        'utf8'
+    );
+} else {
+    console.warn("⚠️ hub-flughafen-parken-master.html fehlt noch, Hub wurde übersprungen.");
+}
+
+// =====================================================================
+// SILO 11: REISEKREDITKARTEN (Fremdwährungs-Rechner)
+// =====================================================================
+const waehrungsLaender = JSON.parse(fs.readFileSync(path.join(__dirname, 'fremdwaehrung.json'), 'utf8'));
+const kreditkartenTpl = loadTemplate('reisekreditkarte-master.html');
+
+let optKredit = "";
+let linkKredit = "";
+
+waehrungsLaender.forEach(w => {
+    // Spoke-Dateiname generieren (z.B. geld-abheben-bezahlen-thailand.html)
+    let fFileName = `geld-abheben-bezahlen-${w.slug}.html`;
+
+    // SEO-Cross-Links generieren
+    let crossKredit = generateCrossLinks(waehrungsLaender, w, item => `geld-abheben-bezahlen-${item.slug}.html`, item => item.name);
+
+    let affiliateLink = w.affiliate_link || "https://dein-standard-affiliate-link.de";
+
+    // Spoke-Seite schreiben
+    let content = kreditkartenTpl
+        .replace(/\{\{LAND_NAME\}\}/g, w.name)
+        .replace(/\{\{WAEHRUNG\}\}/g, w.waehrung)
+        .replace(/\{\{AFFILIATE_LINK\}\}/g, affiliateLink)
+        .replace(/\{\{DATEINAME\}\}/g, fFileName)
+        .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossKredit);
+
+    fs.writeFileSync(path.join(outputDir, fFileName), content, 'utf8');
+    
+    // Daten für Hub-Seite sammeln
+    optKredit += `<option value="${fFileName}">${w.name} (${w.waehrung})</option>\n`;
+    linkKredit += `<a href="${fFileName}">${w.name}</a>\n`;
+});
+
+// Hub-Seite schreiben (wenn du später ein hub-reisekreditkarten-master.html anlegst)
+if (fs.existsSync(path.join(__dirname, 'hub-reisekreditkarten-master.html'))) {
+    fs.writeFileSync(
+        path.join(outputDir, 'reisekreditkarten-info.html'), 
+        loadTemplate('hub-reisekreditkarten-master.html')
+            .replace(/\{\{KREDIT_OPTIONS\}\}/g, optKredit)
+            .replace(/\{\{KREDIT_LINKS\}\}/g, linkKredit), 
+        'utf8'
+    );
+}
 
 console.log('🎉 Fertig! Alle Hubs & Spokes wurden generiert.');

@@ -1,0 +1,202 @@
+[
+  {
+    "slug": "frankfurt",
+    "name": "Frankfurt am Main",
+    "kuerzel": "FRA",
+    "terminal_preis_14_tage": "295 €",
+    "alternative_preis_start": "55 €",
+    "terminal_rate_per_day": 24.50,
+    "alternative_rate_per_day": 6.50,
+    "affiliate_link": "https://www.parkos.de"
+  },
+  {
+    "slug": "muenchen",
+    "name": "München",
+    "kuerzel": "MUC",
+    "terminal_preis_14_tage": "240 €",
+    "alternative_preis_start": "59 €",
+    "terminal_rate_per_day": 19.50,
+    "alternative_rate_per_day": 5.80,
+    "affiliate_link": "https://www.parkos.de"
+  },
+  {
+    "slug": "berlin-brandenburg",
+    "name": "Berlin Brandenburg",
+    "kuerzel": "BER",
+    "terminal_preis_14_tage": "190 €",
+    "alternative_preis_start": "49 €",
+    "terminal_rate_per_day": 15.50,
+    "alternative_rate_per_day": 4.90,
+    "affiliate_link": "https://www.parkos.de"
+  },
+  {
+    "slug": "duesseldorf",
+    "name": "Düsseldorf",
+    "kuerzel": "DUS",
+    "terminal_preis_14_tage": "220 €",
+    "alternative_preis_start": "52 €",
+    "terminal_rate_per_day": 18.00,
+    "alternative_rate_per_day": 5.20,
+    "affiliate_link": "https://www.parkos.de"
+  },
+  {
+    "slug": "hamburg",
+    "name": "Hamburg",
+    "kuerzel": "HAM",
+    "terminal_preis_14_tage": "210 €",
+    "alternative_preis_start": "58 €",
+    "terminal_rate_per_day": 17.00,
+    "alternative_rate_per_day": 5.50,
+    "affiliate_link": "https://www.parkos.de"
+  },
+  {
+    "slug": "koeln-bonn",
+    "name": "Köln/Bonn",
+    "kuerzel": "CGN",
+    "terminal_preis_14_tage": "160 €",
+    "alternative_preis_start": "45 €",
+    "terminal_rate_per_day": 13.50,
+    "alternative_rate_per_day": 4.50,
+    "affiliate_link": "https://www.parkos.de"
+  },
+  {
+    "slug": "stuttgart",
+    "name": "Stuttgart",
+    "kuerzel": "STR",
+    "terminal_preis_14_tage": "180 €",
+    "alternative_preis_start": "49 €",
+    "terminal_rate_per_day": 14.50,
+    "alternative_rate_per_day": 4.80,
+    "affiliate_link": "https://www.parkos.de"
+  },
+  {
+    "slug": "hannover",
+    "name": "Hannover",
+    "kuerzel": "HAJ",
+    "terminal_preis_14_tage": "130 €",
+    "alternative_preis_start": "42 €",
+    "terminal_rate_per_day": 10.50,
+    "alternative_rate_per_day": 4.20,
+    "affiliate_link": "https://www.parkos.de"
+  },
+  {
+    "slug": "nuernberg",
+    "name": "Nürnberg",
+    "kuerzel": "NUE",
+    "terminal_preis_14_tage": "125 €",
+    "alternative_preis_start": "39 €",
+    "terminal_rate_per_day": 10.00,
+    "alternative_rate_per_day": 3.90,
+    "affiliate_link": "https://www.parkos.de"
+  },
+  {
+    "slug": "leipzig-halle",
+    "name": "Leipzig/Halle",
+    "kuerzel": "LEJ",
+    "terminal_preis_14_tage": "115 €",
+    "alternative_preis_start": "38 €",
+    "terminal_rate_per_day": 9.50,
+    "alternative_rate_per_day": 3.80,
+    "affiliate_link": "https://www.parkos.de"
+  },
+  {
+    "slug": "bremen",
+    "name": "Bremen",
+    "kuerzel": "BRE",
+    "terminal_preis_14_tage": "110 €",
+    "alternative_preis_start": "45 €",
+    "terminal_rate_per_day": 9.00,
+    "alternative_rate_per_day": 4.50,
+    "affiliate_link": "https://www.parkos.de"
+  },
+  {
+    "slug": "dortmund",
+    "name": "Dortmund",
+    "kuerzel": "DTM",
+    "terminal_preis_14_tage": "105 €",
+    "alternative_preis_start": "42 €",
+    "terminal_rate_per_day": 8.50,
+    "alternative_rate_per_day": 4.20,
+    "affiliate_link": "https://www.parkos.de"
+  },
+  {
+    "slug": "memmingen",
+    "name": "Memmingen",
+    "kuerzel": "FMM",
+    "terminal_preis_14_tage": "180 €",
+    "alternative_preis_start": "45 €",
+    "terminal_rate_per_day": 14.00,
+    "alternative_rate_per_day": 4.50,
+    "affiliate_link": "https://www.parkos.de"
+  },
+  {
+    "slug": "karlsruhe-baden-baden",
+    "name": "Karlsruhe/Baden-Baden",
+    "kuerzel": "FKB",
+    "terminal_preis_14_tage": "95 €",
+    "alternative_preis_start": "38 €",
+    "terminal_rate_per_day": 7.50,
+    "alternative_rate_per_day": 3.80,
+    "affiliate_link": "https://www.parkos.de"
+  },
+  {
+    "slug": "weeze",
+    "name": "Weeze",
+    "kuerzel": "NRN",
+    "terminal_preis_14_tage": "110 €",
+    "alternative_preis_start": "45 €",
+    "terminal_rate_per_day": 8.50,
+    "alternative_rate_per_day": 4.50,
+    "affiliate_link": "https://www.parkos.de"
+  },
+  {
+    "slug": "frankfurt-hahn",
+    "name": "Frankfurt-Hahn",
+    "kuerzel": "HHN",
+    "terminal_preis_14_tage": "90 €",
+    "alternative_preis_start": "35 €",
+    "terminal_rate_per_day": 7.00,
+    "alternative_rate_per_day": 3.50,
+    "affiliate_link": "https://www.parkos.de"
+  },
+  {
+    "slug": "muenster-osnabrueck",
+    "name": "Münster/Osnabrück",
+    "kuerzel": "FMO",
+    "terminal_preis_14_tage": "98 €",
+    "alternative_preis_start": "40 €",
+    "terminal_rate_per_day": 7.80,
+    "alternative_rate_per_day": 4.00,
+    "affiliate_link": "https://www.parkos.de"
+  },
+  {
+    "slug": "paderborn-lippstadt",
+    "name": "Paderborn/Lippstadt",
+    "kuerzel": "PAD",
+    "terminal_preis_14_tage": "85 €",
+    "alternative_preis_start": "38 €",
+    "terminal_rate_per_day": 6.50,
+    "alternative_rate_per_day": 3.80,
+    "affiliate_link": "https://www.parkos.de"
+  },
+  {
+    "slug": "saarbruecken",
+    "name": "Saarbrücken",
+    "kuerzel": "SCN",
+    "terminal_preis_14_tage": "80 €",
+    "alternative_preis_start": "35 €",
+    "terminal_rate_per_day": 6.00,
+    "alternative_rate_per_day": 3.50,
+    "affiliate_link": "https://www.parkos.de"
+  },
+  {
+    "slug": "friedrichshafen",
+    "name": "Friedrichshafen",
+    "kuerzel": "FDH",
+    "terminal_preis_14_tage": "100 €",
+    "alternative_preis_start": "42 €",
+    "terminal_rate_per_day": 8.00,
+    "alternative_rate_per_day": 4.20,
+    "affiliate_link": "https://www.parkos.de"
+  }
+]

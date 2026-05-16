@@ -1,0 +1,360 @@
+[
+  {
+    "slug": "thailand",
+    "name": "Thailand",
+    "waehrung": "Thailändische Baht (THB)",
+    "affiliate_link": "https://dein-link.de/dkb-thailand"
+  },
+  {
+    "slug": "tuerkei",
+    "name": "Türkei",
+    "waehrung": "Türkische Lira (TRY)",
+    "affiliate_link": "https://dein-link.de/barclays-tuerkei"
+  },
+  {
+    "slug": "usa",
+    "name": "USA",
+    "waehrung": "US-Dollar (USD)",
+    "affiliate_link": "https://dein-link.de/kreditkarte"
+  },
+  {
+    "slug": "schweiz",
+    "name": "Schweiz",
+    "waehrung": "Schweizer Franken (CHF)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "grossbritannien",
+    "name": "Großbritannien",
+    "waehrung": "Britisches Pfund (GBP)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "norwegen",
+    "name": "Norwegen",
+    "waehrung": "Norwegische Krone (NOK)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "island",
+    "name": "Island",
+    "waehrung": "Isländische Krone (ISK)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "aegypten",
+    "name": "Ägypten",
+    "waehrung": "Ägyptisches Pfund (EGP)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "suedafrika",
+    "name": "Südafrika",
+    "waehrung": "Südafrikanischer Rand (ZAR)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "marokko",
+    "name": "Marokko",
+    "waehrung": "Marokkanischer Dirham (MAD)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "kanada",
+    "name": "Kanada",
+    "waehrung": "Kanadischer Dollar (CAD)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "mexiko",
+    "name": "Mexiko",
+    "waehrung": "Mexikanischer Peso (MXN)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "dominikanische-republik",
+    "name": "Dominikanische Republik",
+    "waehrung": "Dominikanischer Peso (DOP)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "brasilien",
+    "name": "Brasilien",
+    "waehrung": "Brasilianischer Real (BRL)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "vereinigte-arabische-emirate",
+    "name": "Vereinigte Arabische Emirate",
+    "waehrung": "VAE-Dirham (AED)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "indonesien",
+    "name": "Indonesien",
+    "waehrung": "Indonesische Rupiah (IDR)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "japan",
+    "name": "Japan",
+    "waehrung": "Japanischer Yen (JPY)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "china",
+    "name": "China",
+    "waehrung": "Chinesischer Yuan (CNY)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "vietnam",
+    "name": "Vietnam",
+    "waehrung": "Vietnamesischer Dong (VND)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "indien",
+    "name": "Indien",
+    "waehrung": "Indische Rupie (INR)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "malediven",
+    "name": "Malediven",
+    "waehrung": "Malediven-Rupie (MVR)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "singapur",
+    "name": "Singapur",
+    "waehrung": "Singapur-Dollar (SGD)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "australien",
+    "name": "Australien",
+    "waehrung": "Australischer Dollar (AUD)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "neuseeland",
+    "name": "Neuseeland",
+    "waehrung": "Neuseeland-Dollar (NZD)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "serbien",
+    "name": "Serbien",
+    "waehrung": "Serbischer Dinar (RSD)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "bosnien-und-herzegowina",
+    "name": "Bosnien und Herzegowina",
+    "waehrung": "Konvertible Mark (BAM)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "albanien",
+    "name": "Albanien",
+    "waehrung": "Albanischer Lek (ALL)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "nordmazedonien",
+    "name": "Nordmazedonien",
+    "waehrung": "Mazedonischer Denar (MKD)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "georgien",
+    "name": "Georgien",
+    "waehrung": "Georgischer Lari (GEL)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "suedkorea",
+    "name": "Südkorea",
+    "waehrung": "Südkoreanischer Won (KRW)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "malaysia",
+    "name": "Malaysia",
+    "waehrung": "Malaysischer Ringgit (MYR)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "philippinen",
+    "name": "Philippinen",
+    "waehrung": "Philippinischer Peso (PHP)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "sri-lanka",
+    "name": "Sri Lanka",
+    "waehrung": "Sri-Lanka-Rupie (LKR)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "taiwan",
+    "name": "Taiwan",
+    "waehrung": "Neuer Taiwan-Dollar (TWD)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "kambodscha",
+    "name": "Kambodscha",
+    "waehrung": "Kambodschanischer Riel (KHR)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "laos",
+    "name": "Laos",
+    "waehrung": "Laotischer Kip (LAK)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "nepal",
+    "name": "Nepal",
+    "waehrung": "Nepalesische Rupie (NPR)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "jordanien",
+    "name": "Jordanien",
+    "waehrung": "Jordanischer Dinar (JOD)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "oman",
+    "name": "Oman",
+    "waehrung": "Omanischer Rial (OMR)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "saudi-arabien",
+    "name": "Saudi-Arabien",
+    "waehrung": "Saudi-Riyal (SAR)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "katar",
+    "name": "Katar",
+    "waehrung": "Katar-Riyal (QAR)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "israel",
+    "name": "Israel",
+    "waehrung": "Israelischer Neuer Schekel (ILS)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "argentinien",
+    "name": "Argentinien",
+    "waehrung": "Argentinischer Peso (ARS)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "chile",
+    "name": "Chile",
+    "waehrung": "Chilenischer Peso (CLP)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "kolumbien",
+    "name": "Kolumbien",
+    "waehrung": "Kolumbianischer Peso (COP)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "peru",
+    "name": "Peru",
+    "waehrung": "Peruanischer Sol (PEN)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "costa-rica",
+    "name": "Costa Rica",
+    "waehrung": "Costa-Rica-Colón (CRC)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "kuba",
+    "name": "Kuba",
+    "waehrung": "Kubanischer Peso (CUP)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "jamaika",
+    "name": "Jamaika",
+    "waehrung": "Jamaika-Dollar (JMD)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "panama",
+    "name": "Panama",
+    "waehrung": "Panamaischer Balboa (PAB)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "bahamas",
+    "name": "Bahamas",
+    "waehrung": "Bahama-Dollar (BSD)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "kenia",
+    "name": "Kenia",
+    "waehrung": "Kenia-Schilling (KES)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "tansania",
+    "name": "Tansania",
+    "waehrung": "Tansania-Schilling (TZS)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "mauritius",
+    "name": "Mauritius",
+    "waehrung": "Mauritius-Rupie (MUR)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "seychellen",
+    "name": "Seychellen",
+    "waehrung": "Seychellen-Rupie (SCR)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "tunesien",
+    "name": "Tunesien",
+    "waehrung": "Tunesischer Dinar (TND)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "namibia",
+    "name": "Namibia",
+    "waehrung": "Namibia-Dollar (NAD)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "madagaskar",
+    "name": "Madagaskar",
+    "waehrung": "Madagassischer Ariary (MGA)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  },
+  {
+    "slug": "fidschi",
+    "name": "Fidschi",
+    "waehrung": "Fidschi-Dollar (FJD)",
+    "affiliate_link": "https://www.tarifcheck.com/YKQ2R5K"
+  }
+
+]
+
+
+  
