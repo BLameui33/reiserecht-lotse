@@ -224,11 +224,11 @@ Deutschland</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Weitere interessante Themen:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="reise-stornieren-kosten-pruefen-holidaycheck.html">HolidayCheck AG</a>
-<a href="reise-stornieren-kosten-pruefen-rewe-reisen.html">REWE Markt GmbH</a>
-<a href="reise-stornieren-kosten-pruefen-edreams.html">Vacaciones eDreams, S.L.</a>
-<a href="reise-stornieren-kosten-pruefen-kurz-mal-weg.html">KMW Reisen GmbH (kurz-mal-weg.de)</a>
+    <a href="reise-stornieren-kosten-pruefen-der-reisebuero.html">DER Deutsches Reisebüro GmbH & Co. OHG</a>
+<a href="reise-stornieren-kosten-pruefen-expedia.html">Expedia.com GmbH</a>
 <a href="reise-stornieren-kosten-pruefen-lastminute-de.html">BravoNext SA (lastminute.de)</a>
+<a href="reise-stornieren-kosten-pruefen-tchibo-reisen.html">Tchibo GmbH</a>
+<a href="reise-stornieren-kosten-pruefen-ab-in-den-urlaub.html">Invia Travel Germany GmbH (ab-in-den-urlaub.de)</a>
 
   </div>
 </div>
@@ -535,10 +535,17 @@ function openPayPal() {
 function closeOverlay() {
   document.getElementById('donateOverlay').classList.remove('active');
 }
+// Schließt das Overlay, wenn man auf den abgedunkelten Hintergrund klickt
+document.getElementById('donateOverlay').addEventListener('click', function(e) {
+  if (e.target === this) {
+    closeOverlay();
+  }
+});
 </script>
 
 <div class="overlay" id="donateOverlay">
   <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Schließen">&times;</button>
     <div class="donate-emoji">🎉</div>
     <h2>Ihr Brief ist fertig!</h2>
     <p class="sub">Sie haben sich gerade <strong style="color:#2e7d32;">Provision</strong> gespart –<br>kein Drittanbieter, keine Abgaben, alles gehört Ihnen.</p>

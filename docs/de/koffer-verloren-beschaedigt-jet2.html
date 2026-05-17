@@ -253,11 +253,11 @@ Vereinigtes Königreich</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Weitere interessante Themen:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="koffer-verloren-beschaedigt-luxair.html">Luxair S.A.</a>
-<a href="koffer-verloren-beschaedigt-smartwings.html">Smartwings a.s.</a>
-<a href="koffer-verloren-beschaedigt-ita-airways.html">Italia Trasporto Aereo S.p.A. (Headquarter)</a>
-<a href="koffer-verloren-beschaedigt-sunexpress.html">SunExpress Deutschland GmbH</a>
-<a href="koffer-verloren-beschaedigt-air-transat.html">Air Transat (Transat Tours Canada Inc.)</a>
+    <a href="koffer-verloren-beschaedigt-ryanair.html">Ryanair DAC</a>
+<a href="koffer-verloren-beschaedigt-ethiopian-airlines.html">Ethiopian Airlines S.C.</a>
+<a href="koffer-verloren-beschaedigt-kenya-airways.html">Kenya Airways</a>
+<a href="koffer-verloren-beschaedigt-eva-air.html">EVA Airways Corp.</a>
+<a href="koffer-verloren-beschaedigt-play-airlines.html">PLAY airlines</a>
 
   </div>
 </div>
@@ -513,10 +513,17 @@ function openPayPal() {
 function closeOverlay() {
   document.getElementById('donateOverlay').classList.remove('active');
 }
+// Schließt das Overlay, wenn man auf den abgedunkelten Hintergrund klickt
+document.getElementById('donateOverlay').addEventListener('click', function(e) {
+  if (e.target === this) {
+    closeOverlay();
+  }
+});
 </script>
 
 <div class="overlay" id="donateOverlay">
   <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Schließen">&times;</button>
     <div class="donate-emoji">🎉</div>
     <h2>Ihr Brief ist fertig!</h2>
     <p class="sub">Sie haben sich gerade <strong style="color:#2e7d32;">Provision</strong> gespart –<br>kein Drittanbieter, keine Abgaben, alles gehört Ihnen.</p>

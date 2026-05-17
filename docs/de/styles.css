@@ -913,6 +913,24 @@ details > div {
   display: flex; /* Zeigt das Pop-up an und zentriert es */
 }
 
+.close-x {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  font-size: 28px;
+  font-weight: bold;
+  color: #888;
+  cursor: pointer;
+  line-height: 1;
+  padding: 5px 10px;
+}
+
+.close-x:hover {
+  color: #333;
+}
+
 /* Modal Container */
 .donate-modal {
   background: #ffffff;

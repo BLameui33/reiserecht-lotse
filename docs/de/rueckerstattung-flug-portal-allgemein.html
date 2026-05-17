@@ -198,11 +198,11 @@
   <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
     <h3>Andere Portale & Hilfestellungen:</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="rueckerstattung-flug-portal-kiwi-com.html">Kiwi.com</a>
-<a href="rueckerstattung-flug-portal-check24-fluege.html">Check24 Flüge</a>
-<a href="rueckerstattung-flug-portal-trip-com.html">Trip.com</a>
+      <a href="rueckerstattung-flug-portal-edreams.html">eDreams</a>
 <a href="rueckerstattung-flug-portal-flugladen.html">Flugladen.de</a>
-<a href="rueckerstattung-flug-portal-lastminute-de.html">lastminute.de</a>
+<a href="rueckerstattung-flug-portal-opodo.html">Opodo</a>
+<a href="rueckerstattung-flug-portal-kiwi-com.html">Kiwi.com</a>
+<a href="rueckerstattung-flug-portal-booking-flights.html">Booking.com Flights</a>
 
     </div>
   </div>
@@ -348,10 +348,17 @@ function openPayPal() {
 function closeOverlay() {
   document.getElementById('donateOverlay').classList.remove('active');
 }
+// Schließt das Overlay, wenn man auf den abgedunkelten Hintergrund klickt
+document.getElementById('donateOverlay').addEventListener('click', function(e) {
+  if (e.target === this) {
+    closeOverlay();
+  }
+});
 </script>
 
 <div class="overlay" id="donateOverlay">
   <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Schließen">&times;</button>
     <div class="donate-emoji">🎉</div>
     <h2>Brief ist fertig!</h2>
     <p>Holen Sie sich Ihr Geld von Ihrem Buchungsportal zurück.</p>

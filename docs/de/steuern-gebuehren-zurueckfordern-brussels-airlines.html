@@ -219,11 +219,11 @@ Belgien</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Weitere interessante Themen:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="steuern-gebuehren-zurueckfordern-klm.html">KLM Royal Dutch Airlines</a>
-<a href="steuern-gebuehren-zurueckfordern-air-canada.html">Air Canada</a>
-<a href="steuern-gebuehren-zurueckfordern-discover-airlines.html">EW Discover GmbH</a>
+    <a href="steuern-gebuehren-zurueckfordern-middle-east-airlines.html">Middle East Airlines Air Liban</a>
+<a href="steuern-gebuehren-zurueckfordern-oman-air.html">Oman Air S.A.O.C.</a>
 <a href="steuern-gebuehren-zurueckfordern-delta-air-lines.html">Delta Air Lines, Inc.</a>
-<a href="steuern-gebuehren-zurueckfordern-saudia.html">Saudi Arabian Airlines (Saudia)</a>
+<a href="steuern-gebuehren-zurueckfordern-united-airlines.html">United Airlines, Inc.</a>
+<a href="steuern-gebuehren-zurueckfordern-air-china.html">Air China Limited</a>
 
   </div>
 </div>
@@ -492,10 +492,17 @@ function openPayPal() {
 function closeOverlay() {
   document.getElementById('donateOverlay').classList.remove('active');
 }
+// Schließt das Overlay, wenn man auf den abgedunkelten Hintergrund klickt
+document.getElementById('donateOverlay').addEventListener('click', function(e) {
+  if (e.target === this) {
+    closeOverlay();
+  }
+});
 </script>
 
 <div class="overlay" id="donateOverlay">
   <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Schließen">&times;</button>
     <div class="donate-emoji">🎉</div>
     <h2>Ihr Brief ist fertig!</h2>
     <p class="sub">Sie haben sich gerade <strong style="color:#2e7d32;">Provision</strong> gespart –<br>kein Drittanbieter, keine Abgaben, alles gehört Ihnen.</p>

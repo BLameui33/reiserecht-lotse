@@ -236,11 +236,11 @@ Belgien</textarea>
   <div class="popular-links" style="margin-top: 40px; padding: 20px; background: #f9f9f9; border-radius: 8px;">
         <h3>Weitere Anbieter & Regionen:</h3>
         <div class="link-grid">
-            <a href="zugverspaetung-entschaedigung-nordwestbahn.html">NordWestBahn</a>
-<a href="zugverspaetung-entschaedigung-iryo.html">iryo</a>
-<a href="zugverspaetung-entschaedigung-westbahn.html">WESTbahn</a>
-<a href="zugverspaetung-entschaedigung-sncf.html">SNCF (Société Nationale des Chemins de fer Français)</a>
-<a href="zugverspaetung-entschaedigung-italo.html">Italo (NTV)</a>
+            <a href="zugverspaetung-entschaedigung-vias.html">VIAS</a>
+<a href="zugverspaetung-entschaedigung-trenitalia.html">Trenitalia</a>
+<a href="zugverspaetung-entschaedigung-ns.html">NS (Nederlandse Spoorwegen)</a>
+<a href="zugverspaetung-entschaedigung-ouigo-espana.html">OUIGO España</a>
+<a href="zugverspaetung-entschaedigung-ave.html">AVE (Renfe)</a>
 
         </div>
     </div>
@@ -526,9 +526,16 @@ function openPayPal() {
 function closeOverlay() {
   document.getElementById('donateOverlay').classList.remove('active');
 }
+// Schließt das Overlay, wenn man auf den abgedunkelten Hintergrund klickt
+document.getElementById('donateOverlay').addEventListener('click', function(e) {
+  if (e.target === this) {
+    closeOverlay();
+  }
+});
 </script>
 <div class="overlay" id="donateOverlay">
   <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Schließen">&times;</button>
     <div class="donate-emoji">🎉</div>
     <h2>Ihr Brief ist fertig!</h2>
     <p class="sub">Sie haben sich gerade <strong style="color:#2e7d32;">Provision</strong> gespart –<br>kein Drittanbieter, keine Abgaben, alles gehört Ihnen.</p>
