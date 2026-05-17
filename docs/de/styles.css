@@ -923,8 +923,19 @@ details > div {
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
   text-align: center;
   position: relative;
+  max-height: 85vh;       
+  overflow-y: auto;      
+  padding-bottom: 30px;
   /* Dezenter, aber präsenter roter Akzent am oberen Rand */
   border-top: 6px solid #d32f2f;
+}
+
+.donate-modal::-webkit-scrollbar {
+  width: 6px;
+}
+.donate-modal::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
 }
 
 /* Emoji */
