@@ -8,8 +8,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="canonical" href="https://www.fix-my-trip.com/parken-flughafen-karlsruhe-baden-baden.html">
   
+  <!-- Open Graph Tags für Social Media / Messenger -->
+  <meta property="og:title" content="Parken am Flughafen Karlsruhe/Baden-Baden: Kostenfalle Terminal-Parkhaus">
+  <meta property="og:description" content="Berechnen Sie jetzt die echten Parkgebühren am Flughafen Karlsruhe/Baden-Baden und finden Sie günstige, zertifizierte Alternativen.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.fix-my-trip.com/parken-flughafen-karlsruhe-baden-baden.html">
+  
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="/logo-lotse-fav.png">
+
+  <style>
+    /* Inhaltsverzeichnis */
+    .toc { background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 25px 0; border: 1px solid #eee; }
+    .toc p { font-weight: bold; margin-top: 0; font-size: 1.1em; color: #333; }
+    .toc ul { margin-bottom: 0; padding-left: 25px; }
+    .toc li { margin-bottom: 8px; }
+    .toc a { color: #1565c0; text-decoration: none; }
+    .toc a:hover { text-decoration: underline; }
+    
+    /* Sticky CTA Bar (Mobile & Desktop) */
+    .sticky-cta { position: fixed; bottom: 0; left: 0; width: 100%; background: #fff; padding: 15px; box-shadow: 0 -2px 10px rgba(0,0,0,0.1); text-align: center; z-index: 1000; transform: translateY(100%); transition: transform 0.3s ease; }
+    .sticky-cta.show { transform: translateY(0); }
+    .sticky-cta .button-primary { margin: 0; padding: 12px 25px; font-size: 1.1em; width: auto; display: inline-block; font-weight: bold; }
+  </style>
 
   <script type="application/ld+json">
   {
@@ -70,7 +91,7 @@
 
 <div class="page-container">
 
-  <h1>Parken am Flughafen Karlsruhe/Baden-Baden: Die Parkplatz-Abzocke umgehen</h1>
+  <h1 id="einleitung">Parken am Flughafen Karlsruhe/Baden-Baden: Die Parkplatz-Abzocke umgehen</h1>
   
   <div class="back-to-hub-banner">
     <a href="flughafen-parken-info.html">
@@ -86,6 +107,18 @@
 
   <p>Sie planen eine entspannte Urlaubs- oder Geschäftsreise ab dem <strong>Flughafen Karlsruhe/Baden-Baden (FKB)</strong> und möchten bequem mit dem eigenen Auto anreisen? Vorsicht: Wer hier unvorbereitet und ohne Reservierung in das erstbeste Terminal-Parkhaus einfährt, erlebt nach der Rückkehr oft eine schmerzhafte Überraschung am Kassenautomaten.</p>
 
+  <!-- Inhaltsverzeichnis -->
+  <nav class="toc">
+    <p>Inhaltsverzeichnis</p>
+    <ul>
+      <li><a href="#einleitung">Die Kostenfalle am Flughafen Karlsruhe/Baden-Baden</a></li>
+      <li><a href="#rechner">Tool: Parkgebühren-Rechner</a></li>
+      <li><a href="#loesung">Lösung: Zertifizierte Alternativ-Parkplätze</a></li>
+      <li><a href="#details">Preisvergleich: Terminal vs. Shuttle-Service</a></li>
+      <li><a href="#faq">Häufige Fragen (FAQ)</a></li>
+    </ul>
+  </nav>
+
   <div class="shock-box" style="background: #ffebee; border-left: 4px solid #c62828; padding: 15px 20px; margin: 20px 0; border-radius: 4px;">
     <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Achtung: Teurer Spontantarif im Terminal!</h2>
     <p>Die Flughafenbetreiber lassen sich die Nähe zum Gate fürstlich bezahlen. Wenn Sie ohne vorherige Online-Reservierung in die offiziellen Parkhäuser direkt am Terminal fahren, greifen die astronomischen Standard-Tarife des Flughafens.</p>
@@ -93,7 +126,7 @@
     <p><em>Zur Einordnung: Für diesen Preis fliegen manche Personen bereits hin und zurück. Das Parken übersteigt dann schnell die Kosten für das eigentliche Flugticket. Und das nur, weil das Auto auf einem grauen Betonplatz steht, während Sie im Urlaub sind.</em></p>
   </div>
 
-  <h2>Tool: Wie viel kostet das Parken an Ihrem Reisedatum?</h2>
+  <h2 id="rechner">Tool: Wie viel kostet das Parken an Ihrem Reisedatum?</h2>
   <p>Finden Sie heraus, wie hoch die regulären Parkgebühren am Flughafen Karlsruhe/Baden-Baden für Ihre Reisedauer schätzungsweise sind und wie viel Geld Sie mit einem zertifizierten Alternativ-Parkplatz sparen können.</p>
 
   <div class="highlight-box pruefdatum-box" role="note" aria-label="Redaktionell geprüft" style="margin-top: 15px; margin-bottom: 30px;">
@@ -101,52 +134,60 @@
   </div>
   
   <div class="calc-box">
+    <!-- WICHTIG: form statt div nutzen und auf submit lauschen -->
     <form id="parkingCalcForm">
-      <fieldset>
-        <legend>Ihre Reisedaten</legend>
+      <fieldset style="border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
+        <legend style="font-weight: bold; padding: 0 10px; color: #1565c0;">Ihre Reisedaten</legend>
         
-        <label for="pDays">Reisedauer (in Tagen):</label>
-        <input type="number" id="pDays" value="14" min="1" max="90" required>
+        <label for="pDays" style="display:block; margin-top: 10px; font-weight:bold;">Reisedauer (in Tagen):</label>
+        <input type="number" id="pDays" value="14" min="1" max="90" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
 
-        <label for="pType">Gewünschte Parkplatz-Art:</label>
-        <select id="pType" required>
+        <label for="pType" style="display:block; font-weight:bold;">Gewünschte Parkplatz-Art:</label>
+        <select id="pType" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
           <option value="standard" selected>Normaler Stellplatz (Außen/Überdacht)</option>
           <option value="valet">Valet-Parking (Direkte Fahrzeugübergabe am Terminal)</option>
         </select>
       </fieldset>
 
-      <button type="button" class="button-primary" id="calcParkingBtn">Parkgebühren & Ersparnis berechnen</button>
+      <!-- type="submit" für Validierung -->
+      <button type="submit" class="button-primary" id="calcParkingBtn" style="background: #1565c0; color: #fff; padding: 15px 30px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer; width: 100%; margin-top: 20px;">Parkgebühren & Ersparnis berechnen</button>
     </form>
 
     <div id="parkingResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #1565c0;">
-      </div>
+      <!-- JS Inhalt -->
+    </div>
   </div>
 
-  <h2>Die Lösung: Zertifiziertes Shuttle- oder Valet-Parken</h2>
+  <h2 id="loesung">Die Lösung: Zertifiziertes Shuttle- oder Valet-Parken</h2>
   <p>Anstatt dem Flughafenbetreiber unnötig Geld in den Rachen zu werfen, nutzen clevere Reisende alternative Parkplätze in unmittelbarer Nähe des Flughafens Karlsruhe/Baden-Baden. Sie parken Ihr Auto auf einem gesicherten, videoüberwachten Gelände. Ein kostenloser Shuttlebus bringt Sie in wenigen Minuten direkt zum Terminal und holt Sie bei Ihrer Rückkehr wieder ab.</p>
 
   <div class="solution-box" style="background: #f1f8e9; border: 2px solid #a5d6a7; padding: 25px; border-radius: 8px; text-align: center; margin: 30px 0;">
+    <!-- NEU: Affiliate Hinweis -->
+    <span style="font-size: 0.75rem; color: #fff; background-color: rgba(0,0,0,0.15); padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; display: inline-block; margin-bottom: 12px; font-weight: bold;">
+        Anzeige / Werbeempfehlung
+    </span>
+
     <h2 style="color: #2e7d32; margin-top: 0;">✅ Der smarte Reise-Hack: Sicher & Günstig parken</h2>
     <p>Über verifizierte Vergleichsportale buchen Sie Ihren bewachten Parkplatz inklusive gratis Shuttle-Transfer oder exklusivem Valet-Service im Voraus fest ein. Keine versteckten Kosten, kein Stress bei der Abreise!</p>
     
     <div class="solution-price" style="font-size: 2em; font-weight: 900; color: #1565c0; margin: 15px 0;">ab 38 €</div>
     <p style="font-size: 1.1em; margin-bottom: 25px;"><strong>Zertifizierte Parkplätze</strong> in der Nähe des Flughafens Karlsruhe/Baden-Baden mit Top-Bewertungen.</p>
     
-    <a href="https://www.parkos.de" target="_blank" rel="noopener nofollow" class="button-primary" style="background: #ffb300; color: #000; display: inline-block; padding: 15px 30px; text-decoration: none; border-radius: 6px; font-size: 1.2em;">👉 Günstige Parkplätze am Flughafen FKB vergleichen</a>
+    <a href="https://www.parkos.de" target="_blank" rel="noopener nofollow" class="button-primary main-affiliate-btn" style="background: #ffb300; color: #000; display: inline-block; padding: 15px 30px; text-decoration: none; border-radius: 6px; font-size: 1.2em; font-weight: bold;">👉 Günstige Parkplätze am Flughafen FKB vergleichen</a>
     <p style="font-size: 0.85em; color: #666; margin-top: 15px;">Kostenloser Shuttle inklusive • 24/7 bewacht • Bis 24h vor Anreise oft kostenlos stornierbar</p>
   </div>
 
-  <div class="seo-content" style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 30px;">
+  <div id="details" class="seo-content" style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 30px;">
     <h2>Warum das Parken direkt am Terminal eine Preisfalle ist</h2>
     <p>Flughafenbetreiber nutzen die Bequemlichkeit der Passagiere schamlos aus. Die Parkhäuser direkt an den Abflughallen (Terminal 1 & 2) richten sich primär an Geschäftsreisende, bei denen die Firma die Kosten übernimmt, oder an Abholer. Wer dort als Familie für den zweiwöchigen Sommerurlaub parkt, zahlt oft mehr als für ein zusätzliches Hotelzimmer. Selbst die sogenannten „Spar-Tarife“ der Flughäfen auf weit entfernten Außenparkplätzen sind meist teurer als die Angebote freier, privater Parkplatzbetreiber im Umland.</p>
 
     <h3>Offizielles Terminal-Parken vs. Alternativer Shuttle-Service</h3>
     <p>Viele Urlauber haben Bedenken, außerhalb des Flughafengeländes zu parken. Ein direkter Vergleich zeigt jedoch, dass die Alternativen nicht nur günstiger, sondern oft sogar komfortabler sind:</p>
-    <table class="comparison-table" style="width: 100%; border-collapse: collapse; margin-top: 15px;">
+    <table class="comparison-table" style="width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.95em;">
       <tr style="background: #f5f5f5;">
-        <th style="padding: 10px; border: 1px solid #ddd;">Kriterium</th>
-        <th style="padding: 10px; border: 1px solid #ddd;">Offizielles Terminal-Parken</th>
-        <th style="padding: 10px; border: 1px solid #ddd;">Zertifizierter Alternativ-Parkplatz</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Kriterium</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Offizielles Terminal-Parken</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Zertifizierter Alternativ-Parkplatz</th>
       </tr>
       <tr>
         <td style="padding: 10px; border: 1px solid #ddd;"><strong>Kosten (Beispiel 14 Tage)</strong></td>
@@ -168,7 +209,7 @@
     <h3 style="margin-top: 30px;">Der Luxus-Hack: Valet-Parking am Flughafen Karlsruhe/Baden-Baden</h3>
     <p>Wer denkt, dass maximaler Komfort unbezahlbar ist, sollte den <strong>Valet-Service</strong> testen. Sie fahren mit Ihrem Auto direkt vor die Abflughalle des Flughafens Karlsruhe/Baden-Baden. Dort wartet bereits ein geschulter und versicherter Mitarbeiter des Parkplatzbetreibers auf Sie. Sie steigen aus, nehmen Ihr Gepäck und können sofort zum Check-In gehen. Während Sie einchecken, fährt der Fahrer Ihr Auto auf den sicheren Parkplatz im Umland. Bei Ihrer Rückkehr wartet Ihr Auto wieder fahrbereit am Terminal auf Sie. Das Erstaunliche: Dieser Service ist bei alternativen Anbietern oft immer noch deutlich günstiger als das normale Selberparken im offiziellen Terminal-Parkhaus!</p>
     
-    <h2>Häufige Fragen (FAQ) zum Parken am Flughafen Karlsruhe/Baden-Baden</h2>
+    <h2 id="faq">Häufige Fragen (FAQ) zum Parken am Flughafen Karlsruhe/Baden-Baden</h2>
     <details style="background: #fafafa; border: 1px solid #ddd; padding: 10px 15px; margin-bottom: 10px; border-radius: 4px;">
       <summary style="font-weight: bold; cursor: pointer;">Wie viel Zeit sollte ich für den Shuttle-Service einplanen?</summary>
       <p style="margin-top: 10px; color: #555;">Wir empfehlen, zusätzlich zur regulären Check-In-Zeit der Fluggesellschaft ca. <strong>30 bis 45 Minuten</strong> extra einzuplanen. Die Fahrtzeit vom Parkplatz zum Terminal FKB beträgt meist nur 5 bis 12 Minuten, allerdings müssen die Koffer ein- und ausgeladen werden und der Shuttlebus fährt eventuell gerade eine andere Tour.</p>
@@ -186,11 +227,11 @@
   <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
     <h3>Weitere interessante Themen:</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="parken-flughafen-paderborn-lippstadt.html">Paderborn/Lippstadt</a>
-<a href="parken-flughafen-hamburg.html">Hamburg</a>
+      <a href="parken-flughafen-muenchen.html">München</a>
+<a href="parken-flughafen-duesseldorf.html">Düsseldorf</a>
+<a href="parken-flughafen-friedrichshafen.html">Friedrichshafen</a>
+<a href="parken-flughafen-stuttgart.html">Stuttgart</a>
 <a href="parken-flughafen-leipzig-halle.html">Leipzig/Halle</a>
-<a href="parken-flughafen-frankfurt.html">Frankfurt am Main</a>
-<a href="parken-flughafen-memmingen.html">Memmingen</a>
 
     </div>
   </div>
@@ -235,13 +276,22 @@
     </nav>
 </footer>
 
+<!-- Sticky CTA Bar für mobile Ansicht -->
+<div id="stickyCta" class="sticky-cta">
+  <p style="margin: 0 0 10px 0; font-size: 0.9em; font-weight: bold; color: #333;">Zertifizierte Parkplätze ab 38 €</p>
+  <a href="https://www.parkos.de" target="_blank" rel="noopener nofollow" class="button-primary" style="background: #ffb300; color: #000; text-decoration: none; border-radius: 6px; font-weight: bold;">👉 Preise vergleichen & buchen</a>
+</div>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const calcBtn = document.getElementById('calcParkingBtn');
+  const form = document.getElementById('parkingCalcForm');
   const resultBox = document.getElementById('parkingResultBox');
 
-  if(calcBtn) {
-    calcBtn.addEventListener('click', function() {
+  if(form) {
+    // Umgestellt auf 'submit' für native Validierung
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+
       // 1. Werte aus dem Formular auslesen
       const days = parseInt(document.getElementById('pDays').value) || 1;
       const parkingType = document.getElementById('pType').value;
@@ -255,17 +305,14 @@ document.addEventListener('DOMContentLoaded', function() {
         baseAlternativeRate = parseFloat("3.8") * 1.5 || 9.00;  // Alternativer Valet-Tarif
       }
 
-      // 3. Von-Bis Spanne generieren (Terminal variiert stark je nach Parkhausnähe, z.B. +/- 15%)
+      // 3. Von-Bis Spanne generieren
       let totalTerminalCostLow = days * (baseTerminalRate * 0.85);
       let totalTerminalCostHigh = days * (baseTerminalRate * 1.15);
 
-      // Alternative hat meist eine Grundpauschale/Transfergebühr (z.B. +15€)
       let totalAlternativeCost = (days * baseAlternativeRate) + 15; 
       
-      // Kosmetische Mindest- und Höchstgrenzen für Realismus
       if(totalAlternativeCost < 39) totalAlternativeCost = 39;
       
-      // Ersparnis berechnen (wir nehmen den Durchschnittswert der Terminal-Spanne)
       let avgTerminal = (totalTerminalCostLow + totalTerminalCostHigh) / 2;
       let savings = avgTerminal - totalAlternativeCost;
 
@@ -302,9 +349,27 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         
         <p style="margin-top: 25px; text-align: center;">
-          <button onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth'});" style="background: #1565c0; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">👉 Jetzt über 200€ sparen & Stellplatz sichern</button>
+          <button type="button" onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth', block: 'center'});" style="background: #1565c0; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">👉 Jetzt über ${formatCurrency(savings - 10)} sparen & Stellplatz sichern</button>
         </p>
       `;
+
+      // 6. Sanftes Scrollen zum Ergebnis
+      resultBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    });
+  }
+
+  // Sticky CTA Logic
+  const stickyCta = document.getElementById('stickyCta');
+  const mainAffiliateBtn = document.querySelector('.main-affiliate-btn');
+  
+  if(stickyCta && mainAffiliateBtn) {
+    window.addEventListener('scroll', function() {
+      const btnRect = mainAffiliateBtn.getBoundingClientRect();
+      if (btnRect.top < 0) {
+        stickyCta.classList.add('show');
+      } else {
+        stickyCta.classList.remove('show');
+      }
     });
   }
 });
