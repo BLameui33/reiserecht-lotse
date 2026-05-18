@@ -44,13 +44,13 @@
   --text-light:       #b09898;
 
   /* Header */
-  --header-bg:        #1a0808;
-  --header-border:    #3d1515;
+  --header-bg:        #3d1212;
+  --header-border:    #6b2020;
 
   /* Footer */
-  --footer-bg:        #130505;
+  --footer-bg:        #2d0e0e;
   --footer-text:      #c9a8a8;
-  --footer-border:    #2d1010;
+  --footer-border:    #5a2020;
 
   /* Shadows */
   --shadow-sm:        0 1px 4px rgba(100, 20, 20, 0.08);
@@ -725,7 +725,7 @@ details > div {
 
 .site-footer__tagline {
   font-size: 0.75em;
-  color: #5a3030;
+  color: #7a5050;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-top: 4px;
@@ -750,7 +750,7 @@ details > div {
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #6b3535;
+  color: #9e6060;
   margin-bottom: 12px;
   display: block;
 }
@@ -786,7 +786,7 @@ details > div {
 
 .site-footer__copy {
   font-size: 0.8em;
-  color: #3d1a1a;
+  color: #9e7070;
 }
 
 .site-footer__legal {
@@ -796,7 +796,7 @@ details > div {
 
 .site-footer__legal a {
   font-size: 0.8em;
-  color: #4a2020;
+  color: #9e7070;
   text-decoration: none;
   transition: color 0.18s;
 }
@@ -2350,13 +2350,13 @@ footer {
 
 footer p {
   font-size: 0.82em;
-  color: #3d1a1a;
+  color: #c9a8a8;
   margin: 0 0 12px;
 }
 
 footer div a {
   font-size: 0.82em;
-  color: #5a3030;
+  color: #d4aaaa;
   text-decoration: none;
   margin: 0 12px;
   transition: color 0.18s;
