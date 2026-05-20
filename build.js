@@ -76,7 +76,8 @@ airlines.forEach(a => {
             .replace(/\{\{AIRLINE_NAME\}\}/g, textName)
             .replace(/\{\{AIRLINE_ADRESSE\}\}/g, inputAdresse)
             .replace(/\{\{DATEINAME\}\}/g, fName)
-            .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks);
+            .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks)
+            .replace(/\{\{AIRLINE_INFOBOX\}\}/g, a.infobox || '');
     };
 
     // Unterseiten schreiben
@@ -144,7 +145,8 @@ veranstalter.forEach(v => {
             .replace(/\{\{VERANSTALTER_NAME\}\}/g, textName)
             .replace(/\{\{VERANSTALTER_ADRESSE\}\}/g, inputAdresse)
             .replace(/\{\{DATEINAME\}\}/g, fName)
-            .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks);
+            .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks)
+            .replace(/\{\{VERANSTALTER_INFOBOX\}\}/g, v.infobox || '');
     };
 
     fs.writeFileSync(path.join(outputDir, fHotel), processTemplate(hotelTpl, fHotel, crossHotel), 'utf8');
@@ -189,7 +191,8 @@ vermittler.forEach(v => {
             .replace(/\{\{VERMITTLER_NAME\}\}/g, textName)
             .replace(/\{\{VERMITTLER_ADRESSE\}\}/g, inputAdresse)
             .replace(/\{\{DATEINAME\}\}/g, fName)
-            .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks);
+            .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks)
+            .replace(/\{\{VERMITTLER_INFOBOX\}\}/g, v.infobox || '');
     };
 
     // Für das Storno-Template
@@ -204,7 +207,8 @@ vermittler.forEach(v => {
             .replace(/\{\{VERANSTALTER_NAME\}\}/g, textName)
             .replace(/\{\{VERANSTALTER_ADRESSE\}\}/g, inputAdresse)
             .replace(/\{\{DATEINAME\}\}/g, fName)
-            .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks);
+            .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks)
+            .replace(/\{\{VERMITTLER_INFOBOX\}\}/g, v.infobox || '');
     };
 
     fs.writeFileSync(path.join(outputDir, fPort), processTemplatePort(vermittlerTpl, fPort, crossHotelPort), 'utf8');
@@ -300,7 +304,8 @@ bahnAnbieter.forEach(b => {
         .replace(/\{\{BAHN_NAME\}\}/g, b.name)
         .replace(/\{\{BAHN_ADRESSE\}\}/g, b.adresse)
         .replace(/\{\{DATEINAME\}\}/g, fBahn)
-        .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossBahn);
+        .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossBahn)
+        .replace(/\{\{BAHN_INFOBOX\}\}/g, b.infobox || '');
 
     fs.writeFileSync(path.join(outputDir, fBahn), content, 'utf8');
     
@@ -353,7 +358,8 @@ otaVermittler.forEach(v => {
             .replace(/\{\{VERMITTLER_NAME\}\}/g, textName)
             .replace(/\{\{VERMITTLER_ADRESSE\}\}/g, inputAdresse)
             .replace(/\{\{DATEINAME\}\}/g, fName)
-            .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks);
+            .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks)
+            .replace(/\{\{VERMITTLER_INFOBOX\}\}/g, v.infobox || '');
     };
 
     // Spoke-Seite schreiben
@@ -408,7 +414,8 @@ kreuzfahrten.forEach(c => {
             .replace(/\{\{CRUISE_LINE\}\}/g, textName)
             .replace(/\{\{CRUISE_ADRESSE\}\}/g, inputAdresse)
             .replace(/\{\{DATEINAME\}\}/g, fName)
-            .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks);
+            .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks)
+            .replace(/\{\{CRUISE_INFOBOX\}\}/g, c.infobox || '');
     };
 
     // Spoke-Seite schreiben
@@ -461,7 +468,8 @@ fewoAnbieter.forEach(f => {
         .replace(/>\{\{ANBIETER_ADRESSE\}\}</g, ` placeholder="${f.adresse}">${inputAdresse}<`) 
         .replace(/\{\{ANBIETER_NAME\}\}/g, textName) 
         .replace(/\{\{DATEINAME\}\}/g, fFileName)
-        .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossFewo);
+        .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossFewo)
+        .replace(/\{\{ANBIETER_INFOBOX\}\}/g, f.infobox || '');
 
     fs.writeFileSync(path.join(outputDir, fFileName), content, 'utf8');
     

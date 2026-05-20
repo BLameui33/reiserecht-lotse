@@ -1,16 +1,86 @@
 [
-  { "name": "Opodo", "slug": "opodo", "adresse": "Vacaciones eDreams, S.L.\nCalle de Manzanares 4\n28005 Madrid, Spanien" },
-  { "name": "eDreams", "slug": "edreams", "adresse": "Vacaciones eDreams, S.L.\nCalle de Manzanares 4\n28005 Madrid, Spanien" },
-  { "name": "Kiwi.com", "slug": "kiwi-com", "adresse": "Kiwi.com s.r.o.\nPalachovo náměstí 797/4\n625 00 Brno, Tschechien" },
-  { "name": "Booking.com Flights", "slug": "booking-flights", "adresse": "Booking.com B.V.\nHerengracht 597\n1017 CE Amsterdam, Niederlande" },
-  { "name": "Expedia", "slug": "expedia", "adresse": "Expedia, Inc.\n1111 Expedia Group Way W\nSeattle, WA 98119, USA" },
-  { "name": "Flugladen.de", "slug": "flugladen", "adresse": "Travix Nederland B.V.\nPiet Heinkade 55\n1019 GM Amsterdam, Niederlande" },
-  { "name": "Trip.com", "slug": "trip-com", "adresse": "Trip.com Travel Singapore Pte. Ltd.\n30 Raffles Place, #29-01\nSingapore 048622" },
-  { "name": "Gotogate", "slug": "gotogate", "adresse": "Etraveli Group AB\nBox 1340\n751 43 Uppsala, Schweden" },
-  { "name": "Mytrip", "slug": "mytrip", "adresse": "Etraveli Group AB\nBox 1340\n751 43 Uppsala, Schweden" },
-  { "name": "Fluege.de", "slug": "fluege-de", "adresse": "Invia Flights Germany GmbH\nDittrichring 18-20\n04109 Leipzig, Deutschland" },
-  { "name": "lastminute.de", "slug": "lastminute-de", "adresse": "BravoNext SA\nVicolo de’ Calvi 2\n6830 Chiasso, Schweiz" },
-  { "name": "Cheaptickets.de", "slug": "cheaptickets", "adresse": "Travix Nederland B.V.\nPiet Heinkade 55\n1019 GM Amsterdam, Niederlande" },
-  { "name": "Check24 Flüge", "slug": "check24-fluege", "adresse": "CHECK24 Vergleichsportal Flug GmbH\nTrappentreustr. 1 - 3\n80339 München, Deutschland" },
-  { "name": "Anderes Flugportal (Allgemeine Vorlage)", "slug": "allgemein", "adresse": "[Name des Flugportals]\n[z.B. Kundenservice / Rückerstattungen]\n[Straße und Hausnummer]\n[PLZ und Ort]" }
+  {
+    "name": "Opodo",
+    "slug": "opodo",
+    "adresse": "Vacaciones eDreams, S.L.\nCalle de Manzanares 4\n28005 Madrid, Spanien",
+    "infobox": "Opodo agiert als Online-Reisebüro und vermittelt primär Einzelleistungen wie Flüge. Bei Flugannullierungen oder Verspätungen richten sich Ihre Ansprüche nach der EU-Fluggastrechteverordnung direkt an die ausführende Fluggesellschaft. Opodo haftet jedoch für Vermittlungsfehler und ist verpflichtet, von der Airline zurückgezahlte Ticketgelder unverzüglich an Sie weiterzuleiten."
+  },
+  {
+    "name": "eDreams",
+    "slug": "edreams",
+    "adresse": "Vacaciones eDreams, S.L.\nCalle de Manzanares 4\n28005 Madrid, Spanien",
+    "infobox": "Als Teil der eDreams ODIGEO-Gruppe ist eDreams ein reiner Flugvermittler. Für Entschädigungen bei Flugausfällen ist die jeweilige Airline Ihr rechtlicher Ansprechpartner. eDreams gerät häufig bei der Erstattung von Ticketkosten in den Fokus: Hat die Airline das Geld an das Portal erstattet, muss eDreams dieses unverzüglich an Sie auszahlen."
+  },
+  {
+    "name": "Kiwi.com",
+    "slug": "kiwi-com",
+    "adresse": "Kiwi.com s.r.o.\nPalachovo náměstí 797/4\n625 00 Brno, Tschechien",
+    "infobox": "Kiwi.com nutzt oft eigene Buchungsmechanismen (wie virtuelle E-Mails und Kreditkarten), was den direkten Kontakt zur Airline erschweren kann. Dennoch liegen die primären Fluggastrechte bei Flugausfällen bei der Fluggesellschaft. Kiwi.com haftet jedoch für selbst zugesicherte Garantien (z. B. die Kiwi.com-Garantie bei verpassten Anschlüssen) und fehlerhafte Buchungsabwicklungen."
+  },
+  {
+    "name": "Booking.com Flights",
+    "slug": "booking-flights",
+    "adresse": "Booking.com B.V.\nHerengracht 597\n1017 CE Amsterdam, Niederlande",
+    "infobox": "Booking.com Flights vermittelt Flugtickets über Partner oder direkt. Da es sich um eine reine Vermittlung von Einzelleistungen handelt, gilt das Pauschalreiserecht hier nicht. Ansprüche wegen Flugausfällen oder Verspätungen müssen direkt bei der ausführenden Fluggesellschaft geltend gemacht werden. Das Portal haftet lediglich für die korrekte Ticketausstellung."
+  },
+  {
+    "name": "Expedia",
+    "slug": "expedia",
+    "adresse": "Expedia, Inc.\n1111 Expedia Group Way W\nSeattle, WA 98119, USA",
+    "infobox": "Expedia vermittelt Flüge weltweit. Bei einer reinen Flugbuchung entsteht der Vertrag direkt mit der Fluggesellschaft, an die auch Forderungen bezüglich der EU-Fluggastrechte (Annullierung, Verspätung) zu richten sind. Expedia haftet als Vermittler primär für Buchungsfehler oder unzureichende gesetzliche Pflichtinformationen vor dem Kauf."
+  },
+  {
+    "name": "Flugladen.de",
+    "slug": "flugladen",
+    "adresse": "Travix Nederland B.V.\nPiet Heinkade 55\n1019 GM Amsterdam, Niederlande",
+    "infobox": "Flugladen.de gehört zur Travix-Gruppe. Das Portal haftet nicht für operative Flugausfälle oder Verspätungen – hierfür ist ausschließlich die Fluggesellschaft zuständig. Sollte die Airline den Ticketpreis nach einer Annullierung stornieren und an Travix auszahlen, ist das Portal rechtlich verpflichtet, diesen Betrag ohne unzulässige Verzögerung an Sie weiterzugeben."
+  },
+  {
+    "name": "Trip.com",
+    "slug": "trip-com",
+    "adresse": "Trip.com Travel Singapore Pte. Ltd.\n30 Raffles Place, #29-01\nSingapore 048622",
+    "infobox": "Trip.com ist ein internationaler Vermittler mit Sitz in Singapur. Bei Flugproblemen greifen die EU-Fluggastrechte gegenüber der Airline, sofern der Flug in der EU startet oder von einer EU-Airline durchgeführt wird. Trip.com ist Ihr rechtlicher Ansprechpartner für Ticketing-Probleme, Systemfehler oder die Weiterleitung von Erstattungen."
+  },
+  {
+    "name": "Gotogate",
+    "slug": "gotogate",
+    "adresse": "Etraveli Group AB\nBox 1340\n751 43 Uppsala, Schweden",
+    "infobox": "Gotogate wird von der schwedischen Etraveli Group betrieben und vermittelt Flüge. Fluggesellschaften verweisen bei Erstattungen oft an den Vermittler zurück. Rechtlich gilt: Die Airline schuldet die Rückerstattung nach EU-Recht. Hat die Airline das Geld jedoch bereits an Gotogate überwiesen, müssen Sie die Auszahlung direkt vom Portal einfordern."
+  },
+  {
+    "name": "Mytrip",
+    "slug": "mytrip",
+    "adresse": "Etraveli Group AB\nBox 1340\n751 43 Uppsala, Schweden",
+    "infobox": "Mytrip ist eine Marke der schwedischen Etraveli Group. Als reines Vermittlungsportal ist Mytrip nicht für operative Flugänderungen oder Ausfälle haftbar – dafür sorgt die ausführende Airline. Mytrip steht jedoch in der Pflicht, Kundenservice-Anfragen ordnungsgemäß zu bearbeiten und erhaltene Rückerstattungen von Fluggesellschaften zügig weiterzuleiten."
+  },
+  {
+    "name": "Fluege.de",
+    "slug": "fluege-de",
+    "adresse": "Invia Flights Germany GmbH\nDittrichring 18-20\n04109 Leipzig, Deutschland",
+    "infobox": "fluege.de wird von der Invia Flights Germany GmbH in Leipzig betrieben. Bei Flugausfällen oder Verspätungen ist die Airline Ihr direkter Vertragspartner für Entschädigungen nach der EU-Fluggastrechteverordnung. Invia haftet hingegen für die fehlerfreie Buchungsübermittlung sowie für die transparente Darstellung von Servicegebühren."
+  },
+  {
+    "name": "lastminute.de",
+    "slug": "lastminute-de",
+    "adresse": "BravoNext SA\nVicolo de’ Calvi 2\n6830 Chiasso, Schweiz",
+    "infobox": "lastminute.de (BravoNext SA) agiert als Vermittler für Linien- und Charterflüge. Ansprüche aus der EU-Fluggastrechteverordnung (z. B. bei Streik oder technischem Defekt) richten sich direkt an die Airline. Das Portal haftet für die korrekte Abwicklung der Buchung und muss von der Airline freigegebene Erstattungen umgehend auszahlen."
+  },
+  {
+    "name": "Cheaptickets.de",
+    "slug": "cheaptickets",
+    "adresse": "Travix Nederland B.V.\nPiet Heinkade 55\n1019 GM Amsterdam, Niederlande",
+    "infobox": "Cheaptickets.de wird von Travix Nederland betrieben. Für operative Störungen wie Verspätungen oder Annullierungen haftet allein die ausführende Fluggesellschaft. Das Portal ist als Vermittler jedoch dafür verantwortlich, dass Ihre Daten korrekt übermittelt werden und Erstattungen der Airline transparent und zügig an Sie ausgezahlt werden."
+  },
+  {
+    "name": "Check24 Flüge",
+    "slug": "check24-fluege",
+    "adresse": "CHECK24 Vergleichsportal Flug GmbH\nTrappentreustr. 1 - 3\n80339 München, Deutschland",
+    "infobox": "CHECK24 Flüge ist ein deutscher Online-Vermittler. Bei Flugausfällen oder Verspätungen müssen Sie Ihre Ansprüche direkt gegenüber der Fluggesellschaft geltend machen. Das Portal bietet oft einen hauseigenen Erstattungsservice an, haftet rechtlich jedoch primär für Beratungs- und Buchungsfehler sowie die korrekte Weiterleitung von Ticketgeldern."
+  },
+  {
+    "name": "Anderes Flugportal (Allgemeine Vorlage)",
+    "slug": "allgemein",
+    "adresse": "[Name des Flugportals]\n[z.B. Kundenservice / Rückerstattungen]\n[Straße und Hausnummer]\n[PLZ und Ort]",
+    "infobox": "Online-Flugportale (OTAs) sind reine Vermittler. Bei Flugausfällen, Verspätungen oder Gepäckverlust ist die ausführende Fluggesellschaft Ihr direkter rechtlicher Ansprechpartner nach der EU-Fluggastrechteverordnung. Das Portal haftet lediglich für Vermittlungs- und Übermittlungsfehler sowie für die unverzügliche Weiterleitung von Erstattungen."
+  }
 ]

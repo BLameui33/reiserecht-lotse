@@ -2,191 +2,229 @@
   {
     "slug": "tui",
     "name": "TUI Deutschland GmbH",
-    "adresse": "Karl-Wiechert-Allee 23\n30625 Hannover\nDeutschland"
+    "adresse": "Karl-Wiechert-Allee 23\n30625 Hannover\nDeutschland",
+    "infobox": "Als deutscher Marktführer unterliegt TUI voll dem Pauschalreiserecht. Reisemängel am Urlaubsort (z. B. Baulärm, Pool gesperrt) müssen Sie unverzüglich der TUI-Reiseleitung vor Ort melden und Abhilfe verlangen. Lassen Sie sich die Mängelanzeige schriftlich bestätigen. Für die Berechnung von Preisminderungen dient die Frankfurter Tabelle als Orientierung."
   },
   {
     "slug": "alltours",
     "name": "alltours flugreisen gmbh",
-    "adresse": "Dreischeibenhaus 1\n40211 Düsseldorf\nDeutschland"
+    "adresse": "Dreischeibenhaus 1\n40211 Düsseldorf\nDeutschland",
+    "infobox": "Bei alltours-Pauschalreisen haftet der Veranstalter für die gesamte Reisekette. Kommt es zu erheblichen Flugverspätungen oder kurzfristigen Hotelumbuchungen durch alltours, stellt dies einen Reisemangel dar. Sie haben Anspruch auf eine adäquate Ersatzunterkunft oder eine anteilige Rückerstattung des Reisepreises, sofern Sie den Mangel sofort gerügt haben."
   },
   {
     "slug": "schauinsland",
     "name": "schauinsland-reisen gmbh",
-    "adresse": "Stresemannstraße 80\n47051 Duisburg\nDeutschland"
+    "adresse": "Stresemannstraße 80\n47051 Duisburg\nDeutschland",
+    "infobox": "schauinsland-reisen ist Ihr direkter Vertragspartner bei Mängeln vor Ort. Sollten zugesicherte Eigenschaften des Hotels (z. B. direkt am Strand, All-Inclusive-Leistungen) fehlen, setzen Sie der Reiseleitung eine angemessene Frist zur Behebung. Schlägt die Abhilfe fehl, können Sie nach der Reise eine Minderung des Gesamtreisepreises einfordern."
   },
   {
     "slug": "dertour",
     "name": "DERTOUR Deutschland GmbH",
-    "adresse": "Emil-von-Behring-Straße 6\n60439 Frankfurt am Main\nDeutschland"
+    "adresse": "Emil-von-Behring-Straße 6\n60439 Frankfurt am Main\nDeutschland",
+    "infobox": "Als einer der größten Reisekonzerne haftet DERTOUR für Mängel bei Flug, Transfer und Hotel. Dokumentieren Sie Probleme (z. B. unhygienische Zimmer, Ausfall der Klimaanlage) akribisch mit Fotos und Zeugen. Die Mängelrüge muss zwingend vor Ort beim DERTOUR-Repräsentanten erfolgen, um spätere Schadensersatzansprüche zu wahren."
   },
   {
     "slug": "anex-tour",
     "name": "ANEX Tour GmbH",
-    "adresse": "Gladbecker Straße 1-3\n40472 Düsseldorf\nDeutschland"
+    "adresse": "Gladbecker Straße 1-3\n40472 Düsseldorf\nDeutschland",
+    "infobox": "ANEX Tour nutzt häufig Charterflüge. Verschieben sich die Flugzeiten bei einer Pauschalreise massiv (z. B. um mehr als 4-5 Stunden) oder geht ein ganzer Urlaubstag verloren, kann dies einen Minderungsanspruch begründen. Wichtig: Melden Sie solche Abweichungen sofort dem lokalen ANEX-Service-Netzwerk."
   },
   {
     "slug": "vtours",
     "name": "vtours GmbH",
-    "adresse": "Weißenburger Straße 30\n63739 Aschaffenburg\nDeutschland"
+    "adresse": "Weißenburger Straße 30\n63739 Aschaffenburg\nDeutschland",
+    "infobox": "vtours ist auf dynamisches Packaging (X-Veranstalter) spezialisiert. Trotz der tagesaktuellen Kombination von Flug und Hotel gilt das volle Pauschalreiserecht. Bei Flugausfällen oder Hotelüberbuchungen ist vtours gesetzlich verpflichtet, für kostenlosen Ersatz zu sorgen und Sie bei erheblichen Verzögerungen zu entschädigen."
   },
   {
     "slug": "berge-und-meer",
     "name": "Berge & Meer Touristik GmbH",
-    "adresse": "Andréestraße 27\n56578 Rengsdorf\nDeutschland"
+    "adresse": "Andréestraße 27\n56578 Rengsdorf\nDeutschland",
+    "infobox": "Berge & Meer ist auf Rundreisen und Kreuzfahrten spezialisiert. Weicht der Ablauf der Rundreise erheblich vom gebuchten Reiseverlauf ab (z. B. Ausfall wichtiger Sehenswürdigkeiten), liegt ein Reisemangel vor. Rügen Sie dies sofort beim Reiseleiter, um nach der Rückkehr Minderungsansprüche geltend zu machen."
   },
   {
     "slug": "lmx-touristik",
     "name": "LMX Touristik GmbH",
-    "adresse": "Walter-Köhn-Straße 4d\n04229 Leipzig\nDeutschland"
+    "adresse": "Walter-Köhn-Straße 4d\n04229 Leipzig\nDeutschland",
+    "infobox": "Als dynamischer Reiseveranstalter bündelt LMX Einzelleistungen zu einer Pauschalreise. Sollte das gebuchte Hotel Sie wegen Überbuchung abweisen, muss LMX ein mindestens gleichwertiges Ersatzhotel in ähnlicher Lage bereitstellen. Entstehen Ihnen dadurch Nachteile, steht Ihnen eine Reisepreisminderung zu."
   },
   {
     "slug": "olimar",
     "name": "OLIMAR Reisen Vertriebs GmbH",
-    "adresse": "Glockengasse 2\n50667 Köln\nDeutschland"
+    "adresse": "Glockengasse 2\n50667 Köln\nDeutschland",
+    "infobox": "Der Südeuropa-Spezialist OLIMAR haftet im Rahmen des Pauschalreiserechts auch für inkludierte Zusatzleistungen wie Mietwagen oder gebuchte Ausflüge. Entreffen diese Leistungen nicht wie vereinbart ein, kontaktieren Sie umgehend die OLIMAR-Hotline zur schnellen Abhilfe und Schadensbegrenzung."
   },
   {
     "slug": "aida",
     "name": "AIDA Cruises - German Branch of Costa Crociere S.p.A.",
-    "adresse": "Am Strande 3d\n18055 Rostock\nDeutschland"
+    "adresse": "Am Strande 3d\n18055 Rostock\nDeutschland",
+    "infobox": "Wird eine AIDA-Kreuzfahrt inklusive Anreisepaket (Flug) gebucht, liegt eine klassische Pauschalreise vor. Verpassen Sie wegen einer Flugverspätung das Schiff, muss AIDA Sie auf eigene Kosten zum nächsten Hafen nachbefördern. Kabinenmängel oder Routenänderungen müssen sofort an der Rezeption gerügt werden."
   },
   {
     "slug": "tui-cruises",
     "name": "TUI Cruises GmbH",
-    "adresse": "Heidenkampsweg 58\n20097 Hamburg\nDeutschland"
+    "adresse": "Heidenkampsweg 58\n20097 Hamburg\nDeutschland",
+    "infobox": "Bei TUI Cruises (Mein Schiff) greift bei Komplettpaketen das Pauschalreiserecht. Erhebliche Beeinträchtigungen an Bord (z. B. Ausfall von Poolanlagen, Lärmbelästigung durch Werftarbeiten) berechtigen zur Minderung. Lassen Sie sich Beschwerden noch an Bord vom Guest Relation Manager schriftlich bestätigen."
   },
   {
     "slug": "phoenix-reisen",
     "name": "Phoenix Reisen GmbH",
-    "adresse": "Pfälzer Straße 14\n53111 Bonn\nDeutschland"
+    "adresse": "Pfälzer Straße 14\n53111 Bonn\nDeutschland",
+    "infobox": "Phoenix Reisen haftet nach deutschem Pauschalreiserecht für Fluss- und Seekreuzfahrten sowie Rundreisen. Sollte ein Hotel oder Schiff erhebliche Defizite aufweisen, ist die Phoenix-Reiseleitung vor Ort Ihre erste Anlaufstelle für ein offizielles Abhilfeverlangen. Ansprüche müssen innerhalb der gesetzlichen Fristen eingereicht werden."
   },
   {
     "slug": "studiosus",
     "name": "Studiosus Reisen München GmbH",
-    "adresse": "Riesstraße 25\n80992 München\nDeutschland"
+    "adresse": "Riesstraße 25\n80992 München\nDeutschland",
+    "infobox": "Bei den hochwertigen Studienreisen von Studiosus gelten strenge Maßstäbe: Fällt der angekündigte, speziell qualifizierte Reiseleiter aus oder entfallen wesentliche Fachvorträge und Exkursionen ersatzlos, stellt dies eine erhebliche Minderung des Reisewerts dar, die zur Preisminderung berechtigt."
   },
   {
     "slug": "ameropa",
     "name": "Ameropa-Reisen GmbH",
-    "adresse": "Hewlett-Packard-Straße 4\n61352 Bad Homburg\nDeutschland"
+    "adresse": "Hewlett-Packard-Straße 4\n61352 Bad Homburg\nDeutschland",
+    "infobox": "Ameropa ist auf Bahn-Erlebnisreisen spezialisiert. Ist die Bahnanreise Teil der gebuchten Pauschalreise, haftet Ameropa für die Folgen von Zugverspätungen (z. B. verpasste Anschlüsse oder verkürzter Hotelaufenthalt). Melden Sie solche Verzögerungen unverzüglich der Ameropa-Servicehotline."
   },
   {
     "slug": "gebeco",
     "name": "Gebeco GmbH & Co. KG",
-    "adresse": "Holzkoppelweg 19\n24118 Kiel\nDeutschland"
+    "adresse": "Holzkoppelweg 19\n24118 Kiel\nDeutschland",
+    "infobox": "Bei Gebeco-Erlebnisreisen müssen Abweichungen vom Ausschreibungsprogramm (z. B. geänderte Hotelkategorien bei Rundreisen) sofort beim lokalen Reiseleiter angezeigt werden. Entspricht die Gruppengröße entgegen ausdrücklicher Garantien nicht den Vereinbarungen, kann dies ebenfalls ein Reisemangel sein."
   },
   {
     "slug": "ferien-touristik",
     "name": "FERIEN Touristik GmbH",
-    "adresse": "Schiessstraße 44a\n40549 Düsseldorf\nDeutschland"
+    "adresse": "Schiessstraße 44a\n40549 Düsseldorf\nDeutschland",
+    "infobox": "Als dynamischer Veranstalter kombiniert FERIEN Touristik Flüge und Hotels in Echtzeit. Liegen am Zielort Mängel vor, richten sich Ihre Gewährleistungsansprüche direkt an FERIEN Touristik als Reiseveranstalter und nicht an die Fluggesellschaft oder das Hotelmanagement. Eine Rüge vor Ort ist zwingend erforderlich."
   },
   {
     "slug": "robinson-club",
     "name": "Robinson Club GmbH",
-    "adresse": "Karl-Wiechert-Allee 4\n30625 Hannover\nDeutschland"
+    "adresse": "Karl-Wiechert-Allee 4\n30625 Hannover\nDeutschland",
+    "infobox": "Bei Cluburlauben von Robinson bestimmen die Sport-, Betreuungs- und Entertainment-Angebote den Reisewert. Sind Hauptattraktionen (z. B. Tennisanlagen, Kinderbetreuung, Hauptpool) wegen Sanierung oder Fehlplanung komplett gesperrt, liegt ein erheblicher Reisemangel vor, der zu einer spürbaren Preisminderung führt."
   },
   {
     "slug": "aldiana",
     "name": "Aldiana GmbH",
-    "adresse": "Emil-von-Behring-Straße 6\n60439 Frankfurt am Main\nDeutschland"
+    "adresse": "Emil-von-Behring-Straße 6\n60439 Frankfurt am Main\nDeutschland",
+    "infobox": "Für Aldiana-Cluburlaube gilt: Das beworbene Premium-All-Inclusive-Konzept und die Sportanlagen sind vertraglich zugesicherte Leistungen. Massive Einschränkungen beim Buffet oder der Ausfall des gesamten Unterhaltungsprogramms rechtfertigen eine Minderung. Dokumentieren Sie die Mängel direkt beim Clubdirektor."
   },
   {
     "slug": "eti",
     "name": "Express Travel International GmbH",
-    "adresse": "Bockenheimer Anlage 11\n60322 Frankfurt am Main\nDeutschland"
+    "adresse": "Bockenheimer Anlage 11\n60322 Frankfurt am Main\nDeutschland",
+    "infobox": "Der Ägypten-Spezialist ETI haftet voll für Hotelmängel wie Baulärm oder Hygienemängel am Buffet. Sollten Sie aufgrund unzureichender Hotelhygiene nachweislich erkranken, stehen Ihnen neben Preisminderung unter Umständen auch Schmerzensgeld- und Schadensersatzansprüche wegen vertaner Urlaubszeit zu."
   },
   {
     "slug": "chamaeleon",
     "name": "Chamäleon Reisen GmbH",
-    "adresse": "Pannwitzstraße 5\n13403 Berlin\nDeutschland"
+    "adresse": "Pannwitzstraße 5\n13403 Berlin\nDeutschland",
+    "infobox": "Chamäleon garantiert Reisen in sehr kleinen Gruppen. Wird diese garantierte maximale Teilnehmerzahl ohne Ihre Zustimmung überschritten oder weichen die Unterkünfte deutlich von den versprochenen landestypischen Boutique-Hotels ab, rügen Sie dies umgehend beim lokalen Guide für spätere Erstattungen."
   },
   {
     "slug": "holidaycheck-reisen",
     "name": "HolidayCheck Reisen GmbH",
-    "adresse": "Neumarkter Str. 61\n81673 München\nDeutschland"
+    "adresse": "Neumarkter Str. 61\n81673 München\nDeutschland",
+    "infobox": "HolidayCheck Reisen tritt hier als vollwertiger Reiseveranstalter auf (nicht nur als Buchungsportal). Bei jeglichen Mängeln der Pauschalreise ist das Unternehmen Ihr rechtlicher Ansprechpartner. Nutzen Sie im Ernstfall die in den Reiseunterlagen angegebene Notfallnummer zur sofortigen Mängelrüge."
   },
   {
     "slug": "trendtours",
     "name": "Trendtours Touristik GmbH",
-    "adresse": "Düsseldorfer Str. 9\n65760 Eschborn\nDeutschland"
+    "adresse": "Düsseldorfer Str. 9\n65760 Eschborn\nDeutschland",
+    "infobox": "Trendtours ist auf Best-Ager- und Gruppenreisen spezialisiert. Defizite beim Bustransfer (z. B. Ausfall der Klimaanlage auf Langstrecken) oder erhebliche Abweichungen bei der Hotelkategorie im Vergleich zur Reiseausschreibung müssen sofort beim Trendtours-Reiseleiter protokolliert werden."
   },
   {
     "slug": "coral-travel",
     "name": "Coral Touristik GmbH",
-    "adresse": "Emanuel-Leutze-Str. 8\n40547 Düsseldorf\nDeutschland"
+    "adresse": "Emanuel-Leutze-Str. 8\n40547 Düsseldorf\nDeutschland",
+    "infobox": "Bei Coral Travel (Spezialist für Mittelmeerraum/Türkei) führen Hotelüberbuchungen in der Hochsaison oft zu Problemen. Ein Ersatzhotel muss absolut gleichwertig sein (Sterne, Lage, Ausstattung). Ist dies nicht der Fall, fordern Sie unverzüglich Nachbesserung oder machen Sie Minderungsansprüche geltend."
   },
   {
     "slug": "rsd-reisen",
     "name": "RSD Reise Service Deutschland GmbH",
-    "adresse": "Elsenheimerstraße 61\n80687 München\nDeutschland"
+    "adresse": "Elsenheimerstraße 61\n80687 München\nDeutschland",
+    "infobox": "RSD organisiert Kultur- und Kombinationsreisen. Der vertraglich vereinbarte Reiseablauf ist bindend. Werden statt der angekündigten Sehenswürdigkeiten ungeplante, rein kommerzielle Verkaufsveranstaltungen ('Kaffeefahrten') erzwungen, stellt dies eine erhebliche Beeinträchtigung und einen Reisemangel dar."
   },
   {
     "slug": "clevertours",
     "name": "Clevertours.com GmbH",
-    "adresse": "Emil-von-Behring-Str. 6\n60439 Frankfurt am Main\nDeutschland"
+    "adresse": "Emil-von-Behring-Str. 6\n60439 Frankfurt am Main\nDeutschland",
+    "infobox": "Als DERTOUR-Tochter wickelt Clevertours oft Aktions- und Supermarktreisen ab. Auch bei günstigen Angeboten müssen die beschriebenen Standards exakt erfüllt werden. Rügen Sie Mängel sofort telefonisch oder per E-Mail beim Kundenservice, falls vor Ort keine direkte Reiseleitung verfügbar ist."
   },
   {
     "slug": "for-you-travel",
     "name": "For You Travel GmbH",
-    "adresse": "Arena-Str. 1\n40474 Düsseldorf\nDeutschland"
+    "adresse": "Arena-Str. 1\n40474 Düsseldorf\nDeutschland",
+    "infobox": "Bei For You Travel gebuchte Pauschalreisen unterliegen dem vollen gesetzlichen Schutz. Fallen Flüge aus oder verschieben sich Transfers erheblich, muss der Veranstalter für Ersatz sorgen. Sichern Sie Beweise (Flugbestätigungen, Verspätungsanzeigen) für die spätere schriftliche Geltendmachung."
   },
   {
     "slug": "bentour",
     "name": "Bentour Reisen GmbH",
-    "adresse": "Schubertstraße 22\n72649 Wolfschlugen\nDeutschland"
+    "adresse": "Schubertstraße 22\n72649 Wolfschlugen\nDeutschland",
+    "infobox": "Der Premium-Türkei-Spezialist Bentour haftet für die Einhaltung hoher Hotelstandards. Entpricht das Zimmer nicht der gebuchten Kategorie (z. B. Landseite statt Meerblick), fordern Sie über die Bentour-Reiseleitung sofort ein Upgrade oder verlangen Sie die tagesanteilige Erstattung der Differenz."
   },
   {
     "slug": "bavaria-fernreisen",
     "name": "Bavaria Fernreisen GmbH",
-    "adresse": "Parkstraße 1\n61118 Bad Vilbel\nDeutschland"
+    "adresse": "Parkstraße 1\n61118 Bad Vilbel\nDeutschland",
+    "infobox": "Bei Fernreisen von Bavaria (z. B. Asien oder Amerika) wiegen verpasste Anschlussflüge oder fehlerhafte Transfers schwer. Da Bavaria als Veranstalter die Transportverantwortung trägt, müssen im Notfall alternative Beförderungen organisiert werden. Dokumentieren Sie jede Verzögerung genau."
   },
   {
     "slug": "its",
     "name": "ITS (DERTOUR Deutschland GmbH)",
-    "adresse": "Emil-von-Behring-Straße 6\n60439 Frankfurt am Main\nDeutschland"
+    "adresse": "Emil-von-Behring-Straße 6\n60439 Frankfurt am Main\nDeutschland",
+    "infobox": "Die Familienmarke ITS haftet primär für familienrelevante Hotelkriterien. Sind versprochene Kinderclubs, Rutschenparks oder Betreuungsleistungen nicht verfügbar, mindert dies den Reisewert für Familien erheblich. Mängel müssen umgehend der ITS-Reiseleitung vor Ort gemeldet werden."
   },
   {
     "slug": "jahn-reisen",
     "name": "Jahn Reisen (DERTOUR Deutschland GmbH)",
-    "adresse": "Emil-von-Behring-Straße 6\n60439 Frankfurt am Main\nDeutschland"
+    "adresse": "Emil-von-Behring-Straße 6\n60439 Frankfurt am Main\nDeutschland",
+    "infobox": "Jahn Reisen bedient das Premium- und Wellness-Segment. Die Erwartungshaltung an Ruhe und Komfort ist vertraglich verankert. Baulärm im Spa-Bereich oder gravierende Mängel bei der Verpflegung wiegen hier schwer und rechtfertigen Minderungsansprüche nach der Frankfurter Tabelle."
   },
   {
     "slug": "meiers-weltreisen",
     "name": "Meiers Weltreisen (DERTOUR Deutschland GmbH)",
-    "adresse": "Emil-von-Behring-Straße 6\n60439 Frankfurt am Main\nDeutschland"
+    "adresse": "Emil-von-Behring-Straße 6\n60439 Frankfurt am Main\nDeutschland",
+    "infobox": "Als Fernreise-Spezialist haftet Meiers Weltreisen für die exakte Koordination von Inlandsflügen, Hoteltransfers und Rundreisen. Kommt es zu organisatorischen Ausfällen vor Ort, kontaktieren Sie sofort die lokale Agentur (siehe Reiseunterlagen) zur Abhilfe und Protokollierung."
   },
   {
     "slug": "bucher-reisen",
     "name": "Bucher Reisen (ANEX Tour GmbH)",
-    "adresse": "Gladbecker Straße 1-3\n40472 Düsseldorf\nDeutschland"
+    "adresse": "Gladbecker Straße 1-3\n40472 Düsseldorf\nDeutschland",
+    "infobox": "Auch bei Last-Minute-Schnäppchen von Bucher Reisen haben Sie Anspruch auf eine mängelfreie Durchführung. Ein niedriger Reisepreis rechtfertigt keine unhygienischen Zustände oder Baustellen im Hotel. Rügen Sie Mängel sofort beim zuständigen ANEX/Bucher-Vertreter vor Ort."
   },
   {
     "slug": "oeger-tours",
     "name": "ÖGER TOURS (ANEX Tour GmbH)",
-    "adresse": "Gladbecker Straße 1-3\n40472 Düsseldorf\nDeutschland"
+    "adresse": "Gladbecker Straße 1-3\n40472 Düsseldorf\nDeutschland",
+    "infobox": "ÖGER TOURS haftet für Mängel bei Orient- und Türkeireisen. Sollten wesentliche Leistungsbestandteile fehlen (z. B. hoteleigener Strandabschnitt gesperrt), fordern Sie die Reiseleitung mit einer kurzen Frist zur Abhilfe auf. Nach der Rückkehr können Sie Preisminderungen einfordern."
   },
   {
     "slug": "ltur",
     "name": "ltur GmbH",
-    "adresse": "Karlsruher Str. 22\n76437 Rastatt\nDeutschland"
+    "adresse": "Karlsruher Str. 22\n76437 Rastatt\nDeutschland",
+    "infobox": "Als TUI-Tochter vertreibt ltur kurzfristige Pauschalreisen. Es gilt das volle Pauschalreiserecht inklusive Absicherung über den Reisesicherungsschein. Bei Mängeln am Zielort gilt die strikte Rügepflicht gegenüber der ltur- bzw. TUI-Reiseleitung vor Ort, um Minderungsrechte zu sichern."
   },
   {
     "slug": "eurotours",
     "name": "Eurotours Deutschland GmbH",
-    "adresse": "Parkring 2 / EG\n85748 Garching\nDeutschland"
+    "adresse": "Parkring 2 / EG\n85748 Garching\nDeutschland",
+    "infobox": "Eurotours agiert oft als Veranstalter hinter großen Supermarkt-Reiseangeboten. Bei Mängeln vor Ort ist Eurotours Ihr rechtlicher Vertragspartner (nicht der Supermarkt). Nutzen Sie die Servicehotline zur Mängelanzeige, falls kein Reiseleiter im Hotel anzutreffen ist."
   },
   {
     "slug": "hlx",
     "name": "HLX Touristik GmbH",
-    "adresse": "Augustaplatz 8\n76530 Baden-Baden\nDeutschland"
+    "adresse": "Augustaplatz 8\n76530 Baden-Baden\nDeutschland",
+    "infobox": "Bei HLX-Pauschalreisen (dynamische Kombinationen) schützt Sie das Gesetz vor den Folgen von Flugstreichungen oder Überbuchungen. HLX muss für adäquaten Ersatz sorgen. Melden Sie Abweichungen vom Buchungsstandard unverzüglich dem HLX-Kundenservice, um Ihre Rechte zu wahren."
   },
   {
     "slug": "byebye",
     "name": "BYEBYE GmbH",
-    "adresse": "Dreischeibenhaus 1\n40211 Düsseldorf\nDeutschland"
+    "adresse": "Dreischeibenhaus 1\n40211 Düsseldorf\nDeutschland",
+    "infobox": "Als Tochtergesellschaft von alltours bietet BYEBYE Pauschalreisen mit vollem rechtlichen Schutz. Bei Hotelmängeln nutzen Sie direkt die alltours-Reiseleitungsinfrastruktur vor Ort für Ihre Mängelrüge. Sichern Sie Beweise für eine spätere schriftliche Reklamation nach Urlaubsende."
   },
   {
     "slug": "anderer-veranstalter",
     "name": "Ihren Reiseveranstalter",
-    "adresse": ""
+    "adresse": "",
+    "infobox": "Im deutschen Pauschalreiserecht (§ 651a BGB) gilt die strikte Pflicht zur unverzüglichen Mängelrüge: Melden Sie Mängel sofort der Reiseleitung vor Ort und fordern Sie Abhilfe unter Fristsetzung. Sichern Sie Beweise (Fotos, Zeugen). Als rechtliche Orientierung für Preisminderungen dient die Frankfurter Tabelle."
   }
 ]

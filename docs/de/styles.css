@@ -2430,6 +2430,147 @@ footer div a:hover {
 }
 
 
+/* --- Styling für die Airline-Infobox --- */
+.airline-hinweisbox {
+    background-color: #f8f9fa; /* Sehr dezentes Hintergrund-Grau */
+    border: 1px solid #e9ecef; /* Kaum sichtbarer Außenrahmen */
+    border-left: 4px solid #495057; /* Dunkelgraue Akzentlinie links für den "Hinweis"-Charakter */
+    border-radius: 6px; /* Leicht abgerundete Ecken */
+    padding: 24px;
+    margin: 35px 0; /* Ordentlich Abstand nach oben und unten zum Fließtext */
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Überschrift in der Box */
+.airline-hinweisbox h3 {
+    margin-top: 0; /* Verhindert unschöne Abstände nach oben */
+    margin-bottom: 12px; /* Perfekter Abstand zum Text darunter */
+    color: #212529; /* Fast schwarz für beste Lesbarkeit */
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+/* Text in der Box */
+.airline-hinweisbox p {
+    margin: 0;
+    color: #495057; 
+    font-size: 15px;
+    line-height: 1.6; 
+}
+
+/* --- Optimierung für Smartphones (Handy) --- */
+@media (max-width: 768px) {
+    .airline-hinweisbox {
+        padding: 16px; 
+        margin: 25px 0;
+        border-left-width: 3px; 
+    }
+    
+    .airline-hinweisbox h3 {
+        font-size: 16px; 
+        margin-bottom: 8px;
+    }
+    
+    .airline-hinweisbox p {
+        font-size: 14px; 
+    }
+}
+
+/* --- Minimalistisches & Neutrales CSS für das Verzeichnis --- */
+.site-niche-directory {
+    background-color: #fafafa; /* Extrem helles, neutrales Grau */
+    border-top: 1px solid #eaeaea;
+    padding: 50px 20px;
+    margin-top: 60px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.niche-directory-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.niche-directory-title {
+    color: #222222;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.niche-directory-intro {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 700px;
+    margin: 0 auto 35px auto;
+    text-align: center;
+}
+
+.niche-directory-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 Spalten auf PC */
+    gap: 30px;
+}
+
+.niche-directory-group h3 {
+    color: #333333;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 6px;
+}
+
+.niche-directory-group ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.niche-directory-group li {
+    margin-bottom: 8px;
+}
+
+.niche-directory-group a {
+    color: #0056b3; /* Klassisches, unaufdringliches Link-Blau */
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.1s ease;
+}
+
+.niche-directory-group a:hover {
+    color: #003d82;
+    text-decoration: underline;
+}
+
+/* --- Mobil-Optimierung (Smartphones & Tablets) --- */
+@media (max-width: 768px) {
+    .niche-directory-grid {
+        grid-template-columns: 1fr; /* 1 Spalte auf dem Handy */
+        gap: 25px;
+    }
+    
+    .site-niche-directory {
+        padding: 35px 15px;
+    }
+
+    .niche-directory-title {
+        font-size: 18px;
+    }
+    
+    .niche-directory-intro {
+        font-size: 13px;
+        margin-bottom: 25px;
+    }
+}
+
 
 
 

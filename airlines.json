@@ -2,527 +2,613 @@
   {
     "slug": "lufthansa",
     "name": "Deutsche Lufthansa AG",
-    "adresse": "Lufthansa Aviation Center\nAirportring\n60546 Frankfurt am Main\nDeutschland"
+    "adresse": "Lufthansa Aviation Center\nAirportring\n60546 Frankfurt am Main\nDeutschland",
+    "infobox": "Lufthansa ist als EU-Airline vollumfänglich an die Fluggastrechteverordnung (EG) Nr. 261/2004 gebunden. Bei Streiks des eigenen Personals (z.B. Piloten oder Kabinencrew) haben Passagiere in der Regel Anspruch auf Entschädigung, da dies meist nicht als außergewöhnlicher Umstand gilt."
   },
   {
     "slug": "ryanair",
     "name": "Ryanair DAC",
-    "adresse": "Airside Business Park\nSwords, Co. Dublin\nIrland"
+    "adresse": "Airside Business Park\nSwords, Co. Dublin\nIrland",
+    "infobox": "Ryanair verlangt oft hohe Extragebühren für den Check-in am Flughafen. Reiserechtlich ist zudem wichtig: Bei Flugstornierungen versucht die Airline oft, Kunden mit Gutscheinen abzuspeisen, obwohl rechtlich ein Anspruch auf Auszahlung des Ticketpreises in bar besteht."
   },
   {
     "slug": "eurowings",
     "name": "Eurowings GmbH",
-    "adresse": "Waldstraße 249\n51147 Köln\nDeutschland"
+    "adresse": "Waldstraße 249\n51147 Köln\nDeutschland",
+    "infobox": "Bei Eurowings ist es wichtig, die genaue ausführende Fluggesellschaft (Operating Carrier) zu prüfen, da Flüge oft von Partner-Airlines oder Tochtergesellschaften (z.B. Eurowings Europe) durchgeführt werden. Die Entschädigungsforderung muss immer an die ausführende Airline gerichtet werden."
   },
   {
     "slug": "condor",
     "name": "Condor Flugdienst GmbH",
-    "adresse": "An der Gehespitz 50\n63263 Neu-Isenburg\nDeutschland"
+    "adresse": "An der Gehespitz 50\n63263 Neu-Isenburg\nDeutschland",
+    "infobox": "Condor wird häufig im Rahmen von Pauschalreisen gebucht. Bei Flugverspätungen über drei Stunden können Reisende nicht nur Ausgleichszahlungen nach EU-Recht von der Airline fordern, sondern oft zusätzlich den Reisepreis beim Reiseveranstalter (Stichwort: Frankfurter Tabelle) mindern."
   },
   {
     "slug": "tuifly",
     "name": "TUIfly GmbH",
-    "adresse": "Flughafenstraße 10\n30855 Langenhagen\nDeutschland"
+    "adresse": "Flughafenstraße 10\n30855 Langenhagen\nDeutschland",
+    "infobox": "TUIfly ändert bei Pauschalreisen gelegentlich die Flugzeiten. Ist die Flugzeitenänderung erheblich und erfolgt kurzfristig (weniger als 14 Tage vor Abflug), kann dies reiserechtlich wie eine Annullierung gewertet werden und Entschädigungsansprüche auslösen."
   },
   {
     "slug": "aer-lingus",
     "name": "Aer Lingus",
-    "adresse": "Head Office Building\nDublin Airport\nDublin\nIrland"
+    "adresse": "Head Office Building\nDublin Airport\nDublin\nIrland",
+    "infobox": "Aer Lingus wird oft für Umsteigeverbindungen in die USA via Dublin genutzt. Wird der Anschlussflug in Dublin wegen einer Verspätung des Zubringers verpasst, greift die EU-Fluggastrechteverordnung für die gesamte Strecke, was hohe Entschädigungssummen von bis zu 600 Euro bedeuten kann."
   },
   {
     "slug": "easyjet",
     "name": "easyJet Airline Company Limited",
-    "adresse": "Hangar 89\nLondon Luton Airport\nLuton LU2 9PF\nEngland"
+    "adresse": "Hangar 89\nLondon Luton Airport\nLuton LU2 9PF\nEngland",
+    "infobox": "easyJet hat sehr strenge Handgepäckrichtlinien. Reiserechtlich relevant: Wenn ein Flug ausfällt oder der Passagier storniert, müssen ungenutzte Steuern und Gebühren erstattet werden – Billigflieger verlangen hierfür oft unzulässige Bearbeitungsgebühren."
   },
   {
     "slug": "wizz-air",
     "name": "Wizz Air Hungary Ltd.",
-    "adresse": "Laurus Offices, Kőér street 2/A\nBuilding B, H-1103\nBudapest\nUngarn"
+    "adresse": "Laurus Offices, Kőér street 2/A\nBuilding B, H-1103\nBudapest\nUngarn",
+    "infobox": "Wizz Air ist bekannt für häufige Flugplanänderungen. Die EU-Verordnung gilt uneingeschränkt. Bei Verweigerung von Entschädigungszahlungen wegen 'außergewöhnlicher Umstände' lohnt sich eine genaue Prüfung, da technische Defekte rechtlich nicht darunterfallen."
   },
   {
     "slug": "turkish-airlines",
     "name": "Turkish Airlines",
-    "adresse": "Flughafen Atatürk\nYesilkoy, 34149\nIstanbul\nTürkei"
+    "adresse": "Flughafen Atatürk\nYesilkoy, 34149\nIstanbul\nTürkei",
+    "infobox": "Da Turkish Airlines keine EU-Airline ist, greift die EU-Fluggastrechteverordnung nur bei Flügen, die von einem Flughafen in der EU abfliegen. Bei Flügen aus der Türkei in die EU greifen hingegen die türkischen Fluggastrechte (SHY-PASS), die eigene Entschädigungsregeln vorsehen."
   },
   {
     "slug": "sunexpress",
     "name": "SunExpress Deutschland GmbH",
-    "adresse": "De-Saint-Exupéry-Straße 10\n60549 Frankfurt am Main\nDeutschland"
+    "adresse": "De-Saint-Exupéry-Straße 10\n60549 Frankfurt am Main\nDeutschland",
+    "infobox": "SunExpress fliegt häufig zu Ferienzielen in der Türkei. Bei Gepäckverlust oder -beschädigung auf Flügen in die Türkei gilt das Montrealer Übereinkommen. Wichtig: Ein Gepäckschaden muss der Airline zwingend innerhalb von 7 Tagen schriftlich gemeldet werden."
   },
   {
     "slug": "vueling",
     "name": "Vueling Airlines S.A.",
-    "adresse": "Parque de Negocios Mas Blau II\nPlaza de l'Estany, núm 5\n08820 Barcelona\nSpanien"
+    "adresse": "Parque de Negocios Mas Blau II\nPlaza de l'Estany, núm 5\n08820 Barcelona\nSpanien",
+    "infobox": "Vueling-Flüge sind oft stark vom überlasteten Luftraum rund um das Drehkreuz Barcelona betroffen. Verspätungen wegen fehlender Flugsicherungskapazitäten (ATC-Slots) gelten meist als außergewöhnlicher Umstand, wodurch Ausgleichszahlungen entfallen können – Betreuungsleistungen (Essen/Trinken) stehen Ihnen dennoch zu."
   },
   {
     "slug": "british-airways",
     "name": "British Airways Plc (Niederlassung Deutschland)",
-    "adresse": "c/o Design Offices\nBarckhausstraße 1\n60325 Frankfurt am Main\nDeutschland"
+    "adresse": "c/o Design Offices\nBarckhausstraße 1\n60325 Frankfurt am Main\nDeutschland",
+    "infobox": "Seit dem Brexit gilt für British Airways primär das britische Recht (UK261), welches jedoch nahezu identisch mit der EU-Verordnung 261/2004 ist. Auch hier haben Sie Anspruch auf Entschädigung bei Verspätungen von mehr als 3 Stunden."
   },
   {
     "slug": "klm",
     "name": "KLM Royal Dutch Airlines",
-    "adresse": "Direktion für Deutschland\nZeil 5\n60313 Frankfurt am Main\nDeutschland"
+    "adresse": "Direktion für Deutschland\nZeil 5\n60313 Frankfurt am Main\nDeutschland",
+    "infobox": "KLM nutzt Amsterdam (Schiphol) als großes Drehkreuz. Werden Anschlussflüge aufgrund von Zubringerverspätungen verpasst, bemisst sich die Entschädigung nach der Entfernung des gesamten Routings (Start bis Endziel), nicht nur nach der Teilstrecke."
   },
   {
     "slug": "air-france",
     "name": "Air France",
-    "adresse": "De-Saint-Exupéry Straße 10\n60549 Frankfurt am Main\nDeutschland"
+    "adresse": "De-Saint-Exupéry Straße 10\n60549 Frankfurt am Main\nDeutschland",
+    "infobox": "Bei Air France sind Streiks des französischen Flugsicherungspersonals ein häufiger Grund für Flugausfälle. Solche Drittstreiks gelten im Reiserecht als außergewöhnliche Umstände, wodurch der Anspruch auf Entschädigung entfällt. Ein Anspruch auf Ersatzbeförderung oder Erstattung besteht jedoch weiterhin."
   },
   {
     "slug": "emirates",
     "name": "Emirates",
-    "adresse": "Direktion für Deutschland\nGrüneburgweg 16\n60322 Frankfurt am Main\nDeutschland"
+    "adresse": "Direktion für Deutschland\nGrüneburgweg 16\n60322 Frankfurt am Main\nDeutschland",
+    "infobox": "Als Nicht-EU-Airline unterliegt Emirates der EU-Verordnung nur bei Abflügen aus der EU. Fliegen Sie von Dubai in die EU zurück und der Flug verspätet sich, haben Sie nach europäischem Recht keinen Anspruch auf Ausgleichszahlungen."
   },
   {
     "slug": "qatar-airways",
     "name": "Qatar Airways",
-    "adresse": "Zeil 65\n60313 Frankfurt am Main\nDeutschland"
+    "adresse": "Zeil 65\n60313 Frankfurt am Main\nDeutschland",
+    "infobox": "Für Qatar Airways gilt: Die EU-Fluggastrechte gelten nur für Abflüge aus der EU. Wird der Anschlussflug in Doha auf dem Weg z.B. nach Asien aufgrund einer Verspätung des Fluges aus der EU verpasst, besteht jedoch für die gesamte Strecke der EU-Entschädigungsanspruch."
   },
   {
     "slug": "tap-air-portugal",
     "name": "TAP Air Portugal",
-    "adresse": "Hanauer Landstraße 114\n60314 Frankfurt am Main\nDeutschland"
+    "adresse": "Hanauer Landstraße 114\n60314 Frankfurt am Main\nDeutschland",
+    "infobox": "TAP ist für viele Reisen nach Südamerika oder in die USA via Lissabon eine wichtige Airline. Verpasste Anschlüsse in Lissabon führen regelmäßig zu Entschädigungsansprüchen von 600 Euro, sofern keine außergewöhnlichen Umstände (z.B. schweres Unwetter) vorliegen."
   },
   {
     "slug": "iberia",
     "name": "IBERIA LAE SA Operadora Unipersonal",
-    "adresse": "C/ Martínez Villergas, 49\n28027 Madrid\nSpanien"
+    "adresse": "C/ Martínez Villergas, 49\n28027 Madrid\nSpanien",
+    "infobox": "Iberia ist als EU-Carrier voll reguliert. Bei Flügen nach Südamerika via Madrid kommt es manchmal zu Überbuchungen (Denied Boarding). In diesem Fall greift sofort der Anspruch auf Ausgleichszahlung (bis 600 Euro) sowie auf eine alternative Beförderung."
   },
   {
     "slug": "finnair",
     "name": "Finnair plc (Finnair Oyj)",
-    "adresse": "Bredeneyer Str. 2b\n45133 Essen\nDeutschland"
+    "adresse": "Bredeneyer Str. 2b\n45133 Essen\nDeutschland",
+    "infobox": "Finnair bietet oft schnelle Verbindungen nach Asien. Bei erheblichen Flugverspätungen müssen Airlines auch Hotelübernachtungen zahlen, wenn der nächste Flug erst am Folgetag geht. Verweigert die Airline dies, können Reisende in Vorleistung gehen und die Kosten zurückfordern."
   },
   {
     "slug": "sas",
     "name": "Scandinavian Airlines System (SAS)",
-    "adresse": "SAS Customer Care\n195 87 Stockholm\nSchweden"
+    "adresse": "SAS Customer Care\n195 87 Stockholm\nSchweden",
+    "infobox": "Norwegen, Schweden und Dänemark sind in den Geltungsbereich der EU-Fluggastrechteverordnung einbezogen. SAS muss daher bei Verspätungen oder Annullierungen dieselben Rechte gewähren wie Airlines aus reinen EU-Staaten."
   },
   {
     "slug": "delta-air-lines",
     "name": "Delta Air Lines, Inc.",
-    "adresse": "Zweigniederlassung Deutschland\nFlughafen Frankfurt, Terminal 2D\n60549 Frankfurt am Main\nDeutschland"
+    "adresse": "Zweigniederlassung Deutschland\nFlughafen Frankfurt, Terminal 2D\n60549 Frankfurt am Main\nDeutschland",
+    "infobox": "Als US-Fluggesellschaft unterliegt Delta der EU-Verordnung 261/2004 nur auf dem Hinflug ab der EU. Auf dem Rückflug von den USA in die EU greifen die oft schwächeren US-Vorschriften des Department of Transportation (DOT), die keine pauschalen Verspätungsentschädigungen kennen."
   },
   {
     "slug": "united-airlines",
     "name": "United Airlines, Inc.",
-    "adresse": "Zweigniederlassung in Deutschland\nLufthansa Aviation Center, Airportring\n60546 Frankfurt am Main\nDeutschland"
+    "adresse": "Zweigniederlassung in Deutschland\nLufthansa Aviation Center, Airportring\n60546 Frankfurt am Main\nDeutschland",
+    "infobox": "Bei United Airlines gelten für Hinflüge ab der EU europäische Fluggastrechte, für Rückflüge aus den USA jedoch nicht. Bei Gepäckproblemen greift auf beiden Strecken das Montrealer Übereinkommen, das eine Haftung von bis zu ca. 1.500 Euro (SZR) pro Passagier vorsieht."
   },
   {
     "slug": "american-airlines",
     "name": "American Airlines",
-    "adresse": "Lyoner Str. 9\n60528 Frankfurt am Main\nDeutschland"
+    "adresse": "Lyoner Str. 9\n60528 Frankfurt am Main\nDeutschland",
+    "infobox": "Für American Airlines gilt bei Abflügen in den USA kein europäisches Recht. Wurde der Hinflug ab Europa und der Rückflug ab USA jedoch in einer Buchung getätigt, argumentierten manche Fluggastportale früher für den Rückflug – der EuGH hat dies jedoch abgelehnt. EU-Recht gilt hier streng nur ex-EU."
   },
   {
     "slug": "singapore-airlines",
     "name": "Singapore Airlines",
-    "adresse": "Gebäude 234, HBK 61, Frankfurt Airport Center 1\nHugo-Eckener-Ring\n60549 Frankfurt am Main\nDeutschland"
+    "adresse": "Gebäude 234, HBK 61, Frankfurt Airport Center 1\nHugo-Eckener-Ring\n60549 Frankfurt am Main\nDeutschland",
+    "infobox": "Singapore Airlines ist keine EU-Airline. Ein Anspruch auf Entschädigung nach EU-Recht besteht nur, wenn der Flug an einem EU-Flughafen (z.B. Frankfurt) startet. Bei Start in Singapur Richtung EU existiert dieser Entschädigungsanspruch bei Verspätung nicht."
   },
   {
     "slug": "corendon-airlines",
     "name": "Corendon Touristik GmbH",
-    "adresse": "Zentralgebäude Ost – raum 5.044, Terminal Ring 1\n40474 Düsseldorf\nDeutschland"
+    "adresse": "Zentralgebäude Ost – raum 5.044, Terminal Ring 1\n40474 Düsseldorf\nDeutschland",
+    "infobox": "Corendon operiert oft unter verschiedenen Lizenzen (Niederlande, Türkei, Malta). Für das Reiserecht (Anwendbarkeit der EU-Verordnung 261/2004) ist entscheidend, welche dieser Tochtergesellschaften den Flug tatsächlich ausführt, besonders bei Flügen aus Nicht-EU-Ländern wie der Türkei."
   },
   {
     "slug": "pegasus-airlines",
     "name": "Pegasus Airlines",
-    "adresse": "Schadowplatz 16\n40212 Düsseldorf\nDeutschland"
+    "adresse": "Schadowplatz 16\n40212 Düsseldorf\nDeutschland",
+    "infobox": "Als türkischer Low-Cost-Carrier fällt Pegasus für Rückflüge aus der Türkei in die EU nicht unter die europäische Fluggastrechteverordnung, sondern unter türkisches Recht. Dies bedeutet im Verspätungsfall andere Fristen und meist geringere Ausgleichsbeträge."
   },
   {
     "slug": "swiss",
     "name": "Swiss International Air Lines AG",
-    "adresse": "Malzgasse 15\n4052 Basel\nSchweiz"
+    "adresse": "Malzgasse 15\n4052 Basel\nSchweiz",
+    "infobox": "Obwohl die Schweiz nicht in der EU ist, hat sie die EU-Fluggastrechteverordnung durch bilaterale Verträge übernommen. Daher werden Flüge mit Swiss rechtlich exakt so behandelt wie Flüge mit einer Airline aus der Europäischen Union."
   },
   {
     "slug": "thai-airways",
     "name": "THAI AIRWAYS International Public Company Ltd.",
-    "adresse": "Zeil 127\n60313 Frankfurt am Main\nDeutschland"
+    "adresse": "Zeil 127\n60313 Frankfurt am Main\nDeutschland",
+    "infobox": "EU-Verordnung 261/2004 findet nur bei Starts ab Europa Anwendung. Storniert der Passagier ein Ticket selbst, müssen auch bei Nicht-EU-Airlines zumindest länderspezifische Steuern und Flughafengebühren für nicht angetretene Flüge zurückerstattet werden, deutsches Recht vorausgesetzt."
   },
   {
     "slug": "ana",
     "name": "ANA Holdings Inc. (All Nippon Airways)",
-    "adresse": "Rossmarkt 21\n60311 Frankfurt am Main\nDeutschland"
+    "adresse": "Rossmarkt 21\n60311 Frankfurt am Main\nDeutschland",
+    "infobox": "Bei Flügen mit ANA ab Deutschland in Richtung Japan greifen europäische Passagierrechte voll. Auf dem Rückflug greifen diese nicht. Es ist wichtig, bei Verspätungen ex-Japan die Kulanzregelungen oder japanische Beförderungsbedingungen (Conditions of Carriage) zu prüfen."
   },
   {
     "slug": "cathay-pacific",
     "name": "Cathay Pacific",
-    "adresse": "Lyoner Straße 15\n60528 Frankfurt am Main\nDeutschland"
+    "adresse": "Lyoner Straße 15\n60528 Frankfurt am Main\nDeutschland",
+    "infobox": "Bei Flügen nach Hongkong mit Cathay Pacific greift die EU-Fluggastrechteverordnung nur beim Abflug aus Europa. Bei verlorenen Koffern gilt jedoch weltweit das Montrealer Übereinkommen, weshalb Sie für Ersatzkleidung auch in Hongkong bis zu den Höchstgrenzen abgesichert sind."
   },
   {
     "slug": "austrian-airlines",
     "name": "Austrian Airlines AG",
-    "adresse": "Feedback Management\nPostfach 33\n1300 Wien-Flughafen\nÖsterreich"
+    "adresse": "Feedback Management\nPostfach 33\n1300 Wien-Flughafen\nÖsterreich",
+    "infobox": "Als Teil der Lufthansa-Gruppe und EU-Airline gilt für Austrian Airlines europäisches Recht. Flugplanänderungen, die dem Passagier weniger als 14 Tage vor Abflug mitgeteilt werden, stellen rechtlich eine Annullierung dar und können einen Entschädigungsanspruch von bis zu 600 Euro begründen."
   },
   {
     "slug": "air-canada",
     "name": "Air Canada",
-    "adresse": "Hahnstraße 70\n60528 Frankfurt am Main\nDeutschland"
+    "adresse": "Hahnstraße 70\n60528 Frankfurt am Main\nDeutschland",
+    "infobox": "Für Air Canada greifen beim Abflug in der EU die europäischen Fluggastrechte. Für Flüge ab Kanada greifen zusätzlich oder alternativ die kanadischen Air Passenger Protection Regulations (APPR), die bei Verspätungen teilweise noch höhere Entschädigungen vorsehen können."
   },
   {
     "slug": "etihad-airways",
     "name": "Etihad Airways",
-    "adresse": "OpernTurm\nBockenheimer Landstr. 2-4\n60306 Frankfurt am Main\nDeutschland"
+    "adresse": "OpernTurm\nBockenheimer Landstr. 2-4\n60306 Frankfurt am Main\nDeutschland",
+    "infobox": "Fliegt Etihad von Abu Dhabi in die EU, gilt die EU-Fluggastrechteverordnung nicht. Wird das Gepäck jedoch verspätet ausgeliefert, können Passagiere weltweit nach dem Montrealer Übereinkommen Notkäufe (Hygieneartikel, Kleidung) tätigen und diese der Airline in Rechnung stellen."
   },
   {
     "slug": "latam-airlines",
     "name": "LATAM Airlines",
-    "adresse": "Kaiserstr. 5\n60311 Frankfurt am Main\nDeutschland"
+    "adresse": "Kaiserstr. 5\n60311 Frankfurt am Main\nDeutschland",
+    "infobox": "Die in Südamerika beheimatete LATAM muss die EU-Fluggastrechte nur bei Abflügen aus der EU respektieren. Oftmals werden Flüge im Codeshare angeboten (z.B. mit Iberia) – für die Entschädigung ist juristisch aber stets die Airline zuständig, deren Flugzeug tatsächlich geflogen ist (Operating Carrier)."
   },
   {
     "slug": "qantas-airways",
     "name": "Qantas Airways Limited",
-    "adresse": "Zweigniederlassung Deutschland\nKaiserstraße 77\n60329 Frankfurt am Main\nDeutschland"
+    "adresse": "Zweigniederlassung Deutschland\nKaiserstraße 77\n60329 Frankfurt am Main\nDeutschland",
+    "infobox": "Qantas-Flüge ab Europa (z.B. London-Perth oder Rom-Sydney) fallen unter die europäische bzw. britische Fluggastrechteverordnung. Da es sich um Langstrecken handelt (über 3.500 km), entsteht ein Entschädigungsanspruch erst ab einer Ankunftsverpätung von mindestens 4 Stunden."
   },
   {
     "slug": "japan-airlines",
     "name": "Japan Airlines Co., Ltd. (JAL)",
-    "adresse": "Roßmarkt 15\n60311 Frankfurt am Main\nDeutschland"
+    "adresse": "Roßmarkt 15\n60311 Frankfurt am Main\nDeutschland",
+    "infobox": "Europäische Fluggastrechte gelten bei JAL nur beim Start aus einem EU-Land. Bei Ticketstornierungen durch den Fluggast gilt jedoch, dass personalisierte Steuern und Gebühren auch von internationalen Airlines erstattet werden müssen, sofern deutsches Recht auf den Vertrag anwendbar ist."
   },
   {
     "slug": "air-new-zealand",
     "name": "Air New Zealand",
-    "adresse": "Speicherstraße 57\n60327 Frankfurt am Main\nDeutschland"
+    "adresse": "Speicherstraße 57\n60327 Frankfurt am Main\nDeutschland",
+    "infobox": "Air New Zealand unterliegt bei Flügen aus Neuseeland nicht dem EU-Recht. Jedoch sind Passagiere bezüglich Gepäckschäden durch das internationale Montrealer Übereinkommen abgesichert. Bewahren Sie für die Geltendmachung stets Gepäckabschnitt (PIR-Formular) und Quittungen auf."
   },
   {
     "slug": "air-china",
     "name": "Air China Limited",
-    "adresse": "Düsseldorfer Str. 4\n60329 Frankfurt am Main\nDeutschland"
+    "adresse": "Düsseldorfer Str. 4\n60329 Frankfurt am Main\nDeutschland",
+    "infobox": "Air China ist eine Nicht-EU-Airline. Für Verspätungen beim Rückflug aus China nach Europa kann nach EU-Recht keine pauschale Ausgleichszahlung verlangt werden. Abflüge aus Europa nach China sind hingegen von der EU-Verordnung erfasst."
   },
   {
     "slug": "korean-air",
     "name": "Korean Air",
-    "adresse": "An der Welle 4\n60322 Frankfurt am Main\nDeutschland"
+    "adresse": "An der Welle 4\n60322 Frankfurt am Main\nDeutschland",
+    "infobox": "Bei Abflügen aus Europa ist Korean Air an die EU-Fluggastrechteverordnung gebunden. Bei einer unberechtigten Nichtbeförderung (Denied Boarding, z.B. wegen Überbuchung) stehen Ihnen nicht nur die 600 Euro Ausgleichszahlung, sondern auch ein Ersatzflug schnellstmöglich zu."
   },
   {
     "slug": "air-india",
     "name": "Air India Limited",
-    "adresse": "Kaiserstraße 11\n60311 Frankfurt am Main\nDeutschland"
+    "adresse": "Kaiserstraße 11\n60311 Frankfurt am Main\nDeutschland",
+    "infobox": "Startet Ihr Air India Flug in der EU, greift die EU-Fluggastrechteverordnung. Bei einer großen Verspätung ab 2 Stunden (kurze Strecke) bzw. 4 Stunden (Langstrecke) muss die Airline Betreuungsleistungen (Essen, Getränke, ggf. Hotel) kostenlos anbieten."
   },
   {
     "slug": "lot-polish-airlines",
     "name": "LOT Polish Airlines",
-    "adresse": "Hugo-Eckener-Ring 1\n60549 Frankfurt am Main\nDeutschland"
+    "adresse": "Hugo-Eckener-Ring 1\n60549 Frankfurt am Main\nDeutschland",
+    "infobox": "Als polnische Airline fällt LOT unter europäisches Fluggastrecht. Dies gilt weltweit für alle durch LOT ausgeführten Flüge. Vorsicht: Technische Defekte am Flugzeug werden von Airlines gern als 'außergewöhnlicher Umstand' deklariert, was europäische Gerichte jedoch in den meisten Fällen ablehnen."
   },
   {
     "slug": "brussels-airlines",
     "name": "Brussels Airlines SA/NV",
-    "adresse": "100-102, Avenue des Saisons\nPostfach 30\n1050 Brüssel\nBelgien"
+    "adresse": "100-102, Avenue des Saisons\nPostfach 30\n1050 Brüssel\nBelgien",
+    "infobox": "Bei Brussels Airlines (EU-Carrier) besteht bei Flugverspätungen über drei Stunden am Endziel Anspruch auf bis zu 600 Euro. Da die Airline stark in Afrika aktiv ist: Auch Flüge aus Afrika nach Brüssel sind rechtlich voll abgedeckt, da Brüssel Airlines ihren Sitz in der EU hat."
   },
   {
     "slug": "ita-airways",
     "name": "Italia Trasporto Aereo S.p.A. (Headquarter)",
-    "adresse": "Via XX Settembre, 97\n00187 Rom (RM)\nItalien"
+    "adresse": "Via XX Settembre, 97\n00187 Rom (RM)\nItalien",
+    "infobox": "Die Nachfolge-Airline von Alitalia unterliegt als italienischer Carrier vollumfänglich dem EU-Recht. Werden Flüge wegen Streiks des Abfertigungspersonals (Bodenpersonal in Italien) annulliert, gilt dies jedoch oft als außergewöhnlicher Umstand, was Ausgleichszahlungen ausschließen kann."
   },
   {
     "slug": "air-baltic",
     "name": "Air Baltic",
-    "adresse": "Deutschland-Büro\nTorstraße 177\n10115 Berlin\nDeutschland"
+    "adresse": "Deutschland-Büro\nTorstraße 177\n10115 Berlin\nDeutschland",
+    "infobox": "Air Baltic hat als lettische Airline ihren Sitz in der EU. Fluggastrechte greifen daher weltweit. Tritt ein Passagier den Flug nicht an (No-Show), verfällt zwar oft der Ticketpreis, die nicht angefallenen Steuern und Flughafengebühren können jedoch rechtlich meist zurückgefordert werden."
   },
   {
     "slug": "aegean-airlines",
     "name": "Aegean Airlines S.A.",
-    "adresse": "Zentrale Deutschland\nAm Hauptbahnhof 10\n60329 Frankfurt am Main\nDeutschland"
+    "adresse": "Zentrale Deutschland\nAm Hauptbahnhof 10\n60329 Frankfurt am Main\nDeutschland",
+    "infobox": "Aegean ist ein EU-Carrier. Griechische Lotsenstreiks führen gelegentlich zu Flugausfällen. Dies ist ein außergewöhnlicher Umstand, der die Airline von der Entschädigung befreit – nicht aber von der Pflicht zur Erstattung des Ticketpreises oder zur schnellstmöglichen Ersatzbeförderung."
   },
   {
     "slug": "air-europa",
     "name": "Air Europa Líneas Aéreas S.A.U.",
-    "adresse": "Carretera Arenal-Llucmajor, KM 21.5\nCP: 07620 Llucmajor - Balearic Islands\nSpanien"
+    "adresse": "Carretera Arenal-Llucmajor, KM 21.5\nCP: 07620 Llucmajor - Balearic Islands\nSpanien",
+    "infobox": "Bei der spanischen Air Europa gelten weltweit EU-Fluggastrechte. Fällt ein Flug aus und bietet die Airline eine Umbuchung an, die erst Tage später stattfindet, dürfen Passagiere oft selbst einen vergleichbaren Ersatzflug buchen und der Airline die Mehrkosten in Rechnung stellen."
   },
   {
     "slug": "smartwings",
     "name": "Smartwings a.s.",
-    "adresse": "K letisti 1068/30\n160 08 Praha 6\nTschechische Republik"
+    "adresse": "K letisti 1068/30\n160 08 Praha 6\nTschechische Republik",
+    "infobox": "Die tschechische Smartwings ist häufig im Charterverkehr unterwegs. Auch bei reinen Charter- oder Pauschalreiseflügen gilt die EU-Fluggastrechteverordnung 261/2004 vollumfänglich für Ansprüche gegenüber der ausführenden Fluggesellschaft."
   },
   {
     "slug": "discover-airlines",
     "name": "EW Discover GmbH",
-    "adresse": "Hugo-Eckener Ring 1\nFAC, Building 234, D7.01\n60549 Frankfurt am Main\nDeutschland"
+    "adresse": "Hugo-Eckener Ring 1\nFAC, Building 234, D7.01\n60549 Frankfurt am Main\nDeutschland",
+    "infobox": "Discover Airlines (ehemals Eurowings Discover) ist eine deutsche Airline. Bei Gepäckverspätungen am Urlaubsort dürfen Passagiere notwendige Dinge (Kleidung, Kosmetik) kaufen. Wichtig: Die Kosten für Kleidung werden oft nur zu 50 % erstattet, da diese nach dem Urlaub weiter genutzt werden kann."
   },
   {
     "slug": "edelweiss-air",
     "name": "Edelweiss Air AG",
-    "adresse": "Customer Relations\nThe Circle 32, Postfach\n8058 Zürich-Flughafen\nSchweiz"
+    "adresse": "Customer Relations\nThe Circle 32, Postfach\n8058 Zürich-Flughafen\nSchweiz",
+    "infobox": "Durch bilaterale Verträge der Schweiz fällt Edelweiss Air unter die EU-Fluggastrechte. Verschiebt die Airline einen Flug mehr als 14 Tage im Voraus, gibt es zwar keine pauschale Entschädigung, Passagiere können aber kostenlos zurücktreten und den vollen Ticketpreis verlangen."
   },
   {
     "slug": "oman-air",
     "name": "Oman Air S.A.O.C.",
-    "adresse": "Zweigniederlassung Deutschland\nHahnstr. 70\n60528 Frankfurt am Main\nDeutschland"
+    "adresse": "Zweigniederlassung Deutschland\nHahnstr. 70\n60528 Frankfurt am Main\nDeutschland",
+    "infobox": "Oman Air unterliegt als Nicht-EU-Airline nur beim Abflug aus Europa den EU-Fluggastrechten. Wird der Flug auf der Strecke Muskat nach Europa gestrichen, greift EU-Recht nicht, und Ersatzansprüche müssen nach den Beförderungsbedingungen der Airline oder lokalem Recht geprüft werden."
   },
   {
     "slug": "gulf-air",
     "name": "Gulf Air",
-    "adresse": "Lyoner Str. 14\n60528 Frankfurt am Main\nDeutschland"
+    "adresse": "Lyoner Str. 14\n60528 Frankfurt am Main\nDeutschland",
+    "infobox": "Bei Flügen mit Gulf Air ab Europa steht Ihnen bei großen Verspätungen Betreuung (Essen, Telefonate) zu. Kommt das Gepäck abhanden, müssen Sie unabhängig vom Startpunkt nach dem Montrealer Abkommen innerhalb von 21 Tagen schriftlich Schadenersatz fordern."
   },
   {
     "slug": "norwegian-air-shuttle",
     "name": "Norwegian Air Shuttle ASA",
-    "adresse": "Flughafenstr. 1-3\n22335 Hamburg Fuhlsbüttel\nDeutschland"
+    "adresse": "Flughafenstr. 1-3\n22335 Hamburg Fuhlsbüttel\nDeutschland",
+    "infobox": "Norwegen gehört zum Europäischen Wirtschaftsraum (EWR). Daher wird Norwegian rechtlich wie eine EU-Airline behandelt. Bei Stornierungen durch den Kunden weigern sich Low-Cost-Airlines oft, Steuern zu erstatten – rechtlich sind sie jedoch meist dazu verpflichtet."
   },
   {
     "slug": "icelandair",
     "name": "Icelandair",
-    "adresse": "Weissfrauenstraße 12-16\n60311 Frankfurt am Main\nDeutschland"
+    "adresse": "Weissfrauenstraße 12-16\n60311 Frankfurt am Main\nDeutschland",
+    "infobox": "Island ist EWR-Mitglied, daher wendet Icelandair die EU-Fluggastrechte weltweit an. Ein verpasster Anschlussflug in Reykjavik auf dem Weg in die USA führt zu Ausgleichszahlungen, wenn die ursprüngliche Verspätung durch die Airline verschuldet wurde."
   },
   {
     "slug": "volotea",
     "name": "Volotea S.L.",
-    "adresse": "Travessera de Gracia 56\n4. Stockwerk\n08006 Barcelona\nSpanien"
+    "adresse": "Travessera de Gracia 56\n4. Stockwerk\n08006 Barcelona\nSpanien",
+    "infobox": "Volotea, als spanischer Carrier, muss EU-Ausgleichszahlungen leisten. Viele Ansprüche werden wegen „Wetterbedingungen“ abgelehnt. Wetter ist nur dann ein entschuldigender Umstand, wenn es extrem ist und den spezifischen Flugbetrieb objektiv unmöglich macht."
   },
   {
     "slug": "air-transat",
     "name": "Air Transat (Transat Tours Canada Inc.)",
-    "adresse": "Kundenservice, Place du Parc\n300 Léo Pariseau Street, Suite 200\nMontreal (Quebec) H2X 4C2\nKanada"
+    "adresse": "Kundenservice, Place du Parc\n300 Léo Pariseau Street, Suite 200\nMontreal (Quebec) H2X 4C2\nKanada",
+    "infobox": "Bei Air Transat können bei Flügen ab der EU europäische (EU 261/2004) oder kanadische (APPR) Fluggastrechte greifen. Fluggäste können das für sie vorteilhaftere Recht wählen, jedoch nicht beide Entschädigungen kumuliert für dasselbe Ereignis kassieren."
   },
   {
     "slug": "saudia",
     "name": "Saudi Arabian Airlines (Saudia)",
-    "adresse": "Friedensstr. 6\n60311 Frankfurt am Main\nDeutschland"
+    "adresse": "Friedensstr. 6\n60311 Frankfurt am Main\nDeutschland",
+    "infobox": "Für Abflüge ab Riad oder Dschidda in die EU greift keine EU-Verordnung. Startet die Reise in der EU, haben Sie jedoch vollen Schutz. Bei Gepäckschäden gilt weltweit das Montrealer Übereinkommen (Haftung bis ca. 1.500 Euro)."
   },
   {
     "slug": "el-al",
     "name": "EL AL Israel Airlines Ltd.",
-    "adresse": "Eschersheimer Landstr. 162\n60322 Frankfurt am Main\nDeutschland"
+    "adresse": "Eschersheimer Landstr. 162\n60322 Frankfurt am Main\nDeutschland",
+    "infobox": "Neben den EU-Rechten für Abflüge ab Europa existiert in Israel das Aviation Services Law (Tibi Law). Dies bietet Reisenden teilweise starke Rechte auf Rückerstattungen bei Stornierungen oder Verspätungen, auch wenn die EU-Verordnung bei Flügen ab Israel nicht anwendbar ist."
   },
   {
     "slug": "eva-air",
     "name": "EVA Airways Corp.",
-    "adresse": "Terminalstraße Mitte 18\nMAC Süd, Ebene 04, Raum 548\n85356 München-Flughafen\nDeutschland"
+    "adresse": "Terminalstraße Mitte 18\nMAC Süd, Ebene 04, Raum 548\n85356 München-Flughafen\nDeutschland",
+    "infobox": "Bei Verspätungen von EVA Air-Flügen, die in Europa starten, gilt die EU-Fluggastrechteverordnung. Da es sich um Langstreckenflüge nach Asien handelt, haben Reisende ab 4 Stunden Ankunftsverspätung Anspruch auf die maximale Ausgleichszahlung von 600 Euro."
   },
   {
     "slug": "vietnam-airlines",
     "name": "Vietnam Airlines",
-    "adresse": "Rossmarkt 5\n60311 Frankfurt am Main\nDeutschland"
+    "adresse": "Rossmarkt 5\n60311 Frankfurt am Main\nDeutschland",
+    "infobox": "Als Nicht-EU-Airline greift die Fluggastrechteverordnung bei Vietnam Airlines nur auf Hinflügen ab der EU. Bei Rückflügen ab Vietnam nach Deutschland ist der Passagier bei Flugausfällen auf die vertraglichen Konditionen der Airline oder lokale Gesetze angewiesen."
   },
   {
     "slug": "jet2",
     "name": "Jet2.com Limited",
-    "adresse": "Data Protection Department / Legal Services\nPO Box 284\nLeeds LS11 1GE\nVereinigtes Königreich"
+    "adresse": "Data Protection Department / Legal Services\nPO Box 284\nLeeds LS11 1GE\nVereinigtes Königreich",
+    "infobox": "Nach dem Brexit regelt das Gesetz UK261 die Fluggastrechte britischer Airlines wie Jet2. Es entspricht fast wörtlich der EU261. Die Entschädigungssummen werden jedoch in britischen Pfund berechnet (z.B. £220, £350 oder £520)."
   },
   {
     "slug": "tui-airways-uk",
     "name": "TUI UK Limited (TUI Airways)",
-    "adresse": "Wigmore House, Wigmore Lane\nLuton LU2 9TN\nVereinigtes Königreich"
+    "adresse": "Wigmore House, Wigmore Lane\nLuton LU2 9TN\nVereinigtes Königreich",
+    "infobox": "Für die britische TUI Airways gilt das britische Fluggastrecht (UK261). Werden Pauschalreisen über einen deutschen Veranstalter gebucht und der britische TUI-Flug verspätet sich stark, kann alternativ oder zusätzlich Reisepreisminderung nach deutschem Recht verlangt werden."
   },
   {
     "slug": "croatia-airlines",
     "name": "Croatia Airlines d.d.",
-    "adresse": "Kaiserstrasse 7\n60311 Frankfurt am Main\nDeutschland"
+    "adresse": "Kaiserstrasse 7\n60311 Frankfurt am Main\nDeutschland",
+    "infobox": "Kroatien ist EU-Mitglied, daher fallen alle Flüge der Croatia Airlines unter die EU-Richtlinie 261/2004. Verweigert die Airline das Boarding wegen Überbuchung, kann der Passagier sofort eine Ausgleichszahlung verlangen und muss nicht erst eine Verspätung abwarten."
   },
   {
     "slug": "air-serbia",
     "name": "Air Serbia a.d.",
-    "adresse": "Služba za podršku gostima\nJurija Gagarina 12\n11070 Belgrad\nSerbien"
+    "adresse": "Služba za podršku gostima\nJurija Gagarina 12\n11070 Belgrad\nSerbien",
+    "infobox": "Serbien ist kein EU-Mitgliedsstaat. Ein Entschädigungsanspruch nach EU-Recht gegen Air Serbia besteht nur für Strecken, die an einem EU-Flughafen beginnen (z.B. Frankfurt nach Belgrad), jedoch nicht für Flüge in umgekehrter Richtung."
   },
   {
     "slug": "tarom",
     "name": "TAROM",
-    "adresse": "Customer Relations\nCalea Bucureştilor nr. 224 F, Otopeni\nJudeţul Ilfov\nRumänien"
+    "adresse": "Customer Relations\nCalea Bucureştilor nr. 224 F, Otopeni\nJudeţul Ilfov\nRumänien",
+    "infobox": "Als EU-Fluggesellschaft ist die rumänische TAROM an alle europäischen Fluggastrechte gebunden. Bei einer Gepäckverspätung muss die Airline die Kosten für Ersatzkäufe übernehmen. Diese Regelung entspringt dem Montrealer Übereinkommen, nicht der EU-Fluggastrechteverordnung."
   },
   {
     "slug": "south-african-airways",
     "name": "South African Airways",
-    "adresse": "Administration office\nDarmstädter Landstr. 125\n60598 Frankfurt am Main\nDeutschland"
+    "adresse": "Administration office\nDarmstädter Landstr. 125\n60598 Frankfurt am Main\nDeutschland",
+    "infobox": "Flüge mit South African Airways ab Europa sind nach der EU-Verordnung 261/2004 abgesichert. Für den Rückflug von Südafrika in die EU ist das nicht der Fall, weshalb Passagiere bei Verspätungen keinen gesetzlichen Anspruch auf pauschale Ausgleichszahlungen in Euro haben."
   },
   {
     "slug": "ethiopian-airlines",
     "name": "Ethiopian Airlines S.C.",
-    "adresse": "Kaiserstr. 77\n60329 Frankfurt am Main\nDeutschland"
+    "adresse": "Kaiserstr. 77\n60329 Frankfurt am Main\nDeutschland",
+    "infobox": "Wird auf einem Flug der Ethiopian Airlines ab der EU nach Afrika der Anschlussflug in Addis Abeba verpasst und das Endziel mit mehr als 4 Stunden Verspätung erreicht, sind laut EuGH-Rechtsprechung 600 Euro Entschädigung fällig."
   },
   {
     "slug": "tunisair",
     "name": "Tunisair",
-    "adresse": "Kaiserstraße 44\n60329 Frankfurt am Main\nDeutschland"
+    "adresse": "Kaiserstraße 44\n60329 Frankfurt am Main\nDeutschland",
+    "infobox": "Als nordafrikanische Airline muss Tunisair die EU-Vorgaben nur auf dem Hinweg (ab EU) einhalten. Auf dem Rückweg greift sie nicht. Bei Stornierung seitens des Passagiers unterliegt der Erstattungsanspruch für Steuern und Gebühren dem Recht, das im Beförderungsvertrag vereinbart ist."
   },
   {
     "slug": "royal-air-maroc",
     "name": "Royal Air Maroc",
-    "adresse": "Roßmarkt 5\n60311 Frankfurt am Main\nDeutschland"
+    "adresse": "Roßmarkt 5\n60311 Frankfurt am Main\nDeutschland",
+    "infobox": "Die marokkanische Airline Royal Air Maroc unterliegt der EU-Fluggastrechteverordnung auf allen Flügen aus der EU. Bei reinen Flügen aus Marokko in die EU existiert kein Anspruch auf pauschale Entschädigung bei Verspätung oder Flugausfall nach EU-Recht."
   },
   {
     "slug": "egyptair",
     "name": "EgyptAir",
-    "adresse": "Am Hauptbahnhof 12 D\n60329 Frankfurt am Main\nDeutschland"
+    "adresse": "Am Hauptbahnhof 12 D\n60329 Frankfurt am Main\nDeutschland",
+    "infobox": "EgyptAir hat ihren Sitz außerhalb der EU. Bei einer Annullierung des Rückflugs aus Ägypten gibt es nach europäischem Recht keine Entschädigung. Auf Hinflügen ab Europa steht Passagieren ab 3 Stunden Ankunftsverspätung jedoch eine Kompensation von meist 400 oder 600 Euro zu."
   },
   {
     "slug": "kuwait-airways",
     "name": "Kuwait Airways",
-    "adresse": "Bethmannstraße 56\n60311 Frankfurt am Main\nDeutschland"
+    "adresse": "Bethmannstraße 56\n60311 Frankfurt am Main\nDeutschland",
+    "infobox": "Für Kuwait Airways gelten die EU-Rechte nur auf Flügen ex-EU. Wird Ihr Flug gestrichen, hat die Fluggesellschaft Ihnen neben der Rückerstattung des Flugpreises gegebenenfalls auch eine Alternativbeförderung zum frühestmöglichen Zeitpunkt anzubieten – tun sie das nicht, können Ersatzflugkosten eingefordert werden."
   },
   {
     "slug": "middle-east-airlines",
     "name": "Middle East Airlines Air Liban",
-    "adresse": "Frankfurt Airport-Center 1\n60549 Frankfurt am Main\nDeutschland"
+    "adresse": "Frankfurt Airport-Center 1\n60549 Frankfurt am Main\nDeutschland",
+    "infobox": "Startet der Flug von Middle East Airlines im Libanon, haben Sie bei Flugproblemen keine Ansprüche auf Kompensation nach der EU 261/2004. Startet er in Europa, haben Sie die vollen Rechte, z.B. 400 Euro bei über 3 Stunden Verspätung."
   },
   {
     "slug": "air-malta",
     "name": "Air Malta Plc.",
-    "adresse": "Direktion für Deutschland\nMainzer Landstraße 158\n60327 Frankfurt am Main\nDeutschland"
+    "adresse": "Direktion für Deutschland\nMainzer Landstraße 158\n60327 Frankfurt am Main\nDeutschland",
+    "infobox": "Als europäische Airline ist Air Malta an die EU-Fluggastrechteverordnung gebunden. Kommt das Gepäck abhanden, müssen Passagiere sofort vor Ort am Flughafen einen sogenannten PIR (Property Irregularity Report) ausfüllen. Dies ist zwingende Voraussetzung, um später Schadensersatz zu fordern."
   },
   {
     "slug": "royal-jordanian",
     "name": "Royal Jordanian",
-    "adresse": "Kaiserstr. 3\n60311 Frankfurt am Main\nDeutschland"
+    "adresse": "Kaiserstr. 3\n60311 Frankfurt am Main\nDeutschland",
+    "infobox": "Für Royal Jordanian greift auf Flügen, die von Jordanien in die EU führen, nicht die EU-Verordnung. Wurden Hin- und Rückflug gemeinsam gebucht und der Hinflug verpasst/nicht angetreten, stornieren viele Airlines den Rückflug ('No-Show-Klausel'). Diese Praxis ist in Deutschland teils als rechtswidrig geurteilt worden."
   },
   {
     "slug": "malaysia-airlines",
     "name": "Malaysia Airlines",
-    "adresse": "Wilhelm-Leuschner-Str. 78\n60329 Frankfurt am Main\nDeutschland"
+    "adresse": "Wilhelm-Leuschner-Str. 78\n60329 Frankfurt am Main\nDeutschland",
+    "infobox": "Die Entschädigungspflicht nach EU-Recht gilt für Malaysia Airlines nur bei Abflug in der EU. Bei Gepäckschäden gilt jedoch das Montrealer Übereinkommen weltweit, wobei die Reklamation eines beschädigten Koffers schriftlich binnen 7 Tagen nach Erhalt bei der Airline eingehen muss."
   },
   {
     "slug": "china-southern-airlines",
     "name": "China Southern Airlines",
-    "adresse": "Frankfurt Airport Cargo City Süd\nGebäude 533\n60549 Frankfurt am Main\nDeutschland"
+    "adresse": "Frankfurt Airport Cargo City Süd\nGebäude 533\n60549 Frankfurt am Main\nDeutschland",
+    "infobox": "Da die Airline ihren Hauptsitz in China hat, gelten die EU-Rechte nur für Flüge, die aus Europa abfliegen. Buchen Sie bei der Stornierung des Flugs durch die Airline selbständig einen Ersatzflug, sollten Sie dies erst tun, nachdem Sie der Airline nachweisbar eine Frist zur Ersatzbeförderung gesetzt haben."
   },
   {
     "slug": "garuda-indonesia",
     "name": "Garuda Indonesia",
-    "adresse": "Große Bockenheimer Straße 15\n60313 Frankfurt am Main\nDeutschland"
+    "adresse": "Große Bockenheimer Straße 15\n60313 Frankfurt am Main\nDeutschland",
+    "infobox": "Bei der indonesischen Garuda Indonesia ist EU-Recht nur beim Start in Europa anwendbar. Wenn Sie das Flugticket aus eigenen Gründen stornieren, haben Sie in der Regel zumindest Anspruch auf die Erstattung der reinen Flughafensteuern und Sicherheitsgebühren."
   },
-  
-  
-  
   {
     "slug": "air-astana",
     "name": "Air Astana JSC",
-    "adresse": "c/o Aviareps AG\nKaiserstraße 77\n60329 Frankfurt am Main\nDeutschland"
+    "adresse": "c/o Aviareps AG\nKaiserstraße 77\n60329 Frankfurt am Main\nDeutschland",
+    "infobox": "Als Airline aus Kasachstan fällt Air Astana für Flüge in die EU nicht unter die Verordnung EG 261/2004. Nur Abflüge von einem Flughafen im Gebiet der EU berechtigen bei Verspätungen ab 3 Stunden zu Ausgleichszahlungen."
   },
   {
     "slug": "rwandair",
     "name": "RwandAir Ltd.",
-    "adresse": "c/o Friends Touristik Marketing GmbH & Co. KG\nHochstraße 17\n60313 Frankfurt am Main\nDeutschland"
+    "adresse": "c/o Friends Touristik Marketing GmbH & Co. KG\nHochstraße 17\n60313 Frankfurt am Main\nDeutschland",
+    "infobox": "RwandAir unterliegt europäischen Richtlinien ausschließlich beim Abflug aus Europa. Es ist jedoch zu beachten, dass bei Downgrades (z.B. Herabstufung von Business in Economy Class) am europäischen Abflughafen bis zu 75 % des Ticketpreises für den betroffenen Flugabschnitt erstattet werden müssen."
   },
   {
     "slug": "kenya-airways",
     "name": "Kenya Airways",
-    "adresse": "c/o APG Germany\nLeonhardstrasse 22\n61169 Friedberg\nDeutschland"
+    "adresse": "c/o APG Germany\nLeonhardstrasse 22\n61169 Friedberg\nDeutschland",
+    "infobox": "Für den Rückflug aus Kenia gilt keine europäische Fluggastrechteverordnung, da Kenya Airways eine afrikanische Airline ist. Auf dem Weg aus Europa hinaus gelten jedoch die vollen Rechte, inkl. Anspruch auf Hotelunterbringung bei Verspätungen über Nacht."
   },
   {
     "slug": "srilankan-airlines",
     "name": "SriLankan Airlines",
-    "adresse": "c/o Aviareps AG\nKaiserstraße 77\n60329 Frankfurt am Main\nDeutschland"
+    "adresse": "c/o Aviareps AG\nKaiserstraße 77\n60329 Frankfurt am Main\nDeutschland",
+    "infobox": "SriLankan Airlines zahlt EU-Entschädigungen nur für Flüge, die innerhalb der Europäischen Union starten. Weigert sich die Airline bei einem ab EU startenden Flug die Entschädigung zu zahlen, können Passagiere die nationale Schlichtungsstelle (söp) anrufen."
   },
-   {
+  {
     "slug": "luxair",
     "name": "Luxair S.A.",
-    "adresse": "25, rue Gabriel Lippmann\nL-5365 Munsbach\nLuxemburg"
+    "adresse": "25, rue Gabriel Lippmann\nL-5365 Munsbach\nLuxemburg",
+    "infobox": "Als luxemburgische Airline operiert Luxair voll unter EU-Recht. Wenn die Airline einen Flug kurzfristig wegen eines Crew-Engpasses annulliert, ist das ein organisatorisches Problem der Airline und berechtigt den Reisenden zu Ausgleichszahlungen (250 bis 400 Euro, je nach Distanz)."
   },
   {
     "slug": "air-dolomiti",
     "name": "Air Dolomiti S.p.A.",
-    "adresse": "Maximiliansplatz 12a\n80333 München\nDeutschland"
+    "adresse": "Maximiliansplatz 12a\n80333 München\nDeutschland",
+    "infobox": "Air Dolomiti ist als Tochterunternehmen der Lufthansa eine EU-Airline und oft auf Zubringerflügen (z.B. nach München oder Frankfurt) unterwegs. Verpasst man wegen einer Air Dolomiti-Verspätung den Langstrecken-Anschluss der Lufthansa, haftet die ausführende Airline für die Gesamtverspätung am Endziel."
   },
-
   {
     "slug": "helvetic-airways",
     "name": "Helvetic Airways AG",
-    "adresse": "Steinackerstrasse 56\nCH-8302 Kloten\nSchweiz"
+    "adresse": "Steinackerstrasse 56\nCH-8302 Kloten\nSchweiz",
+    "infobox": "Die Schweiz nimmt an der EU-Verordnung 261/2004 teil, weshalb Helvetic Airways europäisches Recht anwenden muss. Oft führt Helvetic Flüge im Auftrag (Wet-Lease) für Swiss durch. Für Entschädigungen ist rechtlich meist die Airline verantwortlich, deren Name und Flugnummer auf dem Ticket steht (Vertragspartner) bzw. die den Flug operativ durchführt."
   },
-  
   {
     "slug": "wideroe",
     "name": "Widerøe's Flyveselskap AS",
-    "adresse": "Customer Relations\nLangstranda 6, Postbox 247\n8001 Bodø\nNorwegen"
+    "adresse": "Customer Relations\nLangstranda 6, Postbox 247\n8001 Bodø\nNorwegen",
+    "infobox": "Als norwegische Airline fällt Widerøe unter den EWR-Raum und wendet europäische Fluggastrechte an. Fällt ein Flug wegen extremem Winterwetter in Skandinavien aus, gilt dies zwar als außergewöhnlicher Umstand ohne Ausgleichszahlung, die Airline muss Sie aber trotzdem kostenlos auf den nächsten verfügbaren Flug umbuchen."
   },
   {
     "slug": "neos-air",
     "name": "Neos S.p.A.",
-    "adresse": "Via Della Chiesa 68\n21019 Somma Lombardo (Varese)\nItalien"
+    "adresse": "Via Della Chiesa 68\n21019 Somma Lombardo (Varese)\nItalien",
+    "infobox": "Die italienische Charter-Fluggesellschaft Neos Air unterliegt vollständig der EU-Regelung. Sollte Ihr Koffer verspätet eintreffen, kaufen Sie Ersatzbekleidung und Hygieneartikel ein – die Quittungen reichen Sie nach dem Urlaub ein, die Erstattungsobergrenze liegt nach dem Montrealer Übereinkommen bei ca. 1.500 Euro."
   },
-  
   {
     "slug": "binter-canarias",
     "name": "Binter Canarias S.A.",
-    "adresse": "Aeropuerto de Gran Canaria\nC/ La Paleta 6\n35230 Las Palmas\nSpanien"
+    "adresse": "Aeropuerto de Gran Canaria\nC/ La Paleta 6\n35230 Las Palmas\nSpanien",
+    "infobox": "Binter Canarias führt oft Inselhopper-Flüge auf den Kanaren durch. Da die Kanarischen Inseln spanisches Gebiet sind, gilt die EU-Fluggastrechteverordnung in vollem Umfang. Kurze Distanzen unter 1.500 km berechtigen bei über 3 Stunden Verspätung zu einer Zahlung von 250 Euro."
   },
-  
   {
     "slug": "transavia",
     "name": "Transavia France S.A.S.",
-    "adresse": "Coeur d’Orly – Bâtiment Belaïa\n7 avenue de l’Union\n94310 Orly\nFrankreich"
+    "adresse": "Coeur d’Orly – Bâtiment Belaïa\n7 avenue de l’Union\n94310 Orly\nFrankreich",
+    "infobox": "Transavia (eine Air France-KLM-Tochter) muss nach EU-Recht Steuern und Gebühren erstatten, wenn ein Passagier seinen Flug nicht antritt. Achtung: Airlines erheben in ihren AGB oft pauschale Bearbeitungsgebühren für die Stornierung. Gerichte haben solche Gebührenklauseln jedoch häufig für unwirksam erklärt."
   },
   {
     "slug": "play-airlines",
     "name": "PLAY airlines",
-    "adresse": "Suðurlandsbraut 14\n108 Reykjavik\nIsland"
+    "adresse": "Suðurlandsbraut 14\n108 Reykjavik\nIsland",
+    "infobox": "Island ist EWR-Staat, daher gilt für PLAY die europäische Fluggastrechteverordnung uneingeschränkt. Als Low-Cost-Carrier werden Passagiere oft mit strikten Vorgaben beim Handgepäck konfrontiert. Rechtlich sind Strafgebühren am Gate zulässig, sofern sie in den Beförderungsbedingungen transparent verankert sind."
   },
   {
     "slug": "air-cairo",
     "name": "Air Cairo",
-    "adresse": "Smart Village, Building B211\nKilo 28 Cairo Alexandria Desert Road\nGiza\nÄgypten"
+    "adresse": "Smart Village, Building B211\nKilo 28 Cairo Alexandria Desert Road\nGiza\nÄgypten",
+    "infobox": "Als Nicht-EU-Fluggesellschaft ist Air Cairo auf dem Rückflug von Ägypten nach Deutschland nicht an die EU-Verordnung 261/2004 gebunden. Verspätungen von Urlaubern zurück nach Europa begründen hier daher keinen Anspruch auf eine pauschale Kompensation."
   },
   {
     "slug": "arkia",
     "name": "Arkia Israeli Airlines Ltd.",
-    "adresse": "P.O. Box 39301\nTel Aviv 61392\nIsrael"
+    "adresse": "P.O. Box 39301\nTel Aviv 61392\nIsrael",
+    "infobox": "Neben den EU-Rechten für Flüge ab Europa können Fluggäste von Arkia auch Rechte aus dem israelischen Luftfahrtgesetz (Tibi Law) geltend machen. Dieses greift beispielsweise oft auch bei Verspätungen und Annullierungen von Rückflügen aus Tel Aviv."
   },
   {
     "slug": "georgian-airways",
     "name": "Georgian Airways",
-    "adresse": "Mittelgasse 2\n55130 Mainz\nDeutschland"
+    "adresse": "Mittelgasse 2\n55130 Mainz\nDeutschland",
+    "infobox": "Für die Fluggesellschaft aus Georgien gilt die EU-Fluggastrechteverordnung nur, wenn der Flug an einem EU-Flughafen startet. Auf Flügen aus Tiflis Richtung EU können keine Ansprüche nach EU-Recht bei Verspätung oder Flugausfall geltend gemacht werden."
   },
   {
     "slug": "air-arabia",
     "name": "Air Arabia PJSC",
-    "adresse": "Air Arabia Building\nSharjah International Airport\nP.O. Box 132\nVereinigte Arabische Emirate"
+    "adresse": "Air Arabia Building\nSharjah International Airport\nP.O. Box 132\nVereinigte Arabische Emirate",
+    "infobox": "Air Arabia ist in den VAE ansässig. Das bedeutet: Startet der Flug in Europa, haben Sie vollen Anspruch auf europäische Entschädigung bei Verspätungen. Startet die Reise in den VAE, entfallen diese Rechte. Gepäckprobleme regelt jedoch international das Montrealer Abkommen."
   },
   {
     "slug": "flyone",
     "name": "FLYONE",
-    "adresse": "bd. Dacia 80/3\nMD-2026 Chișinău\nMoldau"
+    "adresse": "bd. Dacia 80/3\nMD-2026 Chișinău\nMoldau",
+    "infobox": "Moldawien ist kein EU-Mitglied, allerdings gehört es zum Europäischen Luftverkehrsraum (ECAA), wodurch weite Teile der EU-Fluggastrechte angewendet werden. Prüfen Sie in jedem Einzelfall, ob das Abkommen greift, in jedem Fall aber bei Abflügen aus der EU."
   },
   {
     "slug": "nouvelair",
     "name": "Nouvelair Tunisie S.A.",
-    "adresse": "Zone Touristique Dkhila BP 66\n5065 Monastir\nTunesien"
+    "adresse": "Zone Touristique Dkhila BP 66\n5065 Monastir\nTunesien",
+    "infobox": "Bei der tunesischen Airline gelten die EU-Rechte nur auf dem Hinflug von Europa nach Nordafrika. Wird der Urlaub unterbrochen und der Rückflug nach Europa gestrichen, ist man nicht über die pauschalen Zahlungen der EU-Verordnung 261/2004 geschützt."
   },
   {
     "slug": "sky-express",
     "name": "SKY express S.A.",
-    "adresse": "Building 57, Athens International Airport\nSpata, Attica 19019\nGriechenland"
+    "adresse": "Building 57, Athens International Airport\nSpata, Attica 19019\nGriechenland",
+    "infobox": "Als griechische Fluggesellschaft ist SKY express an alle EU-Rechte gebunden. Bei Überbuchungen und unberechtigten Boarding-Verweigerungen stehen Ihnen 250 Euro (bei Flügen bis 1.500 km) sowie die Erstattung des Tickets oder ein Alternativflug zu."
   },
-
-  
   {
     "slug": "air-algerie",
     "name": "Air Algérie",
-    "adresse": "Friedensstraße 5\n60311 Frankfurt am Main\nDeutschland"
+    "adresse": "Friedensstraße 5\n60311 Frankfurt am Main\nDeutschland",
+    "infobox": "Die in Nordafrika ansässige Airline fällt für den Abflug aus der EU unter die EU-Fluggastrechteverordnung. Für den Rückflug von Algerien nach Europa gilt sie nicht. In beiden Richtungen gilt bei Gepäckverlust jedoch das Montrealer Übereinkommen mit Haftungshöchstgrenzen."
   },
-  
   {
     "slug": "air-seychelles",
     "name": "Air Seychelles Ltd",
-    "adresse": "P.O. Box 386\nPointe Larue, Mahé\nSeychellen"
+    "adresse": "P.O. Box 386\nPointe Larue, Mahé\nSeychellen",
+    "infobox": "Da die Seychellen nicht in der EU liegen, müssen Entschädigungen bei einem verspäteten Rückflug oft nach lokalem Recht oder den AGBs erstritten werden. Auf dem Weg von Europa auf die Inseln sind Passagiere jedoch komplett durch die EU-Verordnung geschützt."
   },
-  
   {
     "slug": "bulgaria-air",
     "name": "Bulgaria Air",
-    "adresse": "1, Brussels Blvd\nSofia Airport\n1540 Sofia\nBulgarien"
+    "adresse": "1, Brussels Blvd\nSofia Airport\n1540 Sofia\nBulgarien",
+    "infobox": "Bulgarien ist Mitglied der Europäischen Union, weshalb Bulgaria Air weltweit die EU-Fluggastrechte einhalten muss. Wird bei Inlands- oder Europaverbindungen das Gepäck beschädigt, muss dies innerhalb von 7 Tagen zwingend schriftlich gemeldet werden (Montrealer Übereinkommen)."
   },
-  
-  
-  
   {
     "slug": "air-mauritius",
     "name": "Air Mauritius Ltd. (GSA Deutschland/AT)",
-    "adresse": "Opernring 1 / Top E-439\n1010 Wien\nÖsterreich"
+    "adresse": "Opernring 1 / Top E-439\n1010 Wien\nÖsterreich",
+    "infobox": "Air Mauritius zahlt bei Flugverspätungen über drei Stunden auf Basis der EU-Verordnung 600 Euro (bei Langstrecke) – jedoch nur, wenn der Flug in Europa (z.B. Frankfurt oder Paris) startet. Auf dem Rückflug greift die europäische Regelung nicht."
   },
   {
     "slug": "aeromexico",
     "name": "Aerovías de México, S.A. de C.V.",
-    "adresse": "Paseo de la Reforma 445\nCuauhtémoc\n06500 Ciudad de México\nMexiko"
+    "adresse": "Paseo de la Reforma 445\nCuauhtémoc\n06500 Ciudad de México\nMexiko",
+    "infobox": "Als außereuropäische Airline unterliegt Aeromexico der Verordnung EG 261/2004 nur bei Abflug aus der EU. Bei reinen Inlandsflügen in Mexiko oder Rückflügen aus Mexiko nach Europa sind Reisende auf das mexikanische Konsumentenschutzgesetz für die Luftfahrt angewiesen."
   },
   {
     "slug": "avianca",
     "name": "Avianca",
-    "adresse": "c/o Aviareps AG\nKaiserstraße 77\n60329 Frankfurt am Main\nDeutschland"
+    "adresse": "c/o Aviareps AG\nKaiserstraße 77\n60329 Frankfurt am Main\nDeutschland",
+    "infobox": "Avianca ist eine lateinamerikanische Airline. Europäisches Fluggastrecht ist daher nur bei Start an einem europäischen Airport anwendbar. Im Falle eines selbst stornierten Tickets durch den Reisenden besteht unter gewissen Voraussetzungen nach deutschem Recht Anspruch auf Steuerrückerstattung."
   },
   {
     "slug": "andere-airline",
     "name": "Airlines",
-    "adresse": ""
+    "adresse": "",
+    "infobox": "Bei unbekannten oder hier nicht explizit gelisteten Airlines muss im Einzelfall geprüft werden: Hat die Airline ihren Sitz in der EU oder startet der Flug in der EU? Nur wenn mindestens eine dieser Bedingungen erfüllt ist, greift die großzügige EU-Fluggastrechteverordnung 261/2004."
   }
- 
-   
 ]
