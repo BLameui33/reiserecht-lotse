@@ -208,7 +208,7 @@ vermittler.forEach(v => {
             .replace(/\{\{VERANSTALTER_ADRESSE\}\}/g, inputAdresse)
             .replace(/\{\{DATEINAME\}\}/g, fName)
             .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks)
-            .replace(/\{\{VERMITTLER_INFOBOX\}\}/g, v.infobox || '');
+            .replace(/\{\{VERANSTALTER_INFOBOX\}\}/g, v.infobox || '');
     };
 
     fs.writeFileSync(path.join(outputDir, fPort), processTemplatePort(vermittlerTpl, fPort, crossHotelPort), 'utf8');
