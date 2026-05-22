@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Scandinavian Airlines System (SAS) Koffer verloren oder beschädigt | Schadensersatz-Generator (PDF)</title>
+  <title>Scandinavian Airlines System (SAS): Koffer weg? Schadensersatz fordern (PDF)</title>
 
   <meta name="description" content="Gepäck bei Scandinavian Airlines System (SAS) verspätet, beschädigt oder weg? Fordern Sie bis zu 1.600€ Schadensersatz nach dem Montrealer Übereinkommen. Kostenloses PDF.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -111,6 +111,8 @@
     <p><strong>Redaktionell geprüft am:</strong> <span id="pruefdatum">05.05.2026</span></p>
   </div>
 
+  
+
   <div class="lesson-learned-box" style="background: #f8f9fa; border-left: 4px solid #ffb300; padding: 15px 20px; margin: 30px 0; border-radius: 4px; display: flex; align-items: flex-start; gap: 15px; position: relative;">
   
   <!-- NEU: Diskreter Affiliate-Hinweis oben rechts -->
@@ -188,7 +190,7 @@ Schweden</textarea>
     <p class="submit-disclaimer">
         Mit Klick auf "PDF generieren" verstehen Sie, dass dieser automatisierte Service<br>keine Rechtsberatung darstellt und Sie die Forderung eigenverantwortlich stellen.
     </p>
-    <button type="submit" class="button-primary">📄 Gepäck-Forderung an Scandinavian Airlines System (SAS) generieren</button>
+    <button type="submit" id="submitBtn" class="button-primary">📄 Gepäck-Forderung generieren</button>
 </div>
   </form>
 
@@ -257,11 +259,11 @@ Schweden</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Weitere interessante Themen:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="koffer-verloren-beschaedigt-british-airways.html">British Airways Plc (Niederlassung Deutschland)</a>
-<a href="koffer-verloren-beschaedigt-srilankan-airlines.html">SriLankan Airlines</a>
-<a href="koffer-verloren-beschaedigt-aeromexico.html">Aerovías de México, S.A. de C.V.</a>
-<a href="koffer-verloren-beschaedigt-norwegian-air-shuttle.html">Norwegian Air Shuttle ASA</a>
-<a href="koffer-verloren-beschaedigt-corendon-airlines.html">Corendon Touristik GmbH</a>
+    <a href="koffer-verloren-beschaedigt-finnair.html">Finnair plc (Finnair Oyj)</a>
+<a href="koffer-verloren-beschaedigt-cathay-pacific.html">Cathay Pacific</a>
+<a href="koffer-verloren-beschaedigt-air-transat.html">Air Transat (Transat Tours Canada Inc.)</a>
+<a href="koffer-verloren-beschaedigt-air-seychelles.html">Air Seychelles Ltd</a>
+<a href="koffer-verloren-beschaedigt-china-southern-airlines.html">China Southern Airlines</a>
 
   </div>
 </div>
@@ -353,6 +355,31 @@ Schweden</textarea>
 </footer>
 
 <script>
+
+  /* ── Dynamischer Submit-Button (Conversion Booster) ── */
+document.getElementById('gSumme').addEventListener('input', function() {
+    let eingabe = parseFloat(this.value.replace(',', '.')); 
+    const btn = document.getElementById('submitBtn');
+    const defaultText = "📄 Gepäck-Forderung generieren";
+    
+    if (isNaN(eingabe) || eingabe <= 0) {
+        btn.innerText = defaultText;
+        btn.style.backgroundColor = ""; // Standardfarbe zurücksetzen
+    } else {
+        // Formatierung in deutsche Währungsschreibweise
+        let formattedSum = eingabe.toLocaleString('de-DE', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        btn.innerText = `📄 Jetzt ${formattedSum} € fordern (PDF)`;
+        
+        // Kleiner visueller "Puls"-Effekt beim Eintippen
+        btn.style.transform = "scale(1.02)";
+        btn.style.backgroundColor = "#2e7d32"; // Ein sattes Grün signalisiert "Geld"
+        
+        setTimeout(() => { 
+            btn.style.transform = "scale(1)";
+        }, 200);
+    }
+});
+
 document.getElementById('baggageForm').addEventListener('submit', function(e) {
     e.preventDefault();
     

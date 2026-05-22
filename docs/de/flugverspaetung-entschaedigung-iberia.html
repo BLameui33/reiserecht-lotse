@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>IBERIA LAE SA Operadora Unipersonal Entschädigung: Bis 600€ fordern (Ohne Provision!) | PDF</title>
+  <title>Bis 600€ IBERIA LAE SA Operadora Unipersonal Entschädigung: Ohne Provision!</title>
   <meta name="description" content="Flugverspätung oder Ausfall bei IBERIA LAE SA Operadora Unipersonal? Warum 30% Provision zahlen? Generieren Sie hier kostenlos den rechtssicheren Musterbrief und behalten Sie 100% Ihres Geldes.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- SEO & Internationalisierung -->
@@ -192,6 +192,11 @@ Spanien</textarea>
       </select>
     </fieldset>
 
+    <!-- Live-Rechner Box -->
+<div class="live-calc-box" style="background: #e8f5e9; border: 2px solid #aa3131; padding: 15px; text-align: center; border-radius: 8px; margin-bottom: 20px;">
+    <h3 style="margin: 0; color: #aa3131; font-size: 1.4em;">Voraussichtliche Entschädigung: <span id="liveAmount">250</span> €</h3>
+    <p style="margin: 5px 0 0; font-size: 0.95em; color: #555;">(100% für Sie – 0 € Provision an Dritte)</p>
+</div>
 
     <div class="submit-area">
     <p class="submit-disclaimer">
@@ -251,11 +256,11 @@ Spanien</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Weitere interessante Themen:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="flugverspaetung-entschaedigung-vietnam-airlines.html">Vietnam Airlines</a>
-<a href="flugverspaetung-entschaedigung-korean-air.html">Korean Air</a>
-<a href="flugverspaetung-entschaedigung-andere-airline.html">Airlines</a>
-<a href="flugverspaetung-entschaedigung-aer-lingus.html">Aer Lingus</a>
-<a href="flugverspaetung-entschaedigung-georgian-airways.html">Georgian Airways</a>
+    <a href="flugverspaetung-entschaedigung-lot-polish-airlines.html">LOT Polish Airlines</a>
+<a href="flugverspaetung-entschaedigung-binter-canarias.html">Binter Canarias S.A.</a>
+<a href="flugverspaetung-entschaedigung-eva-air.html">EVA Airways Corp.</a>
+<a href="flugverspaetung-entschaedigung-nouvelair.html">Nouvelair Tunisie S.A.</a>
+<a href="flugverspaetung-entschaedigung-japan-airlines.html">Japan Airlines Co., Ltd. (JAL)</a>
 
   </div>
 </div>
@@ -391,8 +396,25 @@ document.getElementById('fAnzahl').addEventListener('change', function() {
   }
 });
 
+/* ── Live-Rechner Update ── */
+function updateLiveCalc() {
+  const anzahl = parseInt(document.getElementById('fAnzahl').value) || 1;
+  const distanz = parseInt(document.getElementById('fDistanz').value) || 250;
+  const gesamt = anzahl * distanz;
+  
+  const liveAmountEl = document.getElementById('liveAmount');
+  liveAmountEl.innerText = gesamt;
+  
+  // Kleiner visueller Effekt beim Aktualisieren
+  liveAmountEl.style.color = '#ff9800';
+  setTimeout(() => { liveAmountEl.style.color = '#2e7d32'; }, 300);
+}
+
+document.getElementById('fAnzahl').addEventListener('change', updateLiveCalc);
+document.getElementById('fDistanz').addEventListener('change', updateLiveCalc);
+
 /* ══════════════════════════════════════════
-   ▶▶ IHRE PAYPAL-E-MAIL HIER EINTRAGEN ◀◀
+   ▶▶  PAYPAL-E-MAIL HIER EINTRAGEN ◀◀
    ══════════════════════════════════════════ */
 const PAYPAL_EMAIL = 'info@kassen-lotse.de';
 

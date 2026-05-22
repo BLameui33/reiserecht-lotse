@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Widerøe's Flyveselskap AS Entschädigung: Bis 600€ fordern (Ohne Provision!) | PDF</title>
+  <title>Bis 600€ Widerøe's Flyveselskap AS Entschädigung: Ohne Provision!</title>
   <meta name="description" content="Flugverspätung oder Ausfall bei Widerøe's Flyveselskap AS? Warum 30% Provision zahlen? Generieren Sie hier kostenlos den rechtssicheren Musterbrief und behalten Sie 100% Ihres Geldes.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- SEO & Internationalisierung -->
@@ -193,6 +193,11 @@ Norwegen</textarea>
       </select>
     </fieldset>
 
+    <!-- Live-Rechner Box -->
+<div class="live-calc-box" style="background: #e8f5e9; border: 2px solid #aa3131; padding: 15px; text-align: center; border-radius: 8px; margin-bottom: 20px;">
+    <h3 style="margin: 0; color: #aa3131; font-size: 1.4em;">Voraussichtliche Entschädigung: <span id="liveAmount">250</span> €</h3>
+    <p style="margin: 5px 0 0; font-size: 0.95em; color: #555;">(100% für Sie – 0 € Provision an Dritte)</p>
+</div>
 
     <div class="submit-area">
     <p class="submit-disclaimer">
@@ -252,11 +257,11 @@ Norwegen</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Weitere interessante Themen:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="flugverspaetung-entschaedigung-air-new-zealand.html">Air New Zealand</a>
-<a href="flugverspaetung-entschaedigung-ethiopian-airlines.html">Ethiopian Airlines S.C.</a>
-<a href="flugverspaetung-entschaedigung-luxair.html">Luxair S.A.</a>
+    <a href="flugverspaetung-entschaedigung-american-airlines.html">American Airlines</a>
+<a href="flugverspaetung-entschaedigung-korean-air.html">Korean Air</a>
+<a href="flugverspaetung-entschaedigung-georgian-airways.html">Georgian Airways</a>
 <a href="flugverspaetung-entschaedigung-smartwings.html">Smartwings a.s.</a>
-<a href="flugverspaetung-entschaedigung-sky-express.html">SKY express S.A.</a>
+<a href="flugverspaetung-entschaedigung-united-airlines.html">United Airlines, Inc.</a>
 
   </div>
 </div>
@@ -392,8 +397,25 @@ document.getElementById('fAnzahl').addEventListener('change', function() {
   }
 });
 
+/* ── Live-Rechner Update ── */
+function updateLiveCalc() {
+  const anzahl = parseInt(document.getElementById('fAnzahl').value) || 1;
+  const distanz = parseInt(document.getElementById('fDistanz').value) || 250;
+  const gesamt = anzahl * distanz;
+  
+  const liveAmountEl = document.getElementById('liveAmount');
+  liveAmountEl.innerText = gesamt;
+  
+  // Kleiner visueller Effekt beim Aktualisieren
+  liveAmountEl.style.color = '#ff9800';
+  setTimeout(() => { liveAmountEl.style.color = '#2e7d32'; }, 300);
+}
+
+document.getElementById('fAnzahl').addEventListener('change', updateLiveCalc);
+document.getElementById('fDistanz').addEventListener('change', updateLiveCalc);
+
 /* ══════════════════════════════════════════
-   ▶▶ IHRE PAYPAL-E-MAIL HIER EINTRAGEN ◀◀
+   ▶▶  PAYPAL-E-MAIL HIER EINTRAGEN ◀◀
    ══════════════════════════════════════════ */
 const PAYPAL_EMAIL = 'info@kassen-lotse.de';
 
