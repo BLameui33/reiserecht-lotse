@@ -1,0 +1,330 @@
+[
+  {
+    "slug": "schweiz",
+    "name": "Suisse",
+    "roaming_kosten": "1,49 €",
+    "esim_preis": "4,50 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "tuerkei",
+    "name": "Turquie",
+    "roaming_kosten": "0,99 €",
+    "esim_preis": "4,50 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "aegypten",
+    "name": "Égypte",
+    "roaming_kosten": "1,99 €",
+    "esim_preis": "7,00 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "usa",
+    "name": "USA",
+    "roaming_kosten": "1,49 €",
+    "esim_preis": "4,50 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "thailand",
+    "name": "Thaïlande",
+    "roaming_kosten": "1,99 €",
+    "esim_preis": "9,90 $",
+    "datenvolumen": "Illimité pendant 8 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "grossbritannien",
+    "name": "Grande-Bretagne",
+    "roaming_kosten": "0,99 €",
+    "esim_preis": "5,00 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "japan",
+    "name": "Japon",
+    "roaming_kosten": "1,49 €",
+    "esim_preis": "4,50 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "vae",
+    "name": "Émirats arabes unis",
+    "roaming_kosten": "1,99 €",
+    "esim_preis": "8,50 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "kreuzfahrt",
+    "name": "Croisière (navire)",
+    "roaming_kosten": "jusqu'à 30,00 €",
+    "esim_preis": "9,50 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "australien",
+    "name": "Australie",
+    "roaming_kosten": "1,49 €",
+    "esim_preis": "4,50 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "kanada",
+    "name": "Canada",
+    "roaming_kosten": "1,49 €",
+    "esim_preis": "6,00 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "neuseeland",
+    "name": "Nouvelle-Zélande",
+    "roaming_kosten": "1,49 €",
+    "esim_preis": "4,50 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "suedafrika",
+    "name": "Afrique du Sud",
+    "roaming_kosten": "1,99 €",
+    "esim_preis": "5,00 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "marokko",
+    "name": "Maroc",
+    "roaming_kosten": "1,99 €",
+    "esim_preis": "8,00 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "tunesien",
+    "name": "Tunisie",
+    "roaming_kosten": "1,99 €",
+    "esim_preis": "7,50 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "dominikanische-republik",
+    "name": "République dominicaine",
+    "roaming_kosten": "2,49 €",
+    "esim_preis": "9,50 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "mexiko",
+    "name": "Mexique",
+    "roaming_kosten": "1,99 €",
+    "esim_preis": "8,00 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "malediven",
+    "name": "Maldives",
+    "roaming_kosten": "2,99 €",
+    "esim_preis": "17,00 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "indonesien",
+    "name": "Indonésie (Bali)",
+    "roaming_kosten": "1,49 €",
+    "esim_preis": "5,50 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "vietnam",
+    "name": "Vietnam",
+    "roaming_kosten": "1,49 €",
+    "esim_preis": "4,50 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "singapur",
+    "name": "Singapour",
+    "roaming_kosten": "1,49 €",
+    "esim_preis": "4,50 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "malaysia",
+    "name": "Malaisie",
+    "roaming_kosten": "1,49 €",
+    "esim_preis": "4,50 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "philippinen",
+    "name": "Philippines",
+    "roaming_kosten": "1,99 €",
+    "esim_preis": "4,50 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "suedkorea",
+    "name": "Corée du Sud",
+    "roaming_kosten": "1,49 €",
+    "esim_preis": "4,50 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "china",
+    "name": "Chine",
+    "roaming_kosten": "1,99 €",
+    "esim_preis": "5,00 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "indien",
+    "name": "Inde",
+    "roaming_kosten": "1,99 €",
+    "esim_preis": "4,50 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "brasilien",
+    "name": "Brésil",
+    "roaming_kosten": "1,99 €",
+    "esim_preis": "7,00 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "argentinien",
+    "name": "Argentine",
+    "roaming_kosten": "1,99 €",
+    "esim_preis": "6,00 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "chile",
+    "name": "Chili",
+    "roaming_kosten": "1,99 €",
+    "esim_preis": "7,00 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "peru",
+    "name": "Pérou",
+    "roaming_kosten": "1,99 €",
+    "esim_preis": "6,00 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "kolumbien",
+    "name": "Colombie",
+    "roaming_kosten": "1,99 €",
+    "esim_preis": "7,00 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "costa-rica",
+    "name": "Costa Rica",
+    "roaming_kosten": "2,49 €",
+    "esim_preis": "8,50 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "jamaika",
+    "name": "Jamaïque",
+    "roaming_kosten": "2,49 €",
+    "esim_preis": "9,50 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "bahamas",
+    "name": "Bahamas",
+    "roaming_kosten": "2,49 €",
+    "esim_preis": "9,50 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "mauritius",
+    "name": "Maurice",
+    "roaming_kosten": "2,99 €",
+    "esim_preis": "9,50 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "seychellen",
+    "name": "Seychelles",
+    "roaming_kosten": "2,99 €",
+    "esim_preis": "9,50 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "sri-lanka",
+    "name": "Sri Lanka",
+    "roaming_kosten": "1,99 €",
+    "esim_preis": "4,50 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "kenia",
+    "name": "Kenya",
+    "roaming_kosten": "1,99 €",
+    "esim_preis": "5,00 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "tansania",
+    "name": "Tanzanie",
+    "roaming_kosten": "1,99 €",
+    "esim_preis": "4,50 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "serbien",
+    "name": "Serbie",
+    "roaming_kosten": "0,99 €",
+    "esim_preis": "4,50 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  },
+  {
+    "slug": "albanien",
+    "name": "Albanie",
+    "roaming_kosten": "0,99 €",
+    "esim_preis": "4,50 $",
+    "datenvolumen": "1 GB pour 7 jours",
+    "affiliate_link": "https://airalo.pxf.io/c/DEIN_AFFILIATE_CODE"
+  }
+]

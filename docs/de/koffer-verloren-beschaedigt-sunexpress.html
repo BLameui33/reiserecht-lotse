@@ -144,6 +144,9 @@
 60549 Frankfurt am Main
 Deutschland</textarea>
     </fieldset>
+    <p style="font-size: 0.8em; color: #666; margin-top: 5px; line-height: 1.3;">
+  💡 <strong>Hinweis:</strong> Standardmäßig wird hier die zentrale oder regionale Adresse des Anbieters angezeigt. Sie können diese Adresse jederzeit ändern und stattdessen die Adresse der lokalen Niederlassung in Ihrem Land eingeben.
+</p>
 
     <fieldset>
       <legend>2. Ihre Daten</legend>
@@ -260,11 +263,11 @@ Deutschland</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Weitere interessante Themen:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="koffer-verloren-beschaedigt-binter-canarias.html">Binter Canarias S.A.</a>
-<a href="koffer-verloren-beschaedigt-united-airlines.html">United Airlines, Inc.</a>
-<a href="koffer-verloren-beschaedigt-air-cairo.html">Air Cairo</a>
-<a href="koffer-verloren-beschaedigt-condor.html">Condor Flugdienst GmbH</a>
-<a href="koffer-verloren-beschaedigt-aer-lingus.html">Aer Lingus</a>
+    <a href="koffer-verloren-beschaedigt-air-canada.html">Air Canada</a>
+<a href="koffer-verloren-beschaedigt-qantas-airways.html">Qantas Airways Limited</a>
+<a href="koffer-verloren-beschaedigt-swiss.html">Swiss International Air Lines AG</a>
+<a href="koffer-verloren-beschaedigt-emirates.html">Emirates</a>
+<a href="koffer-verloren-beschaedigt-kenya-airways.html">Kenya Airways</a>
 
   </div>
 </div>
@@ -471,6 +474,18 @@ function writeLines(doc, lines, startY, lh = lineH) {
         y += lh;
     }
     return y;
+}
+
+// Schadenstext basierend auf der Auswahl definieren
+let schadensText;
+const gArtValue = document.getElementById('gArt').value;
+
+if (gArtValue === 'DELAY') {
+    schadensText = `Mein Gepäck kam verspätet am Zielort an (Flug: ${fFlug}). Durch die Verspätung war ich gezwungen, dringend benötigte Gegenstände vor Ort zu kaufen (Notkäufe). Die entsprechenden Belege liegen diesem Schreiben als Kopien bei. Die Meldung des Schadens erfolgte fristgerecht unter der PIR-Nummer ${gPIR}.`;
+} else if (gArtValue === 'DAMAGE') {
+    schadensText = `Mein Gepäckstück wurde während der Beförderung durch ${airline} beschädigt (Flug: ${fFlug}). Der Schaden wurde umgehend am Flughafen unter der PIR-Nummer ${gPIR} gemeldet. Eine detaillierte Schadensaufstellung sowie Fotos der Beschädigungen liegen diesem Schreiben bei.`;
+} else if (gArtValue === 'LOST') {
+    schadensText = `Mein aufgegebenes Gepäck ist im Rahmen des Fluges ${fFlug} verloren gegangen. Seit mehr als 21 Tagen ist das Gepäckstück trotz Meldung unter der PIR-Nummer ${gPIR} nicht aufgefunden worden und gilt daher gemäß Art. 17 MÜ als endgültig verloren. Eine detaillierte Aufstellung des Inhalts und der entsprechenden Zeitwerte liegt diesem Schreiben bei.`;
 }
 
 let yPos = 135;

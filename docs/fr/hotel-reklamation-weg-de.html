@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>BravoNext SA (weg.de) Réclamation : signaler les défauts de l’hôtel (PDF)</title>
+
+  <meta name="description" content="Des défauts d’hôtel lors d’un voyage réservé via BravoNext SA (weg.de) ? Générez un PDF juridiquement sûr, envoyez-le au portail et demandez un remboursement.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+  
+  <!-- SEO & Internationalisierung -->
+  <link rel="canonical" href="https://www.fix-my-trip.com/fr/hotel-reklamation-weg-de.html">
+  <link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/hotel-reklamation-weg-de.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/fr/hotel-reklamation-weg-de.html">
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Générateur PDF : faire valoir vos droits auprès de BravoNext SA (weg.de)",
+    "applicationCategory": "LegalApplication",
+    "operatingSystem": "All",
+    "description": "Outil gratuit pour calculer les indemnisations et créer un modèle de lettre juridique à {{AIRLINE_NAME}}.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+    }
+  }
+  </script>
+
+  <!-- Neues FAQ Schema für bessere Google Rankings (Rich Snippets) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "À qui dois-je demander le remboursement en cas de réduction ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Le versement du remboursement calculé (sur la base des barèmes européens de réduction de prix) est finalement effectué par le véritable organisateur du voyage. Même si vous déposez la lettre de réclamation juridiquement valable via le portail de réservation, c’est l’organisateur qui traite le paiement. Indiquez donc toujours directement votre IBAN dans la lettre."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Dois-je aussi avoir signalé le défaut sur place ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Oui, c’est impératif ! L’obligation légale de signaler les défauts sur place demeure (Article L. 211-16 du Code du tourisme). Vous devez laisser à la direction locale du voyage ou à la réception de l’hôtel la possibilité de corriger le défaut (par exemple en changeant de chambre) avant de pouvoir réclamer un remboursement a posteriori."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Combien de temps ai-je pour déposer une réclamation pour défauts de voyage ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Selon les règles françaises applicables aux voyages à forfait et conformément aux dispositions du Code de la consommation, le délai de prescription pour introduire une action en diminution de prix ou en dommages-intérêts est généralement de deux ans. Nous recommandons néanmoins de déposer la réclamation immédiatement après le retour de vacances, tant que toutes les preuves et tous les souvenirs sont encore frais."
+        }
+      }
+    }
+  }
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+  <span style="font-size: 0.9em; color: #666;">Vos droits pour les voyages à forfait</span>
+</header>
+
+<div class="page-container">
+
+  <!-- Above the Fold: Klare Vorteils-Kommunikation und Problemlösung -->
+  <h1>Réclamer des défauts d’hôtel auprès de BravoNext SA (weg.de) : récupérez votre argent</h1>
+
+  <div class="back-to-hub-banner">
+  <a href="hotel-maengel-info.html">
+    <span class="arrow">&larr;</span> Retour à l’aperçu : tous les organisateurs et portails
+  </a>
+</div>
+  
+  <div class="usp-bar">
+    <div class="usp-item">« Hack » de portail légal (Code du tourisme)</div>
+    <div class="usp-item">Basé sur les barèmes de réduction officiels</div>
+    <div class="usp-item">Modèle de lettre juridiquement précis</div>
+    <div class="usp-item">100 % gratuit</div>
+  </div>
+
+  <p>Bruit de chantier, nourriture immangeable ou piscine sale ? Si les vacances tant attendues tournent à la déception, vous avez droit à une indemnisation. Utilisez notre générateur de réclamation gratuit pour calculer les taux de réduction usuels et créer une lettre juridiquement sûre à envoyer directement à votre portail de réservation <strong>BravoNext SA (weg.de)</strong>.</p>
+
+  <div class="info-box blue">
+    <strong>Information juridique :</strong> Vous avez réservé votre voyage via <strong>BravoNext SA (weg.de)</strong>, mais le véritable organisateur est par exemple TUI ou un autre tour-opérateur ? Vous n’avez pas besoin de chercher laborieusement l’adresse de l’organisateur. La loi sur les voyages à forfait vous permet d’envoyer votre réclamation directement au portail de réservation (BravoNext SA (weg.de)). Le portail est légalement tenu de la transmettre sans délai !
+  </div>
+
+  <div class="info-box warning">
+    <strong>Important concernant les preuves :</strong> Comme BravoNext SA (weg.de) doit d’abord transmettre la lettre en interne à l’organisateur compétent, la procédure peut prendre quelques jours de plus. Notez également impérativement ceci : vous ne pouvez réclamer un remboursement a posteriori que si vous avez déjà signalé le défaut <strong>sur place à la direction locale du voyage ou au prestataire</strong>.
+  </div>
+
+  <div class="legal-info-box">
+    <strong>Important concernant l’utilisation</strong><br>
+    Cet outil est un <strong>générateur automatisé de lettre type</strong> (aide à l’auto-assistance). Il insère simplement vos données dans des modèles juridiques standard. Il n’effectue <strong>aucun examen individuel</strong> de votre cas. Ce service gratuit ne remplace pas un conseil juridique d’un professionnel du droit. L’utilisation se fait sous votre propre responsabilité ; aucune garantie de succès n’est accordée.
+</div>
+
+  <div class="highlight-box pruefdatum-box" role="note" aria-label="Vérifié par la rédaction" style="margin-top: 15px; margin-bottom: 30px;">
+    <p><strong>Vérifié par la rédaction le :</strong> <span id="pruefdatum">05.05.2026</span></p>
+  </div>
+
+  <div class="lesson-learned-box" style="background: #f8f9fa; border-left: 4px solid #ffb300; padding: 15px 20px; margin: 30px 0; border-radius: 4px; display: flex; align-items: flex-start; gap: 15px; position: relative;">
+  
+  <!-- NEU: Diskreter Affiliate-Hinweis oben rechts -->
+  <span style="font-size: 0.7rem; color: #666; background: #eee; padding: 2px 6px; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.05em; position: absolute; top: 10px; right: 10px;">
+    Publicité
+  </span>
+
+  <div style="font-size: 2em; line-height: 1;">💡</div>
+  <div>
+    <h4 style="margin: 0 0 5px 0; color: #333; font-size: 1.1em; padding-right: 60px;">Astuce pour le prochain voyage</h4>
+    <p style="margin: 0 0 10px 0; font-size: 0.95em; color: #555;">
+      L’hôtel était un cauchemar et vous avez dû changer de réservation sur place ? Avec de vraies cartes de crédit voyage, vous pouvez non seulement payer l’hôtel de remplacement à l’étranger sans frais, mais aussi disposer souvent d’un atout grâce à la procédure de chargeback (rétrofacturation) si le prestataire initial refuse le remboursement.
+    </p>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #891818; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">
+      Comparer les meilleures cartes de crédit voyage (gratuites)
+    </a>
+  </div>
+</div>
+
+  <!-- Der Formular-Bereich (Struktur & IDs unangetastet für JS) -->
+  <form id="hotelForm">
+    <fieldset style="border-color: #ff9800; background: #fffdf7;">
+      <legend style="background: #ff9800; color: #333;">1. Portail de voyage (destinataire)</legend>
+      <label>Portail / intermédiaire :</label>
+      <input type="text" id="aName" value="BravoNext SA (weg.de)" required>
+      <label>Adresse du portail :</label>
+      <textarea id="aAdresse" rows="3" required>Vicolo de’ Calvi 2
+6830 Chiasso
+Suisse</textarea>
+    </fieldset>
+    <p style="font-size: 0.8em; color: #666; margin-top: 5px; line-height: 1.3;">
+  💡 <strong>Remarque :</strong> L'adresse centrale ou régionale du prestataire est indiquée ici par défaut. Vous pouvez modifier cette adresse à tout moment et saisir celle de la succursale locale dans votre pays.
+</p>
+
+    <fieldset>
+      <legend>2. Les données du voyage</legend>
+      <label style="color: var(--danger);">Organisateur réel du voyage (p. ex. TUI, Alltours, FTI - voir la réservation) :</label>
+      <input type="text" id="fVeranstalter" placeholder="p. ex. FTI Touristik GmbH" required>
+      
+      <label>Numéro de réservation / dossier :</label>
+      <input type="text" id="fBuchung" placeholder="p. ex. 12345678" required>
+      
+      <label>Nom de l’hôtel et lieu de vacances :</label>
+      <input type="text" id="fHotel" placeholder="p. ex. Hotel Sunshine, Mallorca" required>
+      
+      <label>Période du voyage (du - au) :</label>
+      <input type="text" id="fZeitraum" placeholder="p. ex. 01.08.2026 - 14.08.2026" required>
+      
+      <label style="color: var(--primary);">Prix total du voyage (en euros) :</label>
+      <input type="number" step="0.01" id="fPreis" placeholder="p. ex. 2500" required>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. Calculateur de défauts (selon la jurisprudence européenne)</legend>
+      <p style="font-size: 0.9em; color: #666; margin-top: 0;">Sélectionnez les défauts concernés. Nous calculons le taux de réduction usuel dans le secteur.</p>
+      
+      <div class="checkbox-group" id="mangelCheckboxes">
+        <label><input type="checkbox" value="20" data-text="Bruit de chantier important dans/à l’hôtel"> Bruit de chantier important (réduction de 20 %)</label>
+        <label><input type="checkbox" value="10" data-text="Absence de vue sur la mer alors qu’elle était contractuellement garantie"> Absence de vue sur la mer (réduction de 10 %)</label>
+        <label><input type="checkbox" value="15" data-text="Piscine hors service ou fortement sale"> Piscine inutilisable / sale (réduction de 15 %)</label>
+        <label><input type="checkbox" value="20" data-text="Nourriture de mauvaise qualité, avariée ou très insuffisante"> Nourriture mauvaise, immangeable (réduction de 20 %)</label>
+        <label><input type="checkbox" value="15" data-text="Nuisibles dans la chambre (p. ex. cafards)"> Nuisibles dans la chambre (réduction de 15 %)</label>
+        <label><input type="checkbox" value="10" data-text="Panne de la climatisation"> Climatisation en panne (réduction de 10 %)</label>
+        <label><input type="checkbox" value="50" data-text="Hébergement dans un hôtel complètement différent (surbooking)"> Hébergement dans le mauvais hôtel (réduction de 50 %)</label>
+      </div>
+
+      <div class="calc-banner">
+        Votre demande de remboursement calculée :<br>
+        <span id="liveAmount">0,00 €</span>
+        <div style="font-size: 0.5em; font-weight: normal; margin-top: 5px;">(Taux de réduction : <span id="livePercent">0</span>%)</div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>4. Vos données et coordonnées bancaires</legend>
+      <label>Votre prénom et nom (réservataire principal) :</label>
+      <input type="text" id="sName" placeholder="p. ex. Max Mustermann" required>
+      <label>Rue et numéro :</label>
+      <input type="text" id="sStrasse" placeholder="p. ex. Musterstraße 1" required>
+      <label>Code postal et ville :</label>
+      <input type="text" id="sPLZOrt" placeholder="p. ex. 12345 Berlin" required>
+      <label>IBAN pour le remboursement :</label>
+      <input type="text" id="bIBAN" placeholder="FR..." required>
+    </fieldset>
+
+    <div class="submit-area">
+    <p class="submit-disclaimer">
+        En cliquant sur « Générer le PDF », vous comprenez que ce service automatisé<br>ne constitue pas un conseil juridique et que vous formulez la demande sous votre propre responsabilité.
+    </p>
+    <button type="submit" class="button-primary">📄 Générer le PDF de réclamation à BravoNext SA (weg.de)</button>
+</div>
+  </form>
+
+  <!-- Umfassender SEO Content Bereich -->
+  <div class="seo-content">
+    <h2>Signaler correctement les défauts de voyage pour une réservation via BravoNext SA (weg.de)</h2>
+    <p>Réserver un voyage à forfait via de grandes agences de voyage en ligne comme <strong>BravoNext SA (weg.de)</strong> est pratique et populaire. Mais que se passe-t-il lorsque, sur place, rien n’est conforme à ce qui avait été promis dans le catalogue ? Si la chambre d’hôtel est infestée de moisissures, si le bruit du chantier vous empêche de dormir ou si le buffet est immangeable, vous avez droit à une réduction du prix du voyage. Autrefois, il était souvent compliqué de trouver le bon interlocuteur juridique. Grâce à la législation française transposant la directive européenne sur les voyages à forfait, la situation est désormais nettement plus favorable aux consommateurs.</p>
+
+    <h3>Le Code du tourisme français : votre atout contre le jeu du ping-pong</h3>
+    <p>Par le passé, les portails de voyage rejetaient volontiers les réclamations avec la formule standard : « Nous ne sommes que l’intermédiaire, adressez-vous à l’organisateur ». La loi a mis fin à ce jeu de ping-pong frustrant. En France, l’article L. 211-16 du Code du tourisme prévoit une responsabilité de plein droit. Les signalements de défauts de voyage et les demandes de remboursement peuvent désormais être déposés avec pleine valeur juridique directement auprès de l’intermédiaire de voyage (donc auprès de BravoNext SA (weg.de)). Le portail agit comme destinataire officiel et est légalement tenu de transmettre sans délai votre lettre à l’organisateur réel du voyage. Utilisez ce levier juridique pour éviter la recherche fastidieuse de l’adresse.</p>
+
+    <h3>Indemnisation et réduction de prix : combien d’argent puis-je obtenir ?</h3>
+    <p>Notre calculateur se base sur les barèmes de réduction reconnus et appliqués de manière standard au niveau européen. En droit français, le voyageur a droit à une réduction de prix appropriée pour toute période de non-conformité des services fournis. Ainsi, une absence de vue sur la mer contractuellement garantie justifie généralement une réduction de 10 %, tandis qu’un bruit de chantier important ou une panne de climatisation peuvent représenter jusqu’à 20 % du prix journalier du voyage. En utilisant notre outil, vous réclamez des montants réalistes et proportionnels, fondés sur la jurisprudence établie, ce qui évite que vos demandes soient ignorées ou rejetées pour cause d'exagération.</p>
+
+    <!-- FAQ Bereich (Strukturiertes Markup) -->
+    <div class="faq-section">
+      <h2>Questions fréquentes (FAQ) sur la réduction du prix du voyage</h2>
+      
+      <details>
+        <summary>À qui dois-je demander le remboursement en cas de réduction ?</summary>
+        <p>Le versement du remboursement calculé est finalement effectué par le véritable organisateur du voyage. Même si vous déposez la lettre de réclamation juridiquement valable via le portail de réservation (BravoNext SA (weg.de)), c’est l’organisateur qui traite le paiement. Indiquez donc toujours directement votre IBAN dans la lettre.</p>
+      </details>
+
+      <details>
+        <summary>Dois-je aussi avoir signalé le défaut sur place ?</summary>
+        <p>Oui, c’est extrêmement important ! L’obligation légale de signaler les défauts <em>sur place</em> et sans retard injustifié demeure impérative conformément au Code du tourisme. Vous devez laisser à la direction locale du voyage de l’organisateur ou à la réception de l’hôtel la possibilité de corriger le défaut (par exemple en changeant de chambre ou en effectuant une réparation). À défaut, vous risquez de perdre votre droit à une indemnisation financière a posteriori.</p>
+      </details>
+
+      <details>
+        <summary>Combien de temps ai-je pour déposer ma réclamation ?</summary>
+        <p>En vertu des règles de prescription applicables aux actions de consommation et aux contrats de voyage en France, vous disposez généralement d’un délai allant jusqu’à <strong>deux ans</strong> pour faire valoir vos droits en justice. Néanmoins, les experts recommandent vivement de déposer la demande immédiatement après le retour, accompagnée de photos, de vidéos et de témoignages, afin de pouvoir prouver les faits de manière complète.</p>
+      </details>
+    </div>
+  </div>
+
+  <div class="airline-hinweisbox">
+    <h3>Informations importantes sur les remboursements chez BravoNext SA (weg.de)</h3>
+    <p>La société d’exploitation suisse de weg.de agit en tant qu’intermédiaire. Comme le voyagiste réservé est responsable de l’exécution des vacances, les réclamations urgentes pour défaut doivent impérativement être déposées directement sur place auprès de son représentant de voyage afin de sécuriser d’éventuels droits à réduction selon le tableau de Francfort.</p>
+</div>
+
+<div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
+  <h3>Autres sujets intéressants :</h3>
+  <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="hotel-reklamation-check24.html">CHECK24 Vergleichsportal Reise GmbH</a>
+<a href="hotel-reklamation-edreams.html">Vacaciones eDreams, S.L.</a>
+<a href="hotel-reklamation-secret-escapes.html">Secret Escapes GmbH</a>
+<a href="hotel-reklamation-aldi-reisen.html">ALDI Reisen (Vermittler)</a>
+<a href="hotel-reklamation-nix-wie-weg.html">Nix-wie-weg.de GmbH & Co. KG</a>
+
+  </div>
+</div>
+<aside class="legal-sources-box" aria-labelledby="sources-title-hotel">
+    <h3 id="sources-title-hotel" class="sources-heading">Bases juridiques et directives reconnues</h3>
+    <p class="sources-intro">
+        Les signalements de défauts et les demandes de réduction de prix dans ce générateur s’appuient sur le droit applicable aux voyages à forfait ainsi que sur la législation nationale en vigueur :
+    </p>
+    <ul class="sources-list">
+        <li>
+            <strong>Code du tourisme français – Responsabilité de plein droit (Articles L. 211-16 et suivants)</strong>: 
+            Le Code du tourisme français régit en détail les obligations de l’organisateur et du détaillant. Les dispositions relatives à la non-conformité du voyage à forfait et le droit à une réduction de prix proportionnelle constituent la base juridique de votre demande de remboursement.
+            <br>
+            <a href="https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074073/LEGISCTA000006158401/" target="_blank" rel="noopener noreferrer" class="source-link">
+                Texte officiel sur Legifrance.gouv.fr (Code du tourisme)
+            </a>
+        </li>
+        <li>
+            <strong>Directive européenne (UE) 2015/2302 relative aux voyages à forfait</strong>: 
+            Cette directive harmonise les droits des voyageurs au sein de l’Union européenne. Elle garantit l’harmonisation des règles de réduction des prix en cas de prestations défectueuses et permet d’adresser les réclamations directement auprès du détaillant (le portail de réservation).
+            <br>
+            <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32015L2302" target="_blank" rel="noopener noreferrer" class="source-link">
+                Texte de la directive officielle (EUR-Lex)
+            </a>
+        </li>
+    </ul>
+</aside>
+</div>
+
+<div class="trust-section">
+    <h3>Expertise en droit du voyage et des passagers</h3>
+    <p class="trust-text">
+        Nos guides et générateurs reposent sur une analyse rigoureuse des règlements européens en vigueur (comme la directive relative aux voyages à forfait et le règlement CE 261/2004) et du droit national de la consommation. 
+        Ils sont développés par Marc (direction du projet) et son équipe afin de permettre aux voyageurs de faire valoir leurs droits de manière juridiquement sûre face aux professionnels du voyage et du transport.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Important : nos outils offrent une aide à l’auto-assistance en cas de défauts d’hôtel, de retards de vol ou d’annulations. Ils ne remplacent pas un conseil juridique individuel par un avocat.
+        </span>
+    </p>
+
+    <a href="ueber-uns.html" class="trust-link">
+        Découvrir les détails de notre méthodologie juridique et de notre rédaction →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Un problème avec le vol, le train ou l’hôtel ?</strong><br>
+        Fix-My-Trip examine en quelques étapes votre droit à une indemnisation, au remboursement du billet ou à une réduction du prix du voyage. <br>
+        <em>Un service du réseau des portails Lotse.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Vous avez trouvé une erreur dans l’outil ?</strong> Comme nous sommes un portail automatisé et ne fournissons pas de conseil juridique individuel, votre aide nous est très précieuse si vous signalez des bugs ou des prestataires obsolètes : 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Envoyer un retour à notre siège</a>.
+</p>
+</div>
+
+<section class="site-niche-directory">
+    <div class="niche-directory-container">
+        <h2 class="niche-directory-title">Découvrir d’autres domaines thématiques</h2>
+        <p class="niche-directory-intro">
+            Qu’il s’agisse d’un retard de vol, d’un défaut d’hôtel ou d’un piège lié au roaming, nos experts ont préparé pour presque chaque niche de voyage le guide et la lettre type adaptés.
+        </p>
+        
+        <div class="niche-directory-grid">
+            <div class="niche-directory-group">
+                <h3>Vol et aéroport</h3>
+                <ul>
+                    <li><a href="flugverspaetung-info.html">Retard de vol et annulation</a></li>
+                    <li><a href="steuern-info.html">Récupérer les taxes aériennes</a></li>
+                    <li><a href="gepaeck-info.html">Perte de bagages et dommages aux valises</a></li>
+                    <li><a href="flughafen-parken-info.html">Frais de parking à l’aéroport</a></li>
+                    <li><a href="ota-rueckerstattung-info.html">Portails de réservation de vols (OTA)</a></li>
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Hébergement et voyage à forfait</h3>
+                <ul>
+                    <li><a href="hotel-maengel-info.html">Défauts d’hôtel et bruit de chantier</a></li>
+                    <li><a href="storno-info.html">Annuler un voyage (frais)</a></li>
+                    <li><a href="ferienhaus-maengel-info.html">Maisons de vacances et appartements</a></li>
+                    <li><a href="airbnb-probleme-info.html">Solutions aux problèmes Airbnb</a></li>
+                    <li><a href="kreuzfahrt-minderung.html">Défauts de croisière</a></li>
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Préparation du voyage et mobility</h3>
+                <ul>
+                    <li><a href="zugverspaetung-info.html">Retard de train et droits ferroviaires</a></li>
+                    <li><a href="einreise-info.html">Conditions d’entrée et visa</a></li>
+                    <li><a href="esim-roaming-info.html">eSIM et frais de roaming</a></li>
+                    <li><a href="mietwagen-info.html">Assurances de location de voiture</a></li>
+                    <li><a href="zoll-info.html">Douanes et règles d’importation</a></li>
+                    <li><a href="reisekreditkarten-info.html">Comparatif des cartes de crédit voyage</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">À propos</a> | 
+        <a href="index.html">Accueil</a> | 
+        <a href="impressum.html">Mentions légales</a> | 
+        <a href="datenschutz.html">Protection des données</a>
+    </nav>
+</footer>
+
+<script>
+// Live-Rechner Logik
+const preisInp = document.getElementById('fPreis');
+const checkboxes = document.querySelectorAll('#mangelCheckboxes input[type="checkbox"]');
+const liveAmountEl = document.getElementById('liveAmount');
+const livePercentEl = document.getElementById('livePercent');
+
+function updateCalc() {
+    let price = parseFloat(preisInp.value) || 0;
+    let totalPercent = 0;
+    
+    checkboxes.forEach(cb => {
+        if(cb.checked) totalPercent += parseInt(cb.value);
+    });
+  
+    if(totalPercent > 100) totalPercent = 100;
+    
+    let refund = (price * totalPercent) / 100;
+    
+    livePercentEl.textContent = totalPercent;
+    // HIER ANGEPASST: Währungsformatierung auf französische Standards gesetzt (fr-FR statt de-DE)
+    liveAmountEl.textContent = refund.toLocaleString('fr-FR', {style: 'currency', currency: 'EUR'});
+}
+
+preisInp.addEventListener('input', updateCalc);
+checkboxes.forEach(cb => cb.addEventListener('change', updateCalc));
+
+// PDF Generierung
+document.getElementById('hotelForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+    
+    const portal = document.getElementById('aName').value;
+    const portalAddr = document.getElementById('aAdresse').value.replace(/\\n/g, '\n');
+    
+    const sName = document.getElementById('sName').value;
+    const sStrasse = document.getElementById('sStrasse').value;
+    const sPLZOrt = document.getElementById('sPLZOrt').value;
+    const bIBAN = document.getElementById('bIBAN').value;
+    
+    const fVeranstalter = document.getElementById('fVeranstalter').value;
+    const fBuchung = document.getElementById('fBuchung').value;
+    const fHotel = document.getElementById('fHotel').value;
+    const fZeitraum = document.getElementById('fZeitraum').value;
+    const fPreis = parseFloat(document.getElementById('fPreis').value) || 0;
+
+    let selectedMaengel = [];
+    let totalPercent = 0;
+    checkboxes.forEach(cb => {
+        if(cb.checked) {
+            selectedMaengel.push(`- ${cb.getAttribute('data-text')} (${cb.value}%)`);
+            totalPercent += parseInt(cb.value);
+        }
+    });
+
+    if(selectedMaengel.length === 0) {
+        alert("Veuillez sélectionner au moins un défaut.");
+        return;
+    }
+
+    if(totalPercent > 100) totalPercent = 100;
+    let refundAmount = ((fPreis * totalPercent) / 100).toFixed(2).replace('.', ',');
+
+    let deadline = new Date();
+    deadline.setDate(deadline.getDate() + 14);
+    
+    // HIER ANGEPASST: Datumsformatierung auf französische Standards gesetzt (fr-FR statt de-DE)
+    const deadlineStr = deadline.toLocaleDateString('fr-FR', {day: '2-digit', month: '2-digit', year: 'numeric'});
+    const todayStr = new Date().toLocaleDateString('fr-FR', {day: '2-digit', month: '2-digit', year: 'numeric'});
+
+    doc.setFont("helvetica");
+
+    // Absender klein
+    doc.setFontSize(8);
+    doc.setTextColor(100, 100, 100);
+    doc.text(`${sName} • ${sStrasse} • ${sPLZOrt}`, 25, 45);
+    doc.setLineWidth(0.2);
+    doc.setDrawColor(150, 150, 150);
+    doc.line(25, 46.5, 95, 46.5);
+
+    // Empfänger (Reiseportal)
+    doc.setFontSize(11);
+    doc.setTextColor(0, 0, 0);
+    const receiverLines = doc.splitTextToSize(portal + "\n" + portalAddr, 80);
+    doc.text(receiverLines, 25, 53);
+
+    // Absenderblock Rechts
+    doc.setFontSize(10);
+    doc.text("Expéditeur :", 130, 45);
+    doc.setFont("helvetica", "bold");
+    doc.text(sName, 130, 50);
+    doc.setFont("helvetica", "normal");
+    doc.text(sStrasse, 130, 55);
+    doc.text(sPLZOrt, 130, 60);
+
+    doc.text(`Date : ${todayStr}`, 185, 80, {align: 'right'});
+
+    // Betreff - Speziell für Vermittler angepasst
+    doc.setFontSize(11);
+    doc.setFont("helvetica", "bold");
+    let subjectLines = doc.splitTextToSize(`Signalement de défauts conformément aux règles applicables aux voyages à forfait – transmission à l’organisateur (${fVeranstalter})`, 160);
+    doc.text(subjectLines, 25, 95);
+    
+    // Fakten
+    let yPosFacts = 95 + (subjectLines.length * 6) + 5;
+    doc.setFontSize(10.5);
+    doc.setFont("helvetica", "bold");
+    doc.text("Organisateur réel :", 25, yPosFacts);
+    doc.text("Numéro de réservation :", 25, yPosFacts + 5);
+    doc.text("Destination / hôtel :", 25, yPosFacts + 10);
+    doc.text("Période du voyage :", 25, yPosFacts + 15);
+    doc.text("Prix total du voyage :", 25, yPosFacts + 20);
+
+    doc.setFont("helvetica", "normal");
+    doc.text(fVeranstalter, 75, yPosFacts);
+    doc.text(fBuchung, 75, yPosFacts + 5);
+    doc.text(fHotel, 75, yPosFacts + 10);
+    doc.text(fZeitraum, 75, yPosFacts + 15);
+    doc.text(`${fPreis.toFixed(2).replace('.', ',')} EUR`, 75, yPosFacts + 20);
+
+    doc.setDrawColor(0, 0, 0);
+    doc.line(25, yPosFacts + 25, 185, yPosFacts + 25); 
+
+    const pageH = 297;
+    const marginBottom = 20;
+    const lineH = 6;
+
+    function checkNewPage(doc, y, neededHeight = lineH) {
+        if (y + neededHeight > pageH - marginBottom) {
+            doc.addPage();
+            return 30;
+        }
+        return y;
+    }
+
+    function writeLines(doc, lines, startY, lh = lineH) {
+        let y = startY;
+        for (const line of lines) {
+            y = checkNewPage(doc, y);
+            doc.text(line, 25, y);
+            y += lh;
+        }
+        return y;
+    }
+
+    let yPos = yPosFacts + 35;
+    doc.setFontSize(11);
+
+    // Einleitungsabsätze
+    const para1 = doc.splitTextToSize(
+        `Madame, Monsieur,\n\n` +
+        `j’ai réservé le voyage à forfait mentionné ci-dessus via votre portail. Le voyage présentait des défauts importants. Les défauts ont été signalés en temps utile à la direction locale du voyage, mais aucune solution n’a été apportée.\n\n` +
+        `Conformément aux règles applicables aux voyages à forfait (selon les dispositions du Code du tourisme), je dépose par la présente mon signalement de défauts ainsi que ma demande de réduction du prix du voyage auprès de vous en tant qu’intermédiaire de voyage. La loi vous oblige à transmettre sans délai cette lettre à l’organisateur compétent (${fVeranstalter}).\n\n` +
+        `Les défauts suivants étaient présents :`,
+        160
+    );
+    yPos = writeLines(doc, para1, yPos);
+    yPos += 5;
+
+    // Mängel-Liste
+    doc.setFont("helvetica", "italic");
+    selectedMaengel.forEach(mangel => {
+        const linesMangel = doc.splitTextToSize(mangel, 150);
+        linesMangel.forEach(line => {
+            yPos = checkNewPage(doc, yPos);
+            doc.text(line, 30, yPos);
+            yPos += lineH;
+        });
+    });
+    doc.setFont("helvetica", "normal");
+    yPos += 5;
+
+    // Minderungsberechnung
+    const para2 = doc.splitTextToSize(
+        `Conformément aux règles applicables aux voyages à forfait et à la jurisprudence établie, je demande donc à l’organisateur une réduction correspondante du prix du voyage. En appliquant les barèmes de réduction proportionnels, il en résulte un taux de réduction de ${totalPercent} %.\n\n` +
+        `Il en découle un droit au remboursement d’un montant de :`,
+        160
+    );
+    yPos = writeLines(doc, para2, yPos);
+    yPos += 5;
+
+    // Summe (fett, zentriert)
+    yPos = checkNewPage(doc, yPos, 10);
+    doc.setFont("helvetica", "bold");
+    doc.text(`${refundAmount} EUR`, 105, yPos, { align: 'center' });
+    doc.setFont("helvetica", "normal");
+    yPos += 12;
+
+    // Weiterleitungstext + Deadline
+    const para3 = doc.splitTextToSize(
+        `Je vous prie, en tant qu’intermédiaire, de transmettre immédiatement ce dossier à l’organisateur. J’exige de l’organisateur du voyage qu’il verse le montant au plus tard à la date indiquée ci-dessous sur le compte suivant :`,
+        160
+    );
+    yPos = writeLines(doc, para3, yPos);
+    yPos += 5;
+
+    yPos = checkNewPage(doc, yPos, 10);
+    doc.setFont("helvetica", "bold");
+    doc.text(`>>> ${deadlineStr} (délai de paiement à l’organisateur) <<<`, 105, yPos, { align: 'center' });
+    doc.setFont("helvetica", "normal");
+    yPos += 10;
+
+    // IBAN-Block
+    const para4 = doc.splitTextToSize(
+        `Titulaire du compte : ${sName}\nIBAN : ${bIBAN}`,
+        160
+    );
+    yPos = writeLines(doc, para4, yPos);
+    yPos += 15;
+
+    // Unterschrift – immer zusammenhalten
+    yPos = checkNewPage(doc, yPos, 40);
+    doc.text("Cordialement,", 25, yPos);
+    yPos += 25;
+
+    doc.setLineWidth(0.5);
+    doc.line(25, yPos, 80, yPos);
+    doc.line(100, yPos, 185, yPos);
+
+    doc.setFontSize(9);
+    doc.setTextColor(100, 100, 100);
+    doc.text("Lieu, date", 25, yPos + 5);
+    doc.text("Signature", 100, yPos + 5);
+
+
+
+    const cleanPortal = portal.replace(/[^a-zA-Z0-9]/g, '_');
+    doc.save(`Reisemaengel_Portal_${cleanPortal}_${fBuchung}.pdf`);
+    setTimeout(() => document.getElementById('donateOverlay').classList.add('active'), 800);
+});
+
+
+/* ══════════════════════════════════════════
+   ▶▶ DEINE PAYPAL-E-MAIL HIER EINTRAGEN ◀◀
+   ══════════════════════════════════════════ */
+const PAYPAL_EMAIL = 'info@kassen-lotse.de';
+
+let donateAmount = 5;
+
+function selectPreset(amount, btn) {
+  donateAmount = amount;
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  document.getElementById('customAmount').value = '';
+  document.getElementById('customAmount').classList.remove('selected-custom');
+  updateDonateButton();
+}
+
+function handleCustomInput(input) {
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  const val = parseFloat(input.value);
+  if (val && val >= 1) {
+    donateAmount = val;
+    input.classList.add('selected-custom');
+  } else {
+    donateAmount = 0;
+    input.classList.remove('selected-custom');
+  }
+  updateDonateButton();
+}
+
+function updateDonateButton() {
+  const btn = document.getElementById('btnDonate');
+  if (donateAmount >= 1) {
+    btn.textContent = `Faire un don de ${donateAmount % 1 === 0 ? donateAmount : donateAmount.toFixed(2)} € maintenant`;
+    btn.disabled = false;
+  } else {
+    btn.textContent = 'Saisir un montant';
+    btn.disabled = true;
+  }
+}
+
+function openPayPal() {
+  if (donateAmount < 1) return;
+  const amountStr = donateAmount.toFixed(2);
+  const url = `https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=${encodeURIComponent(PAYPAL_EMAIL)}&amount=${amountStr}&currency_code=EUR&item_name=Fix my Trip+Unterst%C3%BCtzung&no_note=1&no_shipping=1`;
+  window.open(url, '_blank');
+  closeOverlay();
+}
+
+function closeOverlay() {
+  document.getElementById('donateOverlay').classList.remove('active');
+}
+// Schließt das Overlay, wenn man auf den abgedunkelten Hintergrund klickt
+document.getElementById('donateOverlay').addEventListener('click', function(e) {
+  if (e.target === this) {
+    closeOverlay();
+  }
+});
+</script>
+
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Schließen">&times;</button>
+    <div class="donate-emoji">🎉</div>
+    <h2>Votre lettre est prête !</h2>
+    <p class="sub">Vous venez d’économiser des <strong style="color:#2e7d32;">frais de commission</strong> –<br>pas de tiers, pas de frais, tout vous revient.</p>
+    <div class="donate-hint">
+      Ce service est et reste <strong>100 % gratuit</strong>. S’il vous a aidé, nous serions très heureux d’un petit soutien volontaire – afin que Fix my Trip reste gratuit pour les autres voyageurs aussi.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Sélection rapide :</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Saisir un montant personnalisé …" oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Faire un don de 5 € maintenant</button>
+    <button class="btn-skip" onclick="closeOverlay()">Non merci, je ferme la fenêtre</button>
+    <p class="paypal-note">Volontaire &amp; sécurisé via PayPal</p>
+    <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
+  
+  <!-- NEU: Affiliate Hinweis über dem Text -->
+  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
+    Publicité / lien sponsorisé
+  </span>
+
+  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
+    <strong style="color: #333;">P.S. : Vous repartez bientôt en avion ?</strong> Protégez-vous contre le prochain tracas de voyage. Les vraies cartes de crédit voyage coûtent durablement 0 € de cotisation annuelle, suppriment les frais de paiement à l’étranger et offrent souvent une forte protection de l’acheteur. <br>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Comparer dès maintenant les meilleurs prestataires et vous protéger ✈️</a>
+  </p>
+</div>
+  </div>
+</div>
+</body>
+</html>

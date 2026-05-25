@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Annulation par l’hôte",
+        "slug": "gastgeber-storniert-kurzfristig",
+        "beschreibung": "L’hôte a annulé votre réservation à la dernière minute et vous vous retrouvez sans hébergement ? Nous vous aidons à obtenir le remboursement intégral et, le cas échéant, des dommages et intérêts pour les frais supplémentaires d’un hôtel de remplacement."
+    },
+    {
+        "name": "Moisissure, saleté et nuisibles",
+        "slug": "dreck-schimmel-ungeziefer",
+        "beschreibung": "De la moisissure dans la salle de bain, des cafards dans la cuisine ou simplement du linge de lit sale ? Vous n’avez pas à accepter de tels défauts d’hygiène. Documentez tout pour votre remboursement AirCover."
+    },
+    {
+        "name": "Informations erronées et fausses photos",
+        "slug": "falsche-angaben-fake-fotos",
+        "beschreibung": "La villa de luxe se révèle être un appartement en sous-sol ou les photos de l’annonce étaient totalement obsolètes ? Si le logement ne correspond pas à la description, vous avez droit à une réduction de prix significative."
+    },
+    {
+        "name": "Équipements manquants (Wi-Fi, piscine, climatisation)",
+        "slug": "ausstattung-fehlt-defekt",
+        "beschreibung": "Pas de Wi-Fi malgré une organisation en télétravail ou la piscine annoncée est verte et inutilisable ? L’absence d’équipements garantis vous donne droit à une réduction du prix de location."
+    },
+    {
+        "name": "Caution retenue illégalement",
+        "slug": "kaution-unrechtmaessig-einbehalten",
+        "beschreibung": "L’hôte prétend après votre départ qu’il y a eu des dommages que vous n’avez pas causés et retient la caution ? Défendez-vous contre des demandes injustifiées et réclamez votre argent."
+    },
+    {
+        "name": "Protection acheteur AirCover refusée",
+        "slug": "aircover-abgelehnt-geld-zurueck",
+        "beschreibung": "Airbnb a clôturé votre dossier ou refusé le remboursement alors que le défaut était évident ? Augmentez la pression avec une lettre juridique officielle adressée au service juridique."
+    },
+    {
+        "name": "Problème Airbnb général",
+        "slug": "allgemein",
+        "beschreibung": "Votre problème spécifique n’est pas सूचीé ci-dessus ? Aucun problème. Utilisez ce formulaire général pour signaler en toute sécurité juridique n’importe quel défaut auprès d’Airbnb."
+    }
+]

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Requisitos de entrada en todo el mundo: comprobar visado, pasaporte y normas</title>
+  <meta name="description" content="Requisitos de entrada y normas de visado actualizados para todos los países. ¿Necesita ESTA, eTA o un pasaporte? Utilice nuestro comprobador gratuito.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & Internationalisierung -->
+  <link rel="canonical" href="https://www.fix-my-trip.com/es/einreise-info.html">
+  <link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/einreise-info.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/es/einreise-info.html">
+
+  <!-- Bibliothek für die PDF-Generierung aus HTML -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="/logo-lotse-fav.png">
+
+  <!-- FAQ Schema.org JSON-LD für Rich Snippets bei Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "¿Cuánto tiempo debe ser válido mi pasaporte?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Para la mayoría de los países no pertenecientes a la UE, el pasaporte debe seguir siendo válido al menos seis meses en el momento de la entrada. Muchos países también exigen que el pasaporte tenga al menos dos páginas libres para sellos y visados."
+      }
+    }, {
+      "@type": "Question",
+      "name": "¿Cuál es la diferencia entre un visado y una eTA / ESTA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un visado clásico suele tener que solicitarse con antelación en una embajada o en línea (como e-visado) y requiere tiempo de tramitación. ESTA (EE. UU.) o eTA (Canadá), en cambio, son autorizaciones electrónicas de entrada para ciudadanos de países que en principio están exentos de la obligación de visado (como Alemania). Aun así, deben obtenerse en línea antes de la salida."
+      }
+    }, {
+      "@type": "Question",
+      "name": "¿Necesito un visado si solo hago escala en un aeropuerto (tránsito)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Depende mucho del país de tránsito. En Estados Unidos, incluso para un tránsito puro sin salir de la zona de seguridad, necesita obligatoriamente un ESTA o un visado de tránsito. En muchos países asiáticos o árabes, en cambio, puede permanecer en la zona internacional de tránsito sin visado."
+      }
+    }, {
+      "@type": "Question",
+      "name": "¿Qué pasa si llego al aeropuerto sin un visado válido o sin los documentos necesarios?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Las aerolíneas suelen comprobar sus documentos ya en el check-in o al embarcar. Si faltan documentos, se le denegará el transporte, ya que de lo contrario la aerolínea tendría que pagar fuertes sanciones. Usted asumirá los costes del vuelo perdido, ya que esto es su propia responsabilidad."
+      }
+    }]
+  }
+  </script>
+
+</head>
+<body>
+
+<header class="site-header" style="padding: 20px 0; border-bottom: 2px solid #eee; margin-bottom: 30px;">
+  <a href="index.html" style="font-size: 1.5em; font-weight: bold; text-decoration: none;">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Requisitos de entrada en todo el mundo: visado, pasaporte y normas</h1>
+  
+  <div class="seo-text">
+    <p>La ilusión por las vacaciones es grande, pero la planificación de un viaje al extranjero siempre comienza con los documentos de viaje adecuados. Ya sea para unas vacaciones en la playa en Asia, una escapada urbana a Londres o un viaje de negocios a Estados Unidos: es esencial informarse con antelación sobre qué <strong>requisitos de entrada</strong> se aplican a su país de destino.</p>
+    <p>¿Necesita un visado turístico clásico que deba solicitarse con antelación? ¿Basta con una autorización electrónica de entrada (como ESTA para Estados Unidos o eTA para Canadá)? ¿O dentro de Europa incluso le basta con su simple documento de identidad? Nuestra guía y comprobador interactivo le ofrecen las respuestas exactas para su próximo destino.</p>
+  </div>
+
+  <!-- INTERAKTIVER BEREICH & INTERNE VERLINKUNG FÜR CRAWLER -->
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Iniciar comprobador de visado</h2>
+    <p>Seleccione su destino para comprobar las condiciones exactas de entrada y los requisitos de visado (100% gratis):</p>
+    
+    <select id="countrySelect">
+      <option value="">-- Por favor, elija el país de destino --</option>
+      <!-- Das Skript fügt hier die Länder als Optionen ein -->
+      <option value="einreisebestimmungen-usa.html">USA</option>
+<option value="einreisebestimmungen-aegypten.html">Egipto</option>
+<option value="einreisebestimmungen-tuerkei.html">Turquía</option>
+<option value="einreisebestimmungen-uk.html">Gran Bretaña</option>
+<option value="einreisebestimmungen-thailand.html">Tailandia</option>
+<option value="einreisebestimmungen-australien.html">Australia</option>
+<option value="einreisebestimmungen-kanada.html">Canadá</option>
+<option value="einreisebestimmungen-vae.html">Emiratos Árabes Unidos (Dubái)</option>
+<option value="einreisebestimmungen-malediven.html">Maldivas</option>
+<option value="einreisebestimmungen-indonesien.html">Indonesia</option>
+<option value="einreisebestimmungen-vietnam.html">Vietnam</option>
+<option value="einreisebestimmungen-sri-lanka.html">Sri Lanka</option>
+<option value="einreisebestimmungen-suedafrika.html">Sudáfrica</option>
+<option value="einreisebestimmungen-japan.html">Japón</option>
+<option value="einreisebestimmungen-dominikanische-republik.html">República Dominicana</option>
+<option value="einreisebestimmungen-mexiko.html">México</option>
+<option value="einreisebestimmungen-kuba.html">Cuba</option>
+<option value="einreisebestimmungen-brasilien.html">Brasil</option>
+<option value="einreisebestimmungen-costa-rica.html">Costa Rica</option>
+<option value="einreisebestimmungen-neuseeland.html">Nueva Zelanda</option>
+<option value="einreisebestimmungen-philippinen.html">Filipinas</option>
+<option value="einreisebestimmungen-malaysia.html">Malasia</option>
+<option value="einreisebestimmungen-singapur.html">Singapur</option>
+<option value="einreisebestimmungen-suedkorea.html">Corea del Sur</option>
+<option value="einreisebestimmungen-china.html">China</option>
+<option value="einreisebestimmungen-indien.html">India</option>
+<option value="einreisebestimmungen-kenia.html">Kenia</option>
+<option value="einreisebestimmungen-tansania.html">Tanzania (Zanzíbar)</option>
+<option value="einreisebestimmungen-seychellen.html">Seychelles</option>
+<option value="einreisebestimmungen-mauritius.html">Mauricio</option>
+<option value="einreisebestimmungen-marokko.html">Marruecos</option>
+<option value="einreisebestimmungen-tunesien.html">Túnez</option>
+<option value="einreisebestimmungen-oman.html">Omán</option>
+<option value="einreisebestimmungen-katar.html">Catar (Doha)</option>
+<option value="einreisebestimmungen-saudi-arabien.html">Arabia Saudí</option>
+<option value="einreisebestimmungen-jordanien.html">Jordania</option>
+<option value="einreisebestimmungen-jamaika.html">Jamaica</option>
+<option value="einreisebestimmungen-peru.html">Perú</option>
+<option value="einreisebestimmungen-kolumbien.html">Colombia</option>
+<option value="einreisebestimmungen-argentinien.html">Argentina</option>
+<option value="einreisebestimmungen-chile.html">Chile</option>
+<option value="einreisebestimmungen-ecuador.html">Ecuador</option>
+<option value="einreisebestimmungen-bolivien.html">Bolivia</option>
+<option value="einreisebestimmungen-panama.html">Panamá</option>
+<option value="einreisebestimmungen-guatemala.html">Guatemala</option>
+<option value="einreisebestimmungen-bahamas.html">Bahamas</option>
+<option value="einreisebestimmungen-barbados.html">Barbados</option>
+<option value="einreisebestimmungen-namibia.html">Namibia</option>
+<option value="einreisebestimmungen-botswana.html">Botsuana</option>
+<option value="einreisebestimmungen-uganda.html">Uganda</option>
+<option value="einreisebestimmungen-madagaskar.html">Madagascar</option>
+<option value="einreisebestimmungen-kap-verde.html">Cabo Verde (Islas de Cabo Verde)</option>
+<option value="einreisebestimmungen-georgien.html">Georgia</option>
+<option value="einreisebestimmungen-kambodscha.html">Camboya</option>
+<option value="einreisebestimmungen-laos.html">Laos</option>
+<option value="einreisebestimmungen-taiwan.html">Taiwán</option>
+<option value="einreisebestimmungen-nepal.html">Nepal</option>
+<option value="einreisebestimmungen-usbekistan.html">Uzbekistán</option>
+<option value="einreisebestimmungen-fidschi.html">Fiyi</option>
+<option value="einreisebestimmungen-armenien.html">Armenia</option>
+<option value="einreisebestimmungen-anderes-land-allgemein.html">Otro país de viaje (disposiciones generales)</option>
+
+      <option value="einreisebestimmungen-allgemein.html">Mi país de destino no está en la lista (información general)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Comprobar condiciones de entrada</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Países de viaje populares de la A a la Z</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      <a href="einreisebestimmungen-usa.html">USA</a>
+<a href="einreisebestimmungen-aegypten.html">Egipto</a>
+<a href="einreisebestimmungen-tuerkei.html">Turquía</a>
+<a href="einreisebestimmungen-uk.html">Gran Bretaña</a>
+<a href="einreisebestimmungen-thailand.html">Tailandia</a>
+<a href="einreisebestimmungen-australien.html">Australia</a>
+<a href="einreisebestimmungen-kanada.html">Canadá</a>
+<a href="einreisebestimmungen-vae.html">Emiratos Árabes Unidos (Dubái)</a>
+<a href="einreisebestimmungen-malediven.html">Maldivas</a>
+<a href="einreisebestimmungen-indonesien.html">Indonesia</a>
+<a href="einreisebestimmungen-vietnam.html">Vietnam</a>
+<a href="einreisebestimmungen-sri-lanka.html">Sri Lanka</a>
+<a href="einreisebestimmungen-suedafrika.html">Sudáfrica</a>
+<a href="einreisebestimmungen-japan.html">Japón</a>
+<a href="einreisebestimmungen-dominikanische-republik.html">República Dominicana</a>
+<a href="einreisebestimmungen-mexiko.html">México</a>
+<a href="einreisebestimmungen-kuba.html">Cuba</a>
+<a href="einreisebestimmungen-brasilien.html">Brasil</a>
+<a href="einreisebestimmungen-costa-rica.html">Costa Rica</a>
+<a href="einreisebestimmungen-neuseeland.html">Nueva Zelanda</a>
+<a href="einreisebestimmungen-philippinen.html">Filipinas</a>
+<a href="einreisebestimmungen-malaysia.html">Malasia</a>
+<a href="einreisebestimmungen-singapur.html">Singapur</a>
+<a href="einreisebestimmungen-suedkorea.html">Corea del Sur</a>
+<a href="einreisebestimmungen-china.html">China</a>
+<a href="einreisebestimmungen-indien.html">India</a>
+<a href="einreisebestimmungen-kenia.html">Kenia</a>
+<a href="einreisebestimmungen-tansania.html">Tanzania (Zanzíbar)</a>
+<a href="einreisebestimmungen-seychellen.html">Seychelles</a>
+<a href="einreisebestimmungen-mauritius.html">Mauricio</a>
+<a href="einreisebestimmungen-marokko.html">Marruecos</a>
+<a href="einreisebestimmungen-tunesien.html">Túnez</a>
+<a href="einreisebestimmungen-oman.html">Omán</a>
+<a href="einreisebestimmungen-katar.html">Catar (Doha)</a>
+<a href="einreisebestimmungen-saudi-arabien.html">Arabia Saudí</a>
+<a href="einreisebestimmungen-jordanien.html">Jordania</a>
+<a href="einreisebestimmungen-jamaika.html">Jamaica</a>
+<a href="einreisebestimmungen-peru.html">Perú</a>
+<a href="einreisebestimmungen-kolumbien.html">Colombia</a>
+<a href="einreisebestimmungen-argentinien.html">Argentina</a>
+<a href="einreisebestimmungen-chile.html">Chile</a>
+<a href="einreisebestimmungen-ecuador.html">Ecuador</a>
+<a href="einreisebestimmungen-bolivien.html">Bolivia</a>
+<a href="einreisebestimmungen-panama.html">Panamá</a>
+<a href="einreisebestimmungen-guatemala.html">Guatemala</a>
+<a href="einreisebestimmungen-bahamas.html">Bahamas</a>
+<a href="einreisebestimmungen-barbados.html">Barbados</a>
+<a href="einreisebestimmungen-namibia.html">Namibia</a>
+<a href="einreisebestimmungen-botswana.html">Botsuana</a>
+<a href="einreisebestimmungen-uganda.html">Uganda</a>
+<a href="einreisebestimmungen-madagaskar.html">Madagascar</a>
+<a href="einreisebestimmungen-kap-verde.html">Cabo Verde (Islas de Cabo Verde)</a>
+<a href="einreisebestimmungen-georgien.html">Georgia</a>
+<a href="einreisebestimmungen-kambodscha.html">Camboya</a>
+<a href="einreisebestimmungen-laos.html">Laos</a>
+<a href="einreisebestimmungen-taiwan.html">Taiwán</a>
+<a href="einreisebestimmungen-nepal.html">Nepal</a>
+<a href="einreisebestimmungen-usbekistan.html">Uzbekistán</a>
+<a href="einreisebestimmungen-fidschi.html">Fiyi</a>
+<a href="einreisebestimmungen-armenien.html">Armenia</a>
+<a href="einreisebestimmungen-anderes-land-allgemein.html">Otro país de viaje (disposiciones generales)</a>
+
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">¿Qué documentos de viaje son obligatorios?</h2>
+  <div class="seo-text">
+    <p>Dependiendo de su nacionalidad y del país de destino, los requisitos varían considerablemente. En general, hay tres escenarios:</p>
+    <ul>
+      <li><strong>Documento de identidad:</strong> Dentro del espacio Schengen y en muchos países europeos es totalmente suficiente.</li>
+      <li><strong>Pasaporte (sin visado):</strong> Para muchos destinos de larga distancia (p. ej., Tailandia, Japón), los turistas alemanes pueden entrar sin visado durante un periodo determinado, pero necesitan un pasaporte que en el momento de la entrada a menudo siga siendo válido al menos 6 meses.</li>
+      <li><strong>Pasaporte con visado / e-visado:</strong> Para países como China, India o Estados Unidos, debe solicitar obligatoriamente antes del viaje un visado o una autorización electrónica de viaje. Quien lo olvide no podrá embarcar.</li>
+    </ul>
+  </div>
+
+  <h2 style="margin-top: 40px;">Lista de verificación: comprobar los documentos antes de la salida</h2>
+  <p>Con esta lista se asegurará de no llevarse sorpresas desagradables en el aeropuerto. ¡Imprímala fácilmente en PDF!</p>
+  
+  <!-- Die ID "checklistToPrint" liegt exakt um den Kasten, der gedruckt werden soll -->
+  <div class="checklist-box" id="checklistToPrint">
+    <h3 style="margin-top:0; color:#1565c0;">Lista de verificación de entrada para viajes de larga distancia</h3>
+    <ul>
+      <li><strong>Validez del pasaporte:</strong> ¿Su pasaporte sigue siendo válido al menos 6 meses el día de la entrada y tiene páginas libres? (¡Atención con los pasaportes provisionales: no se aceptan en todas partes!).</li>
+      <li><strong>Visado / ESTA / eTA:</strong> ¿Ha recibido la autorización electrónica de entrada y la lleva impresa?</li>
+      <li><strong>Billete de regreso o de continuación:</strong> Casi todos los países fuera de la UE exigen, al entrar, una prueba de que abandonará el país de nuevo.</li>
+      <li><strong>Reserva de hotel y finanzas:</strong> A menudo debe demostrar en la frontera la primera noche de alojamiento o disponer de medios económicos suficientes.</li>
+      <li><strong>Requisitos de vacunación (fiebre amarilla, etc.):</strong> ¿Lleva consigo su cartilla internacional de vacunación (libreta amarilla) si el país exige determinadas vacunas para la entrada?</li>
+    </ul>
+  </div>
+  
+  <!-- Button generiert das PDF on-the-fly, ignoriert sich selbst im PDF (data-html2canvas-ignore) -->
+  <button onclick="generateChecklistPDF('checkliste-einreise.pdf')" class="btn-download" data-html2canvas-ignore="true">
+    Generar y guardar la lista de verificación en PDF
+  </button>
+
+  <h2 style="margin-top: 40px;">Casos prácticos: cuando se deniega la entrada</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Ejemplo 1: El pasaporte caducado para Bali</h3>
+    <p>Markus está ilusionado con sus vacaciones en Indonesia. En el mostrador de facturación de Fráncfort, la empleada comprueba que su pasaporte solo es válido durante 3 meses más. Indonesia exige estrictamente 6 meses.<br>
+    <strong>Resultado:</strong> Markus no puede embarcar. Como esto entra dentro de su propia responsabilidad, no se aplica ni el reglamento sobre derechos de los pasajeros aéreos ni un seguro normal de cancelación de viaje. El dinero del vuelo se pierde.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Ejemplo 2: Subestimar el tránsito en Estados Unidos</h3>
+    <p>La familia Weber vuela de Múnich a Costa Rica haciendo escala en Miami (EE. UU.). Como en Miami no salen del aeropuerto, no han solicitado ESTA para Estados Unidos.<br>
+    <strong>Resultado:</strong> En Estados Unidos no existe una zona clásica de "tránsito internacional". Cada pasajero entra oficialmente y sale de nuevo de inmediato. Sin ESTA, la aerolínea deniega el embarque en Múnich. El vuelo de conexión a Costa Rica se pierde.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">FAQ: preguntas frecuentes sobre visados y entrada</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">¿Cuánto tiempo debe ser válido mi pasaporte?</div>
+    <div class="faq-answer">Para la mayoría de los países no pertenecientes a la UE, el pasaporte debe seguir siendo válido al menos seis meses en el momento de la entrada. Muchos países también exigen que el pasaporte tenga al menos dos páginas libres para sellos y visados. Dentro de la UE, por lo general basta con un documento de identidad válido.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">¿Cuál es la diferencia entre un visado y una eTA / ESTA?</div>
+    <div class="faq-answer">Un visado clásico suele tener que solicitarse con antelación en una embajada o en línea (como e-visado) con el correspondiente tiempo de tramitación. ESTA (EE. UU.) o eTA (Canadá), en cambio, son autorizaciones electrónicas de entrada para ciudadanos de países que en principio están exentos de la obligación de visado (como Alemania). Aun así, deben obtenerse obligatoriamente en línea antes de la salida.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">¿Necesito un visado si solo hago escala en un aeropuerto (tránsito)?</div>
+    <div class="faq-answer">Depende mucho del país de tránsito correspondiente. En Estados Unidos, incluso para un tránsito puro sin salir de la zona de seguridad, necesita obligatoriamente un ESTA o un visado de tránsito. En muchos países asiáticos o árabes, en cambio, puede permanecer en la zona internacional de tránsito sin visado.</div>
+  </div>
+  
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">¿Qué pasa si llego al aeropuerto sin un visado válido o sin los documentos necesarios?</div>
+    <div class="faq-answer">Las aerolíneas suelen comprobar sus documentos ya en el check-in o, como muy tarde, al embarcar. Si faltan documentos, se le denegará el transporte de forma tajante, ya que de lo contrario la aerolínea tendría que pagar fuertes sanciones en el destino y hacerse cargo de su repatriación. Usted asumirá por completo los costes del vuelo perdido.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Experiencia en derecho de viajes y derechos de los pasajeros</h3>
+    <p class="trust-text">
+        Nuestras guías y generadores se basan en el análisis estricto de la normativa europea vigente (como el Reglamento CE 261/2004), las sentencias del tribunal supremo alemán y el derecho nacional de viajes. 
+        Están desarrollados por Marc (dirección del proyecto) y su equipo para permitir a los viajeros hacer valer sus derechos frente a aerolíneas y operadores turísticos con seguridad jurídica.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Aviso importante: nuestras herramientas ofrecen ayuda para la autoayuda en caso de retrasos de vuelos, defectos en hoteles o cancelaciones de trenes. No sustituyen el asesoramiento jurídico individual de un abogado.
+        </span>
+    </p>
+
+    <!-- Umlaut in URL entfernt! -->
+    <a href="ueber-uns.html" class="trust-link">
+        Conozca los detalles sobre la metodología jurídica y la redacción →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>¿Problemas con el vuelo, el tren o el hotel?</strong><br>
+        Fix-My-Trip comprueba en pocos pasos su derecho a indemnización, reembolso del billete o reducción del precio del viaje. <br>
+        <em>Un servicio de la red de portales Lotse.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>¿Ha detectado un error en la herramienta?</strong> Como somos un portal automatizado y no ofrecemos asesoramiento jurídico individual, nos ayuda enormemente si informa de errores o proveedores desactualizados: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Enviar comentarios a nuestra central</a>.
+</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Sobre nosotros</a> | 
+        <a href="index.html">Inicio</a> | 
+        <a href="impressum.html">Aviso legal</a> | 
+        <a href="datenschutz.html">Protección de datos</a>
+    </nav>
+</footer>
+
+<script>
+// Leitet den Nutzer über das Dropdown weiter (UX)
+function routeToGenerator() {
+    const selectElement = document.getElementById('countrySelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Por favor, seleccione primero un país de destino de la lista.");
+    }
+}
+
+// Generiert das PDF aus der HTML-Checkliste (Sicher gegen leere Seiten Bug!)
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // 15mm Rand
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, // Hohe Auflösung für scharfe Texte
+            scrollY: 0, // Zwingt den Canvas, oben zu starten (fixt leere Seiten bei Scroll!)
+            windowWidth: document.documentElement.offsetWidth
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    // Erzeugt das PDF und startet den Download
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

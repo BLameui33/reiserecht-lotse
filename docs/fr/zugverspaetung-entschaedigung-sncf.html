@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>SNCF (Société Nationale des Chemins de fer Français) Retard : indemnisation gratuite (PDF)</title>
+
+  <meta name="description" content="Train en retard ou correspondance manquée ? Créez gratuitement la lettre de réclamation officielle à SNCF (Société Nationale des Chemins de fer Français) et récupérez jusqu'à 50 % du prix du billet.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://www.fix-my-trip.com/fr/zugverspaetung-entschaedigung-sncf.html">
+
+  <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="/logo-lotse-fav.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Générateur PDF : faire valoir vos droits auprès de SNCF (Société Nationale des Chemins de fer Français)",
+    "applicationCategory": "LegalApplication",
+    "operatingSystem": "All",
+    "description": "Outil gratuit pour calculer les indemnisations et créer une lettre type juridique à SNCF (Société Nationale des Chemins de fer Français).",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+    }
+  }
+  </script>
+
+  <!-- Schéma FAQ pour une présence maximale dans les extraits enrichis Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "SNCF (Société Nationale des Chemins de fer Français) doit-elle aussi payer en cas d'intempéries ou d'interventions d'urgence médicale ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depuis la réforme de juin 2023, une nouveauté importante s'applique : en cas de circonstances exceptionnelles (comme des intempéries extrêmes, un vol de câbles ou une personne sur les voies), le droit à l'indemnisation financière de 25 % ou 50 % ne s'applique pas. En revanche, en cas de grève de son propre personnel, de problèmes d'aiguillage ou de défaillance de train, SNCF (Société Nationale des Chemins de fer Français) doit payer."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Y a-t-il un remboursement avec le Deutschlandticket (ticket à 49 euros) ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Oui, mais c'est plus compliqué. Le Deutschlandticket est considéré comme un abonnement à tarif réduit. Pour chaque retard à partir de 60 minutes, une indemnité forfaitaire de 1,50 euro vous est due. Comme les versements inférieurs à 4 euros ne sont pas effectués, vous devez, pendant le mois de validité, cumuler au moins trois retards (3 x 1,50 € = 4,50 €) et les déposer ensemble. Le montant maximal de remboursement par mois est limité à 25 % du prix du billet."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Puis-je prendre un ICE plus cher si mon train régional est annulé ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "En principe oui, si un retard à l'arrivée d'au moins 20 minutes est à prévoir. Vous devez toutefois d'abord acheter vous-même un billet ICE valable, puis le soumettre ensuite au remboursement via le service compétent pour les droits des passagers. Important : cette règle ne s'applique expressément PAS au Deutschlandticket ! Si vous montez dans un ICE avec le ticket à 49 euros, les frais restent à votre charge."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+  <span style="font-size: 0.9em; color: #666;">Droits des passagers ferroviaires et transports publics</span>
+</header>
+
+<div class="page-container">
+
+  <!-- Above the Fold: Solution claire pour un problème quotidien frustrant -->
+  <h1>SNCF (Société Nationale des Chemins de fer Français) en retard ? Demandez jusqu'à 50 % de remboursement en toute sécurité juridique</h1>
+  
+  <div class="usp-bar">
+    <div class="usp-item">Adresse officielle intégrée</div>
+    <div class="usp-item">Basé sur le règlement UE 2021/782</div>
+    <div class="usp-item">100 % gratuit et PDF immédiat</div>
+  </div>
+
+  <div class="info-box red">
+    <p><strong>Le formulaire pour récupérer votre argent :</strong> Encore bloqué dans une gare venteuse ou avez-vous manqué la correspondance salvatrice ? À partir de 60 minutes de retard à votre gare d'arrivée, vous avez droit à un remboursement partiel du prix de votre billet. Remplissez ce formulaire et générez en un clic une lettre juridiquement solide à l'attention du <strong>service compétent pour les droits des passagers</strong>. Pas de clics compliqués dans une application, mais une demande formelle et exploitable pour l'envoi postal ou le guichet chez SNCF (Société Nationale des Chemins de fer Français).</p>
+  </div>
+
+  <div class="legal-info-box">
+    <strong>Remarque importante concernant l'utilisation</strong><br>
+    Cet outil est un <strong>générateur automatisé de lettre type</strong> (aide à l'auto-assistance). Il insère simplement vos données dans des modèles juridiques standard. Il n'effectue <strong>aucun examen individuel</strong> de votre dossier. Ce service gratuit ne remplace pas un conseil juridique d'avocat. L'utilisation se fait sous votre propre responsabilité, aucune garantie de succès n'est accordée.
+</div>
+
+  <div class="highlight-box pruefdatum-box" role="note" aria-label="Vérifié par la rédaction" style="margin-top: 15px; margin-bottom: 30px;">
+    <p><strong>Vérifié par la rédaction le :</strong> <span id="pruefdatum">05.05.2026</span></p>
+  </div>
+
+  <!-- Lesson Learned Affiliate Box: Zugverspätung -->
+<div class="lesson-learned-box" style="background: #f8f9fa; border-left: 4px solid #ffb300; padding: 15px 20px; margin: 30px 0; border-radius: 4px; display: flex; align-items: flex-start; gap: 15px; position: relative;">
+  
+  <span style="font-size: 0.7rem; color: #666; background: #eee; padding: 2px 6px; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.05em; position: absolute; top: 10px; right: 10px;">
+    Publicité
+  </span>
+
+  <div style="font-size: 2em; line-height: 1;">💡</div>
+  <div>
+    <h4 style="margin: 0 0 5px 0; color: #333; font-size: 1.1em; padding-right: 60px;">Astuce pour votre prochain voyage en train</h4>
+    <p style="margin: 0 0 10px 0; font-size: 0.95em; color: #555;">
+      Bloqué la nuit à la gare parce que la correspondance a disparu ? Si vous devez avancer spontanément les frais d'un hôtel d'urgence, d'une voiture de location ou d'un taxi, une vraie carte de crédit voyage peut être très avantageuse. De nombreuses cartes premium intègrent également une assurance confort de voyage qui prend en charge sans complication ce type de frais supplémentaires en cas de retard.
+    </p>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #9d2121; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">
+      Comparer les cartes de crédit voyage avec protection premium
+    </a>
+  </div>
+</div>
+
+  <!-- Formular-Bereich (Struktur & IDs unangetastet) -->
+  <form id="trainForm">
+    <fieldset>
+      <legend>1. Vos données et vos coordonnées bancaires</legend>
+      <label>Votre prénom et nom :</label>
+      <input type="text" id="sName" placeholder="p. ex. Max Mustermann" required>
+      <label>Rue et numéro :</label>
+      <input type="text" id="sStrasse" placeholder="p. ex. Bahnhofstraße 1" required>
+      <label>Code postal et ville :</label>
+      <input type="text" id="sPLZOrt" placeholder="p. ex. 12345 Berlin" required>
+      <label>IBAN pour le versement :</label>
+      <input type="text" id="bIBAN" placeholder="DE..." required>
+    </fieldset>
+
+    <fieldset>
+      <legend>2. Les données du voyage</legend>
+      <label>Date du trajet :</label>
+      <input type="date" id="fDatum" required>
+      <label>Numéro de dossier / numéro de billet (indiqué sur le billet) :</label>
+      <input type="text" id="fTicket" placeholder="p. ex. XWVU12" required>
+      <label>Gare de départ :</label>
+      <input type="text" id="fStart" placeholder="p. ex. München Hbf" required>
+      <label>Gare d'arrivée prévue :</label>
+      <input type="text" id="fZiel" placeholder="p. ex. Hamburg Hbf" required>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. Le retard</legend>
+      <label>Avec combien de retard êtes-vous arrivé à destination ?</label>
+      <select id="fVerspaetung" required>
+        <option value="60">Entre 60 et 119 minutes (25 % de remboursement)</option>
+        <option value="120">Plus de 120 minutes (50 % de remboursement)</option>
+        <option value="cancel">Trajet entièrement annulé (100 % de remboursement / interruption)</option>
+      </select>
+
+      <label>Quelle était la raison ? (facultatif, mais utile pour le traitement) :</label>
+      <select id="fGrund">
+        <option value="Zug hatte Verspätung">Le train avait un retard préalable</option>
+        <option value="Anschlusszug verpasst">Correspondance manquée</option>
+        <option value="Zug ist komplett ausgefallen">Le train a été entièrement annulé</option>
+        <option value="Personalmangel / Streik">Manque de personnel ou grève</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>4. Destinataire de la demande</legend>
+      <label>Adresse du prestataire :</label>
+      <textarea id="rAddress" rows="4" style="width: 100%; font-family: inherit; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">Service Relation Client SNCF
+62973 ARRAS Cedex 9
+France</textarea>
+      <small style="color: #666;">Voici l'adresse officielle de SNCF (Société Nationale des Chemins de fer Français). Vous pouvez la compléter si nécessaire.</small>
+    </fieldset>
+    <p style="font-size: 0.8em; color: #666; margin-top: 5px; line-height: 1.3;">
+  💡 <strong>Remarque :</strong> L'adresse centrale ou régionale du prestataire est indiquée ici par défaut. Vous pouvez modifier cette adresse à tout moment et saisir celle de la succursale locale dans votre pays.
+</p>
+
+    <div class="submit-area">
+    <p class="submit-disclaimer">
+        En cliquant sur "Générer le PDF", vous comprenez que ce service automatisé<br>ne constitue pas un conseil juridique et que vous déposez la demande sous votre propre responsabilité.
+    </p>
+    <button type="submit" class="button-primary">📄 Générer le PDF</button>
+</div>
+  </form>
+
+  <!-- Umfassender SEO Content Bereich -->
+  <div class="seo-content">
+    <h2>Vos droits de passager chez SNCF (Société Nationale des Chemins de fer Français) en détail</h2>
+    <p>Quiconque voyage régulièrement avec l'ICE, l'IC ou en trafic régional (RE, RB) avec SNCF (Société Nationale des Chemins de fer Français) connaît le problème : trains supprimés, perturbations de signalisation et correspondances manquées font perdre du temps et des nerfs. La bonne nouvelle : lorsque l'horaire est totalement perturbé, le droit ferroviaire européen vous protège. Le règlement européen sur les droits des passagers ferroviaires (UE 2021/782) fixe de manière contraignante le montant de l'indemnisation qui vous revient.</p>
+
+    <h3>SNCF (Société Nationale des Chemins de fer Français) : quel est le montant de l'indemnisation en cas de retard ?</h3>
+    <p>Une idée reçue très répandue : ce n'est <em>pas</em> le retard d'un train individuel en cours de route qui compte, mais uniquement <strong>votre heure d'arrivée à la gare de destination réservée</strong>. Si votre premier train n'a que 10 minutes de retard, mais que vous manquez ainsi l'ICE de correspondance décisif et arrivez finalement une heure plus tard, vos droits de passager s'appliquent pleinement.</p>
+    
+    <table class="seo-table">
+      <thead>
+        <tr>
+          <th>Retard à destination</th>
+          <th>Votre indemnisation (billet simple)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>À partir de 60 minutes (jusqu'à 119 min.)</td>
+          <td><strong>25 %</strong> du prix payé</td>
+        </tr>
+        <tr>
+          <td>À partir de 120 minutes (2 heures et plus)</td>
+          <td><strong>50 %</strong> du prix payé</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p><em>Règle importante pour les trajets aller-retour :</em> Si vous avez acheté un billet regroupant l'aller et le retour sur un seul document, le retard est examiné séparément. La base de calcul est alors exactement la moitié du prix total payé.</p>
+
+    <h3>Exceptions : quand SNCF (Société Nationale des Chemins de fer Français) n'a plus à payer</h3>
+    <p>Depuis juin 2023, une réforme des droits des passagers est entrée en vigueur et accorde davantage de marge de manœuvre aux entreprises de transport. En cas de "circonstances exceptionnelles" inévitables pour l'entreprise de transport, le droit au remboursement partiel financier disparaît. Cela inclut :</p>
+    <ul>
+      <li>Conditions météorologiques extrêmes (dépressions violentes, rafales de tempête, fortes inondations). En revanche, les conditions hivernales normales ou une tempête d'automne ordinaire relèvent du risque d'exploitation.</li>
+      <li>Fait d'un tiers (par ex. vol de câbles, interventions d'urgence médicale, "personnes sur les voies" ou sabotage).</li>
+    </ul>
+    <p><strong>Bonne nouvelle :</strong> En cas de grève de son propre personnel (par ex. GDL ou EVG), de problèmes d'aiguillage, de postes d'aiguillage défectueux ou de trains en panne, ces exceptions ne s'appliquent <em>pas</em>. Ici, SNCF (Société Nationale des Chemins de fer Français) doit vous rembourser !</p>
+
+    <!-- FAQ Bereich -->
+    <div class="faq-section">
+      <h2>Questions fréquentes (FAQ) sur l'indemnisation chez SNCF (Société Nationale des Chemins de fer Français)</h2>
+      
+      <details>
+        <summary>Qu'en est-il du Deutschlandticket (ticket à 49 euros) ?</summary>
+        <p>Le Deutschlandticket est juridiquement considéré comme un abonnement de transport à tarif fortement réduit dans les transports régionaux. Une règle forfaitaire spécifique s'applique ici : pour chaque retard subi à partir de 60 minutes, vous recevez 1,50 euro. Comme la compagnie ferroviaire n'est pas autorisée à verser des montants inférieurs à 4 euros ("seuil de faible montant"), vous devez cumuler au moins trois retards au cours du mois de validité (3 x 1,50 € = 4,50 €) puis les déposer ensemble.</p>
+      </details>
+      
+      <details>
+        <summary>Que dois-je joindre à ma demande PDF ?</summary>
+        <p>Imprimez le document PDF généré ici, signez-le impérativement à la main et joignez <strong>votre billet</strong>. S'il s'agit d'un billet papier (par ex. acheté au distributeur), l'original doit être placé dans l'enveloppe. Pour les billets en ligne, imprimez simplement le billet PDF. Envoyez les documents au service compétent pour les droits des passagers à 60647 Francfort-sur-le-Main.</p>
+      </details>
+
+      <details>
+        <summary>Puis-je simplement prendre un autre train en cas de retard ?</summary>
+        <p>Oui, la "liaison obligatoire" est automatiquement levée si vous devez vous attendre à un retard d'au moins 20 minutes à destination. Vous pouvez alors utiliser n'importe quel autre train de SNCF (Société Nationale des Chemins de fer Français) qui n'est pas soumis à réservation pour atteindre votre destination. <em>Attention : les billets de transport régional (comme le Deutschlandticket) ne donnent plus automatiquement droit à l'utilisation d'un ICE en cas de suppression.</em></p>
+      </details>
+    </div>
+  </div>
+
+  <div class="airline-hinweisbox">
+    <h3>Informations importantes sur les remboursements chez SNCF (Société Nationale des Chemins de fer Français)</h3>
+    <p>La SNCF traite les annulations de train strictement selon le droit français et européen. En cas de grèves plus fréquentes en France (Grèves) des syndicats ferroviaires, vous avez toujours droit à un réacheminement gratuit ou au remboursement du prix du billet, à condition que votre train ait été supprimé.</p>
+</div>
+
+  <div class="popular-links" style="margin-top: 40px; padding: 20px; background: #f9f9f9; border-radius: 8px;">
+        <h3>Autres prestataires et régions :</h3>
+        <div class="link-grid">
+            <a href="zugverspaetung-entschaedigung-avlo.html">Avlo (Renfe)</a>
+<a href="zugverspaetung-entschaedigung-vias.html">VIAS</a>
+<a href="zugverspaetung-entschaedigung-vr.html">VR (VR-Yhtymä)</a>
+<a href="zugverspaetung-entschaedigung-sncb.html">SNCB / NMBS (Belgische Bahn)</a>
+<a href="zugverspaetung-entschaedigung-zssk.html">ZSSK (Železničná spoločnosť Slovensko)</a>
+
+        </div>
+    </div>
+  </div>
+
+  <!-- Quellen-Box: Deutsche Bahn Verspätung -->
+<aside class="legal-sources-box" aria-labelledby="sources-title">
+    <h3 id="sources-title" class="sources-heading">Bases juridiques officielles</h3>
+    <p class="sources-intro">
+        Les calculs et les lettres de ce générateur reposent sur les lois et règlements européens en vigueur suivants :
+    </p>
+    <ul class="sources-list">
+        <li>
+            <strong>Règlement (UE) 2021/782</strong> (droits et obligations des voyageurs ferroviaires) : 
+            droit européen de référence pour les indemnisations en cas de retard ou d'annulation de train.
+            <br>
+            <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32021R0782" target="_blank" rel="noopener noreferrer" class="source-link">
+                Texte officiel sur EUR-Lex (Europa.eu)
+            </a>
+        </li>
+        <li>
+            <strong>Règlement sur l'exploitation des chemins de fer (EVO)</strong> (notamment les droits des passagers) : 
+            règlement national allemand complétant les droits des passagers de l'UE et précisant les détails du transport.
+            <br>
+            <a href="https://www.gesetze-im-internet.de/evo/" target="_blank" rel="noopener noreferrer" class="source-link">
+                Texte officiel sur Gesetze-im-Internet.de (BMJ)
+            </a>
+        </li>
+    </ul>
+</aside>
+
+
+
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise en droit du voyage et droits des passagers</h3>
+    <p class="trust-text">
+        Nos guides et générateurs reposent sur l'analyse rigoureuse des règlements européens actuels (comme le règlement CE 261/2004), des décisions de la Cour fédérale de justice et du droit national du voyage. 
+        Ils sont développés par Marc (direction du projet) et son équipe afin de permettre aux voyageurs de faire valoir leurs droits de manière juridiquement solide face aux compagnies aériennes et aux voyagistes.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Remarque importante : nos outils offrent une aide à l'auto-assistance en cas de retard de vol, de défauts d'hôtel ou d'annulation de train. Ils ne remplacent pas un conseil juridique individuel par un avocat.
+        </span>
+    </p>
+
+    <!-- Umlaut in URL entfernt! -->
+    <a href="ueber-uns.html" class="trust-link">
+        Découvrir les détails de la méthodologie juridique et de la rédaction →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Un problème avec votre vol, votre train ou votre hôtel ?</strong><br>
+        Fix-My-Trip examine en quelques étapes votre droit à indemnisation, au remboursement du billet ou à une réduction du prix du voyage. <br>
+        <em>Un service du réseau des portails Lotse.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Vous avez détecté une erreur dans l'outil ?</strong> Comme nous sommes un portail automatisé et ne fournissons pas de conseil juridique individuel, votre aide nous est très précieuse si vous signalez des bugs ou des prestataires obsolètes : 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Envoyer un retour à notre siège</a>.
+</p>
+</div>
+
+<section class="site-niche-directory">
+    <div class="niche-directory-container">
+        <h2 class="niche-directory-title">Découvrir d'autres thèmes</h2>
+        <p class="niche-directory-intro">
+            Qu'il s'agisse d'un retard de vol, d'un défaut d'hôtel ou d'un piège de roaming, nos experts ont préparé pour presque chaque niche de voyage le guide et la lettre type adaptés.
+        </p>
+        
+        <div class="niche-directory-grid">
+            <div class="niche-directory-group">
+                <h3>Vol et aéroport</h3>
+                <ul>
+                    <li><a href="flugverspaetung-info.html">Retard et annulation de vol</a></li>
+                    <li><a href="steuern-info.html">Récupérer les taxes aériennes</a></li>
+                    <li><a href="gepaeck-info.html">Perte de bagages et dommages aux valises</a></li>
+                    <li><a href="flughafen-parken-info.html">Frais de stationnement à l'aéroport</a></li>
+                    <li><a href="ota-rueckerstattung-info.html">Portails de réservation de vols (OTA)</a></li>
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Hébergement et voyage à forfait</h3>
+                <ul>
+                    <li><a href="hotel-maengel-info.html">Défauts d'hôtel et bruit de chantier</a></li>
+                    <li><a href="storno-info.html">Annuler un voyage (frais)</a></li>
+                    <li><a href="ferienhaus-maengel-info.html">Maisons de vacances et appartements de vacances</a></li>
+                    <li><a href="airbnb-probleme-info.html">Solutions aux problèmes Airbnb</a></li>
+                    <li><a href="kreuzfahrt-minderung.html">Défauts de croisière</a></li>
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Préparation du voyage et mobilité</h3>
+                <ul>
+                    <li><a href="zugverspaetung-info.html">Retard de train et droits ferroviaires</a></li>
+                    <li><a href="einreise-info.html">Conditions d'entrée et visa</a></li>
+                    <li><a href="esim-roaming-info.html">Coûts eSIM et roaming</a></li>
+                    <li><a href="mietwagen-info.html">Assurances de voiture de location</a></li>
+                    <li><a href="zoll-info.html">Douanes et règles d'importation</a></li>
+                    <li><a href="reisekreditkarten-info.html">Comparatif des cartes de crédit voyage</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">À propos de nous</a> | 
+        <a href="index.html">Accueil</a> | 
+        <a href="impressum.html">Mentions légales</a> | 
+        <a href="datenschutz.html">Protection des données</a>
+    </nav>
+</footer>
+
+<script>
+document.getElementById('trainForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+    
+    // Adresse codée en dur du centre de service DB
+    // Récupérer l'adresse dynamique depuis le champ de texte
+const empfaenger = document.getElementById('rAddress').value;
+    
+    const sName = document.getElementById('sName').value;
+    const sStrasse = document.getElementById('sStrasse').value;
+    const sPLZOrt = document.getElementById('sPLZOrt').value;
+    const bIBAN = document.getElementById('bIBAN').value;
+    
+    const fTicket = document.getElementById('fTicket').value;
+    const fStart = document.getElementById('fStart').value;
+    const fZiel = document.getElementById('fZiel').value;
+    const fGrund = document.getElementById('fGrund').value;
+    
+    const rawDate = document.getElementById('fDatum').value;
+    const fDatumParts = rawDate.split('-');
+    const fDatum = `${fDatumParts[2]}.${fDatumParts[1]}.${fDatumParts[0]}`;
+
+    const verspaetungTyp = document.getElementById('fVerspaetung').value;
+
+    let deadline = new Date();
+    deadline.setDate(deadline.getDate() + 14);
+    const deadlineStr = deadline.toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'});
+    const todayStr = new Date().toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'});
+
+    doc.setFont("helvetica");
+
+    // 1. Ligne d'en-tête (expéditeur en petit)
+    doc.setFontSize(8);
+    doc.setTextColor(100, 100, 100);
+    doc.text(`${sName} • ${sStrasse} • ${sPLZOrt}`, 25, 45);
+    doc.setLineWidth(0.2);
+    doc.setDrawColor(150, 150, 150);
+    doc.line(25, 46.5, 95, 46.5);
+
+    // 2. Destinataire (service center)
+    doc.setFontSize(11);
+    doc.setTextColor(0, 0, 0);
+    const receiverLines = doc.splitTextToSize(empfaenger, 80);
+    doc.text(receiverLines, 25, 53);
+
+    // 3. Bloc expéditeur à droite
+    doc.setFontSize(10);
+    doc.text("Expéditeur :", 130, 45);
+    doc.setFont("helvetica", "bold");
+    doc.text(sName, 130, 50);
+    doc.setFont("helvetica", "normal");
+    doc.text(sStrasse, 130, 55);
+    doc.text(sPLZOrt, 130, 60);
+
+    doc.text(`Date : ${todayStr}`, 185, 80, {align: 'right'});
+
+    // 4. Objet
+doc.setFont("helvetica", "bold");
+const titleText = `Demande d'indemnisation conformément aux droits des passagers (règlement (UE) 2021/782)`;
+
+let titleFontSize = 12; // Start-Größe
+doc.setFontSize(titleFontSize);
+
+// 160 mm ist der verfügbare Platz (185 rechter Rand minus 25 linker Rand)
+while (doc.getTextWidth(titleText) > 160 && titleFontSize > 8) {
+    titleFontSize -= 0.5;
+    doc.setFontSize(titleFontSize);
+}
+
+doc.text(titleText, 25, 95);
+    
+    // 5. Bloc des faits
+    doc.setFontSize(10.5);
+    doc.setFont("helvetica", "bold");
+    doc.text("Numéro de dossier / billet :", 25, 105);
+    doc.text("Date du voyage :", 25, 110);
+    doc.text("Trajet :", 25, 115);
+
+    doc.setFont("helvetica", "normal");
+    doc.text(fTicket, 75, 105);
+    doc.text(fDatum, 75, 110);
+    doc.text(`${fStart} vers ${fZiel}`, 75, 115);
+
+    doc.setDrawColor(0, 0, 0);
+    doc.line(25, 120, 185, 120); 
+
+    // 6. Texte principal selon le retard
+    // 6. Texte principal selon le retard
+const pageH = 297;
+const marginBottom = 20;
+const lineH = 6;
+
+function checkNewPage(doc, y, neededHeight = lineH) {
+    if (y + neededHeight > pageH - marginBottom) {
+        doc.addPage();
+        return 30;
+    }
+    return y;
+}
+
+function writeLines(doc, lines, startY, lh = lineH) {
+    let y = startY;
+    for (const line of lines) {
+        y = checkNewPage(doc, y);
+        doc.text(line, 25, y);
+        y += lh;
+    }
+    return y;
+}
+
+let yPos = 130;
+doc.setFontSize(11);
+
+let forderung = "";
+if (verspaetungTyp === "60") {
+    forderung = "Comme je suis arrivé à ma gare de destination avec un retard de plus de 60 minutes, mais inférieur à 120 minutes, je fais valoir par la présente mon droit à une indemnisation à hauteur de 25 % du prix du billet.";
+} else if (verspaetungTyp === "120") {
+    forderung = "Comme je suis arrivé à ma gare de destination avec un retard de plus de 120 minutes, je fais valoir par la présente mon droit à une indemnisation à hauteur de 50 % du prix du billet.";
+} else {
+    forderung = "Comme le trajet n'a pas eu lieu ou a été interrompu, je fais valoir par la présente mon droit au remboursement intégral du prix du billet.";
+}
+
+const para1 = doc.splitTextToSize(
+    `Madame, Monsieur,\n\n` +
+    `Je me permets de vous contacter afin de faire valoir mes droits de passager concernant le voyage mentionné ci-dessus.\n\n` +
+    `Le trajet a connu d'importantes irrégularités. Le motif indiqué est le suivant : ${fGrund}.\n\n` +
+    forderung + `\n\n` +
+    `Les justificatifs nécessaires (billet) sont joints à la présente. Je vous prie de bien vouloir virer le montant du remboursement sur le compte suivant dans les 14 prochains jours :`,
+    160
+);
+yPos = writeLines(doc, para1, yPos);
+yPos += 8;
+
+const para2 = doc.splitTextToSize(
+    `Titulaire du compte : ${sName}\nIBAN : ${bIBAN}`,
+    160
+);
+yPos = writeLines(doc, para2, yPos);
+yPos += 15;
+
+const para3 = doc.splitTextToSize(
+    `Je pars du principe que mon dossier sera traité de manière simple et rapide et j'attends la réception du paiement au plus tard le ${deadlineStr}.`,
+    160
+);
+yPos = writeLines(doc, para3, yPos);
+yPos += 20;
+
+// Signature – toujours garder ensemble
+yPos = checkNewPage(doc, yPos, 40);
+doc.text("Cordialement,", 25, yPos);
+yPos += 25;
+
+doc.setLineWidth(0.5);
+doc.line(25, yPos, 80, yPos);
+doc.line(100, yPos, 185, yPos);
+
+doc.setFontSize(9);
+doc.setTextColor(100, 100, 100);
+doc.text("Lieu, date", 25, yPos + 5);
+doc.text(`Signature (${sName})`, 100, yPos + 5);
+
+doc.save(`Droits_des_passagers_SNCF (Société Nationale des Chemins de fer Français)_${fTicket}.pdf`);
+setTimeout(() => document.getElementById('donateOverlay').classList.add('active'), 800);
+});
+
+/* ══════════════════════════════════════════
+   ▶▶ ENTREZ VOTRE E-MAIL PAYPAL ICI ◀◀
+   ══════════════════════════════════════════ */
+const PAYPAL_EMAIL = 'info@kassen-lotse.de';
+
+let donateAmount = 5;
+
+function selectPreset(amount, btn) {
+  donateAmount = amount;
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  document.getElementById('customAmount').value = '';
+  document.getElementById('customAmount').classList.remove('selected-custom');
+  updateDonateButton();
+}
+
+function handleCustomInput(input) {
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  const val = parseFloat(input.value);
+  if (val && val >= 1) {
+    donateAmount = val;
+    input.classList.add('selected-custom');
+  } else {
+    donateAmount = 0;
+    input.classList.remove('selected-custom');
+  }
+  updateDonateButton();
+}
+
+function updateDonateButton() {
+  const btn = document.getElementById('btnDonate');
+  if (donateAmount >= 1) {
+    btn.textContent = `Donner maintenant ${donateAmount % 1 === 0 ? donateAmount : donateAmount.toFixed(2)} €`;
+    btn.disabled = false;
+  } else {
+    btn.textContent = 'Saisir un montant';
+    btn.disabled = true;
+  }
+}
+
+function openPayPal() {
+  if (donateAmount < 1) return;
+  const amountStr = donateAmount.toFixed(2);
+  const url = `https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=${encodeURIComponent(PAYPAL_EMAIL)}&amount=${amountStr}&currency_code=EUR&item_name=Fix my Trip+Unterst%C3%BCtzung&no_note=1&no_shipping=1`;
+  window.open(url, '_blank');
+  closeOverlay();
+}
+
+function closeOverlay() {
+  document.getElementById('donateOverlay').classList.remove('active');
+}
+// Ferme la fenêtre superposée lorsqu'on clique sur l'arrière-plan assombri
+document.getElementById('donateOverlay').addEventListener('click', function(e) {
+  if (e.target === this) {
+    closeOverlay();
+  }
+});
+</script>
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Fermer">&times;</button>
+    <div class="donate-emoji">🎉</div>
+    <h2>Votre lettre est prête !</h2>
+    <p class="sub">Vous venez d'économiser des <strong style="color:#2e7d32;">frais de commission</strong> –<br>pas de prestataire tiers, pas de frais, tout vous revient.</p>
+    <div class="donate-hint">
+      Ce service est et reste <strong>100 % gratuit</strong>. S'il vous a aidé, nous serions très heureux d'un petit soutien volontaire – afin que Fix my Trip reste gratuit pour les autres voyageurs aussi.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Sélection rapide :</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Saisir un montant personnalisé …" oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Donner maintenant 5 €</button>
+    <button class="btn-skip" onclick="closeOverlay()">Non merci, je ferme la fenêtre</button>
+    <p class="paypal-note">Volontaire et sécurisé via PayPal</p>
+    <!-- P.S. Trick für das Bahn-Overlay -->
+<div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
+  
+  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
+    Publicité / lien sponsorisé
+  </span>
+
+  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
+    <strong style="color: #333;">P.S. : Vous repartez bientôt ?</strong> Protégez-vous avant le prochain chaos ferroviaire ou aérien. Les vraies cartes de crédit voyage aident facilement en cas de frais imprévus d'hôtel ou de location de voiture et offrent souvent une forte protection des achats. <br>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Comparer maintenant les meilleurs prestataires et se protéger 🚆</a>
+  </p>
+</div>
+  </div>
+</div>
+</body>
+</html>

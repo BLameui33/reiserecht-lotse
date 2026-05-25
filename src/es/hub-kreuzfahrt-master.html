@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Defectos en cruceros: reducir el precio del viaje - Tabla de referencia establecida | PDF</title>
+  <meta name="description" content="Sus derechos ante defectos en cruceros como cambios de ruta, ruido o cancelación de escala. Reclame hasta un 30% de reducción del precio del viaje según la tabla de referencia establecida.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="canonical" href="https://www.fix-my-trip.com/es/kreuzfahrt-minderung.html">
+  <link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/kreuzfahrt-minderung.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/es/kreuzfahrt-minderung.html">
+  
+  <!-- Biblioteca para la generación de PDF a partir de HTML -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "¿Qué es la tabla de referencia establecida para cruceros?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La tabla de referencia establecida es una guía desarrollada por expertos en derecho de viajes. Enumera los defectos típicos de los cruceros y les asigna porcentajes de reducción que sirven como orientación para reembolsos ante los tribunales alemanes."
+      }
+    }, {
+      "@type": "Question",
+      "name": "¿Debo aceptar un crédito a bordo como compensación?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Las navieras suelen intentar resolver las reclamaciones a bordo con un pequeño crédito a bordo (por ejemplo, 50 € o bebidas gratis). Jurídicamente, sin embargo, usted tiene derecho a un pago en efectivo (reducción del precio del viaje), que por lo general es considerablemente mayor."
+      }
+    }, {
+      "@type": "Question",
+      "name": "¿Un cambio de ruta por el clima cuenta como defecto?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Aunque la seguridad tiene prioridad y el capitán deba cancelar la escala por una tormenta, existe una desviación del contrato de viaje. El riesgo operativo lo asume la naviera. La cancelación de una escala suele dar derecho a una reducción del precio diario del viaje."
+      }
+    }, {
+      "@type": "Question",
+      "name": "¿Cuánto tiempo tengo después del crucero para presentar reclamaciones?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El plazo legal de prescripción en el derecho de viajes alemán es de dos años desde el final del viaje previsto contractualmente. No obstante, es recomendable hacer valer las reclamaciones cuanto antes, idealmente en el plazo de unas pocas semanas."
+      }
+    }]
+  }
+  </script>
+</head>
+<body>
+
+<header class="site-header" style="padding: 20px 0; border-bottom: 2px solid #eee; margin-bottom: 30px;">
+  <a href="index.html" style="font-size: 1.5em; font-weight: bold; text-decoration: none;">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Defectos en cruceros: así reclama una reducción del precio del viaje (tabla de referencia establecida)</h1>
+  
+  <p>Un crucero suele ser unas vacaciones de ensueño caras. Si la cabina no cumple con el estándar, la ruta se cambia de forma espontánea o hay un ruido de obras insoportable en cubierta, el enfado es grande. Lo que muchos pasajeros no saben: un crucero se considera jurídicamente un viaje combinado. Por ello, usted está muy bien protegido por el <strong>derecho alemán de viajes</strong>.</p>
+  
+  <p>En lugar de conformarse en el mostrador de Guest Relations con un cóctel gratis o 50 € de crédito a bordo, tiene derecho a un pago en efectivo. La llamada <strong>tabla de referencia establecida</strong> sirve como brújula jurídica y suele reconocer a los pasajeros, en caso de defectos importantes, un reembolso de <strong>entre el 10 % y el 30 % del precio proporcional del viaje</strong>. Le ayudamos a hacer valer esa cantidad.</p>
+
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Generar carta de reclamación en PDF</h2>
+    <p>Seleccione su naviera para crear un documento jurídicamente sólido, adaptado exactamente al proveedor correspondiente:</p>
+    
+    <div class="legal-info-box">
+    <strong>Aviso importante sobre el uso</strong><br>
+    Esta herramienta es un <strong>generador automatizado de cartas modelo</strong> (ayuda para la autoayuda). Solo inserta sus datos en plantillas jurídicas estándar. No se realiza <strong>ninguna revisión individual</strong> de su caso. Este servicio gratuito no sustituye el asesoramiento jurídico de un abogado. El uso se realiza bajo su propia responsabilidad; no se garantiza el éxito.
+</div>
+
+    <select id="cruiseSelect">
+      <option value="">-- Por favor, elija una naviera --</option>
+      {{CRUISE_OPTIONS}}
+      <option value="kreuzfahrt-maengel-minderung-allgemein.html">Mi naviera no aparece aquí (formulario general)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Ir al generador para esta naviera</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Revisión de reclamaciones por naviera</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{CRUISE_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Lista de verificación: ayuda inmediata ante defectos en cruceros</h2>
+  <p>Lo más importante en caso de defectos en el viaje es asegurar las pruebas en el lugar. Siga estos pasos a bordo para respaldar su futura reducción:</p>
+  
+  <div class="checklist-box" id="checklistToPrint">
+  <!-- Optional: Eine versteckte oder sichtbare Überschrift, die nur im PDF gut aussieht -->
+  <h3 style="margin-top:0; color:#1565c0;">Lista de verificación: defectos a bordo</h3>
+
+    <ul>
+      <li><strong>Notificación del defecto:</strong> Informe del problema INMEDIATAMENTE en recepción (Guest Relations). Quien oculta el defecto, pierde después sus derechos.</li>
+      <li><strong>Fijar un plazo para subsanar:</strong> Exija una solución (por ejemplo, otra cabina) y anote el nombre del empleado.</li>
+      <li><strong>Conservar pruebas:</strong> Tome fotos (por ejemplo, de suciedad o desperfectos) o lleve un registro preciso de ruido y olores con fecha y hora.</li>
+      <li><strong>Buscar testigos:</strong> Intercambie números de móvil con otros pasajeros afectados. Las declaraciones de compañeros de viaje independientes valen oro.</li>
+      <li><strong>No firmar acuerdos definitivos:</strong> Si acepta crédito a bordo, no firme "en liquidación de todas las reclamaciones", sino añada "con reserva".</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('checkliste-kreuzfahrt.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+  Generar y guardar la lista de verificación como PDF
+</button>
+
+  <h2 style="margin-top: 40px;">Ejemplos de casos según la tabla de referencia establecida</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Ejemplo 1: cambio de ruta y cancelación de escala</h3>
+    <p>En un crucero por el Mediterráneo (precio total 3.000 € por 10 días = 300 €/día), el punto destacado Santorini se cancela por fuertes vientos sin un puerto alternativo equivalente.<br>
+    <strong>Resultado:</strong> Como el contrato de viaje no se cumplió, la tabla de referencia establecida justifica una reducción. Por el día perdido, el pasajero suele tener derecho a aproximadamente <strong>entre el 20 % y el 30 % del precio diario</strong> (unos 60 - 90 € por persona).</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Ejemplo 2: ruido insoportable en la cabina</h3>
+    <p>La cabina asignada está justo debajo de la discoteca del barco. Hasta las 3 de la madrugada no se puede dormir. La recepción no dispone de otra habitación. <br>
+    <strong>Resultado:</strong> El ruido que perturba gravemente el descanso nocturno constituye un defecto importante. Durante el periodo afectado pueden reclamarse reducciones de <strong>hasta el 30 % del precio proporcional del viaje</strong>.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">FAQ: sus derechos en detalle</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">¿Sobre qué importe se aplica el porcentaje?</div>
+    <div class="faq-answer">La reducción siempre se calcula de forma proporcional. Si el defecto afecta a todo el viaje (por ejemplo, un balcón reservado que falta), la reducción se aplica sobre el precio total del viaje. Si el problema solo ocurre durante algunos días (por ejemplo, 2 días de ruido de obras en la piscina), el precio del viaje se divide entre los días del viaje y el porcentaje se aplica a ese "precio diario del viaje".</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">¿Qué ocurre si la naviera alega fuerza mayor?</div>
+    <div class="faq-answer">En el derecho de viajes (derecho de reducción), la excusa de "fuerza mayor" (como una tormenta o niebla densa) normalmente no impide la mera reducción del precio del viaje. El precio se reduce automáticamente si el servicio no se presta como se reservó, independientemente de si la naviera tiene culpa. (Otra cosa es la indemnización adicional por la pérdida del tiempo de vacaciones).</div>
+  </div>
+
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">¿Puedo exigir una cabina exterior si mi cabina interior está defectuosa?</div>
+    <div class="faq-answer">Sí. Si la categoría de cabina reservada no puede utilizarse debido a un defecto y no hay una cabina idéntica disponible, la naviera debe ofrecerle una mejora gratuita. Si la naviera lo rechaza y usted debe permanecer en la cabina defectuosa, sus derechos de reducción aumentan drásticamente.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Experiencia en derecho de viajes y derechos de los pasajeros</h3>
+    <p class="trust-text">
+        Nuestras guías y generadores se basan en el análisis estricto de las normativas europeas vigentes (como el Reglamento CE 261/2004), las sentencias del BGH y el derecho nacional de viajes. 
+        Están desarrollados por Marc (dirección del proyecto) y su equipo para permitir a los viajeros hacer valer sus derechos con seguridad jurídica frente a aerolíneas y operadores turísticos.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Aviso importante: Nuestras herramientas ofrecen ayuda para la autoayuda en defectos de cruceros, problemas de hotel o cancelaciones de trenes. No sustituyen el asesoramiento jurídico individual de un abogado.
+        </span>
+    </p>
+
+    <a href="ueber-uns.html" class="trust-link">
+        Conozca los detalles sobre la metodología jurídica y el equipo editorial →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>¿Problemas en el crucero, el vuelo o el hotel?</strong><br>
+        Fix-My-Trip revisa en pocos pasos su derecho a compensación, reembolso del billete o reducción del precio del viaje. <br>
+        <em>Un servicio de la red de portales Lotse.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>¿Ha detectado un error en la herramienta?</strong> Como portal automatizado no ofrecemos asesoramiento jurídico individual, por lo que nos ayuda enormemente si informa de fallos o proveedores desactualizados: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Enviar comentarios a nuestra central</a>.
+</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Sobre nosotros</a> | 
+        <a href="index.html">Inicio</a> | 
+        <a href="impressum.html">Aviso legal</a> | 
+        <a href="datenschutz.html">Protección de datos</a>
+    </nav>
+</footer>
+
+<script>
+function routeToGenerator() {
+    const selectElement = document.getElementById('cruiseSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Por favor, seleccione primero una naviera de la lista.");
+    }
+}
+
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // margen de 15 mm alrededor
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, // alta resolución
+            scrollY: 0, // IMPORTANTE: corrige el problema de la página en blanco
+            windowWidth: document.documentElement.offsetWidth // garantiza que el ancho sea correcto
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    // Generar PDF
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

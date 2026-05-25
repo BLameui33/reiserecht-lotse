@@ -135,6 +135,9 @@ Kundenservice
 Garmischer Str. 7
 80339 München</textarea>
     </fieldset>
+    <p style="font-size: 0.8em; color: #666; margin-top: 5px; line-height: 1.3;">
+  💡 <strong>Hinweis:</strong> Standardmäßig wird hier die zentrale oder regionale Adresse des Anbieters angezeigt. Sie können diese Adresse jederzeit ändern und stattdessen die Adresse der lokalen Niederlassung in Ihrem Land eingeben.
+</p>
 
     <fieldset>
       <legend>2. Ihre Daten (Reiseteilnehmer)</legend>
@@ -385,8 +388,8 @@ document.getElementById('cruiseForm').addEventListener('submit', function(e) {
   doc.text("Gesamtreisepreis:", 25, 120);
 
   doc.setFont("helvetica", "normal");
-  doc.text(cSchiff, 65, 105);
-  doc.text(cBuchung, 65, 110);
+  doc.text(cSchiff, 90, 105);
+  doc.text(cBuchung, 90, 110);
   doc.text(`${fStart} bis ${fEnd}`, 65, 115);
   doc.text(`${cPreisStr} EUR`, 65, 120);
 

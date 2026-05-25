@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Vuelo no realizado: reclamar impuestos y tasas | PDF</title>
+  <meta name="description" content="¿Vuelo cancelado o perdido? Reclame a la aerolínea sus impuestos, tasas aeroportuarias y de seguridad. Nuestra guía y generador de cartas modelo le ayudan.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & Internationalisierung -->
+  <link rel="canonical" href="https://www.fix-my-trip.com/es/steuern-info.html">
+  <link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/steuern-info.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/es/steuern-info.html">
+
+  <!-- Bibliothek für die PDF-Generierung aus HTML -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="/logo-lotse-fav.png">
+
+  <!-- FAQ Schema.org JSON-LD für Rich Snippets bei Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "¿También recibo dinero de vuelta con un billete no reembolsable (tarifa económica)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "¡Sí! Incluso si ha reservado la tarifa más barata (por ejemplo, Economy Light), en la que no se reembolsa el precio puro del vuelo, la aerolínea debe devolverle los impuestos y tasas no devengados (como tasas aeroportuarias y recargos de seguridad). Estos costes solo se abonan a la aerolínea cuando usted realmente vuela."
+      }
+    }, {
+      "@type": "Question",
+      "name": "¿Puede la aerolínea cobrar una tarifa de gestión por el reembolso?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. El tribunal supremo alemán ha decidido en varias ocasiones que los cargos fijos de gestión para el reembolso de impuestos y tasas no son admisibles. Por tanto, la aerolínea no puede simplemente compensar o retener el dinero con tasas ficticias."
+      }
+    }, {
+      "@type": "Question",
+      "name": "¿También recibo de vuelta el recargo por queroseno (recargo por combustible)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Depende del caso concreto y de las condiciones generales de la aerolínea. A menudo, el recargo por queroseno (normalmente indicado como YQ o YR en el billete) se declara por las aerolíneas como parte del precio puro del vuelo y no se reembolsa en tarifas económicas. Sin embargo, las tasas de terceros reales (tasas aeroportuarias) deben reembolsarse siempre."
+      }
+    }, {
+      "@type": "Question",
+      "name": "¿Hasta cuánto tiempo atrás puedo reclamar los impuestos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En Alemania se aplica el plazo legal ordinario de prescripción de tres años. El plazo comienza al final del año en que debía realizarse el vuelo. Para un vuelo no realizado en mayo de 2023, por tanto, tiene tiempo hasta el 31 de diciembre de 2026."
+      }
+    }]
+  }
+  </script>
+
+  
+</head>
+<body>
+
+<header class="site-header" style="padding: 20px 0; border-bottom: 2px solid #eee; margin-bottom: 30px;">
+  <a href="index.html" style="font-size: 1.5em; font-weight: bold; text-decoration: none;">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>¿Perdió o canceló su vuelo? Así puede reclamar impuestos y tasas</h1>
+  
+  <p>¿No pudo realizar su vuelo por enfermedad, lo perdió (no-show) o lo canceló voluntariamente? En las tarifas baratas, "no reembolsables", el precio puro del billete suele perderse. Lo que muchas aerolíneas no le dicen es: <strong>¡Aun así puede reclamar una gran parte del dinero!</strong></p>
+  
+  <p>Un billete de avión se compone del precio base del vuelo, así como de diversos impuestos, tasas aeroportuarias y de seguridad. Como la aerolínea solo tiene que abonar estas tasas al aeropuerto o al Estado cuando usted <em>realmente embarca</em>, se enriquece indebidamente si las retiene cuando usted no viaja. Reclame ahora su dinero sin riesgo.</p>
+
+  <div class="legal-info-box">
+    <strong>Aviso importante sobre el uso</strong><br>
+    Esta herramienta es un <strong>generador automatizado de cartas modelo</strong> (ayuda para la autoayuda). Simplemente inserta sus datos en plantillas jurídicas estándar. No se realiza <strong>ninguna revisión individual</strong> de su caso. Este servicio gratuito no sustituye el asesoramiento jurídico de un abogado. El uso se realiza bajo su propia responsabilidad; no se garantiza el éxito.
+</div>
+
+  <!-- DAS IST DER MAGISCHE BEREICH FÜR DIE INTERNE VERLINKUNG -->
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Generar reclamación</h2>
+    <p>Seleccione su aerolínea para crear una carta de reclamación jurídicamente válida para el reembolso de sus impuestos y tasas (100% gratis):</p>
+    
+    <select id="airlineSelect">
+      <option value="">-- Por favor, seleccione una aerolínea --</option>
+      <!-- Das Skript fügt hier die Airlines als Options ein -->
+      {{STEUER_OPTIONS}}
+      <!-- Fallback für Airlines, die nicht in der Liste sind -->
+      <option value="steuern-gebuehren-erstattung-allgemein.html">Mi aerolínea no aparece (formulario general)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Ir al generador para esta aerolínea</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Comprobación de la reclamación por aerolínea</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{STEUER_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Lista de verificación: cómo proceder correctamente</h2>
+  <p>Para que la aerolínea no retrase su reembolso con tasas ficticias o excusas, tenga en cuenta estos puntos:</p>
+  
+  <div class="checklist-box" id="checklistToPrint">
+  <!-- Optional: Eine versteckte oder sichtbare Überschrift, die nur im PDF gut aussieht -->
+  <h3 style="margin-top:0; color:#1565c0;">Lista de verificación</h3>
+
+    <ul>
+      <li><strong>Revisar la confirmación de la reserva:</strong> Busque en su billete electrónico términos como "Taxes", "Fees", "tasas aeroportuarias" o códigos como "XT". Así verá exactamente cuál es el importe de su derecho al reembolso.</li>
+      <li><strong>Cancelar el vuelo de forma proactiva:</strong> Aunque para el derecho a los impuestos no sea estrictamente necesario (el no-show basta legalmente), una cancelación oficial antes de la salida suele acelerar el proceso de reembolso.</li>
+      <li><strong>Indicar su propia IBAN:</strong> En la reclamación, indique obligatoriamente a qué cuenta debe transferirse el dinero, en caso de que la tarjeta de crédito original haya caducado.</li>
+      <li><strong>Rechazar los gastos de gestión:</strong> Si la aerolínea descuenta sin previo aviso entre 25 € y 50 € en concepto de "gastos de gestión" de su reembolso, objete de inmediato invocando la jurisprudencia del tribunal supremo alemán.</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('checkliste-zoll.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+  Generar y guardar la lista de verificación como PDF
+</button>
+
+  <h2 style="margin-top: 40px;">Casos prácticos: por qué merece la pena el esfuerzo</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Ejemplo 1: El vuelo a Londres (aerolínea de bajo coste)</h3>
+    <p>Anna reserva un vuelo barato por 65 €. Se pone enferma y no puede volar. La tarifa no es reembolsable. Un vistazo al desglose del billete muestra: el precio puro del vuelo es solo 15 €, los 50 € restantes son impuestos y tasas de pasajeros de los aeropuertos.<br>
+    <strong>Resultado:</strong> Anna reclama las tasas a través de nuestro formulario. La aerolínea debe reembolsarle los <strong>50 €</strong> íntegros, aunque el vuelo en sí no fuera reembolsable.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Ejemplo 2: Cargo de gestión no admisible</h3>
+    <p>Markus cancela un vuelo y reclama 80 € en impuestos. La aerolínea solo le transfiere 30 € y retiene 50 € como "gastos de cancelación y gestión", amparándose en sus condiciones generales.<br>
+    <strong>Resultado:</strong> ¡Este tipo de cláusulas son inválidas según el tribunal supremo alemán! Markus utiliza nuestro portal para oponerse a la retención, y la aerolínea debe abonar también los <strong>50 €</strong> restantes.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">FAQ: preguntas frecuentes sobre el reembolso de impuestos</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">¿También recibo dinero de vuelta con un billete no reembolsable?</div>
+    <div class="faq-answer">¡Sí! Incluso si ha reservado la tarifa más barata (por ejemplo, Economy Light), en la que no se reembolsa el precio puro del vuelo, la aerolínea debe devolverle los impuestos y tasas no devengados (como tasas aeroportuarias y recargos de seguridad). Estos costes solo se abonan a la aerolínea cuando usted realmente vuela.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">¿Puede la aerolínea cobrar una tarifa de gestión por el reembolso?</div>
+    <div class="faq-answer">No. El tribunal supremo alemán ha decidido en varias ocasiones que los cargos fijos de gestión para el reembolso de impuestos y tasas no son admisibles. Por tanto, la aerolínea no puede simplemente compensar o retener el dinero con tasas ficticias.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">¿También recibo de vuelta el recargo por queroseno (recargo por combustible)?</div>
+    <div class="faq-answer">Depende del caso concreto y de las condiciones generales de la aerolínea. A menudo, el recargo por queroseno (normalmente indicado como YQ o YR en el billete) se declara por las aerolíneas como parte del precio puro del vuelo y no se reembolsa en tarifas económicas. Sin embargo, las tasas de terceros reales (tasas aeroportuarias) deben reembolsarse siempre.</div>
+  </div>
+  
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">¿Hasta cuánto tiempo atrás puedo reclamar los impuestos?</div>
+    <div class="faq-answer">En Alemania se aplica el plazo legal ordinario de prescripción de tres años. El plazo comienza al final del año en que debía realizarse el vuelo. Para un vuelo no realizado en mayo de 2023, por tanto, tiene tiempo hasta el 31 de diciembre de 2026.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Experiencia en derecho de viajes y derechos de los pasajeros</h3>
+    <p class="trust-text">
+        Nuestras guías y generadores se basan en el análisis estricto de los reglamentos europeos vigentes (como el CE 261/2004), las sentencias del tribunal supremo alemán y el derecho nacional de viajes. 
+        Están desarrollados por Marc (dirección del proyecto) y su equipo para permitir a los viajeros hacer valer sus derechos frente a aerolíneas y operadores turísticos de forma jurídicamente segura.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Aviso importante: Nuestras herramientas ofrecen ayuda para la autoayuda en caso de retrasos de vuelo, defectos en hoteles o cancelaciones de trenes. No sustituyen el asesoramiento jurídico individual de un abogado.
+        </span>
+    </p>
+
+    <!-- Umlaut in URL entfernt! -->
+    <a href="ueber-uns.html" class="trust-link">
+        Conozca los detalles sobre la metodología jurídica y el equipo editorial →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>¿Problemas con el vuelo, el tren o el hotel?</strong><br>
+        Fix-My-Trip comprueba en pocos pasos su derecho a indemnización, reembolso del billete o reducción del precio del viaje. <br>
+        <em>Un servicio de la red de portales Lotse.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>¿Ha detectado un error en la herramienta?</strong> Como somos un portal automatizado y no ofrecemos asesoramiento jurídico individual, nos ayuda enormemente si nos informa de errores o proveedores desactualizados: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Enviar comentarios a nuestra central</a>.
+</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Sobre nosotros</a> | 
+        <a href="index.html">Inicio</a> | 
+        <a href="impressum.html">Aviso legal</a> | 
+        <a href="datenschutz.html">Protección de datos</a>
+    </nav>
+</footer>
+
+<script>
+function routeToGenerator() {
+    const selectElement = document.getElementById('airlineSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Por favor, seleccione primero una aerolínea de la lista.");
+    }
+}
+
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // 15mm Rand rundherum
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, // Hohe Auflösung
+            scrollY: 0, // WICHTIG: Fixt das Problem mit der leeren Seite!
+            windowWidth: document.documentElement.offsetWidth // Stellt sicher, dass die Breite stimmt
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    // PDF generieren
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

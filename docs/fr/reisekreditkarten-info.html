@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Payer et retirer de l’argent : éviter les frais bancaires en vacances</title>
+  <meta name="description" content="Guide pour payer et retirer de l’argent hors de l’UE : évitez les frais de change coûteux. Vérifiez les frais de votre banque et trouvez la meilleure carte bancaire de voyage.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & Internationalisation -->
+  <link rel="canonical" href="https://www.fix-my-trip.com/fr/reisekreditkarten-info.html">
+  <link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/reisekreditkarten-info.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/fr/reisekreditkarten-info.html">
+
+  <!-- Bibliothek für die PDF-Generierung aus HTML -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <!-- FAQ Schema.org JSON-LD für Rich Snippets bei Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Qu’est-ce que les frais d’utilisation à l’étranger ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Les frais d’utilisation à l’étranger (également appelés frais de change) sont des frais généralement compris entre 1,75 % et 2,00 % que les banques traditionnelles facturent lorsque vous payez ou retirez de l’argent dans une devise autre que l’euro."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Dois-je régler en euros ou en monnaie locale au distributeur à l’étranger ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Choisissez TOUJOURS le règlement dans la monnaie locale (par ex. baht, lire, dollar) et refusez la conversion en euros ! La soi-disant conversion dynamique des devises (DCC) des exploitants de distributeurs utilise des taux de change extrêmement défavorables et peut vous coûter jusqu’à 10 % de frais cachés."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Pourquoi ma carte bancaire classique ne suffit-elle pas ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En dehors de l’Europe, les cartes V-Pay ou Maestro ne sont souvent pas acceptées. Même lorsqu’elles fonctionnent, votre banque facture à chaque retrait des frais fixes de 5 à 7 euros, auxquels s’ajoutent des frais de change proportionnels. Les cartes bancaires de voyage suppriment entièrement ces frais."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Les cartes bancaires de voyage gratuites à vie sont-elles vraiment gratuites ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui. Des cartes comme celles de Barclays, de la DKB, de N26 ou de TF Bank n’ont pas de cotisation annuelle. Les fournisseurs gagnent de l’argent grâce aux commissions commerçants (lorsque vous payez en magasin) ou grâce aux intérêts du crédit si vous remboursez votre facture par mensualités au lieu de la régler en totalité."
+      }
+    }]
+  }
+  </script>
+
+  
+</head>
+<body>
+
+<header class="site-header" style="padding: 20px 0; border-bottom: 2px solid #eee; margin-bottom: 30px;">
+  <a href="index.html" style="font-size: 1.5em; font-weight: bold; text-decoration: none;">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Cartes bancaires de voyage : évitez le piège des frais de change</h1>
+  
+  <p>Lorsque l’on passe ses vacances hors de la zone euro (par ex. en Turquie, en Asie ou aux États-Unis), on tombe souvent sans le vouloir dans un piège coûteux au moment de payer ou de retirer de l’argent. Les banques traditionnelles et les caisses d’épargne facturent presque toujours des <strong>frais d’utilisation à l’étranger (env. 1,75 % - 2,00 %)</strong> pour la conversion en devises étrangères, ainsi que de lourds frais fixes aux distributeurs automatiques.</p>
+  
+  <p>Avec une <strong>carte bancaire de voyage</strong> spéciale, ces soucis appartiennent au passé. Dans notre guide, vous apprendrez comment éviter au distributeur le redoutable piège de conversion « DCC », quels frais votre banque actuelle vous impose et avec quelles cartes bancaires gratuites vous pouvez retirer de l’argent sans frais dans le monde entier.</p>
+
+  <!-- DAS IST DER MAGISCHE BEREICH FÜR DIE INTERNE VERLINKUNG -->
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Lancer le calculateur de frais de change</h2>
+    <p>Choisissez votre pays de voyage pour calculer les frais bancaires cachés pour votre budget (100 % gratuit) :</p>
+    
+    <select id="toolSelect">
+      <option value="">-- Veuillez choisir un pays de voyage --</option>
+      <!-- Das Skript fügt hier die Optionen als Options ein -->
+      <option value="geld-abheben-bezahlen-thailand.html">Thaïlande (Baht thaïlandais (THB))</option>
+<option value="geld-abheben-bezahlen-tuerkei.html">Turquie (Livre turque (TRY))</option>
+<option value="geld-abheben-bezahlen-usa.html">États-Unis (Dollar américain (USD))</option>
+<option value="geld-abheben-bezahlen-schweiz.html">Suisse (Franc suisse (CHF))</option>
+<option value="geld-abheben-bezahlen-grossbritannien.html">Grande-Bretagne (Livre sterling britannique (GBP))</option>
+<option value="geld-abheben-bezahlen-norwegen.html">Norvège (Couronne norvégienne (NOK))</option>
+<option value="geld-abheben-bezahlen-island.html">Islande (Couronne islandaise (ISK))</option>
+<option value="geld-abheben-bezahlen-aegypten.html">Égypte (Livre égyptienne (EGP))</option>
+<option value="geld-abheben-bezahlen-suedafrika.html">Afrique du Sud (Rand sud-africain (ZAR))</option>
+<option value="geld-abheben-bezahlen-marokko.html">Maroc (Dirham marocain (MAD))</option>
+<option value="geld-abheben-bezahlen-kanada.html">Canada (Dollar canadien (CAD))</option>
+<option value="geld-abheben-bezahlen-mexiko.html">Mexique (Peso mexicain (MXN))</option>
+<option value="geld-abheben-bezahlen-dominikanische-republik.html">République dominicaine (Peso dominicain (DOP))</option>
+<option value="geld-abheben-bezahlen-brasilien.html">Brésil (Real brésilien (BRL))</option>
+<option value="geld-abheben-bezahlen-vereinigte-arabische-emirate.html">Émirats arabes unis (Dirham des Émirats arabes unis (AED))</option>
+<option value="geld-abheben-bezahlen-indonesien.html">Indonésie (Roupie indonésienne (IDR))</option>
+<option value="geld-abheben-bezahlen-japan.html">Japon (Yen japonais (JPY))</option>
+<option value="geld-abheben-bezahlen-china.html">Chine (Yuan chinois (CNY))</option>
+<option value="geld-abheben-bezahlen-vietnam.html">Vietnam (Dong vietnamien (VND))</option>
+<option value="geld-abheben-bezahlen-indien.html">Inde (Roupie indienne (INR))</option>
+<option value="geld-abheben-bezahlen-malediven.html">Maldives (Roupie des Maldives (MVR))</option>
+<option value="geld-abheben-bezahlen-singapur.html">Singapour (Dollar de Singapour (SGD))</option>
+<option value="geld-abheben-bezahlen-australien.html">Australie (Dollar australien (AUD))</option>
+<option value="geld-abheben-bezahlen-neuseeland.html">Nouvelle-Zélande (Dollar néo-zélandais (NZD))</option>
+<option value="geld-abheben-bezahlen-serbien.html">Serbie (Dinar serbe (RSD))</option>
+<option value="geld-abheben-bezahlen-bosnien-und-herzegowina.html">Bosnie-Herzégovine (Mark convertible (BAM))</option>
+<option value="geld-abheben-bezahlen-albanien.html">Albanie (Lek albanais (ALL))</option>
+<option value="geld-abheben-bezahlen-nordmazedonien.html">Macédoine du Nord (Denar macédonien (MKD))</option>
+<option value="geld-abheben-bezahlen-georgien.html">Géorgie (Lari géorgien (GEL))</option>
+<option value="geld-abheben-bezahlen-suedkorea.html">Corée du Sud (Won sud-coréen (KRW))</option>
+<option value="geld-abheben-bezahlen-malaysia.html">Malaisie (Ringgit malaisien (MYR))</option>
+<option value="geld-abheben-bezahlen-philippinen.html">Philippines (Peso philippin (PHP))</option>
+<option value="geld-abheben-bezahlen-sri-lanka.html">Sri Lanka (Roupie srilankaise (LKR))</option>
+<option value="geld-abheben-bezahlen-taiwan.html">Taïwan (Nouveau dollar taïwanais (TWD))</option>
+<option value="geld-abheben-bezahlen-kambodscha.html">Cambodge (Riel cambodgien (KHR))</option>
+<option value="geld-abheben-bezahlen-laos.html">Laos (Kip laotien (LAK))</option>
+<option value="geld-abheben-bezahlen-nepal.html">Népal (Roupie népalaise (NPR))</option>
+<option value="geld-abheben-bezahlen-jordanien.html">Jordanie (Dinar jordanien (JOD))</option>
+<option value="geld-abheben-bezahlen-oman.html">Oman (Rial omanais (OMR))</option>
+<option value="geld-abheben-bezahlen-saudi-arabien.html">Arabie saoudite (Riyal saoudien (SAR))</option>
+<option value="geld-abheben-bezahlen-katar.html">Qatar (Riyal qatari (QAR))</option>
+<option value="geld-abheben-bezahlen-israel.html">Israël (Nouveau shekel israélien (ILS))</option>
+<option value="geld-abheben-bezahlen-argentinien.html">Argentine (Peso argentin (ARS))</option>
+<option value="geld-abheben-bezahlen-chile.html">Chili (Peso chilien (CLP))</option>
+<option value="geld-abheben-bezahlen-kolumbien.html">Colombie (Peso colombien (COP))</option>
+<option value="geld-abheben-bezahlen-peru.html">Pérou (Sol péruvien (PEN))</option>
+<option value="geld-abheben-bezahlen-costa-rica.html">Costa Rica (Colón costaricien (CRC))</option>
+<option value="geld-abheben-bezahlen-kuba.html">Cuba (Peso cubain (CUP))</option>
+<option value="geld-abheben-bezahlen-jamaika.html">Jamaïque (Dollar jamaïcain (JMD))</option>
+<option value="geld-abheben-bezahlen-panama.html">Panama (Balboa panaméen (PAB))</option>
+<option value="geld-abheben-bezahlen-bahamas.html">Bahamas (Dollar bahaméen (BSD))</option>
+<option value="geld-abheben-bezahlen-kenia.html">Kenya (Shilling kényan (KES))</option>
+<option value="geld-abheben-bezahlen-tansania.html">Tanzanie (Shilling tanzanien (TZS))</option>
+<option value="geld-abheben-bezahlen-mauritius.html">Maurice (Roupie mauricienne (MUR))</option>
+<option value="geld-abheben-bezahlen-seychellen.html">Seychelles (Roupie seychelloise (SCR))</option>
+<option value="geld-abheben-bezahlen-tunesien.html">Tunisie (Dinar tunisien (TND))</option>
+<option value="geld-abheben-bezahlen-namibia.html">Namibie (Dollar namibien (NAD))</option>
+<option value="geld-abheben-bezahlen-madagaskar.html">Madagascar (Ariary malgache (MGA))</option>
+<option value="geld-abheben-bezahlen-fidschi.html">Fidji (Dollar fidjien (FJD))</option>
+
+      <!-- Fallback für allgemeine Anfragen -->
+      <option value="geld-abheben-bezahlen-allgemein.html">Mon pays de voyage n’est pas listé (vérification générale)</option>
+    </select>
+    
+    <button onclick="routeToTool()" class="btn-route">Calculer les frais bancaires maintenant</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Destinations de voyage populaires (hors euro) en revue</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      <a href="geld-abheben-bezahlen-thailand.html">Thaïlande</a>
+<a href="geld-abheben-bezahlen-tuerkei.html">Turquie</a>
+<a href="geld-abheben-bezahlen-usa.html">États-Unis</a>
+<a href="geld-abheben-bezahlen-schweiz.html">Suisse</a>
+<a href="geld-abheben-bezahlen-grossbritannien.html">Grande-Bretagne</a>
+<a href="geld-abheben-bezahlen-norwegen.html">Norvège</a>
+<a href="geld-abheben-bezahlen-island.html">Islande</a>
+<a href="geld-abheben-bezahlen-aegypten.html">Égypte</a>
+<a href="geld-abheben-bezahlen-suedafrika.html">Afrique du Sud</a>
+<a href="geld-abheben-bezahlen-marokko.html">Maroc</a>
+<a href="geld-abheben-bezahlen-kanada.html">Canada</a>
+<a href="geld-abheben-bezahlen-mexiko.html">Mexique</a>
+<a href="geld-abheben-bezahlen-dominikanische-republik.html">République dominicaine</a>
+<a href="geld-abheben-bezahlen-brasilien.html">Brésil</a>
+<a href="geld-abheben-bezahlen-vereinigte-arabische-emirate.html">Émirats arabes unis</a>
+<a href="geld-abheben-bezahlen-indonesien.html">Indonésie</a>
+<a href="geld-abheben-bezahlen-japan.html">Japon</a>
+<a href="geld-abheben-bezahlen-china.html">Chine</a>
+<a href="geld-abheben-bezahlen-vietnam.html">Vietnam</a>
+<a href="geld-abheben-bezahlen-indien.html">Inde</a>
+<a href="geld-abheben-bezahlen-malediven.html">Maldives</a>
+<a href="geld-abheben-bezahlen-singapur.html">Singapour</a>
+<a href="geld-abheben-bezahlen-australien.html">Australie</a>
+<a href="geld-abheben-bezahlen-neuseeland.html">Nouvelle-Zélande</a>
+<a href="geld-abheben-bezahlen-serbien.html">Serbie</a>
+<a href="geld-abheben-bezahlen-bosnien-und-herzegowina.html">Bosnie-Herzégovine</a>
+<a href="geld-abheben-bezahlen-albanien.html">Albanie</a>
+<a href="geld-abheben-bezahlen-nordmazedonien.html">Macédoine du Nord</a>
+<a href="geld-abheben-bezahlen-georgien.html">Géorgie</a>
+<a href="geld-abheben-bezahlen-suedkorea.html">Corée du Sud</a>
+<a href="geld-abheben-bezahlen-malaysia.html">Malaisie</a>
+<a href="geld-abheben-bezahlen-philippinen.html">Philippines</a>
+<a href="geld-abheben-bezahlen-sri-lanka.html">Sri Lanka</a>
+<a href="geld-abheben-bezahlen-taiwan.html">Taïwan</a>
+<a href="geld-abheben-bezahlen-kambodscha.html">Cambodge</a>
+<a href="geld-abheben-bezahlen-laos.html">Laos</a>
+<a href="geld-abheben-bezahlen-nepal.html">Népal</a>
+<a href="geld-abheben-bezahlen-jordanien.html">Jordanie</a>
+<a href="geld-abheben-bezahlen-oman.html">Oman</a>
+<a href="geld-abheben-bezahlen-saudi-arabien.html">Arabie saoudite</a>
+<a href="geld-abheben-bezahlen-katar.html">Qatar</a>
+<a href="geld-abheben-bezahlen-israel.html">Israël</a>
+<a href="geld-abheben-bezahlen-argentinien.html">Argentine</a>
+<a href="geld-abheben-bezahlen-chile.html">Chili</a>
+<a href="geld-abheben-bezahlen-kolumbien.html">Colombie</a>
+<a href="geld-abheben-bezahlen-peru.html">Pérou</a>
+<a href="geld-abheben-bezahlen-costa-rica.html">Costa Rica</a>
+<a href="geld-abheben-bezahlen-kuba.html">Cuba</a>
+<a href="geld-abheben-bezahlen-jamaika.html">Jamaïque</a>
+<a href="geld-abheben-bezahlen-panama.html">Panama</a>
+<a href="geld-abheben-bezahlen-bahamas.html">Bahamas</a>
+<a href="geld-abheben-bezahlen-kenia.html">Kenya</a>
+<a href="geld-abheben-bezahlen-tansania.html">Tanzanie</a>
+<a href="geld-abheben-bezahlen-mauritius.html">Maurice</a>
+<a href="geld-abheben-bezahlen-seychellen.html">Seychelles</a>
+<a href="geld-abheben-bezahlen-tunesien.html">Tunisie</a>
+<a href="geld-abheben-bezahlen-namibia.html">Namibie</a>
+<a href="geld-abheben-bezahlen-madagaskar.html">Madagascar</a>
+<a href="geld-abheben-bezahlen-fidschi.html">Fidji</a>
+
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">La liste de contrôle financière ultime pour le voyage</h2>
+  <p>Pour préserver votre budget voyage et vous assurer que vos cartes fonctionnent parfaitement à l’étranger, passez en revue ces points avant le départ :</p>
+  
+  <div class="checklist-box" id="checklistToPrint">
+  <!-- Optional: Eine versteckte oder sichtbare Überschrift, die nur im PDF gut aussieht -->
+  <h3 style="margin-top:0; color:#1565c0;">Liste de contrôle : finances et cartes à l’étranger</h3>
+
+    <ul>
+      <li><strong>Demander sa carte bancaire de voyage à temps :</strong> Demandez une carte bancaire gratuite à vie (par ex. Barclays, DKB, TF Bank) au plus tard 3 semaines avant le départ, afin que la carte et le code PIN arrivent à temps par courrier.</li>
+      <li><strong>Vérifier le géoblocage de votre banque :</strong> Certaines caisses d’épargne et banques coopératives bloquent les cartes pour les pays hors d’Europe. Appelez rapidement et faites activer votre pays de voyage.</li>
+      <li><strong>Connaître le piège DCC au distributeur :</strong> Si le distributeur vous demande si vous souhaitez régler en « euros » ou dans la « monnaie locale » : <strong>choisissez TOUJOURS la monnaie locale !</strong> (Sinon, vous risquez jusqu’à 10 % de perte de change).</li>
+      <li><strong>Retenir son code PIN :</strong> À l’étranger (surtout aux États-Unis ou au Royaume-Uni), le paiement par carte bancaire exige souvent le code PIN, même si en Allemagne vous signez généralement seulement.</li>
+      <li><strong>Emporter deux cartes :</strong> Emportez toujours au moins deux cartes de systèmes différents (par ex. 1x Visa, 1x Mastercard) et conservez-les séparément (protection contre le vol).</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('checkliste-reisefinanzen.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+  Générer et enregistrer la liste de contrôle en PDF
+</button>
+
+  <h2 style="margin-top: 40px;">Exemples concrets : combien les frais d’utilisation à l’étranger vous coûtent-ils ?</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Exemple 1 : vacances en famille en Turquie</h3>
+    <p>La famille Müller passe 14 jours à Antalya. Elle paie les excursions, les restaurants et les souvenirs (au total env. 2 000 €) avec la carte de la caisse d’épargne en lire turque. De plus, le père retire de l’argent 4 fois au distributeur. <br>
+    <strong>Le piège des frais :</strong> La banque facture 1,75 % de frais d’utilisation à l’étranger (35 €) et 6 € par retrait (24 €). Au total, la famille perd <strong>59 €</strong> en frais bancaires inutiles, qui auraient pu être évités avec une carte bancaire de voyage gratuite.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Exemple 2 : road trip à travers les États-Unis</h3>
+    <p>Sarah fait un road trip de 3 semaines en Californie. Aux États-Unis, on paie même le plus petit café par carte (au total env. 3 500 € de dépenses). Elle loue aussi une voiture de location, pour laquelle une caution de 1 000 $ doit être déposée.<br>
+    <strong>La solution :</strong> Sarah s’est procuré à l’avance une « vraie » carte bancaire de voyage (crédit, pas débit). Elle économise ainsi plus de <strong>65 €</strong> de frais de change. De plus, la caution de location est bloquée sans problème (avec les cartes de débit ou les cartes bancaires classiques, la caution est souvent refusée !).</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">Questions fréquemment posées (FAQ) sur les cartes bancaires de voyage</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">Qu’est-ce que les frais d’utilisation à l’étranger ?</div>
+    <div class="faq-answer">Les frais d’utilisation à l’étranger (également appelés frais de change) sont des frais généralement compris entre 1,75 % et 2,00 % que les banques traditionnelles facturent lorsque vous payez ou retirez de l’argent dans une devise autre que l’euro.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Dois-je régler en euros ou en monnaie locale au distributeur à l’étranger ?</div>
+    <div class="faq-answer">Choisissez TOUJOURS le règlement dans la monnaie locale (par ex. baht, lire, dollar) et refusez fermement la conversion en euros (« Conversion to EUR ») ! La soi-disant conversion dynamique des devises (DCC) des exploitants de distributeurs utilise des taux de change extrêmement défavorables et peut vous coûter jusqu’à 10 % de frais cachés.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Pourquoi ma carte bancaire classique ne suffit-elle pas ?</div>
+    <div class="faq-answer">En dehors de l’Europe, les cartes V-Pay ou Maestro classiques ne sont souvent même pas acceptées. Même lorsqu’elles fonctionnent, votre banque facture à chaque retrait des frais fixes de 5 à 7 euros, auxquels s’ajoutent des frais de change proportionnels. Une bonne carte bancaire de voyage supprime entièrement ces frais.</div>
+  </div>
+  
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">Les cartes bancaires de voyage gratuites à vie sont-elles vraiment gratuites ?</div>
+    <div class="faq-answer">Oui. Des cartes comme celles de Barclays, de la DKB, de N26 ou de TF Bank n’ont pas de cotisation annuelle. Les fournisseurs gagnent de l’argent grâce aux soi-disant frais d’interchange (payés par le commerçant lorsque vous achetez en magasin) ou grâce aux intérêts du crédit si vous choisissez l’option de remboursement en « mensualités » au lieu d’un remboursement à 100 %.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise en droit du voyage et finances de voyage</h3>
+    <p class="trust-text">
+        Nos guides et calculateurs sont basés sur l’analyse des tarifs et conditions actuels des établissements de crédit allemands. 
+        Ils sont développés par notre équipe pour aider les voyageurs à éviter les frais bancaires inutiles et les pièges touristiques dans le monde entier.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Remarque importante : les conditions bancaires peuvent changer. Notre calculateur fournit des estimations fondées à titre d’illustration des frais potentiels. Nous ne remplaçons pas un conseil financier personnalisé.
+        </span>
+    </p>
+
+    <a href="ueber-uns.html" class="trust-link">
+        En savoir plus sur la rédaction →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Un problème avec le vol, le train ou l’hôtel ?</strong><br>
+        Fix-My-Trip vérifie en quelques étapes votre droit à une indemnisation, au remboursement du billet ou à une réduction du prix du voyage. <br>
+        <em>Un service du réseau des portails Lotse.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Vous avez trouvé une erreur dans l’outil ?</strong> Aidez-nous énormément en signalant les bugs ou les conditions obsolètes : 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Envoyer un retour à notre siège</a>.
+</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">À propos de nous</a> | 
+        <a href="index.html">Accueil</a> | 
+        <a href="impressum.html">Mentions légales</a> | 
+        <a href="datenschutz.html">Protection des données</a>
+    </nav>
+</footer>
+
+<script>
+// Leitet den Nutzer auf die entsprechende Tool- oder Checker-Seite weiter
+function routeToTool() {
+    const selectElement = document.getElementById('toolSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Veuillez d’abord choisir un pays de voyage dans la liste.");
+    }
+}
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, 
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, 
+            scrollY: 0, 
+            windowWidth: document.documentElement.offsetWidth 
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    // PDF generieren
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

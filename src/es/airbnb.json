@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Cancelación por parte del anfitrión",
+    "slug": "gastgeber-storniert-kurzfristig",
+    "beschreibung": "¿El anfitrión canceló su reserva con poca antelación y se quedó sin alojamiento? Le ayudamos a reclamar el reembolso íntegro y, en su caso, una indemnización por los costes adicionales de un hotel alternativo."
+  },
+  {
+    "name": "Moho, suciedad y plagas",
+    "slug": "dreck-schimmel-ungeziefer",
+    "beschreibung": "¿Moho en el baño, cucarachas en la cocina o simplemente ropa de cama sucia? No tiene por qué aceptar este tipo de deficiencias higiénicas. Documente todo para su reembolso de AirCover."
+  },
+  {
+    "name": "Información falsa y fotos falsas",
+    "slug": "falsche-angaben-fake-fotos",
+    "beschreibung": "¿La villa de lujo resulta ser un apartamento en semisótano o las fotos del anuncio estaban completamente desactualizadas? Si el alojamiento no coincide con la descripción, tiene derecho a una reducción significativa del precio."
+  },
+  {
+    "name": "Falta de equipamiento (WLAN, piscina, aire acondicionado)",
+    "slug": "ausstattung-fehlt-defekt",
+    "beschreibung": "¿No hay WLAN a pesar de haber planificado trabajar desde casa o la piscina anunciada está verde e inutilizable? La ausencia de las características de equipamiento prometidas le da derecho a una reducción del precio del alquiler."
+  },
+  {
+    "name": "Retención indebida de la fianza",
+    "slug": "kaution-unrechtmaessig-einbehalten",
+    "beschreibung": "¿El anfitrión alega daños después de su salida que usted no causó y retiene la fianza? Defiéndase de reclamaciones injustificadas y exija la devolución de su dinero."
+  },
+  {
+    "name": "Rechazo de la protección al comprador de AirCover",
+    "slug": "aircover-abgelehnt-geld-zurueck",
+    "beschreibung": "¿Airbnb cerró su caso o rechazó el reembolso, aunque el defecto era evidente? Aumente la presión con una carta jurídica oficial dirigida al departamento legal."
+  },
+  {
+    "name": "Problema general de Airbnb",
+    "slug": "allgemein",
+    "beschreibung": "¿Su problema específico no aparece arriba? No hay problema. Utilice este formulario general para reclamar de forma jurídicamente segura cualquier defecto en Airbnb."
+  }
+]

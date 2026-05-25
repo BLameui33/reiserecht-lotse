@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Retraso y cancelación de tren: reclamar compensación (PDF)</title>
+  <meta name="description" content="Sus derechos en caso de retraso del tren, cancelación o pérdida de conexión. Descubra cómo reclamar hasta un 50% de reembolso según el reglamento de derechos de los pasajeros de la UE.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="canonical" href="https://www.fix-my-trip.com/es/zugverspaetung-info.html">
+  <link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/zugverspaetung-info.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/es/zugverspaetung-info.html">
+  
+  <!-- Biblioteca para la generación de PDF a partir de HTML -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <!-- Esquema FAQ para fragmentos enriquecidos de Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "¿A partir de cuántos minutos de retraso tengo derecho a una compensación?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Según el reglamento de la UE 2021/782, tiene derecho a compensación si llega a su estación de destino con al menos 60 minutos de retraso. A partir de 60 minutos se reembolsa el 25 %, y a partir de 120 minutos el 50 % del precio del billete."
+      }
+    }, {
+      "@type": "Question",
+      "name": "¿La compañía ferroviaria también paga en caso de tormenta o intervenciones de emergencia médica?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Desde junio de 2023 se aplican nuevas excepciones: en caso de condiciones meteorológicas extremas, intervenciones de emergencia médica o personas en la vía, no existe derecho a compensación económica. Sin embargo, en caso de huelgas del personal ferroviario o fallos técnicos, sigue existiendo la obligación de pago."
+      }
+    }, {
+      "@type": "Question",
+      "name": "¿Recibo dinero de vuelta con el billete de Alemania?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, pero se aplica una norma especial para los abonos. Recibirá una cantidad fija de 1,50 € por retraso (a partir de 60 min). Como no se pagan importes inferiores a 4 €, debe acumular al menos tres retrasos en el mes y presentarlos juntos."
+      }
+    }, {
+      "@type": "Question",
+      "name": "¿Puedo tomar otro tren (p. ej., un ICE) si mi tren se cancela?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Si se prevé un retraso de más de 20 minutos en el destino, la obligación de viajar en el tren reservado queda anulada. Puede utilizar trenes de categoría superior que no requieran reserva. Atención: esto NO se aplica expresamente si viaja con un billete con gran descuento, como el billete de Alemania."
+      }
+    }]
+  }
+  </script>
+</head>
+<body>
+
+<header class="site-header" style="padding: 20px 0; border-bottom: 2px solid #eee; margin-bottom: 30px;">
+  <a href="index.html" style="font-size: 1.5em; font-weight: bold; text-decoration: none;">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Retraso y cancelación de tren: así puede reclamar hasta un 50 % de reembolso</h1>
+  
+  <p>Perder una conexión o sufrir la cancelación completa de un tren es más que una simple molestia. Por suerte, sus derechos como pasajero están claramente regulados por el <strong>reglamento de la UE 2021/782</strong>. Si llega a su destino con más de 60 minutos de retraso, tiene derecho a un reembolso del <strong>25 % del precio del billete</strong>. A partir de 120 minutos, incluso del <strong>50 %</strong>.</p>
+  
+  <p>Importante: siempre cuenta la hora de llegada a la estación de destino reservada, no el retraso de un tren concreto durante el trayecto. Nuestro portal le ayuda a evitar el papeleo, a menudo tedioso, y a hacer valer formalmente su derecho a compensación de manera correcta.</p>
+
+  <div class="legal-info-box">
+    <strong>Aviso importante sobre el uso</strong><br>
+    Esta herramienta es un <strong>generador automatizado de cartas modelo</strong> (ayuda para la autoayuda). Solo inserta sus datos en plantillas jurídicas estándar. No se realiza <strong>ninguna revisión individual</strong> de su caso. Este servicio gratuito no sustituye el asesoramiento jurídico de un abogado. El uso se realiza bajo su propia responsabilidad y no se garantiza ningún éxito.
+</div>
+
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Generar carta de reclamación en PDF</h2>
+    <p>Seleccione su empresa ferroviaria para crear un formulario jurídicamente seguro, incluida la dirección correcta del destinatario:</p>
+    
+    <select id="bahnSelect">
+      <option value="">-- Por favor, seleccione un operador ferroviario --</option>
+      {{BAHN_OPTIONS}}
+      <option value="zugverspaetung-entschaedigung-allgemein.html">Mi operador no aparece aquí (formulario general)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Ir al generador para este operador</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Selección de operadores: formularios directos</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{BAHN_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Lista de comprobación: ayuda inmediata en la estación</h2>
+  <p>Si actualmente está atrapado en la estación, siga estos pasos para poder hacer valer sus derechos como pasajero más adelante sin problemas:</p>
+
+  <div class="checklist-box" id="checklistToPrint">
+    <h3 style="margin-top:0; color:#1565c0;">Lista de comprobación en caso de retraso del tren</h3>
+    <ul>
+      <li><strong>Haga confirmar el retraso:</strong> Pida al revisor o en el punto de atención que le confirmen el retraso en su billete.</li>
+      <li><strong>Conserve pruebas:</strong> Fotografíe el panel de información del andén o haga capturas de pantalla de la aplicación Navigator.</li>
+      <li><strong>Compruebe la obligación de viajar en el tren reservado:</strong> A partir de 20 minutos de retraso previsible a la llegada, en los billetes normales desaparece la obligación de viajar en el tren reservado; puede utilizar otros trenes.</li>
+      <li><strong>Guarde los justificantes:</strong> Conserve обязательно los billetes originales, recibos de taxi o facturas de hotel.</li>
+      <li><strong>Exija asistencia:</strong> Con más de 60 minutos de retraso tiene derecho a refrescos y comidas gratuitos (dentro de lo razonable).</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('checkliste-bahnverspaetung.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+    Generar y guardar la lista de comprobación como PDF
+  </button>
+
+  <h2 style="margin-top: 40px;">Casos prácticos: cuándo debe pagar la empresa ferroviaria</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Ejemplo 1: pérdida de la conexión por una avería en un desvío</h3>
+    <p>Un viajero toma el RE (solo 10 minutos de retraso), pero pierde así el ICE reservado. Debe tomar un tren posterior y llega al destino con 65 minutos de retraso. Motivo: desvío defectuoso.<br>
+    <strong>Resultado:</strong> Las incidencias técnicas entran en el ámbito de responsabilidad de la compañía ferroviaria. Al pasajero le corresponde un <strong>25 % de reembolso</strong> del precio del billete.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Ejemplo 2: una tormenta detiene el tráfico ferroviario</h3>
+    <p>Un ICE queda detenido durante 3 horas porque un fuerte temporal ha arrojado árboles sobre las vías.<br>
+    <strong>Resultado:</strong> Desde junio de 2023 se aplica aquí la excepción ("circunstancias extraordinarias"). Se <strong>elimina la compensación económica</strong>. No obstante, la empresa ferroviaria sigue obligada a prestar asistencia (organizar bebidas, taxi o alojamiento en hotel).</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">FAQ: sus derechos como pasajero en detalle</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">¿Puedo simplemente tomar un taxi si hay retraso?</div>
+    <div class="faq-answer">Sí, pero solo bajo condiciones estrictas: si su hora de llegada prevista está entre las 0:00 y las 5:00 y llegaría con al menos 60 minutos de retraso. Esto también se aplica si se cancela el último tren del día. Por lo general, los gastos se reembolsan hasta un máximo de 120 €. No obstante, antes debe intentar preguntar al personal por alternativas.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">¿Cuánto tiempo tengo para presentar mi reclamación?</div>
+    <div class="faq-answer">Las reclamaciones por compensación o reembolso deben presentarse ante la empresa ferroviaria dentro de los tres meses siguientes al vencimiento de la validez del billete. ¡Así que no espere demasiado!</div>
+  </div>
+
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">¿Qué es el "límite de bagatela"?</div>
+    <div class="faq-answer">La ley establece que los importes de reembolso inferiores a 4,00 € no se pagan. Esto afecta sobre todo a los titulares de abonos (como el billete de Alemania), que por ello deben acumular varios retrasos y presentarlos agrupados para superar este umbral de 4 euros.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Experiencia en derecho de viajes y derechos de los pasajeros</h3>
+    <p class="trust-text">
+        Nuestras guías y generadores se basan en el análisis riguroso de los reglamentos vigentes de la UE (como el reglamento 2021/782), las sentencias del tribunal supremo federal y el derecho nacional de viajes. 
+        Están desarrollados por Marc (dirección del proyecto) y su equipo para permitir a los viajeros hacer valer sus derechos frente a las empresas de transporte de forma jurídicamente segura.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Aviso importante: nuestras herramientas ofrecen ayuda para la autoayuda en caso de retrasos de vuelos, defectos en hoteles o cancelaciones de trenes. No sustituyen el asesoramiento jurídico individual de un abogado.
+        </span>
+    </p>
+
+    <a href="ueber-uns.html" class="trust-link">
+        Conozca los detalles sobre la metodología jurídica y la redacción →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>¿Problemas con el vuelo, el tren o el hotel?</strong><br>
+        Fix-My-Trip comprueba en pocos pasos su derecho a compensación, reembolso del billete o reducción del precio del viaje. <br>
+        <em>Un servicio de la red de portales Lotse.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>¿Ha detectado un error en la herramienta?</strong> Como portal automatizado no ofrecemos asesoramiento jurídico individual, por lo que nos ayuda enormemente si informa de errores o de operadores desactualizados: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Enviar comentarios a nuestra central</a>.
+</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Sobre nosotros</a> | 
+        <a href="index.html">Inicio</a> | 
+        <a href="impressum.html">Aviso legal</a> | 
+        <a href="datenschutz.html">Protección de datos</a>
+    </nav>
+</footer>
+
+<script>
+function routeToGenerator() {
+    const selectElement = document.getElementById('bahnSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Por favor, seleccione primero un operador de la lista.");
+    }
+}
+
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // margen de 15 mm alrededor
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, 
+            scrollY: 0, 
+            windowWidth: document.documentElement.offsetWidth 
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

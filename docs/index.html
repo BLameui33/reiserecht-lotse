@@ -1,21 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="zxx"> <head>
     <meta charset="UTF-8">
     <title>Fix my Trip</title>
     
-    <!-- Zeigt Suchmaschinen, wo die eigentliche Startseite liegt -->
-    <link rel="canonical" href="https://www.fix-my-trip.com/de/index.html">
+    <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/index.html" />
+    <link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/index.html" />
+    <link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/index.html" />
+    <link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/index.html" /> <meta http-equiv="refresh" content="0; url=/de/index.html">
     
-    <!-- Automatische Weiterleitung (Fallback für Browser ohne JavaScript) -->
-    <meta http-equiv="refresh" content="0; url=/de/index.html">
-    
-    <!-- Schnelle JavaScript-Weiterleitung (Moderner Standard) -->
     <script>
-        window.location.replace("/de/index.html");
+        (function() {
+            // Ermittelt die Sprache des Browsers (z.B. "de-DE", "es-ES", "fr-FR")
+            var userLang = (navigator.language || navigator.userLanguage).toLowerCase();
+            
+            // Nimmt nur die ersten zwei Buchstaben (z.B. "de", "es", "fr")
+            var lang = userLang.substring(0, 2);
+            
+            // Weiterleitung je nach erkannter Sprache
+            if (lang === "es") {
+                window.location.replace("/es/index.html");
+            } else if (lang === "fr") {
+                window.location.replace("/fr/index.html");
+            } else {
+                // Wenn es Deutsch ist oder eine ganz andere Sprache (z.B. Englisch), lande auf Deutsch
+                window.location.replace("/de/index.html");
+            }
+        })();
     </script>
 </head>
 <body>
-    <p>Redirecting to <a href="/de/index.html">German version...</a></p>
+    <p>Redirecting... / Bitte wählen Sie Ihre Sprache:</p>
+    <ul>
+        <li><a href="/de/index.html">Deutsch</a></li>
+        <li><a href="/es/index.html">Español</a></li>
+        <li><a href="/fr/index.html">Français</a></li>
+    </ul>
 </body>
 </html>

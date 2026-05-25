@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Défauts de croisière : obtenir une réduction du prix du voyage | PDF</title>
+  <meta name="description" content="Vos droits en cas de défauts de croisière tels qu’un changement d’itinéraire, du bruit ou l’annulation d’une escale. Demandez une réduction du prix du voyage selon le Code du tourisme.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="canonical" href="https://www.fix-my-trip.com/fr/kreuzfahrt-minderung.html">
+  <link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/kreuzfahrt-minderung.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/fr/kreuzfahrt-minderung.html">
+  
+  <!-- Bibliothèque pour la génération de PDF à partir du HTML -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Comment est calculée la réduction de prix pour une croisière ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En droit français, il n'existe pas de grille officielle rigide. La réduction est évaluée au cas par cas de manière proportionnelle à la valeur des prestations non conformes. Les tribunaux et les médiateurs se réfèrent aux barèmes et lignes directrices européens couramment admis, qui répertorient les défauts typiques et leur attribuent des taux de réduction indicatifs en pourcentage."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Dois-je accepter un crédit à bord comme indemnisation ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Non. Les compagnies de croisière tentent souvent de régler les réclamations à bord avec un petit crédit à bord (par ex. 50 € ou des boissons offertes). Juridiquement, vous conservez le droit d’exiger un remboursement en espèces (diminution du prix du voyage), dont le montant est généralement nettement plus élevé si les défauts sont avérés."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Un changement d’itinéraire dû à la météo constitue-t-il un défaut ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui. Même si la sécurité prime et que le capitaine doit annuler une escale en raison d’une tempête, il s’agit d’une modification unilatérale du contrat de voyage. Le risque d’exploitation incombe à l’organisateur de la croisière. L’annulation d’une escale donne ainsi droit à une réduction proportionnelle du prix journalier du voyage pour non-conformité."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Combien de temps ai-je après la croisière pour déposer une réclamation ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le délai de prescription légal applicable aux contrats de voyage à forfait en France est de deux ans à compter de la fin du voyage prévue au contrat. Il est toutefois vivement conseillé de faire valoir ses droits par écrit rapidement après le retour, tant que les preuves sont faciles à réunir."
+      }
+    }]
+  }
+  </script>
+</head>
+<body>
+
+<header class="site-header" style="padding: 20px 0; border-bottom: 2px solid #eee; margin-bottom: 30px;">
+  <a href="index.html" style="font-size: 1.5em; font-weight: bold; text-decoration: none;">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Défauts de croisière : comment demander une réduction du prix du voyage</h1>
+  
+  <p>Une croisière représente généralement des vacances de rêve coûteuses. Si la cabine ne correspond pas au standard promis, si l’itinéraire est modifié spontanément ou s’il y a un bruit de chantier insupportable sur le pont, la déception est grande. Ce que beaucoup de passagers ignorent : une croisière est juridiquement considérée comme un voyage à forfait. Vous êtes donc très bien protégé par le <strong>Code du tourisme français</strong>.</p>
+  
+  <p>Au lieu de vous laisser amadouer au comptoir des relations clients avec un cocktail gratuit ou 50 € de crédit à bord, vous êtes en droit d'exiger un véritable remboursement en espèces. La <strong>jurisprudence et les barèmes européens</strong> servent de boussole juridique et accordent souvent aux passagers, en cas de défauts importants, un remboursement de <strong>10 % à 30 % du prix du voyage au prorata</strong>. Nous vous aidons à obtenir cette somme.</p>
+
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Générer une lettre de réclamation PDF</h2>
+    <p>Choisissez votre compagnie de croisière afin de créer un document juridiquement solide, parfaitement adapté au prestataire concerné :</p>
+    
+    <div class="legal-info-box">
+    <strong>Remarque importante concernant l’utilisation</strong><br>
+    Cet outil est un <strong>générateur automatisé de lettre type</strong> (aide à l’auto-assistance). Il insère simplement vos données dans des modèles juridiques standard. Il n’effectue <strong>aucun examen individuel</strong> de votre cas. Ce service gratuit ne remplace pas un conseil juridique d’un avocat. L’utilisation se fait sous votre propre responsabilité, aucune garantie de succès n’est accordée.
+</div>
+
+    <select id="cruiseSelect">
+      <option value="">-- Veuillez choisir une compagnie de croisière --</option>
+      {{CRUISE_OPTIONS}}
+      <option value="kreuzfahrt-maengel-minderung-allgemein.html">Ma compagnie de croisière n’est pas listée (formulaire général)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Vers le générateur pour cette compagnie</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Vérification des droits par compagnie de croisière</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{CRUISE_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Liste de contrôle : aide immédiate en cas de défauts de croisière</h2>
+  <p>Le plus important en cas de défauts de voyage est de conserver les preuves sur place. Suivez ces étapes à bord afin de sécuriser votre future réduction :</p>
+  
+  <div class="checklist-box" id="checklistToPrint">
+  <!-- Optional: Eine versteckte oder sichtbare Überschrift, die nur im PDF gut aussieht -->
+  <h3 style="margin-top:0; color:#1565c0;">Liste de contrôle : défauts à bord</h3>
+
+    <ul>
+      <li><strong>Signalement du défaut :</strong> Signalez le problème IMMÉDIATEMENT à la réception (Guest Relations) ou auprès de l'officier de bord compétent. Celui qui tait le défaut perd plus tard ses droits à indemnisation.</li>
+      <li><strong>Fixer un délai pour remédier au problème :</strong> Demandez une solution concrète (par ex. un changement de cabine) et notez soigneusement le nom du membre du personnel qui prend votre réclamation.</li>
+      <li><strong>Conserver les preuves :</strong> Prenez des photos et vidéos explicites (par ex. de la saleté ou des avaries) ou tenez un journal de bord précis des nuisances sonores et olfactives en indiquant les dates et heures.</li>
+      <li><strong>Rechercher des témoins :</strong> Échangez vos coordonnées avec d’autres passagers concernés. Les déclarations de co-voyageurs indépendants constituent des éléments précieux.</li>
+      <li><strong>Ne signez aucun accord définitif :</strong> Si vous acceptez un crédit à bord, ne signez pas de décharge « pour solde de tout compte », mais ajoutez impérativement la mention manuscrite « sous réserve de faire valoir mes droits ultérieurement ».</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('checkliste-kreuzfahrt.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+  Générer et enregistrer la liste de contrôle en PDF
+</button>
+
+  <h2 style="margin-top: 40px;">Exemples de cas selon la jurisprudence et les barèmes européens</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Exemple 1 : changement d’itinéraire et annulation d’escale</h3>
+    <p>Lors d’une croisière en Méditerranée (prix total 3 000 € pour 10 jours = 300 €/jour), l’escale phare de Santorin est annulée en raison de conditions météo défavorables, sans escale de remplacement équivalente.<br>
+    <strong>Résultat :</strong> Le contrat de voyage n’ayant pas été exécuté conformément aux engagements initiaux, le Code du tourisme français ouvre droit à une diminution de prix. Pour la journée d'escale annulée, le passager peut légitimement prétendre à environ <strong>20 à 30 % du prix journalier</strong> de sa croisière (soit environ 60 à 90 € par personne).</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Exemple 2 : bruit insupportable dans la cabine</h3>
+    <p>La cabine attribuée se trouve juste sous la discothèque ou les moteurs du navire. Impossible de dormir avant 3 heures du matin. La réception n’a aucune autre cabine disponible pour effectuer un relogement. <br>
+    <strong>Résultat :</strong> Une nuisance sonore qui perturbe l'usage normal de la cabine et le repos nocturne constitue un manquement caractérisé de l'organisateur. Pour la période concernée, des réductions allant jusqu’à <strong>30 % du prix du voyage au prorata</strong> des jours impactés peuvent être réclamées.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">FAQ : vos droits en détail</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">Sur quel montant le pourcentage est-il appliqué ?</div>
+    <div class="faq-answer">La réduction est calculée de manière proportionnelle. Si le défaut affecte l’ensemble du voyage (par ex. un balcon réservé mais inexistant sur tout le navire), la réduction s’applique au prix total de la croisière. Si le problème ne survient que certains jours (par ex. 2 jours de nuisances de travaux au bord de la piscine), le prix global du voyage est divisé par le nombre de jours total, et le pourcentage est appliqué sur ce « prix journalier du voyage » pour les journées concernées.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Que se passe-t-il si la compagnie invoque la force majeure ?</div>
+    <div class="faq-answer">En droit du voyage à forfait, l’argument des « circonstances exceptionnelles et inévitables » (comme une tempête ou un brouillard dense) exonère l’organisateur du versement de dommages-intérêts additionnels pour préjudice moral, mais n'exclut pas le droit du voyageur à une réduction de prix. Le coût des prestations doit être diminué si le service n'est pas fourni tel que réservé, indépendamment de toute faute de la compagnie de croisière.</div>
+  </div>
+
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">Puis-je exiger une cabine supérieure si ma cabine est défectueuse ?</div>
+    <div class="faq-answer">Oui. Si la catégorie de cabine que vous avez réservée est inutilisable en raison d’un défaut majeur et qu'aucune cabine identique n'est libre, l’organisateur doit vous proposer une solution de relogement de catégorie supérieure (surclassement) sans aucun supplément de prix. Si la compagnie refuse et vous contraint à rester dans la cabine défectueuse, vos droits à une réduction de prix augmentent de manière significative.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise en droit du voyage et droits des passagers</h3>
+    <p class="trust-text">
+        Nos guides et générateurs reposent sur une analyse rigoureuse des règlements européens en vigueur (comme la directive relative aux voyages à forfait et le règlement CE 261/2004) et du droit national de la consommation. 
+        Ils sont développés par Marc (direction du projet) et son équipe afin de permettre aux voyageurs de faire valoir leurs droits de manière juridiquement solide face aux transporteurs et aux organisateurs de voyages.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Remarque importante : nos outils offrent une aide à l’auto-assistance en cas de défauts de croisière, de problèmes d’hôtel ou d’annulations de train. Ils ne remplacent pas un conseil juridique individuel fourni par un avocat.
+        </span>
+    </p>
+
+    <a href="ueber-uns.html" class="trust-link">
+        En savoir plus sur la méthodologie juridique et la rédaction →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Un problème pendant la croisière, le vol ou à l’hôtel ?</strong><br>
+        Fix-My-Trip vérifie en quelques étapes votre droit à une indemnisation, au remboursement du billet ou à une réduction du prix du voyage. <br>
+        <em>Un service du réseau des portails Lotse.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Vous avez détecté une erreur dans l’outil ?</strong> Comme nous sommes un portail automatisé et ne fournissons pas de conseil juridique individuel, votre aide nous est très précieuse si vous signalez des bugs ou des prestataires obsolètes : 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Envoyer un retour à notre siège</a>.
+</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">À propos de nous</a> | 
+        <a href="index.html">Accueil</a> | 
+        <a href="impressum.html">Mentions légales</a> | 
+        <a href="datenschutz.html">Protection des données</a>
+    </nav>
+</footer>
+
+<script>
+function routeToGenerator() {
+    const selectElement = document.getElementById('cruiseSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Veuillez d’abord choisir une compagnie de croisière dans la liste.");
+    }
+}
+
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // 15 mm de marge tout autour
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, // Haute résolution
+            scrollY: 0, // IMPORTANT : corrige le problème de la page vide !
+            windowWidth: document.documentElement.offsetWidth // S’assure que la largeur est correcte
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    // Générer le PDF
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+[
+  {
+    "slug": "sixt",
+    "name": "Sixt",
+    "schalter_taktik": "Los empleados de Sixt suelen ofrecer de forma muy agresiva protección para neumáticos y parabrisas. También suelen vender las mejoras a clases de vehículo más caras como si fueran 'especialmente baratas hoy'.",
+    "kaution_hinweis": "Sixt suele bloquear al menos entre 300 € y 500 € como depósito en su tarjeta de crédito, incluso en reservas prepago."
+  },
+  {
+    "slug": "europcar",
+    "name": "Europcar",
+    "schalter_taktik": "En Europcar, a menudo se promociona en el mostrador la llamada 'Premium Protection' (seguro a todo riesgo sin franquicia), incluso si ya la ha reservado a través de un intermediario.",
+    "kaution_hinweis": "El depósito (Deposit) se bloquea en la tarjeta de crédito y depende mucho de la clase de vehículo reservada (a menudo 300 € - 800 €)."
+  },
+  {
+    "slug": "goldcar",
+    "name": "Goldcar",
+    "schalter_taktik": "Goldcar es conocida por tácticas de venta adicional extremadamente agresivas. A los empleados a menudo se les paga una comisión si le venden el seguro propio 'Super Relax'. A menudo afirman falsamente que los seguros de terceros no son válidos.",
+    "kaution_hinweis": "Atención: Goldcar suele bloquear depósitos muy altos (hasta 1.500 €) si no compra su propio seguro. ¡Su tarjeta de crédito debe tener ese límite disponible!"
+  },
+  {
+    "slug": "hertz",
+    "name": "Hertz",
+    "schalter_taktik": "Hertz suele intentar vender 'SuperCover' y ofrece modificar las condiciones de combustible (por ejemplo, comprar por adelantado el primer depósito de combustible). Esto suele ser una mala operación para usted.",
+    "kaution_hinweis": "Hertz exige obligatoriamente una tarjeta de crédito física (¡no tarjeta de débito!) a nombre del conductor principal para bloquear el depósito."
+  },
+  {
+    "slug": "avis",
+    "name": "Avis",
+    "schalter_taktik": "Avis suele promocionar con insistencia en el mostrador 'Avis Inclusive' o seguros adicionales para ocupantes. También se le ofrecerán rutinariamente costosas opciones de combustible como algo 'más cómodo'.",
+    "kaution_hinweis": "El depósito suele ser, según el grupo de vehículo, el precio estimado del alquiler más una tarifa fija de unos 200 € a 300 €."
+  },
+  {
+    "slug": "enterprise",
+    "name": "Enterprise",
+    "schalter_taktik": "Los empleados suelen ser muy amables, pero aun así intentan de forma constante vender mejoras de pago o la propia 'Excess Protection' (exclusión de franquicia).",
+    "kaution_hinweis": "Enterprise suele bloquear un depósito más bien moderado de unos 250 € a 300 €, pero normalmente exige obligatoriamente una tarjeta de crédito convencional."
+  },
+  {
+    "slug": "record-go",
+    "name": "Record Go",
+    "schalter_taktik": "Potencial de frustración extremadamente alto: atrae con precios ridículos en línea. En el mostrador se vende de forma extremadamente agresiva el seguro 'Just Go' o 'Total Comfort', a menudo acompañado de la amenaza de sumas de depósito desorbitadas.",
+    "kaution_hinweis": "Si rechaza el seguro propio, se bloqueará un depósito extremadamente alto (a menudo entre 1.500 € y 2.000 €). A la devolución, los daños suelen buscarse con una minuciosidad extrema."
+  },
+  {
+    "slug": "centauro",
+    "name": "Centauro",
+    "schalter_taktik": "Sigue el mismo patrón de bajo coste que Goldcar: reservar barato, pagar caro en el mostrador. El seguro propio 'Smart Cover' se impulsa con todo tipo de trucos psicológicos.",
+    "kaution_hinweis": "Sin contratar 'Smart Cover', se exigirá un depósito de aprox. 1.050 € a 1.200 €. Las tarjetas de débito suelen aceptarse solo si se compra el costoso seguro adicional."
+  },
+  {
+    "slug": "ok-mobility",
+    "name": "OK Mobility",
+    "schalter_taktik": "Este proveedor presiona de forma masiva para contratar el 'Premium Cover'. Los empleados advierten insistentemente sobre los más mínimos arañazos, que sin su seguro se cobrarían muy caros.",
+    "kaution_hinweis": "Bloquea depósitos extremadamente altos (en algunos casos muy por encima de 1.500 €) si se rechaza el seguro propio. ¡Aquí es absolutamente obligatorio documentar minuciosamente el estado del vehículo en vídeo antes de salir!"
+  },
+  {
+    "slug": "firefly",
+    "name": "Firefly",
+    "schalter_taktik": "Como filial económica de Hertz, es conocida por colas extremadamente largas y una venta adicional muy insistente. Los seguros básicos de intermediarios en línea suelen desacreditarse como 'insuficientes' o 'complicados'.",
+    "kaution_hinweis": "Bloquea depósitos de aprox. 800 € a más de 1.000 €. A menudo también se venden condiciones de combustible desfavorables (lleno/vacío) que cargan su tarjeta de crédito."
+  },
+  {
+    "slug": "clickrent",
+    "name": "ClickRent",
+    "schalter_taktik": "Atrae con precios bajos en destinos vacacionales populares. En el mostrador suele afirmarse que los seguros de brokers externos no ayudarían en caso de avería, para imponer la tarifa propia 'Relax'.",
+    "kaution_hinweis": "Reglas de depósito muy estrictas: a menudo se bloquean entre 1.050 € y 1.500 €. Si la tarjeta presentada no tiene límite suficiente, de facto se le obliga a comprar el seguro."
+  },
+  {
+    "slug": "alamo",
+    "name": "Alamo",
+    "schalter_taktik": "Alamo se centra mucho en los turistas e intenta a menudo vender en el mostrador 'Roadside Plus' (asistencia en carretera ampliada) y depósitos de combustible por adelantado a precios totalmente inflados.",
+    "kaution_hinweis": "El depósito en Alamo suele ser relativamente bajo; normalmente se bloquea en la tarjeta de crédito el precio estimado del alquiler más aprox. un 20% a 30%."
+  },
+  {
+    "slug": "budget",
+    "name": "Budget",
+    "schalter_taktik": "Como filial más económica de Avis, Budget intenta compensar los precios base más bajos con la venta agresiva de seguros adicionales y dispositivos GPS en el mostrador.",
+    "kaution_hinweis": "Como en la empresa matriz Avis, normalmente se bloquea el precio del alquiler más una tarifa fija de aprox. 200 € a 300 €. La tarjeta de crédito física es obligatoria."
+  },
+  {
+    "slug": "thrifty",
+    "name": "Thrifty",
+    "schalter_taktik": "La filial de Hertz es conocida por ofrecer intensamente su costosa 'SuperCover' en el mostrador, para asustar a los clientes con la franquicia habitual, que a menudo es alta.",
+    "kaution_hinweis": "Thrifty bloquea el depósito de forma extremadamente estricta en una tarjeta de crédito física del conductor principal; las tarjetas prepago o de débito casi nunca se aceptan en el mostrador."
+  },
+  {
+    "slug": "sunny-cars",
+    "name": "Sunny Cars",
+    "schalter_taktik": "Intermediario (broker) sin mostradores propios. El problema: el proveedor local de la flota suele intentar vender seguros que usted ya tiene con el paquete 'todo incluido' de Sunny Cars. ¡Manténgase firme!",
+    "kaution_hinweis": "Sunny Cars no exige depósito, pero el arrendador local sí bloquea un depósito. Sunny Cars le reembolsa esa suma en caso de daños tras su revisión."
+  },
+  {
+    "slug": "billiger-mietwagen",
+    "name": "Billiger-Mietwagen",
+    "schalter_taktik": "Es solo un comparador/intermediario. En el mostrador del proveedor local suele afirmarse: 'No tenemos nada que ver con Billiger-Mietwagen, necesita nuestro seguro'. ¡No firme nada!",
+    "kaution_hinweis": "El depósito siempre depende de las condiciones generales del proveedor local en el lugar (por ejemplo, Avis, Europcar, Goldcar). Necesita obligatoriamente una tarjeta de crédito con límite suficiente a nombre del conductor principal."
+  },
+  {
+    "slug": "check24",
+    "name": "Check24",
+    "schalter_taktik": "Check24 es un portal de comparación puro sin estaciones de alquiler propias. Aunque aquí haya contratado la protección premium, el arrendador local suele intentar vender sus propios seguros a todo riesgo al recoger el vehículo.",
+    "kaution_hinweis": "El importe del depósito lo determina exclusivamente el arrendador local. Si reserva 'Sin depósito' a través de Check24, a menudo un socio asume el aval, pero lea con atención la letra pequeña."
+  },
+  {
+    "slug": "rentalcars",
+    "name": "Rentalcars",
+    "schalter_taktik": "Pertenece a Booking.com. Los arrendadores locales suelen advertir en el mostrador de forma específica que el 'seguro a todo riesgo' de Rentalcars sería complicado de tramitar en caso de siniestro, para venderle una segunda póliza propia.",
+    "kaution_hinweis": "El depósito lo bloquea el socio local. Importante: ¡El seguro vendido por Rentalcars NO le exime de la obligación de depósito en el lugar!"
+  },
+  {
+    "slug": "auto-europe",
+    "name": "Auto Europe",
+    "schalter_taktik": "Auto Europe es un broker. Eso significa que usted está en el mostrador de socios como Sixt o Centauro. Estos siempre intentarán venderle mejoras o seguros extra.",
+    "kaution_hinweis": "Las reglas del depósito dependen del socio local. Auto Europe suele ofrecer 'reembolso de la franquicia', pero en el lugar el depósito debe dejarse igualmente por el importe total."
+  },
+  {
+    "slug": "national",
+    "name": "National",
+    "schalter_taktik": "Se centra más en viajeros de negocios en EE. UU. y Europa. La venta adicional aquí suele ser más sutil; principalmente se ofrecen costosas mejoras de vehículo a la clase premium o paquetes de peaje (Toll Pass).",
+    "kaution_hinweis": "El depósito suele ser moderado (precio del alquiler + aprox. 250 €). National acepta en algunas ubicaciones también tarjetas de débito, pero entonces a menudo va asociado a la obligación de contratar un seguro."
+  },
+  {
+    "slug": "allgemeine-autovermietungen",
+    "name": "Autovermietungen",
+    "schalter_taktik": "Sea cual sea el proveedor: ¡manténgase firme! Las empresas de alquiler suelen formar a su personal para vender seguros adicionales caros con escenarios de terror (por ejemplo, altas tasas de robo). Si ya ha contratado un seguro a todo riesgo a través de un intermediario, eso basta. No firme nada que no entienda.",
+    "kaution_hinweis": "La regla más importante: casi siempre necesita una tarjeta de crédito física y convencional (Credit, ¡no Debit!) a nombre del conductor principal. El límite debe ser lo suficientemente alto (a menudo hasta 1.500 €). Sin la tarjeta adecuada, en el mostrador puede verse obligado a comprar un seguro caro."
+  }
+]
