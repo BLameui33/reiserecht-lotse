@@ -6,7 +6,7 @@ const path = require('path');
 // =====================================================================
 const CONFIG = {
     baseLang: 'de',          // Wo liegen deine deutschen Originale? (src/de/)
-    targetLangs: ['es', 'fr'],     // Welche Sprachen sollen generiert werden? (z.B. ['es', 'it', 'fr'])
+    targetLangs: ['es', 'fr', 'it', 'nl', 'pt', 'nl-be', 'fr-be'],     // Welche Sprachen sollen generiert werden? (z.B. ['es', 'it', 'fr'])
     useAI: false,            // HIER AUF 'true' STELLEN, UM DIE KI ZU STARTEN oder false
     openaiKey: '', // HIER DEINEN API KEY EINTRAGEN
 
@@ -15,8 +15,15 @@ const CONFIG = {
 };
 
 // Hilfsfunktion: Prüft ob ein Silo für die aktuelle Sprache übersprungen werden soll
-const isExcludedForLang = (siloName, lang) =>
-    lang !== CONFIG.baseLang && CONFIG.baseLangOnlySilos.includes(siloName);
+const isExcludedForLang = (siloName, lang) => {
+    // AUSNAHME: OTA darf für nl und nl-be generiert werden
+    if (siloName === 'ota' && ['nl', 'nl-be'].includes(lang)) {
+        return false; // Nicht ausschließen!
+    }
+    
+    // Standard-Regel für alle anderen Silos und Sprachen
+    return lang !== CONFIG.baseLang && CONFIG.baseLangOnlySilos.includes(siloName);
+};
 
 console.log('🚀 Starte das internationale Hub & Spoke Build-System...\n');
 

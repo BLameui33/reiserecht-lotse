@@ -1,0 +1,614 @@
+[
+  {
+    "slug": "lufthansa",
+    "name": "Deutsche Lufthansa AG",
+    "adresse": "Lufthansa Aviation Center\nAirportring\n60546 Frankfurt am Main\nGermania",
+    "infobox": "Lufthansa, in quanto compagnia aerea dell'UE, è pienamente soggetta al regolamento sui diritti dei passeggeri aerei (CE) n. 261/2004. In caso di scioperi del proprio personale (ad es. piloti o equipaggio di cabina), i passeggeri hanno di norma diritto a un risarcimento, poiché ciò di solito non è considerato una circostanza eccezionale."
+  },
+  {
+    "slug": "ryanair",
+    "name": "Ryanair DAC",
+    "adresse": "Airside Business Park\nSwords, Co. Dublin\nIrlanda",
+    "infobox": "Ryanair spesso richiede elevate tariffe extra per il check-in in aeroporto. Dal punto di vista del diritto dei viaggi, è inoltre importante: in caso di cancellazione del volo, la compagnia cerca spesso di liquidare i clienti con voucher, sebbene giuridicamente esista il diritto al rimborso in contanti del prezzo del biglietto."
+  },
+  {
+    "slug": "eurowings",
+    "name": "Eurowings GmbH",
+    "adresse": "Waldstraße 249\n51147 Colonia\nGermania",
+    "infobox": "Con Eurowings è importante verificare la compagnia aerea operativa esatta (Operating Carrier), poiché i voli sono spesso effettuati da compagnie partner o società controllate (ad es. Eurowings Europe). La richiesta di risarcimento deve sempre essere rivolta alla compagnia aerea operativa."
+  },
+  {
+    "slug": "condor",
+    "name": "Condor Flugdienst GmbH",
+    "adresse": "An der Gehespitz 50\n63263 Neu-Isenburg\nGermania",
+    "infobox": "Condor viene spesso prenotata nell'ambito di viaggi organizzati. In caso di ritardi del volo superiori a tre ore, i viaggiatori possono richiedere non solo compensazioni alla compagnia aerea ai sensi del diritto UE, ma spesso anche una riduzione del prezzo del viaggio presso il tour operator (parola chiave: Tabella di Francoforte)."
+  },
+  {
+    "slug": "tuifly",
+    "name": "TUIfly GmbH",
+    "adresse": "Flughafenstraße 10\n30855 Langenhagen\nGermania",
+    "infobox": "TUIfly modifica talvolta gli orari dei voli nei viaggi organizzati. Se la modifica dell'orario è significativa e avviene con breve preavviso (meno di 14 giorni prima della partenza), dal punto di vista del diritto dei viaggi può essere considerata come una cancellazione e dare luogo a richieste di risarcimento."
+  },
+  {
+    "slug": "aer-lingus",
+    "name": "Aer Lingus",
+    "adresse": "Head Office Building\nDublin Airport\nDublino\nIrlanda",
+    "infobox": "Aer Lingus viene spesso utilizzata per collegamenti con scalo verso gli USA via Dublino. Se il volo in coincidenza a Dublino viene perso a causa del ritardo del volo di alimentazione, si applica il regolamento UE sui diritti dei passeggeri aerei per l'intera tratta, il che può comportare importi di risarcimento elevati fino a 600 euro."
+  },
+  {
+    "slug": "easyjet",
+    "name": "easyJet Airline Company Limited",
+    "adresse": "Hangar 89\nLondon Luton Airport\nLuton LU2 9PF\nInghilterra",
+    "infobox": "easyJet ha regole molto rigide sul bagaglio a mano. Rilevante dal punto di vista del diritto dei viaggi: se un volo viene cancellato o il passeggero annulla, le tasse e le imposte non utilizzate devono essere rimborsate – le compagnie low cost spesso addebitano per questo costi di gestione non consentiti."
+  },
+  {
+    "slug": "wizz-air",
+    "name": "Wizz Air Hungary Ltd.",
+    "adresse": "Laurus Offices, Kőér street 2/A\nBuilding B, H-1103\nBudapest\nUngheria",
+    "infobox": "Wizz Air è nota per i frequenti cambiamenti di orario dei voli. Il regolamento UE si applica senza limitazioni. In caso di rifiuto del risarcimento per 'circostanze eccezionali', vale la pena effettuare un controllo accurato, poiché i guasti tecnici non rientrano giuridicamente in tale categoria."
+  },
+  {
+    "slug": "turkish-airlines",
+    "name": "Turkish Airlines",
+    "adresse": "Aeroporto Atatürk\nYesilkoy, 34149\nIstanbul\nTurchia",
+    "infobox": "Poiché Turkish Airlines non è una compagnia aerea dell'UE, il regolamento UE sui diritti dei passeggeri aerei si applica solo ai voli in partenza da un aeroporto nell'UE. Per i voli dalla Turchia verso l'UE, invece, si applicano i diritti turchi dei passeggeri aerei (SHY-PASS), che prevedono proprie regole di risarcimento."
+  },
+  {
+    "slug": "sunexpress",
+    "name": "SunExpress Deutschland GmbH",
+    "adresse": "De-Saint-Exupéry-Straße 10\n60549 Francoforte sul Meno\nGermania",
+    "infobox": "SunExpress vola spesso verso destinazioni turistiche in Turchia. In caso di smarrimento o danneggiamento del bagaglio sui voli per la Turchia si applica la Convenzione di Montreal. Importante: un danno al bagaglio deve essere segnalato per iscritto alla compagnia aerea obbligatoriamente entro 7 giorni."
+  },
+  {
+    "slug": "vueling",
+    "name": "Vueling Airlines S.A.",
+    "adresse": "Parque de Negocios Mas Blau II\nPlaza de l'Estany, núm 5\n08820 Barcellona\nSpagna",
+    "infobox": "I voli Vueling sono spesso fortemente influenzati dallo spazio aereo congestionato attorno all'hub di Barcellona. I ritardi dovuti alla mancanza di capacità del controllo del traffico aereo (slot ATC) sono di solito considerati una circostanza eccezionale, per cui le compensazioni possono non essere dovute – i servizi di assistenza (cibo/bevande) restano comunque a vostro diritto."
+  },
+  {
+    "slug": "british-airways",
+    "name": "British Airways Plc (Niederlassung Deutschland)",
+    "adresse": "c/o Design Offices\nBarckhausstraße 1\n60325 Francoforte sul Meno\nGermania",
+    "infobox": "Dopo la Brexit, per British Airways si applica principalmente il diritto britannico (UK261), che tuttavia è quasi identico al regolamento UE 261/2004. Anche in questo caso avete diritto a un risarcimento in caso di ritardi superiori a 3 ore."
+  },
+  {
+    "slug": "klm",
+    "name": "KLM Royal Dutch Airlines",
+    "adresse": "Direzione per la Germania\nZeil 5\n60313 Francoforte sul Meno\nGermania",
+    "infobox": "KLM utilizza Amsterdam (Schiphol) come grande hub. Se i voli in coincidenza vengono persi a causa di ritardi del volo di alimentazione, il risarcimento viene calcolato in base alla distanza dell'intero itinerario (partenza fino alla destinazione finale), non solo della tratta parziale."
+  },
+  {
+    "slug": "air-france",
+    "name": "Air France",
+    "adresse": "De-Saint-Exupéry Straße 10\n60549 Francoforte sul Meno\nGermania",
+    "infobox": "Per Air France, gli scioperi del personale francese del controllo del traffico aereo sono una causa frequente di cancellazioni. Tali scioperi di terzi sono considerati nel diritto dei viaggi circostanze eccezionali, per cui il diritto al risarcimento viene meno. Tuttavia, il diritto al trasporto sostitutivo o al rimborso permane."
+  },
+  {
+    "slug": "emirates",
+    "name": "Emirates",
+    "adresse": "Direzione per la Germania\nGrüneburgweg 16\n60322 Francoforte sul Meno\nGermania",
+    "infobox": "In quanto compagnia aerea non UE, Emirates è soggetta al regolamento UE solo per le partenze dall'UE. Se volate da Dubai verso l'UE e il volo subisce un ritardo, non avete diritto a compensazioni ai sensi del diritto europeo."
+  },
+  {
+    "slug": "qatar-airways",
+    "name": "Qatar Airways",
+    "adresse": "Zeil 65\n60313 Francoforte sul Meno\nGermania",
+    "infobox": "Per Qatar Airways vale quanto segue: i diritti dei passeggeri aerei dell'UE si applicano solo alle partenze dall'UE. Se il volo in coincidenza a Doha viene perso durante il viaggio, ad esempio, verso l'Asia a causa del ritardo di un volo proveniente dall'UE, sussiste comunque il diritto al risarcimento UE per l'intera tratta."
+  },
+  {
+    "slug": "tap-air-portugal",
+    "name": "TAP Air Portugal",
+    "adresse": "Hanauer Landstraße 114\n60314 Francoforte sul Meno\nGermania",
+    "infobox": "TAP è una compagnia importante per molti viaggi verso il Sud America o gli USA via Lisbona. I collegamenti persi a Lisbona danno regolarmente diritto a risarcimenti di 600 euro, purché non sussistano circostanze eccezionali (ad es. forte maltempo)."
+  },
+  {
+    "slug": "iberia",
+    "name": "IBERIA LAE SA Operadora Unipersonal",
+    "adresse": "C/ Martínez Villergas, 49\n28027 Madrid\nSpagna",
+    "infobox": "Iberia, in quanto vettore UE, è pienamente regolamentata. Sui voli verso il Sud America via Madrid si verificano talvolta overbooking (Denied Boarding). In tal caso scatta immediatamente il diritto alla compensazione (fino a 600 euro) nonché a un trasporto alternativo."
+  },
+  {
+    "slug": "finnair",
+    "name": "Finnair plc (Finnair Oyj)",
+    "adresse": "Bredeneyer Str. 2b\n45133 Essen\nGermania",
+    "infobox": "Finnair offre spesso collegamenti rapidi verso l'Asia. In caso di ritardi significativi, le compagnie aeree devono pagare anche le notti in hotel se il volo successivo parte solo il giorno seguente. Se la compagnia rifiuta, i passeggeri possono anticipare le spese e richiederne il rimborso."
+  },
+  {
+    "slug": "sas",
+    "name": "Scandinavian Airlines System (SAS)",
+    "adresse": "SAS Customer Care\n195 87 Stoccolma\nSvezia",
+    "infobox": "Norvegia, Svezia e Danimarca sono incluse nell'ambito di applicazione del regolamento UE sui diritti dei passeggeri aerei. SAS deve quindi garantire, in caso di ritardi o cancellazioni, gli stessi diritti delle compagnie dei soli Stati membri dell'UE."
+  },
+  {
+    "slug": "delta-air-lines",
+    "name": "Delta Air Lines, Inc.",
+    "adresse": "Succursale in Germania\nAeroporto di Francoforte, Terminal 2D\n60549 Francoforte sul Meno\nGermania",
+    "infobox": "In quanto compagnia aerea statunitense, Delta è soggetta al regolamento UE 261/2004 solo sul volo di andata dall'UE. Sul volo di ritorno dagli USA verso l'UE si applicano invece le norme statunitensi, spesso più deboli, del Department of Transportation (DOT), che non prevedono compensazioni forfettarie per i ritardi."
+  },
+  {
+    "slug": "united-airlines",
+    "name": "United Airlines, Inc.",
+    "adresse": "Succursale in Germania\nLufthansa Aviation Center, Airportring\n60546 Francoforte sul Meno\nGermania",
+    "infobox": "Per United Airlines, sui voli di andata dall'UE si applicano i diritti europei dei passeggeri aerei, mentre sui voli di ritorno dagli USA no. In caso di problemi con il bagaglio, su entrambe le tratte si applica la Convenzione di Montreal, che prevede una responsabilità fino a circa 1.500 euro (DSP) per passeggero."
+  },
+  {
+    "slug": "american-airlines",
+    "name": "American Airlines",
+    "adresse": "Lyoner Str. 9\n60528 Francoforte sul Meno\nGermania",
+    "infobox": "Per American Airlines, in caso di partenze dagli USA, non si applica il diritto europeo. Tuttavia, se il volo di andata dall'Europa e il volo di ritorno dagli USA sono stati prenotati in un'unica prenotazione, alcuni portali per passeggeri aerei in passato sostenevano l'applicabilità anche al ritorno – la Corte di giustizia dell'UE ha però respinto tale tesi. Il diritto UE qui vale rigorosamente solo ex UE."
+  },
+  {
+    "slug": "singapore-airlines",
+    "name": "Singapore Airlines",
+    "adresse": "Edificio 234, HBK 61, Frankfurt Airport Center 1\nHugo-Eckener-Ring\n60549 Francoforte sul Meno\nGermania",
+    "infobox": "Singapore Airlines non è una compagnia aerea dell'UE. Il diritto al risarcimento ai sensi del diritto UE sussiste solo se il volo parte da un aeroporto dell'UE (ad es. Francoforte). In caso di partenza da Singapore verso l'UE, tale diritto al risarcimento in caso di ritardo non esiste."
+  },
+  {
+    "slug": "corendon-airlines",
+    "name": "Corendon Touristik GmbH",
+    "adresse": "Edificio centrale est – stanza 5.044, Terminal Ring 1\n40474 Düsseldorf\nGermania",
+    "infobox": "Corendon opera spesso sotto diverse licenze (Paesi Bassi, Turchia, Malta). Per il diritto dei viaggi (applicabilità del regolamento UE 261/2004) è decisivo quale di queste società controllate effettivamente operi il volo, soprattutto per i voli da paesi non UE come la Turchia."
+  },
+  {
+    "slug": "pegasus-airlines",
+    "name": "Pegasus Airlines",
+    "adresse": "Schadowplatz 16\n40212 Düsseldorf\nGermania",
+    "infobox": "In quanto vettore low cost turco, Pegasus per i voli di ritorno dalla Turchia verso l'UE non rientra nel regolamento europeo sui diritti dei passeggeri aerei, ma nel diritto turco. Ciò significa termini diversi in caso di ritardo e, di solito, importi di compensazione inferiori."
+  },
+  {
+    "slug": "swiss",
+    "name": "Swiss International Air Lines AG",
+    "adresse": "Malzgasse 15\n4052 Basilea\nSvizzera",
+    "infobox": "Sebbene la Svizzera non faccia parte dell'UE, ha recepito il regolamento UE sui diritti dei passeggeri aerei tramite accordi bilaterali. Pertanto, i voli con Swiss sono trattati giuridicamente esattamente come i voli con una compagnia aerea dell'Unione Europea."
+  },
+  {
+    "slug": "thai-airways",
+    "name": "THAI AIRWAYS International Public Company Ltd.",
+    "adresse": "Zeil 127\n60313 Francoforte sul Meno\nGermania",
+    "infobox": "Il regolamento UE 261/2004 si applica solo alle partenze dall'Europa. Se il passeggero annulla autonomamente un biglietto, anche per le compagnie non UE devono essere rimborsate almeno le tasse nazionali e le tasse aeroportuali per i voli non effettuati, purché si applichi il diritto tedesco."
+  },
+  {
+    "slug": "ana",
+    "name": "ANA Holdings Inc. (All Nippon Airways)",
+    "adresse": "Rossmarkt 21\n60311 Francoforte sul Meno\nGermania",
+    "infobox": "Per i voli ANA dalla Germania verso il Giappone si applicano pienamente i diritti europei dei passeggeri. Sul volo di ritorno tali diritti non si applicano. È importante, in caso di ritardi ex Giappone, verificare le regole di cortesia o le condizioni di trasporto giapponesi (Conditions of Carriage)."
+  },
+  {
+    "slug": "cathay-pacific",
+    "name": "Cathay Pacific",
+    "adresse": "Lyoner Straße 15\n60528 Francoforte sul Meno\nGermania",
+    "infobox": "Per i voli verso Hong Kong con Cathay Pacific, il regolamento UE sui diritti dei passeggeri aerei si applica solo alla partenza dall'Europa. In caso di bagagli smarriti, tuttavia, si applica in tutto il mondo la Convenzione di Montreal, per cui siete coperti fino ai limiti massimi anche per l'abbigliamento sostitutivo a Hong Kong."
+  },
+  {
+    "slug": "austrian-airlines",
+    "name": "Austrian Airlines AG",
+    "adresse": "Feedback Management\nCasella postale 33\n1300 Vienna-Aeroporto\nAustria",
+    "infobox": "In quanto parte del gruppo Lufthansa e compagnia aerea dell'UE, per Austrian Airlines si applica il diritto europeo. I cambiamenti di orario comunicati al passeggero meno di 14 giorni prima della partenza costituiscono giuridicamente una cancellazione e possono dare diritto a un risarcimento fino a 600 euro."
+  },
+  {
+    "slug": "air-canada",
+    "name": "Air Canada",
+    "adresse": "Hahnstraße 70\n60528 Francoforte sul Meno\nGermania",
+    "infobox": "Per Air Canada, in caso di partenza nell'UE si applicano i diritti europei dei passeggeri aerei. Per i voli dal Canada si applicano inoltre o in alternativa le Air Passenger Protection Regulations (APPR) canadesi, che in alcuni casi possono prevedere compensazioni ancora più elevate in caso di ritardo."
+  },
+  {
+    "slug": "etihad-airways",
+    "name": "Etihad Airways",
+    "adresse": "OpernTurm\nBockenheimer Landstr. 2-4\n60306 Francoforte sul Meno\nGermania",
+    "infobox": "Se Etihad vola da Abu Dhabi verso l'UE, il regolamento UE sui diritti dei passeggeri aerei non si applica. Tuttavia, se il bagaglio viene consegnato in ritardo, i passeggeri in tutto il mondo possono, ai sensi della Convenzione di Montreal, acquistare beni di prima necessità (articoli per l'igiene, abbigliamento) e addebitarli alla compagnia aerea."
+  },
+  {
+    "slug": "latam-airlines",
+    "name": "LATAM Airlines",
+    "adresse": "Kaiserstr. 5\n60311 Francoforte sul Meno\nGermania",
+    "infobox": "LATAM, con sede in Sud America, deve rispettare i diritti dei passeggeri aerei dell'UE solo per le partenze dall'UE. Spesso i voli sono offerti in codeshare (ad es. con Iberia) – per il risarcimento è però giuridicamente sempre responsabile la compagnia aerea il cui aeromobile ha effettivamente operato il volo (Operating Carrier)."
+  },
+  {
+    "slug": "qantas-airways",
+    "name": "Qantas Airways Limited",
+    "adresse": "Succursale in Germania\nKaiserstraße 77\n60329 Francoforte sul Meno\nGermania",
+    "infobox": "I voli Qantas in partenza dall'Europa (ad es. Londra-Perth o Roma-Sydney) rientrano nel regolamento europeo o britannico sui diritti dei passeggeri aerei. Trattandosi di voli a lungo raggio (oltre 3.500 km), il diritto al risarcimento sorge solo con un ritardo all'arrivo di almeno 4 ore."
+  },
+  {
+    "slug": "japan-airlines",
+    "name": "Japan Airlines Co., Ltd. (JAL)",
+    "adresse": "Roßmarkt 15\n60311 Francoforte sul Meno\nGermania",
+    "infobox": "I diritti europei dei passeggeri si applicano a JAL solo in caso di partenza da un paese UE. In caso di cancellazione del biglietto da parte del passeggero, tuttavia, tasse e imposte personalizzate devono essere rimborsate anche dalle compagnie internazionali, purché il diritto tedesco sia applicabile al contratto."
+  },
+  {
+    "slug": "air-new-zealand",
+    "name": "Air New Zealand",
+    "adresse": "Speicherstraße 57\n60327 Francoforte sul Meno\nGermania",
+    "infobox": "Air New Zealand, per i voli dalla Nuova Zelanda, non è soggetta al diritto UE. Tuttavia, i passeggeri sono tutelati in caso di danni al bagaglio dalla Convenzione internazionale di Montreal. Conservate sempre il talloncino del bagaglio (modulo PIR) e le ricevute per far valere i vostri diritti."
+  },
+  {
+    "slug": "air-china",
+    "name": "Air China Limited",
+    "adresse": "Düsseldorfer Str. 4\n60329 Francoforte sul Meno\nGermania",
+    "infobox": "Air China è una compagnia aerea non UE. Per i ritardi sul volo di ritorno dalla Cina all'Europa non può essere richiesta alcuna compensazione forfettaria ai sensi del diritto UE. Le partenze dall'Europa verso la Cina, invece, sono coperte dal regolamento UE."
+  },
+  {
+    "slug": "korean-air",
+    "name": "Korean Air",
+    "adresse": "An der Welle 4\n60322 Francoforte sul Meno\nGermania",
+    "infobox": "Per le partenze dall'Europa, Korean Air è soggetta al regolamento UE sui diritti dei passeggeri aerei. In caso di negato imbarco ingiustificato (Denied Boarding, ad es. per overbooking), avete diritto non solo ai 600 euro di compensazione, ma anche a un volo sostitutivo nel più breve tempo possibile."
+  },
+  {
+    "slug": "air-india",
+    "name": "Air India Limited",
+    "adresse": "Kaiserstraße 11\n60311 Francoforte sul Meno\nGermania",
+    "infobox": "Se il vostro volo Air India parte dall'UE, si applica il regolamento UE sui diritti dei passeggeri aerei. In caso di forte ritardo a partire da 2 ore (tratta breve) o 4 ore (lungo raggio), la compagnia deve offrire gratuitamente servizi di assistenza (cibo, bevande, eventualmente hotel)."
+  },
+  {
+    "slug": "lot-polish-airlines",
+    "name": "LOT Polish Airlines",
+    "adresse": "Hugo-Eckener-Ring 1\n60549 Francoforte sul Meno\nGermania",
+    "infobox": "In quanto compagnia aerea polacca, LOT rientra nel diritto europeo dei passeggeri aerei. Ciò vale in tutto il mondo per tutti i voli operati da LOT. Attenzione: i guasti tecnici dell'aeromobile vengono spesso dichiarati dalle compagnie come 'circostanza eccezionale', cosa che però i tribunali europei respingono nella maggior parte dei casi."
+  },
+  {
+    "slug": "brussels-airlines",
+    "name": "Brussels Airlines SA/NV",
+    "adresse": "100-102, Avenue des Saisons\nCasella postale 30\n1050 Bruxelles\nBelgio",
+    "infobox": "Per Brussels Airlines (vettore UE), in caso di ritardi del volo superiori a tre ore alla destinazione finale sussiste il diritto a un massimo di 600 euro. Poiché la compagnia è molto attiva in Africa: anche i voli dall'Africa a Bruxelles sono pienamente coperti dal punto di vista giuridico, dato che Brussels Airlines ha sede nell'UE."
+  },
+  {
+    "slug": "ita-airways",
+    "name": "Italia Trasporto Aereo S.p.A. (Headquarter)",
+    "adresse": "Via XX Settembre, 97\n00187 Roma (RM)\nItalia",
+    "infobox": "La compagnia successore di Alitalia, in quanto vettore italiano, è pienamente soggetta al diritto UE. Se i voli vengono cancellati a causa di scioperi del personale di terra (personale di handling in Italia), ciò è però spesso considerato una circostanza eccezionale, che può escludere le compensazioni."
+  },
+  {
+    "slug": "air-baltic",
+    "name": "Air Baltic",
+    "adresse": "Ufficio Germania\nTorstraße 177\n10115 Berlino\nGermania",
+    "infobox": "Air Baltic, in quanto compagnia aerea lettone, ha sede nell'UE. I diritti dei passeggeri aerei si applicano quindi in tutto il mondo. Se un passeggero non si presenta al volo (No-Show), il prezzo del biglietto spesso viene perso, ma le tasse e le imposte aeroportuali non sostenute possono di norma essere richieste indietro dal punto di vista giuridico."
+  },
+  {
+    "slug": "aegean-airlines",
+    "name": "Aegean Airlines S.A.",
+    "adresse": "Sede centrale Germania\nAm Hauptbahnhof 10\n60329 Francoforte sul Meno\nGermania",
+    "infobox": "Aegean è un vettore UE. Gli scioperi dei controllori di volo greci causano talvolta cancellazioni. Si tratta di una circostanza eccezionale che esonera la compagnia dal risarcimento – ma non dall'obbligo di rimborsare il prezzo del biglietto o di fornire un trasporto sostitutivo nel più breve tempo possibile."
+  },
+  {
+    "slug": "air-europa",
+    "name": "Air Europa Líneas Aéreas S.A.U.",
+    "adresse": "Carretera Arenal-Llucmajor, KM 21.5\nCP: 07620 Llucmajor - Isole Baleari\nSpagna",
+    "infobox": "Per la spagnola Air Europa si applicano i diritti dei passeggeri aerei dell'UE in tutto il mondo. Se un volo viene cancellato e la compagnia offre una riprotezione che avviene solo giorni dopo, i passeggeri possono spesso prenotare autonomamente un volo sostitutivo comparabile e addebitare alla compagnia i costi aggiuntivi."
+  },
+  {
+    "slug": "smartwings",
+    "name": "Smartwings a.s.",
+    "adresse": "K letisti 1068/30\n160 08 Praha 6\nRepubblica Ceca",
+    "infobox": "La ceca Smartwings opera spesso nel traffico charter. Anche per i voli charter puri o per i viaggi organizzati si applica pienamente il regolamento UE 261/2004 ai diritti nei confronti della compagnia aerea operativa."
+  },
+  {
+    "slug": "discover-airlines",
+    "name": "EW Discover GmbH",
+    "adresse": "Hugo-Eckener Ring 1\nFAC, Building 234, D7.01\n60549 Francoforte sul Meno\nGermania",
+    "infobox": "Discover Airlines (ex Eurowings Discover) è una compagnia aerea tedesca. In caso di ritardo del bagaglio nella località di vacanza, i passeggeri possono acquistare gli articoli necessari (abbigliamento, cosmetici). Importante: i costi per l'abbigliamento vengono spesso rimborsati solo al 50%, poiché dopo la vacanza possono essere riutilizzati."
+  },
+  {
+    "slug": "edelweiss-air",
+    "name": "Edelweiss Air AG",
+    "adresse": "Customer Relations\nThe Circle 32, casella postale\n8058 Zurigo-Aeroporto\nSvizzera",
+    "infobox": "Grazie agli accordi bilaterali della Svizzera, Edelweiss Air rientra nei diritti dei passeggeri aerei dell'UE. Se la compagnia sposta un volo con più di 14 giorni di anticipo, non c'è un risarcimento forfettario, ma i passeggeri possono recedere gratuitamente e richiedere l'intero prezzo del biglietto."
+  },
+  {
+    "slug": "oman-air",
+    "name": "Oman Air S.A.O.C.",
+    "adresse": "Succursale in Germania\nHahnstr. 70\n60528 Francoforte sul Meno\nGermania",
+    "infobox": "In quanto compagnia aerea non UE, Oman Air è soggetta ai diritti dei passeggeri aerei dell'UE solo in caso di partenza dall'Europa. Se il volo sulla tratta Muscat-Europa viene cancellato, il diritto UE non si applica e le richieste di sostituzione devono essere verificate in base alle condizioni di trasporto della compagnia o al diritto locale."
+  },
+  {
+    "slug": "gulf-air",
+    "name": "Gulf Air",
+    "adresse": "Lyoner Str. 14\n60528 Francoforte sul Meno\nGermania",
+    "infobox": "Per i voli con Gulf Air in partenza dall'Europa, in caso di forti ritardi avete diritto all'assistenza (cibo, telefonate). Se il bagaglio viene smarrito, indipendentemente dal punto di partenza, ai sensi della Convenzione di Montreal dovete richiedere per iscritto il risarcimento entro 21 giorni."
+  },
+  {
+    "slug": "norwegian-air-shuttle",
+    "name": "Norwegian Air Shuttle ASA",
+    "adresse": "Flughafenstr. 1-3\n22335 Amburgo Fuhlsbüttel\nGermania",
+    "infobox": "La Norvegia fa parte dello Spazio economico europeo (SEE). Pertanto, Norwegian è trattata giuridicamente come una compagnia aerea dell'UE. In caso di cancellazioni da parte del cliente, le compagnie low cost spesso si rifiutano di rimborsare le tasse, ma giuridicamente sono di solito obbligate a farlo."
+  },
+  {
+    "slug": "icelandair",
+    "name": "Icelandair",
+    "adresse": "Weissfrauenstraße 12-16\n60311 Francoforte sul Meno\nGermania",
+    "infobox": "L'Islanda è membro del SEE, quindi Icelandair applica i diritti dei passeggeri aerei dell'UE in tutto il mondo. Un volo in coincidenza perso a Reykjavik durante il viaggio verso gli USA dà diritto a un risarcimento se il ritardo originario è stato causato dalla compagnia."
+  },
+  {
+    "slug": "volotea",
+    "name": "Volotea S.L.",
+    "adresse": "Travessera de Gracia 56\n4° piano\n08006 Barcellona\nSpagna",
+    "infobox": "Volotea, in quanto vettore spagnolo, deve corrispondere le compensazioni UE. Molte richieste vengono respinte per 'condizioni meteorologiche'. Il meteo è una circostanza esimente solo se è estremo e rende oggettivamente impossibile l'operatività specifica del volo."
+  },
+  {
+    "slug": "air-transat",
+    "name": "Air Transat (Transat Tours Canada Inc.)",
+    "adresse": "Servizio clienti, Place du Parc\n300 Léo Pariseau Street, Suite 200\nMontreal (Quebec) H2X 4C2\nCanada",
+    "infobox": "Per Air Transat, sui voli in partenza dall'UE possono applicarsi i diritti dei passeggeri aerei europei (EU 261/2004) o canadesi (APPR). I passeggeri possono scegliere il diritto per loro più favorevole, ma non incassare cumulativamente entrambe le compensazioni per lo stesso evento."
+  },
+  {
+    "slug": "saudia",
+    "name": "Saudi Arabian Airlines (Saudia)",
+    "adresse": "Friedensstr. 6\n60311 Francoforte sul Meno\nGermania",
+    "infobox": "Per le partenze da Riad o Gedda verso l'UE non si applica alcun regolamento UE. Se il viaggio inizia nell'UE, avete però piena tutela. In caso di danni al bagaglio, si applica in tutto il mondo la Convenzione di Montreal (responsabilità fino a circa 1.500 euro)."
+  },
+  {
+    "slug": "el-al",
+    "name": "EL AL Israel Airlines Ltd.",
+    "adresse": "Eschersheimer Landstr. 162\n60322 Francoforte sul Meno\nGermania",
+    "infobox": "Oltre ai diritti UE per le partenze dall'Europa, in Israele esiste l'Aviation Services Law (Tibi Law). Questo offre ai viaggiatori in alcuni casi forti diritti al rimborso in caso di cancellazioni o ritardi, anche se il regolamento UE non è applicabile ai voli in partenza da Israele."
+  },
+  {
+    "slug": "eva-air",
+    "name": "EVA Airways Corp.",
+    "adresse": "Terminalstraße Mitte 18\nMAC Süd, livello 04, stanza 548\n85356 Monaco di Baviera-Aeroporto\nGermania",
+    "infobox": "In caso di ritardi dei voli EVA Air in partenza dall'Europa, si applica il regolamento UE sui diritti dei passeggeri aerei. Trattandosi di voli a lungo raggio verso l'Asia, i viaggiatori hanno diritto al risarcimento massimo di 600 euro a partire da 4 ore di ritardo all'arrivo."
+  },
+  {
+    "slug": "vietnam-airlines",
+    "name": "Vietnam Airlines",
+    "adresse": "Rossmarkt 5\n60311 Francoforte sul Meno\nGermania",
+    "infobox": "In quanto compagnia aerea non UE, il regolamento sui diritti dei passeggeri aerei si applica a Vietnam Airlines solo sui voli di andata in partenza dall'UE. Per i voli di ritorno dal Vietnam alla Germania, il passeggero deve fare affidamento sulle condizioni contrattuali della compagnia o sulle leggi locali in caso di cancellazione."
+  },
+  {
+    "slug": "jet2",
+    "name": "Jet2.com Limited",
+    "adresse": "Data Protection Department / Legal Services\nPO Box 284\nLeeds LS11 1GE\nRegno Unito",
+    "infobox": "Dopo la Brexit, la legge UK261 disciplina i diritti dei passeggeri aerei delle compagnie britanniche come Jet2. Corrisponde quasi letteralmente alla EU261. Gli importi del risarcimento sono tuttavia calcolati in sterline britanniche (ad es. £220, £350 o £520)."
+  },
+  {
+    "slug": "tui-airways-uk",
+    "name": "TUI UK Limited (TUI Airways)",
+    "adresse": "Wigmore House, Wigmore Lane\nLuton LU2 9TN\nRegno Unito",
+    "infobox": "Per la britannica TUI Airways si applica il diritto britannico dei passeggeri aerei (UK261). Se i viaggi organizzati sono prenotati tramite un tour operator tedesco e il volo TUI britannico subisce un forte ritardo, in alternativa o in aggiunta può essere richiesta una riduzione del prezzo del viaggio ai sensi del diritto tedesco."
+  },
+  {
+    "slug": "croatia-airlines",
+    "name": "Croatia Airlines d.d.",
+    "adresse": "Kaiserstrasse 7\n60311 Francoforte sul Meno\nGermania",
+    "infobox": "La Croazia è membro dell'UE, quindi tutti i voli di Croatia Airlines rientrano nella direttiva UE 261/2004. Se la compagnia nega l'imbarco per overbooking, il passeggero può richiedere immediatamente un risarcimento e non deve attendere un ritardo."
+  },
+  {
+    "slug": "air-serbia",
+    "name": "Air Serbia a.d.",
+    "adresse": "Služba za podršku gostima\nJurija Gagarina 12\n11070 Belgrado\nSerbia",
+    "infobox": "La Serbia non è uno Stato membro dell'UE. Un diritto al risarcimento ai sensi del diritto UE nei confronti di Air Serbia esiste solo per le tratte che iniziano in un aeroporto dell'UE (ad es. Francoforte-Belgrado), ma non per i voli nella direzione opposta."
+  },
+  {
+    "slug": "tarom",
+    "name": "TAROM",
+    "adresse": "Customer Relations\nCalea Bucureştilor nr. 224 F, Otopeni\nJudeţul Ilfov\nRomania",
+    "infobox": "In quanto compagnia aerea dell'UE, la rumena TAROM è vincolata a tutti i diritti europei dei passeggeri aerei. In caso di ritardo del bagaglio, la compagnia deve coprire i costi degli acquisti sostitutivi. Questa regola deriva dalla Convenzione di Montreal, non dal regolamento UE sui diritti dei passeggeri aerei."
+  },
+  {
+    "slug": "south-african-airways",
+    "name": "South African Airways",
+    "adresse": "Ufficio amministrativo\nDarmstädter Landstr. 125\n60598 Francoforte sul Meno\nGermania",
+    "infobox": "I voli con South African Airways in partenza dall'Europa sono tutelati dal regolamento UE 261/2004. Per il volo di ritorno dal Sudafrica verso l'UE ciò non vale, motivo per cui i passeggeri in caso di ritardo non hanno alcun diritto legale a compensazioni forfettarie in euro."
+  },
+  {
+    "slug": "ethiopian-airlines",
+    "name": "Ethiopian Airlines S.C.",
+    "adresse": "Kaiserstr. 77\n60329 Francoforte sul Meno\nGermania",
+    "infobox": "Se su un volo Ethiopian Airlines in partenza dall'UE verso l'Africa si perde il volo in coincidenza ad Addis Abeba e la destinazione finale viene raggiunta con più di 4 ore di ritardo, secondo la giurisprudenza della Corte di giustizia dell'UE spettano 600 euro di risarcimento."
+  },
+  {
+    "slug": "tunisair",
+    "name": "Tunisair",
+    "adresse": "Kaiserstraße 44\n60329 Francoforte sul Meno\nGermania",
+    "infobox": "In quanto compagnia aerea nordafricana, Tunisair deve rispettare le norme UE solo sul viaggio di andata (dall'UE). Sul viaggio di ritorno non si applicano. In caso di cancellazione da parte del passeggero, il diritto al rimborso di tasse e imposte è disciplinato dal diritto concordato nel contratto di trasporto."
+  },
+  {
+    "slug": "royal-air-maroc",
+    "name": "Royal Air Maroc",
+    "adresse": "Roßmarkt 5\n60311 Francoforte sul Meno\nGermania",
+    "infobox": "La compagnia marocchina Royal Air Maroc è soggetta al regolamento UE sui diritti dei passeggeri aerei per tutti i voli in partenza dall'UE. Per i voli puramente dal Marocco verso l'UE non esiste alcun diritto a compensazione forfettaria in caso di ritardo o cancellazione ai sensi del diritto UE."
+  },
+  {
+    "slug": "egyptair",
+    "name": "EgyptAir",
+    "adresse": "Am Hauptbahnhof 12 D\n60329 Francoforte sul Meno\nGermania",
+    "infobox": "EgyptAir ha sede al di fuori dell'UE. In caso di cancellazione del volo di ritorno dall'Egitto, non è previsto alcun risarcimento ai sensi del diritto europeo. Sui voli di andata dall'Europa, tuttavia, ai passeggeri spetta una compensazione di solito pari a 400 o 600 euro a partire da 3 ore di ritardo all'arrivo."
+  },
+  {
+    "slug": "kuwait-airways",
+    "name": "Kuwait Airways",
+    "adresse": "Bethmannstraße 56\n60311 Francoforte sul Meno\nGermania",
+    "infobox": "Per Kuwait Airways i diritti UE si applicano solo sui voli ex UE. Se il vostro volo viene cancellato, la compagnia aerea deve offrirvi, oltre al rimborso del prezzo del volo, eventualmente anche un trasporto alternativo nel più breve tempo possibile – se non lo fa, possono essere richiesti i costi di un volo sostitutivo."
+  },
+  {
+    "slug": "middle-east-airlines",
+    "name": "Middle East Airlines Air Liban",
+    "adresse": "Frankfurt Airport-Center 1\n60549 Francoforte sul Meno\nGermania",
+    "infobox": "Se il volo di Middle East Airlines parte dal Libano, in caso di problemi di volo non avete diritti a compensazione ai sensi della EU 261/2004. Se parte dall'Europa, avete tutti i diritti, ad es. 400 euro in caso di ritardo superiore a 3 ore."
+  },
+  {
+    "slug": "air-malta",
+    "name": "Air Malta Plc.",
+    "adresse": "Direzione per la Germania\nMainzer Landstraße 158\n60327 Francoforte sul Meno\nGermania",
+    "infobox": "In quanto compagnia aerea europea, Air Malta è soggetta al regolamento UE sui diritti dei passeggeri aerei. Se il bagaglio viene smarrito, i passeggeri devono compilare immediatamente in aeroporto un cosiddetto PIR (Property Irregularity Report). Questa è una condizione obbligatoria per poter successivamente richiedere il risarcimento dei danni."
+  },
+  {
+    "slug": "royal-jordanian",
+    "name": "Royal Jordanian",
+    "adresse": "Kaiserstr. 3\n60311 Francoforte sul Meno\nGermania",
+    "infobox": "Per Royal Jordanian, sui voli dalla Giordania verso l'UE non si applica il regolamento UE. Se andata e ritorno sono stati prenotati insieme e il volo di andata viene perso/non effettuato, molte compagnie cancellano il volo di ritorno ('clausola No-Show'). In Germania questa prassi è stata in parte giudicata illegittima."
+  },
+  {
+    "slug": "malaysia-airlines",
+    "name": "Malaysia Airlines",
+    "adresse": "Wilhelm-Leuschner-Str. 78\n60329 Francoforte sul Meno\nGermania",
+    "infobox": "L'obbligo di risarcimento ai sensi del diritto UE si applica a Malaysia Airlines solo in caso di partenza dall'UE. In caso di danni al bagaglio, tuttavia, si applica in tutto il mondo la Convenzione di Montreal, e il reclamo per una valigia danneggiata deve pervenire per iscritto alla compagnia entro 7 giorni dal ricevimento."
+  },
+  {
+    "slug": "china-southern-airlines",
+    "name": "China Southern Airlines",
+    "adresse": "Frankfurt Airport Cargo City Süd\nEdificio 533\n60549 Francoforte sul Meno\nGermania",
+    "infobox": "Poiché la compagnia ha sede in Cina, i diritti UE si applicano solo ai voli in partenza dall'Europa. Se, in caso di cancellazione del volo da parte della compagnia, prenotate autonomamente un volo sostitutivo, dovreste farlo solo dopo aver fissato in modo dimostrabile alla compagnia un termine per il trasporto sostitutivo."
+  },
+  {
+    "slug": "garuda-indonesia",
+    "name": "Garuda Indonesia",
+    "adresse": "Große Bockenheimer Straße 15\n60313 Francoforte sul Meno\nGermania",
+    "infobox": "Per la Garuda Indonesia indonesiana, il diritto UE è applicabile solo in caso di partenza dall'Europa. Se annullate il biglietto aereo per motivi personali, di norma avete almeno diritto al rimborso delle sole tasse aeroportuali e delle spese di sicurezza."
+  },
+  {
+    "slug": "air-astana",
+    "name": "Air Astana JSC",
+    "adresse": "c/o Aviareps AG\nKaiserstraße 77\n60329 Francoforte sul Meno\nGermania",
+    "infobox": "In quanto compagnia aerea del Kazakistan, Air Astana per i voli verso l'UE non rientra nel regolamento CE 261/2004. Solo le partenze da un aeroporto nel territorio dell'UE danno diritto a compensazioni in caso di ritardi superiori a 3 ore."
+  },
+  {
+    "slug": "rwandair",
+    "name": "RwandAir Ltd.",
+    "adresse": "c/o Friends Touristik Marketing GmbH & Co. KG\nHochstraße 17\n60313 Francoforte sul Meno\nGermania",
+    "infobox": "RwandAir è soggetta alle direttive europee esclusivamente in caso di partenza dall'Europa. Va tuttavia notato che in caso di downgrade (ad es. declassamento da Business a Economy Class) all'aeroporto di partenza europeo deve essere rimborsato fino al 75% del prezzo del biglietto per il tratto interessato."
+  },
+  {
+    "slug": "kenya-airways",
+    "name": "Kenya Airways",
+    "adresse": "c/o APG Germany\nLeonhardstrasse 22\n61169 Friedberg\nGermania",
+    "infobox": "Per il volo di ritorno dal Kenya non si applica alcun regolamento europeo sui diritti dei passeggeri aerei, poiché Kenya Airways è una compagnia aerea africana. Tuttavia, nel viaggio dall'Europa verso l'esterno si applicano tutti i diritti, incluso il diritto all'alloggio in hotel in caso di ritardi notturni."
+  },
+  {
+    "slug": "srilankan-airlines",
+    "name": "SriLankan Airlines",
+    "adresse": "c/o Aviareps AG\nKaiserstraße 77\n60329 Francoforte sul Meno\nGermania",
+    "infobox": "SriLankan Airlines paga compensazioni UE solo per i voli che partono all'interno dell'Unione Europea. Se la compagnia rifiuta di pagare il risarcimento per un volo in partenza dall'UE, i passeggeri possono rivolgersi all'organismo nazionale di conciliazione (söp)."
+  },
+  {
+    "slug": "luxair",
+    "name": "Luxair S.A.",
+    "adresse": "25, rue Gabriel Lippmann\nL-5365 Munsbach\nLussemburgo",
+    "infobox": "In quanto compagnia aerea lussemburghese, Luxair opera pienamente sotto il diritto UE. Se la compagnia cancella un volo con breve preavviso a causa di una carenza di equipaggio, si tratta di un problema organizzativo della compagnia e dà diritto al viaggiatore a compensazioni (da 250 a 400 euro, a seconda della distanza)."
+  },
+  {
+    "slug": "air-dolomiti",
+    "name": "Air Dolomiti S.p.A.",
+    "adresse": "Maximiliansplatz 12a\n80333 Monaco di Baviera\nGermania",
+    "infobox": "Air Dolomiti, in quanto controllata di Lufthansa, è una compagnia aerea dell'UE e opera spesso su voli di alimentazione (ad es. verso Monaco o Francoforte). Se a causa di un ritardo di Air Dolomiti si perde il collegamento a lungo raggio di Lufthansa, la compagnia operativa è responsabile del ritardo complessivo alla destinazione finale."
+  },
+  {
+    "slug": "helvetic-airways",
+    "name": "Helvetic Airways AG",
+    "adresse": "Steinackerstrasse 56\nCH-8302 Kloten\nSvizzera",
+    "infobox": "La Svizzera partecipa al regolamento UE 261/2004, motivo per cui Helvetic Airways deve applicare il diritto europeo. Spesso Helvetic opera voli per conto terzi (wet lease) per Swiss. Per i risarcimenti, giuridicamente è di solito responsabile la compagnia il cui nome e numero di volo compaiono sul biglietto (parte contrattuale) o quella che opera effettivamente il volo."
+  },
+  {
+    "slug": "wideroe",
+    "name": "Widerøe's Flyveselskap AS",
+    "adresse": "Customer Relations\nLangstranda 6, Postbox 247\n8001 Bodø\nNorvegia",
+    "infobox": "In quanto compagnia aerea norvegese, Widerøe rientra nello Spazio economico europeo (SEE) e applica i diritti europei dei passeggeri aerei. Se un volo viene cancellato a causa di condizioni invernali estreme in Scandinavia, ciò è considerato una circostanza eccezionale senza compensazione, ma la compagnia deve comunque riproteggervi gratuitamente sul primo volo disponibile."
+  },
+  {
+    "slug": "neos-air",
+    "name": "Neos S.p.A.",
+    "adresse": "Via Della Chiesa 68\n21019 Somma Lombardo (Varese)\nItalia",
+    "infobox": "La compagnia charter italiana Neos Air è pienamente soggetta al regolamento UE. Se il vostro bagaglio arriva in ritardo, acquistate abbigliamento sostitutivo e articoli per l'igiene – le ricevute vanno presentate dopo la vacanza, il limite massimo di rimborso ai sensi della Convenzione di Montreal è di circa 1.500 euro."
+  },
+  {
+    "slug": "binter-canarias",
+    "name": "Binter Canarias S.A.",
+    "adresse": "Aeropuerto de Gran Canaria\nC/ La Paleta 6\n35230 Las Palmas\nSpagna",
+    "infobox": "Binter Canarias effettua spesso voli interinsulari nelle Canarie. Poiché le Isole Canarie sono territorio spagnolo, il regolamento UE sui diritti dei passeggeri aerei si applica integralmente. Le brevi distanze inferiori a 1.500 km danno diritto a 250 euro in caso di ritardo superiore a 3 ore."
+  },
+  {
+    "slug": "transavia",
+    "name": "Transavia France S.A.S.",
+    "adresse": "Coeur d’Orly – Bâtiment Belaïa\n7 avenue de l’Union\n94310 Orly\nFrancia",
+    "infobox": "Transavia (controllata di Air France-KLM) deve rimborsare tasse e imposte ai sensi del diritto UE se un passeggero non effettua il volo. Attenzione: le compagnie aeree spesso prevedono nei loro termini e condizioni costi forfettari di gestione per la cancellazione. Tuttavia, i tribunali hanno spesso dichiarato tali clausole nulle."
+  },
+  {
+    "slug": "play-airlines",
+    "name": "PLAY airlines",
+    "adresse": "Suðurlandsbraut 14\n108 Reykjavik\nIslanda",
+    "infobox": "L'Islanda è uno Stato SEE, quindi per PLAY si applica senza limitazioni il regolamento europeo sui diritti dei passeggeri aerei. In quanto vettore low cost, i passeggeri si confrontano spesso con regole rigide sul bagaglio a mano. Dal punto di vista giuridico, le penali al gate sono ammissibili, purché siano previste in modo trasparente nelle condizioni di trasporto."
+  },
+  {
+    "slug": "air-cairo",
+    "name": "Air Cairo",
+    "adresse": "Smart Village, Building B211\nKilo 28 Cairo Alexandria Desert Road\nGiza\nEgitto",
+    "infobox": "In quanto compagnia aerea non UE, Air Cairo sul volo di ritorno dall'Egitto alla Germania non è soggetta al regolamento UE 261/2004. I ritardi dei turisti di ritorno in Europa non danno quindi diritto a una compensazione forfettaria."
+  },
+  {
+    "slug": "arkia",
+    "name": "Arkia Israeli Airlines Ltd.",
+    "adresse": "P.O. Box 39301\nTel Aviv 61392\nIsraele",
+    "infobox": "Oltre ai diritti UE per i voli in partenza dall'Europa, i passeggeri di Arkia possono far valere anche i diritti previsti dalla legge israeliana sull'aviazione (Tibi Law). Questa si applica, ad esempio, spesso anche in caso di ritardi e cancellazioni dei voli di ritorno da Tel Aviv."
+  },
+  {
+    "slug": "georgian-airways",
+    "name": "Georgian Airways",
+    "adresse": "Mittelgasse 2\n55130 Magonza\nGermania",
+    "infobox": "Per la compagnia aerea georgiana il regolamento UE sui diritti dei passeggeri aerei si applica solo se il volo parte da un aeroporto dell'UE. Sui voli da Tbilisi verso l'UE non possono essere fatti valere diritti ai sensi del diritto UE in caso di ritardo o cancellazione."
+  },
+  {
+    "slug": "air-arabia",
+    "name": "Air Arabia PJSC",
+    "adresse": "Air Arabia Building\nSharjah International Airport\nP.O. Box 132\nEmirati Arabi Uniti",
+    "infobox": "Air Arabia ha sede negli Emirati Arabi Uniti. Ciò significa: se il volo parte dall'Europa, avete pieno diritto alla compensazione europea in caso di ritardo. Se il viaggio inizia negli Emirati Arabi Uniti, tali diritti non si applicano. I problemi con il bagaglio sono però disciplinati a livello internazionale dalla Convenzione di Montreal."
+  },
+  {
+    "slug": "flyone",
+    "name": "FLYONE",
+    "adresse": "bd. Dacia 80/3\nMD-2026 Chișinău\nMoldavia",
+    "infobox": "La Moldavia non è membro dell'UE, tuttavia fa parte dello Spazio aereo europeo comune (ECAA), per cui gran parte dei diritti dei passeggeri aerei dell'UE viene applicata. Verificate in ogni singolo caso se l'accordo si applica; in ogni caso, però, per le partenze dall'UE."
+  },
+  {
+    "slug": "nouvelair",
+    "name": "Nouvelair Tunisie S.A.",
+    "adresse": "Zone Touristique Dkhila BP 66\n5065 Monastir\nTunisia",
+    "infobox": "Per la compagnia aerea tunisina i diritti UE si applicano solo sul viaggio di andata dall'Europa al Nord Africa. Se la vacanza viene interrotta e il volo di ritorno verso l'Europa viene cancellato, non si è tutelati dai pagamenti forfettari del regolamento UE 261/2004."
+  },
+  {
+    "slug": "sky-express",
+    "name": "SKY express S.A.",
+    "adresse": "Building 57, Athens International Airport\nSpata, Attica 19019\nGrecia",
+    "infobox": "In quanto compagnia aerea greca, SKY express è soggetta a tutti i diritti UE. In caso di overbooking e di rifiuto ingiustificato dell'imbarco, avete diritto a 250 euro (per voli fino a 1.500 km) nonché al rimborso del biglietto o a un volo alternativo."
+  },
+  {
+    "slug": "air-algerie",
+    "name": "Air Algérie",
+    "adresse": "Friedensstraße 5\n60311 Francoforte sul Meno\nGermania",
+    "infobox": "La compagnia con sede in Nord Africa rientra nel regolamento UE sui diritti dei passeggeri aerei per le partenze dall'UE. Per il volo di ritorno dall'Algeria verso l'Europa non si applica. In entrambe le direzioni, in caso di smarrimento del bagaglio si applica tuttavia la Convenzione di Montreal con limiti massimi di responsabilità."
+  },
+  {
+    "slug": "air-seychelles",
+    "name": "Air Seychelles Ltd",
+    "adresse": "P.O. Box 386\nPointe Larue, Mahé\nSeychelles",
+    "infobox": "Poiché le Seychelles non si trovano nell'UE, le compensazioni per un volo di ritorno in ritardo devono spesso essere ottenute in base al diritto locale o alle condizioni generali. Sulla tratta dall'Europa alle isole, tuttavia, i passeggeri sono completamente protetti dal regolamento UE."
+  },
+  {
+    "slug": "bulgaria-air",
+    "name": "Bulgaria Air",
+    "adresse": "1, Brussels Blvd\nSofia Airport\n1540 Sofia\nBulgaria",
+    "infobox": "La Bulgaria è membro dell'Unione Europea, motivo per cui Bulgaria Air deve rispettare i diritti dei passeggeri aerei dell'UE in tutto il mondo. Se il bagaglio viene danneggiato su voli nazionali o europei, ciò deve essere obbligatoriamente segnalato per iscritto entro 7 giorni (Convenzione di Montreal)."
+  },
+  {
+    "slug": "air-mauritius",
+    "name": "Air Mauritius Ltd. (GSA Deutschland/AT)",
+    "adresse": "Opernring 1 / Top E-439\n1010 Vienna\nAustria",
+    "infobox": "Air Mauritius paga, in caso di ritardi superiori a tre ore, 600 euro sulla base del regolamento UE (per i voli a lungo raggio) – tuttavia solo se il volo parte dall'Europa (ad es. Francoforte o Parigi). Sul volo di ritorno la normativa europea non si applica."
+  },
+  {
+    "slug": "aeromexico",
+    "name": "Aerovías de México, S.A. de C.V.",
+    "adresse": "Paseo de la Reforma 445\nCuauhtémoc\n06500 Città del Messico\nMessico",
+    "infobox": "In quanto compagnia aerea extraeuropea, Aeromexico è soggetta al regolamento CE 261/2004 solo in caso di partenza dall'UE. Per i soli voli nazionali in Messico o per i voli di ritorno dal Messico verso l'Europa, i viaggiatori devono fare affidamento sulla legge messicana sulla tutela dei consumatori nel settore aereo."
+  },
+  {
+    "slug": "avianca",
+    "name": "Avianca",
+    "adresse": "c/o Aviareps AG\nKaiserstraße 77\n60329 Francoforte sul Meno\nGermania",
+    "infobox": "Avianca è una compagnia aerea latinoamericana. Il diritto europeo dei passeggeri aerei è quindi applicabile solo in caso di partenza da un aeroporto europeo. In caso di biglietto annullato autonomamente dal viaggiatore, in determinate condizioni sussiste ai sensi del diritto tedesco il diritto al rimborso delle tasse."
+  },
+  {
+    "slug": "andere-airline",
+    "name": "Airlines",
+    "adresse": "",
+    "infobox": "Per compagnie aeree sconosciute o non elencate esplicitamente qui, occorre verificare caso per caso: la compagnia ha sede nell'UE oppure il volo parte dall'UE? Solo se almeno una di queste condizioni è soddisfatta si applica il generoso regolamento UE sui diritti dei passeggeri aerei 261/2004."
+  }
+]

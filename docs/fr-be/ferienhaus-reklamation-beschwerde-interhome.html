@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Interhome Réduire le loyer : calculateur gratuit & PDF</title>
+
+  <meta name="description" content="Des défauts dans une maison de vacances chez Interhome ? Moisissure, piscine cassée ou pas de Wi-Fi ? Calculez votre réduction de loyer et générez le PDF de réclamation prêt à l’emploi.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="canonical" href="https://www.fix-my-trip.com/fr-be/ferienhaus-reklamation-beschwerde-interhome.html">
+
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/ferienhaus-reklamation-beschwerde-interhome.html">
+<link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/ferienhaus-reklamation-beschwerde-interhome.html">
+<link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/ferienhaus-reklamation-beschwerde-interhome.html">
+<link rel="alternate" hreflang="it" href="https://www.fix-my-trip.com/it/ferienhaus-reklamation-beschwerde-interhome.html">
+<link rel="alternate" hreflang="nl" href="https://www.fix-my-trip.com/nl/ferienhaus-reklamation-beschwerde-interhome.html">
+<link rel="alternate" hreflang="fr-be" href="https://www.fix-my-trip.com/fr-be/ferienhaus-reklamation-beschwerde-interhome.html">
+<link rel="alternate" hreflang="nl-be" href="https://www.fix-my-trip.com/nl-be/ferienhaus-reklamation-beschwerde-interhome.html">
+<link rel="alternate" hreflang="pt" href="https://www.fix-my-trip.com/pt/ferienhaus-reklamation-beschwerde-interhome.html">
+
+<link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/ferienhaus-reklamation-beschwerde-interhome.html">
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Générateur PDF : réduction de loyer pour maison de vacances chez Interhome",
+    "applicationCategory": "LegalApplication",
+    "operatingSystem": "All",
+    "description": "Outil gratuit pour calculer les réductions de loyer pour les maisons de vacances et créer un modèle de lettre juridique à Interhome.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Dois-je me plaindre directement sur place ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Oui, absolument ! Vous devez signaler sans délai le défaut au propriétaire ou à l’agence locale de Interhome et lui donner la possibilité d’y remédier. Si vous gardez le silence jusqu’après les vacances, vous perdez votre droit à une réduction de loyer."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Comment est fixé le pourcentage de réduction de loyer en France ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "En France, les locations de vacances relèvent des dispositions du Code civil (droit du bail). Il n'y a pas de barème légal strict. Toutefois, la jurisprudence des tribunaux français utilise des taux d'abattement habituels pour estimer le montant de la réduction de loyer en fonction de la perte de jouissance."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Que faire si la maison est totalement inhabitable ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Si la maison n’est pas habitable (par ex. grave dégât des eaux, panne de chauffage en hiver, moisissure extrême), vous pouvez résilier le contrat sans préavis, demander le remboursement des frais d’hôtel de remplacement et réclamer 100 % du loyer pour les jours perdus."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+  <span style="font-size: 0.9em; color: #666;">Vos droits pour les hébergements de vacances</span>
+</header>
+
+<div class="page-container">
+
+  <h1>Réclamer des défauts de maison de vacances chez Interhome : récupérer son loyer</h1>
+
+  <div class="back-to-hub-banner">
+  <a href="ferienhaus-maengel-info.html">
+    <span class="arrow">&larr;</span> Retour à l’aperçu : tous les prestataires de maisons de vacances
+  </a>
+  </div>
+  
+  <div class="usp-bar">
+    <div class="usp-item">Basé sur le Code civil français</div>
+    <div class="usp-item">Calculateur de réduction intégré</div>
+    <div class="usp-item">Modèle de lettre PDF juridiquement précis</div>
+    <div class="usp-item">100 % gratuit</div>
+  </div>
+
+  <p>Sur les photos, une villa de rêve, mais dans la réalité de la moisissure sur les murs, une piscine vide ou un chauffage en panne ? Si votre hébergement réservé chez <strong>Interhome</strong> présente des défauts importants, les dispositions du Code civil s’appliquent généralement. Utilisez notre générateur gratuit pour calculer une réduction de loyer réaliste et créer une lettre de réclamation juridiquement solide.</p>
+
+  <div class="info-box warning">
+    <strong>Important : signalez le défaut immédiatement !</strong> Pour réclamer de l’argent à Interhome, vous devez impérativement avoir <strong>signalé le défaut sur place au propriétaire ou au point local de remise des clés</strong>. Vous devez donner à l’hôte la possibilité de résoudre le problème (par ex. par un nettoyage ou une réparation). Ceux qui ne disent rien et se plaignent seulement une fois rentrés chez eux repartent généralement les mains vides !
+  </div>
+
+  <div class="legal-info-box">
+    <strong>Remarque importante concernant l’utilisation</strong><br>
+    Cet outil est un <strong>générateur automatisé de lettre type</strong> (aide à l’auto-assistance). Il insère simplement vos données dans des modèles juridiques standard. <strong>Aucune vérification individuelle</strong> de votre cas n’est effectuée. Ce service gratuit ne remplace pas un conseil juridique d’un avocat. L’utilisation se fait sous votre propre responsabilité ; aucune garantie de succès n’est accordée.
+</div>
+
+
+
+<div class="highlight-box pruefdatum-box" role="note" aria-label="Vérifié par la rédaction" style="margin-top: 15px; margin-bottom: 30px;">
+    <p><strong>Vérifié par la rédaction le :</strong> <span id="pruefdatum">05.05.2026</span></p>
+  </div>
+
+  <!-- Lesson Learned Affiliate Box -->
+<div class="lesson-learned-box" style="background: #f8f9fa; border-left: 4px solid #ffb300; padding: 15px 20px; margin: 30px 0; border-radius: 4px; display: flex; align-items: flex-start; gap: 15px; position: relative;">
+  
+  <!-- NEU: Diskreter Affiliate-Hinweis oben rechts -->
+  <span style="font-size: 0.7rem; color: #666; background: #eee; padding: 2px 6px; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.05em; position: absolute; top: 10px; right: 10px;">
+    Publicité
+  </span>
+
+  <div style="font-size: 2em; line-height: 1;">💡</div>
+  <div>
+    <h4 style="margin: 0 0 5px 0; color: #333; font-size: 1.1em; padding-right: 60px;">Astuce pour le prochain voyage</h4>
+    <p style="margin: 0 0 10px 0; font-size: 0.95em; color: #555;">
+      La maison de vacances était un cauchemar et vous avez dû réserver un autre hébergement sur place ? Avec de vraies cartes de crédit voyage, vous pouvez non seulement payer l’hôtel de remplacement sans frais à l’étranger, mais aussi disposer souvent d’un atout grâce à la procédure de chargeback (rétrofacturation) si le prestataire initial refuse le remboursement.
+    </p>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #891818; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">
+      Comparer les meilleures cartes de crédit voyage (gratuites)
+    </a>
+  </div>
+</div>
+
+  <form id="fewoForm">
+    <fieldset style="border-color: #ff9800; background: #fffdf7;">
+      <legend style="background: #ff9800; color: #333;">1. Vérifier le prestataire</legend>
+      <label>Portail de maisons de vacances / intermédiaire :</label>
+      <input type="text" id="aName" value="Interhome" placeholder="" required>
+      <label>Adresse du prestataire :</label>
+      <textarea id="aAdresse" rows="3" required placeholder="HTS Touristik GmbH (Interhome)
+Heinrich-von-Stephan-Straße 15
+79100 Fribourg-en-Brisgau">HTS Touristik GmbH (Interhome)
+Heinrich-von-Stephan-Straße 15
+79100 Fribourg-en-Brisgau</textarea>
+    </fieldset>
+    <p style="font-size: 0.8em; color: #666; margin-top: 5px; line-height: 1.3;">
+  💡 <strong>Remarque :</strong> L'adresse centrale ou régionale du prestataire est indiquée ici par défaut. Vous pouvez modifier cette adresse à tout moment et saisir celle de la succursale locale dans votre pays.
+</p>
+
+    <fieldset>
+      <legend>2. Vos données de réservation</legend>
+      <label>Numéro de réservation / référence :</label>
+      <input type="text" id="fBuchung" placeholder="p. ex. 12345678" required>
+      <label>Nom et lieu de la maison de vacances :</label>
+      <input type="text" id="fObjekt" placeholder="p. ex. Villa Sol, Mallorca" required>
+      <label>Période de location (du - au) :</label>
+      <input type="text" id="fZeitraum" placeholder="p. ex. 01.08.2026 - 14.08.2026" required>
+      
+      <label style="color: var(--primary);">Prix total de la location (en euros) :</label>
+      <input type="number" step="0.01" id="fPreis" placeholder="p. ex. 1800" required>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. Calculateur de défauts (valeurs indicatives)</legend>
+      <p style="font-size: 0.9em; color: #666; margin-top: 0;">Sélectionnez les défauts constatés. Les pourcentages se basent sur la jurisprudence moyenne des tribunaux français en matière de locations de vacances.</p>
+      
+      <div class="checkbox-group" id="mangelCheckboxes">
+        <label><input type="checkbox" value="15" data-text="Piscine inutilisable (sans eau, sale)"> Piscine inutilisable (15 % de réduction)</label>
+        <label><input type="checkbox" value="20" data-text="Moisissure importante / dégâts dus à l’humidité"> Moisissure / humidité (20 % de réduction)</label>
+        <label><input type="checkbox" value="30" data-text="Panne complète du chauffage (pendant les mois froids)"> Chauffage en panne en hiver (30 % de réduction)</label>
+        <label><input type="checkbox" value="10" data-text="Wi-Fi / Internet absent alors qu’il était expressément garanti"> Wi-Fi / Internet manquant (10 % de réduction)</label>
+        <label><input type="checkbox" value="15" data-text="Saleté importante du logement ou présence de nuisibles"> Forte saleté / nuisibles (15 % de réduction)</label>
+        <label><input type="checkbox" value="15" data-text="Nuisances sonores importantes dues à des travaux sur le terrain voisin"> Bruit de chantier à côté (15 % de réduction)</label>
+        <label><input type="checkbox" value="10" data-text="Équipement essentiel manquant (par ex. machine à laver en panne)"> Équipement promis manquant (10 % de réduction)</label>
+      </div>
+
+      <div class="calc-banner">
+        Votre réclamation calculée :<br>
+        <span id="liveAmount">0,00 €</span>
+        <div style="font-size: 0.5em; font-weight: normal; margin-top: 5px;">(Taux de réduction : <span id="livePercent">0</span>%)</div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>4. Vos données & coordonnées bancaires</legend>
+      <label>Votre prénom et nom (locataire principal) :</label>
+      <input type="text" id="sName" placeholder="p. ex. Max Mustermann" required>
+      <label>Rue et numéro :</label>
+      <input type="text" id="sStrasse" placeholder="p. ex. Musterstraße 1" required>
+      <label>Code postal et ville :</label>
+      <input type="text" id="sPLZOrt" placeholder="p. ex. 12345 Berlin" required>
+      <label>IBAN pour le remboursement :</label>
+      <input type="text" id="bIBAN" placeholder="DE..." required>
+    </fieldset>
+
+    <div class="submit-area">
+    <p class="submit-disclaimer">
+        En cliquant sur « Générer le PDF », vous comprenez que ce service automatisé<br>ne constitue pas un conseil juridique et que vous présentez la demande sous votre propre responsabilité.
+    </p>
+    <button type="submit" class="button-primary">📄 Générer le PDF de réclamation pour Interhome</button>
+</div>
+  </form>
+
+  <div class="seo-content">
+    <h2>Défauts de la maison de vacances chez Interhome : vos droits</h2>
+    <p>Contrairement à une formule club avec vol inclus (voyage à forfait), la simple réservation d’une maison de vacances ou d’un appartement de vacances via des portails comme Interhome relève généralement du <strong>droit du bail</strong>. Cela signifie que le bailleur vous doit la mise à disposition du bien dans l’état convenu contractuellement (généralement par l’annonce et les photos).</p>
+
+    <h3>Réduction de loyer selon les règles du Code civil</h3>
+    <p>Si une qualité promise fait défaut (par ex. la piscine est vide alors qu’elle était mise en avant) ou si l’usage du logement est entravé par un défaut (par ex. moisissure extrême, bruit de chantier, cafards), vous avez droit à une réduction de loyer. La base juridique applicable est l'obligation de délivrance et de jouissance paisible prévue par le Code civil. Vous ne payez alors que le loyer correspondant à la valeur réelle du logement défectueux.</p>
+
+    <h3>L’étape la plus importante : signaler le défaut immédiatement !</h3>
+    <p>L’erreur la plus fréquente des vacanciers : ils s’énervent pendant deux semaines à cause de la saleté de la maison, partent, puis réclament de l’argent à Interhome. Cela ne fonctionne presque jamais ! Vous avez une obligation de limiter le dommage. Vous devez <strong>signaler sans délai le défaut au propriétaire ou à l’agence locale</strong> et demander qu’il soit corrigé. Ce n’est que si le défaut n’est pas supprimé (ou ne peut pas l’être, comme en cas de bruit de chantier) que vous sécurisez votre droit au remboursement.</p>
+
+    <h3>Conserver les preuves</h3>
+    <p>Sans preuves, votre réclamation ne vaut rien. Documentez chaque défaut avec soin. Prenez des photos et des vidéos (de préférence avec la date et l’heure visibles). Rédigez un bref procès-verbal des défauts et, si possible, faites appel à des voisins ou à des compagnons de voyage comme témoins. La communication écrite avec Interhome ou le propriétaire sur place (par ex. via le portail ou par e-mail) est la meilleure preuve que vous vous êtes plaint à temps.</p>
+
+    <div class="faq-section">
+      <h2>Questions fréquentes (FAQ) sur la réclamation d’une maison de vacances</h2>
+      
+      <details>
+        <summary>Existe-t-il un barème fixe pour le calcul de la réduction en France ?</summary>
+        <p>Il n'existe pas de grille légale officielle. Pour les maisons de vacances, c’est le Code civil (droit du louage) qui s’applique. Toutefois, les tribunaux judiciaires français, ainsi que les associations de consommateurs, utilisent des pourcentages de référence pragmatiques pour fixer le montant d’une réduction de loyer proportionnelle à la perte de jouissance subie. C’est pourquoi nos valeurs indicatives reposent sur ces pratiques et cette jurisprudence.</p>
+      </details>
+
+      <details>
+        <summary>Qui est mon interlocuteur ? Le portail ou le propriétaire ?</summary>
+        <p>Juridiquement, cela est souvent délicat et dépend des conditions générales. Interhome n’intervient souvent qu’en tant qu’intermédiaire. Votre véritable cocontractant (et donc le destinataire de la demande) est le propriétaire du logement. Pour des raisons pratiques, la première lettre de réclamation doit toutefois toujours être adressée à Interhome, car ce dernier dispose souvent d’un processus interne de résolution des litiges ou peut retenir des fonds (comme des cautions). Notre PDF est donc adressé en priorité à l’adresse du portail.</p>
+      </details>
+
+      <details>
+        <summary>Que faire si je veux annuler le voyage ?</summary>
+        <p>Si la maison est totalement inhabitable (par ex. forte contamination par des matières fécales, absence d’eau courante, danger sanitaire extrême dû à la moisissure), vous pouvez résilier le contrat de location sans préavis pour motif important. Dans ce cas, vous pouvez réclamer l’intégralité du loyer et même demander des dommages et intérêts pour un hôtel de remplacement nécessaire.</p>
+      </details>
+    </div>
+  </div>
+
+
+  <div class="airline-hinweisbox">
+    <h3>Informations importantes sur les remboursements chez Interhome</h3>
+    <p>En tant que voyagiste, Interhome est responsable des défauts du bien loué. En cas de problème, utilisez immédiatement l’agence de service locale Interhome ou le détenteur des clés sur place afin de demander une remise en état. Faites idéalement confirmer la déclaration de défaut et la demande de remédiation par écrit ou par e-mail afin d’éviter des difficultés de preuve.</p>
+</div>
+
+<div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
+  <h3>Autres sujets intéressants :</h3>
+  <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="ferienhaus-reklamation-beschwerde-novasol.html">Novasol</a>
+<a href="ferienhaus-reklamation-beschwerde-booking.html">Booking.com</a>
+<a href="ferienhaus-reklamation-beschwerde-atraveo.html">Atraveo</a>
+<a href="ferienhaus-reklamation-beschwerde-ferienwohnungen-de.html">Ferienwohnungen.de</a>
+<a href="ferienhaus-reklamation-beschwerde-bestfewo.html">BestFewo</a>
+
+  </div>
+</div>
+
+<aside class="legal-sources-box" aria-labelledby="sources-title-fewo">
+    <h3 id="sources-title-fewo" class="sources-heading">Bases juridiques</h3>
+    <p class="sources-intro">
+        Les signalements de défauts pour les hébergements de vacances s’appuient principalement sur le droit du bail :
+    </p>
+    <ul class="sources-list">
+        <li>
+            <strong>Code civil – Réduction de loyer en cas de défauts matériels et juridiques</strong>: 
+            Si le bien loué (la maison de vacances) présente un défaut qui supprime ou réduit son aptitude à l’usage contractuellement prévu, le locataire n’est tenu, pendant la durée du défaut, qu’au paiement d’un loyer raisonnablement réduit.
+            <br>
+            <a href="https://www.gesetze-im-internet.de/bgb/__536.html" target="_blank" rel="noopener noreferrer" class="source-link">
+                Texte officiel sur Gesetze-im-Internet.de (BMJ)
+            </a>
+        </li>
+    </ul>
+</aside>
+</div>
+
+<div class="trust-section">
+    <h3>Expertise en droit du voyage</h3>
+    <p class="trust-text">
+        Nos générateurs reposent sur l’analyse des décisions récentes en matière de droit du bail et du voyage. 
+        Ils sont conçus pour permettre aux consommateurs de faire valoir leurs droits de manière juridiquement solide et à armes égales.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Remarque importante : nos outils offrent une aide à l’auto-assistance. Ils ne remplacent pas un conseil juridique individuel par un avocat.
+        </span>
+    </p>
+    <a href="ueber-uns.html" class="trust-link">
+        En savoir plus sur la méthodologie juridique →
+    </a>
+</div>
+
+<section class="site-niche-directory">
+    <div class="niche-directory-container">
+        <h2 class="niche-directory-title">Découvrir d’autres domaines</h2>
+        <p class="niche-directory-intro">
+            Qu’il s’agisse d’un retard de vol, d’un défaut d’hôtel ou d’un piège de roaming – nos experts ont préparé pour presque chaque niche de voyage le guide et la lettre type adaptés.
+        </p>
+        
+        <div class="niche-directory-grid">
+            <div class="niche-directory-group">
+                <h3>Vol &amp; aéroport</h3>
+                <ul>
+                    <li><a href="flugverspaetung-info.html">Retard de vol &amp; annulation</a></li>
+                    <li><a href="steuern-info.html">Récupérer les taxes aériennes</a></li>
+                    <li><a href="gepaeck-info.html">Perte de bagages &amp; dommages aux valises</a></li>
+                    <li><a href="flughafen-parken-info.html">Frais de parking à l’aéroport</a></li>
+                    <li><a href="ota-rueckerstattung-info.html">Portails de réservation de vols (OTA)</a></li>
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Hébergement &amp; voyage à forfait</h3>
+                <ul>
+                    <li><a href="hotel-maengel-info.html">Défauts d’hôtel &amp; bruit de chantier</a></li>
+                    <li><a href="storno-info.html">Annuler un voyage (coûts)</a></li>
+                    <li><a href="ferienhaus-maengel-info.html">Maisons de vacances &amp; appartements</a></li>
+                    <li><a href="airbnb-probleme-info.html">Solutions aux problèmes Airbnb</a></li>
+                    <li><a href="kreuzfahrt-minderung.html">Défauts de croisière</a></li>
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Préparation du voyage &amp; mobilité</h3>
+                <ul>
+                    <li><a href="zugverspaetung-info.html">Retard de train &amp; droits ferroviaires</a></li>
+                    <li><a href="einreise-info.html">Conditions d’entrée &amp; visa</a></li>
+                    <li><a href="esim-roaming-info.html">eSIM &amp; frais de roaming</a></li>
+                    <li><a href="mietwagen-info.html">Assurances de location de voiture</a></li>
+                    <li><a href="zoll-info.html">Douanes &amp; règles d’importation</a></li>
+                    <li><a href="reisekreditkarten-info.html">Comparatif des cartes de crédit voyage</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">À propos</a> | 
+        <a href="index.html">Accueil</a> | 
+        <a href="impressum.html">Mentions légales</a> | 
+        <a href="datenschutz.html">Protection des données</a>
+    </nav>
+</footer>
+
+<script>
+// Logique du calculateur en direct
+const preisInp = document.getElementById('fPreis');
+const checkboxes = document.querySelectorAll('#mangelCheckboxes input[type="checkbox"]');
+const liveAmountEl = document.getElementById('liveAmount');
+const livePercentEl = document.getElementById('livePercent');
+
+function updateCalc() {
+    let price = parseFloat(preisInp.value) || 0;
+    let totalPercent = 0;
+    
+    checkboxes.forEach(cb => {
+        if(cb.checked) totalPercent += parseInt(cb.value);
+    });
+    
+    if(totalPercent > 100) totalPercent = 100;
+    
+    let refund = (price * totalPercent) / 100;
+    
+    livePercentEl.textContent = totalPercent;
+    liveAmountEl.textContent = refund.toLocaleString('de-DE', {style: 'currency', currency: 'EUR'});
+}
+
+preisInp.addEventListener('input', updateCalc);
+checkboxes.forEach(cb => cb.addEventListener('change', updateCalc));
+
+// Génération du PDF
+document.getElementById('fewoForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+
+    const pageH = 297;
+    const marginBottom = 20;
+    const lineH = 6;
+
+    function checkNewPage(doc, y, neededHeight = lineH) {
+        if (y + neededHeight > pageH - marginBottom) {
+            doc.addPage();
+            return 30;
+        }
+        return y;
+    }
+
+    function writeLines(doc, lines, startY, lh = lineH) {
+        let y = startY;
+        for (const line of lines) {
+            y = checkNewPage(doc, y);
+            doc.text(line, 25, y);
+            y += lh;
+        }
+        return y;
+    }
+
+    const anbieter = document.getElementById('aName').value;
+    const anbieterAddr = document.getElementById('aAdresse').value.replace(/\\n/g, '\n');
+    
+    const sName = document.getElementById('sName').value;
+    const sStrasse = document.getElementById('sStrasse').value;
+    const sPLZOrt = document.getElementById('sPLZOrt').value;
+    const bIBAN = document.getElementById('bIBAN').value;
+    
+    const fBuchung = document.getElementById('fBuchung').value;
+    const fObjekt = document.getElementById('fObjekt').value;
+    const fZeitraum = document.getElementById('fZeitraum').value;
+    const fPreis = parseFloat(document.getElementById('fPreis').value) || 0;
+
+    let selectedMaengel = [];
+    let totalPercent = 0;
+    checkboxes.forEach(cb => {
+        if(cb.checked) {
+            selectedMaengel.push(`- ${cb.getAttribute('data-text')} (${cb.value}%)`);
+            totalPercent += parseInt(cb.value);
+        }
+    });
+
+    if(selectedMaengel.length === 0) {
+        alert("Veuillez sélectionner au moins un défaut.");
+        return;
+    }
+
+    if(totalPercent > 100) totalPercent = 100;
+    let refundAmount = ((fPreis * totalPercent) / 100).toFixed(2).replace('.', ',');
+
+    let deadline = new Date();
+    deadline.setDate(deadline.getDate() + 14);
+    const deadlineStr = deadline.toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'});
+    const todayStr = new Date().toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'});
+
+    doc.setFont("helvetica");
+
+    // Expéditeur en petit
+    doc.setFontSize(8);
+    doc.setTextColor(100, 100, 100);
+    doc.text(`${sName} • ${sStrasse} • ${sPLZOrt}`, 25, 45);
+    doc.setLineWidth(0.2);
+    doc.setDrawColor(150, 150, 150);
+    doc.line(25, 46.5, 95, 46.5);
+
+    // Destinataire
+    doc.setFontSize(11);
+    doc.setTextColor(0, 0, 0);
+    const receiverLines = doc.splitTextToSize(anbieter + "\n" + anbieterAddr, 80);
+    doc.text(receiverLines, 25, 53);
+
+    // Bloc expéditeur à droite
+    doc.setFontSize(10);
+    doc.text("Expéditeur :", 130, 45);
+    doc.setFont("helvetica", "bold");
+    doc.text(sName, 130, 50);
+    doc.setFont("helvetica", "normal");
+    doc.text(sStrasse, 130, 55);
+    doc.text(sPLZOrt, 130, 60);
+
+    doc.text(`Date : ${todayStr}`, 185, 80, {align: 'right'});
+
+    // Objet
+    doc.setFontSize(12);
+    doc.setFont("helvetica", "bold");
+    doc.text(`Signalement de défauts et demande de réduction de loyer`, 25, 95);
+    
+    // Faits
+    doc.setFontSize(10.5);
+    doc.setFont("helvetica", "bold");
+    doc.text("Numéro de réservation :", 25, 105);
+    doc.text("Bien de vacances :", 25, 110);
+    doc.text("Période de location :", 25, 115);
+    doc.text("Prix total de la location :", 25, 120);
+
+    doc.setFont("helvetica", "normal");
+    doc.text(fBuchung, 70, 105);
+    doc.text(fObjekt, 70, 110);
+    doc.text(fZeitraum, 70, 115);
+    doc.text(`${fPreis.toFixed(2).replace('.', ',')} EUR`, 70, 120);
+
+    doc.setDrawColor(0, 0, 0);
+    doc.line(25, 125, 185, 125);
+
+    let yPos = 135;
+    doc.setFontSize(11);
+
+    // Paragraphes d’introduction (adaptés au bail)
+    const para1 = doc.splitTextToSize(
+        `Madame, Monsieur,\n\n` +
+        `par la présente, je fais valoir mes droits à une réduction de loyer pour le bien de vacances mentionné ci-dessus. Le logement présentait des défauts importants et ne correspondait pas à l’accord contractuel ni à la description. J’ai signalé ces défauts sans délai sur place à l’interlocuteur compétent / au propriétaire et demandé qu’il y soit remédié. Toutefois, une correction appropriée des défauts n’a pas eu lieu.\n\n` +
+        `Les défauts suivants étaient présents :`,
+        160
+    );
+    yPos = writeLines(doc, para1, yPos);
+    yPos += 5;
+
+    // Liste des défauts
+    doc.setFont("helvetica", "italic");
+    selectedMaengel.forEach(mangel => {
+        const linesMangel = doc.splitTextToSize(mangel, 150);
+        linesMangel.forEach(line => {
+            yPos = checkNewPage(doc, yPos);
+            doc.text(line, 30, yPos);
+            yPos += lineH;
+        });
+    });
+    doc.setFont("helvetica", "normal");
+    yPos += 5;
+
+    // Calcul de la réduction
+    const para2 = doc.splitTextToSize(
+        `En raison de la restriction importante de l’usage du bien de vacances, le loyer est réduit de plein droit. En me fondant sur la jurisprudence établie, j’estime qu’un taux de réduction total de ${totalPercent} % est approprié.\n\n` +
+        `Il en résulte une créance de remboursement d’un montant de :`,
+        160
+    );
+    yPos = writeLines(doc, para2, yPos);
+    yPos += 5;
+
+    // Somme
+    yPos = checkNewPage(doc, yPos, 10);
+    doc.setFont("helvetica", "bold");
+    doc.text(`${refundAmount} EUR`, 105, yPos, { align: 'center' });
+    doc.setFont("helvetica", "normal");
+    yPos += 12;
+
+    // Délai
+    yPos = checkNewPage(doc, yPos);
+    doc.text(`Je vous fixe un délai jusqu’au :`, 25, yPos);
+    yPos += 10;
+
+    yPos = checkNewPage(doc, yPos, 10);
+    doc.setFont("helvetica", "bold");
+    doc.text(`>>> ${deadlineStr} (date de réception du paiement) <<<`, 105, yPos, { align: 'center' });
+    doc.setFont("helvetica", "normal");
+    yPos += 12;
+
+    // IBAN
+    const para3 = doc.splitTextToSize(
+        `à verser sur le compte suivant :\n\nTitulaire du compte : ${sName}\nIBAN : ${bIBAN}`,
+        160
+    );
+    yPos = writeLines(doc, para3, yPos);
+    yPos += 10;
+
+    // Remarque juridique
+    const para4 = doc.splitTextToSize(
+        `Si ce délai expire sans résultat, je ferai appel à une assistance juridique pour faire valoir mes droits. Les frais correspondants seront à votre charge au titre du dommage de retard. Je me réserve le droit de produire les éléments de preuve correspondants (photos/vidéos) dans le cadre d’une éventuelle procédure. Veuillez transmettre ce courrier au propriétaire si nécessaire.`,
+        160
+    );
+    yPos = writeLines(doc, para4, yPos);
+    yPos += 15;
+
+    // Signature
+    yPos = checkNewPage(doc, yPos, 40);
+    doc.text("Cordialement,", 25, yPos);
+    yPos += 25;
+
+    doc.setLineWidth(0.5);
+    doc.line(25, yPos, 80, yPos);
+    doc.line(100, yPos, 185, yPos);
+
+    doc.setFontSize(9);
+    doc.setTextColor(100, 100, 100);
+    doc.text("Lieu, date", 25, yPos + 5);
+    doc.text(`Signature (${sName})`, 100, yPos + 5);
+
+    const cleanAnbieter = anbieter.replace(/[^a-zA-Z0-9]/g, '_');
+    doc.save(`Ferienhaus_Maengel_${cleanAnbieter}_${fBuchung}.pdf`);
+    setTimeout(() => document.getElementById('donateOverlay').classList.add('active'), 800);
+});
+
+// La logique de l’overlay de don reste inchangée...
+const PAYPAL_EMAIL = 'info@kassen-lotse.de';
+let donateAmount = 5;
+
+function selectPreset(amount, btn) {
+  donateAmount = amount;
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  document.getElementById('customAmount').value = '';
+  document.getElementById('customAmount').classList.remove('selected-custom');
+  updateDonateButton();
+}
+
+function handleCustomInput(input) {
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  const val = parseFloat(input.value);
+  if (val && val >= 1) {
+    donateAmount = val;
+    input.classList.add('selected-custom');
+  } else {
+    donateAmount = 0;
+    input.classList.remove('selected-custom');
+  }
+  updateDonateButton();
+}
+
+function updateDonateButton() {
+  const btn = document.getElementById('btnDonate');
+  if (donateAmount >= 1) {
+    btn.textContent = `Faire un don de ${donateAmount % 1 === 0 ? donateAmount : donateAmount.toFixed(2)} € maintenant`;
+    btn.disabled = false;
+  } else {
+    btn.textContent = 'Saisir un montant';
+    btn.disabled = true;
+  }
+}
+
+function openPayPal() {
+  if (donateAmount < 1) return;
+  const amountStr = donateAmount.toFixed(2);
+  const url = `https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=${encodeURIComponent(PAYPAL_EMAIL)}&amount=${amountStr}&currency_code=EUR&item_name=Fix my Trip+Unterst%C3%BCtzung&no_note=1&no_shipping=1`;
+  window.open(url, '_blank');
+  closeOverlay();
+}
+
+function closeOverlay() {
+  document.getElementById('donateOverlay').classList.remove('active');
+}
+// Ferme l’overlay lorsqu’on clique sur l’arrière-plan assombri
+document.getElementById('donateOverlay').addEventListener('click', function(e) {
+  if (e.target === this) {
+    closeOverlay();
+  }
+});
+</script>
+
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Fermer">&times;</button>
+    <div class="donate-emoji">🎉</div>
+    <h2>Votre lettre est prête !</h2>
+    <p class="sub">Vous venez d’économiser une <strong style="color:#2e7d32;">commission</strong> –<br>pas de tiers, pas de frais, tout vous revient.</p>
+    <div class="donate-hint">
+      Ce service est et reste <strong>100 % gratuit</strong>. S’il vous a aidé, nous serions très heureux d’un petit soutien volontaire.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Sélection rapide :</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Saisir un montant personnalisé …" oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Faire un don de 5 € maintenant</button>
+    <button class="btn-skip" onclick="closeOverlay()">Non merci, je ferme la fenêtre</button>
+    <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
+  
+  <!-- NEU: Affiliate Hinweis über dem Text -->
+  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
+    Publicité / lien sponsorisé
+  </span>
+
+  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
+    <strong style="color: #333;">P.S. : Vous prenez bientôt l’avion à nouveau ?</strong> Protégez-vous contre les prochains tracas de voyage. Les vraies cartes de crédit voyage coûtent durablement 0 € de cotisation annuelle, suppriment les frais de paiement à l’étranger et offrent souvent une forte protection de l’acheteur. <br>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Comparer maintenant les meilleurs fournisseurs et se protéger ✈️</a>
+  </p>
+</div>
+  </div>
+</div>
+</body>
+</html>

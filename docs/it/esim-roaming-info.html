@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>eSIM e roaming: controllare il volume dati all’estero e confrontare le tariffe</title>
+  <meta name="description" content="Guida alla eSIM all’estero: evitate costi di roaming elevati. Utilizzate i nostri strumenti per verificare la compatibilità della eSIM e il volume dati.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & Internationalisierung -->
+  <link rel="canonical" href="https://www.fix-my-trip.com/it/esim-roaming-info.html">
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/esim-roaming-info.html">
+<link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/esim-roaming-info.html">
+<link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/esim-roaming-info.html">
+<link rel="alternate" hreflang="it" href="https://www.fix-my-trip.com/it/esim-roaming-info.html">
+<link rel="alternate" hreflang="nl" href="https://www.fix-my-trip.com/nl/esim-roaming-info.html">
+<link rel="alternate" hreflang="fr-be" href="https://www.fix-my-trip.com/fr-be/esim-roaming-info.html">
+<link rel="alternate" hreflang="nl-be" href="https://www.fix-my-trip.com/nl-be/esim-roaming-info.html">
+<link rel="alternate" hreflang="pt" href="https://www.fix-my-trip.com/pt/esim-roaming-info.html">
+
+<link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/esim-roaming-info.html">
+
+  <!-- Bibliothek für die PDF-Generierung aus HTML -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="/logo-lotse-fav.png">
+
+  <!-- FAQ Schema.org JSON-LD für Rich Snippets bei Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Che cos’è una eSIM e in cosa si differenzia da una SIM normale?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Una eSIM (embedded SIM) è un chip integrato nello smartphone che può essere configurato digitalmente con profili di rete mobile. Non avete più bisogno di una scheda fisica in plastica e potete attivare le tariffe, soprattutto per l’estero, in pochi secondi tramite codice QR o app."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Posso usare contemporaneamente la mia SIM normale e una eSIM?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sì, la maggior parte degli smartphone moderni supporta la Dual SIM. Potete lasciare attiva la vostra SIM fisica per chiamate e SMS con il vostro numero abituale e utilizzare la eSIM in modo mirato solo per il traffico dati nel Paese di viaggio."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Il mio smartphone supporta la eSIM?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La maggior parte degli smartphone più recenti (ad es. iPhone da XS in poi, Samsung Galaxy S20 e successivi, Google Pixel dalla generazione 3) è compatibile con la eSIM. Utilizzate il nostro eSIM checker gratuito su questa pagina per verificare la compatibilità del vostro modello esatto."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Come evito i costi di roaming fuori dall’UE?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Prima di entrare in un Paese non UE, disattivate il roaming dati per la vostra SIM principale. Acquistate e installate in anticipo una eSIM locale o regionale. Non appena arrivate, attivate il roaming dati esclusivamente per il profilo eSIM."
+      }
+    }]
+  }
+  </script>
+
+  
+</head>
+<body>
+
+<header class="site-header" style="padding: 20px 0; border-bottom: 2px solid #eee; margin-bottom: 30px;">
+  <a href="index.html" style="font-size: 1.5em; font-weight: bold; text-decoration: none;">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>eSIM e roaming: come navigare in tutto il mondo senza brutte sorprese sui costi</h1>
+  
+  <p>Chi viaggia fuori dall’Unione Europea conosce il problema: il volume dati incluso della tariffa nazionale non vale più e i costi di roaming degli operatori mobili salgono a livelli astronomici. Spesso pochi megabyte costano già diversi euro. La soluzione a questo problema è la <strong>eSIM (embedded SIM)</strong>.</p>
+  
+  <p>Con una eSIM scaricate semplicemente un profilo di rete mobile digitale per il vostro Paese di viaggio, senza dover cambiare scheda in aeroporto. Nella nostra guida scoprirete come tenere sotto controllo il vostro volume dati, verificare se il vostro smartphone è compatibile e trovare la tariffa migliore per la vostra prossima avventura.</p>
+
+  <!-- DAS IST DER MAGISCHE BEREICH FÜR DIE INTERNE VERLINKUNG -->
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Avviare strumenti e checker eSIM</h2>
+    <p>Scegliete cosa desiderate verificare per essere online all’estero in modo sicuro ed economico (100% gratuito):</p>
+    
+    <select id="toolSelect">
+      <option value="">-- Selezionare uno strumento o un provider --</option>
+      <!-- Das Skript fügt hier die Optionen als Options ein -->
+      <option value="internet-roaming-kosten-schweiz.html">Svizzera</option>
+<option value="internet-roaming-kosten-tuerkei.html">Turchia</option>
+<option value="internet-roaming-kosten-aegypten.html">Egitto</option>
+<option value="internet-roaming-kosten-usa.html">USA</option>
+<option value="internet-roaming-kosten-thailand.html">Thailandia</option>
+<option value="internet-roaming-kosten-grossbritannien.html">Gran Bretagna</option>
+<option value="internet-roaming-kosten-japan.html">Giappone</option>
+<option value="internet-roaming-kosten-vae.html">Emirati Arabi Uniti</option>
+<option value="internet-roaming-kosten-kreuzfahrt.html">Crociera (nave)</option>
+<option value="internet-roaming-kosten-australien.html">Australia</option>
+<option value="internet-roaming-kosten-kanada.html">Canada</option>
+<option value="internet-roaming-kosten-neuseeland.html">Nuova Zelanda</option>
+<option value="internet-roaming-kosten-suedafrika.html">Sudafrica</option>
+<option value="internet-roaming-kosten-marokko.html">Marocco</option>
+<option value="internet-roaming-kosten-tunesien.html">Tunisia</option>
+<option value="internet-roaming-kosten-dominikanische-republik.html">Repubblica Dominicana</option>
+<option value="internet-roaming-kosten-mexiko.html">Messico</option>
+<option value="internet-roaming-kosten-malediven.html">Maldive</option>
+<option value="internet-roaming-kosten-indonesien.html">Indonesia (Bali)</option>
+<option value="internet-roaming-kosten-vietnam.html">Vietnam</option>
+<option value="internet-roaming-kosten-singapur.html">Singapore</option>
+<option value="internet-roaming-kosten-malaysia.html">Malesia</option>
+<option value="internet-roaming-kosten-philippinen.html">Filippine</option>
+<option value="internet-roaming-kosten-suedkorea.html">Corea del Sud</option>
+<option value="internet-roaming-kosten-china.html">Cina</option>
+<option value="internet-roaming-kosten-indien.html">India</option>
+<option value="internet-roaming-kosten-brasilien.html">Brasile</option>
+<option value="internet-roaming-kosten-argentinien.html">Argentina</option>
+<option value="internet-roaming-kosten-chile.html">Cile</option>
+<option value="internet-roaming-kosten-peru.html">Perù</option>
+<option value="internet-roaming-kosten-kolumbien.html">Colombia</option>
+<option value="internet-roaming-kosten-costa-rica.html">Costa Rica</option>
+<option value="internet-roaming-kosten-jamaika.html">Giamaica</option>
+<option value="internet-roaming-kosten-bahamas.html">Bahamas</option>
+<option value="internet-roaming-kosten-mauritius.html">Mauritius</option>
+<option value="internet-roaming-kosten-seychellen.html">Seychelles</option>
+<option value="internet-roaming-kosten-sri-lanka.html">Sri Lanka</option>
+<option value="internet-roaming-kosten-kenia.html">Kenya</option>
+<option value="internet-roaming-kosten-tansania.html">Tanzania</option>
+<option value="internet-roaming-kosten-serbien.html">Serbia</option>
+<option value="internet-roaming-kosten-albanien.html">Albania</option>
+
+      <!-- Fallback für allgemeine Anfragen -->
+      <option value="esim-kompatibilitaet-allgemein.html">Il mio caso non è presente (controllo eSIM generale)</option>
+    </select>
+    
+    <button onclick="routeToTool()" class="btn-route">Verifica gratis ora</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Provider eSIM popolari e controlli roaming</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      <a href="internet-roaming-kosten-schweiz.html">Svizzera</a>
+<a href="internet-roaming-kosten-tuerkei.html">Turchia</a>
+<a href="internet-roaming-kosten-aegypten.html">Egitto</a>
+<a href="internet-roaming-kosten-usa.html">USA</a>
+<a href="internet-roaming-kosten-thailand.html">Thailandia</a>
+<a href="internet-roaming-kosten-grossbritannien.html">Gran Bretagna</a>
+<a href="internet-roaming-kosten-japan.html">Giappone</a>
+<a href="internet-roaming-kosten-vae.html">Emirati Arabi Uniti</a>
+<a href="internet-roaming-kosten-kreuzfahrt.html">Crociera (nave)</a>
+<a href="internet-roaming-kosten-australien.html">Australia</a>
+<a href="internet-roaming-kosten-kanada.html">Canada</a>
+<a href="internet-roaming-kosten-neuseeland.html">Nuova Zelanda</a>
+<a href="internet-roaming-kosten-suedafrika.html">Sudafrica</a>
+<a href="internet-roaming-kosten-marokko.html">Marocco</a>
+<a href="internet-roaming-kosten-tunesien.html">Tunisia</a>
+<a href="internet-roaming-kosten-dominikanische-republik.html">Repubblica Dominicana</a>
+<a href="internet-roaming-kosten-mexiko.html">Messico</a>
+<a href="internet-roaming-kosten-malediven.html">Maldive</a>
+<a href="internet-roaming-kosten-indonesien.html">Indonesia (Bali)</a>
+<a href="internet-roaming-kosten-vietnam.html">Vietnam</a>
+<a href="internet-roaming-kosten-singapur.html">Singapore</a>
+<a href="internet-roaming-kosten-malaysia.html">Malesia</a>
+<a href="internet-roaming-kosten-philippinen.html">Filippine</a>
+<a href="internet-roaming-kosten-suedkorea.html">Corea del Sud</a>
+<a href="internet-roaming-kosten-china.html">Cina</a>
+<a href="internet-roaming-kosten-indien.html">India</a>
+<a href="internet-roaming-kosten-brasilien.html">Brasile</a>
+<a href="internet-roaming-kosten-argentinien.html">Argentina</a>
+<a href="internet-roaming-kosten-chile.html">Cile</a>
+<a href="internet-roaming-kosten-peru.html">Perù</a>
+<a href="internet-roaming-kosten-kolumbien.html">Colombia</a>
+<a href="internet-roaming-kosten-costa-rica.html">Costa Rica</a>
+<a href="internet-roaming-kosten-jamaika.html">Giamaica</a>
+<a href="internet-roaming-kosten-bahamas.html">Bahamas</a>
+<a href="internet-roaming-kosten-mauritius.html">Mauritius</a>
+<a href="internet-roaming-kosten-seychellen.html">Seychelles</a>
+<a href="internet-roaming-kosten-sri-lanka.html">Sri Lanka</a>
+<a href="internet-roaming-kosten-kenia.html">Kenya</a>
+<a href="internet-roaming-kosten-tansania.html">Tanzania</a>
+<a href="internet-roaming-kosten-serbien.html">Serbia</a>
+<a href="internet-roaming-kosten-albanien.html">Albania</a>
+
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">La checklist definitiva per eSIM e roaming</h2>
+  <p>Per evitare di ritrovarvi senza internet all’arrivo nella località di vacanza o di cadere in una trappola di costi, completate questi passaggi prima della partenza:</p>
+  
+  
+
+  <div class="checklist-box" id="checklistToPrint">
+  <!-- Optional: Eine versteckte oder sichtbare Überschrift, die nur im PDF gut aussieht -->
+  <h3 style="margin-top:0; color:#1565c0;">Checklist</h3>
+
+    <ul>
+      <li><strong>Verificare la compatibilità:</strong> Il mio smartphone ha un chip eSIM? (Usate il nostro checker qui sopra).</li>
+      <li><strong>Controllare il blocco del dispositivo:</strong> Il telefono è libero per altre reti (nessun SIM lock)?</li>
+      <li><strong>Disattivare il roaming dati nazionale:</strong> Prima della partenza, disattivate nelle impostazioni il roaming dati della SIM principale!</li>
+      <li><strong>Acquistare e installare la eSIM tramite Wi‑Fi:</strong> Configurate la eSIM preferibilmente a casa o nella rete Wi‑Fi dell’hotel tramite codice QR.</li>
+      <li><strong>Assegnare la linea dati:</strong> Nelle impostazioni dello smartphone, impostate la nuova eSIM come fonte primaria per i "Dati mobili".</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('checkliste-zoll.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+  Generare e salvare la checklist in PDF
+</button>
+
+  <h2 style="margin-top: 40px;">Casi pratici: quanto denaro si risparmia con la eSIM</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Caso pratico 1: il viaggio di lavoro negli USA</h3>
+    <p>Il signor Müller vola a New York per 7 giorni. Il suo provider tedesco richiede ben 29,99 € per un "Travel Surf Paket" con soli 3 GB di volume dati. Se supera questa soglia, paga 1,49 € per MB. <br>
+    <strong>La soluzione:</strong> utilizza in anticipo il nostro confronto eSIM e acquista una eSIM USA con 10 GB di volume dati per soli 15 €. Risparmia denaro, ha più di tre volte il volume dati e va online subito dopo l’atterraggio.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Caso pratico 2: backpacking in Asia (Thailandia, Vietnam, Giappone)</h3>
+    <p>Sarah sta pianificando un viaggio di diverse settimane attraverso tre Paesi asiatici. In passato avrebbe dovuto acquistare una SIM fisica locale in ogni aeroporto, cambiare chip e perdere tempo prezioso. <br>
+    <strong>La soluzione:</strong> prenota una "eSIM Asia" regionale che copre tutti e tre i Paesi. Le reti cambiano automaticamente al passaggio del confine, mentre il suo numero tedesco resta attivo per gli SMS di emergenza (ad es. i codici TAN dell’online banking).</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">Domande frequenti (FAQ) sulla eSIM all’estero</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">Che cos’è una eSIM e in cosa si differenzia da una SIM normale?</div>
+    <div class="faq-answer">Una eSIM (embedded SIM) è un chip integrato nello smartphone che può essere configurato digitalmente con profili di rete mobile. Non avete più bisogno di una scheda fisica in plastica e potete attivare le tariffe, soprattutto per l’estero, in pochi secondi tramite codice QR o app.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Posso usare contemporaneamente la mia SIM normale e una eSIM?</div>
+    <div class="faq-answer">Sì, la maggior parte degli smartphone moderni supporta la Dual SIM. Potete lasciare attiva la vostra SIM fisica per chiamate e SMS con il vostro numero abituale (attenzione ai costi di roaming in caso di risposta alle chiamate!) e utilizzare la eSIM in modo mirato solo per il traffico dati nel Paese di viaggio.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Il mio smartphone supporta la eSIM?</div>
+    <div class="faq-answer">La maggior parte degli smartphone più recenti, come iPhone dalla serie XS, Samsung Galaxy S20 e successivi o Google Pixel dalla generazione 3, è compatibile con la eSIM. Per essere sicuri al 100%, utilizzate il nostro eSIM checker gratuito nella parte superiore di questa pagina.</div>
+  </div>
+  
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">Come evito i costi di roaming fuori dall’UE?</div>
+    <div class="faq-answer">Il passaggio più importante: prima di entrare in un Paese non UE, disattivate il roaming dati per la vostra SIM principale. Acquistate e installate in anticipo una eSIM locale o regionale. Non appena arrivate, attivate il roaming dati esclusivamente per il profilo eSIM appena creato nelle impostazioni.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Competenza nel diritto dei viaggi e nei diritti dei passeggeri</h3>
+    <p class="trust-text">
+        Le nostre guide e i nostri generatori si basano su un’analisi rigorosa delle attuali normative UE (come il regolamento CE 261/2004), delle sentenze della corte suprema competente e delle norme nazionali in materia di viaggi. 
+        Sono sviluppati da Marc (project management) e dal team per consentire ai viaggiatori di far valere i propri diritti in modo giuridicamente sicuro nei confronti di compagnie aeree e tour operator.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Avviso importante: i nostri strumenti offrono un aiuto pratico in caso di ritardi dei voli, difetti dell’hotel o cancellazioni dei treni. Non sostituiscono una consulenza legale individuale da parte di un avvocato.
+        </span>
+    </p>
+
+    <!-- Umlaut in URL entfernt! -->
+    <a href="ueber-uns.html" class="trust-link">
+        Scopri i dettagli sulla metodologia legale e sulla redazione →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Problemi con il volo, il treno o l’hotel?</strong><br>
+        Fix-My-Trip verifica in pochi passaggi il vostro diritto a un risarcimento, al rimborso del biglietto o alla riduzione del prezzo del viaggio. <br>
+        <em>Un servizio di Fix my Trip.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Hai trovato un errore nello strumento?</strong> Poiché siamo un portale automatizzato e non forniamo consulenza legale individuale, ci aiutate moltissimo segnalando bug o provider non aggiornati: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Invia feedback alla nostra sede centrale</a>.
+</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Chi siamo</a> | 
+        <a href="index.html">Home</a> | 
+        <a href="impressum.html">Note legali</a> | 
+        <a href="datenschutz.html">Privacy</a>
+    </nav>
+</footer>
+
+<script>
+// Leitet den Nutzer auf die entsprechende Tool- oder Checker-Seite weiter
+function routeToTool() {
+    const selectElement = document.getElementById('toolSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Selezionate prima un’opzione dall’elenco.");
+    }
+}
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // 15mm Rand rundherum
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, // Hohe Auflösung
+            scrollY: 0, // WICHTIG: Fixt das Problem mit der leeren Seite!
+            windowWidth: document.documentElement.offsetWidth // Stellt sicher, dass die Breite stimmt
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    // PDF generieren
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

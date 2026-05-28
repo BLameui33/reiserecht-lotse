@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Conditions d’entrée dans le monde entier : vérifier visa, passeport et règles</title>
+  <meta name="description" content="Conditions d’entrée et règles de visa à jour pour tous les pays. Avez-vous besoin d’un ESTA, d’une eTA ou d’un passeport ? Utilisez notre vérificateur gratuit.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & Internationalisierung -->
+  <link rel="canonical" href="https://www.fix-my-trip.com/fr-be/einreise-info.html">
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/einreise-info.html">
+<link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/einreise-info.html">
+<link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/einreise-info.html">
+<link rel="alternate" hreflang="it" href="https://www.fix-my-trip.com/it/einreise-info.html">
+<link rel="alternate" hreflang="nl" href="https://www.fix-my-trip.com/nl/einreise-info.html">
+<link rel="alternate" hreflang="fr-be" href="https://www.fix-my-trip.com/fr-be/einreise-info.html">
+<link rel="alternate" hreflang="nl-be" href="https://www.fix-my-trip.com/nl-be/einreise-info.html">
+<link rel="alternate" hreflang="pt" href="https://www.fix-my-trip.com/pt/einreise-info.html">
+
+<link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/einreise-info.html">
+
+  <!-- Bibliothek für die PDF-Generierung aus HTML -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="/logo-lotse-fav.png">
+
+  <!-- FAQ Schema.org JSON-LD für Rich Snippets bei Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Combien de temps mon passeport doit-il être valide ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pour la plupart des pays hors UE, le passeport doit encore être valide pendant au moins six mois au moment de l’entrée. De nombreux pays exigent également que le passeport comporte encore au moins deux pages libres pour les tampons et les visas."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Quelle est la différence entre un visa et une eTA / ESTA ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un visa classique doit souvent être demandé à l’avance auprès d’une ambassade ou en ligne (sous forme de e-visa), avec un délai de traitement. L’ESTA (États-Unis) ou l’eTA (Canada) sont en revanche des autorisations électroniques d’entrée pour les ressortissants de pays qui sont en principe exemptés de visa (comme l’Allemagne). Elles doivent néanmoins être obtenues en ligne avant le départ."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Ai-je besoin d’un visa si je ne fais qu’une correspondance dans un aéroport (transit) ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cela dépend fortement du pays de transit. Aux États-Unis, même pour un simple transit sans quitter la zone de sécurité, vous avez impérativement besoin d’un ESTA ou d’un visa de transit. Dans de nombreux pays asiatiques ou arabes, en revanche, vous pouvez rester dans la zone de transit internationale sans visa."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Que se passe-t-il si je me présente à l’aéroport sans visa valide ou sans les documents nécessaires ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Les compagnies aériennes vérifient généralement vos documents dès l’enregistrement ou à l’embarquement. Si des documents manquent, le transport vous sera refusé, car la compagnie devrait sinon payer de lourdes amendes. Vous supporterez les frais du vol manqué, car cela relève de votre propre responsabilité."
+      }
+    }]
+  }
+  </script>
+
+</head>
+<body>
+
+<header class="site-header" style="padding: 20px 0; border-bottom: 2px solid #eee; margin-bottom: 30px;">
+  <a href="index.html" style="font-size: 1.5em; font-weight: bold; text-decoration: none;">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Conditions d’entrée dans le monde entier : visa, passeport et règles</h1>
+  
+  <div class="seo-text">
+    <p>L’impatience des vacances est grande, mais la préparation d’un voyage à l’étranger commence toujours par les bons documents de voyage. Que ce soit pour des vacances à la plage en Asie, un city trip à Londres ou un voyage d’affaires aux États-Unis : il est essentiel de s’informer à temps sur les <strong>conditions d’entrée</strong> applicables à votre pays de destination.</p>
+    <p>Avez-vous besoin d’un visa touristique classique à demander à l’avance ? Une autorisation électronique d’entrée suffit-elle (comme l’ESTA pour les États-Unis ou l’eTA pour le Canada) ? Ou, en Europe, votre simple carte d’identité suffit-elle même ? Notre guide et notre vérificateur interactif vous fournissent les réponses exactes pour votre prochaine destination.</p>
+  </div>
+
+  <!-- INTERAKTIVER BEREICH & INTERNE VERLINKUNG FÜR CRAWLER -->
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Lancer le vérificateur de visa</h2>
+    <p>Choisissez votre destination pour vérifier les conditions d’entrée exactes et les exigences de visa (100 % gratuit) :</p>
+    
+    <select id="countrySelect">
+      <option value="">-- Veuillez choisir le pays de destination --</option>
+      <!-- Das Skript fügt hier die Länder als Optionen ein -->
+      <option value="einreisebestimmungen-usa.html">USA</option>
+<option value="einreisebestimmungen-aegypten.html">Égypte</option>
+<option value="einreisebestimmungen-tuerkei.html">Turquie</option>
+<option value="einreisebestimmungen-uk.html">Grande-Bretagne</option>
+<option value="einreisebestimmungen-thailand.html">Thaïlande</option>
+<option value="einreisebestimmungen-australien.html">Australie</option>
+<option value="einreisebestimmungen-kanada.html">Canada</option>
+<option value="einreisebestimmungen-vae.html">Émirats arabes unis (Dubaï)</option>
+<option value="einreisebestimmungen-malediven.html">Maldives</option>
+<option value="einreisebestimmungen-indonesien.html">Indonésie</option>
+<option value="einreisebestimmungen-vietnam.html">Vietnam</option>
+<option value="einreisebestimmungen-sri-lanka.html">Sri Lanka</option>
+<option value="einreisebestimmungen-suedafrika.html">Afrique du Sud</option>
+<option value="einreisebestimmungen-japan.html">Japon</option>
+<option value="einreisebestimmungen-dominikanische-republik.html">République dominicaine</option>
+<option value="einreisebestimmungen-mexiko.html">Mexique</option>
+<option value="einreisebestimmungen-kuba.html">Cuba</option>
+<option value="einreisebestimmungen-brasilien.html">Brésil</option>
+<option value="einreisebestimmungen-costa-rica.html">Costa Rica</option>
+<option value="einreisebestimmungen-neuseeland.html">Nouvelle-Zélande</option>
+<option value="einreisebestimmungen-philippinen.html">Philippines</option>
+<option value="einreisebestimmungen-malaysia.html">Malaisie</option>
+<option value="einreisebestimmungen-singapur.html">Singapour</option>
+<option value="einreisebestimmungen-suedkorea.html">Corée du Sud</option>
+<option value="einreisebestimmungen-china.html">Chine</option>
+<option value="einreisebestimmungen-indien.html">Inde</option>
+<option value="einreisebestimmungen-kenia.html">Kenya</option>
+<option value="einreisebestimmungen-tansania.html">Tanzanie (Zanzibar)</option>
+<option value="einreisebestimmungen-seychellen.html">Seychelles</option>
+<option value="einreisebestimmungen-mauritius.html">Maurice</option>
+<option value="einreisebestimmungen-marokko.html">Maroc</option>
+<option value="einreisebestimmungen-tunesien.html">Tunisie</option>
+<option value="einreisebestimmungen-oman.html">Oman</option>
+<option value="einreisebestimmungen-katar.html">Qatar (Doha)</option>
+<option value="einreisebestimmungen-saudi-arabien.html">Arabie saoudite</option>
+<option value="einreisebestimmungen-jordanien.html">Jordanie</option>
+<option value="einreisebestimmungen-jamaika.html">Jamaïque</option>
+<option value="einreisebestimmungen-peru.html">Pérou</option>
+<option value="einreisebestimmungen-kolumbien.html">Colombie</option>
+<option value="einreisebestimmungen-argentinien.html">Argentine</option>
+<option value="einreisebestimmungen-chile.html">Chili</option>
+<option value="einreisebestimmungen-ecuador.html">Équateur</option>
+<option value="einreisebestimmungen-bolivien.html">Bolivie</option>
+<option value="einreisebestimmungen-panama.html">Panama</option>
+<option value="einreisebestimmungen-guatemala.html">Guatemala</option>
+<option value="einreisebestimmungen-bahamas.html">Bahamas</option>
+<option value="einreisebestimmungen-barbados.html">Barbade</option>
+<option value="einreisebestimmungen-namibia.html">Namibie</option>
+<option value="einreisebestimmungen-botswana.html">Botswana</option>
+<option value="einreisebestimmungen-uganda.html">Ouganda</option>
+<option value="einreisebestimmungen-madagaskar.html">Madagascar</option>
+<option value="einreisebestimmungen-kap-verde.html">Cap-Vert (îles du Cap-Vert)</option>
+<option value="einreisebestimmungen-georgien.html">Géorgie</option>
+<option value="einreisebestimmungen-kambodscha.html">Cambodge</option>
+<option value="einreisebestimmungen-laos.html">Laos</option>
+<option value="einreisebestimmungen-taiwan.html">Taïwan</option>
+<option value="einreisebestimmungen-nepal.html">Népal</option>
+<option value="einreisebestimmungen-usbekistan.html">Ouzbékistan</option>
+<option value="einreisebestimmungen-fidschi.html">Fidji</option>
+<option value="einreisebestimmungen-armenien.html">Arménie</option>
+<option value="einreisebestimmungen-anderes-land-allgemein.html">Autre pays de voyage (dispositions générales)</option>
+
+      <option value="einreisebestimmungen-allgemein.html">Mon pays de destination n’est pas listé (informations générales)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Vérifier les conditions d’entrée</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Destinations populaires de A à Z</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      <a href="einreisebestimmungen-usa.html">USA</a>
+<a href="einreisebestimmungen-aegypten.html">Égypte</a>
+<a href="einreisebestimmungen-tuerkei.html">Turquie</a>
+<a href="einreisebestimmungen-uk.html">Grande-Bretagne</a>
+<a href="einreisebestimmungen-thailand.html">Thaïlande</a>
+<a href="einreisebestimmungen-australien.html">Australie</a>
+<a href="einreisebestimmungen-kanada.html">Canada</a>
+<a href="einreisebestimmungen-vae.html">Émirats arabes unis (Dubaï)</a>
+<a href="einreisebestimmungen-malediven.html">Maldives</a>
+<a href="einreisebestimmungen-indonesien.html">Indonésie</a>
+<a href="einreisebestimmungen-vietnam.html">Vietnam</a>
+<a href="einreisebestimmungen-sri-lanka.html">Sri Lanka</a>
+<a href="einreisebestimmungen-suedafrika.html">Afrique du Sud</a>
+<a href="einreisebestimmungen-japan.html">Japon</a>
+<a href="einreisebestimmungen-dominikanische-republik.html">République dominicaine</a>
+<a href="einreisebestimmungen-mexiko.html">Mexique</a>
+<a href="einreisebestimmungen-kuba.html">Cuba</a>
+<a href="einreisebestimmungen-brasilien.html">Brésil</a>
+<a href="einreisebestimmungen-costa-rica.html">Costa Rica</a>
+<a href="einreisebestimmungen-neuseeland.html">Nouvelle-Zélande</a>
+<a href="einreisebestimmungen-philippinen.html">Philippines</a>
+<a href="einreisebestimmungen-malaysia.html">Malaisie</a>
+<a href="einreisebestimmungen-singapur.html">Singapour</a>
+<a href="einreisebestimmungen-suedkorea.html">Corée du Sud</a>
+<a href="einreisebestimmungen-china.html">Chine</a>
+<a href="einreisebestimmungen-indien.html">Inde</a>
+<a href="einreisebestimmungen-kenia.html">Kenya</a>
+<a href="einreisebestimmungen-tansania.html">Tanzanie (Zanzibar)</a>
+<a href="einreisebestimmungen-seychellen.html">Seychelles</a>
+<a href="einreisebestimmungen-mauritius.html">Maurice</a>
+<a href="einreisebestimmungen-marokko.html">Maroc</a>
+<a href="einreisebestimmungen-tunesien.html">Tunisie</a>
+<a href="einreisebestimmungen-oman.html">Oman</a>
+<a href="einreisebestimmungen-katar.html">Qatar (Doha)</a>
+<a href="einreisebestimmungen-saudi-arabien.html">Arabie saoudite</a>
+<a href="einreisebestimmungen-jordanien.html">Jordanie</a>
+<a href="einreisebestimmungen-jamaika.html">Jamaïque</a>
+<a href="einreisebestimmungen-peru.html">Pérou</a>
+<a href="einreisebestimmungen-kolumbien.html">Colombie</a>
+<a href="einreisebestimmungen-argentinien.html">Argentine</a>
+<a href="einreisebestimmungen-chile.html">Chili</a>
+<a href="einreisebestimmungen-ecuador.html">Équateur</a>
+<a href="einreisebestimmungen-bolivien.html">Bolivie</a>
+<a href="einreisebestimmungen-panama.html">Panama</a>
+<a href="einreisebestimmungen-guatemala.html">Guatemala</a>
+<a href="einreisebestimmungen-bahamas.html">Bahamas</a>
+<a href="einreisebestimmungen-barbados.html">Barbade</a>
+<a href="einreisebestimmungen-namibia.html">Namibie</a>
+<a href="einreisebestimmungen-botswana.html">Botswana</a>
+<a href="einreisebestimmungen-uganda.html">Ouganda</a>
+<a href="einreisebestimmungen-madagaskar.html">Madagascar</a>
+<a href="einreisebestimmungen-kap-verde.html">Cap-Vert (îles du Cap-Vert)</a>
+<a href="einreisebestimmungen-georgien.html">Géorgie</a>
+<a href="einreisebestimmungen-kambodscha.html">Cambodge</a>
+<a href="einreisebestimmungen-laos.html">Laos</a>
+<a href="einreisebestimmungen-taiwan.html">Taïwan</a>
+<a href="einreisebestimmungen-nepal.html">Népal</a>
+<a href="einreisebestimmungen-usbekistan.html">Ouzbékistan</a>
+<a href="einreisebestimmungen-fidschi.html">Fidji</a>
+<a href="einreisebestimmungen-armenien.html">Arménie</a>
+<a href="einreisebestimmungen-anderes-land-allgemein.html">Autre pays de voyage (dispositions générales)</a>
+
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Quels documents de voyage sont obligatoires ?</h2>
+  <div class="seo-text">
+    <p>Selon votre nationalité et le pays de destination, les exigences varient considérablement. En principe, il existe trois cas de figure :</p>
+    <ul>
+      <li><strong>Carte d’identité :</strong> Entièrement suffisante dans l’espace Schengen et dans de nombreux pays européens.</li>
+      <li><strong>Passeport (sans visa) :</strong> Pour de nombreuses destinations lointaines (p. ex. Thaïlande, Japon), les touristes allemands peuvent entrer sans visa pendant une certaine durée, mais ils ont besoin d’un passeport qui, au moment de l’entrée, est souvent encore valable au moins 6 mois.</li>
+      <li><strong>Passeport avec visa / e-visa :</strong> Pour des pays comme la Chine, l’Inde ou les États-Unis, vous devez impérativement demander un visa ou une autorisation électronique de voyage avant le départ. Oublier cette démarche vous empêchera d’embarquer.</li>
+    </ul>
+  </div>
+
+  <h2 style="margin-top: 40px;">Checklist : vérifier les documents avant le départ</h2>
+  <p>Avec cette liste, vous vous assurez de ne pas avoir de mauvaises surprises à l’aéroport. Imprimez-la simplement en PDF !</p>
+  
+  <!-- Die ID "checklistToPrint" liegt exakt um den Kasten, der gedruckt werden soll -->
+  <div class="checklist-box" id="checklistToPrint">
+    <h3 style="margin-top:0; color:#1565c0;">Checklist d’entrée pour les voyages lointains</h3>
+    <ul>
+      <li><strong>Validité du passeport :</strong> Votre passeport est-il encore valable au moins 6 mois à la date d’entrée et comporte-t-il encore des pages libres ? (Attention aux passeports provisoires : ils ne sont pas acceptés partout !).</li>
+      <li><strong>Visa / ESTA / eTA :</strong> Avez-vous obtenu l’autorisation électronique d’entrée et l’avez-vous imprimée avec vous ?</li>
+      <li><strong>Billet de retour ou de continuation :</strong> Presque tous les pays hors UE exigent à l’entrée une preuve que vous quitterez à nouveau le pays.</li>
+      <li><strong>Réservation d’hôtel & finances :</strong> Souvent, vous devez prouver à la frontière la première nuitée ou disposer de moyens financiers suffisants.</li>
+      <li><strong>Exigences vaccinales (fièvre jaune, etc.) :</strong> Avez-vous votre carnet de vaccination international (carnet jaune) avec vous, si le pays exige certains vaccins pour l’entrée ?</li>
+    </ul>
+  </div>
+  
+  <!-- Button generiert das PDF on-the-fly, ignoriert sich selbst im PDF (data-html2canvas-ignore) -->
+  <button onclick="generateChecklistPDF('checkliste-einreise.pdf')" class="btn-download" data-html2canvas-ignore="true">
+    Générer et enregistrer la checklist en PDF
+  </button>
+
+  <h2 style="margin-top: 40px;">Cas pratiques : lorsque l’entrée est refusée</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Exemple 1 : le passeport expiré pour Bali</h3>
+    <p>Markus se réjouit de ses vacances en Indonésie. Au comptoir d’enregistrement à Francfort, l’employée constate que son passeport n’est encore valable que 3 mois. L’Indonésie exige strictement 6 mois.<br>
+    <strong>Résultat :</strong> Markus n’est pas autorisé à embarquer. Comme cela relève de sa propre responsabilité, ni le règlement sur les droits des passagers aériens ni une assurance annulation de voyage classique ne s’appliquent. L’argent du vol est perdu.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Exemple 2 : transit sous-estimé aux États-Unis</h3>
+    <p>La famille Weber vole de Munich via Miami (États-Unis) vers le Costa Rica. Comme ils ne quittent pas l’aéroport à Miami, ils n’ont pas demandé d’ESTA pour les États-Unis.<br>
+    <strong>Résultat :</strong> Aux États-Unis, il n’existe pas de « zone de transit internationale » classique. Chaque passager entre officiellement dans le pays puis en ressort immédiatement. Sans ESTA, la compagnie refuse l’embarquement à Munich. Le vol de correspondance vers le Costa Rica est perdu.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">FAQ : questions fréquentes sur les visas et l’entrée</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">Combien de temps mon passeport doit-il être valide ?</div>
+    <div class="faq-answer">Pour la plupart des pays hors UE, le passeport doit encore être valide pendant au moins six mois au moment de l’entrée. De nombreux pays exigent également que le passeport comporte encore au moins deux pages libres pour les tampons et les visas. Au sein de l’UE, une carte d’identité valide suffit généralement.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Quelle est la différence entre un visa et une eTA / ESTA ?</div>
+    <div class="faq-answer">Un visa classique doit souvent être demandé à l’avance auprès d’une ambassade ou en ligne (sous forme de e-visa), avec un délai de traitement correspondant. L’ESTA (États-Unis) ou l’eTA (Canada) sont en revanche des autorisations électroniques d’entrée pour les ressortissants de pays qui sont en principe exemptés de visa (comme l’Allemagne). Elles doivent néanmoins impérativement être obtenues en ligne avant le départ.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Ai-je besoin d’un visa si je ne fais qu’une correspondance dans un aéroport (transit) ?</div>
+    <div class="faq-answer">Cela dépend fortement du pays de transit concerné. Aux États-Unis, même pour un simple transit sans quitter la zone de sécurité, vous avez impérativement besoin d’un ESTA ou d’un visa de transit. Dans de nombreux pays asiatiques ou arabes, en revanche, vous pouvez rester dans la zone de transit internationale sans visa.</div>
+  </div>
+  
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">Que se passe-t-il si je me présente à l’aéroport sans visa valide ou sans les documents nécessaires ?</div>
+    <div class="faq-answer">Les compagnies aériennes vérifient généralement vos documents dès l’enregistrement ou au plus tard à l’embarquement. Si des documents manquent, le transport vous sera systématiquement refusé, car la compagnie devrait sinon payer de lourdes amendes à destination et prendre en charge votre retour. Vous supporterez entièrement les frais du vol manqué.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise en droit du voyage et droits des passagers</h3>
+    <p class="trust-text">
+        Nos guides et générateurs reposent sur l’analyse rigoureuse des règlements européens actuels (comme le règlement CE 261/2004), des décisions de justice du BGH et du droit national du voyage. 
+        Ils sont développés par Marc (direction de projet) et son équipe afin de permettre aux voyageurs de faire valoir leurs droits de manière juridiquement sûre face aux compagnies aériennes et aux voyagistes.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Remarque importante : nos outils offrent une aide à l’auto-assistance en cas de retard de vol, de défauts d’hôtel ou d’annulations de train. Ils ne remplacent pas un conseil juridique individuel fourni par un avocat.
+        </span>
+    </p>
+
+    <!-- Umlaut in URL entfernt! -->
+    <a href="ueber-uns.html" class="trust-link">
+        Découvrir les détails de la méthodologie juridique et de la rédaction →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Un problème avec le vol, le train ou l’hôtel ?</strong><br>
+        Fix-My-Trip vérifie en quelques étapes votre droit à une indemnisation, au remboursement du billet ou à une réduction du prix du voyage. <br>
+        <em>Un service de Fix my Trip.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Une erreur dans l’outil ?</strong> Comme nous sommes un portail automatisé et ne fournissons pas de conseil juridique individuel, votre aide nous est très précieuse si vous signalez des bugs ou des prestataires obsolètes : 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Envoyer un retour à notre siège</a>.
+</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">À propos de nous</a> | 
+        <a href="index.html">Accueil</a> | 
+        <a href="impressum.html">Mentions légales</a> | 
+        <a href="datenschutz.html">Protection des données</a>
+    </nav>
+</footer>
+
+<script>
+// Leitet den Nutzer über das Dropdown weiter (UX)
+function routeToGenerator() {
+    const selectElement = document.getElementById('countrySelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Veuillez d’abord choisir un pays de destination dans la liste.");
+    }
+}
+
+// Generiert das PDF aus der HTML-Checkliste (Sicher gegen leere Seiten Bug!)
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // 15mm Rand
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, // Hohe Auflösung für scharfe Texte
+            scrollY: 0, // Zwingt den Canvas, oben zu starten (fixt leere Seiten bei Scroll!)
+            windowWidth: document.documentElement.offsetWidth
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    // Erzeugt das PDF und startet den Download
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

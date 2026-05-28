@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Holidu Ridurre l’affitto: calcolatore gratuito e PDF</title>
+
+  <meta name="description" content="Difetti nella casa vacanze presso Holidu? Muffa, piscina rotta o niente Wi‑Fi? Calcola la riduzione dell’affitto e genera il PDF di reclamo già pronto.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="canonical" href="https://www.fix-my-trip.com/it/ferienhaus-reklamation-beschwerde-holidu.html">
+
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/ferienhaus-reklamation-beschwerde-holidu.html">
+<link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/ferienhaus-reklamation-beschwerde-holidu.html">
+<link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/ferienhaus-reklamation-beschwerde-holidu.html">
+<link rel="alternate" hreflang="it" href="https://www.fix-my-trip.com/it/ferienhaus-reklamation-beschwerde-holidu.html">
+<link rel="alternate" hreflang="nl" href="https://www.fix-my-trip.com/nl/ferienhaus-reklamation-beschwerde-holidu.html">
+<link rel="alternate" hreflang="fr-be" href="https://www.fix-my-trip.com/fr-be/ferienhaus-reklamation-beschwerde-holidu.html">
+<link rel="alternate" hreflang="nl-be" href="https://www.fix-my-trip.com/nl-be/ferienhaus-reklamation-beschwerde-holidu.html">
+<link rel="alternate" hreflang="pt" href="https://www.fix-my-trip.com/pt/ferienhaus-reklamation-beschwerde-holidu.html">
+
+<link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/ferienhaus-reklamation-beschwerde-holidu.html">
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Generatore PDF: riduzione dell’affitto per casa vacanze presso Holidu",
+    "applicationCategory": "LegalApplication",
+    "operatingSystem": "All",
+    "description": "Strumento gratuito per calcolare le riduzioni dell’affitto per case vacanze e creare una lettera legale modello indirizzata a Holidu.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Devo lamentarmi subito sul posto?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sì, assolutamente! Devi segnalare senza indugio il difetto al locatore o all’agenzia locale di Holidu e concedere la possibilità di porvi rimedio. Chi tace fino al rientro perde di norma il diritto alla riduzione dell’affitto."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "La tabella di riferimento per le compensazioni si applica anche alle case vacanze?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No, dal punto di vista giuridico per le case vacanze si applicano le norme generali sulla locazione, non quelle sui viaggi organizzati. Tuttavia, i tribunali tedeschi spesso utilizzano tabelle di compensazione consolidate come orientamento approssimativo per stimare l’entità della riduzione dell’affitto."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Cosa faccio se la casa è completamente inabitabile?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Se la casa non è abitabile (ad es. grave danno da acqua, riscaldamento guasto in inverno, muffa estrema), puoi risolvere il contratto senza preavviso, chiedere il rimborso delle spese per un hotel sostitutivo e pretendere il 100% dell’affitto per i giorni di mancato utilizzo."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+  <span style="font-size: 0.9em; color: #666;">I tuoi diritti negli alloggi per vacanze</span>
+</header>
+
+<div class="page-container">
+
+  <h1>Segnalare difetti nella casa vacanze presso Holidu: recupera l’affitto</h1>
+
+  <div class="back-to-hub-banner">
+  <a href="ferienhaus-maengel-info.html">
+    <span class="arrow">&larr;</span> Torna alla panoramica: tutti i fornitori di case vacanze
+  </a>
+  </div>
+  
+  <div class="usp-bar">
+    <div class="usp-item">Basato sulle norme generali sulla locazione</div>
+    <div class="usp-item">Calcolatore di riduzione integrato</div>
+    <div class="usp-item">Lettera modello PDF giuridicamente precisa</div>
+    <div class="usp-item">100% gratuito</div>
+  </div>
+
+  <p>In foto una villa da sogno, nella realtà muffa sulle pareti, piscina vuota o riscaldamento rotto? Se l’alloggio prenotato presso <strong>Holidu</strong> presenta difetti rilevanti, in genere si applicano le norme sulla locazione. Usa il nostro generatore gratuito per calcolare una riduzione realistica dell’affitto e creare una richiesta formalmente corretta.</p>
+
+  <div class="info-box warning">
+    <strong>Importante: segnala subito il difetto!</strong> Per richiedere il rimborso a Holidu, devi aver segnalato il difetto <strong>direttamente sul posto al locatore o al punto locale di consegna delle chiavi</strong>. Devi dare all’host la possibilità di risolvere il problema (ad es. con pulizia o riparazione). Chi non dice nulla e si lamenta solo a casa, di solito non ottiene nulla!
+  </div>
+
+  <div class="legal-info-box">
+    <strong>Avviso importante sull’utilizzo</strong><br>
+    Questo strumento è un <strong>generatore automatico di lettere modello</strong> (aiuto all’autoaiuto). Inserisce i tuoi dati soltanto in modelli giuridici standard. Non viene effettuata <strong>alcuna verifica individuale</strong> del tuo caso. Questo servizio gratuito non sostituisce una consulenza legale da parte di un avvocato. L’utilizzo avviene sotto la propria responsabilità; non viene fornita alcuna garanzia di successo.
+</div>
+
+
+
+<div class="highlight-box pruefdatum-box" role="note" aria-label="Verificato editorialmente" style="margin-top: 15px; margin-bottom: 30px;">
+    <p><strong>Verificato editorialmente il:</strong> <span id="pruefdatum">05.05.2026</span></p>
+  </div>
+
+  <!-- Lesson Learned Affiliate Box -->
+<div class="lesson-learned-box" style="background: #f8f9fa; border-left: 4px solid #ffb300; padding: 15px 20px; margin: 30px 0; border-radius: 4px; display: flex; align-items: flex-start; gap: 15px; position: relative;">
+  
+  <!-- NEU: Diskreter Affiliate-Hinweis oben rechts -->
+  <span style="font-size: 0.7rem; color: #666; background: #eee; padding: 2px 6px; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.05em; position: absolute; top: 10px; right: 10px;">
+    Annuncio
+  </span>
+
+  <div style="font-size: 2em; line-height: 1;">💡</div>
+  <div>
+    <h4 style="margin: 0 0 5px 0; color: #333; font-size: 1.1em; padding-right: 60px;">Consiglio per il prossimo viaggio</h4>
+    <p style="margin: 0 0 10px 0; font-size: 0.95em; color: #555;">
+      La casa vacanze è stata un incubo e hai dovuto cambiare alloggio sul posto? Con vere carte di credito da viaggio, all’estero puoi non solo pagare l’hotel sostitutivo senza commissioni, ma spesso hai anche un asso nella manica grazie alla procedura di chargeback, se il fornitore originale rifiuta il rimborso.
+    </p>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #891818; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">
+      Confronta le migliori carte di credito da viaggio (gratuite)
+    </a>
+  </div>
+</div>
+
+  <form id="fewoForm">
+    <fieldset style="border-color: #ff9800; background: #fffdf7;">
+      <legend style="background: #ff9800; color: #333;">1. Verifica del fornitore</legend>
+      <label>Portale casa vacanze / intermediario:</label>
+      <input type="text" id="aName" value="Holidu" placeholder="" required>
+      <label>Indirizzo del fornitore:</label>
+      <textarea id="aAdresse" rows="3" required placeholder="Holidu GmbH
+Riesstraße 24
+80992 Monaco di Baviera">Holidu GmbH
+Riesstraße 24
+80992 Monaco di Baviera</textarea>
+    </fieldset>
+    <p style="font-size: 0.8em; color: #666; margin-top: 5px; line-height: 1.3;">
+  💡 <strong>Nota:</strong> Per impostazione predefinita qui viene mostrato l’indirizzo centrale o regionale del fornitore. Puoi modificare questo indirizzo in qualsiasi momento e inserire invece l’indirizzo della filiale locale nel tuo Paese.
+</p>
+
+    <fieldset>
+      <legend>2. I tuoi dati di prenotazione</legend>
+      <label>Numero di prenotazione / numero di riferimento:</label>
+      <input type="text" id="fBuchung" placeholder="ad es. 12345678" required>
+      <label>Nome e località della casa vacanze:</label>
+      <input type="text" id="fObjekt" placeholder="ad es. Villa Sol, Mallorca" required>
+      <label>Periodo di locazione (da - a):</label>
+      <input type="text" id="fZeitraum" placeholder="ad es. 01.08.2026 - 14.08.2026" required>
+      
+      <label style="color: var(--primary);">Prezzo totale della locazione (in euro):</label>
+      <input type="number" step="0.01" id="fPreis" placeholder="ad es. 1800" required>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. Calcolatore dei difetti (valori indicativi)</legend>
+      <p style="font-size: 0.9em; color: #666; margin-top: 0;">Seleziona quali difetti erano presenti. Le percentuali si basano sulla giurisprudenza media dei tribunali tedeschi in materia di locazione.</p>
+      
+      <div class="checkbox-group" id="mangelCheckboxes">
+        <label><input type="checkbox" value="15" data-text="Piscina inutilizzabile (senza acqua, sporca)"> Piscina non utilizzabile (riduzione del 15%)</label>
+        <label><input type="checkbox" value="20" data-text="Muffa significativa / danni da umidità"> Muffa / umidità (riduzione del 20%)</label>
+        <label><input type="checkbox" value="30" data-text="Guasto completo del riscaldamento (nei mesi freddi)"> Riscaldamento rotto in inverno (riduzione del 30%)</label>
+        <label><input type="checkbox" value="10" data-text="Mancanza di WLAN / Internet nonostante fosse espressamente garantito"> Wi‑Fi/Internet assente (riduzione del 10%)</label>
+        <label><input type="checkbox" value="15" data-text="Grave sporco dell’immobile o presenza di parassiti"> Forte sporco / parassiti (riduzione del 15%)</label>
+        <label><input type="checkbox" value="15" data-text="Rumore intenso dei lavori nel terreno vicino"> Rumore dei lavori accanto (riduzione del 15%)</label>
+        <label><input type="checkbox" value="10" data-text="Mancanza di dotazioni essenziali (ad es. lavatrice guasta)"> Dotazione promessa mancante (riduzione del 10%)</label>
+      </div>
+
+      <div class="calc-banner">
+        Il tuo importo di rimborso calcolato:<br>
+        <span id="liveAmount">0,00 €</span>
+        <div style="font-size: 0.5em; font-weight: normal; margin-top: 5px;">(Percentuale di riduzione: <span id="livePercent">0</span>%)</div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>4. I tuoi dati e coordinate bancarie</legend>
+      <label>Nome e cognome (intestatario principale):</label>
+      <input type="text" id="sName" placeholder="ad es. Mario Rossi" required>
+      <label>Via e numero civico:</label>
+      <input type="text" id="sStrasse" placeholder="ad es. Via Roma 1" required>
+      <label>CAP e città:</label>
+      <input type="text" id="sPLZOrt" placeholder="ad es. 12345 Berlino" required>
+      <label>IBAN per il rimborso:</label>
+      <input type="text" id="bIBAN" placeholder="DE..." required>
+    </fieldset>
+
+    <div class="submit-area">
+    <p class="submit-disclaimer">
+        Con un clic su "Genera PDF" confermi di aver compreso che questo servizio automatizzato<br>non costituisce consulenza legale e che presenti la richiesta sotto la tua responsabilità.
+    </p>
+    <button type="submit" class="button-primary">📄 Genera PDF di reclamo per Holidu</button>
+</div>
+  </form>
+
+  <div class="seo-content">
+    <h2>Difetti nella casa vacanze presso Holidu: i tuoi diritti</h2>
+    <p>A differenza di un pacchetto turistico con volo e villaggio, nella semplice prenotazione di una casa vacanze o di un appartamento vacanze tramite portali come Holidu si applicano di norma le <strong>norme generali sulla locazione</strong>. Ciò significa: il locatore ti deve la consegna dell’immobile nelle condizioni concordate contrattualmente (di solito tramite l’annuncio e le foto).</p>
+
+    <h3>Riduzione dell’affitto secondo le norme generali sulla locazione</h3>
+    <p>Se manca una caratteristica garantita (ad es. la piscina è vuota nonostante fosse pubblicizzata come punto forte) oppure l’uso dell’alloggio è compromesso da un difetto (ad es. muffa estrema, rumore dei lavori, scarafaggi), hai diritto a una riduzione dell’affitto. La base giuridica in Germania è costituita dalle norme generali sulla locazione e dalla tutela del consumatore. Paghi solo l’affitto corrispondente al valore effettivo dell’alloggio difettoso.</p>
+
+    <h3>Il passo più importante: segnala subito il difetto!</h3>
+    <p>L’errore più grande che fanno i vacanzieri: si arrabbiano per due settimane per la casa sporca, partono e poi chiedono il rimborso a Holidu. Quasi mai funziona! Hai l’obbligo di limitare il danno. Devi <strong>segnalare immediatamente il difetto al locatore o all’agenzia sul posto</strong> e chiedere la riparazione. Solo se il difetto non viene eliminato (o non può essere eliminato, come nel caso del rumore dei lavori), ti assicuri il diritto al rimborso.</p>
+
+    <h3>Conservare le prove</h3>
+    <p>Senza prove, il tuo reclamo non vale nulla. Documenta ogni difetto in modo accurato. Scatta foto e video (meglio con data/ora visibili). Redigi un breve verbale dei difetti e, se possibile, coinvolgi vicini o compagni di viaggio come testimoni. La comunicazione scritta con Holidu o con il locatore sul posto (ad es. tramite il portale o via e-mail) è la prova migliore che hai presentato il reclamo in tempo utile.</p>
+
+    <div class="faq-section">
+      <h2>Domande frequenti (FAQ) sul reclamo per casa vacanze</h2>
+      
+      <details>
+        <summary>La tabella di riferimento per le compensazioni si applica anche alle case vacanze?</summary>
+        <p>In senso stretto: no. Le tabelle di compensazione consolidate sono nate per i viaggi organizzati. Per le case vacanze, di norma, si applicano le norme generali sulla locazione. Tuttavia, i tribunali tedeschi usano spesso le percentuali di tali tabelle come orientamento pratico per stabilire l’entità di una riduzione dell’affitto per gli appartamenti vacanze. Per questo anche i nostri valori indicativi si basano su tali esperienze.</p>
+      </details>
+
+      <details>
+        <summary>Chi è il mio referente? Il portale o il proprietario della casa?</summary>
+        <p>Dal punto di vista giuridico è spesso complicato e dipende dalle condizioni contrattuali. Holidu spesso agisce solo come intermediario. Il tuo vero partner contrattuale (e quindi il destinatario della richiesta) è il proprietario dell’immobile. Per ragioni pratiche, però, la prima lettera di reclamo dovrebbe sempre essere indirizzata a Holidu, poiché spesso dispone di un processo interno di risoluzione delle controversie o può trattenere somme (come depositi cauzionali). Il nostro PDF è quindi indirizzato principalmente all’indirizzo del portale.</p>
+      </details>
+
+      <details>
+        <summary>E se volessi annullare il viaggio?</summary>
+        <p>Se la casa è completamente inabitabile (ad es. grave contaminazione fecale, assenza di acqua corrente, rischio sanitario estremo dovuto alla muffa), puoi risolvere il contratto di locazione per giusta causa senza preavviso. In questo caso puoi chiedere il rimborso dell’intero affitto e persino il risarcimento per un hotel sostitutivo necessario.</p>
+      </details>
+    </div>
+  </div>
+
+  <div class="airline-hinweisbox">
+    <h3>Informazioni importanti sui rimborsi presso Holidu</h3>
+    <p>Holidu funge da motore di ricerca e piattaforma di intermediazione. I contratti per l'alloggio vengono stipulati con il fornitore terzo collegato o con l'host diretto. I diritti alla riduzione del canone per rumori di cantiere, dotazioni mancanti o descrizioni delle prestazioni incomplete non possono essere fatti valere legalmente contro Holidu.</p>
+</div>
+
+<div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
+  <h3>Altri argomenti interessanti:</h3>
+  <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="ferienhaus-reklamation-beschwerde-allgemein.html">Allgemeines Formular</a>
+<a href="ferienhaus-reklamation-beschwerde-atraveo.html">Atraveo</a>
+<a href="ferienhaus-reklamation-beschwerde-belvilla.html">Belvilla</a>
+<a href="ferienhaus-reklamation-beschwerde-booking.html">Booking.com</a>
+<a href="ferienhaus-reklamation-beschwerde-e-domizil.html">e-domizil</a>
+
+  </div>
+</div>
+
+<aside class="legal-sources-box" aria-labelledby="sources-title-fewo">
+    <h3 id="sources-title-fewo" class="sources-heading">Basi giuridiche</h3>
+    <p class="sources-intro">
+        Le segnalazioni dei difetti per gli alloggi vacanze si basano principalmente sulle norme generali sulla locazione:
+    </p>
+    <ul class="sources-list">
+        <li>
+            <strong>Codice civile – riduzione dell’affitto per difetti materiali e giuridici</strong>: 
+            Se il bene locato (la casa vacanze) presenta un difetto che elimina o riduce l’idoneità all’uso contrattualmente previsto, il conduttore è tenuto, per il periodo in cui il difetto persiste, a pagare solo un canone adeguatamente ridotto.
+            <br>
+            <a href="https://www.gesetze-im-internet.de/bgb/__536.html" target="_blank" rel="noopener noreferrer" class="source-link">
+                Testo ufficiale su Gesetze-im-Internet.de (BMJ)
+            </a>
+        </li>
+    </ul>
+</aside>
+</div>
+
+<div class="trust-section">
+    <h3>Competenza nel diritto dei viaggi</h3>
+    <p class="trust-text">
+        I nostri generatori si basano sull’analisi delle sentenze più recenti in materia di locazione e diritto dei viaggi. 
+        Sono sviluppati per consentire ai consumatori di far valere i propri diritti in modo efficace e alla pari.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Nota importante: i nostri strumenti offrono aiuto all’autoaiuto. Non sostituiscono una consulenza legale individuale da parte di un avvocato.
+        </span>
+    </p>
+    <a href="ueber-uns.html" class="trust-link">
+        Scopri i dettagli della metodologia giuridica →
+    </a>
+</div>
+
+<section class="site-niche-directory">
+    <div class="niche-directory-container">
+        <h2 class="niche-directory-title">Scopri altri ambiti tematici</h2>
+        <p class="niche-directory-intro">
+            Che si tratti di ritardo del volo, difetti dell’hotel o trappole del roaming, i nostri esperti hanno preparato la guida e la lettera modello adatte a quasi ogni nicchia di viaggio.
+        </p>
+        
+        <div class="niche-directory-grid">
+            <div class="niche-directory-group">
+                <h3>Volo &amp; aeroporto</h3>
+                <ul>
+                    <li><a href="flugverspaetung-info.html">Ritardo del volo &amp; cancellazione</a></li>
+                    <li><a href="steuern-info.html">Richiedere il rimborso delle tasse aeroportuali</a></li>
+                    <li><a href="gepaeck-info.html">Smarrimento bagagli &amp; danni alla valigia</a></li>
+                    
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Alloggio &amp; viaggio organizzato</h3>
+                <ul>
+                    <li><a href="hotel-maengel-info.html">Difetti dell’hotel &amp; rumore dei lavori</a></li>
+                    <li><a href="storno-info.html">Annullare il viaggio (costi)</a></li>
+                    <li><a href="ferienhaus-maengel-info.html">Case vacanze &amp; appartamenti vacanze</a></li>
+                    <li><a href="airbnb-probleme-info.html">Soluzioni ai problemi Airbnb</a></li>
+                    <li><a href="kreuzfahrt-minderung.html">Difetti nelle crociere</a></li>
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Preparazione del viaggio &amp; mobilità</h3>
+                <ul>
+                    <li><a href="zugverspaetung-info.html">Ritardo del treno &amp; diritti ferroviari</a></li>
+                    <li><a href="einreise-info.html">Norme di ingresso &amp; visto</a></li>
+                    <li><a href="esim-roaming-info.html">Costi eSIM &amp; roaming</a></li>
+                    <li><a href="mietwagen-info.html">Assicurazioni auto a noleggio</a></li>
+                   
+                    <li><a href="reisekreditkarten-info.html">Confronto carte di credito da viaggio</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Chi siamo</a> | 
+        <a href="index.html">Home</a> | 
+        <a href="impressum.html">Note legali</a> | 
+        <a href="datenschutz.html">Privacy</a>
+    </nav>
+</footer>
+
+<script>
+// Logica del calcolatore in tempo reale
+const preisInp = document.getElementById('fPreis');
+const checkboxes = document.querySelectorAll('#mangelCheckboxes input[type="checkbox"]');
+const liveAmountEl = document.getElementById('liveAmount');
+const livePercentEl = document.getElementById('livePercent');
+
+function updateCalc() {
+    let price = parseFloat(preisInp.value) || 0;
+    let totalPercent = 0;
+    
+    checkboxes.forEach(cb => {
+        if(cb.checked) totalPercent += parseInt(cb.value);
+    });
+    
+    if(totalPercent > 100) totalPercent = 100;
+    
+    let refund = (price * totalPercent) / 100;
+    
+    livePercentEl.textContent = totalPercent;
+    liveAmountEl.textContent = refund.toLocaleString('de-DE', {style: 'currency', currency: 'EUR'});
+}
+
+preisInp.addEventListener('input', updateCalc);
+checkboxes.forEach(cb => cb.addEventListener('change', updateCalc));
+
+// Generazione PDF
+document.getElementById('fewoForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+
+    const pageH = 297;
+    const marginBottom = 20;
+    const lineH = 6;
+
+    function checkNewPage(doc, y, neededHeight = lineH) {
+        if (y + neededHeight > pageH - marginBottom) {
+            doc.addPage();
+            return 30;
+        }
+        return y;
+    }
+
+    function writeLines(doc, lines, startY, lh = lineH) {
+        let y = startY;
+        for (const line of lines) {
+            y = checkNewPage(doc, y);
+            doc.text(line, 25, y);
+            y += lh;
+        }
+        return y;
+    }
+
+    const anbieter = document.getElementById('aName').value;
+    const anbieterAddr = document.getElementById('aAdresse').value.replace(/\\n/g, '\n');
+    
+    const sName = document.getElementById('sName').value;
+    const sStrasse = document.getElementById('sStrasse').value;
+    const sPLZOrt = document.getElementById('sPLZOrt').value;
+    const bIBAN = document.getElementById('bIBAN').value;
+    
+    const fBuchung = document.getElementById('fBuchung').value;
+    const fObjekt = document.getElementById('fObjekt').value;
+    const fZeitraum = document.getElementById('fZeitraum').value;
+    const fPreis = parseFloat(document.getElementById('fPreis').value) || 0;
+
+    let selectedMaengel = [];
+    let totalPercent = 0;
+    checkboxes.forEach(cb => {
+        if(cb.checked) {
+            selectedMaengel.push(`- ${cb.getAttribute('data-text')} (${cb.value}%)`);
+            totalPercent += parseInt(cb.value);
+        }
+    });
+
+    if(selectedMaengel.length === 0) {
+        alert("Seleziona almeno un difetto.");
+        return;
+    }
+
+    if(totalPercent > 100) totalPercent = 100;
+    let refundAmount = ((fPreis * totalPercent) / 100).toFixed(2).replace('.', ',');
+
+    let deadline = new Date();
+    deadline.setDate(deadline.getDate() + 14);
+    const deadlineStr = deadline.toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'});
+    const todayStr = new Date().toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'});
+
+    doc.setFont("helvetica");
+
+    // Mittente in piccolo
+    doc.setFontSize(8);
+    doc.setTextColor(100, 100, 100);
+    doc.text(`${sName} • ${sStrasse} • ${sPLZOrt}`, 25, 45);
+    doc.setLineWidth(0.2);
+    doc.setDrawColor(150, 150, 150);
+    doc.line(25, 46.5, 95, 46.5);
+
+    // Destinatario
+    doc.setFontSize(11);
+    doc.setTextColor(0, 0, 0);
+    const receiverLines = doc.splitTextToSize(anbieter + "\n" + anbieterAddr, 80);
+    doc.text(receiverLines, 25, 53);
+
+    // Blocco mittente a destra
+    doc.setFontSize(10);
+    doc.text("Mittente:", 130, 45);
+    doc.setFont("helvetica", "bold");
+    doc.text(sName, 130, 50);
+    doc.setFont("helvetica", "normal");
+    doc.text(sStrasse, 130, 55);
+    doc.text(sPLZOrt, 130, 60);
+
+    doc.text(`Data: ${todayStr}`, 185, 80, {align: 'right'});
+
+    // Oggetto
+    doc.setFontSize(12);
+    doc.setFont("helvetica", "bold");
+    doc.text(`Segnalazione difetti e richiesta di riduzione dell’affitto`, 25, 95);
+    
+    // Dati
+    doc.setFontSize(10.5);
+    doc.setFont("helvetica", "bold");
+    doc.text("Numero di prenotazione:", 25, 105);
+    doc.text("Alloggio vacanze:", 25, 110);
+    doc.text("Periodo di locazione:", 25, 115);
+    doc.text("Prezzo totale della locazione:", 25, 120);
+
+    doc.setFont("helvetica", "normal");
+    doc.text(fBuchung, 80, 105);
+    doc.text(fObjekt, 80, 110);
+    doc.text(fZeitraum, 80, 115);
+    doc.text(`${fPreis.toFixed(2).replace('.', ',')} EUR`, 80, 120);
+
+    doc.setDrawColor(0, 0, 0);
+    doc.line(25, 125, 185, 125);
+
+    let yPos = 135;
+    doc.setFontSize(11);
+
+    // Paragrafi introduttivi (adattati alla locazione)
+    const para1 = doc.splitTextToSize(
+        `Gentili Signore e Signori,\n\n` +
+        `con la presente avanzo una richiesta di riduzione dell’affitto per l’alloggio vacanze sopra indicato. L’alloggio presentava difetti rilevanti e non corrispondeva all’accordo contrattuale o alla descrizione. Ho segnalato tali difetti senza indugio sul posto all’ufficio competente/al locatore e ho chiesto un rimedio. Tuttavia, non è stata effettuata una correzione adeguata dei difetti.\n\n` +
+        `I seguenti difetti erano presenti:`,
+        160
+    );
+    yPos = writeLines(doc, para1, yPos);
+    yPos += 5;
+
+    // Elenco difetti
+    doc.setFont("helvetica", "italic");
+    selectedMaengel.forEach(mangel => {
+        const linesMangel = doc.splitTextToSize(mangel, 150);
+        linesMangel.forEach(line => {
+            yPos = checkNewPage(doc, yPos);
+            doc.text(line, 30, yPos);
+            yPos += lineH;
+        });
+    });
+    doc.setFont("helvetica", "normal");
+    yPos += 5;
+
+    // Calcolo della riduzione
+    const para2 = doc.splitTextToSize(
+        `A causa della significativa limitazione nell’utilizzabilità dell’alloggio vacanze, l’affitto si riduce per legge. Sulla base della giurisprudenza consolidata, ritengo adeguata una percentuale complessiva di riduzione pari al ${totalPercent} %.\n\n` +
+        `Ne deriva un diritto al rimborso pari a:`,
+        160
+    );
+    yPos = writeLines(doc, para2, yPos);
+    yPos += 5;
+
+    // Totale
+    yPos = checkNewPage(doc, yPos, 10);
+    doc.setFont("helvetica", "bold");
+    doc.text(`${refundAmount} EUR`, 105, yPos, { align: 'center' });
+    doc.setFont("helvetica", "normal");
+    yPos += 12;
+
+    // Termine
+    yPos = checkNewPage(doc, yPos);
+    doc.text(`Vi concedo un termine fino al seguente giorno per il pagamento di questa richiesta legittima:`, 25, yPos);
+    yPos += 10;
+
+    yPos = checkNewPage(doc, yPos, 10);
+    doc.setFont("helvetica", "bold");
+    doc.text(`>>> ${deadlineStr} (data di ricezione del pagamento) <<<`, 105, yPos, { align: 'center' });
+    doc.setFont("helvetica", "normal");
+    yPos += 12;
+
+    // IBAN
+    const para3 = doc.splitTextToSize(
+        `sul seguente conto:\n\nIntestatario: ${sName}\nIBAN: ${bIBAN}`,
+        160
+    );
+    yPos = writeLines(doc, para3, yPos);
+    yPos += 10;
+
+    // Nota giuridica
+    const para4 = doc.splitTextToSize(
+        `Se questo termine dovesse trascorrere infruttuosamente, incaricherò un legale per far valere i miei diritti. I relativi costi saranno a vostro carico come danno da mora. Mi riservo di produrre i relativi mezzi di prova (foto/video) in un eventuale procedimento. Vi prego di inoltrare questa comunicazione al proprietario dell’immobile, se necessario.`,
+        160
+    );
+    yPos = writeLines(doc, para4, yPos);
+    yPos += 15;
+
+    // Firma
+    yPos = checkNewPage(doc, yPos, 40);
+    doc.text("Cordiali saluti,", 25, yPos);
+    yPos += 25;
+
+    doc.setLineWidth(0.5);
+    doc.line(25, yPos, 80, yPos);
+    doc.line(100, yPos, 185, yPos);
+
+    doc.setFontSize(9);
+    doc.setTextColor(100, 100, 100);
+    doc.text("Luogo, data", 25, yPos + 5);
+    doc.text(`Firma (${sName})`, 100, yPos + 5);
+
+    const cleanAnbieter = anbieter.replace(/[^a-zA-Z0-9]/g, '_');
+    doc.save(`Ferienhaus_Maengel_${cleanAnbieter}_${fBuchung}.pdf`);
+    setTimeout(() => document.getElementById('donateOverlay').classList.add('active'), 800);
+});
+
+// La logica dell’overlay donazione rimane invariata...
+const PAYPAL_EMAIL = 'info@kassen-lotse.de';
+let donateAmount = 5;
+
+function selectPreset(amount, btn) {
+  donateAmount = amount;
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  document.getElementById('customAmount').value = '';
+  document.getElementById('customAmount').classList.remove('selected-custom');
+  updateDonateButton();
+}
+
+function handleCustomInput(input) {
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  const val = parseFloat(input.value);
+  if (val && val >= 1) {
+    donateAmount = val;
+    input.classList.add('selected-custom');
+  } else {
+    donateAmount = 0;
+    input.classList.remove('selected-custom');
+  }
+  updateDonateButton();
+}
+
+function updateDonateButton() {
+  const btn = document.getElementById('btnDonate');
+  if (donateAmount >= 1) {
+    btn.textContent = `Dona ora ${donateAmount % 1 === 0 ? donateAmount : donateAmount.toFixed(2)} €`;
+    btn.disabled = false;
+  } else {
+    btn.textContent = 'Inserisci un importo';
+    btn.disabled = true;
+  }
+}
+
+function openPayPal() {
+  if (donateAmount < 1) return;
+  const amountStr = donateAmount.toFixed(2);
+  const url = `https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=${encodeURIComponent(PAYPAL_EMAIL)}&amount=${amountStr}&currency_code=EUR&item_name=Fix my Trip+Unterst%C3%BCtzung&no_note=1&no_shipping=1`;
+  window.open(url, '_blank');
+  closeOverlay();
+}
+
+function closeOverlay() {
+  document.getElementById('donateOverlay').classList.remove('active');
+}
+// Chiude l’overlay quando si clicca sullo sfondo oscurato
+document.getElementById('donateOverlay').addEventListener('click', function(e) {
+  if (e.target === this) {
+    closeOverlay();
+  }
+});
+</script>
+
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Chiudi">&times;</button>
+    <div class="donate-emoji">🎉</div>
+    <h2>La tua lettera è pronta!</h2>
+    <p class="sub">Hai appena risparmiato <strong style="color:#2e7d32;">commissioni</strong> –<br>nessun intermediario, nessun costo, tutto resta a te.</p>
+    <div class="donate-hint">
+      Questo servizio è e rimane <strong>100 % gratuito</strong>. Se ti è stato utile, saremo molto felici di ricevere un piccolo contributo volontario.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Scelta rapida:</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Inserisci un importo personalizzato …" oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Dona ora 5 €</button>
+    <button class="btn-skip" onclick="closeOverlay()">No grazie, chiudo la finestra</button>
+    <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
+  
+  <!-- NEU: Affiliate Hinweis über dem Text -->
+  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
+    Annuncio / link pubblicitario
+  </span>
+
+  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
+    <strong style="color: #333;">P.S.: Parti di nuovo in aereo a breve?</strong> Proteggiti dai prossimi imprevisti di viaggio. Le vere carte di credito da viaggio non hanno canone annuo, eliminano la commissione per operazioni in valuta estera e spesso offrono una forte protezione dell’acquirente. <br>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Confronta subito i migliori fornitori e proteggiti ✈️</a>
+  </p>
+</div>
+  </div>
+</div>
+</body>
+</html>

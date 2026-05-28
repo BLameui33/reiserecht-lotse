@@ -1,0 +1,128 @@
+[
+  {
+    "slug": "sixt",
+    "name": "Sixt",
+    "schalter_taktik": "I dipendenti Sixt spesso offrono in modo molto aggressivo la protezione per pneumatici e parabrezza. Anche gli upgrade a categorie di veicoli più costose vengono spesso venduti come “particolarmente convenienti oggi”.",
+    "kaution_hinweis": "Sixt di norma blocca sulla vostra carta di credito almeno 300 € fino a 500 € come cauzione, anche per prenotazioni prepagate."
+  },
+  {
+    "slug": "europcar",
+    "name": "Europcar",
+    "schalter_taktik": "Da Europcar, allo sportello viene spesso promossa la cosiddetta “Premium Protection” (kasko completa senza franchigia), anche se l’avete già prenotata tramite un intermediario.",
+    "kaution_hinweis": "La cauzione (deposit) viene bloccata sulla carta di credito e dipende fortemente dalla categoria di veicolo prenotata (spesso 300 € - 800 €)."
+  },
+  {
+    "slug": "goldcar",
+    "name": "Goldcar",
+    "schalter_taktik": "Goldcar è nota per tattiche di upselling estremamente aggressive. Spesso ai dipendenti viene pagata una provvigione se vi vendono la loro assicurazione interna “Super Relax”. Spesso sostengono erroneamente che le assicurazioni di terze parti non siano valide.",
+    "kaution_hinweis": "Attenzione: Goldcar spesso blocca cauzioni molto elevate (fino a 1.500 €) se non acquistate la loro assicurazione. La vostra carta di credito deve avere un plafond sufficiente!"
+  },
+  {
+    "slug": "hertz",
+    "name": "Hertz",
+    "schalter_taktik": "Hertz cerca spesso di vendere la “SuperCover” e propone di modificare le condizioni del carburante (ad es. acquistare in anticipo il primo pieno). Di solito è un affare svantaggioso per voi.",
+    "kaution_hinweis": "Hertz richiede obbligatoriamente una carta di credito fisica (non una carta di debito!) intestata al nome del conducente principale per bloccare la cauzione."
+  },
+  {
+    "slug": "avis",
+    "name": "Avis",
+    "schalter_taktik": "Allo sportello Avis vengono spesso promosse con insistenza l’“Avis Inclusive” o assicurazioni aggiuntive per i passeggeri. Anche costose opzioni carburante vi vengono proposte abitualmente come “più comode”.",
+    "kaution_hinweis": "La cauzione ammonta di solito, a seconda del gruppo di veicoli, al prezzo di noleggio previsto più un importo forfettario di circa 200 € fino a 300 €."
+  },
+  {
+    "slug": "enterprise",
+    "name": "Enterprise",
+    "schalter_taktik": "Il personale è di solito molto cordiale, ma cerca comunque con costanza di vendere upgrade a pagamento o la loro “Excess Protection” (esclusione della franchigia).",
+    "kaution_hinweis": "Enterprise di norma blocca una cauzione piuttosto moderata di circa 250 € fino a 300 €, ma di solito richiede obbligatoriamente una carta di credito completa."
+  },
+  {
+    "slug": "record-go",
+    "name": "Record Go",
+    "schalter_taktik": "Potenziale di frustrazione estremamente alto: attira online con prezzi stracciati. Allo sportello viene venduta in modo estremamente aggressivo l’assicurazione “Just Go” o “Total Comfort”, spesso accompagnata dalla minaccia di cauzioni esorbitanti.",
+    "kaution_hinweis": "Se rifiutate l’assicurazione interna, viene bloccata una cauzione estremamente alta (spesso 1.500 € fino a 2.000 €). Al momento della riconsegna i danni vengono spesso cercati in modo pignolo e accurato."
+  },
+  {
+    "slug": "centauro",
+    "name": "Centauro",
+    "schalter_taktik": "Segue lo stesso modello low-cost di Goldcar: prenotare a poco, pagare caro allo sportello. La loro assicurazione interna “Smart Cover” viene spinta con ogni trucco psicologico.",
+    "kaution_hinweis": "Senza sottoscrivere la “Smart Cover” viene richiesta una cauzione di circa 1.050 € fino a 1.200 €. Le carte di debito vengono di solito accettate solo se si acquista la costosa assicurazione aggiuntiva."
+  },
+  {
+    "slug": "ok-mobility",
+    "name": "OK Mobility",
+    "schalter_taktik": "Questo fornitore spinge in modo massiccio alla sottoscrizione della “Premium Cover”. I dipendenti avvertono con insistenza anche dei più piccoli graffi, che senza la loro assicurazione verrebbero addebitati a caro prezzo.",
+    "kaution_hinweis": "Blocca cauzioni estremamente elevate (in alcuni casi ben oltre 1.500 €) se l’assicurazione interna viene rifiutata. Una documentazione video scrupolosa dei danni prima della partenza è qui assolutamente obbligatoria!"
+  },
+  {
+    "slug": "firefly",
+    "name": "Firefly",
+    "schalter_taktik": "Come marchio economico di Hertz è noto per code estremamente lunghe e upselling insistente. Le assicurazioni base di intermediari online vengono spesso denigrate come “insufficienti” o “complicate”.",
+    "kaution_hinweis": "Blocca cauzioni di circa 800 € fino a oltre 1.000 €. Spesso vengono vendute anche condizioni carburante sfavorevoli (pieno/vuoto), che gravano sulla vostra carta di credito."
+  },
+  {
+    "slug": "clickrent",
+    "name": "ClickRent",
+    "schalter_taktik": "Attira con prezzi bassi nelle località turistiche più popolari. Allo sportello si sostiene volentieri che le assicurazioni di broker esterni non aiuterebbero in caso di guasto, per imporre la tariffa interna “Relax”.",
+    "kaution_hinweis": "Regole di cauzione molto rigide: spesso vengono bloccati 1.050 € fino a 1.500 €. Se il limite sulla carta presentata non è sufficiente, di fatto si viene costretti ad acquistare l’assicurazione."
+  },
+  {
+    "slug": "alamo",
+    "name": "Alamo",
+    "schalter_taktik": "Alamo si concentra fortemente sui turisti e cerca spesso di vendere allo sportello la “Roadside Plus” (assistenza stradale estesa) e i pieni anticipati a prezzi completamente gonfiati.",
+    "kaution_hinweis": "La cauzione da Alamo è spesso relativamente bassa; di solito viene bloccato sulla carta di credito il prezzo di noleggio previsto più circa il 20% fino al 30%."
+  },
+  {
+    "slug": "budget",
+    "name": "Budget",
+    "schalter_taktik": "Come filiale più economica di Avis, Budget cerca di compensare i prezzi base più bassi con la vendita aggressiva di assicurazioni aggiuntive e dispositivi GPS allo sportello.",
+    "kaution_hinweis": "Come per la casa madre Avis, di solito viene bloccato il prezzo di noleggio più un importo forfettario di circa 200 € fino a 300 €. La carta di credito fisica è obbligatoria."
+  },
+  {
+    "slug": "thrifty",
+    "name": "Thrifty",
+    "schalter_taktik": "La filiale di Hertz è nota per proporre con insistenza allo sportello la costosa “SuperCover”, per spaventare i clienti con l’alta franchigia standard spesso prevista.",
+    "kaution_hinweis": "Thrifty blocca la cauzione in modo estremamente rigido su una carta di credito fisica del conducente principale; carte prepagate o di debito quasi mai vengono accettate allo sportello."
+  },
+  {
+    "slug": "sunny-cars",
+    "name": "Sunny Cars",
+    "schalter_taktik": "Intermediario (broker) senza sportelli propri. Il problema: il fornitore locale della flotta cerca spesso di vendere assicurazioni che avete già con il pacchetto Sunny Cars “tutto incluso”. Resistete!",
+    "kaution_hinweis": "Sunny Cars di per sé non richiede alcuna cauzione, ma il noleggiatore locale sul posto blocca una cauzione. Sunny Cars vi rimborsa tale importo in caso di danno dopo verifica."
+  },
+  {
+    "slug": "billiger-mietwagen",
+    "name": "Billiger-Mietwagen",
+    "schalter_taktik": "È solo un comparatore/intermediario. Allo sportello del fornitore locale spesso si sostiene: “Non abbiamo nulla a che fare con Billiger-Mietwagen, vi serve la nostra assicurazione.” Non firmate nulla!",
+    "kaution_hinweis": "La cauzione dipende sempre dalle condizioni generali del fornitore locale sul posto (ad es. Avis, Europcar, Goldcar). È obbligatoria una carta di credito con limite sufficiente intestata al nome del conducente principale."
+  },
+  {
+    "slug": "check24",
+    "name": "Check24",
+    "schalter_taktik": "Check24 è un puro portale di confronto senza proprie stazioni di noleggio. Anche se qui avete prenotato la protezione premium, il noleggiatore locale al ritiro cerca spesso di vendere proprie assicurazioni kasko.",
+    "kaution_hinweis": "L’importo della cauzione è determinato esclusivamente dal noleggiatore locale. Se prenotate tramite Check24 “senza cauzione”, spesso un partner si fa garante, ma leggete attentamente le clausole in piccolo."
+  },
+  {
+    "slug": "rentalcars",
+    "name": "Rentalcars",
+    "schalter_taktik": "Appartiene a Booking.com. I noleggiatori locali allo sportello avvertono spesso in modo mirato che la “copertura completa” di Rentalcars sarebbe complicata da gestire in caso di danno, per rifilarvi una propria seconda polizza.",
+    "kaution_hinweis": "La cauzione viene bloccata dal partner locale. Importante: l’assicurazione venduta da Rentalcars NON vi esonera dall’obbligo di cauzione sul posto!"
+  },
+  {
+    "slug": "auto-europe",
+    "name": "Auto Europe",
+    "schalter_taktik": "Auto Europe è un broker. Ciò significa che vi presentate allo sportello di partner come Sixt o Centauro. Questi cercheranno sempre di rifilarvi upgrade o assicurazioni extra.",
+    "kaution_hinweis": "Le regole sulla cauzione dipendono dal partner locale. Auto Europe offre spesso il “rimborso della franchigia” – sul posto, però, la cauzione deve comunque essere depositata per intero."
+  },
+  {
+    "slug": "national",
+    "name": "National",
+    "schalter_taktik": "Si concentra soprattutto sui viaggiatori d’affari negli USA e in Europa. L’upselling qui è spesso più sottile; vengono proposti principalmente costosi upgrade di veicoli alla classe premium o pacchetti pedaggio (Toll Pass).",
+    "kaution_hinweis": "La cauzione è di solito moderata (prezzo di noleggio + circa 250 €). In alcune sedi National accetta anche carte di debito, ma spesso ciò è legato all’obbligo di acquistare un’assicurazione."
+  },
+  {
+    "slug": "allgemeine-autovermietungen",
+    "name": "Autovermietungen",
+    "schalter_taktik": "Qualunque sia il fornitore: restate fermi sulle vostre posizioni! I noleggiatori spesso formano il personale a vendere costose assicurazioni aggiuntive con scenari da incubo (ad es. alti tassi di furto). Se avete già stipulato una kasko tramite un intermediario, basta quella. Non firmate nulla che non capite.",
+    "kaution_hinweis": "La regola più importante: quasi sempre vi serve una carta di credito fisica e completa (credit, non debit!) intestata al nome del conducente principale. Il limite deve essere sufficientemente alto (spesso fino a 1.500 €). Senza una carta adatta, allo sportello rischiate l’obbligo di acquistare una costosa assicurazione."
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Opodo",
+    "slug": "opodo",
+    "adresse": "Vacaciones eDreams, S.L.\nCalle de Manzanares 4\n28005 Madrid, Spanje",
+    "infobox": "Opodo fungeert als online reisbureau en bemiddelt voornamelijk bij losse diensten zoals vluchten. Bij vluchtannuleringen of vertragingen moeten uw claims op basis van de EU-verordening voor passagiersrechten rechtstreeks aan de uitvoerende luchtvaartmaatschappij worden gericht. Opodo is echter aansprakelijk voor bemiddelingsfouten en is verplicht om door de luchtvaartmaatschappij terugbetaalde ticketgelden onverwijld aan u door te sturen."
+  },
+  {
+    "name": "eDreams",
+    "slug": "edreams",
+    "adresse": "Vacaciones eDreams, S.L.\nCalle de Manzanares 4\n28005 Madrid, Spanje",
+    "infobox": "Als onderdeel van de eDreams ODIGEO-groep is eDreams een pure vluchtbemiddelaar. Voor compensatie bij vluchtannuleringen is de desbetreffende luchtvaartmaatschappij uw juridische aanspreekpunt. eDreams staat vaak in de schijnwerpers bij de terugbetaling van ticketkosten: als de luchtvaartmaatschappij het geld aan het portaal heeft terugbetaald, moet eDreams dit onverwijld aan u uitbetalen."
+  },
+  {
+    "name": "Kiwi.com",
+    "slug": "kiwi-com",
+    "adresse": "Kiwi.com s.r.o.\nPalachovo náměstí 797/4\n625 00 Brno, Tsjechië",
+    "infobox": "Kiwi.com maakt vaak gebruik van eigen boekingsmechanismen (zoals virtuele e-mails en creditcards), wat het directe contact met de luchtvaartmaatschappij kan bemoeilijken. Desondanks liggen de primaire passagiersrechten bij vluchtannuleringen bij de luchtvaartmaatschappij. Kiwi.com is echter aansprakelijk voor zelf toegezegde garanties (bijv. de Kiwi.com-garantie bij gemiste aansluitingen) en foutieve boekingsafhandelingen."
+  },
+  {
+    "name": "Booking.com Flights",
+    "slug": "booking-flights",
+    "adresse": "Booking.com B.V.\nHerengracht 597\n1017 CE Amsterdam, Nederland",
+    "infobox": "Booking.com Flights bemiddelt in vliegtickets via partners of rechtstreeks. Aangezien het hier gaat om pure bemiddeling van losse diensten, is de wet op de pakketreizen hier niet van toepassing. Claims wegens vluchtannuleringen of vertragingen moeten rechtstreeks bij de uitvoerende luchtvaartmaatschappij worden ingediend. Het portaal is uitsluitend aansprakelijk voor de correcte uitgifte van het ticket."
+  },
+  {
+    "name": "Expedia",
+    "slug": "expedia",
+    "adresse": "Expedia, Inc.\n1111 Expedia Group Way W\nSeattle, WA 98119, USA",
+    "infobox": "Expedia bemiddelt wereldwijd in vluchten. Bij een losse vluchtboeking komt de overeenkomst rechtstreeks tot stand met de luchtvaartmaatschappij, tot wie ook claims met betrekking tot de EU-passagiersrechten (annulering, vertraging) moeten worden gericht. Expedia is als bemiddelaar primair aansprakelijk voor boekingsfouten of onvoldoende wettelijk verplichte informatie voorafgaand aan de aankoop."
+  },
+  {
+    "name": "Flugladen.de",
+    "slug": "flugladen",
+    "adresse": "Travix Nederland B.V.\nPiet Heinkade 55\n1019 GM Amsterdam, Nederland",
+    "infobox": "Flugladen.de maakt deel uit van de Travix-groep. Het portaal is niet aansprakelijk voor operationele vluchtannuleringen of vertragingen – hiervoor is uitsluitend de luchtvaartmaatschappij verantwoordelijk. Mocht de luchtvaartmaatschappij de ticketprijs na een annulering crediteren en aan Travix uitbetalen, dan is het portaal wettelijk verplicht om dit bedrag zonder onredelijke vertraging aan u door te geven."
+  },
+  {
+    "name": "Trip.com",
+    "slug": "trip-com",
+    "adresse": "Trip.com Travel Singapore Pte. Ltd.\n30 Raffles Place, #29-01\nSingapore 048622",
+    "infobox": "Trip.com is een internationale bemiddelaar gevestigd in Singapore. Bij vluchtproblemen gelden de EU-passagiersrechten ten opzichte van de luchtvaartmaatschappij, mits de vlucht vanuit de EU vertrekt of wordt uitgevoerd door een EU-luchtvaartmaatschappij. Trip.com is uw juridische aanspreekpunt voor ticketingproblemen, systeemfouten of het doorsturen van terugbetalingen."
+  },
+  {
+    "name": "Gotogate",
+    "slug": "gotogate",
+    "adresse": "Etraveli Group AB\nBox 1340\n751 43 Uppsala, Zweden",
+    "infobox": "Gotogate wordt geëxploiteerd door de Zweedse Etraveli Group en bemiddelt in vluchten. Luchtvaartmaatschappijen verwijzen voor terugbetalingen vaak terug naar de bemiddelaar. Juridisch gezien is de luchtvaartmaatschappij de terugbetaling verschuldigd volgens het EU-recht. Als de luchtvaartmaatschappij het geld echter al naar Gotogate heeft overgemaakt, moet u de uitbetaling rechtstreeks van het portaal vorderen."
+  },
+  {
+    "name": "Mytrip",
+    "slug": "mytrip",
+    "adresse": "Etraveli Group AB\nBox 1340\n751 43 Uppsala, Zweden",
+    "infobox": "Mytrip is een merk van de Zweedse Etraveli Group. Als puur bemiddelingsportaal is Mytrip niet aansprakelijk voor operationele vluchtwijzigingen of annuleringen – daar zorgt de uitvoerende luchtvaartmaatschappij voor. Mytrip is echter wel verplicht om vragen aan de klantenservice correct af te handelen en ontvangen terugbetalingen van luchtvaartmaatschappijen snel door te sturen."
+  },
+  {
+    "name": "Fluege.de",
+    "slug": "fluege-de",
+    "adresse": "Invia Flights Germany GmbH\nDittrichring 18-20\n04109 Leipzig, Duitsland",
+    "infobox": "fluege.de wordt geëxploiteerd door Invia Flights Germany GmbH in Leipzig. Bij vluchtannuleringen of vertragingen is de luchtvaartmaatschappij uw directe contractpartner voor compensatie op grond van de EU-verordening voor passagiersrechten. Invia is daarentegen aansprakelijk voor de foutloze overdracht van de boeking en voor de transparante weergave van servicekosten."
+  },
+  {
+    "name": "lastminute.de",
+    "slug": "lastminute-de",
+    "adresse": "BravoNext SA\nVicolo de’ Calvi 2\n6830 Chiasso, Zwitserland",
+    "infobox": "lastminute.de (BravoNext SA) treedt op als bemiddelaar voor lijn- en chartervluchten. Claims op grond van de EU-verordening voor passagiersrechten (bijv. bij staking of een technisch defect) moeten rechtstreeks aan de luchtvaartmaatschappij worden gericht. Het portaal is aansprakelijk voor de correcte afhandeling van de boeking en moet door de luchtvaartmaatschappij vrijgegeven terugbetalingen onmiddellijk uitbetalen."
+  },
+  {
+    "name": "Cheaptickets.de",
+    "slug": "cheaptickets",
+    "adresse": "Travix Nederland B.V.\nPiet Heinkade 55\n1019 GM Amsterdam, Nederland",
+    "infobox": "Cheaptickets.de wordt geëxploiteerd door Travix Nederland. Voor operationele verstoringen zoals vertragingen of annuleringen is uitsluitend de uitvoerende luchtvaartmaatschappij aansprakelijk. Als bemiddelaar is het portaal er echter verantwoordelijk voor dat uw gegevens correct worden overgedragen en dat terugbetalingen van de luchtvaartmaatschappij transparant en snel aan u worden uitbetaald."
+  },
+  {
+    "name": "Check24 Flüge",
+    "slug": "check24-fluege",
+    "adresse": "CHECK24 Vergleichsportal Flug GmbH\nTrappentreustr. 1 - 3\n80339 München, Duitsland",
+    "infobox": "CHECK24 Flüge is een Duitse online bemiddelaar. Bij vluchtannuleringen of vertragingen moet u uw claims rechtstreeks bij de luchtvaartmaatschappij indienen. Het portaal biedt vaak een eigen terugbetalingsservice aan, maar is juridisch gezien primair aansprakelijk voor advies- en boekingsfouten en het correct doorsturen van ticketgelden."
+  },
+  {
+    "name": "Ander vluchtportaal (Algemeen sjabloon)",
+    "slug": "allgemein",
+    "adresse": "[Naam van het vluchtportaal]\n[bijv. Klantenservice / Terugbetalingen]\n[Straat en huisnummer]\n[Postcode en plaats]",
+    "infobox": "Online vluchtportalen (OTA's) zijn pure bemiddelaars. Bij vluchtannuleringen, vertragingen of bagageverlies is de uitvoerende luchtvaartmaatschappij uw directe juridische aanspreekpunt volgens de EU-verordening voor passagiersrechten. Het portaal is uitsluitend aansprakelijk voor bemiddelings- en overdrachtsfouten en voor het onverwijld doorsturen van terugbetalingen."
+  }
+]

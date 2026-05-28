@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Problemi con Airbnb e AirCover: come richiedere un rimborso | PDF</title>
+  <meta name="description" content="L'host annulla, l'appartamento è sporco o le foto erano false? Guida ai tuoi diritti con Airbnb e AirCover. Richiedi subito un rimborso (incluso generatore PDF).">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="canonical" href="https://www.fix-my-trip.com/it/airbnb-probleme-info.html">
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/airbnb-probleme-info.html">
+<link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/airbnb-probleme-info.html">
+<link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/airbnb-probleme-info.html">
+<link rel="alternate" hreflang="it" href="https://www.fix-my-trip.com/it/airbnb-probleme-info.html">
+<link rel="alternate" hreflang="nl" href="https://www.fix-my-trip.com/nl/airbnb-probleme-info.html">
+<link rel="alternate" hreflang="fr-be" href="https://www.fix-my-trip.com/fr-be/airbnb-probleme-info.html">
+<link rel="alternate" hreflang="nl-be" href="https://www.fix-my-trip.com/nl-be/airbnb-probleme-info.html">
+<link rel="alternate" hreflang="pt" href="https://www.fix-my-trip.com/pt/airbnb-probleme-info.html">
+
+<link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/airbnb-probleme-info.html">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Che cos'è AirCover per gli ospiti?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AirCover è una protezione gratuita e completa di Airbnb per ogni ospite. Si applica in caso di cancellazioni da parte dell'host entro 30 giorni dall'arrivo, problemi con il check-in o se l'alloggio non corrisponde alla descrizione."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Entro quanto tempo devo segnalare un problema ad Airbnb?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Airbnb è molto rigida su questo punto: devi segnalare un problema entro 72 ore dalla scoperta tramite l'app di Airbnb. Chi aspetta troppo a lungo spesso perde il diritto a un rimborso tramite AirCover."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Posso scrivere all'host su WhatsApp?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In teoria sì, ma in pratica è rischioso. Airbnb spesso riconosce le prove (promesse dell'host, foto dei difetti) solo se inviate tramite il sistema di messaggistica interno di Airbnb. In caso di problemi, comunica sempre solo tramite l'app."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Ricevo indietro i soldi se l'appartamento è sporco?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sì, se le carenze di pulizia sono gravi e l'host non organizza una pulizia immediata. Documenta la situazione con foto e informa tempestivamente l'assistenza Airbnb."
+      }
+    }]
+  }
+  </script>
+</head>
+<body>
+
+<header class="site-header" style="padding: 20px 0; border-bottom: 2px solid #eee; margin-bottom: 30px;">
+  <a href="index.html" style="font-size: 1.5em; font-weight: bold; text-decoration: none;">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Problemi con Airbnb e AirCover: aiuto per i rimborsi</h1>
+  
+  <p>Airbnb promette soggiorni unici, ma a volte la vacanza si trasforma in un incubo: l'host annulla poco prima dell'arrivo, l'indirizzo non esiste oppure il "designer apartment" si rivela una stanza seminterrata ammuffita. Per questi casi Airbnb ha introdotto la protezione per gli ospiti <strong>AirCover</strong>.</p>
+  
+  <p>Sebbene Airbnb prometta garanzie generose, farle valere è spesso faticoso. L'assistenza è difficile da contattare e spesso rimanda all'host. <strong>Importante:</strong> devi seguire rigorosamente le linee guida di Airbnb per riavere i tuoi soldi. Usa i nostri strumenti specializzati per documentare il problema in modo conforme e presentare un reclamo ufficiale ad Airbnb Irlanda.</p>
+
+  <div class="legal-info-box">
+    <strong>Avviso importante sull'utilizzo</strong><br>
+    Questo strumento è un <strong>generatore automatico di lettere modello</strong> (aiuto all'auto-aiuto). Inserisce semplicemente i tuoi dati in modelli giuridici standard. Non viene effettuata <strong>alcuna verifica individuale</strong> del tuo caso. Questo servizio gratuito non sostituisce una consulenza legale da parte di un avvocato. L'utilizzo avviene sotto la propria responsabilità; non viene fornita alcuna garanzia di successo.
+</div>
+
+  <div class="router-box" style="border-color: #ff385c;">
+    <h2 style="margin-top: 0; color: #ff385c;">Scegli il problema Airbnb</h2>
+    <p>Cosa è successo? Seleziona la categoria adatta per creare una lettera di reclamo PDF personalizzata per l'assistenza Airbnb:</p>
+    
+    <select id="organizerSelect">
+      <option value="">-- Qual è il problema? --</option>
+      {{AIRBNB_OPTIONS}}
+      <option value="airbnb-beschwerde-allgemein.html">Altro problema con Airbnb</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route" style="background-color: #ff385c;">Vai al generatore adatto</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Panoramica degli argomenti di aiuto Airbnb</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{AIRBNB_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Checklist di emergenza Airbnb: la regola delle 72 ore</h2>
+  <p>Airbnb spesso rifiuta i rimborsi perché gli ospiti commettono errori formali. Segui assolutamente questi passaggi:</p>
+  
+  <div class="checklist-box" id="checklistToPrint" style="border-left: 5px solid #ff385c;">
+    <h3 style="margin-top:0; color:#ff385c;">Checklist per gli ospiti Airbnb</h3>
+    <ul>
+      <li><strong>Segnalare entro 72 ore:</strong> ogni problema deve essere segnalato ad Airbnb al più tardi entro 72 ore dalla scoperta.</li>
+      <li><strong>Usare l'obbligo di chat:</strong> scrivi all'host esclusivamente tramite l'app di Airbnb. Gli screenshot di WhatsApp spesso non vengono accettati come prova.</li>
+      <li><strong>Chiedere all'host di rimediare:</strong> concedi all'host un breve termine (ad es. "pulizia entro 4 ore") prima di coinvolgere Airbnb.</li>
+      <li><strong>Foto e video:</strong> documenta subito sporco, difetti o ubicazioni errate con timestamp.</li>
+      <li><strong>Non pagare in contanti:</strong> non pagare mai in loco in contanti spese di pulizia o supplementi. Airbnb può rimborsare solo il denaro transitato tramite la piattaforma.</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('airbnb-notfall-checkliste.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+    Salva la checklist come PDF
+  </button>
+
+  <h2 style="margin-top: 40px;">Casi pratici: quando Airbnb (AirCover) deve pagare</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Esempio 1: l'host annulla il giorno dell'arrivo</h3>
+    <p>Sei con le valigie davanti alla porta e ricevi un SMS dall'host: "La casa non è disponibile, devo annullare".<br>
+    <strong>Soluzione:</strong> qui si applica la protezione della prenotazione AirCover. Airbnb deve rimborsarti l'intero importo e ti aiuta (in teoria) a trovare un alloggio comparabile o migliore. Se sorgono costi aggiuntivi, richiedili per iscritto.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Esempio 2: manca un servizio essenziale</h3>
+    <p>Prenoti un appartamento esplicitamente per lo smart working con Wi‑Fi veloce, ma sul posto non c'è alcuna connessione internet. L'host dice solo "Sorry".<br>
+    <strong>Soluzione:</strong> se manca una caratteristica essenziale dell'annuncio, hai diritto a un rimborso parziale (spesso 10-25%). Documenta il test di velocità e la comunicazione con l'host.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">Domande frequenti (FAQ) sui problemi con Airbnb</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">Cosa faccio se Airbnb rifiuta la mia richiesta AirCover?</div>
+    <div class="faq-answer">Spesso l'assistenza rifiuta nella prima fase. In questo caso, spesso aiuta solo la via ufficiale e scritta per posta/PDF al reparto legale di Airbnb Ireland UC. Il nostro generatore crea esattamente questo documento per aumentare la pressione.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Posso scrivere una recensione se ho presentato un reclamo?</div>
+    <div class="faq-answer">Sì, ma attenzione: non minacciare mai l'host con una recensione negativa per estorcere denaro ("estorsione tramite recensione"). Questo porta Airbnb a rimuovere la tua recensione e potresti perdere la protezione dell'acquirente.</div>
+  </div>
+
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">Il mio partner contrattuale è Airbnb o l'host?</div>
+    <div class="faq-answer">Dal punto di vista legale, il contratto di locazione viene concluso con l'host. Airbnb è solo il gestore dei pagamenti e l'intermediario. Tuttavia, Airbnb garantisce determinati standard tramite le condizioni AirCover. Se l'host non paga, Airbnb è il tuo primo punto di contatto per il rimborso.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Competenza sui diritti Airbnb</h3>
+    <p class="trust-text">
+        Le nostre guide si basano sui termini di utilizzo ufficiali di Airbnb (EUSA) e sulle garanzie AirCover per gli ospiti. 
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Avviso importante: questo servizio è un'iniziativa privata di auto-aiuto e non ha alcun legame con Airbnb Inc. Non offriamo consulenza legale individuale.
+        </span>
+    </p>
+
+    <a href="ueber-uns.html" class="trust-link">
+        Scopri i dettagli della metodologia giuridica →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Problemi con l'host o con l'alloggio?</strong><br>
+        Fix-My-Trip ti aiuta a far valere in modo professionale i tuoi diritti nei confronti di Airbnb. <br>
+        <em>Un servizio di Fix my Trip.</em>
+    </p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Chi siamo</a> | 
+        <a href="index.html">Home</a> | 
+        <a href="impressum.html">Note legali</a> | 
+        <a href="datenschutz.html">Privacy</a>
+    </nav>
+</footer>
+
+<script>
+function routeToGenerator() {
+    const selectElement = document.getElementById('organizerSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Seleziona prima il tipo di problema Airbnb.");
+    }
+}
+
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15,
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2,
+            scrollY: 0,
+            windowWidth: document.documentElement.offsetWidth
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

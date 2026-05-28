@@ -1,0 +1,128 @@
+[
+  {
+    "slug": "sixt",
+    "name": "Sixt",
+    "schalter_taktik": "Sixt-medewerkers bieden vaak zeer agressief banden- en ruitbescherming aan. Ook upgrades naar duurdere voertuigklassen worden graag verkocht als 'vandaag extra voordelig'.",
+    "kaution_hinweis": "Sixt blokkeert doorgaans minimaal €300 tot €500 als borg op uw creditcard, ook bij prepaidboekingen."
+  },
+  {
+    "slug": "europcar",
+    "name": "Europcar",
+    "schalter_taktik": "Bij Europcar wordt aan de balie vaak de zogenaamde 'Premium Protection' (volledige dekking zonder eigen risico) gepromoot, zelfs als u deze al via een tussenpersoon hebt geboekt.",
+    "kaution_hinweis": "De borg (deposit) wordt op de creditcard geblokkeerd en hangt sterk af van de geboekte voertuigklasse (vaak €300 - €800)."
+  },
+  {
+    "slug": "goldcar",
+    "name": "Goldcar",
+    "schalter_taktik": "Goldcar staat bekend om extreem harde upselling-tactieken. Medewerkers krijgen vaak commissie als ze u de eigen 'Super Relax'-verzekering verkopen. Ze beweren vaak ten onrechte dat verzekeringen van derden niet geldig zijn.",
+    "kaution_hinweis": "Let op: Goldcar blokkeert vaak zeer hoge borgsommen (tot €1.500) als u hun eigen verzekering niet koopt. Uw creditcard moet dit bedrag kunnen dragen!"
+  },
+  {
+    "slug": "hertz",
+    "name": "Hertz",
+    "schalter_taktik": "Hertz probeert vaak de 'SuperCover' te verkopen en speelt met tankregelingen (bijv. de eerste tankbeurt vooraf kopen). Dat is meestal een verlies voor u.",
+    "kaution_hinweis": "Hertz vereist verplicht een fysieke creditcard (geen debitcard!) op naam van de hoofdbestuurder om de borg te blokkeren."
+  },
+  {
+    "slug": "avis",
+    "name": "Avis",
+    "schalter_taktik": "Avis promoot aan de balie vaak hardnekkig de 'Avis Inclusive' of extra inzittendenverzekeringen. Ook dure tankopties worden u routinematig als 'handiger' aangeboden.",
+    "kaution_hinweis": "De borg bedraagt, afhankelijk van de voertuiggroep, meestal de verwachte huurprijs plus een vast bedrag van ongeveer €200 tot €300."
+  },
+  {
+    "slug": "enterprise",
+    "name": "Enterprise",
+    "schalter_taktik": "De medewerkers zijn meestal erg vriendelijk, maar proberen toch consequent betaalde upgrades of de eigen 'Excess Protection' (uitsluiting van eigen risico) te verkopen.",
+    "kaution_hinweis": "Enterprise blokkeert doorgaans een vrij gematigde borg van ongeveer €250 tot €300, maar vereist meestal verplicht een volwaardige creditcard."
+  },
+  {
+    "slug": "record-go",
+    "name": "Record Go",
+    "schalter_taktik": "Extreem hoog frustratiepotentieel: lokt online met spotprijzen. Aan de balie wordt extreem agressief de 'Just Go'- of 'Total Comfort'-verzekering verkocht, vaak gepaard met de dreiging van torenhoge borgsommen.",
+    "kaution_hinweis": "Als u de eigen verzekering weigert, wordt een extreem hoge borg (vaak €1.500 tot €2.000) geblokkeerd. Schade wordt bij inlevering vaak uiterst nauwkeurig gezocht."
+  },
+  {
+    "slug": "centauro",
+    "name": "Centauro",
+    "schalter_taktik": "Volgt hetzelfde low-cost patroon als Goldcar: goedkoop boeken, duur betalen aan de balie. De eigen 'Smart Cover'-verzekering wordt met alle psychologische trucs gepusht.",
+    "kaution_hinweis": "Zonder afsluiting van 'Smart Cover' wordt een borg van ca. €1.050 tot €1.200 gevraagd. Debitcards worden meestal alleen geaccepteerd als men de dure aanvullende verzekering koopt."
+  },
+  {
+    "slug": "ok-mobility",
+    "name": "OK Mobility",
+    "schalter_taktik": "Deze aanbieder dringt sterk aan op het afsluiten van 'Premium Cover'. Medewerkers waarschuwen nadrukkelijk voor de kleinste krasjes, die zonder hun verzekering zeer duur zouden worden doorberekend.",
+    "kaution_hinweis": "Blokkeert extreem hoge borgsommen (soms ruim boven €1.500) als de eigen verzekering wordt geweigerd. Een nauwkeurige schadevastlegging per video vóór vertrek is hier absoluut verplicht!"
+  },
+  {
+    "slug": "firefly",
+    "name": "Firefly",
+    "schalter_taktik": "Als budgetlabel van Hertz berucht om extreem lange wachtrijen en hardnekkige upselling. Basisverzekeringen van online tussenpersonen worden vaak slechtgemaakt als 'onvoldoende' of 'ingewikkeld'.",
+    "kaution_hinweis": "Blokkeert borgsommen van ca. €800 tot boven €1.000. Vaak worden ook ongunstige tankregelingen (vol/leeg) verkocht die uw creditcard belasten."
+  },
+  {
+    "slug": "clickrent",
+    "name": "ClickRent",
+    "schalter_taktik": "Lokt met lage prijzen op populaire vakantiebestemmingen. Aan de balie wordt graag beweerd dat externe brokerverzekeringen niet zouden helpen bij pech, om het eigen 'Relax'-tarief door te drukken.",
+    "kaution_hinweis": "Zeer strenge borgregels: er wordt vaak €1.050 tot €1.500 geblokkeerd. Ontbreekt het limiet op de getoonde kaart, dan wordt men de facto gedwongen de verzekering te kopen."
+  },
+  {
+    "slug": "alamo",
+    "name": "Alamo",
+    "schalter_taktik": "Alamo richt zich sterk op vakantiegangers en probeert aan de balie vaak 'Roadside Plus' (uitgebreide pechhulp) en vooraf betaalde tankbeurten tegen volledig overdreven prijzen te verkopen.",
+    "kaution_hinweis": "De borg is bij Alamo vaak relatief laag; meestal wordt de verwachte huurprijs plus ca. 20% tot 30% op de creditcard geblokkeerd."
+  },
+  {
+    "slug": "budget",
+    "name": "Budget",
+    "schalter_taktik": "Als het goedkopere dochterbedrijf van Avis probeert Budget de lagere basisprijzen te compenseren door de agressieve verkoop van aanvullende verzekeringen en gps-apparaten aan de balie.",
+    "kaution_hinweis": "Net als bij moederbedrijf Avis wordt meestal de huurprijs plus een vast bedrag van ca. €200 tot €300 geblokkeerd. Een fysieke creditcard is verplicht."
+  },
+  {
+    "slug": "thrifty",
+    "name": "Thrifty",
+    "schalter_taktik": "De Hertz-dochter staat erom bekend aan de balie intensief haar dure 'SuperCover' aan te bieden, om klanten bang te maken voor het vaak hoge reguliere eigen risico.",
+    "kaution_hinweis": "Thrifty blokkeert de borg uiterst strikt op een fysieke creditcard van de hoofdbestuurder; prepaid- of debitcards worden aan de balie bijna nooit geaccepteerd."
+  },
+  {
+    "slug": "sunny-cars",
+    "name": "Sunny Cars",
+    "schalter_taktik": "Tussenpersoon (broker) zonder eigen balies. Het probleem: de lokale wagenparkaanbieder probeert vaak verzekeringen te verkopen die u via het Sunny Cars 'alles-inclusief'-pakket al hebt. Blijf standvastig!",
+    "kaution_hinweis": "Sunny Cars zelf vraagt geen borg, maar de lokale verhuurder ter plaatse blokkeert wel een borg. Sunny Cars betaalt dit bedrag in geval van schade na controle aan u terug."
+  },
+  {
+    "slug": "billiger-mietwagen",
+    "name": "Billiger-Mietwagen",
+    "schalter_taktik": "Is alleen een prijsvergelijker/tussenpersoon. Aan de balie van de lokale aanbieder wordt vaak gezegd: 'Wij hebben niets met Billiger-Mietwagen te maken, u hebt onze verzekering nodig.' Niets ondertekenen!",
+    "kaution_hinweis": "De borg hangt altijd af van de algemene voorwaarden van de lokale aanbieder ter plaatse (bijv. Avis, Europcar, Goldcar). U hebt verplicht een creditcard met voldoende limiet op naam van de hoofdbestuurder nodig."
+  },
+  {
+    "slug": "check24",
+    "name": "Check24",
+    "schalter_taktik": "Check24 is een puur vergelijkingsportaal zonder eigen verhuurstations. Ook als u hier de premiumdekking hebt geboekt, probeert de lokale verhuurder bij het ophalen vaak eigen cascoverzekeringen te verkopen.",
+    "kaution_hinweis": "De hoogte van de borg wordt uitsluitend bepaald door de lokale verhuurder. Als u via Check24 'zonder borg' boekt, staat vaak een partner garant - lees echter de kleine lettertjes zorgvuldig."
+  },
+  {
+    "slug": "rentalcars",
+    "name": "Rentalcars",
+    "schalter_taktik": "Behoort tot Booking.com. Lokale verhuurders waarschuwen aan de balie vaak specifiek dat de 'volledige dekking' van Rentalcars in geval van schade ingewikkeld zou zijn af te handelen, om u een eigen, tweede polis aan te smeren.",
+    "kaution_hinweis": "De borg wordt geblokkeerd door de lokale partner. Belangrijk: de door Rentalcars verkochte verzekering ontslaat u NIET van de borgplicht ter plaatse!"
+  },
+  {
+    "slug": "auto-europe",
+    "name": "Auto Europe",
+    "schalter_taktik": "Auto Europe is een broker. Dat betekent dat u aan de balie staat bij partners zoals Sixt of Centauro. Die zullen altijd proberen u upgrades of extra verzekeringen aan te praten.",
+    "kaution_hinweis": "Borgregels hangen af van de lokale partner. Auto Europe biedt vaak 'terugbetaling van het eigen risico' aan - ter plaatse moet de borg echter alsnog volledig worden gestort."
+  },
+  {
+    "slug": "national",
+    "name": "National",
+    "schalter_taktik": "Richt zich eerder op zakenreizigers in de VS en Europa. Upselling is hier vaak subtieler; vooral dure voertuigupgrades naar de premiumklasse of tolpakketten (Toll Pass) worden aangeboden.",
+    "kaution_hinweis": "De borg is meestal gematigd (huurprijs + ca. €250). National accepteert op sommige locaties ook debitcards, maar dan vaak in combinatie met een verplichte verzekering."
+  },
+  {
+    "slug": "allgemeine-autovermietungen",
+    "name": "Autoverhuurders",
+    "schalter_taktik": "Bij welke aanbieder dan ook: blijf standvastig! Verhuurders trainen hun personeel vaak om met horrorscenario's (bijv. hoge diefstalcijfers) dure aanvullende verzekeringen te verkopen. Als u vooraf via een tussenpersoon een cascoverzekering hebt afgesloten, is dat voldoende. Onderteken niets wat u niet begrijpt.",
+    "kaution_hinweis": "De belangrijkste regel: u hebt bijna altijd een fysieke, volwaardige creditcard (credit, niet debit!) op naam van de hoofdbestuurder nodig. Het limiet moet hoog genoeg zijn (vaak tot €1.500). Zonder passende kaart dreigt aan de balie de verplichte aankoop van een dure verzekering."
+  }
+]

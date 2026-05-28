@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Cancellazione da parte dell'host",
+        "slug": "gastgeber-storniert-kurzfristig",
+        "beschreibung": "L'host ha annullato la tua prenotazione con poco preavviso e ti ritrovi senza alloggio? Ti aiutiamo a richiedere il rimborso completo e, se del caso, il risarcimento dei danni per i costi aggiuntivi di un hotel sostitutivo."
+    },
+    {
+        "name": "Muffa, sporco e parassiti",
+        "slug": "dreck-schimmel-ungeziefer",
+        "beschreibung": "Muffa in bagno, scarafaggi in cucina o semplicemente biancheria da letto sporca? Difetti igienici di questo tipo non devi accettarli. Documenta tutto per il tuo rimborso AirCover."
+    },
+    {
+        "name": "Dati falsi e foto false",
+        "slug": "falsche-angaben-fake-fotos",
+        "beschreibung": "La villa di lusso si rivela essere un appartamento seminterrato oppure le foto nell'annuncio erano completamente obsolete? Se l'immobile non corrisponde alla descrizione, hai diritto a una significativa riduzione del prezzo."
+    },
+    {
+        "name": "Dotazioni mancanti (Wi‑Fi, piscina, aria condizionata)",
+        "slug": "ausstattung-fehlt-defekt",
+        "beschreibung": "Niente Wi‑Fi nonostante la pianificazione del lavoro da casa oppure la piscina pubblicizzata è verde e inutilizzabile? La mancanza di dotazioni garantite ti dà diritto a una riduzione del canone di locazione."
+    },
+    {
+        "name": "Deposito cauzionale trattenuto illegittimamente",
+        "slug": "kaution-unrechtmaessig-einbehalten",
+        "beschreibung": "Dopo la partenza l'host sostiene che ci siano danni che non hai causato e trattiene il deposito cauzionale? Difenditi da richieste ingiustificate e richiedi indietro il tuo denaro."
+    },
+    {
+        "name": "Protezione acquisti AirCover rifiutata",
+        "slug": "aircover-abgelehnt-geld-zurueck",
+        "beschreibung": "Airbnb ha chiuso il tuo caso o ha rifiutato il rimborso, nonostante il difetto fosse evidente? Aumenta la pressione con una comunicazione legale ufficiale indirizzata all'ufficio legale."
+    },
+    {
+        "name": "Problema generale con Airbnb",
+        "slug": "allgemein",
+        "beschreibung": "Il tuo problema specifico non è elencato sopra? Nessun problema. Utilizza questo modulo generale per contestare in modo legalmente valido qualsiasi difetto su Airbnb."
+    }
+]

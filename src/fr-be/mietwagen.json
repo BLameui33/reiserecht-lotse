@@ -1,0 +1,128 @@
+[
+  {
+    "slug": "sixt",
+    "name": "Sixt",
+    "schalter_taktik": "Les employés de Sixt proposent souvent de manière très agressive une protection des pneus et des vitres. Les surclassements vers des catégories de véhicules plus chères sont également volontiers présentés comme étant « particulièrement avantageux aujourd’hui ».",
+    "kaution_hinweis": "Sixt bloque généralement au moins 300 € à 500 € comme caution sur votre carte de crédit, même pour les réservations prépayées."
+  },
+  {
+    "slug": "europcar",
+    "name": "Europcar",
+    "schalter_taktik": "Chez Europcar, la soi-disant « Premium Protection » (assurance tous risques sans franchise) est souvent proposée au comptoir, même si vous l’avez déjà réservée via un intermédiaire.",
+    "kaution_hinweis": "La caution (deposit) est bloquée sur la carte de crédit et dépend fortement de la catégorie de véhicule réservée (souvent 300 € - 800 €)."
+  },
+  {
+    "slug": "goldcar",
+    "name": "Goldcar",
+    "schalter_taktik": "Goldcar est réputé pour ses tactiques de vente additionnelle extrêmement agressives. Les employés reçoivent souvent une commission lorsqu’ils vous vendent l’assurance maison « Super Relax ». Ils prétendent souvent à tort que les assurances de tiers ne sont pas valables.",
+    "kaution_hinweis": "Attention : Goldcar bloque souvent des cautions très élevées (jusqu’à 1.500 €) si vous n’achetez pas leur propre assurance. Votre carte de crédit doit pouvoir supporter ce montant !"
+  },
+  {
+    "slug": "hertz",
+    "name": "Hertz",
+    "schalter_taktik": "Hertz essaie souvent de vendre la « SuperCover » et propose de modifier les conditions de carburant (par ex. acheter à l’avance le premier plein). C’est généralement une mauvaise affaire pour vous.",
+    "kaution_hinweis": "Hertz exige impérativement une carte de crédit physique (pas de carte de débit !) au nom du conducteur principal pour bloquer la caution."
+  },
+  {
+    "slug": "avis",
+    "name": "Avis",
+    "schalter_taktik": "Au comptoir, Avis fait souvent la promotion insistante de l’« Avis Inclusive » ou d’assurances supplémentaires pour les passagers. Des options de carburant coûteuses vous sont également proposées de manière routinière comme étant « plus pratiques ».",
+    "kaution_hinweis": "La caution correspond généralement, selon la catégorie de véhicule, au prix de location estimé plus un forfait d’environ 200 € à 300 €."
+  },
+  {
+    "slug": "enterprise",
+    "name": "Enterprise",
+    "schalter_taktik": "Les employés sont généralement très aimables, mais essaient néanmoins systématiquement de vendre des surclassements payants ou la propre « Excess Protection » (exclusion de franchise) de la société.",
+    "kaution_hinweis": "Enterprise bloque généralement une caution plutôt modérée d’environ 250 € à 300 €, mais exige le plus souvent une véritable carte de crédit."
+  },
+  {
+    "slug": "record-go",
+    "name": "Record Go",
+    "schalter_taktik": "Potentiel de frustration extrêmement élevé : attire avec des prix dérisoires en ligne. Au comptoir, l’assurance « Just Go » ou « Total Comfort » est vendue de manière extrêmement agressive, souvent accompagnée de la menace de cautions exorbitantes.",
+    "kaution_hinweis": "Si vous refusez l’assurance maison, une caution extrêmement élevée (souvent 1.500 € à 2.000 €) est bloquée. Les dommages sont souvent recherchés avec une minutie extrême lors de la restitution."
+  },
+  {
+    "slug": "centauro",
+    "name": "Centauro",
+    "schalter_taktik": "Suit le même modèle low-cost que Goldcar : réserver à bas prix, payer cher au comptoir. L’assurance maison « Smart Cover » est poussée avec toutes sortes de techniques psychologiques.",
+    "kaution_hinweis": "Sans souscrire au « Smart Cover », une caution d’environ 1.050 € à 1.200 € est exigée. Les cartes de débit ne sont généralement acceptées que si l’on achète l’assurance complémentaire coûteuse."
+  },
+  {
+    "slug": "ok-mobility",
+    "name": "OK Mobility",
+    "schalter_taktik": "Ce prestataire pousse fortement à la souscription du « Premium Cover ». Les employés mettent en garde de manière insistante contre les moindres rayures, qui seraient facturées très cher sans leur assurance.",
+    "kaution_hinweis": "Bloque des cautions extrêmement élevées (parfois bien au-delà de 1.500 €) si l’assurance maison est refusée. Une documentation vidéo minutieuse des dommages avant le départ est ici absolument obligatoire !"
+  },
+  {
+    "slug": "firefly",
+    "name": "Firefly",
+    "schalter_taktik": "En tant que filiale low-cost de Hertz, Firefly est réputée pour ses files d’attente extrêmement longues et son upselling persistant. Les assurances de base des intermédiaires en ligne sont souvent dénigrées comme étant « insuffisantes » ou « compliquées ».",
+    "kaution_hinweis": "Bloque des cautions d’environ 800 € à plus de 1.000 €. Des conditions de carburant défavorables (plein/vide) sont souvent également vendues, ce qui pèse sur votre carte de crédit."
+  },
+  {
+    "slug": "clickrent",
+    "name": "ClickRent",
+    "schalter_taktik": "Attire avec des prix bas dans des destinations de vacances populaires. Au comptoir, il est volontiers affirmé que les assurances de courtiers externes n’aideraient pas en cas de panne, afin d’imposer le tarif maison « Relax ».",
+    "kaution_hinweis": "Règles de caution très strictes : 1.050 € à 1.500 € sont souvent bloqués. Si la limite de la carte présentée est insuffisante, on est de facto contraint d’acheter l’assurance."
+  },
+  {
+    "slug": "alamo",
+    "name": "Alamo",
+    "schalter_taktik": "Alamo se concentre fortement sur les vacanciers et essaie souvent de vendre au comptoir la « Roadside Plus » (assistance dépannage étendue) ainsi que des pleins de carburant prépayés à des prix totalement excessifs.",
+    "kaution_hinweis": "La caution est souvent relativement faible chez Alamo ; en général, le prix de location estimé plus environ 20 % à 30 % est bloqué sur la carte de crédit."
+  },
+  {
+    "slug": "budget",
+    "name": "Budget",
+    "schalter_taktik": "En tant que filiale plus économique d’Avis, Budget tente de compenser ses prix de base plus bas par la vente agressive d’assurances complémentaires et d’appareils GPS au comptoir.",
+    "kaution_hinweis": "Comme chez la maison mère Avis, le prix de location plus un forfait d’environ 200 € à 300 € est généralement bloqué. Une carte de crédit physique est impérativement requise."
+  },
+  {
+    "slug": "thrifty",
+    "name": "Thrifty",
+    "schalter_taktik": "La filiale de Hertz est connue pour proposer intensivement au comptoir sa coûteuse « SuperCover », afin d’effrayer les clients avec la franchise souvent élevée de l’assurance standard.",
+    "kaution_hinweis": "Thrifty bloque la caution de manière extrêmement stricte sur une carte de crédit physique du conducteur principal ; les cartes prépayées ou de débit sont presque jamais acceptées au comptoir."
+  },
+  {
+    "slug": "sunny-cars",
+    "name": "Sunny Cars",
+    "schalter_taktik": "Intermédiaire (broker) sans comptoir propre. Le problème : le loueur local essaie souvent de vendre des assurances que vous avez déjà via le forfait « tout compris » de Sunny Cars. Tenez bon !",
+    "kaution_hinweis": "Sunny Cars ne demande pas elle-même de caution, mais le loueur local sur place bloque une caution. Sunny Cars vous rembourse ce montant en cas de sinistre après vérification."
+  },
+  {
+    "slug": "billiger-mietwagen",
+    "name": "Billiger-Mietwagen",
+    "schalter_taktik": "N’est qu’un comparateur de prix/intermédiaire. Au comptoir du prestataire local, il est souvent affirmé : « Nous n’avons rien à voir avec Billiger-Mietwagen, vous avez besoin de notre assurance. » Ne signez rien !",
+    "kaution_hinweis": "La caution dépend toujours des conditions générales du prestataire local sur place (par ex. Avis, Europcar, Goldcar). Vous avez impérativement besoin d’une carte de crédit avec une limite suffisante au nom du conducteur principal."
+  },
+  {
+    "slug": "check24",
+    "name": "Check24",
+    "schalter_taktik": "Check24 est un simple portail de comparaison sans ses propres agences de location. Même si vous y avez réservé la protection premium, le loueur local essaie souvent, lors de la prise en charge, de vendre ses propres assurances casco.",
+    "kaution_hinweis": "Le montant de la caution est déterminé exclusivement par le loueur local. Si vous réservez via Check24 « sans caution », un partenaire prend souvent la garantie en charge – mais lisez attentivement les petites lignes."
+  },
+  {
+    "slug": "rentalcars",
+    "name": "Rentalcars",
+    "schalter_taktik": "Appartient à Booking.com. Les loueurs locaux avertissent souvent au comptoir de manière ciblée que la « couverture complète » de Rentalcars serait compliquée à gérer en cas de sinistre, afin de vous vendre une deuxième police propre.",
+    "kaution_hinweis": "La caution est bloquée par le partenaire local. Important : l’assurance vendue par Rentalcars ne vous dispense PAS de l’obligation de caution sur place !"
+  },
+  {
+    "slug": "auto-europe",
+    "name": "Auto Europe",
+    "schalter_taktik": "Auto Europe est un broker. Cela signifie que vous vous trouvez au comptoir de partenaires comme Sixt ou Centauro. Ceux-ci essaieront toujours de vous vendre des surclassements ou des assurances supplémentaires.",
+    "kaution_hinweis": "Les règles de caution dépendent du partenaire local. Auto Europe propose souvent le « remboursement de la franchise » – sur place, la caution doit néanmoins être déposée en totalité."
+  },
+  {
+    "slug": "national",
+    "name": "National",
+    "schalter_taktik": "Se concentre plutôt sur les voyageurs d’affaires aux États-Unis et en Europe. L’upselling est ici souvent plus subtil ; on propose principalement des surclassements coûteux vers la catégorie premium ou des forfaits de péage (Toll Pass).",
+    "kaution_hinweis": "La caution est généralement modérée (prix de location + env. 250 €). National accepte aussi, dans certains sites, les cartes de débit, mais souvent avec obligation de souscrire une assurance."
+  },
+  {
+    "slug": "allgemeine-autovermietungen",
+    "name": "Autovermietungen",
+    "schalter_taktik": "Quel que soit le prestataire : restez ferme ! Les loueurs forment souvent leur personnel à vendre des assurances complémentaires coûteuses en brandissant des scénarios catastrophes (par ex. taux de vol élevés). Si vous avez souscrit à l’avance une assurance tous risques via un intermédiaire, cela suffit. Ne signez rien que vous ne comprenez pas.",
+    "kaution_hinweis": "La règle la plus importante : vous avez presque toujours besoin d’une carte de crédit physique et complète (credit, pas debit !) au nom du conducteur principal. La limite doit être suffisamment élevée (souvent jusqu’à 1.500 €). Sans carte appropriée, le comptoir peut vous contraindre à acheter une assurance coûteuse."
+  }
+]

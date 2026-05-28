@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Trenitalia vertraging: gratis compensatie (PDF)</title>
+
+  <meta name="description" content="Trein vertraagd of aansluiting gemist? Maak gratis de officiële claimbrief aan Trenitalia en krijg tot 50% van de ticketprijs terug.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://www.fix-my-trip.com/nl-be/zugverspaetung-entschaedigung-trenitalia.html">
+
+    <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/zugverspaetung-entschaedigung-trenitalia.html">
+<link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/zugverspaetung-entschaedigung-trenitalia.html">
+<link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/zugverspaetung-entschaedigung-trenitalia.html">
+<link rel="alternate" hreflang="it" href="https://www.fix-my-trip.com/it/zugverspaetung-entschaedigung-trenitalia.html">
+<link rel="alternate" hreflang="nl" href="https://www.fix-my-trip.com/nl/zugverspaetung-entschaedigung-trenitalia.html">
+<link rel="alternate" hreflang="fr-be" href="https://www.fix-my-trip.com/fr-be/zugverspaetung-entschaedigung-trenitalia.html">
+<link rel="alternate" hreflang="nl-be" href="https://www.fix-my-trip.com/nl-be/zugverspaetung-entschaedigung-trenitalia.html">
+<link rel="alternate" hreflang="pt" href="https://www.fix-my-trip.com/pt/zugverspaetung-entschaedigung-trenitalia.html">
+
+<link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/zugverspaetung-entschaedigung-trenitalia.html">
+
+  <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="/logo-lotse-fav.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "PDF-generator: rechten bij Trenitalia afdwingen",
+    "applicationCategory": "LegalApplication",
+    "operatingSystem": "All",
+    "description": "Gratis tool voor het berekenen van compensatie en het opstellen van een juridisch voorbeeldschrijven aan Trenitalia.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+    }
+  }
+  </script>
+
+  <!-- FAQ Schema für maximale Präsenz in den Google Rich Snippets -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Moet Trenitalia ook betalen bij slecht weer of noodgevallen met een arts?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sinds de hervorming in juni 2023 geldt een belangrijke wijziging: bij buitengewone omstandigheden (zoals extreem noodweer, kabeldiefstal of personen op het spoor) vervalt het recht op de 25% of 50% financiële compensatie. Bij stakingen van het eigen personeel, wisselstoringen of defecten aan treinen moet Trenitalia echter wel betalen."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is er geld terug bij het Deutschlandticket (49-euroticket)?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, maar het is ingewikkelder. Het Deutschlandticket geldt als een afgeprijsde tijdkaart. Per vertraging vanaf 60 minuten heeft u recht op een forfaitair bedrag van 1,50 euro. Omdat uitbetalingen onder 4 euro wettelijk niet plaatsvinden, moet u tijdens de geldigheidsmaand minstens drie vertragingen verzamelen (3 x 1,50 € = 4,50 €) en deze gezamenlijk indienen. Het maximale terugbetalingsbedrag per maand is beperkt tot 25% van de ticketprijs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Mag ik een duurdere ICE nemen als mijn regionale trein uitvalt?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In principe wel, als een aankomstvertraging van minstens 20 minuten dreigt. U moet echter eerst zelf een geldig ICE-ticket kopen en dit daarna ter terugbetaling indienen bij het servicecentrum voor passagiersrechten. Belangrijk: deze regeling geldt uitdrukkelijk NIET voor het Deutschlandticket! Wie met het 49-euroticket in de ICE stapt, blijft met de kosten zitten."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+  <span style="font-size: 0.9em; color: #666;">Passagiersrechten trein & OV</span>
+</header>
+
+<div class="page-container">
+
+  <!-- Above the Fold: Klare Lösung für ein frustrierendes Alltagsproblem -->
+  <h1>Trenitalia vertraging? Tot 50% vergoeding juridisch afdwingen</h1>
+  
+  <div class="usp-bar">
+    <div class="usp-item">Officieel adres geïntegreerd</div>
+    <div class="usp-item">Gebaseerd op EU-verordening 2021/782</div>
+    <div class="usp-item">100% gratis & direct PDF</div>
+  </div>
+
+  <div class="info-box red">
+    <p><strong>Het formulier voor uw geld:</strong> Weer gestrand op een tochtig station of de reddende aansluitende trein gemist? Vanaf 60 minuten vertraging op uw eindstation heeft u wettelijk recht op een gedeeltelijke terugbetaling van uw ticketprijs. Vul dit formulier in en genereer met één klik een juridisch correct schrijven aan het centrale <strong>servicecentrum voor passagiersrechten</strong>. Geen onoverzichtelijk app-gedoe, maar een formeel onderbouwde aanvraag voor de post of het loket bij Trenitalia.</p>
+  </div>
+
+  <div class="legal-info-box">
+    <strong>Belangrijke gebruiksopmerking</strong><br>
+    Deze tool is een <strong>geautomatiseerde generator voor voorbeeldbrieven</strong> (hulp tot zelfhulp). Uw gegevens worden alleen in juridische standaardtemplates ingevoegd. Er vindt <strong>geen individuele beoordeling</strong> van uw zaak plaats. Deze gratis service vervangt geen juridisch advies van een advocaat. Gebruik is op eigen verantwoordelijkheid; er wordt geen succesgarantie gegeven.
+</div>
+
+  <div class="highlight-box pruefdatum-box" role="note" aria-label="Redactioneel gecontroleerd" style="margin-top: 15px; margin-bottom: 30px;">
+    <p><strong>Redactioneel gecontroleerd op:</strong> <span id="pruefdatum">05.05.2026</span></p>
+  </div>
+
+  <!-- Lesson Learned Affiliate Box: Zugverspätung -->
+<div class="lesson-learned-box" style="background: #f8f9fa; border-left: 4px solid #ffb300; padding: 15px 20px; margin: 30px 0; border-radius: 4px; display: flex; align-items: flex-start; gap: 15px; position: relative;">
+  
+  <span style="font-size: 0.7rem; color: #666; background: #eee; padding: 2px 6px; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.05em; position: absolute; top: 10px; right: 10px;">
+    Advertentie
+  </span>
+
+  <div style="font-size: 2em; line-height: 1;">💡</div>
+  <div>
+    <h4 style="margin: 0 0 5px 0; color: #333; font-size: 1.1em; padding-right: 60px;">Tip voor de volgende treinreis</h4>
+    <p style="margin: 0 0 10px 0; font-size: 0.95em; color: #555;">
+      's Nachts gestrand op het station omdat de aansluitende trein weg is? Wie spontaan moet voorschieten voor een noodhotel, huurauto of taxi, profiteert enorm van een echte reiscreditcard. Veel premiumkaarten hebben bovendien een reiscomfortverzekering ingebouwd die precies zulke extra kosten bij vertragingen eenvoudig vergoedt.
+    </p>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #9d2121; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">
+      Reiscreditcards met premium bescherming vergelijken
+    </a>
+  </div>
+</div>
+
+  <!-- Formular-Bereich (Struktur & IDs unangetastet) -->
+  <form id="trainForm">
+    <fieldset>
+      <legend>1. Uw gegevens & bankrekening</legend>
+      <label>Uw voor- en achternaam:</label>
+      <input type="text" id="sName" placeholder="bijv. Max Mustermann" required>
+      <label>Straat en huisnummer:</label>
+      <input type="text" id="sStrasse" placeholder="bijv. Bahnhofstraße 1" required>
+      <label>Postcode en plaats:</label>
+      <input type="text" id="sPLZOrt" placeholder="bijv. 12345 Berlin" required>
+      <label>IBAN voor de uitbetaling:</label>
+      <input type="text" id="bIBAN" placeholder="DE..." required>
+    </fieldset>
+
+    <fieldset>
+      <legend>2. De reisgegevens</legend>
+      <label>Datum van de reis:</label>
+      <input type="date" id="fDatum" required>
+      <label>Ordernummer / ticketnummer (te vinden op het ticket):</label>
+      <input type="text" id="fTicket" placeholder="bijv. XWVU12" required>
+      <label>Vertrekstation:</label>
+      <input type="text" id="fStart" placeholder="bijv. München Hbf" required>
+      <label>Gepland eindstation:</label>
+      <input type="text" id="fZiel" placeholder="bijv. Hamburg Hbf" required>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. De vertraging</legend>
+      <label>Hoeveel later bent u op uw bestemming aangekomen?</label>
+      <select id="fVerspaetung" required>
+        <option value="60">Tussen 60 en 119 minuten (25% vergoeding)</option>
+        <option value="120">Meer dan 120 minuten (50% vergoeding)</option>
+        <option value="cancel">Reis volledig uitgevallen (100% vergoeding / annulering)</option>
+      </select>
+
+      <label>Wat was de reden? (Optioneel, maar helpt bij de verwerking):</label>
+      <select id="fGrund">
+        <option value="Zug hatte Verspätung">Trein had vertraging</option>
+        <option value="Anschlusszug verpasst">Aansluitende trein gemist</option>
+        <option value="Zug ist komplett ausgefallen">Trein is volledig uitgevallen</option>
+        <option value="Personalmangel / Streik">Personeelstekort of staking</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>4. Ontvanger van de claim</legend>
+      <label>Adres van de aanbieder:</label>
+      <textarea id="rAddress" rows="4" style="width: 100%; font-family: inherit; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">Trenitalia S.p.A.
+Ufficio Reclami e Rimborsi
+Piazza della Croce Rossa 1
+00161 Rome
+Italië</textarea>
+      <small style="color: #666;">Dit is het officiële adres van Trenitalia. U kunt dit indien nodig aanvullen.</small>
+    </fieldset>
+    <p style="font-size: 0.8em; color: #666; margin-top: 5px; line-height: 1.3;">
+  💡 <strong>Opmerking:</strong> Standaard wordt hier het centrale of regionale adres van de aanbieder weergegeven. U kunt dit adres op elk moment wijzigen en in plaats daarvan het adres van de lokale vestiging in uw land invoeren.
+</p>
+
+    <div class="submit-area">
+    <p class="submit-disclaimer">
+        Door op "PDF genereren" te klikken, begrijpt u dat deze geautomatiseerde service<br>geen juridisch advies vormt en dat u de claim op eigen verantwoordelijkheid indient.
+    </p>
+    <button type="submit" class="button-primary">📄 PDF genereren</button>
+</div>
+  </form>
+
+  <!-- Uitgebreide SEO-contentruimte -->
+  <div class="seo-content">
+    <h2>Uw passagiersrechten bij Trenitalia in detail</h2>
+    <p>Wie regelmatig met de intercity, de sneltrein of de lokale trein van Trenitalia reist, kent het probleem: uitvallende treinen, seinstoringen en gemiste aansluitingen kosten tijd en zenuwen. Het goede nieuws: als de dienstregeling volledig ontregeld raakt, beschermt het Europese spoorwegrecht u. De EU-verordening passagiersrechten (VO 2021/782) regelt bindend hoeveel compensatie u toekomt — en die geldt voor alle vervoerders in België, inclusief de NMBS en internationale operatoren zoals Eurostar en Thalys (Eurostar International).</p>
+
+    <h3>Trenitalia: hoe hoog is de wettelijke minimumvergoeding bij vertragingen?</h3>
+    <p>Een wijdverbreid misverstand: het gaat <em>niet</em> om de vertraging van een individuele trein onderweg, maar uitsluitend om <strong>uw aankomsttijd op het geboekte eindstation</strong>. Vertrekt uw eerste trein slechts 10 minuten te laat, maar mist u daardoor de beslissende aansluiting en komt u uiteindelijk een uur later aan, dan gelden uw passagiersrechten volledig.</p>
+
+    <table class="seo-table">
+      <thead>
+        <tr>
+          <th>Vertraging op de bestemming</th>
+          <th>Wettelijke minimumcompensatie (enkel ticket)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Tussen 60 en 119 minuten</td>
+          <td><strong>25 %</strong> van de betaalde reissom</td>
+        </tr>
+        <tr>
+          <td>Vanaf 120 minuten (2 uur +)</td>
+          <td><strong>50 %</strong> van de betaalde reissom</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p><em>Belangrijke regel voor heen- en terugreizen:</em> Heeft u een ticket gekocht waarop zowel de heen- als de terugreis op één bewijs staan, dan wordt de vertraging afzonderlijk beoordeeld. De berekeningsbasis is dan exact de helft van de betaalde totaalprijs.</p>
+
+    <h3>NMBS-compensatieregeling: ruimere bescherming dan het Europese minimum</h3>
+    <p>De NMBS hanteert, in het kader van haar beheerscontract met de Belgische staat, een compensatiesysteem dat verder gaat dan het wettelijke EU-minimum. Bij een vertraging van minstens 60 minuten heeft u recht op volledige terugbetaling van 100 % van de ticketprijs  — ruim meer dan de 50 % die de EU-verordening voorschrijft. Dat geldt ongeacht het type ticket.</p>
+
+    <table class="seo-table">
+      <thead>
+        <tr>
+          <th>Vertraging op de bestemming (NMBS binnenland)</th>
+          <th>Vergoeding</th>
+          <th>Uitbetalingsvorm</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>60 minuten en meer</td>
+          <td><strong>100 %</strong> van de ticketprijs</td>
+          <td>Elektronische portemonnee of waardebon; op verzoek contant</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>Belangrijk: de NMBS betaalt standaard in de vorm van een elektronische portemonnee of waardebonnen. Uitbetaling in geld is alleen mogelijk voor vertragingen van minstens 60 minuten en uitsluitend op uitdrukkelijk verzoek.  U dient uw aanvraag in via <strong>My NMBS</strong> (online of via de app) of via het aanvraagformulier op belgiantrain.be, uiterlijk binnen <strong>12 maanden</strong> na de reisdatum.</p>
+
+    <h3>Herhaaldelijke vertragingen en abonnementen: aangepaste regeling sinds oktober 2023</h3>
+    <p>Sinds 17 oktober 2023 is de compensatieregeling voor herhaaldelijke vertragingen aangepast: vertragingen van minstens 30 minuten die zich minstens 10 keer over een periode van 6 maanden voordoen, komen enkel nog in aanmerking voor abonnementhouders.  Voor eenmalige vertragingen van minstens 60 minuten blijft de volledige terugbetaling van kracht voor alle reizigers, ongeacht het type ticket.</p>
+
+    <h3>Uitzonderingen: wanneer Trenitalia niet hoeft te vergoeden</h3>
+    <p>De EU-verordening ontheft vervoerders van hun vergoedingsplicht bij "buitengewone omstandigheden" die redelijkerwijs niet te vermijden waren. Hieronder vallen:</p>
+    <ul>
+      <li>Extreme weersomstandigheden (uitzonderlijke stormen, zware overstromingen, ijzel). Gewone winterse omstandigheden of bladeren op het spoor vallen echter onder het bedrijfsrisico van de vervoerder.</li>
+      <li>Schade door derden (personen op het spoor, kabeldiefstal, noodgevallen aan boord, politieoptreden, sabotage).</li>
+    </ul>
+    <p><strong>Belangrijk:</strong> Stakingen van het personeel van de spoorwegonderneming zelf vallen niet onder de uitzonderingsclausule.  Bij een NMBS-staking heeft u dus recht op compensatie voor uw gemiste of ernstig vertraagde reis, voor zover u een geldig ticket of abonnement bezat op het moment van de staking. Storingen aan de infrastructuur van Infrabel (het Belgische spoorwegnetbeheer) vallen eveneens buiten de uitzondering: de NMBS blijft als vervoerder uw contractpartij en blijft verantwoordelijk tegenover u.</p>
+
+    <!-- FAQ Bereich -->
+    <div class="faq-section">
+      <h2>Veelgestelde vragen (FAQ) over compensatie bij Trenitalia</h2>
+
+      <details>
+        <summary>Hoe zit het met mijn NMBS-abonnement bij herhaaldelijke vertragingen?</summary>
+        <p>Als abonnementhouder kunt u een compensatieaanvraag indienen voor herhaaldelijke vertragingen: u kunt uw vertragingen opnemen in een aanvraag wegens herhaaldelijke vertragingen, of — als de vertraging minstens één uur bedraagt — voor elke vertraging apart. Als de heenreis niet mogelijk was, kunt u ook voor de terugreis een aanvraag indienen.  De aanvraag verloopt via My NMBS of via het formulier op belgiantrain.be. Bewaar altijd uw vervoersbewijs en noteer datum, vertrek- en aankomststation.</p>
+      </details>
+
+      <details>
+        <summary>Hoe vraag ik mijn compensatie aan?</summary>
+        <p>De snelste manier is via <strong>My NMBS</strong> op belgiantrain.be of via de NMBS-app. Kies de betreffende reis in uw reishistorie en dien de aanvraag online in. Hebt u geen My NMBS-account, dan kunt u het aanvraagformulier downloaden op belgiantrain.be en dit per post opsturen of afgeven aan het loket op een groter station. Dien uw aanvraag in binnen <strong>12 maanden</strong> na de reisdatum. Voor internationale reizen dient u de aanvraag in via de vervoerder waarmee u gereisd heeft (bv. Eurostar of NS International).</p>
+      </details>
+
+      <details>
+        <summary>Mag ik een andere trein nemen als mijn trein uitvalt of ernstig vertraagd is?</summary>
+        <p>Ja. Als uw vertraging op de eindbestemming 60 minuten of meer bedraagt, heeft u het recht om te kiezen: doorreizen met de eerstvolgende beschikbare trein, of het volledige ticketbedrag terugkrijgen. Biedt de NMBS binnen 100 minuten na de geplande vertrektijd geen alternatief, dan kunt u zelf passend vervangsvervoer regelen en de redelijke kosten declareren. <em>Let op: een binnenlands NMBS-ticket geeft geen automatisch recht op een internationale hogesnelheidstrein bij uitval.</em></p>
+      </details>
+
+      <details>
+        <summary>Gelden dezelfde rechten voor internationale treinen (Eurostar, Thalys)?</summary>
+        <p>Ja. De EU-verordening 2021/782 is van toepassing op alle internationale spoorwegdiensten vertrekkend vanuit of aankomend in België. Eurostar (dat ook de vroegere Thalys-diensten heeft overgenomen) hanteert zijn eigen compensatiebeleid voor internationale reizen, maar moet altijd minstens het wettelijke EU-minimum toepassen. Voor compensatieaanvragen bij internationale reizen wendt u zich tot de vervoerder bij wie u uw ticket heeft gekocht.</p>
+      </details>
+
+      <details>
+        <summary>Wat als de NMBS niet reageert op mijn klacht?</summary>
+        <p>Reageert de NMBS niet of niet naar tevredenheid, dan kunt u terecht bij de <strong>Ombudsdienst voor de treinreizigers (Ombudsrail)</strong>, de onafhankelijke Belgische ombudsdienst die klachten behandelt over de NMBS en Infrabel. Voor klachten over internationale treinreizen kunt u ook contact opnemen met het <strong>Europees Centrum voor de Consument België (ECC België)</strong>, dat gratis bemiddeling aanbiedt bij grensoverschrijdende geschillen.</p>
+      </details>
+    </div>
+  </div>
+
+  <div class="airline-hinweisbox">
+    <h3>Belangrijke informatie over vergoedingen bij Trenitalia</h3>
+    <p>Voor langeafstandstreinen in Italië geldt: aanvragen voor vertragingvergoeding kunnen pas vanaf de 3e dag na de reis worden ingediend. Consumenten hebben daarvoor tot 12 maanden na het voorval de tijd om de terugbetaling van 25 % of 50 % rechtstreeks online te claimen.</p>
+  </div>
+
+  <div class="popular-links" style="margin-top: 40px; padding: 20px; background: #f9f9f9; border-radius: 8px;">
+    <h3>Andere aanbieders & regio's:</h3>
+    <div class="link-grid">
+      <a href="zugverspaetung-entschaedigung-erixx.html">erixx</a>
+<a href="zugverspaetung-entschaedigung-eurostar.html">Eurostar</a>
+<a href="zugverspaetung-entschaedigung-neb.html">NEB (Niederbarnimer Eisenbahn)</a>
+<a href="zugverspaetung-entschaedigung-ice.html">ICE (Deutsche Bahn)</a>
+<a href="zugverspaetung-entschaedigung-nordwestbahn.html">NordWestBahn</a>
+
+    </div>
+  </div>
+  </div>
+
+  <!-- Quellen-Box: België treinvertraging -->
+<aside class="legal-sources-box" aria-labelledby="sources-title">
+  <h3 id="sources-title" class="sources-heading">Officiële rechtsgrondslagen</h3>
+  <p class="sources-intro">
+    De berekeningen en brieven van deze generator zijn gebaseerd op de volgende geldende wetten en Europese verordeningen:
+  </p>
+  <ul class="sources-list">
+    <li>
+      <strong>Verordening (EU) 2021/782</strong> (rechten en plichten van treinpassagiers):
+      rechtstreeks toepasselijk Europees recht dat de minimumrechten op vergoeding, bijstand en informatie bij vertraging of uitval vastlegt, van toepassing op alle spoorwegondernemingen in België.
+      <br>
+      <a href="https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32021R0782" target="_blank" rel="noopener noreferrer" class="source-link">
+        Officiële tekst op EUR-Lex (Europa.eu)
+      </a>
+    </li>
+    <li>
+      <strong>NMBS-compensatieregeling (beheerscontract met de Belgische staat)</strong>:
+      de vrijwillige NMBS-vergoedingsregeling die verder gaat dan het Europese minimum, met volledige terugbetaling (100 %) bij een vertraging van 60 minuten of meer.
+      <br>
+      <a href="https://www.belgiantrain.be/nl/support/customer-service/compensation" target="_blank" rel="noopener noreferrer" class="source-link">
+        Compensatieregeling op belgiantrain.be (NMBS)
+      </a>
+    </li>
+    <li>
+      <strong>Officiële informatie FOD Mobiliteit en Openbare Werken</strong>:
+      overzicht van de Belgische omzetting van de Europese passagiersrechten in het spoorvervoer, met toelichting per compensatiegrond.
+      <br>
+      <a href="https://mobiliteit.d8.pr.belgium.be/nl/spoor/reizigers/reizigersrechten/vergoedingen" target="_blank" rel="noopener noreferrer" class="source-link">
+        Passagiersrechten op belgium.be (FOD Mobiliteit)
+      </a>
+    </li>
+    <li>
+      <strong>Ombudsdienst voor de treinreizigers (Ombudsrail)</strong>:
+      onafhankelijke Belgische ombudsdienst die klachten behandelt over de NMBS en Infrabel, en toeziet op de naleving van de passagiersrechten in het Belgische spoorvervoer.
+      <br>
+      <a href="https://www.ombudsrail.be/nl/uw-rechten/Vergoeding%20bij%20vertraging%20en%20afschaffing" target="_blank" rel="noopener noreferrer" class="source-link">
+        Vergoeding bij vertraging op ombudsrail.be
+      </a>
+    </li>
+  </ul>
+</aside>
+
+
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise in reisrecht & passagiersrechten</h3>
+    <p class="trust-text">
+        Onze gidsen en generators zijn gebaseerd op een strikte analyse van actuele EU-verordeningen (zoals EG 261/2004), arresten van het hoogste gerechtshof en het nationale reisrecht. 
+        Ze worden ontwikkeld door Marc (projectleiding) & team om reizigers in staat te stellen hun rechten juridisch correct af te dwingen tegenover luchtvaartmaatschappijen en reisorganisaties.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Belangrijke opmerking: onze tools bieden hulp tot zelfhulp bij vluchtvertragingen, hotelgebreken of treinuitval. Ze vervangen geen individueel juridisch advies van een advocaat.
+        </span>
+    </p>
+
+    <!-- Umlaut in URL entfernt! -->
+    <a href="ueber-uns.html" class="trust-link">
+        Details over de juridische methodiek & redactie ontdekken →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Probleem met de vlucht, trein of het hotel?</strong><br>
+        Fix-My-Trip controleert in enkele stappen uw recht op compensatie, ticketterugbetaling of prijsvermindering van de reis. <br>
+        <em>Een service van Fix my Trip.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Fout in de tool ontdekt?</strong> Omdat wij als geautomatiseerd portaal geen individueel juridisch advies geven, helpt u ons enorm als u bugs of verouderde aanbieders meldt: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Feedback naar ons hoofdkantoor sturen</a>.
+</p>
+</div>
+
+<section class="site-niche-directory">
+    <div class="niche-directory-container">
+        <h2 class="niche-directory-title">Ontdek meer onderwerpen</h2>
+        <p class="niche-directory-intro">
+            Of het nu gaat om vluchtvertraging, hotelgebreken of roamingvalkuilen – onze experts hebben voor bijna elke reisniche de juiste gids en voorbeeldbrief voorbereid.
+        </p>
+        
+        <div class="niche-directory-grid">
+            <div class="niche-directory-group">
+                <h3>Vlucht &amp; luchthaven</h3>
+                <ul>
+                    <li><a href="flugverspaetung-info.html">Vluchtvertraging &amp; annulering</a></li>
+                    <li><a href="steuern-info.html">Vluchtbelastingen terugvorderen</a></li>
+                    <li><a href="gepaeck-info.html">Bagageverlies &amp; kofferschade</a></li>
+                    <li><a href="flughafen-parken-info.html">Parkeerkosten op de luchthaven</a></li>
+                    <li><a href="ota-rueckerstattung-info.html">Vluchtboekingsportalen (OTA)</a></li>
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Accommodatie &amp; pakketreis</h3>
+                <ul>
+                    <li><a href="hotel-maengel-info.html">Hotelgebreken &amp; bouwoverlast</a></li>
+                    <li><a href="storno-info.html">Reis annuleren (kosten)</a></li>
+                    <li><a href="ferienhaus-maengel-info.html">Vakantiehuizen &amp; appartementen</a></li>
+                    <li><a href="airbnb-probleme-info.html">Airbnb-oplossingen</a></li>
+                    <li><a href="kreuzfahrt-minderung.html">Cruisegebreken</a></li>
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Reisvoorbereiding &amp; mobiliteit</h3>
+                <ul>
+                    <li><a href="zugverspaetung-info.html">Treinvertraging &amp; treinrechten</a></li>
+                    <li><a href="einreise-info.html">Inreisregels &amp; visum</a></li>
+                    <li><a href="esim-roaming-info.html">eSIM &amp; roamingkosten</a></li>
+                    <li><a href="mietwagen-info.html">Autoverhuurverzekeringen</a></li>
+                    <li><a href="zoll-info.html">Douane &amp; invoerregels</a></li>
+                    <li><a href="reisekreditkarten-info.html">Vergelijking van reiscreditcards</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Over ons</a> | 
+        <a href="index.html">Startpagina</a> | 
+        <a href="impressum.html">Colofon</a> | 
+        <a href="datenschutz.html">Privacybeleid</a>
+    </nav>
+</footer>
+
+<script>
+document.getElementById('trainForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+    
+    // Vast ingestelde adres van het DB-servicecentrum
+    // Dynamisch adres uit het tekstveld halen
+const empfaenger = document.getElementById('rAddress').value;
+    
+    const sName = document.getElementById('sName').value;
+    const sStrasse = document.getElementById('sStrasse').value;
+    const sPLZOrt = document.getElementById('sPLZOrt').value;
+    const bIBAN = document.getElementById('bIBAN').value;
+    
+    const fTicket = document.getElementById('fTicket').value;
+    const fStart = document.getElementById('fStart').value;
+    const fZiel = document.getElementById('fZiel').value;
+    const fGrund = document.getElementById('fGrund').value;
+    
+    const rawDate = document.getElementById('fDatum').value;
+    const fDatumParts = rawDate.split('-');
+    const fDatum = `${fDatumParts[2]}.${fDatumParts[1]}.${fDatumParts[0]}`;
+
+    const verspaetungTyp = document.getElementById('fVerspaetung').value;
+
+    let deadline = new Date();
+    deadline.setDate(deadline.getDate() + 14);
+    const deadlineStr = deadline.toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'});
+    const todayStr = new Date().toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'});
+
+    doc.setFont("helvetica");
+
+    // 1. Vensterregel (afzender klein)
+    doc.setFontSize(8);
+    doc.setTextColor(100, 100, 100);
+    doc.text(`${sName} • ${sStrasse} • ${sPLZOrt}`, 25, 45);
+    doc.setLineWidth(0.2);
+    doc.setDrawColor(150, 150, 150);
+    doc.line(25, 46.5, 95, 46.5);
+
+    // 2. Ontvanger (servicecentrum)
+    doc.setFontSize(11);
+    doc.setTextColor(0, 0, 0);
+    const receiverLines = doc.splitTextToSize(empfaenger, 80);
+    doc.text(receiverLines, 25, 53);
+
+    // 3. Afzenderblok rechts
+    doc.setFontSize(10);
+    doc.text("Afzender:", 130, 45);
+    doc.setFont("helvetica", "bold");
+    doc.text(sName, 130, 50);
+    doc.setFont("helvetica", "normal");
+    doc.text(sStrasse, 130, 55);
+    doc.text(sPLZOrt, 130, 60);
+
+    doc.text(`Datum: ${todayStr}`, 185, 80, {align: 'right'});
+
+    // 4. Onderwerp
+    doc.setFontSize(12);
+    doc.setFont("helvetica", "bold");
+    doc.text(`Aanvraag tot compensatie volgens de passagiersrechten (VO (EU) 2021/782)`, 25, 95);
+    
+    // 5. Feitenblok
+    doc.setFontSize(10.5);
+    doc.setFont("helvetica", "bold");
+    doc.text("Order-/ticketnummer:", 25, 105);
+    doc.text("Reisdatum:", 25, 110);
+    doc.text("Traject:", 25, 115);
+
+    doc.setFont("helvetica", "normal");
+    doc.text(fTicket, 75, 105);
+    doc.text(fDatum, 75, 110);
+    doc.text(`${fStart} naar ${fZiel}`, 75, 115);
+
+    doc.setDrawColor(0, 0, 0);
+    doc.line(25, 120, 185, 120); 
+
+    // 6. Hoofdtekst afhankelijk van vertraging
+    // 6. Hoofdtekst afhankelijk van vertraging
+const pageH = 297;
+const marginBottom = 20;
+const lineH = 6;
+
+function checkNewPage(doc, y, neededHeight = lineH) {
+    if (y + neededHeight > pageH - marginBottom) {
+        doc.addPage();
+        return 30;
+    }
+    return y;
+}
+
+function writeLines(doc, lines, startY, lh = lineH) {
+    let y = startY;
+    for (const line of lines) {
+        y = checkNewPage(doc, y);
+        doc.text(line, 25, y);
+        y += lh;
+    }
+    return y;
+}
+
+let yPos = 130;
+doc.setFontSize(11);
+
+let forderung = "";
+if (verspaetungTyp === "60") {
+    forderung = "Omdat ik mijn eindstation met een vertraging van meer dan 60 minuten, maar minder dan 120 minuten, heb bereikt, maak ik hierbij aanspraak op compensatie ter hoogte van 25% van de ticketprijs.";
+} else if (verspaetungTyp === "120") {
+    forderung = "Omdat ik mijn eindstation met een vertraging van meer dan 120 minuten heb bereikt, maak ik hierbij aanspraak op compensatie ter hoogte van 50% van de ticketprijs.";
+} else {
+    forderung = "Omdat de reis niet heeft plaatsgevonden of is afgebroken, maak ik hierbij aanspraak op volledige terugbetaling van de ticketprijs.";
+}
+
+const para1 = doc.splitTextToSize(
+    `Geachte dames en heren,\n\n` +
+    `Ik wend mij tot u om mijn passagiersrechten met betrekking tot de hierboven genoemde reis geldend te maken.\n\n` +
+    `Tijdens de reis deden zich aanzienlijke onregelmatigheden voor. De reden hiervoor was: ${fGrund}.\n\n` +
+    forderung + `\n\n` +
+    `De benodigde bewijsstukken (treinkaartje) zijn bij deze brief gevoegd. Ik verzoek u het terug te betalen bedrag binnen de komende 14 dagen over te maken op mijn volgende rekening:` ,
+    160
+);
+yPos = writeLines(doc, para1, yPos);
+yPos += 8;
+
+const para2 = doc.splitTextToSize(
+    `Rekeninghouder: ${sName}\nIBAN: ${bIBAN}`,
+    160
+);
+yPos = writeLines(doc, para2, yPos);
+yPos += 15;
+
+const para3 = doc.splitTextToSize(
+    `Ik ga uit van een vlotte en snelle afhandeling van mijn verzoek en verwacht de betaling uiterlijk op ${deadlineStr}.`,
+    160
+);
+yPos = writeLines(doc, para3, yPos);
+yPos += 20;
+
+// Handtekening – altijd samenhouden
+yPos = checkNewPage(doc, yPos, 40);
+doc.text("Met vriendelijke groet,", 25, yPos);
+yPos += 25;
+
+doc.setLineWidth(0.5);
+doc.line(25, yPos, 80, yPos);
+doc.line(100, yPos, 185, yPos);
+
+doc.setFontSize(9);
+doc.setTextColor(100, 100, 100);
+doc.text("Plaats, datum", 25, yPos + 5);
+doc.text(`Handtekening (${sName})`, 100, yPos + 5);
+
+doc.save(`Passagiersrechten_Trenitalia_${fTicket}.pdf`);
+setTimeout(() => document.getElementById('donateOverlay').classList.add('active'), 800);
+});
+
+/* ══════════════════════════════════════════
+   ▶▶ VUL HIER UW PAYPAL-E-MAIL IN ◀◀
+   ══════════════════════════════════════════ */
+const PAYPAL_EMAIL = 'info@kassen-lotse.de';
+
+let donateAmount = 5;
+
+function selectPreset(amount, btn) {
+  donateAmount = amount;
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  document.getElementById('customAmount').value = '';
+  document.getElementById('customAmount').classList.remove('selected-custom');
+  updateDonateButton();
+}
+
+function handleCustomInput(input) {
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  const val = parseFloat(input.value);
+  if (val && val >= 1) {
+    donateAmount = val;
+    input.classList.add('selected-custom');
+  } else {
+    donateAmount = 0;
+    input.classList.remove('selected-custom');
+  }
+  updateDonateButton();
+}
+
+function updateDonateButton() {
+  const btn = document.getElementById('btnDonate');
+  if (donateAmount >= 1) {
+    btn.textContent = `Doneer nu ${donateAmount % 1 === 0 ? donateAmount : donateAmount.toFixed(2)} €`;
+    btn.disabled = false;
+  } else {
+    btn.textContent = 'Bedrag invoeren';
+    btn.disabled = true;
+  }
+}
+
+function openPayPal() {
+  if (donateAmount < 1) return;
+  const amountStr = donateAmount.toFixed(2);
+  const url = `https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=${encodeURIComponent(PAYPAL_EMAIL)}&amount=${amountStr}&currency_code=EUR&item_name=Fix my Trip+Ondersteuning&no_note=1&no_shipping=1`;
+  window.open(url, '_blank');
+  closeOverlay();
+}
+
+function closeOverlay() {
+  document.getElementById('donateOverlay').classList.remove('active');
+}
+// Sluit het overlay als men op de verduisterde achtergrond klikt
+document.getElementById('donateOverlay').addEventListener('click', function(e) {
+  if (e.target === this) {
+    closeOverlay();
+  }
+});
+</script>
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Sluiten">&times;</button>
+    <div class="donate-emoji">🎉</div>
+    <h2>Uw brief is klaar!</h2>
+    <p class="sub">U heeft zojuist <strong style="color:#2e7d32;">commissie</strong> bespaard –<br>geen derde partij, geen afdracht, alles is van u.</p>
+    <div class="donate-hint">
+      Deze service is en blijft <strong>100% gratis</strong>. Als hij u heeft geholpen, stellen wij een kleine vrijwillige bijdrage zeer op prijs – zodat Fix my Trip ook voor andere reizigers gratis blijft.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Snelle keuze:</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Eigen bedrag invoeren …" oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Doneer nu 5 €</button>
+    <button class="btn-skip" onclick="closeOverlay()">Nee bedankt, ik sluit het venster</button>
+    <p class="paypal-note">Vrijwillig &amp; veilig via PayPal</p>
+    <!-- P.S. Trick für das Bahn-Overlay -->
+<div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
+  
+  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
+    Advertentie / advertentielink
+  </span>
+
+  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
+    <strong style="color: #333;">P.S.: Gaat u binnenkort weer op pad?</strong> Bescherm uzelf alvast tegen de volgende trein- of vliegramp. Echte travel-creditcards helpen eenvoudig bij onverwachte hotel- of autohuurkosten en bieden vaak sterke kopersbescherming. <br>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Vergelijk nu de beste aanbieders & bescherm uzelf 🚆</a>
+  </p>
+</div>
+  </div>
+</div>
+</body>
+</html>

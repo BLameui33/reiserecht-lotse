@@ -1,0 +1,310 @@
+[
+  {
+    "name": "Deutsche Bahn",
+    "slug": "deutsche-bahn",
+    "adresse": "Servicecenter Fahrgastrechte\n60647 Frankfurt am Main\nDuitsland",
+    "land": "Duitsland",
+    "infobox": "De Deutsche Bahn valt onder de EU-reizigersrechten. Bij een vertraging van 60 minuten op de eindbestemming ontvangt u 25 %, en bij 120 minuten 50 % van de ticketprijs terug. Sinds de hervorming van 2023 vervalt de loutere schadevergoedingsbetaling bij extreme weersomstandigheden (overmacht) – de hulpverplichtingen (hotel, maaltijden) blijven echter altijd bestaan."
+  },
+  {
+    "name": "ICE (Deutsche Bahn)",
+    "slug": "ice",
+    "adresse": "Servicecenter Fahrgastrechte\n60647 Frankfurt am Main\nDuitsland",
+    "land": "Duitsland",
+    "infobox": "Voor ICE-verbindingen geldt: als op de eindbestemming een vertraging van meer dan 20 minuten dreigt, mag u zonder toeslag een andere trein nemen waarvoor geen reservering verplicht is. Als u van een regionaal ticket overstapt op de ICE, moet u het ticket vaak eerst zelf betalen en de kosten achteraf terugvorderen."
+  },
+  {
+    "name": "AVE (Renfe)",
+    "slug": "ave",
+    "adresse": "Renfe Viajeros S.A.\nAvenida de Ciudad de Barcelona 6\n28007 Madrid\nSpanje",
+    "land": "Spanje",
+    "infobox": "De Spaanse Renfe biedt voor haar AVE-hogesnelheidstreinen vrijwillige stiptheidsgaranties die ver boven de EU-minimumnorm uitgaan. Afhankelijk van de gekozen route en het tarief ontvangt u al vanaf 15 of 30 minuten vertraging een aanzienlijk deel van de ticketprijs (tot 100 %) terug."
+  },
+  {
+    "name": "OUIGO España",
+    "slug": "ouigo-espana",
+    "adresse": "OUIGO España S.A.U.\nCalle de Alcalá 44\n28014 Madrid\nSpanje",
+    "land": "Spanje",
+    "infobox": "Als low-cost aanbieder past OUIGO in Spanje de wettelijke EU-minimumvoorschriften toe. Bij treinuitval heeft u recht op een gratis omboeking of terugbetaling. Vergoedingen worden vaak in eerste instantie als vouchers aangeboden, maar juridisch kunt u aandringen op uitbetaling in contanten/overschrijving."
+  },
+  {
+    "name": "Avlo (Renfe)",
+    "slug": "avlo",
+    "adresse": "Renfe Viajeros S.A.\nAvenida de Ciudad de Barcelona 6\n28007 Madrid\nSpanje",
+    "land": "Spanje",
+    "infobox": "Avlo is het budgetmerk van de Spaanse Renfe. In tegenstelling tot de reguliere AVE-treinen gelden hier niet de uitgebreide coulance-stiptheidsgaranties van Renfe, maar uitsluitend de wettelijke EU-minimumvergoedingen (25 % vanaf 60 min., 50 % vanaf 120 min. vertraging)."
+  },
+  {
+    "name": "Frecciarossa (Trenitalia)",
+    "slug": "frecciarossa",
+    "adresse": "Trenitalia S.p.A.\nUfficio Reclami e Rimborsi\nPiazza della Croce Rossa 1\n00161 Rome\nItalië",
+    "land": "Italië",
+    "infobox": "Bij de Italiaanse Frecciarossa-treinen is er een bijzonderheid in het reisrecht: bij een vertraging tussen 30 en 59 minuten ontvangt u weliswaar geen contante uitbetaling, maar een voucher ter waarde van 25 % van de ticketprijs voor uw volgende boeking."
+  },
+  {
+    "name": "Trenord",
+    "slug": "trenord",
+    "adresse": "Trenord S.r.l.\nPiazzale Cadorna 14\n20123 Milaan\nItalië",
+    "land": "Italië",
+    "infobox": "Bij Trenord (regionaal vervoer in Lombardije) worden vergoedingen voor forenzen en houders van een abonnement vaak geregeld via een maandelijkse totale stiptheidsindex van de betreffende lijn ('Bonus Trenord'), in plaats van voor elke afzonderlijke minuutvertraging aparte aanvragen te verwerken."
+  },
+  {
+    "name": "TGV (SNCF)",
+    "slug": "tgv",
+    "adresse": "Service Relation Client SNCF\n62973 ARRAS Cedex 9\nFrankrijk",
+    "land": "Frankrijk",
+    "infobox": "De Franse SNCF biedt voor de TGV de klantvriendelijke 'Garantie G30': ongeacht de oorzaak van de vertraging (ook bij overmacht) ontvangt u vanaf 30 minuten vertraging een vergoeding van 25 % als voucher, en bij meer dan 3 uur vertraging zelfs tot 75 %."
+  },
+  {
+    "name": "Nightjet (ÖBB)",
+    "slug": "nightjet",
+    "adresse": "ÖBB-Personenverkehr AG\nKundenservice\nPostfach 75\n1020 Wenen\nOostenrijk",
+    "land": "Oostenrijk",
+    "infobox": "Bij de ÖBB Nightjet-nachttreinen heeft u vanaf 60 minuten vertraging op het eindstation recht op een vergoeding van 25 %. Valt de verwarming of airconditioning in de slaapwagon volledig uit en is een andere coupé niet mogelijk, dan kunt u aanvullende vergoedingen wegens aanzienlijke vermindering van comfort claimen."
+  },
+  {
+    "name": "FlixTrain",
+    "slug": "flixtrain",
+    "adresse": "FlixTrain GmbH\nFahrgastrechte\nPostfach 10 30 47\n70026 Stuttgart\nDuitsland",
+    "land": "Duitsland",
+    "infobox": "FlixTrain is een particuliere spoorwegonderneming. Bij treinuitval kunt u niet zonder meer een ticket van Deutsche Bahn (bijv. ICE) gebruiken. Overstappen op DB-treinen op kosten van FlixTrain is alleen toegestaan onder zeer strikte wettelijke noodcriteria of na uitdrukkelijke goedkeuring."
+  },
+  {
+    "name": "ÖBB (Österreichische Bundesbahnen)",
+    "slug": "oebb",
+    "adresse": "ÖBB-Personenverkehr AG\nKundenservice\nPostfach 75\n1020 Wenen\nOostenrijk",
+    "land": "Oostenrijk",
+    "infobox": "De Oostenrijkse Bundesbahnen regelen reizigersrechten zeer betrouwbaar. Voor nationale abonnementen en week-/maandabonnementen bestaat een wettelijk verankerd vergoedingsmodel dat aan het einde van de looptijd afrekent op basis van de exacte maandelijkse stiptheid van de gebruikte lijn."
+  },
+  {
+    "name": "WESTbahn",
+    "slug": "westbahn",
+    "adresse": "WESTbahn Management GmbH\nEuropaplatz 3\n1150 Wenen\nOostenrijk",
+    "land": "Oostenrijk",
+    "infobox": "Als particuliere aanbieder van langeafstandsdiensten in Oostenrijk past WESTbahn de volledige EU-reizigersrechten toe. Bij treinuitval heeft u recht op alternatief vervoer met de volgende trein of op volledige terugbetaling van de ticketprijs als de reis zinloos is geworden."
+  },
+  {
+    "name": "SBB (Schweizerische Bundesbahnen)",
+    "slug": "sbb",
+    "adresse": "SBB Kundendienst\nPostfach\n3000 Bern 65\nZwitserland",
+    "land": "Zwitserland",
+    "infobox": "Hoewel Zwitserland geen EU-lid is, gelden bij de SBB geharmoniseerde reizigersrechten (25 % vanaf 60 min., 50 % vanaf 120 min. vertraging). Belangrijk bij krappe Zwitserse aansluitingen: mist u door een vertraging de laatste aansluiting, dan neemt de SBB de taxi- of hotelkosten voor haar rekening."
+  },
+  {
+    "name": "SNCF (Société Nationale des Chemins de fer Français)",
+    "slug": "sncf",
+    "adresse": "Service Relation Client SNCF\n62973 ARRAS Cedex 9\nFrankrijk",
+    "land": "Frankrijk",
+    "infobox": "De SNCF regelt treinuitval strikt volgens Frans en Europees recht. Bij de in Frankrijk vaker voorkomende stakingen (grèves) van de spoorwegvakbonden heeft u altijd recht op gratis omboeking of terugbetaling van de ticketprijs, mits uw trein is geannuleerd."
+  },
+  {
+    "name": "Trenitalia",
+    "slug": "trenitalia",
+    "adresse": "Trenitalia S.p.A.\nUfficio Reclami e Rimborsi\nPiazza della Croce Rossa 1\n00161 Rome\nItalië",
+    "land": "Italië",
+    "infobox": "Voor langeafstandstreinen in Italië geldt: aanvragen voor vertragingvergoeding kunnen pas vanaf de 3e dag na de reis worden ingediend. Consumenten hebben daarvoor tot 12 maanden na het voorval de tijd om de terugbetaling van 25 % of 50 % rechtstreeks online te claimen."
+  },
+  {
+    "name": "Renfe",
+    "slug": "renfe",
+    "adresse": "Renfe Viajeros S.A.\nAvenida de Ciudad de Barcelona 6\n28007 Madrid\nSpanje",
+    "land": "Spanje",
+    "infobox": "Naast de AVE biedt Renfe ook voor Alvia- en Intercity-treinen verbeterde nationale stiptheidsrechten (bijv. 50 % terugbetaling vanaf 60 minuten). Schadevergoedingsaanvragen kunnen eenvoudig via het klantenportaal worden ingediend – belangrijk is het bewaren van de originele ticket-ID."
+  },
+  {
+    "name": "NS (Nederlandse Spoorwegen)",
+    "slug": "ns",
+    "adresse": "NS Klantenservice\nPostbus 2372\n3500 GJ Utrecht\nNederland",
+    "land": "Nederland",
+    "infobox": "De Nederlandse NS beschikt over het klantvriendelijke systeem 'Geld terug bij vertraging'. Op nationale trajecten ontvangt u bij Intercity-verbindingen vaak al vanaf 30 minuten vertraging tot 50 % van de ticketprijs terug."
+  },
+  {
+    "name": "SNCB / NMBS (Belgische Bahn)",
+    "slug": "sncb",
+    "adresse": "SNCB Customer Service\nAvenue de la Porte de Hal 40\n1060 Brussel\nBelgië",
+    "land": "België",
+    "infobox": "Bij de Belgische SNCB is er bij herhaalde kleine vertragingen (bijv. als u binnen 6 maanden minstens 20 keer meer dan 15 minuten vertraging had) een forfaitaire vergoeding voor forenzen. Bij afzonderlijke vertragingen geldt de gebruikelijke grens van 60 minuten."
+  },
+  {
+    "name": "Eurostar",
+    "slug": "eurostar",
+    "adresse": "Eurostar Traveller Care\n2nd Floor, Kent House\n81 Station Road\nAshford, TN23 1AP\nVerenigd Koninkrijk",
+    "land": "Verenigd Koninkrijk",
+    "infobox": "Omdat Eurostar het Europese continent met Groot-Brittannië verbindt, gelden na de Brexit specifieke tariefvoorwaarden. Passagiers krijgen vanaf 60 minuten vertraging aantrekkelijke opties – vaak naar keuze als contante uitbetaling of als een duidelijk waardevollere e-voucher voor vervolgtrajecten."
+  },
+  {
+    "name": "ČD (České dráhy)",
+    "slug": "cd",
+    "adresse": "České dráhy a.s.\nnábřeží L. Svobody 1222/1\n110 15 Praag 1\nTsjechië",
+    "land": "Tsjechië",
+    "infobox": "Bij de Tsjechische Spoorwegen (ČD) ontvangt u vanaf 60 minuten vertraging in internationaal verkeer 25 % terugbetaling van de ticketprijs. Online tickets die in de eigen e-shop zijn gekocht, kunnen bij vertragingen bijzonder eenvoudig met een muisklik in het klantenaccount worden geclaimd."
+  },
+  {
+    "name": "DSB (Danske Statsbaner)",
+    "slug": "dsb",
+    "adresse": "DSB Kundecenter\nTelegade 2\n2630 Taastrup\nDenemarken",
+    "land": "Denemarken",
+    "infobox": "De Deense DSB biedt een 'Rejsetidsgaranti' (reisgarantie). Als u zich online voor dit programma registreert, ontvangt u bij vertragingen vanaf 30 minuten op Deense trajecten automatisch een gedeeltelijke terugbetaling die boven de EU-minimumnormen uitgaat."
+  },
+  {
+    "name": "metronom",
+    "slug": "metronom",
+    "adresse": "metronom Eisenbahngesellschaft mbH\nKundenzentrum\nSt.-Viti-Straße 15\n29525 Uelzen\nDuitsland",
+    "land": "Duitsland",
+    "infobox": "Als regionale aanbieder in Noord-Duitsland valt metronom onder de Duitse reizigersrechten voor regionaal vervoer. Belangrijk voor het Deutschlandticket: bij vertragingen in het regionale vervoer mag u in de regel niet uitwijken naar de ICE – een terugbetaling voor langeafstandstickets is bij het D-Ticket wettelijk uitgesloten."
+  },
+  {
+    "name": "ODEG (Ostdeutsche Eisenbahn)",
+    "slug": "odeg",
+    "adresse": "ODEG Kundenservice\nMöllendorffstraße 49\n10367 Berlijn\nDuitsland",
+    "land": "Duitsland",
+    "infobox": "De ODEG exploiteert regionale lijnen in het oosten van Duitsland. Als treinuitval leidt tot een vertraging van meer dan 60 minuten laat op de avond (aankomst tussen 00:00 en 05:00 uur), worden alternatieve taxikosten vergoed binnen de mobiliteitsgarantie tot maximaal 120 euro."
+  },
+  {
+    "name": "National Express",
+    "slug": "national-express",
+    "adresse": "National Express Rail GmbH\nKundendialog\nKölner Straße 266\n51149 Keulen\nDuitsland",
+    "land": "Duitsland",
+    "infobox": "Bij National Express in NRW gelden de forfaitaire regels voor regionaal vervoer. Formulieren voor reizigersrechten kunnen rechtstreeks bij het treinpersoneel of online worden ingediend. Bewaar bij gemiste aansluitingen zeker screenshots van de digitale vertragingweergave (DB Navigator)."
+  },
+  {
+    "name": "BRB (Bayerische Regiobahn)",
+    "slug": "brb",
+    "adresse": "Bayerische Regiobahn GmbH\nKundencenter\nBahnhofplatz 9\n83646 Bad Tölz\nDuitsland",
+    "land": "Duitsland",
+    "infobox": "Voor de Bayerische Regiobahn geldt in het regionale vervoer: bij vertragingen vanaf 60 minuten ontvangt u forfaitair 1,50 euro (2e klas). Let op reisrecht: bedragen onder 4,00 euro worden door het Servicecenter Fahrgastrechte niet uitbetaald – u moet meerdere vertragingen verzamelen en samen indienen."
+  },
+  {
+    "name": "agilis",
+    "slug": "agilis",
+    "adresse": "agilis Eisenbahngesellschaft mbH & Co. KG\nKundencenter\nGalgenbergstraße 2a\n93053 Regensburg\nDuitsland",
+    "land": "Duitsland",
+    "infobox": "agilis-treinen in Beieren vallen onder de landelijke reizigersrechten. Als u door een uitval van agilis de laatste verbinding van de dag mist, moet het bedrijf de kosten voor alternatief vervoer (bijv. taxi tot max. 120 euro) dragen om u op uw bestemming te brengen."
+  },
+  {
+    "name": "vlexx",
+    "slug": "vlexx",
+    "adresse": "vlexx GmbH\nKundencenter\nMombacher Str. 36\n55122 Mainz\nDuitsland",
+    "land": "Duitsland",
+    "infobox": "Bij vlexx (Rijnland-Palts/Saarland) geldt: als u een regulier enkeltje heeft en op de eindbestemming een vertraging van meer dan 20 minuten te verwachten is, mag u overstappen op een langeafstandstrein (IC/ICE). U moet het ticket eerst kopen en de kosten achteraf bij het servicecenter claimen."
+  },
+  {
+    "name": "erixx",
+    "slug": "erixx",
+    "adresse": "erixx GmbH\nKundenzentrum\nSt.-Viti-Straße 15\n29525 Uelzen\nDuitsland",
+    "land": "Duitsland",
+    "infobox": "Voor erixx-verbindingen in Nedersaksen geldt: het Deutschlandticket geeft bij vertragingen in het regionale vervoer geen recht op gratis overstap naar de ICE. Verdere schadevergoedingsclaims wegens gemiste privé-afspraken zijn in het spoorwegrecht in het algemeen uitgesloten."
+  },
+  {
+    "name": "eurobahn",
+    "slug": "eurobahn",
+    "adresse": "eurobahn GmbH & Co. KG\nKundencenter\nUnionstraße 3\n59067 Hamm\nDuitsland",
+    "land": "Duitsland",
+    "infobox": "Bij eurobahn in NRW leiden kortetermijnuitval vaker tot problemen. Getroffen reizigers hebben recht op terugbetaling van de volledige ticketprijs als zij de reis door de vertraging niet kunnen aanvatten. Bij vertragingen van meer dan 60 minuten heeft u op het station recht op gratis catering."
+  },
+  {
+    "name": "cantus",
+    "slug": "cantus",
+    "adresse": "cantus Verkehrsgesellschaft mbH\nKundenzentrum\nBahnhofstraße 1\n34117 Kassel\nDuitsland",
+    "land": "Duitsland",
+    "infobox": "cantus-treinen in Hessen vallen onder de wettelijke minimumvoorschriften. Schadevergoedingsclaims voor gevolgschade (zoals gemiste vluchten, hotelboekingen of evenementtickets) zijn door de Eisenbahnverkehrsordnung (EVO) ter bescherming van de spoorwegen helaas grotendeels uitgesloten."
+  },
+  {
+    "name": "PKP Intercity",
+    "slug": "pkp",
+    "adresse": "PKP Intercity S.A.\nAl. Jerozolimskie 142A\n02-305 Warschau\nPolen",
+    "land": "Polen",
+    "infobox": "De Poolse PKP Intercity biedt volledige EU-bescherming op haar langeafstandsroutes (EIP/EIC). Bij regionale treinen van andere Poolse spoorwegexploitanten kunnen echter uitzonderingen op de vergoedingsplicht gelden. De verplichting tot gratis verdervervoer bij uitval geldt echter grensoverschrijdend altijd."
+  },
+  {
+    "name": "SJ (Statens Järnvägar)",
+    "slug": "sj",
+    "adresse": "SJ AB\nKundservice\n105 50 Stockholm\nZweden",
+    "land": "Zweden",
+    "infobox": "De Zweedse SJ beschikt over een zeer royale nationale 'Resegaranti': vanaf 60 minuten vertraging ontvangt u naar keuze 50 % van de ticketprijs als waardebon (of 25 % contant), en vanaf 120 minuten vertraging zelfs 100 % als voucher (of 50 % contant)."
+  },
+  {
+    "name": "Italo (NTV)",
+    "slug": "italo",
+    "adresse": "Italo - Nuovo Trasporto Viaggiatori S.p.A.\nServizio Clienti\nViale del Policlinico 149/b\n00161 Rome\nItalië",
+    "land": "Italië",
+    "infobox": "De particuliere Italiaanse langeafstandstrein Italo schrijft vergoedingen bij vertragingen vanaf 60 minuten vaak automatisch binnen 30 dagen als tegoed bij op het digitale klantenaccount, zonder dat consumenten een ingewikkelde bureaucratische aanvraag hoeven in te dienen."
+  },
+  {
+    "name": "iryo",
+    "slug": "iryo",
+    "adresse": "Intermodalidad de Levante S.A.\nCalle de Méndez Álvaro 56\n28045 Madrid\nSpanje",
+    "land": "Spanje",
+    "infobox": "Als nieuwe particuliere aanbieder in het Spaanse hogesnelheidsnet past iryo de EU-reizigersrechten toe. Bij vertragingen vanaf 60 minuten heeft u recht op een vergoeding. Bij volledige uitval door operationele oorzaken moet iryo zorgen voor een passend, gratis alternatief."
+  },
+  {
+    "name": "CP (Comboios de Portugal)",
+    "slug": "cp",
+    "adresse": "CP - Comboios de Portugal\nCalçada do Duque 20\n1200-156 Lissabon\nPortugal",
+    "land": "Portugal",
+    "infobox": "Bij de Portugese CP moeten aanvragen voor vergoeding wegens treinuitval of vertraging binnen maximaal 30 dagen na de reisdatum worden ingediend. De terugbetaling gebeurt volgens de EU-tarieven van 25 % (vanaf 60 min.) of 50 % (vanaf 120 min.)."
+  },
+  {
+    "name": "MÁV-START",
+    "slug": "mav",
+    "adresse": "MÁV-START Zrt.\nÜgyfélszolgálat\nPf. 56.\n1426 Boedapest\nHongarije",
+    "land": "Hongarije",
+    "infobox": "De Hongaarse MÁV verlangt bij vertragingen in het binnenlands verkeer vaak een directe bevestiging van het treinpersoneel of het lokale servicecentrum op het station op het fysieke ticket, om de vergoeding later soepel en zonder vertraging uit te betalen."
+  },
+  {
+    "name": "VR (VR-Yhtymä)",
+    "slug": "vr",
+    "adresse": "VR-Yhtymä Oyj\nAsiakaspalvelu\nPL 7020\n00063 VR\nFinland",
+    "land": "Finland",
+    "infobox": "Voor de Finse VR geldt: ondanks extreem zware winteromstandigheden vervalt de wettelijke hulpverplichting bij treinuitval nooit. Als u strandt, moet VR zorgen voor hotelaccommodatie en transfers, ook al kan de loutere schadevergoeding wegens overmacht vervallen."
+  },
+  {
+    "name": "CFR Călători",
+    "slug": "cfr",
+    "adresse": "SNTFC CFR Călători S.A.\nBd. Dinicu Golescu 38\nSector 1\n010873 Boekarest\nRoemenië",
+    "land": "Roemenië",
+    "infobox": "De Roemeense CFR kampt structureel vaak met vertragingen. Reizigers hebben bij meer dan 60 minuten vertraging recht op 25 % terugbetaling. Omdat de afhandeling ter plaatse ingewikkeld kan zijn, wordt schriftelijke indiening via het officiële onlineformulier aanbevolen."
+  },
+  {
+    "name": "ZSSK (Železničná spoločnosť Slovensko)",
+    "slug": "zssk",
+    "adresse": "ZSSK a.s.\nZákaznícke centrum\nRožňavská 1\n832 72 Bratislava\nSlowakije",
+    "land": "Slowakije",
+    "infobox": "Bij de Slowaakse ZSSK geeft een treinuitval recht op gratis overstap naar de volgende beschikbare trein van dezelfde categorie. Bij gebruik van een hogere categorie (bijv. InterCity in plaats van regionale trein) moet vooraf aan het loket toestemming worden gevraagd."
+  },
+  {
+    "name": "NordWestBahn",
+    "slug": "nordwestbahn",
+    "adresse": "NordWestBahn GmbH\nKundendialog\nPostfach 42 64\n49032 Osnabrück\nDuitsland",
+    "land": "Duitsland",
+    "infobox": "De NordWestBahn is actief in het Duitse regionale vervoer. Schadevergoeding voor gemiste zakelijke of privé-afspraken wegens een treinvertraging bestaat juridisch niet. De aanspraak is strikt beperkt tot de ticketprijs (bijv. forfaitair 1,50 euro voor abonnementen)."
+  },
+  {
+    "name": "HLB (Hessische Landesbahn)",
+    "slug": "hlb",
+    "adresse": "Hessische Landesbahn GmbH\nKundenservice\nErlenstraße 2\n60325 Frankfurt am Main\nDuitsland",
+    "land": "Duitsland",
+    "infobox": "Bij de Hessische Landesbahn (HLB) geldt het landelijk uniforme reizigersrechtensysteem. Aanvragen kunnen het eenvoudigst digitaal worden ingediend via het DB-onlineklantenaccount, mits het ticket via digitale DB-verkoopkanalen of binnen het vervoersverbond is gekocht."
+  },
+  {
+    "name": "SWEG",
+    "slug": "sweg",
+    "adresse": "SWEG Südwestdeutsche Landesverkehrs-GmbH\nKundencenter\nRheinstraße 8\n77933 Lahr\nDuitsland",
+    "land": "Duitsland",
+    "infobox": "Voor de SWEG in Baden-Württemberg geldt: als u door een treinvertraging aantoonbaar de laatste aansluiting van de dag mist, kunt u een taxi nemen. De SWEG vergoedt de kosten binnen de wettelijke mobiliteitsgarantie tot een maximumbedrag van 120 euro."
+  },
+  {
+    "name": "VIAS",
+    "slug": "vias",
+    "adresse": "VIAS Rail GmbH\nKundenservice\nKölner Straße 266\n51149 Köln\nDuitsland",
+    "land": "Duitsland",
+    "infobox": "Bij VIAS-treinen geldt in het reisrecht: reizigersrechten gelden ook wanneer de oorzaak van de treinuitval bij de spoorinfrastructuurbeheerder ligt (bijv. defecte seinpost van DB). Als de rit naar verwachting niet doorgaat, heeft u recht op volledige terugbetaling van de ticketprijs."
+  },
+  {
+    "name": "NEB (Niederbarnimer Eisenbahn)",
+    "slug": "neb",
+    "adresse": "Niederbarnimer Eisenbahn AG\nKundencenter\nGeorgenstraße 22\n10117 Berlijn\nDuitsland",
+    "land": "Duitsland",
+    "infobox": "De Niederbarnimer Eisenbahn (NEB) is aansprakelijk volgens de regels van het Duitse regionale vervoer. Omdat veel trajecten onder het VBB-tarief (Berlijn-Brandenburg) vallen, kunnen vergoedingsclaims gebundeld worden ingediend zodra de wettelijke drempel van in totaal 4,00 euro is overschreden."
+  }
+]

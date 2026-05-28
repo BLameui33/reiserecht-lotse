@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>{{BAHN_NAME}} Ritardo: risarcimento gratuito (PDF)</title>
+
+  <meta name="description" content="Treno in ritardo o coincidenza persa? Crea gratuitamente la lettera di reclamo ufficiale a {{BAHN_NAME}} e ottieni fino al 50% del prezzo del biglietto indietro.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://www.fix-my-trip.com/it/{{DATEINAME}}">
+
+    <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/{{DATEINAME}}">
+<link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/{{DATEINAME}}">
+<link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/{{DATEINAME}}">
+<link rel="alternate" hreflang="it" href="https://www.fix-my-trip.com/it/{{DATEINAME}}">
+<link rel="alternate" hreflang="nl" href="https://www.fix-my-trip.com/nl/{{DATEINAME}}">
+<link rel="alternate" hreflang="fr-be" href="https://www.fix-my-trip.com/fr-be/{{DATEINAME}}">
+<link rel="alternate" hreflang="nl-be" href="https://www.fix-my-trip.com/nl-be/{{DATEINAME}}">
+<link rel="alternate" hreflang="pt" href="https://www.fix-my-trip.com/pt/{{DATEINAME}}">
+
+<link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/{{DATEINAME}}">
+
+  <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="/logo-lotse-fav.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Generatore PDF: far valere i diritti con {{BAHN_NAME}}",
+    "applicationCategory": "LegalApplication",
+    "operatingSystem": "All",
+    "description": "Strumento gratuito per il calcolo dei risarcimenti e la creazione di una lettera modello legale a {{BAHN_NAME}}.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+    }
+  }
+  </script>
+
+  <!-- Schema FAQ per la massima presenza negli snippet in evidenza di Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Anche in caso di maltempo o interventi di emergenza medica {{BAHN_NAME}} deve pagare?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Dalla riforma di giugno 2023 è entrata in vigore un'importante novità: in caso di circostanze eccezionali (come forti temporali, furto di cavi o persone sui binari) il diritto al risarcimento finanziario del 25% o 50% viene meno. Tuttavia, in caso di scioperi del proprio personale, guasti agli scambi o difetti dei treni, {{BAHN_NAME}} deve pagare."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "È previsto un rimborso per il Deutschlandticket (biglietto da 49 euro)?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sì, ma è più complicato. Il Deutschlandticket è considerato un abbonamento agevolato. Per ogni ritardo di almeno 60 minuti spetta un importo forfettario di 1,50 euro. Poiché i pagamenti inferiori a 4 euro non vengono effettuati per legge, durante il mese di validità è necessario accumulare almeno tre ritardi (3 x 1,50 € = 4,50 €) e presentarli insieme. L'importo massimo rimborsabile per mese è limitato al 25% del prezzo del biglietto."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso prendere un ICE più costoso se il mio regionale viene cancellato?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In linea di principio sì, se si prevede un ritardo all'arrivo di almeno 20 minuti. Tuttavia, è necessario acquistare prima un biglietto ICE valido e poi presentarlo per il rimborso tramite il centro assistenza per i diritti dei passeggeri. Importante: questa regola NON si applica espressamente al Deutschlandticket! Chi sale su un ICE con il biglietto da 49 euro resta a proprio carico dei costi."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+  <span style="font-size: 0.9em; color: #666;">Diritti dei passeggeri ferroviari e trasporto pubblico locale</span>
+</header>
+
+<div class="page-container">
+
+  <!-- Above the Fold: soluzione chiara per un problema quotidiano frustrante -->
+  <h1>Ritardo di {{BAHN_NAME}}? Richiedi legalmente fino al 50% di rimborso</h1>
+  
+  <div class="usp-bar">
+    <div class="usp-item">Indirizzo ufficiale integrato</div>
+    <div class="usp-item">Basato sul regolamento UE 2021/782</div>
+    <div class="usp-item">100% gratuito e PDF immediato</div>
+  </div>
+
+  <div class="info-box red">
+    <p><strong>Il modulo per i tuoi soldi:</strong> Sei rimasto di nuovo bloccato in una stazione fredda e ventosa o hai perso la coincidenza salvifica? Con un ritardo di 60 minuti o più alla stazione di arrivo hai diritto per legge a un rimborso parziale del prezzo del biglietto. Compila questo modulo e genera con un clic una lettera legalmente valida per il centrale <strong>centro assistenza per i diritti dei passeggeri</strong>. Niente confusi clic nell'app, ma una richiesta formalmente solida per la posta o lo sportello presso {{BAHN_NAME}}.</p>
+  </div>
+
+  <div class="legal-info-box">
+    <strong>Avviso importante sull'utilizzo</strong><br>
+    Questo strumento è un <strong>generatore automatico di lettere modello</strong> (aiuto all'auto-aiuto). Inserisce i tuoi dati solo in modelli giuridici standard. Non viene effettuata <strong>alcuna verifica individuale</strong> del tuo caso. Questo servizio gratuito non sostituisce una consulenza legale da parte di un avvocato. L'utilizzo avviene sotto la propria responsabilità; non viene fornita alcuna garanzia di successo.
+</div>
+
+  <div class="highlight-box pruefdatum-box" role="note" aria-label="Verificato editorialmente" style="margin-top: 15px; margin-bottom: 30px;">
+    <p><strong>Verificato editorialmente il:</strong> <span id="pruefdatum">05.05.2026</span></p>
+  </div>
+
+  <!-- Lesson Learned Affiliate Box: ritardo del treno -->
+<div class="lesson-learned-box" style="background: #f8f9fa; border-left: 4px solid #ffb300; padding: 15px 20px; margin: 30px 0; border-radius: 4px; display: flex; align-items: flex-start; gap: 15px; position: relative;">
+  
+  <span style="font-size: 0.7rem; color: #666; background: #eee; padding: 2px 6px; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.05em; position: absolute; top: 10px; right: 10px;">
+    Annuncio
+  </span>
+
+  <div style="font-size: 2em; line-height: 1;">💡</div>
+  <div>
+    <h4 style="margin: 0 0 5px 0; color: #333; font-size: 1.1em; padding-right: 60px;">Consiglio per il prossimo viaggio in treno</h4>
+    <p style="margin: 0 0 10px 0; font-size: 0.95em; color: #555;">
+      Rimasto bloccato di notte in stazione perché la coincidenza è saltata? Chi deve anticipare di tasca propria per un hotel d'emergenza, un'auto a noleggio o un taxi trae grande vantaggio da una vera carta di credito da viaggio. Molte carte premium includono inoltre un'assicurazione comfort di viaggio che copre senza complicazioni proprio questi costi aggiuntivi in caso di ritardi.
+    </p>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #9d2121; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">
+      Confronta le carte di credito da viaggio con protezione premium
+    </a>
+  </div>
+</div>
+
+  <!-- Area modulo (struttura e ID invariati) -->
+  <form id="trainForm">
+    <fieldset>
+      <legend>1. I tuoi dati e coordinate bancarie</legend>
+      <label>Nome e cognome:</label>
+      <input type="text" id="sName" placeholder="es. Mario Rossi" required>
+      <label>Via e numero civico:</label>
+      <input type="text" id="sStrasse" placeholder="es. Bahnhofstraße 1" required>
+      <label>CAP e città:</label>
+      <input type="text" id="sPLZOrt" placeholder="es. 12345 Berlino" required>
+      <label>IBAN per il pagamento:</label>
+      <input type="text" id="bIBAN" placeholder="DE..." required>
+    </fieldset>
+
+    <fieldset>
+      <legend>2. I dati del viaggio</legend>
+      <label>Data del viaggio:</label>
+      <input type="date" id="fDatum" required>
+      <label>Numero d'ordine / numero del biglietto (si trova sul biglietto):</label>
+      <input type="text" id="fTicket" placeholder="es. XWVU12" required>
+      <label>Stazione di partenza:</label>
+      <input type="text" id="fStart" placeholder="es. Monaco Hbf" required>
+      <label>Stazione di arrivo prevista:</label>
+      <input type="text" id="fZiel" placeholder="es. Amburgo Hbf" required>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. Il ritardo</legend>
+      <label>Con quanto ritardo sei arrivato alla tua destinazione?</label>
+      <select id="fVerspaetung" required>
+        <option value="60">Tra 60 e 119 minuti (rimborso del 25%)</option>
+        <option value="120">Più di 120 minuti (rimborso del 50%)</option>
+        <option value="cancel">Viaggio completamente cancellato (rimborso / interruzione al 100%)</option>
+      </select>
+
+      <label>Qual è stato il motivo? (Facoltativo, ma utile per la gestione):</label>
+      <select id="fGrund">
+        <option value="Zug hatte Verspätung">Il treno era in ritardo</option>
+        <option value="Anschlusszug verpasst">Coincidenza persa</option>
+        <option value="Zug ist komplett ausgefallen">Il treno è stato completamente cancellato</option>
+        <option value="Personalmangel / Streik">Carenza di personale o sciopero</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>4. Destinatario della richiesta</legend>
+      <label>Indirizzo del fornitore:</label>
+      <textarea id="rAddress" rows="4" style="width: 100%; font-family: inherit; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">{{BAHN_ADRESSE}}</textarea>
+      <small style="color: #666;">Questo è l'indirizzo ufficiale di {{BAHN_NAME}}. Puoi aggiungerlo se necessario.</small>
+    </fieldset>
+    <p style="font-size: 0.8em; color: #666; margin-top: 5px; line-height: 1.3;">
+  💡 <strong>Nota:</strong> Per impostazione predefinita qui viene mostrato l'indirizzo centrale o regionale del fornitore. Puoi modificare questo indirizzo in qualsiasi momento e inserire invece l'indirizzo della filiale locale nel tuo paese.
+</p>
+
+    <div class="submit-area">
+    <p class="submit-disclaimer">
+        Facendo clic su "Genera PDF" comprendi che questo servizio automatizzato<br>non costituisce consulenza legale e che presenti la richiesta sotto la tua responsabilità.
+    </p>
+    <button type="submit" class="button-primary">📄 Genera PDF</button>
+</div>
+  </form>
+
+ <!-- Sezione contenuti SEO completa -->
+  <div class="seo-content">
+    <h2>I tuoi diritti dei passeggeri con {{BAHN_NAME}} in dettaglio</h2>
+    <p>Chi viaggia regolarmente con Frecciarossa, Intercity o treni regionali di {{BAHN_NAME}} conosce il problema: treni soppressi, guasti alle infrastrutture e coincidenze perse fanno perdere tempo e nervi. La buona notizia: quando l'orario va completamente fuori controllo, il diritto ferroviario europeo ti tutela. Il Regolamento UE sui diritti dei passeggeri ferroviari (Reg. 2021/782) stabilisce in modo vincolante a quanto indennizzo hai diritto — e si applica a tutti gli operatori attivi in Italia: Trenitalia, Italo (NTV) e gli operatori regionali.</p>
+
+    <h3>{{BAHN_NAME}}: a quanto ammonta l'indennizzo minimo in caso di ritardo?</h3>
+    <p>Un errore molto diffuso: non conta <em>il ritardo di un singolo treno lungo il percorso</em>, ma esclusivamente <strong>l'orario di arrivo alla stazione di destinazione prenotata</strong>. Se il tuo primo treno arriva con soli 10 minuti di ritardo, ma per questo perdi la coincidenza decisiva con il Frecciarossa e arrivi infine un'ora dopo, i tuoi diritti dei passeggeri si applicano integralmente.</p>
+
+    <table class="seo-table">
+      <thead>
+        <tr>
+          <th>Ritardo alla destinazione</th>
+          <th>Il tuo indennizzo minimo (biglietto singolo)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Tra 60 e 119 minuti</td>
+          <td><strong>25 %</strong> del prezzo del biglietto pagato</td>
+        </tr>
+        <tr>
+          <td>Da 120 minuti (2 ore e oltre)</td>
+          <td><strong>50 %</strong> del prezzo del biglietto pagato</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p><em>Regola importante per andata e ritorno:</em> Se hai acquistato un biglietto che unisce andata e ritorno in un unico documento, il ritardo viene considerato separatamente per ciascun tratto. La base di calcolo è quindi esattamente la metà del prezzo totale pagato. Attenzione: non è riconosciuto alcun indennizzo per importi inferiori a 4 euro.</p>
+
+    <h3>Tutela aggiuntiva volontaria: il bonus Frecce e i rimborsi automatici dal 2025</h3>
+    <p>Oltre al minimo legale europeo, Trenitalia offre condizioni più favorevoli per i treni ad Alta Velocità. Per i treni <strong>Frecciarossa, Frecciargento e Frecciabianca</strong>, un bonus pari al 25 % del prezzo del biglietto è riconosciuto già per ritardi <strong>tra 30 e 59 minuti</strong>, da richiedere entro 12 mesi dal viaggio. Importante novità: <strong>dal gennaio 2025</strong>, per i biglietti elettronici dei treni regionali acquistati con carta di credito o bancomat, il rimborso in caso di ritardo avviene in modo <strong>automatico</strong> entro 30 giorni, senza necessità di presentare richiesta.</p>
+
+    <table class="seo-table">
+      <thead>
+        <tr>
+          <th>Ritardo (Frecce Trenitalia)</th>
+          <th>Indennizzo volontario</th>
+          <th>Modalità</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>30 – 59 minuti</td>
+          <td><strong>25 %</strong> del biglietto</td>
+          <td>Bonus (non convertibile in denaro), valido 12 mesi</td>
+        </tr>
+        <tr>
+          <td>60 – 119 minuti</td>
+          <td><strong>25 %</strong> del biglietto</td>
+          <td>Bonus, rimborso in contanti o riaccredito su carta</td>
+        </tr>
+        <tr>
+          <td>Da 120 minuti</td>
+          <td><strong>50 %</strong> del biglietto</td>
+          <td>Bonus, rimborso in contanti o riaccredito su carta</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Eccezioni: quando {{BAHN_NAME}} non deve pagare l'indennizzo</h3>
+    <p>Il Regolamento (UE) 2021/782 esime le imprese ferroviarie dall'obbligo di indennizzare in caso di "circostanze straordinarie" inevitabili. Tra queste rientrano:</p>
+    <ul>
+      <li>Condizioni meteorologiche estreme (tempeste eccezionali, gravi catastrofi naturali, gravi crisi sanitarie pubbliche). Le normali condizioni invernali o piogge autunnali ordinarie rientrano invece nel rischio operativo.</li>
+      <li>Fatti di terzi (persone sui binari, furto di cavi, emergenze mediche a bordo, interventi delle forze dell'ordine, sabotaggio).</li>
+    </ul>
+    <p><strong>Buona notizia:</strong> Lo sciopero del proprio personale (macchinisti, personale di bordo o di terra) <em>non</em> è considerato una circostanza straordinaria: in caso di sciopero interno, Trenitalia e Italo restano obbligate a corrisponderti l'indennizzo. Lo stesso vale per guasti al materiale rotabile o malfunzionamenti degli impianti. Importante: i problemi dell'infrastruttura ferroviaria gestita da RFI (Rete Ferroviaria Italiana) <em>non</em> rientrano nella deroga — gli operatori restano responsabili verso il passeggero.</p>
+
+    <!-- Sezione FAQ -->
+    <div class="faq-section">
+      <h2>Domande frequenti (FAQ) sull'indennizzo con {{BAHN_NAME}}</h2>
+
+      <details>
+        <summary>Cosa succede se ho un abbonamento mensile o annuale?</summary>
+        <p>I titolari di abbonamento mensile o annuale (regionale o Intercity) hanno diritto a un indennizzo nel caso in cui, in un determinato mese, almeno il <strong>10 % dei treni programmati</strong> sulla tratta subisca un ritardo superiore a 15 minuti o venga soppresso. L'indennizzo è pari al <strong>10 % dell'importo dell'abbonamento mensile</strong> (o a 1/12 del 10 % per quelli annuali). In Lombardia, grazie a una delibera regionale, la percentuale è stata incrementata al 30 % per gli abbonamenti mensili e annuali. La richiesta va avanzata entro un anno dal verificarsi del disservizio sul sito di Trenitalia o presso le biglietterie.</p>
+      </details>
+
+      <details>
+        <summary>Come richiedere l'indennizzo per ritardo?</summary>
+        <p>Per biglietti ticketless (acquistati online o via app), la richiesta si effettua direttamente sul sito <strong>trenitalia.com</strong> nella sezione dedicata agli indennizzi, oppure tramite l'app Trenitalia, entro <strong>12 mesi</strong> dalla data del viaggio. Per i biglietti cartacei, la richiesta va presentata presso qualsiasi biglietteria Trenitalia, all'agenzia di viaggio che ha emesso il biglietto, oppure per posta a «Trenitalia S.p.A., Ufficio Reclami e Rimborsi, Piazza della Croce Rossa 1, 00161 Roma». Dal gennaio 2025, per i biglietti elettronici regionali, il rimborso avviene automaticamente sulla carta di pagamento entro 30 giorni, senza necessità di richiesta. Per Italo, la richiesta si effettua tramite l'area personale sul sito italotreno.com o contattando il servizio clienti.</p>
+      </details>
+
+      <details>
+        <summary>Posso prendere un altro treno se il mio è soppresso o in forte ritardo?</summary>
+        <p>Sì. Se si prevede un ritardo superiore a 60 minuti alla destinazione finale, hai diritto di scegliere tra proseguire il viaggio nelle condizioni migliori possibili oppure ottenere il rimborso integrale del biglietto senza penali. Se l'operatore non ti propone soluzioni alternative entro 100 minuti dall'orario di partenza previsto, puoi organizzare in autonomia un mezzo di trasporto alternativo e richiedere il rimborso delle spese ragionevoli sostenute. <em>Attenzione: un biglietto regionale non autorizza automaticamente all'utilizzo di un treno Freccia in caso di soppressione.</em></p>
+      </details>
+
+      <details>
+        <summary>Gli stessi diritti si applicano con Italo (NTV)?</summary>
+        <p>Sì. Il Regolamento (UE) 2021/782 è di applicazione obbligatoria per tutti gli operatori ferroviari attivi in Italia, inclusa Italo. Quest'ultima applica il minimo legale europeo (25 % tra 60 e 119 minuti, 50 % da 120 minuti) e riconosce l'indennizzo in modo automatico entro 30 giorni, sotto forma di Credito Italo o Borsellino Italo. A differenza delle Frecce Trenitalia, Italo non prevede una tutela volontaria estesa ai ritardi tra 30 e 59 minuti, ma rimane comunque vincolata al minimo di legge, anche in caso di sciopero del proprio personale.</p>
+      </details>
+
+      <details>
+        <summary>Cosa fare se l'operatore non risponde al mio reclamo?</summary>
+        <p>Se Trenitalia o Italo non rispondono entro un mese (o tre mesi nei casi complessi), puoi presentare un reclamo di secondo livello all'<strong>Autorità di Regolazione dei Trasporti (ART)</strong>, organismo nazionale indipendente che vigila sul rispetto dei diritti dei passeggeri ferroviari e può sanzionare le imprese inadempienti. Puoi anche rivolgerti al <strong>Centro Europeo Consumatori Italia (ECC Italy)</strong> per controversie transfrontaliere, o avviare la procedura europea per le controversie di modesta entità se l'importo lo giustifica.</p>
+      </details>
+    </div>
+  </div>
+
+  <div class="airline-hinweisbox">
+    <h3>Informazioni importanti sui rimborsi con {{BAHN_NAME}}</h3>
+    <p>{{BAHN_INFOBOX}}</p>
+  </div>
+
+  <div class="popular-links" style="margin-top: 40px; padding: 20px; background: #f9f9f9; border-radius: 8px;">
+    <h3>Altri fornitori e regioni:</h3>
+    <div class="link-grid">
+      {{BELIEBTE_LINKS}}
+    </div>
+  </div>
+  </div>
+
+  <!-- Riquadro fonti: ritardo treno Italia -->
+<aside class="legal-sources-box" aria-labelledby="sources-title">
+  <h3 id="sources-title" class="sources-heading">Basi giuridiche ufficiali</h3>
+  <p class="sources-intro">
+    I calcoli e le lettere di questo generatore si basano sulle seguenti leggi e regolamenti europei e nazionali vigenti:
+  </p>
+  <ul class="sources-list">
+    <li>
+      <strong>Regolamento (UE) 2021/782</strong> (diritti e obblighi dei passeggeri nel trasporto ferroviario):
+      testo europeo direttamente applicabile che fissa i diritti minimi all'indennizzo, all'assistenza e all'informazione in caso di ritardo o soppressione, valido per tutti gli operatori ferroviari in Italia.
+      <br>
+      <a href="https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32021R0782" target="_blank" rel="noopener noreferrer" class="source-link">
+        Testo ufficiale su EUR-Lex (Europa.eu)
+      </a>
+    </li>
+    <li>
+      <strong>Delibera ART n. 106/2018</strong> (Autorità di Regolazione dei Trasporti):
+      provvedimento dell'autorità nazionale che stabilisce i criteri di calcolo degli indennizzi per i titolari di abbonamento ferroviario, in attuazione del regolamento europeo.
+      <br>
+      <a href="https://www.autorita-trasporti.it/provvedimenti/delibera-n-106-2018/" target="_blank" rel="noopener noreferrer" class="source-link">
+        Testo ufficiale sul sito ART
+      </a>
+    </li>
+    <li>
+      <strong>Condizioni Generali di Trasporto Trenitalia</strong> (in vigore dal 6 novembre 2025):
+      regolamento contrattuale di Trenitalia che disciplina nel dettaglio le modalità di richiesta e i criteri di calcolo degli indennizzi per ritardo, inclusa la procedura di rimborso automatico introdotta nel 2025.
+      <br>
+      <a href="https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/indennita-per-ritardo.html" target="_blank" rel="noopener noreferrer" class="source-link">
+        Indennità per ritardo sul sito ufficiale Trenitalia
+      </a>
+    </li>
+    <li>
+      <strong>Autorità di Regolazione dei Trasporti (ART)</strong>:
+      organismo nazionale indipendente che tutela i diritti dei passeggeri ferroviari in Italia, riceve i reclami di secondo livello e può sanzionare le imprese inadempienti rispetto alla normativa europea.
+      <br>
+      <a href="https://www.autorita-trasporti.it/passeggeri/" target="_blank" rel="noopener noreferrer" class="source-link">
+        Sezione passeggeri sul sito ufficiale ART
+      </a>
+    </li>
+  </ul>
+</aside>
+
+
+
+
+</div>
+
+<div class="trust-section">
+    <h3>Competenza nel diritto dei viaggi e nei diritti dei passeggeri</h3>
+    <p class="trust-text">
+        Le nostre guide e i nostri generatori si basano sull'analisi rigorosa dei regolamenti UE attuali (come il regolamento CE 261/2004), delle sentenze della Corte federale di giustizia tedesca e del diritto nazionale dei viaggi. 
+        Sono sviluppati da Marc (direzione del progetto) e dal team per consentire ai viaggiatori di far valere i propri diritti in modo legalmente sicuro nei confronti di compagnie aeree e tour operator.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Avviso importante: i nostri strumenti offrono aiuto all'auto-aiuto in caso di ritardi aerei, difetti dell'hotel o soppressioni dei treni. Non sostituiscono una consulenza legale individuale da parte di un avvocato.
+        </span>
+    </p>
+
+    <!-- Umlaut nella URL rimosso! -->
+    <a href="ueber-uns.html" class="trust-link">
+        Scopri i dettagli sulla metodologia legale e sulla redazione →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Problemi con il volo, il treno o l'hotel?</strong><br>
+        Fix-My-Trip verifica in pochi passaggi il tuo diritto a risarcimento, rimborso del biglietto o riduzione del prezzo del viaggio. <br>
+        <em>Un servizio di Fix my Trip.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Hai trovato un errore nello strumento?</strong> Poiché come portale automatizzato non forniamo consulenza legale individuale, ci aiuti enormemente se segnali bug o fornitori non aggiornati: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Invia feedback alla nostra sede centrale</a>.
+</p>
+</div>
+
+<section class="site-niche-directory">
+    <div class="niche-directory-container">
+        <h2 class="niche-directory-title">Scopri altri temi</h2>
+        <p class="niche-directory-intro">
+            Che si tratti di ritardo aereo, difetto dell'hotel o trappola del roaming, i nostri esperti hanno preparato per quasi ogni nicchia di viaggio la guida e la lettera modello adatte.
+        </p>
+        
+        <div class="niche-directory-grid">
+            <div class="niche-directory-group">
+                <h3>Volo e aeroporto</h3>
+                <ul>
+                    <li><a href="flugverspaetung-info.html">Ritardo e cancellazione del volo</a></li>
+                    <li><a href="steuern-info.html">Richiedere il rimborso delle tasse aeree</a></li>
+                    <li><a href="gepaeck-info.html">Smarrimento bagagli e danni alla valigia</a></li>
+                    
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Alloggio e viaggio organizzato</h3>
+                <ul>
+                    <li><a href="hotel-maengel-info.html">Difetti dell'hotel e rumore dei lavori</a></li>
+                    <li><a href="storno-info.html">Annullare il viaggio (costi)</a></li>
+                    <li><a href="ferienhaus-maengel-info.html">Case vacanza e appartamenti vacanza</a></li>
+                    <li><a href="airbnb-probleme-info.html">Soluzioni ai problemi Airbnb</a></li>
+                    <li><a href="kreuzfahrt-minderung.html">Difetti nelle crociere</a></li>
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Preparazione del viaggio e mobilità</h3>
+                <ul>
+                    <li><a href="zugverspaetung-info.html">Ritardo del treno e diritti ferroviari</a></li>
+                    <li><a href="einreise-info.html">Norme di ingresso e visto</a></li>
+                    <li><a href="esim-roaming-info.html">Costi eSIM e roaming</a></li>
+                    <li><a href="mietwagen-info.html">Assicurazioni per auto a noleggio</a></li>
+                    
+                    <li><a href="reisekreditkarten-info.html">Confronto carte di credito da viaggio</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Chi siamo</a> | 
+        <a href="index.html">Home</a> | 
+        <a href="impressum.html">Note legali</a> | 
+        <a href="datenschutz.html">Privacy</a>
+    </nav>
+</footer>
+
+<script>
+document.getElementById('trainForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+    
+    // Indirizzo fisso del centro assistenza DB
+    // Estrarre l'indirizzo dinamico dal campo di testo
+const empfaenger = document.getElementById('rAddress').value;
+    
+    const sName = document.getElementById('sName').value;
+    const sStrasse = document.getElementById('sStrasse').value;
+    const sPLZOrt = document.getElementById('sPLZOrt').value;
+    const bIBAN = document.getElementById('bIBAN').value;
+    
+    const fTicket = document.getElementById('fTicket').value;
+    const fStart = document.getElementById('fStart').value;
+    const fZiel = document.getElementById('fZiel').value;
+    const fGrund = document.getElementById('fGrund').value;
+    
+    const rawDate = document.getElementById('fDatum').value;
+    const fDatumParts = rawDate.split('-');
+    const fDatum = `${fDatumParts[2]}.${fDatumParts[1]}.${fDatumParts[0]}`;
+
+    const verspaetungTyp = document.getElementById('fVerspaetung').value;
+
+    let deadline = new Date();
+    deadline.setDate(deadline.getDate() + 14);
+    const deadlineStr = deadline.toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'});
+    const todayStr = new Date().toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'});
+
+    doc.setFont("helvetica");
+
+    // 1. Riga dell'intestazione (mittente in piccolo)
+    doc.setFontSize(8);
+    doc.setTextColor(100, 100, 100);
+    doc.text(`${sName} • ${sStrasse} • ${sPLZOrt}`, 25, 45);
+    doc.setLineWidth(0.2);
+    doc.setDrawColor(150, 150, 150);
+    doc.line(25, 46.5, 95, 46.5);
+
+    // 2. Destinatario (centro assistenza)
+    doc.setFontSize(11);
+    doc.setTextColor(0, 0, 0);
+    const receiverLines = doc.splitTextToSize(empfaenger, 80);
+    doc.text(receiverLines, 25, 53);
+
+    // 3. Blocco mittente a destra
+    doc.setFontSize(10);
+    doc.text("Mittente:", 130, 45);
+    doc.setFont("helvetica", "bold");
+    doc.text(sName, 130, 50);
+    doc.setFont("helvetica", "normal");
+    doc.text(sStrasse, 130, 55);
+    doc.text(sPLZOrt, 130, 60);
+
+    doc.text(`Data: ${todayStr}`, 185, 80, {align: 'right'});
+
+    // 4. Oggetto
+    doc.setFontSize(12);
+    doc.setFont("helvetica", "bold");
+    doc.text(`Richiesta di risarcimento ai sensi dei diritti dei passeggeri (reg. UE 2021/782)`, 25, 95);
+    
+    // 5. Riquadro dei fatti
+    doc.setFontSize(10.5);
+    doc.setFont("helvetica", "bold");
+    doc.text("Numero d'ordine / biglietto:", 25, 105);
+    doc.text("Data del viaggio:", 25, 110);
+    doc.text("Tratta:", 25, 115);
+
+    doc.setFont("helvetica", "normal");
+    doc.text(fTicket, 75, 105);
+    doc.text(fDatum, 75, 110);
+    doc.text(`${fStart} verso ${fZiel}`, 75, 115);
+
+    doc.setDrawColor(0, 0, 0);
+    doc.line(25, 120, 185, 120); 
+
+    // 6. Testo principale in base al ritardo
+    // 6. Testo principale in base al ritardo
+const pageH = 297;
+const marginBottom = 20;
+const lineH = 6;
+
+function checkNewPage(doc, y, neededHeight = lineH) {
+    if (y + neededHeight > pageH - marginBottom) {
+        doc.addPage();
+        return 30;
+    }
+    return y;
+}
+
+function writeLines(doc, lines, startY, lh = lineH) {
+    let y = startY;
+    for (const line of lines) {
+        y = checkNewPage(doc, y);
+        doc.text(line, 25, y);
+        y += lh;
+    }
+    return y;
+}
+
+let yPos = 130;
+doc.setFontSize(11);
+
+let forderung = "";
+if (verspaetungTyp === "60") {
+    forderung = "Poiché sono arrivato alla stazione di destinazione con un ritardo superiore a 60 minuti ma inferiore a 120 minuti, con la presente faccio valere il mio diritto a un risarcimento pari al 25% del prezzo del biglietto.";
+} else if (verspaetungTyp === "120") {
+    forderung = "Poiché sono arrivato alla stazione di destinazione con un ritardo superiore a 120 minuti, con la presente faccio valere il mio diritto a un risarcimento pari al 50% del prezzo del biglietto.";
+} else {
+    forderung = "Poiché il viaggio non ha avuto luogo o è stato interrotto, con la presente faccio valere il mio diritto al rimborso completo del prezzo del biglietto.";
+}
+
+const para1 = doc.splitTextToSize(
+    `Gentili signore e signori,\n\n` +
+    `mi rivolgo a voi per far valere i miei diritti dei passeggeri relativi al viaggio sopra indicato.\n\n` +
+    `Durante il viaggio si sono verificate notevoli irregolarità. Il motivo è stato: ${fGrund}.\n\n` +
+    forderung + `\n\n` +
+    `I documenti necessari (biglietto) sono allegati alla presente lettera. Vi prego di trasferire l'importo del rimborso entro i prossimi 14 giorni sul seguente conto:`,
+    160
+);
+yPos = writeLines(doc, para1, yPos);
+yPos += 8;
+
+const para2 = doc.splitTextToSize(
+    `Intestatario del conto: ${sName}\nIBAN: ${bIBAN}`,
+    160
+);
+yPos = writeLines(doc, para2, yPos);
+yPos += 15;
+
+const para3 = doc.splitTextToSize(
+    `Confido in una gestione rapida e senza intoppi della mia richiesta e mi aspetto l'accredito del pagamento entro e non oltre il ${deadlineStr}.`,
+    160
+);
+yPos = writeLines(doc, para3, yPos);
+yPos += 20;
+
+// Firma – sempre mantenuta insieme
+yPos = checkNewPage(doc, yPos, 40);
+doc.text("Cordiali saluti,", 25, yPos);
+yPos += 25;
+
+doc.setLineWidth(0.5);
+doc.line(25, yPos, 80, yPos);
+doc.line(100, yPos, 185, yPos);
+
+doc.setFontSize(9);
+doc.setTextColor(100, 100, 100);
+doc.text("Luogo, data", 25, yPos + 5);
+doc.text(`Firma (${sName})`, 100, yPos + 5);
+
+doc.save(`Diritti_passeggeri_{{BAHN_NAME}}_${fTicket}.pdf`);
+setTimeout(() => document.getElementById('donateOverlay').classList.add('active'), 800);
+});
+
+/* ══════════════════════════════════════════
+   ▶▶ INSERISCI QUI LA TUA E-MAIL PAYPAL ◀◀
+   ══════════════════════════════════════════ */
+const PAYPAL_EMAIL = 'info@kassen-lotse.de';
+
+let donateAmount = 5;
+
+function selectPreset(amount, btn) {
+  donateAmount = amount;
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  document.getElementById('customAmount').value = '';
+  document.getElementById('customAmount').classList.remove('selected-custom');
+  updateDonateButton();
+}
+
+function handleCustomInput(input) {
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  const val = parseFloat(input.value);
+  if (val && val >= 1) {
+    donateAmount = val;
+    input.classList.add('selected-custom');
+  } else {
+    donateAmount = 0;
+    input.classList.remove('selected-custom');
+  }
+  updateDonateButton();
+}
+
+function updateDonateButton() {
+  const btn = document.getElementById('btnDonate');
+  if (donateAmount >= 1) {
+    btn.textContent = `Dona ora ${donateAmount % 1 === 0 ? donateAmount : donateAmount.toFixed(2)} €`;
+    btn.disabled = false;
+  } else {
+    btn.textContent = 'Inserisci importo';
+    btn.disabled = true;
+  }
+}
+
+function openPayPal() {
+  if (donateAmount < 1) return;
+  const amountStr = donateAmount.toFixed(2);
+  const url = `https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=${encodeURIComponent(PAYPAL_EMAIL)}&amount=${amountStr}&currency_code=EUR&item_name=Fix my Trip+Supporto&no_note=1&no_shipping=1`;
+  window.open(url, '_blank');
+  closeOverlay();
+}
+
+function closeOverlay() {
+  document.getElementById('donateOverlay').classList.remove('active');
+}
+// Chiude l'overlay quando si clicca sullo sfondo oscurato
+document.getElementById('donateOverlay').addEventListener('click', function(e) {
+  if (e.target === this) {
+    closeOverlay();
+  }
+});
+</script>
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Chiudi">&times;</button>
+    <div class="donate-emoji">🎉</div>
+    <h2>La tua lettera è pronta!</h2>
+    <p class="sub">Hai appena risparmiato <strong style="color:#2e7d32;">commissioni</strong> –<br>nessun intermediario, nessuna trattenuta, tutto resta a te.</p>
+    <div class="donate-hint">
+      Questo servizio è e rimane <strong>100 % gratuito</strong>. Se ti è stato utile, saremo molto felici di ricevere un piccolo contributo volontario – così Fix my Trip potrà restare gratuito anche per altri viaggiatori.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Scelta rapida:</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Inserisci un importo personalizzato …" oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Dona ora 5 €</button>
+    <button class="btn-skip" onclick="closeOverlay()">No grazie, chiudo la finestra</button>
+    <p class="paypal-note">Volontario e sicuro tramite PayPal</p>
+    <!-- P.S. Trucchetto per l'overlay ferroviario -->
+<div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
+  
+  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
+    Annuncio / link pubblicitario
+  </span>
+
+  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
+    <strong style="color: #333;">P.S.: Stai per ripartire presto?</strong> Proteggiti prima del prossimo caos ferroviario o aereo. Le vere carte di credito da viaggio aiutano in modo semplice con costi imprevisti di hotel o auto a noleggio e offrono spesso una forte protezione acquisti. <br>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Confronta ora i migliori fornitori e proteggiti 🚆</a>
+  </p>
+</div>
+  </div>
+</div>
+</body>
+</html>

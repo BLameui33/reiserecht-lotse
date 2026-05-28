@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Vluchtvertraging & annulering: vergoeding claimen | PDF</title>
+  <meta name="description" content="Uw rechten bij vluchtvertraging, annulering of overboeking. Ontdek hoe u tot €600 aan vergoeding kunt claimen volgens EU-verordening 261/2004.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="canonical" href="https://www.fix-my-trip.com/nl-be/flugverspaetung-info.html">
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/flugverspaetung-info.html">
+<link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/flugverspaetung-info.html">
+<link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/flugverspaetung-info.html">
+<link rel="alternate" hreflang="it" href="https://www.fix-my-trip.com/it/flugverspaetung-info.html">
+<link rel="alternate" hreflang="nl" href="https://www.fix-my-trip.com/nl/flugverspaetung-info.html">
+<link rel="alternate" hreflang="fr-be" href="https://www.fix-my-trip.com/fr-be/flugverspaetung-info.html">
+<link rel="alternate" hreflang="nl-be" href="https://www.fix-my-trip.com/nl-be/flugverspaetung-info.html">
+<link rel="alternate" hreflang="pt" href="https://www.fix-my-trip.com/pt/flugverspaetung-info.html">
+
+<link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/flugverspaetung-info.html">
+  <!-- Bibliotheek voor het genereren van PDF's uit HTML -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="/logo-lotse-fav.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Vanaf hoeveel uur vertraging heb ik recht op een vergoeding?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Volgens de EU-verordening inzake passagiersrechten 261/2004 heeft u recht op compensatie als u uw bestemming bereikt met een vertraging van meer dan 3 uur, mits er geen buitengewone omstandigheden zijn."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Hoe hoog is de vergoeding bij vluchtproblemen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "De hoogte van de vergoeding hangt af van de vliegafstand: €250 voor korte afstanden (tot 1.500 km), €400 voor middellange afstanden (tot 3.500 km) en €600 voor lange afstanden (meer dan 3.500 km buiten de EU)."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Wat zijn buitengewone omstandigheden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dit zijn gebeurtenissen die de luchtvaartmaatschappij niet kan controleren, zoals extreem weer, stakingen van de luchtverkeersleiding of politieke onrust. Technische defecten of personeelstekorten van de luchtvaartmaatschappij vallen hier doorgaans NIET onder."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Heb ik recht op verzorging op de luchthaven?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, vanaf een wachttijd van 2 uur (bij korte afstanden) moet de luchtvaartmaatschappij zorg- en assistentiediensten bieden. Daaronder vallen maaltijden, drankjes en indien nodig een hotelovernachting inclusief transfer."
+      }
+    }]
+  }
+  </script>
+
+  
+  
+</head>
+<body>
+
+<header class="site-header" style="padding: 20px 0; border-bottom: 2px solid #eee; margin-bottom: 30px;">
+  <a href="index.html" style="font-size: 1.5em; font-weight: bold; text-decoration: none;">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Vluchtvertraging & annulering: zo claimt u tot €600 vergoeding</h1>
+  
+  <p>Een vertraagde of geannuleerde vlucht kan de hele reisplanning verstoren. Maar als passagier bent u volledig beschermd door de <strong>EU-verordening inzake passagiersrechten 261/2004</strong>. Veel reizigers weten niet dat zij bij een vertraging van meer dan drie uur op de eindbestemming recht hebben op een forfaitaire vergoeding tussen <strong>€250 en €600</strong> – ongeacht de ticketprijs.</p>
+  
+  <p>Vaak proberen luchtvaartmaatschappijen claims af te wijzen met een beroep op "buitengewone omstandigheden" zoals slecht weer of een technisch defect. In de praktijk zijn technische problemen echter bijna altijd de verantwoordelijkheid van de luchtvaartmaatschappij. Ons portaal helpt u om uw recht zonder kostenrisico af te dwingen.</p>
+
+  <div class="legal-info-box">
+    <strong>Belangrijke gebruiksmededeling</strong><br>
+    Deze tool is een <strong>geautomatiseerde generator voor voorbeeldbrieven</strong> (hulp om uzelf te helpen). Uw gegevens worden alleen in juridische standaardtemplates ingevoegd. Er vindt <strong>geen individuele beoordeling</strong> van uw zaak plaats. Deze gratis service vervangt geen juridisch advies van een advocaat. Gebruik is op eigen verantwoordelijkheid; er wordt geen succesgarantie gegeven.
+</div>
+
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">PDF-claimbrief genereren</h2>
+    <p>Selecteer uw luchtvaartmaatschappij om een juridisch correct document te maken dat exact is afgestemd op de betreffende airline:</p>
+    
+    <select id="airlineSelect">
+      <option value="">-- Kies een luchtvaartmaatschappij --</option>
+      {{AIRLINE_OPTIONS}}
+      <option value="flugverspaetung-entschaedigung-allgemein.html">Mijn luchtvaartmaatschappij staat er niet tussen (algemeen formulier)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Naar de generator voor deze airline</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Recht op vergoeding per luchtvaartmaatschappij controleren</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{AIRLINE_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Checklist: directe hulp bij vluchtproblemen</h2>
+  <p>Als u momenteel vastzit op de luchthaven, volg dan deze stappen om uw latere recht op vergoeding veilig te stellen:</p>
+  
+
+  <div class="checklist-box" id="checklistToPrint">
+  <!-- Optional: Een verborgen of zichtbare kop die er alleen in de PDF goed uitziet -->
+  <h3 style="margin-top:0; color:#1565c0;">Checklist</h3>
+
+    <ul>
+      <li><strong>Laat de reden bevestigen:</strong> Vraag het personeel om de schriftelijke reden van de vertraging.</li>
+      <li><strong>Bewijs verzamelen:</strong> Bewaar instapkaarten, boekingsbevestigingen en bonnetjes voor eten en drinken.</li>
+      <li><strong>Foto's maken:</strong> Leg het bord met de vertragingstijd vast.</li>
+      <li><strong>Verzorging eisen:</strong> Vraag na 2 uur wachttijd om vouchers voor eten en drinken.</li>
+      <li><strong>Geen vouchers ondertekenen:</strong> Onderteken niets dat kan inhouden dat u afstand doet van uw passagiersrechten.</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('checkliste-zoll.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+  Checklist als PDF genereren & opslaan
+</button>
+
+  <h2 style="margin-top: 40px;">Voorbeelden: wanneer de luchtvaartmaatschappij moet betalen</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Voorbeeld 1: technisch defect op een korte vlucht</h3>
+    <p>Een vlucht van Berlijn naar Parijs (ca. 900 km) heeft 4 uur vertraging door een defect hydraulisch systeem. De luchtvaartmaatschappij beweert dat dit niet voorzienbaar was.<br>
+    <strong>Resultaat:</strong> Dit telt NIET als buitengewone omstandigheid. De passagier heeft recht op <strong>€250</strong>.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Voorbeeld 2: aansluitende vlucht in de VS gemist</h3>
+    <p>Een reiziger vliegt van Frankfurt via Londen naar New York. De eerste vlucht heeft 40 minuten vertraging, waardoor de aansluiting in Londen wordt gemist. Aankomst in NYC: 6 uur later.<br>
+    <strong>Resultaat:</strong> Omdat de vlucht in de EU begon, geldt de verordening voor de volledige reis. Recht op: <strong>€600</strong>.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">FAQ: uw rechten in detail</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">Wanneer zijn omstandigheden echt "buitengewoon"?</div>
+    <div class="faq-answer">Alleen bij gebeurtenissen die van buitenaf inwerken en niet tot de normale bedrijfsvoering behoren. Voorbeelden: natuurrampen, sluiting van het luchtruim of medische noodgevallen aan boord. Een staking van het eigen personeel van de luchtvaartmaatschappij geldt volgens het Hof van Justitie van de EU meestal NIET meer als buitengewone omstandigheid.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Hoe lang terug kan ik vergoeding claimen?</div>
+    <div class="faq-answer">In Duitsland kunt u uw aanspraken tot 3 jaar terug laten gelden. De termijn wordt berekend tot het einde van het jaar. Een vlucht uit 2023 kan dus tot eind 2026 worden gevorderd.</div>
+  </div>
+
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">Wat als mij een vervangende vlucht wordt aangeboden?</div>
+    <div class="faq-answer">Als de luchtvaartmaatschappij een alternatief vervoer aanbiedt, kan de vergoeding met 50% worden verlaagd als de aankomsttijd op de bestemming slechts in geringe mate afwijkt van de oorspronkelijke tijd. De zorgplicht (eten/telefoneren) blijft echter bestaan.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise in reisrecht & passagiersrechten</h3>
+    <p class="trust-text">
+        Onze gidsen en generators zijn gebaseerd op een strikte analyse van actuele EU-verordeningen (zoals EG 261/2004), arresten van het Bundesgerichtshof en het nationale reisrecht. 
+        Ze worden ontwikkeld door Marc (projectleiding) & team om reizigers in staat te stellen hun rechten juridisch correct af te dwingen tegenover luchtvaartmaatschappijen en reisorganisaties.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Belangrijke mededeling: onze tools bieden hulp om uzelf te helpen bij vluchtvertraging, hotelschade of treinuitval. Ze vervangen geen individueel juridisch advies van een advocaat.
+        </span>
+    </p>
+
+    <!-- Umlaut in URL entfernt! -->
+    <a href="ueber-uns.html" class="trust-link">
+        Meer over de juridische methodiek & redactie →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Probleem met de vlucht, trein of het hotel?</strong><br>
+        Fix-My-Trip controleert in enkele stappen uw recht op vergoeding, ticketteruggave of prijsvermindering van de reis. <br>
+        <em>Een service van Fix my Trip.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Fout in de tool ontdekt?</strong> Omdat wij als geautomatiseerd portaal geen individueel juridisch advies geven, helpt u ons enorm als u bugs of verouderde aanbieders meldt: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Feedback naar ons hoofdkantoor sturen</a>.
+</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Over ons</a> | 
+        <a href="index.html">Startpagina</a> | 
+        <a href="impressum.html">Colofon</a> | 
+        <a href="datenschutz.html">Privacybeleid</a>
+    </nav>
+</footer>
+
+<script>
+function routeToGenerator() {
+    const selectElement = document.getElementById('airlineSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Selecteer eerst een luchtvaartmaatschappij uit de lijst.");
+    }
+}
+
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // 15 mm marge rondom
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, // Hoge resolutie
+            scrollY: 0, // BELANGRIJK: lost het probleem met de lege pagina op!
+            windowWidth: document.documentElement.offsetWidth // Zorgt ervoor dat de breedte klopt
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    // PDF genereren
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

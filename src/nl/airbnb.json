@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Annulering door de host",
+    "slug": "gastgeber-storniert-kurzfristig",
+    "beschreibung": "De host heeft uw boeking op korte termijn geannuleerd en u staat zonder accommodatie? Wij helpen u de volledige terugbetaling en eventueel schadevergoeding voor de extra kosten van een vervangend hotel te eisen."
+  },
+  {
+    "name": "Schimmel, vuil & ongedierte",
+    "slug": "dreck-schimmel-ungeziefer",
+    "beschreibung": "Schimmel in de badkamer, kakkerlakken in de keuken of gewoon vuile beddengoed? Zulke hygiënische gebreken hoeft u niet te accepteren. Documenteer alles voor uw AirCover-terugbetaling."
+  },
+  {
+    "name": "Onjuiste informatie & nepfoto's",
+    "slug": "falsche-angaben-fake-fotos",
+    "beschreibung": "De luxe villa blijkt een souterrainwoning te zijn of de foto's in de advertentie waren volledig verouderd? Als de accommodatie niet overeenkomt met de beschrijving, heeft u recht op een aanzienlijke prijsverlaging."
+  },
+  {
+    "name": "Ontbrekende voorzieningen (wifi, zwembad, airco)",
+    "slug": "ausstattung-fehlt-defekt",
+    "beschreibung": "Geen wifi ondanks thuiswerkplanning of is het geadverteerde zwembad groen en onbruikbaar? Ontbrekende toegezegde voorzieningen geven u recht op vermindering van de huurprijs."
+  },
+  {
+    "name": "Borg onrechtmatig ingehouden",
+    "slug": "kaution-unrechtmaessig-einbehalten",
+    "beschreibung": "De host beweert na vertrek schade die u niet heeft veroorzaakt en houdt de borg in? Verzet u tegen ongegronde claims en eis uw geld terug."
+  },
+  {
+    "name": "AirCover-kopersbescherming afgewezen",
+    "slug": "aircover-abgelehnt-geld-zurueck",
+    "beschreibung": "Airbnb heeft uw zaak gesloten of de terugbetaling afgewezen, hoewel het gebrek overduidelijk was? Verhoog de druk met een officiële juridische brief aan de juridische afdeling."
+  },
+  {
+    "name": "Algemeen Airbnb-probleem",
+    "slug": "allgemein",
+    "beschreibung": "Staat uw specifieke probleem hierboven niet vermeld? Geen probleem. Gebruik dit algemene formulier om elk willekeurig gebrek bij Airbnb juridisch correct te melden."
+  }
+]

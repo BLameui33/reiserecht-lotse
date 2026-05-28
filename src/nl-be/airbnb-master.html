@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Airbnb-klacht: {{PROBLEM_KATEGORIE}} (PDF-generator)</title>
+
+  <meta name="description" content="Problemen met Airbnb vanwege: {{PROBLEM_KATEGORIE}}? Zorg dat u uw terugbetaling via AirCover veiligstelt. Maak hier uw juridisch correcte klacht-PDF aan.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://www.fix-my-trip.com/nl-be/{{DATEINAME}}">
+
+  
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/{{DATEINAME}}">
+<link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/{{DATEINAME}}">
+<link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/{{DATEINAME}}">
+<link rel="alternate" hreflang="it" href="https://www.fix-my-trip.com/it/{{DATEINAME}}">
+<link rel="alternate" hreflang="nl" href="https://www.fix-my-trip.com/nl/{{DATEINAME}}">
+<link rel="alternate" hreflang="fr-be" href="https://www.fix-my-trip.com/fr-be/{{DATEINAME}}">
+<link rel="alternate" hreflang="nl-be" href="https://www.fix-my-trip.com/nl-be/{{DATEINAME}}">
+<link rel="alternate" hreflang="pt" href="https://www.fix-my-trip.com/pt/{{DATEINAME}}">
+
+<link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/{{DATEINAME}}">
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Airbnb-terugbetalingsgenerator: {{PROBLEM_KATEGORIE}}",
+    "applicationCategory": "LegalApplication",
+    "operatingSystem": "All",
+    "description": "Gratis tool om terugbetalingen bij Airbnb (AirCover) af te dwingen, specifiek voor het probleem: {{PROBLEM_KATEGORIE}}.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Hoe lang heb ik de tijd om een gebrek bij Airbnb te melden?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Airbnb hanteert extreem strikte termijnen: volgens de AirCover-richtlijnen moet u een probleem binnen 72 uur na ontdekking melden. Wie pas na het uitchecken klaagt, verliest vaak elk recht op terugbetaling."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "De host heeft op korte termijn geannuleerd. Wat nu?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Als de host annuleert, ontvangt u van Airbnb automatisch een volledige terugbetaling. Vaak helpt Airbnb ook bij het vinden van een vervangende accommodatie (AirCover). Als de nieuwe accommodatie aanzienlijk duurder is, kunt u onder omstandigheden het prijsverschil als schadevergoeding claimen."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Moet ik eerst met de host of met Airbnb spreken?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Airbnb verlangt in zijn algemene voorwaarden dat u eerst probeert het probleem rechtstreeks met de host via de Airbnb-chat op te lossen. Als de host niet reageert of het probleem niet oplost, kunt u Airbnb inschakelen."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+  <span style="font-size: 0.9em; color: #666;">Uw rechten bij Airbnb & AirCover</span>
+</header>
+
+<div class="page-container">
+
+  <h1>Airbnb-probleem: {{PROBLEM_KATEGORIE}} melden & geld terugkrijgen</h1>
+
+  <div class="back-to-hub-banner">
+  <a href="airbnb-probleme-info.html">
+    <span class="arrow">&larr;</span> Terug naar het overzicht: alle Airbnb-onderwerpen
+  </a>
+  </div>
+  
+  <div class="usp-bar">
+    <div class="usp-item">Focus op AirCover-richtlijnen</div>
+    <div class="usp-item">Geoptimaliseerd voor Airbnb-support</div>
+    <div class="usp-item">Juridisch nauwkeurige PDF-voorbeeldbrief</div>
+    <div class="usp-item">100% gratis</div>
+  </div>
+
+  <p class="intro-text">
+  <strong>Wat is er gebeurd?</strong> {{MANGEL_BESCHREIBUNG}}
+</p>
+
+  <p>Een horrorverblijf in plaats van "Live like a local"? Of de host nu zonder reden heeft geannuleerd, de woning smerig was of er totaal anders uitzag dan op de foto's van de advertentie: Airbnb biedt met <strong>AirCover</strong> in theorie een sterke bescherming voor gasten. In de praktijk blokkeert de support echter vaak. Gebruik onze generator om uw aanspraken met betrekking tot <strong>{{PROBLEM_KATEGORIE}}</strong> juridisch correct bij Airbnb (Ierland) in te dienen.</p>
+
+  <div class="info-box warning">
+    <strong>De 72-uursval:</strong> Airbnb hanteert keiharde voorwaarden! U moet een probleem verplicht binnen <strong>72 uur</strong> na ontdekking via de app melden. Bovendien verlangt Airbnb dat u eerst de host via de in-app chat benadert. Schrijf nooit via WhatsApp met de host – Airbnb accepteert alleen bewijs uit het eigen chatsysteem!
+  </div>
+
+  <div class="legal-info-box">
+    <strong>Belangrijke gebruiksmededeling</strong><br>
+    Deze tool is een <strong>geautomatiseerde voorbeeldbriefgenerator</strong> (hulp tot zelfhulp). Uw gegevens worden alleen in juridische standaardtemplates ingevuld. Er vindt <strong>geen individuele beoordeling</strong> van uw zaak plaats. Deze gratis service vervangt geen juridisch advies van een advocaat. Gebruik is op eigen verantwoordelijkheid; er wordt geen succesgarantie gegeven.
+</div>
+<div class="highlight-box pruefdatum-box" role="note" aria-label="Redactioneel gecontroleerd" style="margin-top: 15px; margin-bottom: 30px;">
+    <p><strong>Redactioneel gecontroleerd op:</strong> <span id="pruefdatum">07.05.2026</span></p>
+  </div>
+
+  <div class="lesson-learned-box" style="background: #f8f9fa; border-left: 4px solid #ffb300; padding: 15px 20px; margin: 30px 0; border-radius: 4px; display: flex; align-items: flex-start; gap: 15px; position: relative;">
+  
+  <!-- NEU: Discrete affiliate-melding rechtsboven -->
+  <span style="font-size: 0.7rem; color: #666; background: #eee; padding: 2px 6px; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.05em; position: absolute; top: 10px; right: 10px;">
+    Advertentie
+  </span>
+
+  <div style="font-size: 2em; line-height: 1;">💡</div>
+  <div>
+    <h4 style="margin: 0 0 5px 0; color: #333; font-size: 1.1em; padding-right: 60px;">Tip voor de volgende reis</h4>
+    <p style="margin: 0 0 10px 0; font-size: 0.95em; color: #555;">
+      Was het vakantiehuis een nachtmerrie en moest u ter plaatse iets anders boeken? Met echte reiskredietkaarten kunt u in het buitenland niet alleen zonder kosten het vervangende hotel betalen, maar hebt u via de zogeheten chargeback-procedure vaak een troef in handen als de oorspronkelijke aanbieder weigert terug te betalen.
+    </p>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #891818; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">
+      De beste (gratis) reiskredietkaarten vergelijken
+    </a>
+  </div>
+</div>
+
+  <form id="airbnbForm">
+    <fieldset style="border-color: #ff385c; background: #fffafb;">
+      <legend style="background: #ff385c; color: #fff;">1. Tegenpartij van de klacht (vooraf ingevuld)</legend>
+      <label>Platform:</label>
+      <input type="text" id="aName" value="Airbnb Ireland UC" readonly style="background-color: #f0f0f0; color: #555;">
+      <label>Adres (Europees hoofdkantoor):</label>
+      <textarea id="aAdresse" rows="3" readonly style="background-color: #f0f0f0; color: #555;">8 Hanover Quay&#13;&#10;Dublin 2, D02 DP23&#13;&#10;Ierland</textarea>
+    </fieldset>
+    <p style="font-size: 0.8em; color: #666; margin-top: 5px; line-height: 1.3;">
+  💡 <strong>Opmerking:</strong> Standaard wordt hier het centrale of regionale adres van de aanbieder weergegeven. U kunt dit adres op elk moment wijzigen en in plaats daarvan het adres van de lokale vestiging in uw land invoeren.
+</p>
+
+    <fieldset>
+      <legend>2. Uw boekingsgegevens bij Airbnb</legend>
+      <label>Bevestigingscode (begint meestal met 'H', bijv. HMDXY7Z):</label>
+      <input type="text" id="fBuchung" placeholder="bijv. HMW34..." required>
+      <label>Naam van de host:</label>
+      <input type="text" id="fHost" placeholder="bijv. Maria" required>
+      <label>Reisperiode (van - tot):</label>
+      <input type="text" id="fZeitraum" placeholder="bijv. 01.08.2026 - 14.08.2026" required>
+      
+      <label style="color: var(--primary);">Totaal betaald bedrag (in euro):</label>
+      <input type="number" step="0.01" id="fPreis" placeholder="bijv. 850" required>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. Vorderingscalculator (AirCover & schadevergoeding)</legend>
+      <p style="font-size: 0.9em; color: #666; margin-top: 0;">Kies wat er is gebeurd. De calculator bepaalt een passende terugbetalingsvordering op basis van de AirCover-richtlijnen en het contractenrecht.</p>
+      
+      <div class="checkbox-group" id="mangelCheckboxes">
+        <label><input type="checkbox" value="100" data-text="Accommodatie onbewoonbaar / toegang geweigerd (volledige terugbetaling)"> Toegang geweigerd / huis onbewoonbaar (100% terugbetaling)</label>
+        <label><input type="checkbox" value="100" data-text="Kortetermijnannulering door de host"> Host heeft geannuleerd (100% terugbetaling)</label>
+        <label><input type="checkbox" value="50" data-text="Groot gezondheidsgevaar (bijv. extreme schimmel, ongedierte)"> Extreem gezondheidsgevaar / ongedierte (50% terugbetaling)</label>
+        <label><input type="checkbox" value="30" data-text="Grote afwijking van de foto's / verkeerde locatie"> Nepfoto's / verkeerde locatievermelding (30% terugbetaling)</label>
+        <label><input type="checkbox" value="20" data-text="Ontbrekende essentiële voorzieningen (geen wifi, kapotte verwarming/airco)"> Essentiële voorzieningen ontbreken (wifi/airco) (20% terugbetaling)</label>
+        <label><input type="checkbox" value="15" data-text="Ernstige vervuiling bij check-in (ontbrekende schoonmaak)"> Woning bij aankomst vies (15% terugbetaling)</label>
+      </div>
+
+      <div class="calc-banner" style="background-color: #ff385c; color: white;">
+        Uw vordering aan Airbnb:<br>
+        <span id="liveAmount" style="color: white;">0,00 €</span>
+        <div style="font-size: 0.5em; font-weight: normal; margin-top: 5px; color: #ffebee;">(Terugbetalingspercentage: <span id="livePercent">0</span>%)</div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>4. Uw gegevens & bankrekening</legend>
+      <label>Uw voor- en achternaam (rekeninghouder):</label>
+      <input type="text" id="sName" placeholder="bijv. Max Mustermann" required>
+      <label>Uw bij Airbnb geregistreerde e-mailadres:</label>
+      <input type="email" id="sEmail" placeholder="bijv. max@muster.de" required>
+      <label>Straat en huisnummer:</label>
+      <input type="text" id="sStrasse" placeholder="bijv. Musterstraße 1" required>
+      <label>Postcode en plaats:</label>
+      <input type="text" id="sPLZOrt" placeholder="bijv. 12345 Berlin" required>
+      <label>IBAN voor externe uitbetaling (als AirCover mislukt):</label>
+      <input type="text" id="bIBAN" placeholder="DE..." required>
+    </fieldset>
+
+    
+
+    <div class="submit-area">
+    <p class="submit-disclaimer">
+        Door op "PDF genereren" te klikken, begrijpt u dat deze geautomatiseerde service<br>geen juridisch advies vormt en dat u de vordering op eigen verantwoordelijkheid indient.
+    </p>
+    <button type="submit" class="button-primary" style="background-color: #ff385c; border-color: #e03152;">📄 Officiële klacht-PDF voor Airbnb genereren</button>
+</div>
+  </form>
+
+  <div class="seo-content">
+    <h2>Problemen met Airbnb vanwege {{PROBLEM_KATEGORIE}}: uw rechten</h2>
+    <p>Airbnb heeft de manier waarop we reizen revolutionair veranderd. Maar als er problemen ontstaan, voelen veel gasten zich door de support van het platform in de steek gelaten. De geautomatiseerde chatbot helpt zelden verder, en hosts schuiven vaak alle schuld van zich af. Vooral bij het onderwerp <strong>{{PROBLEM_KATEGORIE}}</strong> is snel en gedocumenteerd handelen essentieel.</p>
+
+    <h3>Wat is AirCover voor gasten?</h3>
+    <p>AirCover is de eigen kopersbescherming van Airbnb. Deze is bij elke boeking automatisch en gratis inbegrepen. AirCover geldt onder meer bij annuleringen door de host binnen 30 dagen voor check-in, als u de accommodatie niet kunt betreden, of als de advertentie grof onjuist is beschreven. In theorie garandeert Airbnb u hier een terugbetaling of een alternatieve accommodatie. De praktijk laat echter zien: wie niet volhoudt en schriftelijk eist, wordt vaak afgescheept met kleine tegoedbonnen.</p>
+
+    <h3>De gouden Airbnb-regel: communicatie alleen via de app!</h3>
+    <p>De meest voorkomende fout van gasten: zij communiceren via WhatsApp of sms met de host. Airbnb heeft geen toegang tot deze berichten. Als de host bij een gebrek op WhatsApp beterschap belooft maar dat niet doet, kunt u dat tegenover de Airbnb-support niet bewijzen. <strong>Bespreek klachten uitsluitend via het Airbnb-berichtenverloop!</strong> Dat is uw belangrijkste bewijsmiddel voor deze vorderingsbrief.</p>
+
+    <div class="faq-section">
+      <h2>Veelgestelde vragen (FAQ) over de Airbnb-klacht</h2>
+      
+      <details>
+        <summary>Hoe lang heb ik de tijd om een gebrek bij Airbnb te melden?</summary>
+        <p>Airbnb hanteert extreem strikte termijnen: volgens de huidige richtlijnen moet u een probleem verplicht binnen <strong>72 uur</strong> na ontdekking melden (vroeger was dat zelfs slechts 24 uur). Wie pas na het uitchecken klaagt, verliest volgens de voorwaarden vaak elk recht op terugbetaling via AirCover.</p>
+      </details>
+
+      <details>
+        <summary>De host heeft geannuleerd. Krijg ik schadevergoeding voor een hotel?</summary>
+        <p>Als de host op korte termijn annuleert, krijgt u uw geld terug van Airbnb. Daarnaast helpt AirCover bij het zoeken naar een vergelijkbare accommodatie. Als Airbnb geen alternatief vindt en u een duurder hotel moet boeken, kunt u proberen het prijsverschil als schadevergoeding (meer kosten) te claimen. Airbnb betaalt dit niet altijd vrijwillig, maar juridisch is de host vaak schadeplichtig.</p>
+      </details>
+
+      <details>
+        <summary>Waarom gaat de brief naar Airbnb Ierland?</summary>
+        <p>Als u in Europa woont, sluit u uw gebruiksovereenkomst af met <em>Airbnb Ireland UC</em>. Dit is uw juridische contractspartner voor betalingen, kosten en de AirCover-kopersbescherming. De Duitse vestiging (Airbnb Germany GmbH) is vaak alleen verantwoordelijk voor marketing en juridisch de verkeerde geadresseerde voor vorderingen.</p>
+      </details>
+    </div>
+  </div>
+
+<div class="crosslink-box" style="background: #fffafb; border: 1px solid #ffebee; padding: 20px; border-radius: 8px; margin: 40px 0;">
+  <h3 style="color: #ff385c;">Meer Airbnb-probleemoplossingen:</h3>
+  <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
+    {{BELIEBTE_LINKS}}
+  </div>
+</div>
+
+<aside class="legal-sources-box" aria-labelledby="sources-title-airbnb">
+    <h3 id="sources-title-airbnb" class="sources-heading">Grondslagen van de vordering</h3>
+    <p class="sources-intro">
+        Vorderingen tegen Airbnb zijn primair gebaseerd op de eigen platformrichtlijnen en aanvullend contractenrecht:
+    </p>
+    <ul class="sources-list">
+        <li>
+            <strong>AirCover voor gasten & terugbetalingsrichtlijnen</strong>: 
+            De juridische basis voor de meeste klachten rechtstreeks tegenover het platform. Zij regelen terugbetalingen bij geen toegang, annuleringen en ernstige gebreken.
+        </li>
+        <li>
+            <strong>Aansprakelijkheid van de host (algemene civielrechtelijke regels)</strong>: 
+            Als Airbnb een terugbetaling via AirCover weigert, blijft de host uw directe contractspartner voor de huurovereenkomst. Tegen hem kunt u volgens het toepasselijke civiele recht (indien in Duitsland gehuurd) huurvermindering of schadevergoeding eisen.
+        </li>
+    </ul>
+</aside>
+</div>
+
+<section class="site-niche-directory">
+    <div class="niche-directory-container">
+        <h2 class="niche-directory-title">Ontdek meer onderwerpen</h2>
+        <p class="niche-directory-intro">
+            Of het nu gaat om vluchtvertraging, hotelgebreken of roamingvalkuilen – onze experts hebben voor bijna elke reisniche de juiste gids en voorbeeldbrief voorbereid.
+        </p>
+        
+        <div class="niche-directory-grid">
+            <div class="niche-directory-group">
+                <h3>Vlucht &amp; luchthaven</h3>
+                <ul>
+                    <li><a href="flugverspaetung-info.html">Vluchtvertraging &amp; annulering</a></li>
+                    <li><a href="steuern-info.html">Vliegbelastingen terugvorderen</a></li>
+                    <li><a href="gepaeck-info.html">Bagageverlies &amp; kofferschade</a></li>
+                    
+                    <li><a href="ota-rueckerstattung-info.html">Vluchtboekingsportalen (OTA)</a></li>
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Accommodatie &amp; pakketreis</h3>
+                <ul>
+                    <li><a href="hotel-maengel-info.html">Hotelgebreken &amp; bouwoverlast</a></li>
+                    <li><a href="storno-info.html">Reis annuleren (kosten)</a></li>
+                    <li><a href="ferienhaus-maengel-info.html">Vakantiehuizen &amp; vakantiewoningen</a></li>
+                    <li><a href="airbnb-probleme-info.html">Airbnb-probleemoplossingen</a></li>
+                    <li><a href="kreuzfahrt-minderung.html">Cruisegebreken</a></li>
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Reisvoorbereiding &amp; mobiliteit</h3>
+                <ul>
+                    <li><a href="zugverspaetung-info.html">Treinvertraging &amp; treinrechten</a></li>
+                    <li><a href="einreise-info.html">Inreisregels &amp; visum</a></li>
+                    <li><a href="esim-roaming-info.html">eSIM &amp; roamingkosten</a></li>
+                    <li><a href="mietwagen-info.html">Autoverzekeringen</a></li>
+                    
+                    <li><a href="reisekreditkarten-info.html">Vergelijking van reiskredietkaarten</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Over ons</a> | 
+        <a href="index.html">Startpagina</a> | 
+        <a href="impressum.html">Colofon</a> | 
+        <a href="datenschutz.html">Privacybeleid</a>
+    </nav>
+</footer>
+
+<script>
+// Live-rekenlogica
+const preisInp = document.getElementById('fPreis');
+const checkboxes = document.querySelectorAll('#mangelCheckboxes input[type="checkbox"]');
+const liveAmountEl = document.getElementById('liveAmount');
+const livePercentEl = document.getElementById('livePercent');
+
+function updateCalc() {
+    let price = parseFloat(preisInp.value) || 0;
+    let totalPercent = 0;
+    
+    checkboxes.forEach(cb => {
+        if(cb.checked) totalPercent += parseInt(cb.value);
+    });
+    
+    if(totalPercent > 100) totalPercent = 100;
+    
+    let refund = (price * totalPercent) / 100;
+    
+    livePercentEl.textContent = totalPercent;
+    liveAmountEl.textContent = refund.toLocaleString('de-DE', {style: 'currency', currency: 'EUR'});
+}
+
+preisInp.addEventListener('input', updateCalc);
+checkboxes.forEach(cb => cb.addEventListener('change', updateCalc));
+
+// PDF-generatie
+document.getElementById('airbnbForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+
+    const pageH = 297;
+    const marginBottom = 20;
+    const lineH = 6;
+
+    function checkNewPage(doc, y, neededHeight = lineH) {
+        if (y + neededHeight > pageH - marginBottom) {
+            doc.addPage();
+            return 30;
+        }
+        return y;
+    }
+
+    function writeLines(doc, lines, startY, lh = lineH) {
+        let y = startY;
+        for (const line of lines) {
+            y = checkNewPage(doc, y);
+            doc.text(line, 25, y);
+            y += lh;
+        }
+        return y;
+    }
+
+    const anbieter = document.getElementById('aName').value;
+    const anbieterAddr = document.getElementById('aAdresse').value.replace(/\\n/g, '\n');
+    
+    const sName = document.getElementById('sName').value;
+    const sEmail = document.getElementById('sEmail').value;
+    const sStrasse = document.getElementById('sStrasse').value;
+    const sPLZOrt = document.getElementById('sPLZOrt').value;
+    const bIBAN = document.getElementById('bIBAN').value;
+    
+    const fBuchung = document.getElementById('fBuchung').value;
+    const fHost = document.getElementById('fHost').value;
+    const fZeitraum = document.getElementById('fZeitraum').value;
+    const fPreis = parseFloat(document.getElementById('fPreis').value) || 0;
+
+    let selectedMaengel = [];
+    let totalPercent = 0;
+    checkboxes.forEach(cb => {
+        if(cb.checked) {
+            selectedMaengel.push(`- ${cb.getAttribute('data-text')} (${cb.value}%)`);
+            totalPercent += parseInt(cb.value);
+        }
+    });
+
+    if(selectedMaengel.length === 0) {
+        alert("Selecteer alstublieft ten minste één voorval.");
+        return;
+    }
+
+    if(totalPercent > 100) totalPercent = 100;
+    let refundAmount = ((fPreis * totalPercent) / 100).toFixed(2).replace('.', ',');
+
+    let deadline = new Date();
+    deadline.setDate(deadline.getDate() + 14);
+    const deadlineStr = deadline.toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'});
+    const todayStr = new Date().toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'});
+
+    doc.setFont("helvetica");
+
+    // Afzender klein
+    doc.setFontSize(8);
+    doc.setTextColor(100, 100, 100);
+    doc.text(`${sName} • ${sStrasse} • ${sPLZOrt}`, 25, 45);
+    doc.setLineWidth(0.2);
+    doc.setDrawColor(150, 150, 150);
+    doc.line(25, 46.5, 95, 46.5);
+
+    // Ontvanger (Airbnb Ireland)
+    doc.setFontSize(11);
+    doc.setTextColor(0, 0, 0);
+    const receiverLines = doc.splitTextToSize(anbieter + "\n" + anbieterAddr, 80);
+    doc.text(receiverLines, 25, 53);
+
+    // Afzenderblok rechts
+    doc.setFontSize(10);
+    doc.text("Afzender:", 130, 45);
+    doc.setFont("helvetica", "bold");
+    doc.text(sName, 130, 50);
+    doc.setFont("helvetica", "normal");
+    doc.text(sStrasse, 130, 55);
+    doc.text(sPLZOrt, 130, 60);
+    doc.text(`Airbnb-e-mail: ${sEmail}`, 130, 65);
+
+    doc.text(`Datum: ${todayStr}`, 185, 85, {align: 'right'});
+
+    // Onderwerp
+    doc.setFontSize(12);
+    doc.setFont("helvetica", "bold");
+    doc.text(`Melding van gebreken & verzoek om terugbetaling (AirCover)`, 25, 100);
+    
+    // Feiten
+    doc.setFontSize(10.5);
+    doc.setFont("helvetica", "bold");
+    doc.text("Bevestigingscode:", 25, 110);
+    doc.text("Host:", 25, 115);
+    doc.text("Reisperiode:", 25, 120);
+    doc.text("Betaald bedrag:", 25, 125);
+
+    doc.setFont("helvetica", "normal");
+    doc.text(fBuchung, 70, 110);
+    doc.text(fHost, 70, 115);
+    doc.text(fZeitraum, 70, 120);
+    doc.text(`${fPreis.toFixed(2).replace('.', ',')} EUR`, 70, 125);
+
+    doc.setDrawColor(0, 0, 0);
+    doc.line(25, 130, 185, 130);
+
+    let yPos = 140;
+    doc.setFontSize(11);
+
+    // Inleidende alinea's (Airbnb-specifiek)
+    const para1 = doc.splitTextToSize(
+        `Geachte dames en heren van het Airbnb-supportteam,\n\n` +
+        `hierbij stel ik aanspraken geldend op grond van uw AirCover-terugbetalingsrichtlijnen voor gasten. Het verblijf voldeed op ernstige punten niet aan de advertentie, en de host heeft ondanks mijn melding via het Airbnb-berichtsysteem geen passende oplossing geboden.\n\n` +
+        `De volgende reisgebreken respectievelijk schendingen van de richtlijnen deden zich voor:`,
+        160
+    );
+    yPos = writeLines(doc, para1, yPos);
+    yPos += 5;
+
+    // Gebrekenlijst
+    doc.setFont("helvetica", "italic");
+    selectedMaengel.forEach(mangel => {
+        const linesMangel = doc.splitTextToSize(mangel, 150);
+        linesMangel.forEach(line => {
+            yPos = checkNewPage(doc, yPos);
+            doc.text(line, 30, yPos);
+            yPos += lineH;
+        });
+    });
+    doc.setFont("helvetica", "normal");
+    yPos += 5;
+
+    // Berekening van de vermindering
+    const para2 = doc.splitTextToSize(
+        `Vanwege de aanzienlijke beperkingen en in overeenstemming met de contractuele aansprakelijkheid en uw gastenbeschermingsgarantie eis ik een passende terugbetaling van het betaalde bedrag ter hoogte van ${totalPercent} %.\n\n` +
+        `Hieruit volgt een terugbetalingsvordering ter hoogte van:`,
+        160
+    );
+    yPos = writeLines(doc, para2, yPos);
+    yPos += 5;
+
+    // Totaal
+    yPos = checkNewPage(doc, yPos, 10);
+    doc.setFont("helvetica", "bold");
+    doc.text(`${refundAmount} EUR`, 105, yPos, { align: 'center' });
+    doc.setFont("helvetica", "normal");
+    yPos += 12;
+
+    // Termijnzin
+    yPos = checkNewPage(doc, yPos);
+    doc.text(`Gelieve het bedrag terug te betalen via de oorspronkelijke betaalmethode of alternatief`, 25, yPos);
+    yPos += lineH;
+    doc.text(`op mijn volgende bankrekening: IBAN ${bIBAN}`, 25, yPos);
+    yPos += 10;
+    
+    yPos = checkNewPage(doc, yPos);
+    doc.text(`Ik stel u een termijn voor terugbetaling respectievelijk een juridisch bindende reactie tot:`, 25, yPos);
+    yPos += 10;
+
+    yPos = checkNewPage(doc, yPos, 10);
+    doc.setFont("helvetica", "bold");
+    doc.text(`>>> ${deadlineStr} <<<`, 105, yPos, { align: 'center' });
+    doc.setFont("helvetica", "normal");
+    yPos += 12;
+
+    // Juridische opmerking
+    const para4 = doc.splitTextToSize(
+        `Indien Airbnb een terugbetaling op grond van de AirCover-garantie zonder gegronde reden weigert, behoud ik mij het recht voor juridische stappen te ondernemen tegen de host als directe contractspartij en tegen het platform wegens schending van de kopersbeschermingsrichtlijnen. Bewijsmateriaal (foto's, chatgesprekken) is beschikbaar.`,
+        160
+    );
+    yPos = writeLines(doc, para4, yPos);
+    yPos += 15;
+
+    // Handtekening
+    yPos = checkNewPage(doc, yPos, 40);
+    doc.text("Met vriendelijke groet,", 25, yPos);
+    yPos += 25;
+
+    doc.setLineWidth(0.5);
+    doc.line(25, yPos, 80, yPos);
+    doc.line(100, yPos, 185, yPos);
+
+    doc.setFontSize(9);
+    doc.setTextColor(100, 100, 100);
+    doc.text("Plaats, datum", 25, yPos + 5);
+    doc.text(`Handtekening (${sName})`, 100, yPos + 5);
+
+    doc.save(`Airbnb_klacht_${fBuchung}.pdf`);
+    setTimeout(() => document.getElementById('donateOverlay').classList.add('active'), 800);
+});
+
+// Donatie-overlaylogica...
+const PAYPAL_EMAIL = 'info@kassen-lotse.de';
+let donateAmount = 5;
+
+function selectPreset(amount, btn) {
+  donateAmount = amount;
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  document.getElementById('customAmount').value = '';
+  document.getElementById('customAmount').classList.remove('selected-custom');
+  updateDonateButton();
+}
+
+function handleCustomInput(input) {
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  const val = parseFloat(input.value);
+  if (val && val >= 1) {
+    donateAmount = val;
+    input.classList.add('selected-custom');
+  } else {
+    donateAmount = 0;
+    input.classList.remove('selected-custom');
+  }
+  updateDonateButton();
+}
+
+function updateDonateButton() {
+  const btn = document.getElementById('btnDonate');
+  if (donateAmount >= 1) {
+    btn.textContent = `Doneer nu ${donateAmount % 1 === 0 ? donateAmount : donateAmount.toFixed(2)} €`;
+    btn.disabled = false;
+  } else {
+    btn.textContent = 'Bedrag invoeren';
+    btn.disabled = true;
+  }
+}
+
+function openPayPal() {
+  if (donateAmount < 1) return;
+  const amountStr = donateAmount.toFixed(2);
+  const url = `https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=${encodeURIComponent(PAYPAL_EMAIL)}&amount=${amountStr}&currency_code=EUR&item_name=Fix my Trip+Ondersteuning&no_note=1&no_shipping=1`;
+  window.open(url, '_blank');
+  closeOverlay();
+}
+
+function closeOverlay() {
+  document.getElementById('donateOverlay').classList.remove('active');
+}
+// Sluit de overlay wanneer op de verduisterde achtergrond wordt geklikt
+document.getElementById('donateOverlay').addEventListener('click', function(e) {
+  if (e.target === this) {
+    closeOverlay();
+  }
+});
+</script>
+
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Sluiten">&times;</button>
+    <div class="donate-emoji">🎉</div>
+    <h2>Uw brief aan Airbnb is klaar!</h2>
+    <p class="sub">Veel succes met het terugvorderen via AirCover.</p>
+    <div class="donate-hint">
+      Deze service is en blijft <strong>100 % gratis</strong>. Als het u heeft geholpen, stellen wij een kleine vrijwillige bijdrage zeer op prijs.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Snelle keuze:</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Voer een eigen bedrag in …" oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" style="background-color: #ff385c;" onclick="openPayPal()">Doneer nu 5 €</button>
+    <button class="btn-skip" onclick="closeOverlay()">Nee bedankt, ik sluit het venster</button>
+
+    <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
+  
+  <!-- NEU: Affiliate-melding boven de tekst -->
+  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
+    Advertentie / advertentielink
+  </span>
+
+  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
+    <strong style="color: #333;">P.S.: Gaat u binnenkort weer vliegen?</strong> Bescherm uzelf alvast tegen de volgende reisellende. Echte travel-kredietkaarten kosten permanent 0 € jaarlijkse kosten, schrappen de buitenlandse transactiekosten en bieden vaak sterke kopersbescherming. <br>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Vergelijk nu de beste aanbieders & bescherm uzelf ✈️</a>
+  </p>
+</div>
+
+  </div>
+</div>
+</body>
+</html>

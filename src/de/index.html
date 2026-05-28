@@ -11,8 +11,17 @@
 
   <!-- SEO & Internationalisierung -->
   <link rel="canonical" href="https://www.fix-my-trip.com/de/index.html">
-  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/index.html">
-  <link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/index.html">
+
+    <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/index.html">
+<link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/index.html">
+<link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/index.html">
+<link rel="alternate" hreflang="it" href="https://www.fix-my-trip.com/it/index.html">
+<link rel="alternate" hreflang="nl" href="https://www.fix-my-trip.com/nl/index.html">
+<link rel="alternate" hreflang="fr-be" href="https://www.fix-my-trip.com/fr-be/index.html">
+<link rel="alternate" hreflang="nl-be" href="https://www.fix-my-trip.com/nl-be/index.html">
+<link rel="alternate" hreflang="pt" href="https://www.fix-my-trip.com/pt/index.html">
+
+<link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/index.html">
   
   <meta name="robots" content="index, follow">
 
@@ -56,6 +65,31 @@
     <h2>Ihre Rechte. Unser Werkzeug. Ihr Geld.</h2>
     <p>Oftmals verstecken sich Airlines und Reiseveranstalter hinter komplexen AGBs und Textbausteinen, um Verbraucher zu zermürben. <strong>Fix my Trip</strong> liefert Ihnen das digitale Schutzschild: Nutzen Sie unsere intelligenten Tools zur optimalen Reisevorbereitung oder generieren Sie maßgeschneiderte PDF-Dokumente, um Entschädigungen auf Augenhöhe einzufordern. Holen Sie sich zurück, was Ihnen zusteht – komplett gebührenfrei.</p>
   </div>
+
+  <!-- Fix my Trip - International Sprachwähler -->
+<div class="international-box">
+  <span class="international-title">Fix my Trip International:</span>
+  <select class="international-select" onchange="if(this.value) window.location.href=this.value;">
+    <option value="../de/index.html">Deutsch (DE)</option>
+    <option value="../es/index.html">Español (ES)</option>
+    <option value="../fr/index.html">Français (FR)</option>
+    <option value="../it/index.html">Italiano (IT)</option>
+    <option value="../nl/index.html">Nederlands (NL)</option>
+    <option value="../pt/index.html">Português (PT)</option>
+    <option value="../nl-be/index.html">Belgium (NL-BE)</option>
+    <option value="../fr-be/index.html">Belgium (FR-BE)</option>
+  </select>
+</div>
+
+<script>
+  // Erkennt automatisch die richtige Sprache im Pfad und setzt das Dropdown passend
+  document.querySelectorAll('.international-select option').forEach(function(option) {
+    var langCode = '/' + option.value.split('/')[1] + '/';
+    if (window.location.pathname.indexOf(langCode) !== -1) {
+      option.selected = true;
+    }
+  });
+</script>
 
   <div class="container">
     

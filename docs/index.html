@@ -1,39 +1,64 @@
 <!DOCTYPE html>
-<html lang="zxx"> <head>
+<html lang="zxx">
+<head>
     <meta charset="UTF-8">
     <title>Fix my Trip</title>
     
     <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/index.html" />
     <link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/index.html" />
     <link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/index.html" />
-    <link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/index.html" /> <meta http-equiv="refresh" content="0; url=/de/index.html">
+    <link rel="alternate" hreflang="it" href="https://www.fix-my-trip.com/it/index.html" />
+    <link rel="alternate" hreflang="nl" href="https://www.fix-my-trip.com/nl/index.html" />
+    <link rel="alternate" hreflang="pt" href="https://www.fix-my-trip.com/pt/index.html" />
+    <link rel="alternate" hreflang="nl-be" href="https://www.fix-my-trip.com/nl-be/index.html" />
+    <link rel="alternate" hreflang="fr-be" href="https://www.fix-my-trip.com/fr-be/index.html" />
+    <link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/index.html" /> 
+
+    <meta http-equiv="refresh" content="0; url=/de/index.html">
     
     <script>
         (function() {
-            // Ermittelt die Sprache des Browsers (z.B. "de-DE", "es-ES", "fr-FR")
             var userLang = (navigator.language || navigator.userLanguage).toLowerCase();
             
-            // Nimmt nur die ersten zwei Buchstaben (z.B. "de", "es", "fr")
+            // SCHRITT 1: Zuerst auf spezifische Regionen prüfen (5-stellig)
+            if (userLang.startsWith("nl-be")) {
+                window.location.replace("/nl-be/index.html");
+                return;
+            } else if (userLang.startsWith("fr-be")) {
+                window.location.replace("/fr-be/index.html");
+                return;
+            }
+            
+            // SCHRITT 2: Wenn es keine belgische Region ist, nach den ersten 2 Zeichen filtern
             var lang = userLang.substring(0, 2);
             
-            // Weiterleitung je nach erkannter Sprache
             if (lang === "es") {
                 window.location.replace("/es/index.html");
             } else if (lang === "fr") {
                 window.location.replace("/fr/index.html");
+            } else if (lang === "it") {
+                window.location.replace("/it/index.html");
+            } else if (lang === "nl") {
+                window.location.replace("/nl/index.html");
+            } else if (lang === "pt") {
+                window.location.replace("/pt/index.html");
             } else {
-                // Wenn es Deutsch ist oder eine ganz andere Sprache (z.B. Englisch), lande auf Deutsch
                 window.location.replace("/de/index.html");
             }
         })();
     </script>
 </head>
 <body>
-    <p>Redirecting... / Bitte wählen Sie Ihre Sprache:</p>
+    <p>Redirecting... / Bitte wählen Sie Ihre Sprache / Kies uw taal / Choisissez votre langue:</p>
     <ul>
         <li><a href="/de/index.html">Deutsch</a></li>
         <li><a href="/es/index.html">Español</a></li>
         <li><a href="/fr/index.html">Français</a></li>
+        <li><a href="/it/index.html">Italiano</a></li>
+        <li><a href="/nl/index.html">Nederlands (Nederland)</a></li>
+        <li><a href="/pt/index.html">Português</a></li>
+        <li><a href="/nl-be/index.html">Nederlands (België)</a></li>
+        <li><a href="/fr-be/index.html">Français (Belgique)</a></li>
     </ul>
 </body>
 </html>

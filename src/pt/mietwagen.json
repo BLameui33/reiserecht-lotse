@@ -1,0 +1,128 @@
+[
+  {
+    "slug": "sixt",
+    "name": "Sixt",
+    "schalter_taktik": "Os funcionários da Sixt costumam oferecer de forma muito agressiva proteção para pneus e vidros. Upgrades para classes de veículos mais caras também são frequentemente vendidos como 'especialmente baratos hoje'.",
+    "kaution_hinweis": "A Sixt normalmente bloqueia pelo menos 300 € a 500 € como caução no seu cartão de crédito, mesmo em reservas pré-pagas."
+  },
+  {
+    "slug": "europcar",
+    "name": "Europcar",
+    "schalter_taktik": "Na Europcar, a chamada 'Premium Protection' (seguro completo sem franquia) é frequentemente promovida no balcão, mesmo que você já a tenha reservado por meio de um intermediário.",
+    "kaution_hinweis": "A caução (deposit) é bloqueada no cartão de crédito e depende fortemente da classe do veículo reservada (muitas vezes 300 € - 800 €)."
+  },
+  {
+    "slug": "goldcar",
+    "name": "Goldcar",
+    "schalter_taktik": "A Goldcar é conhecida por táticas de upselling extremamente agressivas. Muitas vezes, os funcionários recebem comissão se venderem o seguro próprio 'Super Relax'. Eles frequentemente afirmam, de forma incorreta, que seguros de terceiros não são válidos.",
+    "kaution_hinweis": "Atenção: a Goldcar frequentemente bloqueia cauções muito altas (até 1.500 €) se você não comprar o seguro deles. Seu cartão de crédito precisa comportar esse valor!"
+  },
+  {
+    "slug": "hertz",
+    "name": "Hertz",
+    "schalter_taktik": "A Hertz muitas vezes tenta vender o 'SuperCover' e oferece alterar as regras de combustível (por exemplo, comprar antecipadamente o primeiro tanque). Isso geralmente é um mau negócio para você.",
+    "kaution_hinweis": "A Hertz exige obrigatoriamente um cartão de crédito físico (não cartão de débito!) em nome do motorista principal para bloquear a caução."
+  },
+  {
+    "slug": "avis",
+    "name": "Avis",
+    "schalter_taktik": "A Avis frequentemente promove de forma insistente no balcão o 'Avis Inclusive' ou seguros adicionais para ocupantes. Opções caras de combustível também são rotineiramente oferecidas como 'mais convenientes'.",
+    "kaution_hinweis": "A caução geralmente corresponde, dependendo da categoria do veículo, ao preço estimado do aluguel mais uma taxa fixa de cerca de 200 € a 300 €."
+  },
+  {
+    "slug": "enterprise",
+    "name": "Enterprise",
+    "schalter_taktik": "Os funcionários costumam ser muito simpáticos, mas ainda assim tentam de forma consistente vender upgrades pagos ou a própria 'Excess Protection' (exclusão de franquia).",
+    "kaution_hinweis": "A Enterprise normalmente bloqueia uma caução relativamente moderada de cerca de 250 € a 300 €, mas geralmente exige obrigatoriamente um cartão de crédito completo."
+  },
+  {
+    "slug": "record-go",
+    "name": "Record Go",
+    "schalter_taktik": "Potencial de frustração extremamente alto: atrai com preços irrisórios online. No balcão, o seguro 'Just Go' ou 'Total Comfort' é vendido de forma extremamente agressiva, muitas vezes acompanhado da ameaça de cauções exorbitantes.",
+    "kaution_hinweis": "Se você recusar o seguro próprio da empresa, será bloqueada uma caução extremamente alta (muitas vezes 1.500 € a 2.000 €). Danos costumam ser procurados com extrema minúcia na devolução."
+  },
+  {
+    "slug": "centauro",
+    "name": "Centauro",
+    "schalter_taktik": "Segue o mesmo padrão de baixo custo da Goldcar: reserva barata, pagamento caro no balcão. O seguro próprio 'Smart Cover' é promovido com todos os truques psicológicos.",
+    "kaution_hinweis": "Sem contratar o 'Smart Cover', será exigida uma caução de cerca de 1.050 € a 1.200 €. Cartões de débito geralmente só são aceitos se você comprar o seguro adicional caro."
+  },
+  {
+    "slug": "ok-mobility",
+    "name": "OK Mobility",
+    "schalter_taktik": "Este fornecedor pressiona fortemente pela contratação do 'Premium Cover'. Os funcionários alertam de forma enfática para os menores arranhões, que sem o seguro deles seriam cobrados muito caro.",
+    "kaution_hinweis": "Bloqueia cauções extremamente altas (em alguns casos bem acima de 1.500 €) se o seguro próprio for recusado. Uma documentação minuciosa dos danos em vídeo antes da partida é absolutamente obrigatória aqui!"
+  },
+  {
+    "slug": "firefly",
+    "name": "Firefly",
+    "schalter_taktik": "Como a marca econômica da Hertz, é conhecida por filas extremamente longas e upselling insistente. Seguros básicos de intermediários online são frequentemente desvalorizados como 'insuficientes' ou 'complicados'.",
+    "kaution_hinweis": "Bloqueia cauções de cerca de 800 € a mais de 1.000 €. Muitas vezes também são vendidas regras de combustível desfavoráveis (cheio/vazio), que oneram seu cartão de crédito."
+  },
+  {
+    "slug": "clickrent",
+    "name": "ClickRent",
+    "schalter_taktik": "Atrai com preços baixos em destinos de férias populares. No balcão, costuma-se afirmar que seguros de brokers externos não ajudariam em caso de pane, para empurrar a tarifa própria 'Relax'.",
+    "kaution_hinweis": "Regras de caução muito rígidas: muitas vezes são bloqueados 1.050 € a 1.500 €. Se o limite do cartão apresentado não for suficiente, você é praticamente forçado a comprar o seguro."
+  },
+  {
+    "slug": "alamo",
+    "name": "Alamo",
+    "schalter_taktik": "A Alamo foca fortemente em turistas e muitas vezes tenta vender no balcão o 'Roadside Plus' (assistência em viagem ampliada) e abastecimentos antecipados a preços totalmente inflacionados.",
+    "kaution_hinweis": "A caução na Alamo costuma ser relativamente baixa; geralmente é bloqueado no cartão de crédito o preço estimado do aluguel mais cerca de 20% a 30%."
+  },
+  {
+    "slug": "budget",
+    "name": "Budget",
+    "schalter_taktik": "Como a subsidiária mais barata da Avis, a Budget tenta compensar os preços básicos mais baixos com a venda agressiva de seguros adicionais e aparelhos GPS no balcão.",
+    "kaution_hinweis": "Assim como na empresa-mãe Avis, normalmente é bloqueado o preço do aluguel mais uma taxa fixa de cerca de 200 € a 300 €. Cartão de crédito físico é obrigatoriamente necessário."
+  },
+  {
+    "slug": "thrifty",
+    "name": "Thrifty",
+    "schalter_taktik": "A subsidiária da Hertz é conhecida por oferecer intensamente o caro 'SuperCover' no balcão, para assustar os clientes com a franquia regular, muitas vezes alta.",
+    "kaution_hinweis": "A Thrifty bloqueia a caução de forma extremamente rígida em um cartão de crédito físico do motorista principal; cartões pré-pagos ou de débito quase nunca são aceitos no balcão."
+  },
+  {
+    "slug": "sunny-cars",
+    "name": "Sunny Cars",
+    "schalter_taktik": "Intermediário (broker) sem balcões próprios. O problema: o fornecedor local da frota muitas vezes tenta vender seguros que você já possui por meio do pacote 'tudo incluído' da Sunny Cars. Mantenha-se firme!",
+    "kaution_hinweis": "A Sunny Cars em si não exige caução, mas a locadora local bloqueia uma caução. A Sunny Cars reembolsa esse valor em caso de sinistro após análise."
+  },
+  {
+    "slug": "billiger-mietwagen",
+    "name": "Billiger-Mietwagen",
+    "schalter_taktik": "É apenas um comparador/intermediário. No balcão do fornecedor local, muitas vezes afirmam: 'Não temos nada a ver com a Billiger-Mietwagen, você precisa do nosso seguro.' Não assine nada!",
+    "kaution_hinweis": "A caução sempre depende dos termos e condições do fornecedor local no destino (por exemplo, Avis, Europcar, Goldcar). Você precisa obrigatoriamente de um cartão de crédito com limite suficiente em nome do motorista principal."
+  },
+  {
+    "slug": "check24",
+    "name": "Check24",
+    "schalter_taktik": "A Check24 é um portal de comparação puro, sem estações próprias de aluguel. Mesmo que você tenha contratado a proteção premium aqui, a locadora local muitas vezes tenta vender seus próprios seguros de casco na retirada.",
+    "kaution_hinweis": "O valor da caução é determinado exclusivamente pela locadora local. Se você reservar 'Sem caução' pela Check24, muitas vezes um parceiro assume a garantia — mas leia atentamente as letras miúdas."
+  },
+  {
+    "slug": "rentalcars",
+    "name": "Rentalcars",
+    "schalter_taktik": "Pertence à Booking.com. Locadoras locais frequentemente alertam no balcão que a 'proteção total' da Rentalcars seria complicada de acionar em caso de sinistro, para empurrar uma segunda apólice própria.",
+    "kaution_hinweis": "A caução é bloqueada pelo parceiro local. Importante: o seguro vendido pela Rentalcars NÃO o isenta da obrigação de caução no local!"
+  },
+  {
+    "slug": "auto-europe",
+    "name": "Auto Europe",
+    "schalter_taktik": "A Auto Europe é um broker. Isso significa que você estará no balcão de parceiros como Sixt ou Centauro. Eles sempre tentarão empurrar upgrades ou seguros extras.",
+    "kaution_hinweis": "As regras de caução dependem do parceiro local. A Auto Europe frequentemente oferece 'reembolso da franquia' — mas no local a caução ainda precisa ser depositada integralmente."
+  },
+  {
+    "slug": "national",
+    "name": "National",
+    "schalter_taktik": "Foca mais em viajantes a negócios nos EUA e na Europa. O upselling aqui costuma ser mais sutil; são oferecidos principalmente upgrades caros para a categoria premium ou pacotes de pedágio (Toll Pass).",
+    "kaution_hinweis": "A caução costuma ser moderada (preço do aluguel + cerca de 250 €). A National aceita em alguns locais também cartões de débito, mas isso geralmente vem acompanhado de obrigação de seguro."
+  },
+  {
+    "slug": "allgemeine-autovermietungen",
+    "name": "Autovermietungen",
+    "schalter_taktik": "Não importa o fornecedor: mantenha-se firme! As locadoras frequentemente treinam seus funcionários para vender seguros adicionais caros com cenários de terror (por exemplo, altas taxas de roubo). Se você contratou previamente um seguro completo por meio de um intermediário, isso basta. Não assine nada que você não entenda.",
+    "kaution_hinweis": "A regra mais importante: você quase sempre precisa de um cartão de crédito físico e completo (credit, não debit!) em nome do motorista principal. O limite precisa ser alto o suficiente (muitas vezes até 1.500 €). Sem o cartão adequado, no balcão pode haver a imposição da compra de um seguro caro."
+  }
+]

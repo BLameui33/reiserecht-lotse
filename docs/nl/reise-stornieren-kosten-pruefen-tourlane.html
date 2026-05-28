@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Tourlane GmbH Reis annuleren & annuleringskosten controleren (PDF)</title>
+
+  <meta name="description" content="Reis bij Tourlane GmbH geannuleerd? Controleer of de gevraagde annuleringskosten legaal zijn en genereer de herroepingsbrief incl. terugvordering.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO & Internationalisierung -->
+  <link rel="canonical" href="https://www.fix-my-trip.com/nl/reise-stornieren-kosten-pruefen-tourlane.html">
+
+<link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/reise-stornieren-kosten-pruefen-tourlane.html">
+<link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/reise-stornieren-kosten-pruefen-tourlane.html">
+<link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/reise-stornieren-kosten-pruefen-tourlane.html">
+<link rel="alternate" hreflang="it" href="https://www.fix-my-trip.com/it/reise-stornieren-kosten-pruefen-tourlane.html">
+<link rel="alternate" hreflang="nl" href="https://www.fix-my-trip.com/nl/reise-stornieren-kosten-pruefen-tourlane.html">
+<link rel="alternate" hreflang="fr-be" href="https://www.fix-my-trip.com/fr-be/reise-stornieren-kosten-pruefen-tourlane.html">
+<link rel="alternate" hreflang="nl-be" href="https://www.fix-my-trip.com/nl-be/reise-stornieren-kosten-pruefen-tourlane.html">
+<link rel="alternate" hreflang="pt" href="https://www.fix-my-trip.com/pt/reise-stornieren-kosten-pruefen-tourlane.html">
+
+<link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/reise-stornieren-kosten-pruefen-tourlane.html">
+  
+  <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="/logo-lotse-fav.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "PDF-generator: Rechten bij Tourlane GmbH afdwingen",
+    "applicationCategory": "LegalApplication",
+    "operatingSystem": "All",
+    "description": "Gratis tool voor het berekenen van compensaties en het opstellen van een juridisch voorbeeldbrief aan Tourlane GmbH.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+    }
+  }
+  </script>
+
+  <!-- Neues FAQ Schema für bessere Google Rankings (Rich Snippets) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Dekt mijn annuleringsverzekering ook angst voor de reis?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Nee. Een annuleringsverzekering dekt alleen contractueel vastgelegde, onverwachte gebeurtenissen zoals een ernstige ziekte (met doktersverklaring), een ongeval, zwangerschap of baanverlies. Pure angst, bijvoorbeeld voor een storm op de bestemming, is niet verzekerd."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wanneer moet de organisator de reissom terugbetalen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "De wet schrijft voor dat de reisorganisator bij een gerechtvaardigde annulering (bijv. wegens overmacht) of na aftrek van rechtmatige annuleringskosten onverwijld, uiterlijk binnen 14 dagen na ontvangst van de annuleringsverklaring, het geld moet terugbetalen."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wat is het verschil bij het annuleren van individuele reizen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Als u vlucht en hotel apart hebt geboekt, geldt het pakketreisrecht niet. Bij geboekte vluchten krijgt u zonder flex-tarief vaak alleen belastingen en toeslagen terug. Bij hotels gelden de respectieve annuleringsvoorwaarden van de accommodatie (vaak tot kort voor aankomst gratis, anders bijna 100% kosten)."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+  
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+  <span style="font-size: 0.9em; color: #666;">Annuleren & reisannulering</span>
+</header>
+
+<div class="page-container">
+
+  <!-- Above the Fold: Klare Schmerzpunkte adressieren, Nutzen hervorheben -->
+  <h1>Tourlane GmbH: reis annuleren & buitensporige kosten aanvechten</h1>
+
+  <div class="back-to-hub-banner">
+  <a href="storno-info.html">
+    <span class="arrow">&larr;</span> Terug naar het overzicht: annuleren en herroeping
+  </a>
+</div>
+  
+  <div class="usp-bar">
+    <div class="usp-item">Live-controle op woekerkosten</div>
+    <div class="usp-item">Gebaseerd op toepasselijke consumentenbeschermingsregels voor pakketreizen</div>
+    <div class="usp-item">Juridisch veilig PDF voor de herroeping</div>
+    <div class="usp-item">100% gratis</div>
+  </div>
+
+  <p>Een onverwachte ziekte, een familie-noodgeval of verontrustend nieuws uit het vakantieland: er zijn veel redenen waarom een geplande reis niet kan doorgaan. Het probleem: wie zijn reis afzegt, krijgt vaak te maken met extreem hoge annuleringsfacturen. Gebruik onze generator om binnen enkele seconden te controleren of de eisen rechtmatig zijn, en vraag uw geld terug met een formeel correcte herroepingsbrief.</p>
+
+  <div class="info-box purple">
+    <strong>Verlies uw geld niet!</strong> Als u een reis moet annuleren, vraagt <strong>Tourlane GmbH</strong> vaak hoge forfaitaire annuleringskosten. Veel van deze algemene voorwaarden zijn echter aanvechtbaar. Gebruik onze calculator om de kosten te controleren en genereer een PDF die de organisator juridisch verplicht om zijn bespaarde kosten openbaar te maken of u in extreme gevallen (bijv. reiswaarschuwing) 100% terug te betalen.
+  </div>
+
+  <div class="legal-info-box">
+    <strong>Belangrijke gebruiksopmerking</strong><br>
+    Deze tool is een <strong>geautomatiseerde voorbeeldbrief-generator</strong> (hulp tot zelfhulp). Hij vult uw gegevens alleen in juridische standaardtemplates in. Er vindt <strong>geen individuele beoordeling</strong> van uw zaak plaats. Deze gratis service vervangt geen juridisch advies van een advocaat. Gebruik is op eigen verantwoordelijkheid; er wordt geen succesgarantie gegeven.
+</div>
+
+  <div class="highlight-box pruefdatum-box" role="note" aria-label="Redactioneel gecontroleerd" style="margin-top: 15px; margin-bottom: 30px;">
+    <p><strong>Redactioneel gecontroleerd op:</strong> <span id="pruefdatum">05.05.2026</span></p>
+  </div>
+
+  <div class="lesson-learned-box" style="background: #f8f9fa; border-left: 4px solid #ffb300; padding: 15px 20px; margin: 30px 0; border-radius: 4px; display: flex; align-items: flex-start; gap: 15px; position: relative;">
+  
+  <!-- NEU: Diskreter Affiliate-Hinweis oben rechts -->
+  <span style="font-size: 0.7rem; color: #666; background: #eee; padding: 2px 6px; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.05em; position: absolute; top: 10px; right: 10px;">
+    Advertentie
+  </span>
+
+  <div style="font-size: 2em; line-height: 1;">💡</div>
+  <div>
+    <h4 style="margin: 0 0 5px 0; color: #333; font-size: 1.1em; padding-right: 60px;">Tip voor de volgende reis</h4>
+    <p style="margin: 0 0 10px 0; font-size: 0.95em; color: #555;">
+      Een dure vakantie moest worden geannuleerd en de organisator houdt bijna al het geld? Bescherm uzelf de volgende keer tegen deze financiële totale mislukking. Veel goede reiscreditcards hebben al een krachtige annulerings- en onderbrekingsverzekering inbegrepen. Als u de reis met de kaart betaalt, dekt de verzekering in geval van ziekte de enorme annuleringskosten van de reisorganisatoren.
+    </p>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #891818; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">
+      Vergelijk de beste (gratis) reiscreditcards
+    </a>
+  </div>
+</div>
+
+  <!-- Formular-Bereich (Struktur, IDs, Klassen & Inline-Styles exakt wie gefordert) -->
+  <form id="stornoForm">
+    <fieldset style="border-color: #ff9800; background: #fffdf7;">
+      <legend style="background: #ff9800; color: #333;">1. Ontvanger van de annulering</legend>
+      <label>Organisator / boekingsportaal:</label>
+      <input type="text" id="aName" value="Tourlane GmbH" required>
+      <label>Adres:</label>
+      <textarea id="aAdresse" rows="3" required>Prinzessinnenstraße 19-20
+10969 Berlin
+Duitsland</textarea>
+    </fieldset>
+    <p style="font-size: 0.8em; color: #666; margin-top: 5px; line-height: 1.3;">
+  💡 <strong>Opmerking:</strong> Standaard wordt hier het centrale of regionale adres van de aanbieder weergegeven. U kunt dit adres op elk moment wijzigen en in plaats daarvan het adres van de lokale vestiging in uw land invoeren.
+</p>
+
+    <fieldset>
+      <legend>2. De boekingsgegevens</legend>
+      <label>Boekings- / dossiernummer:</label>
+      <input type="text" id="fBuchung" placeholder="bijv. 987654321" required>
+      <label>Oorspronkelijke vertrekdatum:</label>
+      <input type="date" id="fDatum" required>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. De annuleringskosten-checker</legend>
+      <label>Om welke reden annuleert u?</label>
+      <select id="fGrund" required>
+        <option value="Privat">Privéredenen (bijv. ziekte, geen tijd, baanverlies)</option>
+        <option value="HoehereGewalt">Buitengewone omstandigheden op de bestemming (natuurramp, oorlog, reiswaarschuwing van het ministerie van Buitenlandse Zaken)</option>
+      </select>
+
+      <label>Totale reissom (volgens bevestiging in euro):</label>
+      <input type="number" step="0.01" id="fPreis" placeholder="bijv. 3000" required>
+
+      <label>Hoeveel annuleringskosten vraagt Tourlane GmbH? (in euro):</label>
+      <input type="number" step="0.01" id="fGebuehr" placeholder="bijv. 1500" required>
+
+      <div id="checkerResult" class="checker-box"></div>
+    </fieldset>
+
+    <fieldset>
+      <legend>4. Uw gegevens (voor de terugbetaling)</legend>
+      <label>Uw voor- en achternaam (hoofdboeker):</label>
+      <input type="text" id="sName" placeholder="bijv. Max Mustermann" required>
+      <label>Straat en huisnummer:</label>
+      <input type="text" id="sStrasse" placeholder="bijv. Musterstraat 1" required>
+      <label>Postcode en plaats:</label>
+      <input type="text" id="sPLZOrt" placeholder="bijv. 12345 Berlijn" required>
+      <label>IBAN voor de terugbetaling:</label>
+      <input type="text" id="bIBAN" placeholder="NL..." required>
+    </fieldset>
+
+
+    <div class="submit-area">
+    <p class="submit-disclaimer">
+        Met een klik op "PDF genereren" begrijpt u dat deze geautomatiseerde service<br>geen juridisch advies vormt en dat u de vordering op eigen verantwoordelijkheid indient.
+    </p>
+    <button type="submit" class="button-primary">📄 Annulerings- & terugvorderings-PDF genereren</button>
+</div>
+  </form>
+
+  <!-- Umfassender SEO Content Bereich -->
+  <div class="seo-content">
+    <h2>Een pakketreis annuleren: uw wettelijke rechten</h2>
+    <p>Als consument heeft u het fundamentele recht om een geboekte pakketreis vóór aanvang van de reis op elk moment te annuleren (toepasselijke consumentenbeschermingsregels voor pakketreizen). De wet bepaalt dat de reisorganisator in dat geval zijn aanspraak op de eigenlijke reissom verliest. In ruil daarvoor mag hij echter een "passende vergoeding" (in de volksmond: annuleringskosten) vragen. Hoe hoog deze vergoeding mag zijn, zorgt tussen vakantiegangers en toeristische concerns regelmatig voor juridisch conflict.</p>
+
+    <h3>Kosteloos annuleren bij "overmacht"</h3>
+    <p>Het belangrijkste uitzonderingsgeval in het reisrecht: treden op de vakantiebestemming of in de directe omgeving daarvan onvermijdbare, buitengewone omstandigheden op die de uitvoering van de reis of het vervoer naar de bestemming aanzienlijk belemmeren, dan geldt de uitzonderingssituatie. Klassieke voorbeelden hiervan zijn orkanen, grootschalige bosbranden, het uitbreken van epidemieën of oorlogshandelingen. Ook een officiële reiswaarschuwing van het ministerie van Buitenlandse Zaken is een vrijwel onweerlegbaar signaal. In deze gevallen mogen u <strong>geen enkele annuleringskosten</strong> worden aangerekend. Tourlane GmbH is wettelijk verplicht om u de volledige reissom zonder aftrek binnen 14 dagen terug te betalen.</p>
+
+    <h3>Forfaitaire annuleringskosten in de algemene voorwaarden aanvechten</h3>
+    <p>Als u om puur privéredenen annuleert (bijv. een onverwachte ziekte zonder annuleringsverzekering, baanverlies of simpelweg geen tijd), gelden de algemene voorwaarden (AV) van Tourlane GmbH.</p>
+    <p>Daarin zijn bijna altijd forfaitaire annuleringsstaffels opgenomen die afhangen van de nabijheid tot de vertrekdatum. Een typisch voorbeeld:</p>
+    <ul>
+      <li>Tot 30 dagen voor vertrek: 20 % van de reissom</li>
+      <li>Vanaf 29 tot 15 dagen voor vertrek: 50 % van de reissom</li>
+      <li>Vanaf 14 dagen tot niet-verschijnen (no-show): 80 % tot 95 % van de reissom</li>
+    </ul>
+    <p><strong>Uw beslissende juridische hefboom:</strong> Deze forfaits staan niet in steen gebeiteld! De wetgever geeft u het recht om deze forfaitering te weigeren en van de organisator een <em>concrete berekening van de vergoeding</em> te verlangen. De reisorganisator moet dan gedetailleerd aantonen welke kosten hij daadwerkelijk had door uw uitval en vooral wat hij heeft bespaard (bijv. niet-geconsumeerd eten in het hotel) of of hij uw kamer elders kon verhuren (andere opbrengst). In de praktijk kunnen organisatoren dit vaak niet in detail onderbouwen, waardoor de daadwerkelijke annuleringskosten achteraf aanzienlijk worden verlaagd.</p>
+
+    <h2>Veelgestelde vragen (FAQ) over reisannulering</h2>
+    
+    <details>
+      <summary>Wanneer moet de organisator de reissom terugbetalen?</summary>
+      <p>De wet schrijft voor dat de reisorganisator bij een gerechtvaardigde annulering (bijv. wegens overmacht) of na aftrek van rechtmatige annuleringskosten onverwijld, uiterlijk binnen 14 dagen na ontvangst van de annuleringsverklaring, het geld moet terugbetalen.</p>
+    </details>
+
+    <details>
+      <summary>Dekt mijn annuleringsverzekering ook angst voor de reis?</summary>
+      <p>Nee. Een annuleringsverzekering dekt alleen contractueel vastgelegde, onverwachte gebeurtenissen zoals een ernstige ziekte (hier is een doktersverklaring verplicht), een ernstig ongeval, een onverwachte zwangerschap of plotseling baanverlies. Pure angst, bijvoorbeeld voor een opkomende storm op de bestemming, is nooit verzekerd.</p>
+    </details>
+
+    <details>
+      <summary>Wat is het verschil bij het annuleren van individuele reizen?</summary>
+      <p>Als u vlucht en hotel los van elkaar hebt geboekt (individuele reis), geldt het consumentvriendelijke pakketreisrecht niet. Bij geboekte lijndiensten krijgt u zonder duur flex-tarief meestal alleen belastingen en toeslagen terug. Bij hotels gelden de individuele annuleringsvoorwaarden van de accommodatie. Let hier al bij het boeken op opties zoals "gratis annuleerbaar tot dag X".</p>
+    </details>
+  </div>
+
+  <div class="airline-hinweisbox">
+    <h3>Belangrijke informatie over terugbetalingen bij Tourlane GmbH</h3>
+    <p>Tourlane plant reizen op maat. Afhankelijk van de boekingsbevestiging treedt Tourlane op als reisorganisator of als bemiddelaar van afzonderlijke diensten. Als er sprake is van een zuivere bemiddeling, moeten garantierechten en schadevergoedingsaanspraken rechtstreeks worden ingediend bij de lokale dienstverleners.</p>
+</div>
+
+<div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
+  <h3>Andere interessante onderwerpen:</h3>
+  <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="reise-stornieren-kosten-pruefen-secret-escapes.html">Secret Escapes GmbH</a>
+<a href="reise-stornieren-kosten-pruefen-holidaycheck.html">HolidayCheck AG</a>
+<a href="reise-stornieren-kosten-pruefen-kurz-mal-weg.html">KMW Reisen GmbH (kurz-mal-weg.de)</a>
+<a href="reise-stornieren-kosten-pruefen-sonnenklar-tv.html">Euvia Travel GmbH (sonnenklar.TV)</a>
+<a href="reise-stornieren-kosten-pruefen-rewe-reisen.html">REWE Markt GmbH</a>
+
+  </div>
+</div>
+<!-- Quellen-Box: Reise stornieren & Stornokosten prüfen -->
+<aside class="legal-sources-box" aria-labelledby="sources-title-cancellation">
+    <h3 id="sources-title-cancellation" class="sources-heading">Officiële rechtsgrondslagen</h3>
+    <p class="sources-intro">
+        De controle van annuleringskosten en het recht op annulering van de pakketreis zijn gebaseerd op het toepasselijke reiscontractenrecht:
+    </p>
+    <ul class="sources-list">
+        <li>
+            <strong>Burgerlijk Wetboek – annulering vóór aanvang van de reis</strong>: 
+            Deze bepaling regelt dat u op elk moment vóór aanvang van de reis van een pakketreis kunt annuleren. De reisorganisator verliest daardoor zijn aanspraak op de reissom, maar mag wel een "passende vergoeding" (annuleringskosten) vragen. Belangrijk: bij onvermijdbare, buitengewone omstandigheden op de vakantiebestemming (bijv. natuurrampen) vervalt deze vergoeding volledig.
+            <br>
+            <a href="https://www.gesetze-im-internet.de/bgb/__651h.html" target="_blank" rel="noopener noreferrer" class="source-link">
+                Officiële tekst op Gesetze-im-Internet.de (BMJ)
+            </a>
+        </li>
+        <li>
+            <strong>Burgerlijk Wetboek – clausuleverboden en controle van algemene voorwaarden</strong>: 
+            Reisorganisatoren werken meestal met forfaitaire annuleringsstaffels in hun algemene voorwaarden. Deze forfaits moeten volgens de wet echter passend zijn. Bovendien moet u contractueel uitdrukkelijk het bewijs mogen leveren dat de organisator helemaal geen of een aanzienlijk kleinere schade heeft geleden (bijv. omdat de kamer direct opnieuw werd verhuurd).
+            <br>
+            <a href="https://www.gesetze-im-internet.de/bgb/__309.html" target="_blank" rel="noopener noreferrer" class="source-link">
+                Officiële tekst op Gesetze-im-Internet.de (BMJ)
+            </a>
+        </li>
+    </ul>
+</aside>
+</div>
+
+<div class="trust-section">
+    <h3>Expertise in reisrecht & passagiersrechten</h3>
+    <p class="trust-text">
+        Onze gidsen en generatoren zijn gebaseerd op een strikte analyse van actuele EU-verordeningen (zoals EG 261/2004), arresten van het hoogste gerechtshof en het nationale reisrecht. 
+        Ze worden ontwikkeld door Marc (projectleiding) & team om reizigers in staat te stellen hun rechten juridisch veilig af te dwingen tegenover luchtvaartmaatschappijen en reisorganisatoren.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Belangrijke opmerking: onze tools bieden hulp tot zelfhulp bij vluchtvertraging, hotelgebreken of treinuitval. Ze vervangen geen individueel juridisch advies van een advocaat.
+        </span>
+    </p>
+
+    <!-- Umlaut in URL entfernt! -->
+    <a href="ueber-uns.html" class="trust-link">
+        Details over de juridische methodiek & redactie ontdekken →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Probleem met de vlucht, de trein of het hotel?</strong><br>
+        Fix-My-Trip controleert in enkele stappen uw aanspraak op compensatie, ticketterugbetaling of prijsvermindering van de reis. <br>
+        <em>Een service van Fix my Trip.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Fout in de tool ontdekt?</strong> Omdat wij als geautomatiseerd portaal geen individueel juridisch advies geven, helpt u ons enorm als u bugs of verouderde aanbieders meldt: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Feedback naar ons hoofdkantoor sturen</a>.
+</p>
+</div>
+
+<section class="site-niche-directory">
+    <div class="niche-directory-container">
+        <h2 class="niche-directory-title">Ontdek meer onderwerpen</h2>
+        <p class="niche-directory-intro">
+            Of het nu gaat om vluchtvertraging, hotelgebreken of roamingvalkuilen – onze experts hebben voor bijna elke reisniche de juiste gids en voorbeeldbrief voorbereid.
+        </p>
+        
+        <div class="niche-directory-grid">
+            <div class="niche-directory-group">
+                <h3>Vlucht &amp; luchthaven</h3>
+                <ul>
+                    <li><a href="flugverspaetung-info.html">Vluchtvertraging &amp; uitval</a></li>
+                    <li><a href="steuern-info.html">Vluchtbelastingen terugvorderen</a></li>
+                    <li><a href="gepaeck-info.html">Bagageverlies &amp; kofferschade</a></li>
+                    
+                    <li><a href="ota-rueckerstattung-info.html">Vluchtboekingsportalen (OTA)</a></li>
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Accommodatie &amp; pakketreis</h3>
+                <ul>
+                    <li><a href="hotel-maengel-info.html">Hotelgebreken &amp; bouwoverlast</a></li>
+                    <li><a href="storno-info.html">Reis annuleren (kosten)</a></li>
+                    <li><a href="ferienhaus-maengel-info.html">Vakantiehuizen &amp; vakantiewoningen</a></li>
+                    <li><a href="airbnb-probleme-info.html">Airbnb-oplossingen</a></li>
+                    <li><a href="kreuzfahrt-minderung.html">Cruisegebreken</a></li>
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Reisvoorbereiding &amp; mobiliteit</h3>
+                <ul>
+                    <li><a href="zugverspaetung-info.html">Treinvertraging &amp; treinrechten</a></li>
+                    <li><a href="einreise-info.html">Inreisregels &amp; visum</a></li>
+                    <li><a href="esim-roaming-info.html">eSIM &amp; roamingkosten</a></li>
+                    <li><a href="mietwagen-info.html">Autoverhuurverzekeringen</a></li>
+                    
+                    <li><a href="reisekreditkarten-info.html">Vergelijking van reiscreditcards</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Over ons</a> | 
+        <a href="index.html">Startpagina</a> | 
+        <a href="impressum.html">Colofon</a> | 
+        <a href="datenschutz.html">Privacybeleid</a>
+    </nav>
+</footer>
+
+
+<script>
+// --- LIVE CHECKER LOGIC ---
+const grundSel = document.getElementById('fGrund');
+const preisInp = document.getElementById('fPreis');
+const gebuehrInp = document.getElementById('fGebuehr');
+const resultBox = document.getElementById('checkerResult');
+
+function updateChecker() {
+    const preis = parseFloat(preisInp.value);
+    const gebuehr = parseFloat(gebuehrInp.value);
+    const grund = grundSel.value;
+
+    if(!preis || !gebuehr) {
+        resultBox.className = "checker-box";
+        resultBox.innerHTML = "";
+        return;
+    }
+
+    const prozent = Math.round((gebuehr / preis) * 100);
+
+    if (grund === "HoehereGewalt") {
+        resultBox.className = "checker-box green";
+        resultBox.innerHTML = `<strong>Kosteloze annulering mogelijk!</strong> Bij buitengewone omstandigheden (reiswaarschuwing, natuurramp) mag Tourlane GmbH volgens toepasselijke consumentenbeschermingsregels voor pakketreizen <strong>€ 0 annuleringskosten</strong> vragen. U hebt recht op 100% terugbetaling. Wij eisen dit voor u op in de PDF.`;
+    } else {
+        if (prozent > 40) {
+            resultBox.className = "checker-box red";
+            resultBox.innerHTML = `<strong>⚠️ Let op: ${prozent}% annuleringskosten zijn erg hoog!</strong><br>Forfaits boven 40-50% zijn juridisch vaak aanvechtbaar, tenzij u pas 1 dag voor vertrek annuleert. De gegenereerde PDF vraagt de organisator om de kosten te specificeren en concrete, bespaarde uitgaven te berekenen. Dat bespaart vaak veel geld.`;
+        } else {
+            resultBox.className = "checker-box green";
+            resultBox.innerHTML = `<strong>Opmerking:</strong> De gevraagde ${prozent}% annuleringskosten vallen binnen het juridisch gebruikelijke kader van de meeste algemene voorwaarden. De PDF vraagt desondanks uit voorzorg om een concrete afrekening van de bespaarde kosten, voor het geval de organisator de kamer elders heeft kunnen verhuren.`;
+        }
+    }
+}
+
+grundSel.addEventListener('change', updateChecker);
+preisInp.addEventListener('input', updateChecker);
+gebuehrInp.addEventListener('input', updateChecker);
+
+
+// --- PDF GENERATION ---
+document.getElementById('stornoForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+    
+    const empfaenger = document.getElementById('aName').value;
+    const adresse = document.getElementById('aAdresse').value.replace(/\\n/g, '\n');
+    
+    const fBuchung = document.getElementById('fBuchung').value;
+    const fDatum = document.getElementById('fDatum').value;
+    const fGrund = document.getElementById('fGrund').value;
+    
+    const sName = document.getElementById('sName').value;
+    const sStrasse = document.getElementById('sStrasse').value;
+    const sPLZOrt = document.getElementById('sPLZOrt').value;
+    const bIBAN = document.getElementById('bIBAN').value;
+
+    const todayStr = new Date().toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'});
+    let deadline = new Date();
+    deadline.setDate(deadline.getDate() + 14);
+    const deadlineStr = deadline.toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'});
+
+    doc.setFont("helvetica");
+
+    // --- PAGINATION LOGIC ---
+    let yPos = 45;
+    const pageHeight = 297;
+    const bottomMargin = 20;
+
+    function checkPageBreak(requiredSpace) {
+        if (yPos + requiredSpace > pageHeight - bottomMargin) {
+            doc.addPage();
+            yPos = 25;
+        }
+    }
+
+    function writeText(text, align = 'left', isBold = false) {
+        if (isBold) doc.setFont("helvetica", "bold");
+        else doc.setFont("helvetica", "normal");
+        
+        const lines = doc.splitTextToSize(text, 160);
+        lines.forEach(line => {
+            checkPageBreak(6);
+            if (align === 'center') doc.text(line, 105, yPos, {align: 'center'});
+            else doc.text(line, 25, yPos);
+            yPos += 6;
+        });
+        doc.setFont("helvetica", "normal");
+    }
+    // ------------------------------------------
+
+    // Afzender klein
+    doc.setFontSize(8);
+    doc.setTextColor(100, 100, 100);
+    doc.text(`${sName} • ${sStrasse} • ${sPLZOrt}`, 25, yPos);
+    doc.setLineWidth(0.2);
+    doc.setDrawColor(150, 150, 150);
+    yPos += 1.5;
+    doc.line(25, yPos, 95, yPos);
+
+    // Ontvanger
+    yPos += 6.5;
+    doc.setFontSize(11);
+    doc.setTextColor(0, 0, 0);
+    const receiverLines = doc.splitTextToSize(empfaenger + "\n" + adresse, 80);
+    doc.text(receiverLines, 25, yPos);
+
+    // Afzenderblok rechts
+    doc.setFontSize(10);
+    doc.text("Afzender:", 130, 45);
+    doc.setFont("helvetica", "bold");
+    doc.text(sName, 130, 50);
+    doc.setFont("helvetica", "normal");
+    doc.text(sStrasse, 130, 55);
+    doc.text(sPLZOrt, 130, 60);
+
+    doc.text(`Datum: ${todayStr}`, 185, 80, {align: 'right'});
+
+    yPos = 95; 
+
+    // Onderwerp
+    doc.setFontSize(12);
+    if(fGrund === "HoehereGewalt") {
+        writeText(`Kosteloze annulering van de reisovereenkomst wegens buitengewone omstandigheden`, 'left', true);
+    } else {
+        writeText(`Annulering van de reisovereenkomst & bezwaar tegen forfaitaire annuleringskosten`, 'left', true);
+    }
+    
+    yPos += 4;
+    doc.setFontSize(11);
+    writeText(`Boekingsnummer / dossier: ${fBuchung}`);
+    writeText(`Geplande vertrekdatum: ${fDatum}`);
+    
+    yPos += 2;
+    doc.setDrawColor(0, 0, 0);
+    doc.line(25, yPos, 185, yPos); 
+    yPos += 10;
+
+    // Hoofdtekst
+    doc.setFontSize(11);
+    writeText(`Geachte dames en heren,\n`);
+    
+    if(fGrund === "HoehereGewalt") {
+        writeText(`hierbij verklaar ik formeel mijn annulering van de hierboven genoemde pakketreis.\n`);
+        writeText(`Op de vakantiebestemming of in de directe omgeving daarvan zijn onvermijdbare en buitengewone omstandigheden opgetreden (bijv. natuurramp, reiswaarschuwing van het ministerie van Buitenlandse Zaken, oorlogshandelingen), die de uitvoering van de reis of het vervoer aanzienlijk belemmeren.\n`);
+        writeText(`Volgens toepasselijke consumentenbeschermingsregels voor pakketreizen vervalt in dit geval uw aanspraak op een annuleringsvergoeding. Ik verzoek u hierbij mijn boeking kosteloos te annuleren en de reeds betaalde reissom volledig terug te betalen.\n`);
+    } else {
+        writeText(`hierbij verklaar ik formeel mijn annulering van de hierboven genoemde pakketreis.\n`);
+        writeText(`Indien u voor deze annulering forfaitaire vergoedingen verlangt op basis van uw algemene voorwaarden, maak ik uitdrukkelijk bezwaar tegen de hoogte daarvan.\n`);
+        writeText(`Volgens vaste rechtspraak inzake toepasselijke consumentenbeschermingsregels voor pakketreizen verzoek ik u hierbij de gevraagde annuleringskosten niet forfaitair maar concreet te berekenen. Toon mij alstublieft aan welke kosten u concreet hebt bespaard en of een andere benutting van de reisdiensten (bijv. herverhuur van de hotelkamer of de vliegtuigplaatsen) mogelijk was of heeft plaatsgevonden. Tot overlegging van een concrete afrekening maak ik gebruik van mijn recht op opschorting dan wel vorder ik te veel betaalde bedragen terug.\n`);
+    }
+
+    yPos += 4;
+    writeText(`Gelieve het mij toekomende bedrag binnen 14 dagen over te maken op mijn onderstaande rekening:`);
+    yPos += 4;
+
+    doc.setFont("helvetica", "bold");
+    writeText(`>>> Uiterste termijn: ${deadlineStr} <<<`, 'center');
+    doc.setFont("helvetica", "normal");
+    yPos += 6;
+
+    writeText(`Rekeninghouder: ${sName}\nIBAN: ${bIBAN}`);
+    yPos += 15;
+
+    checkPageBreak(30);
+
+    doc.text("Met vriendelijke groet,", 25, yPos);
+    yPos += 20; 
+    
+    doc.setLineWidth(0.5);
+    doc.line(25, yPos, 80, yPos);
+    doc.line(100, yPos, 185, yPos);
+    
+    doc.setFontSize(9);
+    doc.setTextColor(100, 100, 100);
+    doc.text("Plaats, datum", 25, yPos + 5);
+    doc.text(`Handtekening (${sName})`, 100, yPos + 5);
+
+    const cleanEmpf = empfaenger.replace(/[^a-zA-Z0-9]/g, '_');
+    doc.save(`Reiseruecktritt_${cleanEmpf}_${fBuchung}.pdf`);
+setTimeout(() => document.getElementById('donateOverlay').classList.add('active'), 800);
+});
+
+/* ══════════════════════════════════════════
+   ▶▶ VOER HIER UW PAYPAL-E-MAIL IN ◀◀
+   ══════════════════════════════════════════ */
+const PAYPAL_EMAIL = 'info@kassen-lotse.de';
+
+let donateAmount = 5;
+
+function selectPreset(amount, btn) {
+  donateAmount = amount;
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  document.getElementById('customAmount').value = '';
+  document.getElementById('customAmount').classList.remove('selected-custom');
+  updateDonateButton();
+}
+
+function handleCustomInput(input) {
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  const val = parseFloat(input.value);
+  if (val && val >= 1) {
+    donateAmount = val;
+    input.classList.add('selected-custom');
+  } else {
+    donateAmount = 0;
+    input.classList.remove('selected-custom');
+  }
+  updateDonateButton();
+}
+
+function updateDonateButton() {
+  const btn = document.getElementById('btnDonate');
+  if (donateAmount >= 1) {
+    btn.textContent = `Doneer nu € ${donateAmount % 1 === 0 ? donateAmount : donateAmount.toFixed(2)}`;
+    btn.disabled = false;
+  } else {
+    btn.textContent = 'Bedrag invoeren';
+    btn.disabled = true;
+  }
+}
+
+function openPayPal() {
+  if (donateAmount < 1) return;
+  const amountStr = donateAmount.toFixed(2);
+  const url = `https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=${encodeURIComponent(PAYPAL_EMAIL)}&amount=${amountStr}&currency_code=EUR&item_name=Fix my Trip+Unterst%C3%BCtzung&no_note=1&no_shipping=1`;
+  window.open(url, '_blank');
+  closeOverlay();
+}
+
+function closeOverlay() {
+  document.getElementById('donateOverlay').classList.remove('active');
+}
+// Sluit het overlay wanneer men op de verduisterde achtergrond klikt
+document.getElementById('donateOverlay').addEventListener('click', function(e) {
+  if (e.target === this) {
+    closeOverlay();
+  }
+});
+</script>
+
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Sluiten">&times;</button>
+    <div class="donate-emoji">🎉</div>
+    <h2>Uw brief is klaar!</h2>
+    <p class="sub">U hebt zojuist <strong style="color:#2e7d32;">commissie</strong> bespaard –<br>geen derde partij, geen afdracht, alles is van u.</p>
+    <div class="donate-hint">
+      Deze service is en blijft <strong>100 % gratis</strong>. Als hij u heeft geholpen, stellen wij een kleine vrijwillige bijdrage zeer op prijs – zodat Fix my Trip ook voor andere reizigers gratis blijft.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Snelle selectie:</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Eigen bedrag invoeren …" oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Doneer nu € 5</button>
+    <button class="btn-skip" onclick="closeOverlay()">Nee bedankt, ik sluit het venster</button>
+    <p class="paypal-note">Vrijwillig &amp; veilig via PayPal</p>
+    <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
+  
+  <!-- NEU: Affiliate Hinweis über dem Text -->
+  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
+    Advertentie / advertentielink
+  </span>
+
+  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
+    <strong style="color: #333;">P.S.: Vliegt u binnenkort weer?</strong> Bescherm uzelf tegen de volgende reisellende. Echte travel-creditcards kosten permanent € 0 jaarlijkse kosten, schrappen de kosten voor gebruik in het buitenland en bieden vaak sterke kopersbescherming. <br>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Vergelijk nu de beste aanbieders & bescherm uzelf ✈️</a>
+  </p>
+</div>
+  </div>
+</div>
+</body>
+</html>

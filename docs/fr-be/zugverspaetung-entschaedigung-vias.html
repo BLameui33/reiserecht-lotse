@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>VIAS Retard : indemnisation gratuite (PDF)</title>
+
+  <meta name="description" content="Train en retard ou correspondance manquée ? Créez gratuitement la lettre de réclamation officielle à VIAS et récupérez jusqu'à 50 % du prix du billet.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://www.fix-my-trip.com/fr-be/zugverspaetung-entschaedigung-vias.html">
+
+    <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/zugverspaetung-entschaedigung-vias.html">
+<link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/zugverspaetung-entschaedigung-vias.html">
+<link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/zugverspaetung-entschaedigung-vias.html">
+<link rel="alternate" hreflang="it" href="https://www.fix-my-trip.com/it/zugverspaetung-entschaedigung-vias.html">
+<link rel="alternate" hreflang="nl" href="https://www.fix-my-trip.com/nl/zugverspaetung-entschaedigung-vias.html">
+<link rel="alternate" hreflang="fr-be" href="https://www.fix-my-trip.com/fr-be/zugverspaetung-entschaedigung-vias.html">
+<link rel="alternate" hreflang="nl-be" href="https://www.fix-my-trip.com/nl-be/zugverspaetung-entschaedigung-vias.html">
+<link rel="alternate" hreflang="pt" href="https://www.fix-my-trip.com/pt/zugverspaetung-entschaedigung-vias.html">
+
+<link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/zugverspaetung-entschaedigung-vias.html">
+
+  <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="/logo-lotse-fav.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Générateur PDF : faire valoir vos droits auprès de VIAS",
+    "applicationCategory": "LegalApplication",
+    "operatingSystem": "All",
+    "description": "Outil gratuit pour calculer les indemnisations et créer une lettre type juridique à VIAS.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+    }
+  }
+  </script>
+
+  <!-- Schéma FAQ pour une présence maximale dans les extraits enrichis Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "VIAS doit-elle aussi payer en cas d'intempéries ou d'interventions d'urgence médicale ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depuis la réforme de juin 2023, une nouveauté importante s'applique : en cas de circonstances exceptionnelles (comme des intempéries extrêmes, un vol de câbles ou une personne sur les voies), le droit à l'indemnisation financière de 25 % ou 50 % ne s'applique pas. En revanche, en cas de grève de son propre personnel, de problèmes d'aiguillage ou de défaillance de train, VIAS doit payer."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Y a-t-il un remboursement avec le Deutschlandticket (ticket à 49 euros) ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Oui, mais c'est plus compliqué. Le Deutschlandticket est considéré comme un abonnement à tarif réduit. Pour chaque retard à partir de 60 minutes, une indemnité forfaitaire de 1,50 euro vous est due. Comme les versements inférieurs à 4 euros ne sont pas effectués, vous devez, pendant le mois de validité, cumuler au moins trois retards (3 x 1,50 € = 4,50 €) et les déposer ensemble. Le montant maximal de remboursement par mois est limité à 25 % du prix du billet."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Puis-je prendre un ICE plus cher si mon train régional est annulé ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "En principe oui, si un retard à l'arrivée d'au moins 20 minutes est à prévoir. Vous devez toutefois d'abord acheter vous-même un billet ICE valable, puis le soumettre ensuite au remboursement via le service compétent pour les droits des passagers. Important : cette règle ne s'applique expressément PAS au Deutschlandticket ! Si vous montez dans un ICE avec le ticket à 49 euros, les frais restent à votre charge."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+  <span style="font-size: 0.9em; color: #666;">Droits des passagers ferroviaires et transports publics</span>
+</header>
+
+<div class="page-container">
+
+  <!-- Above the Fold: Solution claire pour un problème quotidien frustrant -->
+  <h1>VIAS en retard ? Demandez jusqu'à 50 % de remboursement en toute sécurité juridique</h1>
+  
+  <div class="usp-bar">
+    <div class="usp-item">Adresse officielle intégrée</div>
+    <div class="usp-item">Basé sur le règlement UE 2021/782</div>
+    <div class="usp-item">100 % gratuit et PDF immédiat</div>
+  </div>
+
+  <div class="info-box red">
+    <p><strong>Le formulaire pour récupérer votre argent :</strong> Encore bloqué dans une gare venteuse ou avez-vous manqué la correspondance salvatrice ? À partir de 60 minutes de retard à votre gare d'arrivée, vous avez droit à un remboursement partiel du prix de votre billet. Remplissez ce formulaire et générez en un clic une lettre juridiquement solide à l'attention du <strong>service compétent pour les droits des passagers</strong>. Pas de clics compliqués dans une application, mais une demande formelle et exploitable pour l'envoi postal ou le guichet chez VIAS.</p>
+  </div>
+
+  <div class="legal-info-box">
+    <strong>Remarque importante concernant l'utilisation</strong><br>
+    Cet outil est un <strong>générateur automatisé de lettre type</strong> (aide à l'auto-assistance). Il insère simplement vos données dans des modèles juridiques standard. Il n'effectue <strong>aucun examen individuel</strong> de votre dossier. Ce service gratuit ne remplace pas un conseil juridique d'avocat. L'utilisation se fait sous votre propre responsabilité, aucune garantie de succès n'est accordée.
+</div>
+
+  <div class="highlight-box pruefdatum-box" role="note" aria-label="Vérifié par la rédaction" style="margin-top: 15px; margin-bottom: 30px;">
+    <p><strong>Vérifié par la rédaction le :</strong> <span id="pruefdatum">05.05.2026</span></p>
+  </div>
+
+  <!-- Lesson Learned Affiliate Box: Zugverspätung -->
+<div class="lesson-learned-box" style="background: #f8f9fa; border-left: 4px solid #ffb300; padding: 15px 20px; margin: 30px 0; border-radius: 4px; display: flex; align-items: flex-start; gap: 15px; position: relative;">
+  
+  <span style="font-size: 0.7rem; color: #666; background: #eee; padding: 2px 6px; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.05em; position: absolute; top: 10px; right: 10px;">
+    Publicité
+  </span>
+
+  <div style="font-size: 2em; line-height: 1;">💡</div>
+  <div>
+    <h4 style="margin: 0 0 5px 0; color: #333; font-size: 1.1em; padding-right: 60px;">Astuce pour votre prochain voyage en train</h4>
+    <p style="margin: 0 0 10px 0; font-size: 0.95em; color: #555;">
+      Bloqué la nuit à la gare parce que la correspondance a disparu ? Si vous devez avancer spontanément les frais d'un hôtel d'urgence, d'une voiture de location ou d'un taxi, une vraie carte de crédit voyage peut être très avantageuse. De nombreuses cartes premium intègrent également une assurance confort de voyage qui prend en charge sans complication ce type de frais supplémentaires en cas de retard.
+    </p>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #9d2121; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">
+      Comparer les cartes de crédit voyage avec protection premium
+    </a>
+  </div>
+</div>
+
+  <!-- Formular-Bereich (Struktur & IDs unangetastet) -->
+  <form id="trainForm">
+    <fieldset>
+      <legend>1. Vos données et vos coordonnées bancaires</legend>
+      <label>Votre prénom et nom :</label>
+      <input type="text" id="sName" placeholder="p. ex. Max Mustermann" required>
+      <label>Rue et numéro :</label>
+      <input type="text" id="sStrasse" placeholder="p. ex. Bahnhofstraße 1" required>
+      <label>Code postal et ville :</label>
+      <input type="text" id="sPLZOrt" placeholder="p. ex. 12345 Berlin" required>
+      <label>IBAN pour le versement :</label>
+      <input type="text" id="bIBAN" placeholder="DE..." required>
+    </fieldset>
+
+    <fieldset>
+      <legend>2. Les données du voyage</legend>
+      <label>Date du trajet :</label>
+      <input type="date" id="fDatum" required>
+      <label>Numéro de dossier / numéro de billet (indiqué sur le billet) :</label>
+      <input type="text" id="fTicket" placeholder="p. ex. XWVU12" required>
+      <label>Gare de départ :</label>
+      <input type="text" id="fStart" placeholder="p. ex. München Hbf" required>
+      <label>Gare d'arrivée prévue :</label>
+      <input type="text" id="fZiel" placeholder="p. ex. Hamburg Hbf" required>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. Le retard</legend>
+      <label>Avec combien de retard êtes-vous arrivé à destination ?</label>
+      <select id="fVerspaetung" required>
+        <option value="60">Entre 60 et 119 minutes (25 % de remboursement)</option>
+        <option value="120">Plus de 120 minutes (50 % de remboursement)</option>
+        <option value="cancel">Trajet entièrement annulé (100 % de remboursement / interruption)</option>
+      </select>
+
+      <label>Quelle était la raison ? (facultatif, mais utile pour le traitement) :</label>
+      <select id="fGrund">
+        <option value="Zug hatte Verspätung">Le train avait un retard préalable</option>
+        <option value="Anschlusszug verpasst">Correspondance manquée</option>
+        <option value="Zug ist komplett ausgefallen">Le train a été entièrement annulé</option>
+        <option value="Personalmangel / Streik">Manque de personnel ou grève</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>4. Destinataire de la demande</legend>
+      <label>Adresse du prestataire :</label>
+      <textarea id="rAddress" rows="4" style="width: 100%; font-family: inherit; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">VIAS Rail GmbH
+Service clientèle
+Kölner Straße 266
+51149 Cologne
+Allemagne</textarea>
+      <small style="color: #666;">Voici l'adresse officielle de VIAS. Vous pouvez la compléter si nécessaire.</small>
+    </fieldset>
+    <p style="font-size: 0.8em; color: #666; margin-top: 5px; line-height: 1.3;">
+  💡 <strong>Remarque :</strong> L'adresse centrale ou régionale du prestataire est indiquée ici par défaut. Vous pouvez modifier cette adresse à tout moment et saisir celle de la succursale locale dans votre pays.
+</p>
+
+    <div class="submit-area">
+    <p class="submit-disclaimer">
+        En cliquant sur "Générer le PDF", vous comprenez que ce service automatisé<br>ne constitue pas un conseil juridique et que vous déposez la demande sous votre propre responsabilité.
+    </p>
+    <button type="submit" class="button-primary">📄 Générer le PDF</button>
+</div>
+  </form>
+
+ <!-- Umfassender SEO Content Bereich -->
+  <div class="seo-content">
+    <h2>Vos droits de passager chez VIAS en détail</h2>
+    <p>Quiconque voyage régulièrement en intercity, en train express ou en train local avec VIAS connaît le problème : trains supprimés, incidents de signalisation et correspondances manquées font perdre du temps et des nerfs. La bonne nouvelle : lorsque l'horaire est totalement perturbé, le droit ferroviaire européen vous protège. Le règlement européen sur les droits des passagers ferroviaires (Règlement UE 2021/782) fixe de manière contraignante le montant de l'indemnisation qui vous revient — et il s'applique à tous les opérateurs circulant en Belgique, y compris la SNCB et les opérateurs internationaux tels qu'Eurostar et Thalys (Eurostar International).</p>
+
+    <h3>VIAS : quel est le montant de l'indemnisation légale en cas de retard ?</h3>
+    <p>Une idée reçue très répandue : ce n'est <em>pas</em> le retard d'un train individuel en cours de route qui compte, mais uniquement <strong>votre heure d'arrivée à la gare de destination réservée</strong>. Si votre premier train n'a que 10 minutes de retard, mais que vous manquez ainsi la correspondance décisive et arrivez finalement une heure plus tard, vos droits de passager s'appliquent pleinement.</p>
+
+    <table class="seo-table">
+      <thead>
+        <tr>
+          <th>Retard à destination</th>
+          <th>Indemnisation légale minimale (billet simple)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Entre 60 et 119 minutes</td>
+          <td><strong>25 %</strong> du prix payé</td>
+        </tr>
+        <tr>
+          <td>À partir de 120 minutes (2 heures et plus)</td>
+          <td><strong>50 %</strong> du prix payé</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p><em>Règle importante pour les trajets aller-retour :</em> Si vous avez acheté un billet regroupant l'aller et le retour sur un seul document, le retard est examiné séparément pour chaque trajet. La base de calcul est alors exactement la moitié du prix total payé.</p>
+
+    <h3>Le système d'indemnisation SNCB : une protection plus favorable que le minimum européen</h3>
+    <p>La SNCB a développé, dans le cadre de son contrat de gestion avec l'État belge, un système d'indemnisation qui va bien au-delà du plancher légal européen. Pour tout retard d'au moins 60 minutes, vous avez droit au remboursement intégral de 100 % du prix de votre billet  — bien plus favorable que les 50 % prévus par la réglementation européenne. Cette règle s'applique quel que soit le type de titre de transport.</p>
+
+    <table class="seo-table">
+      <thead>
+        <tr>
+          <th>Retard à destination (SNCB trafic intérieur)</th>
+          <th>Indemnisation</th>
+          <th>Forme du versement</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>60 minutes et plus</td>
+          <td><strong>100 %</strong> du prix du billet</td>
+          <td>Portefeuille électronique ou bon d'achat ; en espèces sur demande explicite</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>À noter : la SNCB verse par défaut l'indemnisation sous forme de portefeuille électronique ou de bons d'achat. Le remboursement en espèces n'est possible que pour les retards d'au moins 60 minutes et uniquement sur demande explicite du voyageur.  Vous disposez d'un délai de <strong>12 mois</strong> à compter de la date du voyage pour introduire votre demande via <strong>My SNCB</strong> (en ligne ou via l'application) ou au guichet d'une grande gare.</p>
+
+    <h3>Retards répétés et abonnements : règles modifiées depuis octobre 2023</h3>
+    <p>Depuis le 17 octobre 2023, la réglementation relative aux retards répétés a été modifiée : les retards d'au moins 30 minutes survenus au moins 10 fois sur une période de 6 mois n'ouvrent plus droit à compensation que pour les détenteurs d'abonnement.  Pour les retards ponctuels d'au moins 60 minutes, le remboursement intégral reste applicable à tous les voyageurs, quel que soit leur titre de transport.</p>
+
+    <h3>Exceptions : quand VIAS n'a plus à payer</h3>
+    <p>Le règlement européen exonère les entreprises ferroviaires de leur obligation d'indemniser en cas de "circonstances extraordinaires" inévitables. Sont notamment visés :</p>
+    <ul>
+      <li>Conditions météorologiques extrêmes (tempêtes exceptionnelles, inondations graves, verglas). En revanche, les conditions hivernales habituelles ou les feuilles sur les voies relèvent du risque d'exploitation normal.</li>
+      <li>Faits de tiers (personnes sur les voies, vol de câbles, urgence médicale à bord, intervention des forces de l'ordre, sabotage).</li>
+    </ul>
+    <p><strong>Important :</strong> les grèves du personnel de l'entreprise ferroviaire elle-même ne relèvent pas de la clause d'exception.  En cas de grève SNCB, vous avez donc droit à une indemnisation pour votre voyage manqué ou gravement retardé, pour autant que vous disposiez d'un titre de transport valable au moment de la grève. Les perturbations liées à l'infrastructure d'Infrabel (gestionnaire du réseau ferroviaire belge) ne relèvent pas non plus de l'exception : la SNCB reste votre cocontractant et demeure responsable à votre égard en tant que passager.</p>
+
+    <!-- FAQ Bereich -->
+    <div class="faq-section">
+      <h2>Questions fréquentes (FAQ) sur l'indemnisation chez VIAS</h2>
+
+      <details>
+        <summary>Qu'en est-il de mon abonnement SNCB en cas de retards répétés ?</summary>
+        <p>En tant que détenteur d'un abonnement, vous pouvez introduire une demande d'indemnisation pour retards répétés : vous pouvez regrouper vos retards dans une demande pour retards répétés, ou — si le retard est d'au moins une heure — introduire une demande séparée pour chaque retard. Si le trajet aller n'était pas possible, vous pouvez également demander une indemnisation pour le trajet retour.  La demande s'effectue via My SNCB ou via le formulaire disponible sur belgiantrain.be. Conservez toujours votre titre de transport et notez la date, la gare de départ et la gare d'arrivée.</p>
+      </details>
+
+      <details>
+        <summary>Comment introduire une demande d'indemnisation ?</summary>
+        <p>La solution la plus rapide est via <strong>My SNCB</strong> sur belgiantrain.be ou via l'application SNCB : sélectionnez le trajet concerné dans votre historique de voyages et soumettez la demande en ligne. Si vous n'avez pas de compte My SNCB, vous pouvez télécharger le formulaire de demande sur belgiantrain.be et l'envoyer par courrier ou le déposer au guichet d'une grande gare. Introduisez votre demande dans un délai de <strong>12 mois</strong> à compter de la date du voyage. Pour les voyages internationaux, adressez-vous à l'opérateur avec lequel vous avez voyagé (p. ex. Eurostar ou NS International).</p>
+      </details>
+
+      <details>
+        <summary>Puis-je prendre un autre train si le mien est annulé ou fortement retardé ?</summary>
+        <p>Oui. Si votre retard prévu à destination est de 60 minutes ou plus, vous avez le droit de choisir : poursuivre le voyage avec le premier train disponible, ou obtenir le remboursement intégral de votre billet. Si la SNCB ne vous propose pas d'alternative dans les 100 minutes suivant l'heure de départ prévue, vous pouvez organiser vous-même un transport de substitution et demander le remboursement des frais raisonnables engagés. <em>Attention : un billet SNCB national ne donne pas automatiquement droit à un train international à grande vitesse en cas de suppression.</em></p>
+      </details>
+
+      <details>
+        <summary>Les mêmes droits s'appliquent-ils pour les trains internationaux (Eurostar, Thalys) ?</summary>
+        <p>Oui. Le règlement (UE) 2021/782 s'applique à tous les services ferroviaires internationaux au départ ou à destination de la Belgique. Eurostar (qui a également repris les services Thalys) applique sa propre politique d'indemnisation pour les voyages internationaux, mais doit toujours respecter au minimum le plancher légal européen. Pour les demandes d'indemnisation relatives à des voyages internationaux, adressez-vous à l'opérateur auprès duquel vous avez acheté votre billet.</p>
+      </details>
+
+      <details>
+        <summary>Que faire si la SNCB ne répond pas à ma réclamation ?</summary>
+        <p>Si la SNCB ne répond pas ou si la réponse ne vous satisfait pas, vous pouvez saisir le <strong>Service de médiation pour les voyageurs ferroviaires (Ombudsrail)</strong>, l'ombudsman belge indépendant qui traite les plaintes relatives à la SNCB et à Infrabel. Pour les plaintes concernant des voyages internationaux, vous pouvez également contacter le <strong>Centre Européen des Consommateurs Belgique (CEC Belgique)</strong>, qui propose une médiation gratuite pour les litiges transfrontaliers.</p>
+      </details>
+    </div>
+  </div>
+
+  <div class="airline-hinweisbox">
+    <h3>Informations importantes sur les remboursements chez VIAS</h3>
+    <p>Pour les trains VIAS, le droit des voyageurs s’applique aussi lorsque la cause de l’annulation du train incombe à l’exploitant du réseau ferroviaire (par ex. poste d’aiguillage défectueux de la DB). En cas de non-exécution prévisible du voyage, vous avez droit au remboursement intégral du prix du billet.</p>
+  </div>
+
+  <div class="popular-links" style="margin-top: 40px; padding: 20px; background: #f9f9f9; border-radius: 8px;">
+    <h3>Autres prestataires et régions :</h3>
+    <div class="link-grid">
+      <a href="zugverspaetung-entschaedigung-sncb.html">SNCB / NMBS (Belgische Bahn)</a>
+<a href="zugverspaetung-entschaedigung-flixtrain.html">FlixTrain</a>
+<a href="zugverspaetung-entschaedigung-oebb.html">ÖBB (Österreichische Bundesbahnen)</a>
+<a href="zugverspaetung-entschaedigung-erixx.html">erixx</a>
+<a href="zugverspaetung-entschaedigung-tgv.html">TGV (SNCF)</a>
+
+    </div>
+  </div>
+  </div>
+
+  <!-- Quellen-Box: Belgique retard train -->
+<aside class="legal-sources-box" aria-labelledby="sources-title">
+  <h3 id="sources-title" class="sources-heading">Bases juridiques officielles</h3>
+  <p class="sources-intro">
+    Les calculs et les lettres de ce générateur reposent sur les lois et règlements européens et nationaux en vigueur suivants :
+  </p>
+  <ul class="sources-list">
+    <li>
+      <strong>Règlement (UE) 2021/782</strong> (droits et obligations des voyageurs ferroviaires) :
+      texte européen d'application directe fixant les droits minimaux à l'indemnisation, à l'assistance et à l'information en cas de retard ou d'annulation, applicable à tous les opérateurs ferroviaires en Belgique.
+      <br>
+      <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32021R0782" target="_blank" rel="noopener noreferrer" class="source-link">
+        Texte officiel sur EUR-Lex (Europa.eu)
+      </a>
+    </li>
+    <li>
+      <strong>Système d'indemnisation SNCB (contrat de gestion avec l'État belge)</strong> :
+      régime volontaire de la SNCB allant au-delà du minimum européen, avec remboursement intégral (100 %) à partir de 60 minutes de retard.
+      <br>
+      <a href="https://www.belgiantrain.be/fr/support/customer-service/compensation" target="_blank" rel="noopener noreferrer" class="source-link">
+        Système de compensation sur belgiantrain.be (SNCB)
+      </a>
+    </li>
+    <li>
+      <strong>Information officielle du SPF Mobilité et Transports publics</strong> :
+      aperçu de la transposition belge des droits européens des passagers ferroviaires, avec explication des différents motifs d'indemnisation.
+      <br>
+      <a href="https://mobiliteit.d8.pr.belgium.be/fr/rail/passagers/droits-des-passagers/compensations" target="_blank" rel="noopener noreferrer" class="source-link">
+        Droits des passagers sur belgium.be (SPF Mobilité)
+      </a>
+    </li>
+    <li>
+      <strong>Service de médiation pour les voyageurs ferroviaires (Ombudsrail)</strong> :
+      ombudsman belge indépendant chargé de traiter les plaintes relatives à la SNCB et à Infrabel, et de veiller au respect des droits des passagers dans le transport ferroviaire belge.
+      <br>
+      <a href="https://www.ombudsrail.be/fr/vos-droits/Indemnisation-pour-retard-et-suppression" target="_blank" rel="noopener noreferrer" class="source-link">
+        Indemnisation pour retard sur ombudsrail.be
+      </a>
+    </li>
+  </ul>
+</aside>
+
+
+
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise en droit du voyage et droits des passagers</h3>
+    <p class="trust-text">
+        Nos guides et générateurs reposent sur l'analyse rigoureuse des règlements européens actuels (comme le règlement CE 261/2004), des décisions de la Cour fédérale de justice et du droit national du voyage. 
+        Ils sont développés par Marc (direction du projet) et son équipe afin de permettre aux voyageurs de faire valoir leurs droits de manière juridiquement solide face aux compagnies aériennes et aux voyagistes.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Remarque importante : nos outils offrent une aide à l'auto-assistance en cas de retard de vol, de défauts d'hôtel ou d'annulation de train. Ils ne remplacent pas un conseil juridique individuel par un avocat.
+        </span>
+    </p>
+
+    <!-- Umlaut in URL entfernt! -->
+    <a href="ueber-uns.html" class="trust-link">
+        Découvrir les détails de la méthodologie juridique et de la rédaction →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Un problème avec votre vol, votre train ou votre hôtel ?</strong><br>
+        Fix-My-Trip examine en quelques étapes votre droit à indemnisation, au remboursement du billet ou à une réduction du prix du voyage. <br>
+        <em>Un service de Fix my Trip.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Vous avez détecté une erreur dans l'outil ?</strong> Comme nous sommes un portail automatisé et ne fournissons pas de conseil juridique individuel, votre aide nous est très précieuse si vous signalez des bugs ou des prestataires obsolètes : 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Envoyer un retour à notre siège</a>.
+</p>
+</div>
+
+<section class="site-niche-directory">
+    <div class="niche-directory-container">
+        <h2 class="niche-directory-title">Découvrir d'autres thèmes</h2>
+        <p class="niche-directory-intro">
+            Qu'il s'agisse d'un retard de vol, d'un défaut d'hôtel ou d'un piège de roaming, nos experts ont préparé pour presque chaque niche de voyage le guide et la lettre type adaptés.
+        </p>
+        
+        <div class="niche-directory-grid">
+            <div class="niche-directory-group">
+                <h3>Vol et aéroport</h3>
+                <ul>
+                    <li><a href="flugverspaetung-info.html">Retard et annulation de vol</a></li>
+                    <li><a href="steuern-info.html">Récupérer les taxes aériennes</a></li>
+                    <li><a href="gepaeck-info.html">Perte de bagages et dommages aux valises</a></li>
+                    <li><a href="flughafen-parken-info.html">Frais de stationnement à l'aéroport</a></li>
+                    <li><a href="ota-rueckerstattung-info.html">Portails de réservation de vols (OTA)</a></li>
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Hébergement et voyage à forfait</h3>
+                <ul>
+                    <li><a href="hotel-maengel-info.html">Défauts d'hôtel et bruit de chantier</a></li>
+                    <li><a href="storno-info.html">Annuler un voyage (frais)</a></li>
+                    <li><a href="ferienhaus-maengel-info.html">Maisons de vacances et appartements de vacances</a></li>
+                    <li><a href="airbnb-probleme-info.html">Solutions aux problèmes Airbnb</a></li>
+                    <li><a href="kreuzfahrt-minderung.html">Défauts de croisière</a></li>
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Préparation du voyage et mobilité</h3>
+                <ul>
+                    <li><a href="zugverspaetung-info.html">Retard de train et droits ferroviaires</a></li>
+                    <li><a href="einreise-info.html">Conditions d'entrée et visa</a></li>
+                    <li><a href="esim-roaming-info.html">Coûts eSIM et roaming</a></li>
+                    <li><a href="mietwagen-info.html">Assurances de voiture de location</a></li>
+                    <li><a href="zoll-info.html">Douanes et règles d'importation</a></li>
+                    <li><a href="reisekreditkarten-info.html">Comparatif des cartes de crédit voyage</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">À propos de nous</a> | 
+        <a href="index.html">Accueil</a> | 
+        <a href="impressum.html">Mentions légales</a> | 
+        <a href="datenschutz.html">Protection des données</a>
+    </nav>
+</footer>
+
+<script>
+document.getElementById('trainForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+    
+    // Adresse codée en dur du centre de service DB
+    // Récupérer l'adresse dynamique depuis le champ de texte
+const empfaenger = document.getElementById('rAddress').value;
+    
+    const sName = document.getElementById('sName').value;
+    const sStrasse = document.getElementById('sStrasse').value;
+    const sPLZOrt = document.getElementById('sPLZOrt').value;
+    const bIBAN = document.getElementById('bIBAN').value;
+    
+    const fTicket = document.getElementById('fTicket').value;
+    const fStart = document.getElementById('fStart').value;
+    const fZiel = document.getElementById('fZiel').value;
+    const fGrund = document.getElementById('fGrund').value;
+    
+    const rawDate = document.getElementById('fDatum').value;
+    const fDatumParts = rawDate.split('-');
+    const fDatum = `${fDatumParts[2]}.${fDatumParts[1]}.${fDatumParts[0]}`;
+
+    const verspaetungTyp = document.getElementById('fVerspaetung').value;
+
+    let deadline = new Date();
+    deadline.setDate(deadline.getDate() + 14);
+    const deadlineStr = deadline.toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'});
+    const todayStr = new Date().toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'});
+
+    doc.setFont("helvetica");
+
+    // 1. Ligne d'en-tête (expéditeur en petit)
+    doc.setFontSize(8);
+    doc.setTextColor(100, 100, 100);
+    doc.text(`${sName} • ${sStrasse} • ${sPLZOrt}`, 25, 45);
+    doc.setLineWidth(0.2);
+    doc.setDrawColor(150, 150, 150);
+    doc.line(25, 46.5, 95, 46.5);
+
+    // 2. Destinataire (service center)
+    doc.setFontSize(11);
+    doc.setTextColor(0, 0, 0);
+    const receiverLines = doc.splitTextToSize(empfaenger, 80);
+    doc.text(receiverLines, 25, 53);
+
+    // 3. Bloc expéditeur à droite
+    doc.setFontSize(10);
+    doc.text("Expéditeur :", 130, 45);
+    doc.setFont("helvetica", "bold");
+    doc.text(sName, 130, 50);
+    doc.setFont("helvetica", "normal");
+    doc.text(sStrasse, 130, 55);
+    doc.text(sPLZOrt, 130, 60);
+
+    doc.text(`Date : ${todayStr}`, 185, 80, {align: 'right'});
+
+    // 4. Objet
+doc.setFont("helvetica", "bold");
+const titleText = `Demande d'indemnisation conformément aux droits des passagers (règlement (UE) 2021/782)`;
+
+let titleFontSize = 12; // Start-Größe
+doc.setFontSize(titleFontSize);
+
+// 160 mm ist der verfügbare Platz (185 rechter Rand minus 25 linker Rand)
+while (doc.getTextWidth(titleText) > 160 && titleFontSize > 8) {
+    titleFontSize -= 0.5;
+    doc.setFontSize(titleFontSize);
+}
+
+doc.text(titleText, 25, 95);
+    
+    // 5. Bloc des faits
+    doc.setFontSize(10.5);
+    doc.setFont("helvetica", "bold");
+    doc.text("Numéro de dossier / billet :", 25, 105);
+    doc.text("Date du voyage :", 25, 110);
+    doc.text("Trajet :", 25, 115);
+
+    doc.setFont("helvetica", "normal");
+    doc.text(fTicket, 75, 105);
+    doc.text(fDatum, 75, 110);
+    doc.text(`${fStart} vers ${fZiel}`, 75, 115);
+
+    doc.setDrawColor(0, 0, 0);
+    doc.line(25, 120, 185, 120); 
+
+    // 6. Texte principal selon le retard
+    // 6. Texte principal selon le retard
+const pageH = 297;
+const marginBottom = 20;
+const lineH = 6;
+
+function checkNewPage(doc, y, neededHeight = lineH) {
+    if (y + neededHeight > pageH - marginBottom) {
+        doc.addPage();
+        return 30;
+    }
+    return y;
+}
+
+function writeLines(doc, lines, startY, lh = lineH) {
+    let y = startY;
+    for (const line of lines) {
+        y = checkNewPage(doc, y);
+        doc.text(line, 25, y);
+        y += lh;
+    }
+    return y;
+}
+
+let yPos = 130;
+doc.setFontSize(11);
+
+let forderung = "";
+if (verspaetungTyp === "60") {
+    forderung = "Comme je suis arrivé à ma gare de destination avec un retard de plus de 60 minutes, mais inférieur à 120 minutes, je fais valoir par la présente mon droit à une indemnisation à hauteur de 25 % du prix du billet.";
+} else if (verspaetungTyp === "120") {
+    forderung = "Comme je suis arrivé à ma gare de destination avec un retard de plus de 120 minutes, je fais valoir par la présente mon droit à une indemnisation à hauteur de 50 % du prix du billet.";
+} else {
+    forderung = "Comme le trajet n'a pas eu lieu ou a été interrompu, je fais valoir par la présente mon droit au remboursement intégral du prix du billet.";
+}
+
+const para1 = doc.splitTextToSize(
+    `Madame, Monsieur,\n\n` +
+    `Je me permets de vous contacter afin de faire valoir mes droits de passager concernant le voyage mentionné ci-dessus.\n\n` +
+    `Le trajet a connu d'importantes irrégularités. Le motif indiqué est le suivant : ${fGrund}.\n\n` +
+    forderung + `\n\n` +
+    `Les justificatifs nécessaires (billet) sont joints à la présente. Je vous prie de bien vouloir virer le montant du remboursement sur le compte suivant dans les 14 prochains jours :`,
+    160
+);
+yPos = writeLines(doc, para1, yPos);
+yPos += 8;
+
+const para2 = doc.splitTextToSize(
+    `Titulaire du compte : ${sName}\nIBAN : ${bIBAN}`,
+    160
+);
+yPos = writeLines(doc, para2, yPos);
+yPos += 15;
+
+const para3 = doc.splitTextToSize(
+    `Je pars du principe que mon dossier sera traité de manière simple et rapide et j'attends la réception du paiement au plus tard le ${deadlineStr}.`,
+    160
+);
+yPos = writeLines(doc, para3, yPos);
+yPos += 20;
+
+// Signature – toujours garder ensemble
+yPos = checkNewPage(doc, yPos, 40);
+doc.text("Cordialement,", 25, yPos);
+yPos += 25;
+
+doc.setLineWidth(0.5);
+doc.line(25, yPos, 80, yPos);
+doc.line(100, yPos, 185, yPos);
+
+doc.setFontSize(9);
+doc.setTextColor(100, 100, 100);
+doc.text("Lieu, date", 25, yPos + 5);
+doc.text(`Signature (${sName})`, 100, yPos + 5);
+
+doc.save(`Droits_des_passagers_VIAS_${fTicket}.pdf`);
+setTimeout(() => document.getElementById('donateOverlay').classList.add('active'), 800);
+});
+
+/* ══════════════════════════════════════════
+   ▶▶ ENTREZ VOTRE E-MAIL PAYPAL ICI ◀◀
+   ══════════════════════════════════════════ */
+const PAYPAL_EMAIL = 'info@kassen-lotse.de';
+
+let donateAmount = 5;
+
+function selectPreset(amount, btn) {
+  donateAmount = amount;
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  document.getElementById('customAmount').value = '';
+  document.getElementById('customAmount').classList.remove('selected-custom');
+  updateDonateButton();
+}
+
+function handleCustomInput(input) {
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  const val = parseFloat(input.value);
+  if (val && val >= 1) {
+    donateAmount = val;
+    input.classList.add('selected-custom');
+  } else {
+    donateAmount = 0;
+    input.classList.remove('selected-custom');
+  }
+  updateDonateButton();
+}
+
+function updateDonateButton() {
+  const btn = document.getElementById('btnDonate');
+  if (donateAmount >= 1) {
+    btn.textContent = `Donner maintenant ${donateAmount % 1 === 0 ? donateAmount : donateAmount.toFixed(2)} €`;
+    btn.disabled = false;
+  } else {
+    btn.textContent = 'Saisir un montant';
+    btn.disabled = true;
+  }
+}
+
+function openPayPal() {
+  if (donateAmount < 1) return;
+  const amountStr = donateAmount.toFixed(2);
+  const url = `https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=${encodeURIComponent(PAYPAL_EMAIL)}&amount=${amountStr}&currency_code=EUR&item_name=Fix my Trip+Unterst%C3%BCtzung&no_note=1&no_shipping=1`;
+  window.open(url, '_blank');
+  closeOverlay();
+}
+
+function closeOverlay() {
+  document.getElementById('donateOverlay').classList.remove('active');
+}
+// Ferme la fenêtre superposée lorsqu'on clique sur l'arrière-plan assombri
+document.getElementById('donateOverlay').addEventListener('click', function(e) {
+  if (e.target === this) {
+    closeOverlay();
+  }
+});
+</script>
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Fermer">&times;</button>
+    <div class="donate-emoji">🎉</div>
+    <h2>Votre lettre est prête !</h2>
+    <p class="sub">Vous venez d'économiser des <strong style="color:#2e7d32;">frais de commission</strong> –<br>pas de prestataire tiers, pas de frais, tout vous revient.</p>
+    <div class="donate-hint">
+      Ce service est et reste <strong>100 % gratuit</strong>. S'il vous a aidé, nous serions très heureux d'un petit soutien volontaire – afin que Fix my Trip reste gratuit pour les autres voyageurs aussi.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Sélection rapide :</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Saisir un montant personnalisé …" oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Donner maintenant 5 €</button>
+    <button class="btn-skip" onclick="closeOverlay()">Non merci, je ferme la fenêtre</button>
+    <p class="paypal-note">Volontaire et sécurisé via PayPal</p>
+    <!-- P.S. Trick für das Bahn-Overlay -->
+<div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
+  
+  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
+    Publicité / lien sponsorisé
+  </span>
+
+  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
+    <strong style="color: #333;">P.S. : Vous repartez bientôt ?</strong> Protégez-vous avant le prochain chaos ferroviaire ou aérien. Les vraies cartes de crédit voyage aident facilement en cas de frais imprévus d'hôtel ou de location de voiture et offrent souvent une forte protection des achats. <br>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Comparer maintenant les meilleurs prestataires et se protéger 🚆</a>
+  </p>
+</div>
+  </div>
+</div>
+</body>
+</html>

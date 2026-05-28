@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Booking.com Reduzir aluguel: calculadora grátis & PDF</title>
+
+  <meta name="description" content="Problemas na casa de férias com Booking.com? Mofo, piscina quebrada ou sem Wi‑Fi? Calcule a redução do aluguel e gere o PDF de reclamação pronto.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="canonical" href="https://www.fix-my-trip.com/pt/ferienhaus-reklamation-beschwerde-booking.html">
+
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/ferienhaus-reklamation-beschwerde-booking.html">
+<link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/ferienhaus-reklamation-beschwerde-booking.html">
+<link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/ferienhaus-reklamation-beschwerde-booking.html">
+<link rel="alternate" hreflang="it" href="https://www.fix-my-trip.com/it/ferienhaus-reklamation-beschwerde-booking.html">
+<link rel="alternate" hreflang="nl" href="https://www.fix-my-trip.com/nl/ferienhaus-reklamation-beschwerde-booking.html">
+<link rel="alternate" hreflang="fr-be" href="https://www.fix-my-trip.com/fr-be/ferienhaus-reklamation-beschwerde-booking.html">
+<link rel="alternate" hreflang="nl-be" href="https://www.fix-my-trip.com/nl-be/ferienhaus-reklamation-beschwerde-booking.html">
+<link rel="alternate" hreflang="pt" href="https://www.fix-my-trip.com/pt/ferienhaus-reklamation-beschwerde-booking.html">
+
+<link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/ferienhaus-reklamation-beschwerde-booking.html">
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Gerador de PDF: redução de aluguel de casa de férias com Booking.com",
+    "applicationCategory": "LegalApplication",
+    "operatingSystem": "All",
+    "description": "Ferramenta gratuita para calcular reduções de aluguel em casas de férias e criar uma carta jurídica modelo para Booking.com.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Preciso reclamar imediatamente no local?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim, obrigatoriamente! Você deve informar sem demora o proprietário ou a agência local de Booking.com sobre o defeito e dar a chance de corrigi-lo. Quem fica em silêncio até depois das férias perde o direito à redução do aluguel."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "A tabela de referência de compensação também vale para casas de férias?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não, juridicamente, para casas de férias aplica-se o direito de locação, e não o direito de viagens. No entanto, os tribunais alemães frequentemente usam tabelas de referência de compensação consolidadas como orientação geral para estimar o valor da redução do aluguel."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O que faço se a casa estiver completamente inabitável?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Se a casa não puder ser habitada (por exemplo, dano grave por água, falha do aquecimento no inverno, mofo extremo), você pode rescindir o contrato imediatamente, exigir custos de substituição para um hotel e pedir o reembolso de 100% do aluguel pelos dias afetados."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+  <span style="font-size: 0.9em; color: #666;">Seus direitos em alojamentos de férias</span>
+</header>
+
+<div class="page-container">
+
+  <h1>Reclamar defeitos na casa de férias com Booking.com: recuperar o aluguel</h1>
+
+  <div class="back-to-hub-banner">
+  <a href="ferienhaus-maengel-info.html">
+    <span class="arrow">&larr;</span> Voltar à visão geral: todos os fornecedores de casas de férias
+  </a>
+  </div>
+  
+  <div class="usp-bar">
+    <div class="usp-item">Baseado no direito de locação</div>
+    <div class="usp-item">Calculadora de redução integrada</div>
+    <div class="usp-item">Carta modelo em PDF juridicamente precisa</div>
+    <div class="usp-item">100% gratuito</div>
+  </div>
+
+  <p>Nas fotos, uma villa dos sonhos; na realidade, mofo nas paredes, piscina vazia ou aquecimento quebrado? Se o alojamento reservado em <strong>Booking.com</strong> apresentar defeitos significativos, normalmente aplica-se o direito de locação. Use nosso gerador gratuito para calcular uma redução realista do aluguel e criar uma carta de cobrança juridicamente segura.</p>
+
+  <div class="info-box warning">
+    <strong>Importante: comunique o defeito imediatamente!</strong> Para exigir dinheiro de volta de Booking.com, você precisa obrigatoriamente ter <strong>comunicado o defeito no local ao proprietário ou ao ponto local de entrega das chaves</strong>. Você deve dar ao anfitrião a oportunidade de resolver o problema (por exemplo, por limpeza ou reparo). Quem não diz nada e só reclama ao voltar para casa normalmente fica sem nada!
+  </div>
+
+  <div class="legal-info-box">
+    <strong>Observação importante sobre o uso</strong><br>
+    Esta ferramenta é um <strong>gerador automatizado de carta modelo</strong> (ajuda para autoajuda). Ela apenas insere seus dados em modelos jurídicos padrão. Não há <strong>análise individual</strong> do seu caso. Este serviço gratuito não substitui aconselhamento jurídico de um advogado. O uso é por sua própria responsabilidade; não é oferecida garantia de sucesso.
+</div>
+
+
+
+<div class="highlight-box pruefdatum-box" role="note" aria-label="Revisado editorialmente" style="margin-top: 15px; margin-bottom: 30px;">
+    <p><strong>Revisado editorialmente em:</strong> <span id="pruefdatum">05.05.2026</span></p>
+  </div>
+
+  <!-- Lesson Learned Affiliate Box -->
+<div class="lesson-learned-box" style="background: #f8f9fa; border-left: 4px solid #ffb300; padding: 15px 20px; margin: 30px 0; border-radius: 4px; display: flex; align-items: flex-start; gap: 15px; position: relative;">
+  
+  <!-- NEU: Diskreter Affiliate-Hinweis oben rechts -->
+  <span style="font-size: 0.7rem; color: #666; background: #eee; padding: 2px 6px; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.05em; position: absolute; top: 10px; right: 10px;">
+    Anúncio
+  </span>
+
+  <div style="font-size: 2em; line-height: 1;">💡</div>
+  <div>
+    <h4 style="margin: 0 0 5px 0; color: #333; font-size: 1.1em; padding-right: 60px;">Dica para a próxima viagem</h4>
+    <p style="margin: 0 0 10px 0; font-size: 0.95em; color: #555;">
+      A casa de férias foi um pesadelo e você precisou trocar de hospedagem no local? Com cartões de crédito de viagem de verdade, no exterior você não só paga o hotel substituto sem taxas, como também muitas vezes tem um trunfo na mão por meio do chamado procedimento de chargeback (estorno no cartão) se o fornecedor original se recusar a reembolsar.
+    </p>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #891818; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">
+      Comparar os melhores cartões de viagem (gratuitos)
+    </a>
+  </div>
+</div>
+
+  <form id="fewoForm">
+    <fieldset style="border-color: #ff9800; background: #fffdf7;">
+      <legend style="background: #ff9800; color: #333;">1. Verificar fornecedor</legend>
+      <label>Portal / intermediário de casas de férias:</label>
+      <input type="text" id="aName" value="Booking.com" placeholder="" required>
+      <label>Endereço do fornecedor:</label>
+      <textarea id="aAdresse" rows="3" required placeholder="Booking.com B.V.
+Oosterdokskade 163
+1011 DL Amsterdã
+Países Baixos">Booking.com B.V.
+Oosterdokskade 163
+1011 DL Amsterdã
+Países Baixos</textarea>
+    </fieldset>
+    <p style="font-size: 0.8em; color: #666; margin-top: 5px; line-height: 1.3;">
+  💡 <strong>Observação:</strong> Por padrão, aqui é exibido o endereço central ou regional do fornecedor. Você pode alterar esse endereço a qualquer momento e, em vez disso, inserir o endereço da filial local no seu país.
+</p>
+
+    <fieldset>
+      <legend>2. Seus dados de reserva</legend>
+      <label>Número da reserva / número de referência:</label>
+      <input type="text" id="fBuchung" placeholder="por ex. 12345678" required>
+      <label>Nome e local da casa de férias:</label>
+      <input type="text" id="fObjekt" placeholder="por ex. Villa Sol, Mallorca" required>
+      <label>Período de locação (de - até):</label>
+      <input type="text" id="fZeitraum" placeholder="por ex. 01.08.2026 - 14.08.2026" required>
+      
+      <label style="color: var(--primary);">Preço total do aluguel (em euros):</label>
+      <input type="number" step="0.01" id="fPreis" placeholder="por ex. 1800" required>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. Calculadora de defeitos (valores de referência)</legend>
+      <p style="font-size: 0.9em; color: #666; margin-top: 0;">Selecione quais defeitos ocorreram. As porcentagens se baseiam na jurisprudência média dos tribunais locais alemães em matéria de locação.</p>
+      
+      <div class="checkbox-group" id="mangelCheckboxes">
+        <label><input type="checkbox" value="15" data-text="Piscina inutilizável (sem água, suja)"> Piscina inutilizável (15% de redução)</label>
+        <label><input type="checkbox" value="20" data-text="Mofo significativo / danos por umidade"> Mofo / umidade (20% de redução)</label>
+        <label><input type="checkbox" value="30" data-text="Falha total do aquecimento (em meses frios)"> Aquecimento quebrado no inverno (30% de redução)</label>
+        <label><input type="checkbox" value="10" data-text="Wi-Fi / internet ausente, embora expressamente prometido"> Wi-Fi/internet ausente (10% de redução)</label>
+        <label><input type="checkbox" value="15" data-text="Sujeira intensa do imóvel ou infestação de pragas"> Sujeira intensa / pragas (15% de redução)</label>
+        <label><input type="checkbox" value="15" data-text="Ruído intenso de obras no terreno vizinho"> Ruído de obras ao lado (15% de redução)</label>
+        <label><input type="checkbox" value="10" data-text="Falta de equipamento essencial (por ex. máquina de lavar com defeito)"> Equipamento prometido ausente (10% de redução)</label>
+      </div>
+
+      <div class="calc-banner">
+        Seu valor de reembolso calculado:<br>
+        <span id="liveAmount">0,00 €</span>
+        <div style="font-size: 0.5em; font-weight: normal; margin-top: 5px;">(Percentual de redução: <span id="livePercent">0</span>%)</div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>4. Seus dados e conta bancária</legend>
+      <label>Seu nome e sobrenome (locatário principal):</label>
+      <input type="text" id="sName" placeholder="por ex. Max Mustermann" required>
+      <label>Rua e número:</label>
+      <input type="text" id="sStrasse" placeholder="por ex. Musterstraße 1" required>
+      <label>CEP e cidade:</label>
+      <input type="text" id="sPLZOrt" placeholder="por ex. 12345 Berlin" required>
+      <label>IBAN para o reembolso:</label>
+      <input type="text" id="bIBAN" placeholder="DE..." required>
+    </fieldset>
+
+    <div class="submit-area">
+    <p class="submit-disclaimer">
+        Ao clicar em "Gerar PDF", você entende que este serviço automatizado<br>não constitui aconselhamento jurídico e que você apresentará a cobrança por sua própria responsabilidade.
+    </p>
+    <button type="submit" class="button-primary">📄 Gerar PDF de reclamação para Booking.com</button>
+</div>
+  </form>
+
+  <div class="seo-content">
+    <h2>Defeitos na casa de férias com Booking.com: seus direitos</h2>
+    <p>Diferentemente de um pacote turístico com voo incluído, na reserva de uma casa de férias ou apartamento de férias por meio de portais como Booking.com normalmente se aplica o <strong>direito de locação</strong>. Isso significa: o proprietário deve disponibilizar o imóvel no estado que foi contratualmente acordado (geralmente pelo anúncio e pelas fotos).</p>
+
+    <h3>Redução do aluguel segundo as diretrizes gerais de compensação</h3>
+    <p>Se faltar uma característica prometida (por exemplo, a piscina está vazia, embora tenha sido anunciada como destaque) ou se o uso do alojamento estiver prejudicado por um defeito (por exemplo, mofo extremo, ruído de obras, baratas), você tem direito à redução do aluguel. A base legal para isso é o direito de locação aplicável. Você paga apenas o aluguel correspondente ao valor real do alojamento com defeito.</p>
+
+    <h3>O passo mais importante: comunicar o defeito imediatamente!</h3>
+    <p>O maior erro que os viajantes cometem: eles passam duas semanas irritados com a casa suja, vão embora e depois pedem dinheiro de volta de Booking.com. Isso quase nunca funciona! Você tem o dever de reduzir o dano. Deve <strong>informar o defeito imediatamente ao proprietário ou à agência local</strong> e exigir a correção. Somente se o defeito não for eliminado (ou não puder ser eliminado, como no caso de ruído de obras), você garante seu direito ao reembolso.</p>
+
+    <h3>Preservar provas</h3>
+    <p>Sem provas, sua reclamação não vale nada. Documente cada defeito com cuidado. Tire fotos e vídeos (de preferência com data/hora visíveis). Elabore um breve relatório de defeitos e, se possível, inclua vizinhos ou outros viajantes como testemunhas. A comunicação por escrito com Booking.com ou com o proprietário no local (por exemplo, pelo portal ou por e-mail) é a melhor prova de que você reclamou a tempo.</p>
+
+    <div class="faq-section">
+      <h2>Perguntas frequentes (FAQ) sobre reclamações de casas de férias</h2>
+      
+      <details>
+        <summary>A tabela de referência de compensação também vale para casas de férias?</summary>
+        <p>Em sentido estrito: não. Essas tabelas foram desenvolvidas para o direito de viagens com pacote turístico. Em casas de férias, normalmente se aplica o direito de locação. No entanto, os tribunais locais alemães frequentemente usam os percentuais dessas tabelas como orientação pragmática para definir o valor de uma redução do aluguel em apartamentos de férias. Por isso, nossos valores de referência também se baseiam nessas experiências.</p>
+      </details>
+
+      <details>
+        <summary>Quem é meu contato: o portal ou o proprietário da casa?</summary>
+        <p>Isso muitas vezes é juridicamente complexo e depende dos termos e condições. Booking.com frequentemente atua apenas como intermediário. Seu verdadeiro parceiro contratual (e, portanto, o destinatário da cobrança) é o proprietário da casa. Por razões práticas, porém, a primeira carta de reclamação deve sempre ser dirigida a Booking.com, pois muitas vezes eles têm um processo interno de resolução de conflitos ou podem reter valores (como depósitos). Nosso PDF, portanto, é direcionado principalmente ao endereço do portal.</p>
+      </details>
+
+      <details>
+        <summary>E se eu quiser cancelar a viagem?</summary>
+        <p>Se a casa estiver completamente inabitável (por exemplo, forte contaminação por fezes, falta de água corrente, risco extremo à saúde por mofo), você pode rescindir o contrato de locação imediatamente por motivo importante. Nesse caso, você pode exigir o reembolso integral do aluguel e até mesmo indenização por um hotel substituto necessário.</p>
+      </details>
+    </div>
+  </div>
+
+  <div class="airline-hinweisbox">
+    <h3>Informações importantes sobre reembolsos com Booking.com</h3>
+    <p>A Booking.com atua exclusivamente como intermediária. Mesmo que os pagamentos sejam processados pela plataforma, em caso de defeitos (por exemplo, ausência de Wi-Fi, número de quartos diferente), o host/anfitrião é o principal destinatário dos pedidos de redução de preço. O atendimento ao cliente da Booking.com pode prestar apoio como intermediário, mas juridicamente não é responsável por indenização.</p>
+</div>
+
+<div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
+  <h3>Outros temas interessantes:</h3>
+  <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="ferienhaus-reklamation-beschwerde-fewo-direkt.html">FeWo-direkt (Vrbo)</a>
+<a href="ferienhaus-reklamation-beschwerde-traum-ferienwohnungen.html">Traum-Ferienwohnungen</a>
+<a href="ferienhaus-reklamation-beschwerde-bestfewo.html">BestFewo</a>
+<a href="ferienhaus-reklamation-beschwerde-belvilla.html">Belvilla</a>
+<a href="ferienhaus-reklamation-beschwerde-e-domizil.html">e-domizil</a>
+
+  </div>
+</div>
+
+<aside class="legal-sources-box" aria-labelledby="sources-title-fewo">
+    <h3 id="sources-title-fewo" class="sources-heading">Bases jurídicas</h3>
+    <p class="sources-intro">
+        As notificações de defeitos para alojamentos de férias baseiam-se principalmente no direito de locação:
+    </p>
+    <ul class="sources-list">
+        <li>
+            <strong>Código Civil aplicável – redução do aluguel por defeitos materiais e jurídicos</strong>: 
+            Se o objeto alugado (a casa de férias) apresentar um defeito que elimine ou reduza sua adequação ao uso contratualmente previsto, o locatário fica obrigado, durante o período de persistência do defeito, apenas ao pagamento de um aluguel reduzido de forma adequada.
+            <br>
+            <a href="https://www.gesetze-im-internet.de/bgb/__536.html" target="_blank" rel="noopener noreferrer" class="source-link">
+                Texto oficial em Gesetze-im-Internet.de (BMJ)
+            </a>
+        </li>
+    </ul>
+</aside>
+</div>
+
+<div class="trust-section">
+    <h3>Especialização em direito de viagens</h3>
+    <p class="trust-text">
+        Nossos geradores são baseados na análise de decisões judiciais atuais sobre direito de locação e direito de viagens. 
+        Eles são desenvolvidos para permitir que consumidores façam valer seus direitos de forma juridicamente segura e em pé de igualdade.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Observação importante: nossas ferramentas oferecem ajuda para autoajuda. Elas não substituem aconselhamento jurídico individual de um advogado.
+        </span>
+    </p>
+    <a href="ueber-uns.html" class="trust-link">
+        Saiba mais sobre a metodologia jurídica →
+    </a>
+</div>
+
+<section class="site-niche-directory">
+    <div class="niche-directory-container">
+        <h2 class="niche-directory-title">Descubra outras áreas temáticas</h2>
+        <p class="niche-directory-intro">
+            Seja atraso de voo, problema no hotel ou armadilha de roaming – nossos especialistas prepararam o guia e a carta modelo adequados para quase todos os nichos de viagem.
+        </p>
+        
+        <div class="niche-directory-grid">
+            <div class="niche-directory-group">
+                <h3>Voo &amp; aeroporto</h3>
+                <ul>
+                    <li><a href="flugverspaetung-info.html">Atraso e cancelamento de voo</a></li>
+                    <li><a href="steuern-info.html">Reembolso de taxas aéreas</a></li>
+                    <li><a href="gepaeck-info.html">Perda de bagagem e danos à mala</a></li>
+                    
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Alojamento &amp; pacote turístico</h3>
+                <ul>
+                    <li><a href="hotel-maengel-info.html">Defeitos em hotéis e ruído de obras</a></li>
+                    <li><a href="storno-info.html">Cancelar viagem (custos)</a></li>
+                    <li><a href="ferienhaus-maengel-info.html">Casas de férias e apartamentos</a></li>
+                    <li><a href="airbnb-probleme-info.html">Soluções para problemas no Airbnb</a></li>
+                    <li><a href="kreuzfahrt-minderung.html">Defeitos em cruzeiros</a></li>
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Preparação da viagem &amp; mobilidade</h3>
+                <ul>
+                    <li><a href="zugverspaetung-info.html">Atraso de trem e direitos ferroviários</a></li>
+                    <li><a href="einreise-info.html">Regras de entrada &amp; visto</a></li>
+                    <li><a href="esim-roaming-info.html">Custos de eSIM &amp; roaming</a></li>
+                    <li><a href="mietwagen-info.html">Seguros de carro alugado</a></li>
+                    
+                    <li><a href="reisekreditkarten-info.html">Comparativo de cartões de viagem</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Sobre nós</a> | 
+        <a href="index.html">Página inicial</a> | 
+        <a href="impressum.html">Aviso legal</a> | 
+        <a href="datenschutz.html">Proteção de dados</a>
+    </nav>
+</footer>
+
+<script>
+// Lógica da calculadora ao vivo
+const preisInp = document.getElementById('fPreis');
+const checkboxes = document.querySelectorAll('#mangelCheckboxes input[type="checkbox"]');
+const liveAmountEl = document.getElementById('liveAmount');
+const livePercentEl = document.getElementById('livePercent');
+
+function updateCalc() {
+    let price = parseFloat(preisInp.value) || 0;
+    let totalPercent = 0;
+    
+    checkboxes.forEach(cb => {
+        if(cb.checked) totalPercent += parseInt(cb.value);
+    });
+    
+    if(totalPercent > 100) totalPercent = 100;
+    
+    let refund = (price * totalPercent) / 100;
+    
+    livePercentEl.textContent = totalPercent;
+    liveAmountEl.textContent = refund.toLocaleString('de-DE', {style: 'currency', currency: 'EUR'});
+}
+
+preisInp.addEventListener('input', updateCalc);
+checkboxes.forEach(cb => cb.addEventListener('change', updateCalc));
+
+// Geração de PDF
+document.getElementById('fewoForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+
+    const pageH = 297;
+    const marginBottom = 20;
+    const lineH = 6;
+
+    function checkNewPage(doc, y, neededHeight = lineH) {
+        if (y + neededHeight > pageH - marginBottom) {
+            doc.addPage();
+            return 30;
+        }
+        return y;
+    }
+
+    function writeLines(doc, lines, startY, lh = lineH) {
+        let y = startY;
+        for (const line of lines) {
+            y = checkNewPage(doc, y);
+            doc.text(line, 25, y);
+            y += lh;
+        }
+        return y;
+    }
+
+    const anbieter = document.getElementById('aName').value;
+    const anbieterAddr = document.getElementById('aAdresse').value.replace(/\\n/g, '\n');
+    
+    const sName = document.getElementById('sName').value;
+    const sStrasse = document.getElementById('sStrasse').value;
+    const sPLZOrt = document.getElementById('sPLZOrt').value;
+    const bIBAN = document.getElementById('bIBAN').value;
+    
+    const fBuchung = document.getElementById('fBuchung').value;
+    const fObjekt = document.getElementById('fObjekt').value;
+    const fZeitraum = document.getElementById('fZeitraum').value;
+    const fPreis = parseFloat(document.getElementById('fPreis').value) || 0;
+
+    let selectedMaengel = [];
+    let totalPercent = 0;
+    checkboxes.forEach(cb => {
+        if(cb.checked) {
+            selectedMaengel.push(`- ${cb.getAttribute('data-text')} (${cb.value}%)`);
+            totalPercent += parseInt(cb.value);
+        }
+    });
+
+    if(selectedMaengel.length === 0) {
+        alert("Selecione pelo menos um defeito.");
+        return;
+    }
+
+    if(totalPercent > 100) totalPercent = 100;
+    let refundAmount = ((fPreis * totalPercent) / 100).toFixed(2).replace('.', ',');
+
+    let deadline = new Date();
+    deadline.setDate(deadline.getDate() + 14);
+    const deadlineStr = deadline.toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'});
+    const todayStr = new Date().toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'});
+
+    doc.setFont("helvetica");
+
+    // Remetente em tamanho pequeno
+    doc.setFontSize(8);
+    doc.setTextColor(100, 100, 100);
+    doc.text(`${sName} • ${sStrasse} • ${sPLZOrt}`, 25, 45);
+    doc.setLineWidth(0.2);
+    doc.setDrawColor(150, 150, 150);
+    doc.line(25, 46.5, 95, 46.5);
+
+    // Destinatário
+    doc.setFontSize(11);
+    doc.setTextColor(0, 0, 0);
+    const receiverLines = doc.splitTextToSize(anbieter + "\n" + anbieterAddr, 80);
+    doc.text(receiverLines, 25, 53);
+
+    // Bloco do remetente à direita
+    doc.setFontSize(10);
+    doc.text("Remetente:", 130, 45);
+    doc.setFont("helvetica", "bold");
+    doc.text(sName, 130, 50);
+    doc.setFont("helvetica", "normal");
+    doc.text(sStrasse, 130, 55);
+    doc.text(sPLZOrt, 130, 60);
+
+    doc.text(`Data: ${todayStr}`, 185, 80, {align: 'right'});
+
+    // Assunto
+    doc.setFontSize(12);
+    doc.setFont("helvetica", "bold");
+    doc.text(`Notificação de defeitos e pedido de redução do aluguel`, 25, 95);
+    
+    // Fatos
+    doc.setFontSize(10.5);
+    doc.setFont("helvetica", "bold");
+    doc.text("Número da reserva:", 25, 105);
+    doc.text("Imóvel de férias:", 25, 110);
+    doc.text("Período de locação:", 25, 115);
+    doc.text("Preço total do aluguel:", 25, 120);
+
+    doc.setFont("helvetica", "normal");
+    doc.text(fBuchung, 70, 105);
+    doc.text(fObjekt, 70, 110);
+    doc.text(fZeitraum, 70, 115);
+    doc.text(`${fPreis.toFixed(2).replace('.', ',')} EUR`, 70, 120);
+
+    doc.setDrawColor(0, 0, 0);
+    doc.line(25, 125, 185, 125);
+
+    let yPos = 135;
+    doc.setFontSize(11);
+
+    // Parágrafos introdutórios
+    const para1 = doc.splitTextToSize(
+        `Prezados senhores,\n\n` +
+        `por meio desta, apresento reivindicação de redução do aluguel referente ao imóvel de férias acima mencionado. O alojamento apresentou defeitos significativos e não correspondeu ao acordo contratual ou à descrição. Informei esses defeitos imediatamente no local ao responsável/proprietário e solicitei a correção. No entanto, não houve reparação adequada dos defeitos.\n\n` +
+        `Os seguintes defeitos estavam presentes:`,
+        160
+    );
+    yPos = writeLines(doc, para1, yPos);
+    yPos += 5;
+
+    // Lista de defeitos
+    doc.setFont("helvetica", "italic");
+    selectedMaengel.forEach(mangel => {
+        const linesMangel = doc.splitTextToSize(mangel, 150);
+        linesMangel.forEach(line => {
+            yPos = checkNewPage(doc, yPos);
+            doc.text(line, 30, yPos);
+            yPos += lineH;
+        });
+    });
+    doc.setFont("helvetica", "normal");
+    yPos += 5;
+
+    // Cálculo da redução
+    const para2 = doc.splitTextToSize(
+        `Devido à limitação significativa no uso do imóvel de férias, o aluguel é reduzido por força da lei, com base nas regras de locação aplicáveis. Com base em jurisprudência consolidada, considero adequada uma taxa total de redução de ${totalPercent} %.\n\n` +
+        `Isso resulta em um direito de reembolso no valor de:`,
+        160
+    );
+    yPos = writeLines(doc, para2, yPos);
+    yPos += 5;
+
+    // Total
+    yPos = checkNewPage(doc, yPos, 10);
+    doc.setFont("helvetica", "bold");
+    doc.text(`${refundAmount} EUR`, 105, yPos, { align: 'center' });
+    doc.setFont("helvetica", "normal");
+    yPos += 12;
+
+    // Prazo
+    yPos = checkNewPage(doc, yPos);
+    doc.text(`Concedo a você o prazo até:`, 25, yPos);
+    yPos += 10;
+
+    yPos = checkNewPage(doc, yPos, 10);
+    doc.setFont("helvetica", "bold");
+    doc.text(`>>> ${deadlineStr} (data de recebimento do pagamento) <<<`, 105, yPos, { align: 'center' });
+    doc.setFont("helvetica", "normal");
+    yPos += 12;
+
+    // IBAN
+    const para3 = doc.splitTextToSize(
+        `para a seguinte conta:\n\nTitular da conta: ${sName}\nIBAN: ${bIBAN}`,
+        160
+    );
+    yPos = writeLines(doc, para3, yPos);
+    yPos += 10;
+
+    // Observação jurídica
+    const para4 = doc.splitTextToSize(
+        `Caso esse prazo expire sem resultado, recorrerei a assistência jurídica para fazer valer meus direitos. Os custos correspondentes serão de sua responsabilidade como dano por mora. Reservo-me o direito de apresentar os meios de prova correspondentes (fotos/vídeos) em eventual processo. Se necessário, encaminhe esta carta ao proprietário do imóvel.`,
+        160
+    );
+    yPos = writeLines(doc, para4, yPos);
+    yPos += 15;
+
+    // Assinatura
+    yPos = checkNewPage(doc, yPos, 40);
+    doc.text("Atenciosamente,", 25, yPos);
+    yPos += 25;
+
+    doc.setLineWidth(0.5);
+    doc.line(25, yPos, 80, yPos);
+    doc.line(100, yPos, 185, yPos);
+
+    doc.setFontSize(9);
+    doc.setTextColor(100, 100, 100);
+    doc.text("Local, data", 25, yPos + 5);
+    doc.text(`Assinatura (${sName})`, 100, yPos + 5);
+
+    const cleanAnbieter = anbieter.replace(/[^a-zA-Z0-9]/g, '_');
+    doc.save(`Ferienhaus_Maengel_${cleanAnbieter}_${fBuchung}.pdf`);
+    setTimeout(() => document.getElementById('donateOverlay').classList.add('active'), 800);
+});
+
+// A lógica do overlay de doação permanece inalterada...
+const PAYPAL_EMAIL = 'info@kassen-lotse.de';
+let donateAmount = 5;
+
+function selectPreset(amount, btn) {
+  donateAmount = amount;
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  document.getElementById('customAmount').value = '';
+  document.getElementById('customAmount').classList.remove('selected-custom');
+  updateDonateButton();
+}
+
+function handleCustomInput(input) {
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  const val = parseFloat(input.value);
+  if (val && val >= 1) {
+    donateAmount = val;
+    input.classList.add('selected-custom');
+  } else {
+    donateAmount = 0;
+    input.classList.remove('selected-custom');
+  }
+  updateDonateButton();
+}
+
+function updateDonateButton() {
+  const btn = document.getElementById('btnDonate');
+  if (donateAmount >= 1) {
+    btn.textContent = `Doe agora ${donateAmount % 1 === 0 ? donateAmount : donateAmount.toFixed(2)} €`;
+    btn.disabled = false;
+  } else {
+    btn.textContent = 'Digite um valor';
+    btn.disabled = true;
+  }
+}
+
+function openPayPal() {
+  if (donateAmount < 1) return;
+  const amountStr = donateAmount.toFixed(2);
+  const url = `https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=${encodeURIComponent(PAYPAL_EMAIL)}&amount=${amountStr}&currency_code=EUR&item_name=Fix my Trip+Unterst%C3%BCtzung&no_note=1&no_shipping=1`;
+  window.open(url, '_blank');
+  closeOverlay();
+}
+
+function closeOverlay() {
+  document.getElementById('donateOverlay').classList.remove('active');
+}
+// Fecha o overlay quando se clica no fundo escurecido
+document.getElementById('donateOverlay').addEventListener('click', function(e) {
+  if (e.target === this) {
+    closeOverlay();
+  }
+});
+</script>
+
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Fechar">&times;</button>
+    <div class="donate-emoji">🎉</div>
+    <h2>Sua carta está pronta!</h2>
+    <p class="sub">Você acabou de economizar <strong style="color:#2e7d32;">comissão</strong> –<br>sem terceiros, sem taxas, tudo fica com você.</p>
+    <div class="donate-hint">
+      Este serviço é e continuará sendo <strong>100 % gratuito</strong>. Se ele ajudou você, ficaremos muito felizes com uma pequena contribuição voluntária.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Seleção rápida:</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Digite um valor personalizado …" oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Doe agora 5 €</button>
+    <button class="btn-skip" onclick="closeOverlay()">Não, obrigado, vou fechar a janela</button>
+    <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
+  
+  <!-- NEU: Affiliate Hinweis über dem Text -->
+  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
+    Anúncio / link publicitário
+  </span>
+
+  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
+    <strong style="color: #333;">P.S.: Vai viajar de novo em breve?</strong> Proteja-se antes do próximo problema de viagem. Cartões de crédito de viagem de verdade têm anuidade de 0 € permanentemente, eliminam a taxa de uso no exterior e muitas vezes oferecem forte proteção ao comprador. <br>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Compare agora os melhores fornecedores e viaje protegido ✈️</a>
+  </p>
+</div>
+  </div>
+</div>
+</body>
+</html>

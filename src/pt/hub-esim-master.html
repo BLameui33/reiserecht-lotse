@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>eSIM & Roaming: Verifique o volume de dados no exterior e compare tarifas</title>
+  <meta name="description" content="Guia sobre eSIM no exterior: evite custos altos de roaming. Use nossas ferramentas para verificar a compatibilidade do eSIM e o volume de dados.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & Internationalisierung -->
+  <link rel="canonical" href="https://www.fix-my-trip.com/pt/esim-roaming-info.html">
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/esim-roaming-info.html">
+<link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/esim-roaming-info.html">
+<link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/esim-roaming-info.html">
+<link rel="alternate" hreflang="it" href="https://www.fix-my-trip.com/it/esim-roaming-info.html">
+<link rel="alternate" hreflang="nl" href="https://www.fix-my-trip.com/nl/esim-roaming-info.html">
+<link rel="alternate" hreflang="fr-be" href="https://www.fix-my-trip.com/fr-be/esim-roaming-info.html">
+<link rel="alternate" hreflang="nl-be" href="https://www.fix-my-trip.com/nl-be/esim-roaming-info.html">
+<link rel="alternate" hreflang="pt" href="https://www.fix-my-trip.com/pt/esim-roaming-info.html">
+
+<link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/esim-roaming-info.html">
+
+  <!-- Bibliothek für die PDF-Generierung aus HTML -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="/logo-lotse-fav.png">
+
+  <!-- FAQ Schema.org JSON-LD für Rich Snippets bei Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "O que é um eSIM e como ele difere de um SIM normal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Um eSIM (embedded SIM) é um chip integrado ao smartphone que pode ser configurado digitalmente com perfis de rede móvel. Você não precisa mais de um cartão físico e pode ativar tarifas, especialmente para o exterior, em segundos por QR code ou aplicativo."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Posso usar meu SIM normal e um eSIM ao mesmo tempo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim, a maioria dos smartphones modernos oferece suporte a Dual-SIM. Você pode manter seu cartão SIM físico ativo para chamadas e SMS no seu número habitual e usar o eSIM de forma específica apenas para dados móveis no país de destino."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Meu smartphone é compatível com eSIM?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A maioria dos smartphones mais recentes (por exemplo, iPhone a partir do XS, Samsung Galaxy S20 em diante, Google Pixel a partir da geração 3) é compatível com eSIM. Use nosso verificador gratuito de eSIM nesta página para conferir a compatibilidade do seu modelo exato."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Como evitar cobranças de roaming fora da UE?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Antes de entrar em um país fora da UE, desative o roaming de dados do seu SIM principal. Compre e instale antecipadamente um eSIM local ou regional. Assim que chegar, ative o roaming de dados exclusivamente para o perfil do eSIM."
+      }
+    }]
+  }
+  </script>
+
+  
+</head>
+<body>
+
+<header class="site-header" style="padding: 20px 0; border-bottom: 2px solid #eee; margin-bottom: 30px;">
+  <a href="index.html" style="font-size: 1.5em; font-weight: bold; text-decoration: none;">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>eSIM & Roaming: navegue pelo mundo sem cair em armadilhas de custo</h1>
+  
+  <p>Quem viaja para fora da União Europeia conhece o problema: o volume de dados incluído no plano do país de origem deixa de valer e as tarifas de roaming das operadoras de telefonia móvel sobem a níveis astronômicos. Muitas vezes, poucos megabytes já custam vários euros. A solução para esse problema é o <strong>eSIM (embedded SIM)</strong>.</p>
+  
+  <p>Com um eSIM, você baixa facilmente um perfil digital de rede móvel para o seu país de destino — sem a incômoda troca de cartão no aeroporto. Em nosso guia, você aprenderá como acompanhar seu volume de dados, verificar se seu smartphone é compatível e encontrar a melhor tarifa para sua próxima aventura.</p>
+
+  <!-- DAS IST DER MAGISCHE BEREICH FÜR DIE INTERNE VERLINKUNG -->
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Iniciar ferramentas e verificadores de eSIM</h2>
+    <p>Escolha o que deseja verificar para ficar online no exterior com segurança e economia (100% gratuito):</p>
+    
+    <select id="toolSelect">
+      <option value="">-- Selecione uma ferramenta ou provedor --</option>
+      <!-- Das Skript fügt hier die Optionen als Options ein -->
+      {{ESIM_OPTIONS}}
+      <!-- Fallback für allgemeine Anfragen -->
+      <option value="esim-kompatibilitaet-allgemein.html">Meu caso não está na lista (verificação geral de eSIM)</option>
+    </select>
+    
+    <button onclick="routeToTool()" class="btn-route">Verificar gratuitamente agora</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Provedores populares de eSIM e verificações de roaming</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{ESIM_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">A lista de verificação definitiva de eSIM e roaming</h2>
+  <p>Para não chegar ao destino de férias sem internet ou cair em uma armadilha de custos, siga estes passos antes do voo:</p>
+  
+  
+
+  <div class="checklist-box" id="checklistToPrint">
+  <!-- Optional: Eine versteckte oder sichtbare Überschrift, die nur im PDF gut aussieht -->
+  <h3 style="margin-top:0; color:#1565c0;">Lista de verificação</h3>
+
+    <ul>
+      <li><strong>Verificar compatibilidade:</strong> Meu smartphone tem um chip eSIM? (Use nosso verificador acima).</li>
+      <li><strong>Verificar bloqueio do aparelho:</strong> O celular está desbloqueado para outras redes (sem bloqueio de operadora)?</li>
+      <li><strong>Desativar o roaming de dados do país de origem:</strong> Antes do voo, desative o roaming de dados do SIM principal nas configurações!</li>
+      <li><strong>Comprar e instalar o eSIM no Wi-Fi:</strong> O ideal é configurar o eSIM ainda em casa ou no Wi-Fi do hotel por QR code.</li>
+      <li><strong>Atribuir a conexão de dados:</strong> Nas configurações do smartphone, defina o novo eSIM como a fonte principal para "Dados móveis".</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('checkliste-zoll.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+  Gerar e salvar a lista de verificação em PDF
+</button>
+
+  <h2 style="margin-top: 40px;">Exemplos práticos: quanto dinheiro o eSIM economiza</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Exemplo 1: viagem de negócios aos EUA</h3>
+    <p>O Sr. Müller viaja por 7 dias para Nova York. Seu provedor alemão cobra 29,99 € por um "pacote de navegação para viagem" com apenas 3 GB de dados. Se ultrapassar esse limite, ele paga 1,49 € por MB. <br>
+    <strong>A solução:</strong> ele usa antecipadamente nossa comparação de eSIM e compra um eSIM para os EUA com 10 GB de dados por apenas 15 €. Ele economiza dinheiro, tem mais de três vezes mais dados e fica online assim que pousa.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Exemplo 2: mochilão pela Ásia (Tailândia, Vietnã, Japão)</h3>
+    <p>Sarah planeja uma viagem de várias semanas por três países asiáticos. Antes, ela teria de comprar um cartão SIM físico local em cada aeroporto, trocar o chip e perder um tempo precioso. <br>
+    <strong>A solução:</strong> ela contrata um "eSIM da Ásia" regional, que cobre os três países. As redes mudam automaticamente ao cruzar a fronteira, e seu número alemão permanece ativo para SMS de emergência (por exemplo, códigos TAN de banco online).</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">Perguntas frequentes (FAQ) sobre eSIM no exterior</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">O que é um eSIM e como ele difere de um SIM normal?</div>
+    <div class="faq-answer">Um eSIM (embedded SIM) é um chip integrado ao smartphone que pode ser configurado digitalmente com perfis de rede móvel. Você não precisa mais de um cartão físico e pode ativar tarifas, especialmente para o exterior, em segundos por QR code ou aplicativo.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Posso usar meu SIM normal e um eSIM ao mesmo tempo?</div>
+    <div class="faq-answer">Sim, a maioria dos smartphones modernos oferece suporte a Dual-SIM. Você pode manter seu cartão SIM físico ativo para chamadas e SMS no seu número habitual (atenção às cobranças de roaming ao atender chamadas!) e usar o eSIM de forma específica apenas para o volume de dados móveis no país de destino.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Meu smartphone é compatível com eSIM?</div>
+    <div class="faq-answer">A maioria dos smartphones mais recentes, como o iPhone a partir da série XS, o Samsung Galaxy S20 em diante ou o Google Pixel a partir da geração 3, é compatível com eSIM. Para ter 100% de certeza, use nosso verificador gratuito de eSIM na parte superior desta página.</div>
+  </div>
+  
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">Como evitar cobranças de roaming fora da UE?</div>
+    <div class="faq-answer">O passo mais importante: antes de entrar em um país fora da UE, desative o roaming de dados do seu SIM principal. Compre e instale antecipadamente um eSIM local ou regional. Assim que chegar, ative o roaming de dados exclusivamente para o perfil de eSIM recém-criado nas suas configurações.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Especialização em direito de viagens e direitos dos passageiros</h3>
+    <p class="trust-text">
+        Nossos guias e geradores são baseados na análise rigorosa das regulamentações atuais da UE (como o Regulamento CE 261/2004), decisões judiciais do tribunal superior competente e do direito nacional de viagens. 
+        Eles são desenvolvidos por Marc (coordenação do projeto) e pela equipe para permitir que os viajantes façam valer seus direitos de forma juridicamente segura perante companhias aéreas e operadoras de turismo.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Aviso importante: nossas ferramentas oferecem ajuda prática para atrasos de voos, problemas em hotéis ou cancelamentos de trens. Elas não substituem aconselhamento jurídico individual de um advogado.
+        </span>
+    </p>
+
+    <!-- Umlaut in URL entfernt! -->
+    <a href="ueber-uns.html" class="trust-link">
+        Saiba mais sobre a metodologia jurídica e a redação →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Problema com o voo, o trem ou o hotel?</strong><br>
+        A Fix-My-Trip verifica em poucos passos seu direito a indenização, reembolso de passagem ou redução do preço da viagem. <br>
+        <em>Um serviço da Fix my Trip.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Encontrou um erro na ferramenta?</strong> Como somos um portal automatizado e não prestamos aconselhamento jurídico individual, sua ajuda é muito valiosa se você nos informar bugs ou provedores desatualizados: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Enviar feedback para nossa central</a>.
+</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Sobre nós</a> | 
+        <a href="index.html">Página inicial</a> | 
+        <a href="impressum.html">Aviso legal</a> | 
+        <a href="datenschutz.html">Política de privacidade</a>
+    </nav>
+</footer>
+
+<script>
+// Leitet den Nutzer auf die entsprechende Tool- oder Checker-Seite weiter
+function routeToTool() {
+    const selectElement = document.getElementById('toolSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Selecione primeiro uma opção da lista.");
+    }
+}
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // 15mm Rand rundherum
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, // Hohe Auflösung
+            scrollY: 0, // WICHTIG: Fixt das Problem mit der leeren Seite!
+            windowWidth: document.documentElement.offsetWidth // Stellt sicher, dass die Breite stimmt
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    // PDF generieren
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Requisiti di ingresso nel mondo: controlla visto, passaporto e regole</title>
+  <meta name="description" content="Requisiti di ingresso e regole sui visti aggiornati per tutti i paesi. Ti serve ESTA, eTA o un passaporto? Usa il nostro checker gratuito.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & Internationalisierung -->
+  <link rel="canonical" href="https://www.fix-my-trip.com/it/einreise-info.html">
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/einreise-info.html">
+<link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/einreise-info.html">
+<link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/einreise-info.html">
+<link rel="alternate" hreflang="it" href="https://www.fix-my-trip.com/it/einreise-info.html">
+<link rel="alternate" hreflang="nl" href="https://www.fix-my-trip.com/nl/einreise-info.html">
+<link rel="alternate" hreflang="fr-be" href="https://www.fix-my-trip.com/fr-be/einreise-info.html">
+<link rel="alternate" hreflang="nl-be" href="https://www.fix-my-trip.com/nl-be/einreise-info.html">
+<link rel="alternate" hreflang="pt" href="https://www.fix-my-trip.com/pt/einreise-info.html">
+
+<link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/einreise-info.html">
+  <!-- Bibliothek für die PDF-Generierung aus HTML -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="/logo-lotse-fav.png">
+
+  <!-- FAQ Schema.org JSON-LD für Rich Snippets bei Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Per quanto tempo deve essere valido il mio passaporto?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Per la maggior parte dei paesi non UE, il passaporto deve essere ancora valido per almeno sei mesi al momento dell'ingresso. Molti paesi richiedono inoltre che il passaporto abbia almeno due pagine libere per timbri e visti."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Qual è la differenza tra un visto e un'eTA / ESTA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un visto classico deve spesso essere richiesto in anticipo presso un'ambasciata o online (come e-visto) con tempi di elaborazione. ESTA (USA) o eTA (Canada), invece, sono autorizzazioni elettroniche di ingresso per cittadini di paesi che in realtà sono esenti dall'obbligo di visto (come la Germania). Devono comunque essere ottenute online prima della partenza."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Mi serve un visto se faccio solo uno scalo in aeroporto (transito)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dipende molto dal paese di transito. Negli USA, anche per un semplice transito senza lasciare l'area di sicurezza, è obbligatorio avere un ESTA o un visto di transito. In molti paesi asiatici o arabi, invece, è possibile sostare nell'area di transito internazionale senza visto."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Cosa succede se arrivo in aeroporto senza un visto valido o i documenti necessari?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le compagnie aeree controllano di solito i documenti già al check-in o all'imbarco. Se mancano documenti, il trasporto viene rifiutato, perché altrimenti la compagnia dovrebbe pagare multe elevate. Resterai a tuo carico con i costi del volo perso, poiché la responsabilità è tua."
+      }
+    }]
+  }
+  </script>
+
+</head>
+<body>
+
+<header class="site-header" style="padding: 20px 0; border-bottom: 2px solid #eee; margin-bottom: 30px;">
+  <a href="index.html" style="font-size: 1.5em; font-weight: bold; text-decoration: none;">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Requisiti di ingresso nel mondo: visto, passaporto e regole</h1>
+  
+  <div class="seo-text">
+    <p>L'entusiasmo per le vacanze è grande, ma la pianificazione di un viaggio all'estero inizia sempre con i documenti di viaggio corretti. Che si tratti di una vacanza al mare in Asia, di un city break a Londra o di un viaggio di lavoro negli USA: è essenziale informarsi per tempo su quali <strong>requisiti di ingresso</strong> valgano per la tua destinazione.</p>
+    <p>Ti serve un classico visto turistico da richiedere in anticipo? Basta un'autorizzazione elettronica di ingresso (come ESTA per gli USA o eTA per il Canada)? Oppure in Europa è sufficiente persino la tua semplice carta d'identità? La nostra guida e il checker interattivo ti forniscono le risposte esatte per la tua prossima destinazione.</p>
+  </div>
+
+  <!-- INTERAKTIVER BEREICH & INTERNE VERLINKUNG FÜR CRAWLER -->
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Avvia il checker del visto</h2>
+    <p>Seleziona la tua destinazione per verificare le condizioni esatte di ingresso e i requisiti per il visto (100% gratuito):</p>
+    
+    <select id="countrySelect">
+      <option value="">-- Seleziona il paese di destinazione --</option>
+      <!-- Das Skript fügt hier die Länder als Optionen ein -->
+      {{VISA_OPTIONS}}
+      <option value="einreisebestimmungen-allgemein.html">La mia destinazione non è presente (informazioni generali)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Verifica le condizioni di ingresso</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Paesi di viaggio popolari dalla A alla Z</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{VISA_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Quali documenti di viaggio sono obbligatori?</h2>
+  <div class="seo-text">
+    <p>A seconda della tua cittadinanza e del paese di destinazione, i requisiti variano notevolmente. In linea generale esistono tre scenari:</p>
+    <ul>
+      <li><strong>Carta d'identità:</strong> All'interno dell'area Schengen e in molti paesi europei è del tutto sufficiente.</li>
+      <li><strong>Passaporto (senza visto):</strong> Per molte destinazioni a lungo raggio (ad es. Thailandia, Giappone) i turisti tedeschi possono entrare senza visto per un certo periodo, ma necessitano di un passaporto che al momento dell'ingresso sia spesso ancora valido per almeno 6 mesi.</li>
+      <li><strong>Passaporto con visto / e-visto:</strong> Per paesi come Cina, India o USA devi richiedere obbligatoriamente un visto o un'autorizzazione elettronica di viaggio prima della partenza. Chi lo dimentica non può salire sull'aereo.</li>
+    </ul>
+  </div>
+
+  <h2 style="margin-top: 40px;">Checklist: controlla i documenti prima della partenza</h2>
+  <p>Con questa lista ti assicuri di non avere brutte sorprese in aeroporto. Stampala semplicemente in PDF!</p>
+  
+  <!-- Die ID "checklistToPrint" liegt exakt um den Kasten, der gedruckt werden soll -->
+  <div class="checklist-box" id="checklistToPrint">
+    <h3 style="margin-top:0; color:#1565c0;">Checklist di ingresso per i viaggi a lungo raggio</h3>
+    <ul>
+      <li><strong>Validità del passaporto:</strong> Il tuo passaporto è ancora valido per almeno 6 mesi il giorno dell'ingresso e ha ancora pagine libere? (Attenzione ai passaporti provvisori: non sono accettati ovunque!).</li>
+      <li><strong>Visto / ESTA / eTA:</strong> Hai ottenuto l'autorizzazione elettronica di ingresso e la porti con te stampata?</li>
+      <li><strong>Biglietto di ritorno o di proseguimento:</strong> Quasi tutti i paesi al di fuori dell'UE richiedono all'ingresso la prova che lascerai di nuovo il paese.</li>
+      <li><strong>Prenotazione hotel & finanze:</strong> Spesso alla frontiera devi dimostrare la prima notte di soggiorno o fondi finanziari sufficienti.</li>
+      <li><strong>Norme vaccinali (febbre gialla ecc.):</strong> Hai con te il tuo libretto internazionale delle vaccinazioni (libretto giallo), se il paese richiede determinate vaccinazioni per l'ingresso?</li>
+    </ul>
+  </div>
+  
+  <!-- Button generiert das PDF on-the-fly, ignoriert sich selbst im PDF (data-html2canvas-ignore) -->
+  <button onclick="generateChecklistPDF('checkliste-einreise.pdf')" class="btn-download" data-html2canvas-ignore="true">
+    Genera e salva la checklist in PDF
+  </button>
+
+  <h2 style="margin-top: 40px;">Casi pratici: quando l'ingresso viene negato</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Esempio 1: Il passaporto scaduto per Bali</h3>
+    <p>Markus è entusiasta per la sua vacanza in Indonesia. Al banco del check-in a Francoforte, l'addetta nota che il suo passaporto è valido solo per altri 3 mesi. L'Indonesia richiede rigorosamente 6 mesi.<br>
+    <strong>Risultato:</strong> Markus non può salire a bordo. Poiché la responsabilità è sua, non si applicano né il regolamento sui diritti dei passeggeri aerei né una normale assicurazione annullamento viaggio. I soldi del volo sono persi.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Esempio 2: Sottovalutato il transito negli USA</h3>
+    <p>La famiglia Weber vola da Monaco via Miami (USA) verso il Costa Rica. Poiché a Miami non lasciano l'aeroporto, non hanno richiesto un ESTA per gli USA.<br>
+    <strong>Risultato:</strong> Negli USA non esiste una classica "area di transito internazionale". Ogni passeggero entra ufficialmente nel paese e ne esce subito dopo. Senza ESTA, la compagnia aerea a Monaco rifiuta l'imbarco. Il volo in coincidenza per il Costa Rica viene perso.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">FAQ: domande frequenti su visti e ingresso</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">Per quanto tempo deve essere valido il mio passaporto?</div>
+    <div class="faq-answer">Per la maggior parte dei paesi non UE, il passaporto deve essere ancora valido per almeno sei mesi al momento dell'ingresso. Molti paesi richiedono inoltre che il passaporto abbia almeno due pagine libere per timbri e visti. All'interno dell'UE, di solito è sufficiente una carta d'identità valida.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Qual è la differenza tra un visto e un'eTA / ESTA?</div>
+    <div class="faq-answer">Un visto classico deve spesso essere richiesto in anticipo presso un'ambasciata o online (come e-visto) con i relativi tempi di elaborazione. ESTA (USA) o eTA (Canada), invece, sono autorizzazioni elettroniche di ingresso per cittadini di paesi che in realtà sono esenti dall'obbligo di visto (come la Germania). Devono comunque essere ottenute online prima della partenza.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Mi serve un visto se faccio solo uno scalo in aeroporto (transito)?</div>
+    <div class="faq-answer">Dipende molto dal paese di transito specifico. Negli USA, anche per un semplice transito senza lasciare l'area di sicurezza, è obbligatorio avere un ESTA o un visto di transito. In molti paesi asiatici o arabi, invece, è possibile sostare nell'area di transito internazionale senza visto.</div>
+  </div>
+  
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">Cosa succede se arrivo in aeroporto senza un visto valido o i documenti necessari?</div>
+    <div class="faq-answer">Le compagnie aeree controllano i tuoi documenti di solito già al check-in o al massimo all'imbarco. Se mancano documenti, il trasporto ti viene rifiutato in modo rigoroso, perché altrimenti la compagnia dovrebbe pagare multe elevate nel paese di destinazione e farsi carico del tuo rimpatrio. Resterai completamente a tuo carico con i costi del volo perso.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Competenza nel diritto dei viaggi e nei diritti dei passeggeri</h3>
+    <p class="trust-text">
+        Le nostre guide e i nostri generatori si basano sull'analisi rigorosa delle attuali normative UE (come il regolamento CE 261/2004), delle sentenze della Corte federale di giustizia e del diritto nazionale dei viaggi. 
+        Sono sviluppati da Marc (project lead) e dal team per consentire ai viaggiatori di far valere i propri diritti in modo giuridicamente sicuro nei confronti di compagnie aeree e tour operator.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Nota importante: i nostri strumenti offrono aiuto pratico in caso di ritardi dei voli, problemi in hotel o cancellazioni dei treni. Non sostituiscono una consulenza legale individuale da parte di un avvocato.
+        </span>
+    </p>
+
+    <!-- Umlaut in URL entfernt! -->
+    <a href="ueber-uns.html" class="trust-link">
+        Scopri i dettagli sulla metodologia legale e sulla redazione →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Problemi con il volo, il treno o l'hotel?</strong><br>
+        Fix-My-Trip verifica in pochi passaggi il tuo diritto a un risarcimento, al rimborso del biglietto o alla riduzione del prezzo del viaggio. <br>
+        <em>Un servizio di Fix my Trip.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Hai trovato un errore nello strumento?</strong> Poiché siamo un portale automatizzato e non forniamo consulenza legale individuale, ci aiuti moltissimo se segnali bug o fornitori non aggiornati: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Invia feedback alla nostra sede centrale</a>.
+</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Chi siamo</a> | 
+        <a href="index.html">Home</a> | 
+        <a href="impressum.html">Note legali</a> | 
+        <a href="datenschutz.html">Privacy</a>
+    </nav>
+</footer>
+
+<script>
+// Leitet den Nutzer über das Dropdown weiter (UX)
+function routeToGenerator() {
+    const selectElement = document.getElementById('countrySelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Seleziona prima un paese di destinazione dall'elenco.");
+    }
+}
+
+// Generiert das PDF aus der HTML-Checkliste (Sicher gegen leere Seiten Bug!)
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // 15mm Rand
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, // Hohe Auflösung für scharfe Texte
+            scrollY: 0, // Zwingt den Canvas, oben zu starten (fixt leere Seiten bei Scroll!)
+            windowWidth: document.documentElement.offsetWidth
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    // Erzeugt das PDF und startet den Download
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

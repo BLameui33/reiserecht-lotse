@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Fix my Trip | Faites valoir vos droits de voyage & réclamez des indemnités</title>
+  
+  <meta name="description" content="Vacances gâchées ? Grâce à nos outils et générateurs de PDF gratuits, faites valoir vous-même vos droits en cas de retard de vol, de défauts d'hôtel et de frais d'annulation. Sans avocat.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <!-- SEO & Internationalisation -->
+  <link rel="canonical" href="https://www.fix-my-trip.com/fr-be/index.html">
+
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/index.html">
+  <link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/index.html">
+  <link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/index.html">
+  <link rel="alternate" hreflang="it" href="https://www.fix-my-trip.com/it/index.html">
+  <link rel="alternate" hreflang="nl" href="https://www.fix-my-trip.com/nl/index.html">
+  <link rel="alternate" hreflang="fr-be" href="https://www.fix-my-trip.com/fr-be/index.html">
+  <link rel="alternate" hreflang="nl-be" href="https://www.fix-my-trip.com/nl-be/index.html">
+  <link rel="alternate" hreflang="pt" href="https://www.fix-my-trip.com/pt/index.html">
+
+  <link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/index.html">
+  
+  <meta name="robots" content="index, follow">
+
+  <!-- Schema.org pour la page d'accueil -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Fix my Trip",
+    "url": "https://www.fix-my-trip.com/fr-be/",
+    "logo": "https://www.fix-my-trip.com/logo-lotse.png",
+    "description": "Générateurs et outils gratuits pour faire valer les droits des passagers aériens et le droit du voyage.",
+    "inLanguage": "fr-FR"
+  }
+  </script>
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="index.html" class="site-logo">Fix my Trip</a>
+    <span style="font-size: 0.9em; color: #666;">Voyager intelligemment sans pièges à frais</span>
+  </header>
+
+  <!-- Section Hero -->
+  <div class="hero">
+    <h1>Réglez simplement vos droits de voyage & vos démarches administratives.<br>Gratuit. Rapide. Sans avocat.</h1>
+    <p>Vol retardé, hôtel sale ou frais d'annulation élastiques et injustifiés ? Les géants du voyage jouent souvent la montre. Inversez la tendance : créez des réclamations et des listes de contrôle juridiquement sûres en seulement 3 minutes grâce à nos outils interactifs.</p>
+    
+    <div class="trust-badges">
+      <span class="badge">✅ Générateurs 100% gratuits</span>
+      <span class="badge">🚫 0% de commission prélevée</span>
+      <span class="badge">🔒 Sans inscription</span>
+    </div>
+  </div>
+
+  <!-- Déclaration de mission -->
+  <div class="mission-section">
+    <h2>Vos droits. Notre outil. Votre argent.</h2>
+    <p>Souvent, les compagnies aériennes et les voyagistes se cachent derrière des conditions générales complexes et des lettres types pour décourager les consommateurs. <strong>Fix my Trip</strong> vous fournit le bouclier numérique : utilisez nos outils intelligents pour une préparation optimale au voyage ou générez des documents PDF sur mesure pour exiger des indemnisations d'égal à égal. Récupérez ce qui vous revient de droit – entièrement gratuitement.</p>
+  </div>
+
+  <div class="international-box">
+  <span class="international-title">Fix my Trip International:</span>
+  <select class="international-select" onchange="if(this.value) window.location.href=this.value;">
+    <option value="../de/index.html">Deutsch (DE)</option>
+    <option value="../es/index.html">Español (ES)</option>
+    <option value="../fr/index.html">Français (FR)</option>
+    <option value="../it/index.html">Italiano (IT)</option>
+    <option value="../nl/index.html">Nederlands (NL)</option>
+    <option value="../pt/index.html">Português (PT)</option>
+    <option value="../nl-be/index.html">Belgium (NL-BE)</option>
+    <option value="../fr-be/index.html">Belgium (FR-BE)</option>
+  </select>
+</div>
+
+<script>
+  // Erkennt automatisch die richtige Sprache im Pfad und setzt das Dropdown passend
+  document.querySelectorAll('.international-select option').forEach(function(option) {
+    var langCode = '/' + option.value.split('/')[1] + '/';
+    if (window.location.pathname.indexOf(langCode) !== -1) {
+      option.selected = true;
+    }
+  });
+</script>
+
+  <div class="container">
+    
+    <!-- SILO 1: Vol & Bagages -->
+    <h2 class="section-title">Vol & Bagages</h2>
+    <div class="grid">
+      <a href="flugverspaetung-info.html" class="card silo-flug">
+        <h3>Retard de vol & Annulation</h3>
+        <p>Vérifiez vos droits selon le règlement européen 261/2004 et réclamez jusqu'à 600 € d'indemnisation forfaitaire à votre compagnie aérienne.</p>
+        <div class="card-link">Créer une réclamation ➔</div>
+      </a>
+      
+      <a href="gepaeck-info.html" class="card silo-flug">
+        <h3>Bagages perdus ou endommagés</h3>
+        <p>Facturez vos achats de première nécessité et réclamez des dommages-intérêts pour bagages perdus ou endommagés (selon la convention de Montréal).</p>
+        <div class="card-link">Sécuriser mes droits ➔</div>
+      </a>
+      
+      <a href="steuern-info.html" class="card silo-flug">
+        <h3>Remboursement des taxes & frais</h3>
+        <p>Vol annulé ou manqué ? Même pour les tarifs low-cost, la compagnie aérienne doit vous rembourser les taxes et frais non engagés.</p>
+        <div class="card-link">Récupérer mon argent ➔</div>
+      </a>
+    </div>
+
+    <!-- SILO 2: Hôtel & Annulation -->
+    <h2 class="section-title">Hôtel, voyage à forfait & annulation</h2>
+    <div class="grid">
+      <a href="hotel-maengel-info.html" class="card silo-hotel">
+        <h3>Défauts d'hôtel & de voyage</h3>
+        <p>Moisissures, bruits de chantier ou mauvaise nourriture ? Calculez votre réduction de prix selon le Tableau de Francfort et demandez le remboursement.</p>
+        <div class="card-link">Réclamer une réduction ➔</div>
+      </a>
+      
+      <a href="storno-info.html" class="card silo-hotel">
+        <h3>Annulation de voyage & frais</h3>
+        <p>Évitez les arnaques : vérifiez si les frais d'annulation exigés sont légaux ou générez une contestation juridique.</p>
+        <div class="card-link">Contester les frais ➔</div>
+      </a>
+    </div>
+
+    <!-- SILO 3: Préparation au voyage -->
+    <h2 class="section-title">Préparation au voyage & démarches administratives</h2>
+    <div class="grid">
+      <a href="einreise-info.html" class="card silo-pre">
+        <h3>Vérificateur d'entrée & de visa</h3>
+        <p>Évitez les problèmes à l'enregistrement : vérifiez immédiatement de quels documents, passeports ou visas électroniques (ESTA, eTA) vous avez besoin.</p>
+        <div class="card-link">Vérifier maintenant ➔</div>
+      </a>
+      
+      <a href="esim-roaming-info.html" class="card silo-pre">
+        <h3>Guide eSIM & Roaming</h3>
+        <p>Fini les factures de téléphone exorbitantes à l'étranger. Vérifiez la compatibilité eSIM de votre smartphone et trouvez des forfaits de données économiques.</p>
+        <div class="card-link">Comparer les forfaits ➔</div>
+      </a>
+
+      <a href="mietwagen-info.html" class="card silo-pre">
+        <h3>Éviter les pièges de la location de voiture</h3>
+        <p>Ne vous laissez pas imposer d'assurances inutiles au comptoir et contestez de manière fiable les demandes d'indemnisation injustifiées.</p>
+        <div class="card-link">Créer une lettre de protection ➔</div>
+      </a>
+    </div>
+
+    <!-- SILO 4: Douane -->
+    <h2 class="section-title">À l'aéroport / Retour</h2>
+    <div class="grid" style="max-width: 400px;">
+      <a href="zoll-info.html" class="card silo-zoll">
+        <h3>Frais de douane & contestation</h3>
+        <p>La valeur de vos achats a-t-elle été mal estimée ? Vérifiez les franchises douanières et créez une contestation formelle pour la douane.</p>
+        <div class="card-link">Générer une contestation ➔</div>
+      </a>
+    </div>
+
+    <!-- SILO 5: Deutsche Bahn -->
+    <h2 class="section-title">Deutsche Bahn</h2>
+    <div class="grid" style="max-width: 400px;">
+      <a href="zugverspaetung-info.html" class="card silo-zoll">
+        <h3>Retards Deutsche Bahn</h3>
+        <p>Train en retard ou correspondance manquée ? Créez gratuitement la lettre de réclamation officielle pour les chemins de fer allemands.</p>
+        <div class="card-link">Générer une réclamation ➔</div>
+      </a>
+    </div>
+
+    <h2 class="section-title">Maisons & appartements de vacances</h2>
+    <div class="grid" style="max-width: 400px;">
+      <a href="ferienhaus-maengel-info.html" class="card silo-hotel">
+        <h3>Défauts de location de vacances</h3>
+        <p>Moisissures, piscine en panne ou absence de Wi-Fi ? Réclamez une réduction de loyer conformément à la loi auprès de Novasol, Belvilla & Co.</p>
+        <div class="card-link">Calculer la réduction ➔</div>
+      </a>
+    </div>
+
+    <h2 class="section-title">Airbnb & AirCover</h2>
+    <div class="grid" style="max-width: 400px;">
+      <a href="airbnb-probleme-info.html" class="card" style="border-top: 4px solid #ff385c;">
+        <h3>Remboursement Airbnb</h3>
+        <p>L'hôte a annulé ou le logement ne correspond pas aux photos ? Utilisez AirCover pour votre remboursement (délai de 72h !).</p>
+        <div class="card-link" style="color: #ff385c;">Réclamer un remboursement ➔</div>
+      </a>
+    </div>
+
+    <h2 class="section-title">Croisières & compagnies maritimes</h2>
+    <div class="grid" style="max-width: 400px;">
+      <a href="kreuzfahrt-minderung.html" class="card silo-flug">
+        <h3>Défauts de croisière</h3>
+        <p>Cabine défectueuse ou itinéraire modifié ? Réduction du prix du voyage selon le Tableau de Wurtzbourg pour AIDA, MSC & Co.</p>
+        <div class="card-link">Vérifier mes droits ➔</div>
+      </a>
+    </div>
+
+    <h2 class="section-title">Portails de réservation (OTA)</h2>
+    <div class="grid" style="max-width: 400px;">
+      <a href="ota-rueckerstattung-info.html" class="card silo-zoll">
+        <h3>Remboursement plateforme</h3>
+        <p>Vol réservé via Opodo, Expedia ou Fluege.de et des difficultés pour obtenir le remboursement ? Créez votre lettre de mise en demeure.</p>
+        <div class="card-link">Demander le remboursement ➔</div>
+      </a>
+    </div>
+
+    <h2 class="section-title">Parkings d'aéroport</h2>
+    <div class="grid" style="max-width: 400px;">
+      <a href="flughafen-parken-info.html" class="card" style="border-top: 4px solid #1565c0;">
+        <h3>Piège des frais de stationnement</h3>
+        <p>Jusqu'à 300 € pour 14 jours de stationnement ? Comparez les tarifs exorbitants au terminal et trouvez des alternatives économiques (navette & voiturier).</p>
+        <div class="card-link" style="color: #1565c0;">Vérifier les tarifs & économiser ➔</div>
+      </a>
+    </div>
+
+    <h2 class="section-title">Budget de voyage & frais bancaires</h2>
+    <div class="grid" style="max-width: 400px;">
+      <a href="reisekreditkarten-info.html" class="card" style="border-top: 4px solid #2e7d32;">
+        <h3>Calculateur de devises</h3>
+        <p>Évitez les frais de change exorbitants de votre banque habituelle. Calculez vos coûts cachés et trouvez des cartes bancaires de voyage gratuites à vie.</p>
+        <div class="card-link" style="color: #2e7d32;">Bloquer les frais abusifs ➔</div>
+      </a>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Fix my Trip | Toutes les informations sont données sous réserve de modifications. Aucun conseil juridique.</p>
+    <div style="margin-top: 15px;">
+      <a href="impressum.html">Mentions légales</a>
+      <a href="datenschutz.html">Protection des données</a>
+      <a href="ueber-uns.html">À propos de nous</a>
+    </div>
+  </footer>
+
+</body>
+</html>

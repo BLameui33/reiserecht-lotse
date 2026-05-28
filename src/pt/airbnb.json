@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Cancelamento pelo anfitrião",
+    "slug": "gastgeber-storniert-kurzfristig",
+    "beschreibung": "O anfitrião cancelou sua reserva em cima da hora e você ficou sem acomodação? Nós ajudamos você a exigir o reembolso integral e, se aplicável, indenização pelos custos adicionais de um hotel substituto."
+  },
+  {
+    "name": "Mofo, sujeira e pragas",
+    "slug": "dreck-schimmel-ungeziefer",
+    "beschreibung": "Mofo no banheiro, baratas na cozinha ou simplesmente roupa de cama suja? Esses problemas de higiene você não precisa aceitar. Documente tudo para o seu reembolso pelo AirCover."
+  },
+  {
+    "name": "Informações falsas e fotos falsas",
+    "slug": "falsche-angaben-fake-fotos",
+    "beschreibung": "A villa de luxo acaba se revelando um apartamento no subsolo ou as fotos do anúncio estavam totalmente desatualizadas? Se o imóvel não corresponder à descrição, você tem direito a uma redução significativa do preço."
+  },
+  {
+    "name": "Itens ausentes (Wi‑Fi, piscina, ar-condicionado)",
+    "slug": "ausstattung-fehlt-defekt",
+    "beschreibung": "Sem Wi‑Fi apesar do planejamento para home office ou a piscina anunciada está verde e inutilizável? A ausência de itens de comodidade prometidos dá a você direito à redução do valor do aluguel."
+  },
+  {
+    "name": "Depósito de segurança retido indevidamente",
+    "slug": "kaution-unrechtmaessig-einbehalten",
+    "beschreibung": "O anfitrião alega danos após sua saída que você não causou e retém o depósito de segurança? Defenda-se contra cobranças indevidas e exija seu dinheiro de volta."
+  },
+  {
+    "name": "Proteção ao comprador do AirCover negada",
+    "slug": "aircover-abgelehnt-geld-zurueck",
+    "beschreibung": "A Airbnb encerrou seu caso ou negou o reembolso, embora o problema fosse evidente? Aumente a pressão com uma carta jurídica oficial para o departamento jurídico."
+  },
+  {
+    "name": "Problema geral com a Airbnb",
+    "slug": "allgemein",
+    "beschreibung": "Seu problema específico não está listado acima? Sem problema. Use este formulário geral para reclamar de qualquer defeito na Airbnb de forma juridicamente segura."
+  }
+]
