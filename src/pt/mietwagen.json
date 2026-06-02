@@ -124,5 +124,29 @@
     "name": "Autovermietungen",
     "schalter_taktik": "Não importa o fornecedor: mantenha-se firme! As locadoras frequentemente treinam seus funcionários para vender seguros adicionais caros com cenários de terror (por exemplo, altas taxas de roubo). Se você contratou previamente um seguro completo por meio de um intermediário, isso basta. Não assine nada que você não entenda.",
     "kaution_hinweis": "A regra mais importante: você quase sempre precisa de um cartão de crédito físico e completo (credit, não debit!) em nome do motorista principal. O limite precisa ser alto o suficiente (muitas vezes até 1.500 €). Sem o cartão adequado, no balcão pode haver a imposição da compra de um seguro caro."
+  },
+  {
+    "slug": "guerin",
+    "name": "Guerin Car Rental Solutions",
+    "schalter_taktik": "A Guerin é a maior empresa de aluguer de carros 100% portuguesa. Ao balcão, a equipa é geralmente profissional, mas a tática comercial mais comum é a insistência na venda do dispositivo eletrónico de portagem (Via Verde), que cobram por dia mais o valor das portagens. Além disso, tentam sempre vender a cobertura 'Super CDW' para eliminar a franquia, argumentando que as estradas portuguesas e os estacionamentos apertados nas cidades facilitam os riscos de riscos e mossas.",
+    "kaution_hinweis": "Se optar por recusar o seguro extra deles, a Guerin exige o bloqueio de uma franquia alta (geralmente entre 900 € e 1.500 €) que deve ser feita obrigatoriamente num cartão de crédito físico válido em nome do condutor principal. Cartões de débito só são aceites se contratar os pacotes de seguro total."
+  },
+  {
+    "slug": "turiscar",
+    "name": "Turiscar",
+    "schalter_taktik": "A Turiscar é uma marca portuguesa muito forte, amplamente utilizada por residentes e empresas locais. O atendimento costuma ser mais direto e menos agressivo do que nas companhias low-cost puras de aeroporto. No entanto, os funcionários seguem o protocolo padrão de oferecer a redução de franquia (SCDW). O verdadeiro ponto de atenção aqui é a verificação do estado do veículo na entrega e na devolução: eles documentam tudo ao pormenor, pelo que deve fazer o mesmo.",
+    "kaution_hinweis": "A caução varia conforme o grupo do veículo, situando-se normalmente entre os 600 € e os 1.200 €. É estritamente necessário apresentar um cartão de crédito para a retenção do depósito. O pagamento do aluguer em si pode ser feito com cartão de débito, mas o bloqueio da garantia exige crédito."
+  },
+  {
+    "slug": "drive-on-holidays",
+    "name": "Drive on Holidays",
+    "schalter_taktik": "Focada no mercado de lazer e turismo nos principais aeroportos, esta operadora portuguesa atrai os clientes com tarifas base muito baixas na internet. Ao balcão, a pressão aumenta visivelmente: os agentes tentam com insistência vender o pacote 'Top Pack' (seguro total), usando o argumento de que qualquer dano mínimo na pintura ou jantes resultará na perda total do depósito caucional.",
+    "kaution_hinweis": "Sem o seguro da própria companhia, o valor bloqueado no cartão de crédito é bastante elevado (frequentemente acima dos 1.200 € a 2.000 € para categorias médias). O cartão de crédito tem de ter plafond suficiente e os números gravados em relevo, caso contrário, será obrigado a pagar o seguro deles para levar o carro."
+  },
+  {
+    "slug": "cael",
+    "name": "CAEL Rent a Car",
+    "schalter_taktik": "Uma das empresas de aluguer de carros mais antigas de Portugal (desde 1965). Com uma frota moderna e forte aposta em elétricos, o ambiente é corporativo. A estratégia no balcão passa por propor pacotes de proteção de pneus e vidros, além de taxas adicionais para condutores jovens ou fora de horas. O controlo de limpeza é rigoroso, por isso certifique-se de que devolve o carro limpo para evitar taxas extras.",
+    "kaution_hinweis": "Exigem um depósito de garantia padrão bloqueado num cartão de crédito válido em nome do condutor principal. Para os veículos elétricos, o nível de carga da bateria é monitorizado na entrega, e a caução serve também para cobrir eventuais custos de carregamento não liquidados."
   }
 ]

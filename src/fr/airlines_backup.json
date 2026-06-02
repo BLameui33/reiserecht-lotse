@@ -1,0 +1,614 @@
+[
+  {
+    "slug": "lufthansa",
+    "name": "Deutsche Lufthansa AG",
+    "adresse": "Lufthansa Aviation Center\nAirportring\n60546 Frankfurt am Main\nAllemagne",
+    "infobox": "Lufthansa, en tant que compagnie aérienne de l’UE, est pleinement soumise au règlement (CE) n° 261/2004 relatif aux droits des passagers aériens. En cas de grèves de son propre personnel (p. ex. pilotes ou équipage de cabine), les passagers ont en règle générale droit à une indemnisation, car cela n’est généralement pas considéré comme une circonstance extraordinaire."
+  },
+  {
+    "slug": "ryanair",
+    "name": "Ryanair DAC",
+    "adresse": "Airside Business Park\nSwords, Co. Dublin\nIrlande",
+    "infobox": "Ryanair exige souvent des frais supplémentaires élevés pour l’enregistrement à l’aéroport. Du point de vue du droit des voyages, il est également important de noter qu’en cas d’annulation de vol, la compagnie tente souvent de dédommager les clients avec des bons, alors qu’en droit, un remboursement du prix du billet en espèces est dû."
+  },
+  {
+    "slug": "eurowings",
+    "name": "Eurowings GmbH",
+    "adresse": "Waldstraße 249\n51147 Cologne\nAllemagne",
+    "infobox": "Chez Eurowings, il est important de vérifier la compagnie aérienne exécutante exacte (Operating Carrier), car les vols sont souvent opérés par des compagnies partenaires ou des filiales (p. ex. Eurowings Europe). La demande d’indemnisation doit toujours être adressée à la compagnie aérienne exécutante."
+  },
+  {
+    "slug": "condor",
+    "name": "Condor Flugdienst GmbH",
+    "adresse": "An der Gehespitz 50\n63263 Neu-Isenburg\nAllemagne",
+    "infobox": "Condor est souvent réservée dans le cadre de voyages à forfait. En cas de retard de vol de plus de trois heures, les voyageurs peuvent non seulement réclamer des indemnisations à la compagnie aérienne en vertu du droit de l’UE, mais aussi souvent réduire en plus le prix du voyage auprès du voyagiste (mot-clé : tableau de Francfort)."
+  },
+  {
+    "slug": "tuifly",
+    "name": "TUIfly GmbH",
+    "adresse": "Flughafenstraße 10\n30855 Langenhagen\nAllemagne",
+    "infobox": "TUIfly modifie parfois les horaires de vol dans le cadre de voyages à forfait. Si la modification des horaires est importante et intervient à court terme (moins de 14 jours avant le départ), elle peut être considérée, en droit du voyage, comme une annulation et ouvrir droit à une indemnisation."
+  },
+  {
+    "slug": "aer-lingus",
+    "name": "Aer Lingus",
+    "adresse": "Head Office Building\nDublin Airport\nDublin\nIrlande",
+    "infobox": "Aer Lingus est souvent utilisée pour des correspondances vers les États-Unis via Dublin. Si le vol de correspondance à Dublin est manqué en raison du retard du vol d’acheminement, le règlement européen sur les droits des passagers aériens s’applique à l’ensemble du trajet, ce qui peut représenter des indemnités élevées allant jusqu’à 600 euros."
+  },
+  {
+    "slug": "easyjet",
+    "name": "easyJet Airline Company Limited",
+    "adresse": "Hangar 89\nLondon Luton Airport\nLuton LU2 9PF\nAngleterre",
+    "infobox": "easyJet applique des règles très strictes concernant les bagages à main. Du point de vue du droit du voyage, il est pertinent de savoir que si un vol est annulé ou si le passager annule, les taxes et frais non utilisés doivent être remboursés – les compagnies low-cost exigent souvent à ce titre des frais de traitement non autorisés."
+  },
+  {
+    "slug": "wizz-air",
+    "name": "Wizz Air Hungary Ltd.",
+    "adresse": "Laurus Offices, Kőér street 2/A\nBuilding B, H-1103\nBudapest\nHongrie",
+    "infobox": "Wizz Air est connue pour ses fréquents changements d’horaires. Le règlement de l’UE s’applique sans restriction. En cas de refus de paiement d’indemnisation au motif de « circonstances extraordinaires », un examen précis s’impose, car les défauts techniques n’en relèvent pas juridiquement."
+  },
+  {
+    "slug": "turkish-airlines",
+    "name": "Turkish Airlines",
+    "adresse": "Aéroport Atatürk\nYesilkoy, 34149\nIstanbul\nTurquie",
+    "infobox": "Comme Turkish Airlines n’est pas une compagnie aérienne de l’UE, le règlement européen sur les droits des passagers aériens ne s’applique que pour les vols au départ d’un aéroport situé dans l’UE. En revanche, pour les vols de la Turquie vers l’UE, ce sont les droits turcs des passagers aériens (SHY-PASS) qui s’appliquent, avec leurs propres règles d’indemnisation."
+  },
+  {
+    "slug": "sunexpress",
+    "name": "SunExpress Deutschland GmbH",
+    "adresse": "De-Saint-Exupéry-Straße 10\n60549 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "SunExpress dessert souvent des destinations de vacances en Turquie. En cas de perte ou de détérioration de bagages sur des vols vers la Turquie, la Convention de Montréal s’applique. Important : tout dommage aux bagages doit impérativement être signalé par écrit à la compagnie aérienne dans un délai de 7 jours."
+  },
+  {
+    "slug": "vueling",
+    "name": "Vueling Airlines S.A.",
+    "adresse": "Parque de Negocios Mas Blau II\nPlaza de l'Estany, núm 5\n08820 Barcelone\nEspagne",
+    "infobox": "Les vols Vueling sont souvent fortement affectés par l’espace aérien saturé autour du hub de Barcelone. Les retards dus à un manque de capacité du contrôle aérien (créneaux ATC) sont généralement considérés comme une circonstance extraordinaire, ce qui peut exclure les indemnisations – les prestations d’assistance (nourriture/boissons) restent toutefois dues."
+  },
+  {
+    "slug": "british-airways",
+    "name": "British Airways Plc (Niederlassung Deutschland)",
+    "adresse": "c/o Design Offices\nBarckhausstraße 1\n60325 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Depuis le Brexit, British Airways est principalement soumise au droit britannique (UK261), qui est toutefois presque identique au règlement européen 261/2004. Ici aussi, vous avez droit à une indemnisation en cas de retard de plus de 3 heures."
+  },
+  {
+    "slug": "klm",
+    "name": "KLM Royal Dutch Airlines",
+    "adresse": "Direction pour l’Allemagne\nZeil 5\n60313 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "KLM utilise Amsterdam (Schiphol) comme grand hub. Si des vols de correspondance sont manqués en raison de retards du vol d’acheminement, l’indemnisation est calculée en fonction de la distance de l’itinéraire complet (du départ à la destination finale), et non seulement de la portion concernée."
+  },
+  {
+    "slug": "air-france",
+    "name": "Air France",
+    "adresse": "De-Saint-Exupéry Straße 10\n60549 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Chez Air France, les grèves du personnel français du contrôle aérien sont une cause fréquente d’annulation de vols. De telles grèves de tiers sont considérées en droit du voyage comme des circonstances extraordinaires, ce qui exclut le droit à indemnisation. Un droit au réacheminement ou au remboursement demeure toutefois."
+  },
+  {
+    "slug": "emirates",
+    "name": "Emirates",
+    "adresse": "Direction pour l’Allemagne\nGrüneburgweg 16\n60322 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "En tant que compagnie non européenne, Emirates n’est soumise au règlement de l’UE que pour les départs depuis l’UE. Si vous voyagez de Dubaï vers l’UE et que le vol est retardé, vous n’avez pas droit à une indemnisation en vertu du droit européen."
+  },
+  {
+    "slug": "qatar-airways",
+    "name": "Qatar Airways",
+    "adresse": "Zeil 65\n60313 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Pour Qatar Airways, les droits des passagers aériens de l’UE ne s’appliquent qu’aux départs depuis l’UE. Si le vol de correspondance à Doha est manqué sur le trajet, par exemple, vers l’Asie en raison du retard d’un vol au départ de l’UE, le droit à indemnisation de l’UE s’applique toutefois à l’ensemble du trajet."
+  },
+  {
+    "slug": "tap-air-portugal",
+    "name": "TAP Air Portugal",
+    "adresse": "Hanauer Landstraße 114\n60314 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "TAP est une compagnie importante pour de nombreux voyages vers l’Amérique du Sud ou les États-Unis via Lisbonne. Les correspondances manquées à Lisbonne donnent régulièrement droit à une indemnisation de 600 euros, à condition qu’aucune circonstance extraordinaire (p. ex. fortes intempéries) ne soit présente."
+  },
+  {
+    "slug": "iberia",
+    "name": "IBERIA LAE SA Operadora Unipersonal",
+    "adresse": "C/ Martínez Villergas, 49\n28027 Madrid\nEspagne",
+    "infobox": "Iberia est pleinement réglementée en tant que transporteur de l’UE. Sur les vols vers l’Amérique du Sud via Madrid, il y a parfois des surréservations (Denied Boarding). Dans ce cas, le droit à une indemnisation (jusqu’à 600 euros) ainsi qu’à un transport alternatif s’applique immédiatement."
+  },
+  {
+    "slug": "finnair",
+    "name": "Finnair plc (Finnair Oyj)",
+    "adresse": "Bredeneyer Str. 2b\n45133 Essen\nAllemagne",
+    "infobox": "Finnair propose souvent des liaisons rapides vers l’Asie. En cas de retards importants, les compagnies aériennes doivent également payer les nuitées d’hôtel si le vol suivant n’a lieu que le lendemain. Si la compagnie refuse, les voyageurs peuvent avancer les frais et en demander le remboursement."
+  },
+  {
+    "slug": "sas",
+    "name": "Scandinavian Airlines System (SAS)",
+    "adresse": "SAS Customer Care\n195 87 Stockholm\nSuède",
+    "infobox": "La Norvège, la Suède et le Danemark sont inclus dans le champ d’application du règlement européen sur les droits des passagers aériens. SAS doit donc accorder les mêmes droits en cas de retard ou d’annulation que les compagnies des seuls États membres de l’UE."
+  },
+  {
+    "slug": "delta-air-lines",
+    "name": "Delta Air Lines, Inc.",
+    "adresse": "Succursale en Allemagne\nAéroport de Francfort, Terminal 2D\n60549 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "En tant que compagnie aérienne américaine, Delta n’est soumise au règlement 261/2004 de l’UE que pour le vol aller au départ de l’UE. Pour le vol retour des États-Unis vers l’UE, ce sont les règles américaines souvent plus faibles du Department of Transportation (DOT) qui s’appliquent, lesquelles ne prévoient pas d’indemnisation forfaitaire pour retard."
+  },
+  {
+    "slug": "united-airlines",
+    "name": "United Airlines, Inc.",
+    "adresse": "Succursale en Allemagne\nLufthansa Aviation Center, Airportring\n60546 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Chez United Airlines, les droits européens des passagers s’appliquent aux vols aller au départ de l’UE, mais pas aux vols retour depuis les États-Unis. En cas de problème de bagages, la Convention de Montréal s’applique sur les deux trajets, avec une responsabilité allant jusqu’à environ 1 500 euros (DTS) par passager."
+  },
+  {
+    "slug": "american-airlines",
+    "name": "American Airlines",
+    "adresse": "Lyoner Str. 9\n60528 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Pour American Airlines, le droit européen ne s’applique pas aux départs depuis les États-Unis. Si le vol aller depuis l’Europe et le vol retour depuis les États-Unis ont toutefois été réservés dans une seule et même réservation, certains portails de droits des passagers soutenaient autrefois le contraire pour le vol retour – la CJUE l’a toutefois rejeté. Le droit de l’UE ne s’applique ici strictement qu’aux vols ex-UE."
+  },
+  {
+    "slug": "singapore-airlines",
+    "name": "Singapore Airlines",
+    "adresse": "Bâtiment 234, HBK 61, Frankfurt Airport Center 1\nHugo-Eckener-Ring\n60549 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Singapore Airlines n’est pas une compagnie aérienne de l’UE. Un droit à indemnisation en vertu du droit de l’UE n’existe que si le vol part d’un aéroport de l’UE (p. ex. Francfort). En cas de départ de Singapour vers l’UE, ce droit à indemnisation en cas de retard n’existe pas."
+  },
+  {
+    "slug": "corendon-airlines",
+    "name": "Corendon Touristik GmbH",
+    "adresse": "Zentralgebäude Ost – Raum 5.044, Terminal Ring 1\n40474 Düsseldorf\nAllemagne",
+    "infobox": "Corendon opère souvent sous différentes licences (Pays-Bas, Turquie, Malte). Pour le droit du voyage (applicabilité du règlement UE 261/2004), il est déterminant de savoir laquelle de ces filiales opère effectivement le vol, en particulier pour les vols au départ de pays non membres de l’UE comme la Turquie."
+  },
+  {
+    "slug": "pegasus-airlines",
+    "name": "Pegasus Airlines",
+    "adresse": "Schadowplatz 16\n40212 Düsseldorf\nAllemagne",
+    "infobox": "En tant que transporteur low-cost turc, Pegasus ne relève pas du règlement européen sur les droits des passagers aériens pour les vols retour de Turquie vers l’UE, mais du droit turc. Cela signifie, en cas de retard, d’autres délais et généralement des montants d’indemnisation plus faibles."
+  },
+  {
+    "slug": "swiss",
+    "name": "Swiss International Air Lines AG",
+    "adresse": "Malzgasse 15\n4052 Bâle\nSuisse",
+    "infobox": "Bien que la Suisse ne fasse pas partie de l’UE, elle a repris le règlement européen sur les droits des passagers aériens par des accords bilatéraux. Les vols avec Swiss sont donc juridiquement traités exactement comme des vols avec une compagnie aérienne de l’Union européenne."
+  },
+  {
+    "slug": "thai-airways",
+    "name": "THAI AIRWAYS International Public Company Ltd.",
+    "adresse": "Zeil 127\n60313 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Le règlement UE 261/2004 ne s’applique qu’aux départs depuis l’Europe. Si le passager annule lui-même un billet, même pour les compagnies non européennes, au moins les taxes nationales et les frais aéroportuaires pour les vols non effectués doivent être remboursés, sous réserve du droit allemand."
+  },
+  {
+    "slug": "ana",
+    "name": "ANA Holdings Inc. (All Nippon Airways)",
+    "adresse": "Rossmarkt 21\n60311 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Pour les vols ANA au départ de l’Allemagne vers le Japon, les droits européens des passagers s’appliquent pleinement. Au retour, ils ne s’appliquent pas. Il est important, en cas de retard au départ du Japon, de vérifier les règles de bonne volonté ou les conditions de transport japonaises (Conditions of Carriage)."
+  },
+  {
+    "slug": "cathay-pacific",
+    "name": "Cathay Pacific",
+    "adresse": "Lyoner Straße 15\n60528 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Pour les vols vers Hong Kong avec Cathay Pacific, le règlement européen sur les droits des passagers aériens ne s’applique qu’au départ d’Europe. En cas de bagages perdus, la Convention de Montréal s’applique toutefois dans le monde entier, de sorte que vous êtes couvert pour les vêtements de remplacement jusqu’aux plafonds maximaux, y compris à Hong Kong."
+  },
+  {
+    "slug": "austrian-airlines",
+    "name": "Austrian Airlines AG",
+    "adresse": "Feedback Management\nBoîte postale 33\n1300 Aéroport de Vienne\nAutriche",
+    "infobox": "En tant que membre du groupe Lufthansa et compagnie aérienne de l’UE, Austrian Airlines est soumise au droit européen. Les modifications d’horaires communiquées au passager moins de 14 jours avant le départ constituent juridiquement une annulation et peuvent ouvrir droit à une indemnisation allant jusqu’à 600 euros."
+  },
+  {
+    "slug": "air-canada",
+    "name": "Air Canada",
+    "adresse": "Hahnstraße 70\n60528 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Pour Air Canada, les droits européens des passagers aériens s’appliquent au départ de l’UE. Pour les vols au départ du Canada, les Air Passenger Protection Regulations (APPR) canadiens s’appliquent en plus ou à titre alternatif, et peuvent prévoir des indemnisations parfois plus élevées en cas de retard."
+  },
+  {
+    "slug": "etihad-airways",
+    "name": "Etihad Airways",
+    "adresse": "OpernTurm\nBockenheimer Landstr. 2-4\n60306 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Si Etihad vole d’Abou Dabi vers l’UE, le règlement européen sur les droits des passagers aériens ne s’applique pas. En revanche, si les bagages sont livrés en retard, les passagers peuvent, dans le monde entier, effectuer des achats de première nécessité (articles d’hygiène, vêtements) en vertu de la Convention de Montréal et les facturer à la compagnie."
+  },
+  {
+    "slug": "latam-airlines",
+    "name": "LATAM Airlines",
+    "adresse": "Kaiserstr. 5\n60311 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "LATAM, basée en Amérique du Sud, ne doit respecter les droits des passagers aériens de l’UE que pour les départs depuis l’UE. Les vols sont souvent proposés en partage de code (p. ex. avec Iberia) – mais juridiquement, la compagnie responsable de l’indemnisation est toujours celle dont l’avion a effectivement opéré le vol (Operating Carrier)."
+  },
+  {
+    "slug": "qantas-airways",
+    "name": "Qantas Airways Limited",
+    "adresse": "Succursale en Allemagne\nKaiserstraße 77\n60329 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Les vols Qantas au départ de l’Europe (p. ex. Londres-Perth ou Rome-Sydney) relèvent du règlement européen ou britannique sur les droits des passagers aériens. Comme il s’agit de vols long-courriers (plus de 3 500 km), le droit à indemnisation n’apparaît qu’à partir d’un retard à l’arrivée d’au moins 4 heures."
+  },
+  {
+    "slug": "japan-airlines",
+    "name": "Japan Airlines Co., Ltd. (JAL)",
+    "adresse": "Roßmarkt 15\n60311 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Les droits européens des passagers aériens ne s’appliquent à JAL qu’au départ d’un pays de l’UE. En cas d’annulation de billet par le passager, les taxes et frais personnalisés doivent toutefois également être remboursés par les compagnies aériennes internationales, pour autant que le droit allemand soit applicable au contrat."
+  },
+  {
+    "slug": "air-new-zealand",
+    "name": "Air New Zealand",
+    "adresse": "Speicherstraße 57\n60327 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Air New Zealand n’est pas soumise au droit de l’UE pour les vols au départ de Nouvelle-Zélande. Toutefois, les passagers sont protégés en cas de dommages aux bagages par la Convention internationale de Montréal. Conservez toujours le coupon bagage (formulaire PIR) et les reçus pour faire valoir vos droits."
+  },
+  {
+    "slug": "air-china",
+    "name": "Air China Limited",
+    "adresse": "Düsseldorfer Str. 4\n60329 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Air China est une compagnie non européenne. Pour les retards au retour de Chine vers l’Europe, aucune indemnisation forfaitaire ne peut être réclamée en vertu du droit de l’UE. En revanche, les départs d’Europe vers la Chine sont couverts par le règlement de l’UE."
+  },
+  {
+    "slug": "korean-air",
+    "name": "Korean Air",
+    "adresse": "An der Welle 4\n60322 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Pour les départs depuis l’Europe, Korean Air est soumise au règlement européen sur les droits des passagers aériens. En cas de refus d’embarquement injustifié (Denied Boarding, p. ex. en raison d’une surréservation), vous avez droit non seulement à l’indemnisation de 600 euros, mais aussi à un vol de remplacement dans les meilleurs délais."
+  },
+  {
+    "slug": "air-india",
+    "name": "Air India Limited",
+    "adresse": "Kaiserstraße 11\n60311 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Si votre vol Air India part de l’UE, le règlement européen sur les droits des passagers aériens s’applique. En cas de retard important à partir de 2 heures (courte distance) ou 4 heures (long-courrier), la compagnie doit offrir gratuitement des prestations d’assistance (repas, boissons, éventuellement hôtel)."
+  },
+  {
+    "slug": "lot-polish-airlines",
+    "name": "LOT Polish Airlines",
+    "adresse": "Hugo-Eckener-Ring 1\n60549 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "En tant que compagnie polonaise, LOT relève du droit européen des passagers aériens. Cela s’applique dans le monde entier à tous les vols opérés par LOT. Attention : les défauts techniques de l’avion sont volontiers qualifiés par les compagnies de « circonstance extraordinaire », ce que les juridictions européennes rejettent toutefois dans la plupart des cas."
+  },
+  {
+    "slug": "brussels-airlines",
+    "name": "Brussels Airlines SA/NV",
+    "adresse": "100-102, Avenue des Saisons\nBoîte postale 30\n1050 Bruxelles\nBelgique",
+    "infobox": "Chez Brussels Airlines (transporteur de l’UE), un retard de plus de trois heures à la destination finale ouvre droit à une indemnisation pouvant aller jusqu’à 600 euros. La compagnie étant très active en Afrique : les vols d’Afrique vers Bruxelles sont également pleinement couverts juridiquement, car Brussels Airlines a son siège dans l’UE."
+  },
+  {
+    "slug": "ita-airways",
+    "name": "Italia Trasporto Aereo S.p.A. (Headquarter)",
+    "adresse": "Via XX Settembre, 97\n00187 Rome (RM)\nItalie",
+    "infobox": "La compagnie succédant à Alitalia est, en tant que transporteur italien, pleinement soumise au droit de l’UE. Si des vols sont annulés en raison de grèves du personnel d’enregistrement (personnel au sol en Italie), cela est toutefois souvent considéré comme une circonstance extraordinaire, ce qui peut exclure les indemnisations."
+  },
+  {
+    "slug": "air-baltic",
+    "name": "Air Baltic",
+    "adresse": "Bureau Allemagne\nTorstraße 177\n10115 Berlin\nAllemagne",
+    "infobox": "Air Baltic, en tant que compagnie lettone, a son siège dans l’UE. Les droits des passagers aériens s’appliquent donc dans le monde entier. Si un passager ne prend pas le vol (No-Show), le prix du billet est certes souvent perdu, mais les taxes et frais aéroportuaires non engagés peuvent généralement être réclamés en droit."
+  },
+  {
+    "slug": "aegean-airlines",
+    "name": "Aegean Airlines S.A.",
+    "adresse": "Siège Allemagne\nAm Hauptbahnhof 10\n60329 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Aegean est un transporteur de l’UE. Les grèves des contrôleurs aériens grecs entraînent parfois des annulations de vols. Il s’agit d’une circonstance extraordinaire qui exonère la compagnie de l’indemnisation – mais pas de l’obligation de rembourser le prix du billet ou d’assurer un réacheminement dans les meilleurs délais."
+  },
+  {
+    "slug": "air-europa",
+    "name": "Air Europa Líneas Aéreas S.A.U.",
+    "adresse": "Carretera Arenal-Llucmajor, KM 21.5\nCP: 07620 Llucmajor - Îles Baléares\nEspagne",
+    "infobox": "Chez la compagnie espagnole Air Europa, les droits des passagers aériens de l’UE s’appliquent dans le monde entier. Si un vol est annulé et que la compagnie propose une nouvelle réservation qui n’a lieu que plusieurs jours plus tard, les passagers peuvent souvent réserver eux-mêmes un vol de remplacement comparable et facturer les frais supplémentaires à la compagnie."
+  },
+  {
+    "slug": "smartwings",
+    "name": "Smartwings a.s.",
+    "adresse": "K letisti 1068/30\n160 08 Praha 6\nRépublique tchèque",
+    "infobox": "La compagnie tchèque Smartwings opère souvent des vols charter. Même pour les vols charter ou à forfait, le règlement européen 261/2004 sur les droits des passagers aériens s’applique pleinement aux demandes dirigées contre la compagnie aérienne exécutante."
+  },
+  {
+    "slug": "discover-airlines",
+    "name": "EW Discover GmbH",
+    "adresse": "Hugo-Eckener Ring 1\nFAC, Building 234, D7.01\n60549 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Discover Airlines (anciennement Eurowings Discover) est une compagnie allemande. En cas de retard de bagages sur le lieu de vacances, les passagers peuvent acheter les articles nécessaires (vêtements, cosmétiques). Important : les frais de vêtements ne sont souvent remboursés qu’à 50 %, car ils peuvent être réutilisés après les vacances."
+  },
+  {
+    "slug": "edelweiss-air",
+    "name": "Edelweiss Air AG",
+    "adresse": "Customer Relations\nThe Circle 32, Boîte postale\n8058 Aéroport de Zurich\nSuisse",
+    "infobox": "En vertu des accords bilatéraux conclus par la Suisse, Edelweiss Air relève des droits des passagers aériens de l’UE. Si la compagnie décale un vol de plus de 14 jours à l’avance, il n’y a certes pas d’indemnisation forfaitaire, mais les passagers peuvent se rétracter gratuitement et exiger le remboursement intégral du prix du billet."
+  },
+  {
+    "slug": "oman-air",
+    "name": "Oman Air S.A.O.C.",
+    "adresse": "Succursale en Allemagne\nHahnstr. 70\n60528 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "En tant que compagnie non européenne, Oman Air n’est soumise aux droits des passagers aériens de l’UE qu’au départ d’Europe. Si le vol sur la liaison Mascate-Europe est annulé, le droit de l’UE ne s’applique pas, et les demandes de remplacement doivent être examinées selon les conditions de transport de la compagnie ou le droit local."
+  },
+  {
+    "slug": "gulf-air",
+    "name": "Gulf Air",
+    "adresse": "Lyoner Str. 14\n60528 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Pour les vols Gulf Air au départ de l’Europe, vous avez droit à une assistance en cas de retard important (repas, appels téléphoniques). Si les bagages sont perdus, vous devez, indépendamment du point de départ, demander par écrit des dommages et intérêts dans un délai de 21 jours conformément à la Convention de Montréal."
+  },
+  {
+    "slug": "norwegian-air-shuttle",
+    "name": "Norwegian Air Shuttle ASA",
+    "adresse": "Flughafenstr. 1-3\n22335 Hambourg-Fuhlsbüttel\nAllemagne",
+    "infobox": "La Norvège fait partie de l’Espace économique européen (EEE). Norwegian est donc juridiquement traitée comme une compagnie aérienne de l’UE. En cas d’annulation par le client, les compagnies low-cost refusent souvent de rembourser les taxes – juridiquement, elles y sont toutefois généralement tenues."
+  },
+  {
+    "slug": "icelandair",
+    "name": "Icelandair",
+    "adresse": "Weissfrauenstraße 12-16\n60311 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "L’Islande étant membre de l’EEE, Icelandair applique les droits des passagers aériens de l’UE dans le monde entier. Un vol de correspondance manqué à Reykjavik sur le trajet vers les États-Unis donne droit à une indemnisation si le retard initial est imputable à la compagnie."
+  },
+  {
+    "slug": "volotea",
+    "name": "Volotea S.L.",
+    "adresse": "Travessera de Gracia 56\n4e étage\n08006 Barcelone\nEspagne",
+    "infobox": "Volotea, en tant que transporteur espagnol, doit verser les indemnisations de l’UE. De nombreuses demandes sont rejetées pour cause de « conditions météorologiques ». La météo n’est une circonstance exonératoire que si elle est extrême et rend objectivement impossible l’exploitation spécifique du vol."
+  },
+  {
+    "slug": "air-transat",
+    "name": "Air Transat (Transat Tours Canada Inc.)",
+    "adresse": "Service clientèle, Place du Parc\n300 Léo Pariseau Street, Suite 200\nMontréal (Québec) H2X 4C2\nCanada",
+    "infobox": "Chez Air Transat, pour les vols au départ de l’UE, les droits des passagers aériens européens (UE 261/2004) ou canadiens (APPR) peuvent s’appliquer. Les passagers peuvent choisir le droit qui leur est le plus favorable, mais ils ne peuvent pas cumuler les deux indemnisations pour le même événement."
+  },
+  {
+    "slug": "saudia",
+    "name": "Saudi Arabian Airlines (Saudia)",
+    "adresse": "Friedensstr. 6\n60311 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Pour les départs de Riyad ou Djeddah vers l’UE, aucun règlement de l’UE ne s’applique. Si le voyage commence dans l’UE, vous bénéficiez toutefois d’une protection complète. En cas de dommages aux bagages, la Convention de Montréal s’applique dans le monde entier (responsabilité jusqu’à environ 1 500 euros)."
+  },
+  {
+    "slug": "el-al",
+    "name": "EL AL Israel Airlines Ltd.",
+    "adresse": "Eschersheimer Landstr. 162\n60322 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Outre les droits de l’UE pour les départs depuis l’Europe, il existe en Israël la loi sur les services aériens (Tibi Law). Celle-ci offre aux voyageurs, dans certains cas, de solides droits au remboursement en cas d’annulation ou de retard, même si le règlement de l’UE ne s’applique pas aux vols au départ d’Israël."
+  },
+  {
+    "slug": "eva-air",
+    "name": "EVA Airways Corp.",
+    "adresse": "Terminalstraße Mitte 18\nMAC Süd, niveau 04, salle 548\n85356 Aéroport de Munich\nAllemagne",
+    "infobox": "En cas de retard des vols EVA Air au départ d’Europe, le règlement européen sur les droits des passagers aériens s’applique. Comme il s’agit de vols long-courriers vers l’Asie, les voyageurs ont droit à l’indemnisation maximale de 600 euros à partir de 4 heures de retard à l’arrivée."
+  },
+  {
+    "slug": "vietnam-airlines",
+    "name": "Vietnam Airlines",
+    "adresse": "Rossmarkt 5\n60311 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "En tant que compagnie non européenne, le règlement sur les droits des passagers aériens ne s’applique à Vietnam Airlines que pour les vols aller au départ de l’UE. Pour les vols retour du Vietnam vers l’Allemagne, le passager doit s’en remettre aux conditions contractuelles de la compagnie ou aux lois locales en cas d’annulation."
+  },
+  {
+    "slug": "jet2",
+    "name": "Jet2.com Limited",
+    "adresse": "Data Protection Department / Legal Services\nPO Box 284\nLeeds LS11 1GE\nRoyaume-Uni",
+    "infobox": "Après le Brexit, la loi UK261 régit les droits des passagers aériens des compagnies britanniques comme Jet2. Elle correspond presque mot pour mot à l’EU261. Les montants d’indemnisation sont toutefois calculés en livres sterling (p. ex. £220, £350 ou £520)."
+  },
+  {
+    "slug": "tui-airways-uk",
+    "name": "TUI UK Limited (TUI Airways)",
+    "adresse": "Wigmore House, Wigmore Lane\nLuton LU2 9TN\nRoyaume-Uni",
+    "infobox": "Pour la compagnie britannique TUI Airways, le droit britannique des passagers aériens (UK261) s’applique. Si des voyages à forfait sont réservés via un voyagiste allemand et que le vol TUI britannique subit un important retard, une réduction du prix du voyage peut être demandée à titre alternatif ou supplémentaire en vertu du droit allemand."
+  },
+  {
+    "slug": "croatia-airlines",
+    "name": "Croatia Airlines d.d.",
+    "adresse": "Kaiserstrasse 7\n60311 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "La Croatie étant membre de l’UE, tous les vols de Croatia Airlines relèvent de la directive européenne 261/2004. Si la compagnie refuse l’embarquement en raison d’une surréservation, le passager peut immédiatement réclamer une indemnisation et n’a pas à attendre un retard."
+  },
+  {
+    "slug": "air-serbia",
+    "name": "Air Serbia a.d.",
+    "adresse": "Služba za podršku gostima\nJurija Gagarina 12\n11070 Belgrade\nSerbie",
+    "infobox": "La Serbie n’est pas un État membre de l’UE. Un droit à indemnisation en vertu du droit de l’UE contre Air Serbia n’existe que pour les trajets commençant dans un aéroport de l’UE (p. ex. Francfort vers Belgrade), mais pas pour les vols dans le sens inverse."
+  },
+  {
+    "slug": "tarom",
+    "name": "TAROM",
+    "adresse": "Customer Relations\nCalea Bucureştilor nr. 224 F, Otopeni\nJudeţul Ilfov\nRoumanie",
+    "infobox": "En tant que compagnie aérienne de l’UE, la roumaine TAROM est soumise à tous les droits européens des passagers aériens. En cas de retard de bagages, la compagnie doit prendre en charge les frais d’achats de remplacement. Cette règle découle de la Convention de Montréal, et non du règlement européen sur les droits des passagers aériens."
+  },
+  {
+    "slug": "south-african-airways",
+    "name": "South African Airways",
+    "adresse": "Administration office\nDarmstädter Landstr. 125\n60598 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Les vols South African Airways au départ de l’Europe sont couverts par le règlement européen 261/2004. Ce n’est pas le cas pour le vol retour d’Afrique du Sud vers l’UE, raison pour laquelle les passagers n’ont pas de droit légal à une indemnisation forfaitaire en euros en cas de retard."
+  },
+  {
+    "slug": "ethiopian-airlines",
+    "name": "Ethiopian Airlines S.C.",
+    "adresse": "Kaiserstr. 77\n60329 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Si, sur un vol Ethiopian Airlines au départ de l’UE vers l’Afrique, la correspondance à Addis-Abeba est manquée et que la destination finale est atteinte avec plus de 4 heures de retard, la jurisprudence de la CJUE prévoit une indemnisation de 600 euros."
+  },
+  {
+    "slug": "tunisair",
+    "name": "Tunisair",
+    "adresse": "Kaiserstraße 44\n60329 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "En tant que compagnie nord-africaine, Tunisair ne doit respecter les règles de l’UE que pour le trajet aller (au départ de l’UE). Au retour, elles ne s’appliquent pas. En cas d’annulation par le passager, le droit au remboursement des taxes et frais est régi par le droit convenu dans le contrat de transport."
+  },
+  {
+    "slug": "royal-air-maroc",
+    "name": "Royal Air Maroc",
+    "adresse": "Roßmarkt 5\n60311 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "La compagnie marocaine Royal Air Maroc est soumise au règlement européen sur les droits des passagers aériens pour tous les vols au départ de l’UE. Pour les vols uniquement au départ du Maroc vers l’UE, il n’existe pas de droit à une indemnisation forfaitaire en cas de retard ou d’annulation en vertu du droit de l’UE."
+  },
+  {
+    "slug": "egyptair",
+    "name": "EgyptAir",
+    "adresse": "Am Hauptbahnhof 12 D\n60329 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "EgyptAir a son siège en dehors de l’UE. En cas d’annulation du vol retour depuis l’Égypte, il n’y a pas d’indemnisation en vertu du droit européen. Pour les vols aller au départ de l’Europe, les passagers ont toutefois droit à une compensation de généralement 400 ou 600 euros à partir de 3 heures de retard à l’arrivée."
+  },
+  {
+    "slug": "kuwait-airways",
+    "name": "Kuwait Airways",
+    "adresse": "Bethmannstraße 56\n60311 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Pour Kuwait Airways, les droits de l’UE ne s’appliquent que sur les vols ex-UE. Si votre vol est annulé, la compagnie doit, en plus du remboursement du prix du billet, vous proposer le cas échéant un transport alternatif dans les meilleurs délais – à défaut, les frais d’un vol de remplacement peuvent être réclamés."
+  },
+  {
+    "slug": "middle-east-airlines",
+    "name": "Middle East Airlines Air Liban",
+    "adresse": "Frankfurt Airport-Center 1\n60549 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Si le vol de Middle East Airlines part du Liban, vous n’avez aucun droit à indemnisation en vertu du règlement européen 261/2004 en cas de problème de vol. S’il part d’Europe, vous bénéficiez de tous les droits, par exemple 400 euros en cas de retard de plus de 3 heures."
+  },
+  {
+    "slug": "air-malta",
+    "name": "Air Malta Plc.",
+    "adresse": "Direction pour l’Allemagne\nMainzer Landstraße 158\n60327 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "En tant que compagnie européenne, Air Malta est soumise au règlement européen sur les droits des passagers aériens. Si les bagages sont perdus, les passagers doivent immédiatement remplir sur place à l’aéroport un PIR (Property Irregularity Report). C’est une condition obligatoire pour pouvoir réclamer ultérieurement des dommages et intérêts."
+  },
+  {
+    "slug": "royal-jordanian",
+    "name": "Royal Jordanian",
+    "adresse": "Kaiserstr. 3\n60311 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Pour Royal Jordanian, le règlement de l’UE ne s’applique pas aux vols reliant la Jordanie à l’UE. Si l’aller et le retour ont été réservés ensemble et que le vol aller est manqué/non effectué, de nombreuses compagnies annulent le vol retour (« clause No-Show »). Cette pratique a parfois été jugée illégale en Allemagne."
+  },
+  {
+    "slug": "malaysia-airlines",
+    "name": "Malaysia Airlines",
+    "adresse": "Wilhelm-Leuschner-Str. 78\n60329 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "L’obligation d’indemnisation en vertu du droit de l’UE ne s’applique à Malaysia Airlines qu’en cas de départ depuis l’UE. En cas de dommages aux bagages, la Convention de Montréal s’applique toutefois dans le monde entier, et la réclamation pour une valise endommagée doit parvenir à la compagnie par écrit dans les 7 jours suivant la réception."
+  },
+  {
+    "slug": "china-southern-airlines",
+    "name": "China Southern Airlines",
+    "adresse": "Frankfurt Airport Cargo City Süd\nBâtiment 533\n60549 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Comme la compagnie a son siège en Chine, les droits de l’UE ne s’appliquent qu’aux vols au départ d’Europe. Si vous réservez vous-même un vol de remplacement après l’annulation du vol par la compagnie, vous devriez le faire uniquement après avoir fixé à la compagnie, de manière prouvable, un délai pour le réacheminement."
+  },
+  {
+    "slug": "garuda-indonesia",
+    "name": "Garuda Indonesia",
+    "adresse": "Große Bockenheimer Straße 15\n60313 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Pour la compagnie indonésienne Garuda Indonesia, le droit de l’UE n’est applicable qu’au départ d’Europe. Si vous annulez le billet d’avion pour des raisons personnelles, vous avez en règle générale au moins droit au remboursement des seules taxes aéroportuaires et frais de sécurité."
+  },
+  {
+    "slug": "air-astana",
+    "name": "Air Astana JSC",
+    "adresse": "c/o Aviareps AG\nKaiserstraße 77\n60329 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "En tant que compagnie du Kazakhstan, Air Astana ne relève pas du règlement CE 261/2004 pour les vols vers l’UE. Seuls les départs d’un aéroport situé sur le territoire de l’UE ouvrent droit à une indemnisation en cas de retard de 3 heures ou plus."
+  },
+  {
+    "slug": "rwandair",
+    "name": "RwandAir Ltd.",
+    "adresse": "c/o Friends Touristik Marketing GmbH & Co. KG\nHochstraße 17\n60313 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "RwandAir est soumise aux directives européennes uniquement au départ d’Europe. Il convient toutefois de noter qu’en cas de déclassement (p. ex. de la classe affaires à la classe économique) à l’aéroport de départ européen, jusqu’à 75 % du prix du billet pour la portion de vol concernée doivent être remboursés."
+  },
+  {
+    "slug": "kenya-airways",
+    "name": "Kenya Airways",
+    "adresse": "c/o APG Germany\nLeonhardstrasse 22\n61169 Friedberg\nAllemagne",
+    "infobox": "Pour le vol retour depuis le Kenya, aucun règlement européen sur les droits des passagers aériens ne s’applique, Kenya Airways étant une compagnie africaine. En revanche, pour le trajet au départ de l’Europe, tous les droits s’appliquent, y compris le droit à un hébergement à l’hôtel en cas de retard de nuit."
+  },
+  {
+    "slug": "srilankan-airlines",
+    "name": "SriLankan Airlines",
+    "adresse": "c/o Aviareps AG\nKaiserstraße 77\n60329 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "SriLankan Airlines ne verse des indemnisations de l’UE que pour les vols qui commencent dans l’Union européenne. Si la compagnie refuse de payer l’indemnisation pour un vol au départ de l’UE, les passagers peuvent saisir l’organisme national de médiation (söp)."
+  },
+  {
+    "slug": "luxair",
+    "name": "Luxair S.A.",
+    "adresse": "25, rue Gabriel Lippmann\nL-5365 Munsbach\nLuxembourg",
+    "infobox": "En tant que compagnie luxembourgeoise, Luxair opère pleinement sous le droit de l’UE. Si la compagnie annule un vol à court terme en raison d’un manque d’équipage, il s’agit d’un problème organisationnel de la compagnie et cela donne droit à une indemnisation (250 à 400 euros, selon la distance)."
+  },
+  {
+    "slug": "air-dolomiti",
+    "name": "Air Dolomiti S.p.A.",
+    "adresse": "Maximiliansplatz 12a\n80333 Munich\nAllemagne",
+    "infobox": "Air Dolomiti est une filiale de Lufthansa, donc une compagnie aérienne de l’UE, et opère souvent des vols d’acheminement (p. ex. vers Munich ou Francfort). Si, en raison d’un retard d’Air Dolomiti, vous manquez la correspondance long-courrier de Lufthansa, la compagnie exécutante est responsable du retard total à la destination finale."
+  },
+  {
+    "slug": "helvetic-airways",
+    "name": "Helvetic Airways AG",
+    "adresse": "Steinackerstrasse 56\nCH-8302 Kloten\nSuisse",
+    "infobox": "La Suisse participe au règlement européen 261/2004, raison pour laquelle Helvetic Airways doit appliquer le droit européen. Helvetic opère souvent des vols en wet lease pour Swiss. Pour les indemnisations, la responsabilité juridique incombe généralement à la compagnie dont le nom et le numéro de vol figurent sur le billet (partenaire contractuel) ou à celle qui opère effectivement le vol."
+  },
+  {
+    "slug": "wideroe",
+    "name": "Widerøe's Flyveselskap AS",
+    "adresse": "Customer Relations\nLangstranda 6, Postbox 247\n8001 Bodø\nNorvège",
+    "infobox": "En tant que compagnie norvégienne, Widerøe relève de l’EEE et applique les droits européens des passagers aériens. Si un vol est annulé en raison d’un temps hivernal extrême en Scandinavie, cela constitue certes une circonstance extraordinaire sans indemnisation, mais la compagnie doit néanmoins vous réacheminer gratuitement sur le prochain vol disponible."
+  },
+  {
+    "slug": "neos-air",
+    "name": "Neos S.p.A.",
+    "adresse": "Via Della Chiesa 68\n21019 Somma Lombardo (Varese)\nItalie",
+    "infobox": "La compagnie charter italienne Neos Air est pleinement soumise au règlement de l’UE. Si votre valise arrive en retard, achetez des vêtements de remplacement et des articles d’hygiène – les reçus sont à présenter après les vacances, le plafond de remboursement étant d’environ 1 500 euros selon la Convention de Montréal."
+  },
+  {
+    "slug": "binter-canarias",
+    "name": "Binter Canarias S.A.",
+    "adresse": "Aeropuerto de Gran Canaria\nC/ La Paleta 6\n35230 Las Palmas\nEspagne",
+    "infobox": "Binter Canarias opère souvent des vols inter-îles aux Canaries. Comme les îles Canaries font partie du territoire espagnol, le règlement européen sur les droits des passagers aériens s’applique pleinement. Les courtes distances de moins de 1 500 km donnent droit à 250 euros en cas de retard de plus de 3 heures."
+  },
+  {
+    "slug": "transavia",
+    "name": "Transavia France S.A.S.",
+    "adresse": "Coeur d’Orly – Bâtiment Belaïa\n7 avenue de l’Union\n94310 Orly\nFrance",
+    "infobox": "Transavia (filiale d’Air France-KLM) doit, en vertu du droit de l’UE, rembourser les taxes et frais lorsqu’un passager ne prend pas son vol. Attention : les compagnies aériennes prévoient souvent dans leurs CGV des frais de traitement forfaitaires pour l’annulation. Les tribunaux ont toutefois souvent jugé de telles clauses de frais comme nulles."
+  },
+  {
+    "slug": "play-airlines",
+    "name": "PLAY airlines",
+    "adresse": "Suðurlandsbraut 14\n108 Reykjavik\nIslande",
+    "infobox": "L’Islande étant un État de l’EEE, le règlement européen sur les droits des passagers aériens s’applique sans restriction à PLAY. En tant que transporteur low-cost, les passagers sont souvent confrontés à des règles strictes concernant les bagages à main. Les frais de pénalité à la porte d’embarquement sont légalement autorisés, à condition qu’ils soient clairement prévus dans les conditions de transport."
+  },
+  {
+    "slug": "air-cairo",
+    "name": "Air Cairo",
+    "adresse": "Smart Village, Building B211\nKilo 28 Cairo Alexandria Desert Road\nGiza\nÉgypte",
+    "infobox": "En tant que compagnie non européenne, Air Cairo n’est pas soumise au règlement 261/2004 de l’UE pour le vol retour d’Égypte vers l’Allemagne. Les retards des vacanciers vers l’Europe ne donnent donc pas droit ici à une compensation forfaitaire."
+  },
+  {
+    "slug": "arkia",
+    "name": "Arkia Israeli Airlines Ltd.",
+    "adresse": "P.O. Box 39301\nTel Aviv 61392\nIsraël",
+    "infobox": "Outre les droits de l’UE pour les vols au départ de l’Europe, les passagers d’Arkia peuvent également faire valoir des droits issus de la loi israélienne sur l’aviation (Tibi Law). Celle-ci s’applique par exemple souvent aussi en cas de retards et d’annulations de vols retour au départ de Tel Aviv."
+  },
+  {
+    "slug": "georgian-airways",
+    "name": "Georgian Airways",
+    "adresse": "Mittelgasse 2\n55130 Mayence\nAllemagne",
+    "infobox": "Pour la compagnie aérienne géorgienne, le règlement européen sur les droits des passagers aériens ne s’applique que si le vol part d’un aéroport de l’UE. Pour les vols de Tbilissi vers l’UE, aucune demande fondée sur le droit de l’UE ne peut être faite en cas de retard ou d’annulation."
+  },
+  {
+    "slug": "air-arabia",
+    "name": "Air Arabia PJSC",
+    "adresse": "Air Arabia Building\nSharjah International Airport\nP.O. Box 132\nÉmirats arabes unis",
+    "infobox": "Air Arabia est établie aux Émirats arabes unis. Cela signifie que si le vol part d’Europe, vous avez pleinement droit à une indemnisation européenne en cas de retard. Si le voyage commence aux Émirats arabes unis, ces droits ne s’appliquent pas. Les problèmes de bagages sont toutefois régis au niveau international par la Convention de Montréal."
+  },
+  {
+    "slug": "flyone",
+    "name": "FLYONE",
+    "adresse": "bd. Dacia 80/3\nMD-2026 Chișinău\nMoldavie",
+    "infobox": "La Moldavie n’est pas membre de l’UE, mais elle fait partie de l’Espace aérien européen commun (ECAA), ce qui permet d’appliquer une grande partie des droits des passagers aériens de l’UE. Vérifiez dans chaque cas particulier si l’accord s’applique, mais en tout cas pour les départs depuis l’UE."
+  },
+  {
+    "slug": "nouvelair",
+    "name": "Nouvelair Tunisie S.A.",
+    "adresse": "Zone Touristique Dkhila BP 66\n5065 Monastir\nTunisie",
+    "infobox": "Pour la compagnie tunisienne, les droits de l’UE ne s’appliquent que pour le vol aller de l’Europe vers l’Afrique du Nord. Si les vacances sont interrompues et que le vol retour vers l’Europe est annulé, vous n’êtes pas protégé par les paiements forfaitaires du règlement européen 261/2004."
+  },
+  {
+    "slug": "sky-express",
+    "name": "SKY express S.A.",
+    "adresse": "Building 57, Athens International Airport\nSpata, Attique 19019\nGrèce",
+    "infobox": "En tant que compagnie aérienne grecque, SKY express est soumise à tous les droits de l’UE. En cas de surréservation et de refus d’embarquement injustifié, vous avez droit à 250 euros (pour les vols jusqu’à 1 500 km) ainsi qu’au remboursement du billet ou à un vol alternatif."
+  },
+  {
+    "slug": "air-algerie",
+    "name": "Air Algérie",
+    "adresse": "Friedensstraße 5\n60311 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "La compagnie basée en Afrique du Nord relève du règlement européen sur les droits des passagers aériens pour les départs depuis l’UE. Il ne s’applique pas au vol retour d’Algérie vers l’Europe. Dans les deux sens, la Convention de Montréal s’applique toutefois en cas de perte de bagages, avec des plafonds de responsabilité."
+  },
+  {
+    "slug": "air-seychelles",
+    "name": "Air Seychelles Ltd",
+    "adresse": "P.O. Box 386\nPointe Larue, Mahé\nSeychelles",
+    "infobox": "Comme les Seychelles ne font pas partie de l’UE, les indemnisations pour un vol retour retardé doivent souvent être obtenues en vertu du droit local ou des CGV. En revanche, sur le trajet de l’Europe vers les îles, les passagers sont entièrement protégés par le règlement de l’UE."
+  },
+  {
+    "slug": "bulgaria-air",
+    "name": "Bulgaria Air",
+    "adresse": "1, Brussels Blvd\nSofia Airport\n1540 Sofia\nBulgarie",
+    "infobox": "La Bulgarie étant membre de l’Union européenne, Bulgaria Air doit respecter les droits des passagers aériens de l’UE dans le monde entier. Si les bagages sont endommagés sur des vols intérieurs ou européens, cela doit impérativement être signalé par écrit dans un délai de 7 jours (Convention de Montréal)."
+  },
+  {
+    "slug": "air-mauritius",
+    "name": "Air Mauritius Ltd. (GSA Deutschland/AT)",
+    "adresse": "Opernring 1 / Top E-439\n1010 Vienne\nAutriche",
+    "infobox": "Air Mauritius verse 600 euros en cas de retard de vol de plus de trois heures sur la base du règlement de l’UE (pour les long-courriers) – mais uniquement si le vol part d’Europe (p. ex. Francfort ou Paris). Au retour, la réglementation européenne ne s’applique pas."
+  },
+  {
+    "slug": "aeromexico",
+    "name": "Aerovías de México, S.A. de C.V.",
+    "adresse": "Paseo de la Reforma 445\nCuauhtémoc\n06500 Ciudad de México\nMexique",
+    "infobox": "En tant que compagnie non européenne, Aeromexico n’est soumise au règlement CE 261/2004 qu’en cas de départ depuis l’UE. Pour les vols intérieurs au Mexique ou les vols retour du Mexique vers l’Europe, les voyageurs doivent s’en remettre à la loi mexicaine sur la protection des consommateurs dans le domaine aérien."
+  },
+  {
+    "slug": "avianca",
+    "name": "Avianca",
+    "adresse": "c/o Aviareps AG\nKaiserstraße 77\n60329 Francfort-sur-le-Main\nAllemagne",
+    "infobox": "Avianca est une compagnie aérienne latino-américaine. Le droit européen des passagers aériens ne s’applique donc que pour un départ depuis un aéroport européen. En cas d’annulation volontaire du billet par le voyageur, un droit au remboursement des taxes peut exister sous certaines conditions en vertu du droit allemand."
+  },
+  {
+    "slug": "andere-airline",
+    "name": "Airlines",
+    "adresse": "",
+    "infobox": "Pour les compagnies aériennes inconnues ou non listées explicitement ici, il faut examiner chaque cas individuellement : la compagnie a-t-elle son siège dans l’UE ou le vol part-il de l’UE ? Ce n’est que si au moins une de ces conditions est remplie que le règlement européen généreux 261/2004 sur les droits des passagers aériens s’applique."
+  }
+]

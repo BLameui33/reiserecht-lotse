@@ -124,5 +124,30 @@
     "name": "Autovermietungen",
     "schalter_taktik": "Sea cual sea el proveedor: ¡manténgase firme! Las empresas de alquiler suelen formar a su personal para vender seguros adicionales caros con escenarios de terror (por ejemplo, altas tasas de robo). Si ya ha contratado un seguro a todo riesgo a través de un intermediario, eso basta. No firme nada que no entienda.",
     "kaution_hinweis": "La regla más importante: casi siempre necesita una tarjeta de crédito física y convencional (Credit, ¡no Debit!) a nombre del conductor principal. El límite debe ser lo suficientemente alto (a menudo hasta 1.500 €). Sin la tarjeta adecuada, en el mostrador puede verse obligado a comprar un seguro caro."
+  },
+  {
+    "slug": "cicar",
+    "name": "CICAR (Canary Islands Car)",
+    "schalter_taktik": "El ejemplo positivo absoluto en el mercado del alquiler de coches: personal muy relajado y sin ninguna venta agresiva en el mostrador. Dado que el seguro a todo riesgo real sin franquicia siempre está incluido automáticamente en el precio base de CICAR, nunca intentarán presionarte para contratar coberturas adicionales. Los conductores adicionales y las sillas para niños también son gratuitos.",
+    "kaution_hinweis": "Ejemplar: Por lo general, CICAR no requiere ninguna fianza en la tarjeta de crédito (como mucho, un pequeño depósito por el combustible). El alquiler en las Islas Canarias es posible sin problemas con una tarjeta de débito normal o, en muchas oficinas, incluso en efectivo directamente en el mostrador."
+  },
+  {
+    "slug": "hiper-rent-a-car",
+    "name": "Hiper Rent a Car",
+    "schalter_taktik": "El mayor proveedor local de las Islas Baleares (Mallorca, Ibiza, Menorca). Se considera bastante más serio en comparación con marcas de bajo coste como Goldcar. No obstante, el personal del mostrador suele intentar vender de forma rutinaria su 'Hyper Pack'. El argumento principal suele ser una entrega de llaves más rápida y la eliminación total de la franquicia.",
+    "kaution_hinweis": "Si rechazas el 'Hyper Pack', se retiene una fianza de entre 800 € y 1.400 €, según la categoría del vehículo. Esta fianza debe bloquearse obligatoriamente en una tarjeta de crédito física a nombre del conductor principal. No se aceptan tarjetas de débito si no se contrata el seguro adicional."
+  },
+  {
+    "slug": "wiber-rent-a-car",
+    "name": "Wiber Rent a Car",
+    "schalter_taktik": "Un proveedor moderno en fuerte expansión (Alicante, Mallorca, Málaga). Wiber impulsa masivamente la tarifa 'All Inclusive'. El truco psicológico aquí es que quienes contratan el paquete de tranquilidad absoluta pueden utilizar el sistema 'Wikey Smart Box' para recoger la llave directamente en un cajero automático sin hacer cola. Quienes reservan la opción barata a menudo tienen que esperar largas colas y enfrentarse a los riesgos de daños en el mostrador.",
+    "kaution_hinweis": "En la tarifa básica ('BB-Green'), Wiber bloquea una fianza de unos 800 € a 1.200 € en la tarjeta de crédito. Con la tarifa 'All Inclusive', la fianza se elimina por completo y se aceptan sin problemas tarjetas de débito normales para realizar el pago."
+  },
+  {
+    "slug": "malagacar-com",
+    "name": "MalagaCar.com",
+    "schalter_taktik": "El gigante local indiscutible en el aeropuerto de Málaga (con estación de autobús de cortesía fuera de la terminal). Si eliges la tarifa básica económica online, tendrás que enfrentarte a intensas discusiones en el mostrador sobre los riesgos de daños en neumáticos, lunas y costes de grúa, con el único fin de que acabes contratando su tarifa 'Full Pack'.",
+    "kaution_hinweis": "Sin el 'Full Pack', se bloqueará una fianza de entre 1.000 € y 1.200 € en una tarjeta de crédito válida. Si optas por el 'Full Pack', que es más caro, no tendrás que dejar fianza y podrás pagar el alquiler incluso en efectivo o con tarjeta de débito."
   }
+  
 ]

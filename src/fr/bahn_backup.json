@@ -1,0 +1,310 @@
+[
+  {
+    "name": "Deutsche Bahn",
+    "slug": "deutsche-bahn",
+    "adresse": "Servicecenter Droits des passagers\n60647 Francfort-sur-le-Main\nAllemagne",
+    "land": "Allemagne",
+    "infobox": "La Deutsche Bahn est soumise aux droits des passagers de l’UE. À partir de 60 minutes de retard à la destination finale, vous recevez 25 %, et à partir de 120 minutes 50 % du prix du billet. Depuis la réforme de 2023, le simple versement d’une indemnisation en cas d’événements météorologiques extrêmes (force majeure) n’est plus applicable – toutefois, les obligations d’assistance (hôtel, repas) restent toujours en vigueur."
+  },
+  {
+    "name": "ICE (Deutsche Bahn)",
+    "slug": "ice",
+    "adresse": "Servicecenter Droits des passagers\n60647 Francfort-sur-le-Main\nAllemagne",
+    "land": "Allemagne",
+    "infobox": "Pour les liaisons ICE, la règle est la suivante : si un retard de plus de 20 minutes à la destination finale est à prévoir, vous pouvez utiliser sans supplément un autre train ne nécessitant pas de réservation. Si vous passez d’un billet de transport régional à l’ICE, vous devez souvent d’abord payer le billet vous-même, puis en demander le remboursement par la suite."
+  },
+  {
+    "name": "AVE (Renfe)",
+    "slug": "ave",
+    "adresse": "Renfe Viajeros S.A.\nAvenida de Ciudad de Barcelona 6\n28007 Madrid\nEspagne",
+    "land": "Espagne",
+    "infobox": "L’espagnole Renfe propose pour ses trains à grande vitesse AVE des garanties de ponctualité volontaires qui vont bien au-delà du minimum prévu par l’UE. Selon la ligne et le tarif choisis, vous pouvez déjà obtenir le remboursement d’une part importante du prix du billet (jusqu’à 100 %) à partir de 15 ou 30 minutes de retard."
+  },
+  {
+    "name": "OUIGO España",
+    "slug": "ouigo-espana",
+    "adresse": "OUIGO España S.A.U.\nCalle de Alcalá 44\n28014 Madrid\nEspagne",
+    "land": "Espagne",
+    "infobox": "En tant qu’opérateur low-cost, OUIGO applique en Espagne les exigences minimales légales de l’UE. En cas d’annulation de train, vous avez droit à un réacheminement gratuit ou à un remboursement. Les indemnisations sont souvent proposées principalement sous forme de bons, mais vous pouvez légalement exiger un paiement en espèces/virement."
+  },
+  {
+    "name": "Avlo (Renfe)",
+    "slug": "avlo",
+    "adresse": "Renfe Viajeros S.A.\nAvenida de Ciudad de Barcelona 6\n28007 Madrid\nEspagne",
+    "land": "Espagne",
+    "infobox": "Avlo est la marque à bas prix de la Renfe espagnole. Contrairement aux trains AVE réguliers, les garanties de ponctualité commerciales élargies de Renfe ne s’appliquent pas ici, mais uniquement les montants minimaux légaux de l’UE (25 % à partir de 60 min, 50 % à partir de 120 min de retard)."
+  },
+  {
+    "name": "Frecciarossa (Trenitalia)",
+    "slug": "frecciarossa",
+    "adresse": "Trenitalia S.p.A.\nUfficio Reclami e Rimborsi\nPiazza della Croce Rossa 1\n00161 Rome\nItalie",
+    "land": "Italie",
+    "infobox": "Pour les trains Frecciarossa italiens, il existe une particularité en matière de droit des voyageurs : en cas de retard entre 30 et 59 minutes, vous ne recevez pas de paiement en espèces, mais un bon d’achat de 25 % du prix du billet pour votre prochaine réservation."
+  },
+  {
+    "name": "Trenord",
+    "slug": "trenord",
+    "adresse": "Trenord S.r.l.\nPiazzale Cadorna 14\n20123 Milan\nItalie",
+    "land": "Italie",
+    "infobox": "Chez Trenord (transport régional en Lombardie), les indemnisations pour les navetteurs et les détenteurs d’abonnements sont souvent régies par un indice mensuel global de ponctualité de la ligne concernée ('Bonus Trenord'), plutôt que par le traitement de demandes séparées pour chaque retard en minutes."
+  },
+  {
+    "name": "TGV (SNCF)",
+    "slug": "tgv",
+    "adresse": "Service Relation Client SNCF\n62973 ARRAS Cedex 9\nFrance",
+    "land": "France",
+    "infobox": "La SNCF française propose pour le TGV la 'Garantie G30' conviviale : quelle que soit la cause du retard (y compris en cas de force majeure), vous recevez à partir de 30 minutes de retard une indemnisation de 25 % sous forme de bon, et jusqu’à 75 % en cas de retard de plus de 3 heures."
+  },
+  {
+    "name": "Nightjet (ÖBB)",
+    "slug": "nightjet",
+    "adresse": "ÖBB-Personenverkehr AG\nService clientèle\nBoîte postale 75\n1020 Vienne\nAutriche",
+    "land": "Autriche",
+    "infobox": "Pour les trains de nuit Nightjet des ÖBB, vous avez droit à une indemnisation de 25 % à partir de 60 minutes de retard à la gare d’arrivée. Si le chauffage ou la climatisation du wagon-couchettes tombe complètement en panne et qu’aucun changement de compartiment n’est possible, vous pouvez demander des remboursements supplémentaires pour baisse importante de confort."
+  },
+  {
+    "name": "FlixTrain",
+    "slug": "flixtrain",
+    "adresse": "FlixTrain GmbH\nDroits des passagers\nBoîte postale 10 30 47\n70026 Stuttgart\nAllemagne",
+    "land": "Allemagne",
+    "infobox": "FlixTrain est une entreprise ferroviaire privée. En cas d’annulation de train, vous ne pouvez pas utiliser sans autre formalité un billet de la Deutsche Bahn (par ex. ICE). Un changement vers des trains DB aux frais de FlixTrain n’est autorisé que dans des critères d’urgence légaux très stricts ou après autorisation expresse."
+  },
+  {
+    "name": "ÖBB (Österreichische Bundesbahnen)",
+    "slug": "oebb",
+    "adresse": "ÖBB-Personenverkehr AG\nService clientèle\nBoîte postale 75\n1020 Vienne\nAutriche",
+    "land": "Autriche",
+    "infobox": "Les Chemins de fer fédéraux autrichiens règlent les droits des passagers de manière très fiable. Pour les abonnements nationaux et les abonnements hebdomadaires/mensuels, il existe un modèle d’indemnisation prévu par la loi, calculé à la fin de la période sur la base du taux mensuel exact de ponctualité de la ligne utilisée."
+  },
+  {
+    "name": "WESTbahn",
+    "slug": "westbahn",
+    "adresse": "WESTbahn Management GmbH\nEuropaplatz 3\n1150 Vienne\nAutriche",
+    "land": "Autriche",
+    "infobox": "En tant qu’opérateur privé de transport longue distance en Autriche, WESTbahn applique l’ensemble des droits des passagers de l’UE. En cas d’annulation de train, vous avez le droit à un transport alternatif avec le prochain train ou à un remboursement intégral du prix du billet si le voyage est devenu inutile."
+  },
+  {
+    "name": "SBB (Schweizerische Bundesbahnen)",
+    "slug": "sbb",
+    "adresse": "Service clientèle CFF\nBoîte postale\n3000 Berne 65\nSuisse",
+    "land": "Suisse",
+    "infobox": "Bien que la Suisse ne soit pas membre de l’UE, des droits harmonisés des passagers s’appliquent chez les CFF (25 % à partir de 60 min, 50 % à partir de 120 min de retard). Important pour les correspondances suisses serrées : si vous manquez la dernière correspondance à cause d’un retard, les CFF prennent en charge les frais de taxi ou d’hôtel."
+  },
+  {
+    "name": "SNCF (Société Nationale des Chemins de fer Français)",
+    "slug": "sncf",
+    "adresse": "Service Relation Client SNCF\n62973 ARRAS Cedex 9\nFrance",
+    "land": "France",
+    "infobox": "La SNCF traite les annulations de train strictement selon le droit français et européen. En cas de grèves plus fréquentes en France (Grèves) des syndicats ferroviaires, vous avez toujours droit à un réacheminement gratuit ou au remboursement du prix du billet, à condition que votre train ait été supprimé."
+  },
+  {
+    "name": "Trenitalia",
+    "slug": "trenitalia",
+    "adresse": "Trenitalia S.p.A.\nUfficio Reclami e Rimborsi\nPiazza della Croce Rossa 1\n00161 Rome\nItalie",
+    "land": "Italie",
+    "infobox": "Pour les trains longue distance en Italie, les demandes d’indemnisation pour retard ne peuvent être déposées qu’à partir du 3e jour après le voyage. Les consommateurs disposent ensuite de jusqu’à 12 mois après l’incident pour réclamer directement en ligne le remboursement de 25 % ou 50 %."
+  },
+  {
+    "name": "Renfe",
+    "slug": "renfe",
+    "adresse": "Renfe Viajeros S.A.\nAvenida de Ciudad de Barcelona 6\n28007 Madrid\nEspagne",
+    "land": "Espagne",
+    "infobox": "En plus de l’AVE, Renfe propose aussi pour les trains Alvia et Intercity des droits nationaux améliorés en matière de ponctualité (par ex. 50 % de remboursement à partir de 60 minutes). Les demandes d’indemnisation peuvent être déposées facilement dans le portail client – il est important de conserver l’ID original du billet."
+  },
+  {
+    "name": "NS (Nederlandse Spoorwegen)",
+    "slug": "ns",
+    "adresse": "Service clientèle NS\nPostbus 2372\n3500 GJ Utrecht\nPays-Bas",
+    "land": "Pays-Bas",
+    "infobox": "La NS néerlandaise dispose du système convivial 'Geld terug bij vertraging' (argent remboursé en cas de retard). Sur les lignes nationales, vous pouvez souvent obtenir jusqu’à 50 % du prix du billet dès 30 minutes de retard sur les liaisons Intercity."
+  },
+  {
+    "name": "SNCB / NMBS (Belgische Bahn)",
+    "slug": "sncb",
+    "adresse": "SNCB Customer Service\nAvenue de la Porte de Hal 40\n1060 Bruxelles\nBelgique",
+    "land": "Belgique",
+    "infobox": "Chez la SNCB belge, des indemnisations forfaitaires pour les navetteurs existent en cas de retards répétés de moindre importance (par ex. si, dans un délai de 6 mois, vous avez eu au moins 20 retards de plus de 15 minutes). Pour les retards isolés, le seuil habituel de 60 minutes s’applique."
+  },
+  {
+    "name": "Eurostar",
+    "slug": "eurostar",
+    "adresse": "Eurostar Traveller Care\n2e étage, Kent House\n81 Station Road\nAshford, TN23 1AP\nRoyaume-Uni",
+    "land": "Royaume-Uni",
+    "infobox": "Comme Eurostar relie le continent européen à la Grande-Bretagne, des conditions tarifaires spécifiques s’appliquent après le Brexit. Les passagers bénéficient à partir de 60 minutes de retard d’options attractives – souvent au choix sous forme de paiement en espèces ou d’e-voucher nettement plus avantageux pour les voyages ultérieurs."
+  },
+  {
+    "name": "ČD (České dráhy)",
+    "slug": "cd",
+    "adresse": "České dráhy a.s.\nnábřeží L. Svobody 1222/1\n110 15 Prague 1\nTchéquie",
+    "land": "Tchéquie",
+    "infobox": "Chez les Chemins de fer tchèques (ČD), vous recevez à partir de 60 minutes de retard dans le trafic international un remboursement de 25 % du prix du billet. Les billets en ligne achetés dans la boutique en ligne propre peuvent être réclamés particulièrement facilement en cas de retard, d’un simple clic dans le compte client."
+  },
+  {
+    "name": "DSB (Danske Statsbaner)",
+    "slug": "dsb",
+    "adresse": "Service clientèle DSB\nTelegade 2\n2630 Taastrup\nDanemark",
+    "land": "Danemark",
+    "infobox": "La DSB danoise propose une 'Rejsetidsgaranti' (garantie de temps de trajet). Si vous vous inscrivez en ligne à ce programme, vous recevez automatiquement, en cas de retard à partir de 30 minutes sur les lignes danoises, un remboursement proportionnel supérieur aux normes minimales de l’UE."
+  },
+  {
+    "name": "metronom",
+    "slug": "metronom",
+    "adresse": "metronom Eisenbahngesellschaft mbH\nCentre clientèle\nSt.-Viti-Straße 15\n29525 Uelzen\nAllemagne",
+    "land": "Allemagne",
+    "infobox": "En tant qu’opérateur régional dans le nord de l’Allemagne, metronom est soumis aux droits des passagers du transport régional allemand. Important pour le Deutschlandticket : en cas de retard dans le transport régional, vous ne pouvez en règle générale pas prendre l’ICE à la place – un remboursement pour des billets longue distance est légalement exclu avec le D-Ticket."
+  },
+  {
+    "name": "ODEG (Ostdeutsche Eisenbahn)",
+    "slug": "odeg",
+    "adresse": "Service clientèle ODEG\nMöllendorffstraße 49\n10367 Berlin\nAllemagne",
+    "land": "Allemagne",
+    "infobox": "L’ODEG exploite des lignes régionales dans l’est de l’Allemagne. En cas d’annulation de train entraînant un retard de plus de 60 minutes en fin de soirée (arrivée entre 00:00 et 05:00), les frais de taxi alternatifs sont remboursés dans le cadre de la garantie de mobilité, jusqu’à un maximum de 120 euros."
+  },
+  {
+    "name": "National Express",
+    "slug": "national-express",
+    "adresse": "National Express Rail GmbH\nDialogue clientèle\nKölner Straße 266\n51149 Cologne\nAllemagne",
+    "land": "Allemagne",
+    "infobox": "Chez National Express en Rhénanie-du-Nord-Westphalie, les règles forfaitaires pour le transport régional s’appliquent. Les formulaires de droits des passagers peuvent être déposés directement auprès du personnel du train ou en ligne. En cas de correspondance manquée, conservez impérativement des captures d’écran de l’affichage numérique des retards (DB Navigator)."
+  },
+  {
+    "name": "BRB (Bayerische Regiobahn)",
+    "slug": "brb",
+    "adresse": "Bayerische Regiobahn GmbH\nCentre clientèle\nBahnhofplatz 9\n83646 Bad Tölz\nAllemagne",
+    "land": "Allemagne",
+    "infobox": "Pour la Bayerische Regiobahn, la règle en transport régional est la suivante : à partir de 60 minutes de retard, vous recevez forfaitairement 1,50 euro (2e classe). Attention au droit des voyageurs : les montants inférieurs à 4,00 euros ne sont pas versés par le Servicecenter Fahrgastrechte – vous devez cumuler plusieurs cas de retard et les déposer ensemble."
+  },
+  {
+    "name": "agilis",
+    "slug": "agilis",
+    "adresse": "agilis Eisenbahngesellschaft mbH & Co. KG\nCentre clientèle\nGalgenbergstraße 2a\n93053 Ratisbonne\nAllemagne",
+    "land": "Allemagne",
+    "infobox": "Les trains agilis en Bavière relèvent des droits des passagers applicables à l’échelle nationale. Si, à cause d’une suppression de train agilis, vous manquez la dernière correspondance de la journée, l’entreprise doit prendre en charge les frais d’un transport alternatif (par ex. taxi jusqu’à 120 euros max.) pour vous conduire à destination."
+  },
+  {
+    "name": "vlexx",
+    "slug": "vlexx",
+    "adresse": "vlexx GmbH\nCentre clientèle\nMombacher Str. 36\n55122 Mayence\nAllemagne",
+    "land": "Allemagne",
+    "infobox": "Chez vlexx (Rhénanie-Palatinat/Sarre), la règle est la suivante : si vous possédez un billet simple régulier et qu’un retard de plus de 20 minutes à la destination finale est prévisible, vous pouvez prendre un train longue distance (IC/ICE). Vous devez d’abord acheter le billet et faire valoir ensuite les frais auprès du service clientèle."
+  },
+  {
+    "name": "erixx",
+    "slug": "erixx",
+    "adresse": "erixx GmbH\nCentre clientèle\nSt.-Viti-Straße 15\n29525 Uelzen\nAllemagne",
+    "land": "Allemagne",
+    "infobox": "Pour les liaisons erixx en Basse-Saxe, la règle est la suivante : le Deutschlandticket ne donne pas droit à un changement gratuit vers l’ICE en cas de retard dans le transport régional. Les demandes de dommages et intérêts supplémentaires pour des rendez-vous privés manqués sont en principe exclues par le droit ferroviaire."
+  },
+  {
+    "name": "eurobahn",
+    "slug": "eurobahn",
+    "adresse": "eurobahn GmbH & Co. KG\nCentre clientèle\nUnionstraße 3\n59067 Hamm\nAllemagne",
+    "land": "Allemagne",
+    "infobox": "Chez eurobahn en Rhénanie-du-Nord-Westphalie, les suppressions de dernière minute entraînent plus souvent des problèmes. Les voyageurs concernés ont droit au remboursement intégral du prix du billet s’ils ne prennent pas le voyage en raison du retard. En cas de retard de plus de 60 minutes, une restauration gratuite vous est due en gare."
+  },
+  {
+    "name": "cantus",
+    "slug": "cantus",
+    "adresse": "cantus Verkehrsgesellschaft mbH\nCentre clientèle\nBahnhofstraße 1\n34117 Kassel\nAllemagne",
+    "land": "Allemagne",
+    "infobox": "Les trains cantus en Hesse sont soumis aux exigences minimales légales. Les demandes de dommages et intérêts pour préjudices indirects (comme des vols manqués, des réservations d’hôtel ou des billets d’événements) sont malheureusement largement exclues par le règlement d’exploitation ferroviaire (EVO) afin de protéger les chemins de fer."
+  },
+  {
+    "name": "PKP Intercity",
+    "slug": "pkp",
+    "adresse": "PKP Intercity S.A.\nAl. Jerozolimskie 142A\n02-305 Varsovie\nPologne",
+    "land": "Pologne",
+    "infobox": "La PKP Intercity polonaise offre une protection complète de l’UE sur ses lignes longue distance (EIP/EIC). Pour les trains régionaux d’autres opérateurs ferroviaires polonais, il peut toutefois exister des exceptions à l’obligation d’indemnisation. L’obligation de transport de remplacement gratuit en cas d’annulation s’applique toutefois toujours au-delà des frontières."
+  },
+  {
+    "name": "SJ (Statens Järnvägar)",
+    "slug": "sj",
+    "adresse": "SJ AB\nService clientèle\n105 50 Stockholm\nSuède",
+    "land": "Suède",
+    "infobox": "La SJ suédoise dispose d’une 'Resegaranti' nationale très généreuse : à partir de 60 minutes de retard, vous recevez au choix 50 % du prix du billet sous forme de bon d’achat (ou 25 % en espèces), et à partir de 120 minutes de retard même 100 % sous forme de bon (ou 50 % en espèces)."
+  },
+  {
+    "name": "Italo (NTV)",
+    "slug": "italo",
+    "adresse": "Italo - Nuovo Trasporto Viaggiatori S.p.A.\nService clientèle\nViale del Policlinico 149/b\n00161 Rome\nItalie",
+    "land": "Italie",
+    "infobox": "Le train privé italien à grande vitesse Italo crédite souvent automatiquement les indemnisations pour retards à partir de 60 minutes, dans un délai de 30 jours, sous forme de crédit sur le compte client numérique, sans que les consommateurs aient à déposer une demande bureaucratique compliquée."
+  },
+  {
+    "name": "iryo",
+    "slug": "iryo",
+    "adresse": "Intermodalidad de Levante S.A.\nCalle de Méndez Álvaro 56\n28045 Madrid\nEspagne",
+    "land": "Espagne",
+    "infobox": "En tant que nouvel opérateur privé du réseau espagnol à grande vitesse, iryo applique les droits des passagers de l’UE. En cas de retard à partir de 60 minutes, vous avez droit à une indemnisation. En cas d’annulation totale pour raisons d’exploitation, iryo doit fournir un remplacement adéquat et gratuit."
+  },
+  {
+    "name": "CP (Comboios de Portugal)",
+    "slug": "cp",
+    "adresse": "CP - Comboios de Portugal\nCalçada do Duque 20\n1200-156 Lisbonne\nPortugal",
+    "land": "Portugal",
+    "infobox": "Chez la CP portugaise, les demandes d’indemnisation en raison d’annulations ou de retards de train doivent être déposées dans un délai maximal de 30 jours après la date du voyage. Le remboursement s’effectue selon les taux de l’UE de 25 % (à partir de 60 min) ou 50 % (à partir de 120 min)."
+  },
+  {
+    "name": "MÁV-START",
+    "slug": "mav",
+    "adresse": "MÁV-START Zrt.\nÜgyfélszolgálat\nPf. 56.\n1426 Budapest\nHongrie",
+    "land": "Hongrie",
+    "infobox": "La MÁV hongroise exige souvent, en cas de retard dans le trafic intérieur, une confirmation directe du personnel du train ou du service clientèle local en gare sur le billet papier, afin que l’indemnisation puisse être versée ensuite sans difficulté et sans retard."
+  },
+  {
+    "name": "VR (VR-Yhtymä)",
+    "slug": "vr",
+    "adresse": "VR-Yhtymä Oyj\nService clientèle\nPL 7020\n00063 VR\nFinlande",
+    "land": "Finlande",
+    "infobox": "Pour la VR finlandaise, la règle est la suivante : malgré des conditions hivernales extrêmement rudes, l’obligation légale d’assistance en cas d’annulation de train ne disparaît jamais. Si vous êtes bloqué, la VR doit assurer un hébergement à l’hôtel et les transferts, même si le simple versement d’une indemnisation peut être exclu en raison de la force majeure."
+  },
+  {
+    "name": "CFR Călători",
+    "slug": "cfr",
+    "adresse": "SNTFC CFR Călători S.A.\nBd. Dinicu Golescu 38\nSecteur 1\n010873 Bucarest\nRoumanie",
+    "land": "Roumanie",
+    "infobox": "La CFR roumaine souffre structurellement souvent de retards. Les voyageurs ont droit à un remboursement de 25 % en cas de retard de plus de 60 minutes. Comme le traitement sur place peut être compliqué, il est recommandé de déposer une demande écrite via le formulaire officiel en ligne."
+  },
+  {
+    "name": "ZSSK (Železničná spoločnosť Slovensko)",
+    "slug": "zssk",
+    "adresse": "ZSSK a.s.\nCentre clients\nRožňavská 1\n832 72 Bratislava\nSlovaquie",
+    "land": "Slovaquie",
+    "infobox": "Chez la ZSSK slovaque, une annulation de train donne droit à un changement gratuit vers le prochain train disponible de la même catégorie. En cas d’utilisation d’une catégorie supérieure (par ex. InterCity au lieu d’un train régional), une autorisation préalable doit être obtenue au guichet."
+  },
+  {
+    "name": "NordWestBahn",
+    "slug": "nordwestbahn",
+    "adresse": "NordWestBahn GmbH\nDialogue clientèle\nBoîte postale 42 64\n49032 Osnabrück\nAllemagne",
+    "land": "Allemagne",
+    "infobox": "La NordWestBahn est active dans le transport régional allemand. Il n’existe pas de droit à des dommages et intérêts pour des rendez-vous professionnels ou privés manqués à cause d’un retard de train. Le droit se limite strictement au prix du billet (par ex. 1,50 euro forfaitaire pour les abonnements)."
+  },
+  {
+    "name": "HLB (Hessische Landesbahn)",
+    "slug": "hlb",
+    "adresse": "Hessische Landesbahn GmbH\nService clientèle\nErlenstraße 2\n60325 Francfort-sur-le-Main\nAllemagne",
+    "land": "Allemagne",
+    "infobox": "Chez la Hessische Landesbahn (HLB), le système de droits des passagers uniforme à l’échelle nationale s’applique. Les demandes peuvent être déposées le plus facilement en ligne via le compte client DB, à condition que le billet ait été acheté via les canaux de vente numériques de DB ou dans le tarif de réseau."
+  },
+  {
+    "name": "SWEG",
+    "slug": "sweg",
+    "adresse": "SWEG Südwestdeutsche Landesverkehrs-GmbH\nCentre clientèle\nRheinstraße 8\n77933 Lahr\nAllemagne",
+    "land": "Allemagne",
+    "infobox": "Pour la SWEG dans le Bade-Wurtemberg, la règle est la suivante : si vous manquez de manière prouvée la dernière correspondance de la journée à cause d’un retard de train, vous pouvez prendre un taxi. La SWEG rembourse les frais dans le cadre de la garantie de mobilité légale jusqu’à un montant maximal de 120 euros."
+  },
+  {
+    "name": "VIAS",
+    "slug": "vias",
+    "adresse": "VIAS Rail GmbH\nService clientèle\nKölner Straße 266\n51149 Cologne\nAllemagne",
+    "land": "Allemagne",
+    "infobox": "Pour les trains VIAS, le droit des voyageurs s’applique aussi lorsque la cause de l’annulation du train incombe à l’exploitant du réseau ferroviaire (par ex. poste d’aiguillage défectueux de la DB). En cas de non-exécution prévisible du voyage, vous avez droit au remboursement intégral du prix du billet."
+  },
+  {
+    "name": "NEB (Niederbarnimer Eisenbahn)",
+    "slug": "neb",
+    "adresse": "Niederbarnimer Eisenbahn AG\nCentre clientèle\nGeorgenstraße 22\n10117 Berlin\nAllemagne",
+    "land": "Allemagne",
+    "infobox": "La Niederbarnimer Eisenbahn (NEB) est responsable selon les règles du transport régional allemand. Comme de nombreuses lignes relèvent du tarif VBB (Berlin-Brandenburg), les demandes d’indemnisation peuvent être déposées de manière groupée dès que le seuil légal de minimis de 4,00 euros au total est dépassé."
+  }
+]

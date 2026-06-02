@@ -124,5 +124,29 @@
     "name": "Autovermietungen",
     "schalter_taktik": "Quel que soit le prestataire : restez ferme ! Les loueurs forment souvent leur personnel à vendre des assurances complémentaires coûteuses en brandissant des scénarios catastrophes (par ex. taux de vol élevés). Si vous avez souscrit à l’avance une assurance tous risques via un intermédiaire, cela suffit. Ne signez rien que vous ne comprenez pas.",
     "kaution_hinweis": "La règle la plus importante : vous avez presque toujours besoin d’une carte de crédit physique et complète (credit, pas debit !) au nom du conducteur principal. La limite doit être suffisamment élevée (souvent jusqu’à 1.500 €). Sans carte appropriée, le comptoir peut vous contraindre à acheter une assurance coûteuse."
+  },
+  {
+    "slug": "leclerc-location",
+    "name": "E.Leclerc Location",
+    "schalter_taktik": "En tant que service proposé par une grande surface, il n'y a pas de vente agressive d'assurances comme chez les loueurs low-cost des aéroports. Cependant, les employés appliquent scrupuleusement les règles administratives. Le vrai piège réside dans l'état des lieux de retour : le contrôle est souvent extrêmement tatillon. Attention également aux horaires d'ouverture très stricts du guichet de l'hypermarché (souvent fermé le dimanche) ; aucun retard n'est toléré pour la restitution.",
+    "kaution_hinweis": "La caution est obligatoire et prend la forme d'une pré-autorisation bancaire. Les cartes de débit françaises sont acceptées, mais assurez-vous que le plafond de votre compte est suffisant, car la somme (généralement entre 800 € et 1 500 €) est temporairement bloquée et invisible sur votre solde."
+  },
+  {
+    "slug": "u-location",
+    "name": "U Location (Magasins U)",
+    "schalter_taktik": "Pas de pression ni de commissions pour le personnel sur la vente d'options. En revanche, le piège classique chez U Location concerne le nettoyage et le carburant : le véhicule doit être rendu dans un état de propreté irréprochable (intérieur et extérieur) et avec le plein fait au millitre près. Dans le cas contraire, des frais de nettoyage et de dossier forfaitaires très élevés sont appliqués d'office.",
+    "kaution_hinweis": "Une caution par carte bancaire (crédit ou débit avec autorisation systématique) d'un montant variant de 1 000 € à 1 500 € est exigée au nom du conducteur principal. Le terminal effectue un test de provision réel, il faut donc impérativement vérifier ses plafonds avant le jour J."
+  },
+  {
+    "slug": "ada",
+    "name": "ADA Location",
+    "schalter_taktik": "ADA est le premier réseau de location de proximité en France. Lors de la signature du contrat en agence, l'agent insistera régulièrement pour vous faire souscrire à leur pack 'Zéro Franchise' ou à des options d'assistance bris de glace/pneus. La tactique est plus subtile que chez les acteurs low-cost, mais reste très présente pour gonfler la note finale.",
+    "kaution_hinweis": "Le dépôt de garantie s'élève généralement à environ 800 € à 1 200 € pour les catégories standards. Si vous refusez les assurances complémentaires d'ADA, le montant maximal de la franchise sera bloqué sur votre carte bancaire (carte de crédit fortement recommandée)."
+  },
+  {
+    "slug": "virtuo",
+    "name": "Virtuo",
+    "schalter_taktik": "Le concept est 100 % digital : aucun comptoir, aucun employé, tout se fait via l'application smartphone (ouverture de la voiture par Bluetooth). Il n'y a donc aucune pression humaine. La stratégie commerciale est numérique : l'application multiplie les notifications et les options de surclassement ou d'assurance payante ('Premium' ou 'Plus') à chaque étape de la réservation sur l'écran.",
+    "kaution_hinweis": "Virtuo effectue un blocage de caution sur votre carte bancaire de 500 € à 1 000 €. Le point positif : si vous choisissez leur assurance complète 'Premium' dans l'application, le montant de la caution demandée baisse drastiquement pour atteindre seulement 150 €."
   }
 ]

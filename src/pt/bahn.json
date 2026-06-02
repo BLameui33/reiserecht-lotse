@@ -4,307 +4,307 @@
     "slug": "deutsche-bahn",
     "adresse": "Servicecenter Fahrgastrechte\n60647 Frankfurt am Main\nAlemanha",
     "land": "Alemanha",
-    "infobox": "A Deutsche Bahn está sujeita aos direitos dos passageiros da UE. A partir de 60 minutos de atraso no destino, você recebe de volta 25%, e a partir de 120 minutos, 50% do preço da passagem. Desde a reforma de 2023, o pagamento puro de indenização deixa de existir em caso de eventos climáticos extremos (força maior) — porém as obrigações de assistência (hotel, alimentação) permanecem sempre em vigor."
+    "infobox": "<p>A Deutsche Bahn é a principal operadora ferroviária da Alemanha e liga, sobretudo, cidades alemãs com conexões internacionais na Europa. Para atrasos de comboio, cancelamentos e indemnização, aplicam-se as <strong>EU-Fahrgastrechte</strong> ao abrigo do regulamento da UE sobre os direitos dos passageiros no transporte ferroviário. Em caso de <strong>Verspätung ab 60 Minuten</strong>, pode haver <strong>Fahrpreiserstattung</strong> de 25%, e a partir de 120 minutos, 50% do preço do bilhete. A sede jurídica e do serviço ao cliente situa-se em Berlim, Alemanha. Em casos de força maior, a assistência continua a ser devida.</p><!--opt-->"
   },
   {
     "name": "ICE (Deutsche Bahn)",
     "slug": "ice",
     "adresse": "Servicecenter Fahrgastrechte\n60647 Frankfurt am Main\nAlemanha",
     "land": "Alemanha",
-    "infobox": "Para as conexões ICE, vale o seguinte: se houver risco de atraso superior a 20 minutos no destino, você pode usar outro trem sem necessidade de reserva, sem custo adicional. Se você trocar um bilhete de transporte regional por um ICE, muitas vezes precisa pagar o bilhete primeiro por conta própria e depois solicitar o reembolso."
+    "infobox": "<p>O ICE da Deutsche Bahn é o serviço ferroviário de alta velocidade da Alemanha, ligado sobretudo às principais cidades do país e a algumas rotas internacionais na Europa. Para temas de atraso de comboio, cancelamento e indemnização, aplicam-se as EU-Fahrgastrechte, em especial o Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros ferroviários. Em caso de Verspätung ab 60 Minuten, os passageiros podem ter direito a reembolso parcial, assistência ou Fahrpreiserstattung. O centro de atendimento e sede jurídica relevantes situam-se em Berlim, Alemanha. Em ligações ICE, verifique sempre as condições de reencaminhamento e reserva.</p><!--opt-->"
   },
   {
     "name": "AVE (Renfe)",
     "slug": "ave",
     "adresse": "Renfe Viajeros S.A.\nAvenida de Ciudad de Barcelona 6\n28007 Madrid\nEspanha",
     "land": "Espanha",
-    "infobox": "A espanhola Renfe oferece, para seus trens de alta velocidade AVE, garantias voluntárias de pontualidade que vão muito além do mínimo exigido pela UE. Dependendo da rota e da tarifa escolhidas, você já recebe de volta partes significativas do preço da passagem (até 100%) a partir de 15 ou 30 minutos de atraso."
+    "infobox": "<p>A AVE, operada pela Renfe, é a principal rede de alta velocidade da Espanha e liga cidades como Madrid, Barcelona, Sevilha, Valência e Málaga. Em casos de atraso do comboio, cancelamento ou ligação perdida, aplicam-se as EU-Fahrgastrechte nos termos do Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros ferroviários. Para uma Verspätung ab 60 Minuten, os viajantes podem ter direito a assistência, reencaminhamento ou Fahrpreiserstattung, além de eventual indemnização. A sede jurídica da Renfe e o serviço de apoio ao cliente ficam em Madrid, Espanha.</p><!--opt-->"
   },
   {
     "name": "OUIGO España",
     "slug": "ouigo-espana",
     "adresse": "OUIGO España S.A.U.\nCalle de Alcalá 44\n28014 Madrid\nEspanha",
     "land": "Espanha",
-    "infobox": "Como operadora de baixo custo, a OUIGO aplica na Espanha os requisitos mínimos legais da UE. Em caso de cancelamento do trem, você tem direito a uma remarcação gratuita ou ao reembolso. As indenizações muitas vezes são oferecidas principalmente na forma de vouchers, mas legalmente você pode exigir o pagamento em dinheiro/transferência bancária."
+    "infobox": "<p>A OUIGO España é uma operadora ferroviária de baixo custo que atua sobretudo em Espanha, ligando cidades como Madrid, Barcelona, Valência, Saragoça e Alicante em serviços de alta velocidade. Em caso de atraso do comboio, cancelamento ou ligação perdida, aplicam-se os EU-Fahrgastrechte previstos no Regulamento (CE) n.º 1371/2007 relativo aos direitos dos passageiros ferroviários. Em regra, a partir de uma Verspätung ab 60 Minuten pode haver indemnização, reencaminhamento ou Fahrpreiserstattung. O serviço de apoio ao cliente e a sede operacional situam-se em Madrid, Espanha.</p><!--opt-->"
   },
   {
     "name": "Avlo (Renfe)",
     "slug": "avlo",
     "adresse": "Renfe Viajeros S.A.\nAvenida de Ciudad de Barcelona 6\n28007 Madrid\nEspanha",
     "land": "Espanha",
-    "infobox": "Avlo é a marca de baixo custo da espanhola Renfe. Ao contrário dos trens AVE regulares, aqui não se aplicam as garantias ampliadas de pontualidade da Renfe, mas apenas os valores mínimos legais da UE (25% a partir de 60 min., 50% a partir de 120 min. de atraso)."
+    "infobox": "<p>A Avlo, a marca low-cost da Renfe, opera sobretudo em ligações de alta velocidade em Espanha, conectando cidades como Madrid, Barcelona, Valência e Sevilha. Em caso de atraso do comboio, cancelamento ou perda de ligação, aplicam-se as EU-Fahrgastrechte ao abrigo do Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros ferroviários. Para uma Verspätung ab 60 Minuten, pode haver direito a reembolso parcial: 25% do preço do bilhete a partir de 60 minutos e 50% a partir de 120 minutos. A sede jurídica e o serviço de apoio ao cliente situam-se em Madrid.</p><!--opt-->"
   },
   {
     "name": "Frecciarossa (Trenitalia)",
     "slug": "frecciarossa",
     "adresse": "Trenitalia S.p.A.\nUfficio Reclami e Rimborsi\nPiazza della Croce Rossa 1\n00161 Roma\nItália",
     "land": "Itália",
-    "infobox": "Nos trens italianos Frecciarossa há uma particularidade no direito de viagem: em caso de atraso entre 30 e 59 minutos, você não recebe pagamento em dinheiro, mas um voucher de 25% do preço do bilhete para a sua próxima reserva."
+    "infobox": "<p>O Frecciarossa, operado pela Trenitalia, é o serviço de alta velocidade da Itália e liga sobretudo grandes cidades como Milão, Roma, Nápoles e Turim. Para atrasos, cancelamentos e pedidos de compensação, aplicam-se as EU-Fahrgastrechte nos termos do Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros ferroviários. Em caso de Verspätung ab 60 Minuten, os passageiros podem ter direito a reembolso parcial, assistência ou Fahrpreiserstattung, conforme o bilhete e a situação concreta. O atendimento ao cliente e a sede jurídica da Trenitalia ficam em Roma, Itália.</p><!--opt-->"
   },
   {
     "name": "Trenord",
     "slug": "trenord",
     "adresse": "Trenord S.r.l.\nPiazzale Cadorna 14\n20123 Milão\nItália",
     "land": "Itália",
-    "infobox": "Na Trenord (transporte regional na Lombardia), as indenizações para passageiros frequentes e titulares de passes mensais muitas vezes são reguladas por um índice mensal geral de pontualidade da respectiva linha ('Bonus Trenord'), em vez de processar pedidos separados para cada atraso em minutos."
+    "infobox": "<p>A Trenord é a principal operadora ferroviária regional da Lombardia, em Itália, ligando sobretudo Milão a cidades e destinos do norte do país. Em caso de atraso de comboio, cancelamento ou falha de ligação, aplicam-se as EU-Fahrgastrechte ao abrigo do Regulamento (CE) n.º 1371/2007, incluindo indemnização por Verspätung ab 60 Minuten e possível Fahrpreiserstattung. Para clientes com assinaturas e títulos mensais, existem muitas vezes regras próprias, como o Bonus Trenord, baseadas no desempenho mensal da linha. A sede jurídica e o atendimento ao cliente situam-se em Milão.</p><!--opt-->"
   },
   {
     "name": "TGV (SNCF)",
     "slug": "tgv",
     "adresse": "Service Relation Client SNCF\n62973 ARRAS Cedex 9\nFrança",
     "land": "França",
-    "infobox": "A francesa SNCF oferece para o TGV a amigável 'Garantie G30': independentemente da causa do atraso (inclusive em caso de força maior), você recebe uma indenização de 25% em voucher a partir de 30 minutos de atraso, e até 75% em caso de atraso superior a 3 horas."
+    "infobox": "<p>O TGV, operado pela SNCF, é o principal serviço de alta velocidade da França e liga cidades como Paris, Lyon, Marselha, Lille e Bordeaux, além de rotas internacionais selecionadas. Em caso de atraso do trem, cancelamento ou perda de ligação, aplicam-se as <strong>EU-Fahrgastrechte</strong> conforme o Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros ferroviários. Para uma <strong>Verspätung ab 60 Minuten</strong>, os viajantes podem ter direito a assistência, reembolso parcial ou <strong>Fahrpreiserstattung</strong>. A sede jurídica da SNCF fica em Saint-Denis, França, onde também se localiza o atendimento ao cliente.</p><!--opt-->"
   },
   {
     "name": "Nightjet (ÖBB)",
     "slug": "nightjet",
     "adresse": "ÖBB-Personenverkehr AG\nKundenservice\nPostfach 75\n1020 Viena\nÁustria",
     "land": "Áustria",
-    "infobox": "Nos trens noturnos Nightjet da ÖBB, você tem direito a uma indenização de 25% a partir de 60 minutos de atraso na estação de destino. Se o aquecimento ou o ar-condicionado no vagão-leito falhar completamente e não for possível trocar de compartimento, você pode reivindicar reembolsos adicionais por redução significativa do conforto."
+    "infobox": "<p>O Nightjet (ÖBB) é o serviço de trens noturnos das Ferrovias Federais Austríacas, operando sobretudo em rotas internacionais pela Áustria, Alemanha, Itália, Suíça e outros países europeus. Em caso de atraso do trem, cancelamento ou perda de conexão, aplicam-se as EU-Fahrgastrechte conforme o Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros ferroviários: em geral, há direito a indenização a partir de 60 minutos de atraso na chegada e, dependendo do caso, também a Fahrpreiserstattung. A sede jurídica e do atendimento ao cliente fica em Viena, Áustria.</p><!--opt-->"
   },
   {
     "name": "FlixTrain",
     "slug": "flixtrain",
     "adresse": "FlixTrain GmbH\nFahrgastrechte\nPostfach 10 30 47\n70026 Stuttgart\nAlemanha",
     "land": "Alemanha",
-    "infobox": "A FlixTrain é uma empresa ferroviária privada. Em caso de cancelamento do trem, você não pode simplesmente usar um bilhete da Deutsche Bahn (por exemplo, ICE). A troca para trens da DB às custas da FlixTrain só é permitida sob critérios legais de emergência muito restritos ou após autorização expressa."
+    "infobox": "<p>A FlixTrain é uma operadora ferroviária privada da Flix SE, que liga sobretudo cidades na Alemanha e, em algumas ligações, também destinos internacionais próximos. Em caso de atraso ou cancelamento, aplicam-se as EU-Fahrgastrechte previstas no Regulamento (CE) n.º 1371/2007, incluindo compensação por Verspätung ab 60 Minuten e, em certas situações, Fahrpreiserstattung. O serviço de apoio ao cliente e a sede operacional para questões de passageiros situam-se em Berlim, Alemanha. Em geral, um bilhete FlixTrain não autoriza automaticamente o uso de comboios da Deutsche Bahn; a reacomodação só ocorre nos casos legalmente previstos ou mediante autorização expressa.</p><!--opt-->"
   },
   {
     "name": "ÖBB (Österreichische Bundesbahnen)",
     "slug": "oebb",
     "adresse": "ÖBB-Personenverkehr AG\nKundenservice\nPostfach 75\n1020 Viena\nÁustria",
     "land": "Áustria",
-    "infobox": "As Ferrovias Federais Austríacas regulam os direitos dos passageiros de forma muito confiável. Para passes nacionais e assinaturas semanais/mensais, existe um modelo de indenização previsto em lei, que no fim do período é calculado com base no grau exato de pontualidade mensal da linha utilizada."
+    "infobox": "<p>As ÖBB (Österreichische Bundesbahnen) são a principal empresa ferroviária da Áustria e operam sobretudo ligações nacionais, regionais e internacionais a partir de Viena e de outros grandes centros do país. Em caso de atraso de comboio, supressão ou ligação perdida, aplicam-se as EU-Fahrgastrechte nos termos do Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros ferroviários. Para uma Verspätung ab 60 Minuten, pode existir direito a Fahrpreiserstattung parcial ou total, consoante as circunstâncias. A sede jurídica e do atendimento ao cliente situa-se em Viena, Áustria.</p><!--opt-->"
   },
   {
     "name": "WESTbahn",
     "slug": "westbahn",
     "adresse": "WESTbahn Management GmbH\nEuropaplatz 3\n1150 Viena\nÁustria",
     "land": "Áustria",
-    "infobox": "Como operadora privada de transporte de longa distância na Áustria, a WESTbahn aplica integralmente os direitos dos passageiros da UE. Em caso de cancelamento do trem, você tem direito a transporte alternativo no próximo trem ou ao reembolso integral do preço do bilhete, se a viagem tiver se tornado inútil."
+    "infobox": "<p>A WESTbahn é uma operadora privada de comboios de longa distância na Áustria, com ligações sobretudo no eixo Viena–Linz–Salzburgo. Para atrasos de comboio, cancelamentos e indemnização, aplicam-se as EU-Fahrgastrechte nos termos do regulamento europeu sobre os direitos dos passageiros ferroviários. Em caso de Verspätung ab 60 Minuten, os viajantes podem ter direito a assistência, reencaminhamento ou Fahrpreiserstattung, consoante a situação. A sede jurídica e o serviço de apoio ao cliente da WESTbahn ficam em Viena. Se o comboio for suprimido, verifique também o direito a transporte alternativo e à reembolso do bilhete.</p><!--opt-->"
   },
   {
     "name": "SBB (Schweizerische Bundesbahnen)",
     "slug": "sbb",
     "adresse": "SBB Kundendienst\nPostfach\n3000 Berna 65\nSuíça",
     "land": "Suíça",
-    "infobox": "Embora a Suíça não seja membro da UE, na SBB aplicam-se direitos harmonizados dos passageiros (25% a partir de 60 min., 50% a partir de 120 min. de atraso). Importante para as conexões apertadas do horário suíço: se você perder a última conexão por causa de um atraso, a SBB cobre os custos de táxi ou hotel."
+    "infobox": "<p>A SBB (Schweizerische Bundesbahnen) é a principal empresa ferroviária da Suíça, com uma rede nacional densa e ligações frequentes a cidades suíças e destinos internacionais próximos. Para temas de <strong>atraso de comboio, cancelamento e indemnização</strong>, aplicam-se em muitos casos os <strong>EU-Fahrgastrechte</strong> da Regulamento (CE) n.º 1371/2007, incluindo <strong>Verspätung ab 60 Minuten</strong> com direito a assistência e, consoante o caso, <strong>Fahrpreiserstattung</strong> parcial. A SBB tem a sua sede jurídica em Berna; o serviço de apoio ao cliente também opera a partir da Suíça.</p><!--opt-->"
   },
   {
     "name": "SNCF (Société Nationale des Chemins de fer Français)",
     "slug": "sncf",
     "adresse": "Service Relation Client SNCF\n62973 ARRAS Cedex 9\nFrança",
     "land": "França",
-    "infobox": "A SNCF regula cancelamentos de trens estritamente de acordo com o direito francês e europeu. Em caso de greves ferroviárias (Grèves), mais frequentes na França, você sempre tem direito a remarcação gratuita ou ao reembolso do preço do bilhete, desde que o seu trem tenha sido cancelado."
+    "infobox": "<p>A SNCF (Société Nationale des Chemins de fer Français) é a operadora ferroviária nacional da França e liga, sobretudo, destinos dentro do território francês e em conexões internacionais na Europa. Em caso de atraso de trem, cancelamento ou perda de ligação, aplicam-se as EU-Fahrgastrechte e o Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros ferroviários. A partir de uma Verspätung ab 60 Minuten, os viajantes podem ter direito a assistência, reencaminhamento ou Fahrpreiserstattung, conforme o caso. O principal centro de atendimento e sede jurídica da SNCF fica em Saint-Denis, França.</p><!--opt-->"
   },
   {
     "name": "Trenitalia",
     "slug": "trenitalia",
     "adresse": "Trenitalia S.p.A.\nUfficio Reclami e Rimborsi\nPiazza della Croce Rossa 1\n00161 Roma\nItália",
     "land": "Itália",
-    "infobox": "Para trens de longa distância na Itália, vale o seguinte: pedidos de indenização por atraso só podem ser apresentados a partir do 3º dia após a viagem. Os consumidores têm até 12 meses após o ocorrido para solicitar diretamente online o reembolso de 25% ou 50%."
+    "infobox": "<p>A Trenitalia é a principal operadora ferroviária da Itália, com uma vasta rede de comboios regionais, intercity e de alta velocidade ligando cidades como Roma, Milão, Nápoles e Florença. Em caso de atraso, cancelamento ou perda de ligação, aplicam-se os EU-Fahrgastrechte e o Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros ferroviários. Para uma Verspätung ab 60 Minuten, os viajantes podem ter direito a assistência, Fahrpreiserstattung ou indemnização, conforme o tipo de bilhete e a rota. A sede jurídica e o serviço de apoio ao cliente da Trenitalia ficam em Roma, Itália.</p><!--opt-->"
   },
   {
     "name": "Renfe",
     "slug": "renfe",
     "adresse": "Renfe Viajeros S.A.\nAvenida de Ciudad de Barcelona 6\n28007 Madrid\nEspanha",
     "land": "Espanha",
-    "infobox": "Além do AVE, a Renfe também oferece para os trens Alvia e Intercity direitos nacionais de pontualidade aprimorados (por exemplo, 50% de reembolso a partir de 60 minutos). Os pedidos de indenização podem ser enviados facilmente pelo portal do cliente — o importante é guardar o ID original do bilhete."
+    "infobox": "<p>A Renfe é a principal operadora ferroviária de Espanha, com uma vasta rede de comboios AVE, Alvia, Intercity, Avant e regionais que liga grandes cidades e destinos turísticos em todo o país. Em caso de atraso de comboio, cancelamento ou perda de ligação, aplicam-se as EU-Fahrgastrechte previstas no Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros ferroviários. Para uma Verspätung ab 60 Minuten, pode haver direito a indemnização ou Fahrpreiserstattung, conforme a situação. O pedido é normalmente apresentado online, sendo importante guardar o bilhete e o comprovativo da viagem. A sede da Renfe e do atendimento ao cliente fica em Madrid.</p><!--opt-->"
   },
   {
     "name": "NS (Nederlandse Spoorwegen)",
     "slug": "ns",
     "adresse": "NS Klantenservice\nPostbus 2372\n3500 GJ Utrecht\nPaíses Baixos",
     "land": "Países Baixos",
-    "infobox": "A holandesa NS dispõe do sistema amigável 'Geld terug bij vertraging' (dinheiro de volta por atraso). Em linhas nacionais, nas conexões Intercity, você muitas vezes já recebe de volta até 50% do preço da passagem a partir de 30 minutos de atraso."
+    "infobox": "<p>A NS (Nederlandse Spoorwegen) é a principal empresa ferroviária dos Países Baixos e opera sobretudo ligações nacionais entre cidades como Amesterdão, Roterdão, Haia e Utrecht. Em caso de atraso de comboio, cancelamento ou ligação perdida, aplicam-se as EU-Fahrgastrechte nos termos do Regulamento (CE) n.º 1371/2007 sobre os direitos e obrigações dos passageiros ferroviários. Para viagens NS, pode haver Fahrpreiserstattung ou indemnização, especialmente em caso de Verspätung ab 60 Minuten. A sede e o serviço de apoio ao cliente da NS ficam em Utrecht.</p><!--opt-->"
   },
   {
     "name": "SNCB / NMBS (Belgische Bahn)",
     "slug": "sncb",
     "adresse": "SNCB Customer Service\nAvenue de la Porte de Hal 40\n1060 Bruxelas\nBélgica",
     "land": "Bélgica",
-    "infobox": "Na belga SNCB, em caso de atrasos menores repetidos (por exemplo, se dentro de 6 meses você tiver se atrasado mais de 15 minutos pelo menos 20 vezes), há uma indenização fixa para passageiros frequentes. Em atrasos individuais, aplica-se o limite usual de 60 minutos."
+    "infobox": "<p>A SNCB/NMBS é a operadora ferroviária nacional da Bélgica e liga sobretudo cidades e regiões do país, com conexões frequentes para países vizinhos. Em caso de atraso de comboio, cancelamento ou ligação perdida, aplicam-se as EU-Fahrgastrechte segundo o Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros ferroviários. Para uma <strong>Verspätung ab 60 Minuten</strong>, pode existir direito a indemnização ou <strong>Fahrpreiserstattung</strong>, consoante o caso. A sede e o serviço de apoio ao cliente estão em Bruxelas, Bélgica. Passageiros frequentes também podem beneficiar de regras específicas para atrasos repetidos.</p><!--opt-->"
   },
   {
     "name": "Eurostar",
     "slug": "eurostar",
     "adresse": "Eurostar Traveller Care\n2nd Floor, Kent House\n81 Station Road\nAshford, TN23 1AP\nReino Unido",
     "land": "Reino Unido",
-    "infobox": "Como a Eurostar conecta o continente europeu com a Grã-Bretanha, após o Brexit aplicam-se condições tarifárias específicas. Os passageiros recebem opções atraentes a partir de 60 minutos de atraso — muitas vezes à escolha entre pagamento em dinheiro ou um e-voucher significativamente mais valioso para viagens futuras."
+    "infobox": "<p>A Eurostar é a operadora de comboios de alta velocidade que liga sobretudo o Reino Unido a França, Bélgica e Países Baixos, com ligações centrais como Londres, Paris, Bruxelas e Amesterdão. Para atrasos de comboio, cancelamentos e indemnização, aplicam-se as EU-Fahrgastrechte previstas no Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros ferroviários. Em caso de Verspätung ab 60 Minuten, os passageiros podem ter direito a assistência, Fahrpreiserstattung ou reencaminhamento. A sede jurídica e do serviço de apoio ao cliente da Eurostar situa-se em Londres, Reino Unido.</p><!--opt-->"
   },
   {
     "name": "ČD (České dráhy)",
     "slug": "cd",
     "adresse": "České dráhy a.s.\nnábřeží L. Svobody 1222/1\n110 15 Praga 1\nTchéquia",
     "land": "Tchéquia",
-    "infobox": "Nas Ferrovias Tchecas (ČD), você recebe 25% de reembolso do preço da passagem a partir de 60 minutos de atraso no tráfego internacional. Os bilhetes online comprados na própria loja virtual podem ser reclamados de forma especialmente simples, com um clique, na conta do cliente."
+    "infobox": "<p>A ČD (České dráhy) é a operadora ferroviária nacional da República Checa e liga, sobretudo, cidades e regiões do país, além de oferecer conexões internacionais para a Alemanha, Áustria, Eslováquia e Polónia. Em caso de atraso de comboio, supressão ou ligação perdida, aplicam-se as EU-Fahrgastrechte, com base no Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros ferroviários. A partir de uma Verspätung ab 60 Minuten, pode haver direito a Fahrpreiserstattung ou indemnização. A sede jurídica e do serviço de apoio ao cliente situa-se em Praga.</p><!--opt-->"
   },
   {
     "name": "DSB (Danske Statsbaner)",
     "slug": "dsb",
     "adresse": "DSB Kundecenter\nTelegade 2\n2630 Taastrup\nDinamarca",
     "land": "Dinamarca",
-    "infobox": "A dinamarquesa DSB oferece uma 'Rejsetidsgaranti' (garantia de tempo de viagem). Se você se registrar online para esse programa, receberá automaticamente, em caso de atrasos a partir de 30 minutos nas linhas dinamarquesas, um reembolso proporcional que supera os padrões mínimos da UE."
+    "infobox": "<p>A DSB (Danske Statsbaner) é a principal empresa ferroviária estatal da Dinamarca e opera sobretudo comboios regionais e intermunicipais em todo o país, incluindo ligações importantes entre Copenhaga, Odense, Aarhus e Aalborg. Em caso de atraso de comboio, cancelamento ou perda de ligação, aplicam-se as EU-Fahrgastrechte e o Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros no transporte ferroviário. Normalmente, a partir de uma Verspätung ab 60 Minuten pode haver indemnização, assistência ou Fahrpreiserstattung, consoante o caso. A sede jurídica e o serviço de apoio ao cliente estão em Copenhaga.</p><!--opt-->"
   },
   {
     "name": "metronom",
     "slug": "metronom",
     "adresse": "metronom Eisenbahngesellschaft mbH\nKundenzentrum\nSt.-Viti-Straße 15\n29525 Uelzen\nAlemanha",
     "land": "Alemanha",
-    "infobox": "Como operadora regional no norte da Alemanha, a metronom está sujeita aos direitos dos passageiros do transporte regional alemão. Importante para o Deutschlandticket: em caso de atrasos no transporte regional, em regra você não pode optar pelo ICE — o reembolso de bilhetes de longa distância com o D-Ticket é legalmente excluído."
+    "infobox": "<p>A metronom é uma operadora ferroviária regional na Alemanha, com atuação sobretudo na Baixa Saxónia, em rotas como Hamburgo–Hanôver e ligações para a região de Bremen. Em caso de atraso do comboio, cancelamento ou falha de ligação, aplicam-se as EU-Fahrgastrechte e o Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros ferroviários. A partir de uma Verspätung ab 60 Minuten, pode haver direito a compensação ou Fahrpreiserstattung, conforme o caso. O serviço de apoio ao cliente da metronom está sediado em Uelzen, onde também se encontra a sede operacional.</p><!--opt-->"
   },
   {
     "name": "ODEG (Ostdeutsche Eisenbahn)",
     "slug": "odeg",
     "adresse": "ODEG Kundenservice\nMöllendorffstraße 49\n10367 Berlim\nAlemanha",
     "land": "Alemanha",
-    "infobox": "A ODEG opera linhas regionais no leste da Alemanha. Se houver cancelamentos que resultem em atraso superior a 60 minutos no fim da noite (chegada entre 00:00 e 05:00), os custos alternativos de táxi são reembolsados no âmbito da garantia de mobilidade, até no máximo 120 euros."
+    "infobox": "<p>A ODEG (Ostdeutsche Eisenbahn) é uma operadora ferroviária regional que atua sobretudo no leste da Alemanha, com ligações em Brandemburgo, Saxónia, Mecklemburgo-Pomerânia Ocidental e Berlim. Em caso de atraso de comboio, cancelamento ou interrupção, aplicam-se as EU-Fahrgastrechte ao abrigo do Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros ferroviários. A partir de uma Verspätung ab 60 Minuten, pode haver direito a indemnização, reembolso do bilhete ou Fahrpreiserstattung, conforme o caso. A sede jurídica e o serviço de apoio ao cliente da ODEG situam-se em Berlin.</p><!--opt-->"
   },
   {
     "name": "National Express",
     "slug": "national-express",
     "adresse": "National Express Rail GmbH\nKundendialog\nKölner Straße 266\n51149 Colônia\nAlemanha",
     "land": "Alemanha",
-    "infobox": "Na National Express em NRW, aplicam-se as regras fixas para o transporte regional. Os formulários de direitos dos passageiros podem ser enviados diretamente à equipe do trem ou online. Em caso de conexões perdidas, guarde obrigatoriamente capturas de tela da exibição digital de atrasos (DB Navigator)."
+    "infobox": "<p>A National Express é uma operadora ferroviária regional ativa sobretudo na Renânia do Norte-Vestfália, na Alemanha, com serviços em ligações suburbanas e regionais. Em casos de Zugverspätung, Zugausfall e ligações perdidas, aplicam-se as EU-Fahrgastrechte previstas no Regulamento (CE) n.º 1371/2007. A partir de uma Verspätung ab 60 Minuten, os passageiros podem ter direito a indemnização ou Fahrpreiserstattung. O serviço de apoio ao cliente e sede jurídica da National Express Rail GmbH ficam em Colónia. Guarde comprovativos, horários e capturas de ecrã para fundamentar o pedido de compensação.</p><!--opt-->"
   },
   {
     "name": "BRB (Bayerische Regiobahn)",
     "slug": "brb",
     "adresse": "Bayerische Regiobahn GmbH\nKundencenter\nBahnhofplatz 9\n83646 Bad Tölz\nAlemanha",
     "land": "Alemanha",
-    "infobox": "Para a Bayerische Regiobahn, no transporte regional vale o seguinte: em atrasos a partir de 60 minutos, você recebe um valor fixo de 1,50 euro (2ª classe). Atenção ao direito de viagem: valores abaixo de 4,00 euros não são pagos pelo Servicecenter Fahrgastrechte — você precisa acumular vários casos de atraso e enviá-los juntos."
+    "infobox": "<p>A BRB (Bayerische Regiobahn) é uma operadora ferroviária regional da Baviera, Alemanha, com ligações típicas em redes locais e regionais, incluindo rotas para áreas urbanas e turísticas no sul do país. Em caso de atraso de comboio, cancelamento ou perda de ligação, aplicam-se as <strong>EU-Fahrgastrechte</strong> ao abrigo do Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros ferroviários. Para uma <strong>Verspätung ab 60 Minuten</strong>, pode haver direito a indemnização; em alguns casos, também a <strong>Fahrpreiserstattung</strong>. O serviço de atendimento e processamento de reclamações da BRB tem sede na Baviera, Alemanha.</p><!--opt-->"
   },
   {
     "name": "agilis",
     "slug": "agilis",
     "adresse": "agilis Eisenbahngesellschaft mbH & Co. KG\nKundencenter\nGalgenbergstraße 2a\n93053 Regensburg\nAlemanha",
     "land": "Alemanha",
-    "infobox": "Os trens agilis na Baviera estão sujeitos aos direitos dos passageiros em vigor em todo o país. Se, devido a um cancelamento da agilis, você perder a última conexão do dia, a empresa deve cobrir os custos de transporte alternativo (por exemplo, táxi até no máximo 120 euros) para levá-lo ao destino."
+    "infobox": "<p>A agilis é uma operadora ferroviária regional na Alemanha, com foco sobretudo na Baviera e em ligações locais e regionais. Em caso de atraso de comboio, cancelamento ou perda de ligação, aplicam-se as EU-Fahrgastrechte nos termos do Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros dos caminhos de ferro. A partir de uma Verspätung ab 60 Minuten, pode existir direito a assistência, Fahrpreiserstattung ou indemnização. A sede jurídica e do serviço de apoio ao cliente da agilis fica em Regensburg, Alemanha. Em certas situações, a empresa também deve suportar transporte alternativo para o destino.</p><!--opt-->"
   },
   {
     "name": "vlexx",
     "slug": "vlexx",
     "adresse": "vlexx GmbH\nKundencenter\nMombacher Str. 36\n55122 Mainz\nAlemanha",
     "land": "Alemanha",
-    "infobox": "Na vlexx (Renânia-Palatinado/Sarre), vale o seguinte: se você possui um bilhete individual regular e no destino for previsível um atraso superior a 20 minutos, você pode trocar para um trem de longa distância (IC/ICE). Você precisa comprar o bilhete primeiro e depois reivindicar os custos junto ao service center."
+    "infobox": "<p>A vlexx é uma operadora ferroviária regional da Alemanha, ativa sobretudo na Renânia-Palatinado, no Sarre e em ligações para regiões vizinhas. Em caso de atraso do comboio, cancelamento ou ligação perdida, aplicam-se as EU-Fahrgastrechte previstas no Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros ferroviários. A partir de uma <strong>Verspätung ab 60 Minuten</strong>, pode haver direito a indemnização; em certos casos, também a <strong>Fahrpreiserstattung</strong>. O serviço de apoio ao cliente e sede operacional/jurídica da vlexx situam-se em Mainz, Alemanha. Para pedidos, guarde sempre o bilhete e a confirmação da perturbação.</p><!--opt-->"
   },
   {
     "name": "erixx",
     "slug": "erixx",
     "adresse": "erixx GmbH\nKundenzentrum\nSt.-Viti-Straße 15\n29525 Uelzen\nAlemanha",
     "land": "Alemanha",
-    "infobox": "Para as conexões erixx na Baixa Saxônia, vale o seguinte: o Deutschlandticket não dá direito à troca gratuita para o ICE em caso de atrasos no transporte regional. Reivindicações adicionais de indenização por compromissos privados perdidos são, em geral, excluídas pelo direito ferroviário."
+    "infobox": "<p>O erixx é uma operadora regional de trens na Alemanha, com foco sobretudo na Baixa Saxônia e em ligações locais e regionais. Para atrasos, supressões de comboios e pedidos de compensação, aplicam-se as EU-Fahrgastrechte da Regulamento (CE) n.º 1371/2007 sobre os direitos e obrigações dos passageiros dos serviços ferroviários. Em caso de Verspätung ab 60 Minuten, os passageiros podem ter direito a indemnização ou Fahrpreiserstattung, conforme o trajeto e o bilhete. O serviço de apoio ao cliente e a sede operacional/jurídica do erixx ficam em Uelzen.</p><!--opt-->"
   },
   {
     "name": "eurobahn",
     "slug": "eurobahn",
     "adresse": "eurobahn GmbH & Co. KG\nKundencenter\nUnionstraße 3\n59067 Hamm\nAlemanha",
     "land": "Alemanha",
-    "infobox": "Na eurobahn em NRW, cancelamentos de última hora causam problemas com mais frequência. Os passageiros afetados têm direito ao reembolso integral do preço do bilhete se não puderem iniciar a viagem por causa do atraso. Em atrasos superiores a 60 minutos, você tem direito a alimentação gratuita na estação."
+    "infobox": "<p>A eurobahn é uma operadora ferroviária regional ativa sobretudo na Renânia do Norte-Vestfália e em partes da Alemanha ocidental, com ligações frequentes para cidades e áreas metropolitanas da região. Em caso de Zugverspätung, Zugausfall ou cancelamentos, aplicam-se as EU-Fahrgastrechte segundo o Regulamento (CE) n.º 1371/2007 relativo aos direitos dos passageiros dos caminhos de ferro. Numa Verspätung ab 60 Minuten, os passageiros podem ter direito a assistência, refeições e, em certos casos, Fahrpreiserstattung ou indemnização. A sede jurídica e o serviço de apoio ao cliente da eurobahn situam-se em Hamm.</p><!--opt-->"
   },
   {
     "name": "cantus",
     "slug": "cantus",
     "adresse": "cantus Verkehrsgesellschaft mbH\nKundenzentrum\nBahnhofstraße 1\n34117 Kassel\nAlemanha",
     "land": "Alemanha",
-    "infobox": "Os trens cantus em Hesse estão sujeitos aos requisitos mínimos legais. Reivindicações de indenização por danos consequenciais (como voos perdidos, reservas de hotel ou ingressos para eventos) são, infelizmente, amplamente excluídas pela Regulamentação de Operação Ferroviária (EVO) para proteção das ferrovias."
+    "infobox": "<p>A cantus é uma operadora regional de comboios ativa sobretudo no estado alemão de Hesse e em áreas vizinhas, ligando cidades e regiões do centro da Alemanha. Em caso de atraso de comboio, cancelamento ou interrupção, aplicam-se as EU-Fahrgastrechte previstas no Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros ferroviários. A partir de uma Verspätung ab 60 Minuten, pode existir direito a indemnização, Fahrpreiserstattung ou assistência. O serviço de apoio ao cliente e a sede jurídica da cantus Verkehrsgesellschaft mbH ficam em Kassel. Em certos casos, danos consequenciais podem ser limitados.</p><!--opt-->"
   },
   {
     "name": "PKP Intercity",
     "slug": "pkp",
     "adresse": "PKP Intercity S.A.\nAl. Jerozolimskie 142A\n02-305 Varsóvia\nPolônia",
     "land": "Polônia",
-    "infobox": "A polonesa PKP Intercity oferece proteção total da UE em suas linhas de longa distância (EIP/EIC). Em trens regionais de outras operadoras ferroviárias polonesas, porém, podem existir exceções à obrigação de indenização. A obrigação de transporte subsequente gratuito em caso de cancelamento, no entanto, sempre se aplica em todos os países."
+    "infobox": "<p>A PKP Intercity é a principal operadora ferroviária de longa distância da Polónia, ligando cidades como Varsóvia, Cracóvia, Gdańsk e Wrocław em serviços EIP, EIC, IC e TLK. Nas suas ligações, aplicam-se as EU-Fahrgastrechte, ou seja, os direitos dos passageiros previstos no Regulamento (CE) n.º 1371/2007 sobre os direitos e obrigações dos passageiros ferroviários. Em caso de atraso a partir de 60 minutos ou de supressão do comboio, pode haver direito a assistência, transporte alternativo ou Fahrpreiserstattung, conforme o caso. A sede e o serviço de apoio ao cliente situam-se em Varsóvia, Polónia.</p><!--opt-->"
   },
   {
     "name": "SJ (Statens Järnvägar)",
     "slug": "sj",
     "adresse": "SJ AB\nKundservice\n105 50 Estocolmo\nSuécia",
     "land": "Suécia",
-    "infobox": "A sueca SJ dispõe de uma 'Resegaranti' nacional muito generosa: a partir de 60 minutos de atraso, você recebe, à escolha, 50% do preço do bilhete como vale-presente (ou 25% em dinheiro); a partir de 120 minutos de atraso, até 100% como vale (ou 50% em dinheiro)."
+    "infobox": "<p>A SJ (Statens Järnvägar) é a principal operadora ferroviária da Suécia, com ligações de longa distância, regionais e serviços de alta procura entre cidades como Estocolmo, Gotemburgo e Malmö. Em caso de atraso do comboio, cancelamento ou perda de ligação, aplicam-se as EU-Fahrgastrechte e o Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros ferroviários. A SJ tem sede em Estocolmo, onde também funciona o serviço de apoio ao cliente. Dependendo do atraso, pode haver indemnização ou Fahrpreiserstattung, além da assistência prevista para uma Verspätung ab 60 Minuten.</p><!--opt-->"
   },
   {
     "name": "Italo (NTV)",
     "slug": "italo",
     "adresse": "Italo - Nuovo Trasporto Viaggiatori S.p.A.\nServizio Clienti\nViale del Policlinico 149/b\n00161 Roma\nItália",
     "land": "Itália",
-    "infobox": "O trem privado italiano de longa distância Italo costuma creditar indenizações por atrasos a partir de 60 minutos automaticamente, dentro de 30 dias, como saldo na conta digital do cliente, sem que os consumidores precisem apresentar um pedido burocrático complicado."
+    "infobox": "<p>A Italo (NTV) é uma operadora ferroviária privada de alta velocidade na Itália, com ligações frequentes entre cidades como Roma, Milão, Nápoles, Florença e Veneza. Em caso de atraso de comboio, cancelamento ou correspondência perdida, aplicam-se as EU-Fahrgastrechte e o Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros no transporte ferroviário. Para uma Verspätung ab 60 Minuten, podem existir direito a assistência, Fahrpreiserstattung ou compensação, conforme o caso. A sede jurídica e o serviço de apoio ao cliente da Italo/NTV ficam em Roma, Itália.</p><!--opt-->"
   },
   {
     "name": "iryo",
     "slug": "iryo",
     "adresse": "Intermodalidad de Levante S.A.\nCalle de Méndez Álvaro 56\n28045 Madrid\nEspanha",
     "land": "Espanha",
-    "infobox": "Como nova operadora privada na rede espanhola de alta velocidade, a iryo aplica os direitos dos passageiros da UE. Em atrasos a partir de 60 minutos, você tem direito a indenização. Em caso de cancelamento total por motivos operacionais, a iryo deve fornecer uma alternativa adequada e gratuita."
+    "infobox": "<p>A iryo é uma operadora privada de alta velocidade em Espanha, com ligações típicas entre Madrid, Barcelona, Valência, Sevilha, Málaga e outras grandes cidades. Para atrasos, cancelamentos ou falhas operacionais, aplicam-se as EU-Fahrgastrechte e o Regulamento (CE) n.º 1371/2007 relativo aos direitos dos passageiros dos caminhos de ferro. Em caso de Verspätung ab 60 Minuten, pode haver direito a indemnização ou Fahrpreiserstattung, além de assistência adequada. A sede e o serviço de apoio ao cliente da iryo estão em Madrid, onde a empresa gere também as reclamações e pedidos de compensação.</p><!--opt-->"
   },
   {
     "name": "CP (Comboios de Portugal)",
     "slug": "cp",
     "adresse": "CP - Comboios de Portugal\nCalçada do Duque 20\n1200-156 Lisboa\nPortugal",
     "land": "Portugal",
-    "infobox": "Na portuguesa CP, os pedidos de indenização por cancelamentos ou atrasos de trens devem ser apresentados no prazo máximo de 30 dias após a data da viagem. O reembolso é feito de acordo com as regras da UE de 25% (a partir de 60 min.) ou 50% (a partir de 120 min.)."
+    "infobox": "<p>A CP – Comboios de Portugal é a operadora ferroviária nacional de Portugal e liga sobretudo cidades portuguesas, regiões suburbanas e alguns serviços de longo curso no território continental. Em caso de atraso de comboio, cancelamento ou ligação perdida, aplicam-se as EU-Fahrgastrechte segundo o Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros ferroviários. Para uma Verspätung ab 60 Minuten, pode haver indemnização de 25% e, a partir de 120 minutos, 50% do preço do bilhete, além de possível Fahrpreiserstattung. O serviço de apoio ao cliente da CP tem sede em Lisboa.</p><!--opt-->"
   },
   {
     "name": "MÁV-START",
     "slug": "mav",
     "adresse": "MÁV-START Zrt.\nÜgyfélszolgálat\nPf. 56.\n1426 Budapeste\nHungria",
     "land": "Hungria",
-    "infobox": "A húngara MÁV muitas vezes exige, em caso de atrasos no tráfego doméstico, uma confirmação direta da equipe do trem ou do serviço local da estação no bilhete físico, para que a indenização possa ser paga posteriormente de forma tranquila e sem demora."
+    "infobox": "<p>A MÁV-START é a operadora ferroviária nacional da Hungria e liga sobretudo Budapeste a cidades e regiões em todo o país, com algumas ligações internacionais na Europa Central. Em caso de atraso do comboio, cancelamento ou perda de ligação, aplicam-se as EU-Fahrgastrechte nos termos do Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros ferroviários. A partir de uma Verspätung ab 60 Minuten, pode haver direito a indemnização ou Fahrpreiserstattung. O serviço de apoio ao cliente e sede jurídica situam-se em Budapeste, Hungria. Guarde bilhetes e confirmações para facilitar o pedido.</p><!--opt-->"
   },
   {
     "name": "VR (VR-Yhtymä)",
     "slug": "vr",
     "adresse": "VR-Yhtymä Oyj\nAsiakaspalvelu\nPL 7020\n00063 VR\nFinlândia",
     "land": "Finlândia",
-    "infobox": "Para a finlandesa VR, vale o seguinte: apesar das condições extremas do inverno, a obrigação legal de assistência em caso de cancelamento de trem nunca deixa de existir. Se você ficar retido, a VR deve providenciar hospedagem em hotel e transferências, mesmo que o pagamento puro de indenização possa ser dispensado por força maior."
+    "infobox": "<p>A VR (VR-Yhtymä) é a principal empresa ferroviária da Finlândia, operando sobretudo em ligações nacionais entre Helsínquia, Tampere, Turku, Oulu e outras cidades finlandesas. Em caso de atraso de comboio, cancelamento ou interrupção, aplicam-se as EU-Fahrgastrechte nos termos do Regulamento (CE) n.º 1371/2007, incluindo assistência, reencaminhamento e, consoante o caso, Fahrpreiserstattung. A partir de uma Verspätung ab 60 Minuten, os passageiros podem ter direito a compensação. A sede e o serviço de apoio ao cliente da VR situam-se em Helsínquia.</p><!--opt-->"
   },
   {
     "name": "CFR Călători",
     "slug": "cfr",
     "adresse": "SNTFC CFR Călători S.A.\nBd. Dinicu Golescu 38\nSector 1\n010873 Bucareste\nRomênia",
     "land": "Romênia",
-    "infobox": "A CFR romena sofre frequentemente de atrasos por razões estruturais. Os viajantes têm direito a 25% de reembolso em caso de atraso superior a 60 minutos. Como o processamento local pode ser complicado, recomenda-se o envio por escrito por meio do formulário online oficial."
+    "infobox": "<p>A CFR Călători é a principal operadora ferroviária de passageiros da Roménia, com ligações nacionais entre grandes cidades, regiões e destinos turísticos. Em caso de atraso, supressão de comboio ou ligação perdida, aplicam-se os EU-Fahrgastrechte nos termos do Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros ferroviários. Para uma Verspätung ab 60 Minuten, pode haver direito a indemnização e, consoante o caso, a Fahrpreiserstattung parcial ou total. A sede e o serviço de apoio ao cliente situam-se em Bucareste. Recomendamos apresentar o pedido por escrito e guardar bilhetes, reservas e comprovativos.</p><!--opt-->"
   },
   {
     "name": "ZSSK (Železničná spoločnosť Slovensko)",
     "slug": "zssk",
     "adresse": "ZSSK a.s.\nZákaznícke centrum\nRožňavská 1\n832 72 Bratislava\nEslováquia",
     "land": "Eslováquia",
-    "infobox": "Na eslovaca ZSSK, o cancelamento de um trem dá direito à troca gratuita para o próximo trem disponível da mesma categoria. Ao usar uma categoria superior (por exemplo, InterCity em vez de trem regional), é necessário obter autorização antecipada no guichê."
+    "infobox": "<p>A ZSSK (Železničná spoločnosť Slovensko) é a principal operadora ferroviária pública da Eslováquia, com ligações nacionais entre cidades como Bratislava, Košice e Žilina, além de conexões regionais e internacionais. Em caso de atraso de comboio, cancelamento ou correspondência perdida, aplicam-se os direitos dos passageiros da UE ao abrigo do Regulamento (CE) n.º 1371/2007. A partir de uma <strong>Verspätung ab 60 Minuten</strong>, os viajantes podem ter direito a assistência, reencaminhamento ou <strong>Fahrpreiserstattung</strong>. A sede e o atendimento ao cliente da ZSSK ficam em Bratislava.</p><!--opt-->"
   },
   {
     "name": "NordWestBahn",
     "slug": "nordwestbahn",
     "adresse": "NordWestBahn GmbH\nKundendialog\nPostfach 42 64\n49032 Osnabrück\nAlemanha",
     "land": "Alemanha",
-    "infobox": "A NordWestBahn atua no transporte regional alemão. Não existe, legalmente, indenização por compromissos comerciais ou privados perdidos devido a atraso de trem. O direito se limita estritamente ao preço do bilhete (por exemplo, 1,50 euro fixos para passes)."
+    "infobox": "<p>A NordWestBahn é uma operadora ferroviária regional da Alemanha, com serviços típicos no noroeste do país, especialmente em rotas locais e regionais na Baixa Saxónia, Bremen e arredores. Em caso de atraso de comboio, cancelamento ou ligação perdida, aplicam-se as EU-Fahrgastrechte, com base no Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros ferroviários. A partir de uma Verspätung ab 60 Minuten, pode haver direito a indemnização ou Fahrpreiserstattung, conforme o bilhete e as condições da viagem. O serviço de apoio ao cliente e sede operacional situam-se em Osnabrück, Alemanha.</p><!--opt-->"
   },
   {
     "name": "HLB (Hessische Landesbahn)",
     "slug": "hlb",
     "adresse": "Hessische Landesbahn GmbH\nKundenservice\nErlenstraße 2\n60325 Frankfurt am Main\nAlemanha",
     "land": "Alemanha",
-    "infobox": "Na Hessische Landesbahn (HLB), aplica-se o sistema de direitos dos passageiros uniforme em todo o país. Os pedidos podem ser enviados da forma mais simples digitalmente pela conta online de cliente da DB, desde que o bilhete tenha sido adquirido por canais digitais de venda da DB ou na tarifa de associação."
+    "infobox": "<p>A HLB (Hessische Landesbahn) é uma empresa ferroviária regional da Alemanha, operando sobretudo em Hesse e em regiões vizinhas, com ligações suburbanas e regionais. Em caso de atraso do comboio, cancelamento ou correspondência perdida, aplicam-se as EU-Fahrgastrechte nos termos do Regulamento (CE) n.º 1371/2007 sobre os direitos e obrigações dos passageiros ferroviários. A partir de uma Verspätung ab 60 Minuten, pode haver direito a compensação ou Fahrpreiserstattung. O centro de atendimento ao cliente e sede operacional relevante situa-se em Frankfurt am Main, onde também podem ser tratados pedidos de indemnização e reembolso.</p><!--opt-->"
   },
   {
     "name": "SWEG",
     "slug": "sweg",
     "adresse": "SWEG Südwestdeutsche Landesverkehrs-GmbH\nKundencenter\nRheinstraße 8\n77933 Lahr\nAlemanha",
     "land": "Alemanha",
-    "infobox": "Para a SWEG em Baden-Württemberg, vale o seguinte: se você perder comprovadamente a última conexão do dia por causa de um atraso de trem, pode usar um táxi. A SWEG reembolsa os custos no âmbito da garantia legal de mobilidade até o valor máximo de 120 euros."
+    "infobox": "<p>A SWEG (Südwestdeutsche Landesverkehrs-GmbH) é uma operadora regional de comboios e autocarros com atuação sobretudo em Baden-Württemberg, servindo linhas locais e regionais no sudoeste da Alemanha. Em caso de atraso de comboio, cancelamento ou ligação perdida, aplicam-se as EU-Fahrgastrechte e o Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros ferroviários. A partir de uma Verspätung ab 60 Minuten, pode haver direito a assistência, Fahrpreiserstattung ou indemnização, conforme o caso. A sede jurídica e do serviço de apoio ao cliente fica em Lahr/Schwarzwald. Se a última ligação do dia for perdida comprovadamente, a SWEG pode reembolsar um táxi até 120 euros.</p><!--opt-->"
   },
   {
     "name": "VIAS",
     "slug": "vias",
     "adresse": "VIAS Rail GmbH\nKundenservice\nKölner Straße 266\n51149 Köln\nAlemanha",
     "land": "Alemanha",
-    "infobox": "Nos trens VIAS, vale no direito de viagem: os direitos dos passageiros também se aplicam quando a causa do cancelamento do trem está com o operador da rede ferroviária (por exemplo, um sistema de sinalização da DB com defeito). Se a viagem não puder ser realizada, você tem direito ao reembolso integral do preço do bilhete."
+    "infobox": "<p>A VIAS é uma operadora ferroviária regional da Alemanha, conhecida por serviços de passageiros em redes locais e regionais, especialmente na Renânia do Norte-Vestfália, Hesse e regiões vizinhas. Em casos de atraso de comboio, supressão de comboio ou cancelamento, aplicam-se os EU-Fahrgastrechte previstos no Regulamento (CE) n.º 1371/2007 sobre os direitos dos passageiros no transporte ferroviário. A partir de uma Verspätung ab 60 Minuten, pode haver indemnização; se a viagem não for realizada, existe direito à Fahrpreiserstattung. O serviço de apoio ao cliente e sede jurídica da VIAS ficam em Offenbach am Main.</p><!--opt-->"
   },
   {
     "name": "NEB (Niederbarnimer Eisenbahn)",
     "slug": "neb",
     "adresse": "Niederbarnimer Eisenbahn AG\nKundencenter\nGeorgenstraße 22\n10117 Berlim\nAlemanha",
     "land": "Alemanha",
-    "infobox": "A Niederbarnimer Eisenbahn (NEB) responde de acordo com as regras do transporte regional alemão. Como muitas linhas estão na tarifa VBB (Berlim-Brandenburgo), os pedidos de indenização podem ser apresentados em conjunto assim que o limite mínimo legal de 4,00 euros no total for ultrapassado."
+    "infobox": "<p>A NEB (Niederbarnimer Eisenbahn) é uma empresa ferroviária regional alemã que opera sobretudo em Brandemburgo e na região de Berlim, com ligações típicas na rede VBB. Em caso de atraso do comboio, cancelamento ou ligação perdida, aplicam-se os direitos dos passageiros da UE previstos no Regulamento (CE) n.º 1371/2007. A partir de uma <strong>Verspätung ab 60 Minuten</strong>, pode haver direito a indemnização; em certos casos, também a <strong>Fahrpreiserstattung</strong> ou assistência. O serviço de apoio ao cliente e sede jurídica situam-se em Berlin. Os pedidos devem ser apresentados de forma completa e documentada.</p><!--opt-->"
   }
 ]

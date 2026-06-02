@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Novasol",
+    "slug": "novasol",
+    "adresse": "NOVASOL A/S Zweigniederlassung Deutschland\nGotenstraße 11\n20097 Hamburg",
+    "infobox": "Als einer der größten europäischen Reiseveranstalter haftet Novasol direkt für die zugesicherten Eigenschaften des Ferienhauses. Wichtig: Mängel müssen unverzüglich vor Ort über die Service-Hotline oder das lokale Büro gemeldet werden (Rügepflicht), um dem Anbieter die Chance zur Abhilfe zu geben. Ohne rechtzeitige Rüge gehen Minderungsansprüche verloren."
+  },
+  {
+    "name": "FeWo-direkt (Vrbo)",
+    "slug": "fewo-direkt",
+    "adresse": "EG Vacation Rentals Ireland Limited\n50 Block Novum, Brown Square\nDublin\nIrland",
+    "infobox": "FeWo-direkt agiert als reiner Vermittler, der Buchungsvertrag kommt direkt mit dem jeweiligen Gastgeber (privat oder gewerblich) zustande. Rechtliche Ansprüche wegen Mängeln, falscher Beschreibung oder Kautionseinbehalt müssen zwingend an den Vermieter gerichtet werden. Die Plattform bietet lediglich über ihre 'Mit Vertrauen buchen'-Garantie Schutz bei Betrug."
+  },
+  {
+    "name": "Belvilla",
+    "slug": "belvilla",
+    "adresse": "Belvilla Services B.V.\nPiet Heinkade 55\n1019 GM Amsterdam\nNiederlande",
+    "infobox": "Belvilla tritt als Reiseveranstalter auf und ist Ihr direkter Vertragspartner für das Ferienobjekt. Liegen erhebliche Mängel vor (z. B. Heizungsausfall, mangelnde Hygiene), kontaktieren Sie Belvilla umgehend schriftlich oder telefonisch binnen 24–48 Stunden. Dokumentieren Sie alle Mängel lückenlos mit Fotos und Zeugen für spätere Erstattungsforderungen."
+  },
+  {
+    "name": "Casamundo",
+    "slug": "casamundo",
+    "adresse": "Casamundo GmbH\nPappelallee 78/79\n10437 Berlin",
+    "infobox": "Casamundo ist ein Meta-Suchportal und reiner Vermittler, der Angebote verschiedener Partner bündelt. Bei Mängeln vor Ort ist nicht Casamundo die richtige Adresse für Schadensersatz oder Preisminderungen, sondern der im Buchungsvoucher explizit genannte Endanbieter (z. B. ein lokaler Verwalter oder ein spezifischer Reiseveranstalter)."
+  },
+  {
+    "name": "DanCenter",
+    "slug": "dancenter",
+    "adresse": "DanCenter GmbH\nSpitalerstraße 16\n20095 Hamburg",
+    "infobox": "DanCenter agiert als Reiseveranstalter und trägt die rechtliche Verantwortung für den Zustand der skandinavischen Ferienhäuser. Bei Mängeln gilt die strikte Pflicht zur unverzüglichen Rüge beim zuständigen lokalen Servicebüro. Eigenmächtiges Umziehen in eine andere Unterkunft oder eine vorzeitige Abreise ohne Fristsetzung zur Abhilfe führt rechtlich fast immer zum Verlust von Minderungsansprüchen."
+  },
+  {
+    "name": "Interhome",
+    "slug": "interhome",
+    "adresse": "HTS Touristik GmbH (Interhome)\nHeinrich-von-Stephan-Straße 15\n79100 Freiburg im Breisgau",
+    "infobox": "Als Reiseveranstalter haftet Interhome für Mängel am Mietobjekt. Nutzen Sie bei Problemen sofort die lokale Interhome-Service-Niederlassung oder den Schlüsselhalter vor Ort, um Nachbesserung zu verlangen. Lassen Sie sich die Mängelanzeige und das Abhilfeverlangen idealerweise schriftlich oder per E-Mail bestätigen, um Beweisnotstände zu vermeiden."
+  },
+  {
+    "name": "Holidu",
+    "slug": "holidu",
+    "adresse": "Holidu GmbH\nRiesstraße 24\n80992 München",
+    "infobox": "Holidu fungiert als Suchmaschine und Vermittlungsplattform. Verträge über die Unterbringung werden mit dem verlinkten Drittanbieter oder dem direkten Gastgeber geschlossen. Ansprüche auf Mietminderung wegen Baulärms, fehlender Ausstattung oder unvollständiger Leistungsbeschreibungen können rechtlich nicht gegen Holidu geltend gemacht werden."
+  },
+  {
+    "name": "Traum-Ferienwohnungen",
+    "slug": "traum-ferienwohnungen",
+    "adresse": "Traum-Ferienwohnungen GmbH\nAn der Reeperbahn 6\n28217 Bremen",
+    "infobox": "Das Portal ist eine reine Inserationsplattform, auf der Vermieter ihre Objekte eigenständig präsentieren. Die Plattform prüft die tatsächliche Beschaffenheit der Häuser nicht vor Ort. Bei Mängeln, Überbuchungen oder unberechtigtem Einbehalten der Kaution liegt die alleinige rechtliche Zuständigkeit und Haftung beim im Mietvertrag eingetragenen Vermieter."
+  },
+  {
+    "name": "e-domizil",
+    "slug": "e-domizil",
+    "adresse": "e-domizil GmbH\nTaunusstraße 21\n60329 Frankfurt am Main",
+    "infobox": "e-domizil vermittelt Angebote privater Gastgeber und anderer Veranstalter, tritt in ausgewählten Fällen jedoch auch selbst als Reiseveranstalter auf (prüfen Sie hierzu die Buchungsbestätigung). Ist e-domizil nur Vermittler, müssen Mängel direkt beim Eigentümer gerügt werden; bei einer Veranstalterbuchung greifen die verbraucherfreundlichen Regeln des Pauschalreiserechts."
+  },
+  {
+    "name": "Allgemeines Formular",
+    "slug": "allgemein",
+    "adresse": "[Bitte Anschrift des Anbieters hier eintragen]",
+    "infobox": "Bei Ferienhausmängeln gilt im deutschen und europäischen Miet- sowie Reiserecht die strikte Schadensminderungspflicht und Rügepflicht: Dokumentieren Sie sämtliche Mängel umgehend (Fotos, Videos, Zeugen) und fordern Sie den Vertragspartner unverzüglich mit einer angemessenen Frist zur Abhilfe auf. Ohne diesen Schritt sind spätere Geldforderungen rechtlich ausgeschlossen."
+  },
+  {
+    "name": "HomeToGo",
+    "slug": "hometogo",
+    "adresse": "HomeToGo GmbH\nPappelallee 78/79\n10437 Berlin",
+    "infobox": "HomeToGo ist ein weltweites Vergleichsportal und reiner Vermittler. Das Unternehmen haftet weder für den Zustand der vermittelten Ferienwohnungen noch für falsche Preisangaben der Partnerseiten. Sämtliche Gewährleistungsrechte, Schadensersatzansprüche oder Stornierungsanfragen müssen mit dem tatsächlichen Anbieter der Buchung abgewickelt werden."
+  },
+  {
+    "name": "Booking.com",
+    "slug": "booking",
+    "adresse": "Booking.com B.V.\nOosterdokskade 163\n1011 DL Amsterdam\nNiederlande",
+    "infobox": "Booking.com tritt ausschließlich als Vermittler auf. Auch wenn Zahlungen über die Plattform abgewickelt werden, ist bei Mängeln (z. B. fehlendes WLAN, abweichende Zimmeranzahl) der Host/Gastgeber die primäre Zielperson für Minderungsansprüche. Booking.coms Kundenservice kann vermittelnd unterstützen, ist rechtlich jedoch nicht schadensersatzpflichtig."
+  },
+  {
+    "name": "BestFewo",
+    "slug": "bestfewo",
+    "adresse": "BestSearch Media GmbH\nZeppelinstraße 73\n14471 Potsdam",
+    "infobox": "BestFewo vermittelt Ferienunterkünfte regionaler Agenturen und lokaler Tourismusverbände in Deutschland. Schadensersatz- oder Mietminderungsansprüche wegen Mängeln, die den Urlaubswert mindern, müssen direkt an den im Mietvertrag explizit benannten Vermieter oder die ausführende Agentur vor Ort gerichtet werden."
+  },
+  {
+    "name": "Ferienwohnungen.de",
+    "slug": "ferienwohnungen-de",
+    "adresse": "ferienwohnungen.de GmbH\nCeller Str. 101 a\n38114 Braunschweig",
+    "infobox": "Als reines Werbe- und Anzeigenportal für Ferienunterkünfte übernimmt Ferienwohnungen.de keinerlei Gewähr für die Richtigkeit der hochgeladenen Texte und Bilder. Bei Abweichungen zwischen der Online-Beschreibung und dem tatsächlichen Zustand des Objekts müssen rechtliche Schritte direkt gegen den Vermieter eingeleitet werden."
+  },
+  {
+    "name": "Atraveo",
+    "slug": "atraveo",
+    "adresse": "atraveo GmbH\nParsevalstraße 7a\n40468 Düsseldorf",
+    "infobox": "Atraveo (Teil der e-domizil-Gruppe) vermittelt Ferienhäuser weltweit. Ansprüche wegen Ausstattungsmängeln müssen unverzüglich beim lokalen Ansprechpartner angemeldet werden. Bei schwerwiegenden Vertragsabweichungen empfiehlt es sich, den Kundenservice von Atraveo parallel zu informieren, um eine schnelle Klärung zu erwirken."
+  },
+  {
+    "name": "Naturhäuschen",
+    "slug": "naturhaeuschen",
+    "adresse": "Nature.house B.V.\nCeresstraat 13\n4811 CA Breda\nNiederlande",
+    "infobox": "Naturhäuschen vermittelt spezialisierte Unterkünfte im ländlichen Raum. Da die Plattform reiner Vermittler ist, müssen alle Mängelrügen bezüglich Sauberkeit, Ausstattung oder Problemen bei der Schlüsselübergabe direkt mit dem jeweiligen Eigentümer des Naturhäuschens geklärt und abgerechnet werden."
+  },
+  {
+    "name": "Tourist-Online",
+    "slug": "tourist-online",
+    "adresse": "tourist-online.de GmbH\nTaunusstraße 21\n60329 Frankfurt am Main",
+    "infobox": "Als reines Vermittlungsportal leitet Tourist-Online Ihre Buchungsanfrage lediglich an gewerbliche Veranstalter oder private Vermieter weiter. Rechtliche Schritte bei Mietmängeln (wie Baulärm oder einem defekten Pool) richten sich niemals gegen das Portal, sondern stets gegen den im Mietvertrag dokumentierten Vertragspartner."
+  }
+]

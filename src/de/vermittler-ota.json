@@ -3,84 +3,84 @@
     "name": "Opodo",
     "slug": "opodo",
     "adresse": "Vacaciones eDreams, S.L.\nCalle de Manzanares 4\n28005 Madrid, Spanien",
-    "infobox": "Opodo agiert als Online-Reisebüro und vermittelt primär Einzelleistungen wie Flüge. Bei Flugannullierungen oder Verspätungen richten sich Ihre Ansprüche nach der EU-Fluggastrechteverordnung direkt an die ausführende Fluggesellschaft. Opodo haftet jedoch für Vermittlungsfehler und ist verpflichtet, von der Airline zurückgezahlte Ticketgelder unverzüglich an Sie weiterzuleiten."
+    "infobox": "<p>Opodo ist eine Buchungsplattform (OTA) und nicht die ausführende Airline. Für Ticketstornierungen und die Erstattung von Steuern und Gebühren gilt: Ansprüche aus nicht genutzten Flugtickets betreffen oft die Airline, doch OTAs verweisen in der Praxis häufig an den jeweiligen Vertragspartner – und umgekehrt. Rechtlich darf Opodo für die bloße Weiterleitung oder Abwicklung einer Rückerstattung keine überzogenen eigenen Bearbeitungsgebühren verlangen. Der juristische Hauptsitz von Opodo befindet sich in Madrid, Spanien. Wer Erstattung verlangt, sollte Fristen, Buchungsunterlagen und die Rolle des Vermittlers genau prüfen, um unnötige Verzögerungen zu vermeiden.</p><!--opt-->"
   },
   {
     "name": "eDreams",
     "slug": "edreams",
     "adresse": "Vacaciones eDreams, S.L.\nCalle de Manzanares 4\n28005 Madrid, Spanien",
-    "infobox": "Als Teil der eDreams ODIGEO-Gruppe ist eDreams ein reiner Flugvermittler. Für Entschädigungen bei Flugausfällen ist die jeweilige Airline Ihr rechtlicher Ansprechpartner. eDreams gerät häufig bei der Erstattung von Ticketkosten in den Fokus: Hat die Airline das Geld an das Portal erstattet, muss eDreams dieses unverzüglich an Sie auszahlen."
+    "infobox": "<p>eDreams ist eine Online-Reiseagentur (OTA) und nicht die ausführende Airline. Für Ticketstornierungen sowie die Erstattung von Steuern und Gebühren ist deshalb entscheidend, wer den Flug verkauft und wer die Zahlung erhalten hat. In der Praxis verweisen OTAs und Airlines bei Erstattungen oft gegenseitig aufeinander. Rechtlich gilt: Hat eDreams eine Rückzahlung von der Airline erhalten, muss diese unverzüglich an den Kunden weitergeleitet werden. Für den bloßen Erstattungsprozess dürfen keine überhöhten eigenen Bearbeitungsgebühren verlangt werden. Juristischer Hauptsitz von eDreams ist Barcelona, Spanien.</p><!--opt-->"
   },
   {
     "name": "Kiwi.com",
     "slug": "kiwi-com",
     "adresse": "Kiwi.com s.r.o.\nPalachovo náměstí 797/4\n625 00 Brno, Tschechien",
-    "infobox": "Kiwi.com nutzt oft eigene Buchungsmechanismen (wie virtuelle E-Mails und Kreditkarten), was den direkten Kontakt zur Airline erschweren kann. Dennoch liegen die primären Fluggastrechte bei Flugausfällen bei der Fluggesellschaft. Kiwi.com haftet jedoch für selbst zugesicherte Garantien (z. B. die Kiwi.com-Garantie bei verpassten Anschlüssen) und fehlerhafte Buchungsabwicklungen."
+    "infobox": "<p>Kiwi.com ist eine Buchungsplattform (OTA) und nicht die durchführende Fluggesellschaft. Bei Ticketstornierung und der Erstattung von Steuern und Gebühren kommt es deshalb häufig zu Zuständigkeitsstreitigkeiten: Das OTA verweist oft an die Airline, während die Airline auf den Vermittler verweist. Rechtlich gilt: Für die reine Rückzahlung bereits erstattungsfähiger Steuern und Gebühren dürfen keine überzogenen eigenen Bearbeitungsgebühren verlangt werden. Kiwi.com hat seinen juristischen Hauptsitz in Brno, Tschechien. Prüfen Sie daher stets, wer den Flug tatsächlich durchgeführt hat und welche Erstattungsregeln im Buchungsvertrag gelten.</p><!--opt-->"
   },
   {
     "name": "Booking.com Flights",
     "slug": "booking-flights",
     "adresse": "Booking.com B.V.\nHerengracht 597\n1017 CE Amsterdam, Niederlande",
-    "infobox": "Booking.com Flights vermittelt Flugtickets über Partner oder direkt. Da es sich um eine reine Vermittlung von Einzelleistungen handelt, gilt das Pauschalreiserecht hier nicht. Ansprüche wegen Flugausfällen oder Verspätungen müssen direkt bei der ausführenden Fluggesellschaft geltend gemacht werden. Das Portal haftet lediglich für die korrekte Ticketausstellung."
+    "infobox": "<p>Booking.com Flights ist eine Buchungsplattform (OTA) und nicht die ausführende Airline. Für Ticketstornierungen sowie die Erstattung nicht verbrauchter Steuern und Gebühren verweisen Online-Reisebüros häufig an die Fluggesellschaft – diese wiederum an das OTA. Rechtlich ist entscheidend: Für den reinen Erstattungsprozess dürfen keine überzogenen eigenen Bearbeitungsgebühren verlangt werden. Der juristische Hauptsitz von Booking.com Flights liegt in Amsterdam, Niederlande. Wer eine Rückerstattung beantragt, sollte Fristen, Tarifbedingungen und den jeweiligen Zuständigkeitsweg genau prüfen, um Ansprüche auf Steuern und Gebühren konsequent durchzusetzen.</p><!--opt-->"
   },
   {
     "name": "Expedia",
     "slug": "expedia",
     "adresse": "Expedia, Inc.\n1111 Expedia Group Way W\nSeattle, WA 98119, USA",
-    "infobox": "Expedia vermittelt Flüge weltweit. Bei einer reinen Flugbuchung entsteht der Vertrag direkt mit der Fluggesellschaft, an die auch Forderungen bezüglich der EU-Fluggastrechte (Annullierung, Verspätung) zu richten sind. Expedia haftet als Vermittler primär für Buchungsfehler oder unzureichende gesetzliche Pflichtinformationen vor dem Kauf."
+    "infobox": "<p>Expedia ist eine Buchungsplattform (OTA) und nicht die durchführende Airline. Bei einer reinen Flugbuchung kommt der Beförderungsvertrag in der Regel direkt mit der Fluggesellschaft zustande. Für Ticketstornierung sowie die Erstattung von Steuern und Gebühren verweisen OTAs und Airlines in der Praxis oft gegenseitig aufeinander. Rechtlich gilt: Das OTA darf für den bloßen Erstattungsprozess keine überzogenen eigenen Bearbeitungsgebühren verlangen. Der juristische Hauptsitz von Expedia liegt in Seattle, Washington, USA. Ansprüche sollten daher sorgfältig geprüft und an den richtigen Vertragspartner gerichtet werden.</p><!--opt-->"
   },
   {
     "name": "Flugladen.de",
     "slug": "flugladen",
     "adresse": "Travix Nederland B.V.\nPiet Heinkade 55\n1019 GM Amsterdam, Niederlande",
-    "infobox": "Flugladen.de gehört zur Travix-Gruppe. Das Portal haftet nicht für operative Flugausfälle oder Verspätungen – hierfür ist ausschließlich die Fluggesellschaft zuständig. Sollte die Airline den Ticketpreis nach einer Annullierung stornieren und an Travix auszahlen, ist das Portal rechtlich verpflichtet, diesen Betrag ohne unzulässige Verzögerung an Sie weiterzugeben."
+    "infobox": "<p>Flugladen.de ist eine Buchungsplattform (OTA) und nicht die durchführende Airline. Für die Ticketstornierung und die Erstattung von Steuern und Gebühren gilt: Oft verweisen OTA und Fluggesellschaft gegenseitig aufeinander. Rechtlich muss die tatsächlich vereinnahmte Erstattung jedoch ohne unzulässige Verzögerung an den Kunden weitergeleitet werden. Für den reinen Erstattungsprozess dürfen keine überhöhten eigenen Bearbeitungsgebühren verlangt werden. Flugladen.de gehört zur Travix International B.V. mit juristischem Hauptsitz in Amsterdam, Niederlande.</p><!--opt-->"
   },
   {
     "name": "Trip.com",
     "slug": "trip-com",
     "adresse": "Trip.com Travel Singapore Pte. Ltd.\n30 Raffles Place, #29-01\nSingapore 048622",
-    "infobox": "Trip.com ist ein internationaler Vermittler mit Sitz in Singapur. Bei Flugproblemen greifen die EU-Fluggastrechte gegenüber der Airline, sofern der Flug in der EU startet oder von einer EU-Airline durchgeführt wird. Trip.com ist Ihr rechtlicher Ansprechpartner für Ticketing-Probleme, Systemfehler oder die Weiterleitung von Erstattungen."
+    "infobox": "<p>Trip.com ist eine Buchungsplattform (OTA) und nicht die durchführende Airline. Der juristische Hauptsitz des Unternehmens liegt in Singapur. Geht es um Ticketstornierung oder die Erstattung von Steuern und Gebühren, verweisen OTAs und Airlines in der Praxis oft gegenseitig aufeinander. Rechtlich gilt: Für den reinen Erstattungsprozess dürfen Vermittler keine überzogenen eigenen Bearbeitungsgebühren verlangen. Anspruchsgegner kann je nach Buchung und Ticketart die Airline oder Trip.com als Vertragspartner sein. Wichtig ist daher, Unterlagen, Buchungsbestätigung und Stornoanfrage sorgfältig zu prüfen.</p><!--opt-->"
   },
   {
     "name": "Gotogate",
     "slug": "gotogate",
     "adresse": "Etraveli Group AB\nBox 1340\n751 43 Uppsala, Schweden",
-    "infobox": "Gotogate wird von der schwedischen Etraveli Group betrieben und vermittelt Flüge. Fluggesellschaften verweisen bei Erstattungen oft an den Vermittler zurück. Rechtlich gilt: Die Airline schuldet die Rückerstattung nach EU-Recht. Hat die Airline das Geld jedoch bereits an Gotogate überwiesen, müssen Sie die Auszahlung direkt vom Portal einfordern."
+    "infobox": "<p>Gotogate ist eine Buchungsplattform (OTA) und nicht die durchführende Airline. Für Ticketstornierungen sowie die Erstattung von Steuern und Gebühren ist das wichtig: Häufig verweisen OTAs und Fluggesellschaften gegenseitig aufeinander. Rechtlich gilt jedoch, dass die Erstattung grundsätzlich nach den anwendbaren Fluggastrechten zu prüfen ist. Das OTA darf für die reine Abwicklung einer Rückerstattung keine überzogenen eigenen Bearbeitungsgebühren verlangen. Gotogate wird von der Etraveli Group mit juristischem Hauptsitz in Stockholm, Schweden, betrieben.</p><!--opt-->"
   },
   {
     "name": "Mytrip",
     "slug": "mytrip",
     "adresse": "Etraveli Group AB\nBox 1340\n751 43 Uppsala, Schweden",
-    "infobox": "Mytrip ist eine Marke der schwedischen Etraveli Group. Als reines Vermittlungsportal ist Mytrip nicht für operative Flugänderungen oder Ausfälle haftbar – dafür sorgt die ausführende Airline. Mytrip steht jedoch in der Pflicht, Kundenservice-Anfragen ordnungsgemäß zu bearbeiten und erhaltene Rückerstattungen von Fluggesellschaften zügig weiterzuleiten."
+    "infobox": "<p>Mytrip ist eine Buchungsplattform (OTA) und nicht die durchführende Airline. Der juristische Hauptsitz der Marke liegt in Schweden bei der Etraveli Group. Bei Ticketstornierungen und der Erstattung von Steuern und Gebühren kommt es häufig vor, dass OTA und Fluggesellschaft sich gegenseitig aufeinander verweisen. Rechtlich gilt: Für bereits vereinnahmte Flugsteuern und nicht verbrauchte Gebühren muss die Rückerstattung grundsätzlich korrekt geprüft und weitergeleitet werden. Für den reinen Erstattungsprozess darf Mytrip dabei keine überzogenen eigenen Bearbeitungsgebühren verlangen. Betroffene sollten Fristen, Zuständigkeiten und den Zahlungsweg genau dokumentieren.</p><!--opt-->"
   },
   {
     "name": "Fluege.de",
     "slug": "fluege-de",
     "adresse": "Invia Flights Germany GmbH\nDittrichring 18-20\n04109 Leipzig, Deutschland",
-    "infobox": "fluege.de wird von der Invia Flights Germany GmbH in Leipzig betrieben. Bei Flugausfällen oder Verspätungen ist die Airline Ihr direkter Vertragspartner für Entschädigungen nach der EU-Fluggastrechteverordnung. Invia haftet hingegen für die fehlerfreie Buchungsübermittlung sowie für die transparente Darstellung von Servicegebühren."
+    "infobox": "<p>Fluege.de ist eine Buchungsplattform (OTA) und nicht die ausführende Airline. Für eine Ticketstornierung sowie die Erstattung von Steuern und Gebühren ist rechtlich zu prüfen, wer Ihr Vertragspartner ist: Oft verweisen Online-Reisebüros an die Airline, während diese auf das OTA verweist. Für den reinen Erstattungsprozess dürfen OTAs jedoch keine überzogenen eigenen Bearbeitungsgebühren verlangen. Der juristische Hauptsitz von Fluege.de bzw. der Invia Flights Germany GmbH befindet sich in Leipzig. Wichtig ist daher eine klare Zuordnung der Ansprüche, damit Sie Ihre Rückerstattung effizient durchsetzen können.</p><!--opt-->"
   },
   {
     "name": "lastminute.de",
     "slug": "lastminute-de",
     "adresse": "BravoNext SA\nVicolo de’ Calvi 2\n6830 Chiasso, Schweiz",
-    "infobox": "lastminute.de (BravoNext SA) agiert als Vermittler für Linien- und Charterflüge. Ansprüche aus der EU-Fluggastrechteverordnung (z. B. bei Streik oder technischem Defekt) richten sich direkt an die Airline. Das Portal haftet für die korrekte Abwicklung der Buchung und muss von der Airline freigegebene Erstattungen umgehend auszahlen."
+    "infobox": "<p>lastminute.de ist als Online-Reisebüro und Buchungsplattform (OTA) nicht die ausführende Airline, sondern vermittelt Flüge und Reiseleistungen. Bei Ticketstornierung und der Erstattung von Steuern und Gebühren wird häufig auf die jeweils andere Seite verwiesen: Die Airline verweist auf das OTA, das OTA auf die Airline. Rechtlich gilt: Für den reinen Erstattungsprozess dürfen keine überzogenen eigenen Bearbeitungsgebühren verlangt werden, wenn lediglich bereits gezahlte Steuern und nicht verbrauchte Gebühren zurückzuzahlen sind. Juristischer Hauptsitz ist die BravoNext SA in Chiasso, Schweiz.</p><!--opt-->"
   },
   {
     "name": "Cheaptickets.de",
     "slug": "cheaptickets",
     "adresse": "Travix Nederland B.V.\nPiet Heinkade 55\n1019 GM Amsterdam, Niederlande",
-    "infobox": "Cheaptickets.de wird von Travix Nederland betrieben. Für operative Störungen wie Verspätungen oder Annullierungen haftet allein die ausführende Fluggesellschaft. Das Portal ist als Vermittler jedoch dafür verantwortlich, dass Ihre Daten korrekt übermittelt werden und Erstattungen der Airline transparent und zügig an Sie ausgezahlt werden."
+    "infobox": "<p>Cheaptickets.de ist eine Buchungsplattform (OTA) und nicht die ausführende Airline. Juristisch betrieben wird das Portal von Travix Nederland B.V. mit Sitz in Amsterdam, Niederlande. Bei Ticketstornierungen und der Erstattung von Steuern und Gebühren verweisen OTAs und Airlines häufig gegenseitig aufeinander. Rechtlich gilt: Für die reine Weiterleitung und Abwicklung einer Erstattung darf das OTA keine unangemessen hohen eigenen Bearbeitungsgebühren verlangen. Maßgeblich ist, dass Ihre Ansprüche korrekt geprüft, an die zuständige Stelle weitergeleitet und vorhandene Rückzahlungen transparent an Sie ausgekehrt werden.</p><!--opt-->"
   },
   {
     "name": "Check24 Flüge",
     "slug": "check24-fluege",
     "adresse": "CHECK24 Vergleichsportal Flug GmbH\nTrappentreustr. 1 - 3\n80339 München, Deutschland",
-    "infobox": "CHECK24 Flüge ist ein deutscher Online-Vermittler. Bei Flugausfällen oder Verspätungen müssen Sie Ihre Ansprüche direkt gegenüber der Fluggesellschaft geltend machen. Das Portal bietet oft einen hauseigenen Erstattungsservice an, haftet rechtlich jedoch primär für Beratungs- und Buchungsfehler sowie die korrekte Weiterleitung von Ticketgeldern."
+    "infobox": "<p>Check24 Flüge ist eine Buchungsplattform (OTA) und nicht die durchführende Airline. Für Ticketstornierungen sowie die Erstattung von Steuern und Gebühren gilt: Zuständig ist rechtlich grundsätzlich der Vertragspartner der Beförderung, also meist die Airline; OTAs verweisen in der Praxis jedoch häufig an die Fluggesellschaft, während diese wiederum auf das Reiseportal verweist. Für den reinen Erstattungsprozess dürfen keine überzogenen eigenen Bearbeitungsgebühren verlangt werden. Der juristische Hauptsitz von Check24 Flüge liegt in München. Prüfen Sie daher stets, wer Ihr Vertragspartner ist und ob Ihnen eine Rückzahlung von Steuern und nicht verbrauchten Gebühren zusteht.</p><!--opt-->"
   },
   {
     "name": "Anderes Flugportal (Allgemeine Vorlage)",
     "slug": "allgemein",
     "adresse": "[Name des Flugportals]\n[z.B. Kundenservice / Rückerstattungen]\n[Straße und Hausnummer]\n[PLZ und Ort]",
-    "infobox": "Online-Flugportale (OTAs) sind reine Vermittler. Bei Flugausfällen, Verspätungen oder Gepäckverlust ist die ausführende Fluggesellschaft Ihr direkter rechtlicher Ansprechpartner nach der EU-Fluggastrechteverordnung. Das Portal haftet lediglich für Vermittlungs- und Übermittlungsfehler sowie für die unverzügliche Weiterleitung von Erstattungen."
+    "infobox": "<p>Anderes Flugportal (Allgemeine Vorlage) ist eine Buchungsplattform bzw. ein OTA und nicht die durchführende Airline. Für die Ticketstornierung und die Erstattung von Steuern und Gebühren gilt: Bei Erstattungsanfragen verweisen OTAs häufig an die Fluggesellschaft, während Airlines auf das Portal verweisen. Rechtlich ist jedoch entscheidend, dass der reine Erstattungsprozess nicht durch unverhältnismäßige eigene Bearbeitungsgebühren erschwert werden darf. Zuständig bleibt regelmäßig die ausführende Airline; das OTA muss Anträge ordnungsgemäß weiterleiten. Juristischer Hauptsitz: bitte im Impressum des jeweiligen Portals prüfen.</p><!--opt-->"
   }
 ]

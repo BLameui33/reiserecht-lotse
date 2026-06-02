@@ -124,5 +124,29 @@
     "name": "Autovermietungen",
     "schalter_taktik": "Qualunque sia il fornitore: restate fermi sulle vostre posizioni! I noleggiatori spesso formano il personale a vendere costose assicurazioni aggiuntive con scenari da incubo (ad es. alti tassi di furto). Se avete già stipulato una kasko tramite un intermediario, basta quella. Non firmate nulla che non capite.",
     "kaution_hinweis": "La regola più importante: quasi sempre vi serve una carta di credito fisica e completa (credit, non debit!) intestata al nome del conducente principale. Il limite deve essere sufficientemente alto (spesso fino a 1.500 €). Senza una carta adatta, allo sportello rischiate l’obbligo di acquistare una costosa assicurazione."
+  },
+  {
+    "slug": "sicily-by-car",
+    "name": "Sicily by Car (Autoeuropa)",
+    "schalter_taktik": "Sicily by Car attira i clienti con prezzi online estremamente competitivi. Al bancone, tuttavia, il personale fa spesso leva sulla paura del traffico italiano e del rischio di furto (specialmente nelle regioni del Sud) per vendere la propria assicurazione integrativa 'Carat'. Un'altra tattica comune riguarda il controllo alla riconsegna: gli addetti sono noti per essere estremamente pignoli, controllando con attenzione anche la parte inferiore del veicolo e i cerchioni alla ricerca di micro-graffi.",
+    "kaution_hinweis": "Se si rifiuta l'assicurazione interna, viene bloccata una cauzione elevata sulla carta di credito, che di solito varia tra gli 800 € e i 1.500 € a seconda del veicolo. È assolutamente obbligatorio presentare una carta di credito tradizionale (di circuito bancario, con numeri in rilievo, non di debito o prepagata) intestata al conducente principale."
+  },
+  {
+    "slug": "locauto",
+    "name": "Locauto Rent",
+    "schalter_taktik": "Presso i desk di Locauto c'è una forte spinta commerciale verso l'acquisto della copertura 'Don't Worry' per l'azzeramento della franchigia. Gli impiegati avvertono che qualsiasi danno, anche minimo, comporterà lunghe procedure burocratiche se coperto solo da broker esterni. Se decidete di non acquistarla, è fondamentale scattare foto e video dettagliati dell'auto prima di lasciare il parcheggio, poiché al ritorno i controlli possono essere molto rigidi.",
+    "kaution_hinweis": "La cauzione standard varia in genere da 500 € a 1.200 €. Locauto richiede una carta di credito finanziaria. Sebbene offrano formule particolari che consentono l'uso di carte di debito, queste sono quasi sempre vincolate all'acquisto della loro tariffa assicurativa più costosa."
+  },
+  {
+    "slug": "noleggiare",
+    "name": "Noleggiare",
+    "schalter_taktik": "Seguendo il classico modello low-cost, Noleggiare propone tariffe di partenza molto basse per poi cercare di monetizzare al bancone. Il personale tenta con insistenza di vendere i pacchetti di protezione 'Platinum' o 'Gold', spesso sostenendo che le polizze stipulate tramite broker terzi non offrano una reale assistenza stradale in caso di guasto o incidente e che i rimborsi richiedano mesi.",
+    "kaution_hinweis": "In assenza della loro copertura totale, viene richiesto il blocco di un deposito cauzionale che oscilla tra i 1.000 € e i 1.500 €. Se la carta di credito presentata non ha un plafond sufficiente o se si dispone solo di una carta di debito, il cliente viene di fatto costretto ad acquistare l'assicurazione interna per poter ritirare le chiavi."
+  },
+  {
+    "slug": "maggiore",
+    "name": "Maggiore Rent",
+    "schalter_taktik": "Maggiore è uno storico marchio italiano. Al momento del ritiro, la tattica principale consiste nel proporre la copertura 'Super Serenity' per eliminare la responsabilità economica in caso di danni. Inoltre, vengono spesso proposti servizi accessori come il navigatore satellitare o opzioni di carburante prepagato (pieno/vuoto) che si rivelano quasi sempre svantaggiose per il portafoglio del cliente.",
+    "kaution_hinweis": "Il deposito cauzionale è moderato se confrontato con i low-cost puri, solitamente calcolato sul costo del noleggio più una quota fissa di circa 200 € - 400 €. È comunque richiesta tassativamente una carta di credito fisica e tradizionale (Credit) a nome del primo conducente."
   }
 ]

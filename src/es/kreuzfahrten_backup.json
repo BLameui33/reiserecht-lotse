@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "aida-cruises",
+    "name": "AIDA Cruises",
+    "adresse": "AIDA Cruises - German Branch of Costa Crociere S.p.A.\nAtención al cliente / Relaciones con huéspedes\nAm Strande 3d\n18055 Rostock",
+    "infobox": "Como líder del mercado alemán, AIDA está plenamente sujeta al derecho alemán de viajes combinados. Los defectos en el barco (p. ej., fallo del aire acondicionado, ruido o camarotes insalubres) deben notificarse de inmediato en recepción y debe solicitarse un acta por escrito. En caso de puertos perdidos sin culpa propia, tiene derecho a una reducción proporcional del precio del viaje según la tabla de Würzburg."
+  },
+  {
+    "slug": "tui-cruises-mein-schiff",
+    "name": "TUI Cruises (Mein Schiff)",
+    "adresse": "TUI Cruises GmbH\nAtención al cliente\nHeidenkampsweg 58\n20097 Hamburgo",
+    "infobox": "En TUI Cruises se aplica el derecho alemán de viajes combinados. Si detecta defectos en el camarote o desviaciones graves en el servicio, debe comunicarlos de inmediato a la dirección del viaje a bordo y exigir una solución. Haga que le confirmen el informe de defectos aún a bordo; las reclamaciones por reducción del precio pueden hacerse valer hasta dos años después del final del viaje."
+  },
+  {
+    "slug": "msc-cruises",
+    "name": "MSC Cruises",
+    "adresse": "MSC Cruises S.A. (Sucursal de Múnich)\nServicio de atención al cliente\nGarmischer Str. 7\n80339 Múnich",
+    "infobox": "MSC Cruises dispone de una sucursal en Alemania, por lo que para los viajes reservados en Alemania se aplica el derecho alemán de viajes combinados. Dado que la operación a bordo es muy internacional, debe documentar meticulosamente los defectos con fotos, notificarlos de inmediato en el Guest Relations Desk y fijar un plazo razonable para la subsanación."
+  },
+  {
+    "slug": "costa-kreuzfahrten",
+    "name": "Costa Cruceros",
+    "adresse": "Costa Crociere S.p.A. - Sucursal de Alemania\nServicio de atención al cliente\nAm Sandtorkai 39\n20457 Hamburgo",
+    "infobox": "Costa Cruceros tramita las reclamaciones a través de su sucursal de Hamburgo conforme al derecho alemán. Si un destino garantizado se cancela sin una razón de seguridad válida (como condiciones meteorológicas extremas) o se sustituye por un puerto de menor calidad, existe un defecto del viaje que da derecho a una reducción proporcional diaria del precio total del viaje."
+  },
+  {
+    "slug": "ncl-norwegian-cruise-line",
+    "name": "Norwegian Cruise Line (NCL)",
+    "adresse": "NCL (Bahamas) Ltd. - Sucursal de Wiesbaden\nKreuzfahrtgasse 1\n65193 Wiesbaden",
+    "infobox": "A través de la sucursal de Wiesbaden, NCL queda directamente sujeta al derecho europeo de viajes combinados. Importante en navieras de orientación estadounidense: las propinas o suplementos de servicio cargados automáticamente no eximen a la naviera de la responsabilidad por defectos. Los defectos materiales a bordo deben reclamarse obligatoriamente in situ al personal del barco."
+  },
+  {
+    "slug": "royal-caribbean",
+    "name": "Royal Caribbean International",
+    "adresse": "RCL Cruises Ltd. - Sucursal de Fráncfort\nSpeicherstraße 59\n60327 Fráncfort del Meno",
+    "infobox": "En una reserva realizada a través de la sucursal de Fráncfort se aplica el derecho alemán de viajes, favorable al consumidor. Si se producen restricciones graves, como la total ausencia del entretenimiento anunciado, cubiertas de piscina cerradas o obras permanentes, exija de inmediato una prestación sustitutiva adecuada directamente a bordo."
+  },
+  {
+    "slug": "hurtigruten",
+    "name": "Hurtigruten",
+    "adresse": "Hurtigruten GmbH\nAtención al cliente\nGroßer Grasbrook 10\n20457 Hamburgo",
+    "infobox": "Hurtigruten combina viajes de expedición y rutas de correo marítimo. Dado que los horarios en aguas árticas dependen mucho del clima, los pequeños cambios de ruta suelen estar amparados legalmente. Sin embargo, si existe un defecto real (p. ej., fallo de la calefacción del camarote en invierno), la atención al cliente de Hamburgo es el interlocutor para las reclamaciones de reducción."
+  },
+  {
+    "slug": "phoenix-reisen",
+    "name": "Phoenix Reisen",
+    "adresse": "Phoenix Reisen GmbH\nPfälzer Str. 14\n53111 Bonn",
+    "infobox": "Como operador turístico alemán clásico, Phoenix Reisen responde íntegramente conforme al derecho alemán de viajes del BGB. El servicio de atención al cliente en Bonn examina las reclamaciones con detalle. Sin embargo, para que su reclamación prospere, es decisivo que primero haya comunicado el defecto a bordo al guía de viaje de Phoenix y haya solicitado sin éxito su subsanación."
+  },
+  {
+    "slug": "hapag-lloyd-cruises",
+    "name": "Hapag-Lloyd Cruises",
+    "adresse": "Hapag-Lloyd Kreuzfahrten GmbH\nAtención al cliente\nBallindamm 25\n20095 Hamburgo",
+    "infobox": "En el segmento de lujo de Hapag-Lloyd Cruises, los estándares legales son altos: cuanto mayor es el precio del viaje y el estándar prometido, más fácilmente se consideran las desviaciones (como la ausencia de conferenciantes o chefs con estrellas anunciados) como un verdadero defecto del viaje. Utilice la gestión de calidad directamente a bordo para una documentación inmediata."
+  },
+  {
+    "slug": "cunard-line",
+    "name": "Cunard Line",
+    "adresse": "Cunard Line - Una marca de Carnival plc\nAm Sandtorkai 38\n20457 Hamburgo",
+    "infobox": "Para la naviera británica tradicional, al reservar en Alemania se aplica el derecho alemán de viajes combinados a través de su sede en Hamburgo. Los defectos en el estado del camarote o las deficiencias graves del servicio deben reclamarse de inmediato a bordo. En caso de una afectación considerable del viaje, también puede considerarse una indemnización por la pérdida del disfrute vacacional."
+  },
+  {
+    "slug": "holland-america-line",
+    "name": "Holland America Line",
+    "adresse": "Holland America Line / Carnival plc\nSucursal de Múnich\nPlatz der Ideen 2\n40476 Düsseldorf",
+    "infobox": "A través de la representación alemana de Holland America Line se aplica el derecho de viajes combinados. En caso de defectos técnicos a bordo (p. ej., fallo permanente de los ascensores o de los sistemas de aseos), debe conceder a la dirección del barco un breve plazo para su reparación. Haga que le confirmen por escrito la notificación de defectos para futuras reclamaciones de reducción."
+  },
+  {
+    "slug": "princess-cruises",
+    "name": "Princess Cruises",
+    "adresse": "Princess Cruises - Inter-Connect GmbH\nArnulfstr. 31\n80636 Múnich",
+    "infobox": "Las reservas a través del agente general Inter-Connect en Múnich están sujetas al derecho alemán de viajes. En caso de desviaciones graves respecto a la descripción del viaje (p. ej., cancelación de varios puertos debido a una avería del motor), además de una reducción del precio del viaje, en determinadas circunstancias también puede reclamar una indemnización por vacaciones arruinadas."
+  },
+  {
+    "slug": "nicko cruises",
+    "name": "nicko cruises",
+    "adresse": "nicko cruises Schiffsreisen GmbH\nMittlerer Pfad 2\n70499 Stuttgart",
+    "infobox": "nicko cruises ofrece cruceros fluviales y marítimos. Especialmente en los ríos, las condiciones meteorológicas (crecidas o bajadas del nivel del agua) provocan cambios de ruta. Si el viaje debe interrumpirse o continuarse durante largos tramos en autobús, esto constituye una modificación contractual sustancial que justifica reducciones importantes del precio."
+  },
+  {
+    "slug": "plantours-kreuzfahrten",
+    "name": "Plantours Kreuzfahrten",
+    "adresse": "plantours & Partner GmbH\nMartinistraße 50\n28195 Bremen",
+    "infobox": "Como operador alemán, Plantours en Bremen está plenamente sujeto al derecho de viajes combinados. En caso de molestias por ruido causadas por la estructura del barco o de olores persistentes en el camarote, la dirección del viaje a bordo es el primer punto de contacto. Si no se atiende la solicitud de subsanación, asegure pruebas mediante declaraciones de testigos de otros pasajeros."
+  },
+  {
+    "slug": "a-rosa-flusskreuzfahrten",
+    "name": "A-ROSA Flussschiff",
+    "adresse": "A-ROSA Flussschiff GmbH\nAtención al cliente\nLoggerweg 5\n18055 Rostock",
+    "infobox": "En los cruceros fluviales de A-ROSA se aplica el derecho clásico de viajes combinados. Si debido a niveles críticos del agua se cancelan gran parte de las excursiones en tierra previstas, tiene derecho a una reducción. Los defectos materiales a bordo (p. ej., zonas de bienestar defectuosas o defectos en el camarote) deben reclamarse de inmediato en recepción y debe fijarse un plazo para su subsanación."
+  },
+  {
+    "slug": "allgemein",
+    "name": "Otra naviera (plantilla general)",
+    "adresse": "[Nombre de la naviera]\n[p. ej., departamento de atención al cliente]\n[calle y número]\n[código postal y ciudad]",
+    "infobox": "Los cruceros se clasifican jurídicamente como viajes combinados. Se aplica la estricta obligación de reclamación a bordo: los defectos deben comunicarse de inmediato al guía de viaje o en recepción, junto con la solicitud de subsanación (fijación de plazo). Asegure pruebas mediante fotos, vídeos y testigos. La tabla de Würzburg para defectos en cruceros sirve de orientación para los importes de reducción."
+  }
+]

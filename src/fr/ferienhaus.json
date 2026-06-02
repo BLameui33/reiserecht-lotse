@@ -3,102 +3,126 @@
     "name": "Novasol",
     "slug": "novasol",
     "adresse": "NOVASOL A/S Zweigniederlassung Deutschland\nGotenstraße 11\n20097 Hambourg",
-    "infobox": "En tant que l’un des plus grands voyagistes européens, Novasol est directement responsable des caractéristiques garanties de la maison de vacances. Important : les défauts doivent être signalés immédiatement sur place via la hotline de service ou le bureau local (obligation de réclamation), afin de donner au prestataire la possibilité d’y remédier. Sans réclamation dans les délais, les droits à réduction de prix sont perdus."
+    "infobox": "<p>Novasol est un important intermédiaire européen de maisons et appartements de vacances, proposant des séjours dans de nombreuses destinations. Juridiquement, l’entreprise agit en règle générale comme intermédiaire ou organisateur selon le contrat conclu ; les droits du client dépendent donc des conditions de réservation et des prestations promises. En cas de défauts de logement – par exemple équipement manquant, propreté insuffisante ou autre non-conformité – une réclamation immédiate sur place est essentielle afin de préserver d’éventuels droits à réduction de prix, réparation ou dommages-intérêts. Pour les annulations, les frais de résiliation dépendent des conditions d’annulation applicables. Le siège juridique et for judiciaire de Novasol est à Copenhague, Danemark.</p><!--opt-->"
   },
   {
     "name": "FeWo-direkt (Vrbo)",
     "slug": "fewo-direkt",
     "adresse": "EG Vacation Rentals Ireland Limited\n50 Block Novum, Brown Square\nDublin\nIrlande",
-    "infobox": "FeWo-direkt agit comme simple intermédiaire ; le contrat de réservation est conclu directement avec l’hôte concerné (particulier ou professionnel). Les droits juridiques en cas de défauts, de description erronée ou de retenue de caution doivent impérativement être adressés au loueur. La plateforme n’offre qu’une protection contre la fraude via sa garantie « Réservez en toute confiance »."
+    "infobox": "<p>FeWo-direkt (Vrbo) est une grande plateforme de réservation de locations de vacances qui met en relation voyageurs et hôtes privés ou professionnels. En règle générale, FeWo-direkt agit comme simple intermédiaire ; le contrat de location est donc conclu avec le propriétaire ou gestionnaire de l’hébergement. En cas de défauts de l’hébergement, d’équipement manquant, de problèmes de propreté ou de description inexacte, des droits à réduction de prix, à réparation ou à indemnisation peuvent exister contre le loueur. Pour les annulations, les frais et conditions dépendent des règles de réservation convenues. Le siège juridique principal de Vrbo/FeWo-direkt est à Austin, Texas (États-Unis).</p><!--opt-->"
   },
   {
     "name": "Belvilla",
     "slug": "belvilla",
     "adresse": "Belvilla Services B.V.\nPiet Heinkade 55\n1019 GM Amsterdam\nPays-Bas",
-    "infobox": "Belvilla agit en tant que voyagiste et est votre partenaire contractuel direct pour le bien de vacances. En cas de défauts importants (p. ex. panne de chauffage, manque d’hygiène), contactez Belvilla immédiatement par écrit ou par téléphone dans un délai de 24 à 48 heures. Documentez tous les défauts de manière exhaustive avec des photos et des témoins pour de futures demandes de remboursement."
+    "infobox": "<p>Belvilla est un intermédiaire et fournisseur reconnu de maisons et appartements de vacances en Europe. Selon le contrat, Belvilla agit généralement comme votre partenaire contractuel pour la réservation, ce qui permet d’invoquer des droits en cas de défauts de l’hébergement, par exemple en cas de propreté insuffisante, d’équipement manquant ou de prestations non conformes. Dans ce cas, une réduction du prix, une prise en charge des frais ou, selon les circonstances, des dommages-intérêts peuvent être envisageables. Pour les annulations, les conditions de réservation et les frais de résiliation applicables sont déterminants. Le siège social et for juridique de Belvilla se trouvent à Amsterdam, aux Pays-Bas.</p><!--opt-->"
   },
   {
     "name": "Casamundo",
     "slug": "casamundo",
     "adresse": "Casamundo GmbH\nPappelallee 78/79\n10437 Berlin",
-    "infobox": "Casamundo est un portail de méta-recherche et un simple intermédiaire qui regroupe les offres de différents partenaires. En cas de défauts sur place, Casamundo n’est pas la bonne adresse pour des dommages-intérêts ou des réductions de prix, mais bien le prestataire final explicitement mentionné dans le bon de réservation (par ex. un gestionnaire local ou un voyagiste spécifique)."
+    "infobox": "<p>Casamundo est une plateforme de réservation et de comparaison de maisons et appartements de vacances, qui agit généralement comme intermédiaire entre les voyageurs et les prestataires locaux. En cas de défauts du logement — par exemple un équipement manquant, des problèmes de propreté ou un hébergement non conforme — les demandes de réduction de prix, d’indemnisation ou de mise en conformité visent en principe le bailleur ou le prestataire final mentionné dans la confirmation de réservation. Pour les annulations, les conditions de frais d’annulation et de résiliation résultent des CGV et du contrat conclu. Siège social et for juridique: Hambourg, Allemagne.</p><!--opt-->"
   },
   {
     "name": "DanCenter",
     "slug": "dancenter",
     "adresse": "DanCenter GmbH\nSpitalerstraße 16\n20095 Hambourg",
-    "infobox": "DanCenter agit en tant que voyagiste et assume la responsabilité juridique de l’état des maisons de vacances scandinaves. En cas de défauts, l’obligation stricte de réclamation immédiate auprès du bureau de service local compétent s’applique. Un changement unilatéral vers un autre hébergement ou un départ anticipé sans mise en demeure préalable pour remédier au problème entraîne presque toujours, sur le plan juridique, la perte des droits à réduction de prix."
+    "infobox": "<p>DanCenter est un important spécialiste de la location de maisons de vacances en Scandinavie et agit généralement comme organisateur de voyages ou intermédiaire contractuel selon la prestation réservée. En cas de défauts du logement – par exemple équipement manquant, propreté insuffisante ou état inadéquat –, les clients peuvent, selon le droit applicable, faire valoir des droits à réparation, réduction de prix ou, dans certains cas, indemnisation. Les annulations et frais de résiliation dépendent des conditions de réservation et des règles contractuelles. Le siège juridique et le for compétent de DanCenter se trouvent aux Pays-Bas.</p><!--opt-->"
   },
   {
     "name": "Interhome",
     "slug": "interhome",
     "adresse": "HTS Touristik GmbH (Interhome)\nHeinrich-von-Stephan-Straße 15\n79100 Fribourg-en-Brisgau",
-    "infobox": "En tant que voyagiste, Interhome est responsable des défauts du bien loué. En cas de problème, utilisez immédiatement l’agence de service locale Interhome ou le détenteur des clés sur place afin de demander une remise en état. Faites idéalement confirmer la déclaration de défaut et la demande de remédiation par écrit ou par e-mail afin d’éviter des difficultés de preuve."
+    "infobox": "<p>Interhome est un grand intermédiaire et prestataire de locations de vacances proposant des maisons et appartements de vacances dans de nombreuses destinations. Selon le contrat, l’entreprise peut être tenue responsable des défauts du logement, par exemple en cas de propreté insuffisante, d’équipement manquant ou de prestations non conformes. Les voyageurs peuvent alors, selon le droit applicable, demander une mise en conformité, une réduction du prix ou, dans certains cas, des dommages-intérêts. En cas d’annulation, les conditions de réservation et les frais de résiliation s’appliquent. Le siège juridique et for du groupe Interhome se situe à Glattbrugg, en Suisse.</p><!--opt-->"
   },
   {
     "name": "Holidu",
     "slug": "holidu",
     "adresse": "Holidu GmbH\nRiesstraße 24\n80992 Munich",
-    "infobox": "Holidu fonctionne comme moteur de recherche et plateforme d’intermédiation. Les contrats d’hébergement sont conclus avec le prestataire tiers lié ou l’hôte direct. Les droits à réduction de loyer en raison de nuisances sonores de chantier, d’un équipement manquant ou de descriptions de prestations incomplètes ne peuvent pas être invoqués juridiquement contre Holidu."
+    "infobox": "<p>Holidu est une plateforme de recherche et d’intermédiation de locations de vacances, qui met en relation les voyageurs avec des hôtes ou prestataires tiers. Selon le contrat, Holidu agit généralement comme intermédiaire; les droits du client en cas de défauts du logement, d’équipement manquant, de problèmes de propreté ou de prestations non conformes peuvent alors viser l’hébergeur, notamment sous forme de réduction du prix, d’exécution complémentaire ou de dommages-intérêts. Pour les annulations et frais de résiliation, les conditions de réservation et de l’hébergeur déterminent les droits applicables. Le siège juridique principal de Holidu est à Munich, en Allemagne.</p><!--opt-->"
   },
   {
     "name": "Traum-Ferienwohnungen",
     "slug": "traum-ferienwohnungen",
     "adresse": "Traum-Ferienwohnungen GmbH\nAn der Reeperbahn 6\n28217 Brême",
-    "infobox": "Le portail est une simple plateforme d’annonces sur laquelle les loueurs présentent eux-mêmes leurs biens. La plateforme ne vérifie pas sur place l’état réel des maisons. En cas de défauts, de surbooking ou de retenue injustifiée de la caution, la seule compétence juridique et la responsabilité incombent au loueur inscrit dans le contrat de location."
+    "infobox": "<p>Traum-Ferienwohnungen est une plateforme allemande de location et de mise en relation pour maisons et appartements de vacances. En principe, le prestataire agit comme intermédiaire entre le voyageur et le loueur indiqué dans le contrat ; les obligations contractuelles découlent donc souvent des conditions de réservation et des CGV applicables. En cas de défauts de logement, d’équipement manquant, de problèmes de propreté ou de surbooking, des droits à réduction du prix, à dommages-intérêts ou à résiliation peuvent être envisagés. Pour les annulations, les frais d’annulation dépendent des règles de réservation convenues. Le siège social et for juridique se trouvent à Hamburg, Allemagne.</p><!--opt-->"
   },
   {
     "name": "e-domizil",
     "slug": "e-domizil",
     "adresse": "e-domizil GmbH\nTaunusstraße 21\n60329 Francfort-sur-le-Main",
-    "infobox": "e-domizil propose des offres d’hôtes privés et d’autres voyagistes, mais agit aussi dans certains cas en tant que voyagiste (veuillez vérifier à ce sujet la confirmation de réservation). Si e-domizil n’est qu’un intermédiaire, les défauts doivent être signalés directement au propriétaire ; dans le cas d’une réservation auprès d’un voyagiste, les règles favorables au consommateur du droit des voyages à forfait s’appliquent."
+    "infobox": "<p>e-domizil est un spécialiste de la location de vacances qui propose des maisons et appartements de particuliers ainsi que des offres de partenaires. Selon la confirmation de réservation, e-domizil agit soit comme simple intermédiaire, soit comme organisateur de voyage. En cas de défauts de l’hébergement, des droits à réduction du prix, d’élimination du défaut ou, le cas échéant, à dommages-intérêts peuvent entrer en ligne de compte; les réclamations doivent souvent être adressées au propriétaire ou au prestataire contractuel. Pour les annulations, les conditions de réservation et d’éventuels frais de résiliation sont déterminants. Si e-domizil est organisateur, les règles protectrices du droit des voyages à forfait s’appliquent. Siège juridique: Zurich, Suisse.</p><!--opt-->"
   },
   {
     "name": "Allgemeines Formular",
     "slug": "allgemein",
     "adresse": "[Veuillez saisir ici l’adresse du prestataire]",
-    "infobox": "En cas de défauts dans une maison de vacances, le droit allemand et européen du bail ainsi que du voyage impose une stricte obligation de limitation du dommage et une obligation de réclamation : documentez immédiatement tous les défauts (photos, vidéos, témoins) et mettez sans délai le cocontractant en demeure d’y remédier dans un délai approprié. Sans cette démarche, les demandes financières ultérieures sont juridiquement exclues."
+    "infobox": "<p>Allgemeines Formular agit en tant que médiateur ou fournisseur de locations de vacances, selon le contrat conclu et les services effectivement proposés. Son siège juridique et for judiciaire se trouvent au siège social de l’entreprise. En cas de défauts d’hébergement — par exemple équipement manquant, propreté insuffisante ou logement non conforme — les clients peuvent, selon le droit applicable, demander une remise de prix, des dommages-intérêts ou une mise en conformité. Pour les annulations et frais de résiliation, les conditions contractuelles et les règles légales déterminent l’éventuel remboursement ou les coûts dus. Il est essentiel de signaler les problèmes rapidement et de les documenter.</p><!--opt-->"
   },
   {
     "name": "HomeToGo",
     "slug": "hometogo",
     "adresse": "HomeToGo GmbH\nPappelallee 78/79\n10437 Berlin",
-    "infobox": "HomeToGo est un portail mondial de comparaison et un simple intermédiaire. L’entreprise n’est responsable ni de l’état des appartements de vacances proposés ni des indications de prix erronées des sites partenaires. Tous les droits de garantie, demandes de dommages-intérêts ou demandes d’annulation doivent être traités avec le prestataire réel de la réservation."
+    "infobox": "<p>HomeToGo est un grand comparateur international de locations de vacances et agit en règle générale comme intermédiaire entre les voyageurs et les prestataires ou partenaires de réservation. En droit, les réclamations liées à des défauts du logement, comme un équipement manquant, un manque de propreté ou des prestations non conformes, doivent souvent être adressées au véritable cocontractant ; selon le cas, une réduction du prix, des dommages-intérêts ou la réparation du préjudice peuvent entrer en ligne de compte. Pour les annulations et frais de résiliation, les conditions de réservation applicables sont déterminantes. Le siège social et for juridique de HomeToGo se trouve à Berlin, Allemagne.</p><!--opt-->"
   },
   {
     "name": "Booking.com",
     "slug": "booking",
     "adresse": "Booking.com B.V.\nOosterdokskade 163\n1011 DL Amsterdam\nPays-Bas",
-    "infobox": "Booking.com agit exclusivement en tant qu’intermédiaire. Même si les paiements sont traités via la plateforme, en cas de défauts (p. ex. absence de Wi-Fi, nombre de chambres différent), l’hôte est la personne principalement visée pour les demandes de réduction de prix. Le service client de Booking.com peut apporter une aide de médiation, mais n’est pas juridiquement responsable de dommages-intérêts."
+    "infobox": "<p>Booking.com est une plateforme de réservation internationale pour hôtels et locations de vacances, agissant en principe comme intermédiaire entre les voyageurs et les hébergeurs. En cas de défauts du logement — par exemple propreté insuffisante, équipement manquant ou prestations non conformes — les demandes de réduction de prix, de réparation ou, selon le cas, de dommages-intérêts visent généralement le prestataire d’hébergement. Pour les annulations et frais de résiliation, les conditions de réservation et d’annulation convenues sont déterminantes. Booking.com peut aider à la médiation, mais n’est en règle générale pas le débiteur principal des réclamations. Le siège juridique principal se situe à Amsterdam, aux Pays-Bas.</p><!--opt-->"
   },
   {
     "name": "BestFewo",
     "slug": "bestfewo",
     "adresse": "BestSearch Media GmbH\nZeppelinstraße 73\n14471 Potsdam",
-    "infobox": "BestFewo propose des hébergements de vacances d’agences régionales et d’offices de tourisme locaux en Allemagne. Les demandes de dommages-intérêts ou de réduction de loyer en raison de défauts qui diminuent la valeur des vacances doivent être adressées directement au loueur explicitement nommé dans le contrat de location ou à l’agence exécutante sur place."
+    "infobox": "<p>BestFewo est une plateforme de réservation et de médiation de locations de vacances proposant des hébergements de particuliers, d’agences régionales et d’offices de tourisme, notamment en Allemagne. Sur le plan juridique, BestFewo agit en principe comme intermédiaire ; les droits liés aux défauts d’hébergement, tels qu’un logement de vacances défectueux, un équipement manquant ou des problèmes de propreté, doivent donc généralement être dirigés contre le loueur ou le prestataire indiqué dans le contrat. En cas d’annulation, de rétractation ou de frais d’annulation, les conditions de réservation et les règles contractuelles applicables déterminent les éventuelles prétentions. Si le contrat ne prévoit pas d’autre for, le siège social et for juridique de BestFewo se trouve à Bielefeld.</p><!--opt-->"
   },
   {
     "name": "Ferienwohnungen.de",
     "slug": "ferienwohnungen-de",
     "adresse": "ferienwohnungen.de GmbH\nCeller Str. 101 a\n38114 Brunswick",
-    "infobox": "En tant que simple portail publicitaire et d’annonces pour hébergements de vacances, Ferienwohnungen.de n’assume aucune garantie quant à l’exactitude des textes et images téléchargés. En cas d’écart entre la description en ligne et l’état réel du bien, les démarches juridiques doivent être engagées directement contre le loueur."
+    "infobox": "<p>Ferienwohnungen.de est un portail et intermédiaire de location de vacances qui publie des annonces d’hébergements, sans être en règle générale le cocontractant direct du séjour. En cas de défauts du logement – par exemple équipement manquant, propreté insuffisante ou description inexacte – les voyageurs peuvent, selon le contrat et le droit applicable, faire valoir des droits à réduction de prix, dommages-intérêts ou résiliation. Pour les annulations, les conditions de réservation et les frais d’annulation convenus restent déterminants. Le siège social et for juridique de Ferienwohnungen.de est à Hambourg, Allemagne.</p><!--opt-->"
   },
   {
     "name": "Atraveo",
     "slug": "atraveo",
     "adresse": "atraveo GmbH\nParsevalstraße 7a\n40468 Düsseldorf",
-    "infobox": "Atraveo (qui fait partie du groupe e-domizil) propose des maisons de vacances dans le monde entier. Les demandes liées à des défauts d’équipement doivent être signalées immédiatement au contact local. En cas d’écarts contractuels graves, il est recommandé d’informer parallèlement le service client d’Atraveo afin d’obtenir une clarification rapide."
+    "infobox": "<p>Atraveo est une plateforme de location de maisons et appartements de vacances, membre du groupe e-domizil, qui agit en principe comme intermédiaire de séjours de vacances. En cas de défauts du logement – par exemple propreté insuffisante, équipement manquant ou prestations non conformes – les voyageurs peuvent, selon les circonstances, faire valoir une réduction du prix, des dommages-intérêts ou d’autres droits contractuels. Pour les annulations, les conditions de réservation et d’annulation d’Atraveo sont déterminantes; des frais de résiliation peuvent s’appliquer. Le siège juridique et le for compétent se trouvent à Hambourg, en Allemagne. Signalez les défauts immédiatement et conservez des preuves.</p><!--opt-->"
   },
   {
     "name": "Naturhäuschen",
     "slug": "naturhaeuschen",
     "adresse": "Nature.house B.V.\nCeresstraat 13\n4811 CA Breda\nPays-Bas",
-    "infobox": "Naturhäuschen propose des hébergements spécialisés en milieu rural. Comme la plateforme est un simple intermédiaire, toutes les réclamations concernant la propreté, l’équipement ou les problèmes lors de la remise des clés doivent être réglées directement avec le propriétaire concerné du Naturhäuschen."
+    "infobox": "<p>Naturhäuschen est une plateforme spécialisée dans la location de maisons de vacances en pleine nature, souvent en milieu rural ou isolé. Juridiquement, il s’agit généralement d’un intermédiaire de réservation et non du propriétaire contractuel du logement ; les réclamations relatives aux défauts de l’hébergement, comme un manque de propreté, des équipements absents ou des problèmes de remise des clés, doivent donc en principe être adressées au bailleur concerné. En cas de manquements importants, une réduction du prix peut entrer en ligne de compte. Pour les annulations, les conditions d’annulation et les frais de résiliation applicables sont déterminants. Siège social / for juridique : selon les mentions légales de Naturhäuschen aux Pays-Bas.</p><!--opt-->"
   },
   {
     "name": "Tourist-Online",
     "slug": "tourist-online",
     "adresse": "tourist-online.de GmbH\nTaunusstraße 21\n60329 Francfort-sur-le-Main",
-    "infobox": "En tant que simple portail d’intermédiation, Tourist-Online transmet uniquement votre demande de réservation à des voyagistes professionnels ou à des loueurs privés. Les démarches juridiques en cas de défauts de location (comme des nuisances sonores de chantier ou une piscine défectueuse) ne visent jamais le portail, mais toujours le cocontractant documenté dans le contrat de location."
+    "infobox": "<p>Tourist-Online est un portail et intermédiaire de location de maisons de vacances qui transmet votre demande de réservation à des prestataires professionnels ou à des loueurs privés. Juridiquement, l’entreprise agit en principe comme simple intermédiaire; les droits liés à des défauts du logement, tels qu’un équipement manquant, des problèmes de propreté ou un hébergement non conforme, doivent donc être examinés d’abord à l’égard du cocontractant indiqué dans le contrat. Selon le cas, une réduction du prix, des dommages-intérêts ou une résiliation peuvent entrer en ligne de compte. En cas d’annulation, les conditions de réservation et les frais d’annulation applicables déterminent les droits. Siège social et for juridique: Lübeck, Allemagne.</p><!--opt-->"
+  },
+  {
+    "slug": "gites-de-france",
+    "name": "Fédération Nationale des Gîtes de France",
+    "adresse": "40 avenue de Flandre\n75019 Paris\nFrance",
+    "infobox": "<p>Gîtes de France est le réseau historique et leader de la location de vacances et chambres d'hôtes en France. Selon les modalités de réservation, l'organisation agit comme intermédiaire ou via des centrales de réservation régionales comme agence. En cas de défauts de l'hébergement, tels qu'un manque d'équipement, des problèmes de propreté ou des divergences avec l'annonce, les voyageurs doivent signaler le manquement immédiatement sur place afin de permettre une mise en conformité. En cas d'annulation, les frais de résiliation contractuels s'appliquent conformément aux conditions de vente. Le siège social se situe à Paris.</p><!--opt-->"
+  },
+  {
+    "slug": "pierre-et-vacances",
+    "name": "Pierre & Vacances (Groupe Pierre & Vacances-Center Parcs)",
+    "adresse": "11 rue de Cambrai\n75019 Paris\nFrance",
+    "infobox": "<p>Pierre & Vacances est le principal exploitant français de résidences de tourisme et de villages de vacances, gérant directement ses propres structures. Contrairement aux simples plateformes, l'entreprise intervient généralement en tant que prestataire direct ou organisateur, ce qui détermine sa responsabilité en matière de conformité. En cas de défauts dans le logement (problèmes d'hygiène, installations défectueuses), les clients doivent immédiatement déposer une réclamation auprès de la réception sur place. Les annulations sont régies par les conditions contractuelles spécifiques de l'opérateur. Le siège social et le for juridique sont fixés à Paris.</p><!--opt-->"
+  },
+  {
+    "slug": "clevacances",
+    "name": "Clévacances France",
+    "adresse": "54 boulevard de l'Embouchure\n31200 Toulouse\nFrance",
+    "infobox": "<p>Clévacances France est un organisme national de labellisation et un portail de réservation de locations de vacances et de gîtes de qualité. Sur le plan juridique, la plateforme agit généralement comme un simple intermédiaire, le contrat de location étant conclu directement entre le voyageur et le propriétaire ou le gestionnaire. En cas de vices ou de problèmes de propreté constatés à l'arrivée, l'hôte doit être averti sans délai afin qu'une solution puisse être trouvée. Les frais d'annulation dépendent strictement des clauses convenues avec le loueur. Le siège social de l'association est situé à Toulouse.</p><!--opt-->"
+  },
+  {
+    "slug": "maeva",
+    "name": "Maeva (Vacances Maeva SAS)",
+    "adresse": "11 rue de Cambrai\n75019 Paris\nFrance",
+    "infobox": "<p>Maeva (Vacances Maeva SAS), filiale du groupe Pierre & Vacances, est un acteur majeur du secteur de la location saisonnière en ligne, proposant des hébergements de particuliers et de professionnels. Selon le type d'offre, Maeva peut agir comme intermédiaire de réservation ou comme mandataire de gestion. Si l'hébergement présente des défauts notables par rapport à la description contractuelle, il convient de contacter immédiatement leur service client ou le représentant local pour une mise en conformité. Les conditions d'annulation et de remboursement dépendent du barème applicable lors de l'achat. Le siège social est basé à Paris.</p><!--opt-->"
   }
 ]

@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "aida-cruises",
+    "name": "AIDA Cruises",
+    "adresse": "AIDA Cruises - German Branch of Costa Crociere S.p.A.\nService client / Relations clients\nAm Strande 3d\n18055 Rostock",
+    "infobox": "En tant que leader du marché allemand, AIDA est pleinement soumise au droit allemand des voyages à forfait. Les défauts de voyage à bord (par ex. panne de climatisation, bruit ou cabines insalubres) doivent être signalés immédiatement à la réception et un procès-verbal écrit doit être demandé. En cas d’escales manquées sans faute de votre part, vous avez droit à une réduction proportionnelle du prix du voyage selon le barème de Würzburg."
+  },
+  {
+    "slug": "tui-cruises-mein-schiff",
+    "name": "TUI Cruises (Mein Schiff)",
+    "adresse": "TUI Cruises GmbH\nService clientèle\nHeidenkampsweg 58\n20097 Hambourg",
+    "infobox": "Chez TUI Cruises, le droit allemand des voyages à forfait s’applique. Si vous constatez des défauts dans la cabine ou des écarts importants dans le service, vous devez les signaler sans délai à la direction du voyage à bord et demander qu’il y soit remédié. Faites contresigner le rapport de défauts encore à bord ; les demandes de réduction de prix peuvent être invoquées jusqu’à deux ans après la fin du voyage."
+  },
+  {
+    "slug": "msc-cruises",
+    "name": "MSC Cruises",
+    "adresse": "MSC Cruises S.A. (succursale de Munich)\nService client\nGarmischer Str. 7\n80339 Munich",
+    "infobox": "MSC Cruises dispose d’une succursale allemande, ce qui rend le droit allemand des voyages à forfait applicable aux voyages réservés en Allemagne. Comme l’exploitation à bord est très internationale, vous devriez documenter les défauts avec soin à l’aide de photos, les signaler immédiatement au Guest Relations Desk et fixer un délai raisonnable pour la remise en état."
+  },
+  {
+    "slug": "costa-kreuzfahrten",
+    "name": "Costa Kreuzfahrten",
+    "adresse": "Costa Crociere S.p.A. - Succursale Allemagne\nService client\nAm Sandtorkai 39\n20457 Hambourg",
+    "infobox": "Costa Kreuzfahrten traite les réclamations via sa succursale de Hambourg conformément au droit allemand. Si une destination promise est supprimée sans motif de sécurité valable (comme des intempéries extrêmes) ou remplacée par un port de moindre qualité, il s’agit d’un défaut de voyage donnant droit à une réduction du prix total du voyage au prorata journalier."
+  },
+  {
+    "slug": "ncl-norwegian-cruise-line",
+    "name": "Norwegian Cruise Line (NCL)",
+    "adresse": "NCL (Bahamas) Ltd. - Succursale de Wiesbaden\nKreuzfahrtgasse 1\n65193 Wiesbaden",
+    "infobox": "Grâce à la succursale de Wiesbaden, NCL est directement soumise au droit européen des voyages à forfait. Important pour les compagnies à dominante américaine : les pourboires ou forfaits de service débités automatiquement ne dispensent pas la compagnie de sa responsabilité en cas de défaut. Les défauts matériels à bord doivent impérativement être signalés sur place au personnel du navire."
+  },
+  {
+    "slug": "royal-caribbean",
+    "name": "Royal Caribbean International",
+    "adresse": "RCL Cruises Ltd. - Succursale de Francfort\nSpeicherstraße 59\n60327 Francfort-sur-le-Main",
+    "infobox": "Pour une réservation via la succursale de Francfort, le droit allemand des voyages, favorable au consommateur, s’applique. Si des restrictions graves surviennent – comme la panne totale des animations annoncées, la fermeture des ponts piscine ou des travaux permanents –, demandez immédiatement une prestation de remplacement adéquate directement à bord."
+  },
+  {
+    "slug": "hurtigruten",
+    "name": "Hurtigruten",
+    "adresse": "Hurtigruten GmbH\nService clientèle\nGroßer Grasbrook 10\n20457 Hambourg",
+    "infobox": "Hurtigruten combine voyages d’expédition et lignes postales. Comme les horaires dans les eaux arctiques dépendent fortement de la météo, les petits changements d’itinéraire sont souvent couverts juridiquement. En revanche, s’il existe un véritable défaut (par ex. panne du chauffage de la cabine en hiver), le service clientèle de Hambourg est l’interlocuteur pour les demandes de réduction."
+  },
+  {
+    "slug": "phoenix-reisen",
+    "name": "Phoenix Reisen",
+    "adresse": "Phoenix Reisen GmbH\nPfälzer Str. 14\n53111 Bonn",
+    "infobox": "En tant qu’organisateur de voyages allemand classique, Phoenix Reisen est entièrement responsable selon le droit allemand des voyages du BGB. Le service client à Bonn examine les réclamations avec soin. Toutefois, pour que votre demande aboutisse, il est essentiel que vous ayez d’abord signalé le défaut à bord au guide de voyage Phoenix et demandé en vain qu’il y soit remédié."
+  },
+  {
+    "slug": "hapag-lloyd-cruises",
+    "name": "Hapag-Lloyd Cruises",
+    "adresse": "Hapag-Lloyd Kreuzfahrten GmbH\nService clientèle\nBallindamm 25\n20095 Hambourg",
+    "infobox": "Dans le segment luxe de Hapag-Lloyd Cruises, les critères juridiques sont élevés : plus le prix du voyage et le niveau promis sont élevés, plus les écarts (comme la panne des conférenciers ou des chefs étoilés annoncés) sont susceptibles de constituer un véritable défaut de voyage. Utilisez la gestion de la qualité directement à bord pour une consignation immédiate."
+  },
+  {
+    "slug": "cunard-line",
+    "name": "Cunard Line",
+    "adresse": "Cunard Line - Une marque de Carnival plc\nAm Sandtorkai 38\n20457 Hambourg",
+    "infobox": "Pour la compagnie maritime britannique traditionnelle, le droit allemand des voyages à forfait s’applique en cas de réservation en Allemagne via le siège de Hambourg. Les défauts de la cabine ou les graves insuffisances de service doivent être signalés immédiatement à bord. En cas d’atteinte importante au voyage, une indemnisation pour perte de plaisir des vacances peut également être envisagée."
+  },
+  {
+    "slug": "holland-america-line",
+    "name": "Holland America Line",
+    "adresse": "Holland America Line / Carnival plc\nSuccursale de Munich\nPlatz der Ideen 2\n40476 Düsseldorf",
+    "infobox": "Par l’intermédiaire de la représentation allemande de Holland America Line, le droit des voyages à forfait s’applique. En cas de défauts techniques à bord (par ex. panne durable des ascenseurs ou des systèmes de toilettes), vous devriez fixer à la direction du navire un bref délai pour y remédier. Faites confirmer par écrit la déclaration de défauts pour de futures demandes de réduction."
+  },
+  {
+    "slug": "princess-cruises",
+    "name": "Princess Cruises",
+    "adresse": "Princess Cruises - Inter-Connect GmbH\nArnulfstr. 31\n80636 Munich",
+    "infobox": "Les réservations effectuées via l’agent général Inter-Connect à Munich sont soumises au droit allemand du voyage. En cas d’écarts graves par rapport à la description du voyage (par ex. annulation de plusieurs escales en raison d’une panne de moteur), vous pouvez, outre une réduction du prix du voyage, éventuellement faire valoir des dommages et intérêts pour vacances gâchées."
+  },
+  {
+    "slug": "nicko cruises",
+    "name": "nicko cruises",
+    "adresse": "nicko cruises Schiffsreisen GmbH\nMittlerer Pfad 2\n70499 Stuttgart",
+    "infobox": "nicko cruises propose des croisières fluviales et maritimes. Sur les fleuves en particulier, des changements d’itinéraire surviennent en raison des conditions météorologiques (hautes ou basses eaux). Si le voyage doit être interrompu ou poursuivi en grande partie en bus, cela constitue une modification contractuelle importante justifiant des réductions de prix substantielles."
+  },
+  {
+    "slug": "plantours-kreuzfahrten",
+    "name": "Plantours Kreuzfahrten",
+    "adresse": "plantours & Partner GmbH\nMartinistraße 50\n28195 Brême",
+    "infobox": "En tant qu’organisateur allemand, Plantours à Brême est entièrement soumis au droit des voyages à forfait. En cas de nuisances sonores dues à la structure du navire ou d’odeurs persistantes dans la cabine, la direction du voyage à bord est le premier interlocuteur. Si la demande de remédiation n’est pas satisfaite, sécurisez les preuves au moyen de témoignages d’autres passagers."
+  },
+  {
+    "slug": "a-rosa-flusskreuzfahrten",
+    "name": "A-ROSA Flussschiff",
+    "adresse": "A-ROSA Flussschiff GmbH\nService clientèle\nLoggerweg 5\n18055 Rostock",
+    "infobox": "Pour les croisières fluviales A-ROSA, le droit classique des voyages à forfait s’applique. Si, en raison de niveaux d’eau critiques, une grande partie des excursions à terre prévues est annulée, vous avez droit à une réduction. Les simples défauts matériels à bord (par ex. espaces bien-être défectueux ou défauts de cabine) doivent être signalés immédiatement à la réception et un délai pour y remédier doit être fixé."
+  },
+  {
+    "slug": "allgemein",
+    "name": "Autre compagnie maritime (modèle général)",
+    "adresse": "[Nom de la compagnie maritime]\n[par ex. service clientèle]\n[rue et numéro]\n[code postal et ville]",
+    "infobox": "Les croisières sont juridiquement classées comme des voyages à forfait. Il existe une obligation stricte de signalement à bord : les défauts doivent être signalés immédiatement au guide de voyage ou à la réception, avec demande de remédiation (fixation d’un délai). Sécurisez les preuves par des photos, des vidéos et des témoins. Le barème de Würzburg pour les défauts de croisière sert de référence pour les montants de réduction."
+  }
+]

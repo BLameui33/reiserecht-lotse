@@ -124,5 +124,30 @@
     "name": "Autovermietungen",
     "schalter_taktik": "Quel que soit le prestataire : restez ferme ! Les loueurs forment souvent leur personnel à vendre des assurances complémentaires coûteuses en brandissant des scénarios catastrophes (par ex. taux de vol élevés). Si vous avez souscrit à l’avance une assurance tous risques via un intermédiaire, cela suffit. Ne signez rien que vous ne comprenez pas.",
     "kaution_hinweis": "La règle la plus importante : vous avez presque toujours besoin d’une carte de crédit physique et complète (credit, pas debit !) au nom du conducteur principal. La limite doit être suffisamment élevée (souvent jusqu’à 1.500 €). Sans carte appropriée, le comptoir peut vous contraindre à acheter une assurance coûteuse."
+  },
+  {
+    "slug": "dockx-rental",
+    "name": "Dockx Rental",
+    "schalter_taktik": "Dockx est une véritable institution en Belgique. Au comptoir, vous ne subirez pas les tactiques de vente agressives propres aux loueurs low-cost des aéroports. En revanche, le personnel applique les procédures avec une rigueur absolue. Le point d'attention majeur concerne l'état des lieux : veillez à ce que la moindre griffe existante soit actée avant le départ, car le contrôle au retour est extrêmement minutieux, tant pour la carrosserie que pour la propreté intérieure.",
+    "kaution_hinweis": "Très avantageux pour les résidents belges : en plus des cartes de crédit classiques, Dockx accepte le paiement de la location et le blocage de la caution par Bancontact (carte de débit) directement au comptoir. Le montant du dépôt varie selon la catégorie du véhicule en kan être réduit si vous souscrivez à leur assurance rachat de franchise optionnelle.",
+    "adresse": ""
+  },
+  {
+    "slug": "luxauto",
+    "name": "Luxauto",
+    "schalter_taktik": "Luxauto est un acteur historique et fiable disposant de nombreuses agences partout en Belgique. Le service au guichet est professionnel et transparent. L'agent vous proposera systématiquement l'option de réduction de franchise à un montant minimal. Aucune pression démesurée n'est exercée, mais compte tenu de la densité du trafic autour des grands axes belges, cette couverture optionnelle est régulièrement recommandée aux conducteurs.",
+    "kaution_hinweis": "Le dépôt de garantie est de préférence bloqué sur une carte de crédit au nom du conducteur principal. Néanmoins, Luxauto est connu pour sa flexibilité envers la clientèle locale : sous certaines conditions et selon le modèle de véhicule choisi, le dépôt de la caution peut également être géré via une carte bancaire belge classique (Bancontact)."
+  },
+  {
+    "slug": "cambio",
+    "name": "Cambio Autopartage",
+    "schalter_taktik": "Cambio est le pionnier de l'autopartage en station en Belgique et fonctionne sans aucun guichet physique ni vendeur. Tout est géré via l'application ou la carte Cambio. La 'tactique' commerciale repose sur la structure des abonnements : vous choisissez une formule (Start, Bonus of Comfort) adaptée à votre fréquence d'utilisation. Attention stricte au respect des horaires : tout retard pour ramener le véhicule à sa station déclenche automatiquement des pénalités financières contractuelles.",
+    "kaution_hinweis": "En tant que système de partage, Cambio ne bloque pas de caution temporaire élevée à chaque réservation. À la place, vous versez une participation financière unique (capital de départ) lors de l'activation de votre compte. Les trajets effectués sont ensuite facturés mensuellement à terme échu via un débit direct ou une carte de crédit."
+  },
+  {
+    "slug": "poppy",
+    "name": "Poppy Carsharing",
+    "schalter_taktik": "Poppy est un service d'autopartage en free-floating très populaire, propulsé par le groupe automobile belge D'Ieteren et présent dans les grandes villes ainsi que les aéroports. Sans comptoir, l'ouverture se fait par smartphone. La stratégie commerciale est digitale : l'application propose régulièrement l'achat de packs de crédits pour réduire le coût de la minute. Soyez vigilant quant aux frais annexes, notamment les taxes de dépôt ('drop-off fees') dans certaines zones spécifiques ou aux terminaux des aéroports.",
+    "kaution_hinweis": "Aucune caution traditionnelle de plusieurs centaines d'euros n'est prélevée. Vous devez lier votre carte bancaire (crédit ou débit via Bancontact) à l'application. Le montant exact de la course est automatiquement débité dès la fin de la location. Une franchise standard s'applique en cas d'accident, mais elle peut être réduite numériquement avant chaque trajet."
   }
 ]

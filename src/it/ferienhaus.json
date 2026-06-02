@@ -3,102 +3,126 @@
     "name": "Novasol",
     "slug": "novasol",
     "adresse": "NOVASOL A/S Zweigniederlassung Deutschland\nGotenstraße 11\n20097 Amburgo",
-    "infobox": "In qualità di uno dei maggiori tour operator europei, Novasol risponde direttamente delle caratteristiche garantite della casa vacanze. Importante: i difetti devono essere segnalati immediatamente in loco tramite la hotline di assistenza o l'ufficio locale (obbligo di reclamo), per dare al fornitore la possibilità di porvi rimedio. In assenza di un reclamo tempestivo, i diritti alla riduzione del prezzo si perdono."
+    "infobox": "<p>Novasol è uno dei principali operatori europei nel settore delle case vacanza e, a seconda del contratto, agisce come intermediario o come fornitore dell’alloggio. In caso di difetti dell’alloggio, come carenze di pulizia, dotazioni mancanti o standard inferiori a quelli promessi, possono sorgere diritti alla riduzione del prezzo, al rimborso delle spese o, in casi gravi, al risarcimento. È fondamentale segnalare subito il problema in loco. Per cancellazioni e recesso valgono invece le condizioni contrattuali e le eventuali penali. La sede legale e foro competente di Novasol si trovano a Copenaghen, Danimarca.</p><!--opt-->"
   },
   {
     "name": "FeWo-direkt (Vrbo)",
     "slug": "fewo-direkt",
     "adresse": "EG Vacation Rentals Ireland Limited\n50 Block Novum, Brown Square\nDublino\nIrlanda",
-    "infobox": "FeWo-direkt opera esclusivamente come intermediario; il contratto di prenotazione viene stipulato direttamente con il rispettivo host (privato o commerciale). I diritti legali per difetti, descrizione errata o trattenuta del deposito cauzionale devono essere rivolti obbligatoriamente al locatore. La piattaforma offre soltanto protezione contro le frodi tramite la garanzia 'Prenota con fiducia'."
+    "infobox": "<p>FeWo-direkt (Vrbo) è una piattaforma internazionale per case vacanza e appartamenti, che mette in contatto viaggiatori e host privati o professionali. Di norma, FeWo-direkt agisce come intermediario: il contratto di prenotazione si conclude con il singolo locatore, mentre eventuali reclami per difetti dell’alloggio, mancanza di pulizia, servizi assenti o descrizione non conforme vanno fatti valere, in linea di principio, nei confronti del fornitore della sistemazione. In caso di vizi rilevanti possono entrare in gioco riduzione del prezzo e risarcimento; per cancellazioni e costi di recesso valgono invece le condizioni di annullamento applicate alla prenotazione. Sede legale e foro principale: Austin, Texas, USA.</p><!--opt-->"
   },
   {
     "name": "Belvilla",
     "slug": "belvilla",
     "adresse": "Belvilla Services B.V.\nPiet Heinkade 55\n1019 GM Amsterdam\nPaesi Bassi",
-    "infobox": "Belvilla opera come tour operator ed è il vostro partner contrattuale diretto per l'immobile vacanze. In presenza di difetti rilevanti (ad es. guasto del riscaldamento, scarsa igiene), contattate Belvilla immediatamente per iscritto o telefonicamente entro 24–48 ore. Documentate tutti i difetti in modo completo con foto e testimoni per eventuali richieste di rimborso successive."
+    "infobox": "<p>Belvilla è un noto portale e intermediario di case vacanza che propone alloggi in numerosi Paesi europei. In base al contratto, può agire come semplice intermediario o come organizzatore/partner contrattuale: la qualificazione incide su diritti, responsabilità e possibili richieste di rimborso. In caso di difetti dell’alloggio, come pulizia insufficiente, dotazioni mancanti o servizi non funzionanti, possono sorgere diritti a riduzione del prezzo e, nei casi gravi, al recesso. Anche per cancellazioni e spese di annullamento valgono le condizioni contrattuali e le norme applicabili. La sede legale/foro principale di Belvilla è a Maastricht, Paesi Bassi.</p><!--opt-->"
   },
   {
     "name": "Casamundo",
     "slug": "casamundo",
     "adresse": "Casamundo GmbH\nPappelallee 78/79\n10437 Berlino",
-    "infobox": "Casamundo è un portale di meta-ricerca e un puro intermediario che aggrega le offerte di diversi partner. In caso di difetti in loco, l'indirizzo corretto per richieste di risarcimento o riduzioni del prezzo non è Casamundo, bensì il fornitore finale esplicitamente indicato nel voucher di prenotazione (ad es. un gestore locale o uno specifico tour operator)."
+    "infobox": "<p>Casamundo è un noto portale di case vacanza e piattaforma di intermediazione che mette in contatto i viaggiatori con diversi fornitori e gestori locali. Dal punto di vista giuridico, di regola non è il soggetto responsabile diretto dell’alloggio, ma il mediatore indicato nella conferma di prenotazione: per difetti dell’alloggio, dotazioni mancanti o problemi di pulizia possono quindi sorgere richieste di riduzione del prezzo, rimborso o risarcimento verso il partner contrattuale effettivo. Anche in caso di cancellazione, si applicano le condizioni di recesso e le eventuali penali previste nel contratto. Sede legale e foro competente: Amburgo, Germania.</p><!--opt-->"
   },
   {
     "name": "DanCenter",
     "slug": "dancenter",
     "adresse": "DanCenter GmbH\nSpitalerstraße 16\n20095 Amburgo",
-    "infobox": "DanCenter opera come tour operator e si assume la responsabilità legale per le condizioni delle case vacanza scandinave. In caso di difetti, vale l'obbligo rigoroso di reclamo immediato presso l'ufficio di assistenza locale competente. Trasferirsi autonomamente in un altro alloggio o partire in anticipo senza aver fissato un termine per porre rimedio comporta quasi sempre, dal punto di vista legale, la perdita dei diritti alla riduzione del prezzo."
+    "infobox": "<p>DanCenter è uno dei principali intermediari e fornitori di case vacanza in Scandinavia e in Europa, con un’ampia offerta di alloggi per famiglie, gruppi e soggiorni individuali. Dal punto di vista giuridico, la qualificazione contrattuale dipende dalla singola prenotazione: in caso di difetti dell’alloggio, come carenze di pulizia, dotazioni mancanti o condizioni non conformi, possono sorgere diritti alla riduzione del prezzo, al risarcimento o, nei casi gravi, alla risoluzione. Per cancellazioni e recesso valgono invece le condizioni di prenotazione e le eventuali penali. La sede legale e il foro principale di DanCenter si trovano in Danimarca.</p><!--opt-->"
   },
   {
     "name": "Interhome",
     "slug": "interhome",
     "adresse": "HTS Touristik GmbH (Interhome)\nHeinrich-von-Stephan-Straße 15\n79100 Friburgo in Brisgovia",
-    "infobox": "In qualità di tour operator, Interhome risponde dei difetti dell'immobile in affitto. In caso di problemi, utilizzate immediatamente la filiale di assistenza locale di Interhome o il custode delle chiavi in loco per richiedere la riparazione. Fatevi confermare idealmente per iscritto o via e-mail la segnalazione del difetto e la richiesta di rimedio, per evitare difficoltà probatorie."
+    "infobox": "<p>Interhome è un noto intermediario e fornitore di case vacanza con un ampio portafoglio internazionale di alloggi. Dal punto di vista giuridico, la qualificazione dipende dal singolo contratto: in caso di difetti dell’alloggio, come carenze di pulizia, attrezzatura mancante o immobile non conforme, possono sorgere diritti di riduzione del prezzo, rimedio o risarcimento. Anche per cancellazioni e costi di recesso valgono le condizioni contrattuali e le norme applicabili. La sede legale e foro competente principale di Interhome è Glattbrugg, in Svizzera. In caso di problemi, documentate subito i difetti e contestateli per iscritto.</p><!--opt-->"
   },
   {
     "name": "Holidu",
     "slug": "holidu",
     "adresse": "Holidu GmbH\nRiesstraße 24\n80992 Monaco di Baviera",
-    "infobox": "Holidu funge da motore di ricerca e piattaforma di intermediazione. I contratti per l'alloggio vengono stipulati con il fornitore terzo collegato o con l'host diretto. I diritti alla riduzione del canone per rumori di cantiere, dotazioni mancanti o descrizioni delle prestazioni incomplete non possono essere fatti valere legalmente contro Holidu."
+    "infobox": "<p>Holidu è una piattaforma di ricerca e mediazione di case vacanza che mette in contatto gli utenti con host o fornitori terzi. Di norma, il contratto di locazione si conclude con il rispettivo proprietario o partner e non direttamente con Holidu. In caso di difetti dell’alloggio, come pulizia insufficiente, dotazioni mancanti o descrizioni non conformi, possono sorgere diritti di riduzione del prezzo, risarcimento o rimborso, a seconda del contratto applicabile. Anche per cancellazioni e spese di recesso valgono principalmente le condizioni di prenotazione del fornitore. Sede legale e foro competente di Holidu: Monaco di Baviera, Germania.</p><!--opt-->"
   },
   {
     "name": "Traum-Ferienwohnungen",
     "slug": "traum-ferienwohnungen",
     "adresse": "Traum-Ferienwohnungen GmbH\nAn der Reeperbahn 6\n28217 Brema",
-    "infobox": "Il portale è una pura piattaforma di annunci, sulla quale i locatori presentano autonomamente i propri immobili. La piattaforma non verifica in loco le effettive condizioni delle case. In caso di difetti, overbooking o trattenuta ingiustificata della cauzione, la competenza legale e la responsabilità ricadono esclusivamente sul locatore indicato nel contratto di locazione."
+    "infobox": "<p>Traum-Ferienwohnungen è una piattaforma specializzata nella mediazione di case e appartamenti vacanza tra proprietari e ospiti. In linea generale, il portale agisce come intermediario; il contratto di locazione viene quindi concluso con il singolo locatore indicato nella prenotazione. In caso di difetti dell’alloggio, come pulizia insufficiente, dotazioni mancanti o condizioni diverse da quelle promesse, possono sorgere diritti alla riduzione del prezzo e, nei casi gravi, al risarcimento. Per cancellazioni e recesso, valgono soprattutto le condizioni contrattuali e le eventuali penali di storno. Foro competente e sede legale: Amburgo, Germania.</p><!--opt-->"
   },
   {
     "name": "e-domizil",
     "slug": "e-domizil",
     "adresse": "e-domizil GmbH\nTaunusstraße 21\n60329 Francoforte sul Meno",
-    "infobox": "e-domizil intermedia offerte di host privati e di altri operatori, ma in casi selezionati agisce anche come tour operator (verificate a tal fine la conferma di prenotazione). Se e-domizil è solo intermediario, i difetti devono essere contestati direttamente al proprietario; in caso di prenotazione come tour operator si applicano le norme favorevoli al consumatore del diritto dei pacchetti turistici."
+    "infobox": "<p>e-domizil è un noto intermediario di case e appartamenti vacanza, che propone alloggi di privati e di operatori professionali. Ai fini del diritto dei viaggi, è decisivo verificare se la prenotazione sia stata effettuata come mera intermediazione o come pacchetto turistico/servizio di viaggio con responsabilità propria: nel primo caso i reclami per difetti dell’alloggio, come carenze di pulizia, dotazioni mancanti o condizioni non conformi, vanno indirizzati al locatore; possono però sussistere riduzioni del prezzo e altri diritti risarcitori. In caso di cancellazione o recesso, valgono le condizioni contrattuali e le eventuali penali. Foro competente e sede legale: Hamburg, Germania.</p><!--opt-->"
   },
   {
     "name": "Allgemeines Formular",
     "slug": "allgemein",
     "adresse": "[Bitte Anschrift des Anbieters hier eintragen]",
-    "infobox": "In caso di difetti in una casa vacanze, nel diritto tedesco ed europeo della locazione e dei viaggi vale il rigoroso obbligo di limitare il danno e di contestazione: documentate immediatamente tutti i difetti (foto, video, testimoni) e diffidate senza indugio il partner contrattuale assegnandogli un termine adeguato per porvi rimedio. Senza questo passaggio, le successive richieste di denaro sono legalmente escluse."
+    "infobox": "<p>Allgemeines Formular opera come intermediario o fornitore di case vacanza e mette in contatto clienti e proprietari tramite un modello standardizzato di prenotazione. In caso di difetti dell’alloggio, come pulizia insufficiente, arredi mancanti o servizi non conformi, possono sorgere diritti alla riduzione del prezzo e, in casi gravi, al risarcimento. Anche per cancellazioni e recesso valgono le condizioni contrattuali e le eventuali spese di annullamento. Per la tutela dei diritti è decisivo il foro competente e la sede legale dell’impresa, che per Allgemeines Formular è quella indicata nei dati societari ufficiali.</p><!--opt-->"
   },
   {
     "name": "HomeToGo",
     "slug": "hometogo",
     "adresse": "HomeToGo GmbH\nPappelallee 78/79\n10437 Berlino",
-    "infobox": "HomeToGo è un portale di confronto globale e un puro intermediario. L'azienda non risponde né delle condizioni degli appartamenti vacanza intermediati né delle indicazioni di prezzo errate dei siti partner. Tutti i diritti di garanzia, le richieste di risarcimento danni o le richieste di cancellazione devono essere gestiti con il fornitore effettivo della prenotazione."
+    "infobox": "<p>HomeToGo è un portale internazionale di confronto e intermediazione per case vacanza, non il fornitore diretto dell’alloggio. In caso di difetti dell’alloggio, come pulizia insufficiente, attrezzatura mancante o servizi non conformi, possono sorgere diritti di riduzione del prezzo, risarcimento danni o rimedio, ma di norma nei confronti del vero locatore o partner di prenotazione. Anche per cancellazioni e costi di recesso valgono le condizioni contrattuali del rispettivo offerente. La sede legale e foro competente di HomeToGo SE è Berlino, Germania. Per questo motivo, per ogni reclamo è decisiva la verifica del contratto, delle condizioni di cancellazione e delle responsabilità del partner.</p><!--opt-->"
   },
   {
     "name": "Booking.com",
     "slug": "booking",
     "adresse": "Booking.com B.V.\nOosterdokskade 163\n1011 DL Amsterdam\nPaesi Bassi",
-    "infobox": "Booking.com opera esclusivamente come intermediario. Anche se i pagamenti vengono gestiti tramite la piattaforma, in caso di difetti (ad es. assenza di Wi-Fi, numero di camere diverso) l'host/ospite è il principale destinatario delle richieste di riduzione del prezzo. Il servizio clienti di Booking.com può fornire supporto di mediazione, ma dal punto di vista legale non è responsabile per danni."
+    "infobox": "<p>Booking.com è una delle principali piattaforme internazionali di prenotazione di alloggi e, di regola, opera come intermediario tra cliente e struttura ricettiva. Per difetti dell’alloggio, come pulizia insufficiente, dotazioni mancanti o una casa vacanze non conforme, i diritti di riduzione del prezzo, rimedio o risarcimento si rivolgono normalmente al fornitore dell’alloggio. Anche in caso di cancellazione e spese di recesso, valgono soprattutto le condizioni di prenotazione e cancellazione applicabili. La sede legale di Booking.com è ad Amsterdam, Paesi Bassi; il foro competente dipende dal contratto e dalle norme di diritto internazionale privato.</p><!--opt-->"
   },
   {
     "name": "BestFewo",
     "slug": "bestfewo",
     "adresse": "BestSearch Media GmbH\nZeppelinstraße 73\n14471 Potsdam",
-    "infobox": "BestFewo intermedia alloggi vacanza di agenzie regionali e associazioni turistiche locali in Germania. Le richieste di risarcimento o di riduzione del canone per difetti che diminuiscono il valore della vacanza devono essere rivolte direttamente al locatore espressamente indicato nel contratto di locazione o all'agenzia esecutrice in loco."
+    "infobox": "<p>BestFewo è un portale e intermediario di case vacanza che mette in contatto viaggiatori e proprietari o gestori locali di alloggi turistici. In caso di difetti dell’alloggio, come pulizia insufficiente, dotazioni mancanti o gravi carenze della struttura, possono sorgere diritti a riduzione del prezzo, risarcimento danni o recesso, a seconda del contratto e della gravità del vizio. Anche per cancellazioni e costi di storno valgono le condizioni di prenotazione concordate. Di regola, i reclami vanno rivolti al fornitore contrattuale indicato nella prenotazione. Foro competente e sede legale: Berlino, Germania.</p><!--opt-->"
   },
   {
     "name": "Ferienwohnungen.de",
     "slug": "ferienwohnungen-de",
     "adresse": "ferienwohnungen.de GmbH\nCeller Str. 101 a\n38114 Braunschweig",
-    "infobox": "In qualità di puro portale pubblicitario e di annunci per alloggi vacanza, Ferienwohnungen.de non assume alcuna garanzia per la correttezza dei testi e delle immagini caricati. In caso di discrepanze tra la descrizione online e le condizioni effettive dell'immobile, le azioni legali devono essere intraprese direttamente contro il locatore."
+    "infobox": "<p>Ferienwohnungen.de è un portale di intermediazione e annunci per case vacanza e appartamenti vacanze, non il gestore diretto della maggior parte degli alloggi. In caso di difetti dell’alloggio, come carenze di pulizia, attrezzature mancanti o servizi non conformi alla descrizione, possono sorgere diritti di riduzione del prezzo, risarcimento o recesso nei confronti del locatore o del fornitore contrattuale. Per cancellazioni e spese di annullamento valgono le condizioni di prenotazione e le regole contrattuali applicabili. Foro competente e sede legale: Monaco di Baviera, Germania, salvo diverse pattuizioni contrattuali.</p><!--opt-->"
   },
   {
     "name": "Atraveo",
     "slug": "atraveo",
     "adresse": "atraveo GmbH\nParsevalstraße 7a\n40468 Düsseldorf",
-    "infobox": "Atraveo (parte del gruppo e-domizil) intermedia case vacanza in tutto il mondo. Le richieste per difetti nelle dotazioni devono essere segnalate immediatamente al referente locale. In caso di gravi difformità contrattuali, si consiglia di informare parallelamente il servizio clienti di Atraveo per ottenere una rapida chiarificazione."
+    "infobox": "<p>Atraveo è un noto intermediario di case vacanza e appartamenti turistici, parte del gruppo e-domizil. Dal punto di vista giuridico, Atraveo agisce di regola come mediatore tra cliente e proprietario/fornitore dell’alloggio; i diritti per difetti dell’alloggio, come pulizia insufficiente, dotazioni mancanti o condizioni non conformi, vanno quindi fatti valere tempestivamente, spesso con richiesta di rimedio o riduzione del prezzo. In caso di cancellazione, si applicano le condizioni di annullamento previste dal contratto e possono sorgere costi di recesso. Sede legale e foro principale: Amburgo, Germania.</p><!--opt-->"
   },
   {
     "name": "Naturhäuschen",
     "slug": "naturhaeuschen",
     "adresse": "Nature.house B.V.\nCeresstraat 13\n4811 CA Breda\nPaesi Bassi",
-    "infobox": "Naturhäuschen intermedia alloggi specializzati in aree rurali. Poiché la piattaforma è un puro intermediario, tutte le contestazioni relative a pulizia, dotazioni o problemi nella consegna delle chiavi devono essere chiarite e regolate direttamente con il rispettivo proprietario del Naturhäuschen."
+    "infobox": "<p>Naturhäuschen è una piattaforma specializzata nella mediazione di case vacanza e alloggi immersi nella natura, spesso in aree rurali e particolarmente tranquille. Dal punto di vista giuridico, il servizio opera di regola come intermediario tra ospite e proprietario: perciò reclami relativi a difetti dell’alloggio, pulizia insufficiente, dotazioni mancanti o problemi alla consegna delle chiavi vanno in primo luogo verificati con il locatore. In caso di vizi rilevanti possono entrare in gioco diritti alla riduzione del prezzo o, nei casi previsti, al risarcimento. Per cancellazioni e recesso valgono invece le condizioni di prenotazione e le regole di storno applicabili. Sede legale e foro competente: Amsterdam, Paesi Bassi.</p><!--opt-->"
   },
   {
     "name": "Tourist-Online",
     "slug": "tourist-online",
     "adresse": "tourist-online.de GmbH\nTaunusstraße 21\n60329 Francoforte sul Meno",
-    "infobox": "In qualità di puro portale di intermediazione, Tourist-Online inoltra la vostra richiesta di prenotazione soltanto a operatori commerciali o locatori privati. Le azioni legali in caso di difetti dell'affitto (come rumori di cantiere o una piscina guasta) non sono mai rivolte al portale, ma sempre al partner contrattuale documentato nel contratto di locazione."
+    "infobox": "<p>Tourist-Online è un portale di intermediazione per case vacanza e appartamenti turistici: la prenotazione viene trasmessa al rispettivo locatore o operatore contrattuale. In caso di difetti dell’alloggio, come pulizia insufficiente, attrezzatura mancante o servizi promessi non disponibili, possono sorgere diritti alla riduzione del prezzo, al risarcimento o, nei casi gravi, alla risoluzione del contratto. Anche per cancellazioni e costi di recesso valgono le condizioni di prenotazione e le norme applicabili al partner contrattuale. Il foro competente e la sede legale di Tourist-Online sono in Germania, presso il tribunale territorialmente competente indicato nei documenti contrattuali.</p><!--opt-->"
+  },
+  {
+    "slug": "agriturismo-it",
+    "name": "Agriturismo.it (Feries S.r.l.)",
+    "adresse": "Feries S.r.l.\nVia San Marco 21\n20121 Milano\nItalia",
+    "infobox": "<p>Agriturismo.it (Feries S.r.l.) è il portale leader in Italia specializzato nella prenotazione di soggiorni in agriturismo e strutture rurali. Dal punto di vista legale, la piattaforma agisce generalmente come mero intermediario, in quanto il contratto di locazione o soggiorno viene stipulato direttamente tra il viaggiatore e il gestore della struttura. In caso di difetti dell'alloggio, come mancanza di servizi descritti, problemi di pulizia o difformità rispetto all'annuncio, l'ospite deve denunciare immediatamente il vizio direttamente in loco per consentire una pronta soluzione. Le cancellazioni e le relative penali sono regolate dalle condizioni specifiche dell'host. La sede legale e il foro competente si trovano a Milano.</p><!--opt-->"
+  },
+  {
+    "slug": "casevacanza-it",
+    "name": "CaseVacanza.it (Feries S.r.l.)",
+    "adresse": "Feries S.r.l.\nVia San Marco 21\n20121 Milano\nItalia",
+    "infobox": "<p>CaseVacanza.it è uno dei maggiori portali nazionali in Italia dedicati all'affitto di case vacanza, appartamenti e ville sul mare o in montagna. La piattaforma opera prevalentemente come intermediario e mercato online, mettendo in contatto viaggiatori e proprietari privati o professionali. Di conseguenza, in caso di problemi legati all'alloggio (mancanza di dotazioni, carenze igieniche o guasti), la responsabilità legale ricade sul locatore; il cliente è tenuto a segnalare subito il problema all'host per richiedere l'adempimento. Le politiche di cancellazione dipendono strettamente dai termini contrattuali concordati con la struttura. Il foro principale è Milano.</p><!--opt-->"
+  },
+  {
+    "slug": "emma-villas",
+    "name": "Emma Villas S.p.A.",
+    "adresse": "Via San Casciano 4\n53043 Chiusi (SI)\nItalia",
+    "infobox": "<p>Emma Villas S.p.A. è un prestigioso tour operator e intermediario italiano leader nel settore del noleggio turistico di ville ed esclusive dimore di pregio con piscina privata. A seconda del tipo di prenotazione, la società può operare come organizzatore di viaggi o come intermediario autorizzato per conto del proprietario. Qualora l'immobile presenti difetti di conformità rispetto a quanto pattuito (problemi strutturali, malfunzionamenti o pulizia insufficiente), il cliente deve sporgere immediato reclamo al servizio assistenza o in loco. Le condizioni di recesso e i costi di cancellazione sono rigidamente disciplinati dalle condizioni generali. Il foro di riferimento è Siena.</p><!--opt-->"
+  },
+  {
+    "slug": "halldis",
+    "name": "Halldis S.p.A.",
+    "adresse": "Via Napo Torriani 22\n20124 Milano\nItalia",
+    "infobox": "<p>Halldis S.p.A. è una storica società italiana specializzata nella gestione e locazione a breve e medio termine di appartamenti, ville e chalet nelle principali città d'arte e località turistiche italiane. Agendo spesso come gestore professionale dell'immobile o mandatario, l'azienda assume la responsabilità della corretta messa a disposizione dell'alloggio. Di fronte a vizi, guasti tecnologici o carenze nei servizi inclusi, il viaggiatore ha l'onere di contattare tempestivamente il servizio clienti locale per richiedere l'assistenza o il ripristino delle condizioni contrattuali. Le penali per l'annullamento sono fissate nel contratto di locazione. La sede legale si trova a Milano.</p><!--opt-->"
   }
 ]

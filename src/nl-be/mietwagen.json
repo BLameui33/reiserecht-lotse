@@ -124,5 +124,29 @@
     "name": "Autoverhuurders",
     "schalter_taktik": "Bij welke aanbieder dan ook: blijf standvastig! Verhuurders trainen hun personeel vaak om met horrorscenario's (bijv. hoge diefstalcijfers) dure aanvullende verzekeringen te verkopen. Als u vooraf via een tussenpersoon een cascoverzekering hebt afgesloten, is dat voldoende. Onderteken niets wat u niet begrijpt.",
     "kaution_hinweis": "De belangrijkste regel: u hebt bijna altijd een fysieke, volwaardige creditcard (credit, niet debit!) op naam van de hoofdbestuurder nodig. Het limiet moet hoog genoeg zijn (vaak tot €1.500). Zonder passende kaart dreigt aan de balie de verplichte aankoop van een dure verzekering."
+  },
+  {
+    "slug": "dockx-rental",
+    "name": "Dockx Rental",
+    "schalter_taktik": "Dockx is een absolute traditiemaatschappij in België. Aan de balie tref je geen agressieve verkooptechnieken aan zoals bij de gekende low-cost luchthavenverhuurders. Wel zijn de medewerkers onberispelijk streng bij de controle van de wagen. De tactiek is hier puur administratief: zorg dat elke bestaande kras nauwkeurig op het contract staat vermeld vóór vertrek, want bij de terugkeer kijken ze erg gedetailleerd naar eventuele nieuwe schade en de reinheid van het voertuig.",
+    "kaution_hinweis": "Zeer handig voor Belgische locals: Dockx accepteert naast de klassieke kredietkaarten (Visa, Mastercard) ook betalingen en de waarborg via Bancontact (debitkaart) aan de balie. De waarborg varieert naargelang het type voertuig en kan worden verlaagd als je kiest voor hun optionele schadeverzekering (afkoop vrijstelling)."
+  },
+  {
+    "slug": "luxauto",
+    "name": "Luxauto",
+    "schalter_taktik": "Luxauto is een gevestigde en betrouwbare waarde met tal van filialen in heel België. De service aan de loketten is zakelijk en transparant. De medewerkers zullen je standaard de optie aanbieden om de contractuele vrijstelling (eigen risico) te verlagen naar een minimumbedrag. Er wordt geen harde druk uitgeoefend, maar gezien het drukke verkeer rond steden als Brussel en Antwerpen wordt deze extra bescherming vaak geaccepteerd.",
+    "kaution_hinweis": "De waarborg wordt bij voorkeur gereserveerd op een kredietkaart op naam van de hoofdbestuurder. Luxauto staat er echter om bekend flexibel te zijn voor lokale bewoners; onder bepaalde voorwaarden en afhankelijk van het type wagen kan de borg ook met een gewone Belgische bankkaart (Bancontact) worden geregeld."
+  },
+  {
+    "slug": "cambio",
+    "name": "Cambio Autodelen",
+    "schalter_taktik": "Cambio is de pionier van standplaatsgerelateerd autodelen in België en werkt volledig zonder fysieke balie of verkopers. Alles verloopt via de app of de Cambio-kaart. De commerciële 'taktiek' zit ingebakken in de abonnementsstructuur: je kiest vooraf een tarief (Start, Bonus of Comfort) dat past bij je rijprofiel. Let op voor de strikte tijdslots: als je de wagen te laat terugbrengt, worden er automatisch fikse boetes en vertragingskosten aangerekend.",
+    "kaution_hinweis": "Als deelsysteem werkt Cambio niet met een hoge, tijdelijke blokkade per rit. In plaats daarvan betaal je bij het openen van je account een eenmalige instapwaarborg (financieel partnerschap). De ritten zelf worden maandelijks achteraf gefactureerd via een automatische domiciliëring of kredietkaart."
+  },
+  {
+    "slug": "poppy",
+    "name": "Poppy Carsharing",
+    "schalter_taktik": "Poppy is een razend populaire free-floating deeldienst van de Belgische mobiliteitsreus D'Ieteren, actief in de grote steden en op luchthavens. Er is geen balie; je opent de wagen met je smartphone. De marketingtaktiek is digitaal: de app biedt regelmatig pakketten (credits) aan om goedkoper te rijden. Let wel goed op de extra kosten in de app, zoals 'drop-off fees' wanneer je de wagen achterlaat in specifieke zones of op de luchthaven van Zaventem.",
+    "kaution_hinweis": "Er wordt geen traditionele waarborg van honderden euro's opgevraagd. Je koppelt je bankkaart (kredietkaart of geldige debetkaart via Bancontact/Payconiq) aan de app. De kosten voor de rit worden direct na het vergrendelen van de wagen automatisch van je rekening gegooid. Wel geldt er een standaard vrijstelling bij ongeval, die je per rit digitaal kunt verlagen."
   }
 ]

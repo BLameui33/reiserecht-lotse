@@ -124,5 +124,29 @@
     "name": "Autoverhuurders",
     "schalter_taktik": "Bij welke aanbieder dan ook: blijf standvastig! Verhuurders trainen hun personeel vaak om met horrorscenario's (bijv. hoge diefstalcijfers) dure aanvullende verzekeringen te verkopen. Als u vooraf via een tussenpersoon een cascoverzekering hebt afgesloten, is dat voldoende. Onderteken niets wat u niet begrijpt.",
     "kaution_hinweis": "De belangrijkste regel: u hebt bijna altijd een fysieke, volwaardige creditcard (credit, niet debit!) op naam van de hoofdbestuurder nodig. Het limiet moet hoog genoeg zijn (vaak tot €1.500). Zonder passende kaart dreigt aan de balie de verplichte aankoop van een dure verzekering."
+  },
+  {
+    "slug": "bo-rent",
+    "name": "Bo-Rent Autoverhuur",
+    "schalter_taktik": "Bo-Rent staat bekend als een pragmatische en goedkope lokale aanbieder. Aan de balie is er weinig sprake van agressieve verkoop van extra verzekeringen zoals bij buitenlandse budgetmaatschappijen. Wel moet je goed letten op de kilometerbeperkingen en de brandstofregeling (vol-tot-vol). Controleer de auto voor vertrek heel nauwkeurig op bestaande schade, want de controle bij terugkomst kan erg streng zijn.",
+    "kaution_hinweis": "De borgsom (waarborg) bij Bo-Rent is marktconform, maar moet vooraf worden voldaan. Vaak accepteren ze naast creditcards ook betalingen via pin (debitkaart) aan de balie, waarbij de borg na afloop wordt teruggestort. Houd er rekening mee dat het eigen risico bij schade standaard vrij hoog is als je dit vooraf niet afkoopt."
+  },
+  {
+    "slug": "diks-autoverhuur",
+    "name": "Diks Autoverhuur",
+    "schalter_taktik": "Diks is een zeer populaire en betrouwbare lokale autoverhuurder in met name de Randstad. De service is over het algemeen vriendelijk en transparant. Aan de balie wordt de optie aangeboden om het eigen risico te verlagen naar € 0 via hun eigen 'Afkoop Eigen Risico'-regeling. Er is geen sprake van harde push-taktieken, maar het wordt wel aangeraden vanwege de drukke Nederlandse binnensteden.",
+    "kaution_hinweis": "Diks vereist een borg die afhankelijk is van de voertuigcategorie en de gekozen verzekering. Het grote voordeel voor locals is dat de borg en huursom eenvoudig via iDEAL of een gewone pinpas (debitkaart) betaald kunnen worden; een creditcard is hier dus niet altijd strikt noodzakelijk."
+  },
+  {
+    "slug": "greenwheels",
+    "name": "Greenwheels",
+    "schalter_taktik": "Greenwheels werkt volledig digitaal via een app en vaste standplaatsen door heel Nederland, dus er is geen fysieke balie of verkoopmedewerker. De 'taktiek' is hier puur digitaal: via de app kun je kiezen uit verschillende abonnementen (Formules) en aanvullende dekkingsopties. Let goed op de uurtarieven in combinatie met de kilometerprijs, aangezien brandstof (via een tankpas in de auto) al inbegrepen is.",
+    "kaution_hinweis": "Er is geen traditionele hoge borgsom die op een creditcard wordt geblokkeerd bij aanvang van de rit. In plaats daarvan betaal je achteraf via automatische incasso (SEPA) of creditcard op basis van je maandelijkse factuur. Wel geldt er een standaard eigen risico per schadegeval, dat je vooraf in de app per rit kunt verlagen."
+  },
+  {
+    "slug": "snappcar",
+    "name": "SnappCar",
+    "schalter_taktik": "Dit is het grootste peer-to-peer autodeelplatform van Nederland, waarbij je rechtstreeks van particulieren huurt. Er is geen balie, maar je hebt contact met de autobezitter zelf (of via keyless entry). De 'taktiek' zit in de platformkosten en de Allianz-verzekering die automatisch wordt toegevoegd. Eigenaren kunnen streng zijn op het schoon inleveren van de auto en de exacte tankstand, dus maak altijd duidelijke foto's in de app bij aanvang en afloop.",
+    "kaution_hinweis": "SnappCar hanteert een flexibele borgsom die vooraf via iDEAL of creditcard wordt betaald. Als je kiest voor het afkopen van het eigen risico tijdens het boekingsproces, wordt de borgsom vaak aanzienlijk verlaagd of vervalt deze volledig. De terugstorting na een succesvolle verhuur duurt meestal enkele werkdagen."
   }
 ]

@@ -3,102 +3,126 @@
     "name": "Novasol",
     "slug": "novasol",
     "adresse": "NOVASOL A/S Zweigniederlassung Deutschland\nGotenstraße 11\n20097 Hamburg",
-    "infobox": "Como uno de los mayores operadores turísticos europeos, Novasol responde directamente por las características garantizadas de la casa de vacaciones. Importante: los defectos deben notificarse de inmediato in situ a través de la línea de atención al cliente o de la oficina local (obligación de reclamación), para dar al proveedor la oportunidad de subsanar el problema. Sin una reclamación presentada a tiempo, se pierden los derechos de reducción del precio."
+    "infobox": "<p>Novasol es uno de los mayores intermediarios y proveedores de casas y apartamentos de vacaciones en Europa. Según el contrato, puede actuar como mero mediador o como organizador/proveedor, lo que influye en posibles reclamaciones por parte del cliente. En caso de defectos del alojamiento, como falta de equipamiento, suciedad o servicios no prestados, pueden existir derechos de subsanación, reducción del precio y, en casos graves, indemnización. También en cancelaciones y desistimientos deben revisarse las condiciones contractuales y posibles gastos de anulación. La sede social y el fuero principal de Novasol se encuentran en Copenhague, Dinamarca.</p><!--opt-->"
   },
   {
     "name": "FeWo-direkt (Vrbo)",
     "slug": "fewo-direkt",
     "adresse": "EG Vacation Rentals Ireland Limited\n50 Block Novum, Brown Square\nDublin\nIrland",
-    "infobox": "FeWo-direkt actúa únicamente como intermediario; el contrato de reserva se celebra directamente con el anfitrión correspondiente (particular o comercial). Las reclamaciones legales por defectos, descripción incorrecta o retención de la fianza deben dirigirse obligatoriamente al arrendador. La plataforma solo ofrece protección frente al fraude mediante su garantía 'Reservar con confianza'."
+    "infobox": "<p>FeWo-direkt (Vrbo) es una plataforma internacional de alquiler vacacional para casas, apartamentos y alojamientos de particulares y profesionales. En la mayoría de las reservas, actúa como mero intermediario; el contrato de alojamiento suele celebrarse directamente con el anfitrión o arrendador, por lo que las reclamaciones por defectos del alojamiento, falta de equipamiento, problemas de limpieza o descripción incorrecta deben dirigirse normalmente contra ese proveedor. En estos casos pueden entrar en juego derechos de reducción del precio, subsanación o, según el caso, indemnización. También en cancelaciones y gastos de desistimiento rigen ante todo las condiciones de reserva y anulación acordadas. Sede jurídica: Austin, Texas, EE. UU.</p><!--opt-->"
   },
   {
     "name": "Belvilla",
     "slug": "belvilla",
     "adresse": "Belvilla Services B.V.\nPiet Heinkade 55\n1019 GM Amsterdam\nNiederlande",
-    "infobox": "Belvilla actúa como operador turístico y es su contraparte contractual directa para el alojamiento vacacional. Si existen defectos importantes (p. ej., fallo de la calefacción, falta de higiene), contacte con Belvilla de inmediato por escrito o por teléfono en un plazo de 24–48 horas. Documente todos los defectos de forma completa con fotos y testigos para futuras reclamaciones de reembolso."
+    "infobox": "<p>Belvilla es una reconocida plataforma y organizador de alojamientos vacacionales con una amplia oferta de casas y apartamentos de vacaciones. Jurídicamente, suele actuar como intermediario y, según el contrato concreto, también como contraparte contractual del alojamiento. Si existen defectos en la vivienda, como suciedad, equipamiento faltante o fallos de calefacción, pueden plantearse derechos de reducción del precio, subsanación o, en casos graves, indemnización. En cancelaciones y desistimientos, son decisivas las condiciones de reserva y las posibles tasas de anulación. La sede social y fuero principal de Belvilla se encuentran en Ámsterdam, Países Bajos.</p><!--opt-->"
   },
   {
     "name": "Casamundo",
     "slug": "casamundo",
     "adresse": "Casamundo GmbH\nPappelallee 78/79\n10437 Berlin",
-    "infobox": "Casamundo es un portal de metabusqueda y un mero intermediario que agrupa ofertas de distintos socios. En caso de defectos in situ, Casamundo no es la dirección adecuada para reclamar daños y perjuicios o reducciones de precio, sino el proveedor final expresamente indicado en el bono de reserva (p. ej., un gestor local o un operador turístico específico)."
+    "infobox": "<p>Casamundo es una plataforma de reservas y comparador de alojamientos vacacionales que actúa, por regla general, como intermediario entre el viajero y el proveedor final indicado en la confirmación o bono de reserva. En caso de defectos del alojamiento, como falta de limpieza, equipamiento ausente o desperfectos, pueden existir derechos a reducción del precio, subsanación o, en casos graves, resolución del contrato frente al prestador responsable. También en cancelaciones y gastos de anulación determinan las condiciones de reserva y las políticas del anfitrión o socio contractual. La sede jurídica y fuero principal de Casamundo se sitúan en Hamburgo, Alemania.</p><!--opt-->"
   },
   {
     "name": "DanCenter",
     "slug": "dancenter",
     "adresse": "DanCenter GmbH\nSpitalerstraße 16\n20095 Hamburg",
-    "infobox": "DanCenter actúa como operador turístico y asume la responsabilidad legal por el estado de las casas de vacaciones escandinavas. En caso de defectos, rige la obligación estricta de reclamarlos de inmediato ante la oficina local de servicio competente. Cambiar por su cuenta a otro alojamiento o abandonar antes de tiempo sin fijar un plazo para la subsanación casi siempre conlleva, desde el punto de vista jurídico, la pérdida de los derechos de reducción del precio."
+    "infobox": "<p>DanCenter es un conocido proveedor y mediador de casas y apartamentos de vacaciones, especialmente en destinos de Escandinavia y Europa del Norte. Jurídicamente, la clasificación concreta depende del contrato: puede actuar como organizador o como mero intermediario, lo que influye en las reclamaciones por defectos, cancelación y gastos de desistimiento. En caso de alojamiento deficiente, falta de equipamiento o problemas de limpieza, pueden existir derechos de subsanación, reducción del precio e incluso indemnización. Para cancelaciones, rigen las condiciones contractuales y las normas sobre costes de anulación. La sede jurídica y el fuero habitual de DanCenter se sitúan en Copenhague, Dinamarca.</p><!--opt-->"
   },
   {
     "name": "Interhome",
     "slug": "interhome",
     "adresse": "HTS Touristik GmbH (Interhome)\nHeinrich-von-Stephan-Straße 15\n79100 Freiburg im Breisgau",
-    "infobox": "Como operador turístico, Interhome responde por los defectos del inmueble alquilado. Si surgen problemas, utilice de inmediato la sucursal local de servicio de Interhome o al encargado de las llaves en el lugar para solicitar la subsanación. Idealmente, haga que la notificación del defecto y la solicitud de subsanación se confirmen por escrito o por correo electrónico para evitar problemas de prueba."
+    "infobox": "<p>Interhome es un reconocido intermediario y proveedor de casas y apartamentos vacacionales en Europa. Según el contrato concreto, puede actuar como arrendador o como mero intermediario, lo que influye en las reclamaciones del cliente. En caso de defectos de alojamiento —por ejemplo, falta de limpieza, equipamiento incompleto o instalaciones averiadas— suelen entrar en juego derechos de subsanación y reducción del precio; por ello, conviene notificar el problema de inmediato y documentarlo. En cancelaciones, se aplican las condiciones de reserva y los gastos de anulación pactados. Sede social y fuero habitual: Interhome Group, Glattbrugg/Opfikon, Suiza.</p><!--opt-->"
   },
   {
     "name": "Holidu",
     "slug": "holidu",
     "adresse": "Holidu GmbH\nRiesstraße 24\n80992 München",
-    "infobox": "Holidu funciona como buscador y plataforma de intermediación. Los contratos de alojamiento se celebran con el proveedor externo enlazado o con el anfitrión directo. Las reclamaciones por reducción del alquiler debido a ruido de obras, falta de equipamiento o descripciones incompletas de los servicios no pueden hacerse valer legalmente contra Holidu."
+    "infobox": "<p>Holidu es una plataforma y mediador de alquiler vacacional que conecta a los viajeros con anfitriones y proveedores externos. Por regla general, el contrato de alojamiento se celebra con el tercero correspondiente, no con Holidu. En caso de defectos de la vivienda, como falta de equipamiento, problemas de limpieza o discrepancias con la descripción, pueden existir derechos de reducción del precio, subsanación o indemnización frente al arrendador. En cancelaciones, se aplican las condiciones de reserva y posibles gastos de anulación del proveedor. La sede social y el fuero principal de Holidu se encuentran en Múnich, Alemania.</p><!--opt-->"
   },
   {
     "name": "Traum-Ferienwohnungen",
     "slug": "traum-ferienwohnungen",
     "adresse": "Traum-Ferienwohnungen GmbH\nAn der Reeperbahn 6\n28217 Bremen",
-    "infobox": "El portal es una plataforma de anuncios pura, en la que los arrendadores presentan sus inmuebles de forma autónoma. La plataforma no verifica in situ las características reales de las viviendas. En caso de defectos, sobreocupación o retención indebida de la fianza, la única competencia y responsabilidad jurídica recae en el arrendador inscrito en el contrato de alquiler."
+    "infobox": "<p>Traum-Ferienwohnungen es una plataforma y mediador de alojamientos vacacionales: los propietarios publican y gestionan sus ofertas, mientras que la empresa facilita la reserva. Jurídicamente, la responsabilidad principal por defectos del alojamiento recae normalmente en el arrendador o proveedor contractual; sin embargo, según la constelación contractual, pueden existir también derechos frente al intermediario. En caso de vivienda defectuosa, falta de equipamiento o problemas de limpieza, suelen plantearse reclamaciones por reducción del precio, subsanación o daños y perjuicios. En cancelaciones, rigen las condiciones de desistimiento y los posibles gastos de anulación. Sede social y fuero habitual: Alemania, con competencia judicial en el domicilio de la empresa.</p><!--opt-->"
   },
   {
     "name": "e-domizil",
     "slug": "e-domizil",
     "adresse": "e-domizil GmbH\nTaunusstraße 21\n60329 Frankfurt am Main",
-    "infobox": "e-domizil intermedia ofertas de anfitriones particulares y de otros operadores, aunque en determinados casos también actúa como operador turístico (consulte para ello la confirmación de la reserva). Si e-domizil actúa solo como intermediario, los defectos deben reclamarse directamente al propietario; en una reserva como operador turístico se aplican las normas favorables al consumidor del derecho de viajes combinados."
+    "infobox": "<p>e-domizil es un intermediario de casas y apartamentos vacacionales que comercializa alojamientos de particulares y de otros proveedores; en algunos casos también puede actuar como organizador turístico, según la confirmación de reserva. Esta distinción es clave para reclamaciones por defectos del alojamiento, como limpieza deficiente, equipamiento ausente o estado inadecuado: si solo media como intermediario, las pretensiones suelen dirigirse contra el propietario o el proveedor; si e-domizil es el organizador, pueden existir derechos de reducción del precio, subsanación y, en casos graves, desistimiento. En cancelaciones, rigen las condiciones de reserva y posibles gastos de anulación. Sede jurídica y fuero habitual: Hamburgo, Alemania.</p><!--opt-->"
   },
   {
     "name": "Allgemeines Formular",
     "slug": "allgemein",
     "adresse": "[Bitte Anschrift des Anbieters hier eintragen]",
-    "infobox": "En caso de defectos en una casa de vacaciones, en el derecho alemán y europeo de arrendamiento y de viajes rige la estricta obligación de minimizar los daños y de reclamar: documente todos los defectos de inmediato (fotos, vídeos, testigos) y exija sin demora al contratante la subsanación dentro de un plazo razonable. Sin este paso, las reclamaciones económicas posteriores quedan legalmente excluidas."
+    "infobox": "<p>Allgemeines Formular actúa como intermediario o proveedor de alojamientos vacacionales y, según el contrato concreto, puede responder frente a los clientes por defectos de la vivienda o por las condiciones de cancelación. Si el alojamiento presenta fallos, como falta de equipamiento, problemas de limpieza o servicios prometidos no prestados, pueden surgir derechos de subsanación, reducción del precio o indemnización. En caso de cancelación o desistimiento, son decisivas las condiciones contractuales y posibles gastos de anulación. Como sede social y fuero competente principal se indica, en principio, el domicilio empresarial del proveedor o del intermediario correspondiente.</p><!--opt-->"
   },
   {
     "name": "HomeToGo",
     "slug": "hometogo",
     "adresse": "HomeToGo GmbH\nPappelallee 78/79\n10437 Berlin",
-    "infobox": "HomeToGo es un portal mundial de comparación y un mero intermediario. La empresa no responde ni por el estado de los apartamentos vacacionales intermediados ni por indicaciones de precio incorrectas de las páginas asociadas. Todos los derechos de garantía, reclamaciones por daños y perjuicios o solicitudes de cancelación deben tramitarse con el proveedor real de la reserva."
+    "infobox": "<p>HomeToGo es una plataforma internacional de comparación y reserva de alojamientos vacacionales, que normalmente actúa como intermediario entre el cliente y el proveedor real. Por ello, las reclamaciones por defectos del alojamiento, como falta de equipamiento, problemas de limpieza o incumplimientos contractuales, suelen dirigirse al arrendador o al socio contractual. Según el caso, pueden existir derechos a reducción del precio, subsanación, daños y perjuicios o resolución. En cancelaciones y gastos de anulación, son decisivas las condiciones de reserva aplicables. Sede y fuero principal: Berlín, Alemania.</p><!--opt-->"
   },
   {
     "name": "Booking.com",
     "slug": "booking",
     "adresse": "Booking.com B.V.\nOosterdokskade 163\n1011 DL Amsterdam\nNiederlande",
-    "infobox": "Booking.com actúa exclusivamente como intermediario. Aunque los pagos se tramiten a través de la plataforma, en caso de defectos (p. ej., falta de wifi, número de habitaciones distinto) el anfitrión es la persona principal frente a la que deben dirigirse las reclamaciones por reducción del precio. El servicio de atención al cliente de Booking.com puede ayudar como mediador, pero jurídicamente no está obligado a indemnizar daños y perjuicios."
+    "infobox": "<p>Booking.com es una plataforma internacional de reservas de alojamientos que, por regla general, actúa como intermediario entre el huésped y el proveedor del alojamiento. En caso de defectos en el apartamento o casa vacacional, como limpieza deficiente, equipamiento ausente o servicios prometidos que faltan, pueden existir derechos de reducción del precio o de subsanación frente al anfitrión o arrendador. En cancelaciones y desistimiento, son decisivas las condiciones de reserva y cancelación aplicables. Booking.com tiene su sede social en Ámsterdam, Países Bajos; el fuero y la ley aplicables pueden depender del contrato y de la normativa de consumo.</p><!--opt-->"
   },
   {
     "name": "BestFewo",
     "slug": "bestfewo",
     "adresse": "BestSearch Media GmbH\nZeppelinstraße 73\n14471 Potsdam",
-    "infobox": "BestFewo intermedia alojamientos vacacionales de agencias regionales y asociaciones turísticas locales en Alemania. Las reclamaciones por daños y perjuicios o por reducción del alquiler debido a defectos que disminuyan el valor de las vacaciones deben dirigirse directamente al arrendador expresamente indicado en el contrato de alquiler o a la agencia ejecutora en el lugar."
+    "infobox": "<p>BestFewo es una plataforma y mediador de alojamientos vacacionales que conecta a viajeros con propietarios, agencias regionales y proveedores locales. En caso de defectos del alojamiento, como limpieza deficiente, falta de equipamiento o un estado inadecuado del inmueble, pueden existir derechos de reducción del precio, subsanación o, en determinados casos, daños y perjuicios frente al arrendador indicado en el contrato. Las cancelaciones y los costes de desistimiento dependen de las condiciones de reserva y de la política de cancelación aplicable. El domicilio social y fuero jurídico de BestFewo se encuentra en Alemania, en Berlín. Para reclamaciones concretas, debe revisarse siempre el contrato y la función exacta de BestFewo como intermediario.</p><!--opt-->"
   },
   {
     "name": "Ferienwohnungen.de",
     "slug": "ferienwohnungen-de",
     "adresse": "ferienwohnungen.de GmbH\nCeller Str. 101 a\n38114 Braunschweig",
-    "infobox": "Como portal puramente publicitario y de anuncios para alojamientos vacacionales, Ferienwohnungen.de no asume ninguna garantía sobre la exactitud de los textos e imágenes cargados. En caso de discrepancias entre la descripción en línea y el estado real del inmueble, las acciones legales deben dirigirse directamente contra el arrendador."
+    "infobox": "<p>Ferienwohnungen.de es un portal de intermediación y publicidad de alojamientos vacacionales que conecta a viajeros con propietarios y arrendadores. Jurídicamente, por lo general actúa como mero intermediario; por ello, las reclamaciones por defectos del alojamiento —por ejemplo, falta de equipamiento, limpieza deficiente o discrepancias con la descripción— suelen dirigirse contra el arrendador. En caso de defectos, pueden entrar en juego derechos de reducción del precio y, según el caso, indemnización. En cancelaciones y desistimientos, son decisivas las condiciones de reserva y anulación aplicables. La sede social y el fuero competente de Ferienwohnungen.de se encuentran en Alemania.</p><!--opt-->"
   },
   {
     "name": "Atraveo",
     "slug": "atraveo",
     "adresse": "atraveo GmbH\nParsevalstraße 7a\n40468 Düsseldorf",
-    "infobox": "Atraveo (parte del grupo e-domizil) intermedia casas de vacaciones en todo el mundo. Las reclamaciones por defectos en el equipamiento deben notificarse de inmediato al interlocutor local. En caso de desviaciones contractuales graves, se recomienda informar paralelamente al servicio de atención al cliente de Atraveo para lograr una aclaración rápida."
+    "infobox": "<p>Atraveo es un intermediario de casas y apartamentos vacacionales, integrado en el grupo e-domizil, que publica y gestiona ofertas de alojamiento en numerosos destinos. Jurídicamente, por lo general actúa como agencia de reservas y no como arrendador directo; por ello, las reclamaciones por defectos del alojamiento, como falta de limpieza, equipamiento incompleto o desviaciones relevantes, pueden dar lugar a reducción del precio, subsanación o, en casos graves, resolución del contrato. En cancelaciones y desistimiento, rigen principalmente las condiciones de reserva y las posibles tasas de anulación. La sede jurídica y el fuero competente de Atraveo se encuentran en Hamburgo, Alemania.</p><!--opt-->"
   },
   {
     "name": "Naturhäuschen",
     "slug": "naturhaeuschen",
     "adresse": "Nature.house B.V.\nCeresstraat 13\n4811 CA Breda\nNiederlande",
-    "infobox": "Naturhäuschen intermedia alojamientos especializados en zonas rurales. Dado que la plataforma es un mero intermediario, todas las reclamaciones por defectos relativas a la limpieza, el equipamiento o problemas en la entrega de llaves deben aclararse y liquidarse directamente con el propietario correspondiente de la casa natural."
+    "infobox": "<p>Naturhäuschen es una plataforma especializada en alojamientos vacacionales en entornos rurales y naturales. Jurídicamente, suele actuar como intermediario entre el huésped y el propietario del alojamiento, por lo que las reclamaciones por defectos del alojamiento, como falta de limpieza, equipamiento incompleto o problemas en la entrega de llaves, normalmente deben dirigirse al anfitrión. En caso de deficiencias, pueden existir derechos a reducción del precio, subsanación o, en su caso, indemnización. También para cancelaciones y gastos de desistimiento rigen las condiciones contractuales acordadas. La sede social y fuero competente de Naturhäuschen se encuentra en los Países Bajos.</p><!--opt-->"
   },
   {
     "name": "Tourist-Online",
     "slug": "tourist-online",
     "adresse": "tourist-online.de GmbH\nTaunusstraße 21\n60329 Frankfurt am Main",
-    "infobox": "Como portal de intermediación puro, Tourist-Online solo remite su solicitud de reserva a operadores comerciales o arrendadores particulares. Las acciones legales por defectos en el alquiler (como ruido de obras o una piscina averiada) nunca se dirigen contra el portal, sino siempre contra la contraparte contractual documentada en el contrato de alquiler."
+    "infobox": "<p>Tourist-Online actúa, por regla general, como portal de intermediación de alojamientos vacacionales y no como arrendador directo. Por ello, las reclamaciones por defectos en la vivienda —por ejemplo, falta de equipamiento, suciedad o servicios no disponibles— suelen dirigirse contra el socio contractual indicado en la reserva; según el caso, pueden existir derechos de subsanación, reducción del precio o indemnización. En cancelaciones y desistimiento, son decisivos las condiciones de anulación y los posibles gastos de cancelación. La sede social y el fuero principal de Tourist-Online se encuentran en Alemania, por lo que la competencia judicial suele orientarse a este lugar.</p><!--opt-->"
+  },
+  {
+    "slug": "rentalia",
+    "name": "Rentalia (Idealista Libertad y Control S.A.)",
+    "adresse": "Plaza de las Cortes 2\n28014 Madrid\nEspaña",
+    "infobox": "<p>Rentalia es uno de los mayores portales de reservas de casas de vacaciones y apartamentos turísticos en España, perteneciente al grupo idealista. Legalmente, Rentalia actúa por regla general como mero intermediario; el contrato de arrendamiento o hospedaje se formaliza directamente entre el viajero y el propietario o gestor de la vivienda. En caso de deficiencias en el alojamiento, como falta de equipamiento, problemas de limpieza o discrepancias con el anuncio, las reclamaciones de subsanación o reducción del precio deben dirigirse inmediatamente al anfitrión en el lugar de estancia. Las cancelaciones y sus costes se rigen por las condiciones particulares del propietario. El domicilio legal y fuero principal es Madrid.</p><!--opt-->"
+  },
+  {
+    "slug": "escapadarural",
+    "name": "EscapadaRural (Escapada Rural Website S.L.)",
+    "adresse": "Calle de Mallorca 272\n08037 Barcelona\nEspaña",
+    "infobox": "<p>EscapadaRural es la plataforma web líder indiscutible en España especializada en el alquiler de casas rurales y alojamientos de turismo de interior. La empresa opera exclusivamente como un canal de intermediación y portal de reservas, por lo que no organiza ni gestiona los alojamientos por cuenta propia. Ante cualquier defecto o disconformidad en la vivienda rural (falta de calefacción, suministros o equipamiento deficiente), el cliente debe notificarlo de inmediato al propietario in situ para permitir su resolución. La política de cancelación y los gastos derivados de la misma dependen estrictamente de las condiciones fijadas por cada casa. El fuero judicial se sitúa en Barcelona.</p><!--opt-->"
+  },
+  {
+    "slug": "muchosol",
+    "name": "Muchosol (Viajes MuchoSol S.L.U.)",
+    "adresse": "Calle de Bretón de los Herreros 13\n46003 Valencia\nEspaña",
+    "infobox": "<p>Muchosol es una agencia de viajes en línea y portal especializado en el alquiler vacacional gestionado exclusivamente por profesionales del sector inmobiliario turístico. Dependiendo de la tipología de la reserva, Muchosol puede actuar como intermediario o como agencia organizadora, lo cual determina el régimen de responsabilidad y los derechos de revocación aplicables. Si se detectan anomalías graves en la vivienda, como problemas higiénicos o falta de servicios esenciales, el usuario debe presentar una queja formal e inmediata para activar los protocolos de subsanación o reembolso proporcional. Los costes de anulación se rigen por sus condiciones generales de contratación. La sede jurídica está en Valencia.</p><!--opt-->"
+  },
+  {
+    "slug": "ruralidays",
+    "name": "Ruralidays (Ruralidays Solutions S.L.)",
+    "adresse": "Calle Marqués de Larios 5\n29005 Málaga\nEspaña",
+    "infobox": "<p>Ruralidays es una agencia turística especializada en el alquiler vacacional de villas, cortijos y casas de campo, con un fuerte arraigo en el mercado del sur de España. Actúa principalmente como agente mediador autorizado entre los huéspedes y los propietarios de los inmuebles. En caso de vicios ocultos, discrepancias en la ubicación o carencias en las instalaciones (como piscinas o electrodomésticos inoperativos), el viajero tiene la obligación de reportar la incidencia de manera inmediata para preservar sus derechos a una reducción del coste o indemnización. Las penalizaciones por desistimiento se aplican según el baremo contractual aceptado. El fuero legal está fijado en Málaga.</p><!--opt-->"
   }
 ]

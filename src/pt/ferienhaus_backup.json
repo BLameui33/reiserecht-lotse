@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Novasol",
+    "slug": "novasol",
+    "adresse": "NOVASOL A/S Zweigniederlassung Deutschland\nGotenstraße 11\n20097 Hamburgo",
+    "infobox": "Como uma das maiores operadoras de turismo europeias, a Novasol responde diretamente pelas características garantidas da casa de férias. Importante: os defeitos devem ser comunicados imediatamente no local por meio da linha direta de atendimento ou do escritório local (obrigação de reclamação), para dar ao fornecedor a chance de corrigir o problema. Sem reclamação em tempo hábil, os direitos de redução de preço são perdidos."
+  },
+  {
+    "name": "FeWo-direkt (Vrbo)",
+    "slug": "fewo-direkt",
+    "adresse": "EG Vacation Rentals Ireland Limited\n50 Block Novum, Brown Square\nDublin\nIrlanda",
+    "infobox": "A FeWo-direkt atua apenas como intermediária, e o contrato de reserva é celebrado diretamente com o respectivo anfitrião (particular ou comercial). Direitos legais por defeitos, descrição incorreta ou retenção do depósito devem obrigatoriamente ser dirigidos ao locador. A plataforma oferece apenas proteção contra fraude por meio da sua garantia 'Reserve com confiança'."
+  },
+  {
+    "name": "Belvilla",
+    "slug": "belvilla",
+    "adresse": "Belvilla Services B.V.\nPiet Heinkade 55\n1019 GM Amsterdã\nPaíses Baixos",
+    "infobox": "A Belvilla atua como operadora de turismo e é sua contraparte contratual direta para o imóvel de férias. Se houver defeitos significativos (por exemplo, falha no aquecimento, falta de higiene), entre em contato com a Belvilla imediatamente por escrito ou por telefone em até 24–48 horas. Documente todos os defeitos de forma completa com fotos e testemunhas para futuras solicitações de reembolso."
+  },
+  {
+    "name": "Casamundo",
+    "slug": "casamundo",
+    "adresse": "Casamundo GmbH\nPappelallee 78/79\n10437 Berlim",
+    "infobox": "A Casamundo é um portal de meta-pesquisa e uma mera intermediária, que reúne ofertas de diferentes parceiros. Em caso de defeitos no local, a Casamundo não é o endereço correto para indenização ou redução de preço, mas sim o fornecedor final explicitamente indicado no voucher de reserva (por exemplo, um administrador local ou uma operadora de turismo específica)."
+  },
+  {
+    "name": "DanCenter",
+    "slug": "dancenter",
+    "adresse": "DanCenter GmbH\nSpitalerstraße 16\n20095 Hamburgo",
+    "infobox": "A DanCenter atua como operadora de turismo e assume a responsabilidade legal pelo estado das casas de férias escandinavas. Em caso de defeitos, aplica-se a obrigação rigorosa de reclamação imediata junto ao escritório local de atendimento competente. Mudar-se por conta própria para outra acomodação ou sair antes do prazo sem conceder um período para correção quase sempre leva, juridicamente, à perda dos direitos de redução de preço."
+  },
+  {
+    "name": "Interhome",
+    "slug": "interhome",
+    "adresse": "HTS Touristik GmbH (Interhome)\nHeinrich-von-Stephan-Straße 15\n79100 Freiburg im Breisgau",
+    "infobox": "Como operadora de turismo, a Interhome responde por defeitos no imóvel alugado. Em caso de problemas, utilize imediatamente a filial local de atendimento da Interhome ou o responsável pelas chaves no local para solicitar a correção. Idealmente, peça a confirmação por escrito ou por e-mail da comunicação do defeito e da solicitação de correção, para evitar dificuldades de prova."
+  },
+  {
+    "name": "Holidu",
+    "slug": "holidu",
+    "adresse": "Holidu GmbH\nRiesstraße 24\n80992 Munique",
+    "infobox": "A Holidu funciona como mecanismo de busca e plataforma de intermediação. Os contratos de hospedagem são celebrados com o fornecedor terceirizado vinculado ou com o anfitrião direto. Direitos à redução do aluguel devido a ruído de construção, falta de equipamentos ou descrições de serviços incompletas não podem ser reivindicados legalmente contra a Holidu."
+  },
+  {
+    "name": "Traum-Ferienwohnungen",
+    "slug": "traum-ferienwohnungen",
+    "adresse": "Traum-Ferienwohnungen GmbH\nAn der Reeperbahn 6\n28217 Bremen",
+    "infobox": "O portal é uma plataforma de anúncios, na qual os locadores apresentam seus imóveis de forma independente. A plataforma não verifica no local a condição real das casas. Em caso de defeitos, overbooking ou retenção indevida do depósito, a responsabilidade jurídica e a obrigação de indenização recaem exclusivamente sobre o locador indicado no contrato de aluguel."
+  },
+  {
+    "name": "e-domizil",
+    "slug": "e-domizil",
+    "adresse": "e-domizil GmbH\nTaunusstraße 21\n60329 Frankfurt am Main",
+    "infobox": "A e-domizil intermedeia ofertas de anfitriões particulares e de outros operadores, mas em casos selecionados também atua como operadora de turismo (verifique isso na confirmação da reserva). Se a e-domizil for apenas intermediária, os defeitos devem ser reclamados diretamente ao proprietário; em uma reserva como operadora, aplicam-se as regras favoráveis ao consumidor do direito de viagens organizadas."
+  },
+  {
+    "name": "Allgemeines Formular",
+    "slug": "allgemein",
+    "adresse": "[Bitte Anschrift des Anbieters hier eintragen]",
+    "infobox": "Em caso de defeitos em casas de férias, aplica-se no direito alemão e europeu de locação e de viagens a rigorosa obrigação de mitigação de danos e de reclamação: documente todos os defeitos imediatamente (fotos, vídeos, testemunhas) e exija do parceiro contratual, sem demora, a correção dentro de um prazo razoável. Sem essa etapa, reivindicações financeiras posteriores são juridicamente excluídas."
+  },
+  {
+    "name": "HomeToGo",
+    "slug": "hometogo",
+    "adresse": "HomeToGo GmbH\nPappelallee 78/79\n10437 Berlim",
+    "infobox": "A HomeToGo é um portal global de comparação e uma mera intermediária. A empresa não responde nem pelo estado dos apartamentos de férias intermediados nem por informações incorretas de preços das páginas parceiras. Todos os direitos de garantia, pedidos de indenização ou solicitações de cancelamento devem ser tratados com o fornecedor real da reserva."
+  },
+  {
+    "name": "Booking.com",
+    "slug": "booking",
+    "adresse": "Booking.com B.V.\nOosterdokskade 163\n1011 DL Amsterdã\nPaíses Baixos",
+    "infobox": "A Booking.com atua exclusivamente como intermediária. Mesmo que os pagamentos sejam processados pela plataforma, em caso de defeitos (por exemplo, ausência de Wi-Fi, número de quartos diferente), o host/anfitrião é o principal destinatário dos pedidos de redução de preço. O atendimento ao cliente da Booking.com pode prestar apoio como intermediário, mas juridicamente não é responsável por indenização."
+  },
+  {
+    "name": "BestFewo",
+    "slug": "bestfewo",
+    "adresse": "BestSearch Media GmbH\nZeppelinstraße 73\n14471 Potsdam",
+    "infobox": "A BestFewo intermedeia acomodações de férias de agências regionais e associações locais de turismo na Alemanha. Pedidos de indenização ou de redução do aluguel por defeitos que diminuam o valor das férias devem ser dirigidos diretamente ao locador explicitamente nomeado no contrato de aluguel ou à agência executora no local."
+  },
+  {
+    "name": "Ferienwohnungen.de",
+    "slug": "ferienwohnungen-de",
+    "adresse": "ferienwohnungen.de GmbH\nCeller Str. 101 a\n38114 Braunschweig",
+    "infobox": "Como um portal exclusivamente de publicidade e anúncios para acomodações de férias, a Ferienwohnungen.de não assume qualquer garantia pela exatidão dos textos e imagens enviados. Em caso de divergências entre a descrição online e o estado real do imóvel, medidas legais devem ser tomadas diretamente contra o locador."
+  },
+  {
+    "name": "Atraveo",
+    "slug": "atraveo",
+    "adresse": "atraveo GmbH\nParsevalstraße 7a\n40468 Düsseldorf",
+    "infobox": "A Atraveo (parte do grupo e-domizil) intermedeia casas de férias em todo o mundo. Reclamações por defeitos de equipamento devem ser registradas imediatamente junto ao contato local. Em caso de desvios contratuais graves, recomenda-se informar paralelamente o atendimento ao cliente da Atraveo para obter uma solução rápida."
+  },
+  {
+    "name": "Naturhäuschen",
+    "slug": "naturhaeuschen",
+    "adresse": "Nature.house B.V.\nCeresstraat 13\n4811 CA Breda\nPaíses Baixos",
+    "infobox": "A Naturhäuschen intermedeia acomodações especializadas em áreas rurais. Como a plataforma é apenas intermediária, todas as reclamações sobre limpeza, equipamentos ou problemas na entrega das chaves devem ser tratadas e acertadas diretamente com o respectivo proprietário da Naturhäuschen."
+  },
+  {
+    "name": "Tourist-Online",
+    "slug": "tourist-online",
+    "adresse": "tourist-online.de GmbH\nTaunusstraße 21\n60329 Frankfurt am Main",
+    "infobox": "Como um portal de intermediação puro, a Tourist-Online encaminha sua solicitação de reserva apenas para operadores comerciais ou locadores particulares. Medidas legais em caso de defeitos no aluguel (como ruído de construção ou uma piscina com defeito) nunca se dirigem ao portal, mas sempre ao parceiro contratual documentado no contrato de aluguel."
+  }
+]

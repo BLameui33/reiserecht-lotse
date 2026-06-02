@@ -3,156 +3,180 @@
     "slug": "check24",
     "name": "CHECK24 Vergleichsportal Reise GmbH",
     "adresse": "Trappentreustraße 1 - 3\n80339 Munique\nAlemanha",
-    "infobox": "CHECK24 atua como um mero intermediário de viagens. Em caso de defeitos na viagem no local (por exemplo, defeitos no hotel ou ruído de obras), o seu parceiro contratual legal não é o portal, mas sim o operador turístico mencionado nos documentos de viagem. No entanto, o portal responde por erros de intermediação e aconselhamento, bem como pela transmissão correta dos seus dados."
+    "infobox": "<p>A CHECK24 Vergleichsportal Reise GmbH atua como um portal de reservas e mera intermediária de viagens; ela não realiza nem opera a viagem por conta própria. Em caso de defeitos da viagem, como problemas no hotel ou perturbações no destino, o responsável contratual costuma ser o operador turístico indicado nos documentos da viagem. Já em caso de cancelamento e taxas de anulação, a CHECK24 é frequentemente o primeiro ponto de contacto para esclarecimentos sobre a reserva e a mediação. A sede jurídica e o foro competente encontram-se em Munique, Alemanha.</p><!--opt-->"
   },
   {
     "slug": "holidaycheck",
     "name": "HolidayCheck AG",
     "adresse": "Bahnweg 8\n8598 Bottighofen\nSuíça",
-    "infobox": "Como plataforma de intermediação, a HolidayCheck não responde pela qualidade dos serviços de viagem em si. Importante no direito das viagens organizadas: de acordo com o § 651v, n.º 4 do BGB, uma reclamação por defeito que você dirigir ao intermediário é considerada, juridicamente, como recebida pelo operador turístico. A HolidayCheck é legalmente obrigada a encaminhá-la imediatamente."
+    "infobox": "<p>A HolidayCheck AG é um portal de reservas e intermediário de viagens, não o operador que presta o serviço de viagem em si. Por isso, em caso de defeitos da viagem, a responsabilidade recai normalmente sobre o organizador da viagem; a reclamação apresentada à HolidayCheck deve, em regra, ser encaminhada ao responsável. Já em cancelamentos e taxas de anulação, o portal é muitas vezes o primeiro contacto útil para esclarecer condições e procedimentos. A sede jurídica e o foro competente da HolidayCheck AG situam-se em Munique, Alemanha.</p><!--opt-->"
   },
   {
     "slug": "aldi-reisen",
     "name": "ALDI Reisen (Vermittler)",
     "adresse": "Gilt als Vermittler für verschiedene Veranstalter\n(Adresse des Kundenservice laut Buchung einsetzen)",
-    "infobox": "ALDI Reisen é uma marca puramente intermediária para parceiros externos (por exemplo, Eurotours ou Berge & Meer). O contrato de viagem é celebrado diretamente com o operador turístico responsável pela execução. Reclamações relativas a defeitos no hotel ou alterações nos horários dos voos devem ser obrigatoriamente dirigidas ao endereço do operador turístico indicado no certificado de garantia."
+    "infobox": "<p>ALDI Reisen atua como portal de reservas e intermediário; a viagem não é executada por eles, mas por operadores turísticos parceiros. Por isso, em caso de defeitos na viagem, atrasos de voo ou problemas no hotel, a responsabilidade recai geralmente sobre o organizador da viagem indicado nos documentos de reserva. Já em pedidos de cancelamento e taxas de anulação, a ALDI Reisen costuma ser o primeiro contacto para iniciar o processo. O foro competente e sede jurídica principal é, em regra, a sede da respetiva empresa contratual indicada nos documentos de reserva; verifique sempre as condições gerais e a confirmação da viagem.</p><!--opt-->"
   },
   {
     "slug": "ab-in-den-urlaub",
     "name": "Invia Travel Germany GmbH (ab-in-den-urlaub.de)",
     "adresse": "Dittrichring 18-20\n04109 Leipzig\nAlemanha",
-    "infobox": "O portal atua como uma agência de viagens online e intermedeia ofertas de operadores terceiros. Direitos de garantia por prestação defeituosa no local de férias não podem ser reivindicados contra o intermediário. A responsabilidade da Invia só entra em consideração se for comprovado que houve erros no processamento da reserva ou informações de aconselhamento incorretas."
+    "infobox": "<p>A Invia Travel Germany GmbH (ab-in-den-urlaub.de) atua como portal de reservas e intermediária de viagens, não como operadora da viagem em si. Em casos de defeitos na viagem, como regra, a responsabilidade recai sobre o organizador da viagem; a Invia só pode ser responsabilizada em situações excepcionais, por exemplo, por erros de reserva ou aconselhamento incorreto. Já em cancelamentos e taxas de anulação, o portal costuma ser o primeiro ponto de contacto para esclarecer procedimentos e encaminhar a solicitação. Sede e foro jurídico: Leipzig, Alemanha.</p><!--opt-->"
   },
   {
     "slug": "weg-de",
     "name": "BravoNext SA (weg.de)",
     "adresse": "Vicolo de’ Calvi 2\n6830 Chiasso\nSuíça",
-    "infobox": "A empresa operadora suíça do weg.de atua como intermediária. Como a execução da viagem é da responsabilidade do operador turístico reservado, reclamações urgentes por defeitos devem ser obrigatoriamente apresentadas diretamente no local junto da sua equipa de assistência, para assegurar eventuais direitos de redução de preço posteriores segundo a Tabela de Frankfurt."
+    "infobox": "<p>A BravoNext SA, operadora do portal de reservas weg.de, atua como intermediária de viagens e não executa a viagem em si. Por isso, em caso de defeitos na viagem, a responsabilidade recai geralmente sobre o operador turístico ou organizador contratado; reclamações devem ser apresentadas imediatamente no local para preservar eventuais direitos de redução de preço ou indemnização. Já em caso de cancelamento e taxas de anulação, a BravoNext SA costuma ser o primeiro contacto para questões de reserva e processamento. A sede jurídica e o foro competente situam-se em Chiasso, Suíça.</p><!--opt-->"
   },
   {
     "slug": "sonnenklar-tv",
     "name": "Euvia Travel GmbH (sonnenklar.TV)",
     "adresse": "Landsberger Str. 88\n80339 Munique\nAlemanha",
-    "infobox": "sonnenklar.TV combina programas de viagens e vendas online como portal de intermediação. O processamento e a execução da viagem cabem ao respetivo operador turístico. Caso um hotel apresente defeitos graves, contacte imediatamente o número de emergência do operador turístico, e não a linha de encomendas do canal."
+    "infobox": "<p>A Euvia Travel GmbH (sonnenklar.TV) atua sobretudo como portal de reservas e intermediário de viagens, não como organizador direto da viagem. Por isso, em casos de defeitos da viagem, a responsabilidade recai frequentemente sobre o operador turístico, que também deve ser contactado de imediato através do seu serviço de assistência. Já em caso de cancelamento e taxas de anulação, o primeiro contacto costuma ser o próprio intermediário, que trata da reserva e da comunicação inicial. A sede jurídica e o foro competente da Euvia Travel GmbH situam-se em Munique, Alemanha.</p><!--opt-->"
   },
   {
     "slug": "lidl-reisen",
     "name": "Lidl Digital Trading GmbH & Co. KG",
     "adresse": "Stiftsbergstraße 1\n74172 Neckarsulm\nAlemanha",
-    "infobox": "Lidl Reisen atua como intermediário para operadores turísticos especializados. Para a eliminação de defeitos no local, reduções do preço da viagem ou indemnização por fruição de férias perdida, é exclusivamente responsável, do ponto de vista jurídico, o operador turístico indicado na confirmação da reserva."
+    "infobox": "<p>A Lidl Digital Trading GmbH &amp; Co. KG atua como intermediária e plataforma de reservas de viagens; não é, em regra, a operadora que executa a viagem. Por isso, em caso de defeitos da viagem, redução do preço ou indemnização por férias perdidas, a responsabilidade costuma recair sobre o operador turístico indicado na confirmação da reserva. Já em pedidos de cancelamento e taxas de anulação, a empresa de mediação é frequentemente o primeiro contacto. Sede e foro jurídico: Rötelstraße 35, 74172 Neckarsulm, Alemanha.</p><!--opt-->"
   },
   {
     "slug": "tchibo-reisen",
     "name": "Tchibo GmbH",
     "adresse": "Überseering 18\n22297 Hamburgo\nAlemanha",
-    "infobox": "A Tchibo apresenta ofertas de férias de parceiros externos no âmbito de uma intermediação. Em caso de falhas de prestação ou defeitos na viagem, a competência jurídica cabe exclusivamente ao respetivo operador turístico. A Tchibo responde apenas pela seleção cuidadosa dos parceiros e pela transmissão correta da reserva."
+    "infobox": "<p>A Tchibo GmbH atua como plataforma de mediação e reserva de viagens, não como operadora turística responsável pela execução da viagem. Em caso de defeitos ou falhas na prestação, a responsabilidade recai normalmente sobre o respetivo organizador da viagem. Já em situações de cancelamento e taxas de anulação, a Tchibo costuma ser o primeiro contacto para questões de reserva e processamento. O foro competente e sede jurídica principal da Tchibo GmbH situam-se em Hamburgo, Alemanha. Para reclamações, convém verificar sempre quem é o organizador indicado na confirmação da reserva.</p><!--opt-->"
   },
   {
     "slug": "nix-wie-weg",
     "name": "Nix-wie-weg.de GmbH & Co. KG",
     "adresse": "Alter Schlachthof 3\n92637 Weiden\nAlemanha",
-    "infobox": "A agência de viagens online Nix-wie-weg intermedeia viagens de férias. Os seus direitos legais em caso de defeitos (pedido de reparação, redução) devem ser apresentados, em primeiro lugar, perante o operador turístico. No entanto, o portal apoia os clientes posteriormente com aconselhamento na transmissão e na execução de reclamações justificadas."
+    "infobox": "<p>A Nix-wie-weg.de GmbH &amp; Co. KG atua como portal de reservas e intermediário de viagens; em regra, não organiza nem executa a viagem por conta própria. Em caso de defeitos da viagem, os direitos legais — como reparação, redução do preço ou indemnização — devem ser normalmente apresentados primeiro ao operador turístico responsável. Já em caso de cancelamento, o primeiro contacto costuma ser o próprio intermediário, que informa sobre as condições e eventuais taxas de anulação. Sede e foro jurídico: Passau, Alemanha. O portal pode apoiar os clientes na transmissão e no seguimento de reclamações justificadas.</p><!--opt-->"
   },
   {
     "slug": "kurz-mal-weg",
     "name": "KMW Reisen GmbH (kurz-mal-weg.de)",
     "adresse": "Stralsunder Str. 10\n04156 Leipzig\nAlemanha",
-    "infobox": "kurz-mal-weg.de é um portal de intermediação para viagens curtas, urbanas e de bem-estar. Os contratos de alojamento são celebrados diretamente com os respetivos hotéis. Em caso de defeitos materiais no local (por exemplo, piscina do hotel avariada ou falta de limpeza do quarto), deve dirigir as suas reclamações diretamente à receção do hotel."
+    "infobox": "<p>A KMW Reisen GmbH (kurz-mal-weg.de) atua como portal de reservas e intermediária de viagens, não como operadora que executa a viagem. Os contratos de alojamento são, em regra, celebrados diretamente com o hotel ou com o respetivo organizador da viagem. Em caso de defeitos na viagem, a responsabilidade recai muitas vezes sobre o organizador; no entanto, para cancelamentos e taxas de anulação, o primeiro contacto costuma ser o próprio intermediário. A sede jurídica e o foro competente situam-se em Leipzig, Alemanha.</p><!--opt-->"
   },
   {
     "slug": "expedia",
     "name": "Expedia.com GmbH",
     "adresse": "Seidlstraße 26\n80335 Munique\nAlemanha",
-    "infobox": "A Expedia intermedeia serviços individuais (voo, hotel, carro de aluguer) ou viagens combinadas. No caso de mera intermediação de serviços individuais, o direito das viagens organizadas não se aplica — reclamações por cancelamentos de voos devem ser apresentadas diretamente à companhia aérea (direitos dos passageiros aéreos da UE), e defeitos no hotel diretamente ao hotel."
+    "infobox": "<p>A Expedia.com GmbH atua como portal de reservas e intermediária: não presta a viagem em si, mas apenas facilita a reserva de voos, hotéis, carros e, em alguns casos, viagens combinadas. Em caso de defeitos na viagem, a responsabilidade recai muitas vezes sobre o operador turístico; se houver apenas intermediação, as reclamações devem ser dirigidas ao respetivo prestador. Já em cancelamentos e taxas de anulação, a Expedia é frequentemente o primeiro contacto para esclarecer condições e reembolsos. Sede jurídica e foro competente: Munique, Alemanha.</p><!--opt-->"
   },
   {
     "slug": "booking-com",
     "name": "Booking.com B.V.",
     "adresse": "Oosterdokskade 163\n1011 DL Amesterdão\nPaíses Baixos",
-    "infobox": "A Booking.com atua exclusivamente como plataforma de intermediação de alojamentos. O contrato de hospedagem é celebrado diretamente entre si e o hotel/anfitrião. Em caso de defeitos no alojamento, deve reclamar diretamente no local e exigir reparação; a Booking.com, por si só, não é juridicamente responsável por indemnização."
+    "infobox": "<p>A Booking.com B.V. é uma plataforma de reservas e intermediária de viagens; não presta o alojamento nem executa a viagem por conta própria. Em caso de defeitos na estadia, a responsabilidade recai frequentemente sobre o organizador/fornecedor do serviço contratado, enquanto a Booking.com atua sobretudo como mediadora entre cliente e alojamento. Já em cancelamentos e taxas de anulação, a Booking.com costuma ser o primeiro contacto para esclarecer condições, regras tarifárias e reembolsos. Sede jurídica e foro: Amsterdam, Países Baixos. Para reclamações, guarde provas e verifique sempre os termos da reserva.</p><!--opt-->"
   },
   {
     "slug": "lastminute-de",
     "name": "BravoNext SA (lastminute.de)",
     "adresse": "Vicolo de’ Calvi 2\n6830 Chiasso\nSuíça",
-    "infobox": "Como portal de mera intermediação, a lastminute.de não responde por problemas na execução da viagem. Se os voos forem cancelados ou os quartos de hotel se tornarem inabitáveis, os seus direitos legais de garantia dirigem-se à companhia aérea ou ao operador de viagens organizadas."
+    "infobox": "<p>A BravoNext SA, operando através da lastminute.de, atua sobretudo como portal de reservas e intermediário de viagens, não como organizador da viagem. Por isso, em caso de defeitos na execução da viagem, como atrasos, alojamento inadequado ou serviços não prestados, a responsabilidade recai muitas vezes sobre o operador turístico ou a companhia aérea. Já em cancelamentos e pedidos de reembolso, o portal costuma ser o primeiro ponto de contacto para a gestão da reserva e das eventuais taxas de cancelamento. A sede jurídica e o foro competente situam-se em Chiasso, Suíça.</p><!--opt-->"
   },
   {
     "slug": "reisen-de",
     "name": "Invia Travel Germany GmbH (reisen.de)",
     "adresse": "Dittrichring 18-20\n04109 Leipzig\nAlemanha",
-    "infobox": "reisen.de pertence ao grupo Invia e intermedeia viagens de terceiros. Os pedidos de redução proporcional do preço diário ou de indemnização por execução defeituosa da viagem devem, do ponto de vista jurídico, ser dirigidos diretamente ao operador turístico reservado, nunca ao portal de intermediação."
+    "infobox": "<p>A Invia Travel Germany GmbH, operando como o portal reisen.de, atua como intermediária e plataforma de reserva de viagens, não sendo ela própria a executora da viagem. Em caso de defeitos na viagem, os pedidos de redução do preço ou indemnização devem, em regra, ser dirigidos ao operador turístico responsável. Já em cancelamentos e taxas de anulação, o primeiro contacto costuma ser o próprio portal ou a agência intermediária. A sede jurídica e foro competente situam-se em Berlim, Alemanha. Esta distinção é importante para avaliar corretamente os seus direitos e o destinatário certo da reclamação.</p><!--opt-->"
   },
   {
     "slug": "opodo",
     "name": "Vacaciones eDreams, S.L. (Opodo)",
     "adresse": "Calle de López de Hoyos 35\n28002 Madrid\nEspanha",
-    "infobox": "A Opodo é uma agência de viagens online sediada em Espanha. Em caso de cancelamentos de voos, overbooking ou defeitos em hotéis, a responsabilidade cabe ao respetivo prestador do serviço (companhia aérea ou hotel). A Opodo assume uma responsabilidade jurídica de intermediário caso se comprove que ocorreram erros na emissão dos bilhetes ou na transmissão das tarifas."
+    "infobox": "<p>A Vacaciones eDreams, S.L. (Opodo) é um portal de reservas e intermediário de viagens; normalmente não executa o serviço de viagem em si, apenas facilita a reserva de voos, hotéis e pacotes. Em caso de defeitos na viagem, como falhas no hotel ou no transporte, a responsabilidade costuma recair sobre o organizador da viagem ou o respetivo prestador. Já em cancelamentos e taxas de anulação, a Opodo é muitas vezes o primeiro contacto para esclarecimentos e reclamações sobre a reserva. A sede jurídica e foro competente situam-se em Barcelona, Espanha.</p><!--opt-->"
   },
   {
     "slug": "edreams",
     "name": "Vacaciones eDreams, S.L.",
     "adresse": "Calle de López de Hoyos 35\n28002 Madrid\nEspanha",
-    "infobox": "A eDreams intermedeia voos e alojamentos como portal global de viagens. Como a eDreams não é um operador turístico, os direitos de garantia em caso de cancelamentos de voos (nos termos do regulamento da UE sobre direitos dos passageiros aéreos) ou defeitos no destino devem ser exigidos diretamente à companhia aérea executante ou ao hotel."
+    "infobox": "<p>A Vacaciones eDreams, S.L. atua como portal de reservas e intermediário de viagens, não como operador turístico que executa a viagem em si. Por isso, em caso de defeitos na viagem, a responsabilidade recai muitas vezes sobre o organizador/operador contratado; já em cancelamentos e taxas de cancelamento, o primeiro contacto costuma ser o próprio intermediário. O foro jurídico e sede principal da empresa situam-se em Barcelona, Espanha. Dependendo do contrato e do tipo de reserva, podem aplicar-se direitos de proteção ao viajante, bem como regras de reembolso e indemnização perante a companhia aérea, hotel ou organizador competente.</p><!--opt-->"
   },
   {
     "slug": "urlaubspiraten",
     "name": "HolidayPirates GmbH",
     "adresse": "Wallstraße 59-65\n10179 Berlim\nAlemanha",
-    "infobox": "Urlaubspiraten é uma plataforma puramente de ofertas e informação (não é uma agência de viagens nem um operador turístico). A plataforma apenas remete para ofertas de sites de terceiros. Quaisquer direitos legais decorrentes de reservas, defeitos ou cancelamentos devem ser dirigidos diretamente ao respetivo parceiro contratual."
+    "infobox": "<p>A HolidayPirates GmbH atua como portal de viagens e intermediário de reservas, não como organizador da viagem nem como operador turístico. As ofertas apresentadas são normalmente de terceiros, pelo que os contratos são celebrados diretamente com o respetivo parceiro. Em caso de defeitos na viagem, a responsabilidade recai muitas vezes sobre o organizador da viagem; já em cancelamentos e taxas de anulação, o primeiro contacto deve ser normalmente o intermediário ou o parceiro de reserva. A sede social e foro jurídico principal da HolidayPirates GmbH situam-se em Berlim, Alemanha.</p><!--opt-->"
   },
   {
     "slug": "urlaubsguru",
     "name": "UNIQ GmbH (Urlaubsguru)",
     "adresse": "Rhenus Platz 2\n59439 Holzwickede\nAlemanha",
-    "infobox": "Urlaubsguru pesquisa e apresenta ofertas de viagens editoriais. Como se trata de um meio puramente informativo e de intermediação, não é celebrado qualquer contrato de viagem com a Urlaubsguru. Em caso de problemas de reserva, defeitos no local ou reembolsos, deve contactar o verdadeiro parceiro da reserva."
+    "infobox": "<p>A UNIQ GmbH (Urlaubsguru) atua como portal de reservas e intermediário de viagens: pesquisa, apresenta e encaminha ofertas, mas não realiza a viagem nem presta o serviço turístico em si. Por isso, em caso de defeitos na viagem, a responsabilidade recai frequentemente sobre o operador turístico ou fornecedor contratual. Já em pedidos de cancelamento e taxas de anulação, o primeiro contacto costuma ser o próprio intermediário ou o parceiro de reserva indicado. A sede social e foro jurídico principal da UNIQ GmbH é em Neuss, Alemanha.</p><!--opt-->"
   },
   {
     "slug": "rewe-reisen",
     "name": "REWE Markt GmbH",
     "adresse": "Domstraße 20\n50668 Colónia\nAlemanha",
-    "infobox": "REWE Reisen atua como intermediário. As viagens são realizadas por operadores parceiros. Em caso de defeitos na viagem, overbooking ou alterações nos horários dos voos, a responsabilidade jurídica cabe exclusivamente ao operador turístico contratual, indicado na sua confirmação de reserva."
+    "infobox": "<p>A REWE Markt GmbH atua como intermediária e portal de reservas, não executando as viagens por conta própria. O contrato de viagem é normalmente celebrado com o operador turístico indicado na confirmação da reserva. Em caso de defeitos na viagem, atrasos, overbooking ou alterações de voo, a responsabilidade costuma recair sobre o organizador da viagem; já em cancelamentos e taxas de anulação, a REWE Markt GmbH é muitas vezes o primeiro contacto para pedidos e esclarecimentos. Sede social e foro competente: Colónia, Alemanha.</p><!--opt-->"
   },
   {
     "slug": "penny-reisen",
     "name": "PENNY-Markt GmbH",
     "adresse": "Domstraße 20\n50668 Colónia\nAlemanha",
-    "infobox": "PENNY Reisen intermedeia ofertas de férias de operadores terceiros. Pedidos de redução do preço da viagem devido a defeitos no hotel (por exemplo, segundo a Tabela de Frankfurt) não podem ser juridicamente apresentados contra a PENNY, devendo ser dirigidos ao operador turístico responsável pela execução."
+    "infobox": "<p>A PENNY-Markt GmbH atua como intermediária e portal de reservas, apresentando ofertas de viagem de terceiros e não realizando a viagem por conta própria. Em caso de defeitos na viagem, como problemas no hotel ou serviços não prestados, a responsabilidade recai, em regra, sobre o operador turístico responsável pela execução. Já em casos de cancelamento e taxas de anulação, a PENNY é frequentemente o primeiro contacto para esclarecimentos sobre a reserva. A sede jurídica e o foro competente da empresa situam-se em Colónia, Alemanha. Para reclamações e pedidos formais, deve verificar sempre quem é o verdadeiro organizador da viagem.</p><!--opt-->"
   },
   {
     "slug": "netto-urlaub",
     "name": "Netto Marken-Discount Stiftung & Co. KG",
     "adresse": "Industriepark Ponholz 1\n93142 Maxhütte-Haidhof\nAlemanha",
-    "infobox": "Netto Urlaub disponibiliza apenas a plataforma de intermediação. O parceiro contratual para a viagem de férias é o operador turístico indicado nos documentos de reserva. Reclamações urgentes por defeitos devem ser obrigatoriamente apresentadas no local junto da sua equipa de assistência, para não perder direitos de redução."
+    "infobox": "<p>A Netto Marken-Discount Stiftung &amp; Co. KG atua como intermediária e portal de reservas, não como operadora da viagem. O contrato de viagem é normalmente celebrado com o operador turístico indicado nos documentos de reserva. Em caso de defeitos na viagem, a responsabilidade recai em regra sobre o organizador, sendo essencial comunicar as reclamações imediatamente no local para preservar direitos. Já em cancelamentos e taxas de anulação, o primeiro contacto costuma ser o intermediário da reserva. A sede jurídica e o foro competente da Netto Marken-Discount Stiftung &amp; Co. KG ficam em Maxhütte-Haidhof, Alemanha.</p><!--opt-->"
   },
   {
     "slug": "secret-escapes",
     "name": "Secret Escapes GmbH",
     "adresse": "Reichenberger Str. 124\n10999 Berlim\nAlemanha",
-    "infobox": "Secret Escapes intermedeia ofertas exclusivas de hotéis e viagens. Em caso de defeitos materiais no hotel, este é o seu contacto direto. Se tiver sido intermedido um pacote de viagem organizada, verifique a sua confirmação: a responsabilidade por defeitos cabe ao operador turístico aí indicado."
+    "infobox": "<p>A Secret Escapes GmbH atua como plataforma de reservas e intermediária de viagens; não é, em regra, a organizadora da viagem. Em caso de defeitos na viagem ou no hotel, a responsabilidade costuma recair sobre o operador turístico indicado na confirmação da reserva, especialmente quando se trata de um pacote turístico. Já em casos de cancelamento e taxas de anulação, a Secret Escapes é frequentemente o primeiro contacto para esclarecer condições e encaminhar o pedido. A sede jurídica e foro competente da Secret Escapes GmbH situam-se em Berlim, Alemanha.</p><!--opt-->"
   },
   {
     "slug": "der-reisebuero",
     "name": "DER Deutsches Reisebüro GmbH & Co. OHG",
     "adresse": "Emil-von-Behring-Straße 6\n60439 Frankfurt am Main\nAlemanha",
-    "infobox": "A agência de viagens tradicional intermedeia viagens presencialmente e online. Em caso de defeitos na viagem, aplica-se a importante regra favorável ao consumidor: a agência de viagens está legalmente autorizada a receber reclamações por defeitos do viajante e deve encaminhá-las imediatamente ao operador turístico (§ 651v BGB)."
+    "infobox": "<p>A DER Deutsches Reisebüro GmbH &amp; Co. OHG atua como intermediária e portal de reservas, não como operadora da viagem. Por isso, em casos de defeitos na viagem, a responsabilidade recai normalmente sobre o organizador da viagem, enquanto a agência deve encaminhar rapidamente as reclamações. Já em cancelamentos e taxas de anulação, a DER costuma ser o primeiro contacto para o cliente, pois é quem processa a reserva. A sede jurídica e foro competente principal situa-se em Frankfurt am Main, Alemanha. Para reclamações e dúvidas sobre reembolso, é importante guardar toda a documentação da reserva.</p><!--opt-->"
   },
   {
     "slug": "travelscout24",
     "name": "Triplemind GmbH (TravelScout24)",
     "adresse": "Berliner Straße 269\n63067 Offenbach am Main\nAlemanha",
-    "infobox": "TravelScout24 é um intermediário de viagens online. Pela execução sem defeitos da viagem organizada, a responsabilidade jurídica cabe ao respetivo operador turístico. No âmbito do contrato de intermediação, o portal responde principalmente pelo cumprimento dos deveres de informação pré-contratuais e pela transmissão correta dos dados."
+    "infobox": "<p>A Triplemind GmbH (TravelScout24) atua como portal de reservas e intermediário de viagens, não como operador turístico responsável pela execução da viagem. Em caso de defeitos na viagem, a responsabilidade recai, em regra, sobre o respetivo organizador/operador turístico. Já em pedidos de cancelamento e taxas de anulação, o portal é frequentemente o primeiro ponto de contacto, sobretudo para a transmissão do pedido e esclarecimento das condições aplicáveis. A sede jurídica e o foro competente da Triplemind GmbH situam-se em Munique, Alemanha. Para avaliar corretamente os seus direitos, é decisivo distinguir entre mediação da reserva e realização efetiva da viagem.</p><!--opt-->"
   },
   {
     "slug": "tourlane",
     "name": "Tourlane GmbH",
     "adresse": "Prinzessinnenstraße 19-20\n10969 Berlim\nAlemanha",
-    "infobox": "Tourlane planeia viagens de circuito personalizadas. Dependendo da confirmação da reserva, a Tourlane atua como operador turístico ou como intermediária de serviços individuais. Se se tratar de mera intermediação, os direitos de garantia e os pedidos de indemnização devem ser apresentados diretamente aos prestadores locais."
+    "infobox": "<p>A Tourlane GmbH é uma plataforma de reservas e mediadora de viagens personalizadas; normalmente, não realiza a viagem por conta própria. Em caso de defeitos da viagem, os direitos de garantia e eventuais pedidos de indemnização recaem, em regra, sobre o operador turístico responsável pela execução. Já em cancelamentos e taxas de anulação, a Tourlane é frequentemente o primeiro contacto para esclarecer condições, prazos e reembolsos, sobretudo quando atuou apenas como intermediária. A sede jurídica e foro competente da empresa situam-se em Berlim, Alemanha. Para avaliar responsabilidades, é essencial verificar se houve mera mediação ou organização da viagem.</p><!--opt-->"
   },
   {
     "slug": "anderer-vermittler",
     "name": "Ihren Reisevermittler",
     "adresse": "",
-    "infobox": "Os intermediários de viagens (agências/portais) não respondem, em princípio, por defeitos da própria viagem, mas apenas pela correta intermediação (§ 651v BGB). As reclamações por defeitos devem ser comunicadas imediatamente no local ao operador turístico ou ao prestador do serviço, e deve ser exigida reparação, para preservar os direitos de redução."
+    "infobox": "<p>“Ihren Reisevermittler” atua como portal de reservas e intermediário de viagens, não como operador da viagem. Por isso, em caso de defeitos na viagem, a responsabilidade recai geralmente sobre o organizador da viagem ou o prestador do serviço; as reclamações devem ser comunicadas imediatamente no local. Já em caso de cancelamento, o intermediário é muitas vezes o primeiro contacto para esclarecer condições, taxas de anulação e o procedimento de estorno. Sede e foro competente: Alemanha, salvo disposição legal em contrário. Esta informação é de caráter geral e não substitui aconselhamento jurídico individual.</p><!--opt-->"
+  },
+  {
+    "slug": "top-atlantico",
+    "name": "Top Atlântico (Viagens e Turismo, S.A.)",
+    "adresse": "Rua Abranches Ferrão 10\n1600-001 Lisboa\nPortugal",
+    "infobox": "<p>A Top Atlântico é um portal de reservas e intermediário de viagens de referência em Portugal, não realizando diretamente as viagens comercializadas. Em caso de desconformidades no local – como defeitos no hotel, ruído de obras ou alterações nas prestações –, a responsabilidade contratual recai sobre o operador turístico organizador indicado no contrato. Contudo, em cenários de cancelamento, alterações de reservas ou dúvidas sobre taxas de anulação, a Top Atlântico é frequentemente o primeiro ponto de contacto para gerir o processo e reencaminhar as declarações. A empresa responde por erros de mediação no âmbito dos seus deveres. O foro jurídico situa-se em Lisboa.</p><!--opt-->"
+  },
+  {
+    "slug": "geostar",
+    "name": "Viagens GeoStar, S.A.",
+    "adresse": "Avenida Dom João II, Lote 1.16.01\n1990-083 Lisboa\nPortugal",
+    "infobox": "<p>A Viagens GeoStar, S.A. opera como um dos portais de reservas e redes de intermediação de viagens mais importantes do mercado português, atuando estritamente como intermediária de serviços de terceiros. Perante qualquer falta de conformidade ou vício detetado no destino (problemas no alojamento ou quebra de serviços), a reclamação deve ser direcionada ao operador turístico responsável pelo pacote. Em contrapartida, para pedidos de alteração de datas, cancelamentos voluntários ou gestão de penalizações, o portal serve como interlocutor primário. A GeoStar assume a responsabilidade civil por eventuais erros na prestação do serviço de intermediação. O foro legal é Lisboa.</p><!--opt-->"
+  },
+  {
+    "slug": "best-travel",
+    "name": "Best Travel (Gecontur, S.A.)",
+    "adresse": "Rua de Salazares 842\n4100-442 Porto\nPortugal",
+    "infobox": "<p>A Best Travel é uma das maiores redes de agências e portais de intermediação de viagens em Portugal, funcionando como facilitadora de reservas e não executando os pacotes turísticos por conta própria. Se surgirem deficiências contratuais no destino, como problemas nas instalações hoteleiras ou incumprimento de serviços, o cliente deve interpor recurso junto do operador turístico que organiza a viagem. No entanto, para processos de cancelamento, alterações de itinerário ou dúvidas contratuais sobre despesas de desistência, a Best Travel é o canal preferencial para mediar e reencaminhar as solicitações. Responde legalmente por falhas decorrentes do mandato de intermediação. O foro competente é o Porto.</p><!--opt-->"
+  },
+  {
+    "slug": "netviagens",
+    "name": "Netviagens",
+    "adresse": "Avenida dos Aliados 207\n4000-067 Porto\nPortugal",
+    "infobox": "<p>O Netviagens é um dos pioneiros portais de reserva online e intermediários de viagens em Portugal, focado na agregação e venda de pacotes turísticos de terceiros. Em caso de vícios ou reclamações no local de férias – tais como menor qualidade do hotel ou falhas nos transfers –, o organizador da viagem (operador turístico) continua a ser o único devedor da prestação e o alvo correto da reclamação. Por outro lado, para a gestão de cancelamentos, reembolsos ou esclarecimentos sobre taxas de resolução contratuais, o Netviagens atua como o primeiro ponto de assistência ao cliente. A responsabilidade do portal limita-se a erros cometidos no processo de reserva. O foro jurídico é no Porto.</p><!--opt-->"
   }
 ]
