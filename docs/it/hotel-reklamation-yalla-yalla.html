@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Yalla Yalla S.r.l. Reclamo: segnalare difetti dell’hotel (PDF
+    )</title>
+
+  <meta name="description" content="Difetti dell’hotel in un viaggio prenotato tramite Yalla Yalla S.r.l.? Genera un PDF legalmente valido, invialo al portale e richiedi il rimborso.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="/logo-lotse-fav.png">
+  <!-- SEO & Internationalizzazione -->
+  <link rel="canonical" href="https://www.fix-my-trip.com/it/hotel-reklamation-yalla-yalla.html">
+
+<link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/hotel-reklamation-yalla-yalla.html">
+<link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/hotel-reklamation-yalla-yalla.html">
+<link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/hotel-reklamation-yalla-yalla.html">
+<link rel="alternate" hreflang="it" href="https://www.fix-my-trip.com/it/hotel-reklamation-yalla-yalla.html">
+<link rel="alternate" hreflang="nl" href="https://www.fix-my-trip.com/nl/hotel-reklamation-yalla-yalla.html">
+<link rel="alternate" hreflang="fr-be" href="https://www.fix-my-trip.com/fr-be/hotel-reklamation-yalla-yalla.html">
+<link rel="alternate" hreflang="nl-be" href="https://www.fix-my-trip.com/nl-be/hotel-reklamation-yalla-yalla.html">
+<link rel="alternate" hreflang="pt" href="https://www.fix-my-trip.com/pt/hotel-reklamation-yalla-yalla.html">
+
+<link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/hotel-reklamation-yalla-yalla.html">
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Generatore PDF: far valere i diritti con Yalla Yalla S.r.l.",
+    "applicationCategory": "LegalApplication",
+    "operatingSystem": "All",
+    "description": "Strumento gratuito per calcolare i risarcimenti e creare una lettera legale standard da inviare a {{AIRLINE_NAME}}.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+    }
+  }
+  </script>
+
+  <!-- Neues FAQ Schema für bessere Google Rankings (Rich Snippets) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "A chi viene rimborsato il mio denaro in caso di riduzione del prezzo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Il pagamento del rimborso calcolato (basato sulle linee guida consolidate del diritto dei viaggi) viene effettuato in ultima analisi dal vero tour operator. Anche se invii la lettera di reclamo legalmente valida tramite il portale di prenotazione, sarà il tour operator a gestire il pagamento. Indica quindi sempre direttamente il tuo IBAN nella lettera."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Devo aver segnalato il difetto anche sul posto?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sì, è assolutamente necessario! Rimane valido l’obbligo di segnalare i difetti sul posto. Devi dare alla guida locale o alla reception dell’hotel la possibilità di risolvere il problema (ad es. con un’altra camera) prima di poter richiedere successivamente un rimborso."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quanto tempo ho per contestare i difetti di viaggio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In passato valeva un termine rigoroso di un mese. Con la nuova normativa sui viaggi organizzati, i tuoi diritti alla riduzione del prezzo del viaggio si prescrivono solo dopo due anni. Consigliamo comunque di presentare il reclamo subito dopo il rientro dalla vacanza, quando tutte le prove e i ricordi sono ancora freschi."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  
+  
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+  <span style="font-size: 0.9em; color: #666;">I tuoi diritti nei viaggi organizzati</span>
+</header>
+
+<div class="page-container">
+
+  <!-- Above the Fold: Klare Vorteils-Kommunikation und Problemlösung -->
+  <h1>Contestare i difetti dell’hotel con Yalla Yalla S.r.l.: così recuperi i tuoi soldi</h1>
+
+  <div class="back-to-hub-banner">
+  <a href="hotel-maengel-info.html">
+    <span class="arrow">&larr;</span> Torna alla panoramica: tutti i tour operator e portali
+  </a>
+</div>
+  
+  <div class="usp-bar">
+    <div class="usp-item">“Trucco” legale del portale (regole generali del diritto dei viaggi)</div>
+    <div class="usp-item">Basato sulle linee guida consolidate del diritto dei viaggi</div>
+    <div class="usp-item">Lettera standard giuridicamente precisa</div>
+    <div class="usp-item">100% gratuito</div>
+    
+  </div>
+
+  <p>Rumore di cantiere, cibo immangiabile o piscina sporca? Se la vacanza tanto attesa si trasforma in una delusione, hai diritto a un risarcimento. Usa il nostro generatore gratuito di reclami per calcolare le percentuali di riduzione comunemente applicate nel settore e creare una lettera legalmente valida da inviare direttamente al tuo portale di prenotazione <strong>Yalla Yalla S.r.l.</strong>.</p>
+
+  <div class="info-box blue">
+    <strong>Avviso legale (regole generali del diritto dei viaggi):</strong> Hai prenotato il viaggio tramite <strong>Yalla Yalla S.r.l.</strong>, ma il vero tour operator è ad es. TUI o FTI? Non devi cercare faticosamente l’indirizzo del tour operator. La legge ti consente di inviare il reclamo direttamente al portale di prenotazione (Yalla Yalla S.r.l.). Il portale è obbligato per legge a inoltrarlo senza indugio!
+  </div>
+
+  <div class="info-box warning">
+    <strong>Importante per le prove:</strong> Poiché Yalla Yalla S.r.l. deve prima inoltrare internamente la lettera al tour operator competente, la procedura può richiedere qualche giorno in più. Tieni inoltre presente: puoi richiedere un rimborso solo successivamente se hai già segnalato il difetto <strong>sul posto alla guida locale</strong>.
+  </div>
+
+  <div class="legal-info-box">
+    <strong>Avviso importante sull’utilizzo</strong><br>
+    Questo strumento è un <strong>generatore automatizzato di lettere standard</strong> (aiuto all’auto-aiuto). Inserisce i tuoi dati solo in modelli giuridici standard. Non viene effettuata <strong>alcuna verifica individuale</strong> del tuo caso. Questo servizio gratuito non sostituisce una consulenza legale da parte di un avvocato. L’utilizzo avviene sotto la propria responsabilità; non viene fornita alcuna garanzia di successo.
+</div>
+
+  <div class="highlight-box pruefdatum-box" role="note" aria-label="Verificato editorialmente" style="margin-top: 15px; margin-bottom: 30px;">
+    <p><strong>Verificato editorialmente il:</strong> <span id="pruefdatum">05.05.2026</span></p>
+  </div>
+
+  <div class="lesson-learned-box" style="background: #f8f9fa; border-left: 4px solid #ffb300; padding: 15px 20px; margin: 30px 0; border-radius: 4px; display: flex; align-items: flex-start; gap: 15px; position: relative;">
+  
+  <!-- NEU: Diskreter Affiliate-Hinweis oben rechts -->
+  <span style="font-size: 0.7rem; color: #666; background: #eee; padding: 2px 6px; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.05em; position: absolute; top: 10px; right: 10px;">
+    Annuncio
+  </span>
+
+  <div style="font-size: 2em; line-height: 1;">💡</div>
+  <div>
+    <h4 style="margin: 0 0 5px 0; color: #333; font-size: 1.1em; padding-right: 60px;">Consiglio per il prossimo viaggio</h4>
+    <p style="margin: 0 0 10px 0; font-size: 0.95em; color: #555;">
+      L’hotel era un incubo e hai dovuto cambiare struttura sul posto? Con vere carte di credito da viaggio puoi pagare l’hotel sostitutivo all’estero senza commissioni e, grazie alla cosiddetta procedura di chargeback (storno della carta), hai spesso un asso nella manica se il fornitore originario rifiuta il rimborso.
+    </p>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #891818; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">
+      Confronta le migliori carte di credito da viaggio (gratuite)
+    </a>
+  </div>
+</div>
+
+  <!-- Der Formular-Bereich (Struktur & IDs unangetastet für JS) -->
+  <form id="hotelForm">
+    <fieldset style="border-color: #ff9800; background: #fffdf7;">
+      <legend style="background: #ff9800; color: #333;">1. Portale di viaggio (destinatario)</legend>
+      <label>Portale / intermediario:</label>
+      <input type="text" id="aName" value="Yalla Yalla S.r.l." required>
+      <label>Indirizzo del portale:</label>
+      <textarea id="aAdresse" rows="3" required>Via Svezia 4
+47922 Rimini (RN)
+Italia</textarea>
+    </fieldset>
+    <p style="font-size: 0.8em; color: #666; margin-top: 5px; line-height: 1.3;">
+  💡 <strong>Nota:</strong> Di norma qui viene mostrato l’indirizzo centrale o regionale del fornitore. Puoi modificare questo indirizzo in qualsiasi momento e inserire invece l’indirizzo della filiale locale nel tuo Paese.
+</p>
+
+    <fieldset>
+      <legend>2. I dati del viaggio</legend>
+      <label style="color: var(--danger);">Tour operator effettivo (ad es. TUI, Alltours, FTI - vedi prenotazione):</label>
+      <input type="text" id="fVeranstalter" placeholder="ad es. FTI Touristik GmbH" required>
+      
+      <label>Numero di prenotazione / pratica:</label>
+      <input type="text" id="fBuchung" placeholder="ad es. 12345678" required>
+      
+      <label>Nome dell’hotel e località di vacanza:</label>
+      <input type="text" id="fHotel" placeholder="ad es. Hotel Sunshine, Mallorca" required>
+      
+      <label>Periodo di viaggio (da - a):</label>
+      <input type="text" id="fZeitraum" placeholder="ad es. 01.08.2026 - 14.08.2026" required>
+      
+      <label style="color: var(--primary);">Prezzo totale del viaggio (in euro):</label>
+      <input type="number" step="0.01" id="fPreis" placeholder="ad es. 2500" required>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. Calcolatore dei difetti (linee guida consolidate del diritto dei viaggi)</legend>
+      <p style="font-size: 0.9em; color: #666; margin-top: 0;">Seleziona i difetti pertinenti. Calcoliamo la percentuale di riduzione comunemente applicata nel settore.</p>
+      
+      <div class="checkbox-group" id="mangelCheckboxes">
+        <label><input type="checkbox" value="20" data-text="Rumore di cantiere significativo nell’hotel o nelle immediate vicinanze"> Rumore di cantiere significativo (riduzione del 20%)</label>
+        <label><input type="checkbox" value="10" data-text="Vista mare mancante, nonostante fosse contrattualmente garantita"> Vista mare mancante (riduzione del 10%)</label>
+        <label><input type="checkbox" value="15" data-text="Piscina fuori servizio o fortemente sporca"> Piscina non utilizzabile / sporca (riduzione del 15%)</label>
+        <label><input type="checkbox" value="20" data-text="Cibo scadente, avariato o fortemente insufficiente"> Cibo cattivo, immangiabile (riduzione del 20%)</label>
+        <label><input type="checkbox" value="15" data-text="Insetti in camera (ad es. scarafaggi)"> Insetti in camera (riduzione del 15%)</label>
+        <label><input type="checkbox" value="10" data-text="Guasto dell’aria condizionata"> Aria condizionata guasta (riduzione del 10%)</label>
+        <label><input type="checkbox" value="50" data-text="Sistemazione in un hotel completamente diverso (overbooking)"> Sistemazione nell’hotel sbagliato (riduzione del 50%)</label>
+      </div>
+
+      <div class="calc-banner">
+        Il tuo importo di rimborso calcolato:<br>
+        <span id="liveAmount">0,00 €</span>
+        <div style="font-size: 0.5em; font-weight: normal; margin-top: 5px;">(Percentuale di riduzione: <span id="livePercent">0</span>%)</div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>4. I tuoi dati e coordinate bancarie</legend>
+      <label>Nome e cognome (intestatario principale della prenotazione):</label>
+      <input type="text" id="sName" placeholder="ad es. Mario Rossi" required>
+      <label>Via e numero civico:</label>
+      <input type="text" id="sStrasse" placeholder="ad es. Via Roma 1" required>
+      <label>CAP e città:</label>
+      <input type="text" id="sPLZOrt" placeholder="ad es. 12345 Berlino" required>
+      <label>IBAN per il rimborso:</label>
+      <input type="text" id="bIBAN" placeholder="DE..." required>
+    </fieldset>
+
+    
+
+    <div class="submit-area">
+    <p class="submit-disclaimer">
+        Cliccando su "Genera PDF" dichiari di aver compreso che questo servizio automatizzato<br>non costituisce consulenza legale e che presenti la richiesta sotto la tua responsabilità.
+    </p>
+    <button type="submit" class="button-primary">📄 Genera PDF del reclamo per Yalla Yalla S.r.l.</button>
+</div>
+  </form>
+
+  <!-- Umfassender SEO Content Bereich -->
+  <div class="seo-content">
+    <h2>Segnalare correttamente i difetti di viaggio in una prenotazione tramite Yalla Yalla S.r.l.</h2>
+    <p>Prenotare un viaggio organizzato tramite grandi agenzie di viaggio online come <strong>Yalla Yalla S.r.l.</strong> è comodo e molto diffuso. Ma cosa succede se sul posto nulla corrisponde a quanto promesso nel catalogo? Se la camera d’albergo è infestata dalla muffa, il rumore del cantiere rovina il sonno o il buffet è immangiabile, hai diritto a una riduzione del prezzo del viaggio. In passato era spesso complicato trovare il corretto interlocutore giuridico. Grazie alla moderna normativa sui viaggi organizzati, oggi la tutela del consumatore è molto più forte.</p>
+
+    <h3>Le regole generali del diritto dei viaggi: la tua carta vincente contro il rimpallo</h3>
+    <p>In passato i portali di viaggio respingevano volentieri i reclami con la solita frase: "Siamo solo l’intermediario, rivolgetevi al tour operator". Il legislatore ha posto fine a questo frustrante rimpallo con l’introduzione delle regole generali del diritto dei viaggi. Le segnalazioni di difetti e le richieste di rimborso possono ora essere presentate con pieno effetto giuridico direttamente all’intermediario di viaggio (cioè a Yalla Yalla S.r.l.). Il portale funge da destinatario ufficiale ed è obbligato per legge a inoltrare senza indugio la tua lettera al vero tour operator (ad es. TUI, Schauinsland o Alltours). Sfrutta questa leva giuridica per evitare la noiosa ricerca dell’indirizzo.</p>
+
+    <h3>Le linee guida consolidate del diritto dei viaggi: quanto mi spetta?</h3>
+    <p>Il nostro calcolatore si basa sui valori di riferimento delle cosiddette <strong>linee guida consolidate del diritto dei viaggi</strong>. Si tratta di una panoramica sviluppata da giudici presso il tribunale competente di Francoforte sul Meno, che stabilisce percentuali di riduzione comunemente applicate nel settore per quasi ogni difetto di viaggio immaginabile. Anche se non è una legge vincolante, viene utilizzata dai tribunali e dai tour operator in tutta la Germania come riferimento principale. Così, ad esempio, la mancanza della vista mare giustifica di solito una riduzione del 10%, mentre un forte rumore di cantiere o il guasto dell’aria condizionata possono arrivare fino al 20% del prezzo giornaliero del viaggio. Usando il nostro strumento richiedi importi realistici, che vengono respinti molto meno spesso dai tour operator rispetto a richieste arbitrarie.</p>
+
+    <!-- FAQ Bereich (Strukturiertes Markup) -->
+    <div class="faq-section">
+      <h2>Domande frequenti (FAQ) sulla riduzione del prezzo del viaggio</h2>
+      
+      <details>
+        <summary>A chi viene rimborsato il mio denaro in caso di riduzione del prezzo?</summary>
+        <p>Il pagamento del rimborso calcolato (basato sulle linee guida consolidate del diritto dei viaggi) viene effettuato in ultima analisi dal vero tour operator. Anche se invii la lettera di reclamo legalmente valida tramite il portale di prenotazione (Yalla Yalla S.r.l.), sarà il tour operator a gestire il pagamento. Indica quindi sempre direttamente il tuo IBAN nella lettera.</p>
+      </details>
+
+      <details>
+        <summary>Devo aver segnalato il difetto anche sul posto?</summary>
+        <p>Sì, è estremamente importante! Rimane obbligatorio l’obbligo di segnalazione dei difetti <em>sul posto</em>. Devi dare alla guida locale del tour operator o alla reception dell’hotel la possibilità di risolvere il problema (ad es. con un’altra camera o una riparazione). Se manca questo cosiddetto "termine per porre rimedio", di norma perdi il diritto a un risarcimento economico successivo.</p>
+      </details>
+
+      <details>
+        <summary>Quanto tempo ho per presentare il mio reclamo?</summary>
+        <p>Dalla riforma del diritto dei viaggi, i consumatori hanno molto più tempo. I tuoi diritti alla riduzione del prezzo del viaggio o al risarcimento si prescrivono ora solo dopo <strong>due anni</strong> (regole generali del diritto dei viaggi). Il precedente termine molto rigido di un mese non esiste più. Tuttavia, gli esperti consigliano di presentare la richiesta poco dopo il rientro, con foto e testimonianze, per poter dimostrare in modo completo i fatti.</p>
+      </details>
+    </div>
+  </div>
+
+  <div class="airline-hinweisbox">
+    <h3>Indicazioni importanti sui rimborsi con Yalla Yalla S.r.l.</h3>
+    <p><p>Yalla Yalla S.r.l. è un portale di prenotazione online e intermediario di viaggi che non esegue direttamente i soggiorni offerti. Per qualsiasi difformità o vizio riscontrato in loco, come problemi in hotel o lavori in corso, la responsabilità legale ricade sul tour operator organizzatore del pacchetto turistico. Tuttavia, per quanto riguarda il recesso dal contratto, le cancellazioni o le richieste sulle penali applicate, Yalla Yalla rappresenta il primo referente per gestire la pratica e inoltrare le comunicazioni all'organizzatore. L'azienda risponde esclusivamente degli errori legati alla fase di prenotazione e intermediazione. Il foro competente è Rimini.</p><!--opt--></p>
+</div>
+
+<div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
+  <h3>Altri argomenti interessanti:</h3>
+  <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="hotel-reklamation-opodo.html">Vacaciones eDreams, S.L. (Opodo)</a>
+<a href="hotel-reklamation-booking-com.html">Booking.com B.V.</a>
+<a href="hotel-reklamation-aldi-reisen.html">ALDI Reisen (Vermittler)</a>
+<a href="hotel-reklamation-reisen-de.html">Invia Travel Germany GmbH (reisen.de)</a>
+<a href="hotel-reklamation-ab-in-den-urlaub.html">Invia Travel Germany GmbH (ab-in-den-urlaub.de)</a>
+
+  </div>
+</div>
+<aside class="legal-sources-box" aria-labelledby="sources-title-hotel">
+    <h3 id="sources-title-hotel" class="sources-heading">Basi giuridiche e linee guida riconosciute</h3>
+    <p class="sources-intro">
+        Le segnalazioni di difetti e le richieste di riduzione del prezzo in questo generatore si basano sulla normativa tedesca sui viaggi organizzati e sulla giurisprudenza consolidata a livello nazionale:
+    </p>
+    <ul class="sources-list">
+        <li>
+            <strong>Codice civile tedesco (BGB) – contratto di viaggio organizzato</strong>: 
+            Il BGB tedesco disciplina in dettaglio gli obblighi del tour operator. In particolare, le disposizioni sui difetti di viaggio e sul diritto alla riduzione del prezzo del viaggio costituiscono la base giuridica per il tuo rimborso.
+            <br>
+            <a href="https://www.gesetze-im-internet.de/bgb/BJNR001950896.html#BJNR001950896BJNG006203377" target="_blank" rel="noopener noreferrer" class="source-link">
+                Testo ufficiale su Gesetze-im-Internet.de (BMJ)
+            </a>
+        </li>
+        <li>
+            <strong>Linee guida consolidate del diritto dei viaggi (riferimento per la riduzione del prezzo del viaggio)</strong>: 
+            Sebbene non sia una legge ufficiale, la tabella sviluppata dal tribunale competente di Francoforte sul Meno è il riferimento più importante e più frequentemente utilizzato dai tribunali. Serve come base per calcolare in modo oggettivo l’entità percentuale della riduzione del prezzo in caso di difetti specifici (ad es. rumore di cantiere, sporco, piscina mancante).
+            <br>
+            <a href="https://de.wikipedia.org/wiki/Frankfurter_Tabelle" target="_blank" rel="noopener noreferrer" class="source-link">
+                Panoramica sulle linee guida consolidate del diritto dei viaggi (Wikipedia)
+            </a>
+        </li>
+    </ul>
+</aside>
+</div>
+
+<div class="trust-section">
+    <h3>Competenza nel diritto dei viaggi e nei diritti dei passeggeri</h3>
+    <p class="trust-text">
+        Le nostre guide e i nostri generatori si basano sull’analisi rigorosa delle attuali normative UE (come il regolamento CE 261/2004), delle sentenze della Corte federale di giustizia tedesca e del diritto nazionale dei viaggi. 
+        Sono sviluppati da Marc (project lead) e dal team per consentire ai viaggiatori di far valere i propri diritti in modo legalmente sicuro nei confronti di compagnie aeree e tour operator.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Avviso importante: i nostri strumenti offrono aiuto all’auto-aiuto in caso di ritardi dei voli, difetti dell’hotel o cancellazioni dei treni. Non sostituiscono una consulenza legale individuale da parte di un avvocato.
+        </span>
+    </p>
+
+    <!-- Umlaut in URL entfernt! -->
+    <a href="ueber-uns.html" class="trust-link">
+        Scopri i dettagli sulla metodologia giuridica e sulla redazione →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Problemi con il volo, il treno o l’hotel?</strong><br>
+        Fix-My-Trip verifica in pochi passaggi il tuo diritto a un risarcimento, al rimborso del biglietto o alla riduzione del prezzo del viaggio. <br>
+        <em>Un servizio di Fix my Trip.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Hai trovato un errore nello strumento?</strong> Poiché siamo un portale automatizzato e non forniamo consulenza legale individuale, ci aiuti moltissimo se segnali bug o fornitori non aggiornati: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Invia feedback alla nostra sede centrale</a>.
+</p>
+</div>
+
+<section class="site-niche-directory">
+    <div class="niche-directory-container">
+        <h2 class="niche-directory-title">Scopri altri ambiti tematici</h2>
+        <p class="niche-directory-intro">
+            Che si tratti di ritardo del volo, difetto dell’hotel o trappola del roaming, i nostri esperti hanno preparato la guida e la lettera standard adatte a quasi ogni nicchia di viaggio.
+        </p>
+        
+        <div class="niche-directory-grid">
+            <div class="niche-directory-group">
+                <h3>Volo e aeroporto</h3>
+                <ul>
+                    <li><a href="flugverspaetung-info.html">Ritardo e cancellazione del volo</a></li>
+                    <li><a href="steuern-info.html">Richiedere il rimborso delle tasse aeroportuali</a></li>
+                    <li><a href="gepaeck-info.html">Smarrimento bagagli e danni alla valigia</a></li>
+                    <li><a href="flughafen-parken-info.html">Tariffe parcheggio aeroporto</a></li>
+                    <li><a href="ota-rueckerstattung-info.html">Portali di prenotazione voli (OTA)</a></li>
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Alloggio e viaggio organizzato</h3>
+                <ul>
+                    <li><a href="hotel-maengel-info.html">Difetti dell’hotel e rumore di cantiere</a></li>
+                    <li><a href="storno-info.html">Annullare il viaggio (costi)</a></li>
+                    <li><a href="ferienhaus-maengel-info.html">Case vacanza e appartamenti</a></li>
+                    <li><a href="airbnb-probleme-info.html">Soluzioni ai problemi Airbnb</a></li>
+                    <li><a href="kreuzfahrt-minderung.html">Difetti nelle crociere</a></li>
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Preparazione del viaggio e mobilità</h3>
+                <ul>
+                    <li><a href="zugverspaetung-info.html">Ritardo del treno e diritti ferroviari</a></li>
+                    <li><a href="einreise-info.html">Requisiti di ingresso e visto</a></li>
+                    <li><a href="esim-roaming-info.html">eSIM e costi di roaming</a></li>
+                    <li><a href="mietwagen-info.html">Assicurazioni auto a noleggio</a></li>
+                    <li><a href="zoll-info.html">Dogana e regole di importazione</a></li>
+                    <li><a href="reisekreditkarten-info.html">Confronto carte di credito da viaggio</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Chi siamo</a> | 
+        <a href="index.html">Home</a> | 
+        <a href="impressum.html">Note legali</a> | 
+        <a href="datenschutz.html">Privacy</a>
+    </nav>
+</footer>
+
+<script>
+// Live-Rechner Logik
+const preisInp = document.getElementById('fPreis');
+const checkboxes = document.querySelectorAll('#mangelCheckboxes input[type="checkbox"]');
+const liveAmountEl = document.getElementById('liveAmount');
+const livePercentEl = document.getElementById('livePercent');
+
+function updateCalc() {
+    let price = parseFloat(preisInp.value) || 0;
+    let totalPercent = 0;
+    
+    checkboxes.forEach(cb => {
+        if(cb.checked) totalPercent += parseInt(cb.value);
+    });
+    
+    if(totalPercent > 100) totalPercent = 100;
+    
+    let refund = (price * totalPercent) / 100;
+    
+    livePercentEl.textContent = totalPercent;
+    liveAmountEl.textContent = refund.toLocaleString('de-DE', {style: 'currency', currency: 'EUR'});
+}
+
+preisInp.addEventListener('input', updateCalc);
+checkboxes.forEach(cb => cb.addEventListener('change', updateCalc));
+
+// PDF Generierung
+document.getElementById('hotelForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+    
+    const portal = document.getElementById('aName').value;
+    const portalAddr = document.getElementById('aAdresse').value.replace(/\\n/g, '\n');
+    
+    const sName = document.getElementById('sName').value;
+    const sStrasse = document.getElementById('sStrasse').value;
+    const sPLZOrt = document.getElementById('sPLZOrt').value;
+    const bIBAN = document.getElementById('bIBAN').value;
+    
+    const fVeranstalter = document.getElementById('fVeranstalter').value;
+    const fBuchung = document.getElementById('fBuchung').value;
+    const fHotel = document.getElementById('fHotel').value;
+    const fZeitraum = document.getElementById('fZeitraum').value;
+    const fPreis = parseFloat(document.getElementById('fPreis').value) || 0;
+
+    let selectedMaengel = [];
+    let totalPercent = 0;
+    checkboxes.forEach(cb => {
+        if(cb.checked) {
+            selectedMaengel.push(`- ${cb.getAttribute('data-text')} (${cb.value}%)`);
+            totalPercent += parseInt(cb.value);
+        }
+    });
+
+    if(selectedMaengel.length === 0) {
+        alert("Seleziona almeno un difetto.");
+        return;
+    }
+
+    if(totalPercent > 100) totalPercent = 100;
+    let refundAmount = ((fPreis * totalPercent) / 100).toFixed(2).replace('.', ',');
+
+    let deadline = new Date();
+    deadline.setDate(deadline.getDate() + 14);
+    const deadlineStr = deadline.toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'});
+    const todayStr = new Date().toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'});
+
+    doc.setFont("helvetica");
+
+    // Absender klein
+    doc.setFontSize(8);
+    doc.setTextColor(100, 100, 100);
+    doc.text(`${sName} • ${sStrasse} • ${sPLZOrt}`, 25, 45);
+    doc.setLineWidth(0.2);
+    doc.setDrawColor(150, 150, 150);
+    doc.line(25, 46.5, 95, 46.5);
+
+    // Empfänger (Reiseportal)
+    doc.setFontSize(11);
+    doc.setTextColor(0, 0, 0);
+    const receiverLines = doc.splitTextToSize(portal + "\n" + portalAddr, 80);
+    doc.text(receiverLines, 25, 53);
+
+    // Absenderblock Rechts
+    doc.setFontSize(10);
+    doc.text("Mittente:", 130, 45);
+    doc.setFont("helvetica", "bold");
+    doc.text(sName, 130, 50);
+    doc.setFont("helvetica", "normal");
+    doc.text(sStrasse, 130, 55);
+    doc.text(sPLZOrt, 130, 60);
+
+    doc.text(`Data: ${todayStr}`, 185, 80, {align: 'right'});
+
+    // Betreff - Speziell für Vermittler angepasst
+    doc.setFontSize(11);
+    doc.setFont("helvetica", "bold");
+    let subjectLines = doc.splitTextToSize(`Segnalazione di difetti ai fini della riduzione del prezzo del viaggio – inoltro al tour operator (${fVeranstalter})`, 160);
+    doc.text(subjectLines, 25, 95);
+    
+    // Fakten
+    let yPosFacts = 95 + (subjectLines.length * 6) + 5;
+    doc.setFontSize(10.5);
+    doc.setFont("helvetica", "bold");
+    doc.text("Tour operator effettivo:", 25, yPosFacts);
+    doc.text("Numero di prenotazione:", 25, yPosFacts + 5);
+    doc.text("Destinazione / hotel:", 25, yPosFacts + 10);
+    doc.text("Periodo di viaggio:", 25, yPosFacts + 15);
+    doc.text("Prezzo totale del viaggio:", 25, yPosFacts + 20);
+
+    doc.setFont("helvetica", "normal");
+    doc.text(fVeranstalter, 75, yPosFacts);
+    doc.text(fBuchung, 75, yPosFacts + 5);
+    doc.text(fHotel, 75, yPosFacts + 10);
+    doc.text(fZeitraum, 75, yPosFacts + 15);
+    doc.text(`${fPreis.toFixed(2).replace('.', ',')} EUR`, 75, yPosFacts + 20);
+
+    doc.setDrawColor(0, 0, 0);
+    doc.line(25, yPosFacts + 25, 185, yPosFacts + 25); 
+
+  
+    const pageH = 297;
+const marginBottom = 20;
+const lineH = 6;
+
+function checkNewPage(doc, y, neededHeight = lineH) {
+    if (y + neededHeight > pageH - marginBottom) {
+        doc.addPage();
+        return 30;
+    }
+    return y;
+}
+
+function writeLines(doc, lines, startY, lh = lineH) {
+    let y = startY;
+    for (const line of lines) {
+        y = checkNewPage(doc, y);
+        doc.text(line, 25, y);
+        y += lh;
+    }
+    return y;
+}
+
+let yPos = yPosFacts + 35;
+doc.setFontSize(11);
+
+// Einleitungsabsätze
+const para1 = doc.splitTextToSize(
+    `Gentili Signore e Signori,\n\n` +
+    `ho prenotato il viaggio organizzato sopra indicato tramite il vostro portale. Il viaggio presentava difetti significativi. La segnalazione tempestiva dei difetti alla guida locale è stata effettuata, ma non è stato posto rimedio.\n\n` +
+    `Ai sensi delle regole generali del diritto dei viaggi, con la presente presento a voi, in qualità di intermediario di viaggio, la mia segnalazione dei difetti e la richiesta di riduzione del prezzo del viaggio. La legge vi obbliga a inoltrare senza indugio questa lettera al tour operator competente (${fVeranstalter}).\n\n` +
+    `I seguenti difetti erano presenti:`,
+    160
+);
+yPos = writeLines(doc, para1, yPos);
+yPos += 5;
+
+// Mängel-Liste
+doc.setFont("helvetica", "italic");
+selectedMaengel.forEach(mangel => {
+    const linesMangel = doc.splitTextToSize(mangel, 150);
+    linesMangel.forEach(line => {
+        yPos = checkNewPage(doc, yPos);
+        doc.text(line, 30, yPos);
+        yPos += lineH;
+    });
+});
+doc.setFont("helvetica", "normal");
+yPos += 5;
+
+// Minderungsberechnung
+const para2 = doc.splitTextToSize(
+    `Ai sensi delle regole generali del diritto dei viaggi, richiedo pertanto al tour operator una corrispondente riduzione del prezzo del viaggio. Applicando le linee guida consolidate del diritto dei viaggi, risulta una percentuale di riduzione del ${totalPercent} %.\n\n` +
+    `Ne deriva un diritto al rimborso pari a:`,
+    160
+);
+yPos = writeLines(doc, para2, yPos);
+yPos += 5;
+
+// Summe (fett, zentriert)
+yPos = checkNewPage(doc, yPos, 10);
+doc.setFont("helvetica", "bold");
+doc.text(`${refundAmount} EUR`, 105, yPos, { align: 'center' });
+doc.setFont("helvetica", "normal");
+yPos += 12;
+
+// Weiterleitungstext + Deadline
+const para3 = doc.splitTextToSize(
+    `Vi chiedo, in qualità di intermediario, di inoltrare immediatamente la richiesta al tour operator. Chiedo al tour operator di versare l’importo entro e non oltre la data indicata qui sotto sul seguente conto:`,
+    160
+);
+yPos = writeLines(doc, para3, yPos);
+yPos += 5;
+
+yPos = checkNewPage(doc, yPos, 10);
+doc.setFont("helvetica", "bold");
+doc.text(`>>> ${deadlineStr} (termine di pagamento al tour operator) <<<`, 105, yPos, { align: 'center' });
+doc.setFont("helvetica", "normal");
+yPos += 10;
+
+// IBAN-Block
+const para4 = doc.splitTextToSize(
+    `Intestatario del conto: ${sName}\nIBAN: ${bIBAN}`,
+    160
+);
+yPos = writeLines(doc, para4, yPos);
+yPos += 15;
+
+// Unterschrift – immer zusammenhalten
+yPos = checkNewPage(doc, yPos, 40);
+doc.text("Cordiali saluti,", 25, yPos);
+yPos += 25;
+
+doc.setLineWidth(0.5);
+doc.line(25, yPos, 80, yPos);
+doc.line(100, yPos, 185, yPos);
+
+doc.setFontSize(9);
+doc.setTextColor(100, 100, 100);
+doc.text("Luogo, data", 25, yPos + 5);
+doc.text(`Firma (${sName})`, 100, yPos + 5);
+
+const cleanPortal = portal.replace(/[^a-zA-Z0-9]/g, '_');
+doc.save(`Reisemaengel_Portal_${cleanPortal}_${fBuchung}.pdf`);
+setTimeout(() => document.getElementById('donateOverlay').classList.add('active'), 800);
+});
+
+/* ══════════════════════════════════════════
+   ▶▶ DEINE PAYPAL-E-MAIL HIER EINTRAGEN ◀◀
+   ══════════════════════════════════════════ */
+const PAYPAL_EMAIL = 'info@kassen-lotse.de';
+
+let donateAmount = 5;
+
+function selectPreset(amount, btn) {
+  donateAmount = amount;
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  document.getElementById('customAmount').value = '';
+  document.getElementById('customAmount').classList.remove('selected-custom');
+  updateDonateButton();
+}
+
+function handleCustomInput(input) {
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  const val = parseFloat(input.value);
+  if (val && val >= 1) {
+    donateAmount = val;
+    input.classList.add('selected-custom');
+  } else {
+    donateAmount = 0;
+    input.classList.remove('selected-custom');
+  }
+  updateDonateButton();
+}
+
+function updateDonateButton() {
+  const btn = document.getElementById('btnDonate');
+  if (donateAmount >= 1) {
+    btn.textContent = `Dona ora ${donateAmount % 1 === 0 ? donateAmount : donateAmount.toFixed(2)} €`;
+    btn.disabled = false;
+  } else {
+    btn.textContent = 'Inserisci importo';
+    btn.disabled = true;
+  }
+}
+
+function openPayPal() {
+  if (donateAmount < 1) return;
+  const amountStr = donateAmount.toFixed(2);
+  const url = `https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=${encodeURIComponent(PAYPAL_EMAIL)}&amount=${amountStr}&currency_code=EUR&item_name=Fix my Trip+Unterst%C3%BCtzung&no_note=1&no_shipping=1`;
+  window.open(url, '_blank');
+  closeOverlay();
+}
+
+function closeOverlay() {
+  document.getElementById('donateOverlay').classList.remove('active');
+}
+// Schließt das Overlay, wenn man auf den abgedunkelten Hintergrund klickt
+document.getElementById('donateOverlay').addEventListener('click', function(e) {
+  if (e.target === this) {
+    closeOverlay();
+  }
+});
+</script>
+
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Chiudi">&times;</button>
+    <div class="donate-emoji">🎉</div>
+    <h2>La tua lettera è pronta!</h2>
+    <p class="sub">Hai appena risparmiato <strong style="color:#2e7d32;">commissioni</strong> –<br>nessun intermediario, nessun costo, tutto resta a te.</p>
+    <div class="donate-hint">
+      Questo servizio è e rimane <strong>100 % gratuito</strong>. Se ti è stato utile, saremmo molto felici di ricevere un piccolo contributo volontario – così Fix my Trip potrà restare gratuito anche per gli altri viaggiatori.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Scelta rapida:</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Inserisci un importo personalizzato …" oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Dona ora 5 €</button>
+    <button class="btn-skip" onclick="closeOverlay()">No grazie, chiudo la finestra</button>
+    <p class="paypal-note">Volontario e sicuro tramite PayPal</p>
+    <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
+  
+  <!-- NEU: Affiliate Hinweis über dem Text -->
+  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
+    Annuncio / link pubblicitario
+  </span>
+
+  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
+    <strong style="color: #333;">P.S.: Parti di nuovo in aereo a breve?</strong> Proteggiti dal prossimo problema di viaggio. Le vere carte di credito travel costano stabilmente 0 € di canone annuo, eliminano la commissione per operazioni in valuta estera e spesso offrono una forte protezione acquisti. <br>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Confronta subito i migliori fornitori e proteggiti ✈️</a>
+  </p>
+</div>
+  </div>
+</div>
+</body>
+</html>

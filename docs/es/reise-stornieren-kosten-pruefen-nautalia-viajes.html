@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Nautalia Viajes S.L. cancelar viaje y comprobar costes de cancelación (PDF)</title>
+
+  <meta name="description" content="¿Ha cancelado un viaje con Nautalia Viajes S.L.? Compruebe si las tasas de cancelación exigidas son legales y genere la carta de desistimiento, incluida la reclamación de reembolso.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO & Internationalisierung -->
+  <link rel="canonical" href="https://www.fix-my-trip.com/es/reise-stornieren-kosten-pruefen-nautalia-viajes.html">
+
+<link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/reise-stornieren-kosten-pruefen-nautalia-viajes.html">
+<link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/reise-stornieren-kosten-pruefen-nautalia-viajes.html">
+<link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/reise-stornieren-kosten-pruefen-nautalia-viajes.html">
+<link rel="alternate" hreflang="it" href="https://www.fix-my-trip.com/it/reise-stornieren-kosten-pruefen-nautalia-viajes.html">
+<link rel="alternate" hreflang="nl" href="https://www.fix-my-trip.com/nl/reise-stornieren-kosten-pruefen-nautalia-viajes.html">
+<link rel="alternate" hreflang="fr-be" href="https://www.fix-my-trip.com/fr-be/reise-stornieren-kosten-pruefen-nautalia-viajes.html">
+<link rel="alternate" hreflang="nl-be" href="https://www.fix-my-trip.com/nl-be/reise-stornieren-kosten-pruefen-nautalia-viajes.html">
+<link rel="alternate" hreflang="pt" href="https://www.fix-my-trip.com/pt/reise-stornieren-kosten-pruefen-nautalia-viajes.html">
+
+<link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/reise-stornieren-kosten-pruefen-nautalia-viajes.html">
+  
+  <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="/logo-lotse-fav.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Generador de PDF: hacer valer los derechos frente a Nautalia Viajes S.L.",
+    "applicationCategory": "LegalApplication",
+    "operatingSystem": "All",
+    "description": "Herramienta gratuita para calcular compensaciones y crear una carta modelo jurídica para Nautalia Viajes S.L..",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "EUR"
+    }
+  }
+  </script>
+
+  <!-- Neues FAQ Schema für bessere Google Rankings (Rich Snippets) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Mi seguro de cancelación de viaje también cubre el miedo a viajar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Un seguro de cancelación de viaje solo cubre acontecimientos imprevistos y contractualmente definidos, como una enfermedad grave (con certificado médico), un accidente, el embarazo o la pérdida del empleo. El miedo puro, por ejemplo a una tormenta en el destino, no está cubierto."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuándo debe el organizador reembolsar el precio del viaje?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La normativa establece que el organizador del viaje, en caso de desistimiento justificado (por ejemplo, por circunstancias extraordinarias) o tras deducir las tasas de cancelación legales, debe reembolsar el dinero sin demora y, como máximo, dentro de los 14 días siguientes a la recepción de la declaración de desistimiento."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuál es la diferencia al cancelar viajes contratados por separado?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Si ha reservado el vuelo y el hotel por separado, no se aplica la normativa de viajes combinados. En los vuelos reservados, sin una tarifa flexible, a menudo solo se reembolsan impuestos y tasas. En los hoteles se aplican las condiciones de cancelación de cada alojamiento (a menudo gratis hasta poco antes de la llegada; en caso contrario, casi un 100% de cargo)."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+  
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+  <span style="font-size: 0.9em; color: #666;">Cancelación y desistimiento del viaje</span>
+</header>
+
+<div class="page-container">
+
+  <!-- Above the Fold: Klare Schmerzpunkte adressieren, Nutzen hervorheben -->
+  <h1>Nautalia Viajes S.L.: cancelar viaje y reclamar costes excesivos</h1>
+
+  <div class="back-to-hub-banner">
+  <a href="storno-info.html">
+    <span class="arrow">&larr;</span> Volver al resumen: cancelación y desistimiento
+  </a>
+</div>
+  
+  <div class="usp-bar">
+    <div class="usp-item">Comprobación en vivo de tasas abusivas</div>
+    <div class="usp-item">Basado en la normativa aplicable de viajes combinados</div>
+    <div class="usp-item">PDF jurídicamente seguro para el desistimiento</div>
+    <div class="usp-item">100% gratis</div>
+  </div>
+
+  <p>Una enfermedad inesperada, una emergencia familiar o noticias preocupantes desde el país de vacaciones: hay muchas razones por las que un viaje planificado no puede realizarse. El problema: quien cancela su viaje suele enfrentarse a facturas de cancelación extremadamente elevadas. Utilice nuestro generador para comprobar en pocos segundos si las reclamaciones son correctas y recupere su dinero con una carta de desistimiento formalmente correcta.</p>
+
+  <div class="info-box purple">
+    <strong>¡No pierda su dinero!</strong> Si tiene que cancelar un viaje, <strong>Nautalia Viajes S.L.</strong> suele exigir elevadas tasas fijas de cancelación. Sin embargo, muchas de estas cláusulas contractuales pueden impugnarse. Utilice nuestra calculadora para comprobar las tasas y genere un PDF que obligue jurídicamente al organizador a revelar sus gastos ahorrados o a reembolsarle el dinero al 100 % en casos extremos (por ejemplo, una alerta de viaje).
+  </div>
+
+  <div class="legal-info-box">
+    <strong>Aviso importante sobre el uso</strong><br>
+    Esta herramienta es un <strong>generador automatizado de cartas modelo</strong> (ayuda para la autoayuda). Solo inserta sus datos en plantillas jurídicas estándar. <strong>No se realiza una revisión individual</strong> de su caso. Este servicio gratuito no sustituye el asesoramiento jurídico de un abogado. El uso se realiza bajo su propia responsabilidad; no se garantiza ningún resultado.
+</div>
+
+  <div class="highlight-box pruefdatum-box" role="note" aria-label="Revisado editorialmente" style="margin-top: 15px; margin-bottom: 30px;">
+    <p><strong>Revisado editorialmente el:</strong> <span id="pruefdatum">05.05.2026</span></p>
+  </div>
+
+  <div class="lesson-learned-box" style="background: #f8f9fa; border-left: 4px solid #ffb300; padding: 15px 20px; margin: 30px 0; border-radius: 4px; display: flex; align-items: flex-start; gap: 15px; position: relative;">
+  
+  <!-- NEU: Diskreter Affiliate-Hinweis oben rechts -->
+  <span style="font-size: 0.7rem; color: #666; background: #eee; padding: 2px 6px; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.05em; position: absolute; top: 10px; right: 10px;">
+    Anuncio
+  </span>
+
+  <div style="font-size: 2em; line-height: 1;">💡</div>
+  <div>
+    <h4 style="margin: 0 0 5px 0; color: #333; font-size: 1.1em; padding-right: 60px;">Consejo para el próximo viaje</h4>
+    <p style="margin: 0 0 10px 0; font-size: 0.95em; color: #555;">
+      ¿Ha tenido que cancelar unas vacaciones caras y el organizador se queda con casi todo el dinero? Protéjase la próxima vez de este desastre financiero total. Muchas buenas tarjetas de crédito para viajes incluyen ya un potente seguro de cancelación e interrupción del viaje. Si paga el viaje con la tarjeta, el seguro asume en caso de enfermedad las enormes tasas de cancelación del organizador.
+    </p>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #891818; font-weight: bold; text-decoration: none; display: inline-flex; align-items: center; gap: 5px;">
+      Comparar las mejores tarjetas de crédito para viajes (gratuitas)
+    </a>
+  </div>
+</div>
+
+  <!-- Formular-Bereich (Struktur, IDs, Klassen & Inline-Styles exakt wie gefordert) -->
+  <form id="stornoForm">
+    <fieldset style="border-color: #ff9800; background: #fffdf7;">
+      <legend style="background: #ff9800; color: #333;">1. Destinatario de la cancelación</legend>
+      <label>Organizador / portal de reservas:</label>
+      <input type="text" id="aName" value="Nautalia Viajes S.L." required>
+      <label>Dirección:</label>
+      <textarea id="aAdresse" rows="3" required>Calle de Mahonia 2
+28043 Madrid
+España</textarea>
+    </fieldset>
+    <p style="font-size: 0.8em; color: #666; margin-top: 5px; line-height: 1.3;">
+  💡 <strong>Nota:</strong> Aquí se muestra por defecto la dirección central o regional del proveedor. Puede modificar esta dirección en cualquier momento e introducir la de la sucursal local de su país.
+</p>
+
+    <fieldset>
+      <legend>2. Los datos de la reserva</legend>
+      <label>Número de reserva / expediente:</label>
+      <input type="text" id="fBuchung" placeholder="p. ej. 987654321" required>
+      <label>Fecha original de salida:</label>
+      <input type="date" id="fDatum" required>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. El comprobador de costes de cancelación</legend>
+      <label>¿Por qué motivo cancela?</label>
+      <select id="fGrund" required>
+        <option value="Privat">Motivos privados (p. ej. enfermedad, falta de tiempo, pérdida del empleo)</option>
+        <option value="HoehereGewalt">Circunstancias extraordinarias en el destino (catástrofe natural, guerra, alerta de viaje del Ministerio de Asuntos Exteriores)</option>
+      </select>
+
+      <label>Precio total del viaje (según confirmación, en euros):</label>
+      <input type="number" step="0.01" id="fPreis" placeholder="p. ej. 3000" required>
+
+      <label>¿Cuánto cobra Nautalia Viajes S.L. por cancelación? (en euros):</label>
+      <input type="number" step="0.01" id="fGebuehr" placeholder="p. ej. 1500" required>
+
+      <div id="checkerResult" class="checker-box"></div>
+    </fieldset>
+
+    <fieldset>
+      <legend>4. Sus datos (para el reembolso)</legend>
+      <label>Su nombre y apellidos (titular principal):</label>
+      <input type="text" id="sName" placeholder="p. ej. Max Mustermann" required>
+      <label>Calle y número:</label>
+      <input type="text" id="sStrasse" placeholder="p. ej. Musterstraße 1" required>
+      <label>Código postal y ciudad:</label>
+      <input type="text" id="sPLZOrt" placeholder="p. ej. 12345 Berlin" required>
+      <label>IBAN para el reembolso:</label>
+      <input type="text" id="bIBAN" placeholder="DE..." required>
+    </fieldset>
+
+
+    <div class="submit-area">
+    <p class="submit-disclaimer">
+        Al hacer clic en "Generar PDF", entiende que este servicio automatizado<br>no constituye asesoramiento jurídico y que usted presenta la reclamación bajo su propia responsabilidad.
+    </p>
+    <button type="submit" class="button-primary">📄 Generar PDF de cancelación y reclamación de reembolso</button>
+</div>
+  </form>
+
+  <!-- Umfassender SEO Content Bereich -->
+  <div class="seo-content">
+    <h2>Cancelar un viaje combinado: sus derechos legales</h2>
+    <p>Como consumidor, tiene el derecho fundamental de cancelar en cualquier momento un viaje combinado reservado antes del inicio del viaje (normativa aplicable de viajes combinados). La ley establece que, en este caso, el organizador del viaje pierde su derecho al precio del viaje propiamente dicho. A cambio, puede exigir una "compensación adecuada" (en lenguaje común: tasas de cancelación). La cuantía de esta compensación suele ser motivo de disputa jurídica entre los viajeros y las grandes empresas turísticas.</p>
+
+    <h3>Cancelar gratis por "circunstancias extraordinarias"</h3>
+    <p>El caso especial más importante en el derecho de viajes: si en el lugar de vacaciones o en sus inmediaciones se producen circunstancias inevitables y extraordinarias que afectan de forma significativa a la ejecución del viaje o al transporte hasta el destino, se aplica la excepción. Ejemplos clásicos son huracanes, incendios forestales de gran extensión, brotes epidémicos o actos de guerra. También una alerta oficial de viaje del Ministerio de Asuntos Exteriores es un indicio casi irrefutable. En estos casos no se le pueden cobrar <strong>ningunos costes de cancelación</strong>. Nautalia Viajes S.L. está legalmente obligado a reembolsarle el precio completo del viaje sin deducciones en un plazo de 14 días.</p>
+
+    <h3>Impugnar las tasas fijas de cancelación en las condiciones generales</h3>
+    <p>Si cancela por motivos puramente privados (por ejemplo, una enfermedad inesperada sin seguro de cancelación de viaje, pérdida del empleo o simplemente falta de tiempo), se aplican las condiciones generales de contratación (CGC) de Nautalia Viajes S.L..</p>
+    <p>Allí casi siempre figuran escalas fijas de cancelación que dependen de la proximidad a la fecha de salida. Un ejemplo típico:</p>
+    <ul>
+      <li>Hasta 30 días antes del inicio del viaje: 20 % del precio del viaje</li>
+      <li>Del día 29 al 15 antes del inicio del viaje: 50 % del precio del viaje</li>
+      <li>Desde el día 14 hasta la no presentación (no-show): 80 % a 95 % del precio del viaje</li>
+    </ul>
+    <p><strong>Su palanca jurídica decisiva:</strong> ¡Estas cantidades no están grabadas en piedra! El legislador le concede el derecho a rechazar esta fijación y a exigir al organizador un <em>cálculo concreto de la compensación</em>. El organizador del viaje debe demostrar detalladamente qué costes tuvo realmente por su cancelación y, sobre todo, qué se ahorró (por ejemplo, comida no consumida en el hotel) o si pudo alquilar su habitación a otra persona (ingreso alternativo). En la práctica, los organizadores a menudo no pueden acreditarlo con detalle, por lo que la tasa de cancelación real suele reducirse considerablemente después.</p>
+
+    <h2>Preguntas frecuentes (FAQ) sobre el desistimiento del viaje</h2>
+    
+    <details>
+      <summary>¿Cuándo debe el organizador reembolsar el precio del viaje?</summary>
+      <p>La normativa establece que el organizador del viaje, en caso de desistimiento justificado (por ejemplo, por circunstancias extraordinarias) o tras deducir las tasas de cancelación legales, debe reembolsar el dinero sin demora y, como máximo, dentro de los 14 días siguientes a la recepción de la declaración de desistimiento.</p>
+    </details>
+
+    <details>
+      <summary>¿Mi seguro de cancelación de viaje también cubre el miedo a viajar?</summary>
+      <p>No. Un seguro de cancelación de viaje solo cubre acontecimientos imprevistos y contractualmente definidos, como una enfermedad grave (aquí es imprescindible un certificado médico), un accidente grave, un embarazo inesperado o la pérdida repentina del empleo. El miedo puro, por ejemplo a una tormenta que se aproxima en el destino, nunca está cubierto.</p>
+    </details>
+
+    <details>
+      <summary>¿Cuál es la diferencia al cancelar viajes contratados por separado?</summary>
+      <p>Si ha reservado el vuelo y el hotel por separado (viaje individual), no se aplica la normativa de viajes combinados favorable al consumidor. En los vuelos regulares reservados, sin una costosa tarifa flexible, normalmente solo se reembolsan impuestos y tasas. En los hoteles se aplican las condiciones de cancelación individuales del alojamiento. Tenga en cuenta ya al reservar opciones como "cancelación gratuita hasta el día X".</p>
+    </details>
+  </div>
+
+  <div class="airline-hinweisbox">
+    <h3>Indicaciones importantes sobre reembolsos con Nautalia Viajes S.L.</h3>
+    <p><p>Nautalia Viajes S.L. es una gran agencia de viajes minorista y corporativa con una amplia red nacional e internacional. Funciona principalmente como <strong>intermediario</strong> para aerolíneas, cadenas hoteleras y touroperadores externos, pero también comercializa productos combinados propios. Ante <strong>reclamaciones por deficiencias del viaje</strong>, la responsabilidad es del organizador final, salvo en paquetes propios donde Nautalia responde directamente. Para tramitar <strong>cancelaciones voluntarias y reembolsos</strong>, se debe acudir a ellos como primer contacto. Sede social y fuero: Madrid, España.</p><!--opt--></p>
+</div>
+
+<div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
+  <h3>Otros temas interesantes:</h3>
+  <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="reise-stornieren-kosten-pruefen-destinia.html">Destinia SL (destinia.com)</a>
+<a href="reise-stornieren-kosten-pruefen-tourlane.html">Tourlane GmbH</a>
+<a href="reise-stornieren-kosten-pruefen-urlaubspiraten.html">HolidayPirates GmbH</a>
+<a href="reise-stornieren-kosten-pruefen-sonnenklar-tv.html">Euvia Travel GmbH (sonnenklar.TV)</a>
+<a href="reise-stornieren-kosten-pruefen-urlaubsguru.html">UNIQ GmbH (Urlaubsguru)</a>
+
+  </div>
+</div>
+<!-- Quellen-Box: Reise stornieren & Stornokosten prüfen -->
+<aside class="legal-sources-box" aria-labelledby="sources-title-cancellation">
+    <h3 id="sources-title-cancellation" class="sources-heading">Fundamentos jurídicos oficiales</h3>
+    <p class="sources-intro">
+        La comprobación de las tasas de cancelación y el derecho a desistir de un viaje combinado se basan en la normativa alemana aplicable a los contratos de viaje:
+    </p>
+    <ul class="sources-list">
+        <li>
+            <strong>Código civil alemán (BGB) – desistimiento antes del inicio del viaje</strong>: 
+            Esta disposición regula que puede desistir en cualquier momento de un viaje combinado antes de que comience. El organizador del viaje pierde así su derecho al precio del viaje, pero puede exigir una "compensación adecuada" (tasas de cancelación). Importante: en caso de circunstancias inevitables y extraordinarias en el lugar de vacaciones (por ejemplo, catástrofes naturales), esta tasa desaparece por completo.
+            <br>
+            <a href="https://www.gesetze-im-internet.de/bgb/__651h.html" target="_blank" rel="noopener noreferrer" class="source-link">
+                Texto oficial en Gesetze-im-Internet.de (BMJ)
+            </a>
+        </li>
+        <li>
+            <strong>Código civil alemán (BGB) – prohibición de cláusulas abusivas y control de condiciones generales</strong>: 
+            Los organizadores de viajes suelen trabajar con escalas fijas de cancelación en sus condiciones generales. Sin embargo, según la ley, estas cantidades deben ser razonables. Además, debe permitírsele contractualmente demostrar expresamente que al organizador no le ha causado ningún daño o uno considerablemente menor (por ejemplo, porque la habitación se volvió a alquilar de inmediato).
+            <br>
+            <a href="https://www.gesetze-im-internet.de/bgb/__309.html" target="_blank" rel="noopener noreferrer" class="source-link">
+                Texto oficial en Gesetze-im-Internet.de (BMJ)
+            </a>
+        </li>
+    </ul>
+</aside>
+</div>
+
+<div class="trust-section">
+    <h3>Experiencia en derecho de viajes y derechos de los pasajeros</h3>
+    <p class="trust-text">
+        Nuestras guías y generadores se basan en el análisis estricto de la normativa europea vigente (como el Reglamento CE 261/2004), las sentencias del Tribunal Federal de Justicia y la normativa nacional de viajes. 
+        Están desarrollados por Marc (dirección del proyecto) y el equipo para permitir a los viajeros hacer valer sus derechos frente a aerolíneas y organizadores de viajes de forma jurídicamente segura.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Aviso importante: nuestras herramientas ofrecen ayuda para la autoayuda en retrasos de vuelos, defectos en hoteles o cancelaciones de trenes. No sustituyen el asesoramiento jurídico individual de un abogado.
+        </span>
+    </p>
+
+    <!-- Umlaut in URL entfernt! -->
+    <a href="ueber-uns.html" class="trust-link">
+        Conozca los detalles sobre la metodología jurídica y la redacción →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>¿Problemas con el vuelo, el tren o el hotel?</strong><br>
+        Fix-My-Trip comprueba en pocos pasos su derecho a compensación, reembolso del billete o reducción del precio del viaje. <br>
+        <em>Un servicio de Fix my Trip.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>¿Ha detectado un error en la herramienta?</strong> Como somos un portal automatizado y no prestamos asesoramiento jurídico individual, nos ayuda enormemente que nos informe de fallos o proveedores desactualizados: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Enviar comentarios a nuestra central</a>.
+</p>
+</div>
+
+<section class="site-niche-directory">
+    <div class="niche-directory-container">
+        <h2 class="niche-directory-title">Descubra más áreas temáticas</h2>
+        <p class="niche-directory-intro">
+            Ya sea un retraso de vuelo, un defecto en el hotel o una trampa de roaming, nuestros expertos han preparado para casi cada nicho de viaje la guía y la carta modelo adecuadas.
+        </p>
+        
+        <div class="niche-directory-grid">
+            <div class="niche-directory-group">
+                <h3>Vuelo y aeropuerto</h3>
+                <ul>
+                    <li><a href="flugverspaetung-info.html">Retraso y cancelación de vuelo</a></li>
+                    <li><a href="steuern-info.html">Reclamar impuestos de vuelo</a></li>
+                    <li><a href="gepaeck-info.html">Pérdida de equipaje y daños en la maleta</a></li>
+                    <li><a href="flughafen-parken-info.html">Tarifas de aparcamiento en el aeropuerto</a></li>
+                    <li><a href="ota-rueckerstattung-info.html">Portales de reserva de vuelos (OTA)</a></li>
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Alojamiento y viaje combinado</h3>
+                <ul>
+                    <li><a href="hotel-maengel-info.html">Defectos del hotel y ruido de obras</a></li>
+                    <li><a href="storno-info.html">Cancelar viaje (costes)</a></li>
+                    <li><a href="ferienhaus-maengel-info.html">Casas de vacaciones y apartamentos</a></li>
+                    <li><a href="airbnb-probleme-info.html">Soluciones para problemas con Airbnb</a></li>
+                    <li><a href="kreuzfahrt-minderung.html">Defectos en cruceros</a></li>
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Preparación del viaje y movilidad</h3>
+                <ul>
+                    <li><a href="zugverspaetung-info.html">Retraso de tren y derechos ferroviarios</a></li>
+                    <li><a href="einreise-info.html">Requisitos de entrada y visado</a></li>
+                    <li><a href="esim-roaming-info.html">Costes de eSIM y roaming</a></li>
+                    <li><a href="mietwagen-info.html">Seguros de coche de alquiler</a></li>
+                    <li><a href="zoll-info.html">Aduanas y normas de importación</a></li>
+                    <li><a href="reisekreditkarten-info.html">Comparativa de tarjetas de crédito para viajes</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Sobre nosotros</a> | 
+        <a href="index.html">Inicio</a> | 
+        <a href="impressum.html">Aviso legal</a> | 
+        <a href="datenschutz.html">Protección de datos</a>
+    </nav>
+</footer>
+
+
+<script>
+// --- LIVE CHECKER LOGIK ---
+const grundSel = document.getElementById('fGrund');
+const preisInp = document.getElementById('fPreis');
+const gebuehrInp = document.getElementById('fGebuehr');
+const resultBox = document.getElementById('checkerResult');
+
+function updateChecker() {
+    const preis = parseFloat(preisInp.value);
+    const gebuehr = parseFloat(gebuehrInp.value);
+    const grund = grundSel.value;
+
+    if(!preis || !gebuehr) {
+        resultBox.className = "checker-box";
+        resultBox.innerHTML = "";
+        return;
+    }
+
+    const prozent = Math.round((gebuehr / preis) * 100);
+
+    if (grund === "HoehereGewalt") {
+        resultBox.className = "checker-box green";
+        resultBox.innerHTML = `<strong>¡Cancelación gratuita posible!</strong> En circunstancias extraordinarias (alerta de viaje, catástrofe natural), Nautalia Viajes S.L. no puede exigir <strong>0 € de tasa de cancelación</strong> según la normativa aplicable de viajes combinados. Tiene derecho al 100% del reembolso. Lo reclamamos por usted en el PDF.`;
+    } else {
+        if (prozent > 40) {
+            resultBox.className = "checker-box red";
+            resultBox.innerHTML = `<strong>⚠️ Atención: ¡una tasa de cancelación del ${prozent}% es muy alta!</strong><br>Las cantidades fijas superiores al 40-50% suelen ser jurídicamente impugnables, salvo que cancele solo 1 día antes de la salida. El PDF generado solicita al organizador que desglosa la tasa y calcule los gastos concretos ahorrados (normativa aplicable de viajes combinados). Esto suele ahorrar mucho dinero.`;
+        } else {
+            resultBox.className = "checker-box green";
+            resultBox.innerHTML = `<strong>Aviso:</strong> La tasa de cancelación exigida del ${prozent}% se sitúa dentro del rango jurídicamente habitual de la mayoría de las condiciones generales. No obstante, el PDF solicita por seguridad una liquidación concreta de los gastos ahorrados, en caso de que el organizador haya podido volver a alquilar la habitación.`;
+        }
+    }
+}
+
+grundSel.addEventListener('change', updateChecker);
+preisInp.addEventListener('input', updateChecker);
+gebuehrInp.addEventListener('input', updateChecker);
+
+
+// --- PDF GENERIERUNG ---
+document.getElementById('stornoForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+    
+    const empfaenger = document.getElementById('aName').value;
+    const adresse = document.getElementById('aAdresse').value.replace(/\\n/g, '\n');
+    
+    const fBuchung = document.getElementById('fBuchung').value;
+    const fDatum = document.getElementById('fDatum').value;
+    const fGrund = document.getElementById('fGrund').value;
+    
+    const sName = document.getElementById('sName').value;
+    const sStrasse = document.getElementById('sStrasse').value;
+    const sPLZOrt = document.getElementById('sPLZOrt').value;
+    const bIBAN = document.getElementById('bIBAN').value;
+
+    const todayStr = new Date().toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'});
+    let deadline = new Date();
+    deadline.setDate(deadline.getDate() + 14);
+    const deadlineStr = deadline.toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'});
+
+    doc.setFont("helvetica");
+
+    // --- SEITENUMBRUCH LOGIK ---
+    let yPos = 45;
+    const pageHeight = 297;
+    const bottomMargin = 20;
+
+    function checkPageBreak(requiredSpace) {
+        if (yPos + requiredSpace > pageHeight - bottomMargin) {
+            doc.addPage();
+            yPos = 25;
+        }
+    }
+
+    function writeText(text, align = 'left', isBold = false) {
+        if (isBold) doc.setFont("helvetica", "bold");
+        else doc.setFont("helvetica", "normal");
+        
+        const lines = doc.splitTextToSize(text, 160);
+        lines.forEach(line => {
+            checkPageBreak(6);
+            if (align === 'center') doc.text(line, 105, yPos, {align: 'center'});
+            else doc.text(line, 25, yPos);
+            yPos += 6;
+        });
+        doc.setFont("helvetica", "normal");
+    }
+    // ------------------------------------------
+
+    // Absender klein
+    doc.setFontSize(8);
+    doc.setTextColor(100, 100, 100);
+    doc.text(`${sName} • ${sStrasse} • ${sPLZOrt}`, 25, yPos);
+    doc.setLineWidth(0.2);
+    doc.setDrawColor(150, 150, 150);
+    yPos += 1.5;
+    doc.line(25, yPos, 95, yPos);
+
+    // Empfänger
+    yPos += 6.5;
+    doc.setFontSize(11);
+    doc.setTextColor(0, 0, 0);
+    const receiverLines = doc.splitTextToSize(empfaenger + "\n" + adresse, 80);
+    doc.text(receiverLines, 25, yPos);
+
+    // Absenderblock Rechts
+    doc.setFontSize(10);
+    doc.text("Remitente:", 130, 45);
+    doc.setFont("helvetica", "bold");
+    doc.text(sName, 130, 50);
+    doc.setFont("helvetica", "normal");
+    doc.text(sStrasse, 130, 55);
+    doc.text(sPLZOrt, 130, 60);
+
+    doc.text(`Fecha: ${todayStr}`, 185, 80, {align: 'right'});
+
+    yPos = 95; 
+
+    // Betreff
+    doc.setFontSize(12);
+    if(fGrund === "HoehereGewalt") {
+        writeText(`Desistimiento gratuito del contrato de viaje por circunstancias extraordinarias`, 'left', true);
+    } else {
+        writeText(`Desistimiento del contrato de viaje y oposición a las tasas fijas de cancelación`, 'left', true);
+    }
+    
+    yPos += 4;
+    doc.setFontSize(11);
+    writeText(`Número de reserva / expediente: ${fBuchung}`);
+    writeText(`Fecha de salida prevista: ${fDatum}`);
+    
+    yPos += 2;
+    doc.setDrawColor(0, 0, 0);
+    doc.line(25, yPos, 185, yPos); 
+    yPos += 10;
+
+    // Haupttext
+    doc.setFontSize(11);
+    writeText(`Estimados señores y señoras,\n`);
+    
+    if(fGrund === "HoehereGewalt") {
+        writeText(`por la presente declaro formalmente mi desistimiento del viaje combinado arriba mencionado.\n`);
+        writeText(`En el lugar de vacaciones o en sus inmediaciones se han producido circunstancias inevitables y extraordinarias (por ejemplo, una catástrofe natural, una alerta de viaje del Ministerio de Asuntos Exteriores o actos de guerra) que afectan de forma significativa a la ejecución del viaje o al transporte.\n`);
+        writeText(`De conformidad con la normativa aplicable de viajes combinados, en este caso desaparece su derecho a una compensación por desistimiento o tasa de cancelación. Le requiero por la presente para que cancele gratuitamente mi reserva y me reembolse íntegramente el precio del viaje ya abonado.\n`);
+    } else {
+        writeText(`por la presente declaro formalmente mi desistimiento del viaje combinado arriba mencionado.\n`);
+        writeText(`Si para esta cancelación exigiera compensaciones fijas basadas en sus condiciones generales, me opongo expresamente a su cuantía.\n`);
+        writeText(`De acuerdo con la jurisprudencia consolidada sobre la normativa aplicable de viajes combinados, le requiero por la presente para que no aplique la tasa de cancelación de forma global, sino que la calcule de manera concreta. Indíqueme qué gastos ha ahorrado concretamente y si fue posible o se produjo un uso alternativo de los servicios de viaje (por ejemplo, el nuevo alquiler de la habitación del hotel o de las plazas de avión). Hasta que se presente una liquidación concreta, ejerzo mi derecho de retención o reclamo las cantidades pagadas en exceso.\n`);
+    }
+
+    yPos += 4;
+    writeText(`Por favor, transfiera el saldo que me corresponde en un plazo de 14 días a la siguiente cuenta:`);
+    yPos += 4;
+
+    doc.setFont("helvetica", "bold");
+    writeText(`>>> Fin del plazo: ${deadlineStr} <<<`, 'center');
+    doc.setFont("helvetica", "normal");
+    yPos += 6;
+
+    writeText(`Titular de la cuenta: ${sName}\nIBAN: ${bIBAN}`);
+    yPos += 15;
+
+    checkPageBreak(30);
+
+    doc.text("Atentamente,", 25, yPos);
+    yPos += 20; 
+    
+    doc.setLineWidth(0.5);
+    doc.line(25, yPos, 80, yPos);
+    doc.line(100, yPos, 185, yPos);
+    
+    doc.setFontSize(9);
+    doc.setTextColor(100, 100, 100);
+    doc.text("Lugar, fecha", 25, yPos + 5);
+    doc.text(`Firma (${sName})`, 100, yPos + 5);
+
+    const cleanEmpf = empfaenger.replace(/[^a-zA-Z0-9]/g, '_');
+    doc.save(`Reiseruecktritt_${cleanEmpf}_${fBuchung}.pdf`);
+setTimeout(() => document.getElementById('donateOverlay').classList.add('active'), 800);
+});
+
+/* ══════════════════════════════════════════
+   ▶▶ DEINE PAYPAL-E-MAIL HIER EINTRAGEN ◀◀
+   ══════════════════════════════════════════ */
+const PAYPAL_EMAIL = 'info@kassen-lotse.de';
+
+let donateAmount = 5;
+
+function selectPreset(amount, btn) {
+  donateAmount = amount;
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  document.getElementById('customAmount').value = '';
+  document.getElementById('customAmount').classList.remove('selected-custom');
+  updateDonateButton();
+}
+
+function handleCustomInput(input) {
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  const val = parseFloat(input.value);
+  if (val && val >= 1) {
+    donateAmount = val;
+    input.classList.add('selected-custom');
+  } else {
+    donateAmount = 0;
+    input.classList.remove('selected-custom');
+  }
+  updateDonateButton();
+}
+
+function updateDonateButton() {
+  const btn = document.getElementById('btnDonate');
+  if (donateAmount >= 1) {
+    btn.textContent = `Donar ahora ${donateAmount % 1 === 0 ? donateAmount : donateAmount.toFixed(2)} €`;
+    btn.disabled = false;
+  } else {
+    btn.textContent = 'Introduzca un importe';
+    btn.disabled = true;
+  }
+}
+
+function openPayPal() {
+  if (donateAmount < 1) return;
+  const amountStr = donateAmount.toFixed(2);
+  const url = `https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=${encodeURIComponent(PAYPAL_EMAIL)}&amount=${amountStr}&currency_code=EUR&item_name=Fix my Trip+Unterst%C3%BCtzung&no_note=1&no_shipping=1`;
+  window.open(url, '_blank');
+  closeOverlay();
+}
+
+function closeOverlay() {
+  document.getElementById('donateOverlay').classList.remove('active');
+}
+// Schließt das Overlay, wenn man auf den abgedunkelten Hintergrund klickt
+document.getElementById('donateOverlay').addEventListener('click', function(e) {
+  if (e.target === this) {
+    closeOverlay();
+  }
+});
+</script>
+
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Cerrar">&times;</button>
+    <div class="donate-emoji">🎉</div>
+    <h2>¡Su carta está lista!</h2>
+    <p class="sub">Acaba de ahorrarse <strong style="color:#2e7d32;">comisión</strong> –<br>sin terceros, sin cargos, todo es suyo.</p>
+    <div class="donate-hint">
+      Este servicio es y seguirá siendo <strong>100 % gratis</strong>. Si le ha ayudado, nos alegrará mucho recibir una pequeña aportación voluntaria para que Fix my Trip siga siendo gratuito para otros viajeros.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Selección rápida:</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Introduzca un importe personalizado …" oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Donar ahora 5 €</button>
+    <button class="btn-skip" onclick="closeOverlay()">No, gracias, cerraré la ventana</button>
+    <p class="paypal-note">Voluntario y seguro a través de PayPal</p>
+    <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
+  
+  <!-- NEU: Affiliate Hinweis über dem Text -->
+  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
+    Anuncio / enlace publicitario
+  </span>
+
+  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
+    <strong style="color: #333;">P.D.: ¿Vuela pronto de nuevo?</strong> Protéjase del próximo problema de viaje. Las auténticas tarjetas de crédito para viajes cuestan permanentemente 0 € de cuota anual, eliminan la comisión por uso en el extranjero y a menudo ofrecen una sólida protección al comprador. <br>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Compare ahora los mejores proveedores y protéjase ✈️</a>
+  </p>
+</div>
+  </div>
+</div>
+</body>
+</html>
