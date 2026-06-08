@@ -1,0 +1,490 @@
+[
+  {
+    "slug": "usa",
+    "name": "USA",
+    "visum_status": "ESTA requerido",
+    "pass_monate": 6,
+    "visum_text": "Para la entrada turística en EE. UU., los ciudadanos alemanes necesitan obligatoriamente una autorización electrónica de viaje (ESTA). Esta debe solicitarse obligatoriamente en línea antes del vuelo. Un visado regular solo es necesario si va a permanecer más de 90 días o no cumple determinados criterios.",
+    "affiliate_hinweis": "💡 <strong>Clásico de roadtrip:</strong> EE. UU. se explora mejor con flexibilidad en su propio coche. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Asegure aquí con antelación su coche de alquiler económico.</a>"
+  },
+  {
+    "slug": "aegypten",
+    "name": "Egipto",
+    "visum_status": "Visado requerido (e-Visa o a la llegada)",
+    "pass_monate": 6,
+    "visum_text": "Los ciudadanos alemanes necesitan un visado para entrar en Egipto. Este puede solicitarse previamente en línea como e-Visa. Como alternativa, existe el 'Visa on Arrival' directamente en el aeropuerto (a menudo con largas colas).",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Descubra Egipto fuera de los resorts con flexibilidad y por su cuenta. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí coches de alquiler económicos.</a>"
+  },
+  {
+    "slug": "tuerkei",
+    "name": "Turquía",
+    "visum_status": "No se necesita visado (hasta 90 días)",
+    "pass_monate": 0,
+    "visum_text": "Para estancias turísticas de hasta 90 días (dentro de un período de 180 días), los ciudadanos alemanes no necesitan visado. La entrada es incluso posible con el documento de identidad.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Para excursiones por la costa o al interior, merece la pena un coche propio. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Asegure aquí a tiempo su coche de alquiler para Turquía.</a>"
+  },
+  {
+    "slug": "uk",
+    "name": "Gran Bretaña",
+    "visum_status": "ETA requerida",
+    "pass_monate": 0,
+    "visum_text": "Para estancias turísticas de hasta 6 meses, los alemanes no necesitan un visado clásico, pero la autorización electrónica de viaje (ETA) es obligatoria. Es imprescindible un pasaporte válido; el documento de identidad ya no es suficiente.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Ideal para las Highlands o Cornualles: ¡recuerde la conducción por la izquierda! <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí los precios de coches de alquiler para Gran Bretaña.</a>"
+  },
+  {
+    "slug": "thailand",
+    "name": "Tailandia",
+    "visum_status": "No se necesita visado (hasta 60 días)",
+    "pass_monate": 6,
+    "visum_text": "Para estancias turísticas de hasta 60 días, los ciudadanos alemanes pueden entrar sin visado. El pasaporte debe tener una validez mínima de 6 meses al entrar en el país. Es posible que se deba presentar un billete de salida o de regreso.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Para máxima flexibilidad fuera de las rutas turísticas típicas. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Encuentre aquí coches de alquiler fiables en Tailandia.</a>"
+  },
+  {
+    "slug": "australien",
+    "name": "Australia",
+    "visum_status": "Visado eVisitor requerido",
+    "pass_monate": 6,
+    "visum_text": "Los alemanes necesitan obligatoriamente un visado para entrar en Australia. Para turistas, el visado eVisitor (Subclass 651) es ideal, se solicita gratis en línea y permite estancias de hasta 3 meses.",
+    "affiliate_hinweis": "💡 <strong>Consejo de roadtrip:</strong> Australia se explora mejor con flexibilidad en su propio coche. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí los precios de coches de alquiler para Australia.</a>"
+  },
+  {
+    "slug": "kanada",
+    "name": "Canadá",
+    "visum_status": "eTA requerida",
+    "pass_monate": 6,
+    "visum_text": "Quien entre en Canadá por vía aérea no necesita visado, pero sí obligatoriamente una autorización electrónica de viaje (eTA). Si la entrada es por tierra (p. ej., desde EE. UU.), no se requiere eTA.",
+    "affiliate_hinweis": "⚠️ <strong>Consejo de coche de alquiler:</strong> Reserve su coche de alquiler para Canadá necesariamente aún en Alemania para contar con cobertura total del seguro. <a href='https://www.c24n.de/nsnjZZ8' style='color:#d32f2f;'>Compare aquí los precios de coches de alquiler.</a>"
+  },
+  {
+    "slug": "vae",
+    "name": "Emiratos Árabes Unidos (Dubái)",
+    "visum_status": "Visa on Arrival gratuita",
+    "pass_monate": 6,
+    "visum_text": "Los alemanes reciben al entrar en los EAU (p. ej., en Dubái o Abu Dabi) un 'Visa on Arrival' gratuito estampado en el pasaporte. Este autoriza una estancia de hasta 90 días dentro de un período de 180 días.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Los Emiratos cuentan con carreteras magníficamente desarrolladas. Un coche de alquiler suele ser aquí más práctico que los taxis constantes. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Encuentre aquí coches de alquiler para Dubái y más.</a>"
+  },
+  {
+    "slug": "malediven",
+    "name": "Maldivas",
+    "visum_status": "Visa on Arrival gratuita",
+    "pass_monate": 6,
+    "visum_text": "Para las Maldivas no es necesario un visado previo. Se concede gratuitamente a la llegada al aeropuerto un visado turístico de 30 días. Importante: antes del vuelo debe completarse en línea una declaración electrónica de entrada (IMUGA).",
+    "affiliate_hinweis": "💡 <strong>Coche de alquiler para el trayecto al aeropuerto:</strong> ¿Todavía necesita un coche para ir cómodamente al aeropuerto en Alemania? <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí coches de alquiler económicos.</a>"
+  },
+  {
+    "slug": "indonesien",
+    "name": "Indonesia",
+    "visum_status": "Visa on Arrival / e-VoA requerido",
+    "pass_monate": 6,
+    "visum_text": "Tanto si planea un viaje por varias regiones como si busca específicamente un visado para Bali: para Indonesia se requiere un visado (Visa on Arrival). Puede comprarlo a la llegada o, para evitar esperas, solicitarlo previamente en línea como e-VoA (válido 30 días).",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Bali y otras islas se pueden explorar magníficamente con su propio vehículo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí precios para Indonesia.</a>"
+  },
+  {
+    "slug": "vietnam",
+    "name": "Vietnam",
+    "visum_status": "No se necesita visado (hasta 45 días)",
+    "pass_monate": 6,
+    "visum_text": "Los ciudadanos alemanes pueden entrar en Vietnam sin visado durante un máximo de 45 días. Quien desee quedarse más tiempo (hasta 90 días) debe solicitar previamente un e-Visa.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Descubra Vietnam de forma totalmente individual y a su propio ritmo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Asegure aquí su vehículo.</a>"
+  },
+  {
+    "slug": "sri-lanka",
+    "name": "Sri Lanka",
+    "visum_status": "e-Visa / ETA requerida",
+    "pass_monate": 6,
+    "visum_text": "Para Sri Lanka existe obligación de visado. El e-Visa (ETA) debe solicitarse obligatoriamente en línea antes del viaje. Autoriza una estancia de hasta 30 días.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Viva las plantaciones de té y las playas de Sri Lanka con flexibilidad en su propio coche. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Encuentre aquí el coche de alquiler adecuado.</a>"
+  },
+  {
+    "slug": "suedafrika",
+    "name": "Sudáfrica",
+    "visum_status": "No se necesita visado (hasta 90 días)",
+    "pass_monate": 1,
+    "visum_text": "Los alemanes no necesitan visado para estancias turísticas de hasta 90 días. A la entrada se recibe un permiso de visitante (Visitor's Visa) en la frontera. El pasaporte debe ser legible por máquina y tener al menos dos páginas en blanco.",
+    "affiliate_hinweis": "💡 <strong>Coche de alquiler para Sudáfrica:</strong> Para la Garden Route o los parques nacionales, un coche de alquiler propio es la mejor opción. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí coches de alquiler económicos con seguro a todo riesgo.</a>"
+  },
+  {
+    "slug": "japan",
+    "name": "Japón",
+    "visum_status": "No se necesita visado (hasta 90 días)",
+    "pass_monate": 0,
+    "visum_text": "Los alemanes pueden entrar en Japón como 'Temporary Visitor' durante un máximo de 90 días sin visado. El pasaporte solo debe ser válido durante toda la estancia. Un registro web previo (Visit Japan Web) agiliza la entrada.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Para explorar regiones rurales de Japón, un coche de alquiler es el complemento perfecto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí coches de alquiler en Japón.</a>"
+  },
+  {
+    "slug": "dominikanische-republik",
+    "name": "República Dominicana",
+    "visum_status": "E-Ticket requerido (sin visado)",
+    "pass_monate": 6,
+    "visum_text": "Para una estancia turística de hasta 30 días, los alemanes no necesitan visado. Sin embargo, es obligatorio completar en línea un formulario electrónico gratuito (E-Ticket) para la entrada y la salida.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Descubra playas de ensueño y el interior de la isla por su cuenta. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Reserve aquí su coche de alquiler para la Rep. Dom.</a>"
+  },
+  {
+    "slug": "mexiko",
+    "name": "México",
+    "visum_status": "No se necesita visado (hasta 180 días)",
+    "pass_monate": 6,
+    "visum_text": "La entrada para turistas alemanes es posible sin visado. A la llegada puede concederse una estancia de hasta 180 días. A veces se completa en el aeropuerto una tarjeta de turista (FMM), aunque hoy en día a menudo se hace digitalmente.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Ideal para ir a cenotes y ruinas mayas en Yucatán. Lo mejor es reservarlo ya desde Alemania. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Encuentre aquí coches de alquiler para México.</a>"
+  },
+  {
+    "slug": "kuba",
+    "name": "Cuba",
+    "visum_status": "Tarjeta de turista requerida",
+    "pass_monate": 6,
+    "visum_text": "Para Cuba necesita una tarjeta de turista (Tarjeta del Turista) en lugar de un visado clásico, válida por 90 días. Además, es obligatorio presentar un comprobante válido de seguro médico de viaje (en español o inglés).",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Un roadtrip por la isla hace que las vacaciones en Cuba sean realmente inolvidables. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compruebe aquí la disponibilidad de coches de alquiler.</a>"
+  },
+  {
+    "slug": "brasilien",
+    "name": "Brasil",
+    "visum_status": "No se necesita visado (hasta 90 días)",
+    "pass_monate": 6,
+    "visum_text": "Los turistas alemanes pueden entrar en Brasil sin visado durante un máximo de 90 días por semestre. Al entrar, debe poder presentarse un billete de regreso o de continuación del viaje, así como un comprobante de medios económicos suficientes.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Brasil es enorme: un coche de alquiler propio aporta la flexibilidad necesaria en destino. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Asegure aquí su coche con antelación.</a>"
+  },
+  {
+    "slug": "costa-rica",
+    "name": "Costa Rica",
+    "visum_status": "No se necesita visado (hasta 180 días)",
+    "pass_monate": 6,
+    "visum_text": "No existe obligación de visado para alemanes. A la entrada pueden concederse hasta 180 días de estancia. Es obligatorio un billete de regreso o de continuación del viaje (autobús o avión).",
+    "affiliate_hinweis": "💡 <strong>Coche de alquiler en Costa Rica:</strong> Para los parques nacionales y los caminos sin asfaltar, a menudo se recomienda un vehículo 4x4. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí coches de alquiler para Costa Rica.</a>"
+  },
+  {
+    "slug": "neuseeland",
+    "name": "Nueva Zelanda",
+    "visum_status": "NZeTA requerida",
+    "pass_monate": 3,
+    "visum_text": "Los alemanes no necesitan visado para estancias de hasta 3 meses, pero sí obligatoriamente la autorización electrónica de viaje (NZeTA). Junto con la NZeTA se cobra automáticamente una tasa turística (IVL).",
+    "affiliate_hinweis": "💡 <strong>Paraíso del roadtrip:</strong> Explore Nueva Zelanda mejor en su propio vehículo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Reserve aquí un coche de alquiler en Nueva Zelanda.</a>"
+  },
+  {
+    "slug": "philippinen",
+    "name": "Filipinas",
+    "visum_status": "No se necesita visado (hasta 30 días)",
+    "pass_monate": 6,
+    "visum_text": "Para una estancia de hasta 30 días, los ciudadanos alemanes no necesitan visado. Es obligatorio un billete de regreso o de continuación del viaje válido, así como el registro electrónico (eTravel) antes del vuelo.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> En las islas más grandes merece la pena un coche de alquiler para excursiones independientes. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí ofertas económicas.</a>"
+  },
+  {
+    "slug": "malaysia",
+    "name": "Malasia",
+    "visum_status": "No se necesita visado (hasta 90 días)",
+    "pass_monate": 6,
+    "visum_text": "Entrada sin visado para alemanes durante un máximo de 90 días. Atención: desde 2024 es obligatorio completar la tarjeta digital de llegada (MDAC - Malaysia Digital Arrival Card) dentro de los 3 días previos a la llegada.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> La red de carreteras en Malasia está magníficamente desarrollada, perfecta para un roadtrip. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Reserve aquí un coche de alquiler.</a>"
+  },
+  {
+    "slug": "singapur",
+    "name": "Singapur",
+    "visum_status": "No se necesita visado (hasta 90 días)",
+    "pass_monate": 6,
+    "visum_text": "Para Singapur no necesita visado como turista. Sin embargo, debe completar obligatoriamente la 'SG Arrival Card' en línea hasta 3 días antes de la llegada, donde se solicitan datos de salud y del viaje.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Incluso en la metrópolis de Singapur y sus alrededores, un coche de alquiler puede ser muy práctico para excursiones. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí precios.</a>"
+  },
+  {
+    "slug": "suedkorea",
+    "name": "Corea del Sur",
+    "visum_status": "K-ETA requerida",
+    "pass_monate": 6,
+    "visum_text": "Entrada sin visado hasta 90 días. No obstante, la autorización electrónica de viaje (K-ETA) es obligatoria y debe estar aprobada en línea antes del vuelo. También evita tener que completar la tarjeta de llegada en el avión.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Especialmente para explorar la popular isla de Jeju, un coche de alquiler es imprescindible. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Encuentre aquí su vehículo para Corea del Sur.</a>"
+  },
+  {
+    "slug": "china",
+    "name": "China",
+    "visum_status": "Sin visado (hasta 15 días) / de lo contrario visado",
+    "pass_monate": 6,
+    "visum_text": "Gracias a una normativa especial, actualmente los alemanes pueden entrar sin visado para estancias turísticas de hasta 15 días. Para estancias de más de 15 días, debe solicitarse obligatoriamente con antelación un visado clásico en un Visa Application Service Center.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Muévase con flexibilidad por el Reino del Medio. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí los precios de coches de alquiler para China.</a>"
+  },
+  {
+    "slug": "indien",
+    "name": "India",
+    "visum_status": "e-Visa requerida",
+    "pass_monate": 6,
+    "visum_text": "La entrada solo es posible con un visado válido. Para turistas se recomienda el e-Visa, que se solicita previamente en línea. El pasaporte debe tener al menos dos páginas en blanco.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Para mayor comodidad e independencia en las carreteras de India, se recomienda un coche de alquiler. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compruebe aquí las ofertas.</a>"
+  },
+  {
+    "slug": "kenia",
+    "name": "Kenia",
+    "visum_status": "eTA requerida",
+    "pass_monate": 6,
+    "visum_text": "Kenia ha abolido el visado, pero ahora exige obligatoriamente a todos los viajeros (incluidos los niños) una autorización electrónica de viaje (eTA). Esta debe solicitarse en línea con suficiente antelación antes del vuelo.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Para un safari individual o para continuar el viaje, un coche de alquiler todoterreno es ideal. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí vehículos 4x4 de alquiler.</a>"
+  },
+  {
+    "slug": "tansania",
+    "name": "Tanzania (Zanzíbar)",
+    "visum_status": "Visado / e-Visa requerido",
+    "pass_monate": 6,
+    "visum_text": "Los alemanes necesitan un visado para Tanzania y la popular Zanzíbar. El e-Visa debe solicitarse en línea como máximo 10 días antes de la salida. Es posible obtener un 'Visa on Arrival', pero puede provocar largas esperas.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Descubra Zanzíbar o el continente con flexibilidad y por su cuenta. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Reserve aquí su coche de alquiler en Tanzania.</a>"
+  },
+  {
+    "slug": "seychellen",
+    "name": "Seychelles",
+    "visum_status": "Autorización de viaje requerida",
+    "pass_monate": 0,
+    "visum_text": "Para las Seychelles no existe obligación de visado. Sin embargo, antes del vuelo debe obtenerse obligatoriamente en línea una autorización de entrada de pago (Travel Authorization). El pasaporte debe ser válido al menos hasta la salida.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Explore Mahé o Praslin a su propio ritmo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Asegure aquí un coche para las Seychelles.</a>"
+  },
+  {
+    "slug": "mauritius",
+    "name": "Mauricio",
+    "visum_status": "No se necesita visado (hasta 90 días)",
+    "pass_monate": 0,
+    "visum_text": "No existe obligación de visado. Los ciudadanos alemanes pueden entrar hasta 90 días. El pasaporte debe ser válido más allá del final del viaje. Debe presentarse un billete de regreso o de continuación del viaje, así como una reserva de hotel.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Un coche de alquiler es la mejor opción para descubrir todas las playas escondidas de Mauricio. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí las ofertas.</a>"
+  },
+  {
+    "slug": "marokko",
+    "name": "Marruecos",
+    "visum_status": "No se necesita visado (hasta 90 días)",
+    "pass_monate": 0,
+    "visum_text": "Para fines turísticos, los alemanes pueden entrar en Marruecos hasta 90 días sin visado. El pasaporte debe ser válido durante toda la estancia (recomendación: 6 meses).",
+    "affiliate_hinweis": "💡 <strong>Consejo de roadtrip:</strong> Para recorridos impresionantes por el Atlas, un coche de alquiler propio es esencial. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Reserve aquí coches de alquiler económicos.</a>"
+  },
+  {
+    "slug": "tunesien",
+    "name": "Túnez",
+    "visum_status": "No se necesita visado (hasta 90 días)",
+    "pass_monate": 6,
+    "visum_text": "No existe obligación de visado para turistas alemanes en paquete y viajeros independientes durante un máximo de 90 días. La entrada con el documento de identidad solo es posible en el marco de un viaje organizado con vuelo y hotel incluidos; de lo contrario, se necesita el pasaporte.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Descubra las costas y los paisajes fascinantes de Túnez por su cuenta. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí los precios de coches de alquiler.</a>"
+  },
+  {
+    "slug": "oman",
+    "name": "Omán",
+    "visum_status": "Sin visado hasta 14 días / de lo contrario e-Visa",
+    "pass_monate": 6,
+    "visum_text": "Para estancias de hasta 14 días, los alemanes ya no necesitan visado. Quien desee quedarse más tiempo debe solicitar obligatoriamente un e-Visa en línea con antelación. Debe disponerse de una reserva de hotel y un billete de regreso.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Omán es un país clásico para roadtrips. A menudo se recomienda un coche de alquiler 4x4. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Asegure aquí su vehículo.</a>"
+  },
+  {
+    "slug": "katar",
+    "name": "Catar (Doha)",
+    "visum_status": "Visa on Arrival gratuita",
+    "pass_monate": 6,
+    "visum_text": "Los ciudadanos alemanes reciben a la entrada un 'Visa Waiver' gratuito (Visa on Arrival), válido para estancias de hasta 90 días dentro de un período de 180 días.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Doha y los espectaculares paisajes de los alrededores se pueden explorar magníficamente en coche. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Encuentre aquí coches de alquiler para Catar.</a>"
+  },
+  {
+    "slug": "saudi-arabien",
+    "name": "Arabia Saudí",
+    "visum_status": "e-Visa / Visa on Arrival",
+    "pass_monate": 6,
+    "visum_text": "Los turistas alemanes pueden solicitar previamente un e-Visa en línea o recibir un 'Visa on Arrival' a la llegada. El visado es válido durante un año y permite múltiples entradas (hasta un máximo de 90 días seguidos).",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Las enormes distancias en Arabia Saudí se recorren mejor con flexibilidad en un coche de alquiler. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare ahora los precios de coches de alquiler.</a>"
+  },
+  {
+    "slug": "jordanien",
+    "name": "Jordania",
+    "visum_status": "Visado requerido (a menudo mediante Jordan Pass)",
+    "pass_monate": 6,
+    "visum_text": "Obligación de visado. El visado a menudo puede expedirse a la llegada en el aeropuerto. Si va a permanecer más de 3 noches, se recomienda comprar el 'Jordan Pass' antes del viaje: exime de la tasa de visado e incluye la entrada a Petra.",
+    "affiliate_hinweis": "💡 <strong>Consejo de roadtrip:</strong> De Amán a Petra y al Mar Muerto: Jordania es perfecta para conducir por libre. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Reserve aquí su coche de alquiler.</a>"
+  },
+  {
+    "slug": "jamaika",
+    "name": "Jamaica",
+    "visum_status": "No se necesita visado (hasta 90 días)",
+    "pass_monate": 6,
+    "visum_text": "Para una estancia turística de hasta 90 días, los alemanes no necesitan visado. Sin embargo, es obligatorio completar gratuitamente antes del vuelo un formulario de entrada (Online Passenger Declaration).",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Descubra la maravillosa isla caribeña a su propio ritmo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Asegure aquí un coche de alquiler para Jamaica.</a>"
+  },
+  {
+    "slug": "peru",
+    "name": "Perú",
+    "visum_status": "No se necesita visado (hasta 90 días)",
+    "pass_monate": 6,
+    "visum_text": "Perú no exige visado. Los turistas alemanes suelen recibir a la entrada un permiso de estancia de 90 días (por semestre). Debe presentarse un billete de regreso o de continuación del viaje.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Viva los Andes y las carreteras costeras con total flexibilidad en un coche de alquiler. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Encuentre aquí vehículos adecuados.</a>"
+  },
+  {
+    "slug": "kolumbien",
+    "name": "Colombia",
+    "visum_status": "No se necesita visado (hasta 90 días)",
+    "pass_monate": 6,
+    "visum_text": "Entrada sin visado para alemanes durante un máximo de 90 días. Es obligatorio completar el formulario de entrada en línea 'Check-MIG' dentro de las 72 horas previas al vuelo.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> ¿Planea una ruta por la conocida zona cafetera? Un coche de alquiler ofrece máxima libertad. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí las ofertas.</a>"
+  },
+  {
+    "slug": "argentinien",
+    "name": "Argentina",
+    "visum_status": "No se necesita visado (hasta 90 días)",
+    "pass_monate": 0,
+    "visum_text": "No existe obligación de visado para ciudadanos alemanes durante un máximo de 90 días. El pasaporte debe ser válido durante toda la estancia prevista. A menudo se solicita al entrar un comprobante de viaje de salida o de regreso.",
+    "affiliate_hinweis": "💡 <strong>Roadtrip por la Patagonia:</strong> Las distancias en Argentina son enormes. Un buen coche de alquiler es esencial. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Encuentre aquí coches de alquiler fiables para Sudamérica.</a>"
+  },
+  {
+    "slug": "chile",
+    "name": "Chile",
+    "visum_status": "No se necesita visado (hasta 90 días)",
+    "pass_monate": 6,
+    "visum_text": "Para estancias turísticas de hasta 90 días no se necesita visado. A la entrada recibirá una tarjeta de turista (Tarjeta de Turismo), que deberá conservar cuidadosamente hasta la salida.",
+    "affiliate_hinweis": "💡 <strong>Coche de alquiler en Sudamérica:</strong> Chile es perfecto para roadtrips espectaculares (p. ej., por la Carretera Austral). <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Encuentre aquí el coche de alquiler adecuado.</a>"
+  },
+  {
+    "slug": "ecuador",
+    "name": "Ecuador",
+    "visum_status": "No se necesita visado (hasta 90 días)",
+    "pass_monate": 6,
+    "visum_text": "Los alemanes pueden entrar en Ecuador sin visado durante un máximo de 90 días (incluidas las islas Galápagos). Debe poder presentarse un billete de regreso o de continuación del viaje al entrar.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> En el continente ecuatoriano merece la pena un coche de alquiler para excursiones por los Andes. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Reserve aquí un coche de alquiler.</a>"
+  },
+  {
+    "slug": "bolivien",
+    "name": "Bolivia",
+    "visum_status": "No se necesita visado (hasta 90 días)",
+    "pass_monate": 6,
+    "visum_text": "La entrada es sin visado durante un máximo de 90 días. A la llegada, los turistas suelen recibir primero un sello para 30 días, que puede ampliarse gratuitamente en el país ante la autoridad migratoria hasta 90 días.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Descubra los impresionantes paisajes de Bolivia con flexibilidad en su propio vehículo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí coches de alquiler económicos.</a>"
+  },
+  {
+    "slug": "panama",
+    "name": "Panamá",
+    "visum_status": "No se necesita visado (hasta 180 días)",
+    "pass_monate": 3,
+    "visum_text": "No existe obligación de visado para alemanes. A la llegada, a menudo se concede un permiso de estancia de hasta 180 días. El pasaporte debe tener al menos 3 meses de validez al entrar. Es obligatorio un billete de salida.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Con un coche de alquiler podrá desplazarse cómodamente y por su cuenta en Panamá desde la ciudad hasta las playas de ensueño. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compruebe aquí los precios de coches de alquiler.</a>"
+  },
+  {
+    "slug": "guatemala",
+    "name": "Guatemala",
+    "visum_status": "No se necesita visado (hasta 90 días)",
+    "pass_monate": 6,
+    "visum_text": "Entrada sin visado posible durante un máximo de 90 días (válido para toda la región C4). Quien entra por tierra, a veces es solicitado en la frontera a pagar una pequeña tasa de tramitación no oficial.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> El fascinante país de los mayas se puede recorrer maravillosamente de forma individual en su propio coche. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Reserve aquí su coche de alquiler con antelación.</a>"
+  },
+  {
+    "slug": "bahamas",
+    "name": "Bahamas",
+    "visum_status": "No se necesita visado (hasta 90 días)",
+    "pass_monate": 6,
+    "visum_text": "Los ciudadanos alemanes no necesitan visado para una estancia turística de hasta 90 días. Sin embargo, es obligatorio presentar un billete de regreso o de continuación del viaje al entrar.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Explore las islas más grandes de las Bahamas con total independencia en un coche de alquiler. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Asegure aquí el vehículo adecuado.</a>"
+  },
+  {
+    "slug": "barbados",
+    "name": "Barbados",
+    "visum_status": "No se necesita visado (hasta 90 días)",
+    "pass_monate": 6,
+    "visum_text": "Entrada sin visado durante un máximo de 90 días. Es obligatorio completar el formulario de entrada en línea gratuito (ED Card) dentro de las 72 horas previas a la llegada para agilizar la entrada.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Un coche de alquiler es perfecto para llegar también a playas y bahías escondidas en Barbados. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí las ofertas.</a>"
+  },
+  {
+    "slug": "namibia",
+    "name": "Namibia",
+    "visum_status": "No se necesita visado (hasta 90 días)",
+    "pass_monate": 6,
+    "visum_text": "Para estancias de hasta 90 días en el año natural, los turistas alemanes no necesitan visado. Sin embargo, el pasaporte debe seguir siendo válido al menos 6 meses después de la fecha de regreso.",
+    "affiliate_hinweis": "💡 <strong>Vehículos para safari:</strong> Para Namibia es imprescindible un coche de alquiler robusto (normalmente 4x4). <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Asegure aquí su vehículo con antelación.</a>"
+  },
+  {
+    "slug": "botswana",
+    "name": "Botsuana",
+    "visum_status": "No se necesita visado (hasta 90 días)",
+    "pass_monate": 6,
+    "visum_text": "Los alemanes reciben gratuitamente en los pasos fronterizos o aeropuertos un permiso de entrada (Visitor's Pass) por un máximo de 90 días en el año natural. Debe presentarse billete de regreso o de continuación del viaje.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Botsuana se puede explorar magníficamente por libre. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí coches de alquiler para Botsuana.</a>"
+  },
+  {
+    "slug": "uganda",
+    "name": "Uganda",
+    "visum_status": "e-Visa requerido",
+    "pass_monate": 6,
+    "visum_text": "Uganda tiene una estricta obligación de visado. El visado debe solicitarse obligatoriamente antes de la entrada como e-Visa en línea. Además, se exige el comprobante de vacunación contra la fiebre amarilla para entrar en el país.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Para visitas a parques nacionales y safaris por libre, un coche de alquiler 4x4 es ideal. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí vehículos 4x4.</a>"
+  },
+  {
+    "slug": "madagaskar",
+    "name": "Madagascar",
+    "visum_status": "e-Visa o Visa on Arrival",
+    "pass_monate": 6,
+    "visum_text": "Los alemanes necesitan un visado. Este puede obtenerse previamente como e-Visa o a la llegada al aeropuerto (Visa on Arrival). La duración de la estancia puede ser de 15, 30 o 60 días (tasas diferentes).",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Descubra la mundialmente famosa Avenida de los Baobabs y los parques nacionales con total flexibilidad. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Asegure aquí un coche de alquiler todoterreno.</a>"
+  },
+  {
+    "slug": "kap-verde",
+    "name": "Cabo Verde (Islas de Cabo Verde)",
+    "visum_status": "Registro EASE (sin visado)",
+    "pass_monate": 6,
+    "visum_text": "Para estancias de hasta 30 días, los alemanes no necesitan visado. Sin embargo, deben registrarse en línea a través de la plataforma oficial EASE a más tardar 5 días antes del inicio del viaje y pagar la tasa de seguridad aeroportuaria (TSA).",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> En islas más grandes como Sal o Santiago, un coche de alquiler ofrece gran independencia. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compruebe aquí coches de alquiler.</a>"
+  },
+  {
+    "slug": "georgien",
+    "name": "Georgia",
+    "visum_status": "No se necesita visado (hasta 1 año)",
+    "pass_monate": 0,
+    "visum_text": "Georgia tiene una de las normativas de entrada más generosas del mundo: los ciudadanos alemanes pueden permanecer en el país sin visado hasta un año completo con el pasaporte (o incluso con el documento de identidad).",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> ¡Las carreteras de montaña del Cáucaso llaman! <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Reserve aquí su coche de alquiler para recorridos inolvidables en Georgia.</a>"
+  },
+  {
+    "slug": "kambodscha",
+    "name": "Camboya",
+    "visum_status": "e-Visa o Visa on Arrival",
+    "pass_monate": 6,
+    "visum_text": "Existe obligación de visado. Los turistas pueden solicitar previamente el e-Visa electrónico (recomendado) o adquirir el Visa on Arrival en el aeropuerto/en los pasos fronterizos. Para ello se necesitan fotos de pasaporte y dólares estadounidenses en efectivo.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Benefíciese de más comodidad y flexibilidad fuera de las rutas principales. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí coches de alquiler en Camboya.</a>"
+  },
+  {
+    "slug": "laos",
+    "name": "Laos",
+    "visum_status": "e-Visa o Visa on Arrival",
+    "pass_monate": 6,
+    "visum_text": "La entrada solo es posible con visado. Puede solicitar el visado como e-Visa en línea o recibirlo como Visa on Arrival en el lugar. Para el visado a la llegada necesita fotos de pasaporte y dólares estadounidenses.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Descubra la belleza paisajística de Laos a su propio ritmo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compruebe aquí los precios de coches de alquiler.</a>"
+  },
+  {
+    "slug": "taiwan",
+    "name": "Taiwán",
+    "visum_status": "No se necesita visado (hasta 90 días)",
+    "pass_monate": 6,
+    "visum_text": "Los ciudadanos alemanes pueden entrar en Taiwán sin visado para estancias turísticas de hasta 90 días. Debe presentarse, si se solicita, un billete de regreso o de continuación del viaje confirmado.",
+    "affiliate_hinweis": "💡 <strong>Consejo de roadtrip:</strong> Un emocionante recorrido por toda la isla de Taiwán es un auténtico punto culminante de las vacaciones. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Encuentre aquí su coche de alquiler en Taiwán.</a>"
+  },
+  {
+    "slug": "nepal",
+    "name": "Nepal",
+    "visum_status": "Visa on Arrival (registro en línea)",
+    "pass_monate": 6,
+    "visum_text": "Los turistas necesitan un visado, que se concede de forma sencilla como Visa on Arrival en el aeropuerto de Katmandú. Para ahorrar tiempo, el formulario obligatorio de solicitud en línea debe completarse electrónicamente antes de la salida.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Si no solo va a hacer senderismo, un coche de alquiler propio ofrece gran flexibilidad para excursiones en el valle de Katmandú. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí los precios.</a>"
+  },
+  {
+    "slug": "usbekistan",
+    "name": "Uzbekistán",
+    "visum_status": "No se necesita visado (hasta 30 días)",
+    "pass_monate": 6,
+    "visum_text": "Para estancias turísticas de hasta 30 días, los ciudadanos alemanes ya no necesitan visado. Importante: dentro de los 3 días posteriores a la llegada hay que registrarse (normalmente lo hace el hotel).",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Siguiendo las fascinantes huellas de la Ruta de la Seda, un coche de alquiler le ofrece máxima flexibilidad. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Asegure aquí un coche de alquiler para Uzbekistán.</a>"
+  },
+  {
+    "slug": "fidschi",
+    "name": "Fiyi",
+    "visum_status": "No se necesita visado (hasta 4 meses)",
+    "pass_monate": 6,
+    "visum_text": "Los alemanes reciben a la llegada un permiso de visitante gratuito (Visitor Permit) estampado en el pasaporte por hasta 4 meses. Es obligatorio un billete de regreso o de continuación del viaje y el comprobante de fondos suficientes.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Explore la hermosa isla principal Viti Levu cómodamente con su propio coche. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Reserve aquí un coche de alquiler para Fiyi.</a>"
+  },
+  {
+    "slug": "armenien",
+    "name": "Armenia",
+    "visum_status": "No se necesita visado (hasta 180 días)",
+    "pass_monate": 5,
+    "visum_text": "Los alemanes pueden entrar en Armenia sin visado durante una estancia de hasta 180 días dentro de un año natural. El pasaporte debe tener al menos 5 meses de validez al entrar.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Descubra los impresionantes monasterios y paisajes montañosos de Armenia fácilmente en coche. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Asegure aquí su coche de alquiler.</a>"
+  },
+  {
+    "slug": "anderes-land-allgemein",
+    "name": "Otro país de viaje (disposiciones generales)",
+    "visum_status": "Por favor, compruebe las disposiciones individualmente",
+    "pass_monate": 6,
+    "visum_text": "Actualmente no disponemos de datos específicos para este destino. Por favor, compruebe los requisitos de entrada en la página del Ministerio de Asuntos Exteriores. Como regla general en todo el mundo: su pasaporte debería seguir siendo válido al menos 6 meses.",
+    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Vaya donde vaya el viaje, un coche de alquiler ofrece la máxima libertad en todo el mundo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí de forma sencilla ofertas de coches de alquiler en todo el mundo.</a>"
+  }
+]

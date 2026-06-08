@@ -2,489 +2,550 @@
   {
     "slug": "usa",
     "name": "USA",
-    "visum_status": "ESTA erforderlich",
+    "visum_status": "ESTA obrigatório para cidadãos portugueses",
     "pass_monate": 6,
-    "visum_text": "Für die touristische Einreise in die USA benötigen deutsche Staatsbürger zwingend eine elektronische Einreisegenehmigung (ESTA). Diese muss zwingend vor dem Abflug online beantragt werden. Ein reguläres Visum ist nur nötig, wenn Sie länger als 90 Tage bleiben oder bestimmte Kriterien nicht erfüllen.",
-    "affiliate_hinweis": "💡 <strong>Roadtrip-Klassiker:</strong> Die USA erkundet man am besten flexibel im eigenen Auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Sichern Sie sich hier vorab Ihren günstigen Mietwagen.</a>"
+    "visum_text": "Para a entrada turística nos Estados Unidos, os cidadãos portugueses precisam obrigatoriamente de uma autorização eletrónica de viagem ESTA. A autorização deve ser solicitada online antes do embarque e, em regra, permite estadias de até 90 dias no âmbito do Programa de Isenção de Visto. Um visto regular só é necessário se a viagem tiver outro propósito, se a permanência ultrapassar o limite permitido ou se não forem cumpridos os requisitos do ESTA. Em comparação com os cidadãos alemães, as regras para portugueses são essencialmente as mesmas: Portugal também faz parte do Visa Waiver Program, pelo que não há necessidade de visto para turismo, desde que o ESTA seja aprovado.",
+    "affiliate_hinweis": "<strong>Dica de viagem para os EUA:</strong> antes de partir, vale a pena comparar cartões de crédito pensados para viagens internacionais. Assim, pode <strong>poupar nas taxas de levantamento no estrangeiro</strong>, pagar <strong>sem custos em todo o mundo</strong> e beneficiar de condições mais vantajosas em dólares. Compare agora as melhores opções em <a href='https://www.tarifcheck.com/YKQ2R5K'>tarifcheck.com</a> e encontre o cartão ideal para a sua viagem aos EUA.",
+    "is_optimized": true
   },
   {
     "slug": "aegypten",
     "name": "Ägypten",
-    "visum_status": "Visum erforderlich (e-Visa oder On-Arrival)",
+    "visum_status": "Visto necessário (e-Visa ou à chegada)",
     "pass_monate": 6,
-    "visum_text": "Deutsche Staatsangehörige benötigen für die Einreise nach Ägypten ein Visum. Dieses kann als e-Visa vorab online beantragt werden. Alternativ gibt es das 'Visa on Arrival' direkt am Flughafen (oft mit langen Warteschlangen verbunden).",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Entdecken Sie Ägypten abseits der Resorts flexibel auf eigene Faust. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier günstige Mietwagen vergleichen.</a>"
+    "visum_text": "Os cidadãos portugueses precisam de visto para entrar no Egito como turistas. A forma mais prática é solicitar o e-Visa online antes da viagem. Em alternativa, também é possível obter um visto à chegada (Visa on Arrival) em muitos aeroportos egípcios, mas isso pode implicar filas de espera e maior tempo de processamento. Para uma entrada mais tranquila, recomenda-se verificar previamente os requisitos atuais, a validade do passaporte e as condições de permanência, já que as regras de entrada podem ser alteradas pelas autoridades egípcias.",
+    "affiliate_hinweis": "<strong>Dica de viagem:</strong> antes de partir para o Egito, vale a pena comparar cartões de crédito para poupar nas taxas no estrangeiro. Com o cartão certo, pode <strong>levantar dinheiro com menos custos</strong> e <strong>pagar em todo o mundo sem taxas adicionais</strong> — ideal para viagens a destinos como o Egito. Compare agora as melhores opções em <a href='https://www.tarifcheck.com/YKQ2R5K'>Tarifcheck</a> e encontre o cartão mais vantajoso para a sua viagem.",
+    "is_optimized": true
   },
   {
     "slug": "tuerkei",
     "name": "Türkei",
-    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "visum_status": "Sem visto necessário (até 90 dias)",
     "pass_monate": 0,
-    "visum_text": "Für touristische Aufenthalte von bis zu 90 Tagen (innerhalb eines Zeitraums von 180 Tagen) benötigen deutsche Staatsangehörige kein Visum. Die Einreise ist sogar mit dem Personalausweis möglich.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Für Ausflüge an der Küste oder ins Hinterland lohnt sich ein eigenes Auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Sichern Sie sich hier rechtzeitig Ihren Mietwagen für die Türkei.</a>"
+    "visum_text": "Para cidadãos portugueses, a entrada na Turquia para fins turísticos é, em regra, isenta de visto para estadias de até 90 dias dentro de um período de 180 dias. A entrada pode ser feita com passaporte válido, e, em muitos casos, também é aceite o Cartão de Cidadão para viagens turísticas de curta duração. Ainda assim, recomenda-se verificar sempre a validade dos documentos de viagem antes da partida e confirmar eventuais alterações nas regras de entrada junto das autoridades competentes.",
+    "affiliate_hinweis": "<strong>Dica para a sua viagem à Turquia:</strong> antes de partir, vale a pena comparar cartões de crédito para poupar nas despesas no estrangeiro. Um bom cartão pode ajudar a <strong>evitar taxas elevadas ao levantar dinheiro</strong> e a <strong>pagar no mundo inteiro sem custos adicionais</strong>. Compare agora as melhores opções para viagens e encontre o cartão ideal para a sua estadia na Turquia: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viagens</a>.",
+    "is_optimized": true
   },
   {
     "slug": "uk",
     "name": "Großbritannien",
-    "visum_status": "ETA erforderlich",
+    "visum_status": "Autorização eletrónica de viagem (ETA) obrigatória",
     "pass_monate": 0,
-    "visum_text": "Für touristische Aufenthalte bis zu 6 Monaten benötigen Deutsche kein klassisches Visum, jedoch ist die elektronische Einreisegenehmigung (ETA) verpflichtend. Ein gültiger Reisepass ist zwingend erforderlich; der Personalausweis reicht nicht mehr aus.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Ideal für die Highlands oder Cornwall – denken Sie an den Linksverkehr! <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Mietwagen-Preise für Großbritannien vergleichen.</a>"
+    "visum_text": "Para cidadãos portugueses que viajam para a Grã-Bretanha em turismo, não é necessário visto clássico para estadias de curta duração até 6 meses. No entanto, a autorização eletrónica de viagem (ETA) é obrigatória antes da partida. Além disso, é indispensável viajar com um passaporte português válido; o cartão de cidadão não é suficiente para a entrada. As regras para portugueses são, na prática, semelhantes às aplicadas a cidadãos alemães: não há visto de turismo, mas a ETA passou a ser exigida para a entrada no Reino Unido. Recomendamos verificar com antecedência a validade do passaporte e solicitar a ETA a tempo, para evitar problemas no embarque ou na fronteira.",
+    "affiliate_hinweis": "<strong>Dica de viagem para a Grã-Bretanha:</strong> antes de partir, vale a pena comparar cartões de crédito que ajudem a <strong>poupar nas taxas de levantamento no estrangeiro</strong> e a <strong>pagar sem custos em todo o mundo</strong>. Assim, pode viajar com mais flexibilidade e controlar melhor os gastos. Veja a comparação aqui: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viagens</a>.",
+    "is_optimized": true
   },
   {
     "slug": "thailand",
     "name": "Thailand",
-    "visum_status": "Kein Visum nötig (bis 60 Tage)",
+    "visum_status": "Sem visto necessário (até 60 dias)",
     "pass_monate": 6,
-    "visum_text": "Für touristische Aufenthalte bis zu 60 Tagen können deutsche Staatsbürger visumfrei einreisen. Der Reisepass muss bei Einreise noch mindestens 6 Monate gültig sein. Ein Weiter- oder Rückflugticket muss ggf. vorgelegt werden.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Für maximale Flexibilität abseits der typischen Touristenpfade. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Finden Sie hier verlässliche Mietwagen in Thailand.</a>"
+    "visum_text": "Para cidadãos portugueses que viajam para a Tailândia como turistas, a entrada é normalmente isenta de visto para estadias de até 60 dias. O passaporte deve ter validade mínima de 6 meses na data de entrada e, em alguns casos, pode ser solicitado um bilhete de regresso ou de continuação da viagem, bem como prova de meios financeiros suficientes. Em comparação com cidadãos alemães, as regras para portugueses são, em termos práticos, as mesmas: também beneficiam de entrada sem visto para turismo dentro do limite de permanência permitido. Como as normas de imigração podem ser ajustadas, recomenda-se confirmar os requisitos atuais antes da partida.",
+    "affiliate_hinweis": "<strong>Dica de viagem para a Tailândia:</strong> antes de embarcar, vale a pena comparar cartões de crédito que ajudam a <strong>poupar nas taxas de levantamento e pagamento no estrangeiro</strong>. Assim, pode usar o seu cartão em baht tailandeses com mais tranquilidade, evitar custos desnecessários e aproveitar condições como <strong>pagamentos gratuitos em todo o mundo</strong>. Compare agora as melhores opções em <a href='https://www.tarifcheck.com/YKQ2R5K'>Tarifcheck</a> e escolha o cartão ideal para a sua viagem.",
+    "is_optimized": true
   },
   {
     "slug": "australien",
     "name": "Australien",
-    "visum_status": "eVisitor Visum erforderlich",
+    "visum_status": "Visto eletrónico obrigatório",
     "pass_monate": 6,
-    "visum_text": "Deutsche benötigen für die Einreise nach Australien zwingend ein Visum. Für Touristen ist das eVisitor Visum (Subclass 651) ideal, das kostenlos online beantragt wird und Aufenthalte bis zu 3 Monaten erlaubt.",
-    "affiliate_hinweis": "💡 <strong>Roadtrip-Tipp:</strong> Australien erkundet man am besten flexibel im eigenen Auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Mietwagen-Preise für Australien vergleichen.</a>"
+    "visum_text": "Os cidadãos portugueses precisam de visto para viajar para a Austrália como turistas. Para estadias de curta duração, a opção adequada é o visto eletrónico eVisitor (subclasse 651), que pode ser solicitado online antes da viagem e normalmente permite estadias de até 3 meses por visita. Em comparação com cidadãos alemães, não há diferença relevante nas regras turísticas básicas: tanto portugueses como alemães precisam de autorização de entrada, e a forma mais prática é o eVisitor. Importante: a entrada sem visto não é possível, e o visto deve estar aprovado antes do embarque.",
+    "affiliate_hinweis": "<strong>Dica para a sua viagem à Austrália:</strong> antes de partir, vale a pena comparar cartões de crédito que permitam <strong>poupar em levantamentos no estrangeiro</strong> e <strong>pagar gratuitamente em todo o mundo</strong>. Assim, evita taxas desnecessárias em caixas automáticas e compras durante a sua estadia. Compare agora as melhores opções aqui: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viagens</a>.",
+    "is_optimized": true
   },
   {
     "slug": "kanada",
     "name": "Kanada",
-    "visum_status": "eTA erforderlich",
+    "visum_status": "Isenção de visto com eTA obrigatória",
     "pass_monate": 6,
-    "visum_text": "Wer auf dem Luftweg nach Kanada einreist, benötigt kein Visum, aber zwingend eine elektronische Einreisegenehmigung (eTA). Bei der Einreise über den Landweg (z.B. aus den USA) ist keine eTA erforderlich.",
-    "affiliate_hinweis": "⚠️ <strong>Mietwagen-Tipp:</strong> Buchen Sie Ihren Mietwagen für Kanada unbedingt noch in Deutschland, um volle Versicherungsabdeckung zu haben. <a href='https://www.c24n.de/nsnjZZ8' style='color:#d32f2f;'>Hier Mietwagen-Preise vergleichen.</a>"
+    "visum_text": "Para cidadãos portugueses que viajam para o Canadá como turistas, não é necessário visto para estadias curtas. No entanto, se a entrada for por via aérea, é obrigatória uma Autorização Eletrónica de Viagem (eTA) antes do embarque. A eTA está associada ao passaporte e costuma ser válida para múltiplas entradas durante o período de validade, permitindo estadias turísticas de curta duração. Se a entrada no Canadá for feita por terra ou por mar, por exemplo a partir dos Estados Unidos, normalmente não é necessária eTA. Em todos os casos, os viajantes devem cumprir os requisitos de entrada vigentes, incluindo passaporte válido, prova de meios financeiros e intenção de permanência temporária como turista.",
+    "affiliate_hinweis": "<strong>Dica para poupar na sua viagem ao Canadá:</strong> antes de partir, compare cartões de crédito que ofereçam <strong>levantamentos no estrangeiro com menos taxas</strong> e <strong>pagamentos gratuitos em todo o mundo</strong>. Assim, pode reduzir custos em compras, hotéis e saques em moeda local durante a sua estadia. Veja a comparação aqui: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viagens ao Canadá</a>.",
+    "is_optimized": true
   },
   {
     "slug": "vae",
     "name": "Vereinigte Arabische Emirate (Dubai)",
-    "visum_status": "Kostenloses Visa on Arrival",
+    "visum_status": "Entrada sem visto para turistas portugueses com carimbo de Visa on Arrival gratuito",
     "pass_monate": 6,
-    "visum_text": "Deutsche erhalten bei der Einreise in die VAE (z.B. nach Dubai oder Abu Dhabi) kostenlos ein 'Visa on Arrival' in den Pass gestempelt. Dieses berechtigt zu einem Aufenthalt von bis zu 90 Tagen innerhalb von 180 Tagen.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Die Emirate bieten hervorragend ausgebaute Straßen. Ein Mietwagen ist hier oft praktischer als ständige Taxifahrten. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Mietwagen für Dubai & Co. finden.</a>"
+    "visum_text": "Os cidadãos portugueses que viajam para os Emirados Árabes Unidos, incluindo Dubai, como turistas, normalmente recebem à chegada um <strong>Visa on Arrival gratuito</strong> no passaporte. Este visto de entrada permite uma estadia de até <strong>90 dias num período de 180 dias</strong>. Assim, para portugueses, as regras são muito favoráveis e, na prática, não é necessário solicitar visto antecipadamente para uma viagem turística de curta duração. Ainda assim, recomenda-se viajar com passaporte válido e verificar eventuais alterações nas regras de entrada antes da partida.",
+    "affiliate_hinweis": "<strong>Dica de viagem para Dubai:</strong> antes de partir para os Emirados Árabes Unidos, vale a pena comparar cartões de crédito que ajudem a <strong>poupar em levantamentos no estrangeiro</strong> e a <strong>pagar no mundo inteiro sem taxas desnecessárias</strong>. Um bom cartão pode fazer diferença nas despesas da viagem e tornar os pagamentos em Dubai muito mais práticos. Compare agora as opções em <a href='https://www.tarifcheck.com/YKQ2R5K'>este comparador de cartões de crédito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "malediven",
     "name": "Malediven",
-    "visum_status": "Kostenloses Visa on Arrival",
+    "visum_status": "Entrada sem visto para turismo, com visto à chegada gratuito por 30 dias",
     "pass_monate": 6,
-    "visum_text": "Für die Malediven ist vorab kein Visum notwendig. Ein 30-tägiges Touristenvisum wird bei der Ankunft am Flughafen kostenlos erteilt. Wichtig: Eine elektronische Einreiseerklärung (IMUGA) muss vor Abflug online ausgefüllt werden.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen für die Anreise:</strong> Brauchen Sie noch ein Auto für den bequemen Weg zum Flughafen in Deutschland? <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier günstige Mietwagen vergleichen.</a>"
+    "visum_text": "Para cidadãos portugueses, a entrada nas Maldivas para fins turísticos é simples: não é necessário solicitar visto antes da viagem. À chegada ao aeroporto, é normalmente concedido gratuitamente um visto de turista com validade de 30 dias. Além disso, todos os viajantes devem preencher antes do embarque a declaração eletrónica de entrada IMUGA. Recomendamos verificar se o passaporte tem validade suficiente e se existem comprovativos de alojamento e de saída do país, caso solicitados pelas autoridades de imigração.",
+    "affiliate_hinweis": "<strong>Dica de viagem para as Maldivas:</strong> antes de partir, vale a pena comparar cartões de crédito que permitam <strong>levantar dinheiro no estrangeiro com menos taxas</strong> e <strong>pagar em todo o mundo sem custos adicionais</strong>. Assim, evita encargos desnecessários durante a sua estadia nas Maldivas. Compare agora as melhores opções em <a href='https://www.tarifcheck.com/YKQ2R5K'>este comparador de cartões de crédito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "indonesien",
     "name": "Indonesien",
-    "visum_status": "Visa on Arrival / e-VoA erforderlich",
+    "visum_status": "Visto na chegada (Visa on Arrival) ou e-VoA obrigatório para turistas portugueses",
     "pass_monate": 6,
-    "visum_text": "Egal ob Sie eine Rundreise planen oder explizit ein Visum für Bali suchen: Für Indonesien ist ein Visum (Visa on Arrival) erforderlich. Dieses können Sie bei Ankunft kaufen oder zur Vermeidung von Wartezeiten als e-VoA online vorab beantragen (30 Tage gültig).",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Bali und weitere Inseln lassen sich hervorragend mit dem eigenen Fahrzeug erkunden. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Preise für Indonesien vergleichen.</a>"
+    "visum_text": "Para cidadãos portugueses que viajam para a Indonésia como turistas, é necessário um visto. A opção mais prática é o Visa on Arrival (VoA), que pode ser obtido à chegada ou solicitado antecipadamente como e-VoA online para evitar filas no aeroporto. O visto turístico costuma ter validade inicial de 30 dias e, em muitos casos, pode ser prorrogado uma vez por mais 30 dias, conforme as regras vigentes das autoridades indonésias. Importante: para estadias turísticas, os portugueses não têm isenção de visto para a Indonésia, ao contrário de alguns destinos asiáticos. Antes da viagem, verifique também se o passaporte tem validade mínima suficiente e se existem requisitos adicionais de entrada, como bilhete de regresso e comprovativos de alojamento.",
+    "affiliate_hinweis": "Dica de viagem para a Indonésia: antes de partir, vale a pena comparar cartões de crédito que ajudem a <strong>poupar nas taxas de levantamento no estrangeiro</strong> e a <strong>pagar sem custos em todo o mundo</strong>. Assim, fica mais fácil usar rúpias indonésias com menos encargos e aproveitar melhor o orçamento da viagem. Veja aqui uma comparação útil: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viagens</a>.",
+    "is_optimized": true
   },
   {
     "slug": "vietnam",
     "name": "Vietnam",
-    "visum_status": "Kein Visum nötig (bis 45 Tage)",
+    "visum_status": "Visto eletrónico obrigatório para estadias turísticas",
     "pass_monate": 6,
-    "visum_text": "Deutsche Staatsangehörige können für bis zu 45 Tage visumfrei nach Vietnam einreisen. Wer länger bleiben möchte (bis zu 90 Tage), muss vorab ein e-Visum beantragen.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Entdecken Sie Vietnam ganz individuell und im eigenen Rhythmus. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Sichern Sie sich hier Ihr Fahrzeug.</a>"
+    "visum_text": "Os cidadãos portugueses podem viajar para o Vietname como turistas, mas, ao contrário dos cidadãos alemães, não beneficiam atualmente de isenção de visto para estadias curtas. Para entrar no país, é necessário solicitar previamente um visto eletrónico (e-Visa) antes da viagem. O e-Visa para o Vietname é normalmente emitido para fins turísticos e permite uma estadia de até 90 dias, consoante a autorização concedida. Recomendamos verificar sempre os requisitos de entrada atualizados antes da partida, incluindo a validade do passaporte, eventuais formulários de chegada e as regras em vigor para turismo no Vietname.",
+    "affiliate_hinweis": "<strong>Dica de viagem para o Vietname:</strong> antes de partir, vale a pena comparar cartões de crédito que ajudem a <strong>poupar taxas no levantamento de dinheiro no estrangeiro</strong> e a <strong>pagar no mundo inteiro sem custos adicionais</strong>. Assim, evita encargos desnecessários durante a sua viagem e ganha mais flexibilidade no destino. Compare agora as melhores opções em <a href='https://www.tarifcheck.com/YKQ2R5K'>Tarifcheck</a>.",
+    "is_optimized": true
   },
   {
     "slug": "sri-lanka",
     "name": "Sri Lanka",
-    "visum_status": "e-Visa / ETA erforderlich",
+    "visum_status": "Visto eletrónico (ETA) obrigatório",
     "pass_monate": 6,
-    "visum_text": "Für Sri Lanka besteht Visumpflicht. Das e-Visum (ETA) sollte zwingend vor der Reise online beantragt werden. Es berechtigt zu einem Aufenthalt von bis zu 30 Tagen.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Erleben Sie die Teeplantagen und Strände Sri Lankas flexibel im eigenen Auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Finden Sie hier den passenden Mietwagen.</a>"
+    "visum_text": "Para cidadãos portugueses que viajam para o Sri Lanka como turistas, é obrigatório obter uma Autorização Eletrónica de Viagem (ETA) antes da partida. As regras aplicam-se de forma semelhante às de outros cidadãos da UE, incluindo os alemães: não existe isenção de visto para turismo. O ETA deve ser solicitado online com antecedência e, após aprovação, permite normalmente uma estadia de até 30 dias no país. Recomendamos verificar sempre os requisitos atualizados antes da viagem, pois as condições de entrada podem ser alteradas pelas autoridades do Sri Lanka.",
+    "affiliate_hinweis": "<strong>Dica de viagem para o Sri Lanka:</strong> antes de partir, vale a pena comparar cartões de crédito para poupar nas despesas da viagem. Um bom cartão pode ajudar a <strong>evitar taxas no levantamento de dinheiro no estrangeiro</strong> e a <strong>pagar gratuitamente em todo o mundo</strong> — ideal para hotéis, restaurantes e compras no Sri Lanka. Compare agora as melhores opções em <a href='https://www.tarifcheck.com/YKQ2R5K'>tarifcheck.com</a> e encontre o cartão mais vantajoso para a sua viagem.",
+    "is_optimized": true
   },
   {
     "slug": "suedafrika",
     "name": "Südafrika",
-    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "visum_status": "Sem visto necessário (até 90 dias)",
     "pass_monate": 1,
-    "visum_text": "Deutsche benötigen für touristische Aufenthalte von bis zu 90 Tagen kein Visum. Sie erhalten bei Einreise eine Besuchergenehmigung (Visitor's Visa) an der Grenze. Der Pass muss maschinenlesbar sein und mindestens zwei freie Seiten haben.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen für Südafrika:</strong> Für die Garden Route oder Nationalparks ist ein eigener Mietwagen die beste Wahl. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier günstige Mietwagen mit Vollkasko vergleichen.</a>"
+    "visum_text": "Cidadãos portugueses podem viajar para a África do Sul como turistas sem necessidade de visto prévio para estadias de até 90 dias. À chegada, é normalmente concedida uma autorização de visita (visitor’s permit) pela imigração. O passaporte deve ser válido por pelo menos 30 dias após a data prevista de saída do país e conter pelo menos duas páginas em branco para carimbos de entrada e saída. Para evitar problemas na fronteira, recomenda-se viajar com bilhete de regresso ou de continuação da viagem, comprovativo de alojamento e meios financeiros suficientes para a estadia. Em comparação com cidadãos alemães, as regras para portugueses são, em termos práticos, as mesmas: também beneficiam de isenção de visto para turismo até 90 dias.",
+    "affiliate_hinweis": "<strong>Dica de viagem para a África do Sul:</strong> antes de partir, vale a pena comparar cartões de crédito que ajudem a <strong>poupar nas taxas de levantamento no estrangeiro</strong> e a <strong>pagar no mundo inteiro sem custos adicionais</strong>. Assim, pode usar o seu dinheiro com mais flexibilidade em Joanesburgo, Cidade do Cabo ou em qualquer outra região do país. Veja uma comparação prática aqui: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viagens</a>.",
+    "is_optimized": true
   },
   {
     "slug": "japan",
     "name": "Japan",
-    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "visum_status": "Isenção de visto até 90 dias",
     "pass_monate": 0,
-    "visum_text": "Deutsche können als 'Temporary Visitor' für bis zu 90 Tage visumfrei nach Japan einreisen. Der Reisepass muss lediglich für die Dauer des Aufenthalts gültig sein. Eine vorherige Web-Registrierung (Visit Japan Web) beschleunigt die Einreise.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Für die Erkundung ländlicher Regionen in Japan ist ein Mietwagen eine perfekte Ergänzung. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Mietwagen in Japan vergleichen.</a>"
+    "visum_text": "Cidadãos portugueses podem entrar no Japão como turistas sem visto prévio, ao abrigo do estatuto de <strong>Temporary Visitor</strong>, por um período máximo de <strong>90 dias</strong>. Para esta entrada, o passaporte deve estar válido durante toda a estadia. Em regra, não há exigência de visto on arrival para turismo. A utilização do <strong>Visit Japan Web</strong> é recomendada para agilizar os procedimentos de imigração e alfândega, mas não substitui os requisitos de entrada. Em comparação com cidadãos alemães, as regras para portugueses são essencialmente as mesmas: também beneficiam de isenção de visto para estadias turísticas curtas no Japão.",
+    "affiliate_hinweis": "<strong>Dica de viagem para o Japão:</strong> antes de partir, vale a pena comparar cartões de crédito que ajudem a <strong>poupar em levantamentos no estrangeiro</strong> e a <strong>pagar sem taxas em todo o mundo</strong>. Um bom cartão pode fazer diferença em Tóquio, Quioto ou Osaka, especialmente em compras, transportes e saques em caixas automáticas. Compare agora as melhores opções em <a href='https://www.tarifcheck.com/YKQ2R5K'>Tarifcheck</a> e escolha o cartão mais vantajoso para a sua viagem ao Japão.",
+    "is_optimized": true
   },
   {
     "slug": "dominikanische-republik",
     "name": "Dominikanische Republik",
-    "visum_status": "E-Ticket erforderlich (Kein Visum)",
+    "visum_status": "Isenção de visto para turismo, com E-Ticket obrigatório",
     "pass_monate": 6,
-    "visum_text": "Für einen touristischen Aufenthalt bis zu 30 Tagen benötigen Deutsche kein Visum. Es muss jedoch zwingend ein kostenloses elektronisches Formular (E-Ticket) für Ein- und Ausreise online ausgefüllt werden.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Entdecken Sie traumhafte Strände und das Inselinnere auf eigene Faust. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Buchen Sie hier Ihren Mietwagen für die DomRep.</a>"
+    "visum_text": "Para cidadãos portugueses, a entrada na República Dominicana para fins turísticos é, em regra, isenta de visto para estadias curtas. Em comparação com cidadãos alemães, não há diferença relevante nas regras de turismo: portugueses também podem viajar sem visto prévio, desde que cumpram os requisitos de entrada. Contudo, é obrigatório preencher online o formulário eletrónico de entrada e saída (E-Ticket) antes da viagem. Além disso, recomenda-se verificar se o passaporte tem validade suficiente para toda a estadia e se podem ser exigidos comprovativos de viagem de regresso e meios financeiros para a permanência.",
+    "affiliate_hinweis": "<strong>Dica de viagem para a República Dominicana:</strong> antes de partir, vale a pena comparar cartões de crédito que ajudem a <strong>poupar nas taxas de levantamento no estrangeiro</strong> e a <strong>pagar sem custos adicionais em todo o mundo</strong>. Assim, pode viajar com mais flexibilidade e reduzir despesas desnecessárias. Veja a comparação aqui: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "mexiko",
     "name": "Mexiko",
-    "visum_status": "Kein Visum nötig (bis 180 Tage)",
+    "visum_status": "Sem visto necessário (até 180 dias)",
     "pass_monate": 6,
-    "visum_text": "Die Einreise für deutsche Touristen ist ohne Visum möglich. Bei der Ankunft kann ein Aufenthalt von bis zu 180 Tagen gewährt werden. Manchmal wird am Flughafen eine Touristenkarte (FMM) ausgefüllt, oft geschieht dies mittlerweile digital.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Ideal für die Fahrt zu Cenoten und Maya-Ruinen auf Yucatán. Am besten schon aus Deutschland buchen. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Mietwagen für Mexiko finden.</a>"
+    "visum_text": "Os cidadãos portugueses podem viajar para o México como turistas sem necessidade de visto prévio. À chegada, a estadia pode ser autorizada por até 180 dias, desde que a viagem tenha finalidade turística e o viajante cumpra os requisitos de entrada. Normalmente, não é exigido visto on arrival; em alguns casos, pode ser solicitado o preenchimento da FMM (Forma Migratória Múltiple), que hoje muitas vezes é emitida de forma digital. É importante apresentar passaporte válido, bilhete de regresso ou continuação da viagem e, se necessário, comprovativos de meios financeiros e alojamento. Para estadias turísticas, as regras para cidadãos portugueses são, em geral, equivalentes às aplicadas a cidadãos alemães, ou seja, não há diferença relevante quanto à obrigação de visto.",
+    "affiliate_hinweis": "<strong>Dica de viagem para o México:</strong> antes de partir, vale a pena comparar cartões de crédito para poupar nas taxas de levantamento no estrangeiro e pagar no mundo inteiro sem custos desnecessários. Um bom cartão pode fazer a diferença em viagens ao México, especialmente para saques em caixas automáticos e pagamentos em restaurantes, hotéis e lojas. Compare agora as melhores opções em <a href='https://www.tarifcheck.com/YKQ2R5K'>tarifcheck.com</a> e encontre um cartão ideal para viajar com mais segurança e menos taxas.",
+    "is_optimized": true
   },
   {
     "slug": "kuba",
     "name": "Kuba",
-    "visum_status": "Touristenkarte erforderlich",
+    "visum_status": "Para cidadãos portugueses, é necessária uma Tarjeta del Turista para entrar em Cuba como turista.",
     "pass_monate": 6,
-    "visum_text": "Für Kuba benötigen Sie eine Touristenkarte (Tarjeta del Turista) anstelle eines klassischen Visums, gültig für 90 Tage. Außerdem ist der Nachweis einer gültigen Auslandskrankenversicherung (auf Spanisch oder Englisch) zwingend vorgeschrieben.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Ein Roadtrip über die Insel macht den Kuba-Urlaub erst richtig unvergesslich. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Mietwagen-Verfügbarkeiten prüfen.</a>"
+    "visum_text": "Os cidadãos portugueses que viajam para Cuba em turismo precisam de uma Tarjeta del Turista (cartão de turista), e não de um visto clássico. A autorização é normalmente válida para uma estadia de até 90 dias. Além disso, é obrigatório apresentar um seguro de viagem/saúde válido para o período da estadia, com cobertura em Cuba e comprovativo em espanhol ou inglês, se solicitado. Recomenda-se também verificar antes da partida se a companhia aérea exige a Tarjeta del Turista no check-in e se existem requisitos adicionais de entrada, como formulário de saúde ou comprovativos de alojamento e bilhete de regresso. Em resumo: para portugueses não há isenção de visto para turismo em Cuba, mas sim a necessidade de obter a Tarjeta del Turista antes da viagem ou através do canal indicado pela transportadora/operador.",
+    "affiliate_hinweis": "<strong>Dica para a sua viagem a Cuba:</strong> antes de partir, compare cartões de crédito que ajudem a <strong>poupar nas taxas de levantamento no estrangeiro</strong> e a <strong>pagar em todo o mundo sem custos adicionais</strong>. Em destinos como Cuba, isso pode fazer uma grande diferença no orçamento da viagem. Veja aqui uma comparação prática e encontre a opção mais vantajosa: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viagens</a>.",
+    "is_optimized": true
   },
   {
     "slug": "brasilien",
     "name": "Brasilien",
-    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "visum_status": "Sem visto necessário (até 90 dias)",
     "pass_monate": 6,
-    "visum_text": "Deutsche Touristen können für maximal 90 Tage im Halbjahr visumfrei nach Brasilien einreisen. Bei der Einreise muss ein Rück- oder Weiterflugticket sowie ein Nachweis über ausreichende finanzielle Mittel vorgelegt werden können.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Brasilien ist riesig – ein eigener Mietwagen sorgt für die nötige Flexibilität vor Ort. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Sichern Sie sich hier frühzeitig Ihr Auto.</a>"
+    "visum_text": "Cidadãos portugueses podem entrar no Brasil como turistas sem necessidade de visto para estadias de até 90 dias. Em geral, a entrada é permitida com passaporte válido, podendo ser solicitados comprovativos de viagem de regresso ou continuação da viagem, além de meios financeiros suficientes para a estadia. Para viagens turísticas, as regras para portugueses são, na prática, semelhantes às aplicadas a cidadãos alemães, com isenção de visto para estadias curtas.",
+    "affiliate_hinweis": "<strong>Dica de viagem para o Brasil:</strong> antes de partir, vale a pena comparar cartões de crédito para poupar nas taxas no estrangeiro. Um bom cartão pode ajudar a <strong>levantar dinheiro com menos custos</strong> e a <strong>pagar em todo o mundo sem taxas adicionais</strong>. Compare agora as melhores opções para a sua viagem em <a href='https://www.tarifcheck.com/YKQ2R5K'>este comparador de cartões de crédito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "costa-rica",
     "name": "Costa Rica",
-    "visum_status": "Kein Visum nötig (bis 180 Tage)",
+    "visum_status": "Sem visto necessário (até 90 dias)",
     "pass_monate": 6,
-    "visum_text": "Keine Visumpflicht für Deutsche. Bei der Einreise können bis zu 180 Tage Aufenthalt gewährt werden. Zwingend erforderlich ist ein Ticket für den Rück- oder Weiterflug (Bus- oder Flugticket).",
-    "affiliate_hinweis": "💡 <strong>Mietwagen in Costa Rica:</strong> Für die Nationalparks und unbefestigte Wege empfiehlt sich oft ein 4x4-Fahrzeug. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Mietwagen für Costa Rica vergleichen.</a>"
+    "visum_text": "Os cidadãos portugueses podem viajar para a Costa Rica como turistas sem necessidade de visto prévio. À entrada no país, a estadia autorizada é normalmente de até 90 dias. É obrigatório apresentar um passaporte válido, bilhete de regresso ou de continuação da viagem e, se solicitado, comprovativo de meios financeiros suficientes para a estadia. As regras de entrada podem ser verificadas pelas autoridades fronteiriças e a duração efetivamente concedida fica sempre ao critério do controlo de imigração. Para estadias turísticas, não há, em regra, diferença relevante em relação aos cidadãos alemães: tanto portugueses como alemães beneficiam de isenção de visto para turismo na Costa Rica.",
+    "affiliate_hinweis": "<strong>Dica de viagem para a Costa Rica:</strong> antes de partir, vale a pena comparar cartões de crédito que ajudem a <strong>poupar nas taxas de levantamento no estrangeiro</strong> e a <strong>pagar gratuitamente em todo o mundo</strong>. Assim, pode reduzir custos em compras, hotéis e levantamentos em colones costa-riquenhos. Veja uma comparação prática aqui: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viagens</a>.",
+    "is_optimized": true
   },
   {
     "slug": "neuseeland",
     "name": "Neuseeland",
-    "visum_status": "NZeTA erforderlich",
+    "visum_status": "NZeTA obrigatória",
     "pass_monate": 3,
-    "visum_text": "Deutsche benötigen für Aufenthalte bis zu 3 Monaten kein Visum, aber zwingend die elektronische Einreisegenehmigung (NZeTA). Zusammen mit der NZeTA wird automatisch eine Touristenabgabe (IVL) erhoben.",
-    "affiliate_hinweis": "💡 <strong>Roadtrip-Paradies:</strong> Erkunden Sie Neuseeland am besten im eigenen Fahrzeug. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Mietwagen in Neuseeland buchen.</a>"
+    "visum_text": "Os cidadãos portugueses podem viajar para a Nova Zelândia como turistas sem visto para estadias de até 3 meses, desde que obtenham obrigatoriamente a autorização eletrónica de viagem NZeTA antes da partida. Além disso, é cobrada a taxa turística IVL (International Visitor Conservation and Tourism Levy) no momento do pedido. A NZeTA é exigida para entrada por via aérea e também pode ser necessária em trânsito, por isso é recomendável tratar do pedido com antecedência.",
+    "affiliate_hinweis": "Dica de viagem para a Nova Zelândia: antes de partir, vale a pena comparar cartões de crédito que ajudam a <strong>poupar em taxas no estrangeiro</strong>, <strong>levantar dinheiro com custos reduzidos</strong> e <strong>pagar em todo o mundo sem encargos desnecessários</strong>. Um bom cartão pode fazer diferença em viagens longas e em destinos como a Nova Zelândia. Veja a comparação aqui: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "philippinen",
     "name": "Philippinen",
-    "visum_status": "Kein Visum nötig (bis 30 Tage)",
+    "visum_status": "Sem visto necessário para estadias turísticas até 30 dias",
     "pass_monate": 6,
-    "visum_text": "Für einen Aufenthalt von bis zu 30 Tagen benötigen deutsche Staatsbürger kein Visum. Zwingend vorgeschrieben ist ein gültiges Rück- oder Weiterflugticket sowie die elektronische Registrierung (eTravel) vor Abflug.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Auf den größeren Inseln lohnt sich ein Mietwagen für unabhängige Ausflüge. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier günstige Angebote vergleichen.</a>"
+    "visum_text": "Cidadãos portugueses podem entrar nas Filipinas como turistas sem visto para estadias de até 30 dias. É obrigatório apresentar um passaporte válido por, pelo menos, seis meses na data de entrada, um bilhete de regresso ou de continuação da viagem e cumprir a registo eletrónico eTravel antes da partida. Para estadias superiores a 30 dias, é necessário solicitar uma prorrogação junto das autoridades filipinas competentes. Em comparação com cidadãos alemães, as regras para portugueses são essencialmente as mesmas: também beneficiam de isenção de visto para turismo até 30 dias.",
+    "affiliate_hinweis": "<strong>Dica de viagem para as Filipinas:</strong> antes de partir, vale a pena comparar cartões de crédito que ajudem a <strong>poupar nas taxas de levantamento no estrangeiro</strong> e a <strong>pagar em todo o mundo sem custos adicionais</strong>. Assim, pode aproveitar melhor a sua viagem e evitar encargos desnecessários. Compare agora as opções em <a href='https://www.tarifcheck.com/YKQ2R5K'>tarifcheck.com</a> e encontre o cartão ideal para a sua estadia nas Filipinas.",
+    "is_optimized": true
   },
   {
     "slug": "malaysia",
     "name": "Malaysia",
-    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "visum_status": "Entrada sem visto até 90 dias",
     "pass_monate": 6,
-    "visum_text": "Visumfreie Einreise für Deutsche für bis zu 90 Tage. Achtung: Seit 2024 ist das Ausfüllen der digitalen Ankunftskarte (MDAC - Malaysia Digital Arrival Card) innerhalb von 3 Tagen vor Ankunft verpflichtend.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Das Straßennetz in Malaysia ist hervorragend ausgebaut – perfekt für einen Roadtrip. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Mietwagen buchen.</a>"
+    "visum_text": "Os cidadãos portugueses podem entrar na Malásia para fins turísticos sem visto por até 90 dias. Em comparação com os cidadãos alemães, as regras são essencialmente as mesmas: não há obrigação de visto prévio para estadias de turismo de curta duração. No entanto, é obrigatório preencher a Malaysia Digital Arrival Card (MDAC) no prazo de 3 dias antes da chegada. O passaporte deve estar válido por pelo menos 6 meses na data de entrada e o viajante deve poder apresentar prova de viagem de regresso ou continuação da viagem, bem como meios financeiros suficientes para a estadia. As autoridades de imigração podem recusar a entrada em casos individuais.",
+    "affiliate_hinweis": "Dica de viagem para a Malásia: antes de partir, vale a pena comparar cartões de crédito que permitam <strong>levantar dinheiro no estrangeiro com taxas reduzidas</strong> e <strong>pagar em todo o mundo sem custos adicionais</strong>. Assim, poupa nas despesas do dia a dia, evita encargos desnecessários em caixas automáticas e viaja com mais flexibilidade. Compare agora as melhores opções aqui: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "singapur",
     "name": "Singapur",
-    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "visum_status": "Sem visto necessário (até 90 dias)",
     "pass_monate": 6,
-    "visum_text": "Für Singapur benötigen Sie als Tourist kein Visum. Sie müssen jedoch zwingend bis zu 3 Tage vor Ankunft die 'SG Arrival Card' online ausfüllen, in der Gesundheits- und Reiseinfos abgefragt werden.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Auch in und um die Metropole Singapur kann ein Mietwagen für Ausflüge äußerst praktisch sein. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Preise vergleichen.</a>"
+    "visum_text": "Para cidadãos portugueses que viajam para Singapura como turistas, não é necessário visto para estadias de até 90 dias. As regras de entrada para portugueses são, em termos gerais, as mesmas aplicadas a cidadãos alemães: entrada sem visto para turismo, desde que o passaporte tenha validade suficiente e o viajante cumpra os requisitos de imigração à chegada. No entanto, é obrigatório preencher online a SG Arrival Card até 3 dias antes da chegada, informando dados de viagem e de saúde. Além disso, as autoridades de Singapura podem solicitar comprovativo de viagem de regresso, alojamento e meios financeiros suficientes para a estadia.",
+    "affiliate_hinweis": "<strong>Dica de viagem para Singapura:</strong> antes de embarcar, vale a pena comparar cartões de crédito que ajudem a <strong>poupar em levantamentos no estrangeiro</strong> e a <strong>pagar sem taxas em todo o mundo</strong>. Assim, você reduz custos em compras, transportes e despesas do dia a dia em Singapura. Compare agora as opções e encontre o cartão ideal para a sua viagem: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "suedkorea",
     "name": "Südkorea",
-    "visum_status": "K-ETA erforderlich",
+    "visum_status": "Entrada sem visto por até 90 dias para turistas com passaporte português; K-ETA atualmente não é exigida.",
     "pass_monate": 6,
-    "visum_text": "Visumfreie Einreise bis 90 Tage. Allerdings ist die elektronische Reisegenehmigung (K-ETA) zwingend erforderlich und muss vor Abflug online genehmigt sein. Sie erspart auch das Ausfüllen der Ankunftskarte im Flugzeug.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Besonders für die Erkundung der beliebten Insel Jeju ist ein Mietwagen unverzichtbar. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Finden Sie hier Ihr Fahrzeug für Südkorea.</a>"
+    "visum_text": "Cidadãos portugueses podem viajar para a Coreia do Sul como turistas sem visto por até 90 dias. Ao contrário de alguns outros destinos, não há necessidade de visto de turista para estadias curtas. Além disso, para passaportes de Portugal, a K-ETA está atualmente dispensada para viagens turísticas de curta duração, o que simplifica bastante a entrada no país. Mesmo assim, é importante viajar com passaporte válido, comprovativo de saída do país e meios financeiros suficientes, pois as autoridades de imigração podem solicitar estes documentos na chegada. Regras de entrada podem mudar a qualquer momento, por isso recomenda-se verificar a situação atual antes da partida.",
+    "affiliate_hinweis": "<strong>Dica de viagem para a Coreia do Sul:</strong> antes de partir, vale a pena comparar cartões de crédito para poupar nas taxas no estrangeiro. Um bom cartão pode ajudar a <strong>levantar dinheiro com menos custos</strong> e a <strong>pagar em todo o mundo sem encargos adicionais</strong> — ideal para viajar com mais conforto em Seul, Busan ou noutras cidades. Compare agora as opções mais vantajosas aqui: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "china",
     "name": "China",
-    "visum_status": "Visumfrei (bis 15 Tage) / sonst Visum",
+    "visum_status": "Visto obrigatório para turistas portugueses",
     "pass_monate": 6,
-    "visum_text": "Dank einer Sonderregelung können Deutsche aktuell für touristische Aufenthalte bis zu 15 Tagen visumfrei einreisen. Für Aufenthalte über 15 Tage muss zwingend vorab ein klassisches Visum bei einem Visa Application Service Center beantragt werden.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Seien Sie flexibel im Reich der Mitte unterwegs. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Mietwagen-Preise für China vergleichen.</a>"
+    "visum_text": "Para cidadãos portugueses que viajam para a China como turistas, aplica-se atualmente a obrigação de visto. Ao contrário da isenção temporária que pode existir para outras nacionalidades em determinadas condições, os portugueses devem, em regra, solicitar previamente um visto de turismo antes da partida. O pedido é normalmente apresentado num Visa Application Service Center ou na representação consular competente. É importante verificar com antecedência os requisitos atualizados, como passaporte válido, formulário de pedido, fotografia, itinerário e comprovativos de alojamento, para evitar problemas na entrada no país.",
+    "affiliate_hinweis": "<strong>Dica para a sua viagem à China:</strong> compare cartões de crédito que ajudam a <strong>poupar nas taxas no estrangeiro</strong>, a <strong>levantar dinheiro com menos custos</strong> e a <strong>pagar em todo o mundo sem encargos desnecessários</strong>. Um bom cartão pode fazer uma grande diferença nas suas despesas de viagem. Veja aqui a comparação recomendada: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viagens</a>.",
+    "is_optimized": true
   },
   {
     "slug": "indien",
     "name": "Indien",
-    "visum_status": "e-Visa erforderlich",
+    "visum_status": "Visto eletrónico obrigatório",
     "pass_monate": 6,
-    "visum_text": "Die Einreise ist nur mit einem gültigen Visum möglich. Für Touristen wird das e-Visa empfohlen, das vorab online beantragt wird. Der Reisepass muss mindestens zwei freie Seiten haben.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Für mehr Komfort und Unabhängigkeit auf Indiens Straßen empfiehlt sich ein Mietwagen. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Angebote hier prüfen.</a>"
+    "visum_text": "Para cidadãos portugueses que viajam para a Índia em turismo, a entrada não é isenta de visto. É necessário obter um visto antes da viagem, sendo o e-Visa a opção mais prática e recomendada para estadias turísticas. O pedido é feito online antes da partida. O passaporte deve estar válido durante toda a estadia e ter, idealmente, pelo menos duas páginas em branco para os carimbos de entrada e saída. As regras de visto para portugueses são, na prática, semelhantes às aplicadas a cidadãos alemães: não existe isenção de visto para turismo, e o visto eletrónico é a solução mais utilizada.",
+    "affiliate_hinweis": "<strong>Dica de viagem para a Índia:</strong> antes de partir, vale a pena comparar cartões de crédito para <strong>poupar nas taxas de levantamento no estrangeiro</strong> e <strong>pagar gratuitamente em todo o mundo</strong>. Um cartão adequado pode fazer uma grande diferença nas despesas da sua viagem. Compare agora as melhores opções em <a href='https://www.tarifcheck.com/YKQ2R5K'>Tarifcheck</a> e encontre o cartão ideal para a sua viagem à Índia.",
+    "is_optimized": true
   },
   {
     "slug": "kenia",
     "name": "Kenia",
-    "visum_status": "eTA erforderlich",
+    "visum_status": "eTA obrigatória para cidadãos portugueses",
     "pass_monate": 6,
-    "visum_text": "Kenia hat das Visum abgeschafft, fordert nun aber von allen Reisenden (auch Kindern) zwingend eine elektronische Einreisegenehmigung (eTA). Diese muss rechtzeitig vor Abflug online beantragt werden.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Für eine individuelle Safari oder die Weiterreise ist ein geländegängiger Mietwagen ideal. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier 4x4-Mietwagen vergleichen.</a>"
+    "visum_text": "Os cidadãos portugueses que viajam para o Quénia como turistas precisam de uma autorização eletrónica de viagem (eTA) antes da partida. O Quénia aboliu o visto tradicional para muitas nacionalidades, incluindo Portugal, mas substituiu-o por este requisito obrigatório de entrada. A eTA deve ser solicitada online com antecedência e aprovada antes do embarque. Isto aplica-se também a crianças e menores. Para uma viagem sem contratempos, recomenda-se verificar os dados do passaporte, preencher o pedido com antecedência e levar a confirmação da eTA durante a viagem. Em comparação com os cidadãos alemães, as regras são as mesmas: para portugueses não há isenção de eTA nem visto à chegada, sendo a autorização eletrónica obrigatória para turismo.",
+    "affiliate_hinweis": "Dica de viagem para o Quénia: antes de partir, vale a pena comparar cartões de crédito que permitam <strong>poupar nas taxas de levantamento no estrangeiro</strong> e <strong>pagar gratuitamente em todo o mundo</strong>. Assim, pode reduzir custos em caixas automáticos, hotéis e restaurantes durante a sua viagem. Faça já um comparativo e encontre a opção ideal para a sua próxima viagem: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viagens</a>.",
+    "is_optimized": true
   },
   {
     "slug": "tansania",
     "name": "Tansania (Zanzibar)",
-    "visum_status": "Visum / e-Visa erforderlich",
+    "visum_status": "Visto eletrónico (e-Visa) obrigatório para turistas portugueses; visto à chegada também pode ser possível.",
     "pass_monate": 6,
-    "visum_text": "Deutsche benötigen für Tansania und das beliebte Zanzibar ein Visum. Das e-Visum sollte spätestens 10 Tage vor der Abreise online beantragt werden. Ein 'Visa on Arrival' ist möglich, kann aber zu langen Wartezeiten führen.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Entdecken Sie Sansibar oder das Festland flexibel auf eigene Faust. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Buchen Sie hier Ihren Tansania-Mietwagen.</a>"
+    "visum_text": "Os cidadãos portugueses que viajam para a Tanzânia, incluindo Zanzibar, como turistas, precisam de visto. Em regra, o visto eletrónico (e-Visa) é a opção mais recomendada e deve ser solicitado com antecedência online, idealmente alguns dias antes da partida. Também pode existir a possibilidade de obter um visto à chegada (Visa on Arrival), mas isso pode implicar tempos de انتظار mais longos e não é a alternativa mais cómoda. Em comparação com os cidadãos alemães, as regras para portugueses são essencialmente as mesmas: não existe isenção de visto para turismo. Para evitar atrasos na entrada, recomenda-se verificar sempre as condições atuais antes da viagem e levar consigo todos os documentos necessários, como passaporte válido, bilhete de regresso e comprovativo de alojamento.",
+    "affiliate_hinweis": "Dica de viagem para Zanzibar: antes de partir, vale a pena comparar cartões de crédito pensados para viagens internacionais. Com o cartão certo, pode <strong>poupar nas taxas de levantamento no estrangeiro</strong> e <strong>pagar em todo o mundo sem custos adicionais</strong>. Compare agora as melhores opções para a sua viagem aqui: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viagens</a>.",
+    "is_optimized": true
   },
   {
     "slug": "seychellen",
     "name": "Seychellen",
-    "visum_status": "Travel Authorization erforderlich",
+    "visum_status": "Autorização de viagem obrigatória antes da partida",
     "pass_monate": 0,
-    "visum_text": "Für die Seychellen besteht keine Visumpflicht. Vor dem Abflug muss jedoch zwingend eine kostenpflichtige Einreisegenehmigung (Travel Authorization) online eingeholt werden. Der Pass muss mindestens bis zur Ausreise gültig sein.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Erkunden Sie Mahé oder Praslin in Ihrem eigenen Tempo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Auto für die Seychellen sichern.</a>"
+    "visum_text": "Para cidadãos portugueses, as Seychelles não exigem visto para turismo. No entanto, antes do embarque é obrigatória a obtenção online de uma Travel Authorization paga. A entrada é normalmente concedida para estadias turísticas, desde que o passaporte seja válido até à data de saída, exista comprovativo de alojamento, bilhete de regresso ou continuação da viagem e meios financeiros suficientes para a estadia. As regras de entrada podem ser alteradas a qualquer momento, por isso recomenda-se verificar os requisitos atualizados antes da viagem.",
+    "affiliate_hinweis": "Dica de viagem para as Seychelles: antes de partir, compare cartões de crédito que permitam <strong>levantar dinheiro no estrangeiro com menos taxas</strong> e <strong>pagar em todo o mundo sem custos adicionais</strong>. Assim, pode poupar nas despesas da viagem e ter mais flexibilidade no destino. Veja a comparação aqui: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "mauritius",
     "name": "Mauritius",
-    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "visum_status": "Sem visto necessário (até 90 dias)",
     "pass_monate": 0,
-    "visum_text": "Keine Visumpflicht. Deutsche Staatsangehörige können bis zu 90 Tage einreisen. Der Reisepass muss über das Reiseende hinaus gültig sein. Ein Weiter- oder Rückflugticket sowie eine Hotelbuchung müssen vorgelegt werden.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Ein Mietwagen ist die beste Wahl, um alle versteckten Strände auf Mauritius zu entdecken. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Angebote vergleichen.</a>"
+    "visum_text": "Os cidadãos portugueses podem viajar para as Maurícias como turistas sem necessidade de visto prévio para estadias de até 90 dias. À chegada, é normalmente exigido um passaporte válido durante toda a estadia, bem como prova de viagem de regresso ou continuação da viagem e, em alguns casos, confirmação de alojamento e meios financeiros suficientes. Para estadias mais longas ou fins diferentes do turismo, devem ser verificadas as regras aplicáveis antes da viagem.",
+    "affiliate_hinweis": "Dica de viagem para as Maurícias: antes de partir, vale a pena comparar cartões de crédito pensados para viagens internacionais. Assim, pode <strong>poupar nas taxas de levantamento no estrangeiro</strong> e <strong>pagar no mundo inteiro sem custos adicionais</strong>. Compare agora as melhores opções em <a href='https://www.tarifcheck.com/YKQ2R5K'>este comparador de cartões de crédito</a> e escolha a solução mais vantajosa para a sua viagem.",
+    "is_optimized": true
   },
   {
     "slug": "marokko",
     "name": "Marokko",
-    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "visum_status": "Sem visto necessário para estadias turísticas até 90 dias",
     "pass_monate": 0,
-    "visum_text": "Für touristische Zwecke können Deutsche bis zu 90 Tage ohne Visum nach Marokko einreisen. Der Reisepass muss für die gesamte Dauer des Aufenthalts gültig sein (Empfehlung: 6 Monate).",
-    "affiliate_hinweis": "💡 <strong>Roadtrip-Tipp:</strong> Für atemberaubende Fahrten durch das Atlasgebirge ist ein eigener Mietwagen essenziell. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier günstige Mietwagen buchen.</a>"
+    "visum_text": "Os cidadãos portugueses podem entrar em Marrocos para fins turísticos sem necessidade de visto para estadias de até 90 dias. O passaporte deve estar válido durante toda a permanência no país; como boa prática, recomenda-se que tenha pelo menos 6 meses de validade à data da viagem. As regras para portugueses são, na prática, as mesmas aplicadas a cidadãos alemães: não há visto prévio nem visto à chegada para turismo dentro do limite permitido.",
+    "affiliate_hinweis": "Dica de viagem para Marrocos: antes de partir, vale a pena comparar um cartão de crédito de viagem que ajude a <strong>poupar nas taxas ao levantar dinheiro no estrangeiro</strong> e a <strong>pagar em todo o mundo sem custos adicionais</strong>. Assim, pode viajar com mais flexibilidade e menos encargos. Veja a comparação aqui: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viagens</a>.",
+    "is_optimized": true
   },
   {
     "slug": "tunesien",
     "name": "Tunesien",
-    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "visum_status": "Não é necessário visto para estadias turísticas até 90 dias.",
     "pass_monate": 6,
-    "visum_text": "Keine Visumpflicht für Pauschaltouristen und Individualreisende aus Deutschland bis zu 90 Tagen. Die Einreise mit dem Personalausweis ist nur im Rahmen einer organisierten Pauschalreise inkl. Flug- und Hotelbuchung möglich, ansonsten ist der Reisepass nötig.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Entdecken Sie Tunesiens Küsten und faszinierende Landschaften auf eigene Faust. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Mietwagen-Preise vergleichen.</a>"
+    "visum_text": "Para cidadãos portugueses que viajam para a Tunísia como turistas, não é necessário visto para estadias de até 90 dias. A entrada é geralmente possível com passaporte válido, devendo este cumprir os requisitos de validade exigidos pelas autoridades tunisinas. Ao contrário de algumas regras aplicáveis a outras nacionalidades, os cidadãos de Portugal beneficiam de isenção de visto para turismo, tal como os cidadãos alemães. A entrada com cartão de cidadão não é recomendada; para evitar problemas no controlo fronteiriço, o passaporte é a opção mais segura e normalmente exigida. Antes da viagem, confirme sempre se existem alterações temporárias nas regras de entrada, especialmente em caso de viagens organizadas, trânsito ou estadias prolongadas.",
+    "affiliate_hinweis": "Dica de viagem para a Tunísia: antes de partir, vale a pena comparar cartões de crédito pensados para viagens internacionais. Com o cartão certo, pode <strong>poupar nas taxas de levantamento no estrangeiro</strong> e <strong>pagar em todo o mundo sem custos adicionais</strong>. Compare agora as melhores opções e encontre o cartão ideal para a sua viagem: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viagens</a>.",
+    "is_optimized": true
   },
   {
     "slug": "oman",
     "name": "Oman",
-    "visum_status": "Visumfrei bis 14 Tage / sonst e-Visa",
+    "visum_status": "Isenção de visto por até 14 dias; para estadias mais longas, visto eletrónico (eVisa) obrigatório",
     "pass_monate": 6,
-    "visum_text": "Für Aufenthalte von bis zu 14 Tagen benötigen Deutsche kein Visum mehr. Wer länger bleiben möchte, muss zwingend vorab ein e-Visa online beantragen. Eine Hotelbuchung und ein Rückflugticket müssen vorliegen.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Der Oman ist ein klassisches Roadtrip-Land. Oft wird ein Allrad-Mietwagen empfohlen. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Sichern Sie sich hier Ihr Fahrzeug.</a>"
+    "visum_text": "Para cidadãos portugueses que viajam para o Omã em turismo, aplica-se atualmente uma isenção de visto para estadias de até 14 dias. Para permanecer no país por mais tempo, é necessário solicitar previamente um visto eletrónico (eVisa) online. Tal como acontece com outras nacionalidades elegíveis, recomenda-se viajar com passaporte válido, reserva de alojamento e bilhete de regresso ou de continuação da viagem. Em comparação com cidadãos alemães, as regras são essencialmente as mesmas: portugueses também beneficiam da isenção de visto para até 14 dias e, acima desse período, precisam de eVisa.",
+    "affiliate_hinweis": "Dica de viagem para o Omã: antes de partir, vale a pena comparar cartões de crédito que permitam <strong>levantar dinheiro no estrangeiro com menos taxas</strong> e <strong>pagar em todo o mundo sem encargos adicionais</strong>. Assim, pode poupar nas despesas da viagem e usar o seu cartão com mais flexibilidade durante a estadia. Compare agora as melhores opções em <a href='https://www.tarifcheck.com/YKQ2R5K'>tarifcheck.com</a>.",
+    "is_optimized": true
   },
   {
     "slug": "katar",
     "name": "Katar (Doha)",
-    "visum_status": "Kostenloses Visa on Arrival",
+    "visum_status": "Isenção de visto na chegada para cidadãos portugueses",
     "pass_monate": 6,
-    "visum_text": "Deutsche Staatsangehörige erhalten bei der Einreise ein kostenloses 'Visa Waiver' (Visa on Arrival), welches für Aufenthalte von bis zu 90 Tagen innerhalb eines Zeitraums von 180 Tagen gültig ist.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Doha und die spektakulären umliegenden Landschaften lassen sich hervorragend mit dem Auto erkunden. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Mietwagen für Katar finden.</a>"
+    "visum_text": "Os cidadãos portugueses que viajam para o Qatar (Doha) como turistas podem entrar sem visto prévio e recebem, à chegada, uma isenção de visto gratuita (Visa Waiver / Visa on Arrival). A estadia permitida é de até 90 dias dentro de um período de 180 dias. É importante que o passaporte esteja válido por pelo menos 6 meses na data de entrada e que o viajante possa comprovar meios financeiros suficientes, bem como uma reserva de alojamento ou morada de estadia, se solicitado pelas autoridades de imigração. Em comparação com cidadãos alemães, as regras para portugueses são essencialmente as mesmas: não há obrigação de visto antecipado para turismo, desde que sejam cumpridos os requisitos de entrada.",
+    "affiliate_hinweis": "Dica de viagem para o Qatar (Doha): antes de partir, vale a pena comparar cartões de crédito pensados para viagens internacionais. Assim, pode <strong>poupar nas taxas de levantamento no estrangeiro</strong> e <strong>pagar em todo o mundo sem custos adicionais</strong>, o que é especialmente útil em Doha. Compare agora as melhores opções e encontre o cartão ideal para a sua viagem: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viagens</a>.",
+    "is_optimized": true
   },
   {
     "slug": "saudi-arabien",
     "name": "Saudi-Arabien",
-    "visum_status": "e-Visa / Visa on Arrival",
+    "visum_status": "Visto eletrónico (e-Visa) obrigatório para turistas portugueses; não há isenção de visto nem visto à chegada para turismo.",
     "pass_monate": 6,
-    "visum_text": "Deutsche Touristen können ein e-Visum vorab online beantragen oder ein 'Visa on Arrival' bei der Ankunft erhalten. Das Visum ist ein Jahr gültig und erlaubt mehrfache Einreisen (bis max. 90 Tage am Stück).",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Die enormen Distanzen in Saudi-Arabien überbrückt man am besten flexibel im Mietwagen. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Jetzt Mietwagen-Preise vergleichen.</a>"
+    "visum_text": "Os cidadãos portugueses que viajam para a Arábia Saudita como turistas precisam de solicitar um visto eletrónico (e-Visa) antes da partida. Ao contrário de alguns outros destinos, não existe isenção de visto para turismo nem visto à chegada para titulares de passaporte português. O e-Visa saudita é normalmente emitido para múltiplas entradas, com validade de até 1 ano, permitindo estadias de até 90 dias por visita. Recomenda-se preencher o pedido com antecedência, garantir que o passaporte tem validade suficiente e verificar sempre as exigências atuais antes da viagem, especialmente se o objetivo for turismo, visitas de lazer ou participação em eventos.",
+    "affiliate_hinweis": "Dica de viagem para a Arábia Saudita: antes de partir, compare cartões de crédito que ajudem a <strong>poupar em levantamentos no estrangeiro</strong> e a <strong>pagar sem taxas em todo o mundo</strong>. Assim, evita custos desnecessários em riais sauditas e ganha mais flexibilidade durante a viagem. Veja a comparação aqui: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito agora</a>.",
+    "is_optimized": true
   },
   {
     "slug": "jordanien",
     "name": "Jordanien",
-    "visum_status": "Visum erforderlich (Oft via Jordan Pass)",
+    "visum_status": "Visto obrigatório para cidadãos portugueses, com possibilidade de visto à chegada ou eVisa",
     "pass_monate": 6,
-    "visum_text": "Visumpflicht. Das Visum kann oft bei der Einreise am Flughafen ausgestellt werden. Bleiben Sie länger als 3 Nächte, empfiehlt sich der Kauf des 'Jordan Pass' vor der Reise: Dieser erlässt die Visumgebühr und beinhaltet den Eintritt nach Petra.",
-    "affiliate_hinweis": "💡 <strong>Roadtrip-Tipp:</strong> Von Amman nach Petra und ans Tote Meer – Jordanien ist perfekt für Selbstfahrer. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Buchen Sie hier Ihren Mietwagen.</a>"
+    "visum_text": "Para cidadãos portugueses que viajam para a Jordânia como turistas, aplica-se a obrigatoriedade de visto. Em geral, o visto pode ser obtido à chegada em aeroportos internacionais ou solicitado previamente como eVisa, desde que sejam cumpridas as condições de entrada em vigor. Para estadias turísticas, o Jordan Pass pode ser uma opção muito vantajosa: em muitos casos, se a permanência for de pelo menos 3 noites e o pass for adquirido antes da viagem, a taxa do visto é dispensada e a entrada em Petra está incluída. Recomendamos verificar sempre as regras atuais antes da partida, pois os requisitos de entrada podem mudar.",
+    "affiliate_hinweis": "<strong>Dica de viagem para a Jordânia:</strong> antes de partir, vale a pena comparar cartões de crédito para poupar nas <strong>taxas de levantamento no estrangeiro</strong> e nas <strong>comissões de pagamento em todo o mundo</strong>. Um cartão adequado pode tornar a sua viagem à Jordânia mais económica e prática. Compare agora as melhores opções em <a href='https://www.tarifcheck.com/YKQ2R5K'>tarifcheck.com</a>.",
+    "is_optimized": true
   },
   {
     "slug": "jamaika",
     "name": "Jamaika",
-    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "visum_status": "Sem visto necessário (até 90 dias)",
     "pass_monate": 6,
-    "visum_text": "Für einen touristischen Aufenthalt bis zu 90 Tagen benötigen Deutsche kein Visum. Es muss jedoch zwingend ein Einreiseformular (Online Passenger Declaration) kostenlos vor Abflug ausgefüllt werden.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Entdecken Sie die traumhafte Karibik-Insel in Ihrem eigenen Rhythmus. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Mietwagen für Jamaika sichern.</a>"
+    "visum_text": "Para cidadãos portugueses, a entrada turística na Jamaica é, em regra, isenta de visto para estadias de até 90 dias. Isso significa que, para uma viagem de turismo, não é necessário solicitar visto antecipadamente nem obter visto à chegada. No entanto, é obrigatório cumprir os requisitos de entrada, como apresentar um passaporte válido, comprovativo de viagem de regresso ou continuação da viagem e, quando aplicável, preencher a declaração de entrada online antes da partida. As regras podem ser alteradas pelas autoridades jamaicanas, por isso recomenda-se verificar os requisitos atuais antes de viajar.",
+    "affiliate_hinweis": "<strong>Dica de viagem para a Jamaica:</strong> antes de partir, vale a pena comparar cartões de crédito pensados para viagens internacionais. Assim, pode <strong>poupar nas taxas de levantamento no estrangeiro</strong> e <strong>pagar no mundo inteiro sem custos desnecessários</strong>. Compare agora as melhores opções e encontre o cartão ideal para a sua viagem: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "peru",
     "name": "Peru",
-    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "visum_status": "Sem visto necessário para turistas (até 90 dias)",
     "pass_monate": 6,
-    "visum_text": "Für Peru gilt keine Visumpflicht. Deutsche Touristen erhalten bei der Einreise in der Regel eine Aufenthaltsgenehmigung für 90 Tage (im Halbjahr). Ein Weiter- oder Rückflugticket muss vorgezeigt werden.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Erleben Sie die Anden und Küstenstraßen absolut flexibel im Mietwagen. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier passende Fahrzeuge finden.</a>"
+    "visum_text": "Os cidadãos portugueses podem entrar no Peru para fins turísticos sem necessidade de visto. Em regra, a estadia autorizada é de até 90 dias. Na entrada, as autoridades podem solicitar um bilhete de regresso ou de continuação da viagem, bem como prova de meios financeiros suficientes para a estadia. O passaporte deve estar válido durante toda a viagem e recomenda-se verificar eventuais requisitos adicionais antes da partida, especialmente se a permanência for superior ao período turístico permitido.",
+    "affiliate_hinweis": "Dica de viagem para o Peru: antes de partir, vale a pena comparar cartões de crédito que ajudem a <strong>poupar nas taxas de levantamento no estrangeiro</strong> e a <strong>pagar gratuitamente em todo o mundo</strong>. Assim, pode reduzir custos em soles peruanos e viajar com mais flexibilidade. Compare agora as melhores opções em <a href='https://www.tarifcheck.com/YKQ2R5K'>Tarifcheck</a>.",
+    "is_optimized": true
   },
   {
     "slug": "kolumbien",
     "name": "Kolumbien",
-    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "visum_status": "Sem visto necessário (até 90 dias)",
     "pass_monate": 6,
-    "visum_text": "Visumfreie Einreise für Deutsche für bis zu 90 Tage. Zwingend vorgeschrieben ist das Ausfüllen des Online-Einreiseformulars 'Check-MIG' innerhalb von 72 Stunden vor dem Abflug.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Planen Sie eine Tour durch die bekannte Kaffeezone? Ein Mietwagen bietet maximale Freiheit. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Angebote vergleichen.</a>"
+    "visum_text": "Cidadãos portugueses podem entrar na Colômbia como turistas sem visto para estadias de até 90 dias. Em geral, as regras de entrada para portugueses são equivalentes às aplicadas a cidadãos alemães: não há exigência de visto prévio para turismo, mas a decisão final de admissão cabe sempre às autoridades migratórias colombianas. É obrigatório apresentar um passaporte válido e cumprir os requisitos de entrada vigentes, incluindo o preenchimento do formulário online Check-MIG dentro do prazo indicado antes do embarque. Para estadias mais longas, atividades remuneradas ou outros fins de viagem, podem aplicar-se regras diferentes e pode ser necessário solicitar uma autorização ou visto específico.",
+    "affiliate_hinweis": "<strong>Dica de viagem para a Colômbia:</strong> antes de partir, vale a pena comparar cartões de crédito pensados para viagens internacionais. Assim, pode <strong>poupar nas taxas de levantamento no estrangeiro</strong> e <strong>pagar em todo o mundo sem custos adicionais</strong> — ideal para despesas em pesos colombianos, hotéis e aluguer de carro. Compare agora as melhores opções em <a href='https://www.tarifcheck.com/YKQ2R5K'>este comparador de cartões de crédito</a> e escolha o cartão mais vantajoso para a sua viagem.",
+    "is_optimized": true
   },
   {
     "slug": "argentinien",
     "name": "Argentinien",
-    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "visum_status": "Sem visto necessário (até 90 dias)",
     "pass_monate": 0,
-    "visum_text": "Keine Visumpflicht für deutsche Staatsbürger bis zu 90 Tagen. Der Reisepass muss für die gesamte Dauer des geplanten Aufenthalts gültig sein. Oft wird bei der Einreise ein Nachweis über die Weiter- oder Rückreise verlangt.",
-    "affiliate_hinweis": "💡 <strong>Patagonien Roadtrip:</strong> Die Strecken in Argentinien sind riesig. Ein guter Mietwagen ist essenziell. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Finden Sie hier verlässliche Mietwagen für Südamerika.</a>"
+    "visum_text": "Cidadãos portugueses podem entrar na Argentina como turistas sem necessidade de visto para estadias de até 90 dias. O passaporte deve estar válido durante toda a permanência prevista no país. Na imigração, pode ser solicitado comprovativo da viagem de regresso ou de continuação da viagem, bem como prova de meios financeiros suficientes para a estadia. Para estadias mais longas ou para fins diferentes de turismo, podem aplicar-se regras específicas. Em comparação com cidadãos alemães, as regras para cidadãos portugueses são, em geral, as mesmas: entrada sem visto para turismo por até 90 dias.",
+    "affiliate_hinweis": "<strong>Dica para viajar pela Argentina com mais economia:</strong> antes da partida, vale a pena comparar cartões de crédito que ajudem a <strong>poupar nas taxas de levantamento no estrangeiro</strong> e a <strong>pagar sem custos adicionais em todo o mundo</strong>. Assim, pode aproveitar melhor a sua viagem e evitar encargos desnecessários. Veja uma comparação prática aqui: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viagens</a>.",
+    "is_optimized": true
   },
   {
     "slug": "chile",
     "name": "Chile",
-    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "visum_status": "Sem visto necessário (até 90 dias)",
     "pass_monate": 6,
-    "visum_text": "Für touristische Aufenthalte bis zu 90 Tagen wird kein Visum benötigt. Bei der Einreise erhalten Sie eine Touristenkarte (Tarjeta de Turismo), die Sie bis zur Ausreise sorgfältig aufbewahren müssen.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen in Südamerika:</strong> Chile eignet sich perfekt für spektakuläre Roadtrips (z.B. auf der Carretera Austral). <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Finden Sie hier den passenden Mietwagen.</a>"
+    "visum_text": "Para cidadãos portugueses que viajam para o Chile em turismo, não é necessário visto para estadias de até 90 dias. À entrada no país, normalmente é emitido um cartão de turismo (Tarjeta de Turismo), que deve ser guardado cuidadosamente até à saída. O passaporte deve estar válido durante toda a estadia e, em alguns casos, as autoridades de fronteira podem solicitar prova de viagem de regresso e meios financeiros suficientes. Para estadias mais longas ou para fins diferentes de turismo, aplicam-se regras específicas e pode ser necessário solicitar autorização adicional. Em comparação com cidadãos alemães, as regras para portugueses são essencialmente as mesmas: também beneficiam de isenção de visto para turismo de curta duração no Chile.",
+    "affiliate_hinweis": "<strong>Dica de viagem para o Chile:</strong> antes de partir, vale a pena comparar cartões de crédito pensados para viagens internacionais. Assim, pode <strong>poupar nas taxas de levantamento no estrangeiro</strong> e <strong>pagar no mundo inteiro sem custos adicionais</strong>. Encontre opções vantajosas no <a href='https://www.tarifcheck.com/YKQ2R5K'>comparador de cartões de crédito para viagens</a> e escolha o cartão mais adequado para a sua viagem ao Chile.",
+    "is_optimized": true
   },
   {
     "slug": "ecuador",
     "name": "Ecuador",
-    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "visum_status": "Sem visto necessário (até 90 dias)",
     "pass_monate": 6,
-    "visum_text": "Deutsche können für bis zu 90 Tage visumfrei nach Ecuador (inklusive Galapagos-Inseln) einreisen. Ein Weiter- oder Rückflugticket muss bei Einreise vorgezeigt werden können.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Auf dem ecuadorianischen Festland lohnt sich ein Mietwagen für Ausflüge durch die Anden. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Mietwagen buchen.</a>"
+    "visum_text": "Os cidadãos portugueses podem entrar no Equador como turistas sem visto por até 90 dias. Esta isenção de visto aplica-se também às Ilhas Galápagos. Na entrada, as autoridades podem exigir a apresentação de um bilhete de regresso ou de continuação da viagem, bem como prova de meios financeiros suficientes para a estadia.",
+    "affiliate_hinweis": "Dica de viagem para o Equador: antes de partir, vale a pena comparar cartões de crédito que permitam <strong>levantar dinheiro no estrangeiro com menos taxas</strong> e <strong>pagar em todo o mundo sem custos adicionais</strong>. Assim, pode poupar nas despesas do dia a dia em Quito, Guayaquil ou nas Ilhas Galápagos. Veja uma comparação prática aqui: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viagens</a>.",
+    "is_optimized": true
   },
   {
     "slug": "bolivien",
     "name": "Bolivien",
-    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "visum_status": "Entrada sem visto para turismo por até 90 dias",
     "pass_monate": 6,
-    "visum_text": "Die Einreise ist für bis zu 90 Tage visumfrei. Bei der Ankunft erhalten Touristen zunächst meist einen Stempel für 30 Tage, der im Land bei der Migrationsbehörde kostenlos auf 90 Tage verlängert werden kann.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Entdecken Sie die beeindruckenden Landschaften Boliviens flexibel im eigenen Fahrzeug. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier günstige Mietwagen vergleichen.</a>"
+    "visum_text": "Para cidadãos portugueses, a entrada na Bolívia para fins turísticos é, em regra, sem visto por até 90 dias. Ao chegar, a permanência inicial costuma ser concedida pela imigração por um período limitado, que pode ser administrado dentro do prazo total permitido. É importante viajar com passaporte válido, comprovante de saída do país e, se solicitado, prova de meios financeiros e reserva de alojamento. Como as regras de entrada podem mudar, recomenda-se confirmar os requisitos atualizados antes da viagem junto da embaixada ou do consulado da Bolívia.",
+    "affiliate_hinweis": "Dica de viagem para a Bolívia: antes de partir, vale a pena comparar cartões de crédito pensados para uso no estrangeiro. Um bom cartão pode ajudar a <strong>reduzir taxas em levantamentos em moeda local</strong>, evitar encargos desnecessários em pagamentos internacionais e oferecer <strong>pagamentos gratuitos em todo o mundo</strong>. Compare agora as opções mais vantajosas em <a href='https://www.tarifcheck.com/YKQ2R5K'>este comparador de cartões de crédito</a> e viaje para a Bolívia com mais economia e flexibilidade.",
+    "is_optimized": true
   },
   {
     "slug": "panama",
     "name": "Panama",
-    "visum_status": "Kein Visum nötig (bis 180 Tage)",
+    "visum_status": "Sem visto necessário para turismo (até 90 dias)",
     "pass_monate": 3,
-    "visum_text": "Keine Visumpflicht für Deutsche. Bei Ankunft wird oft eine Aufenthaltsgenehmigung für bis zu 180 Tage erteilt. Der Pass muss bei Einreise noch mindestens 3 Monate gültig sein. Ein Ausreiseticket ist Pflicht.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Mit dem Mietwagen kommen Sie in Panama bequem und eigenständig von der Stadt zu den Traumstränden. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Mietwagen-Preise checken.</a>"
+    "visum_text": "Cidadãos portugueses podem entrar no Panamá como turistas sem necessidade de visto prévio. Em regra, é concedida uma permanência de até 90 dias na entrada, desde que cumpram os requisitos migratórios. O passaporte deve estar válido por pelo menos 6 meses na data de entrada. Também pode ser exigido comprovativo de viagem de regresso ou continuação da viagem, bem como prova de meios financeiros suficientes para a estadia. As regras de entrada podem ser alteradas pelas autoridades panamenhas, por isso recomenda-se verificar os requisitos atualizados antes da partida.",
+    "affiliate_hinweis": "<strong>Dica para a sua viagem ao Panamá:</strong> compare cartões de crédito que ajudem a <strong>poupar em levantamentos no estrangeiro</strong> e a <strong>pagar em todo o mundo sem taxas adicionais</strong>. Um bom cartão de viagem pode fazer diferença no orçamento e tornar a sua estadia muito mais prática. Veja uma comparação útil aqui: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viagens</a>.",
+    "is_optimized": true
   },
   {
     "slug": "guatemala",
     "name": "Guatemala",
-    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "visum_status": "Sem visto necessário (até 90 dias)",
     "pass_monate": 6,
-    "visum_text": "Einreise ohne Visum für bis zu 90 Tage möglich (gilt für den gesamten C4-Raum). Wer auf dem Landweg einreist, wird an der Grenze manchmal zur Zahlung einer kleinen, inoffiziellen Bearbeitungsgebühr aufgefordert.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Das faszinierende Land der Maya lässt sich wunderbar individuell im eigenen Auto bereisen. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Mietwagen hier vorab buchen.</a>"
+    "visum_text": "Para cidadãos portugueses, a entrada em Guatemala como turista é, em regra, isenta de visto para estadias de até 90 dias. Portugal beneficia das mesmas condições gerais de entrada que outros cidadãos da União Europeia, sem diferença relevante em relação aos cidadãos alemães para fins turísticos. A permanência pode estar sujeita às regras do espaço C4 (Guatemala, El Salvador, Honduras e Nicarágua), pelo que o total de dias na região pode ser contabilizado em conjunto. Na chegada, é importante apresentar um passaporte válido, bilhete de regresso ou continuação da viagem e, se solicitado, comprovativos de meios financeiros e alojamento. Em entradas por via terrestre, podem ocorrer cobranças informais de pequenas taxas administrativas na fronteira; por isso, recomenda-se levar dinheiro em espécie e guardar todos os comprovativos de entrada.",
+    "affiliate_hinweis": "<strong>Dica de viagem para Guatemala:</strong> antes de partir, vale a pena comparar cartões de crédito que ajudem a <strong>poupar nas taxas de levantamento no estrangeiro</strong> e a <strong>pagar em todo o mundo sem custos adicionais</strong>. Assim, fica mais fácil controlar o orçamento durante a viagem e evitar encargos desnecessários. Veja aqui uma comparação prática: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viagens</a>.",
+    "is_optimized": true
   },
   {
     "slug": "bahamas",
     "name": "Bahamas",
-    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "visum_status": "Sem visto necessário (até 90 dias)",
     "pass_monate": 6,
-    "visum_text": "Deutsche Staatsangehörige benötigen für einen touristischen Aufenthalt von bis zu 90 Tagen kein Visum. Ein Rück- oder Weiterflugticket ist bei der Einreise jedoch zwingend vorzulegen.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Erkunden Sie die größeren Inseln der Bahamas völlig unabhängig im Mietwagen. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier passendes Fahrzeug sichern.</a>"
+    "visum_text": "Os cidadãos portugueses podem viajar para as Bahamas como turistas sem necessidade de visto para estadias de até 90 dias. À entrada, é normalmente exigido um passaporte válido, comprovativo de viagem de regresso ou continuação da viagem e, se solicitado, prova de meios financeiros suficientes para a estadia. Em comparação com os cidadãos alemães, as regras para portugueses são essencialmente as mesmas: não há obrigação de visto para turismo de curta duração. Ainda assim, recomenda-se verificar antes da partida se o passaporte tem validade suficiente e se cumprem todos os requisitos de entrada vigentes.",
+    "affiliate_hinweis": "<strong>Dica para poupar nas Bahamas:</strong> antes de viajar, vale a pena comparar cartões de crédito que permitem <strong>levantar dinheiro no estrangeiro com menos taxas</strong> e <strong>pagar em todo o mundo sem custos adicionais</strong>. Assim, evita encargos desnecessários em caixas automáticos e em compras no destino. Veja uma comparação útil aqui: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viagens</a>.",
+    "is_optimized": true
   },
   {
     "slug": "barbados",
     "name": "Barbados",
-    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "visum_status": "Entrada sem visto por até 90 dias",
     "pass_monate": 6,
-    "visum_text": "Visumfreie Einreise für bis zu 90 Tage. Zwingend erforderlich ist das Ausfüllen des kostenlosen Online-Einreiseformulars (ED Card) innerhalb von 72 Stunden vor der Ankunft, um die Einreise zu beschleunigen.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Ein Mietwagen ist perfekt, um auch versteckte Strände und Buchten auf Barbados zu erreichen. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Angebote vergleichen.</a>"
+    "visum_text": "Cidadãos portugueses podem viajar para Barbados como turistas sem necessidade de visto para estadias de até 90 dias. À chegada, é importante apresentar um passaporte válido durante toda a permanência, comprovativo de viagem de regresso ou continuação da viagem e, se solicitado, prova de meios financeiros suficientes para a estadia. Além disso, recomenda-se preencher antecipadamente o formulário eletrónico de entrada (ED Card) dentro das 72 horas anteriores à chegada, para acelerar o controlo fronteiriço. Para estadias superiores a 90 dias ou para fins diferentes de turismo, podem aplicar-se regras adicionais e autorização prévia.",
+    "affiliate_hinweis": "<strong>Dica de viagem para Barbados:</strong> antes de partir, vale a pena comparar cartões de crédito que ajudem a <strong>poupar nas taxas no estrangeiro</strong>, como levantamentos em caixas automáticas com custos reduzidos e pagamentos internacionais sem comissão. Assim, pode aproveitar melhor a sua viagem a Barbados e evitar despesas desnecessárias. Compare agora as melhores opções em <a href='https://www.tarifcheck.com/YKQ2R5K'>Tarifcheck</a> e encontre o cartão ideal para viajar com mais conforto e menos taxas.",
+    "is_optimized": true
   },
   {
     "slug": "namibia",
     "name": "Namibia",
-    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "visum_status": "Os cidadãos portugueses precisam de visto para entrar na Namíbia como turistas; o visto pode ser obtido online ou à chegada, consoante a elegibilidade e as regras em vigor.",
     "pass_monate": 6,
-    "visum_text": "Für Aufenthalte bis zu 90 Tagen im Kalenderjahr ist für deutsche Touristen kein Visum erforderlich. Der Reisepass muss jedoch zwingend noch mindestens 6 Monate über das Rückreisedatum hinaus gültig sein.",
-    "affiliate_hinweis": "💡 <strong>Safari-Fahrzeuge:</strong> Für Namibia ist ein robuster Mietwagen (meist 4x4) unerlässlich. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Sichern Sie sich Ihr Fahrzeug hier frühzeitig.</a>"
+    "visum_text": "Para cidadãos portugueses que viajam para a Namíbia em turismo, as regras de entrada diferem das aplicáveis a cidadãos alemães: atualmente, em regra, é necessário um visto para estadias de curta duração. A Namíbia oferece opções como visto eletrónico (eVisa) e, em determinados casos, visto à chegada (Visa on Arrival), desde que os requisitos sejam cumpridos. O passaporte deve ter validade mínima de 6 meses a contar da data de entrada e conter páginas em branco suficientes para carimbos. Além disso, pode ser exigido comprovativo de alojamento, bilhete de regresso e meios financeiros para a estadia. Como as normas de imigração podem mudar, recomenda-se verificar as condições atualizadas antes da viagem.",
+    "affiliate_hinweis": "Dica de viagem para a Namíbia: antes de partir, compare cartões de crédito que permitam <strong>levantar dinheiro no estrangeiro com taxas reduzidas</strong> e <strong>pagar em todo o mundo sem custos adicionais</strong>. Assim, pode poupar nas despesas em dólares namibianos e evitar encargos desnecessários durante a viagem. Veja aqui uma comparação útil: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viagens</a>.",
+    "is_optimized": true
   },
   {
     "slug": "botswana",
     "name": "Botswana",
-    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "visum_status": "Sem visto necessário (até 90 dias)",
     "pass_monate": 6,
-    "visum_text": "Deutsche erhalten an den Grenzübergängen oder Flughäfen kostenlos eine Einreisegenehmigung (Visitor's Pass) für maximal 90 Tage im Kalenderjahr. Rück- oder Weiterflugticket ist vorzuweisen.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Botswana lässt sich hervorragend als Selbstfahrer erkunden. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Mietwagen für Botswana vergleichen.</a>"
+    "visum_text": "Cidadãos portugueses podem viajar para o Botswana como turistas sem necessidade de visto prévio. À chegada, normalmente é concedida uma autorização de entrada para visitantes (Visitor's Pass) por até 90 dias, desde que a viagem tenha finalidade turística e o passaporte esteja válido. É importante apresentar um bilhete de regresso ou de continuação da viagem, além de poder ser solicitado comprovativo de meios financeiros suficientes e de alojamento. Em comparação com cidadãos alemães, as regras para portugueses são essencialmente as mesmas: não há, em regra, obrigação de visto para estadias turísticas curtas.",
+    "affiliate_hinweis": "<strong>Dica de viagem para o Botswana:</strong> antes de partir, vale a pena comparar cartões de crédito pensados para viagens internacionais. Assim, pode <strong>poupar nas taxas de levantamento no estrangeiro</strong> e <strong>pagar em todo o mundo sem encargos desnecessários</strong>. Veja aqui uma comparação útil para escolher o cartão ideal para a sua viagem: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viagens</a>.",
+    "is_optimized": true
   },
   {
     "slug": "uganda",
     "name": "Uganda",
-    "visum_status": "e-Visa erforderlich",
+    "visum_status": "Visto eletrónico obrigatório",
     "pass_monate": 6,
-    "visum_text": "Für Uganda besteht strikte Visumpflicht. Das Visum muss zwingend vor der Einreise als elektronisches e-Visa online beantragt werden. Zudem ist der Nachweis einer Gelbfieberimpfung für die Einreise vorgeschrieben.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Für Besuche der Nationalparks und Safari-Touren auf eigene Faust ist ein 4x4-Mietwagen ideal. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier 4x4-Fahrzeuge vergleichen.</a>"
+    "visum_text": "Para cidadãos portugueses que viajam para o Uganda como turistas, é necessário obter um visto antes da entrada no país. A forma habitual é o visto eletrónico (e-Visa), que deve ser solicitado online antes da viagem. Não existe isenção de visto para portugueses. Além disso, a apresentação do comprovativo de vacinação contra a febre amarela é obrigatória na entrada no Uganda. Recomendamos verificar também se o passaporte tem validade suficiente e se todos os documentos de viagem estão completos antes da partida.",
+    "affiliate_hinweis": "<strong>Dica de viagem para o Uganda:</strong> antes de partir, vale a pena comparar cartões de crédito que ajudem a <strong>poupar taxas no levantamento de dinheiro no estrangeiro</strong> e a <strong>pagar no mundo inteiro sem custos adicionais</strong>. Assim, pode viajar com mais flexibilidade e controlar melhor o orçamento. Compare agora as opções em <a href='https://www.tarifcheck.com/YKQ2R5K'>tarifcheck.com</a> e encontre o cartão ideal para a sua viagem.",
+    "is_optimized": true
   },
   {
     "slug": "madagaskar",
     "name": "Madagaskar",
-    "visum_status": "e-Visa oder Visa on Arrival",
+    "visum_status": "Visto obrigatório para cidadãos portugueses: disponível online (e-Visa) ou à chegada (Visa on Arrival).",
     "pass_monate": 6,
-    "visum_text": "Deutsche benötigen ein Visum. Dieses kann vorab als e-Visa oder bei der Ankunft am Flughafen (Visa on Arrival) erworben werden. Die Aufenthaltsdauer beträgt wahlweise 15, 30 oder 60 Tage (unterschiedliche Gebühren).",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Entdecken Sie die weltberühmte Baobab-Allee und die Nationalparks ganz flexibel. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Sichern Sie sich hier einen geländegängigen Mietwagen.</a>"
+    "visum_text": "Os cidadãos portugueses que viajam para Madagáscar como turistas precisam de visto. A boa notícia é que não existe, em regra, isenção de visto para passaportes portugueses; no entanto, o visto pode ser obtido de forma simples antes da viagem através do e-Visa ou diretamente à chegada ao aeroporto (Visa on Arrival). A duração da estadia turística costuma ser de 15, 30 ou 60 dias, com taxas diferentes consoante o período escolhido. Recomendamos verificar antes da partida se o seu passaporte tem validade suficiente e se cumpre os requisitos de entrada, para evitar atrasos no controlo fronteiriço.",
+    "affiliate_hinweis": "Dica de viagem para Madagáscar: antes de partir, vale a pena comparar cartões de crédito pensados para viagens internacionais. Assim, pode <strong>poupar nas taxas de levantamento no estrangeiro</strong> e <strong>pagar em todo o mundo sem custos adicionais</strong>, o que é especialmente útil em destinos onde o acesso a dinheiro pode ser limitado. Compare agora as melhores opções em <a href='https://www.tarifcheck.com/YKQ2R5K'>este comparador de cartões de crédito</a> e escolha o cartão ideal para a sua viagem a Madagáscar.",
+    "is_optimized": true
   },
   {
     "slug": "kap-verde",
     "name": "Kap Verde (Kapverden)",
-    "visum_status": "EASE-Registrierung (Kein Visum)",
+    "visum_status": "Isenção de visto com registo EASE obrigatório",
     "pass_monate": 6,
-    "visum_text": "Für Aufenthalte bis zu 30 Tagen benötigen Deutsche kein Visum. Sie müssen sich jedoch bis spätestens 5 Tage vor Reiseantritt online über die offizielle EASE-Plattform registrieren und die Flughafensicherheitssteuer (TSA) bezahlen.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Auf den größeren Inseln wie Sal oder Santiago bietet ein Mietwagen tolle Unabhängigkeit. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Mietwagen prüfen.</a>"
+    "visum_text": "Os cidadãos portugueses podem entrar em Cabo Verde como turistas sem visto para estadias de curta duração, beneficiando de isenção de visto à chegada. No entanto, tal como acontece com outras nacionalidades elegíveis, é obrigatório efetuar o registo prévio na plataforma oficial EASE antes da viagem e pagar a Taxa de Segurança Aeroportuária (TSA). O registo deve ser concluído, idealmente, até 5 dias antes da partida. À chegada, é importante apresentar um passaporte português válido, bilhete de regresso ou continuação da viagem e, se solicitado, comprovativos de alojamento e meios financeiros suficientes para a estadia. Para viagens turísticas, esta é a regra aplicável aos cidadãos de Portugal, não havendo, em princípio, necessidade de visto consular para entradas de curta duração.",
+    "affiliate_hinweis": "<strong>Dica de viagem para Cabo Verde:</strong> antes de partir, vale a pena comparar cartões de crédito pensados para viagens internacionais. Assim, pode <strong>poupar nas taxas de levantamento no estrangeiro</strong> e <strong>pagar em todo o mundo sem custos desnecessários</strong>, o que é especialmente útil em destinos como Cabo Verde. Veja aqui uma comparação prática e encontre a melhor opção para a sua viagem: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "georgien",
     "name": "Georgien",
-    "visum_status": "Kein Visum nötig (bis 1 Jahr)",
+    "visum_status": "Sem visto necessário (até 1 ano)",
     "pass_monate": 0,
-    "visum_text": "Georgien hat eine der großzügigsten Einreiseregelungen weltweit: Deutsche Staatsangehörige können sich mit dem Reisepass (oder sogar dem Personalausweis) bis zu einem vollen Jahr visumfrei im Land aufhalten.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Die Bergstraßen im Kaukasus rufen! <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Buchen Sie hier Ihren Mietwagen für unvergessliche Touren in Georgien.</a>"
+    "visum_text": "Para cidadãos portugueses que viajam para a Geórgia como turistas, não é necessário visto para estadias de até 1 ano. A entrada é normalmente possível com passaporte válido, e as regras são muito favoráveis para viagens de turismo, negócios ou visitas de curta duração. Em comparação com cidadãos alemães, não há diferença relevante nas condições de entrada para portugueses: ambos beneficiam de entrada sem visto para estadias prolongadas até 365 dias. Ainda assim, recomenda-se verificar antes da viagem se o passaporte tem validade suficiente e se existem requisitos adicionais temporários, como comprovativos de alojamento, meios financeiros ou seguro de viagem, caso sejam solicitados pelas autoridades de fronteira.",
+    "affiliate_hinweis": "<strong>Dica de viagem para a Geórgia:</strong> antes de partir, vale a pena comparar cartões de crédito que ajudam a <strong>poupar nas taxas no estrangeiro</strong> e a <strong>pagar sem custos em todo o mundo</strong>. Assim, pode levantar dinheiro e fazer pagamentos na Geórgia com mais conforto e menos encargos. Compare agora as melhores opções em <a href='https://www.tarifcheck.com/YKQ2R5K'>tarifcheck.com</a> e encontre o cartão ideal para a sua viagem.",
+    "is_optimized": true
   },
   {
     "slug": "kambodscha",
     "name": "Kambodscha",
-    "visum_status": "e-Visa oder Visa on Arrival",
+    "visum_status": "Visto obrigatório; e-Visa recomendado para turistas portugueses",
     "pass_monate": 6,
-    "visum_text": "Es besteht Visumpflicht. Touristen können entweder vorab das elektronische e-Visa beantragen (empfohlen) oder am Flughafen/an den Grenzübergängen das Visa on Arrival erwerben. Hierfür werden Passfotos und US-Dollar in bar benötigt.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Profitieren Sie von mehr Komfort und Flexibilität abseits der Hauptrouten. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Mietwagen in Kambodscha vergleichen.</a>"
+    "visum_text": "Para cidadãos portugueses que viajam para o Camboja como turistas, existe obrigação de visto. A entrada sem visto não se aplica. A forma mais prática é solicitar antecipadamente o e-Visa online, que normalmente facilita a chegada e reduz tempos de انتظار. Em alternativa, também é possível obter um Visa on Arrival em determinados aeroportos internacionais e postos fronteiriços, desde que o passaporte tenha validade suficiente, sejam apresentados documentos de viagem válidos e, se necessário, fotografia tipo passe e pagamento em dólares norte-americanos. Como as regras de entrada podem mudar, recomenda-se verificar antes da partida as condições atuais junto das autoridades cambojanas ou da representação diplomática competente.",
+    "affiliate_hinweis": "<strong>Dica de viagem para o Camboja:</strong> antes de partir, vale a pena comparar cartões de crédito pensados para viagens internacionais. Assim, pode <strong>poupar nas taxas de levantamento no estrangeiro</strong> e <strong>pagar em todo o mundo sem custos desnecessários</strong>. Um bom cartão de viagem pode fazer uma diferença real no orçamento da sua estadia no Camboja. <a href='https://www.tarifcheck.com/YKQ2R5K'>Compare agora cartões de crédito para viagens</a> e encontre a opção mais vantajosa para si.",
+    "is_optimized": true
   },
   {
     "slug": "laos",
     "name": "Laos",
-    "visum_status": "e-Visa oder Visa on Arrival",
+    "visum_status": "Visto obrigatório para cidadãos portugueses",
     "pass_monate": 6,
-    "visum_text": "Einreise ist nur mit Visum möglich. Sie können das Visum als e-Visa online beantragen oder als Visa on Arrival vor Ort erhalten. Für das On-Arrival-Visum brauchen Sie Passfotos und US-Dollar.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Entdecken Sie die malerische landschaftliche Schönheit von Laos in Ihrem ganz eigenen Tempo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Mietwagen-Preise checken.</a>"
+    "visum_text": "Os cidadãos portugueses que viajam para o Laos como turistas precisam de visto para entrar no país. Para Portugal, as regras de entrada são, na prática, semelhantes às aplicadas a cidadãos alemães: não existe isenção de visto para turismo. A boa notícia é que o visto pode ser obtido de forma simples através do e-Visa online ou, em muitos casos, como Visa on Arrival à chegada, dependendo do ponto de entrada. Para o Visa on Arrival, é recomendável levar passaporte válido, fotografias tipo passe e dinheiro em dólares norte-americanos para pagar a taxa no local. Como as regras de entrada podem mudar, é aconselhável verificar antes da viagem se o seu aeroporto ou fronteira terrestre aceita Visa on Arrival e se o e-Visa é a opção mais prática para o seu itinerário.",
+    "affiliate_hinweis": "Dica útil para a sua viagem ao Laos: antes de partir, compare cartões de crédito e débito que ajudam a <strong>poupar em levantamentos no estrangeiro</strong> e a <strong>pagar sem taxas em todo o mundo</strong>. Assim, evita custos desnecessários em caixas automáticas e compras no exterior. Veja uma comparação prática aqui: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viagens</a>.",
+    "is_optimized": true
   },
   {
     "slug": "taiwan",
     "name": "Taiwan",
-    "visum_status": "Kein Visum nötig (bis 90 Tage)",
+    "visum_status": "Entrada sem visto por até 90 dias",
     "pass_monate": 6,
-    "visum_text": "Deutsche Staatsangehörige können für touristische Aufenthalte von bis zu 90 Tagen visumfrei nach Taiwan einreisen. Ein bestätigtes Rück- oder Weiterflugticket ist auf Verlangen vorzulegen.",
-    "affiliate_hinweis": "💡 <strong>Roadtrip-Tipp:</strong> Eine aufregende Rundfahrt um die gesamte Insel Taiwan ist ein echtes Urlaubshighlight. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Ihren Taiwan-Mietwagen finden.</a>"
+    "visum_text": "Os cidadãos portugueses podem entrar em Taiwan para fins turísticos sem visto por um período de até 90 dias. É recomendável apresentar um passaporte válido durante toda a estadia, bem como uma passagem de regresso ou de continuação da viagem, caso seja solicitada pelas autoridades de imigração. As regras de entrada podem ser alteradas a qualquer momento, por isso é aconselhável verificar os requisitos atuais antes da partida.",
+    "affiliate_hinweis": "Dica de viagem para Taiwan: antes de partir, vale a pena comparar cartões de crédito que ajudem a <strong>poupar nas taxas de levantamento no estrangeiro</strong> e a <strong>pagar em todo o mundo sem custos adicionais</strong>. Um bom cartão pode tornar a sua viagem muito mais cómoda e económica. Compare agora as opções mais vantajosas em <a href='https://www.tarifcheck.com/YKQ2R5K'>este comparador de cartões de crédito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "nepal",
     "name": "Nepal",
-    "visum_status": "Visa on Arrival (Online-Registrierung)",
+    "visum_status": "Visto à chegada (com pré-registo online)",
     "pass_monate": 6,
-    "visum_text": "Touristen benötigen ein Visum, das unkompliziert als Visa on Arrival am Flughafen in Kathmandu erteilt wird. Um Zeit zu sparen, muss das zwingende Online-Antragsformular bereits vor der Abreise elektronisch ausgefüllt werden.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Wenn Sie nicht nur wandern, bietet ein eigener Mietwagen tolle Flexibilität für Ausflüge im Kathmandu-Tal. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Preise vergleichen.</a>"
+    "visum_text": "Os cidadãos portugueses que viajam para o Nepal como turistas necessitam de visto. A boa notícia é que, tal como acontece para muitos outros viajantes, o visto pode ser obtido de forma simples como <strong>Visa on Arrival</strong> no aeroporto de Catmandu e em alguns outros pontos de entrada autorizados. Para acelerar o processo, recomenda-se preencher previamente o formulário online de pedido de visto antes da partida. À chegada, será necessário apresentar o passaporte válido, o formulário preenchido, uma fotografia tipo passe e pagar a taxa correspondente. Para estadias turísticas, esta é normalmente a forma mais prática de entrada no Nepal para titulares de passaporte português.",
+    "affiliate_hinweis": "<strong>Dica de viagem para o Nepal:</strong> antes de partir, vale a pena comparar cartões de crédito pensados para viagens internacionais. Assim pode <strong>poupar nas taxas de levantamento no estrangeiro</strong> e <strong>pagar em todo o mundo sem custos adicionais</strong>. Veja aqui uma comparação útil e encontre a opção mais vantajosa para a sua viagem ao Nepal: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viagens</a>.",
+    "is_optimized": true
   },
   {
     "slug": "usbekistan",
     "name": "Usbekistan",
-    "visum_status": "Kein Visum nötig (bis 30 Tage)",
+    "visum_status": "Sem visto necessário (até 30 dias)",
     "pass_monate": 6,
-    "visum_text": "Für touristische Aufenthalte von bis zu 30 Tagen ist für deutsche Staatsangehörige kein Visum mehr erforderlich. Wichtig: Innerhalb von 3 Tagen nach der Ankunft muss man sich registrieren lassen (übernimmt in der Regel das Hotel).",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Auf den faszinierenden Spuren der Seidenstraße sind Sie mit dem Mietwagen maximal flexibel. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Mietwagen für Usbekistan sichern.</a>"
+    "visum_text": "Para cidadãos portugueses que viajam para o Usbequistão como turistas, não é necessário visto para estadias de até 30 dias. Esta isenção de visto aplica-se a viagens de turismo e facilita a entrada no país sem necessidade de solicitar autorização prévia. Importante: após a chegada, o registo da estadia pode ser obrigatório dentro do prazo legal; normalmente, o hotel trata desse procedimento, mas é aconselhável confirmar no momento do check-in. Como as regras de entrada podem mudar, recomenda-se verificar as condições atuais antes da viagem.",
+    "affiliate_hinweis": "<strong>Dica de viagem para o Usbequistão:</strong> antes de partir, vale a pena comparar cartões de crédito que ajudem a <strong>poupar nas taxas de levantamento no estrangeiro</strong> e a <strong>pagar gratuitamente em todo o mundo</strong>. Assim, pode reduzir custos em dinheiro vivo e aproveitar melhor a sua viagem. Veja a comparação aqui: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "fidschi",
     "name": "Fidschi",
-    "visum_status": "Kein Visum nötig (bis 4 Monate)",
+    "visum_status": "Sem visto necessário para estadias turísticas de até 4 meses",
     "pass_monate": 6,
-    "visum_text": "Deutsche erhalten bei der Ankunft eine kostenlose Besuchergenehmigung (Visitor Permit) für bis zu 4 Monate in den Pass gestempelt. Zwingend erforderlich ist ein Rück- oder Weiterflugticket und der Nachweis über ausreichende Geldmittel.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Erkunden Sie die wunderschöne Hauptinsel Viti Levu bequem mit dem eigenen Auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Mietwagen für Fidschi buchen.</a>"
+    "visum_text": "Os cidadãos portugueses podem viajar para Fiji como turistas sem necessidade de visto prévio. À chegada, é normalmente concedida uma Visitor Permit gratuita, válida por até 4 meses, desde que o passaporte esteja válido, exista uma passagem de regresso ou continuação da viagem e possam ser comprovados meios financeiros suficientes para a estadia. Para viagens de turismo, as regras aplicáveis aos cidadãos portugueses são, na prática, as mesmas que para os cidadãos alemães: não há obrigação de visto antecipado para estadias curtas, mas a decisão final sobre a entrada cabe sempre às autoridades de imigração no momento da chegada. Como as exigências podem mudar, recomenda-se verificar os requisitos atualizados antes da partida.",
+    "affiliate_hinweis": "Dica de viagem para Fiji: antes de partir, vale a pena comparar cartões de crédito que permitem <strong>poupar nas taxas de levantamento no estrangeiro</strong> e <strong>pagar em todo o mundo sem custos adicionais</strong>. Assim, evita encargos desnecessários ao levantar dinheiro ou ao pagar hotéis, restaurantes e atividades em Fiji. Veja uma comparação prática aqui: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viagens</a>.",
+    "is_optimized": true
   },
   {
     "slug": "armenien",
     "name": "Armenien",
-    "visum_status": "Kein Visum nötig (bis 180 Tage)",
+    "visum_status": "Sem visto necessário (até 90 dias)",
     "pass_monate": 5,
-    "visum_text": "Deutsche können für einen Aufenthalt von bis zu 180 Tagen innerhalb eines Kalenderjahres visumfrei nach Armenien einreisen. Der Reisepass muss bei Einreise noch mindestens 5 Monate gültig sein.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Entdecken Sie die beeindruckenden Klöster und Berglandschaften Armeniens ganz einfach mit dem Auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier Ihren Mietwagen sichern.</a>"
+    "visum_text": "Os cidadãos portugueses podem entrar na Arménia para turismo sem visto para estadias de até 180 dias por ano. Para além disso, o passaporte deve estar válido no momento da entrada e recomenda-se que tenha pelo menos 6 meses de validade restante. As regras de entrada podem ser alteradas a qualquer momento, por isso é aconselhável confirmar os requisitos atuais antes da viagem.",
+    "affiliate_hinweis": "<strong>Dica útil para a sua viagem à Arménia:</strong> antes de partir, vale a pena comparar cartões de crédito que permitam <strong>levantar dinheiro no estrangeiro com menos taxas</strong> e <strong>pagar em todo o mundo sem custos adicionais</strong>. Assim, pode poupar nas despesas de viagem e usar o seu cartão com mais flexibilidade. Veja aqui uma comparação prática: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viagens</a>.",
+    "is_optimized": true
   },
   {
     "slug": "anderes-land-allgemein",
     "name": "Anderes Reiseland (Allgemeine Bestimmungen)",
-    "visum_status": "Bitte Bestimmungen individuell prüfen",
+    "visum_status": "Normalmente sem visto para turistas — verificar requisitos específicos do destino",
     "pass_monate": 6,
-    "visum_text": "Für dieses Reiseziel liegen uns aktuell keine spezifischen Daten vor. Bitte prüfen Sie die Einreisebestimmungen auf der Seite des Auswärtigen Amtes. Als Faustregel gilt weltweit: Ihr Reisepass sollte noch mindestens 6 Monate gültig sein.",
-    "affiliate_hinweis": "💡 <strong>Mietwagen-Tipp:</strong> Egal wohin die Reise geht – ein Mietwagen bietet weltweit die ultimative Freiheit. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Hier weltweite Mietwagen-Angebote unkompliziert vergleichen.</a>"
+    "visum_text": "Para cidadãos portugueses que viajam como turistas, as regras de entrada dependem do país de destino e podem variar entre isenção de visto, visto à chegada ou visto eletrónico. Em muitos destinos, os titulares de passaporte português beneficiam de entrada sem visto para estadias curtas de turismo, mas noutros países é obrigatório obter autorização prévia. Recomendamos verificar sempre as condições atuais junto da representação diplomática do país de destino ou das autoridades oficiais de imigração antes da viagem. Como orientação geral, o passaporte deve ter uma validade mínima de 6 meses à data de entrada e, em alguns casos, pode ser exigido bilhete de regresso, comprovativo de alojamento e meios financeiros suficientes para a estadia.",
+    "affiliate_hinweis": "<strong>Dica de viagem:</strong> antes de partir, compare cartões de crédito para poupar em <strong>levantamentos no estrangeiro</strong> e <strong>pagamentos sem taxas em todo o mundo</strong>. Um cartão adequado pode reduzir custos e tornar a sua viagem muito mais cómoda. Veja a comparação aqui: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar cartões de crédito para viagens</a>.",
+    "is_optimized": true
   }
 ]

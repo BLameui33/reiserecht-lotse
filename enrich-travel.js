@@ -1,133 +1,66 @@
 // ==========================================
-//  Reise-Portal Master-Skript (All-in-One)
-//  Multilingual & Multi-File
+//  Reise-Portal Master-Skript (Laender-Anpassung)
+//  Multilingual & Multi-File - Visa & Kreditkarten
 // ==========================================
 const fs = require('fs');
 const path = require('path');
 
 // ==========================================
-// 1. HIER OPENAI API-KEY EINTRAGEN
+// 1. HIER OPENAI API-KEY & KREDITKARTEN-LINK EINTRAGEN
 // ==========================================
 const API_KEY = "";
+const CREDIT_CARD_LINK = "https://www.tarifcheck.com/YKQ2R5K"; // Dein neuer Link
 
-// Definition der Ordnerstruktur und Sprachen
-const folders = ['de', 'es', 'it', 'fr', 'nl', 'fr-be', 'nl-be', 'pt'];
-
-// ALLE JSON-Dateien, die das Skript durchsuchen soll
-const filesToProcess = [
-    'ferienhaus.json'
- 
-     // <-- NEU HINZUGEFÜGT
-];
-
-// Sprach-Mapping
-const languageMap = {
-    'de': 'Deutsch',
-    'es': 'Spanisch',
-    'it': 'Italienisch',
-    'fr': 'Französisch',
-    'fr-be': 'Französisch',
-    'nl': 'Niederländisch',
-    'nl-be': 'Niederländisch',
-    'pt': 'Portugiesisch'
+// Definition der Ordnerstruktur und genaue Zuordnung von Sprache + Staatsbürgerschaft
+const originMap = {
+    'de': { language: 'Deutsch', citizen: 'deutsche Staatsbürger (Deutschland)' },
+    'es': { language: 'Spanisch', citizen: 'spanische Staatsbürger (Spanien)' },
+    'it': { language: 'Italienisch', citizen: 'italienische Staatsbürger (Italien)' },
+    'fr': { language: 'Französisch', citizen: 'französische Staatsbürger (Frankreich)' },
+    'nl': { language: 'Niederländisch', citizen: 'niederländische Staatsbürger (Niederlande)' },
+    'fr-be': { language: 'Französisch', citizen: 'belgische Staatsbürger (Belgien)' },
+    'nl-be': { language: 'Niederländisch', citizen: 'belgische Staatsbürger (Belgien)' },
+    'pt': { language: 'Portugiesisch', citizen: 'portugiesische Staatsbürger (Portugal)' }
 };
 
+const filesToProcess = ['laender.json'];
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
-// Dynamischer Prompt-Generator je nach Dateityp
-function getPrompt(type, companyName, language, oldInfobox) {
-    if (type === 'airlines') {
-        return `
-Du bist ein SEO-Texter und Anwalt für internationale Fluggastrechte. Schreibe einen SEO-Infobox-Text (ca. 90-110 Wörter) für die Airline "${companyName}" in der Sprache ${language}.
-VORGABEN:
-Alter Text zur groben Orientierung (nicht kopieren, nur als Kontext): "${oldInfobox}"
-1. Erwähne das Profil der Airline und ihren Heimat-/Knotenflughafen.
-2. Der Text muss auf 3 Webseiten passen: Flugverspätung, Koffer verloren, Steuern/Gebühren zurückfordern.
-3. Nutze (in der Zielsprache!) die Begriffe: "EU-Fluggastrechte-Verordnung" und "Montrealer Übereinkommen".
-4. Nenne den juristischen Hauptsitz/Gerichtsstand der Airline.
-5. Fasse den Text in ein <p>-Tag ein.
-6. Antworte AUSSCHLIESSLICH mit dem HTML-Code, kein Markdown.`;
-    } 
-    else if (type === 'veranstalter') {
-        return `
-Du bist ein SEO-Texter und Anwalt für Reiserecht. Schreibe einen SEO-Infobox-Text (ca. 90-110 Wörter) für den Reiseveranstalter "${companyName}" in der Sprache ${language}.
-VORGABEN:
-Alter Text zur groben Orientierung (nicht kopieren, nur als Kontext): "${oldInfobox}"
-1. Erwähne kurz das Profil des Reiseveranstalters.
-2. Der Text muss auf 2 Webseiten passen: Reisemängel (z.B. Hotel schlecht) UND Reiserücktritt/Stornogebühren.
-3. Nutze (in der Zielsprache!) die Begriffe: "Pauschalreiserichtlinie" und beziehe dich auf typische Minderungstabellen (wie die Frankfurter Tabelle).
-4. Nenne den juristischen Hauptsitz/Gerichtsstand des Veranstalters.
-5. Fasse den Text in ein <p>-Tag ein.
-6. Antworte AUSSCHLIESSLICH mit dem HTML-Code, kein Markdown.`;
-    } 
-    else if (type === 'ferienhaus') {
+// Dynamischer Prompt-Generator für die Länder-Spezifischen Anpassungen
+function getPrompt(targetCountry, origin, oldData) {
     return `
-Du bist ein SEO-Texter und Anwalt für Reiserecht. Schreibe einen SEO-Infobox-Text (ca. 90-110 Wörter) für den Ferienhausanbieter bzw. Ferienhausvermittler "${companyName}" in der Sprache ${language}.
+Du bist ein Experte für internationale Einreisebestimmungen und ein SEO-Copywriter.
+Deine Aufgabe ist es, die Einreisebestimmungen für das Zielland "${targetCountry}" anzupassen.
 
-VORGABEN:
-Alter Text zur groben Orientierung (nicht kopieren, nur als Kontext): "${oldInfobox}"
+WICHTIGSTE REGEL: 
+Die Bestimmungen müssen speziell für **${origin.citizen}** gelten, die als Touristen einreisen! 
+Recherchiere kurz (bzw. nutze dein Wissen), ob für ${origin.citizen} andere Regeln als für deutsche Staatsbürger gelten (z.B. Visumzwang, Visa on Arrival oder Visumfreiheit).
 
-1. Erwähne kurz das Profil des Ferienhausanbieters bzw. Vermittlers.
-2. Der Text muss sowohl für Seiten zu Unterkunftsmängeln (z.B. mangelhaftes Ferienhaus, fehlende Ausstattung, Sauberkeitsmängel) als auch für Stornierungen und Rücktrittskosten geeignet sein.
-3. Erkläre kurz die rechtliche Einordnung als Vermittler oder Anbieter von Ferienunterkünften und mögliche Ansprüche von Kunden.
-4. Beziehe dich auf typische Minderungsansprüche bei Unterkunftsmängeln und auf Stornierungsregelungen.
-5. Nenne den juristischen Hauptsitz/Gerichtsstand des Unternehmens.
-6. Der Text soll sachlich, juristisch korrekt und SEO-optimiert formuliert sein.
-7. Fasse den Text in ein <p>-Tag ein.
-8. Antworte AUSSCHLIESSLICH mit dem HTML-Code, kein Markdown.`;
+Hier sind die alten Daten zur Orientierung (beziehen sich meist auf deutsche Staatsbürger):
+- Alter Visum Status: "${oldData.visum_status}"
+- Alter Text: "${oldData.visum_text}"
+
+ZUSÄTZLICHE AUFGABE (Affiliate-Wechsel):
+Schreibe den Affiliate-Hinweis komplett um. Erstelle einen attraktiven Tipp für einen Kreditkarten-Vergleich, der auf Reisen im Zielland "${targetCountry}" optimiert ist (z.B. Gebühren sparen beim Geld abheben im Ausland, weltweit kostenlos bezahlen). 
+Füge dort exakt diesen Link ein: ${CREDIT_CARD_LINK}
+
+VORGABEN FÜR DIE AUSGABE:
+1. Sprache: Schreibe ALLES komplett in der Sprache **${origin.language}**.
+2. Der Stil soll professionell, einladend und SEO-optimiert sein.
+3. Verwende im Affiliate-Hinweis passende HTML-Tags wie <strong> und <a href='...'> (Nutze im JSON bitte einfache Anführungszeichen '' für HTML-Attribute, damit das JSON valide bleibt).
+4. Antworte AUSSCHLIESSLICH mit einem validen JSON-Objekt. Verwende kein Markdown (keine \`\`\`json Blöcke). 
+
+Das JSON MUSS exakt diese Struktur haben:
+{
+  "visum_status": "Ein prägnanter Status-Satz",
+  "visum_text": "Der ausführliche Text zu den Einreisebestimmungen",
+  "affiliate_hinweis": "Der neue Kreditkarten-Tipp mit dem Link"
 }
-    else if (type === 'vermittler') {
-        return `
-Du bist ein SEO-Texter und Anwalt für Reiserecht. Schreibe einen SEO-Infobox-Text (ca. 90-110 Wörter) für das Reiseportal / den Vermittler "${companyName}" in der Sprache ${language}.
-VORGABEN:
-Alter Text zur groben Orientierung (nicht kopieren, nur als Kontext): "${oldInfobox}"
-1. Erwähne kurz das Profil als Vermittler/Buchungsportal (sie führen die Reise nicht selbst durch).
-2. Der Text muss auf 2 Webseiten passen: Reisemängel UND Reiserücktritt/Stornogebühren.
-3. Kläre kurz die rechtliche Rolle: Bei Mängeln haftet oft der Veranstalter, aber bei Stornierungen ist der Vermittler oft der erste Ansprechpartner.
-4. Nenne den juristischen Hauptsitz/Gerichtsstand.
-5. Fasse den Text in ein <p>-Tag ein.
-6. Antworte AUSSCHLIESSLICH mit dem HTML-Code, kein Markdown.`;
-    }
-    else if (type === 'kreuzfahrten') {
-        return `
-Du bist ein SEO-Texter und Anwalt für Reiserecht. Schreibe einen SEO-Infobox-Text (ca. 90-110 Wörter) für die Kreuzfahrt-Reederei "${companyName}" in der Sprache ${language}.
-VORGABEN:
-Alter Text zur groben Orientierung (nicht kopieren, nur als Kontext): "${oldInfobox}"
-1. Erwähne das Profil der Reederei und typische Kreuzfahrt-Routen oder Zielgebiete.
-2. Der Text ist für eine Webseite zum Thema "Reisemängel auf Kreuzfahrten und Minderung".
-3. Nutze (in der Zielsprache!) rechtliche Begriffe wie "Pauschalreiserecht", "Routenänderung", "Hafenausfall" oder "Schadensersatz wegen vertanen Urlaubs".
-4. Nenne den juristischen Hauptsitz bzw. die europäische Vertretung der Reederei.
-5. Fasse den Text in ein <p>-Tag ein.
-6. Antworte AUSSCHLIESSLICH mit dem HTML-Code, kein Markdown.`;
-    }
-    else if (type === 'vermittler-ota') {
-        return `
-Du bist ein SEO-Texter und Anwalt für Reiserecht. Schreibe einen SEO-Infobox-Text (ca. 90-110 Wörter) für das Online-Reisebüro (OTA) "${companyName}" in der Sprache ${language}.
-VORGABEN:
-Alter Text zur groben Orientierung (nicht kopieren, nur als Kontext): "${oldInfobox}"
-1. Erwähne kurz, dass es sich um eine Buchungsplattform/OTA handelt und nicht um die durchführende Airline.
-2. Der Text ist für eine Webseite zum Thema "Ticketstornierung und Erstattung von Steuern/Gebühren".
-3. Kläre rechtlich auf: Bei Erstattungen verweisen OTAs oft an die Airline und umgekehrt. Das OTA darf keine überzogenen eigenen Bearbeitungsgebühren für den reinen Erstattungsprozess verlangen.
-4. Nenne den juristischen Hauptsitz.
-5. Fasse den Text in ein <p>-Tag ein.
-6. Antworte AUSSCHLIESSLICH mit dem HTML-Code, kein Markdown.`;
-    }
-    else if (type === 'bahn') {
-        return `
-Du bist ein SEO-Texter und Anwalt für Fahrgastrechte. Schreibe einen SEO-Infobox-Text (ca. 90-110 Wörter) für das Bahnunternehmen "${companyName}" in der Sprache ${language}.
-VORGABEN:
-Alter Text zur groben Orientierung (nicht kopieren, nur als Kontext): "${oldInfobox}"
-1. Erwähne kurz das Profil des Bahnunternehmens und sein typisches Streckennetz/Einsatzland.
-2. Der Text ist für eine Webseite zum Thema "Zugverspätung, Zugausfall und Entschädigung".
-3. Nutze (in der Zielsprache!) rechtliche Begriffe wie "EU-Fahrgastrechte", "Verspätung ab 60 Minuten" oder "Fahrpreiserstattung". Beziehe dich auf die EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr.
-4. Nenne den juristischen Hauptsitz bzw. den Sitz des Kundenservice des Unternehmens.
-5. Fasse den Text in ein <p>-Tag ein.
-6. Antworte AUSSCHLIESSLICH mit dem HTML-Code, kein Markdown.`;
-    }
+`;
 }
 
-async function generateInfobox(type, companyName, language, oldInfobox) {
-    const prompt = getPrompt(type, companyName, language, oldInfobox);
+async function generateCountryData(targetCountry, origin, oldData) {
+    const prompt = getPrompt(targetCountry, origin, oldData);
 
     try {
         const response = await fetch("https://api.openai.com/v1/chat/completions", {
@@ -137,12 +70,12 @@ async function generateInfobox(type, companyName, language, oldInfobox) {
                 "Authorization": `Bearer ${API_KEY}`
             },
             body: JSON.stringify({
-                model: "gpt-5.4-mini",
+                model: "gpt-5.4-mini", // Auf ein existierendes, stabiles Modell angepasst
                 messages: [
-                    { role: "system", content: "Du lieferst puren HTML-Code ohne Formatierungs-Ticks (kein ```html)." },
+                    { role: "system", content: "Du bist eine API, die ausschließlich reines JSON ohne Markdown-Formatierung zurückgibt." },
                     { role: "user", content: prompt }
                 ],
-                temperature: 0.7
+                temperature: 0.4
             })
         });
 
@@ -154,75 +87,87 @@ async function generateInfobox(type, companyName, language, oldInfobox) {
         const data = await response.json();
         let text = data.choices[0].message.content.trim();
         
-        text = text.replace(/^```html\s*/i, '').replace(/\s*```$/i, '');
-        return text + '<!--opt-->'; 
+        // Eventuelle Markdown-Reste entfernen, falls die KI sich nicht dran hält
+        text = text.replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/\s*```$/i, '');
+        
+        return JSON.parse(text); 
         
     } catch (error) {
-        console.error(`❌ Fehler bei ${companyName}:`, error.message);
+        console.error(`❌ Fehler bei Land ${targetCountry} (${origin.language}):`, error.message);
         return null;
     }
 }
 
 async function processAll() {
-    console.log('🚀 Starte KI-Generierung für das gesamte Reise-Portal...\n');
+    console.log('🚀 Starte KI-Anpassung für Länder, Visa & Kreditkarten...\n');
 
-    for (const folder of folders) {
-        const lang = languageMap[folder];
+    for (const folder of Object.keys(originMap)) {
+        const origin = originMap[folder];
         
         for (const fileName of filesToProcess) {
-            const type = fileName.replace('.json', ''); 
             const inputPath = path.join(__dirname, 'src', folder, fileName);
             const outputPath = path.join(__dirname, 'src', folder, fileName.replace('.json', '_optimiert.json'));
 
             if (!fs.existsSync(inputPath)) {
-                // Überspringen, falls Datei für dieses Land nicht existiert
+                // Überspringen, falls das Verzeichnis oder die Datei nicht existiert
                 continue;
             }
 
-            console.log(`\n📂 Öffne [${folder.toUpperCase()}] -> ${fileName} (Sprache: ${lang})`);
+            console.log(`\n📂 Öffne [${folder.toUpperCase()}] -> ${fileName} (Zielgruppe: ${origin.citizen})`);
             
-           let items;
-if (fs.existsSync(outputPath)) {
-    console.log(`   ↩️  Fortschritt gefunden, nehme _optimiert.json als Basis...`);
-    items = JSON.parse(fs.readFileSync(outputPath, 'utf8'));
-} else {
-    items = JSON.parse(fs.readFileSync(inputPath, 'utf8'));
-}
-const itemsOptimiert = [];
+            let items;
+            if (fs.existsSync(outputPath)) {
+                console.log(`  ↩️  Fortschritt gefunden, nehme _optimiert.json als Basis...`);
+                items = JSON.parse(fs.readFileSync(outputPath, 'utf8'));
+            } else {
+                items = JSON.parse(fs.readFileSync(inputPath, 'utf8'));
+            }
+            
+            const itemsOptimiert = [];
 
             for (let i = 0; i < items.length; i++) {
                 let item = items[i];
                 
-                // Bereits bearbeitete Einträge ignorieren
-                if (item.infobox && item.infobox.includes('<!--opt-->')) {
-                    console.log(`⏭️  [${i+1}/${items.length}] ${item.name} bereits optimiert.`);
+                // Bereits bearbeitete Einträge anhand unseres neuen Flags ignorieren
+                if (item.is_optimized === true) {
+                    console.log(`⏭️  [${i+1}/${items.length}] ${item.name} bereits angepasst.`);
                     itemsOptimiert.push(item);
                     continue;
                 }
 
-                console.log(`⏳ [${i+1}/${items.length}] Generiere Text für: ${item.name}...`);
+                console.log(`⏳ [${i+1}/${items.length}] Optimiere Regeln für: ${item.name}...`);
                 
-                const neueInfobox = await generateInfobox(type, item.name, lang, item.infobox);
+                const result = await generateCountryData(item.name, origin, item);
                 
-                // Wir übernehmen alle vorhandenen Felder (slug, adresse, land etc.) 1:1
-                const itemGesichert = {
-                    ...item,
-                    infobox: neueInfobox || item.infobox
-                };
+                let itemGesichert;
+                if (result) {
+                    itemGesichert = {
+                        ...item,
+                        visum_status: result.visum_status,
+                        visum_text: result.visum_text,
+                        affiliate_hinweis: result.affiliate_hinweis,
+                        is_optimized: true // Markierung für den nächsten Durchlauf
+                    };
+                    console.log(`✅ Text erfolgreich generiert.`);
+                } else {
+                    // Fallback, falls die API fehlschlägt
+                    itemGesichert = item;
+                }
 
                 itemsOptimiert.push(itemGesichert);
 
+                // Direkt speichern, um bei Abbruch den Fortschritt zu sichern
                 fs.writeFileSync(outputPath, JSON.stringify(itemsOptimiert, null, 2), 'utf8');
 
-                // 1 Sekunde Pause für das Rate-Limit
-                await delay(1000);
+                // 1,5 Sekunden Pause für das Rate-Limit
+                await delay(1500);
             }
-            console.log(`✅ ${fileName} in [${folder}] abgeschlossen!`);
+            console.log(`✅ ${fileName} in [${folder}] vollständig bearbeitet!`);
         }
     }
 
-    console.log('\n🎉 FERTIG! Alle Dateien in allen Sprachen wurden optimiert.');
-    console.log('👉 Bitte benenne nun alle "_optimiert.json"-Dateien in ".json" um.');
+    console.log('\n🎉 FERTIG! Alle Länderdaten wurden auf die jeweiligen Staatsbürger und Kreditkarten umgestellt.');
+    console.log('👉 Bitte benenne nun alle "laender_optimiert.json"-Dateien in "laender.json" um.');
 }
 
 processAll();

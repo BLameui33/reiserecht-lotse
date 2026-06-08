@@ -4,487 +4,548 @@
     "name": "USA",
     "visum_status": "ESTA requis",
     "pass_monate": 6,
-    "visum_text": "Pour entrer aux États-Unis à des fins touristiques, les citoyens allemands ont impérativement besoin d’une autorisation électronique d’entrée (ESTA). Celle-ci doit obligatoirement être demandée en ligne avant le départ. Un visa classique n’est nécessaire que si vous restez plus de 90 jours ou si vous ne remplissez pas certains critères.",
-    "affiliate_hinweis": "💡 <strong>Classique du road trip :</strong> Les États-Unis se découvrent idéalement avec flexibilité, au volant de sa propre voiture. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici à l’avance votre voiture de location à prix avantageux.</a>"
+    "visum_text": "Pour entrer aux États-Unis à des fins touristiques, les citoyens belges n’ont pas besoin de visa classique pour un séjour de courte durée, mais ils doivent obligatoirement obtenir une autorisation électronique de voyage ESTA avant le départ. L’ESTA est requise dans le cadre du Visa Waiver Program et permet généralement un séjour touristique ou d’affaires de 90 jours maximum. La demande se fait en ligne et doit être approuvée avant l’embarquement. Un visa américain est nécessaire uniquement si vous prévoyez de rester plus de 90 jours, si le motif du voyage ne relève pas du tourisme, ou si vous ne remplissez pas les conditions du programme d’exemption de visa.",
+    "affiliate_hinweis": "<strong>Astuce voyage pour les États-Unis :</strong> avant de partir, comparez les cartes bancaires et cartes de crédit pour <strong>réduire les frais à l’étranger</strong>, <strong>retirer de l’argent aux distributeurs sans surcoût inutile</strong> et <strong>payer gratuitement dans le monde entier</strong>. Pour trouver l’offre la plus adaptée à votre séjour aux USA, consultez ce comparatif : <a href='https://www.tarifcheck.com/YKQ2R5K'>Comparer les cartes de crédit pour voyager aux États-Unis</a>.",
+    "is_optimized": true
   },
   {
     "slug": "aegypten",
     "name": "Égypte",
     "visum_status": "Visa requis (e-Visa ou à l’arrivée)",
     "pass_monate": 6,
-    "visum_text": "Les ressortissants allemands ont besoin d’un visa pour entrer en Égypte. Celui-ci peut être demandé à l’avance en ligne sous forme d’e-Visa. Il existe également le « Visa on Arrival » directement à l’aéroport (souvent associé à de longues files d’attente).",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Découvrez l’Égypte en dehors des complexes hôteliers, en toute flexibilité et en toute autonomie. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici des voitures de location à prix avantageux.</a>"
+    "visum_text": "Les ressortissants belges voyageant en Égypte à des fins touristiques ont besoin d’un visa. Comme pour les citoyens allemands, il n’existe pas de visa gratuit à l’entrée pour un séjour touristique. Les voyageurs belges peuvent toutefois demander un e-Visa avant le départ ou obtenir un Visa on Arrival directement à l’aéroport en Égypte. Le e-Visa est généralement la solution la plus pratique pour éviter les files d’attente et sécuriser l’autorisation d’entrée à l’avance. Le Visa on Arrival reste possible, mais il peut entraîner des délais supplémentaires au contrôle frontalier. Pour un voyage touristique sans complication, il est donc recommandé aux ressortissants belges de vérifier les conditions actuelles avant le départ et de privilégier la demande en ligne lorsque cela est possible.",
+    "affiliate_hinweis": "Conseil voyage Égypte : avant de partir, comparez les cartes bancaires pour économiser sur les frais de retrait et de paiement à l’étranger. Une bonne carte peut vous permettre de <strong>retirer de l’argent à moindre coût</strong> et de <strong>payer dans le monde entier sans frais supplémentaires</strong>. Comparez dès maintenant les offres adaptées aux voyages sur <a href='https://www.tarifcheck.com/YKQ2R5K'>Tarifcheck</a> et trouvez la carte la plus avantageuse pour votre séjour en Égypte.",
+    "is_optimized": true
   },
   {
     "slug": "tuerkei",
     "name": "Turquie",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "visum_status": "Visa non requis pour les ressortissants belges jusqu’à 90 jours",
     "pass_monate": 0,
-    "visum_text": "Pour des séjours touristiques allant jusqu’à 90 jours (sur une période de 180 jours), les ressortissants allemands n’ont pas besoin de visa. L’entrée est même possible avec la carte d’identité.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Pour les excursions sur la côte ou dans l’arrière-pays, une voiture personnelle vaut vraiment le coup. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici à temps votre voiture de location pour la Turquie.</a>"
+    "visum_text": "Pour un séjour touristique en Turquie allant jusqu’à 90 jours sur une période de 180 jours, les ressortissants belges n’ont généralement pas besoin de visa. L’entrée est possible avec un passeport valide, et la carte d’identité belge est également acceptée pour les voyages touristiques de courte durée. Par rapport aux ressortissants allemands, les règles sont donc très similaires : il n’y a pas de visa obligatoire pour un court séjour touristique. Avant le départ, il est toutefois recommandé de vérifier que le document de voyage est valide pour toute la durée du séjour et de s’informer sur les éventuelles exigences d’entrée en vigueur au moment du voyage.",
+    "affiliate_hinweis": "<strong>Conseil voyage Turquie :</strong> avant de partir, comparez une carte bancaire adaptée aux voyages pour <strong>économiser sur les retraits et les paiements à l’étranger</strong>. Une bonne carte peut vous aider à éviter les frais cachés, à retirer de l’argent à moindre coût et à payer <strong>dans le monde entier sans frais</strong>. Comparez dès maintenant les offres ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>vers le comparatif de cartes bancaires</a>.",
+    "is_optimized": true
   },
   {
     "slug": "uk",
     "name": "Grande-Bretagne",
-    "visum_status": "ETA requis",
+    "visum_status": "ETA requis pour les ressortissants belges",
     "pass_monate": 0,
-    "visum_text": "Pour des séjours touristiques allant jusqu’à 6 mois, les Allemands n’ont pas besoin de visa classique, mais l’autorisation électronique d’entrée (ETA) est obligatoire. Un passeport valide est impératif ; la carte d’identité ne suffit plus.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Idéal pour les Highlands ou la Cornouailles – pensez à la conduite à gauche ! <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici les prix des voitures de location pour la Grande-Bretagne.</a>"
+    "visum_text": "Pour un voyage touristique en Grande-Bretagne allant jusqu’à 6 mois, les citoyens belges n’ont pas besoin de visa classique, mais une autorisation électronique de voyage (ETA) est requise avant le départ. Un passeport belge valide est obligatoire pour l’entrée sur le territoire ; la carte d’identité ne suffit pas. À ce jour, les règles d’entrée pour les Belges sont globalement similaires à celles appliquées aux ressortissants allemands pour un séjour touristique, avec l’obligation supplémentaire de disposer d’une ETA.",
+    "affiliate_hinweis": "<strong>Astuce voyage Grande-Bretagne :</strong> avant de partir, comparez les cartes bancaires les plus avantageuses pour payer sans frais à l’étranger et retirer de l’argent au meilleur coût. Certaines cartes permettent des paiements mondiaux gratuits et réduisent les frais de retrait, ce qui peut faire une vraie différence pendant votre séjour. Découvrez une comparaison pratique ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparer les cartes bancaires pour voyager en Grande-Bretagne</a>.",
+    "is_optimized": true
   },
   {
     "slug": "thailand",
     "name": "Thaïlande",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 60 jours)",
+    "visum_status": "Aucun visa requis pour un séjour touristique jusqu’à 60 jours",
     "pass_monate": 6,
-    "visum_text": "Pour des séjours touristiques allant jusqu’à 60 jours, les citoyens allemands peuvent entrer sans visa. Le passeport doit encore être valable au moins 6 mois à l’entrée. Un billet de continuation ou de retour peut éventuellement être exigé.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Pour une flexibilité maximale hors des sentiers touristiques habituels. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trouvez ici des voitures de location fiables en Thaïlande.</a>"
+    "visum_text": "Pour les citoyens belges voyageant en Thaïlande à des fins touristiques, aucun visa n’est nécessaire pour un séjour allant jusqu’à 60 jours dans le cadre de l’exemption de visa. Le passeport doit être valable au moins 6 mois à compter de la date d’entrée et présenter au moins une page vierge. Les autorités thaïlandaises peuvent également demander un billet de retour ou de continuation ainsi qu’une preuve de fonds suffisants. Si vous souhaitez rester plus longtemps, il faut prévoir une prolongation ou un visa adapté avant le départ.",
+    "affiliate_hinweis": "<strong>Astuce voyage Thaïlande :</strong> avant de partir, comparez une carte bancaire de voyage pour <strong>économiser sur les retraits et les paiements à l’étranger</strong>. Certaines cartes permettent de <strong>retirer de l’argent sans frais élevés</strong> et de <strong>payer dans le monde entier sans commission</strong> — idéal pour un séjour en Thaïlande. Découvrez les offres et comparez les avantages ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>vers le comparatif de cartes bancaires</a>.",
+    "is_optimized": true
   },
   {
     "slug": "australien",
     "name": "Australie",
     "visum_status": "Visa eVisitor requis",
     "pass_monate": 6,
-    "visum_text": "Les Allemands ont impérativement besoin d’un visa pour entrer en Australie. Pour les touristes, le visa eVisitor (sous-classe 651) est idéal : il est demandé gratuitement en ligne et permet des séjours allant jusqu’à 3 mois.",
-    "affiliate_hinweis": "💡 <strong>Conseil road trip :</strong> L’Australie se découvre idéalement avec flexibilité, au volant de sa propre voiture. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici les prix des voitures de location pour l’Australie.</a>"
+    "visum_text": "Les citoyens belges doivent obtenir un visa avant de voyager en Australie à des fins touristiques. Pour un séjour de vacances, le visa eVisitor (sous-classe 651) est généralement la solution la plus simple : il se demande en ligne, est gratuit et autorise des séjours allant jusqu’à 3 mois par entrée. Par rapport aux ressortissants allemands, les règles sont identiques pour les voyageurs belges : il n’existe pas de visa à l’arrivée pour le tourisme, et une autorisation électronique préalable est obligatoire avant le départ.",
+    "affiliate_hinweis": "<strong>Astuce voyage Australie :</strong> avant de partir, comparez les cartes bancaires pour réduire les frais à l’étranger. Une bonne carte peut vous aider à <strong>payer sans frais dans le monde entier</strong> et à <strong>retirer de l’argent à moindre coût</strong> en Australie. Découvrez les offres adaptées aux voyageurs ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparatif de cartes bancaires</a>.",
+    "is_optimized": true
   },
   {
     "slug": "kanada",
     "name": "Canada",
-    "visum_status": "eTA requise",
+    "visum_status": "Aucun visa requis, eTA obligatoire pour l’entrée par avion",
     "pass_monate": 6,
-    "visum_text": "Toute personne entrant au Canada par voie aérienne n’a pas besoin de visa, mais doit impérativement disposer d’une autorisation électronique de voyage (eTA). En cas d’entrée par voie terrestre (par ex. depuis les États-Unis), l’eTA n’est pas nécessaire.",
-    "affiliate_hinweis": "⚠️ <strong>Conseil location de voiture :</strong> Réservez impérativement votre voiture de location pour le Canada depuis l’Allemagne afin de bénéficier d’une couverture d’assurance complète. <a href='https://www.c24n.de/nsnjZZ8' style='color:#d32f2f;'>Comparez ici les prix des voitures de location.</a>"
+    "visum_text": "Pour les ressortissants belges voyageant au Canada à des fins touristiques, aucun visa n’est généralement requis pour un séjour de courte durée. En revanche, une autorisation électronique de voyage (eTA) est obligatoire pour toute entrée au Canada par voie aérienne. L’eTA doit être obtenue avant le départ et est liée électroniquement au passeport. Si vous entrez au Canada par voie terrestre ou maritime, par exemple depuis les États-Unis, l’eTA n’est pas nécessaire. Les règles d’entrée peuvent évoluer, il est donc recommandé de vérifier les conditions officielles avant le voyage.",
+    "affiliate_hinweis": "<strong>Astuce voyage Canada :</strong> avant de partir, comparez les cartes bancaires les plus avantageuses pour votre séjour. Certaines cartes permettent de <strong>réduire les frais de retrait à l’étranger</strong> et de <strong>payer sans frais dans le monde entier</strong>, ce qui peut faire une vraie différence au Canada. Découvrez un comparatif pratique ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>trouver la carte idéale pour voyager au Canada</a>.",
+    "is_optimized": true
   },
   {
     "slug": "vae",
     "name": "Émirats arabes unis (Dubaï)",
-    "visum_status": "Visa on Arrival gratuit",
+    "visum_status": "Visa à l'arrivée gratuit",
     "pass_monate": 6,
-    "visum_text": "Les Allemands reçoivent gratuitement à l’entrée aux EAU (par ex. à Dubaï ou Abou Dhabi) un « Visa on Arrival » tamponné dans le passeport. Celui-ci autorise un séjour allant jusqu’à 90 jours sur une période de 180 jours.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Les Émirats disposent de routes remarquablement bien développées. Une voiture de location y est souvent plus pratique que des trajets constants en taxi. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trouvez ici une voiture de location pour Dubaï et plus encore.</a>"
+    "visum_text": "Pour les ressortissants belges voyageant aux Émirats arabes unis en tant que touristes, aucun visa préalable n’est généralement requis. À l’arrivée à Dubaï, Abou Dhabi ou dans tout autre aéroport des Émirats arabes unis, les citoyens belges bénéficient d’un visa à l’arrivée gratuit, apposé directement dans le passeport. Ce séjour touristique autorise en règle générale une durée allant jusqu’à 90 jours sur une période de 180 jours. Les règles sont donc très proches de celles applicables aux citoyens allemands, sans différence notable pour un voyage touristique de courte durée. Il est toutefois recommandé de voyager avec un passeport valable au moins six mois à compter de la date d’entrée et de vérifier les conditions actuelles avant le départ, car les exigences d’entrée peuvent évoluer.",
+    "affiliate_hinweis": "<strong>Astuce voyage pour les Émirats arabes unis :</strong> avant de partir à Dubaï, comparez les cartes bancaires et cartes de crédit pour réduire vos frais à l’étranger. Une bonne carte peut vous aider à <strong>retirer de l’argent sans frais élevés</strong> et à <strong>payer dans le monde entier sans commission</strong>. Pour trouver l’offre la plus adaptée à votre séjour, consultez ce comparateur : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparatif de cartes de crédit pour voyager aux Émirats arabes unis</a>.",
+    "is_optimized": true
   },
   {
     "slug": "malediven",
     "name": "Maldives",
-    "visum_status": "Visa on Arrival gratuit",
+    "visum_status": "Visa à l’arrivée gratuit",
     "pass_monate": 6,
-    "visum_text": "Aucun visa n’est nécessaire à l’avance pour les Maldives. Un visa touristique de 30 jours est délivré gratuitement à l’arrivée à l’aéroport. Important : une déclaration électronique d’entrée (IMUGA) doit être remplie en ligne avant le départ.",
-    "affiliate_hinweis": "💡 <strong>Voiture de location pour le trajet vers l’aéroport :</strong> Besoin encore d’une voiture pour vous rendre confortablement à l’aéroport en Allemagne ? <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici des voitures de location à prix avantageux.</a>"
+    "visum_text": "Pour les ressortissants belges voyageant aux Maldives à des fins touristiques, aucun visa n’est à demander avant le départ. Un visa touristique gratuit de 30 jours est délivré à l’arrivée à l’aéroport. Les conditions d’entrée peuvent toutefois être contrôlées par les autorités, notamment la présentation d’un passeport valide, d’un billet de retour ou de continuation, ainsi que de justificatifs de séjour et de ressources suffisantes. Important : une déclaration électronique d’entrée (IMUGA) doit être remplie en ligne avant le départ. En pratique, les règles d’entrée pour les citoyens belges sont identiques à celles appliquées aux voyageurs allemands pour un séjour touristique.",
+    "affiliate_hinweis": "<strong>Astuce voyage Maldives :</strong> avant de partir, comparez les cartes bancaires pour payer sans frais à l’étranger et retirer de l’argent au meilleur coût. Une bonne carte peut vous aider à <strong>économiser sur les frais de change</strong> et à <strong>payer dans le monde entier sans surcoût</strong>. Découvrez une comparaison utile ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>Comparer les cartes bancaires pour voyager aux Maldives</a>.",
+    "is_optimized": true
   },
   {
     "slug": "indonesien",
     "name": "Indonésie",
-    "visum_status": "Visa on Arrival / e-VoA requis",
+    "visum_status": "Visa à l’arrivée / e-VoA requis",
     "pass_monate": 6,
-    "visum_text": "Que vous planifiiez un circuit ou que vous recherchiez explicitement un visa pour Bali : pour l’Indonésie, un visa (Visa on Arrival) est requis. Vous pouvez l’acheter à l’arrivée ou, pour éviter l’attente, demander à l’avance un e-VoA en ligne (valable 30 jours).",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Bali et les autres îles se découvrent parfaitement avec son propre véhicule. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici les prix pour l’Indonésie.</a>"
+    "visum_text": "Pour les ressortissants belges voyageant en Indonésie à des fins ტურistiques, un visa est requis. Comme pour les voyageurs de nombreux pays européens, les citoyens belges ne bénéficient pas d’une exemption de visa pour un séjour touristique en Indonésie. Vous pouvez obtenir un Visa on Arrival (VoA) à l’arrivée dans les aéroports et points d’entrée autorisés, ou demander à l’avance un e-VoA en ligne pour gagner du temps. Le visa touristique est généralement valable pour un séjour initial de 30 jours et peut, selon les conditions en vigueur, être prolongé une fois pour 30 jours supplémentaires. Avant le départ, vérifiez que votre passeport belge est valide au moins 6 mois à compter de la date d’entrée et qu’il dispose de pages vierges suffisantes. Pour un voyage sans stress, il est recommandé de préparer à l’avance les documents d’entrée et de vérifier les dernières exigences officielles avant le départ.",
+    "affiliate_hinweis": "<strong>Astuce voyage pour l’Indonésie :</strong> avant de partir, comparez les cartes bancaires pour réduire les frais à l’étranger, retirer de l’argent à moindre coût et payer dans le monde entier sans frais inutiles. Un bon choix peut vous faire économiser sur chaque retrait et chaque achat pendant votre séjour. Découvrez une comparaison pratique ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparer les cartes bancaires maintenant</a>.",
+    "is_optimized": true
   },
   {
     "slug": "vietnam",
     "name": "Vietnam",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 45 jours)",
+    "visum_status": "Visa requis pour les ressortissants belges (e-visa recommandé)",
     "pass_monate": 6,
-    "visum_text": "Les ressortissants allemands peuvent entrer au Vietnam sans visa pour un séjour allant jusqu’à 45 jours. Ceux qui souhaitent rester plus longtemps (jusqu’à 90 jours) doivent demander un e-visa à l’avance.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Découvrez le Vietnam de manière totalement individuelle et à votre propre rythme. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici votre véhicule.</a>"
+    "visum_text": "Les ressortissants belges voyageant au Vietnam à des fins touristiques doivent obtenir un visa avant le départ. Contrairement à certaines nationalités bénéficiant d’une exemption de visa, les citoyens belges ne peuvent pas entrer au Vietnam sans visa pour un séjour touristique. La solution la plus simple est généralement de demander un e-visa vietnamien à l’avance, qui permet un séjour touristique conforme aux règles en vigueur. Il est donc important de vérifier la durée de validité et les conditions d’entrée avant le voyage, car les règles peuvent différer de celles applicables aux ressortissants allemands.",
+    "affiliate_hinweis": "<strong>Conseil voyage Vietnam :</strong> avant de partir, comparez les cartes bancaires pour <strong>réduire les frais de retrait à l’étranger</strong> et <strong>payer sans frais dans le monde entier</strong>. Une bonne carte peut vous aider à économiser à chaque paiement et à chaque retrait au Vietnam. Découvrez un comparatif utile ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparez les cartes bancaires pour voyager au Vietnam</a>.",
+    "is_optimized": true
   },
   {
     "slug": "sri-lanka",
     "name": "Sri Lanka",
-    "visum_status": "e-Visa / ETA requis",
+    "visum_status": "Visa requis : ETA obligatoire avant le départ",
     "pass_monate": 6,
-    "visum_text": "Le Sri Lanka est soumis à l’obligation de visa. L’e-visa (ETA) doit impérativement être demandé en ligne avant le voyage. Il autorise un séjour allant jusqu’à 30 jours.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Découvrez les plantations de thé et les plages du Sri Lanka avec flexibilité, au volant de votre propre voiture. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trouvez ici la voiture de location adaptée.</a>"
+    "visum_text": "Pour les citoyens belges voyageant en tourisme, le Sri Lanka est soumis à l’obligation de visa. Comme pour les ressortissants allemands, il ne s’agit pas d’une exemption de visa : une autorisation électronique de voyage (ETA) doit être obtenue avant le départ. L’ETA se demande en ligne et permet généralement un séjour touristique de courte durée, jusqu’à 30 jours. Il est recommandé de faire la demande avant le voyage afin d’éviter tout problème à l’arrivée et de vérifier que votre passeport est valide pour la durée requise par les autorités sri-lankaises.",
+    "affiliate_hinweis": "<strong>Astuce voyage Sri Lanka :</strong> avant de partir, comparez les meilleures cartes bancaires pour voyager et économiser sur vos dépenses sur place. Certaines cartes permettent de <strong>retirer de l’argent à moindre coût à l’étranger</strong> et de <strong>payer gratuitement dans le monde entier</strong>, ce qui peut faire une vraie différence pendant votre séjour au Sri Lanka. Découvrez une comparaison pratique ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparez les cartes bancaires pour voyager</a>.",
+    "is_optimized": true
   },
   {
     "slug": "suedafrika",
     "name": "Afrique du Sud",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "visum_status": "Aucun visa requis pour les séjours touristiques jusqu’à 90 jours",
     "pass_monate": 1,
-    "visum_text": "Les Allemands n’ont pas besoin de visa pour des séjours touristiques allant jusqu’à 90 jours. Ils reçoivent à l’entrée une autorisation de visiteur (Visitor's Visa) à la frontière. Le passeport doit être lisible par machine et comporter au moins deux pages vierges.",
-    "affiliate_hinweis": "💡 <strong>Voiture de location pour l’Afrique du Sud :</strong> Pour la Garden Route ou les parcs nationaux, une voiture de location est le meilleur choix. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici des voitures de location avec assurance tous risques à prix avantageux.</a>"
+    "visum_text": "Les ressortissants belges peuvent voyager en Afrique du Sud sans visa pour un séjour touristique allant jusqu’à 90 jours. À l’arrivée, les autorités frontalières délivrent une autorisation de visiteur (visitor’s permit) si les conditions d’entrée sont remplies. Le passeport belge doit être valide pour la durée du séjour et comporter au moins deux pages vierges, idéalement une validité suffisante au-delà de la date de retour. Pour éviter tout problème à l’entrée, il est recommandé de disposer d’un billet de retour ou de continuation, ainsi que de justificatifs de ressources suffisantes et d’un hébergement confirmé. Les règles d’entrée peuvent évoluer, il est donc conseillé de vérifier les exigences actuelles avant le départ.",
+    "affiliate_hinweis": "<strong>Astuce voyage Afrique du Sud :</strong> avant de partir, comparez une carte bancaire adaptée aux voyages pour réduire les frais de retrait et payer à l’étranger sans mauvaises surprises. Certaines cartes permettent de retirer de l’argent en devises locales à moindre coût et de régler vos achats dans le monde entier avec des frais réduits, voire nuls. Comparez dès maintenant les offres ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>https://www.tarifcheck.com/YKQ2R5K</a>",
+    "is_optimized": true
   },
   {
     "slug": "japan",
     "name": "Japon",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "visum_status": "Pas de visa nécessaire pour les touristes belges jusqu’à 90 jours",
     "pass_monate": 0,
-    "visum_text": "Les Allemands peuvent entrer au Japon sans visa en tant que « Temporary Visitor » pour un maximum de 90 jours. Le passeport doit simplement être valable pendant toute la durée du séjour. Une préinscription en ligne (Visit Japan Web) accélère l’entrée.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Pour explorer les régions rurales du Japon, une voiture de location est un complément parfait. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici les voitures de location au Japon.</a>"
+    "visum_text": "Les ressortissants belges peuvent entrer au Japon sans visa en tant que « Temporary Visitor » pour un séjour touristique allant jusqu’à 90 jours. Pour les citoyens belges, les règles sont identiques à celles des ressortissants allemands : aucun visa n’est requis pour un court séjour touristique, à condition de disposer d’un passeport valide pendant toute la durée du séjour et de respecter les conditions d’entrée en vigueur. Une préinscription via Visit Japan Web peut faciliter et accélérer les formalités à l’arrivée. Veuillez noter que l’entrée reste toujours soumise à la décision des autorités frontalières japonaises.",
+    "affiliate_hinweis": "Vous préparez un voyage au Japon ? <strong>Comparez avant de partir une carte bancaire adaptée aux voyages</strong> pour réduire les frais de retrait à l’étranger et payer dans le monde entier sans frais inutiles. Une bonne carte peut vous faire économiser sur les conversions de devises, les paiements en yens et les retraits aux distributeurs. Découvrez les offres et comparez les avantages ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>vers le comparateur de cartes bancaires</a>.",
+    "is_optimized": true
   },
   {
     "slug": "dominikanische-republik",
     "name": "République dominicaine",
     "visum_status": "E-Ticket requis (pas de visa)",
     "pass_monate": 6,
-    "visum_text": "Pour un séjour touristique allant jusqu’à 30 jours, les Allemands n’ont pas besoin de visa. Toutefois, un formulaire électronique gratuit (E-Ticket) pour l’entrée et la sortie doit impérativement être rempli en ligne.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Découvrez de superbes plages et l’intérieur de l’île en toute autonomie. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici votre voiture de location pour la Dom. Rep.</a>"
+    "visum_text": "Pour les ressortissants belges voyageant en République dominicaine à des fins touristiques, aucun visa n’est requis pour un séjour de courte durée. Les règles d’entrée sont donc globalement les mêmes que pour les citoyens allemands : l’accès est possible sans visa pour le tourisme, sous réserve de respecter les conditions d’entrée en vigueur. En revanche, un formulaire électronique gratuit E-Ticket doit obligatoirement être rempli en ligne avant le départ et présenté à l’entrée et à la sortie du pays. Il est recommandé de vérifier que votre passeport est valide pour toute la durée du séjour et de disposer, si nécessaire, des justificatifs habituels liés au voyage touristique.",
+    "affiliate_hinweis": "<strong>Astuce voyage pour la République dominicaine :</strong> avant de partir, comparez les cartes bancaires pour réduire vos frais à l’étranger. Une bonne carte de voyage peut vous aider à <strong>retirer de l’argent sans frais excessifs</strong> et à <strong>payer dans le monde entier sans frais de conversion inutiles</strong>. Pour trouver une offre adaptée à votre séjour en République dominicaine, consultez ce comparatif : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparez maintenant les cartes bancaires</a>.",
+    "is_optimized": true
   },
   {
     "slug": "mexiko",
     "name": "Mexique",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 180 jours)",
+    "visum_status": "Pas de visa nécessaire pour les touristes belges (jusqu’à 180 jours)",
     "pass_monate": 6,
-    "visum_text": "L’entrée des touristes allemands est possible sans visa. À l’arrivée, un séjour allant jusqu’à 180 jours peut être accordé. Parfois, une carte touristique (FMM) est remplie à l’aéroport, mais cela se fait souvent désormais de manière numérique.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Idéal pour aller aux cénotes et aux ruines mayas du Yucatán. Mieux vaut réserver depuis l’Allemagne. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trouvez ici une voiture de location pour le Mexique.</a>"
+    "visum_text": "Les ressortissants belges peuvent entrer au Mexique à des fins ტურistiques sans visa préalable. À l’arrivée, un séjour pouvant aller jusqu’à 180 jours peut être accordé par les autorités frontalières. En pratique, la carte touristique FMM n’est plus toujours remise sur papier et peut être gérée de manière numérique selon le point d’entrée. Important : les conditions d’entrée peuvent être vérifiées par les autorités mexicaines à l’arrivée, notamment la durée du séjour autorisée et la preuve d’un voyage touristique. Pour un séjour touristique, les règles applicables aux citoyens belges sont donc, dans l’ensemble, similaires à celles des citoyens allemands : pas de visa requis avant le départ, avec une autorisation de séjour décidée à l’entrée.",
+    "affiliate_hinweis": "<strong>Astuce voyage Mexique :</strong> avant de partir, comparez une carte bancaire adaptée aux voyages pour <strong>économiser sur les retraits et les paiements à l’étranger</strong>. Certaines cartes permettent de <strong>retirer de l’argent sans frais supplémentaires</strong> et de <strong>payer dans le monde entier sans frais de change</strong>. Découvrez les offres ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparatif de cartes bancaires pour voyager au Mexique</a>.",
+    "is_optimized": true
   },
   {
     "slug": "kuba",
     "name": "Cuba",
-    "visum_status": "Carte touristique requise",
+    "visum_status": "Carte touristique requise pour les ressortissants belges",
     "pass_monate": 6,
-    "visum_text": "Pour Cuba, vous avez besoin d’une carte touristique (Tarjeta del Turista) au lieu d’un visa classique, valable 90 jours. De plus, la preuve d’une assurance maladie à l’étranger valide (en espagnol ou en anglais) est obligatoire.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Un road trip à travers l’île rend les vacances à Cuba vraiment inoubliables. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vérifiez ici les disponibilités de voitures de location.</a>"
+    "visum_text": "Pour les citoyens belges voyageant à Cuba à des fins touristiques, une carte touristique (Tarjeta del Turista) est généralement requise au lieu d’un visa classique. Elle permet en principe un séjour de 90 jours. En complément, les autorités cubaines exigent une assurance maladie de voyage valide couvrant la durée du séjour ; il est recommandé de pouvoir présenter une attestation en espagnol ou en anglais. Les règles d’entrée pouvant évoluer, vérifiez toujours les conditions actuelles avant le départ auprès de votre compagnie aérienne ou des autorités compétentes.",
+    "affiliate_hinweis": "<strong>Astuce voyage pour Cuba :</strong> avant de partir, comparez les cartes bancaires pour réduire vos frais à l’étranger. Une bonne carte de voyage peut vous aider à <strong>retirer de l’argent à moindre coût</strong> et à <strong>payer sans frais partout dans le monde</strong>, un vrai plus pour un séjour à Cuba. Découvrez les offres adaptées ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparatif de cartes bancaires pour voyager malin</a>.",
+    "is_optimized": true
   },
   {
     "slug": "brasilien",
     "name": "Brésil",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "visum_status": "Visa non requis pour les ressortissants belges (séjour touristique jusqu’à 90 jours)",
     "pass_monate": 6,
-    "visum_text": "Les touristes allemands peuvent entrer au Brésil sans visa pour un maximum de 90 jours par semestre. À l’entrée, il faut pouvoir présenter un billet de retour ou de continuation ainsi qu’une preuve de ressources financières suffisantes.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Le Brésil est immense – une voiture de location vous offre la flexibilité nécessaire sur place. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici votre voiture à l’avance.</a>"
+    "visum_text": "Les citoyens belges peuvent entrer au Brésil à des fins touristiques sans visa pour un séjour allant jusqu’à 90 jours. À l’arrivée, les autorités peuvent demander un passeport valide, un billet de retour ou de continuation, ainsi qu’une preuve de ressources financières suffisantes pour couvrir le séjour. En pratique, les règles pour les Belges sont similaires à celles appliquées aux ressortissants allemands pour un voyage touristique de courte durée. Avant le départ, il est toutefois recommandé de vérifier les conditions d’entrée en vigueur, car les exigences peuvent évoluer selon la durée du séjour, le motif du voyage ou les décisions des autorités brésiliennes.",
+    "affiliate_hinweis": "<strong>Astuce voyage Brésil :</strong> avant de partir, comparez les cartes bancaires pour économiser sur les frais à l’étranger. Une bonne carte de crédit peut vous aider à <strong>retirer de l’argent à moindre coût</strong> et à <strong>payer sans frais dans le monde entier</strong>. Découvrez les offres adaptées aux voyageurs ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparatif de cartes de crédit</a>.",
+    "is_optimized": true
   },
   {
     "slug": "costa-rica",
     "name": "Costa Rica",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 180 jours)",
+    "visum_status": "Aucun visa requis pour les citoyens belges (jusqu’à 180 jours).",
     "pass_monate": 6,
-    "visum_text": "Aucune obligation de visa pour les Allemands. À l’entrée, un séjour allant jusqu’à 180 jours peut être accordé. Un billet de retour ou de continuation (bus ou avion) est obligatoire.",
-    "affiliate_hinweis": "💡 <strong>Voiture de location au Costa Rica :</strong> Pour les parcs nationaux et les routes non goudronnées, un véhicule 4x4 est souvent recommandé. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici les voitures de location pour le Costa Rica.</a>"
+    "visum_text": "Les ressortissants belges peuvent entrer au Costa Rica sans visa préalable pour un séjour touristique. À l’arrivée, une autorisation de séjour pouvant aller jusqu’à 180 jours peut être accordée par les autorités d’immigration. Un passeport valide est obligatoire, ainsi qu’un billet de retour ou de continuation (avion ou bus). Il est également recommandé de disposer de justificatifs de ressources suffisantes et, selon la situation, d’une preuve d’hébergement. En comparaison avec les citoyens allemands, les règles d’entrée touristiques sont identiques pour les Belges : il n’existe pas de visa obligatoire ni de visa à l’arrivée spécifique pour ce motif de voyage.",
+    "affiliate_hinweis": "Conseil voyage Costa Rica : avant de partir, comparez les cartes bancaires pour <strong>réduire les frais de retrait à l’étranger</strong> et <strong>payer sans frais dans le monde entier</strong>. Une bonne carte peut vous faire économiser sur chaque retrait et chaque paiement pendant votre séjour. Comparez maintenant les offres adaptées aux voyages sur <a href='https://www.tarifcheck.com/YKQ2R5K'>Tarifcheck</a>.",
+    "is_optimized": true
   },
   {
     "slug": "neuseeland",
     "name": "Nouvelle-Zélande",
     "visum_status": "NZeTA requise",
     "pass_monate": 3,
-    "visum_text": "Les Allemands n’ont pas besoin de visa pour des séjours allant jusqu’à 3 mois, mais l’autorisation électronique d’entrée (NZeTA) est obligatoire. Avec la NZeTA, une taxe touristique (IVL) est automatiquement perçue.",
-    "affiliate_hinweis": "💡 <strong>Paradis du road trip :</strong> Découvrez la Nouvelle-Zélande idéalement à bord de votre propre véhicule. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici une voiture de location en Nouvelle-Zélande.</a>"
+    "visum_text": "Pour les ressortissants belges voyageant en Nouvelle-Zélande à des fins touristiques, aucun visa classique n’est généralement exigé pour un séjour de courte durée, mais une autorisation électronique de voyage NZeTA est obligatoire avant le départ. La NZeTA doit être demandée en ligne et est indispensable pour embarquer vers la Nouvelle-Zélande. En plus de cette autorisation, la taxe touristique IVL (International Visitor Conservation and Tourism Levy) est généralement perçue. Les règles applicables aux Belges sont donc, dans les grandes lignes, similaires à celles des citoyens allemands pour un voyage touristique de courte durée.",
+    "affiliate_hinweis": "<strong>Astuce voyage Nouvelle-Zélande :</strong> avant votre départ, comparez les cartes bancaires pour réduire les frais à l’étranger et payer partout dans le monde sans mauvaises surprises. Certaines cartes permettent de limiter, voire d’éviter, les frais de retrait et de paiement en devises, ce qui peut être particulièrement avantageux en Nouvelle-Zélande. Découvrez une comparaison utile ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>vers le comparatif de cartes bancaires</a>.",
+    "is_optimized": true
   },
   {
     "slug": "philippinen",
     "name": "Philippines",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 30 jours)",
+    "visum_status": "Aucun visa requis pour les touristes belges jusqu’à 30 jours",
     "pass_monate": 6,
-    "visum_text": "Pour un séjour allant jusqu’à 30 jours, les citoyens allemands n’ont pas besoin de visa. Un billet de retour ou de continuation valide ainsi que l’enregistrement électronique (eTravel) avant le départ sont obligatoires.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Sur les grandes îles, une voiture de location vaut le coup pour des excursions indépendantes. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici des offres avantageuses.</a>"
+    "visum_text": "Pour les ressortissants belges voyageant aux Philippines à des fins touristiques, aucun visa n’est généralement nécessaire pour un séjour allant jusqu’à 30 jours. L’entrée est toutefois soumise à certaines conditions : un passeport belge valable au moins 6 mois à compter de la date d’arrivée, un billet de retour ou de continuation confirmé, ainsi que l’enregistrement électronique eTravel avant le départ sont obligatoires. Il est également recommandé de pouvoir justifier de ressources suffisantes pour la durée du séjour. À noter : les règles d’entrée peuvent évoluer, et les exigences pour les citoyens belges peuvent différer de celles applicables aux ressortissants allemands selon la durée du séjour ou le motif du voyage. Pour un séjour touristique de plus de 30 jours, une prolongation ou un visa approprié peut être nécessaire.",
+    "affiliate_hinweis": "<strong>Conseil voyage Philippines :</strong> avant votre départ, comparez les cartes bancaires pour économiser sur les retraits et les paiements sur place. Une bonne carte de voyage peut vous aider à <strong>réduire les frais de retrait à l’étranger</strong> et à <strong>payer gratuitement dans le monde entier</strong>. Comparez maintenant les offres adaptées aux voyageurs ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>vers le comparatif de cartes bancaires</a>.",
+    "is_optimized": true
   },
   {
     "slug": "malaysia",
     "name": "Malaisie",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "visum_status": "Entrée sans visa pour les citoyens belges jusqu’à 90 jours",
     "pass_monate": 6,
-    "visum_text": "Entrée sans visa pour les Allemands jusqu’à 90 jours. Attention : depuis 2024, le remplissage de la carte d’arrivée numérique (MDAC - Malaysia Digital Arrival Card) est obligatoire dans les 3 jours précédant l’arrivée.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Le réseau routier en Malaisie est remarquablement développé – parfait pour un road trip. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez une voiture ici.</a>"
+    "visum_text": "Pour les ressortissants belges voyageant en Malaisie à des fins touristiques, aucun visa n’est généralement requis pour un séjour allant jusqu’à 90 jours. Les citoyens belges bénéficient donc, comme les ressortissants allemands, d’une entrée sans visa pour les courts séjours touristiques. Attention toutefois : la Malaysia Digital Arrival Card (MDAC) est obligatoire et doit être remplie en ligne dans les 3 jours précédant l’arrivée. Le passeport doit être valide au moins 6 mois à compter de la date d’entrée et il est recommandé de disposer d’un billet de retour ou de continuation de voyage ainsi que de justificatifs de ressources suffisantes. Les conditions d’entrée pouvant évoluer, il est conseillé de vérifier les exigences officielles avant le départ.",
+    "affiliate_hinweis": "<strong>Astuce voyage Malaisie :</strong> pour payer sans frais inutiles et retirer de l’argent à moindre coût pendant votre séjour, comparez les cartes bancaires les plus avantageuses pour l’étranger. Certaines cartes permettent des <strong>retraits gratuits ou peu coûteux</strong> et le <strong>paiement sans frais dans le monde entier</strong> — idéal pour un voyage en Malaisie. Découvrez les offres et comparez ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparatif de cartes bancaires pour voyager en Malaisie</a>.",
+    "is_optimized": true
   },
   {
     "slug": "singapur",
     "name": "Singapour",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "visum_status": "Aucun visa requis pour les citoyens belges (séjour touristique jusqu’à 90 jours)",
     "pass_monate": 6,
-    "visum_text": "Pour Singapour, vous n’avez pas besoin de visa en tant que touriste. Toutefois, vous devez impérativement remplir en ligne la « SG Arrival Card » jusqu’à 3 jours avant l’arrivée, où des informations de santé et de voyage sont demandées.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Même à Singapour et dans ses environs, une voiture de location peut être extrêmement pratique pour les excursions. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez les prix ici.</a>"
+    "visum_text": "Pour Singapour, les citoyens belges voyageant à des fins touristiques n’ont pas besoin de visa pour un séjour allant jusqu’à 90 jours. Les règles sont donc similaires à celles appliquées aux ressortissants allemands. En revanche, il est obligatoire de remplir en ligne la <strong>SG Arrival Card</strong> dans les 3 jours précédant l’arrivée, avec les informations de voyage et de santé demandées. Veillez également à disposer d’un passeport belge valide pour toute la durée du séjour, ainsi que d’un billet de retour ou de continuation et de ressources suffisantes pour votre voyage.",
+    "affiliate_hinweis": "<strong>Conseil voyage pour Singapour :</strong> avant votre départ, comparez les cartes de crédit les plus avantageuses pour voyager afin de réduire les frais à l’étranger. Certaines cartes permettent de <strong>retirer de l’argent sans frais</strong> et de <strong>payer gratuitement dans le monde entier</strong>, ce qui peut être très utile à Singapour. Découvrez les offres adaptées aux voyageurs ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparatif de cartes de crédit</a>.",
+    "is_optimized": true
   },
   {
     "slug": "suedkorea",
     "name": "Corée du Sud",
-    "visum_status": "K-ETA requise",
+    "visum_status": "Entrée sans visa pour les touristes belges jusqu’à 90 jours, sans K-ETA",
     "pass_monate": 6,
-    "visum_text": "Entrée sans visa jusqu’à 90 jours. Toutefois, l’autorisation électronique de voyage (K-ETA) est obligatoire et doit être approuvée en ligne avant le départ. Elle dispense également du remplissage de la carte d’arrivée dans l’avion.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Surtout pour explorer la populaire île de Jeju, une voiture de location est indispensable. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trouvez ici votre véhicule pour la Corée du Sud.</a>"
+    "visum_text": "Pour les ressortissants belges voyageant en Corée du Sud à des fins touristiques, aucun visa n’est requis pour un séjour de courte durée allant jusqu’à 90 jours. Contrairement à l’ancienne règle appliquée à certaines nationalités, les citoyens belges ne doivent actuellement pas obtenir de K-ETA pour entrer en Corée du Sud dans le cadre d’un voyage touristique. Il n’est donc pas nécessaire de demander une autorisation électronique de voyage avant le départ. En revanche, les conditions d’entrée peuvent évoluer selon la durée du séjour, le motif du voyage ou les décisions des autorités sud-coréennes ; il est donc recommandé de vérifier les exigences officielles avant le départ.",
+    "affiliate_hinweis": "<strong>Astuce voyage Corée du Sud :</strong> avant de partir, comparez les cartes bancaires pour trouver celle qui vous permet de <strong>retirer de l’argent à moindre coût à l’étranger</strong> et de <strong>payer sans frais dans le monde entier</strong>. Un bon choix peut vous faire économiser sur les retraits en wons coréens et sur chaque paiement sur place. Découvrez ici un comparatif utile : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparez les cartes bancaires pour voyager en Corée du Sud</a>.",
+    "is_optimized": true
   },
   {
     "slug": "china",
     "name": "Chine",
-    "visum_status": "Sans visa (jusqu’à 15 jours) / sinon visa",
+    "visum_status": "Visa requis pour les ressortissants belges",
     "pass_monate": 6,
-    "visum_text": "Grâce à une réglementation spéciale, les Allemands peuvent actuellement entrer sans visa pour des séjours touristiques allant jusqu’à 15 jours. Pour des séjours de plus de 15 jours, un visa classique doit impérativement être demandé à l’avance auprès d’un Visa Application Service Center.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Déplacez-vous avec flexibilité dans l’Empire du Milieu. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici les prix des voitures de location pour la Chine.</a>"
+    "visum_text": "Pour les citoyens belges voyageant en Chine à des fins touristiques, un visa est généralement obligatoire avant le départ. Contrairement à certaines nationalités bénéficiant d’exemptions temporaires ou de facilités particulières, les Belges ne disposent pas, en règle générale, d’une entrée sans visa pour un séjour touristique standard. Il convient donc de déposer une demande de visa touristique chinois à l’avance auprès du centre de demande de visa compétent. Les conditions d’entrée pouvant évoluer rapidement, il est recommandé de vérifier les exigences en vigueur avant le voyage, notamment la durée de séjour autorisée, les documents à fournir et les éventuelles mesures sanitaires ou administratives complémentaires.",
+    "affiliate_hinweis": "<strong>Astuce voyage Chine :</strong> avant de partir, comparez les meilleures <strong>cartes bancaires pour l’étranger</strong> afin de réduire vos frais en Chine. Certaines cartes permettent de <strong>retirer de l’argent à moindre coût</strong> et de <strong>payer gratuitement dans le monde entier</strong>, un vrai plus pour un séjour touristique. Découvrez une comparaison pratique ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparer les cartes bancaires pour voyager en Chine</a>.",
+    "is_optimized": true
   },
   {
     "slug": "indien",
     "name": "Inde",
-    "visum_status": "e-Visa requis",
+    "visum_status": "Visa requis : e-Visa obligatoire pour les touristes belges",
     "pass_monate": 6,
-    "visum_text": "L’entrée n’est possible qu’avec un visa valide. Pour les touristes, l’e-Visa, demandé à l’avance en ligne, est recommandé. Le passeport doit comporter au moins deux pages vierges.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Pour plus de confort et d’indépendance sur les routes indiennes, une voiture de location est recommandée. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vérifiez les offres ici.</a>"
+    "visum_text": "Pour les ressortissants belges voyageant en Inde à des fins touristiques, un visa est obligatoire avant le départ. L’e-Visa indien doit être demandé en ligne à l’avance et constitue l’option la plus simple pour un séjour touristique. Il n’existe pas de visa à l’arrivée pour les citoyens belges dans ce cadre. Le passeport doit être valide pendant toute la durée du séjour et comporter au moins deux pages vierges. Il est recommandé de vérifier les conditions d’entrée avant le voyage, car les exigences peuvent évoluer.",
+    "affiliate_hinweis": "<strong>Astuce voyage Inde :</strong> pour limiter les frais sur place, comparez les cartes bancaires avant de partir. Une carte adaptée aux voyages peut vous aider à <strong>retirer de l’argent à moindre coût</strong> et à <strong>payer sans frais à l’étranger</strong>, un vrai plus en Inde. Découvrez une comparaison pratique ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>voir les meilleures cartes pour voyager</a>.",
+    "is_optimized": true
   },
   {
     "slug": "kenia",
     "name": "Kenya",
-    "visum_status": "eTA requise",
+    "visum_status": "eTA requise pour les citoyens belges",
     "pass_monate": 6,
-    "visum_text": "Le Kenya a supprimé le visa, mais exige désormais de tous les voyageurs (y compris les enfants) une autorisation électronique d’entrée (eTA). Celle-ci doit être demandée en ligne à temps avant le départ.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Pour un safari personnalisé ou pour poursuivre votre voyage, un véhicule tout-terrain de location est idéal. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici des 4x4 de location.</a>"
+    "visum_text": "Pour les ressortissants belges voyageant au Kenya à des fins touristiques, un visa classique n’est plus requis. En revanche, une autorisation électronique de voyage (eTA) est obligatoire avant le départ, y compris pour les enfants. La demande doit être effectuée en ligne à l’avance et l’eTA doit être obtenue avant l’embarquement. Les voyageurs belges doivent donc vérifier leur dossier de voyage suffisamment tôt afin d’éviter tout refus d’embarquement ou retard à l’arrivée.",
+    "affiliate_hinweis": "<strong>Astuce voyage Kenya :</strong> avant de partir, comparez les meilleures cartes bancaires pour voyager malin et réduire vos frais sur place. Certaines cartes permettent de <strong>retirer de l’argent à moindre coût à l’étranger</strong> et de <strong>payer gratuitement dans le monde entier</strong>, ce qui peut faire une vraie différence pendant votre séjour au Kenya. Découvrez les offres adaptées ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparatif de cartes bancaires pour voyager</a>.",
+    "is_optimized": true
   },
   {
     "slug": "tansania",
     "name": "Tanzanie (Zanzibar)",
-    "visum_status": "Visa / e-Visa requis",
+    "visum_status": "Visa requis pour les ressortissants belges (e-Visa recommandé)",
     "pass_monate": 6,
-    "visum_text": "Les Allemands ont besoin d’un visa pour la Tanzanie et la populaire Zanzibar. L’e-visa doit être demandé en ligne au plus tard 10 jours avant le départ. Un « Visa on Arrival » est possible, mais peut entraîner de longs temps d’attente.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Découvrez Zanzibar ou le continent en toute flexibilité et en toute autonomie. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici votre voiture de location en Tanzanie.</a>"
+    "visum_text": "Les citoyens belges qui voyagent en tant que touristes à Zanzibar (Tanzanie) doivent obtenir un visa. Pour les ressortissants de Belgique, les règles sont globalement les mêmes que pour les voyageurs allemands : il n’existe pas de visa gratuit à l’entrée, mais un e-Visa est fortement recommandé avant le départ. La demande se fait en ligne et doit idéalement être soumise plusieurs jours avant le voyage afin d’éviter tout retard à l’arrivée. Un Visa on Arrival peut parfois être proposé, mais il n’est pas la solution la plus pratique, car les temps d’attente peuvent être longs et les conditions d’entrée peuvent varier. Pour un séjour touristique, il est donc conseillé aux Belges de préparer leur visa à l’avance et de vérifier que leur passeport est valide pour toute la durée du séjour, avec une marge de sécurité suffisante.",
+    "affiliate_hinweis": "<strong>Astuce voyage Zanzibar :</strong> avant de partir, comparez une carte bancaire adaptée aux voyages pour <strong>économiser sur les retraits à l’étranger</strong> et <strong>payer sans frais dans le monde entier</strong>. Un bon choix peut faire une vraie différence sur place, notamment pour les dépenses en shillings tanzaniens. Découvrez les offres ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparatif de cartes bancaires pour voyager à Zanzibar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "seychellen",
     "name": "Seychelles",
     "visum_status": "Autorisation de voyage requise",
     "pass_monate": 0,
-    "visum_text": "Aucune obligation de visa pour les Seychelles. Toutefois, avant le départ, une autorisation d’entrée payante (Travel Authorization) doit impérativement être obtenue en ligne. Le passeport doit être valable au moins jusqu’à la sortie du territoire.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Explorez Mahé ou Praslin à votre propre rythme. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici une voiture pour les Seychelles.</a>"
+    "visum_text": "Pour les ressortissants belges voyageant aux Seychelles à des fins ტურistiques, il n’existe pas d’obligation de visa préalable : l’entrée est en principe sans visa. En revanche, une autorisation de voyage électronique payante (Travel Authorization) doit obligatoirement être obtenue avant le départ. Cette formalité s’effectue en ligne et doit être présentée à l’arrivée avec les documents de voyage requis. Le passeport belge doit être valide au moins jusqu’à la sortie du territoire. Il est également recommandé de disposer d’un billet de retour ou de continuation, d’une preuve d’hébergement et de ressources suffisantes pour la durée du séjour.",
+    "affiliate_hinweis": "<strong>Conseil voyage Seychelles :</strong> avant de partir, comparez les cartes bancaires les plus avantageuses pour votre séjour. Une bonne carte peut vous aider à <strong>réduire les frais de retrait à l’étranger</strong> et à <strong>payer sans frais dans le monde entier</strong>, ce qui est particulièrement utile aux Seychelles. Découvrez ici un comparatif pratique pour choisir la carte la plus adaptée à vos besoins de voyage : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparatif de cartes bancaires pour voyager aux Seychelles</a>.",
+    "is_optimized": true
   },
   {
     "slug": "mauritius",
     "name": "Maurice",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "visum_status": "Pas de visa nécessaire pour les ressortissants belges (jusqu’à 90 jours)",
     "pass_monate": 0,
-    "visum_text": "Aucune obligation de visa. Les ressortissants allemands peuvent entrer jusqu’à 90 jours. Le passeport doit être valable au-delà de la fin du voyage. Un billet de retour ou de continuation ainsi qu’une réservation d’hôtel doivent être présentés.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Une voiture de location est le meilleur choix pour découvrir toutes les plages cachées de Maurice. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez les offres ici.</a>"
+    "visum_text": "Les ressortissants belges peuvent voyager à Maurice à des fins touristiques sans visa préalable pour un séjour allant jusqu’à 90 jours. Le passeport doit être valide pour toute la durée du séjour et il est recommandé qu’il reste valable au-delà de la date de retour. À l’arrivée, les autorités peuvent demander un billet de retour ou de continuation, ainsi qu’une preuve d’hébergement ou de réservation d’hôtel et des justificatifs de ressources suffisantes. Pour un séjour plus long, un autre motif de voyage ou une activité professionnelle, des règles spécifiques peuvent s’appliquer. En pratique, les conditions d’entrée pour les citoyens belges sont similaires à celles des ressortissants allemands : il n’y a généralement pas de visa requis pour un voyage touristique de courte durée à Maurice.",
+    "affiliate_hinweis": "<strong>Astuce voyage pour Maurice :</strong> avant de partir, comparez les cartes bancaires pour réduire vos frais à l’étranger. Une bonne carte peut vous permettre de <strong>retirer de l’argent sans frais élevés</strong> et de <strong>payer dans le monde entier sans commission</strong>, ce qui est particulièrement pratique pour un séjour à Maurice. Découvrez ici une comparaison avantageuse : <a href='https://www.tarifcheck.com/YKQ2R5K'>Comparer les cartes bancaires pour voyager malin</a>.",
+    "is_optimized": true
   },
   {
     "slug": "marokko",
     "name": "Maroc",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "visum_status": "Aucun visa requis pour les citoyens belges (séjour touristique jusqu’à 90 jours)",
     "pass_monate": 0,
-    "visum_text": "Pour des raisons touristiques, les Allemands peuvent entrer au Maroc sans visa jusqu’à 90 jours. Le passeport doit être valable pendant toute la durée du séjour (recommandation : 6 mois).",
-    "affiliate_hinweis": "💡 <strong>Conseil road trip :</strong> Pour des trajets à couper le souffle à travers l’Atlas, une voiture de location est indispensable. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici une voiture de location à prix avantageux.</a>"
+    "visum_text": "Pour les ressortissants belges voyageant au Maroc à des fins touristiques, aucun visa n’est nécessaire pour un séjour allant jusqu’à 90 jours. Le passeport doit être valide pendant toute la durée du séjour ; il est toutefois recommandé qu’il reste valable au moins 6 mois après la date d’entrée. Les règles applicables aux citoyens belges sont, dans ce cadre touristique, identiques à celles des citoyens allemands : entrée sans visa pour un court séjour, sans visa à l’arrivée ni formalité de visa préalable. En cas de séjour plus long, d’activité professionnelle ou de motif autre que le tourisme, des conditions spécifiques peuvent s’appliquer.",
+    "affiliate_hinweis": "<strong>Astuce voyage Maroc :</strong> avant de partir, comparez les cartes bancaires pour réduire vos frais à l’étranger. Une bonne carte peut vous permettre de <strong>retirer de l’argent à moindre coût</strong> et de <strong>payer dans le monde entier sans frais</strong> — idéal pour un séjour au Maroc. Découvrez les offres adaptées ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparatif de cartes bancaires pour voyager au Maroc</a>.",
+    "is_optimized": true
   },
   {
     "slug": "tunesien",
     "name": "Tunisie",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "visum_status": "Aucun visa requis pour les touristes belges jusqu’à 90 jours",
     "pass_monate": 6,
-    "visum_text": "Aucune obligation de visa pour les touristes en forfait et les voyageurs individuels allemands jusqu’à 90 jours. L’entrée avec la carte d’identité n’est possible que dans le cadre d’un voyage organisé en forfait incluant vol et hôtel ; sinon, le passeport est nécessaire.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Découvrez les côtes et les paysages fascinants de la Tunisie en toute autonomie. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici les prix des voitures de location.</a>"
+    "visum_text": "Pour les ressortissants belges voyageant en Tunisie à des fins touristiques, aucun visa n’est nécessaire pour un séjour allant jusqu’à 90 jours. Les règles sont donc différentes de celles appliquées à certaines autres nationalités : les citoyens belges bénéficient d’une exemption de visa pour les courts séjours touristiques. En pratique, un passeport valide est généralement requis pour l’entrée sur le territoire tunisien. Il est recommandé de vérifier que le document de voyage couvre toute la durée du séjour et de disposer, si nécessaire, de justificatifs de voyage ou d’hébergement. Pour un séjour touristique de moins de 90 jours, aucune demande de visa préalable n’est normalement exigée pour les Belges.",
+    "affiliate_hinweis": "<strong>Astuce voyage Tunisie :</strong> avant votre départ, comparez les cartes bancaires pour réduire vos frais sur place. Une bonne carte de voyage peut vous aider à <strong>retirer de l’argent à moindre coût à l’étranger</strong> et à <strong>payer sans frais dans le monde entier</strong>. Découvrez une comparaison pratique ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparer les cartes de crédit pour voyager en Tunisie</a>.",
+    "is_optimized": true
   },
   {
     "slug": "oman",
     "name": "Oman",
-    "visum_status": "Sans visa jusqu’à 14 jours / sinon e-Visa",
+    "visum_status": "Visa requis pour les ressortissants belges avant le départ, avec possibilité d’eVisa touristique selon la durée et le motif du séjour.",
     "pass_monate": 6,
-    "visum_text": "Pour des séjours allant jusqu’à 14 jours, les Allemands n’ont plus besoin de visa. Ceux qui souhaitent rester plus longtemps doivent impérativement demander un e-Visa en ligne à l’avance. Une réservation d’hôtel et un billet de retour doivent être disponibles.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Oman est un pays classique de road trip. Un véhicule de location 4x4 est souvent recommandé. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici votre véhicule.</a>"
+    "visum_text": "Pour les citoyens belges voyageant au Sultanat d’Oman à des fins touristiques, les règles d’entrée ne sont pas les mêmes que pour les ressortissants allemands : la Belgique ne bénéficie pas de la même exemption de visa de courte durée. En pratique, un visa touristique est généralement requis avant le départ, le plus souvent sous forme d’eVisa à demander en ligne. Selon la durée du séjour et les conditions en vigueur, certaines entrées peuvent aussi être soumises à des formalités spécifiques à l’arrivée, mais il est recommandé de vérifier et d’obtenir l’autorisation de voyage à l’avance afin d’éviter tout refus à l’embarquement. Les voyageurs doivent disposer d’un passeport valide, d’une réservation d’hébergement et, si demandé, d’un billet de retour ou de continuation. Pour un voyage sans stress, il est conseillé de contrôler les exigences actuelles avant le départ, car les règles d’entrée pour Oman peuvent évoluer.",
+    "affiliate_hinweis": "Vous préparez un voyage à Oman ? <strong>Comparez dès maintenant les cartes bancaires les plus avantageuses pour l’étranger</strong> afin de réduire les frais de retrait et de paiement sur place, et de profiter de paiements internationaux souvent gratuits. C’est une astuce simple pour économiser pendant votre séjour et voyager plus sereinement. Découvrez l’offre ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>https://www.tarifcheck.com/YKQ2R5K</a>",
+    "is_optimized": true
   },
   {
     "slug": "katar",
     "name": "Qatar (Doha)",
-    "visum_status": "Visa on Arrival gratuit",
+    "visum_status": "Visa à l’arrivée gratuit pour les ressortissants belges",
     "pass_monate": 6,
-    "visum_text": "Les ressortissants allemands reçoivent à l’entrée un « Visa Waiver » gratuit (Visa on Arrival), valable pour des séjours allant jusqu’à 90 jours sur une période de 180 jours.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Doha et les paysages spectaculaires des environs se découvrent parfaitement en voiture. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trouvez ici une voiture de location pour le Qatar.</a>"
+    "visum_text": "Les ressortissants belges voyageant à des fins touristiques peuvent obtenir à leur arrivée à Doha un visa gratuit, généralement sous la forme d’un visa à l’arrivée / exemption de visa. Pour les séjours touristiques, cette autorisation permet en principe de rester jusqu’à 90 jours sur une période de 180 jours. Le passeport doit être valide au moins 6 mois à compter de la date d’entrée. Les règles d’entrée pouvant évoluer, il est recommandé de vérifier les conditions en vigueur avant le départ, notamment si votre voyage inclut un transit prolongé ou un séjour dépassant la durée autorisée.",
+    "affiliate_hinweis": "Vous partez au Qatar et souhaitez éviter les frais inutiles pendant votre séjour ? <strong>Comparez avant de partir la carte bancaire la plus adaptée aux voyages</strong> : paiements gratuits dans le monde entier, retraits à moindre coût à l’étranger et avantages pensés pour les voyageurs. Découvrez une sélection pratique et économique ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparatif de cartes bancaires pour voyager</a>.",
+    "is_optimized": true
   },
   {
     "slug": "saudi-arabien",
     "name": "Arabie saoudite",
-    "visum_status": "e-Visa / Visa on Arrival",
+    "visum_status": "e-Visa / Visa à l’arrivée",
     "pass_monate": 6,
-    "visum_text": "Les touristes allemands peuvent demander un e-Visa à l’avance en ligne ou obtenir un « Visa on Arrival » à l’arrivée. Le visa est valable un an et permet des entrées multiples (jusqu’à 90 jours consécutifs maximum).",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Les distances énormes en Arabie saoudite se parcourent idéalement avec flexibilité en voiture de location. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez maintenant les prix des voitures de location.</a>"
+    "visum_text": "Les ressortissants belges voyageant en Arabie saoudite à des fins touristiques peuvent généralement demander un e-Visa en ligne avant le départ ou obtenir un Visa à l’arrivée, selon les conditions en vigueur au moment du voyage. Pour les citoyens belges, les règles sont en pratique similaires à celles appliquées aux ressortissants de nombreux pays européens, y compris l’Allemagne : il n’existe pas de visa touristique sans formalité préalable, mais l’e-Visa saoudien facilite fortement l’entrée. Le visa touristique est en principe valable un an, permet des entrées multiples et autorise des séjours cumulés allant jusqu’à 90 jours au total sur la période de validité. Avant le départ, il est recommandé de vérifier que le passeport belge est valide pendant toute la durée du séjour et de consulter les exigences actuelles, car les conditions d’entrée peuvent évoluer.",
+    "affiliate_hinweis": "<strong>Astuce voyage pour l’Arabie saoudite :</strong> avant de partir, comparez les cartes bancaires les plus avantageuses pour voyager sans frais inutiles. Une bonne carte peut vous aider à <strong>payer gratuitement dans le monde entier</strong> et à <strong>réduire les frais de retrait à l’étranger</strong>, ce qui est particulièrement utile en Arabie saoudite. Découvrez une comparaison pratique ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparez maintenant les cartes bancaires pour voyager</a>.",
+    "is_optimized": true
   },
   {
     "slug": "jordanien",
     "name": "Jordanie",
-    "visum_status": "Visa requis (souvent via Jordan Pass)",
+    "visum_status": "Visa requis, généralement délivré à l’arrivée ou via eVisa pour les ressortissants belges.",
     "pass_monate": 6,
-    "visum_text": "Visa obligatoire. Le visa peut souvent être délivré à l’arrivée à l’aéroport. Si vous restez plus de 3 nuits, il est recommandé d’acheter le « Jordan Pass » avant le voyage : il exonère des frais de visa et inclut l’entrée à Pétra.",
-    "affiliate_hinweis": "💡 <strong>Conseil road trip :</strong> D’Amman à Pétra et à la mer Morte – la Jordanie est parfaite pour les conducteurs autonomes. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici votre voiture de location.</a>"
+    "visum_text": "Pour les citoyens belges voyageant en Jordanie à des fins touristiques, un visa est en principe obligatoire. Bonne nouvelle : les Belges peuvent généralement obtenir un visa à l’arrivée dans les principaux points d’entrée, notamment à l’aéroport international d’Amman, ou demander un eVisa avant le départ selon les options disponibles. Le séjour touristique est habituellement limité à 30 jours. Si vous prévoyez de visiter plusieurs sites touristiques, le Jordan Pass peut être très intéressant : il peut inclure les frais de visa sous certaines conditions et donne accès à de nombreuses attractions, dont Pétra. Vérifiez toutefois avant le départ que votre passeport est valable au moins 6 mois après l’entrée en Jordanie et que les conditions d’entrée n’ont pas changé.",
+    "affiliate_hinweis": "<strong>Conseil voyage pour la Jordanie :</strong> avant de partir, comparez une carte bancaire adaptée aux voyages afin de <strong>réduire les frais de retrait à l’étranger</strong> et de <strong>payer gratuitement dans le monde entier</strong>. Une bonne carte peut vous faire économiser sur les conversions de devises et les retraits en dinars jordaniens. Découvrez les offres ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparer les cartes bancaires pour voyager en Jordanie</a>.",
+    "is_optimized": true
   },
   {
     "slug": "jamaika",
     "name": "Jamaïque",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "visum_status": "Visa non requis pour les citoyens belges (jusqu’à 90 jours)",
     "pass_monate": 6,
-    "visum_text": "Pour un séjour touristique allant jusqu’à 90 jours, les Allemands n’ont pas besoin de visa. Toutefois, un formulaire d’entrée (Online Passenger Declaration) doit impérativement être rempli gratuitement avant le départ.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Découvrez cette île caribéenne de rêve à votre propre rythme. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici une voiture de location pour la Jamaïque.</a>"
+    "visum_text": "Pour un séjour touristique en Jamaïque allant jusqu’à 90 jours, les citoyens belges n’ont généralement pas besoin de visa. Les règles d’entrée sont donc similaires à celles applicables aux ressortissants allemands. En revanche, il est obligatoire de présenter un passeport valide pour toute la durée du séjour, ainsi qu’un billet de retour ou de continuation et, si demandé, des justificatifs de ressources suffisantes et d’hébergement. Avant le départ, les voyageurs doivent également remplir la déclaration d’entrée en ligne (Online Passenger Declaration), généralement sans frais. Comme les conditions d’entrée peuvent évoluer, il est recommandé de vérifier les exigences actuelles avant le voyage auprès des autorités compétentes ou de la compagnie aérienne.",
+    "affiliate_hinweis": "<strong>Astuce voyage Jamaïque :</strong> pour profiter pleinement de votre séjour sans frais inutiles, comparez avant de partir les cartes bancaires qui permettent de <strong>retirer de l’argent à l’étranger à moindre coût</strong> et de <strong>payer dans le monde entier sans frais de change</strong>. Un bon comparatif peut vous aider à économiser sur chaque retrait et chaque paiement en Jamaïque. Découvrez les offres ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparez maintenant les cartes bancaires adaptées aux voyages</a>.",
+    "is_optimized": true
   },
   {
     "slug": "peru",
     "name": "Pérou",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "visum_status": "Aucun visa requis pour les ressortissants belges jusqu’à 90 jours",
     "pass_monate": 6,
-    "visum_text": "Aucune obligation de visa pour le Pérou. Les touristes allemands reçoivent généralement à l’entrée une autorisation de séjour de 90 jours (par semestre). Un billet de continuation ou de retour doit être présenté.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Vivez les Andes et les routes côtières avec une flexibilité totale en voiture de location. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trouvez ici des véhicules adaptés.</a>"
+    "visum_text": "Les citoyens belges peuvent voyager au Pérou sans visa préalable à des fins touristiques. À l’arrivée, une autorisation de séjour est généralement accordée pour une durée maximale de 90 jours. Un billet de retour ou de continuation peut être exigé, tout comme la preuve de ressources suffisantes et un passeport en cours de validité. Les règles d’entrée peuvent évoluer, il est donc recommandé de vérifier les conditions actuelles avant le départ. Par rapport aux ressortissants allemands, les ressortissants belges sont soumis aux mêmes conditions d’entrée touristiques pour le Pérou : pas de visa nécessaire pour un court séjour, avec une durée de séjour généralement limitée à 90 jours.",
+    "affiliate_hinweis": "<strong>Conseil voyage Pérou :</strong> avant de partir, comparez les cartes bancaires pour économiser sur les frais de retrait et de paiement à l’étranger. Une bonne carte peut vous permettre de retirer de l’argent au Pérou avec moins de frais et de payer dans le monde entier sans surcoût. Découvrez une comparaison avantageuse ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparez maintenant les cartes bancaires pour voyager au Pérou</a>.",
+    "is_optimized": true
   },
   {
     "slug": "kolumbien",
     "name": "Colombie",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "visum_status": "Aucun visa requis pour les citoyens belges jusqu’à 90 jours",
     "pass_monate": 6,
-    "visum_text": "Entrée sans visa pour les Allemands jusqu’à 90 jours. Le remplissage du formulaire d’entrée en ligne « Check-MIG » est obligatoire dans les 72 heures précédant le départ.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Vous prévoyez un circuit dans la célèbre région du café ? Une voiture de location offre une liberté maximale. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez les offres ici.</a>"
+    "visum_text": "Les citoyens belges peuvent entrer en Colombie sans visa pour un séjour touristique allant jusqu’à 90 jours. À l’arrivée, un passeport valide est requis, et il est fortement recommandé de vérifier que sa validité couvre toute la durée du séjour. Comme pour les voyageurs allemands, le formulaire d’entrée en ligne « Check-MIG » doit être rempli dans les 72 heures précédant le départ. En pratique, les règles d’entrée pour les ressortissants belges et allemands sont similaires pour un voyage touristique de courte durée en Colombie. Pour tout séjour plus long, ou pour un motif autre que le tourisme, des formalités supplémentaires peuvent s’appliquer.",
+    "affiliate_hinweis": "<strong>Astuce voyage Colombie :</strong> avant de partir, comparez les cartes bancaires pour économiser sur les retraits et les paiements à l’étranger. Une bonne carte de voyage peut vous aider à <strong>réduire les frais de retrait en Colombie</strong> et à <strong>payer sans frais dans le monde entier</strong>. Découvrez une comparaison avantageuse ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparer les cartes bancaires pour voyager en Colombie</a>.",
+    "is_optimized": true
   },
   {
     "slug": "argentinien",
     "name": "Argentine",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "visum_status": "Aucun visa requis pour les citoyens belges jusqu’à 90 jours",
     "pass_monate": 0,
-    "visum_text": "Aucune obligation de visa pour les citoyens allemands jusqu’à 90 jours. Le passeport doit être valable pendant toute la durée du séjour prévu. Souvent, une preuve de continuation ou de retour est exigée à l’entrée.",
-    "affiliate_hinweis": "💡 <strong>Road trip en Patagonie :</strong> Les distances en Argentine sont immenses. Une bonne voiture de location est indispensable. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trouvez ici des voitures de location fiables pour l’Amérique du Sud.</a>"
+    "visum_text": "Les citoyens belges peuvent entrer en Argentine à des fins touristiques sans visa préalable pour un séjour allant jusqu’à 90 jours. Le passeport doit être valide pendant toute la durée du séjour et il est recommandé qu’il dispose d’une marge de validité suffisante pour éviter tout problème à l’arrivée. Les autorités frontalières peuvent demander une preuve de poursuite du voyage ou de retour, ainsi que des justificatifs de ressources suffisantes et d’hébergement. En pratique, les règles applicables aux ressortissants belges sont les mêmes que pour les ressortissants allemands pour un voyage touristique de courte durée en Argentine.",
+    "affiliate_hinweis": "<strong>Conseil voyage Argentine :</strong> avant de partir, comparez les cartes bancaires pour économiser sur les retraits et les paiements à l’étranger. Une carte adaptée peut vous aider à réduire les frais de change, à retirer de l’argent à moindre coût et à payer dans le monde entier sans frais inutiles. Découvrez une comparaison pratique ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparez les cartes de crédit pour voyager en Argentine</a>.",
+    "is_optimized": true
   },
   {
     "slug": "chile",
     "name": "Chili",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "visum_status": "Aucun visa nécessaire pour les citoyens belges jusqu’à 90 jours",
     "pass_monate": 6,
-    "visum_text": "Pour des séjours touristiques allant jusqu’à 90 jours, aucun visa n’est nécessaire. À l’entrée, vous recevez une carte touristique (Tarjeta de Turismo) que vous devez conserver soigneusement jusqu’à la sortie du territoire.",
-    "affiliate_hinweis": "💡 <strong>Voiture de location en Amérique du Sud :</strong> Le Chili se prête parfaitement à des road trips spectaculaires (par ex. sur la Carretera Austral). <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trouvez ici la voiture de location adaptée.</a>"
+    "visum_text": "Pour les ressortissants belges voyageant au Chili à des fins touristiques, aucun visa n’est requis pour un séjour allant jusqu’à 90 jours. À l’arrivée, les autorités d’immigration délivrent généralement une carte de tourisme (Tarjeta de Turismo), qu’il est important de conserver soigneusement pendant toute la durée du séjour et de présenter lors de la sortie du territoire. Le passeport doit être valide pour la durée du voyage, et il est recommandé de disposer d’un billet de retour ou de continuation ainsi que de ressources suffisantes pour le séjour. En pratique, les règles d’entrée pour les citoyens belges sont similaires à celles appliquées aux citoyens allemands : il s’agit d’une entrée sans visa pour le tourisme, sous réserve du respect des conditions d’admission en vigueur.",
+    "affiliate_hinweis": "Astuce voyage Chili : avant votre départ, comparez une <strong>carte bancaire adaptée aux voyages</strong> pour <strong>économiser sur les retraits à l’étranger</strong> et <strong>payer sans frais dans le monde entier</strong>. Certaines cartes offrent aussi de meilleurs taux de change et des assurances utiles en voyage. Découvrez les offres ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparatif de cartes bancaires pour voyager au Chili</a>.",
+    "is_optimized": true
   },
   {
     "slug": "ecuador",
     "name": "Équateur",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "visum_status": "Pas de visa nécessaire jusqu’à 90 jours pour les citoyens belges",
     "pass_monate": 6,
-    "visum_text": "Les Allemands peuvent entrer en Équateur sans visa pour un maximum de 90 jours (y compris les îles Galápagos). Un billet de continuation ou de retour doit pouvoir être présenté à l’entrée.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Sur le continent équatorien, une voiture de location vaut le coup pour des excursions dans les Andes. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez une voiture ici.</a>"
+    "visum_text": "Les citoyens belges peuvent entrer en Équateur sans visa pour un séjour touristique allant jusqu’à 90 jours. Cette exemption s’applique également aux îles Galápagos. À l’arrivée, il peut être demandé de présenter un billet de retour ou de continuation ainsi qu’un passeport en cours de validité. Les règles d’entrée pour les ressortissants belges sont, à notre connaissance, identiques à celles des citoyens allemands pour un voyage touristique de courte durée.",
+    "affiliate_hinweis": "<strong>Astuce voyage Équateur :</strong> avant de partir, comparez une carte bancaire adaptée aux voyages pour réduire les frais à l’étranger. Une bonne carte peut vous aider à <strong>retirer de l’argent à moindre coût</strong> et à <strong>payer dans le monde entier sans frais de change inutiles</strong> — un vrai plus pour un séjour en Équateur. Comparez dès maintenant les offres ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>https://www.tarifcheck.com/YKQ2R5K</a>",
+    "is_optimized": true
   },
   {
     "slug": "bolivien",
     "name": "Bolivie",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "visum_status": "Visa non requis pour les touristes belges (jusqu’à 90 jours)",
     "pass_monate": 6,
-    "visum_text": "L’entrée est possible sans visa pour un maximum de 90 jours. À l’arrivée, les touristes reçoivent généralement d’abord un tampon pour 30 jours, qui peut être prolongé gratuitement jusqu’à 90 jours auprès des services d’immigration du pays.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Découvrez les paysages impressionnants de la Bolivie avec flexibilité, au volant de votre propre véhicule. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici des voitures de location à prix avantageux.</a>"
+    "visum_text": "Pour les ressortissants belges voyageant en Bolivie à des fins touristiques, aucun visa n’est généralement nécessaire pour un séjour allant jusqu’à 90 jours. À l’arrivée, les autorités d’immigration accordent souvent d’abord un séjour initial de 30 jours, prolongeable gratuitement jusqu’à 90 jours au total auprès des services d’immigration locaux. Il est recommandé de voyager avec un passeport belge valide, un billet de retour ou de continuation, ainsi que des justificatifs de ressources suffisantes. Les règles d’entrée pouvant évoluer, il est conseillé de vérifier les conditions en vigueur avant le départ.",
+    "affiliate_hinweis": "<strong>Astuce voyage Bolivie :</strong> pour éviter les frais inutiles sur place, comparez une carte bancaire pensée pour l’étranger : retraits d’espèces à moindre coût, paiements sans frais dans le monde entier et conditions avantageuses pour vos dépenses en voyage. Découvrez une comparaison pratique ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>Comparer les cartes bancaires pour voyager en Bolivie</a>.",
+    "is_optimized": true
   },
   {
     "slug": "panama",
     "name": "Panama",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 180 jours)",
+    "visum_status": "Pas de visa nécessaire pour les citoyens belges (séjour touristique jusqu’à 90 jours)",
     "pass_monate": 3,
-    "visum_text": "Aucune obligation de visa pour les Allemands. À l’arrivée, une autorisation de séjour allant jusqu’à 180 jours est souvent accordée. Le passeport doit encore être valable au moins 3 mois à l’entrée. Un billet de sortie est obligatoire.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Avec une voiture de location, vous pouvez vous déplacer confortablement et en toute autonomie de la ville aux plages de rêve au Panama. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vérifiez ici les prix des voitures de location.</a>"
+    "visum_text": "Les ressortissants belges peuvent entrer au Panama sans visa pour un séjour touristique de courte durée, généralement jusqu’à 90 jours. À l’arrivée, il est recommandé de présenter un passeport belge en cours de validité, idéalement valable au moins 6 mois après la date d’entrée. Un billet de retour ou de continuation peut être exigé, ainsi que des justificatifs de ressources suffisantes pour la durée du séjour. Les règles d’entrée pouvant évoluer, il est conseillé de vérifier les conditions en vigueur avant le départ. Pour un voyage touristique, les citoyens belges bénéficient donc d’une entrée sans visa, contrairement à certaines nationalités soumises à des formalités plus strictes.",
+    "affiliate_hinweis": "Astuce voyage Panama : avant de partir, comparez les cartes bancaires pour <strong>réduire les frais de retrait à l’étranger</strong> et <strong>payer sans surcoût dans le monde entier</strong>. Une bonne carte peut vous faire économiser sur les retraits en dollars, les paiements internationaux et les frais de change pendant votre séjour. Découvrez une comparaison pratique ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparer les cartes bancaires pour voyager au Panama</a>.",
+    "is_optimized": true
   },
   {
     "slug": "guatemala",
     "name": "Guatemala",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "visum_status": "Pas de visa nécessaire pour les ressortissants belges jusqu’à 90 jours",
     "pass_monate": 6,
-    "visum_text": "Entrée sans visa possible jusqu’à 90 jours (valable pour l’ensemble de la zone C4). En cas d’entrée par voie terrestre, il arrive parfois qu’une petite taxe de traitement officieuse soit demandée à la frontière.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Le fascinant pays des Mayas se parcourt merveilleusement en toute autonomie, au volant de sa propre voiture. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez votre voiture de location ici à l’avance.</a>"
+    "visum_text": "Les citoyens belges peuvent entrer au Guatemala sans visa pour un séjour touristique allant jusqu’à 90 jours. Cette règle s’applique aux voyages de tourisme et, en pratique, ne diffère pas de celle généralement accordée aux ressortissants allemands. À l’arrivée, un passeport en cours de validité est requis, avec une durée de validité suffisante pour couvrir le séjour. En cas d’entrée par voie terrestre, des frais administratifs locaux ou une petite taxe de traitement peuvent parfois être demandés à la frontière. Il est recommandé de prévoir des espèces pour ces éventuels frais et de vérifier avant le départ que les conditions d’entrée n’ont pas changé.",
+    "affiliate_hinweis": "<strong>Conseil voyage Guatemala :</strong> pour éviter les frais inutiles sur place, comparez une carte bancaire adaptée aux voyages à l’étranger. Une bonne carte peut vous aider à <strong>retirer de l’argent à moindre coût</strong> au Guatemala et à <strong>payer sans frais dans le monde entier</strong>. Découvrez ici une comparaison utile pour trouver l’offre la plus avantageuse : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparer les cartes bancaires pour voyager au Guatemala</a>.",
+    "is_optimized": true
   },
   {
     "slug": "bahamas",
     "name": "Bahamas",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "visum_status": "Aucun visa requis pour un séjour touristique jusqu’à 90 jours",
     "pass_monate": 6,
-    "visum_text": "Les ressortissants allemands n’ont pas besoin de visa pour un séjour touristique allant jusqu’à 90 jours. Un billet de retour ou de continuation doit toutefois impérativement être présenté à l’entrée.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Explorez les plus grandes îles des Bahamas en toute indépendance avec une voiture de location. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici le véhicule adapté.</a>"
+    "visum_text": "Les ressortissants belges peuvent entrer aux Bahamas sans visa pour un séjour touristique allant jusqu’à 90 jours. À l’arrivée, il est généralement nécessaire de présenter un passeport valide, un billet de retour ou de continuation ainsi qu’une preuve de ressources suffisantes pour la durée du séjour. Les conditions d’entrée pouvant évoluer, il est recommandé de vérifier les exigences actuelles avant le départ. Pour un voyage touristique aux Bahamas, les règles applicables aux citoyens belges sont donc similaires à celles des ressortissants allemands : aucune différence majeure en matière de visa n’est généralement prévue.",
+    "affiliate_hinweis": "<strong>Astuce voyage Bahamas :</strong> avant de partir, comparez les cartes de crédit pour économiser sur les frais à l’étranger, retirer de l’argent à moindre coût et payer dans le monde entier sans frais inutiles. Découvrez une comparaison avantageuse ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>vers la comparaison de cartes de crédit</a>.",
+    "is_optimized": true
   },
   {
     "slug": "barbados",
     "name": "Barbade",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "visum_status": "Aucun visa requis pour les citoyens belges jusqu’à 90 jours",
     "pass_monate": 6,
-    "visum_text": "Entrée sans visa jusqu’à 90 jours. Il est impératif de remplir le formulaire d’entrée en ligne gratuit (ED Card) dans les 72 heures précédant l’arrivée afin d’accélérer l’entrée.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Une voiture de location est parfaite pour atteindre aussi les plages et criques cachées de la Barbade. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez les offres ici.</a>"
+    "visum_text": "Pour les ressortissants belges voyageant à des fins touristiques, l’entrée à la Barbade est généralement possible sans visa pour un séjour allant jusqu’à 90 jours. Les citoyens belges ne sont pas soumis à des règles différentes de celles des citoyens allemands pour ce type de voyage touristique. En revanche, il est obligatoire de remplir la carte d’entrée électronique gratuite (ED Card) en ligne dans les 72 heures précédant l’arrivée afin de faciliter le contrôle à la frontière. Votre passeport doit être valide pendant toute la durée du séjour et il est recommandé de disposer d’un billet de retour ainsi que de justificatifs de voyage suffisants.",
+    "affiliate_hinweis": "<strong>Conseil voyage pour la Barbade :</strong> avant de partir, comparez les cartes de crédit pour trouver celle qui vous permet de <strong>retirer de l’argent à moindre coût à l’étranger</strong> et de <strong>payer sans frais dans le monde entier</strong>. Un bon choix peut vous faire économiser sur les retraits et les paiements en dollars barbadiens. Comparez dès maintenant les offres ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>https://www.tarifcheck.com/YKQ2R5K</a>",
+    "is_optimized": true
   },
   {
     "slug": "namibia",
     "name": "Namibie",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "visum_status": "Visa requis pour les ressortissants belges (tourisme)",
     "pass_monate": 6,
-    "visum_text": "Pour des séjours allant jusqu’à 90 jours par année civile, aucun visa n’est requis pour les touristes allemands. Le passeport doit toutefois impérativement être valable au moins 6 mois après la date de retour.",
-    "affiliate_hinweis": "💡 <strong>Véhicules de safari :</strong> Pour la Namibie, une voiture de location robuste (généralement 4x4) est indispensable. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez votre véhicule ici à l’avance.</a>"
+    "visum_text": "Pour les citoyens belges voyageant en Namibie à des fins touristiques, un visa est requis. Les règles d’entrée ne sont donc pas identiques à celles applicables aux ressortissants allemands, qui bénéficient généralement d’un régime plus favorable. Les voyageurs belges doivent vérifier avant le départ les conditions en vigueur pour un visa touristique ou un visa à l’arrivée, selon leur point d’entrée et la réglementation actuelle. Le passeport doit en outre être valable au moins 6 mois après la date de retour prévue et comporter suffisamment de pages vierges pour les tampons d’entrée et de sortie. Il est également recommandé de disposer d’un billet de retour, d’une preuve d’hébergement et de ressources financières suffisantes pour la durée du séjour.",
+    "affiliate_hinweis": "<strong>Conseil voyage Namibie :</strong> avant de partir, comparez les cartes bancaires pour éviter les frais inutiles en Namibie. Une bonne carte de voyage peut vous aider à <strong>retirer de l’argent à moindre coût à l’étranger</strong> et à <strong>payer sans frais dans le monde entier</strong>. Découvrez ici une comparaison pratique des cartes de crédit : <a href='https://www.tarifcheck.com/YKQ2R5K'>vers le comparatif de cartes de crédit</a>.",
+    "is_optimized": true
   },
   {
     "slug": "botswana",
     "name": "Botswana",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "visum_status": "Pas de visa nécessaire pour les ressortissants belges jusqu’à 90 jours",
     "pass_monate": 6,
-    "visum_text": "Les Allemands reçoivent gratuitement aux postes-frontières ou aux aéroports une autorisation d’entrée (Visitor's Pass) pour un maximum de 90 jours par année civile. Un billet de retour ou de continuation doit être présenté.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Le Botswana se découvre parfaitement en tant que conducteur autonome. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici les voitures de location pour le Botswana.</a>"
+    "visum_text": "Les citoyens belges peuvent voyager au Botswana sans visa pour un séjour touristique de courte durée, généralement jusqu’à 90 jours. À l’arrivée, une autorisation d’entrée est délivrée par les autorités frontalières ou à l’aéroport, sous réserve de remplir les conditions d’entrée en vigueur. Un passeport valide est requis, ainsi qu’un billet de retour ou de continuation et, le cas échéant, des justificatifs de séjour suffisants. Pour un voyage touristique, les règles applicables aux ressortissants belges sont en pratique similaires à celles des ressortissants allemands : aucune demande de visa préalable n’est normalement nécessaire pour un séjour de courte durée, mais les conditions d’entrée peuvent être contrôlées à la frontière.",
+    "affiliate_hinweis": "<strong>Conseil voyage Botswana :</strong> avant de partir, comparez les cartes bancaires pour économiser sur les retraits et les paiements à l’étranger. Une bonne carte de crédit peut vous aider à réduire les frais de change, à retirer de l’argent à moindre coût et à payer dans le monde entier sans frais inutiles. Comparez dès maintenant les offres adaptées aux voyages au Botswana : <a href='https://www.tarifcheck.com/YKQ2R5K'>vers le comparatif de cartes de crédit</a>.",
+    "is_optimized": true
   },
   {
     "slug": "uganda",
     "name": "Ouganda",
     "visum_status": "e-Visa requis",
     "pass_monate": 6,
-    "visum_text": "L’Ouganda est soumis à une obligation stricte de visa. Le visa doit impérativement être demandé en ligne sous forme d’e-Visa avant l’entrée. De plus, la preuve d’une vaccination contre la fièvre jaune est obligatoire pour l’entrée.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Pour les visites des parcs nationaux et les safaris en autonomie, un 4x4 de location est idéal. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici des véhicules 4x4.</a>"
+    "visum_text": "Pour les ressortissants belges voyageant en Ouganda à des fins ტურistiques, un visa est obligatoire avant le départ : il n’existe pas d’exemption de visa pour un séjour touristique, et la demande doit être effectuée en ligne sous forme d’e-Visa. Les citoyens belges ne bénéficient donc pas d’une entrée sans visa pour l’Ouganda, contrairement à certaines destinations ; il est recommandé de vérifier que le passeport est valide au moins 6 mois après la date d’entrée et de prévoir une preuve de voyage retour ou de continuation. En outre, la vaccination contre la fièvre jaune est obligatoire pour entrer en Ouganda, et le certificat international de vaccination peut être demandé à l’arrivée.",
+    "affiliate_hinweis": "<strong>Astuce voyage Ouganda :</strong> avant de partir, comparez les cartes bancaires pour éviter les frais inutiles en voyage. Une bonne carte peut vous aider à <strong>retirer de l’argent à moindre coût à l’étranger</strong> et à <strong>payer dans le monde entier sans frais</strong>. Pour trouver l’offre la plus adaptée à votre séjour en Ouganda, consultez ce <a href='https://www.tarifcheck.com/YKQ2R5K'>comparatif de cartes bancaires</a>.",
+    "is_optimized": true
   },
   {
     "slug": "madagaskar",
     "name": "Madagascar",
-    "visum_status": "e-Visa ou Visa on Arrival",
+    "visum_status": "Visa requis pour les ressortissants belges : e-Visa ou Visa on Arrival",
     "pass_monate": 6,
-    "visum_text": "Les Allemands ont besoin d’un visa. Celui-ci peut être obtenu à l’avance sous forme d’e-Visa ou à l’arrivée à l’aéroport (Visa on Arrival). La durée du séjour est au choix de 15, 30 ou 60 jours (frais différents).",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Découvrez la célèbre Allée des Baobabs et les parcs nationaux en toute flexibilité. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici un véhicule tout-terrain de location.</a>"
+    "visum_text": "Les ressortissants belges ont besoin d’un visa pour voyager à Madagascar à des fins touristiques. Comme pour les voyageurs allemands, il est possible d’obtenir ce visa soit à l’avance sous forme d’e-Visa, soit directement à l’arrivée à l’aéroport sous forme de Visa on Arrival. La durée de séjour proposée dépend du type de visa choisi et est généralement de 15, 30 ou 60 jours, avec des frais variables selon la durée. Pour un voyage touristique à Madagascar, il est recommandé de vérifier les conditions d’entrée avant le départ, car les règles peuvent évoluer. En pratique, les citoyens belges ne bénéficient pas d’une exemption de visa pour Madagascar et doivent donc prévoir une autorisation d’entrée valide avant ou à l’arrivée.",
+    "affiliate_hinweis": "<strong>Conseil voyage Madagascar :</strong> avant de partir, comparez une carte bancaire adaptée aux voyages pour <strong>réduire les frais de retrait à l’étranger</strong> et <strong>payer sans frais dans le monde entier</strong>. Cela peut vous aider à économiser sur place, notamment pour les retraits en ariary et les paiements courants. Découvrez une comparaison utile ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparer les cartes bancaires pour voyager à Madagascar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "kap-verde",
     "name": "Cap-Vert (îles du Cap-Vert)",
-    "visum_status": "Enregistrement EASE (pas de visa)",
+    "visum_status": "Enregistrement EASE obligatoire (pas de visa pour les ressortissants belges)",
     "pass_monate": 6,
-    "visum_text": "Pour des séjours allant jusqu’à 30 jours, les Allemands n’ont pas besoin de visa. Toutefois, ils doivent s’enregistrer en ligne via la plateforme officielle EASE au plus tard 5 jours avant le départ et payer la taxe de sécurité aéroportuaire (TSA).",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Sur les grandes îles comme Sal ou Santiago, une voiture de location offre une belle indépendance. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vérifiez ici les voitures de location.</a>"
+    "visum_text": "Pour les citoyens belges voyageant au Cap-Vert à des fins touristiques, aucun visa n’est requis pour un séjour de courte durée. En revanche, l’enregistrement préalable sur la plateforme officielle EASE est obligatoire avant le départ, généralement au plus tard 5 jours avant l’arrivée. Les voyageurs doivent également s’acquitter de la taxe de sécurité aéroportuaire (TSA). Les règles appliquées aux Belges sont donc globalement identiques à celles des ressortissants allemands : pas de visa touristique pour les courts séjours, mais une inscription EASE et le paiement des frais obligatoires restent indispensables. Il est recommandé de vérifier les conditions d’entrée avant le voyage, car les formalités peuvent évoluer.",
+    "affiliate_hinweis": "<strong>Astuce voyage Cap-Vert :</strong> avant de partir, comparez une carte bancaire adaptée aux voyages pour <strong>économiser sur les retraits à l’étranger</strong> et <strong>payer sans frais dans le monde entier</strong>. Un bon choix peut faire une vraie différence sur place, notamment pour les dépenses en escudos cap-verdiens et les paiements du quotidien. Découvrez ici un comparatif utile : <a href='https://www.tarifcheck.com/YKQ2R5K'>voir le comparatif de cartes bancaires</a>.",
+    "is_optimized": true
   },
   {
     "slug": "georgien",
     "name": "Géorgie",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 1 an)",
+    "visum_status": "Aucun visa requis pour les citoyens belges (jusqu’à 1 an)",
     "pass_monate": 0,
-    "visum_text": "La Géorgie possède l’une des réglementations d’entrée les plus généreuses au monde : les ressortissants allemands peuvent séjourner dans le pays sans visa pendant une année entière avec leur passeport (ou même leur carte d’identité).",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Les routes de montagne du Caucase vous appellent ! <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici votre voiture de location pour des circuits inoubliables en Géorgie.</a>"
+    "visum_text": "Pour les ressortissants belges voyageant en Géorgie à des fins touristiques, aucun visa n’est nécessaire pour un séjour allant jusqu’à 1 an. Les citoyens belges peuvent entrer dans le pays avec un passeport valide, ce qui fait de la Géorgie une destination particulièrement accessible pour les voyages de loisirs. Contrairement à certaines nationalités soumises à des formalités supplémentaires, les Belges bénéficient d’une politique d’entrée très souple, comparable à celle accordée à de nombreux ressortissants européens. Il est toutefois recommandé de vérifier que le passeport est en cours de validité pour toute la durée du séjour et de respecter les conditions d’entrée en vigueur au moment du départ.",
+    "affiliate_hinweis": "<strong>Conseil voyage pour la Géorgie :</strong> avant votre départ, comparez les cartes bancaires adaptées aux voyages afin de réduire les frais de retrait et de paiement à l’étranger. Une bonne carte peut vous permettre de <strong>retirer de l’argent à moindre coût</strong> et de <strong>payer sans frais dans le monde entier</strong>, un vrai plus pour un séjour en Géorgie. Découvrez une comparaison avantageuse ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparez maintenant les cartes bancaires pour voyager malin</a>.",
+    "is_optimized": true
   },
   {
     "slug": "kambodscha",
     "name": "Cambodge",
-    "visum_status": "e-Visa ou Visa on Arrival",
+    "visum_status": "Visa obligatoire : e-Visa recommandé, Visa on Arrival possible.",
     "pass_monate": 6,
-    "visum_text": "Le visa est obligatoire. Les touristes peuvent soit demander à l’avance l’e-Visa électronique (recommandé), soit obtenir un Visa on Arrival à l’aéroport/aux postes-frontières. Des photos d’identité et des dollars américains en espèces sont nécessaires.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Profitez de plus de confort et de flexibilité en dehors des grands axes. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici les voitures de location au Cambodge.</a>"
+    "visum_text": "Pour les ressortissants belges voyageant au Cambodge à des fins touristiques, le visa est obligatoire. Bonne nouvelle : les règles sont similaires à celles appliquées aux voyageurs allemands. Les citoyens belges peuvent demander à l’avance un e-Visa cambodgien, solution généralement recommandée pour gagner du temps à l’arrivée. Il est aussi possible d’obtenir un Visa on Arrival dans certains aéroports internationaux et postes-frontières, sous réserve de remplir les conditions requises. En pratique, il est conseillé de voyager avec un passeport valide, une photo d’identité récente et des espèces en dollars américains pour régler les frais de visa. Vérifiez toujours les conditions d’entrée avant le départ, car les modalités peuvent évoluer selon le point d’entrée et la durée du séjour.",
+    "affiliate_hinweis": "<strong>Conseil voyage Cambodge :</strong> avant de partir, comparez une carte bancaire adaptée aux voyages pour <strong>économiser sur les retraits à l’étranger</strong> et <strong>payer sans frais dans le monde entier</strong>. Une bonne carte peut faire une vraie différence sur votre budget au Cambodge, notamment pour les paiements en devise et les retraits de dollars américains. Découvrez une offre intéressante ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparer les cartes bancaires pour voyager</a>.",
+    "is_optimized": true
   },
   {
     "slug": "laos",
     "name": "Laos",
-    "visum_status": "e-Visa ou Visa on Arrival",
+    "visum_status": "Visa requis, avec possibilité d’e-Visa ou de Visa on Arrival pour les ressortissants belges",
     "pass_monate": 6,
-    "visum_text": "L’entrée n’est possible qu’avec un visa. Vous pouvez demander le visa en ligne sous forme d’e-Visa ou l’obtenir sur place en tant que Visa on Arrival. Pour le visa à l’arrivée, vous aurez besoin de photos d’identité et de dollars américains.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Découvrez la beauté paysagère pittoresque du Laos à votre propre rythme. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vérifiez ici les prix des voitures de location.</a>"
+    "visum_text": "Les citoyens belges qui voyagent au Laos à des fins touristiques doivent disposer d’un visa. Comme pour les ressortissants allemands, l’entrée n’est pas sans visa : vous pouvez demander un e-Visa avant le départ ou obtenir un Visa on Arrival à l’arrivée dans certains points d’entrée autorisés. Pour le Visa on Arrival, prévoyez généralement un passeport valide, une photo d’identité récente et le paiement des frais en dollars américains. Il est recommandé de vérifier avant le voyage les conditions d’entrée en vigueur, car les règles peuvent varier selon le point de passage frontalier et la durée du séjour autorisée.",
+    "affiliate_hinweis": "<strong>Astuce voyage pour le Laos :</strong> avant de partir, comparez une carte bancaire adaptée aux voyages afin de <strong>réduire les frais de retrait à l’étranger</strong> et de <strong>payer dans le monde entier sans frais inutiles</strong>. Un bon choix peut vous faire économiser sur les retraits en espèces et les paiements sur place. Comparez maintenant les offres ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>vers le comparatif de cartes bancaires</a>.",
+    "is_optimized": true
   },
   {
     "slug": "taiwan",
     "name": "Taïwan",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "visum_status": "Pas de visa nécessaire pour les ressortissants belges (jusqu’à 90 jours)",
     "pass_monate": 6,
-    "visum_text": "Les ressortissants allemands peuvent entrer à Taïwan sans visa pour des séjours touristiques allant jusqu’à 90 jours. Un billet de retour ou de continuation confirmé doit être présenté sur demande.",
-    "affiliate_hinweis": "💡 <strong>Conseil road trip :</strong> Un circuit passionnant autour de toute l’île de Taïwan est un véritable moment fort des vacances. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trouvez ici votre voiture de location à Taïwan.</a>"
+    "visum_text": "Les ressortissants belges peuvent entrer à Taïwan sans visa pour un séjour touristique allant jusqu’à 90 jours. Cette exemption de visa s’applique aux voyages de courte durée à des fins touristiques. Un passeport valable est requis, et il peut être demandé de présenter un billet de retour ou de continuation ainsi qu’une preuve de moyens financiers suffisants. Les règles d’entrée peuvent évoluer, il est donc recommandé de vérifier les conditions actuelles avant le départ.",
+    "affiliate_hinweis": "Conseil voyage Taïwan : avant de partir, comparez les cartes bancaires et cartes de crédit pour économiser sur les frais à l’étranger. Certaines cartes permettent de <strong>retirer de l’argent à moindre coût</strong> et de <strong>payer sans frais dans le monde entier</strong>, ce qui est particulièrement pratique pour un séjour à Taïwan. Découvrez une comparaison avantageuse ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparer les cartes de crédit pour voyager malin</a>.",
+    "is_optimized": true
   },
   {
     "slug": "nepal",
     "name": "Népal",
-    "visum_status": "Visa on Arrival (enregistrement en ligne)",
+    "visum_status": "Visa à l’arrivée avec enregistrement en ligne préalable",
     "pass_monate": 6,
-    "visum_text": "Les touristes ont besoin d’un visa, facilement délivré sous forme de Visa on Arrival à l’aéroport de Katmandou. Pour gagner du temps, le formulaire de demande obligatoire doit déjà être rempli électroniquement avant le départ.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Si vous ne faites pas que de la randonnée, une voiture de location offre une belle flexibilité pour les excursions dans la vallée de Katmandou. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez les prix ici.</a>"
+    "visum_text": "Pour les ressortissants belges voyageant au Népal à des fins touristiques, un visa est obligatoire. La bonne nouvelle est qu’il peut généralement être obtenu facilement sous forme de Visa à l’arrivée à l’aéroport de Katmandou ainsi qu’à certains points d’entrée terrestres autorisés. Afin de gagner du temps à l’arrivée, il est fortement recommandé de remplir au préalable le formulaire de demande en ligne. Les voyageurs belges doivent également disposer d’un passeport valide, d’une photo d’identité récente et du paiement des frais de visa. Les règles d’entrée pouvant évoluer, il est conseillé de vérifier les conditions actuelles avant le départ.",
+    "affiliate_hinweis": "Conseil voyage Népal : avant de partir, comparez les meilleures cartes bancaires et cartes de crédit pour <strong>économiser sur les frais de retrait à l’étranger</strong> et <strong>payer sans frais dans le monde entier</strong>. Un bon choix de carte peut faire une vraie différence pendant votre séjour au Népal. Découvrez l’offre adaptée ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>Comparer les cartes de crédit maintenant</a>.",
+    "is_optimized": true
   },
   {
     "slug": "usbekistan",
     "name": "Ouzbékistan",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 30 jours)",
+    "visum_status": "Visa non nécessaire pour les séjours touristiques jusqu’à 30 jours",
     "pass_monate": 6,
-    "visum_text": "Pour des séjours touristiques allant jusqu’à 30 jours, les ressortissants allemands n’ont plus besoin de visa. Important : dans les 3 jours suivant l’arrivée, il faut s’enregistrer (généralement pris en charge par l’hôtel).",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Sur les traces fascinantes de la Route de la soie, vous êtes au maximum de votre flexibilité avec une voiture de location. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici une voiture de location pour l’Ouzbékistan.</a>"
+    "visum_text": "Pour les ressortissants belges voyageant en Ouzbékistan à des fins touristiques, aucun visa n’est requis pour un séjour allant jusqu’à 30 jours. Les règles sont donc similaires à celles appliquées aux ressortissants allemands. Important : l’enregistrement auprès des autorités locales est obligatoire dans les 3 jours suivant l’arrivée ; dans la pratique, cette formalité est généralement prise en charge par l’hôtel ou l’hébergement. Pour tout séjour plus long ou pour un motif de voyage différent, il convient de vérifier les conditions d’entrée en vigueur avant le départ.",
+    "affiliate_hinweis": "Conseil voyage pour l’Ouzbékistan : avant de partir, comparez une <strong>carte bancaire adaptée aux voyages</strong> afin de réduire les frais de retrait et de paiement à l’étranger. Une bonne carte peut vous aider à <strong>retirer de l’argent avec moins de frais</strong> et à <strong>payer dans le monde entier sans surcoût</strong>. Comparez dès maintenant les offres ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>https://www.tarifcheck.com/YKQ2R5K</a>",
+    "is_optimized": true
   },
   {
     "slug": "fidschi",
     "name": "Fidji",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 4 mois)",
+    "visum_status": "Pas de visa nécessaire pour les touristes belges (séjour à l’arrivée jusqu’à 4 mois)",
     "pass_monate": 6,
-    "visum_text": "Les Allemands reçoivent à l’arrivée une autorisation de visite gratuite (Visitor Permit) tamponnée dans le passeport pour une durée allant jusqu’à 4 mois. Un billet de retour ou de continuation ainsi qu’une preuve de ressources suffisantes sont obligatoires.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Explorez confortablement la magnifique île principale de Viti Levu avec votre propre voiture. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici une voiture de location pour les Fidji.</a>"
+    "visum_text": "Les citoyens belges voyageant à Fidji à des fins touristiques n’ont généralement pas besoin de visa préalable. À l’arrivée, ils peuvent obtenir un Visitor Permit gratuit, apposé dans le passeport, pour un séjour pouvant aller jusqu’à 4 mois. Un billet de retour ou de continuation est requis, tout comme la preuve de ressources financières suffisantes pour couvrir le séjour. Le passeport doit être valide et répondre aux exigences d’entrée en vigueur. Les règles d’entrée pouvant évoluer, il est recommandé de vérifier les conditions actuelles avant le départ.",
+    "affiliate_hinweis": "<strong>Astuce voyage Fidji :</strong> avant de partir, comparez une carte bancaire adaptée aux voyages pour <strong>réduire les frais de retrait à l’étranger</strong> et <strong>payer sans frais dans le monde entier</strong>. Un bon comparatif peut vous aider à choisir une carte pratique pour vos dépenses sur place à Fidji. Découvrez les offres ici : <a href='https://www.tarifcheck.com/YKQ2R5K'>comparatif de cartes bancaires pour voyager malin</a>.",
+    "is_optimized": true
   },
   {
     "slug": "armenien",
     "name": "Arménie",
-    "visum_status": "Pas de visa nécessaire (jusqu’à 180 jours)",
+    "visum_status": "Aucun visa requis pour les citoyens belges (séjour touristique jusqu’à 180 jours)",
     "pass_monate": 5,
-    "visum_text": "Les Allemands peuvent entrer en Arménie sans visa pour un séjour allant jusqu’à 180 jours par année civile. Le passeport doit encore être valable au moins 5 mois à l’entrée.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Découvrez facilement les impressionnants monastères et paysages montagneux de l’Arménie en voiture. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez votre voiture de location ici.</a>"
+    "visum_text": "Les citoyens belges peuvent entrer en Arménie sans visa pour un séjour touristique allant jusqu’à 180 jours par année civile. Cette règle est différente de celle de certains autres pays, mais elle est identique pour les ressortissants belges et allemands dans le cadre d’un voyage touristique. Le passeport doit être valide pendant toute la durée du séjour et il est recommandé qu’il reste valable au moins 6 mois à l’entrée afin d’éviter tout problème lors du contrôle frontalier. Pour un séjour plus long, un autre motif de voyage ou une activité non touristique, des formalités supplémentaires peuvent s’appliquer.",
+    "affiliate_hinweis": "<strong>Astuce voyage Arménie :</strong> avant de partir, comparez les cartes bancaires pour économiser sur les frais à l’étranger, retirer de l’argent à moindre coût et payer gratuitement dans le monde entier. Un bon comparatif peut vous aider à choisir la carte la plus adaptée à votre séjour en Arménie : <a href='https://www.tarifcheck.com/YKQ2R5K'>voir le comparatif de cartes bancaires</a>.",
+    "is_optimized": true
   },
   {
     "slug": "anderes-land-allgemein",
     "name": "Autre pays de voyage (dispositions générales)",
     "visum_status": "Veuillez vérifier les dispositions individuellement",
     "pass_monate": 6,
-    "visum_text": "Nous ne disposons actuellement d’aucune donnée spécifique pour cette destination. Veuillez vérifier les conditions d’entrée sur le site du ministère allemand des Affaires étrangères. En règle générale, dans le monde entier : votre passeport devrait encore être valable au moins 6 mois.",
-    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Quelle que soit votre destination, une voiture de location offre partout dans le monde une liberté ultime. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici facilement des offres de location de voitures dans le monde entier.</a>"
+    "visum_text": "Nous ne disposons actuellement d’aucune donnée spécifique et fiable pour cette destination concernant les ressortissants belges voyageant à des fins touristiques. En règle générale, les citoyens belges bénéficient souvent de conditions d’entrée similaires à celles des ressortissants allemands, mais les règles peuvent varier selon le pays, la durée du séjour et le motif du voyage. Veuillez donc vérifier avant le départ les conditions d’entrée en vigueur auprès de l’ambassade ou du consulat du pays de destination, ainsi que sur le site du SPF Affaires étrangères belge. Dans de nombreux cas, votre passeport doit encore être valable au moins 6 mois à l’entrée sur le territoire.",
+    "affiliate_hinweis": "Vous partez à l’étranger ? <strong>Comparez avant le départ les cartes de crédit les plus avantageuses pour voyager</strong> et évitez les frais inutiles lors de vos achats et retraits à l’étranger. Selon la destination, une carte adaptée peut vous permettre de <strong>payer sans frais dans le monde entier</strong> et de <strong>réduire les coûts de retrait en devises</strong>. Découvrez ici une comparaison utile pour les voyageurs : <a href='https://www.tarifcheck.com/YKQ2R5K'>vers le comparatif de cartes de crédit</a>.",
+    "is_optimized": true
   }
 ]

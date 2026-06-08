@@ -2,466 +2,524 @@
   {
     "slug": "usa",
     "name": "USA",
-    "visum_status": "ESTA requerido",
+    "visum_status": "ESTA obligatorio para ciudadanos españoles",
     "pass_monate": 6,
-    "visum_text": "Para la entrada turística en EE. UU., los ciudadanos alemanes necesitan obligatoriamente una autorización electrónica de viaje (ESTA). Esta debe solicitarse obligatoriamente en línea antes del vuelo. Un visado regular solo es necesario si va a permanecer más de 90 días o no cumple determinados criterios.",
-    "affiliate_hinweis": "💡 <strong>Clásico de roadtrip:</strong> EE. UU. se explora mejor con flexibilidad en su propio coche. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Asegure aquí con antelación su coche de alquiler económico.</a>"
+    "visum_text": "Para la entrada turística en Estados Unidos, los ciudadanos españoles no necesitan un visado tradicional si viajan por turismo y cumplen los requisitos del Programa de Exención de Visado. En su lugar, deben solicitar obligatoriamente una autorización electrónica de viaje ESTA antes de embarcar. La ESTA suele ser válida para estancias de hasta 90 días por viaje y para entradas por turismo o negocios de corta duración. Si el viaje supera los 90 días, si el motivo no es turístico o si no se cumplen las condiciones del programa, será necesario tramitar un visado correspondiente en la embajada o consulado de EE. UU. En comparación con los ciudadanos alemanes, las normas para españoles son esencialmente las mismas: también viajan sin visado para turismo, pero con ESTA obligatoria.",
+    "affiliate_hinweis": "<strong>Consejo para viajar a EE. UU.:</strong> antes de salir, compara tarjetas de crédito pensadas para viajes internacionales. Así puedes <strong>ahorrar en comisiones al sacar dinero en el extranjero</strong> y <strong>pagar en todo el mundo sin costes adicionales</strong>. Encuentra opciones atractivas y compara condiciones aquí: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "aegypten",
     "name": "Egipto",
     "visum_status": "Visado requerido (e-Visa o a la llegada)",
     "pass_monate": 6,
-    "visum_text": "Los ciudadanos alemanes necesitan un visado para entrar en Egipto. Este puede solicitarse previamente en línea como e-Visa. Como alternativa, existe el 'Visa on Arrival' directamente en el aeropuerto (a menudo con largas colas).",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Descubra Egipto fuera de los resorts con flexibilidad y por su cuenta. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí coches de alquiler económicos.</a>"
+    "visum_text": "Los ciudadanos españoles necesitan un visado para entrar en Egipto como turistas. La buena noticia es que, para España, las opciones son flexibles: se puede solicitar previamente un e-Visa en línea o tramitar un Visa on Arrival directamente a la llegada en el aeropuerto. En la práctica, no existe exención de visado para turistas españoles, por lo que conviene viajar con la documentación preparada y comprobar que el pasaporte tenga una validez suficiente. Si quieres evitar esperas y viajar con más tranquilidad, el e-Visa suele ser la opción más cómoda antes de volar.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Egipto:</strong> antes de salir, compara tarjetas de crédito pensadas para viajar y ahorra en comisiones al pagar y sacar dinero en el extranjero. Una buena tarjeta puede ayudarte a <strong>retirar efectivo con menos costes</strong> y a <strong>pagar en todo el mundo sin comisiones</strong>. Descubre opciones recomendadas en <a href='https://www.tarifcheck.com/YKQ2R5K'>este comparador de tarjetas de crédito para viajes</a> y elige la que mejor se adapte a tu estancia en Egipto.",
+    "is_optimized": true
   },
   {
     "slug": "tuerkei",
     "name": "Turquía",
     "visum_status": "No se necesita visado (hasta 90 días)",
     "pass_monate": 0,
-    "visum_text": "Para estancias turísticas de hasta 90 días (dentro de un período de 180 días), los ciudadanos alemanes no necesitan visado. La entrada es incluso posible con el documento de identidad.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Para excursiones por la costa o al interior, merece la pena un coche propio. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Asegure aquí a tiempo su coche de alquiler para Turquía.</a>"
+    "visum_text": "Para viajar a Turquía como turista, los ciudadanos españoles no necesitan visado para estancias de hasta 90 días dentro de un período de 180 días. La entrada suele ser posible con pasaporte en vigor; en muchos casos también se acepta el DNI para viajes turísticos, aunque se recomienda llevar pasaporte para evitar incidencias y comprobar siempre que el documento tenga la validez suficiente antes de salir. En comparación con los ciudadanos alemanes, las normas para españoles son esencialmente las mismas: no existe visado previo para turismo de corta duración.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Turquía:</strong> antes de salir, compara tarjetas de crédito pensadas para viajar y ahorra en comisiones al pagar en el extranjero y al sacar dinero en cajeros. Así puedes disfrutar de tus vacaciones con más comodidad y menos costes. <a href='https://www.tarifcheck.com/YKQ2R5K'>Aquí puedes comparar tarjetas de crédito para viajar</a> y encontrar opciones con pagos internacionales gratuitos y mejores condiciones para Turquía.",
+    "is_optimized": true
   },
   {
     "slug": "uk",
     "name": "Gran Bretaña",
-    "visum_status": "ETA requerida",
+    "visum_status": "ETA obligatoria para turistas españoles",
     "pass_monate": 0,
-    "visum_text": "Para estancias turísticas de hasta 6 meses, los alemanes no necesitan un visado clásico, pero la autorización electrónica de viaje (ETA) es obligatoria. Es imprescindible un pasaporte válido; el documento de identidad ya no es suficiente.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Ideal para las Highlands o Cornualles: ¡recuerde la conducción por la izquierda! <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí los precios de coches de alquiler para Gran Bretaña.</a>"
+    "visum_text": "Los ciudadanos españoles que viajan a Gran Bretaña como turistas no necesitan un visado clásico para estancias de hasta 6 meses. Sin embargo, desde la introducción del sistema ETA, la autorización electrónica de viaje es obligatoria antes de la entrada. Para viajar, es imprescindible contar con un pasaporte español válido; el documento de identidad ya no es suficiente para la entrada turística. En resumen: no hay visado tradicional, pero sí una ETA obligatoria para españoles que viajen por turismo.",
+    "affiliate_hinweis": "¿Viajas a Gran Bretaña y quieres ahorrar en tus gastos? <strong>Compara ahora tarjetas de crédito para viajar</strong> y elige una opción ideal para <strong>retirar efectivo en el extranjero con menos comisiones</strong> y <strong>pagar en todo el mundo sin costes innecesarios</strong>. Una buena tarjeta puede marcar la diferencia en tu presupuesto de viaje. Descubre las mejores ofertas aquí: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "thailand",
     "name": "Tailandia",
-    "visum_status": "No se necesita visado (hasta 60 días)",
+    "visum_status": "No se necesita visado para turismo (hasta 60 días)",
     "pass_monate": 6,
-    "visum_text": "Para estancias turísticas de hasta 60 días, los ciudadanos alemanes pueden entrar sin visado. El pasaporte debe tener una validez mínima de 6 meses al entrar en el país. Es posible que se deba presentar un billete de salida o de regreso.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Para máxima flexibilidad fuera de las rutas turísticas típicas. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Encuentre aquí coches de alquiler fiables en Tailandia.</a>"
+    "visum_text": "Los ciudadanos españoles pueden entrar en Tailandia sin visado para estancias turísticas de hasta 60 días. El pasaporte debe tener una validez mínima de 6 meses a la entrada y, en algunos casos, las autoridades pueden solicitar un billete de salida o de regreso y prueba de fondos suficientes. Para viajes turísticos más largos o con otros fines de viaje, puede ser necesario tramitar un visado antes de la salida. En comparación con los ciudadanos alemanes, las normas para españoles son esencialmente las mismas: actualmente no existe una diferencia relevante en cuanto a visado de turismo para estancias cortas.",
+    "affiliate_hinweis": "Consejo de viaje: antes de volar a Tailandia, compara tarjetas de crédito que te ayuden a <strong>ahorrar en comisiones al sacar dinero en el extranjero</strong> y a <strong>pagar en todo el mundo sin costes adicionales</strong>. Así podrás usar tu dinero de forma más inteligente durante el viaje. Puedes encontrar una comparación útil aquí: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "australien",
     "name": "Australia",
-    "visum_status": "Visado eVisitor requerido",
+    "visum_status": "Visado requerido para ciudadanos españoles",
     "pass_monate": 6,
-    "visum_text": "Los alemanes necesitan obligatoriamente un visado para entrar en Australia. Para turistas, el visado eVisitor (Subclass 651) es ideal, se solicita gratis en línea y permite estancias de hasta 3 meses.",
-    "affiliate_hinweis": "💡 <strong>Consejo de roadtrip:</strong> Australia se explora mejor con flexibilidad en su propio coche. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí los precios de coches de alquiler para Australia.</a>"
+    "visum_text": "Los ciudadanos españoles que viajan a Australia como turistas no pueden entrar sin autorización previa: necesitan tramitar un visado antes del viaje. A diferencia de algunos países con exención de visado, España no tiene entrada libre para turismo en Australia. La opción habitual para estancias turísticas cortas es el visado eVisitor (subclass 651), que se solicita en línea, es gratuito y permite permanecer hasta 3 meses por visita dentro de un periodo de 12 meses. Es importante viajar con el visado aprobado antes del embarque y cumplir siempre con las condiciones de la estancia turística.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Australia:</strong> antes de salir, compara tarjetas de crédito pensadas para viajar y ahorra en comisiones al pagar y retirar efectivo en el extranjero. Una buena tarjeta puede ayudarte a <strong>pagar en todo el mundo sin costes adicionales</strong> y a evitar cargos innecesarios en cajeros automáticos. Consulta aquí una comparativa útil: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "kanada",
     "name": "Canadá",
-    "visum_status": "eTA requerida",
+    "visum_status": "eTA obligatoria para viajar en avión",
     "pass_monate": 6,
-    "visum_text": "Quien entre en Canadá por vía aérea no necesita visado, pero sí obligatoriamente una autorización electrónica de viaje (eTA). Si la entrada es por tierra (p. ej., desde EE. UU.), no se requiere eTA.",
-    "affiliate_hinweis": "⚠️ <strong>Consejo de coche de alquiler:</strong> Reserve su coche de alquiler para Canadá necesariamente aún en Alemania para contar con cobertura total del seguro. <a href='https://www.c24n.de/nsnjZZ8' style='color:#d32f2f;'>Compare aquí los precios de coches de alquiler.</a>"
+    "visum_text": "Los ciudadanos españoles que viajan a Canadá como turistas no necesitan visado para estancias cortas, pero sí deben obtener obligatoriamente una autorización electrónica de viaje (eTA) si llegan por vía aérea. La eTA se solicita antes del vuelo y, por lo general, se aprueba rápidamente. Si la entrada a Canadá se realiza por tierra o por mar, por ejemplo desde Estados Unidos, normalmente no se requiere eTA. En resumen: para españoles, Canadá ofrece exención de visado para turismo, pero con eTA obligatoria en caso de llegada en avión.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Canadá:</strong> compara tarjetas de crédito pensadas para viajar y ahorra en comisiones al sacar dinero en el extranjero y al pagar en todo el mundo. Una buena tarjeta puede marcar la diferencia en tu presupuesto de viaje. Mira opciones aquí: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "vae",
     "name": "Emiratos Árabes Unidos (Dubái)",
-    "visum_status": "Visa on Arrival gratuita",
+    "visum_status": "Entrada sin visado para turistas: visado a la llegada gratuito en los EAU",
     "pass_monate": 6,
-    "visum_text": "Los alemanes reciben al entrar en los EAU (p. ej., en Dubái o Abu Dabi) un 'Visa on Arrival' gratuito estampado en el pasaporte. Este autoriza una estancia de hasta 90 días dentro de un período de 180 días.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Los Emiratos cuentan con carreteras magníficamente desarrolladas. Un coche de alquiler suele ser aquí más práctico que los taxis constantes. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Encuentre aquí coches de alquiler para Dubái y más.</a>"
+    "visum_text": "Los ciudadanos españoles que viajan a Emiratos Árabes Unidos como turistas no necesitan solicitar un visado con antelación. A su llegada a Dubái, Abu Dabi u otro aeropuerto internacional del país, reciben gratuitamente un sello de entrada o un visado a la llegada, que normalmente permite una estancia de hasta 90 días dentro de un período de 180 días. Para viajar sin problemas, el pasaporte debe tener una validez suficiente y estar en buen estado. Aunque para España y Alemania las normas de entrada turística son, en la práctica, las mismas, siempre conviene comprobar antes del viaje si existen cambios puntuales en los requisitos migratorios o de documentación.",
+    "affiliate_hinweis": "¿Viajas a Emiratos Árabes Unidos y quieres ahorrar en tu estancia en Dubái? <strong>Compara ahora tarjetas de crédito para viajes</strong> y encuentra opciones con <strong>retiros de efectivo en el extranjero con menos comisiones</strong> y <strong>pagos en todo el mundo sin coste adicional</strong>. Así podrás pagar con más comodidad en hoteles, restaurantes y taxis, y evitar gastos innecesarios. <a href='https://www.tarifcheck.com/YKQ2R5K'>Haz aquí tu comparación de tarjetas de crédito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "malediven",
     "name": "Maldivas",
-    "visum_status": "Visa on Arrival gratuita",
+    "visum_status": "Visa a la llegada gratuita para ciudadanos españoles",
     "pass_monate": 6,
-    "visum_text": "Para las Maldivas no es necesario un visado previo. Se concede gratuitamente a la llegada al aeropuerto un visado turístico de 30 días. Importante: antes del vuelo debe completarse en línea una declaración electrónica de entrada (IMUGA).",
-    "affiliate_hinweis": "💡 <strong>Coche de alquiler para el trayecto al aeropuerto:</strong> ¿Todavía necesita un coche para ir cómodamente al aeropuerto en Alemania? <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí coches de alquiler económicos.</a>"
+    "visum_text": "Para los ciudadanos españoles que viajan a Maldivas como turistas no es necesario solicitar un visado antes de la salida. A la llegada se concede gratuitamente un visado turístico de 30 días, siempre que se cumplan los requisitos de entrada habituales, como disponer de pasaporte válido, billete de salida y medios suficientes para la estancia. Además, antes del vuelo es obligatorio completar en línea la declaración electrónica de entrada IMUGA. En comparación con los ciudadanos alemanes, las normas para españoles son las mismas: no existe visado previo ni visado de pago para turismo, sino visado a la llegada gratuito.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Maldivas:</strong> si quieres ahorrar en comisiones al pagar en el extranjero y al sacar dinero, merece la pena comparar tarjetas de crédito para viajes. Busca una tarjeta que ofrezca <strong>pagos en todo el mundo sin comisiones</strong> y, si es posible, <strong>retiradas de efectivo más ventajosas</strong> fuera de España. Puedes encontrar opciones interesantes aquí: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "indonesien",
     "name": "Indonesia",
-    "visum_status": "Visa on Arrival / e-VoA requerido",
+    "visum_status": "Visa a la llegada (VoA) o e-VoA requerido para turistas españoles",
     "pass_monate": 6,
-    "visum_text": "Tanto si planea un viaje por varias regiones como si busca específicamente un visado para Bali: para Indonesia se requiere un visado (Visa on Arrival). Puede comprarlo a la llegada o, para evitar esperas, solicitarlo previamente en línea como e-VoA (válido 30 días).",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Bali y otras islas se pueden explorar magníficamente con su propio vehículo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí precios para Indonesia.</a>"
+    "visum_text": "Para ciudadanos españoles que viajan a Indonesia por turismo, no existe entrada sin visado: se requiere un Visa on Arrival (VoA) o, para mayor comodidad, un e-VoA solicitado en línea antes del viaje. El visado turístico suele permitir una estancia inicial de 30 días y, en muchos casos, puede ampliarse una vez por otros 30 días, según las normas vigentes de inmigración. A diferencia de algunos destinos, Indonesia no ofrece actualmente exención de visado para turistas españoles, por lo que conviene tramitar el permiso con antelación o gestionarlo a la llegada para evitar contratiempos. Si su viaje incluye Bali, Java, Lombok u otras regiones del país, las condiciones de entrada son las mismas: visado obligatorio para turismo, pasaporte con validez suficiente y cumplimiento de los requisitos migratorios establecidos por Indonesia.",
+    "affiliate_hinweis": "¿Viajas a Indonesia? <strong>Compara tarjetas de crédito antes de salir</strong> y ahorra en comisiones al retirar efectivo en el extranjero y al pagar en todo el mundo. Una buena tarjeta de viaje puede marcar la diferencia en destinos como Bali o Yakarta, donde evitar cargos por cambio de divisa y disponer de retiradas ventajosas es clave. Descubre opciones pensadas para viajeros en <a href='https://www.tarifcheck.com/YKQ2R5K'>este comparador de tarjetas de crédito</a> y elige la que mejor se adapte a tu viaje.",
+    "is_optimized": true
   },
   {
     "slug": "vietnam",
     "name": "Vietnam",
-    "visum_status": "No se necesita visado (hasta 45 días)",
+    "visum_status": "Sin visado hasta 90 días con e-Visa para estancias más largas",
     "pass_monate": 6,
-    "visum_text": "Los ciudadanos alemanes pueden entrar en Vietnam sin visado durante un máximo de 45 días. Quien desee quedarse más tiempo (hasta 90 días) debe solicitar previamente un e-Visa.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Descubra Vietnam de forma totalmente individual y a su propio ritmo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Asegure aquí su vehículo.</a>"
+    "visum_text": "Los ciudadanos españoles pueden viajar a Vietnam como turistas sin visado para estancias de hasta 45 días. Si desean permanecer más tiempo, deben solicitar un e-Visa antes del viaje, que permite una estancia de hasta 90 días. A diferencia de los ciudadanos alemanes, para los españoles no se aplica una exención de visado de 45 días con las mismas condiciones que en otros casos: conviene comprobar siempre la duración prevista del viaje y tramitar el e-Visa si se supera el límite permitido. Para viajes turísticos, no suele ser necesario un visado a la llegada; la opción más práctica y segura es el e-Visa solicitado con antelación.",
+    "affiliate_hinweis": "Consejo de viaje para Vietnam: si quieres ahorrar en comisiones al sacar dinero en cajeros y pagar en todo el mundo sin costes innecesarios, compara tarjetas de crédito antes de salir. Una buena tarjeta para viajes puede marcar la diferencia en Vietnam, especialmente si planeas usar efectivo con frecuencia o hacer pagos en comercios locales. <strong>Compara ahora tarjetas de crédito para viajar</strong> y encuentra la opción que mejor se adapte a tus necesidades: <a href='https://www.tarifcheck.com/YKQ2R5K'>https://www.tarifcheck.com/YKQ2R5K</a>",
+    "is_optimized": true
   },
   {
     "slug": "sri-lanka",
     "name": "Sri Lanka",
-    "visum_status": "e-Visa / ETA requerida",
+    "visum_status": "ETA obligatoria para ciudadanos españoles",
     "pass_monate": 6,
-    "visum_text": "Para Sri Lanka existe obligación de visado. El e-Visa (ETA) debe solicitarse obligatoriamente en línea antes del viaje. Autoriza una estancia de hasta 30 días.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Viva las plantaciones de té y las playas de Sri Lanka con flexibilidad en su propio coche. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Encuentre aquí el coche de alquiler adecuado.</a>"
+    "visum_text": "Para los ciudadanos españoles que viajan a Sri Lanka como turistas existe obligación de visado. La autorización electrónica de viaje ETA debe solicitarse obligatoriamente antes de la salida y no equivale a una entrada sin visado. En general, permite una estancia turística de hasta 30 días y, si es necesario, puede tramitarse una prórroga en el país según la normativa vigente. A diferencia de algunos destinos con exención de visado, para Sri Lanka los viajeros españoles deben contar con la ETA aprobada antes de embarcar.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Sri Lanka:</strong> antes de salir, compara tarjetas de crédito pensadas para viajar y ahorra en comisiones al pagar en el extranjero y al retirar efectivo en cajeros. Una buena tarjeta de viaje puede ayudarte a pagar en todo el mundo sin costes innecesarios y a sacar más partido a tu presupuesto durante el viaje. <a href='https://www.tarifcheck.com/YKQ2R5K'>Compara ahora tarjetas de crédito para viajar</a> y encuentra la opción más conveniente para tu estancia en Sri Lanka.",
+    "is_optimized": true
   },
   {
     "slug": "suedafrika",
     "name": "Sudáfrica",
-    "visum_status": "No se necesita visado (hasta 90 días)",
+    "visum_status": "No se necesita visado para viajar a Sudáfrica como turista hasta 90 días.",
     "pass_monate": 1,
-    "visum_text": "Los alemanes no necesitan visado para estancias turísticas de hasta 90 días. A la entrada se recibe un permiso de visitante (Visitor's Visa) en la frontera. El pasaporte debe ser legible por máquina y tener al menos dos páginas en blanco.",
-    "affiliate_hinweis": "💡 <strong>Coche de alquiler para Sudáfrica:</strong> Para la Garden Route o los parques nacionales, un coche de alquiler propio es la mejor opción. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí coches de alquiler económicos con seguro a todo riesgo.</a>"
+    "visum_text": "Los ciudadanos españoles no necesitan visado para entrar en Sudáfrica como turistas en estancias de hasta 90 días. A la llegada, la autoridad fronteriza suele conceder un permiso de visitante. El pasaporte debe estar en vigor, ser legible por máquina y contar con al menos dos páginas en blanco para los sellos de entrada y salida. Además, es recomendable disponer de billete de regreso o de continuación del viaje y de medios económicos suficientes para la estancia. Si el viaje tiene fines distintos al turismo o se prevé una estancia superior a 90 días, pueden aplicarse requisitos diferentes.",
+    "affiliate_hinweis": "Consejo de viaje: antes de volar a Sudáfrica, compara tarjetas de crédito pensadas para ahorrar en el extranjero. Una buena tarjeta puede ayudarte a <strong>evitar comisiones al pagar en todo el mundo</strong> y a <strong>reducir costes al sacar dinero en cajeros</strong>, algo especialmente útil durante un viaje a Sudáfrica. Descubre opciones recomendadas aquí: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito ahora</a>.",
+    "is_optimized": true
   },
   {
     "slug": "japan",
     "name": "Japón",
-    "visum_status": "No se necesita visado (hasta 90 días)",
+    "visum_status": "No se necesita visado para estancias turísticas de hasta 90 días.",
     "pass_monate": 0,
-    "visum_text": "Los alemanes pueden entrar en Japón como 'Temporary Visitor' durante un máximo de 90 días sin visado. El pasaporte solo debe ser válido durante toda la estancia. Un registro web previo (Visit Japan Web) agiliza la entrada.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Para explorar regiones rurales de Japón, un coche de alquiler es el complemento perfecto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí coches de alquiler en Japón.</a>"
+    "visum_text": "Los ciudadanos españoles pueden entrar en Japón como turistas sin visado para estancias de hasta 90 días. Esta norma es distinta a la de algunos otros países, pero para España aplica la exención de visado para viajes de corta duración por turismo. El pasaporte debe estar en vigor durante toda la estancia y conviene llevar un billete de salida o de continuación del viaje, así como medios económicos suficientes. Además, el registro previo en Visit Japan Web puede agilizar los trámites de entrada y aduanas al llegar al país.",
+    "affiliate_hinweis": "Consejo de viaje para Japón: si quieres ahorrar en comisiones al pagar y sacar dinero en el extranjero, compara antes una tarjeta de crédito pensada para viajeros. Muchas ofrecen <strong>pagos en todo el mundo sin comisiones</strong> y <strong>retiradas de efectivo más baratas</strong>, algo muy útil en Japón. Puedes encontrar opciones atractivas en este comparador: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar a Japón</a>.",
+    "is_optimized": true
   },
   {
     "slug": "dominikanische-republik",
     "name": "República Dominicana",
-    "visum_status": "E-Ticket requerido (sin visado)",
+    "visum_status": "Sin visado para turismo; E-Ticket obligatorio",
     "pass_monate": 6,
-    "visum_text": "Para una estancia turística de hasta 30 días, los alemanes no necesitan visado. Sin embargo, es obligatorio completar en línea un formulario electrónico gratuito (E-Ticket) para la entrada y la salida.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Descubra playas de ensueño y el interior de la isla por su cuenta. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Reserve aquí su coche de alquiler para la Rep. Dom.</a>"
+    "visum_text": "Los ciudadanos españoles pueden viajar a la República Dominicana como turistas sin necesidad de visado para estancias cortas. A diferencia de algunos otros destinos, no existe un visado de turista obligatorio para españoles antes de la salida. Sin embargo, sí es imprescindible completar el formulario electrónico de entrada y salida, conocido como E-Ticket, antes del viaje. Este trámite es gratuito y debe presentarse tanto al entrar como al salir del país. Para una estancia turística, los españoles disfrutan de entrada sin visado, por lo que las condiciones son muy similares a las de los ciudadanos alemanes en este destino.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a la República Dominicana:</strong> antes de salir, compara tarjetas de crédito que te ayuden a <strong>ahorrar comisiones al sacar dinero en el extranjero</strong> y a <strong>pagar en todo el mundo sin costes adicionales</strong>. Una buena tarjeta puede marcar la diferencia en tus gastos de viaje. Consulta aquí un comparador recomendado: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "mexiko",
     "name": "México",
-    "visum_status": "No se necesita visado (hasta 180 días)",
+    "visum_status": "No se necesita visado para turistas españoles (hasta 180 días).",
     "pass_monate": 6,
-    "visum_text": "La entrada para turistas alemanes es posible sin visado. A la llegada puede concederse una estancia de hasta 180 días. A veces se completa en el aeropuerto una tarjeta de turista (FMM), aunque hoy en día a menudo se hace digitalmente.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Ideal para ir a cenotes y ruinas mayas en Yucatán. Lo mejor es reservarlo ya desde Alemania. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Encuentre aquí coches de alquiler para México.</a>"
+    "visum_text": "Los ciudadanos españoles pueden viajar a México como turistas sin necesidad de visado para estancias de hasta 180 días. En la práctica, la entrada suele autorizarse a la llegada por el personal migratorio, siempre que se cumplan los requisitos de viaje habituales, como pasaporte válido, billete de salida y medios suficientes para la estancia. En lugar de un visado, normalmente se registra la entrada mediante la Forma Migratoria Múltiple (FMM), que puede tramitarse de forma digital o en el punto de entrada, según el caso. Es importante recordar que la estancia autorizada la determina la autoridad migratoria mexicana y que no debe superarse el periodo concedido.",
+    "affiliate_hinweis": "¿Viajas a México? <strong>Compara tarjetas de crédito antes de salir</strong> y ahorra en comisiones al pagar y retirar efectivo en el extranjero. Una buena tarjeta de viaje te ayuda a <strong>evitar cargos por cambio de divisa</strong>, <strong>retirar dinero con mejores condiciones</strong> y <strong>pagar en todo el mundo sin costes innecesarios</strong>. Descubre opciones recomendadas en <a href='https://www.tarifcheck.com/YKQ2R5K'>este comparador de tarjetas de crédito</a> y elige la que mejor se adapte a tu viaje a México.",
+    "is_optimized": true
   },
   {
     "slug": "kuba",
     "name": "Cuba",
-    "visum_status": "Tarjeta de turista requerida",
+    "visum_status": "Tarjeta de turista obligatoria para ciudadanos españoles",
     "pass_monate": 6,
-    "visum_text": "Para Cuba necesita una tarjeta de turista (Tarjeta del Turista) en lugar de un visado clásico, válida por 90 días. Además, es obligatorio presentar un comprobante válido de seguro médico de viaje (en español o inglés).",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Un roadtrip por la isla hace que las vacaciones en Cuba sean realmente inolvidables. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compruebe aquí la disponibilidad de coches de alquiler.</a>"
+    "visum_text": "Los ciudadanos españoles que viajan a Cuba como turistas no disfrutan de exención de visado: deben obtener una Tarjeta de Turista antes de la salida o a través de la aerolínea, la agencia de viajes o el consulado correspondiente. Para estancias turísticas, la tarjeta suele ser válida por 90 días y, en algunos casos, puede prorrogarse una vez en el país. Además, es obligatorio contar con un seguro médico de viaje válido durante toda la estancia y, si se solicita, presentar el justificante en español o inglés. En comparación con los ciudadanos alemanes, las normas para españoles son esencialmente las mismas: no hay visado clásico, pero sí la Tarjeta de Turista y el seguro médico obligatorio.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Cuba:</strong> antes de salir, compara tarjetas de crédito pensadas para viajar y ahorra en comisiones al sacar dinero en el extranjero y al pagar en todo el mundo. Una buena tarjeta puede ayudarte a reducir costes en tus compras y retiradas de efectivo durante tu estancia. Descubre opciones recomendadas en <a href='https://www.tarifcheck.com/YKQ2R5K'>este comparador de tarjetas de crédito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "brasilien",
     "name": "Brasil",
-    "visum_status": "No se necesita visado (hasta 90 días)",
+    "visum_status": "No se necesita visado para estancias turísticas de hasta 90 días.",
     "pass_monate": 6,
-    "visum_text": "Los turistas alemanes pueden entrar en Brasil sin visado durante un máximo de 90 días por semestre. Al entrar, debe poder presentarse un billete de regreso o de continuación del viaje, así como un comprobante de medios económicos suficientes.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Brasil es enorme: un coche de alquiler propio aporta la flexibilidad necesaria en destino. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Asegure aquí su coche con antelación.</a>"
+    "visum_text": "Los ciudadanos españoles pueden viajar a Brasil como turistas sin necesidad de visado para estancias de hasta 90 días. Esta exención es válida para viajes de turismo y, en general, las normas para españoles y alemanes son las mismas en este caso. A la entrada en Brasil, las autoridades pueden solicitar un billete de regreso o de continuación del viaje, así como pruebas de medios económicos suficientes para cubrir la estancia. Es recomendable comprobar antes de viajar que el pasaporte tenga una validez adecuada y que se cumplan todos los requisitos migratorios vigentes, ya que las condiciones de entrada pueden cambiar.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Brasil:</strong> antes de salir, compara tarjetas de crédito pensadas para viajar y ahorra en comisiones al sacar dinero en el extranjero y al pagar en todo el mundo. Una buena tarjeta puede marcar la diferencia en tu presupuesto de viaje. <a href='https://www.tarifcheck.com/YKQ2R5K'>Compara ahora tarjetas de crédito para viajar</a> y encuentra la opción más conveniente para Brasil.",
+    "is_optimized": true
   },
   {
     "slug": "costa-rica",
     "name": "Costa Rica",
-    "visum_status": "No se necesita visado (hasta 180 días)",
+    "visum_status": "No se necesita visado para ciudadanos españoles (hasta 90 días)",
     "pass_monate": 6,
-    "visum_text": "No existe obligación de visado para alemanes. A la entrada pueden concederse hasta 180 días de estancia. Es obligatorio un billete de regreso o de continuación del viaje (autobús o avión).",
-    "affiliate_hinweis": "💡 <strong>Coche de alquiler en Costa Rica:</strong> Para los parques nacionales y los caminos sin asfaltar, a menudo se recomienda un vehículo 4x4. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí coches de alquiler para Costa Rica.</a>"
+    "visum_text": "Los ciudadanos españoles no necesitan visado para viajar a Costa Rica como turistas. La entrada suele autorizarse por un máximo de 90 días, siempre que el pasaporte tenga una validez suficiente para cubrir la estancia y se presente un billete de regreso o de continuación del viaje. También es recomendable disponer de medios económicos suficientes para la estancia. En comparación con los ciudadanos alemanes, las condiciones de entrada para españoles son esencialmente las mismas: no existe obligación de visado para estancias turísticas cortas, ni visado a la llegada para este caso.",
+    "affiliate_hinweis": "¿Viajas a Costa Rica y quieres ahorrar en tu tarjeta de viaje? <strong>Compara ahora tarjetas de crédito sin comisiones</strong> y encuentra opciones ideales para pagar en el extranjero sin costes innecesarios y sacar dinero en cajeros con mejores condiciones. Descubre ofertas pensadas para viajeros frecuentes y elige la tarjeta que mejor se adapta a tu viaje: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito ahora</a>.",
+    "is_optimized": true
   },
   {
     "slug": "neuseeland",
     "name": "Nueva Zelanda",
-    "visum_status": "NZeTA requerida",
+    "visum_status": "NZeTA obligatoria",
     "pass_monate": 3,
-    "visum_text": "Los alemanes no necesitan visado para estancias de hasta 3 meses, pero sí obligatoriamente la autorización electrónica de viaje (NZeTA). Junto con la NZeTA se cobra automáticamente una tasa turística (IVL).",
-    "affiliate_hinweis": "💡 <strong>Paraíso del roadtrip:</strong> Explore Nueva Zelanda mejor en su propio vehículo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Reserve aquí un coche de alquiler en Nueva Zelanda.</a>"
+    "visum_text": "Los ciudadanos españoles no necesitan visado para viajar a Nueva Zelanda como turistas en estancias de hasta 3 meses. Sin embargo, sí deben obtener obligatoriamente una autorización electrónica de viaje NZeTA antes de la salida. Además, junto con la NZeTA se cobra la tasa turística IVL. En resumen: para España no hay visado de turista, pero la NZeTA es imprescindible para entrar en Nueva Zelanda por motivos de turismo.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Nueva Zelanda:</strong> antes de salir, compara tarjetas de crédito pensadas para viajar y ahorra en comisiones al pagar y sacar dinero en el extranjero. Muchas opciones permiten <strong>retirar efectivo con menos costes</strong> y <strong>pagar en todo el mundo sin comisiones</strong>. Encuentra la tarjeta que mejor se adapta a tu viaje aquí: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "philippinen",
     "name": "Filipinas",
-    "visum_status": "No se necesita visado (hasta 30 días)",
+    "visum_status": "No se necesita visado para estancias turísticas de hasta 30 días",
     "pass_monate": 6,
-    "visum_text": "Para una estancia de hasta 30 días, los ciudadanos alemanes no necesitan visado. Es obligatorio un billete de regreso o de continuación del viaje válido, así como el registro electrónico (eTravel) antes del vuelo.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> En las islas más grandes merece la pena un coche de alquiler para excursiones independientes. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí ofertas económicas.</a>"
+    "visum_text": "Los ciudadanos españoles pueden viajar a Filipinas como turistas sin visado para estancias de hasta 30 días, siempre que cumplan los requisitos de entrada habituales. Es obligatorio presentar un pasaporte en vigor con una validez suficiente para toda la estancia, un billete de regreso o de continuación del viaje y completar el registro electrónico eTravel antes del vuelo. Además, las autoridades de inmigración pueden solicitar prueba de fondos suficientes y, en algunos casos, documentación adicional sobre el viaje. Si deseas permanecer más tiempo, deberás tramitar la prórroga correspondiente o el visado adecuado antes de que expire el periodo permitido. En comparación con los ciudadanos alemanes, las normas para los ciudadanos españoles son esencialmente las mismas: no existe visado previo para turismo de corta duración, pero sí deben cumplirse los requisitos de entrada y control migratorio.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Filipinas:</strong> antes de salir, compara tarjetas de crédito pensadas para viajar y ahorra en comisiones al pagar y retirar efectivo en el extranjero. Una buena tarjeta puede ayudarte a <strong>pagar en todo el mundo sin costes adicionales</strong> y a <strong>reducir las comisiones en cajeros automáticos</strong>, algo especialmente útil en Filipinas. Consulta aquí una comparativa recomendada: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "malaysia",
     "name": "Malasia",
-    "visum_status": "No se necesita visado (hasta 90 días)",
+    "visum_status": "No se necesita visado para ciudadanos españoles (hasta 90 días).",
     "pass_monate": 6,
-    "visum_text": "Entrada sin visado para alemanes durante un máximo de 90 días. Atención: desde 2024 es obligatorio completar la tarjeta digital de llegada (MDAC - Malaysia Digital Arrival Card) dentro de los 3 días previos a la llegada.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> La red de carreteras en Malasia está magníficamente desarrollada, perfecta para un roadtrip. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Reserve aquí un coche de alquiler.</a>"
+    "visum_text": "Los ciudadanos españoles pueden viajar a Malasia como turistas sin visado para estancias de hasta 90 días. Para la entrada, el pasaporte debe tener una validez suficiente y cumplir con los requisitos migratorios vigentes. Importante: antes de viajar, es obligatorio completar la Malaysia Digital Arrival Card (MDAC) dentro de los 3 días previos a la llegada. Aunque no se exige visado para españoles en viajes turísticos de corta duración, las normas de entrada pueden cambiar en cualquier momento, por lo que se recomienda revisar la documentación necesaria antes del vuelo.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Malasia:</strong> si quieres ahorrar en comisiones al pagar y sacar dinero en el extranjero, compara tarjetas de crédito pensadas para viajar. Muchas ofrecen <strong>retiradas de efectivo en el extranjero con menos costes</strong> y <strong>pagos en todo el mundo sin comisiones</strong>. Encuentra la opción que mejor se adapta a tu viaje aquí: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "singapur",
     "name": "Singapur",
-    "visum_status": "No se necesita visado (hasta 90 días)",
+    "visum_status": "No se necesita visado para turistas españoles (hasta 90 días)",
     "pass_monate": 6,
-    "visum_text": "Para Singapur no necesita visado como turista. Sin embargo, debe completar obligatoriamente la 'SG Arrival Card' en línea hasta 3 días antes de la llegada, donde se solicitan datos de salud y del viaje.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Incluso en la metrópolis de Singapur y sus alrededores, un coche de alquiler puede ser muy práctico para excursiones. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí precios.</a>"
+    "visum_text": "Los ciudadanos españoles pueden viajar a Singapur como turistas sin necesidad de visado para estancias de hasta 90 días. En comparación con los ciudadanos alemanes, las normas de entrada son esencialmente las mismas: no hay visado previo ni visado a la llegada para turismo, pero sí es obligatorio completar la 'SG Arrival Card' en línea hasta 3 días antes de la llegada. En este formulario se solicitan datos personales, del viaje y de salud. Además, el pasaporte debe tener una validez suficiente para toda la estancia y cumplir con los requisitos migratorios habituales de Singapur. Si su viaje tiene otro propósito, como trabajo o estudios, pueden aplicarse condiciones distintas.",
+    "affiliate_hinweis": "¿Viajas a Singapur? <strong>Compara tarjetas de crédito para ahorrar en comisiones en el extranjero</strong> y paga en todo el mundo sin costes innecesarios. Una buena tarjeta de viaje te ayuda a <strong>retirar efectivo con menos gastos</strong> y a <strong>pagar gratis en divisa extranjera</strong>, algo especialmente útil en destinos como Singapur. Descubre ahora opciones recomendadas en <a href='https://www.tarifcheck.com/YKQ2R5K'>este comparador de tarjetas de crédito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "suedkorea",
     "name": "Corea del Sur",
-    "visum_status": "K-ETA requerida",
+    "visum_status": "Entrada sin visado para turistas españoles hasta 90 días, con K-ETA temporalmente exenta",
     "pass_monate": 6,
-    "visum_text": "Entrada sin visado hasta 90 días. No obstante, la autorización electrónica de viaje (K-ETA) es obligatoria y debe estar aprobada en línea antes del vuelo. También evita tener que completar la tarjeta de llegada en el avión.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Especialmente para explorar la popular isla de Jeju, un coche de alquiler es imprescindible. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Encuentre aquí su vehículo para Corea del Sur.</a>"
+    "visum_text": "Los ciudadanos españoles pueden viajar a Corea del Sur como turistas sin necesidad de visado para estancias de hasta 90 días. A diferencia de la antigua obligación de la K-ETA, actualmente España figura entre los países exentos de este requisito de autorización electrónica para viajes turísticos de corta duración. En la práctica, esto significa que los viajeros españoles pueden entrar sin visado y, por lo general, sin K-ETA para turismo, siempre que cumplan las condiciones de entrada, dispongan de pasaporte válido y puedan demostrar el motivo turístico y la salida del país dentro del plazo permitido. Antes de viajar, conviene revisar posibles cambios de última hora en la normativa de entrada, ya que las reglas migratorias pueden actualizarse.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Corea del Sur:</strong> si quieres ahorrar en comisiones al pagar en el extranjero y sacar dinero en cajeros, compara antes una tarjeta de crédito pensada para viajar. Con la opción adecuada puedes <strong>pagar en todo el mundo sin costes adicionales</strong> y <strong>retirar efectivo con mejores condiciones</strong>. Descubre aquí una comparativa recomendada: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "china",
     "name": "China",
-    "visum_status": "Sin visado (hasta 15 días) / de lo contrario visado",
+    "visum_status": "Sin visado (hasta 30 días) / de lo contrario visado",
     "pass_monate": 6,
-    "visum_text": "Gracias a una normativa especial, actualmente los alemanes pueden entrar sin visado para estancias turísticas de hasta 15 días. Para estancias de más de 15 días, debe solicitarse obligatoriamente con antelación un visado clásico en un Visa Application Service Center.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Muévase con flexibilidad por el Reino del Medio. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí los precios de coches de alquiler para China.</a>"
+    "visum_text": "Para los ciudadanos españoles que viajan a China como turistas, actualmente existe una exención de visado para estancias de hasta 30 días. Esto significa que, para viajes turísticos cortos, no es necesario solicitar visado con antelación. Si la estancia supera los 30 días, o si el motivo del viaje no es turístico, sí será obligatorio tramitar el visado correspondiente antes de viajar. Recomendamos comprobar siempre la validez del pasaporte y las condiciones de entrada vigentes antes de la salida, ya que las normas pueden cambiar con poca antelación.",
+    "affiliate_hinweis": "<strong>Consejo de viaje para China:</strong> si quieres ahorrar en comisiones al pagar y sacar efectivo durante tu estancia, compara antes una tarjeta de crédito pensada para viajeros. Así podrás <strong>pagar en todo el mundo sin costes adicionales</strong> y, en muchos casos, <strong>retirar dinero en el extranjero con mejores condiciones</strong>. Descubre opciones recomendadas aquí: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "indien",
     "name": "India",
-    "visum_status": "e-Visa requerida",
+    "visum_status": "Se requiere e-Visa para turistas españoles",
     "pass_monate": 6,
-    "visum_text": "La entrada solo es posible con un visado válido. Para turistas se recomienda el e-Visa, que se solicita previamente en línea. El pasaporte debe tener al menos dos páginas en blanco.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Para mayor comodidad e independencia en las carreteras de India, se recomienda un coche de alquiler. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compruebe aquí las ofertas.</a>"
+    "visum_text": "Los ciudadanos españoles que viajan a India como turistas necesitan un visado válido antes de la entrada. No existe exención de visado para turismo y, en la práctica, la opción más cómoda es solicitar el e-Visa de India por internet con antelación. El pasaporte debe tener una validez suficiente para toda la estancia y, como norma general, al menos dos páginas en blanco para los sellos de entrada y salida. Antes de viajar, conviene comprobar que los datos del visado electrónico coinciden exactamente con los del pasaporte y respetar siempre la duración autorizada de la estancia.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a India:</strong> si quieres ahorrar en comisiones al pagar y sacar dinero en el extranjero, compara antes una tarjeta de crédito pensada para viajes. Con la opción adecuada puedes <strong>retirar efectivo con menos costes</strong> y <strong>pagar en todo el mundo sin comisiones adicionales</strong>. Descubre y compara ofertas aquí: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "kenia",
     "name": "Kenia",
-    "visum_status": "eTA requerida",
+    "visum_status": "eTA obligatoria",
     "pass_monate": 6,
-    "visum_text": "Kenia ha abolido el visado, pero ahora exige obligatoriamente a todos los viajeros (incluidos los niños) una autorización electrónica de viaje (eTA). Esta debe solicitarse en línea con suficiente antelación antes del vuelo.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Para un safari individual o para continuar el viaje, un coche de alquiler todoterreno es ideal. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí vehículos 4x4 de alquiler.</a>"
+    "visum_text": "Para los ciudadanos españoles que viajan a Kenia como turistas, no se requiere visado tradicional ni existe visado a la llegada. Sin embargo, sí es obligatoria una autorización electrónica de viaje (eTA) antes de embarcar. La solicitud debe realizarse online con antelación suficiente y es válida para la entrada turística al país. También se aplica a menores de edad. Recomendamos comprobar los requisitos actualizados antes del viaje, ya que las normas de entrada pueden cambiar.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Kenia:</strong> si quieres ahorrar en comisiones al sacar dinero y pagar en el extranjero, compara antes una tarjeta de crédito pensada para viajar. Así podrás <strong>retirar efectivo con menos costes</strong> y <strong>pagar en todo el mundo sin sorpresas</strong>. Descubre opciones recomendadas aquí: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "tansania",
     "name": "Tanzania (Zanzíbar)",
-    "visum_status": "Visado / e-Visa requerido",
+    "visum_status": "Visado requerido para turistas españoles (e-Visa o Visa on Arrival)",
     "pass_monate": 6,
-    "visum_text": "Los alemanes necesitan un visado para Tanzania y la popular Zanzíbar. El e-Visa debe solicitarse en línea como máximo 10 días antes de la salida. Es posible obtener un 'Visa on Arrival', pero puede provocar largas esperas.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Descubra Zanzíbar o el continente con flexibilidad y por su cuenta. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Reserve aquí su coche de alquiler en Tanzania.</a>"
+    "visum_text": "Los ciudadanos españoles que viajan a Tanzania, incluida Zanzíbar, como turistas necesitan visado. Para España no existe exención de visado. La opción más cómoda suele ser solicitar el e-Visa antes del viaje a través de la plataforma oficial, para evitar esperas a la llegada. También es posible obtener un Visa on Arrival en el aeropuerto, aunque puede implicar colas más largas y no siempre es la alternativa más rápida. Recomendación SEO y práctica: comprueba siempre que tu pasaporte tenga una validez suficiente para la entrada y lleva a mano tu billete de regreso y la reserva de alojamiento, ya que pueden solicitarse en el control fronterizo.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Tanzania (Zanzíbar):</strong> antes de salir, compara tarjetas de crédito pensadas para viajar y ahorra en comisiones al pagar en el extranjero y al retirar efectivo en cajeros. Una buena tarjeta puede ayudarte a <strong>pagar en todo el mundo sin costes innecesarios</strong> y a evitar cargos por cambio de divisa. Consulta aquí un comparador recomendado: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "seychellen",
     "name": "Seychelles",
-    "visum_status": "Autorización de viaje requerida",
+    "visum_status": "Autorización de viaje obligatoria antes de la salida",
     "pass_monate": 0,
-    "visum_text": "Para las Seychelles no existe obligación de visado. Sin embargo, antes del vuelo debe obtenerse obligatoriamente en línea una autorización de entrada de pago (Travel Authorization). El pasaporte debe ser válido al menos hasta la salida.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Explore Mahé o Praslin a su propio ritmo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Asegure aquí un coche para las Seychelles.</a>"
+    "visum_text": "Para viajar a Seychelles como turista, los ciudadanos españoles no necesitan visado tradicional. Sin embargo, sí deben obtener obligatoriamente antes del vuelo una Autorización de Viaje (Travel Authorization) en línea. Además, es necesario presentar un pasaporte válido durante toda la estancia, al menos hasta la fecha de salida prevista. También se recomienda llevar billete de regreso o de continuación del viaje, prueba de alojamiento y medios económicos suficientes para la estancia. En comparación con los ciudadanos alemanes, las condiciones para los ciudadanos españoles son esencialmente las mismas: no hay visado de turista, pero sí autorización previa de viaje obligatoria.",
+    "affiliate_hinweis": "<strong>Consejo de viaje para Seychelles:</strong> antes de salir, compara tarjetas de crédito que te ayuden a <strong>ahorrar en comisiones al retirar efectivo en el extranjero</strong> y a <strong>pagar en todo el mundo sin costes adicionales</strong>. Así podrás disfrutar de tu viaje con más flexibilidad y menos gastos. Descubre una comparación útil aquí: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar</a>",
+    "is_optimized": true
   },
   {
     "slug": "mauritius",
     "name": "Mauricio",
-    "visum_status": "No se necesita visado (hasta 90 días)",
+    "visum_status": "No se necesita visado para turistas (hasta 90 días)",
     "pass_monate": 0,
-    "visum_text": "No existe obligación de visado. Los ciudadanos alemanes pueden entrar hasta 90 días. El pasaporte debe ser válido más allá del final del viaje. Debe presentarse un billete de regreso o de continuación del viaje, así como una reserva de hotel.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Un coche de alquiler es la mejor opción para descubrir todas las playas escondidas de Mauricio. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí las ofertas.</a>"
+    "visum_text": "Los ciudadanos españoles no necesitan visado para viajar a Mauricio como turistas. La entrada suele permitirse por un máximo de 90 días. El pasaporte debe estar en vigor durante toda la estancia y se recomienda que tenga una validez suficiente más allá de la fecha de salida. Además, las autoridades pueden solicitar un billete de regreso o de continuación del viaje, así como una reserva de alojamiento o una dirección de estancia en Mauricio. En caso de cambios en la normativa migratoria o de entrada, conviene verificar los requisitos antes del viaje con la aerolínea o la representación oficial correspondiente.",
+    "affiliate_hinweis": "<strong>Consejo para ahorrar en tu viaje a Mauricio:</strong> antes de salir, compara tarjetas de crédito pensadas para viajar y evita comisiones innecesarias al pagar en el extranjero o sacar dinero en cajeros. Una buena tarjeta puede ayudarte a <strong>pagar en todo el mundo sin comisiones</strong> y a <strong>reducir costes al retirar efectivo</strong> durante tu estancia. Descubre opciones recomendadas en <a href='https://www.tarifcheck.com/YKQ2R5K'>este comparador de tarjetas de crédito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "marokko",
     "name": "Marruecos",
-    "visum_status": "No se necesita visado (hasta 90 días)",
+    "visum_status": "No se necesita visado para turismo (hasta 90 días)",
     "pass_monate": 0,
-    "visum_text": "Para fines turísticos, los alemanes pueden entrar en Marruecos hasta 90 días sin visado. El pasaporte debe ser válido durante toda la estancia (recomendación: 6 meses).",
-    "affiliate_hinweis": "💡 <strong>Consejo de roadtrip:</strong> Para recorridos impresionantes por el Atlas, un coche de alquiler propio es esencial. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Reserve aquí coches de alquiler económicos.</a>"
+    "visum_text": "Los ciudadanos españoles pueden entrar en Marruecos como turistas sin necesidad de visado para estancias de hasta 90 días. El pasaporte debe estar en vigor durante toda la estancia; como recomendación práctica, conviene que tenga una validez mínima de 6 meses. En la mayoría de los casos, no existen requisitos de visado distintos a los de los ciudadanos alemanes para viajes turísticos, ya que tanto España como Alemania disfrutan de entrada sin visado para Marruecos en estancias cortas. Si tu viaje supera los 90 días o tiene un fin distinto al turismo, debes consultar con antelación a la representación consular correspondiente.",
+    "affiliate_hinweis": "<strong>Consejo para ahorrar en tu viaje a Marruecos:</strong> antes de salir, compara tarjetas de crédito pensadas para viajar y evita comisiones innecesarias al pagar en el extranjero o sacar dinero en cajeros. Con una buena tarjeta puedes <strong>pagar en todo el mundo sin coste</strong> y <strong>reducir gastos por retirada de efectivo</strong>. Compara ahora las mejores opciones aquí: <a href='https://www.tarifcheck.com/YKQ2R5K'>https://www.tarifcheck.com/YKQ2R5K</a>",
+    "is_optimized": true
   },
   {
     "slug": "tunesien",
     "name": "Túnez",
-    "visum_status": "No se necesita visado (hasta 90 días)",
+    "visum_status": "No se necesita visado para turistas españoles (hasta 90 días).",
     "pass_monate": 6,
-    "visum_text": "No existe obligación de visado para turistas alemanes en paquete y viajeros independientes durante un máximo de 90 días. La entrada con el documento de identidad solo es posible en el marco de un viaje organizado con vuelo y hotel incluidos; de lo contrario, se necesita el pasaporte.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Descubra las costas y los paisajes fascinantes de Túnez por su cuenta. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí los precios de coches de alquiler.</a>"
+    "visum_text": "Los ciudadanos españoles pueden viajar a Túnez como turistas sin necesidad de visado para estancias de hasta 90 días. En comparación con los ciudadanos alemanes, no existen diferencias relevantes en la normativa de entrada para turismo: tanto para españoles como para alemanes rige la exención de visado en viajes turísticos de corta duración. Para la entrada, normalmente se requiere un pasaporte válido; la entrada con DNI no es la opción habitual para este destino y, por motivos prácticos y de control fronterizo, se recomienda viajar siempre con pasaporte. Si la estancia supera los 90 días o el motivo del viaje no es turístico, pueden aplicarse requisitos adicionales.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Túnez:</strong> antes de salir, compara tarjetas de crédito pensadas para viajar y ahorra en comisiones al pagar en el extranjero y al sacar dinero en cajeros. Algunas tarjetas permiten <strong>pagar en todo el mundo sin coste</strong> y reducen gastos innecesarios durante tus vacaciones. Puedes encontrar una comparativa útil aquí: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "oman",
     "name": "Omán",
-    "visum_status": "Sin visado hasta 14 días / de lo contrario e-Visa",
+    "visum_status": "Sin visado para estancias turísticas de hasta 14 días; para estancias más largas, e-Visa obligatorio",
     "pass_monate": 6,
-    "visum_text": "Para estancias de hasta 14 días, los alemanes ya no necesitan visado. Quien desee quedarse más tiempo debe solicitar obligatoriamente un e-Visa en línea con antelación. Debe disponerse de una reserva de hotel y un billete de regreso.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Omán es un país clásico para roadtrips. A menudo se recomienda un coche de alquiler 4x4. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Asegure aquí su vehículo.</a>"
+    "visum_text": "Los ciudadanos españoles pueden viajar a Omán como turistas sin visado para estancias de hasta 14 días, siempre que cumplan los requisitos de entrada habituales. Si desean permanecer más tiempo, deben solicitar obligatoriamente un e-Visa antes del viaje. Para la entrada, se recomienda llevar un pasaporte con validez suficiente, una reserva de hotel y un billete de regreso o de continuación del viaje. En comparación con los ciudadanos alemanes, las normas son esencialmente las mismas: para España también existe la exención de visado para estancias cortas de hasta 14 días, mientras que para viajes turísticos más largos es necesario tramitar un visado electrónico con antelación.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Omán:</strong> antes de salir, compara tarjetas de crédito pensadas para viajar y ahorra en comisiones al pagar en el extranjero y al retirar efectivo en el cajero. Una buena tarjeta puede ayudarte a pagar en todo el mundo sin costes innecesarios y a viajar con más comodidad. Consulta aquí un comparador recomendado: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "katar",
     "name": "Catar (Doha)",
-    "visum_status": "Visa on Arrival gratuita",
+    "visum_status": "Entrada sin visado para turismo",
     "pass_monate": 6,
-    "visum_text": "Los ciudadanos alemanes reciben a la entrada un 'Visa Waiver' gratuito (Visa on Arrival), válido para estancias de hasta 90 días dentro de un período de 180 días.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Doha y los espectaculares paisajes de los alrededores se pueden explorar magníficamente en coche. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Encuentre aquí coches de alquiler para Catar.</a>"
+    "visum_text": "Los ciudadanos españoles no necesitan visado previo para viajar a Catar (Doha) como turistas. A su llegada, pueden obtener una exención de visado gratuita (visa waiver / visa on arrival) que permite estancias de hasta 90 días dentro de un período de 180 días. El pasaporte debe tener una validez mínima de 6 meses desde la fecha de entrada. Esta normativa puede cambiar en función de la situación migratoria o de requisitos sanitarios, por lo que se recomienda verificar la información antes del viaje.",
+    "affiliate_hinweis": "¿Viajas a Catar (Doha) y quieres ahorrar en tus gastos? <strong>Compara tarjetas de crédito para viajes</strong> y encuentra opciones con <strong>retiradas de efectivo en el extranjero con menos comisiones</strong> y <strong>pagos en todo el mundo sin coste adicional</strong>. Descubre la oferta que mejor se adapta a tu viaje aquí: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "saudi-arabien",
     "name": "Arabia Saudí",
-    "visum_status": "e-Visa / Visa on Arrival",
+    "visum_status": "Visado electrónico (e-Visa) o visado a la llegada para turistas españoles.",
     "pass_monate": 6,
-    "visum_text": "Los turistas alemanes pueden solicitar previamente un e-Visa en línea o recibir un 'Visa on Arrival' a la llegada. El visado es válido durante un año y permite múltiples entradas (hasta un máximo de 90 días seguidos).",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Las enormes distancias en Arabia Saudí se recorren mejor con flexibilidad en un coche de alquiler. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare ahora los precios de coches de alquiler.</a>"
+    "visum_text": "Los ciudadanos españoles que viajan a Arabia Saudí con fines turísticos necesitan un visado. Pueden solicitar con antelación un e-Visa en línea o, en muchos casos, obtener un visado a la llegada (Visa on Arrival) en el aeropuerto. El e-Visa saudí suele permitir entradas múltiples durante un año, con estancias de hasta 90 días por visita. Antes de viajar, conviene comprobar que el pasaporte tenga una validez suficiente y que se cumplan los requisitos vigentes de entrada, ya que las normas pueden cambiar. Para turismo, no existe exención de visado para ciudadanos españoles; a diferencia de algunos destinos, Arabia Saudí exige visado, aunque ofrece opciones flexibles como el e-Visa y el visado a la llegada.",
+    "affiliate_hinweis": "¿Viajas a Arabia Saudí? <strong>Compara tarjetas de crédito antes de salir</strong> y ahorra en comisiones al sacar dinero en el extranjero y al pagar en todo el mundo. Una buena tarjeta puede marcar la diferencia en tu viaje, especialmente si buscas <strong>retiradas de efectivo más baratas</strong> y <strong>pagos sin coste adicional</strong>. Encuentra la opción que mejor se adapta a tu viaje aquí: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "jordanien",
     "name": "Jordania",
-    "visum_status": "Visado requerido (a menudo mediante Jordan Pass)",
+    "visum_status": "Visado requerido, con opción de visado a la llegada para turistas españoles",
     "pass_monate": 6,
-    "visum_text": "Obligación de visado. El visado a menudo puede expedirse a la llegada en el aeropuerto. Si va a permanecer más de 3 noches, se recomienda comprar el 'Jordan Pass' antes del viaje: exime de la tasa de visado e incluye la entrada a Petra.",
-    "affiliate_hinweis": "💡 <strong>Consejo de roadtrip:</strong> De Amán a Petra y al Mar Muerto: Jordania es perfecta para conducir por libre. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Reserve aquí su coche de alquiler.</a>"
+    "visum_text": "Los ciudadanos españoles que viajan a Jordania como turistas necesitan visado. En la práctica, normalmente pueden obtener el visado a la llegada en el aeropuerto o en los principales pasos fronterizos, siempre que el pasaporte tenga una validez suficiente y se cumplan los requisitos de entrada vigentes. Para estancias turísticas de varios días, suele ser muy recomendable valorar la compra del Jordan Pass antes del viaje, ya que puede incluir la exención de la tasa de visado y el acceso a Petra, además de otras ventajas para viajeros. Antes de volar, conviene comprobar las condiciones actuales de entrada, ya que los requisitos pueden cambiar.",
+    "affiliate_hinweis": "<strong>Consejo de ahorro para tu viaje a Jordania:</strong> si quieres pagar en el extranjero sin sorpresas, compara tarjetas de crédito pensadas para viajar. Muchas ofrecen <strong>retiradas de efectivo con menos comisiones</strong>, <strong>pagos en todo el mundo sin coste adicional</strong> y mejores condiciones para usar tu tarjeta en Jordania. Puedes encontrar una opción adecuada aquí: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "jamaika",
     "name": "Jamaica",
-    "visum_status": "No se necesita visado (hasta 90 días)",
+    "visum_status": "No se necesita visado para estancias turísticas de hasta 90 días.",
     "pass_monate": 6,
-    "visum_text": "Para una estancia turística de hasta 90 días, los alemanes no necesitan visado. Sin embargo, es obligatorio completar gratuitamente antes del vuelo un formulario de entrada (Online Passenger Declaration).",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Descubra la maravillosa isla caribeña a su propio ritmo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Asegure aquí un coche de alquiler para Jamaica.</a>"
+    "visum_text": "Los ciudadanos españoles que viajan a Jamaica como turistas no necesitan visado para estancias de hasta 90 días. A diferencia de algunos destinos, no existe un visado a la llegada para este caso, ya que la entrada es posible sin visado previo siempre que se cumplan los requisitos migratorios habituales. Es importante viajar con un pasaporte válido, billete de regreso o de continuación del viaje y, en su caso, demostrar medios económicos suficientes para la estancia. Además, las autoridades pueden solicitar información sobre el alojamiento y el motivo del viaje. Antes de volar, conviene revisar si sigue vigente cualquier formulario de entrada o declaración de viaje exigida por las autoridades jamaicanas, ya que los requisitos pueden cambiar con poca antelación.",
+    "affiliate_hinweis": "¿Viajas a Jamaica? <strong>Compara tarjetas de crédito pensadas para viajar</strong> y ahorra en comisiones al pagar en el extranjero y al retirar efectivo en cajeros. Una buena tarjeta puede marcar la diferencia en destinos como Jamaica, donde conviene evitar cargos innecesarios y pagar en moneda local sin sorpresas. Descubre opciones con ventajas para viajeros en <a href='https://www.tarifcheck.com/YKQ2R5K'>este comparador de tarjetas de crédito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "peru",
     "name": "Perú",
-    "visum_status": "No se necesita visado (hasta 90 días)",
+    "visum_status": "No se necesita visado para turistas españoles (hasta 90 días)",
     "pass_monate": 6,
-    "visum_text": "Perú no exige visado. Los turistas alemanes suelen recibir a la entrada un permiso de estancia de 90 días (por semestre). Debe presentarse un billete de regreso o de continuación del viaje.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Viva los Andes y las carreteras costeras con total flexibilidad en un coche de alquiler. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Encuentre aquí vehículos adecuados.</a>"
+    "visum_text": "Perú no exige visado a los ciudadanos españoles que viajan como turistas. A la llegada, normalmente se concede un permiso de estancia de hasta 90 días. Es importante llevar un pasaporte válido y, en algunos casos, puede solicitarse un billete de regreso o de continuación del viaje, así como acreditar medios suficientes para la estancia. Para estancias turísticas, las normas para españoles y alemanes son esencialmente las mismas: ambos pueden entrar sin visado previo, siempre dentro del límite de permanencia autorizado por las autoridades migratorias peruanas.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Perú:</strong> antes de salir, compara tarjetas de crédito pensadas para viajar y ahorra en comisiones al pagar en el extranjero y al retirar efectivo en cajeros. Así podrás disfrutar de tu viaje a Perú con más comodidad y menos costes ocultos. Descubre opciones interesantes en <a href='https://www.tarifcheck.com/YKQ2R5K'>este comparador de tarjetas de crédito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "kolumbien",
     "name": "Colombia",
-    "visum_status": "No se necesita visado (hasta 90 días)",
+    "visum_status": "No se necesita visado para turistas españoles (hasta 90 días)",
     "pass_monate": 6,
-    "visum_text": "Entrada sin visado para alemanes durante un máximo de 90 días. Es obligatorio completar el formulario de entrada en línea 'Check-MIG' dentro de las 72 horas previas al vuelo.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> ¿Planea una ruta por la conocida zona cafetera? Un coche de alquiler ofrece máxima libertad. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí las ofertas.</a>"
+    "visum_text": "Los ciudadanos españoles pueden viajar a Colombia como turistas sin necesidad de visado para estancias de hasta 90 días. Al igual que para otras nacionalidades exentas, es obligatorio completar el formulario de entrada en línea 'Check-MIG' dentro de las 72 horas previas al vuelo. Además, la autoridad migratoria puede solicitar prueba de billete de salida, medios económicos suficientes y pasaporte en vigor durante toda la estancia. Si deseas permanecer más tiempo, la prórroga de la estancia debe gestionarse ante Migración Colombia antes de que expire el periodo autorizado.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Colombia:</strong> si quieres ahorrar en comisiones al pagar y sacar dinero en el extranjero, compara tarjetas de crédito pensadas para viajeros. Con la tarjeta adecuada puedes <strong>retirar efectivo con menos costes</strong> y <strong>pagar en todo el mundo sin comisiones</strong>. Descubre opciones recomendadas aquí: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "argentinien",
     "name": "Argentina",
-    "visum_status": "No se necesita visado (hasta 90 días)",
+    "visum_status": "No se necesita visado para ciudadanos españoles (hasta 90 días)",
     "pass_monate": 0,
-    "visum_text": "No existe obligación de visado para ciudadanos alemanes durante un máximo de 90 días. El pasaporte debe ser válido durante toda la estancia prevista. A menudo se solicita al entrar un comprobante de viaje de salida o de regreso.",
-    "affiliate_hinweis": "💡 <strong>Roadtrip por la Patagonia:</strong> Las distancias en Argentina son enormes. Un buen coche de alquiler es esencial. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Encuentre aquí coches de alquiler fiables para Sudamérica.</a>"
+    "visum_text": "Los ciudadanos españoles pueden viajar a Argentina como turistas sin necesidad de visado para estancias de hasta 90 días. En general, las normas de entrada para España y Alemania son muy similares en este destino: no existe obligación de visado para turismo en ambos casos. El pasaporte debe estar en vigor durante toda la estancia prevista y, en la práctica, las autoridades migratorias pueden solicitar un billete de salida o de regreso, así como pruebas del motivo turístico y de medios económicos suficientes. Si tu viaje supera los 90 días o tiene fines distintos al turismo, conviene verificar con antelación si necesitas una autorización adicional o un visado específico.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Argentina:</strong> si quieres ahorrar en comisiones al pagar en el extranjero y al retirar efectivo en cajeros, compara antes una tarjeta de crédito pensada para viajar. Con una buena tarjeta puedes <strong>pagar en todo el mundo sin costes innecesarios</strong> y reducir gastos en tus vacaciones. Descubre opciones recomendadas en <a href='https://www.tarifcheck.com/YKQ2R5K'>este comparador de tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "chile",
     "name": "Chile",
-    "visum_status": "No se necesita visado (hasta 90 días)",
+    "visum_status": "No se necesita visado para turistas (hasta 90 días)",
     "pass_monate": 6,
-    "visum_text": "Para estancias turísticas de hasta 90 días no se necesita visado. A la entrada recibirá una tarjeta de turista (Tarjeta de Turismo), que deberá conservar cuidadosamente hasta la salida.",
-    "affiliate_hinweis": "💡 <strong>Coche de alquiler en Sudamérica:</strong> Chile es perfecto para roadtrips espectaculares (p. ej., por la Carretera Austral). <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Encuentre aquí el coche de alquiler adecuado.</a>"
+    "visum_text": "Los ciudadanos españoles pueden viajar a Chile como turistas sin necesidad de visado para estancias de hasta 90 días. A la llegada, normalmente se concede una autorización de estancia turística, que debe conservarse durante todo el viaje y hasta la salida del país. Es importante viajar con pasaporte válido y cumplir con los requisitos de entrada vigentes, ya que las autoridades migratorias pueden solicitar prueba de billete de regreso, alojamiento y medios económicos suficientes. En comparación con los ciudadanos alemanes, las normas para españoles son esencialmente las mismas: no existe visado previo para turismo de corta duración, ni visado a la llegada para este fin, sino entrada sin visado dentro del periodo permitido.",
+    "affiliate_hinweis": "<strong>Consejo para ahorrar en tu viaje a Chile:</strong> antes de salir, compara tarjetas de crédito pensadas para viajar y evita comisiones innecesarias al pagar en el extranjero o retirar efectivo en cajeros. Una buena tarjeta de viaje puede ayudarte a <strong>pagar en todo el mundo sin coste adicional</strong> y a <strong>reducir gastos por retirada de dinero</strong> durante tu estancia en Chile. Compara ahora las opciones disponibles en <a href='https://www.tarifcheck.com/YKQ2R5K'>este comparador de tarjetas de crédito</a> y elige la que mejor se adapte a tu viaje.",
+    "is_optimized": true
   },
   {
     "slug": "ecuador",
     "name": "Ecuador",
-    "visum_status": "No se necesita visado (hasta 90 días)",
+    "visum_status": "No se necesita visado para ciudadanos españoles (hasta 90 días).",
     "pass_monate": 6,
-    "visum_text": "Los alemanes pueden entrar en Ecuador sin visado durante un máximo de 90 días (incluidas las islas Galápagos). Debe poder presentarse un billete de regreso o de continuación del viaje al entrar.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> En el continente ecuatoriano merece la pena un coche de alquiler para excursiones por los Andes. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Reserve aquí un coche de alquiler.</a>"
+    "visum_text": "Los ciudadanos españoles pueden entrar en Ecuador como turistas sin visado durante un máximo de 90 días. Esta exención también suele aplicar a las islas Galápagos. A la llegada, es posible que se solicite un billete de regreso o de continuación del viaje, así como prueba de medios suficientes para la estancia. Recomendamos comprobar que el pasaporte tenga una validez suficiente para toda la duración del viaje y revisar antes de salir cualquier requisito sanitario o migratorio vigente, ya que las normas de entrada pueden cambiar.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Ecuador:</strong> antes de salir, compara tarjetas de crédito pensadas para viajar y ahorra en comisiones al pagar en el extranjero y al retirar efectivo en cajeros. Muchas tarjetas ofrecen además pagos en todo el mundo sin coste adicional. Descubre opciones interesantes en <a href='https://www.tarifcheck.com/YKQ2R5K'>este comparador de tarjetas de crédito</a> y elige la que mejor se adapte a tu viaje por Ecuador.",
+    "is_optimized": true
   },
   {
     "slug": "bolivien",
     "name": "Bolivia",
-    "visum_status": "No se necesita visado (hasta 90 días)",
+    "visum_status": "No se necesita visado para turistas españoles (hasta 90 días)",
     "pass_monate": 6,
-    "visum_text": "La entrada es sin visado durante un máximo de 90 días. A la llegada, los turistas suelen recibir primero un sello para 30 días, que puede ampliarse gratuitamente en el país ante la autoridad migratoria hasta 90 días.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Descubra los impresionantes paisajes de Bolivia con flexibilidad en su propio vehículo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí coches de alquiler económicos.</a>"
+    "visum_text": "Los ciudadanos españoles pueden viajar a Bolivia como turistas sin necesidad de visado para estancias de hasta 90 días. En la práctica, la entrada suele concederse inicialmente por un periodo más corto en el control migratorio, y la estancia puede ampliarse dentro del país hasta completar el máximo permitido, siempre que se cumplan los requisitos de la autoridad migratoria. Para viajar sin problemas, es recomendable llevar pasaporte en vigor, billete de salida y medios económicos suficientes. En comparación con los ciudadanos alemanes, no hay una diferencia relevante en el régimen turístico: para España también aplica la exención de visado para viajes de corta duración.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Bolivia:</strong> si quieres ahorrar en comisiones al pagar y sacar dinero en el extranjero, compara antes una tarjeta de crédito pensada para viajeros. Así podrás <strong>retirar efectivo con menos costes</strong> y <strong>pagar en todo el mundo sin comisiones</strong>, algo especialmente útil en un viaje a Bolivia. Puedes ver una comparativa aquí: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "panama",
     "name": "Panamá",
-    "visum_status": "No se necesita visado (hasta 180 días)",
+    "visum_status": "No se necesita visado para turistas españoles (estancia de hasta 90 días)",
     "pass_monate": 3,
-    "visum_text": "No existe obligación de visado para alemanes. A la llegada, a menudo se concede un permiso de estancia de hasta 180 días. El pasaporte debe tener al menos 3 meses de validez al entrar. Es obligatorio un billete de salida.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Con un coche de alquiler podrá desplazarse cómodamente y por su cuenta en Panamá desde la ciudad hasta las playas de ensueño. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compruebe aquí los precios de coches de alquiler.</a>"
+    "visum_text": "Los ciudadanos españoles pueden viajar a Panamá como turistas sin necesidad de visado previo para estancias de hasta 90 días. A la llegada, las autoridades migratorias pueden solicitar un pasaporte con una validez mínima de 3 meses, billete de salida del país y, en algunos casos, prueba de fondos suficientes para cubrir la estancia. Aunque las normas para españoles y alemanes son muy similares, la referencia habitual para España es una estancia turística de hasta 90 días, prorrogable en determinados casos según la decisión de las autoridades panameñas. Para evitar incidencias en frontera, se recomienda comprobar siempre los requisitos actualizados antes del viaje.",
+    "affiliate_hinweis": "¿Viajas a Panamá? <strong>Compara tarjetas de crédito para ahorrar en tus gastos de viaje</strong>: elige una tarjeta que te permita <strong>retirar efectivo en el extranjero con menos comisiones</strong> y <strong>pagar en todo el mundo sin costes adicionales</strong>. Así podrás disfrutar de tu estancia con más flexibilidad y menos gastos. Encuentra la opción ideal aquí: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "guatemala",
     "name": "Guatemala",
-    "visum_status": "No se necesita visado (hasta 90 días)",
+    "visum_status": "No se necesita visado para ciudadanos españoles (hasta 90 días)",
     "pass_monate": 6,
-    "visum_text": "Entrada sin visado posible durante un máximo de 90 días (válido para toda la región C4). Quien entra por tierra, a veces es solicitado en la frontera a pagar una pequeña tasa de tramitación no oficial.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> El fascinante país de los mayas se puede recorrer maravillosamente de forma individual en su propio coche. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Reserve aquí su coche de alquiler con antelación.</a>"
+    "visum_text": "Los ciudadanos españoles pueden viajar a Guatemala como turistas sin necesidad de visado para estancias de hasta 90 días. Esta exención se aplica normalmente dentro del área CA-4, por lo que el tiempo de permanencia puede computarse conjuntamente con otros países de la región. Para la entrada, es habitual presentar un pasaporte en vigor con una validez suficiente, billete de salida y, en algunos casos, prueba de medios económicos o alojamiento. A diferencia de otros viajeros, los ciudadanos de España no suelen necesitar visado previo ni visado a la llegada para turismo. No obstante, las condiciones de entrada pueden cambiar, por lo que conviene verificar los requisitos actualizados antes del viaje.",
+    "affiliate_hinweis": "¿Viajas a Guatemala? <strong>Ahorra en comisiones y paga con más comodidad en el extranjero</strong> comparando tarjetas que permitan <strong>retirar efectivo en el exterior con menos costes</strong> y <strong>pagar en todo el mundo sin comisiones</strong>. Antes de salir, revisa opciones en <a href='https://www.tarifcheck.com/YKQ2R5K'>este comparador de tarjetas de crédito para viajes</a> y elige la que mejor se adapte a tu ruta por Guatemala.",
+    "is_optimized": true
   },
   {
     "slug": "bahamas",
     "name": "Bahamas",
-    "visum_status": "No se necesita visado (hasta 90 días)",
+    "visum_status": "No se necesita visado para turismo (hasta 90 días)",
     "pass_monate": 6,
-    "visum_text": "Los ciudadanos alemanes no necesitan visado para una estancia turística de hasta 90 días. Sin embargo, es obligatorio presentar un billete de regreso o de continuación del viaje al entrar.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Explore las islas más grandes de las Bahamas con total independencia en un coche de alquiler. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Asegure aquí el vehículo adecuado.</a>"
+    "visum_text": "Los ciudadanos españoles no necesitan visado para viajar a Bahamas con fines turísticos y permanecer hasta 90 días. Para la entrada, las autoridades pueden exigir un pasaporte válido, billete de regreso o de continuación del viaje y, en algunos casos, prueba de alojamiento o de fondos suficientes para la estancia. No existen diferencias relevantes frente a los ciudadanos alemanes en este destino para viajes turísticos de corta duración.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Bahamas:</strong> antes de salir, compara tarjetas de crédito pensadas para viajar y ahorra en comisiones al pagar en el extranjero y al retirar efectivo en cajeros. Una buena tarjeta puede ayudarte a disfrutar más de tus vacaciones en Bahamas, con menos costes y mayor comodidad. Consulta aquí un <a href='https://www.tarifcheck.com/YKQ2R5K'>comparador de tarjetas de crédito para viajes</a> y encuentra la opción que mejor se adapte a tu viaje.",
+    "is_optimized": true
   },
   {
     "slug": "barbados",
     "name": "Barbados",
-    "visum_status": "No se necesita visado (hasta 90 días)",
+    "visum_status": "No se necesita visado para ciudadanos españoles (hasta 90 días)",
     "pass_monate": 6,
-    "visum_text": "Entrada sin visado durante un máximo de 90 días. Es obligatorio completar el formulario de entrada en línea gratuito (ED Card) dentro de las 72 horas previas a la llegada para agilizar la entrada.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Un coche de alquiler es perfecto para llegar también a playas y bahías escondidas en Barbados. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí las ofertas.</a>"
+    "visum_text": "Los ciudadanos españoles pueden entrar en Barbados como turistas sin visado para estancias de hasta 90 días. A la llegada, normalmente se exige un pasaporte válido durante toda la estancia, así como prueba de viaje de regreso o de continuación del viaje y, en algunos casos, evidencia de fondos suficientes y alojamiento. Además, es obligatorio completar la tarjeta de entrada digital gratuita (ED Card) dentro de las 72 horas previas a la llegada para facilitar el control fronterizo. Para viajes turísticos, las normas para ciudadanos españoles son, en la práctica, las mismas que para ciudadanos alemanes: no se requiere visado previo, pero sí cumplir con los requisitos de entrada y documentación.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Barbados:</strong> antes de salir, compara tarjetas de crédito pensadas para viajar y ahorra en comisiones al sacar dinero y pagar en el extranjero. Así podrás disfrutar de Barbados con más comodidad y menos costes. Encuentra opciones con pagos en todo el mundo sin comisión y ventajas para viajeros aquí: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "namibia",
     "name": "Namibia",
-    "visum_status": "No se necesita visado (hasta 90 días)",
+    "visum_status": "No se necesita visado para estancias turísticas de hasta 90 días",
     "pass_monate": 6,
-    "visum_text": "Para estancias de hasta 90 días en el año natural, los turistas alemanes no necesitan visado. Sin embargo, el pasaporte debe seguir siendo válido al menos 6 meses después de la fecha de regreso.",
-    "affiliate_hinweis": "💡 <strong>Vehículos para safari:</strong> Para Namibia es imprescindible un coche de alquiler robusto (normalmente 4x4). <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Asegure aquí su vehículo con antelación.</a>"
+    "visum_text": "Los ciudadanos españoles que viajan a Namibia como turistas no necesitan visado para estancias de hasta 90 días. A la llegada, normalmente se exige un pasaporte válido con una vigencia mínima de 6 meses desde la fecha de entrada y, en algunos casos, al menos una o dos páginas en blanco para los sellos de inmigración. También es recomendable llevar billete de regreso o de continuación del viaje, así como prueba de alojamiento y medios económicos suficientes para la estancia. En comparación con los ciudadanos alemanes, las normas para los ciudadanos españoles son esencialmente las mismas: no existe visado previo para turismo de corta duración, siempre que se cumplan los requisitos de entrada vigentes.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Namibia:</strong> antes de salir, compara tarjetas de crédito pensadas para viajar y ahorra en comisiones al sacar dinero en el extranjero y al pagar en todo el mundo. Una buena tarjeta puede marcar la diferencia en destinos como Namibia, donde conviene evitar costes innecesarios. Descubre opciones interesantes en <a href='https://www.tarifcheck.com/YKQ2R5K'>este comparador de tarjetas de crédito para viajes</a>.",
+    "is_optimized": true
   },
   {
     "slug": "botswana",
     "name": "Botsuana",
-    "visum_status": "No se necesita visado (hasta 90 días)",
+    "visum_status": "No se necesita visado para turistas (hasta 90 días)",
     "pass_monate": 6,
-    "visum_text": "Los alemanes reciben gratuitamente en los pasos fronterizos o aeropuertos un permiso de entrada (Visitor's Pass) por un máximo de 90 días en el año natural. Debe presentarse billete de regreso o de continuación del viaje.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Botsuana se puede explorar magníficamente por libre. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí coches de alquiler para Botsuana.</a>"
+    "visum_text": "Los ciudadanos españoles pueden viajar a Botsuana como turistas sin necesidad de solicitar visado previo. A la llegada, normalmente se concede un permiso de entrada para estancias de hasta 90 días. Es importante llevar un pasaporte válido, con una vigencia suficiente para toda la estancia, así como un billete de regreso o de continuación del viaje y, si se solicita, prueba de fondos suficientes y alojamiento. Las normas de entrada pueden cambiar, por lo que conviene verificar la situación antes de viajar con la embajada o la autoridad migratoria correspondiente.",
+    "affiliate_hinweis": "¿Viajas a Botsuana? <strong>Compara ahora tarjetas de crédito para ahorrar en tus gastos de viaje</strong>: encuentra opciones ideales para <strong>retirar efectivo en el extranjero con menos comisiones</strong> y <strong>pagar en todo el mundo sin costes innecesarios</strong>. Descubre la tarjeta que mejor se adapta a tu viaje en <a href='https://www.tarifcheck.com/YKQ2R5K'>este comparador de tarjetas de crédito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "uganda",
     "name": "Uganda",
-    "visum_status": "e-Visa requerido",
+    "visum_status": "Visado obligatorio: e-Visa antes del viaje",
     "pass_monate": 6,
-    "visum_text": "Uganda tiene una estricta obligación de visado. El visado debe solicitarse obligatoriamente antes de la entrada como e-Visa en línea. Además, se exige el comprobante de vacunación contra la fiebre amarilla para entrar en el país.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Para visitas a parques nacionales y safaris por libre, un coche de alquiler 4x4 es ideal. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí vehículos 4x4.</a>"
+    "visum_text": "Para los ciudadanos españoles que viajan a Uganda como turistas, el visado es obligatorio. La entrada no es posible sin autorización previa, por lo que debe solicitarse un e-Visa antes del viaje. En la práctica, las normas para españoles son muy similares a las que se aplican a los ciudadanos alemanes: no existe exención de visado para turismo y tampoco se recomienda contar con un visado a la llegada como opción estándar. Además, Uganda exige el certificado de vacunación contra la fiebre amarilla para la entrada al país. Recomendamos comprobar con antelación los requisitos vigentes, ya que las condiciones de entrada pueden cambiar.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Uganda:</strong> si quieres ahorrar en comisiones al pagar y sacar dinero en el extranjero, compara tarjetas de crédito antes de salir. Una buena tarjeta de viaje puede ayudarte a <strong>retirar efectivo con menos costes</strong> y a <strong>pagar en todo el mundo sin comisiones</strong>. Aquí puedes comparar opciones de forma rápida y sencilla: <a href='https://www.tarifcheck.com/YKQ2R5K' target='_blank' rel='noopener noreferrer'>comparar tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "madagaskar",
     "name": "Madagascar",
-    "visum_status": "e-Visa o Visa on Arrival",
+    "visum_status": "Visado obligatorio para ciudadanos españoles: e-Visa o Visa on Arrival",
     "pass_monate": 6,
-    "visum_text": "Los alemanes necesitan un visado. Este puede obtenerse previamente como e-Visa o a la llegada al aeropuerto (Visa on Arrival). La duración de la estancia puede ser de 15, 30 o 60 días (tasas diferentes).",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Descubra la mundialmente famosa Avenida de los Baobabs y los parques nacionales con total flexibilidad. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Asegure aquí un coche de alquiler todoterreno.</a>"
+    "visum_text": "Los ciudadanos españoles necesitan visado para viajar a Madagascar como turistas. A diferencia de algunos destinos con entrada sin visado, para España no existe exención de visado en este caso. La entrada puede tramitarse de dos formas: mediante e-Visa antes del viaje o como Visa on Arrival a la llegada al aeropuerto. La duración autorizada de la estancia turística suele ser de 15, 30 o 60 días, con tasas diferentes según la opción y la duración elegidas. Para evitar contratiempos, se recomienda comprobar con antelación los requisitos de entrada, la validez del pasaporte y las condiciones actualizadas antes de viajar.",
+    "affiliate_hinweis": "Consejo útil para tu viaje a Madagascar: si quieres ahorrar en comisiones al pagar en el extranjero y al sacar dinero en cajeros, compara antes una tarjeta de crédito pensada para viajeros. Así puedes encontrar opciones con <strong>retiradas de efectivo más baratas</strong>, <strong>pagos en todo el mundo sin comisiones</strong> y mejores condiciones para tus gastos en destino. Compara ahora las mejores ofertas en <a href='https://www.tarifcheck.com/YKQ2R5K'>tarjetas de crédito para viajar</a> y elige la que mejor se adapte a tu viaje a Madagascar.",
+    "is_optimized": true
   },
   {
     "slug": "kap-verde",
     "name": "Cabo Verde (Islas de Cabo Verde)",
-    "visum_status": "Registro EASE (sin visado)",
+    "visum_status": "Registro EASE obligatorio, sin visado para turismo",
     "pass_monate": 6,
-    "visum_text": "Para estancias de hasta 30 días, los alemanes no necesitan visado. Sin embargo, deben registrarse en línea a través de la plataforma oficial EASE a más tardar 5 días antes del inicio del viaje y pagar la tasa de seguridad aeroportuaria (TSA).",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> En islas más grandes como Sal o Santiago, un coche de alquiler ofrece gran independencia. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compruebe aquí coches de alquiler.</a>"
+    "visum_text": "Los ciudadanos españoles no necesitan visado para viajar a Cabo Verde (Islas de Cabo Verde) como turistas. Para estancias de hasta 30 días, la entrada es posible sin visado, pero sí es obligatorio completar el registro previo en la plataforma oficial EASE y abonar la tasa de seguridad aeroportuaria (TSA) antes del viaje. En la práctica, esto significa que los viajeros de España deben tramitar la preinscripción online con antelación suficiente, normalmente al menos 5 días antes de la salida. Además, es recomendable llevar un pasaporte válido, billete de ida y vuelta y, si se solicita, prueba de alojamiento y medios económicos. En comparación con los ciudadanos alemanes, las condiciones para los españoles son esencialmente las mismas: no hay visado turístico para estancias cortas, pero sí registro EASE y pago de la TSA.",
+    "affiliate_hinweis": "¿Viajas a Cabo Verde (Islas de Cabo Verde) y quieres ahorrar en comisiones? <strong>Compara ahora tarjetas de crédito ideales para viajes</strong>: busca opciones con <strong>retiradas de efectivo en el extranjero con bajas comisiones</strong> y <strong>pagos en todo el mundo sin coste</strong>. Así podrás pagar y sacar dinero con más tranquilidad durante tu estancia. <a href='https://www.tarifcheck.com/YKQ2R5K'>Descubre la comparativa de tarjetas aquí</a>.",
+    "is_optimized": true
   },
   {
     "slug": "georgien",
     "name": "Georgia",
-    "visum_status": "No se necesita visado (hasta 1 año)",
+    "visum_status": "No se necesita visado para ciudadanos españoles (hasta 1 año)",
     "pass_monate": 0,
-    "visum_text": "Georgia tiene una de las normativas de entrada más generosas del mundo: los ciudadanos alemanes pueden permanecer en el país sin visado hasta un año completo con el pasaporte (o incluso con el documento de identidad).",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> ¡Las carreteras de montaña del Cáucaso llaman! <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Reserve aquí su coche de alquiler para recorridos inolvidables en Georgia.</a>"
+    "visum_text": "Georgia ofrece una normativa de entrada muy favorable para los ciudadanos españoles que viajan como turistas: no necesitan visado para entrar en el país y pueden permanecer hasta 1 año con un pasaporte válido. A diferencia de otros destinos, no existe visado a la llegada ni un trámite previo obligatorio para estancias turísticas de corta y media duración. En la práctica, las condiciones para los ciudadanos españoles son muy similares a las de los ciudadanos alemanes, ya que ambos pueden viajar a Georgia sin visado y disfrutar de una estancia prolongada. Aun así, es recomendable llevar un pasaporte en vigor y comprobar que cumple los requisitos de validez para toda la duración del viaje.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Georgia:</strong> si quieres ahorrar en comisiones al pagar en el extranjero y al sacar dinero en cajeros, compara tarjetas de crédito pensadas para viajar. Una buena tarjeta puede ayudarte a <strong>retirar efectivo con menos costes</strong> y a <strong>pagar en todo el mundo sin comisiones</strong>. Descubre opciones recomendadas en <a href='https://www.tarifcheck.com/YKQ2R5K'>este comparador de tarjetas de crédito para viajes</a>.",
+    "is_optimized": true
   },
   {
     "slug": "kambodscha",
     "name": "Camboya",
     "visum_status": "e-Visa o Visa on Arrival",
     "pass_monate": 6,
-    "visum_text": "Existe obligación de visado. Los turistas pueden solicitar previamente el e-Visa electrónico (recomendado) o adquirir el Visa on Arrival en el aeropuerto/en los pasos fronterizos. Para ello se necesitan fotos de pasaporte y dólares estadounidenses en efectivo.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Benefíciese de más comodidad y flexibilidad fuera de las rutas principales. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí coches de alquiler en Camboya.</a>"
+    "visum_text": "Los ciudadanos españoles necesitan visado para viajar a Camboya como turistas. La opción más recomendable es solicitar previamente el e-Visa, ya que permite tramitar la entrada de forma cómoda antes del viaje. También es posible obtener un Visa on Arrival a la llegada en aeropuertos internacionales y en algunos pasos fronterizos habilitados. Para la entrada suelen requerirse un pasaporte con validez suficiente, una fotografía reciente tipo pasaporte y el pago de la tasa correspondiente en dólares estadounidenses en efectivo. Antes de viajar, conviene comprobar siempre los requisitos actualizados, ya que las condiciones de entrada pueden cambiar.",
+    "affiliate_hinweis": "<strong>Consejo para ahorrar en tu viaje a Camboya:</strong> si quieres pagar en el extranjero sin comisiones innecesarias y sacar dinero en cajeros con mejores condiciones, compara antes una tarjeta de crédito para viajes. Una buena tarjeta puede ayudarte a <strong>evitar cargos por cambio de divisa</strong> y a <strong>reducir costes al retirar efectivo</strong> durante tu estancia. Consulta aquí una comparativa recomendada: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "laos",
     "name": "Laos",
-    "visum_status": "e-Visa o Visa on Arrival",
+    "visum_status": "Visado obligatorio: e-Visa o Visa on Arrival",
     "pass_monate": 6,
-    "visum_text": "La entrada solo es posible con visado. Puede solicitar el visado como e-Visa en línea o recibirlo como Visa on Arrival en el lugar. Para el visado a la llegada necesita fotos de pasaporte y dólares estadounidenses.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Descubra la belleza paisajística de Laos a su propio ritmo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compruebe aquí los precios de coches de alquiler.</a>"
+    "visum_text": "Los ciudadanos españoles que viajan a Laos como turistas necesitan visado para entrar en el país. No existe exención de visado para estancias turísticas, por lo que la entrada solo es posible con un visado válido. La opción más cómoda suele ser solicitar el e-Visa en línea antes del viaje. Alternativamente, también es posible obtener un Visa on Arrival en determinados puntos de entrada. Para el visado a la llegada, normalmente se requieren pasaporte con validez suficiente, una foto tipo pasaporte y el pago de la tasa en efectivo, habitualmente en dólares estadounidenses. Recomendamos comprobar antes de viajar qué pasos fronterizos y aeropuertos aceptan el Visa on Arrival y revisar siempre los requisitos actuales, ya que las normas de entrada pueden cambiar.",
+    "affiliate_hinweis": "¿Viajas a Laos y quieres ahorrar en tus gastos? <strong>Compara ahora tarjetas de crédito para viajes</strong> y encuentra una opción ideal para <strong>retirar efectivo en el extranjero con menos comisiones</strong> y <strong>pagar en todo el mundo sin costes innecesarios</strong>. Especialmente en destinos como Laos, una buena tarjeta puede marcar la diferencia. Descubre ofertas recomendadas aquí: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "taiwan",
     "name": "Taiwán",
     "visum_status": "No se necesita visado (hasta 90 días)",
     "pass_monate": 6,
-    "visum_text": "Los ciudadanos alemanes pueden entrar en Taiwán sin visado para estancias turísticas de hasta 90 días. Debe presentarse, si se solicita, un billete de regreso o de continuación del viaje confirmado.",
-    "affiliate_hinweis": "💡 <strong>Consejo de roadtrip:</strong> Un emocionante recorrido por toda la isla de Taiwán es un auténtico punto culminante de las vacaciones. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Encuentre aquí su coche de alquiler en Taiwán.</a>"
+    "visum_text": "Los ciudadanos españoles pueden entrar en Taiwán sin visado para estancias turísticas de hasta 90 días. Para viajar, el pasaporte debe tener una validez suficiente durante toda la estancia y, si se solicita, puede ser necesario presentar un billete de regreso o de continuación del viaje confirmado, así como acreditar medios económicos suficientes. En comparación con los ciudadanos alemanes, las normas para los ciudadanos españoles son las mismas: no se requiere visado previo para turismo de corta duración.",
+    "affiliate_hinweis": "<strong>Consejo para tu viaje a Taiwán:</strong> antes de salir, compara tarjetas de crédito pensadas para viajar y ahorra en comisiones al pagar o sacar dinero en el extranjero. Con la tarjeta adecuada puedes <strong>retirar efectivo con menos costes</strong> y <strong>pagar en todo el mundo sin comisiones</strong>, algo especialmente útil en Taiwán. Compara opciones aquí: <a href='https://www.tarifcheck.com/YKQ2R5K'>https://www.tarifcheck.com/YKQ2R5K</a>",
+    "is_optimized": true
   },
   {
     "slug": "nepal",
     "name": "Nepal",
-    "visum_status": "Visa on Arrival (registro en línea)",
+    "visum_status": "Visa a la llegada (con formulario en línea previo)",
     "pass_monate": 6,
-    "visum_text": "Los turistas necesitan un visado, que se concede de forma sencilla como Visa on Arrival en el aeropuerto de Katmandú. Para ahorrar tiempo, el formulario obligatorio de solicitud en línea debe completarse electrónicamente antes de la salida.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Si no solo va a hacer senderismo, un coche de alquiler propio ofrece gran flexibilidad para excursiones en el valle de Katmandú. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí los precios.</a>"
+    "visum_text": "Los ciudadanos españoles que viajan a Nepal como turistas necesitan visado. La opción habitual es obtener un Visa on Arrival a la llegada, por ejemplo en el aeropuerto internacional de Katmandú. Para agilizar el trámite, se recomienda completar antes de la salida el formulario de solicitud en línea, ya que esto puede reducir los tiempos de espera en inmigración. En la práctica, las normas para españoles y alemanes son muy similares: no existe exención de visado para turismo, pero sí la posibilidad de tramitarlo de forma sencilla al entrar en el país. Aun así, conviene llevar el pasaporte con una validez suficiente, una foto tipo pasaporte y los documentos que puedan solicitarse en frontera.",
+    "affiliate_hinweis": "¿Viajas a Nepal? Entonces te conviene comparar antes una tarjeta de crédito para <strong>ahorrar comisiones al sacar dinero en el extranjero</strong> y <strong>pagar en todo el mundo sin costes innecesarios</strong>. Con un buen comparador puedes encontrar opciones pensadas para viajeros, con ventajas útiles en destinos como Nepal. Mira aquí la comparación recomendada: <a href='https://www.tarifcheck.com/YKQ2R5K'>comparar tarjetas de crédito para viajar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "usbekistan",
     "name": "Uzbekistán",
-    "visum_status": "No se necesita visado (hasta 30 días)",
+    "visum_status": "No se necesita visado para estancias turísticas de hasta 30 días",
     "pass_monate": 6,
-    "visum_text": "Para estancias turísticas de hasta 30 días, los ciudadanos alemanes ya no necesitan visado. Importante: dentro de los 3 días posteriores a la llegada hay que registrarse (normalmente lo hace el hotel).",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Siguiendo las fascinantes huellas de la Ruta de la Seda, un coche de alquiler le ofrece máxima flexibilidad. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Asegure aquí un coche de alquiler para Uzbekistán.</a>"
+    "visum_text": "Los ciudadanos españoles pueden viajar a Uzbekistán como turistas sin visado para estancias de hasta 30 días. Esta exención de visado se aplica a viajes de turismo y facilita una entrada sencilla al país. Es importante llevar un pasaporte válido durante toda la estancia y cumplir con las normas de registro local: normalmente, el alojamiento se encarga del registro dentro de los primeros 3 días tras la llegada. Si planeas permanecer más tiempo, trabajar o realizar actividades distintas al turismo, deberás comprobar con antelación si necesitas un visado específico o una autorización adicional.",
+    "affiliate_hinweis": "<strong>Consejo para ahorrar en tu viaje a Uzbekistán:</strong> antes de salir, compara tarjetas de crédito pensadas para viajar, especialmente si quieres <strong>evitar comisiones al sacar dinero en el extranjero</strong> y <strong>pagar en todo el mundo sin costes adicionales</strong>. Una buena tarjeta puede marcar la diferencia en tu presupuesto de viaje. Compara ahora las mejores opciones en <a href='https://www.tarifcheck.com/YKQ2R5K'>Tarifcheck</a> y elige la tarjeta que mejor se adapte a tu viaje a Uzbekistán.",
+    "is_optimized": true
   },
   {
     "slug": "fidschi",
@@ -474,17 +532,19 @@
   {
     "slug": "armenien",
     "name": "Armenia",
-    "visum_status": "No se necesita visado (hasta 180 días)",
+    "visum_status": "No se necesita visado para estancias turísticas de hasta 180 días.",
     "pass_monate": 5,
-    "visum_text": "Los alemanes pueden entrar en Armenia sin visado durante una estancia de hasta 180 días dentro de un año natural. El pasaporte debe tener al menos 5 meses de validez al entrar.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Descubra los impresionantes monasterios y paisajes montañosos de Armenia fácilmente en coche. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Asegure aquí su coche de alquiler.</a>"
+    "visum_text": "Los ciudadanos españoles pueden entrar en Armenia como turistas sin visado para estancias de hasta 180 días dentro de un período de 12 meses. Para viajar, es necesario llevar un pasaporte en vigor; se recomienda que tenga una validez suficiente durante toda la estancia y, como medida de seguridad, al menos 6 meses de validez restante. Antes de viajar, conviene comprobar que el documento esté en buen estado y que no existan cambios recientes en la normativa de entrada.",
+    "affiliate_hinweis": "¿Viajas a Armenia? <strong>Compara tarjetas de crédito para ahorrar en tus gastos de viaje</strong>: busca opciones con <strong>retiradas de efectivo en el extranjero con comisiones bajas o nulas</strong> y <strong>pagos en todo el mundo sin coste adicional</strong>. Así podrás pagar y sacar dinero en Armenia de forma más cómoda y económica. Descubre la mejor opción en <a href='https://www.tarifcheck.com/YKQ2R5K'>este comparador de tarjetas de crédito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "anderes-land-allgemein",
     "name": "Otro país de viaje (disposiciones generales)",
     "visum_status": "Por favor, compruebe las disposiciones individualmente",
     "pass_monate": 6,
-    "visum_text": "Actualmente no disponemos de datos específicos para este destino. Por favor, compruebe los requisitos de entrada en la página del Ministerio de Asuntos Exteriores. Como regla general en todo el mundo: su pasaporte debería seguir siendo válido al menos 6 meses.",
-    "affiliate_hinweis": "💡 <strong>Consejo de coche de alquiler:</strong> Vaya donde vaya el viaje, un coche de alquiler ofrece la máxima libertad en todo el mundo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Compare aquí de forma sencilla ofertas de coches de alquiler en todo el mundo.</a>"
+    "visum_text": "Actualmente no disponemos de datos específicos y verificados para este destino. Para ciudadanos españoles que viajan como turistas, las condiciones de entrada pueden variar según el país, la duración de la estancia y el tipo de pasaporte. En muchos destinos, los ciudadanos de España disfrutan de exención de visado, visado a la llegada o autorización electrónica de viaje; sin embargo, en otros países puede exigirse visado previo. Le recomendamos comprobar siempre los requisitos de entrada actualizados en la página del Ministerio de Asuntos Exteriores o en la representación diplomática correspondiente antes de viajar. Como regla general a nivel mundial, su pasaporte debería seguir siendo válido al menos 6 meses desde la fecha de entrada.",
+    "affiliate_hinweis": "<strong>Consejo para ahorrar en su viaje:</strong> compare antes de salir la tarjeta de crédito adecuada para su estancia en <strong>Otro país de viaje (disposiciones generales)</strong>. Así podrá <strong>retirar efectivo en el extranjero con menos comisiones</strong> y <strong>pagar en todo el mundo sin costes innecesarios</strong>. Descubra opciones atractivas en <a href='https://www.tarifcheck.com/YKQ2R5K'>este comparador de tarjetas de crédito</a> y elija la tarjeta que mejor se adapte a sus necesidades de viaje.",
+    "is_optimized": true
   }
 ]

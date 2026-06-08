@@ -1,0 +1,490 @@
+[
+  {
+    "slug": "usa",
+    "name": "USA",
+    "visum_status": "ESTA vereist",
+    "pass_monate": 6,
+    "visum_text": "Voor toeristische reizen naar de VS hebben Duitse staatsburgers verplicht een elektronische reistoestemming (ESTA) nodig. Deze moet verplicht vóór vertrek online worden aangevraagd. Een regulier visum is alleen nodig als u langer dan 90 dagen blijft of aan bepaalde criteria niet voldoet.",
+    "affiliate_hinweis": "💡 <strong>Roadtrip-klassieker:</strong> De VS ontdek je het best flexibel met je eigen auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Zorg hier vooraf voor een voordelige huurauto.</a>"
+  },
+  {
+    "slug": "aegypten",
+    "name": "Egypte",
+    "visum_status": "Visum vereist (e-Visa of bij aankomst)",
+    "pass_monate": 6,
+    "visum_text": "Duitse staatsburgers hebben voor de reis naar Egypte een visum nodig. Dit kan vooraf online als e-Visa worden aangevraagd. Als alternatief is er het 'Visa on Arrival' direct op de luchthaven (vaak met lange wachtrijen).",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ontdek Egypte buiten de resorts flexibel op eigen houtje. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier voordelige huurauto's.</a>"
+  },
+  {
+    "slug": "tuerkei",
+    "name": "Turkije",
+    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "pass_monate": 0,
+    "visum_text": "Voor toeristische verblijven van maximaal 90 dagen (binnen een periode van 180 dagen) hebben Duitse staatsburgers geen visum nodig. Inreis is zelfs mogelijk met de identiteitskaart.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Voor uitstapjes langs de kust of het binnenland is een eigen auto de moeite waard. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Zorg hier tijdig voor uw huurauto voor Turkije.</a>"
+  },
+  {
+    "slug": "uk",
+    "name": "Groot-Brittannië",
+    "visum_status": "ETA vereist",
+    "pass_monate": 0,
+    "visum_text": "Voor toeristische verblijven tot 6 maanden hebben Duitsers geen klassiek visum nodig, maar de elektronische reistoestemming (ETA) is verplicht. Een geldig paspoort is absoluut vereist; de identiteitskaart is niet langer voldoende.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ideaal voor de Highlands of Cornwall – denk aan links rijden! <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier huurautoprijzen voor Groot-Brittannië.</a>"
+  },
+  {
+    "slug": "thailand",
+    "name": "Thailand",
+    "visum_status": "Geen visum nodig (tot 60 dagen)",
+    "pass_monate": 6,
+    "visum_text": "Voor toeristische verblijven tot 60 dagen kunnen Duitse staatsburgers visumvrij binnenkomen. Het paspoort moet bij binnenkomst nog minimaal 6 maanden geldig zijn. Een doorreis- of retourticket moet eventueel worden getoond.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Voor maximale flexibiliteit buiten de typische toeristische routes. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vind hier betrouwbare huurauto's in Thailand.</a>"
+  },
+  {
+    "slug": "australien",
+    "name": "Australië",
+    "visum_status": "eVisitor-visum vereist",
+    "pass_monate": 6,
+    "visum_text": "Duitsers hebben voor de reis naar Australië verplicht een visum nodig. Voor toeristen is het eVisitor-visum (Subclass 651) ideaal; dit wordt gratis online aangevraagd en staat verblijven tot 3 maanden toe.",
+    "affiliate_hinweis": "💡 <strong>Roadtrip-tip:</strong> Australië ontdek je het best flexibel met je eigen auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier huurautoprijzen voor Australië.</a>"
+  },
+  {
+    "slug": "kanada",
+    "name": "Canada",
+    "visum_status": "eTA vereist",
+    "pass_monate": 6,
+    "visum_text": "Wie per vliegtuig naar Canada reist, heeft geen visum nodig, maar wel verplicht een elektronische reistoestemming (eTA). Bij binnenkomst over land (bijv. vanuit de VS) is geen eTA vereist.",
+    "affiliate_hinweis": "⚠️ <strong>Huurautotip:</strong> Boek uw huurauto voor Canada beslist nog in Duitsland, zodat u volledige verzekeringsdekking heeft. <a href='https://www.c24n.de/nsnjZZ8' style='color:#d32f2f;'>Vergelijk hier huurautoprijzen.</a>"
+  },
+  {
+    "slug": "vae",
+    "name": "Verenigde Arabische Emiraten (Dubai)",
+    "visum_status": "Gratis Visa on Arrival",
+    "pass_monate": 6,
+    "visum_text": "Duitsers krijgen bij binnenkomst in de VAE (bijv. naar Dubai of Abu Dhabi) gratis een 'Visa on Arrival' in het paspoort gestempeld. Dit geeft recht op een verblijf van maximaal 90 dagen binnen 180 dagen.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> De Emiraten hebben uitstekend aangelegde wegen. Een huurauto is hier vaak praktischer dan voortdurend taxi's nemen. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vind hier huurauto's voor Dubai & Co.</a>"
+  },
+  {
+    "slug": "malediven",
+    "name": "Maldiven",
+    "visum_status": "Gratis Visa on Arrival",
+    "pass_monate": 6,
+    "visum_text": "Voor de Maldiven is vooraf geen visum nodig. Een toeristenvisum voor 30 dagen wordt bij aankomst op de luchthaven gratis verstrekt. Belangrijk: een elektronische inreisverklaring (IMUGA) moet vóór vertrek online worden ingevuld.",
+    "affiliate_hinweis": "💡 <strong>Huurauto voor de reis naar de luchthaven:</strong> Heeft u nog een auto nodig voor de comfortabele rit naar de luchthaven in Duitsland? <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier voordelige huurauto's.</a>"
+  },
+  {
+    "slug": "indonesien",
+    "name": "Indonesië",
+    "visum_status": "Visa on Arrival / e-VoA vereist",
+    "pass_monate": 6,
+    "visum_text": "Of u nu een rondreis plant of specifiek een visum voor Bali zoekt: voor Indonesië is een visum (Visa on Arrival) vereist. Dit kunt u bij aankomst kopen of om wachttijden te vermijden vooraf online als e-VoA aanvragen (30 dagen geldig).",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Bali en andere eilanden zijn uitstekend te verkennen met een eigen voertuig. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier prijzen voor Indonesië.</a>"
+  },
+  {
+    "slug": "vietnam",
+    "name": "Vietnam",
+    "visum_status": "Geen visum nodig (tot 45 dagen)",
+    "pass_monate": 6,
+    "visum_text": "Duitse staatsburgers kunnen tot 45 dagen visumvrij naar Vietnam reizen. Wie langer wil blijven (tot 90 dagen), moet vooraf een e-visum aanvragen.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ontdek Vietnam helemaal individueel en in uw eigen tempo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Zorg hier voor uw voertuig.</a>"
+  },
+  {
+    "slug": "sri-lanka",
+    "name": "Sri Lanka",
+    "visum_status": "e-Visa / ETA vereist",
+    "pass_monate": 6,
+    "visum_text": "Voor Sri Lanka geldt een visumplicht. Het e-visum (ETA) moet verplicht vóór de reis online worden aangevraagd. Het geeft recht op een verblijf van maximaal 30 dagen.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ervaar de theeplantages en stranden van Sri Lanka flexibel met uw eigen auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vind hier de passende huurauto.</a>"
+  },
+  {
+    "slug": "suedafrika",
+    "name": "Zuid-Afrika",
+    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "pass_monate": 1,
+    "visum_text": "Duitsers hebben voor toeristische verblijven van maximaal 90 dagen geen visum nodig. Bij binnenkomst ontvangt u aan de grens een bezoekersvergunning (Visitor's Visa). Het paspoort moet machinaal leesbaar zijn en minstens twee lege pagina's hebben.",
+    "affiliate_hinweis": "💡 <strong>Huurauto voor Zuid-Afrika:</strong> Voor de Garden Route of nationale parken is een eigen huurauto de beste keuze. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier voordelige huurauto's met volledige dekking.</a>"
+  },
+  {
+    "slug": "japan",
+    "name": "Japan",
+    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "pass_monate": 0,
+    "visum_text": "Duitsers kunnen als 'Temporary Visitor' tot 90 dagen visumvrij naar Japan reizen. Het paspoort hoeft alleen geldig te zijn voor de duur van het verblijf. Een voorafgaande webregistratie (Visit Japan Web) versnelt de inreis.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Voor het verkennen van landelijke regio's in Japan is een huurauto een perfecte aanvulling. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier huurauto's in Japan.</a>"
+  },
+  {
+    "slug": "dominikanische-republik",
+    "name": "Dominicaanse Republiek",
+    "visum_status": "E-Ticket vereist (geen visum)",
+    "pass_monate": 6,
+    "visum_text": "Voor een toeristisch verblijf tot 30 dagen hebben Duitsers geen visum nodig. Wel moet verplicht een gratis elektronisch formulier (E-Ticket) voor in- en uitreis online worden ingevuld.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ontdek droomstranden en het binnenland van het eiland op eigen houtje. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Boek hier uw huurauto voor de DomRep.</a>"
+  },
+  {
+    "slug": "mexiko",
+    "name": "Mexico",
+    "visum_status": "Geen visum nodig (tot 180 dagen)",
+    "pass_monate": 6,
+    "visum_text": "Inreis voor Duitse toeristen is mogelijk zonder visum. Bij aankomst kan een verblijf van maximaal 180 dagen worden toegekend. Soms wordt op de luchthaven een toeristenkaart (FMM) ingevuld, vaak gebeurt dit inmiddels digitaal.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ideaal voor de rit naar cenotes en Maya-ruïnes op Yucatán. Het beste is om al vanuit Duitsland te boeken. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vind hier huurauto's voor Mexico.</a>"
+  },
+  {
+    "slug": "kuba",
+    "name": "Cuba",
+    "visum_status": "Toeristenkaart vereist",
+    "pass_monate": 6,
+    "visum_text": "Voor Cuba heeft u in plaats van een klassiek visum een toeristenkaart (Tarjeta del Turista) nodig, geldig voor 90 dagen. Bovendien is het bewijs van een geldige reisverzekering voor het buitenland (in het Spaans of Engels) verplicht voorgeschreven.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Een roadtrip over het eiland maakt een vakantie in Cuba pas echt onvergetelijk. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Controleer hier de beschikbaarheid van huurauto's.</a>"
+  },
+  {
+    "slug": "brasilien",
+    "name": "Brazilië",
+    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "pass_monate": 6,
+    "visum_text": "Duitse toeristen kunnen maximaal 90 dagen per halfjaar visumvrij naar Brazilië reizen. Bij binnenkomst moet een retour- of doorreisticket en een bewijs van voldoende financiële middelen kunnen worden getoond.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Brazilië is enorm – een eigen huurauto zorgt voor de nodige flexibiliteit ter plaatse. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Zorg hier tijdig voor uw auto.</a>"
+  },
+  {
+    "slug": "costa-rica",
+    "name": "Costa Rica",
+    "visum_status": "Geen visum nodig (tot 180 dagen)",
+    "pass_monate": 6,
+    "visum_text": "Geen visumplicht voor Duitsers. Bij binnenkomst kan een verblijf van maximaal 180 dagen worden toegekend. Verplicht is een ticket voor de retour- of doorreisvlucht (bus- of vliegticket).",
+    "affiliate_hinweis": "💡 <strong>Huurauto in Costa Rica:</strong> Voor de nationale parken en onverharde wegen wordt vaak een 4x4-voertuig aanbevolen. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier huurauto's voor Costa Rica.</a>"
+  },
+  {
+    "slug": "neuseeland",
+    "name": "Nieuw-Zeeland",
+    "visum_status": "NZeTA vereist",
+    "pass_monate": 3,
+    "visum_text": "Duitsers hebben voor verblijven tot 3 maanden geen visum nodig, maar wel verplicht de elektronische reistoestemming (NZeTA). Samen met de NZeTA wordt automatisch een toeristenheffing (IVL) geïnd.",
+    "affiliate_hinweis": "💡 <strong>Roadtrip-paradijs:</strong> Ontdek Nieuw-Zeeland het best met uw eigen voertuig. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Boek hier een huurauto in Nieuw-Zeeland.</a>"
+  },
+  {
+    "slug": "philippinen",
+    "name": "Filipijnen",
+    "visum_status": "Geen visum nodig (tot 30 dagen)",
+    "pass_monate": 6,
+    "visum_text": "Voor een verblijf van maximaal 30 dagen hebben Duitse staatsburgers geen visum nodig. Verplicht zijn een geldig retour- of doorreisticket en de elektronische registratie (eTravel) vóór vertrek.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Op de grotere eilanden is een huurauto handig voor onafhankelijke uitstapjes. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier voordelige aanbiedingen.</a>"
+  },
+  {
+    "slug": "malaysia",
+    "name": "Maleisië",
+    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "pass_monate": 6,
+    "visum_text": "Visumvrije inreis voor Duitsers tot 90 dagen. Let op: sinds 2024 is het invullen van de digitale aankomstkaart (MDAC - Malaysia Digital Arrival Card) binnen 3 dagen vóór aankomst verplicht.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Het wegennet in Maleisië is uitstekend ontwikkeld – perfect voor een roadtrip. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Boek hier een huurauto.</a>"
+  },
+  {
+    "slug": "singapur",
+    "name": "Singapore",
+    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "pass_monate": 6,
+    "visum_text": "Voor Singapore heeft u als toerist geen visum nodig. U moet echter verplicht tot 3 dagen vóór aankomst de 'SG Arrival Card' online invullen, waarin gezondheids- en reisgegevens worden gevraagd.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ook in en rond de metropool Singapore kan een huurauto voor uitstapjes uiterst praktisch zijn. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier prijzen.</a>"
+  },
+  {
+    "slug": "suedkorea",
+    "name": "Zuid-Korea",
+    "visum_status": "K-ETA vereist",
+    "pass_monate": 6,
+    "visum_text": "Visumvrije inreis tot 90 dagen. De elektronische reistoestemming (K-ETA) is echter verplicht en moet vóór vertrek online zijn goedgekeurd. Hiermee hoeft u ook de aankomstkaart in het vliegtuig niet in te vullen.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Vooral voor het verkennen van het populaire eiland Jeju is een huurauto onmisbaar. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vind hier uw voertuig voor Zuid-Korea.</a>"
+  },
+  {
+    "slug": "china",
+    "name": "China",
+    "visum_status": "Visumvrij (tot 15 dagen) / anders visum",
+    "pass_monate": 6,
+    "visum_text": "Dankzij een speciale regeling kunnen Duitsers momenteel voor toeristische verblijven tot 15 dagen visumvrij binnenkomen. Voor verblijven langer dan 15 dagen moet verplicht vooraf een klassiek visum worden aangevraagd bij een Visa Application Service Center.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Reis flexibel door het Rijk van het Midden. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier huurautoprijzen voor China.</a>"
+  },
+  {
+    "slug": "indien",
+    "name": "India",
+    "visum_status": "e-Visa vereist",
+    "pass_monate": 6,
+    "visum_text": "Inreis is alleen mogelijk met een geldig visum. Voor toeristen wordt het e-Visa aanbevolen, dat vooraf online wordt aangevraagd. Het paspoort moet minstens twee lege pagina's hebben.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Voor meer comfort en onafhankelijkheid op de wegen van India wordt een huurauto aanbevolen. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Controleer hier de aanbiedingen.</a>"
+  },
+  {
+    "slug": "kenia",
+    "name": "Kenia",
+    "visum_status": "eTA vereist",
+    "pass_monate": 6,
+    "visum_text": "Kenia heeft het visum afgeschaft, maar vereist nu van alle reizigers (ook kinderen) verplicht een elektronische reistoestemming (eTA). Deze moet tijdig vóór vertrek online worden aangevraagd.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Voor een individuele safari of verdere reis is een terreinwaardige huurauto ideaal. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier 4x4-huurauto's.</a>"
+  },
+  {
+    "slug": "tansania",
+    "name": "Tanzania (Zanzibar)",
+    "visum_status": "Visum / e-Visa vereist",
+    "pass_monate": 6,
+    "visum_text": "Duitsers hebben voor Tanzania en het populaire Zanzibar een visum nodig. Het e-visum moet uiterlijk 10 dagen vóór vertrek online worden aangevraagd. Een 'Visa on Arrival' is mogelijk, maar kan tot lange wachttijden leiden.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ontdek Zanzibar of het vasteland flexibel op eigen houtje. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Boek hier uw Tanzania-huurauto.</a>"
+  },
+  {
+    "slug": "seychellen",
+    "name": "Seychellen",
+    "visum_status": "Travel Authorization vereist",
+    "pass_monate": 0,
+    "visum_text": "Voor de Seychellen geldt geen visumplicht. Voor vertrek moet echter verplicht online een betaalde inreisvergunning (Travel Authorization) worden verkregen. Het paspoort moet minstens geldig zijn tot aan het vertrek uit het land.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Verken Mahé of Praslin in uw eigen tempo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Zorg hier voor een auto op de Seychellen.</a>"
+  },
+  {
+    "slug": "mauritius",
+    "name": "Mauritius",
+    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "pass_monate": 0,
+    "visum_text": "Geen visumplicht. Duitse staatsburgers kunnen tot 90 dagen binnenkomen. Het paspoort moet geldig zijn tot na het einde van de reis. Een doorreis- of retourticket en een hotelboeking moeten worden getoond.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Een huurauto is de beste keuze om alle verborgen stranden van Mauritius te ontdekken. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier aanbiedingen.</a>"
+  },
+  {
+    "slug": "marokko",
+    "name": "Marokko",
+    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "pass_monate": 0,
+    "visum_text": "Voor toeristische doeleinden kunnen Duitsers tot 90 dagen zonder visum naar Marokko reizen. Het paspoort moet geldig zijn voor de volledige duur van het verblijf (aanbeveling: 6 maanden).",
+    "affiliate_hinweis": "💡 <strong>Roadtrip-tip:</strong> Voor adembenemende ritten door het Atlasgebergte is een eigen huurauto essentieel. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Boek hier voordelige huurauto's.</a>"
+  },
+  {
+    "slug": "tunesien",
+    "name": "Tunesië",
+    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "pass_monate": 6,
+    "visum_text": "Geen visumplicht voor pakkettoeristen en individuele reizigers uit Duitsland tot 90 dagen. Inreis met de identiteitskaart is alleen mogelijk binnen een georganiseerde pakketreis inclusief vlucht- en hotelboeking; anders is een paspoort nodig.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ontdek de kusten en fascinerende landschappen van Tunesië op eigen houtje. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier huurautoprijzen.</a>"
+  },
+  {
+    "slug": "oman",
+    "name": "Oman",
+    "visum_status": "Visumvrij tot 14 dagen / anders e-Visa",
+    "pass_monate": 6,
+    "visum_text": "Voor verblijven tot 14 dagen hebben Duitsers geen visum meer nodig. Wie langer wil blijven, moet verplicht vooraf online een e-Visa aanvragen. Een hotelboeking en een retourticket moeten aanwezig zijn.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Oman is een klassiek roadtripland. Vaak wordt een 4x4-huurauto aanbevolen. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Zorg hier voor uw voertuig.</a>"
+  },
+  {
+    "slug": "katar",
+    "name": "Qatar (Doha)",
+    "visum_status": "Gratis Visa on Arrival",
+    "pass_monate": 6,
+    "visum_text": "Duitse staatsburgers krijgen bij binnenkomst een gratis 'Visa Waiver' (Visa on Arrival), geldig voor verblijven tot 90 dagen binnen een periode van 180 dagen.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Doha en de spectaculaire omliggende landschappen zijn uitstekend per auto te verkennen. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vind hier huurauto's voor Qatar.</a>"
+  },
+  {
+    "slug": "saudi-arabien",
+    "name": "Saoedi-Arabië",
+    "visum_status": "e-Visa / Visa on Arrival",
+    "pass_monate": 6,
+    "visum_text": "Duitse toeristen kunnen vooraf online een e-Visa aanvragen of bij aankomst een 'Visa on Arrival' krijgen. Het visum is een jaar geldig en staat meerdere inreizen toe (tot max. 90 dagen aaneengesloten).",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> De enorme afstanden in Saoedi-Arabië overbrug je het best flexibel met een huurauto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk nu huurautoprijzen.</a>"
+  },
+  {
+    "slug": "jordanien",
+    "name": "Jordanië",
+    "visum_status": "Visum vereist (vaak via Jordan Pass)",
+    "pass_monate": 6,
+    "visum_text": "Visumplicht. Het visum kan vaak bij aankomst op de luchthaven worden afgegeven. Als u langer dan 3 nachten blijft, is het aan te raden de 'Jordan Pass' vóór de reis te kopen: deze scheldt de visumkosten kwijt en omvat toegang tot Petra.",
+    "affiliate_hinweis": "💡 <strong>Roadtrip-tip:</strong> Van Amman naar Petra en naar de Dode Zee – Jordanië is perfect voor zelfrijders. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Boek hier uw huurauto.</a>"
+  },
+  {
+    "slug": "jamaika",
+    "name": "Jamaica",
+    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "pass_monate": 6,
+    "visum_text": "Voor een toeristisch verblijf tot 90 dagen hebben Duitsers geen visum nodig. Wel moet verplicht vóór vertrek gratis een inreisformulier (Online Passenger Declaration) worden ingevuld.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ontdek het droomeiland in de Caraïben in uw eigen tempo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Zorg hier voor een huurauto voor Jamaica.</a>"
+  },
+  {
+    "slug": "peru",
+    "name": "Peru",
+    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "pass_monate": 6,
+    "visum_text": "Voor Peru geldt geen visumplicht. Duitse toeristen krijgen bij binnenkomst doorgaans een verblijfsvergunning voor 90 dagen (per halfjaar). Een doorreis- of retourticket moet kunnen worden getoond.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Beleef de Andes en kustwegen volledig flexibel met een huurauto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vind hier passende voertuigen.</a>"
+  },
+  {
+    "slug": "kolumbien",
+    "name": "Colombia",
+    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "pass_monate": 6,
+    "visum_text": "Visumvrije inreis voor Duitsers tot 90 dagen. Verplicht is het invullen van het online inreisformulier 'Check-MIG' binnen 72 uur vóór vertrek.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Plant u een tour door de bekende koffieregio? Een huurauto biedt maximale vrijheid. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier aanbiedingen.</a>"
+  },
+  {
+    "slug": "argentinien",
+    "name": "Argentinië",
+    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "pass_monate": 0,
+    "visum_text": "Geen visumplicht voor Duitse staatsburgers tot 90 dagen. Het paspoort moet geldig zijn voor de volledige duur van het geplande verblijf. Vaak wordt bij binnenkomst een bewijs van doorreis of terugreis gevraagd.",
+    "affiliate_hinweis": "💡 <strong>Patagonië-roadtrip:</strong> De afstanden in Argentinië zijn enorm. Een goede huurauto is essentieel. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vind hier betrouwbare huurauto's voor Zuid-Amerika.</a>"
+  },
+  {
+    "slug": "chile",
+    "name": "Chili",
+    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "pass_monate": 6,
+    "visum_text": "Voor toeristische verblijven tot 90 dagen is geen visum nodig. Bij binnenkomst ontvangt u een toeristenkaart (Tarjeta de Turismo), die u zorgvuldig moet bewaren tot aan vertrek.",
+    "affiliate_hinweis": "💡 <strong>Huurauto in Zuid-Amerika:</strong> Chili is perfect voor spectaculaire roadtrips (bijv. op de Carretera Austral). <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vind hier de passende huurauto.</a>"
+  },
+  {
+    "slug": "ecuador",
+    "name": "Ecuador",
+    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "pass_monate": 6,
+    "visum_text": "Duitsers kunnen tot 90 dagen visumvrij naar Ecuador (inclusief de Galápagoseilanden) reizen. Een doorreis- of retourticket moet bij binnenkomst kunnen worden getoond.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Op het vasteland van Ecuador is een huurauto de moeite waard voor uitstapjes door de Andes. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Boek hier een huurauto.</a>"
+  },
+  {
+    "slug": "bolivien",
+    "name": "Bolivia",
+    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "pass_monate": 6,
+    "visum_text": "Inreis is tot 90 dagen visumvrij. Bij aankomst krijgen toeristen meestal eerst een stempel voor 30 dagen, die in het land bij de immigratiedienst gratis kan worden verlengd tot 90 dagen.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ontdek de indrukwekkende landschappen van Bolivia flexibel met uw eigen voertuig. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier voordelige huurauto's.</a>"
+  },
+  {
+    "slug": "panama",
+    "name": "Panama",
+    "visum_status": "Geen visum nodig (tot 180 dagen)",
+    "pass_monate": 3,
+    "visum_text": "Geen visumplicht voor Duitsers. Bij aankomst wordt vaak een verblijfsvergunning voor maximaal 180 dagen verleend. Het paspoort moet bij binnenkomst nog minimaal 3 maanden geldig zijn. Een uitreisticket is verplicht.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Met een huurauto reist u in Panama comfortabel en zelfstandig van de stad naar de droomstranden. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Check hier huurautoprijzen.</a>"
+  },
+  {
+    "slug": "guatemala",
+    "name": "Guatemala",
+    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "pass_monate": 6,
+    "visum_text": "Inreis zonder visum mogelijk tot 90 dagen (geldt voor de gehele C4-zone). Wie over land binnenkomt, wordt aan de grens soms gevraagd een kleine, informele administratievergoeding te betalen.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Het fascinerende land van de Maya's is heerlijk individueel te bereizen met uw eigen auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Boek hier vooraf een huurauto.</a>"
+  },
+  {
+    "slug": "bahamas",
+    "name": "Bahama's",
+    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "pass_monate": 6,
+    "visum_text": "Duitse staatsburgers hebben voor een toeristisch verblijf van maximaal 90 dagen geen visum nodig. Een retour- of doorreisticket moet bij binnenkomst echter verplicht worden getoond.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Verken de grotere eilanden van de Bahama's volledig onafhankelijk met een huurauto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Zorg hier voor het passende voertuig.</a>"
+  },
+  {
+    "slug": "barbados",
+    "name": "Barbados",
+    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "pass_monate": 6,
+    "visum_text": "Visumvrije inreis tot 90 dagen. Verplicht is het invullen van het gratis online inreisformulier (ED Card) binnen 72 uur vóór aankomst om de inreis te versnellen.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Een huurauto is perfect om ook verborgen stranden en baaien op Barbados te bereiken. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier aanbiedingen.</a>"
+  },
+  {
+    "slug": "namibia",
+    "name": "Namibië",
+    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "pass_monate": 6,
+    "visum_text": "Voor verblijven tot 90 dagen per kalenderjaar is voor Duitse toeristen geen visum vereist. Het paspoort moet echter verplicht nog minimaal 6 maanden na de terugreisdatum geldig zijn.",
+    "affiliate_hinweis": "💡 <strong>Safari-voertuigen:</strong> Voor Namibië is een robuuste huurauto (meestal 4x4) onmisbaar. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Zorg hier tijdig voor uw voertuig.</a>"
+  },
+  {
+    "slug": "botswana",
+    "name": "Botswana",
+    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "pass_monate": 6,
+    "visum_text": "Duitsers ontvangen bij grensovergangen of luchthavens gratis een inreisvergunning (Visitor's Pass) voor maximaal 90 dagen per kalenderjaar. Retour- of doorreisticket moet worden getoond.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Botswana is uitstekend te verkennen als self-drive bestemming. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier huurauto's voor Botswana.</a>"
+  },
+  {
+    "slug": "uganda",
+    "name": "Oeganda",
+    "visum_status": "e-Visa vereist",
+    "pass_monate": 6,
+    "visum_text": "Voor Oeganda geldt een strikte visumplicht. Het visum moet verplicht vóór binnenkomst als elektronisch e-Visa online worden aangevraagd. Daarnaast is een bewijs van gelekoortsvaccinatie verplicht voor binnenkomst.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Voor bezoeken aan nationale parken en safaritochten op eigen houtje is een 4x4-huurauto ideaal. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier 4x4-voertuigen.</a>"
+  },
+  {
+    "slug": "madagaskar",
+    "name": "Madagaskar",
+    "visum_status": "e-Visa of Visa on Arrival",
+    "pass_monate": 6,
+    "visum_text": "Duitsers hebben een visum nodig. Dit kan vooraf als e-Visa of bij aankomst op de luchthaven (Visa on Arrival) worden verkregen. De verblijfsduur bedraagt naar keuze 15, 30 of 60 dagen (verschillende kosten).",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ontdek de wereldberoemde Baobablaan en de nationale parken helemaal flexibel. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Zorg hier voor een terreinwaardige huurauto.</a>"
+  },
+  {
+    "slug": "kap-verde",
+    "name": "Kaapverdië",
+    "visum_status": "EASE-registratie (geen visum)",
+    "pass_monate": 6,
+    "visum_text": "Voor verblijven tot 30 dagen hebben Duitsers geen visum nodig. U moet zich echter uiterlijk 5 dagen vóór vertrek online registreren via het officiële EASE-platform en de luchthavenveiligheidsbelasting (TSA) betalen.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Op grotere eilanden zoals Sal of Santiago biedt een huurauto veel vrijheid. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Controleer hier huurauto's.</a>"
+  },
+  {
+    "slug": "georgien",
+    "name": "Georgië",
+    "visum_status": "Geen visum nodig (tot 1 jaar)",
+    "pass_monate": 0,
+    "visum_text": "Georgië heeft een van de ruimhartigste inreisregelingen ter wereld: Duitse staatsburgers kunnen met een paspoort (of zelfs met de identiteitskaart) tot een volledig jaar visumvrij in het land verblijven.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> De bergwegen in de Kaukasus roepen! <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Boek hier uw huurauto voor onvergetelijke tochten in Georgië.</a>"
+  },
+  {
+    "slug": "kambodscha",
+    "name": "Cambodja",
+    "visum_status": "e-Visa of Visa on Arrival",
+    "pass_monate": 6,
+    "visum_text": "Er geldt een visumplicht. Toeristen kunnen vooraf het elektronische e-Visa aanvragen (aanbevolen) of op de luchthaven/bij grensovergangen een Visa on Arrival verkrijgen. Hiervoor zijn pasfoto's en contante Amerikaanse dollars nodig.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Profiteer van meer comfort en flexibiliteit buiten de hoofdwegen. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier huurauto's in Cambodja.</a>"
+  },
+  {
+    "slug": "laos",
+    "name": "Laos",
+    "visum_status": "e-Visa of Visa on Arrival",
+    "pass_monate": 6,
+    "visum_text": "Inreis is alleen mogelijk met visum. U kunt het visum online als e-Visa aanvragen of ter plaatse als Visa on Arrival verkrijgen. Voor het on-arrival-visum heeft u pasfoto's en Amerikaanse dollars nodig.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ontdek de schilderachtige landschappelijke schoonheid van Laos in uw eigen tempo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Check hier huurautoprijzen.</a>"
+  },
+  {
+    "slug": "taiwan",
+    "name": "Taiwan",
+    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "pass_monate": 6,
+    "visum_text": "Duitse staatsburgers kunnen voor toeristische verblijven van maximaal 90 dagen visumvrij naar Taiwan reizen. Een bevestigd retour- of doorreisticket moet op verzoek worden getoond.",
+    "affiliate_hinweis": "💡 <strong>Roadtrip-tip:</strong> Een spannende rondrit om het hele eiland Taiwan is een echt vakantiehoogtepunt. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vind hier uw Taiwan-huurauto.</a>"
+  },
+  {
+    "slug": "nepal",
+    "name": "Nepal",
+    "visum_status": "Visa on Arrival (online registratie)",
+    "pass_monate": 6,
+    "visum_text": "Toeristen hebben een visum nodig, dat eenvoudig als Visa on Arrival op de luchthaven van Kathmandu wordt verstrekt. Om tijd te besparen moet het verplichte online aanvraagformulier al vóór vertrek elektronisch worden ingevuld.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Als u niet alleen wilt wandelen, biedt een eigen huurauto veel flexibiliteit voor uitstapjes in de Kathmandu-vallei. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier prijzen.</a>"
+  },
+  {
+    "slug": "usbekistan",
+    "name": "Oezbekistan",
+    "visum_status": "Geen visum nodig (tot 30 dagen)",
+    "pass_monate": 6,
+    "visum_text": "Voor toeristische verblijven van maximaal 30 dagen is voor Duitse staatsburgers geen visum meer vereist. Belangrijk: binnen 3 dagen na aankomst moet men zich laten registreren (doet doorgaans het hotel).",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Op de fascinerende sporen van de Zijderoute bent u met een huurauto maximaal flexibel. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Zorg hier voor een huurauto voor Oezbekistan.</a>"
+  },
+  {
+    "slug": "fidschi",
+    "name": "Fiji",
+    "visum_status": "Geen visum nodig (tot 4 maanden)",
+    "pass_monate": 6,
+    "visum_text": "Duitsers krijgen bij aankomst een gratis bezoekersvergunning (Visitor Permit) voor maximaal 4 maanden in het paspoort gestempeld. Verplicht zijn een retour- of doorreisticket en bewijs van voldoende financiële middelen.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Verken het prachtige hoofdeiland Viti Levu comfortabel met uw eigen auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Boek hier een huurauto voor Fiji.</a>"
+  },
+  {
+    "slug": "armenien",
+    "name": "Armenië",
+    "visum_status": "Geen visum nodig (tot 180 dagen)",
+    "pass_monate": 5,
+    "visum_text": "Duitsers kunnen voor een verblijf van maximaal 180 dagen binnen een kalenderjaar visumvrij naar Armenië reizen. Het paspoort moet bij binnenkomst nog minimaal 5 maanden geldig zijn.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ontdek de indrukwekkende kloosters en berglandschappen van Armenië eenvoudig met de auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Zorg hier voor uw huurauto.</a>"
+  },
+  {
+    "slug": "anderes-land-allgemein",
+    "name": "Ander reisland (algemene bepalingen)",
+    "visum_status": "Controleer de bepalingen individueel",
+    "pass_monate": 6,
+    "visum_text": "Voor deze bestemming hebben wij momenteel geen specifieke gegevens. Controleer de inreisvoorwaarden op de website van het Duitse ministerie van Buitenlandse Zaken. Als vuistregel geldt wereldwijd: uw paspoort moet nog minimaal 6 maanden geldig zijn.",
+    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Waar de reis ook heen gaat – een huurauto biedt wereldwijd ultieme vrijheid. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier eenvoudig wereldwijde huurauto-aanbiedingen.</a>"
+  }
+]

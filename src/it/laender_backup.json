@@ -1,0 +1,490 @@
+[
+  {
+    "slug": "usa",
+    "name": "USA",
+    "visum_status": "ESTA richiesto",
+    "pass_monate": 6,
+    "visum_text": "Per l'ingresso turistico negli USA, i cittadini tedeschi necessitano obbligatoriamente di un'autorizzazione elettronica all'ingresso (ESTA). Questa deve essere richiesta online obbligatoriamente prima della partenza. Un visto regolare è necessario solo se si rimane più di 90 giorni o non si soddisfano determinati criteri.",
+    "affiliate_hinweis": "💡 <strong>Classico road trip:</strong> Gli USA si esplorano al meglio in modo flessibile con la propria auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Assicuratevi qui in anticipo la vostra auto a noleggio conveniente.</a>"
+  },
+  {
+    "slug": "aegypten",
+    "name": "Egitto",
+    "visum_status": "Visto richiesto (e-Visa o all'arrivo)",
+    "pass_monate": 6,
+    "visum_text": "I cittadini tedeschi necessitano di un visto per entrare in Egitto. Questo può essere richiesto in anticipo online come e-Visa. In alternativa, è disponibile il 'Visa on Arrival' direttamente in aeroporto (spesso associato a lunghe code).",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Scoprite l'Egitto al di fuori dei resort in modo flessibile e in autonomia. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui auto a noleggio convenienti.</a>"
+  },
+  {
+    "slug": "tuerkei",
+    "name": "Turchia",
+    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "pass_monate": 0,
+    "visum_text": "Per soggiorni turistici fino a 90 giorni (entro un periodo di 180 giorni), i cittadini tedeschi non necessitano di visto. L'ingresso è possibile persino con la carta d'identità.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Per escursioni lungo la costa o nell'entroterra vale la pena avere un'auto propria. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Assicuratevi qui per tempo la vostra auto a noleggio per la Turchia.</a>"
+  },
+  {
+    "slug": "uk",
+    "name": "Gran Bretagna",
+    "visum_status": "ETA richiesto",
+    "pass_monate": 0,
+    "visum_text": "Per soggiorni turistici fino a 6 mesi, i tedeschi non necessitano di un visto classico, ma l'autorizzazione elettronica all'ingresso (ETA) è obbligatoria. È indispensabile un passaporto valido; la carta d'identità non è più sufficiente.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Ideale per le Highlands o la Cornovaglia – ricordatevi della guida a sinistra! <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui i prezzi delle auto a noleggio per la Gran Bretagna.</a>"
+  },
+  {
+    "slug": "thailand",
+    "name": "Thailandia",
+    "visum_status": "Nessun visto necessario (fino a 60 giorni)",
+    "pass_monate": 6,
+    "visum_text": "Per soggiorni turistici fino a 60 giorni, i cittadini tedeschi possono entrare senza visto. Il passaporto deve essere ancora valido per almeno 6 mesi al momento dell'ingresso. Potrebbe essere richiesto un biglietto di proseguimento o di ritorno.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Per la massima flessibilità lontano dai tipici percorsi turistici. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trovate qui auto a noleggio affidabili in Thailandia.</a>"
+  },
+  {
+    "slug": "australien",
+    "name": "Australia",
+    "visum_status": "Visto eVisitor richiesto",
+    "pass_monate": 6,
+    "visum_text": "I tedeschi necessitano obbligatoriamente di un visto per entrare in Australia. Per i turisti, il visto eVisitor (Subclass 651) è l'ideale: si richiede gratuitamente online e consente soggiorni fino a 3 mesi.",
+    "affiliate_hinweis": "💡 <strong>Consiglio road trip:</strong> L'Australia si esplora al meglio in modo flessibile con la propria auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui i prezzi delle auto a noleggio per l'Australia.</a>"
+  },
+  {
+    "slug": "kanada",
+    "name": "Canada",
+    "visum_status": "eTA richiesta",
+    "pass_monate": 6,
+    "visum_text": "Chi entra in Canada per via aerea non ha bisogno di un visto, ma necessita obbligatoriamente di un'autorizzazione elettronica all'ingresso (eTA). Per l'ingresso via terra (ad es. dagli USA) non è richiesta alcuna eTA.",
+    "affiliate_hinweis": "⚠️ <strong>Consiglio auto a noleggio:</strong> Prenotate la vostra auto a noleggio per il Canada assolutamente già in Germania, per avere una copertura assicurativa completa. <a href='https://www.c24n.de/nsnjZZ8' style='color:#d32f2f;'>Confrontate qui i prezzi delle auto a noleggio.</a>"
+  },
+  {
+    "slug": "vae",
+    "name": "Emirati Arabi Uniti (Dubai)",
+    "visum_status": "Visa on Arrival gratuito",
+    "pass_monate": 6,
+    "visum_text": "I tedeschi ricevono all'ingresso negli EAU (ad es. a Dubai o Abu Dhabi) gratuitamente un 'Visa on Arrival' timbrato sul passaporto. Questo autorizza un soggiorno fino a 90 giorni entro 180 giorni.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Gli Emirati offrono strade eccellentemente sviluppate. Qui un'auto a noleggio è spesso più pratica dei continui spostamenti in taxi. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trovate qui auto a noleggio per Dubai e dintorni.</a>"
+  },
+  {
+    "slug": "malediven",
+    "name": "Maldive",
+    "visum_status": "Visa on Arrival gratuito",
+    "pass_monate": 6,
+    "visum_text": "Per le Maldive non è necessario alcun visto in anticipo. Un visto turistico di 30 giorni viene rilasciato gratuitamente all'arrivo in aeroporto. Importante: una dichiarazione elettronica di ingresso (IMUGA) deve essere compilata online prima della partenza.",
+    "affiliate_hinweis": "💡 <strong>Auto a noleggio per il viaggio:</strong> Vi serve ancora un'auto per raggiungere comodamente l'aeroporto in Germania? <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui auto a noleggio convenienti.</a>"
+  },
+  {
+    "slug": "indonesien",
+    "name": "Indonesia",
+    "visum_status": "Visa on Arrival / e-VoA richiesto",
+    "pass_monate": 6,
+    "visum_text": "Che stiate pianificando un tour o cerchiate specificamente un visto per Bali: per l'Indonesia è richiesto un visto (Visa on Arrival). Potete acquistarlo all'arrivo oppure, per evitare attese, richiederlo in anticipo online come e-VoA (valido 30 giorni).",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Bali e le altre isole si possono esplorare splendidamente con un veicolo proprio. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui i prezzi per l'Indonesia.</a>"
+  },
+  {
+    "slug": "vietnam",
+    "name": "Vietnam",
+    "visum_status": "Nessun visto necessario (fino a 45 giorni)",
+    "pass_monate": 6,
+    "visum_text": "I cittadini tedeschi possono entrare in Vietnam senza visto per un massimo di 45 giorni. Chi desidera restare più a lungo (fino a 90 giorni) deve richiedere in anticipo un e-Visa.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Scoprite il Vietnam in modo del tutto individuale e al vostro ritmo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Assicuratevi qui il vostro veicolo.</a>"
+  },
+  {
+    "slug": "sri-lanka",
+    "name": "Sri Lanka",
+    "visum_status": "e-Visa / ETA richiesto",
+    "pass_monate": 6,
+    "visum_text": "Per lo Sri Lanka è previsto l'obbligo di visto. L'e-Visa (ETA) dovrebbe essere richiesto obbligatoriamente online prima del viaggio. Consente un soggiorno fino a 30 giorni.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Vivete le piantagioni di tè e le spiagge dello Sri Lanka in modo flessibile con la vostra auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trovate qui l'auto a noleggio adatta.</a>"
+  },
+  {
+    "slug": "suedafrika",
+    "name": "Sudafrica",
+    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "pass_monate": 1,
+    "visum_text": "I tedeschi non necessitano di visto per soggiorni turistici fino a 90 giorni. All'ingresso ricevono un permesso di visita (Visitor's Visa) alla frontiera. Il passaporto deve essere leggibile elettronicamente e avere almeno due pagine libere.",
+    "affiliate_hinweis": "💡 <strong>Auto a noleggio per il Sudafrica:</strong> Per la Garden Route o i parchi nazionali, un'auto a noleggio propria è la scelta migliore. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui auto a noleggio convenienti con copertura completa.</a>"
+  },
+  {
+    "slug": "japan",
+    "name": "Giappone",
+    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "pass_monate": 0,
+    "visum_text": "I tedeschi possono entrare in Giappone come 'Temporary Visitor' senza visto per un massimo di 90 giorni. Il passaporto deve essere semplicemente valido per tutta la durata del soggiorno. Una registrazione web preventiva (Visit Japan Web) accelera l'ingresso.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Per esplorare le regioni rurali del Giappone, un'auto a noleggio è un complemento perfetto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui le auto a noleggio in Giappone.</a>"
+  },
+  {
+    "slug": "dominikanische-republik",
+    "name": "Repubblica Dominicana",
+    "visum_status": "E-Ticket richiesto (nessun visto)",
+    "pass_monate": 6,
+    "visum_text": "Per un soggiorno turistico fino a 30 giorni, i tedeschi non necessitano di visto. Tuttavia, è obbligatorio compilare online un modulo elettronico gratuito (E-Ticket) per ingresso e uscita.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Scoprite spiagge da sogno e l'entroterra dell'isola in autonomia. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Prenotate qui la vostra auto a noleggio per la Rep. Dominicana.</a>"
+  },
+  {
+    "slug": "mexiko",
+    "name": "Messico",
+    "visum_status": "Nessun visto necessario (fino a 180 giorni)",
+    "pass_monate": 6,
+    "visum_text": "L'ingresso per i turisti tedeschi è possibile senza visto. All'arrivo può essere concesso un soggiorno fino a 180 giorni. A volte in aeroporto viene compilata una carta turistica (FMM), spesso ormai in formato digitale.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Ideale per raggiungere cenote e rovine Maya nello Yucatán. Meglio prenotare già dalla Germania. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trovate qui auto a noleggio per il Messico.</a>"
+  },
+  {
+    "slug": "kuba",
+    "name": "Cuba",
+    "visum_status": "Carta turistica richiesta",
+    "pass_monate": 6,
+    "visum_text": "Per Cuba è necessaria una carta turistica (Tarjeta del Turista) al posto di un visto classico, valida per 90 giorni. Inoltre, è obbligatorio dimostrare di avere un'assicurazione sanitaria estera valida (in spagnolo o inglese).",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Un road trip attraverso l'isola rende la vacanza a Cuba davvero indimenticabile. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Verificate qui la disponibilità di auto a noleggio.</a>"
+  },
+  {
+    "slug": "brasilien",
+    "name": "Brasile",
+    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "pass_monate": 6,
+    "visum_text": "I turisti tedeschi possono entrare in Brasile senza visto per un massimo di 90 giorni per semestre. All'ingresso deve poter essere presentato un biglietto di ritorno o di proseguimento e una prova di mezzi finanziari sufficienti.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Il Brasile è enorme – un'auto a noleggio propria garantisce la flessibilità necessaria sul posto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Assicuratevi qui per tempo la vostra auto.</a>"
+  },
+  {
+    "slug": "costa-rica",
+    "name": "Costa Rica",
+    "visum_status": "Nessun visto necessario (fino a 180 giorni)",
+    "pass_monate": 6,
+    "visum_text": "Nessun obbligo di visto per i tedeschi. All'ingresso possono essere concessi fino a 180 giorni di soggiorno. È obbligatorio un biglietto di ritorno o di proseguimento (bus o aereo).",
+    "affiliate_hinweis": "💡 <strong>Auto a noleggio in Costa Rica:</strong> Per i parchi nazionali e le strade non asfaltate è spesso consigliato un veicolo 4x4. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui le auto a noleggio per la Costa Rica.</a>"
+  },
+  {
+    "slug": "neuseeland",
+    "name": "Nuova Zelanda",
+    "visum_status": "NZeTA richiesta",
+    "pass_monate": 3,
+    "visum_text": "I tedeschi non necessitano di visto per soggiorni fino a 3 mesi, ma è obbligatoria l'autorizzazione elettronica all'ingresso (NZeTA). Insieme alla NZeTA viene automaticamente applicata una tassa turistica (IVL).",
+    "affiliate_hinweis": "💡 <strong>Paradiso dei road trip:</strong> Esplorate la Nuova Zelanda al meglio con il vostro veicolo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Prenotate qui un'auto a noleggio in Nuova Zelanda.</a>"
+  },
+  {
+    "slug": "philippinen",
+    "name": "Filippine",
+    "visum_status": "Nessun visto necessario (fino a 30 giorni)",
+    "pass_monate": 6,
+    "visum_text": "Per un soggiorno fino a 30 giorni, i cittadini tedeschi non necessitano di visto. Sono obbligatori un biglietto di ritorno o di proseguimento valido e la registrazione elettronica (eTravel) prima della partenza.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Sulle isole più grandi vale la pena noleggiare un'auto per escursioni indipendenti. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui le offerte convenienti.</a>"
+  },
+  {
+    "slug": "malaysia",
+    "name": "Malesia",
+    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "pass_monate": 6,
+    "visum_text": "Ingresso senza visto per i tedeschi fino a 90 giorni. Attenzione: dal 2024 è obbligatorio compilare la carta d'arrivo digitale (MDAC - Malaysia Digital Arrival Card) entro 3 giorni dall'arrivo.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> La rete stradale in Malesia è eccellentemente sviluppata – perfetta per un road trip. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Prenotate qui un'auto a noleggio.</a>"
+  },
+  {
+    "slug": "singapur",
+    "name": "Singapore",
+    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "pass_monate": 6,
+    "visum_text": "Per Singapore, come turista, non avete bisogno di un visto. Tuttavia, è obbligatorio compilare online la 'SG Arrival Card' fino a 3 giorni prima dell'arrivo, nella quale vengono richieste informazioni sanitarie e di viaggio.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Anche a Singapore e dintorni un'auto a noleggio può essere estremamente pratica per le escursioni. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui i prezzi.</a>"
+  },
+  {
+    "slug": "suedkorea",
+    "name": "Corea del Sud",
+    "visum_status": "K-ETA richiesta",
+    "pass_monate": 6,
+    "visum_text": "Ingresso senza visto fino a 90 giorni. Tuttavia, l'autorizzazione elettronica di viaggio (K-ETA) è obbligatoria e deve essere approvata online prima della partenza. Evita anche di dover compilare la carta d'arrivo in aereo.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Soprattutto per esplorare la popolare isola di Jeju, un'auto a noleggio è indispensabile. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trovate qui il vostro veicolo per la Corea del Sud.</a>"
+  },
+  {
+    "slug": "china",
+    "name": "Cina",
+    "visum_status": "Senza visto (fino a 15 giorni) / altrimenti visto",
+    "pass_monate": 6,
+    "visum_text": "Grazie a una normativa speciale, i tedeschi possono attualmente entrare senza visto per soggiorni turistici fino a 15 giorni. Per soggiorni superiori a 15 giorni, è obbligatorio richiedere in anticipo un visto classico presso un Visa Application Service Center.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Muovetevi con flessibilità nel Regno di Mezzo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui i prezzi delle auto a noleggio per la Cina.</a>"
+  },
+  {
+    "slug": "indien",
+    "name": "India",
+    "visum_status": "e-Visa richiesto",
+    "pass_monate": 6,
+    "visum_text": "L'ingresso è possibile solo con un visto valido. Per i turisti si consiglia l'e-Visa, da richiedere online in anticipo. Il passaporto deve avere almeno due pagine libere.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Per maggiore comfort e indipendenza sulle strade indiane, si consiglia un'auto a noleggio. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Verificate qui le offerte.</a>"
+  },
+  {
+    "slug": "kenia",
+    "name": "Kenya",
+    "visum_status": "eTA richiesta",
+    "pass_monate": 6,
+    "visum_text": "Il Kenya ha abolito il visto, ma ora richiede obbligatoriamente a tutti i viaggiatori (anche ai bambini) un'autorizzazione elettronica all'ingresso (eTA). Questa deve essere richiesta online per tempo prima della partenza.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Per un safari personalizzato o per proseguire il viaggio, un 4x4 a noleggio è l'ideale. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui i 4x4 a noleggio.</a>"
+  },
+  {
+    "slug": "tansania",
+    "name": "Tanzania (Zanzibar)",
+    "visum_status": "Visto / e-Visa richiesto",
+    "pass_monate": 6,
+    "visum_text": "I tedeschi necessitano di un visto per la Tanzania e la popolare Zanzibar. L'e-Visa dovrebbe essere richiesto online al più tardi 10 giorni prima della partenza. È possibile ottenere un 'Visa on Arrival', ma può comportare lunghe attese.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Scoprite Zanzibar o la terraferma in modo flessibile e in autonomia. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Prenotate qui la vostra auto a noleggio in Tanzania.</a>"
+  },
+  {
+    "slug": "seychellen",
+    "name": "Seychelles",
+    "visum_status": "Travel Authorization richiesta",
+    "pass_monate": 0,
+    "visum_text": "Per le Seychelles non è previsto l'obbligo di visto. Prima della partenza, tuttavia, è obbligatorio ottenere online un'autorizzazione all'ingresso a pagamento (Travel Authorization). Il passaporto deve essere valido almeno fino all'uscita dal Paese.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Esplorate Mahé o Praslin al vostro ritmo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Assicuratevi qui un'auto per le Seychelles.</a>"
+  },
+  {
+    "slug": "mauritius",
+    "name": "Mauritius",
+    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "pass_monate": 0,
+    "visum_text": "Nessun obbligo di visto. I cittadini tedeschi possono entrare fino a 90 giorni. Il passaporto deve essere valido oltre la fine del viaggio. Devono essere presentati un biglietto di ritorno o di proseguimento e una prenotazione alberghiera.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Un'auto a noleggio è la scelta migliore per scoprire tutte le spiagge nascoste di Mauritius. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui le offerte.</a>"
+  },
+  {
+    "slug": "marokko",
+    "name": "Marocco",
+    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "pass_monate": 0,
+    "visum_text": "Per scopi turistici, i tedeschi possono entrare in Marocco senza visto fino a 90 giorni. Il passaporto deve essere valido per l'intera durata del soggiorno (consigliato: 6 mesi).",
+    "affiliate_hinweis": "💡 <strong>Consiglio road trip:</strong> Per spettacolari viaggi attraverso l'Atlante, un'auto a noleggio propria è essenziale. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Prenotate qui auto a noleggio convenienti.</a>"
+  },
+  {
+    "slug": "tunesien",
+    "name": "Tunisia",
+    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "pass_monate": 6,
+    "visum_text": "Nessun obbligo di visto per turisti organizzati e viaggiatori individuali dalla Germania fino a 90 giorni. L'ingresso con la carta d'identità è possibile solo nell'ambito di un viaggio organizzato con volo e hotel inclusi; altrimenti è necessario il passaporto.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Scoprite le coste e i paesaggi affascinanti della Tunisia in autonomia. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui i prezzi delle auto a noleggio.</a>"
+  },
+  {
+    "slug": "oman",
+    "name": "Oman",
+    "visum_status": "Senza visto fino a 14 giorni / altrimenti e-Visa",
+    "pass_monate": 6,
+    "visum_text": "Per soggiorni fino a 14 giorni, i tedeschi non necessitano più di visto. Chi desidera restare più a lungo deve obbligatoriamente richiedere in anticipo un e-Visa online. Devono essere disponibili una prenotazione alberghiera e un biglietto di ritorno.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> L'Oman è un classico paese da road trip. Spesso si consiglia un'auto a noleggio 4x4. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Assicuratevi qui il vostro veicolo.</a>"
+  },
+  {
+    "slug": "katar",
+    "name": "Qatar (Doha)",
+    "visum_status": "Visa on Arrival gratuito",
+    "pass_monate": 6,
+    "visum_text": "I cittadini tedeschi ricevono all'ingresso un 'Visa Waiver' gratuito (Visa on Arrival), valido per soggiorni fino a 90 giorni entro un periodo di 180 giorni.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Doha e i paesaggi spettacolari circostanti si possono esplorare splendidamente in auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trovate qui auto a noleggio per il Qatar.</a>"
+  },
+  {
+    "slug": "saudi-arabien",
+    "name": "Arabia Saudita",
+    "visum_status": "e-Visa / Visa on Arrival",
+    "pass_monate": 6,
+    "visum_text": "I turisti tedeschi possono richiedere in anticipo online un e-Visa oppure ottenere un 'Visa on Arrival' all'arrivo. Il visto è valido per un anno e consente ingressi multipli (fino a un massimo di 90 giorni consecutivi).",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Le enormi distanze in Arabia Saudita si coprono al meglio in modo flessibile con un'auto a noleggio. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate ora i prezzi delle auto a noleggio.</a>"
+  },
+  {
+    "slug": "jordanien",
+    "name": "Giordania",
+    "visum_status": "Visto richiesto (spesso tramite Jordan Pass)",
+    "pass_monate": 6,
+    "visum_text": "Obbligo di visto. Il visto può spesso essere rilasciato all'arrivo in aeroporto. Se restate più di 3 notti, si consiglia di acquistare prima del viaggio il 'Jordan Pass': esonera dalla tassa del visto e include l'ingresso a Petra.",
+    "affiliate_hinweis": "💡 <strong>Consiglio road trip:</strong> Da Amman a Petra e al Mar Morto – la Giordania è perfetta per chi viaggia in autonomia. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Prenotate qui la vostra auto a noleggio.</a>"
+  },
+  {
+    "slug": "jamaika",
+    "name": "Giamaica",
+    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "pass_monate": 6,
+    "visum_text": "Per un soggiorno turistico fino a 90 giorni, i tedeschi non necessitano di visto. Tuttavia, è obbligatorio compilare gratuitamente prima della partenza un modulo di ingresso (Online Passenger Declaration).",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Scoprite la splendida isola caraibica al vostro ritmo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Assicuratevi qui un'auto a noleggio per la Giamaica.</a>"
+  },
+  {
+    "slug": "peru",
+    "name": "Perù",
+    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "pass_monate": 6,
+    "visum_text": "Per il Perù non è previsto l'obbligo di visto. I turisti tedeschi ricevono di norma all'ingresso un permesso di soggiorno per 90 giorni (nel semestre). Deve essere mostrato un biglietto di proseguimento o di ritorno.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Vivete le Ande e le strade costiere con la massima flessibilità grazie a un'auto a noleggio. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trovate qui i veicoli adatti.</a>"
+  },
+  {
+    "slug": "kolumbien",
+    "name": "Colombia",
+    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "pass_monate": 6,
+    "visum_text": "Ingresso senza visto per i tedeschi fino a 90 giorni. È obbligatorio compilare il modulo di ingresso online 'Check-MIG' entro 72 ore prima della partenza.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> State pianificando un tour nella famosa zona del caffè? Un'auto a noleggio offre la massima libertà. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui le offerte.</a>"
+  },
+  {
+    "slug": "argentinien",
+    "name": "Argentina",
+    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "pass_monate": 0,
+    "visum_text": "Nessun obbligo di visto per i cittadini tedeschi fino a 90 giorni. Il passaporto deve essere valido per l'intera durata del soggiorno previsto. Spesso all'ingresso viene richiesto un documento che attesti il viaggio di proseguimento o di ritorno.",
+    "affiliate_hinweis": "💡 <strong>Road trip in Patagonia:</strong> Le distanze in Argentina sono enormi. Un buon veicolo a noleggio è essenziale. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trovate qui auto a noleggio affidabili per il Sud America.</a>"
+  },
+  {
+    "slug": "chile",
+    "name": "Cile",
+    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "pass_monate": 6,
+    "visum_text": "Per soggiorni turistici fino a 90 giorni non è necessario alcun visto. All'ingresso riceverete una carta turistica (Tarjeta de Turismo), che dovrete conservare con cura fino all'uscita dal Paese.",
+    "affiliate_hinweis": "💡 <strong>Auto a noleggio in Sud America:</strong> Il Cile è perfetto per road trip spettacolari (ad es. sulla Carretera Austral). <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trovate qui l'auto a noleggio adatta.</a>"
+  },
+  {
+    "slug": "ecuador",
+    "name": "Ecuador",
+    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "pass_monate": 6,
+    "visum_text": "I tedeschi possono entrare in Ecuador senza visto per un massimo di 90 giorni (incluse le isole Galápagos). All'ingresso deve poter essere presentato un biglietto di proseguimento o di ritorno.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Nella terraferma ecuadoriana vale la pena noleggiare un'auto per escursioni attraverso le Ande. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Prenotate qui un'auto a noleggio.</a>"
+  },
+  {
+    "slug": "bolivien",
+    "name": "Bolivia",
+    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "pass_monate": 6,
+    "visum_text": "L'ingresso è senza visto fino a 90 giorni. All'arrivo, i turisti ricevono inizialmente di solito un timbro per 30 giorni, che può essere esteso gratuitamente nel Paese fino a 90 giorni presso l'autorità per l'immigrazione.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Scoprite i paesaggi impressionanti della Bolivia in modo flessibile con il vostro veicolo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui auto a noleggio convenienti.</a>"
+  },
+  {
+    "slug": "panama",
+    "name": "Panama",
+    "visum_status": "Nessun visto necessario (fino a 180 giorni)",
+    "pass_monate": 3,
+    "visum_text": "Nessun obbligo di visto per i tedeschi. All'arrivo viene spesso concesso un permesso di soggiorno fino a 180 giorni. Il passaporto deve essere ancora valido per almeno 3 mesi all'ingresso. È obbligatorio un biglietto di uscita.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Con un'auto a noleggio potete spostarvi comodamente e in autonomia dalla città alle spiagge da sogno di Panama. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Controllate qui i prezzi delle auto a noleggio.</a>"
+  },
+  {
+    "slug": "guatemala",
+    "name": "Guatemala",
+    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "pass_monate": 6,
+    "visum_text": "Ingresso senza visto possibile fino a 90 giorni (vale per l'intera area C4). Chi entra via terra, a volte alla frontiera viene invitato a pagare una piccola tassa di gestione non ufficiale.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> L'affascinante terra dei Maya si può visitare meravigliosamente in modo individuale con la propria auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Prenotate qui in anticipo un'auto a noleggio.</a>"
+  },
+  {
+    "slug": "bahamas",
+    "name": "Bahamas",
+    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "pass_monate": 6,
+    "visum_text": "I cittadini tedeschi non necessitano di visto per un soggiorno turistico fino a 90 giorni. Tuttavia, all'ingresso è obbligatorio presentare un biglietto di ritorno o di proseguimento.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Esplorate le isole più grandi delle Bahamas in totale autonomia con un'auto a noleggio. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Assicuratevi qui il veicolo adatto.</a>"
+  },
+  {
+    "slug": "barbados",
+    "name": "Barbados",
+    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "pass_monate": 6,
+    "visum_text": "Ingresso senza visto fino a 90 giorni. È obbligatorio compilare il modulo di ingresso online gratuito (ED Card) entro 72 ore prima dell'arrivo, per accelerare l'ingresso.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Un'auto a noleggio è perfetta per raggiungere anche spiagge e baie nascoste a Barbados. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui le offerte.</a>"
+  },
+  {
+    "slug": "namibia",
+    "name": "Namibia",
+    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "pass_monate": 6,
+    "visum_text": "Per soggiorni fino a 90 giorni nell'anno solare, i turisti tedeschi non necessitano di visto. Tuttavia, il passaporto deve essere obbligatoriamente valido per almeno 6 mesi oltre la data di rientro.",
+    "affiliate_hinweis": "💡 <strong>Veicoli da safari:</strong> Per la Namibia è indispensabile un'auto a noleggio robusta (di solito 4x4). <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Assicuratevi qui per tempo il vostro veicolo.</a>"
+  },
+  {
+    "slug": "botswana",
+    "name": "Botswana",
+    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "pass_monate": 6,
+    "visum_text": "I tedeschi ricevono gratuitamente ai valichi di frontiera o negli aeroporti un permesso di ingresso (Visitor's Pass) per un massimo di 90 giorni nell'anno solare. È necessario presentare un biglietto di ritorno o di proseguimento.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Il Botswana si esplora splendidamente come self-drive. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui le auto a noleggio per il Botswana.</a>"
+  },
+  {
+    "slug": "uganda",
+    "name": "Uganda",
+    "visum_status": "e-Visa richiesto",
+    "pass_monate": 6,
+    "visum_text": "Per l'Uganda è previsto un rigido obbligo di visto. Il visto deve essere obbligatoriamente richiesto online come e-Visa prima dell'ingresso. Inoltre, per l'ingresso è richiesto il certificato di vaccinazione contro la febbre gialla.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Per le visite ai parchi nazionali e i safari in autonomia, un 4x4 a noleggio è l'ideale. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui i veicoli 4x4.</a>"
+  },
+  {
+    "slug": "madagaskar",
+    "name": "Madagascar",
+    "visum_status": "e-Visa o Visa on Arrival",
+    "pass_monate": 6,
+    "visum_text": "I tedeschi necessitano di un visto. Questo può essere ottenuto in anticipo come e-Visa oppure all'arrivo in aeroporto (Visa on Arrival). La durata del soggiorno può essere di 15, 30 o 60 giorni (con tariffe diverse).",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Scoprite il celebre Viale dei Baobab e i parchi nazionali in totale flessibilità. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Assicuratevi qui un'auto a noleggio adatta al fuoristrada.</a>"
+  },
+  {
+    "slug": "kap-verde",
+    "name": "Capo Verde (Isole di Capo Verde)",
+    "visum_status": "Registrazione EASE (nessun visto)",
+    "pass_monate": 6,
+    "visum_text": "Per soggiorni fino a 30 giorni, i tedeschi non necessitano di visto. Tuttavia, è necessario registrarsi online sulla piattaforma ufficiale EASE e pagare la tassa di sicurezza aeroportuale (TSA) al più tardi 5 giorni prima della partenza.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Sulle isole più grandi come Sal o Santiago, un'auto a noleggio offre grande indipendenza. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Verificate qui le auto a noleggio.</a>"
+  },
+  {
+    "slug": "georgien",
+    "name": "Georgia",
+    "visum_status": "Nessun visto necessario (fino a 1 anno)",
+    "pass_monate": 0,
+    "visum_text": "La Georgia ha una delle normative d'ingresso più generose al mondo: i cittadini tedeschi possono soggiornare nel Paese fino a un anno intero senza visto con il passaporto (o persino con la carta d'identità).",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Le strade di montagna del Caucaso vi aspettano! <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Prenotate qui la vostra auto a noleggio per tour indimenticabili in Georgia.</a>"
+  },
+  {
+    "slug": "kambodscha",
+    "name": "Cambogia",
+    "visum_status": "e-Visa o Visa on Arrival",
+    "pass_monate": 6,
+    "visum_text": "È previsto l'obbligo di visto. I turisti possono richiedere in anticipo il visto elettronico e-Visa (consigliato) oppure ottenere il Visa on Arrival in aeroporto/ai valichi di frontiera. Sono necessarie foto tessera e contanti in dollari USA.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Approfittate di maggiore comfort e flessibilità lontano dalle rotte principali. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui le auto a noleggio in Cambogia.</a>"
+  },
+  {
+    "slug": "laos",
+    "name": "Laos",
+    "visum_status": "e-Visa o Visa on Arrival",
+    "pass_monate": 6,
+    "visum_text": "L'ingresso è possibile solo con visto. Potete richiedere il visto come e-Visa online oppure ottenerlo sul posto come Visa on Arrival. Per il visto all'arrivo servono foto tessera e dollari USA.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Scoprite la pittoresca bellezza paesaggistica del Laos al vostro ritmo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Controllate qui i prezzi delle auto a noleggio.</a>"
+  },
+  {
+    "slug": "taiwan",
+    "name": "Taiwan",
+    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "pass_monate": 6,
+    "visum_text": "I cittadini tedeschi possono entrare a Taiwan senza visto per soggiorni turistici fino a 90 giorni. Su richiesta, deve essere presentato un biglietto di ritorno o di proseguimento confermato.",
+    "affiliate_hinweis": "💡 <strong>Consiglio road trip:</strong> Un emozionante giro dell'intera isola di Taiwan è un vero highlight della vacanza. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trovate qui la vostra auto a noleggio a Taiwan.</a>"
+  },
+  {
+    "slug": "nepal",
+    "name": "Nepal",
+    "visum_status": "Visa on Arrival (registrazione online)",
+    "pass_monate": 6,
+    "visum_text": "I turisti necessitano di un visto, che viene rilasciato senza problemi come Visa on Arrival all'aeroporto di Kathmandu. Per risparmiare tempo, il modulo di richiesta online obbligatorio deve essere compilato elettronicamente prima della partenza.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Se non fate solo trekking, un'auto a noleggio propria offre grande flessibilità per le escursioni nella valle di Kathmandu. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui i prezzi.</a>"
+  },
+  {
+    "slug": "usbekistan",
+    "name": "Uzbekistan",
+    "visum_status": "Nessun visto necessario (fino a 30 giorni)",
+    "pass_monate": 6,
+    "visum_text": "Per soggiorni turistici fino a 30 giorni, i cittadini tedeschi non necessitano più di visto. Importante: entro 3 giorni dall'arrivo bisogna registrarsi (di norma se ne occupa l'hotel).",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Sulle affascinanti tracce della Via della Seta sarete massimamente flessibili con un'auto a noleggio. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Assicuratevi qui un'auto a noleggio per l'Uzbekistan.</a>"
+  },
+  {
+    "slug": "fidschi",
+    "name": "Figi",
+    "visum_status": "Nessun visto necessario (fino a 4 mesi)",
+    "pass_monate": 6,
+    "visum_text": "I tedeschi ricevono all'arrivo un permesso di visita gratuito (Visitor Permit) timbrato sul passaporto per un massimo di 4 mesi. Sono obbligatori un biglietto di ritorno o di proseguimento e la prova di fondi sufficienti.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Esplorate la splendida isola principale Viti Levu comodamente con la vostra auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Prenotate qui un'auto a noleggio per le Figi.</a>"
+  },
+  {
+    "slug": "armenien",
+    "name": "Armenia",
+    "visum_status": "Nessun visto necessario (fino a 180 giorni)",
+    "pass_monate": 5,
+    "visum_text": "I tedeschi possono entrare in Armenia senza visto per un soggiorno fino a 180 giorni nell'arco di un anno solare. Il passaporto deve essere ancora valido per almeno 5 mesi al momento dell'ingresso.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Scoprite i suggestivi monasteri e i paesaggi montani dell'Armenia con facilità in auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Assicuratevi qui la vostra auto a noleggio.</a>"
+  },
+  {
+    "slug": "anderes-land-allgemein",
+    "name": "Altra destinazione di viaggio (disposizioni generali)",
+    "visum_status": "Verificare le disposizioni individualmente",
+    "pass_monate": 6,
+    "visum_text": "Per questa destinazione al momento non disponiamo di dati specifici. Verificate le condizioni di ingresso sul sito del Ministero degli Esteri. Come regola generale a livello mondiale: il vostro passaporto dovrebbe essere valido ancora per almeno 6 mesi.",
+    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Ovunque andiate, un'auto a noleggio offre in tutto il mondo la massima libertà. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui in modo semplice le offerte di auto a noleggio in tutto il mondo.</a>"
+  }
+]

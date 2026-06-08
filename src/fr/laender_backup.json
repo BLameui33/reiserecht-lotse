@@ -1,0 +1,490 @@
+[
+  {
+    "slug": "usa",
+    "name": "USA",
+    "visum_status": "ESTA requis",
+    "pass_monate": 6,
+    "visum_text": "Pour entrer aux États-Unis à des fins touristiques, les citoyens allemands ont impérativement besoin d’une autorisation électronique d’entrée (ESTA). Celle-ci doit obligatoirement être demandée en ligne avant le départ. Un visa classique n’est nécessaire que si vous restez plus de 90 jours ou si vous ne remplissez pas certains critères.",
+    "affiliate_hinweis": "💡 <strong>Classique du road trip :</strong> Les États-Unis se découvrent idéalement avec flexibilité, au volant de sa propre voiture. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici à l’avance votre voiture de location à prix avantageux.</a>"
+  },
+  {
+    "slug": "aegypten",
+    "name": "Égypte",
+    "visum_status": "Visa requis (e-Visa ou à l’arrivée)",
+    "pass_monate": 6,
+    "visum_text": "Les ressortissants allemands ont besoin d’un visa pour entrer en Égypte. Celui-ci peut être demandé à l’avance en ligne sous forme d’e-Visa. Il existe également le « Visa on Arrival » directement à l’aéroport (souvent associé à de longues files d’attente).",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Découvrez l’Égypte en dehors des complexes hôteliers, en toute flexibilité et en toute autonomie. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici des voitures de location à prix avantageux.</a>"
+  },
+  {
+    "slug": "tuerkei",
+    "name": "Turquie",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "pass_monate": 0,
+    "visum_text": "Pour des séjours touristiques allant jusqu’à 90 jours (sur une période de 180 jours), les ressortissants allemands n’ont pas besoin de visa. L’entrée est même possible avec la carte d’identité.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Pour les excursions sur la côte ou dans l’arrière-pays, une voiture personnelle vaut vraiment le coup. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici à temps votre voiture de location pour la Turquie.</a>"
+  },
+  {
+    "slug": "uk",
+    "name": "Grande-Bretagne",
+    "visum_status": "ETA requis",
+    "pass_monate": 0,
+    "visum_text": "Pour des séjours touristiques allant jusqu’à 6 mois, les Allemands n’ont pas besoin de visa classique, mais l’autorisation électronique d’entrée (ETA) est obligatoire. Un passeport valide est impératif ; la carte d’identité ne suffit plus.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Idéal pour les Highlands ou la Cornouailles – pensez à la conduite à gauche ! <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici les prix des voitures de location pour la Grande-Bretagne.</a>"
+  },
+  {
+    "slug": "thailand",
+    "name": "Thaïlande",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 60 jours)",
+    "pass_monate": 6,
+    "visum_text": "Pour des séjours touristiques allant jusqu’à 60 jours, les citoyens allemands peuvent entrer sans visa. Le passeport doit encore être valable au moins 6 mois à l’entrée. Un billet de continuation ou de retour peut éventuellement être exigé.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Pour une flexibilité maximale hors des sentiers touristiques habituels. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trouvez ici des voitures de location fiables en Thaïlande.</a>"
+  },
+  {
+    "slug": "australien",
+    "name": "Australie",
+    "visum_status": "Visa eVisitor requis",
+    "pass_monate": 6,
+    "visum_text": "Les Allemands ont impérativement besoin d’un visa pour entrer en Australie. Pour les touristes, le visa eVisitor (sous-classe 651) est idéal : il est demandé gratuitement en ligne et permet des séjours allant jusqu’à 3 mois.",
+    "affiliate_hinweis": "💡 <strong>Conseil road trip :</strong> L’Australie se découvre idéalement avec flexibilité, au volant de sa propre voiture. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici les prix des voitures de location pour l’Australie.</a>"
+  },
+  {
+    "slug": "kanada",
+    "name": "Canada",
+    "visum_status": "eTA requise",
+    "pass_monate": 6,
+    "visum_text": "Toute personne entrant au Canada par voie aérienne n’a pas besoin de visa, mais doit impérativement disposer d’une autorisation électronique de voyage (eTA). En cas d’entrée par voie terrestre (par ex. depuis les États-Unis), l’eTA n’est pas nécessaire.",
+    "affiliate_hinweis": "⚠️ <strong>Conseil location de voiture :</strong> Réservez impérativement votre voiture de location pour le Canada depuis l’Allemagne afin de bénéficier d’une couverture d’assurance complète. <a href='https://www.c24n.de/nsnjZZ8' style='color:#d32f2f;'>Comparez ici les prix des voitures de location.</a>"
+  },
+  {
+    "slug": "vae",
+    "name": "Émirats arabes unis (Dubaï)",
+    "visum_status": "Visa on Arrival gratuit",
+    "pass_monate": 6,
+    "visum_text": "Les Allemands reçoivent gratuitement à l’entrée aux EAU (par ex. à Dubaï ou Abou Dhabi) un « Visa on Arrival » tamponné dans le passeport. Celui-ci autorise un séjour allant jusqu’à 90 jours sur une période de 180 jours.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Les Émirats disposent de routes remarquablement bien développées. Une voiture de location y est souvent plus pratique que des trajets constants en taxi. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trouvez ici une voiture de location pour Dubaï et plus encore.</a>"
+  },
+  {
+    "slug": "malediven",
+    "name": "Maldives",
+    "visum_status": "Visa on Arrival gratuit",
+    "pass_monate": 6,
+    "visum_text": "Aucun visa n’est nécessaire à l’avance pour les Maldives. Un visa touristique de 30 jours est délivré gratuitement à l’arrivée à l’aéroport. Important : une déclaration électronique d’entrée (IMUGA) doit être remplie en ligne avant le départ.",
+    "affiliate_hinweis": "💡 <strong>Voiture de location pour le trajet vers l’aéroport :</strong> Besoin encore d’une voiture pour vous rendre confortablement à l’aéroport en Allemagne ? <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici des voitures de location à prix avantageux.</a>"
+  },
+  {
+    "slug": "indonesien",
+    "name": "Indonésie",
+    "visum_status": "Visa on Arrival / e-VoA requis",
+    "pass_monate": 6,
+    "visum_text": "Que vous planifiiez un circuit ou que vous recherchiez explicitement un visa pour Bali : pour l’Indonésie, un visa (Visa on Arrival) est requis. Vous pouvez l’acheter à l’arrivée ou, pour éviter l’attente, demander à l’avance un e-VoA en ligne (valable 30 jours).",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Bali et les autres îles se découvrent parfaitement avec son propre véhicule. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici les prix pour l’Indonésie.</a>"
+  },
+  {
+    "slug": "vietnam",
+    "name": "Vietnam",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 45 jours)",
+    "pass_monate": 6,
+    "visum_text": "Les ressortissants allemands peuvent entrer au Vietnam sans visa pour un séjour allant jusqu’à 45 jours. Ceux qui souhaitent rester plus longtemps (jusqu’à 90 jours) doivent demander un e-visa à l’avance.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Découvrez le Vietnam de manière totalement individuelle et à votre propre rythme. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici votre véhicule.</a>"
+  },
+  {
+    "slug": "sri-lanka",
+    "name": "Sri Lanka",
+    "visum_status": "e-Visa / ETA requis",
+    "pass_monate": 6,
+    "visum_text": "Le Sri Lanka est soumis à l’obligation de visa. L’e-visa (ETA) doit impérativement être demandé en ligne avant le voyage. Il autorise un séjour allant jusqu’à 30 jours.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Découvrez les plantations de thé et les plages du Sri Lanka avec flexibilité, au volant de votre propre voiture. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trouvez ici la voiture de location adaptée.</a>"
+  },
+  {
+    "slug": "suedafrika",
+    "name": "Afrique du Sud",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "pass_monate": 1,
+    "visum_text": "Les Allemands n’ont pas besoin de visa pour des séjours touristiques allant jusqu’à 90 jours. Ils reçoivent à l’entrée une autorisation de visiteur (Visitor's Visa) à la frontière. Le passeport doit être lisible par machine et comporter au moins deux pages vierges.",
+    "affiliate_hinweis": "💡 <strong>Voiture de location pour l’Afrique du Sud :</strong> Pour la Garden Route ou les parcs nationaux, une voiture de location est le meilleur choix. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici des voitures de location avec assurance tous risques à prix avantageux.</a>"
+  },
+  {
+    "slug": "japan",
+    "name": "Japon",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "pass_monate": 0,
+    "visum_text": "Les Allemands peuvent entrer au Japon sans visa en tant que « Temporary Visitor » pour un maximum de 90 jours. Le passeport doit simplement être valable pendant toute la durée du séjour. Une préinscription en ligne (Visit Japan Web) accélère l’entrée.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Pour explorer les régions rurales du Japon, une voiture de location est un complément parfait. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici les voitures de location au Japon.</a>"
+  },
+  {
+    "slug": "dominikanische-republik",
+    "name": "République dominicaine",
+    "visum_status": "E-Ticket requis (pas de visa)",
+    "pass_monate": 6,
+    "visum_text": "Pour un séjour touristique allant jusqu’à 30 jours, les Allemands n’ont pas besoin de visa. Toutefois, un formulaire électronique gratuit (E-Ticket) pour l’entrée et la sortie doit impérativement être rempli en ligne.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Découvrez de superbes plages et l’intérieur de l’île en toute autonomie. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici votre voiture de location pour la Dom. Rep.</a>"
+  },
+  {
+    "slug": "mexiko",
+    "name": "Mexique",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 180 jours)",
+    "pass_monate": 6,
+    "visum_text": "L’entrée des touristes allemands est possible sans visa. À l’arrivée, un séjour allant jusqu’à 180 jours peut être accordé. Parfois, une carte touristique (FMM) est remplie à l’aéroport, mais cela se fait souvent désormais de manière numérique.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Idéal pour aller aux cénotes et aux ruines mayas du Yucatán. Mieux vaut réserver depuis l’Allemagne. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trouvez ici une voiture de location pour le Mexique.</a>"
+  },
+  {
+    "slug": "kuba",
+    "name": "Cuba",
+    "visum_status": "Carte touristique requise",
+    "pass_monate": 6,
+    "visum_text": "Pour Cuba, vous avez besoin d’une carte touristique (Tarjeta del Turista) au lieu d’un visa classique, valable 90 jours. De plus, la preuve d’une assurance maladie à l’étranger valide (en espagnol ou en anglais) est obligatoire.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Un road trip à travers l’île rend les vacances à Cuba vraiment inoubliables. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vérifiez ici les disponibilités de voitures de location.</a>"
+  },
+  {
+    "slug": "brasilien",
+    "name": "Brésil",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "pass_monate": 6,
+    "visum_text": "Les touristes allemands peuvent entrer au Brésil sans visa pour un maximum de 90 jours par semestre. À l’entrée, il faut pouvoir présenter un billet de retour ou de continuation ainsi qu’une preuve de ressources financières suffisantes.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Le Brésil est immense – une voiture de location vous offre la flexibilité nécessaire sur place. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici votre voiture à l’avance.</a>"
+  },
+  {
+    "slug": "costa-rica",
+    "name": "Costa Rica",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 180 jours)",
+    "pass_monate": 6,
+    "visum_text": "Aucune obligation de visa pour les Allemands. À l’entrée, un séjour allant jusqu’à 180 jours peut être accordé. Un billet de retour ou de continuation (bus ou avion) est obligatoire.",
+    "affiliate_hinweis": "💡 <strong>Voiture de location au Costa Rica :</strong> Pour les parcs nationaux et les routes non goudronnées, un véhicule 4x4 est souvent recommandé. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici les voitures de location pour le Costa Rica.</a>"
+  },
+  {
+    "slug": "neuseeland",
+    "name": "Nouvelle-Zélande",
+    "visum_status": "NZeTA requise",
+    "pass_monate": 3,
+    "visum_text": "Les Allemands n’ont pas besoin de visa pour des séjours allant jusqu’à 3 mois, mais l’autorisation électronique d’entrée (NZeTA) est obligatoire. Avec la NZeTA, une taxe touristique (IVL) est automatiquement perçue.",
+    "affiliate_hinweis": "💡 <strong>Paradis du road trip :</strong> Découvrez la Nouvelle-Zélande idéalement à bord de votre propre véhicule. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici une voiture de location en Nouvelle-Zélande.</a>"
+  },
+  {
+    "slug": "philippinen",
+    "name": "Philippines",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 30 jours)",
+    "pass_monate": 6,
+    "visum_text": "Pour un séjour allant jusqu’à 30 jours, les citoyens allemands n’ont pas besoin de visa. Un billet de retour ou de continuation valide ainsi que l’enregistrement électronique (eTravel) avant le départ sont obligatoires.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Sur les grandes îles, une voiture de location vaut le coup pour des excursions indépendantes. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici des offres avantageuses.</a>"
+  },
+  {
+    "slug": "malaysia",
+    "name": "Malaisie",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "pass_monate": 6,
+    "visum_text": "Entrée sans visa pour les Allemands jusqu’à 90 jours. Attention : depuis 2024, le remplissage de la carte d’arrivée numérique (MDAC - Malaysia Digital Arrival Card) est obligatoire dans les 3 jours précédant l’arrivée.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Le réseau routier en Malaisie est remarquablement développé – parfait pour un road trip. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez une voiture ici.</a>"
+  },
+  {
+    "slug": "singapur",
+    "name": "Singapour",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "pass_monate": 6,
+    "visum_text": "Pour Singapour, vous n’avez pas besoin de visa en tant que touriste. Toutefois, vous devez impérativement remplir en ligne la « SG Arrival Card » jusqu’à 3 jours avant l’arrivée, où des informations de santé et de voyage sont demandées.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Même à Singapour et dans ses environs, une voiture de location peut être extrêmement pratique pour les excursions. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez les prix ici.</a>"
+  },
+  {
+    "slug": "suedkorea",
+    "name": "Corée du Sud",
+    "visum_status": "K-ETA requise",
+    "pass_monate": 6,
+    "visum_text": "Entrée sans visa jusqu’à 90 jours. Toutefois, l’autorisation électronique de voyage (K-ETA) est obligatoire et doit être approuvée en ligne avant le départ. Elle dispense également du remplissage de la carte d’arrivée dans l’avion.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Surtout pour explorer la populaire île de Jeju, une voiture de location est indispensable. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trouvez ici votre véhicule pour la Corée du Sud.</a>"
+  },
+  {
+    "slug": "china",
+    "name": "Chine",
+    "visum_status": "Sans visa (jusqu’à 15 jours) / sinon visa",
+    "pass_monate": 6,
+    "visum_text": "Grâce à une réglementation spéciale, les Allemands peuvent actuellement entrer sans visa pour des séjours touristiques allant jusqu’à 15 jours. Pour des séjours de plus de 15 jours, un visa classique doit impérativement être demandé à l’avance auprès d’un Visa Application Service Center.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Déplacez-vous avec flexibilité dans l’Empire du Milieu. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici les prix des voitures de location pour la Chine.</a>"
+  },
+  {
+    "slug": "indien",
+    "name": "Inde",
+    "visum_status": "e-Visa requis",
+    "pass_monate": 6,
+    "visum_text": "L’entrée n’est possible qu’avec un visa valide. Pour les touristes, l’e-Visa, demandé à l’avance en ligne, est recommandé. Le passeport doit comporter au moins deux pages vierges.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Pour plus de confort et d’indépendance sur les routes indiennes, une voiture de location est recommandée. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vérifiez les offres ici.</a>"
+  },
+  {
+    "slug": "kenia",
+    "name": "Kenya",
+    "visum_status": "eTA requise",
+    "pass_monate": 6,
+    "visum_text": "Le Kenya a supprimé le visa, mais exige désormais de tous les voyageurs (y compris les enfants) une autorisation électronique d’entrée (eTA). Celle-ci doit être demandée en ligne à temps avant le départ.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Pour un safari personnalisé ou pour poursuivre votre voyage, un véhicule tout-terrain de location est idéal. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici des 4x4 de location.</a>"
+  },
+  {
+    "slug": "tansania",
+    "name": "Tanzanie (Zanzibar)",
+    "visum_status": "Visa / e-Visa requis",
+    "pass_monate": 6,
+    "visum_text": "Les Allemands ont besoin d’un visa pour la Tanzanie et la populaire Zanzibar. L’e-visa doit être demandé en ligne au plus tard 10 jours avant le départ. Un « Visa on Arrival » est possible, mais peut entraîner de longs temps d’attente.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Découvrez Zanzibar ou le continent en toute flexibilité et en toute autonomie. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici votre voiture de location en Tanzanie.</a>"
+  },
+  {
+    "slug": "seychellen",
+    "name": "Seychelles",
+    "visum_status": "Autorisation de voyage requise",
+    "pass_monate": 0,
+    "visum_text": "Aucune obligation de visa pour les Seychelles. Toutefois, avant le départ, une autorisation d’entrée payante (Travel Authorization) doit impérativement être obtenue en ligne. Le passeport doit être valable au moins jusqu’à la sortie du territoire.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Explorez Mahé ou Praslin à votre propre rythme. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici une voiture pour les Seychelles.</a>"
+  },
+  {
+    "slug": "mauritius",
+    "name": "Maurice",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "pass_monate": 0,
+    "visum_text": "Aucune obligation de visa. Les ressortissants allemands peuvent entrer jusqu’à 90 jours. Le passeport doit être valable au-delà de la fin du voyage. Un billet de retour ou de continuation ainsi qu’une réservation d’hôtel doivent être présentés.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Une voiture de location est le meilleur choix pour découvrir toutes les plages cachées de Maurice. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez les offres ici.</a>"
+  },
+  {
+    "slug": "marokko",
+    "name": "Maroc",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "pass_monate": 0,
+    "visum_text": "Pour des raisons touristiques, les Allemands peuvent entrer au Maroc sans visa jusqu’à 90 jours. Le passeport doit être valable pendant toute la durée du séjour (recommandation : 6 mois).",
+    "affiliate_hinweis": "💡 <strong>Conseil road trip :</strong> Pour des trajets à couper le souffle à travers l’Atlas, une voiture de location est indispensable. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici une voiture de location à prix avantageux.</a>"
+  },
+  {
+    "slug": "tunesien",
+    "name": "Tunisie",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "pass_monate": 6,
+    "visum_text": "Aucune obligation de visa pour les touristes en forfait et les voyageurs individuels allemands jusqu’à 90 jours. L’entrée avec la carte d’identité n’est possible que dans le cadre d’un voyage organisé en forfait incluant vol et hôtel ; sinon, le passeport est nécessaire.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Découvrez les côtes et les paysages fascinants de la Tunisie en toute autonomie. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici les prix des voitures de location.</a>"
+  },
+  {
+    "slug": "oman",
+    "name": "Oman",
+    "visum_status": "Sans visa jusqu’à 14 jours / sinon e-Visa",
+    "pass_monate": 6,
+    "visum_text": "Pour des séjours allant jusqu’à 14 jours, les Allemands n’ont plus besoin de visa. Ceux qui souhaitent rester plus longtemps doivent impérativement demander un e-Visa en ligne à l’avance. Une réservation d’hôtel et un billet de retour doivent être disponibles.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Oman est un pays classique de road trip. Un véhicule de location 4x4 est souvent recommandé. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici votre véhicule.</a>"
+  },
+  {
+    "slug": "katar",
+    "name": "Qatar (Doha)",
+    "visum_status": "Visa on Arrival gratuit",
+    "pass_monate": 6,
+    "visum_text": "Les ressortissants allemands reçoivent à l’entrée un « Visa Waiver » gratuit (Visa on Arrival), valable pour des séjours allant jusqu’à 90 jours sur une période de 180 jours.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Doha et les paysages spectaculaires des environs se découvrent parfaitement en voiture. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trouvez ici une voiture de location pour le Qatar.</a>"
+  },
+  {
+    "slug": "saudi-arabien",
+    "name": "Arabie saoudite",
+    "visum_status": "e-Visa / Visa on Arrival",
+    "pass_monate": 6,
+    "visum_text": "Les touristes allemands peuvent demander un e-Visa à l’avance en ligne ou obtenir un « Visa on Arrival » à l’arrivée. Le visa est valable un an et permet des entrées multiples (jusqu’à 90 jours consécutifs maximum).",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Les distances énormes en Arabie saoudite se parcourent idéalement avec flexibilité en voiture de location. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez maintenant les prix des voitures de location.</a>"
+  },
+  {
+    "slug": "jordanien",
+    "name": "Jordanie",
+    "visum_status": "Visa requis (souvent via Jordan Pass)",
+    "pass_monate": 6,
+    "visum_text": "Visa obligatoire. Le visa peut souvent être délivré à l’arrivée à l’aéroport. Si vous restez plus de 3 nuits, il est recommandé d’acheter le « Jordan Pass » avant le voyage : il exonère des frais de visa et inclut l’entrée à Pétra.",
+    "affiliate_hinweis": "💡 <strong>Conseil road trip :</strong> D’Amman à Pétra et à la mer Morte – la Jordanie est parfaite pour les conducteurs autonomes. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici votre voiture de location.</a>"
+  },
+  {
+    "slug": "jamaika",
+    "name": "Jamaïque",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "pass_monate": 6,
+    "visum_text": "Pour un séjour touristique allant jusqu’à 90 jours, les Allemands n’ont pas besoin de visa. Toutefois, un formulaire d’entrée (Online Passenger Declaration) doit impérativement être rempli gratuitement avant le départ.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Découvrez cette île caribéenne de rêve à votre propre rythme. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici une voiture de location pour la Jamaïque.</a>"
+  },
+  {
+    "slug": "peru",
+    "name": "Pérou",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "pass_monate": 6,
+    "visum_text": "Aucune obligation de visa pour le Pérou. Les touristes allemands reçoivent généralement à l’entrée une autorisation de séjour de 90 jours (par semestre). Un billet de continuation ou de retour doit être présenté.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Vivez les Andes et les routes côtières avec une flexibilité totale en voiture de location. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trouvez ici des véhicules adaptés.</a>"
+  },
+  {
+    "slug": "kolumbien",
+    "name": "Colombie",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "pass_monate": 6,
+    "visum_text": "Entrée sans visa pour les Allemands jusqu’à 90 jours. Le remplissage du formulaire d’entrée en ligne « Check-MIG » est obligatoire dans les 72 heures précédant le départ.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Vous prévoyez un circuit dans la célèbre région du café ? Une voiture de location offre une liberté maximale. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez les offres ici.</a>"
+  },
+  {
+    "slug": "argentinien",
+    "name": "Argentine",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "pass_monate": 0,
+    "visum_text": "Aucune obligation de visa pour les citoyens allemands jusqu’à 90 jours. Le passeport doit être valable pendant toute la durée du séjour prévu. Souvent, une preuve de continuation ou de retour est exigée à l’entrée.",
+    "affiliate_hinweis": "💡 <strong>Road trip en Patagonie :</strong> Les distances en Argentine sont immenses. Une bonne voiture de location est indispensable. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trouvez ici des voitures de location fiables pour l’Amérique du Sud.</a>"
+  },
+  {
+    "slug": "chile",
+    "name": "Chili",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "pass_monate": 6,
+    "visum_text": "Pour des séjours touristiques allant jusqu’à 90 jours, aucun visa n’est nécessaire. À l’entrée, vous recevez une carte touristique (Tarjeta de Turismo) que vous devez conserver soigneusement jusqu’à la sortie du territoire.",
+    "affiliate_hinweis": "💡 <strong>Voiture de location en Amérique du Sud :</strong> Le Chili se prête parfaitement à des road trips spectaculaires (par ex. sur la Carretera Austral). <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trouvez ici la voiture de location adaptée.</a>"
+  },
+  {
+    "slug": "ecuador",
+    "name": "Équateur",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "pass_monate": 6,
+    "visum_text": "Les Allemands peuvent entrer en Équateur sans visa pour un maximum de 90 jours (y compris les îles Galápagos). Un billet de continuation ou de retour doit pouvoir être présenté à l’entrée.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Sur le continent équatorien, une voiture de location vaut le coup pour des excursions dans les Andes. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez une voiture ici.</a>"
+  },
+  {
+    "slug": "bolivien",
+    "name": "Bolivie",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "pass_monate": 6,
+    "visum_text": "L’entrée est possible sans visa pour un maximum de 90 jours. À l’arrivée, les touristes reçoivent généralement d’abord un tampon pour 30 jours, qui peut être prolongé gratuitement jusqu’à 90 jours auprès des services d’immigration du pays.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Découvrez les paysages impressionnants de la Bolivie avec flexibilité, au volant de votre propre véhicule. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici des voitures de location à prix avantageux.</a>"
+  },
+  {
+    "slug": "panama",
+    "name": "Panama",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 180 jours)",
+    "pass_monate": 3,
+    "visum_text": "Aucune obligation de visa pour les Allemands. À l’arrivée, une autorisation de séjour allant jusqu’à 180 jours est souvent accordée. Le passeport doit encore être valable au moins 3 mois à l’entrée. Un billet de sortie est obligatoire.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Avec une voiture de location, vous pouvez vous déplacer confortablement et en toute autonomie de la ville aux plages de rêve au Panama. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vérifiez ici les prix des voitures de location.</a>"
+  },
+  {
+    "slug": "guatemala",
+    "name": "Guatemala",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "pass_monate": 6,
+    "visum_text": "Entrée sans visa possible jusqu’à 90 jours (valable pour l’ensemble de la zone C4). En cas d’entrée par voie terrestre, il arrive parfois qu’une petite taxe de traitement officieuse soit demandée à la frontière.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Le fascinant pays des Mayas se parcourt merveilleusement en toute autonomie, au volant de sa propre voiture. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez votre voiture de location ici à l’avance.</a>"
+  },
+  {
+    "slug": "bahamas",
+    "name": "Bahamas",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "pass_monate": 6,
+    "visum_text": "Les ressortissants allemands n’ont pas besoin de visa pour un séjour touristique allant jusqu’à 90 jours. Un billet de retour ou de continuation doit toutefois impérativement être présenté à l’entrée.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Explorez les plus grandes îles des Bahamas en toute indépendance avec une voiture de location. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici le véhicule adapté.</a>"
+  },
+  {
+    "slug": "barbados",
+    "name": "Barbade",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "pass_monate": 6,
+    "visum_text": "Entrée sans visa jusqu’à 90 jours. Il est impératif de remplir le formulaire d’entrée en ligne gratuit (ED Card) dans les 72 heures précédant l’arrivée afin d’accélérer l’entrée.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Une voiture de location est parfaite pour atteindre aussi les plages et criques cachées de la Barbade. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez les offres ici.</a>"
+  },
+  {
+    "slug": "namibia",
+    "name": "Namibie",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "pass_monate": 6,
+    "visum_text": "Pour des séjours allant jusqu’à 90 jours par année civile, aucun visa n’est requis pour les touristes allemands. Le passeport doit toutefois impérativement être valable au moins 6 mois après la date de retour.",
+    "affiliate_hinweis": "💡 <strong>Véhicules de safari :</strong> Pour la Namibie, une voiture de location robuste (généralement 4x4) est indispensable. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez votre véhicule ici à l’avance.</a>"
+  },
+  {
+    "slug": "botswana",
+    "name": "Botswana",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "pass_monate": 6,
+    "visum_text": "Les Allemands reçoivent gratuitement aux postes-frontières ou aux aéroports une autorisation d’entrée (Visitor's Pass) pour un maximum de 90 jours par année civile. Un billet de retour ou de continuation doit être présenté.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Le Botswana se découvre parfaitement en tant que conducteur autonome. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici les voitures de location pour le Botswana.</a>"
+  },
+  {
+    "slug": "uganda",
+    "name": "Ouganda",
+    "visum_status": "e-Visa requis",
+    "pass_monate": 6,
+    "visum_text": "L’Ouganda est soumis à une obligation stricte de visa. Le visa doit impérativement être demandé en ligne sous forme d’e-Visa avant l’entrée. De plus, la preuve d’une vaccination contre la fièvre jaune est obligatoire pour l’entrée.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Pour les visites des parcs nationaux et les safaris en autonomie, un 4x4 de location est idéal. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici des véhicules 4x4.</a>"
+  },
+  {
+    "slug": "madagaskar",
+    "name": "Madagascar",
+    "visum_status": "e-Visa ou Visa on Arrival",
+    "pass_monate": 6,
+    "visum_text": "Les Allemands ont besoin d’un visa. Celui-ci peut être obtenu à l’avance sous forme d’e-Visa ou à l’arrivée à l’aéroport (Visa on Arrival). La durée du séjour est au choix de 15, 30 ou 60 jours (frais différents).",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Découvrez la célèbre Allée des Baobabs et les parcs nationaux en toute flexibilité. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici un véhicule tout-terrain de location.</a>"
+  },
+  {
+    "slug": "kap-verde",
+    "name": "Cap-Vert (îles du Cap-Vert)",
+    "visum_status": "Enregistrement EASE (pas de visa)",
+    "pass_monate": 6,
+    "visum_text": "Pour des séjours allant jusqu’à 30 jours, les Allemands n’ont pas besoin de visa. Toutefois, ils doivent s’enregistrer en ligne via la plateforme officielle EASE au plus tard 5 jours avant le départ et payer la taxe de sécurité aéroportuaire (TSA).",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Sur les grandes îles comme Sal ou Santiago, une voiture de location offre une belle indépendance. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vérifiez ici les voitures de location.</a>"
+  },
+  {
+    "slug": "georgien",
+    "name": "Géorgie",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 1 an)",
+    "pass_monate": 0,
+    "visum_text": "La Géorgie possède l’une des réglementations d’entrée les plus généreuses au monde : les ressortissants allemands peuvent séjourner dans le pays sans visa pendant une année entière avec leur passeport (ou même leur carte d’identité).",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Les routes de montagne du Caucase vous appellent ! <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici votre voiture de location pour des circuits inoubliables en Géorgie.</a>"
+  },
+  {
+    "slug": "kambodscha",
+    "name": "Cambodge",
+    "visum_status": "e-Visa ou Visa on Arrival",
+    "pass_monate": 6,
+    "visum_text": "Le visa est obligatoire. Les touristes peuvent soit demander à l’avance l’e-Visa électronique (recommandé), soit obtenir un Visa on Arrival à l’aéroport/aux postes-frontières. Des photos d’identité et des dollars américains en espèces sont nécessaires.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Profitez de plus de confort et de flexibilité en dehors des grands axes. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici les voitures de location au Cambodge.</a>"
+  },
+  {
+    "slug": "laos",
+    "name": "Laos",
+    "visum_status": "e-Visa ou Visa on Arrival",
+    "pass_monate": 6,
+    "visum_text": "L’entrée n’est possible qu’avec un visa. Vous pouvez demander le visa en ligne sous forme d’e-Visa ou l’obtenir sur place en tant que Visa on Arrival. Pour le visa à l’arrivée, vous aurez besoin de photos d’identité et de dollars américains.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Découvrez la beauté paysagère pittoresque du Laos à votre propre rythme. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vérifiez ici les prix des voitures de location.</a>"
+  },
+  {
+    "slug": "taiwan",
+    "name": "Taïwan",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 90 jours)",
+    "pass_monate": 6,
+    "visum_text": "Les ressortissants allemands peuvent entrer à Taïwan sans visa pour des séjours touristiques allant jusqu’à 90 jours. Un billet de retour ou de continuation confirmé doit être présenté sur demande.",
+    "affiliate_hinweis": "💡 <strong>Conseil road trip :</strong> Un circuit passionnant autour de toute l’île de Taïwan est un véritable moment fort des vacances. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trouvez ici votre voiture de location à Taïwan.</a>"
+  },
+  {
+    "slug": "nepal",
+    "name": "Népal",
+    "visum_status": "Visa on Arrival (enregistrement en ligne)",
+    "pass_monate": 6,
+    "visum_text": "Les touristes ont besoin d’un visa, facilement délivré sous forme de Visa on Arrival à l’aéroport de Katmandou. Pour gagner du temps, le formulaire de demande obligatoire doit déjà être rempli électroniquement avant le départ.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Si vous ne faites pas que de la randonnée, une voiture de location offre une belle flexibilité pour les excursions dans la vallée de Katmandou. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez les prix ici.</a>"
+  },
+  {
+    "slug": "usbekistan",
+    "name": "Ouzbékistan",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 30 jours)",
+    "pass_monate": 6,
+    "visum_text": "Pour des séjours touristiques allant jusqu’à 30 jours, les ressortissants allemands n’ont plus besoin de visa. Important : dans les 3 jours suivant l’arrivée, il faut s’enregistrer (généralement pris en charge par l’hôtel).",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Sur les traces fascinantes de la Route de la soie, vous êtes au maximum de votre flexibilité avec une voiture de location. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici une voiture de location pour l’Ouzbékistan.</a>"
+  },
+  {
+    "slug": "fidschi",
+    "name": "Fidji",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 4 mois)",
+    "pass_monate": 6,
+    "visum_text": "Les Allemands reçoivent à l’arrivée une autorisation de visite gratuite (Visitor Permit) tamponnée dans le passeport pour une durée allant jusqu’à 4 mois. Un billet de retour ou de continuation ainsi qu’une preuve de ressources suffisantes sont obligatoires.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Explorez confortablement la magnifique île principale de Viti Levu avec votre propre voiture. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez ici une voiture de location pour les Fidji.</a>"
+  },
+  {
+    "slug": "armenien",
+    "name": "Arménie",
+    "visum_status": "Pas de visa nécessaire (jusqu’à 180 jours)",
+    "pass_monate": 5,
+    "visum_text": "Les Allemands peuvent entrer en Arménie sans visa pour un séjour allant jusqu’à 180 jours par année civile. Le passeport doit encore être valable au moins 5 mois à l’entrée.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Découvrez facilement les impressionnants monastères et paysages montagneux de l’Arménie en voiture. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Réservez votre voiture de location ici.</a>"
+  },
+  {
+    "slug": "anderes-land-allgemein",
+    "name": "Autre pays de voyage (dispositions générales)",
+    "visum_status": "Veuillez vérifier les dispositions individuellement",
+    "pass_monate": 6,
+    "visum_text": "Nous ne disposons actuellement d’aucune donnée spécifique pour cette destination. Veuillez vérifier les conditions d’entrée sur le site du ministère allemand des Affaires étrangères. En règle générale, dans le monde entier : votre passeport devrait encore être valable au moins 6 mois.",
+    "affiliate_hinweis": "💡 <strong>Conseil location de voiture :</strong> Quelle que soit votre destination, une voiture de location offre partout dans le monde une liberté ultime. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Comparez ici facilement des offres de location de voitures dans le monde entier.</a>"
+  }
+]

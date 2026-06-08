@@ -4,487 +4,548 @@
     "name": "USA",
     "visum_status": "ESTA vereist",
     "pass_monate": 6,
-    "visum_text": "Voor toeristische reizen naar de VS hebben Duitse staatsburgers verplicht een elektronische reistoestemming (ESTA) nodig. Deze moet verplicht vóór vertrek online worden aangevraagd. Een regulier visum is alleen nodig als u langer dan 90 dagen blijft of aan bepaalde criteria niet voldoet.",
-    "affiliate_hinweis": "💡 <strong>Roadtrip-klassieker:</strong> De VS ontdek je het best flexibel met je eigen auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Zorg hier vooraf voor een voordelige huurauto.</a>"
+    "visum_text": "Voor toeristische reizen naar de Verenigde Staten hebben Belgische staatsburgers geen regulier visum nodig, maar wel een verplichte elektronische reistoestemming via het Visa Waiver Program (ESTA). De ESTA moet vóór vertrek online worden aangevraagd en goedgekeurd. Met een geldige ESTA kunt u doorgaans maximaal 90 dagen in de VS verblijven voor toerisme, familiebezoek of een korte zakenreis. Een visum is alleen nodig als u langer wilt blijven, wilt werken of niet aan de voorwaarden van het Visa Waiver Program voldoet. Let op: uw paspoort moet geldig zijn voor de duur van uw verblijf en in sommige gevallen kunnen aanvullende reis- of inreiscontroles gelden.",
+    "affiliate_hinweis": "<strong>Tip voor uw reis naar de VS:</strong> vergelijkt u vóór vertrek creditcards op voordelen zoals wereldwijd gratis betalen, lage of geen kosten voor geldopname in het buitenland en extra reisverzekeringen. Zo bespaart u gemakkelijk op uitgaven tijdens uw verblijf in de Verenigde Staten. Bekijk hier de mogelijkheden: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcard-vergelijking voor reizigers</a>.",
+    "is_optimized": true
   },
   {
     "slug": "aegypten",
     "name": "Egypte",
     "visum_status": "Visum vereist (e-Visa of bij aankomst)",
     "pass_monate": 6,
-    "visum_text": "Duitse staatsburgers hebben voor de reis naar Egypte een visum nodig. Dit kan vooraf online als e-Visa worden aangevraagd. Als alternatief is er het 'Visa on Arrival' direct op de luchthaven (vaak met lange wachtrijen).",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ontdek Egypte buiten de resorts flexibel op eigen houtje. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier voordelige huurauto's.</a>"
+    "visum_text": "Belgische staatsburgers hebben voor toeristische reizen naar Egypte een visum nodig. Dit visum kan vooraf worden aangevraagd als e-Visa of bij aankomst op de luchthaven als Visa on Arrival. Beide opties zijn voor Belgische reizigers doorgaans mogelijk, net als voor Duitse staatsburgers. Het e-Visa is vaak de handigste keuze als je wachtrijen wilt vermijden en je reis goed wilt voorbereiden. Het Visa on Arrival is een alternatief, maar kan op drukke luchthavens leiden tot langere wachttijden. Controleer altijd vóór vertrek de actuele inreisregels, omdat voorwaarden en kosten kunnen wijzigen.",
+    "affiliate_hinweis": "<strong>Tip voor Egypte-reizigers:</strong> wil je tijdens je reis slim besparen op kosten? Vergelijk dan vooraf creditcards die ideaal zijn voor gebruik in het buitenland, bijvoorbeeld met lage of geen kosten voor geld opnemen en wereldwijd gratis betalen. Zo houd je meer budget over voor je verblijf, excursies en uitgaven ter plaatse. Bekijk nu de mogelijkheden via <a href='https://www.tarifcheck.com/YKQ2R5K'>deze creditcardvergelijking</a>.",
+    "is_optimized": true
   },
   {
     "slug": "tuerkei",
     "name": "Turkije",
-    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "visum_status": "Geen visum nodig voor Belgische staatsburgers (tot 90 dagen)",
     "pass_monate": 0,
-    "visum_text": "Voor toeristische verblijven van maximaal 90 dagen (binnen een periode van 180 dagen) hebben Duitse staatsburgers geen visum nodig. Inreis is zelfs mogelijk met de identiteitskaart.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Voor uitstapjes langs de kust of het binnenland is een eigen auto de moeite waard. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Zorg hier tijdig voor uw huurauto voor Turkije.</a>"
+    "visum_text": "Voor Belgische staatsburgers die Turkije als toerist bezoeken, is doorgaans geen visum nodig voor een verblijf van maximaal 90 dagen binnen een periode van 180 dagen. Reizen met een geldig paspoort is vereist; de identiteitskaart wordt voor Belgische reizigers in de regel niet geaccepteerd voor inreis naar Turkije. Controleer vóór vertrek altijd of je paspoort nog voldoende geldig is en of je reisdoel uitsluitend toeristisch is. Voor langere verblijven, werk, studie of andere reisdoelen gelden andere regels en kan een visum wel verplicht zijn.",
+    "affiliate_hinweis": "<strong>Tip voor je reis naar Turkije:</strong> wil je slim besparen op je vakantie-uitgaven? Vergelijk dan vooraf creditcards die ideaal zijn voor reizen, met voordelen zoals <strong>wereldwijd gratis betalen</strong> en <strong>lage of geen kosten bij geld opnemen in het buitenland</strong>. Zo houd je meer budget over voor je trip. Bekijk de vergelijking hier: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken voor reizen</a>.",
+    "is_optimized": true
   },
   {
     "slug": "uk",
     "name": "Groot-Brittannië",
     "visum_status": "ETA vereist",
     "pass_monate": 0,
-    "visum_text": "Voor toeristische verblijven tot 6 maanden hebben Duitsers geen klassiek visum nodig, maar de elektronische reistoestemming (ETA) is verplicht. Een geldig paspoort is absoluut vereist; de identiteitskaart is niet langer voldoende.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ideaal voor de Highlands of Cornwall – denk aan links rijden! <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier huurautoprijzen voor Groot-Brittannië.</a>"
+    "visum_text": "Voor Belgische staatsburgers die als toerist naar Groot-Brittannië reizen, is geen klassiek visum nodig voor een verblijf tot 6 maanden. Wel is een geldige elektronische reistoestemming (ETA) verplicht. Daarnaast moet je beschikken over een geldig paspoort; een Belgische identiteitskaart is niet voldoende voor de inreis. Controleer vóór vertrek altijd of je ETA is goedgekeurd en of je reisdocument nog geldig is gedurende je verblijf.",
+    "affiliate_hinweis": "<strong>Tip voor je reis naar Groot-Brittannië:</strong> vergelijk vooraf een creditcard die ideaal is voor buitenlandse reizen. Zo kun je vaak <strong>gratis wereldwijd betalen</strong> en <strong>goedkoper geld opnemen in het buitenland</strong>, zonder onnodige extra kosten. Bekijk hier de mogelijkheden: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcard vergelijken voor reizen</a>.",
+    "is_optimized": true
   },
   {
     "slug": "thailand",
     "name": "Thailand",
-    "visum_status": "Geen visum nodig (tot 60 dagen)",
+    "visum_status": "Geen visum nodig voor toeristisch verblijf tot 60 dagen",
     "pass_monate": 6,
-    "visum_text": "Voor toeristische verblijven tot 60 dagen kunnen Duitse staatsburgers visumvrij binnenkomen. Het paspoort moet bij binnenkomst nog minimaal 6 maanden geldig zijn. Een doorreis- of retourticket moet eventueel worden getoond.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Voor maximale flexibiliteit buiten de typische toeristische routes. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vind hier betrouwbare huurauto's in Thailand.</a>"
+    "visum_text": "Belgische staatsburgers kunnen Thailand als toerist visumvrij binnenkomen voor een verblijf tot 60 dagen. Het paspoort moet bij aankomst nog minimaal 6 maanden geldig zijn. Daarnaast kan de Thaise grensautoriteit vragen om een bewijs van doorreis of een retourticket en voldoende financiële middelen voor het verblijf. De regels voor Belgische reizigers zijn in de praktijk gelijk aan die voor Duitse staatsburgers: voor toeristische reizen is doorgaans geen visum vooraf nodig, zolang aan de toegangsvoorwaarden wordt voldaan.",
+    "affiliate_hinweis": "<strong>Tip voor Thailand-reizen:</strong> vergelijk vooraf een creditcard die past bij jouw reisplannen. Zo kun je vaak besparen op kosten bij geld opnemen in het buitenland en wereldwijd voordelig of zelfs gratis betalen. Bekijk hier een handige vergelijking: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken voor Thailand</a>.",
+    "is_optimized": true
   },
   {
     "slug": "australien",
     "name": "Australië",
-    "visum_status": "eVisitor-visum vereist",
+    "visum_status": "Visum vereist voor Belgische staatsburgers",
     "pass_monate": 6,
-    "visum_text": "Duitsers hebben voor de reis naar Australië verplicht een visum nodig. Voor toeristen is het eVisitor-visum (Subclass 651) ideaal; dit wordt gratis online aangevraagd en staat verblijven tot 3 maanden toe.",
-    "affiliate_hinweis": "💡 <strong>Roadtrip-tip:</strong> Australië ontdek je het best flexibel met je eigen auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier huurautoprijzen voor Australië.</a>"
+    "visum_text": "Belgische staatsburgers die als toerist naar Australië reizen, hebben vooraf een visum nodig. In tegenstelling tot sommige andere nationaliteiten is er voor Belgen geen visumvrijstelling en ook geen Visa on Arrival voor toeristische reizen. Voor een kort verblijf is het eVisitor-visum (subclass 651) de meest gebruikelijke en praktische optie: dit kan online worden aangevraagd, is kosteloos en staat toeristische verblijven van maximaal 3 maanden per bezoek toe binnen de geldigheidsperiode. Zorg ervoor dat je paspoort geldig is voor de volledige reis en dat je aanvraag vóór vertrek is goedgekeurd. Controleer altijd de actuele voorwaarden, omdat inreisregels kunnen wijzigen.",
+    "affiliate_hinweis": "<strong>Tip voor Australië-reizen:</strong> wil je tijdens je trip slim besparen op kosten? Vergelijk dan een creditcard die geschikt is voor reizen, met voordelen zoals wereldwijd gratis betalen, lage of geen kosten voor geldopnames in het buitenland en een gunstige wisselkoers. Bekijk hier de mogelijkheden: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcard vergelijken voor Australië</a>.",
+    "is_optimized": true
   },
   {
     "slug": "kanada",
     "name": "Canada",
     "visum_status": "eTA vereist",
     "pass_monate": 6,
-    "visum_text": "Wie per vliegtuig naar Canada reist, heeft geen visum nodig, maar wel verplicht een elektronische reistoestemming (eTA). Bij binnenkomst over land (bijv. vanuit de VS) is geen eTA vereist.",
-    "affiliate_hinweis": "⚠️ <strong>Huurautotip:</strong> Boek uw huurauto voor Canada beslist nog in Duitsland, zodat u volledige verzekeringsdekking heeft. <a href='https://www.c24n.de/nsnjZZ8' style='color:#d32f2f;'>Vergelijk hier huurautoprijzen.</a>"
+    "visum_text": "Belgische staatsburgers die als toerist naar Canada reizen, hebben geen visum nodig voor een verblijf van maximaal 6 maanden, maar moeten wel vóór vertrek een elektronische reistoestemming (eTA) aanvragen wanneer zij per vliegtuig aankomen. Reizen over land of over zee, bijvoorbeeld vanuit de Verenigde Staten, vereist voor Belgische reizigers als toerist doorgaans geen eTA. Let op: de eTA is gekoppeld aan je paspoort en is verplicht voor de meeste luchtvaartreizen naar Canada.",
+    "affiliate_hinweis": "Wil je tijdens je reis naar Canada slim besparen op kosten? Vergelijk dan vooraf een <strong>creditcard voor op reis</strong> en kies een kaart waarmee je <strong>wereldwijd gratis kunt betalen</strong> en <strong>goedkoop of zelfs zonder extra kosten geld kunt opnemen</strong>. Zo voorkom je onnodige bankkosten in Canada en betaal je comfortabel in winkels, hotels en restaurants. Bekijk hier de mogelijkheden: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcard vergelijken</a>.",
+    "is_optimized": true
   },
   {
     "slug": "vae",
     "name": "Verenigde Arabische Emiraten (Dubai)",
-    "visum_status": "Gratis Visa on Arrival",
+    "visum_status": "Gratis visum bij aankomst",
     "pass_monate": 6,
-    "visum_text": "Duitsers krijgen bij binnenkomst in de VAE (bijv. naar Dubai of Abu Dhabi) gratis een 'Visa on Arrival' in het paspoort gestempeld. Dit geeft recht op een verblijf van maximaal 90 dagen binnen 180 dagen.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> De Emiraten hebben uitstekend aangelegde wegen. Een huurauto is hier vaak praktischer dan voortdurend taxi's nemen. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vind hier huurauto's voor Dubai & Co.</a>"
+    "visum_text": "Belgische staatsburgers die als toerist naar de Verenigde Arabische Emiraten reizen, hebben geen vooraf aangevraagd visum nodig. Bij aankomst in Dubai, Abu Dhabi of een andere luchthaven in de VAE krijgen zij doorgaans gratis een visum bij aankomst in het paspoort gestempeld. Dit toeristenvisum is meestal geldig voor een verblijf van maximaal 90 dagen binnen een periode van 180 dagen. In de praktijk gelden voor Belgische reizigers dus dezelfde gunstige inreisregels als voor Duitse staatsburgers. Let wel op dat uw paspoort nog minimaal 6 maanden geldig is bij aankomst en dat u een retour- of doorreisticket kunt tonen. Controleer voor vertrek altijd of de actuele inreisregels niet zijn gewijzigd.",
+    "affiliate_hinweis": "<strong>Tip voor uw reis naar de Verenigde Arabische Emiraten:</strong> met de juiste creditcard kunt u in Dubai en de rest van de VAE vaak flink besparen op kosten. Kies bij voorkeur een kaart waarmee u <strong>wereldwijd gratis kunt betalen</strong> en <strong>goedkoop of zelfs zonder extra kosten geld kunt opnemen</strong> in het buitenland. Vergelijk hier eenvoudig de beste opties voor reizigers: <a href='https://www.tarifcheck.com/YKQ2R5K'>naar de creditcardvergelijking</a>.",
+    "is_optimized": true
   },
   {
     "slug": "malediven",
     "name": "Maldiven",
-    "visum_status": "Gratis Visa on Arrival",
+    "visum_status": "Gratis visum bij aankomst voor Belgische staatsburgers",
     "pass_monate": 6,
-    "visum_text": "Voor de Maldiven is vooraf geen visum nodig. Een toeristenvisum voor 30 dagen wordt bij aankomst op de luchthaven gratis verstrekt. Belangrijk: een elektronische inreisverklaring (IMUGA) moet vóór vertrek online worden ingevuld.",
-    "affiliate_hinweis": "💡 <strong>Huurauto voor de reis naar de luchthaven:</strong> Heeft u nog een auto nodig voor de comfortabele rit naar de luchthaven in Duitsland? <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier voordelige huurauto's.</a>"
+    "visum_text": "Voor Belgische staatsburgers die als toerist naar de Malediven reizen, is vooraf geen visum nodig. Bij aankomst op de luchthaven wordt doorgaans gratis een toeristenvisum voor 30 dagen verstrekt. Wel moet je vóór vertrek de elektronische inreisverklaring via IMUGA online invullen. Zorg er daarnaast voor dat je paspoort nog minimaal 6 maanden geldig is bij aankomst, en dat je een retour- of doorreisticket en voldoende financiële middelen kunt aantonen. In de praktijk gelden voor Belgische reizigers dezelfde toeristische inreisregels als voor Duitse staatsburgers: visumvrij reizen vooraf, met een gratis visa on arrival bij aankomst.",
+    "affiliate_hinweis": "<strong>Tip voor je reis naar de Malediven:</strong> vergelijk vooraf een creditcard die past bij internationaal reizen. Zo kun je vaak <strong>kosten besparen op geld opnemen in het buitenland</strong> en <strong>wereldwijd gratis betalen</strong> zonder onnodige toeslagen. Bekijk hier de vergelijking: <a href='https://www.tarifcheck.com/YKQ2R5K'>naar de creditcardvergelijking</a>.",
+    "is_optimized": true
   },
   {
     "slug": "indonesien",
     "name": "Indonesië",
-    "visum_status": "Visa on Arrival / e-VoA vereist",
+    "visum_status": "Voor Belgische staatsburgers geldt: visum bij aankomst (Visa on Arrival) of e-VoA vereist.",
     "pass_monate": 6,
-    "visum_text": "Of u nu een rondreis plant of specifiek een visum voor Bali zoekt: voor Indonesië is een visum (Visa on Arrival) vereist. Dit kunt u bij aankomst kopen of om wachttijden te vermijden vooraf online als e-VoA aanvragen (30 dagen geldig).",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Bali en andere eilanden zijn uitstekend te verkennen met een eigen voertuig. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier prijzen voor Indonesië.</a>"
+    "visum_text": "Voor Belgische staatsburgers die als toerist naar Indonesië reizen, is een visum vereist. In de praktijk kunt u kiezen voor een Visa on Arrival (VoA) bij aankomst of voor een vooraf online aangevraagde e-VoA. Beide opties zijn doorgaans 30 dagen geldig en kunnen meestal één keer met 30 dagen worden verlengd. Reist u dus naar Indonesië voor een rondreis, strandvakantie of een verblijf op Bali, houd dan rekening met deze visumplicht. Controleer vóór vertrek altijd of uw paspoort nog minimaal 6 maanden geldig is en of u een retour- of doorreisticket kunt tonen. Voor Belgische reizigers gelden hierbij in de basis dezelfde toeristische regels als voor Duitse staatsburgers: geen visumvrijstelling, maar wel de mogelijkheid om een Visa on Arrival of e-VoA te gebruiken.",
+    "affiliate_hinweis": "<strong>Tip voor reizen naar Indonesië:</strong> bespaar op kosten tijdens uw vakantie met een creditcard die gunstig is voor gebruik in het buitenland. Vergelijk kaarten waarmee u <strong>wereldwijd gratis kunt betalen</strong> en <strong>goedkoop geld kunt opnemen</strong>, zodat u in Indonesië minder betaalt aan wisselkoersen en opnamekosten. Bekijk hier de vergelijking: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken</a>.",
+    "is_optimized": true
   },
   {
     "slug": "vietnam",
     "name": "Vietnam",
-    "visum_status": "Geen visum nodig (tot 45 dagen)",
+    "visum_status": "Visumvrij voor Belgische staatsburgers tot 45 dagen",
     "pass_monate": 6,
-    "visum_text": "Duitse staatsburgers kunnen tot 45 dagen visumvrij naar Vietnam reizen. Wie langer wil blijven (tot 90 dagen), moet vooraf een e-visum aanvragen.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ontdek Vietnam helemaal individueel en in uw eigen tempo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Zorg hier voor uw voertuig.</a>"
+    "visum_text": "Belgische staatsburgers die als toerist naar Vietnam reizen, kunnen momenteel visumvrij binnenkomen voor een verblijf van maximaal 45 dagen. Dit verschilt van de regels voor sommige andere nationaliteiten, maar voor België geldt dus geen visumplicht bij een kort toeristisch verblijf. Wil je langer in Vietnam blijven dan 45 dagen, of reis je voor een ander doel dan toerisme, dan moet je vooraf een passend visum aanvragen, bijvoorbeeld een e-visum. Controleer voor vertrek altijd de actuele inreisregels, omdat deze kunnen wijzigen.",
+    "affiliate_hinweis": "<strong>Tip voor Vietnam-reizen:</strong> wil je tijdens je reis in Vietnam slim besparen op kosten? Vergelijk dan creditcards die gunstig zijn voor reizen in het buitenland, met voordelen zoals wereldwijd gratis betalen en lage of geen kosten bij geld opnemen. Zo houd je meer over voor je trip. Bekijk hier de mogelijkheden: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcard vergelijken</a>.",
+    "is_optimized": true
   },
   {
     "slug": "sri-lanka",
     "name": "Sri Lanka",
     "visum_status": "e-Visa / ETA vereist",
     "pass_monate": 6,
-    "visum_text": "Voor Sri Lanka geldt een visumplicht. Het e-visum (ETA) moet verplicht vóór de reis online worden aangevraagd. Het geeft recht op een verblijf van maximaal 30 dagen.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ervaar de theeplantages en stranden van Sri Lanka flexibel met uw eigen auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vind hier de passende huurauto.</a>"
+    "visum_text": "Voor Belgische staatsburgers die als toerist naar Sri Lanka reizen, geldt een visumplicht. Net als voor Duitse reizigers moet de Electronic Travel Authorization (ETA) vóór vertrek online worden aangevraagd. Een visum bij aankomst is in de regel niet de standaardoptie voor toeristische reizen. De ETA geeft doorgaans recht op een verblijf van maximaal 30 dagen en kan onder voorwaarden worden verlengd. Controleer vóór vertrek altijd de actuele inreisregels, omdat vereisten en procedures kunnen wijzigen.",
+    "affiliate_hinweis": "<strong>Tip voor Sri Lanka-reizigers:</strong> vergelijk vóór vertrek een creditcard die past bij jouw reisplannen. Zo kun je vaak besparen op kosten voor geld opnemen in het buitenland en wereldwijd voordelig of zelfs gratis betalen. Bekijk hier een handige vergelijking: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken voor reizen</a>.",
+    "is_optimized": true
   },
   {
     "slug": "suedafrika",
     "name": "Zuid-Afrika",
-    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "visum_status": "Geen visum nodig voor Belgische toeristen (tot 90 dagen)",
     "pass_monate": 1,
-    "visum_text": "Duitsers hebben voor toeristische verblijven van maximaal 90 dagen geen visum nodig. Bij binnenkomst ontvangt u aan de grens een bezoekersvergunning (Visitor's Visa). Het paspoort moet machinaal leesbaar zijn en minstens twee lege pagina's hebben.",
-    "affiliate_hinweis": "💡 <strong>Huurauto voor Zuid-Afrika:</strong> Voor de Garden Route of nationale parken is een eigen huurauto de beste keuze. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier voordelige huurauto's met volledige dekking.</a>"
+    "visum_text": "Belgische staatsburgers die Zuid-Afrika als toerist bezoeken, hebben voor een verblijf van maximaal 90 dagen doorgaans geen visum nodig. Bij aankomst ontvangt u aan de grens een bezoekersvergunning (visitor’s permit). Uw paspoort moet bij binnenkomst nog minimaal 30 dagen geldig zijn na het geplande vertrek uit Zuid-Afrika en minstens twee lege pagina’s bevatten voor in- en uitreisstempels. Houd er rekening mee dat de grensautoriteiten kunnen vragen naar een retour- of doorreisticket, voldoende financiële middelen en een bewijs van accommodatie. Reist u voor een ander doel dan toerisme of wilt u langer dan 90 dagen blijven, dan gelden andere regels en kan vooraf een visum vereist zijn. Controleer voor vertrek altijd de meest recente informatie, omdat inreisvoorwaarden kunnen wijzigen.",
+    "affiliate_hinweis": "<strong>Tip voor Zuid-Afrika-reizigers:</strong> bespaar op kosten tijdens uw reis met een slimme creditcardvergelijking. Kies een kaart waarmee u <strong>wereldwijd gratis kunt betalen</strong> en <strong>goedkoop geld kunt opnemen in het buitenland</strong>, zodat u onnodige bank- en wisselkosten vermijdt. Vergelijk hier de beste opties: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken</a>.",
+    "is_optimized": true
   },
   {
     "slug": "japan",
     "name": "Japan",
-    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "visum_status": "Geen visum nodig voor Belgische staatsburgers (tot 90 dagen)",
     "pass_monate": 0,
-    "visum_text": "Duitsers kunnen als 'Temporary Visitor' tot 90 dagen visumvrij naar Japan reizen. Het paspoort hoeft alleen geldig te zijn voor de duur van het verblijf. Een voorafgaande webregistratie (Visit Japan Web) versnelt de inreis.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Voor het verkennen van landelijke regio's in Japan is een huurauto een perfecte aanvulling. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier huurauto's in Japan.</a>"
+    "visum_text": "Belgische staatsburgers kunnen voor toeristische reizen naar Japan visumvrij binnenkomen als 'Temporary Visitor' voor een verblijf van maximaal 90 dagen. Voor België gelden in de praktijk dezelfde toeristische inreisregels als voor Duitse staatsburgers: geen visum vooraf, geen visa on arrival en dus ook geen speciale visumaanvraag voor korte vakanties. Je paspoort moet geldig zijn tijdens het volledige verblijf; een ruimere geldigheidsduur wordt aanbevolen. Daarnaast kan een voorafgaande registratie via Visit Japan Web de grenscontrole en douaneafhandeling versnellen. Controleer vóór vertrek altijd of je reisdoel echt toeristisch is en of je verblijf binnen de toegestane 90 dagen blijft.",
+    "affiliate_hinweis": "Tip voor Japan-reizen: vergelijk vooraf een <strong>creditcard met lage of geen buitenlandse kosten</strong>, zodat je in Japan slim kunt betalen en geld kunt opnemen zonder onnodige extra kosten. Denk aan kaarten die <strong>wereldwijd gratis betalen</strong> of gunstige voorwaarden bieden voor <strong>contant geld opnemen in het buitenland</strong>. Bekijk hier een handige vergelijking: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken voor reizen naar Japan</a>.",
+    "is_optimized": true
   },
   {
     "slug": "dominikanische-republik",
     "name": "Dominicaanse Republiek",
     "visum_status": "E-Ticket vereist (geen visum)",
     "pass_monate": 6,
-    "visum_text": "Voor een toeristisch verblijf tot 30 dagen hebben Duitsers geen visum nodig. Wel moet verplicht een gratis elektronisch formulier (E-Ticket) voor in- en uitreis online worden ingevuld.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ontdek droomstranden en het binnenland van het eiland op eigen houtje. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Boek hier uw huurauto voor de DomRep.</a>"
+    "visum_text": "Voor Belgische staatsburgers die als toerist naar de Dominicaanse Republiek reizen, is in de regel geen visum nodig voor een verblijf tot 30 dagen. Wel is het verplicht om vóór vertrek het gratis elektronische in- en uitreisformulier (E-Ticket) online in te vullen. Dit formulier combineert de immigratie- en douanegegevens en moet zowel bij aankomst als bij vertrek beschikbaar zijn. Controleer daarnaast altijd of uw paspoort nog voldoende lang geldig is volgens de actuele inreisregels, en houd rekening met eventuele wijzigingen in de voorwaarden voor toeristische reizen.",
+    "affiliate_hinweis": "<strong>Tip voor uw reis naar de Dominicaanse Republiek:</strong> met de juiste creditcard kunt u vaak flink besparen op kosten in het buitenland. Vergelijk kaarten die wereldwijd gratis betalen en voordelig geld opnemen mogelijk maken, zodat u minder betaalt aan wisselkoersen en opnamekosten. Bekijk hier de mogelijkheden: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcard vergelijken voor reizen</a>.",
+    "is_optimized": true
   },
   {
     "slug": "mexiko",
     "name": "Mexico",
-    "visum_status": "Geen visum nodig (tot 180 dagen)",
+    "visum_status": "Geen visum nodig voor Belgische toeristen (tot 180 dagen)",
     "pass_monate": 6,
-    "visum_text": "Inreis voor Duitse toeristen is mogelijk zonder visum. Bij aankomst kan een verblijf van maximaal 180 dagen worden toegekend. Soms wordt op de luchthaven een toeristenkaart (FMM) ingevuld, vaak gebeurt dit inmiddels digitaal.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ideaal voor de rit naar cenotes en Maya-ruïnes op Yucatán. Het beste is om al vanuit Duitsland te boeken. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vind hier huurauto's voor Mexico.</a>"
+    "visum_text": "Belgische staatsburgers kunnen als toerist zonder visum naar Mexico reizen. Bij aankomst kan doorgaans een verblijf tot maximaal 180 dagen worden toegestaan, afhankelijk van de beoordeling door de immigratieautoriteiten. Voor veel reizigers wordt de toeristenkaart (FMM) tegenwoordig digitaal verwerkt of bij aankomst verstrekt. Zorg ervoor dat je paspoort geldig is voor de volledige duur van je verblijf en dat je een retour- of doorreisticket kunt tonen. De regels voor Belgische en Duitse staatsburgers zijn in de praktijk grotendeels gelijk: voor toeristische reizen is meestal geen visum vereist, maar de uiteindelijke toegestane verblijfsduur wordt altijd door de Mexicaanse grensautoriteiten bepaald.",
+    "affiliate_hinweis": "<strong>Tip voor je reis naar Mexico:</strong> vergelijk vooraf een creditcard die past bij reizen buiten Europa. Zo kun je vaak <strong>kosten besparen bij geld opnemen in het buitenland</strong> en <strong>wereldwijd voordelig of zelfs gratis betalen</strong>. Een goede reiscreditcard kan bovendien extra zekerheid bieden tijdens je vakantie. Bekijk hier de vergelijking: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken voor Mexico</a>.",
+    "is_optimized": true
   },
   {
     "slug": "kuba",
     "name": "Cuba",
     "visum_status": "Toeristenkaart vereist",
     "pass_monate": 6,
-    "visum_text": "Voor Cuba heeft u in plaats van een klassiek visum een toeristenkaart (Tarjeta del Turista) nodig, geldig voor 90 dagen. Bovendien is het bewijs van een geldige reisverzekering voor het buitenland (in het Spaans of Engels) verplicht voorgeschreven.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Een roadtrip over het eiland maakt een vakantie in Cuba pas echt onvergetelijk. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Controleer hier de beschikbaarheid van huurauto's.</a>"
+    "visum_text": "Voor Belgische staatsburgers die als toerist naar Cuba reizen, is geen klassiek visum nodig, maar wel een toeristenkaart (Tarjeta del Turista). Deze toeristenkaart is doorgaans geldig voor een verblijf van maximaal 90 dagen. Daarnaast is een geldige reisverzekering voor het buitenland verplicht; het bewijs daarvan moet bij voorkeur in het Spaans of Engels kunnen worden getoond. Controleer vóór vertrek altijd of uw paspoort nog voldoende lang geldig is en of uw reisdocumenten volledig in orde zijn, zodat u zonder problemen Cuba kunt binnenreizen.",
+    "affiliate_hinweis": "Reist u naar Cuba en wilt u slim besparen op kosten in het buitenland? Vergelijk dan <strong>creditcards voor reizen</strong> en kies een kaart waarmee u <strong>wereldwijd voordelig of gratis kunt betalen</strong> en <strong>kosten bij geld opnemen in het buitenland</strong> zoveel mogelijk vermijdt. Een goede reiscreditcard kan u op vakantie in Cuba flink wat extra gemak en besparing opleveren. Bekijk de mogelijkheden hier: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcard vergelijken voor uw reis</a>.",
+    "is_optimized": true
   },
   {
     "slug": "brasilien",
     "name": "Brazilië",
-    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "visum_status": "Geen visum nodig voor Belgische toeristen (tot 90 dagen)",
     "pass_monate": 6,
-    "visum_text": "Duitse toeristen kunnen maximaal 90 dagen per halfjaar visumvrij naar Brazilië reizen. Bij binnenkomst moet een retour- of doorreisticket en een bewijs van voldoende financiële middelen kunnen worden getoond.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Brazilië is enorm – een eigen huurauto zorgt voor de nodige flexibiliteit ter plaatse. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Zorg hier tijdig voor uw auto.</a>"
+    "visum_text": "Belgische staatsburgers kunnen voor toeristische reizen zonder visum naar Brazilië reizen voor een verblijf van maximaal 90 dagen. In veel gevallen kan deze periode worden verlengd, afhankelijk van de beslissing van de Braziliaanse immigratiedienst, maar de totale verblijfsduur mag doorgaans niet onbeperkt worden overschreden. Bij aankomst kunnen reizigers worden gevraagd om een geldig paspoort, een retour- of doorreisticket en een bewijs van voldoende financiële middelen te tonen. Voor Belgische toeristen gelden in de praktijk dezelfde visumvrije regels als voor Duitse staatsburgers.",
+    "affiliate_hinweis": "<strong>Tip voor je reis naar Brazilië:</strong> vergelijk vooraf creditcards die ideaal zijn voor internationale reizen. Zo kun je vaak besparen op kosten bij geld opnemen in het buitenland en wereldwijd gratis of voordelig betalen. Bekijk hier een handige vergelijking: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken voor reizen naar Brazilië</a>.",
+    "is_optimized": true
   },
   {
     "slug": "costa-rica",
     "name": "Costa Rica",
-    "visum_status": "Geen visum nodig (tot 180 dagen)",
+    "visum_status": "Geen visum nodig (tot 90 dagen)",
     "pass_monate": 6,
-    "visum_text": "Geen visumplicht voor Duitsers. Bij binnenkomst kan een verblijf van maximaal 180 dagen worden toegekend. Verplicht is een ticket voor de retour- of doorreisvlucht (bus- of vliegticket).",
-    "affiliate_hinweis": "💡 <strong>Huurauto in Costa Rica:</strong> Voor de nationale parken en onverharde wegen wordt vaak een 4x4-voertuig aanbevolen. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier huurauto's voor Costa Rica.</a>"
+    "visum_text": "Voor Belgische staatsburgers die als toerist naar Costa Rica reizen, is doorgaans geen visum vooraf nodig. Bij aankomst kan een verblijf van maximaal 90 dagen worden toegestaan. Let op: uw paspoort moet bij binnenkomst nog minimaal 6 maanden geldig zijn. Daarnaast kan de immigratiedienst vragen om een bewijs van een retour- of doorreisticket en voldoende financiële middelen voor het verblijf. Controleer vóór vertrek altijd de actuele inreisvoorwaarden, omdat regels en verblijfsduur per nationaliteit en situatie kunnen wijzigen.",
+    "affiliate_hinweis": "<strong>Tip voor Costa Rica:</strong> betaal slim en bespaar op reis! Vergelijk vooraf een creditcard die geschikt is voor gebruik in het buitenland, zodat u <strong>kosten voor geld opnemen</strong> kunt beperken en <strong>wereldwijd voordelig of gratis kunt betalen</strong>. Bekijk hier de mogelijkheden: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcard vergelijken voor uw reis naar Costa Rica</a>.",
+    "is_optimized": true
   },
   {
     "slug": "neuseeland",
     "name": "Nieuw-Zeeland",
     "visum_status": "NZeTA vereist",
     "pass_monate": 3,
-    "visum_text": "Duitsers hebben voor verblijven tot 3 maanden geen visum nodig, maar wel verplicht de elektronische reistoestemming (NZeTA). Samen met de NZeTA wordt automatisch een toeristenheffing (IVL) geïnd.",
-    "affiliate_hinweis": "💡 <strong>Roadtrip-paradijs:</strong> Ontdek Nieuw-Zeeland het best met uw eigen voertuig. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Boek hier een huurauto in Nieuw-Zeeland.</a>"
+    "visum_text": "Belgische staatsburgers hebben voor een toeristisch verblijf in Nieuw-Zeeland tot 3 maanden geen traditioneel visum nodig, maar wel een verplichte elektronische reistoestemming: de NZeTA. Daarnaast wordt bij de aanvraag automatisch de toeristenheffing (IVL) geïnd. Voor Belgische reizigers gelden hiermee in de praktijk dezelfde inreisregels als voor Duitse staatsburgers: visumvrij reizen is mogelijk voor korte toeristische verblijven, maar alleen met een geldige NZeTA en een paspoort dat nog geldig is bij aankomst. Controleer vóór vertrek altijd of je reisdocumenten en de NZeTA-aanvraag volledig in orde zijn, zodat je zonder problemen kunt inreizen.",
+    "affiliate_hinweis": "<strong>Tip voor je reis naar Nieuw-Zeeland:</strong> vergelijk vooraf een creditcard die ideaal is voor verre reizen. Zo kun je vaak <strong>kosten besparen bij geld opnemen in het buitenland</strong> en <strong>wereldwijd gratis betalen</strong> zonder onnodige toeslagen. Bekijk hier de vergelijking: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcard vergelijken voor Nieuw-Zeeland</a>.",
+    "is_optimized": true
   },
   {
     "slug": "philippinen",
     "name": "Filipijnen",
-    "visum_status": "Geen visum nodig (tot 30 dagen)",
+    "visum_status": "Visumvrij voor Belgische staatsburgers (tot 30 dagen)",
     "pass_monate": 6,
-    "visum_text": "Voor een verblijf van maximaal 30 dagen hebben Duitse staatsburgers geen visum nodig. Verplicht zijn een geldig retour- of doorreisticket en de elektronische registratie (eTravel) vóór vertrek.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Op de grotere eilanden is een huurauto handig voor onafhankelijke uitstapjes. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier voordelige aanbiedingen.</a>"
+    "visum_text": "Belgische staatsburgers die als toerist naar de Filipijnen reizen, hebben voor een verblijf van maximaal 30 dagen doorgaans geen visum nodig. Wel gelden enkele belangrijke inreisvoorwaarden: je paspoort moet bij aankomst nog minstens 6 maanden geldig zijn, je moet een geldig retour- of doorreisticket kunnen tonen en je dient vóór vertrek de elektronische registratie eTravel in te vullen. Voor een langer verblijf of andere reisdoeleinden kunnen andere regels gelden. Controleer daarom altijd de actuele inreisvoorwaarden vóór vertrek, zodat je zorgeloos naar de Filipijnen reist.",
+    "affiliate_hinweis": "<strong>Tip voor reizen naar de Filipijnen:</strong> wil je slim besparen op je reisuitgaven? Vergelijk dan vooraf creditcards die ideaal zijn voor buitenlandse reizen, met voordelen zoals wereldwijd gratis betalen, lage of geen kosten voor geld opnemen en extra reisverzekeringen. Zo voorkom je onnodige bankkosten tijdens je verblijf. Bekijk hier de beste opties: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcard vergelijken voor reizen</a>.",
+    "is_optimized": true
   },
   {
     "slug": "malaysia",
     "name": "Maleisië",
-    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "visum_status": "Geen visum nodig voor Belgische staatsburgers (tot 90 dagen)",
     "pass_monate": 6,
-    "visum_text": "Visumvrije inreis voor Duitsers tot 90 dagen. Let op: sinds 2024 is het invullen van de digitale aankomstkaart (MDAC - Malaysia Digital Arrival Card) binnen 3 dagen vóór aankomst verplicht.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Het wegennet in Maleisië is uitstekend ontwikkeld – perfect voor een roadtrip. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Boek hier een huurauto.</a>"
+    "visum_text": "Belgische staatsburgers die als toerist naar Maleisië reizen, hebben in de regel geen visum nodig voor een verblijf tot 90 dagen. Dit verschilt niet wezenlijk van de regels voor Duitse staatsburgers: ook voor Belgen geldt doorgaans visumvrije inreis voor korte toeristische verblijven. Wel is sinds 2024 het invullen van de Malaysia Digital Arrival Card (MDAC) verplicht binnen 3 dagen vóór aankomst. Zorg daarnaast voor een paspoort dat nog minimaal 6 maanden geldig is bij binnenkomst, een bewijs van doorreis of terugreis en voldoende financiële middelen voor het verblijf. Controleer vóór vertrek altijd de actuele inreisvoorwaarden, omdat regels kunnen wijzigen.",
+    "affiliate_hinweis": "<strong>Reistip voor Maleisië:</strong> kies een creditcard die je helpt besparen op <strong>buitenlandse betaal- en opnamekosten</strong>. Zo betaal je vaak wereldwijd voordelig of zelfs gratis en voorkom je onnodige kosten bij geld opnemen in Maleisië. Vergelijk hier eenvoudig de beste opties voor op reis: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken</a>.",
+    "is_optimized": true
   },
   {
     "slug": "singapur",
     "name": "Singapore",
     "visum_status": "Geen visum nodig (tot 90 dagen)",
     "pass_monate": 6,
-    "visum_text": "Voor Singapore heeft u als toerist geen visum nodig. U moet echter verplicht tot 3 dagen vóór aankomst de 'SG Arrival Card' online invullen, waarin gezondheids- en reisgegevens worden gevraagd.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ook in en rond de metropool Singapore kan een huurauto voor uitstapjes uiterst praktisch zijn. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier prijzen.</a>"
+    "visum_text": "Als Belgisch staatsburger kunt u Singapore als toerist visumvrij binnenreizen voor een verblijf van maximaal 90 dagen. Voor Belgische reizigers gelden in dit geval dezelfde visumvrije regels als voor Duitse staatsburgers. Let op: u moet vóór aankomst verplicht de Singapore Arrival Card online invullen, meestal binnen 3 dagen voor vertrek. Daarbij worden reis- en gezondheidsgegevens gevraagd. Zorg er daarnaast voor dat uw paspoort nog voldoende lang geldig is en dat u kunt aantonen dat u Singapore weer op tijd verlaat.",
+    "affiliate_hinweis": "<strong>Tip voor uw reis naar Singapore:</strong> vergelijk vooraf creditcards en kies een kaart waarmee u <strong>wereldwijd gratis kunt betalen</strong> en <strong>goedkoop geld kunt opnemen in het buitenland</strong>. Zo bespaart u op wisselkoersen en extra kosten tijdens uw verblijf. Bekijk nu de mogelijkheden via <a href='https://www.tarifcheck.com/YKQ2R5K'>de creditcardvergelijker</a> en vind de kaart die het beste past bij uw reis naar Singapore.",
+    "is_optimized": true
   },
   {
     "slug": "suedkorea",
     "name": "Zuid-Korea",
-    "visum_status": "K-ETA vereist",
+    "visum_status": "Visumvrij voor Belgische toeristen (K-ETA tijdelijk niet vereist)",
     "pass_monate": 6,
-    "visum_text": "Visumvrije inreis tot 90 dagen. De elektronische reistoestemming (K-ETA) is echter verplicht en moet vóór vertrek online zijn goedgekeurd. Hiermee hoeft u ook de aankomstkaart in het vliegtuig niet in te vullen.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Vooral voor het verkennen van het populaire eiland Jeju is een huurauto onmisbaar. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vind hier uw voertuig voor Zuid-Korea.</a>"
+    "visum_text": "Belgische staatsburgers kunnen Zuid-Korea als toerist visumvrij binnenreizen voor een verblijf tot 90 dagen. Voor Belgische reizigers is er momenteel geen visum nodig en ook geen K-ETA vereist voor toeristische reizen. U dient wel te beschikken over een geldig Belgisch paspoort en te voldoen aan de gebruikelijke inreisvoorwaarden, zoals een bewijs van terug- of doorreis en voldoende financiële middelen. Controleer vóór vertrek altijd of de regels nog actueel zijn, aangezien inreisvoorschriften op korte termijn kunnen wijzigen.",
+    "affiliate_hinweis": "<strong>Reist u naar Zuid-Korea?</strong> Dan kan een goede creditcard u veel kosten besparen. Vergelijk kaarten die <strong>wereldwijd gratis betalingen</strong> mogelijk maken en <strong>lage of geen opnamekosten</strong> rekenen bij geldautomaten in het buitenland. Zo betaalt u slimmer in Zuid-Korea en voorkomt u onnodige bankkosten. Bekijk hier de mogelijkheden: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcard vergelijken voor reizen</a>.",
+    "is_optimized": true
   },
   {
     "slug": "china",
     "name": "China",
-    "visum_status": "Visumvrij (tot 15 dagen) / anders visum",
+    "visum_status": "Visumvrij voor toeristische reizen tot 30 dagen; daarna visum verplicht",
     "pass_monate": 6,
-    "visum_text": "Dankzij een speciale regeling kunnen Duitsers momenteel voor toeristische verblijven tot 15 dagen visumvrij binnenkomen. Voor verblijven langer dan 15 dagen moet verplicht vooraf een klassiek visum worden aangevraagd bij een Visa Application Service Center.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Reis flexibel door het Rijk van het Midden. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier huurautoprijzen voor China.</a>"
+    "visum_text": "Belgische staatsburgers kunnen voor toeristische reizen naar China momenteel in veel gevallen visumvrij binnenkomen voor een verblijf van maximaal 30 dagen, mits het doel van de reis toerisme is en aan de geldende toegangsvoorwaarden wordt voldaan. Voor een langer verblijf, of wanneer het reisdoel afwijkt van toerisme, is vooraf een passend visum vereist. Let op: inreisregels kunnen op korte termijn wijzigen en de uiteindelijke toelating blijft altijd ter beoordeling van de Chinese grensautoriteiten. Controleer daarom vóór vertrek altijd de meest recente informatie bij de Chinese ambassade, het consulaat of een erkend Visa Application Service Center.",
+    "affiliate_hinweis": "<strong>Tip voor reizen naar China:</strong> vergelijk vooraf een creditcard die past bij internationaal gebruik, zodat je onnodige kosten kunt vermijden. Denk aan kaarten waarmee je <strong>wereldwijd voordelig of gratis kunt betalen</strong> en <strong>goedkoop contant geld kunt opnemen in het buitenland</strong>. Zo houd je meer budget over voor je reis. Bekijk hier de mogelijkheden: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcard vergelijken voor reizen naar China</a>.",
+    "is_optimized": true
   },
   {
     "slug": "indien",
     "name": "India",
     "visum_status": "e-Visa vereist",
     "pass_monate": 6,
-    "visum_text": "Inreis is alleen mogelijk met een geldig visum. Voor toeristen wordt het e-Visa aanbevolen, dat vooraf online wordt aangevraagd. Het paspoort moet minstens twee lege pagina's hebben.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Voor meer comfort en onafhankelijkheid op de wegen van India wordt een huurauto aanbevolen. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Controleer hier de aanbiedingen.</a>"
+    "visum_text": "Voor Belgische staatsburgers die als toerist naar India reizen, is een visum verplicht. Er is geen visumvrijstelling voor Belgische reizigers en een regulier visum on arrival is doorgaans niet beschikbaar voor toeristische reizen. De meest praktische optie is het e-Visa, dat vooraf online moet worden aangevraagd vóór vertrek. Zorg ervoor dat uw paspoort bij aankomst nog minstens zes maanden geldig is en bij voorkeur voldoende lege pagina's bevat voor eventuele stempels. Controleer ook altijd de actuele voorwaarden en de toegestane verblijfsduur, omdat de regels voor India kunnen wijzigen.",
+    "affiliate_hinweis": "<strong>Reistip voor India:</strong> wilt u tijdens uw reis in India slim besparen op kosten? Vergelijk dan vooraf creditcards die geschikt zijn voor reizen, met voordelen zoals wereldwijd gratis betalen, lage of geen opnamekosten en extra bescherming bij aankopen. Zo voorkomt u onnodige bankkosten en betaalt u comfortabeler in het buitenland. Bekijk hier de mogelijkheden: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcardvergelijking voor reizigers</a>.",
+    "is_optimized": true
   },
   {
     "slug": "kenia",
     "name": "Kenia",
     "visum_status": "eTA vereist",
     "pass_monate": 6,
-    "visum_text": "Kenia heeft het visum afgeschaft, maar vereist nu van alle reizigers (ook kinderen) verplicht een elektronische reistoestemming (eTA). Deze moet tijdig vóór vertrek online worden aangevraagd.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Voor een individuele safari of verdere reis is een terreinwaardige huurauto ideaal. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier 4x4-huurauto's.</a>"
+    "visum_text": "Voor Belgische staatsburgers die als toerist naar Kenia reizen, is geen traditioneel visum meer nodig, maar wel een verplichte elektronische reistoestemming (eTA). Deze regeling geldt ook voor kinderen en moet vóór vertrek online worden aangevraagd. De eTA is dus een verplichte voorwaarde voor de inreis in Kenia voor Belgische reizigers. Controleer altijd tijdig of je paspoort nog voldoende lang geldig is en dien je aanvraag ruim op voorhand in om vertragingen bij vertrek te vermijden.",
+    "affiliate_hinweis": "<strong>Tip voor je reis naar Kenia:</strong> vergelijk vooraf creditcards die ideaal zijn voor buitenlandse reizen. Zo kun je vaak besparen op kosten bij geld opnemen in het buitenland en wereldwijd voordelig of zelfs gratis betalen. Bekijk hier de mogelijkheden: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcardvergelijking voor reizen</a>.",
+    "is_optimized": true
   },
   {
     "slug": "tansania",
     "name": "Tanzania (Zanzibar)",
-    "visum_status": "Visum / e-Visa vereist",
+    "visum_status": "Visum vereist voor Belgische staatsburgers",
     "pass_monate": 6,
-    "visum_text": "Duitsers hebben voor Tanzania en het populaire Zanzibar een visum nodig. Het e-visum moet uiterlijk 10 dagen vóór vertrek online worden aangevraagd. Een 'Visa on Arrival' is mogelijk, maar kan tot lange wachttijden leiden.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ontdek Zanzibar of het vasteland flexibel op eigen houtje. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Boek hier uw Tanzania-huurauto.</a>"
+    "visum_text": "Belgische staatsburgers hebben voor een toeristische reis naar Tanzania, inclusief Zanzibar, een visum nodig. Voor België gelden in de praktijk dezelfde inreisregels als voor Duitse reizigers: visumvrij reizen is niet mogelijk. Het meest gebruikelijk is een e-visum, dat je vooraf online aanvraagt. Houd er rekening mee dat de verwerking enkele dagen kan duren, dus dien je aanvraag ruim op tijd in. Een Visa on Arrival is in sommige gevallen mogelijk, maar dit kan leiden tot langere wachttijden bij aankomst. Voor een zorgeloze reis naar Tanzania (Zanzibar) is het daarom verstandig om het visum vooraf te regelen.",
+    "affiliate_hinweis": "Tip voor je reis naar Tanzania (Zanzibar): bespaar op kosten met een slimme creditcardvergelijking. <strong>Vergelijk creditcards voor wereldwijd gratis betalen en voordelig geld opnemen in het buitenland</strong> en kies een kaart die past bij jouw reisplannen. Bekijk hier de mogelijkheden: <a href='https://www.tarifcheck.com/YKQ2R5K'>naar de creditcardvergelijking</a>.",
+    "is_optimized": true
   },
   {
     "slug": "seychellen",
     "name": "Seychellen",
-    "visum_status": "Travel Authorization vereist",
+    "visum_status": "Geen visum vereist, maar een verplichte Travel Authorization vooraf",
     "pass_monate": 0,
-    "visum_text": "Voor de Seychellen geldt geen visumplicht. Voor vertrek moet echter verplicht online een betaalde inreisvergunning (Travel Authorization) worden verkregen. Het paspoort moet minstens geldig zijn tot aan het vertrek uit het land.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Verken Mahé of Praslin in uw eigen tempo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Zorg hier voor een auto op de Seychellen.</a>"
+    "visum_text": "Voor Belgische staatsburgers die als toerist naar de Seychellen reizen, geldt geen visumplicht. In tegenstelling tot sommige andere bestemmingen is er dus geen visum nodig bij vertrek of aankomst. Wel moet vóór de reis verplicht online een betaalde Travel Authorization worden aangevraagd. Deze inreisvergunning is noodzakelijk om aan boord te mogen gaan en om toegang tot de Seychellen te krijgen. Het paspoort moet geldig zijn voor de volledige duur van het verblijf en minstens geldig blijven tot aan het vertrek uit het land. Daarnaast kunnen bij aankomst aanvullende reisdocumenten of bewijsstukken worden gevraagd, zoals een retour- of doorreisticket, een bevestigde accommodatie en voldoende financiële middelen voor het verblijf. Controleer daarom vóór vertrek altijd de actuele inreisvoorwaarden, zodat je zorgeloos en goed voorbereid naar de Seychellen reist.",
+    "affiliate_hinweis": "<strong>Tip voor je reis naar de Seychellen:</strong> met de juiste creditcard kun je flink besparen op kosten in het buitenland. Vergelijk kaarten die <strong>wereldwijd gratis betalen</strong> en <strong>lage of geen kosten voor geld opnemen buiten de eurozone</strong> bieden. Zo houd je meer budget over voor je vakantie op de Seychellen. Bekijk hier de mogelijkheden: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcard vergelijken voor reizen</a>.",
+    "is_optimized": true
   },
   {
     "slug": "mauritius",
     "name": "Mauritius",
-    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "visum_status": "Geen visum nodig voor Belgische staatsburgers (tot 90 dagen)",
     "pass_monate": 0,
-    "visum_text": "Geen visumplicht. Duitse staatsburgers kunnen tot 90 dagen binnenkomen. Het paspoort moet geldig zijn tot na het einde van de reis. Een doorreis- of retourticket en een hotelboeking moeten worden getoond.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Een huurauto is de beste keuze om alle verborgen stranden van Mauritius te ontdekken. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier aanbiedingen.</a>"
+    "visum_text": "Belgische staatsburgers die als toerist naar Mauritius reizen, hebben geen visum nodig voor een verblijf tot 90 dagen. Het paspoort moet bij aankomst nog geldig zijn en idealiter geldig blijven tot na het einde van de reis. Daarnaast kunnen een retour- of doorreisticket en een bevestigde accommodatieboeking worden gevraagd. De uiteindelijke toelating blijft altijd onder voorbehoud van de immigratieautoriteiten bij aankomst. In vergelijking met Duitse staatsburgers gelden voor Belgische reizigers in de praktijk dezelfde toeristische inreisregels: visumvrij reizen is mogelijk voor korte verblijven.",
+    "affiliate_hinweis": "<strong>Tip voor Mauritius-reizigers:</strong> vergelijk vóór vertrek creditcards die passen bij jouw reisstijl. Zo kun je in Mauritius mogelijk besparen op kosten voor geld opnemen, profiteren van gunstige wisselkoersen en wereldwijd eenvoudig en vaak kosteloos betalen. Bekijk hier een handige vergelijking: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken voor reizen</a>.",
+    "is_optimized": true
   },
   {
     "slug": "marokko",
     "name": "Marokko",
     "visum_status": "Geen visum nodig (tot 90 dagen)",
     "pass_monate": 0,
-    "visum_text": "Voor toeristische doeleinden kunnen Duitsers tot 90 dagen zonder visum naar Marokko reizen. Het paspoort moet geldig zijn voor de volledige duur van het verblijf (aanbeveling: 6 maanden).",
-    "affiliate_hinweis": "💡 <strong>Roadtrip-tip:</strong> Voor adembenemende ritten door het Atlasgebergte is een eigen huurauto essentieel. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Boek hier voordelige huurauto's.</a>"
+    "visum_text": "Belgische staatsburgers kunnen voor toeristische reizen naar Marokko doorgaans zonder visum binnenkomen en tot 90 dagen in het land verblijven. Dit geldt voor Belgische reizigers die uitsluitend voor vakantie of andere toeristische doeleinden naar Marokko reizen. Je paspoort moet geldig zijn voor de volledige duur van je verblijf; het wordt echter sterk aanbevolen dat het paspoort nog minstens 6 maanden geldig is bij aankomst. Controleer vóór vertrek altijd of je reisdocumenten in orde zijn en of de actuele inreisregels niet zijn gewijzigd.",
+    "affiliate_hinweis": "<strong>Tip voor Marokko-reizigers:</strong> wil je slim besparen op je reisuitgaven? Vergelijk vooraf een geschikte creditcard voor je reis naar Marokko en let vooral op <strong>lage of geen kosten voor geld opnemen in het buitenland</strong> en <strong>wereldwijd gratis betalen</strong>. Zo voorkom je onnodige bankkosten tijdens je vakantie. Bekijk hier de vergelijking: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcard vergelijken voor reizen naar Marokko</a>.",
+    "is_optimized": true
   },
   {
     "slug": "tunesien",
     "name": "Tunesië",
-    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "visum_status": "Geen visum nodig voor Belgische staatsburgers (tot 90 dagen)",
     "pass_monate": 6,
-    "visum_text": "Geen visumplicht voor pakkettoeristen en individuele reizigers uit Duitsland tot 90 dagen. Inreis met de identiteitskaart is alleen mogelijk binnen een georganiseerde pakketreis inclusief vlucht- en hotelboeking; anders is een paspoort nodig.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ontdek de kusten en fascinerende landschappen van Tunesië op eigen houtje. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier huurautoprijzen.</a>"
+    "visum_text": "Belgische staatsburgers die als toerist naar Tunesië reizen, hebben in de regel geen visum nodig voor een verblijf tot 90 dagen. Dit geldt zowel voor individuele reizigers als voor pakketreizigers. Voor een toeristische reis is een geldig paspoort vereist; reizen met de Belgische identiteitskaart is doorgaans niet voldoende en wordt niet als standaardreisdocument aanbevolen. Controleer vóór vertrek altijd of je paspoort nog lang genoeg geldig is en of je reisdoel uitsluitend toeristisch is, omdat andere reisredenen of een langer verblijf andere inreisregels kunnen hebben.",
+    "affiliate_hinweis": "<strong>Tip voor je reis naar Tunesië:</strong> kies een creditcard die je helpt om <strong>kosten te besparen bij geld opnemen in het buitenland</strong> en waarmee je <strong>wereldwijd voordelig of zelfs gratis kunt betalen</strong>. Vergelijk hier eenvoudig de beste opties voor op reis: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken</a>.",
+    "is_optimized": true
   },
   {
     "slug": "oman",
     "name": "Oman",
-    "visum_status": "Visumvrij tot 14 dagen / anders e-Visa",
+    "visum_status": "Visum vereist: e-Visa vooraf aanvragen",
     "pass_monate": 6,
-    "visum_text": "Voor verblijven tot 14 dagen hebben Duitsers geen visum meer nodig. Wie langer wil blijven, moet verplicht vooraf online een e-Visa aanvragen. Een hotelboeking en een retourticket moeten aanwezig zijn.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Oman is een klassiek roadtripland. Vaak wordt een 4x4-huurauto aanbevolen. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Zorg hier voor uw voertuig.</a>"
+    "visum_text": "Voor Belgische staatsburgers die als toerist naar Oman reizen, geldt in de regel dat een visum vooraf nodig is. In tegenstelling tot sommige andere nationaliteiten is er voor Belgen doorgaans geen visumvrijstelling voor toeristische verblijven en ook geen standaard visa on arrival. Reizigers moeten daarom vóór vertrek een e-Visa aanvragen. Zorg ervoor dat je paspoort nog minimaal 6 maanden geldig is bij aankomst. Daarnaast kunnen een retour- of doorreisticket, een hotelreservering en voldoende financiële middelen worden gevraagd. Controleer altijd kort voor vertrek de actuele inreisregels, omdat deze kunnen wijzigen.",
+    "affiliate_hinweis": "<strong>Tip voor je reis naar Oman:</strong> met de juiste creditcard kun je flink besparen op kosten in het buitenland. Kies bij voorkeur een kaart waarmee je <strong>wereldwijd gratis kunt betalen</strong> en <strong>zonder extra kosten geld kunt opnemen</strong>, zodat je in Oman niet onnodig betaalt voor pintransacties of wisselkoersen. Vergelijk hier de beste opties: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken voor reizen naar Oman</a>.",
+    "is_optimized": true
   },
   {
     "slug": "katar",
     "name": "Qatar (Doha)",
-    "visum_status": "Gratis Visa on Arrival",
+    "visum_status": "Visumvrij bij aankomst voor Belgische staatsburgers",
     "pass_monate": 6,
-    "visum_text": "Duitse staatsburgers krijgen bij binnenkomst een gratis 'Visa Waiver' (Visa on Arrival), geldig voor verblijven tot 90 dagen binnen een periode van 180 dagen.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Doha en de spectaculaire omliggende landschappen zijn uitstekend per auto te verkennen. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vind hier huurauto's voor Qatar.</a>"
+    "visum_text": "Belgische staatsburgers die als toerist naar Qatar (Doha) reizen, hebben doorgaans geen vooraf aangevraagd visum nodig. Bij aankomst krijgen zij meestal een gratis visumvrijstelling of visa on arrival, waarmee een verblijf tot 90 dagen binnen een periode van 180 dagen mogelijk is. Dit geldt voor toeristische reizen en korte verblijven. Zorg ervoor dat je paspoort nog minimaal 6 maanden geldig is bij aankomst en dat je kunt voldoen aan de gebruikelijke grensformaliteiten. Omdat inreisregels kunnen wijzigen, is het verstandig om kort voor vertrek de actuele voorwaarden te controleren bij de ambassade of officiële Qatarese bronnen.",
+    "affiliate_hinweis": "<strong>Tip voor Qatar-reizigers:</strong> kies een creditcard die past bij jouw reis naar Doha. Zo kun je vaak <strong>wereldwijd gratis betalen</strong> en <strong>besparen op opnamekosten bij geldautomaten in het buitenland</strong>. Vergelijk eenvoudig de beste opties voor jouw reis en ontdek welke kaart de laagste kosten en de meeste voordelen biedt: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcard vergelijken voor Qatar</a>.",
+    "is_optimized": true
   },
   {
     "slug": "saudi-arabien",
     "name": "Saoedi-Arabië",
-    "visum_status": "e-Visa / Visa on Arrival",
+    "visum_status": "Visum vereist: Belgische toeristen hebben voor Saoedi-Arabië een e-visum of visum bij aankomst nodig.",
     "pass_monate": 6,
-    "visum_text": "Duitse toeristen kunnen vooraf online een e-Visa aanvragen of bij aankomst een 'Visa on Arrival' krijgen. Het visum is een jaar geldig en staat meerdere inreizen toe (tot max. 90 dagen aaneengesloten).",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> De enorme afstanden in Saoedi-Arabië overbrug je het best flexibel met een huurauto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk nu huurautoprijzen.</a>"
+    "visum_text": "Voor Belgische staatsburgers die als toerist naar Saoedi-Arabië reizen, geldt geen visumvrijstelling. In de praktijk kunnen Belgische reizigers doorgaans vooraf online een e-visum aanvragen of, afhankelijk van de actuele toegangsregels en de geschiktheid van het reisdocument, bij aankomst een Visa on Arrival krijgen. Het toeristenvisum is meestal één jaar geldig, staat meerdere inreizen toe en per verblijf mag je doorgaans maximaal 90 dagen aaneengesloten in het land blijven. Controleer vóór vertrek altijd de meest recente voorwaarden, omdat de toegangsregels en de beschikbaarheid van Visa on Arrival kunnen wijzigen.",
+    "affiliate_hinweis": "<strong>Tip voor je reis naar Saoedi-Arabië:</strong> vergelijk vooraf een creditcard die past bij internationaal reizen. Zo kun je vaak <strong>kosten besparen op geld opnemen in het buitenland</strong> en <strong>wereldwijd voordelig of zelfs gratis betalen</strong>. Bekijk hier een handige vergelijking: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken voor reizen</a>.",
+    "is_optimized": true
   },
   {
     "slug": "jordanien",
     "name": "Jordanië",
-    "visum_status": "Visum vereist (vaak via Jordan Pass)",
+    "visum_status": "Visum vereist voor Belgische staatsburgers, meestal verkrijgbaar bij aankomst of vooraf online",
     "pass_monate": 6,
-    "visum_text": "Visumplicht. Het visum kan vaak bij aankomst op de luchthaven worden afgegeven. Als u langer dan 3 nachten blijft, is het aan te raden de 'Jordan Pass' vóór de reis te kopen: deze scheldt de visumkosten kwijt en omvat toegang tot Petra.",
-    "affiliate_hinweis": "💡 <strong>Roadtrip-tip:</strong> Van Amman naar Petra en naar de Dode Zee – Jordanië is perfect voor zelfrijders. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Boek hier uw huurauto.</a>"
+    "visum_text": "Belgische staatsburgers die als toerist naar Jordanië reizen, hebben een visum nodig. In de praktijk is een visum vaak verkrijgbaar bij aankomst op de luchthaven of via een vooraf aangevraagde e-visa, mits aan de actuele inreisvoorwaarden wordt voldaan. Voor Belgische reizigers gelden in grote lijnen dezelfde toeristische visumregels als voor Duitse staatsburgers. Reist u langer dan 3 nachten en wilt u meerdere bezienswaardigheden bezoeken, dan is de Jordan Pass vaak een slimme keuze: deze kan de visumkosten onder bepaalde voorwaarden compenseren en biedt bovendien toegang tot onder meer Petra. Controleer vóór vertrek altijd de meest recente regels, omdat inreisvoorwaarden en kosten kunnen wijzigen.",
+    "affiliate_hinweis": "<strong>Tip voor uw reis naar Jordanië:</strong> vergelijk vooraf een creditcard die past bij internationaal reizen. Zo kunt u vaak besparen op kosten voor geld opnemen in het buitenland en wereldwijd voordelig of zelfs gratis betalen. Bekijk de mogelijkheden via <a href='https://www.tarifcheck.com/YKQ2R5K'>deze creditcardvergelijker</a> en kies een kaart die ideaal is voor uw reis naar Jordanië.",
+    "is_optimized": true
   },
   {
     "slug": "jamaika",
     "name": "Jamaica",
-    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "visum_status": "Geen visum nodig voor Belgische staatsburgers (tot 90 dagen)",
     "pass_monate": 6,
-    "visum_text": "Voor een toeristisch verblijf tot 90 dagen hebben Duitsers geen visum nodig. Wel moet verplicht vóór vertrek gratis een inreisformulier (Online Passenger Declaration) worden ingevuld.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ontdek het droomeiland in de Caraïben in uw eigen tempo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Zorg hier voor een huurauto voor Jamaica.</a>"
+    "visum_text": "Voor Belgische staatsburgers die als toerist naar Jamaica reizen, is voor een verblijf tot 90 dagen doorgaans geen visum vereist. Wel moet je bij aankomst kunnen aantonen dat je een geldig paspoort hebt, een retour- of doorreisticket en voldoende financiële middelen voor je verblijf. Daarnaast is het verplicht om vóór vertrek de online immigratie- en douaneverklaring in te vullen. Controleer altijd kort voor vertrek of de actuele inreisregels zijn gewijzigd, omdat voorwaarden voor toeristische reizen kunnen worden aangepast.",
+    "affiliate_hinweis": "Tip voor Jamaica-reizen: vergelijk vooraf een <strong>creditcard met lage of geen kosten voor geld opnemen in het buitenland</strong> en met de mogelijkheid om <strong>wereldwijd gratis te betalen</strong>. Zo bespaar je op extra kosten tijdens je vakantie op Jamaica. Bekijk hier de vergelijking: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcard vergelijken</a>.",
+    "is_optimized": true
   },
   {
     "slug": "peru",
     "name": "Peru",
-    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "visum_status": "Geen visum nodig voor Belgische toeristen (tot 90 dagen)",
     "pass_monate": 6,
-    "visum_text": "Voor Peru geldt geen visumplicht. Duitse toeristen krijgen bij binnenkomst doorgaans een verblijfsvergunning voor 90 dagen (per halfjaar). Een doorreis- of retourticket moet kunnen worden getoond.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Beleef de Andes en kustwegen volledig flexibel met een huurauto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vind hier passende voertuigen.</a>"
+    "visum_text": "Voor Belgische staatsburgers geldt voor toeristische reizen naar Peru doorgaans geen visumplicht. Bij aankomst krijgen Belgische reizigers meestal een verblijfsduur van maximaal 90 dagen toegekend. Een geldig paspoort is verplicht en moet bij voorkeur nog voldoende lang geldig zijn voor de hele reis. Daarnaast kan de immigratiedienst vragen om een retour- of doorreisticket en bewijs van voldoende financiële middelen. De toegestane verblijfsduur kan per geval worden vastgesteld door de autoriteiten, dus controleer altijd de actuele inreisvoorwaarden vóór vertrek. In vergelijking met Duitse staatsburgers gelden voor Belgische toeristen in de praktijk geen wezenlijk andere regels: ook zij reizen meestal visumvrij Peru binnen voor een kort toeristisch verblijf.",
+    "affiliate_hinweis": "<strong>Tip voor Peru-reizigers:</strong> vergelijk vóór vertrek een creditcard die past bij jouw reisplannen. Zo kun je in Peru vaak besparen op kosten voor geld opnemen en wereldwijd voordelig betalen zonder onnodige toeslagen. Bekijk hier een handige vergelijking: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken</a>.",
+    "is_optimized": true
   },
   {
     "slug": "kolumbien",
     "name": "Colombia",
-    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "visum_status": "Visumvrij voor Belgische toeristen (tot 90 dagen)",
     "pass_monate": 6,
-    "visum_text": "Visumvrije inreis voor Duitsers tot 90 dagen. Verplicht is het invullen van het online inreisformulier 'Check-MIG' binnen 72 uur vóór vertrek.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Plant u een tour door de bekende koffieregio? Een huurauto biedt maximale vrijheid. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier aanbiedingen.</a>"
+    "visum_text": "Belgische staatsburgers kunnen Colombia als toerist visumvrij binnenreizen voor een verblijf tot 90 dagen. In de praktijk gelden voor Belgische reizigers dezelfde toeristische inreisregels als voor Duitse staatsburgers: geen visum vooraf nodig voor korte verblijven, maar wel een geldig paspoort en mogelijk bewijs van doorreis of voldoende financiële middelen. Daarnaast is het verplicht om binnen 72 uur vóór vertrek het online inreisformulier 'Check-MIG' in te vullen. Controleer vóór vertrek altijd of je paspoort nog voldoende lang geldig is en of de actuele inreisvoorwaarden niet zijn gewijzigd.",
+    "affiliate_hinweis": "<strong>Tip voor je reis naar Colombia:</strong> vergelijk vooraf een creditcard die ideaal is voor reizen, zodat je <strong>kosten bespaart bij geld opnemen in het buitenland</strong> en <strong>wereldwijd gratis kunt betalen</strong>. Zo houd je meer budget over voor je reis. Bekijk hier de mogelijkheden: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcard vergelijken voor Colombia</a>.",
+    "is_optimized": true
   },
   {
     "slug": "argentinien",
     "name": "Argentinië",
     "visum_status": "Geen visum nodig (tot 90 dagen)",
     "pass_monate": 0,
-    "visum_text": "Geen visumplicht voor Duitse staatsburgers tot 90 dagen. Het paspoort moet geldig zijn voor de volledige duur van het geplande verblijf. Vaak wordt bij binnenkomst een bewijs van doorreis of terugreis gevraagd.",
-    "affiliate_hinweis": "💡 <strong>Patagonië-roadtrip:</strong> De afstanden in Argentinië zijn enorm. Een goede huurauto is essentieel. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vind hier betrouwbare huurauto's voor Zuid-Amerika.</a>"
+    "visum_text": "Belgische staatsburgers kunnen als toerist visumvrij naar Argentinië reizen voor een verblijf tot 90 dagen. Het paspoort moet geldig zijn gedurende de volledige duur van het verblijf; een extra veiligheidsmarge wordt aanbevolen. Bij binnenkomst kan de grensautoriteit vragen om een bewijs van terug- of doorreis en voldoende financiële middelen voor het verblijf. Controleer vóór vertrek altijd de actuele reis- en inreisvoorwaarden, omdat regels en documenteisen op korte termijn kunnen wijzigen.",
+    "affiliate_hinweis": "Reis je naar Argentinië? Dan kan een goede creditcard je onderweg veel geld besparen. Vergelijk kaarten die <strong>wereldwijd gratis betalen</strong> mogelijk maken en let op voordelen zoals <strong>lage of geen kosten voor geldopname in het buitenland</strong>, een gunstige wisselkoers en extra reisverzekeringen. Bekijk hier de vergelijking: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken voor je reis naar Argentinië</a>.",
+    "is_optimized": true
   },
   {
     "slug": "chile",
     "name": "Chili",
-    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "visum_status": "Geen visum nodig voor Belgische staatsburgers (tot 90 dagen)",
     "pass_monate": 6,
-    "visum_text": "Voor toeristische verblijven tot 90 dagen is geen visum nodig. Bij binnenkomst ontvangt u een toeristenkaart (Tarjeta de Turismo), die u zorgvuldig moet bewaren tot aan vertrek.",
-    "affiliate_hinweis": "💡 <strong>Huurauto in Zuid-Amerika:</strong> Chili is perfect voor spectaculaire roadtrips (bijv. op de Carretera Austral). <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vind hier de passende huurauto.</a>"
+    "visum_text": "Belgische staatsburgers die als toerist naar Chili reizen, hebben voor een verblijf van maximaal 90 dagen geen visum nodig. Bij aankomst ontvangt u doorgaans een toeristenkaart (Tarjeta de Turismo) of wordt de inreis digitaal geregistreerd; bewaar deze documentatie zorgvuldig tot aan uw vertrek. Uw paspoort moet geldig zijn voor de duur van uw verblijf. Controleer vóór vertrek altijd of uw reisdocumenten, retour- of doorreisticket en eventuele bewijsstukken voor uw reisdoel in orde zijn, zodat uw binnenkomst soepel verloopt. Voor toeristische reizen gelden voor Belgen in de praktijk dezelfde visumvrije regels als voor Duitse staatsburgers.",
+    "affiliate_hinweis": "Tip voor uw reis naar Chili: met de juiste creditcard kunt u vaak <strong>kosten besparen op geld opnemen in het buitenland</strong> en <strong>wereldwijd voordelig of zelfs gratis betalen</strong>. Vergelijk daarom vooraf creditcards die passen bij uw reisgedrag, zodat u in Chili niet onnodig betaalt voor transacties, wisselkoersen of geldopnames. Bekijk hier de vergelijking: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken</a>.",
+    "is_optimized": true
   },
   {
     "slug": "ecuador",
     "name": "Ecuador",
     "visum_status": "Geen visum nodig (tot 90 dagen)",
     "pass_monate": 6,
-    "visum_text": "Duitsers kunnen tot 90 dagen visumvrij naar Ecuador (inclusief de Galápagoseilanden) reizen. Een doorreis- of retourticket moet bij binnenkomst kunnen worden getoond.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Op het vasteland van Ecuador is een huurauto de moeite waard voor uitstapjes door de Andes. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Boek hier een huurauto.</a>"
+    "visum_text": "Belgische staatsburgers kunnen voor een toeristisch verblijf tot 90 dagen visumvrij naar Ecuador reizen, inclusief de Galápagoseilanden. Voor de grenscontrole moet je een geldig paspoort kunnen tonen en kan ook een doorreis- of retourticket worden gevraagd. Controleer vóór vertrek altijd of je paspoort nog voldoende lang geldig is en houd rekening met eventuele aanvullende inreisregels of gezondheidsvereisten.",
+    "affiliate_hinweis": "<strong>Tip voor je reis naar Ecuador:</strong> vergelijk vooraf een creditcard die past bij internationaal reizen. Zo kun je vaak <strong>besparen op kosten bij geld opnemen in het buitenland</strong> en <strong>wereldwijd gratis of voordelig betalen</strong>. Bekijk hier een handige vergelijking: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken voor reizen</a>.",
+    "is_optimized": true
   },
   {
     "slug": "bolivien",
     "name": "Bolivia",
-    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "visum_status": "Visumvrij voor Belgische toeristen tot 90 dagen",
     "pass_monate": 6,
-    "visum_text": "Inreis is tot 90 dagen visumvrij. Bij aankomst krijgen toeristen meestal eerst een stempel voor 30 dagen, die in het land bij de immigratiedienst gratis kan worden verlengd tot 90 dagen.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ontdek de indrukwekkende landschappen van Bolivia flexibel met uw eigen voertuig. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier voordelige huurauto's.</a>"
+    "visum_text": "Belgische staatsburgers die als toerist naar Bolivia reizen, hebben in de regel geen visum nodig voor een verblijf tot 90 dagen. Bij aankomst krijgt u meestal een inreisstempel voor een eerste verblijfsduur, die afhankelijk van de situatie en de beoordeling van de immigratiedienst kan worden toegekend binnen de toegestane toeristische periode. In sommige gevallen kan een verlenging of een verdere administratieve afhandeling ter plaatse nodig zijn om het volledige toegestane verblijf te benutten. Controleer altijd vóór vertrek of uw paspoort nog voldoende lang geldig is en of de actuele inreisregels voor toeristische reizen naar Bolivia ongewijzigd zijn, omdat grens- en visumvoorschriften kunnen worden aangepast.",
+    "affiliate_hinweis": "<strong>Tip voor Bolivia-reizen:</strong> kies een creditcard die u helpt om <strong>kosten bij geld opnemen in het buitenland te beperken</strong> en <strong>wereldwijd gratis te betalen</strong>. Zo houdt u meer budget over voor uw reis door Bolivia. Vergelijk hier eenvoudig de beste opties: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken</a>.",
+    "is_optimized": true
   },
   {
     "slug": "panama",
     "name": "Panama",
-    "visum_status": "Geen visum nodig (tot 180 dagen)",
+    "visum_status": "Geen visum nodig voor Belgische staatsburgers (tot 180 dagen)",
     "pass_monate": 3,
-    "visum_text": "Geen visumplicht voor Duitsers. Bij aankomst wordt vaak een verblijfsvergunning voor maximaal 180 dagen verleend. Het paspoort moet bij binnenkomst nog minimaal 3 maanden geldig zijn. Een uitreisticket is verplicht.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Met een huurauto reist u in Panama comfortabel en zelfstandig van de stad naar de droomstranden. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Check hier huurautoprijzen.</a>"
+    "visum_text": "Belgische staatsburgers die als toerist naar Panama reizen, hebben in de regel geen visum nodig voor een verblijf tot 180 dagen. Bij aankomst kan de immigratiedienst een toegestane verblijfsduur bepalen. Je paspoort moet bij binnenkomst nog minimaal 3 maanden geldig zijn en een geldig uitreisticket is verplicht. Controleer daarnaast of je kunt aantonen dat je voldoende financiële middelen hebt voor je verblijf. Voor toeristische reizen gelden voor Belgen doorgaans dezelfde visumvrije regels als voor Duitse staatsburgers; er is geen apart visumzwang of visa on arrival vereist voor standaard toeristisch verblijf.",
+    "affiliate_hinweis": "<strong>Tip voor Panama-reizen:</strong> wil je slim besparen op je reis? Vergelijk vooraf een creditcard die geschikt is voor internationaal gebruik, zodat je <strong>wereldwijd voordelig kunt betalen</strong> en mogelijk <strong>kosten bespaart bij geld opnemen in het buitenland</strong>. Zo reis je comfortabeler door Panama en voorkom je onnodige transactiekosten. Bekijk hier de vergelijking: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcard vergelijken</a>.",
+    "is_optimized": true
   },
   {
     "slug": "guatemala",
     "name": "Guatemala",
-    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "visum_status": "Geen visum nodig voor Belgische staatsburgers (tot 90 dagen)",
     "pass_monate": 6,
-    "visum_text": "Inreis zonder visum mogelijk tot 90 dagen (geldt voor de gehele C4-zone). Wie over land binnenkomt, wordt aan de grens soms gevraagd een kleine, informele administratievergoeding te betalen.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Het fascinerende land van de Maya's is heerlijk individueel te bereizen met uw eigen auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Boek hier vooraf een huurauto.</a>"
+    "visum_text": "Belgische staatsburgers kunnen Guatemala als toerist visumvrij binnenreizen voor een verblijf van maximaal 90 dagen. Voor België gelden in de praktijk dezelfde toeristische inreisregels als voor Duitse staatsburgers binnen de C4-zone. Reizigers moeten beschikken over een geldig paspoort en kunnen bij aankomst worden gevraagd naar een retour- of doorreisticket en voldoende financiële middelen voor het verblijf. Wie over land binnenkomt, kan aan de grens soms worden gevraagd een kleine, informele administratievergoeding te betalen. Controleer voor vertrek altijd of je reisdocument nog lang genoeg geldig is en of de actuele inreisregels ongewijzigd zijn.",
+    "affiliate_hinweis": "<strong>Tip voor Guatemala-reizigers:</strong> kies een creditcard die je helpt besparen op <strong>geld opnemen in het buitenland</strong> en <strong>wereldwijd kosteloos betalen</strong>. Zo voorkom je onnodige kosten tijdens je reis en houd je meer budget over voor excursies, eten en vervoer. Vergelijk hier de beste opties: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken</a>.",
+    "is_optimized": true
   },
   {
     "slug": "bahamas",
     "name": "Bahama's",
-    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "visum_status": "Geen visum nodig voor Belgische staatsburgers (tot 90 dagen)",
     "pass_monate": 6,
-    "visum_text": "Duitse staatsburgers hebben voor een toeristisch verblijf van maximaal 90 dagen geen visum nodig. Een retour- of doorreisticket moet bij binnenkomst echter verplicht worden getoond.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Verken de grotere eilanden van de Bahama's volledig onafhankelijk met een huurauto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Zorg hier voor het passende voertuig.</a>"
+    "visum_text": "Belgische staatsburgers die als toerist naar de Bahama's reizen, hebben voor een verblijf van maximaal 90 dagen doorgaans geen visum nodig. Bij aankomst moet je wel een geldig Belgisch paspoort kunnen tonen. Daarnaast kan de immigratiedienst vragen om een retourticket of doorreisticket, evenals bewijs van voldoende financiële middelen en een bevestigde accommodatie. Controleer vóór vertrek altijd of je paspoort nog lang genoeg geldig is en of je reisdocumenten in orde zijn, zodat je zorgeloos kunt genieten van je vakantie op de Bahama's.",
+    "affiliate_hinweis": "<strong>Tip voor je reis naar de Bahama's:</strong> vergelijk vooraf een creditcard die past bij internationaal reizen. Zo kun je vaak besparen op kosten voor geld opnemen in het buitenland en wereldwijd voordelig of zelfs gratis betalen. Bekijk hier een handige vergelijking: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken</a>.",
+    "is_optimized": true
   },
   {
     "slug": "barbados",
     "name": "Barbados",
-    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "visum_status": "Geen visum nodig voor Belgische staatsburgers (tot 90 dagen)",
     "pass_monate": 6,
-    "visum_text": "Visumvrije inreis tot 90 dagen. Verplicht is het invullen van het gratis online inreisformulier (ED Card) binnen 72 uur vóór aankomst om de inreis te versnellen.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Een huurauto is perfect om ook verborgen stranden en baaien op Barbados te bereiken. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier aanbiedingen.</a>"
+    "visum_text": "Belgische staatsburgers kunnen als toerist visumvrij naar Barbados reizen voor een verblijf van maximaal 90 dagen. Voor Belgische reizigers gelden in de praktijk dezelfde toeristische inreisregels als voor Duitse staatsburgers: geen vooraf aangevraagd visum en doorgaans ook geen visum bij aankomst nodig. Wel is het verplicht om vóór vertrek het gratis online inreisformulier (ED Card) in te vullen, idealiter binnen 72 uur voor aankomst, zodat de grenscontrole sneller verloopt. Zorg daarnaast voor een geldig paspoort, een retour- of doorreisticket en voldoende financiële middelen voor het verblijf. Controleer vóór vertrek altijd of de actuele inreisvoorwaarden nog ongewijzigd zijn.",
+    "affiliate_hinweis": "Tip voor Barbados-reizen: met de juiste creditcard kun je vaak besparen op opnamekosten en wisselkoersen, terwijl je wereldwijd eenvoudig en veilig betaalt. Vergelijk daarom vooraf creditcards die gunstige voorwaarden bieden voor reizen, zoals lage of geen kosten bij geld opnemen in het buitenland en gratis betalen in vreemde valuta. Bekijk hier de mogelijkheden: <strong><a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken voor Barbados</a></strong>.",
+    "is_optimized": true
   },
   {
     "slug": "namibia",
     "name": "Namibië",
-    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "visum_status": "Visumvrij voor Belgische toeristen (tot 90 dagen)",
     "pass_monate": 6,
-    "visum_text": "Voor verblijven tot 90 dagen per kalenderjaar is voor Duitse toeristen geen visum vereist. Het paspoort moet echter verplicht nog minimaal 6 maanden na de terugreisdatum geldig zijn.",
-    "affiliate_hinweis": "💡 <strong>Safari-voertuigen:</strong> Voor Namibië is een robuuste huurauto (meestal 4x4) onmisbaar. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Zorg hier tijdig voor uw voertuig.</a>"
+    "visum_text": "Belgische staatsburgers die als toerist naar Namibië reizen, hebben in de regel geen visum nodig voor een verblijf van maximaal 90 dagen. Dit geldt voor toeristische reizen en kort verblijf. Je paspoort moet bij aankomst nog minimaal 6 maanden geldig zijn en idealiter voldoende lege pagina’s bevatten voor stempels. Controleer vóór vertrek altijd of je reisdocumenten up-to-date zijn en of je reisdoel overeenkomt met de toegestane verblijfsduur. Voor langer verblijf, werk of andere reisdoelen kunnen andere regels gelden.",
+    "affiliate_hinweis": "<strong>Tip voor je reis naar Namibië:</strong> vergelijk vooraf een creditcard die past bij internationaal reizen. Zo kun je vaak <strong>kosten besparen bij geld opnemen in het buitenland</strong> en <strong>wereldwijd voordelig of gratis betalen</strong> zonder onnodige toeslagen. Bekijk hier een handige vergelijking: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken voor reizen en geld besparen</a>.",
+    "is_optimized": true
   },
   {
     "slug": "botswana",
     "name": "Botswana",
-    "visum_status": "Geen visum nodig (tot 90 dagen)",
+    "visum_status": "Geen visum nodig voor Belgische staatsburgers (tot 90 dagen)",
     "pass_monate": 6,
-    "visum_text": "Duitsers ontvangen bij grensovergangen of luchthavens gratis een inreisvergunning (Visitor's Pass) voor maximaal 90 dagen per kalenderjaar. Retour- of doorreisticket moet worden getoond.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Botswana is uitstekend te verkennen als self-drive bestemming. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier huurauto's voor Botswana.</a>"
+    "visum_text": "Belgische staatsburgers die als toerist naar Botswana reizen, hebben in de regel geen visum nodig voor een verblijf tot 90 dagen. Bij aankomst ontvangen zij doorgaans een gratis Visitor's Pass aan de grens of op de luchthaven. Zorg ervoor dat je een geldig Belgisch paspoort bij je hebt dat nog voldoende lang geldig is, evenals een retour- of doorreisticket en, indien gevraagd, bewijs van voldoende financiële middelen en accommodatie. Controleer vóór vertrek altijd de actuele inreisvoorwaarden, omdat regels en toegangsprocedures kunnen wijzigen.",
+    "affiliate_hinweis": "<strong>Tip voor Botswana-reizen:</strong> wil je slim besparen op je reisuitgaven? Vergelijk een creditcard die geschikt is voor buitenlandgebruik, zodat je mogelijk <strong>goedkoper geld kunt opnemen</strong> en <strong>wereldwijd zonder extra kosten kunt betalen</strong>. Dat is vooral handig in Botswana, waar je onderweg flexibiliteit wilt en onnodige bankkosten liever vermijdt. Bekijk hier de vergelijking: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken</a>.",
+    "is_optimized": true
   },
   {
     "slug": "uganda",
     "name": "Oeganda",
     "visum_status": "e-Visa vereist",
     "pass_monate": 6,
-    "visum_text": "Voor Oeganda geldt een strikte visumplicht. Het visum moet verplicht vóór binnenkomst als elektronisch e-Visa online worden aangevraagd. Daarnaast is een bewijs van gelekoortsvaccinatie verplicht voor binnenkomst.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Voor bezoeken aan nationale parken en safaritochten op eigen houtje is een 4x4-huurauto ideaal. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier 4x4-voertuigen.</a>"
+    "visum_text": "Voor Belgische staatsburgers die als toerist naar Oeganda reizen, geldt een visumplicht. Je moet vóór vertrek een elektronisch e-Visa aanvragen; visumvrij reizen is voor Belgische reizigers niet van toepassing. Daarnaast wordt bij binnenkomst doorgaans een bewijs van gelekoortsvaccinatie vereist. Controleer vóór je reis altijd of je paspoort nog minimaal zes maanden geldig is en of je reisdocumenten volledig in orde zijn, zodat je zonder problemen Oeganda kunt binnenkomen.",
+    "affiliate_hinweis": "<strong>Tip voor je reis naar Oeganda:</strong> wil je slim besparen op kosten tijdens je vakantie? Vergelijk dan vooraf creditcards die ideaal zijn voor reizen, met voordelen zoals wereldwijd gratis betalen, lage of geen opnamekosten en gunstige wisselkoersen. Zo voorkom je onnodige bankkosten bij geld opnemen en betalingen in het buitenland. Bekijk hier de vergelijking: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken voor reizen</a>.",
+    "is_optimized": true
   },
   {
     "slug": "madagaskar",
     "name": "Madagaskar",
-    "visum_status": "e-Visa of Visa on Arrival",
+    "visum_status": "Visum vereist: e-Visa of Visa on Arrival",
     "pass_monate": 6,
-    "visum_text": "Duitsers hebben een visum nodig. Dit kan vooraf als e-Visa of bij aankomst op de luchthaven (Visa on Arrival) worden verkregen. De verblijfsduur bedraagt naar keuze 15, 30 of 60 dagen (verschillende kosten).",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ontdek de wereldberoemde Baobablaan en de nationale parken helemaal flexibel. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Zorg hier voor een terreinwaardige huurauto.</a>"
+    "visum_text": "Belgische staatsburgers hebben voor een toeristisch verblijf in Madagaskar een visum nodig. Net als Duitse reizigers kunnen zij kiezen tussen een vooraf aangevraagd e-Visa of een Visa on Arrival bij aankomst op de luchthaven. De verblijfsduur is doorgaans mogelijk voor 15, 30 of 60 dagen, afhankelijk van de gekozen visumoptie en de bijbehorende kosten. Controleer vóór vertrek altijd de actuele inreisvoorwaarden, omdat regels en tarieven kunnen wijzigen.",
+    "affiliate_hinweis": "<strong>Tip voor je reis naar Madagaskar:</strong> vergelijk vooraf een creditcard die ideaal is voor buitenlandse reizen. Zo kun je vaak <strong>kosten besparen bij geld opnemen in het buitenland</strong> en <strong>wereldwijd voordelig of zelfs gratis betalen</strong>. Een goede reiscreditcard kan je verblijf in Madagaskar een stuk comfortabeler en goedkoper maken. Vergelijk hier de mogelijkheden: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken</a>.",
+    "is_optimized": true
   },
   {
     "slug": "kap-verde",
     "name": "Kaapverdië",
     "visum_status": "EASE-registratie (geen visum)",
     "pass_monate": 6,
-    "visum_text": "Voor verblijven tot 30 dagen hebben Duitsers geen visum nodig. U moet zich echter uiterlijk 5 dagen vóór vertrek online registreren via het officiële EASE-platform en de luchthavenveiligheidsbelasting (TSA) betalen.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Op grotere eilanden zoals Sal of Santiago biedt een huurauto veel vrijheid. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Controleer hier huurauto's.</a>"
+    "visum_text": "Belgische staatsburgers hebben voor toeristische reizen naar Kaapverdië geen visum nodig bij een verblijf van maximaal 30 dagen. Wel moeten reizigers zich uiterlijk 5 dagen vóór vertrek online registreren via het officiële EASE-platform en de luchthavenveiligheidsbelasting (TSA) betalen. Controleer vóór vertrek altijd of uw paspoort nog voldoende lang geldig is en of uw reisgegevens correct zijn ingevoerd. Voor langere verblijven of andere reisdoeleinden kunnen afwijkende regels gelden.",
+    "affiliate_hinweis": "<strong>Tip voor uw reis naar Kaapverdië:</strong> wilt u tijdens uw vakantie slim besparen op kosten? Vergelijk dan vooraf creditcards die gunstig zijn voor reizen, bijvoorbeeld met lage of geen kosten voor geld opnemen in het buitenland en wereldwijd gratis betalen. Zo voorkomt u onnodige bankkosten en betaalt u comfortabeler op reis. Bekijk hier de mogelijkheden: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcard vergelijken voor reizen</a>.",
+    "is_optimized": true
   },
   {
     "slug": "georgien",
     "name": "Georgië",
     "visum_status": "Geen visum nodig (tot 1 jaar)",
     "pass_monate": 0,
-    "visum_text": "Georgië heeft een van de ruimhartigste inreisregelingen ter wereld: Duitse staatsburgers kunnen met een paspoort (of zelfs met de identiteitskaart) tot een volledig jaar visumvrij in het land verblijven.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> De bergwegen in de Kaukasus roepen! <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Boek hier uw huurauto voor onvergetelijke tochten in Georgië.</a>"
+    "visum_text": "Voor Belgische staatsburgers die als toerist naar Georgië reizen, geldt in de praktijk dezelfde zeer soepele regeling als voor Duitse staatsburgers: je hebt geen visum nodig voor een verblijf tot 1 jaar. Reizen kan met een geldig Belgisch paspoort; een identiteitskaart is voor de meeste luchtvaart- en grenscontroles niet voldoende, dus een paspoort wordt sterk aanbevolen. Controleer vóór vertrek altijd of je paspoort nog lang genoeg geldig is en of je reisdocument in goede staat is. Voor toeristische reizen biedt Georgië daarmee een van de meest toegankelijke inreisregelingen van Europa, zonder visumaanvraag vooraf en zonder visum bij aankomst.",
+    "affiliate_hinweis": "<strong>Tip voor je reis naar Georgië:</strong> wil je tijdens je verblijf slim besparen op kosten voor betalen en geld opnemen? Vergelijk dan vooraf een creditcard die geschikt is voor reizen, met lage of geen kosten voor wereldwijd betalen en voordelig geld opnemen in het buitenland. Bekijk hier de mogelijkheden: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcard vergelijken voor reizen naar Georgië</a>.",
+    "is_optimized": true
   },
   {
     "slug": "kambodscha",
     "name": "Cambodja",
-    "visum_status": "e-Visa of Visa on Arrival",
+    "visum_status": "Visumplicht: e-Visa of Visa on Arrival",
     "pass_monate": 6,
-    "visum_text": "Er geldt een visumplicht. Toeristen kunnen vooraf het elektronische e-Visa aanvragen (aanbevolen) of op de luchthaven/bij grensovergangen een Visa on Arrival verkrijgen. Hiervoor zijn pasfoto's en contante Amerikaanse dollars nodig.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Profiteer van meer comfort en flexibiliteit buiten de hoofdwegen. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier huurauto's in Cambodja.</a>"
+    "visum_text": "Belgische staatsburgers hebben voor toeristische reizen naar Cambodja een visum nodig. Net als voor Duitse reizigers geldt er dus geen visumvrijstelling. U kunt vooraf een elektronisch e-Visa aanvragen, wat meestal de meest comfortabele en aanbevolen optie is. Daarnaast is het voor toeristen ook mogelijk om bij aankomst op de luchthaven of bij bepaalde grensovergangen een Visa on Arrival te verkrijgen. Houd er rekening mee dat u hiervoor doorgaans een pasfoto en contante Amerikaanse dollars nodig heeft. Controleer vóór vertrek altijd of uw paspoort nog lang genoeg geldig is en of de actuele inreisregels voor Belgische reizigers ongewijzigd zijn.",
+    "affiliate_hinweis": "<strong>Reist u naar Cambodja?</strong> Dan loont het om vooraf een goede creditcard te vergelijken. Zo bespaart u vaak op kosten bij geld opnemen in het buitenland en betaalt u wereldwijd eenvoudig zonder extra omrekenkosten. Bekijk hier een handige vergelijking voor reizen: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken voor uw reis</a>.",
+    "is_optimized": true
   },
   {
     "slug": "laos",
     "name": "Laos",
-    "visum_status": "e-Visa of Visa on Arrival",
+    "visum_status": "Visum verplicht: e-Visa of Visa on Arrival",
     "pass_monate": 6,
-    "visum_text": "Inreis is alleen mogelijk met visum. U kunt het visum online als e-Visa aanvragen of ter plaatse als Visa on Arrival verkrijgen. Voor het on-arrival-visum heeft u pasfoto's en Amerikaanse dollars nodig.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ontdek de schilderachtige landschappelijke schoonheid van Laos in uw eigen tempo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Check hier huurautoprijzen.</a>"
+    "visum_text": "Belgische staatsburgers die als toerist naar Laos reizen, hebben een visum nodig. U kunt vooraf eenvoudig een e-Visa aanvragen of bij aankomst een Visa on Arrival verkrijgen. Voor de Visa on Arrival zijn doorgaans een pasfoto, een geldig paspoort en betaling in contante Amerikaanse dollars vereist. Controleer vóór vertrek altijd of uw paspoort nog voldoende lang geldig is en houd rekening met eventuele wachttijden aan de grens. Voor Belgische reizigers gelden in de praktijk dezelfde toeristische visumregels als voor Duitse staatsburgers: visumvrij reizen is niet van toepassing.",
+    "affiliate_hinweis": "<strong>Tip voor uw reis naar Laos:</strong> wilt u slim besparen op kosten tijdens uw vakantie? Vergelijk dan een creditcard die ideaal is voor reizen, met lage of geen kosten voor geld opnemen in het buitenland en wereldwijd gratis betalen. Zo houdt u meer over voor uw reisbudget in Laos. Bekijk de mogelijkheden hier: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcard vergelijken</a>.",
+    "is_optimized": true
   },
   {
     "slug": "taiwan",
     "name": "Taiwan",
     "visum_status": "Geen visum nodig (tot 90 dagen)",
     "pass_monate": 6,
-    "visum_text": "Duitse staatsburgers kunnen voor toeristische verblijven van maximaal 90 dagen visumvrij naar Taiwan reizen. Een bevestigd retour- of doorreisticket moet op verzoek worden getoond.",
-    "affiliate_hinweis": "💡 <strong>Roadtrip-tip:</strong> Een spannende rondrit om het hele eiland Taiwan is een echt vakantiehoogtepunt. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vind hier uw Taiwan-huurauto.</a>"
+    "visum_text": "Belgische staatsburgers kunnen voor toeristische verblijven van maximaal 90 dagen visumvrij naar Taiwan reizen. Dit geldt in de regel ook voor Belgische reizigers die Taiwan als vakantiebestemming bezoeken. Wel moet je beschikken over een paspoort dat nog geldig is voor de duur van het verblijf, en kan bij aankomst worden gevraagd om een bewijs van een retour- of doorreisticket en voldoende financiële middelen. Controleer vóór vertrek altijd de actuele inreisvoorwaarden, omdat regels op korte termijn kunnen wijzigen.",
+    "affiliate_hinweis": "Tip voor reizigers naar Taiwan: met de juiste creditcard kun je flink besparen op <strong>kosten voor geld opnemen in het buitenland</strong> en <strong>wisselkoerskosten bij betalingen wereldwijd</strong>. Vergelijk daarom vooraf een kaart die past bij jouw reisplannen, zodat je in Taiwan zorgeloos en voordelig kunt betalen. Bekijk hier de mogelijkheden: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcard vergelijken voor reizen</a>.",
+    "is_optimized": true
   },
   {
     "slug": "nepal",
     "name": "Nepal",
-    "visum_status": "Visa on Arrival (online registratie)",
+    "visum_status": "Visum bij aankomst (Visa on Arrival) voor Belgische toeristen",
     "pass_monate": 6,
-    "visum_text": "Toeristen hebben een visum nodig, dat eenvoudig als Visa on Arrival op de luchthaven van Kathmandu wordt verstrekt. Om tijd te besparen moet het verplichte online aanvraagformulier al vóór vertrek elektronisch worden ingevuld.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Als u niet alleen wilt wandelen, biedt een eigen huurauto veel flexibiliteit voor uitstapjes in de Kathmandu-vallei. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier prijzen.</a>"
+    "visum_text": "Belgische staatsburgers die als toerist naar Nepal reizen, hebben een visum nodig. Voor België gelden in de praktijk dezelfde regels als voor Duitse staatsburgers: een visum is verplicht, maar het kan eenvoudig worden verkregen als Visa on Arrival bij aankomst op de luchthaven van Kathmandu en op bepaalde andere grensposten. Om tijd te besparen wordt aangeraden het verplichte online aanvraagformulier al vóór vertrek in te vullen. Zorg daarnaast voor een paspoort dat nog voldoende lang geldig is en houd rekening met de gebruikelijke visumkosten en eventuele wachttijden bij aankomst.",
+    "affiliate_hinweis": "<strong>Tip voor je reis naar Nepal:</strong> met de juiste creditcard kun je onderweg flink besparen op kosten. Vergelijk kaarten die <strong>wereldwijd gratis betalen</strong> en <strong>lage of geen kosten voor geld opnemen in het buitenland</strong> bieden, zodat je in Nepal slimmer met je reisbudget omgaat. Bekijk de mogelijkheden via <a href='https://www.tarifcheck.com/YKQ2R5K'>deze creditcardvergelijking</a> en kies een kaart die past bij jouw reisplannen.",
+    "is_optimized": true
   },
   {
     "slug": "usbekistan",
     "name": "Oezbekistan",
-    "visum_status": "Geen visum nodig (tot 30 dagen)",
+    "visum_status": "Visumvrij voor Belgische toeristen (tot 30 dagen)",
     "pass_monate": 6,
-    "visum_text": "Voor toeristische verblijven van maximaal 30 dagen is voor Duitse staatsburgers geen visum meer vereist. Belangrijk: binnen 3 dagen na aankomst moet men zich laten registreren (doet doorgaans het hotel).",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Op de fascinerende sporen van de Zijderoute bent u met een huurauto maximaal flexibel. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Zorg hier voor een huurauto voor Oezbekistan.</a>"
+    "visum_text": "Voor Belgische staatsburgers die als toerist naar Oezbekistan reizen, is voor een verblijf van maximaal 30 dagen doorgaans geen visum vereist. Dit geldt voor korte toeristische reizen en maakt een spontane rondreis door Oezbekistan eenvoudiger. Let op: bij aankomst kan registratieplicht gelden; in de praktijk regelt het hotel of de accommodatie dit meestal. Controleer daarnaast altijd of je paspoort nog voldoende lang geldig is en of de actuele inreisregels vóór vertrek niet zijn gewijzigd.",
+    "affiliate_hinweis": "<strong>Tip voor je reis naar Oezbekistan:</strong> wil je slim besparen op geld opnemen en betalingen in het buitenland? Vergelijk dan vooraf een creditcard die lage of geen kosten rekent voor wereldwijd betalen en geld opnemen. Zo voorkom je onnodige bankkosten tijdens je reis en betaal je vaak voordeliger in Oezbekistan. Bekijk hier de mogelijkheden: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcard vergelijken</a>.",
+    "is_optimized": true
   },
   {
     "slug": "fidschi",
     "name": "Fiji",
     "visum_status": "Geen visum nodig (tot 4 maanden)",
     "pass_monate": 6,
-    "visum_text": "Duitsers krijgen bij aankomst een gratis bezoekersvergunning (Visitor Permit) voor maximaal 4 maanden in het paspoort gestempeld. Verplicht zijn een retour- of doorreisticket en bewijs van voldoende financiële middelen.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Verken het prachtige hoofdeiland Viti Levu comfortabel met uw eigen auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Boek hier een huurauto voor Fiji.</a>"
+    "visum_text": "Belgische staatsburgers die als toerist naar Fiji reizen, hebben geen visum nodig voor een kort verblijf. Bij aankomst wordt doorgaans een gratis Visitor Permit in het paspoort gestempeld, met een maximale verblijfsduur van 4 maanden. Voorwaarde is wel dat je kunt aantonen dat je Fiji weer verlaat, bijvoorbeeld met een retourticket of doorreisticket, en dat je beschikt over voldoende financiële middelen voor je verblijf. Controleer daarnaast altijd of je paspoort nog voldoende lang geldig is en of je reisdoel overeenkomt met een toeristisch bezoek.",
+    "affiliate_hinweis": "<strong>Tip voor Fiji-reizigers:</strong> kies een creditcard die je helpt om <strong>kosten te besparen bij geld opnemen in het buitenland</strong> en die <strong>wereldwijd gratis betalen</strong> mogelijk maakt. Dat is extra handig in Fiji, waar je onderweg vaak wilt pinnen of contactloos wilt betalen zonder onnodige toeslagen. Vergelijk hier eenvoudig de beste opties: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken</a>.",
+    "is_optimized": true
   },
   {
     "slug": "armenien",
     "name": "Armenië",
-    "visum_status": "Geen visum nodig (tot 180 dagen)",
+    "visum_status": "Geen visum nodig voor Belgische staatsburgers (tot 180 dagen)",
     "pass_monate": 5,
-    "visum_text": "Duitsers kunnen voor een verblijf van maximaal 180 dagen binnen een kalenderjaar visumvrij naar Armenië reizen. Het paspoort moet bij binnenkomst nog minimaal 5 maanden geldig zijn.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Ontdek de indrukwekkende kloosters en berglandschappen van Armenië eenvoudig met de auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Zorg hier voor uw huurauto.</a>"
+    "visum_text": "Belgische staatsburgers kunnen voor toeristische reizen visumvrij naar Armenië reizen voor een verblijf van maximaal 180 dagen binnen een periode van 12 maanden. Dit geldt niet alleen voor Duitse, maar ook voor Belgische paspoorthouders. Het paspoort moet bij aankomst nog geldig zijn; voor een zorgeloze reis wordt aangeraden dat het paspoort nog minimaal 5 maanden geldig is. Controleer vóór vertrek altijd of je reisdocumenten voldoen aan de actuele inreisregels voor Armenië.",
+    "affiliate_hinweis": "Tip voor je reis naar Armenië: vergelijk vooraf een creditcard die ideaal is voor internationale reizen. Zo kun je mogelijk <strong>goedkoper geld opnemen in het buitenland</strong> en <strong>wereldwijd zonder extra kosten betalen</strong>. Bekijk hier de beste opties voor reizigers: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcard-vergelijking voor reizen naar Armenië</a>.",
+    "is_optimized": true
   },
   {
     "slug": "anderes-land-allgemein",
     "name": "Ander reisland (algemene bepalingen)",
     "visum_status": "Controleer de bepalingen individueel",
     "pass_monate": 6,
-    "visum_text": "Voor deze bestemming hebben wij momenteel geen specifieke gegevens. Controleer de inreisvoorwaarden op de website van het Duitse ministerie van Buitenlandse Zaken. Als vuistregel geldt wereldwijd: uw paspoort moet nog minimaal 6 maanden geldig zijn.",
-    "affiliate_hinweis": "💡 <strong>Huurautotip:</strong> Waar de reis ook heen gaat – een huurauto biedt wereldwijd ultieme vrijheid. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Vergelijk hier eenvoudig wereldwijde huurauto-aanbiedingen.</a>"
+    "visum_text": "Voor Belgische staatsburgers die als toerist naar Ander reisland (algemene bepalingen) reizen, zijn er momenteel geen specifieke, landgebonden inreisgegevens beschikbaar. Controleer daarom altijd de actuele inreisvoorwaarden vóór vertrek bij de bevoegde autoriteiten of de ambassade van het bestemmingsland. Als algemene vuistregel geldt wereldwijd dat uw paspoort nog minimaal 6 maanden geldig moet zijn bij aankomst. Afhankelijk van de bestemming kunnen daarnaast een visum, een visum bij aankomst of aanvullende documenten zoals een retourticket, bewijs van voldoende financiële middelen of een hotelreservering vereist zijn. Belgische en Duitse staatsburgers hebben in veel gevallen vergelijkbare toeristische inreisregels, maar dit kan per land verschillen. Controleer daarom altijd specifiek of Belgische reizigers onder visumvrijstelling vallen of dat een visum verplicht is.",
+    "affiliate_hinweis": "<strong>Tip voor uw reis naar Ander reisland (algemene bepalingen):</strong> wilt u tijdens uw vakantie slim besparen op kosten? Vergelijk dan vooraf creditcards die <strong>wereldwijd gratis betalen</strong> en <strong>goedkoop geld opnemen in het buitenland</strong> mogelijk maken. Zo voorkomt u onnodige transactiekosten en betaalt u comfortabeler op reis. Bekijk hier de beste opties: <a href='https://www.tarifcheck.com/YKQ2R5K'>creditcards vergelijken</a>.",
+    "is_optimized": true
   }
 ]

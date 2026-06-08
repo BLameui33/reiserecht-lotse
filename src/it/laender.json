@@ -4,487 +4,548 @@
     "name": "USA",
     "visum_status": "ESTA richiesto",
     "pass_monate": 6,
-    "visum_text": "Per l'ingresso turistico negli USA, i cittadini tedeschi necessitano obbligatoriamente di un'autorizzazione elettronica all'ingresso (ESTA). Questa deve essere richiesta online obbligatoriamente prima della partenza. Un visto regolare è necessario solo se si rimane più di 90 giorni o non si soddisfano determinati criteri.",
-    "affiliate_hinweis": "💡 <strong>Classico road trip:</strong> Gli USA si esplorano al meglio in modo flessibile con la propria auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Assicuratevi qui in anticipo la vostra auto a noleggio conveniente.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano negli USA per turismo, non è richiesto un visto tradizionale per soggiorni brevi: è invece obbligatoria l'autorizzazione elettronica ESTA nell'ambito del Visa Waiver Program. L'ESTA deve essere richiesta online prima della partenza e approvata prima dell'imbarco. Il soggiorno turistico consentito è in genere fino a 90 giorni. Un visto per gli Stati Uniti è necessario solo se si intende restare più a lungo, se lo scopo del viaggio non è turistico oppure se non si soddisfano i requisiti previsti per l'ingresso senza visto.",
+    "affiliate_hinweis": "<strong>Consiglio utile per il tuo viaggio negli USA:</strong> prima di partire, confronta le carte di credito pensate per chi viaggia spesso all'estero. Una buona carta può aiutarti a <strong>risparmiare sulle commissioni di prelievo</strong>, a <strong>pagare in tutto il mondo senza costi aggiuntivi</strong> e a gestire meglio le spese in dollari. Trova l'offerta più adatta alle tue esigenze qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronta ora le carte di credito per viaggiare negli USA</a>.",
+    "is_optimized": true
   },
   {
     "slug": "aegypten",
     "name": "Egitto",
     "visum_status": "Visto richiesto (e-Visa o all'arrivo)",
     "pass_monate": 6,
-    "visum_text": "I cittadini tedeschi necessitano di un visto per entrare in Egitto. Questo può essere richiesto in anticipo online come e-Visa. In alternativa, è disponibile il 'Visa on Arrival' direttamente in aeroporto (spesso associato a lunghe code).",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Scoprite l'Egitto al di fuori dei resort in modo flessibile e in autonomia. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui auto a noleggio convenienti.</a>"
+    "visum_text": "I cittadini italiani che viaggiano in Egitto come turisti necessitano di un visto d'ingresso. È possibile richiedere in anticipo l'e-Visa online, una soluzione pratica per organizzare il viaggio con maggiore tranquillità. In alternativa, il visto può essere ottenuto anche all'arrivo in aeroporto (Visa on Arrival), ma questa opzione può comportare tempi di attesa più lunghi. Rispetto ai cittadini tedeschi, per i cittadini italiani valgono sostanzialmente le stesse regole: non è prevista l'esenzione dal visto per soggiorni turistici, ma sono disponibili sia l'e-Visa sia il visto all'arrivo.",
+    "affiliate_hinweis": "<strong>Consiglio per il viaggio in Egitto:</strong> prima della partenza, confronta le carte di credito più adatte ai viaggi internazionali. Con la carta giusta puoi <strong>risparmiare sulle commissioni di prelievo all'estero</strong> e spesso <strong>pagare in tutto il mondo senza costi aggiuntivi</strong>. Scopri le offerte più convenienti nel confronto dedicato: <a href='https://www.tarifcheck.com/YKQ2R5K'>clicca qui per il confronto carte di credito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "tuerkei",
     "name": "Turchia",
-    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "visum_status": "Nessun visto necessario per i cittadini italiani fino a 90 giorni",
     "pass_monate": 0,
-    "visum_text": "Per soggiorni turistici fino a 90 giorni (entro un periodo di 180 giorni), i cittadini tedeschi non necessitano di visto. L'ingresso è possibile persino con la carta d'identità.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Per escursioni lungo la costa o nell'entroterra vale la pena avere un'auto propria. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Assicuratevi qui per tempo la vostra auto a noleggio per la Turchia.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Turchia per turismo, non è necessario alcun visto per soggiorni fino a 90 giorni nell'arco di 180 giorni. L'ingresso è generalmente consentito con passaporto valido; in molti casi è accettata anche la carta d'identità valida per l'espatrio, ma si consiglia di verificare sempre prima della partenza le condizioni aggiornate e la validità dei documenti di viaggio. Rispetto ai cittadini tedeschi, per i turisti italiani le regole sono sostanzialmente le stesse: nessun visto richiesto per brevi soggiorni turistici.",
+    "affiliate_hinweis": "<strong>Consiglio utile per il tuo viaggio in Turchia:</strong> prima di partire, confronta le migliori carte di credito per risparmiare su prelievi e pagamenti all'estero. Con la carta giusta puoi evitare commissioni inutili, prelevare contanti in modo più conveniente e pagare in tutto il mondo senza costi nascosti. Scopri ora il confronto consigliato su <a href='https://www.tarifcheck.com/YKQ2R5K'>Tarifcheck</a>.",
+    "is_optimized": true
   },
   {
     "slug": "uk",
     "name": "Gran Bretagna",
     "visum_status": "ETA richiesto",
     "pass_monate": 0,
-    "visum_text": "Per soggiorni turistici fino a 6 mesi, i tedeschi non necessitano di un visto classico, ma l'autorizzazione elettronica all'ingresso (ETA) è obbligatoria. È indispensabile un passaporto valido; la carta d'identità non è più sufficiente.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Ideale per le Highlands o la Cornovaglia – ricordatevi della guida a sinistra! <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui i prezzi delle auto a noleggio per la Gran Bretagna.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Gran Bretagna per turismo, non è richiesto un visto classico per soggiorni brevi fino a 6 mesi. Tuttavia, l'autorizzazione elettronica di viaggio (ETA) è obbligatoria prima della partenza. È necessario viaggiare con un passaporto valido; la carta d'identità non è sufficiente per l'ingresso. Le regole per gli italiani sono quindi sostanzialmente diverse da quelle per i cittadini tedeschi solo per quanto riguarda il documento di viaggio: anche per gli italiani non serve un visto tradizionale, ma l'ETA è obbligatoria per l'ingresso turistico.",
+    "affiliate_hinweis": "<strong>Consiglio per il viaggio in Gran Bretagna:</strong> prima di partire, confronta le migliori carte di credito per risparmiare sulle commissioni all'estero, prelevare contanti con costi ridotti e pagare in tutto il mondo senza pensieri. Un confronto intelligente può fare davvero la differenza in viaggio: <a href='https://www.tarifcheck.com/YKQ2R5K'>scopri ora il confronto carte di credito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "thailand",
     "name": "Thailandia",
-    "visum_status": "Nessun visto necessario (fino a 60 giorni)",
+    "visum_status": "Nessun visto necessario per turismo fino a 60 giorni",
     "pass_monate": 6,
-    "visum_text": "Per soggiorni turistici fino a 60 giorni, i cittadini tedeschi possono entrare senza visto. Il passaporto deve essere ancora valido per almeno 6 mesi al momento dell'ingresso. Potrebbe essere richiesto un biglietto di proseguimento o di ritorno.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Per la massima flessibilità lontano dai tipici percorsi turistici. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trovate qui auto a noleggio affidabili in Thailandia.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Thailandia per turismo, in genere non è necessario richiedere un visto per soggiorni fino a 60 giorni. All’ingresso è richiesto un passaporto valido per almeno 6 mesi dalla data di arrivo. Le autorità di frontiera possono inoltre chiedere un biglietto di ritorno o di proseguimento del viaggio e, in alcuni casi, la prova di fondi sufficienti per il soggiorno. Le regole possono cambiare in base alla durata del viaggio e al motivo dell’ingresso, quindi è sempre consigliabile verificare gli aggiornamenti prima della partenza.",
+    "affiliate_hinweis": "Per un viaggio in Thailandia conviene scegliere una carta di credito pensata per l’estero: così puoi <strong>risparmiare sulle commissioni di prelievo</strong>, pagare <strong>in tutto il mondo senza costi aggiuntivi</strong> e avere condizioni più vantaggiose sui cambi valuta. Confronta ora le migliori offerte e trova la carta più adatta al tuo viaggio: <a href='https://www.tarifcheck.com/YKQ2R5K'>vai al confronto carte di credito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "australien",
     "name": "Australia",
     "visum_status": "Visto eVisitor richiesto",
     "pass_monate": 6,
-    "visum_text": "I tedeschi necessitano obbligatoriamente di un visto per entrare in Australia. Per i turisti, il visto eVisitor (Subclass 651) è l'ideale: si richiede gratuitamente online e consente soggiorni fino a 3 mesi.",
-    "affiliate_hinweis": "💡 <strong>Consiglio road trip:</strong> L'Australia si esplora al meglio in modo flessibile con la propria auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui i prezzi delle auto a noleggio per l'Australia.</a>"
+    "visum_text": "I cittadini italiani non possono entrare in Australia come turisti senza autorizzazione: è necessario richiedere un visto prima della partenza. Per soggiorni turistici, la soluzione più adatta è l’eVisitor (Subclass 651), che si richiede online in modo gratuito e consente di restare in Australia fino a 3 mesi per ogni ingresso, nell’arco di 12 mesi. Rispetto ai cittadini tedeschi, per i cittadini italiani valgono le stesse regole principali: non c’è ingresso senza visto, non è previsto il visto all’arrivo e l’eVisitor è l’opzione standard per il turismo.",
+    "affiliate_hinweis": "<strong>Consiglio per il viaggio in Australia:</strong> prima di partire, confronta le migliori carte di credito per risparmiare sulle spese in vacanza. In Australia può essere molto utile scegliere una carta che permetta di <strong>prelevare contanti all’estero con commissioni ridotte</strong> e di <strong>pagare in tutto il mondo senza costi aggiuntivi</strong>. Confronta ora le offerte più adatte ai viaggiatori su <a href='https://www.tarifcheck.com/YKQ2R5K'>tarifcheck.com</a> e trova la carta ideale per il tuo soggiorno.",
+    "is_optimized": true
   },
   {
     "slug": "kanada",
     "name": "Canada",
-    "visum_status": "eTA richiesta",
+    "visum_status": "eTA obbligatoria",
     "pass_monate": 6,
-    "visum_text": "Chi entra in Canada per via aerea non ha bisogno di un visto, ma necessita obbligatoriamente di un'autorizzazione elettronica all'ingresso (eTA). Per l'ingresso via terra (ad es. dagli USA) non è richiesta alcuna eTA.",
-    "affiliate_hinweis": "⚠️ <strong>Consiglio auto a noleggio:</strong> Prenotate la vostra auto a noleggio per il Canada assolutamente già in Germania, per avere una copertura assicurativa completa. <a href='https://www.c24n.de/nsnjZZ8' style='color:#d32f2f;'>Confrontate qui i prezzi delle auto a noleggio.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Canada come turisti, non è richiesto un visto per soggiorni brevi, ma è obbligatoria un'autorizzazione elettronica di viaggio (eTA) se l'ingresso avviene in aereo. L'eTA va richiesta prima della partenza ed è collegata al passaporto. Se invece si entra in Canada via terra dagli Stati Uniti, l'eTA non è necessaria. In sintesi, per i cittadini italiani valgono regole molto simili a quelle dei cittadini tedeschi: niente visto turistico per brevi soggiorni, ma eTA obbligatoria per l'arrivo in aereo.",
+    "affiliate_hinweis": "<strong>Consiglio per risparmiare in viaggio in Canada:</strong> prima di partire, confronta le migliori carte di credito per evitare commissioni inutili sui pagamenti e sui prelievi all'estero. Con la carta giusta puoi spesso <strong>pagare in tutto il mondo senza costi aggiuntivi</strong> e <strong>prelevare contanti in Canada con commissioni ridotte o azzerate</strong>. Scopri subito le offerte più vantaggiose qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronta ora le carte di credito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "vae",
     "name": "Emirati Arabi Uniti (Dubai)",
-    "visum_status": "Visa on Arrival gratuito",
+    "visum_status": "Ingresso senza visto per i cittadini italiani: Visa on Arrival gratuito negli EAU",
     "pass_monate": 6,
-    "visum_text": "I tedeschi ricevono all'ingresso negli EAU (ad es. a Dubai o Abu Dhabi) gratuitamente un 'Visa on Arrival' timbrato sul passaporto. Questo autorizza un soggiorno fino a 90 giorni entro 180 giorni.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Gli Emirati offrono strade eccellentemente sviluppate. Qui un'auto a noleggio è spesso più pratica dei continui spostamenti in taxi. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trovate qui auto a noleggio per Dubai e dintorni.</a>"
+    "visum_text": "I cittadini italiani che viaggiano negli Emirati Arabi Uniti come turisti non hanno bisogno di richiedere un visto prima della partenza. All’arrivo a Dubai, Abu Dhabi o in altri aeroporti degli EAU ricevono gratuitamente un Visa on Arrival, che viene apposto sul passaporto. Questo consente in genere un soggiorno fino a 90 giorni nell’arco di 180 giorni. Per l’ingresso è necessario un passaporto italiano valido e in buone condizioni, con una validità residua sufficiente per il viaggio. Le regole per i cittadini italiani sono quindi molto favorevoli e, nella pratica, risultano sostanzialmente equivalenti a quelle previste per i cittadini tedeschi: nessun visto anticipato, ma ingresso agevolato con visto all’arrivo per turismo.",
+    "affiliate_hinweis": "<strong>Consiglio per il viaggio a Dubai:</strong> prima di partire, vale la pena confrontare una carta di credito adatta agli Emirati Arabi Uniti. In questo modo puoi <strong>risparmiare sulle commissioni</strong> quando prelevi contanti all’estero e spesso anche <strong>pagare in tutto il mondo senza costi aggiuntivi</strong>. Per trovare l’offerta più conveniente per il tuo viaggio, confronta ora le carte di credito qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>https://www.tarifcheck.com/YKQ2R5K</a>",
+    "is_optimized": true
   },
   {
     "slug": "malediven",
     "name": "Maldive",
-    "visum_status": "Visa on Arrival gratuito",
+    "visum_status": "Visto all'arrivo gratuito per cittadini italiani",
     "pass_monate": 6,
-    "visum_text": "Per le Maldive non è necessario alcun visto in anticipo. Un visto turistico di 30 giorni viene rilasciato gratuitamente all'arrivo in aeroporto. Importante: una dichiarazione elettronica di ingresso (IMUGA) deve essere compilata online prima della partenza.",
-    "affiliate_hinweis": "💡 <strong>Auto a noleggio per il viaggio:</strong> Vi serve ancora un'auto per raggiungere comodamente l'aeroporto in Germania? <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui auto a noleggio convenienti.</a>"
+    "visum_text": "Per i cittadini italiani non è necessario richiedere un visto in anticipo per un viaggio turistico alle Maldive. All'arrivo in aeroporto viene rilasciato gratuitamente un visto turistico valido fino a 30 giorni. È però obbligatorio compilare prima della partenza la dichiarazione elettronica di ingresso IMUGA. Inoltre, il passaporto deve essere valido per almeno 6 mesi dalla data di ingresso e può essere richiesto il biglietto di ritorno o di proseguimento del viaggio, insieme a una prova di disponibilità economica sufficiente per il soggiorno.",
+    "affiliate_hinweis": "Consiglio utile per il tuo viaggio alle Maldive: prima di partire, confronta le migliori carte di credito da viaggio per risparmiare sulle commissioni all'estero, prelevare contanti in modo più conveniente e pagare in tutto il mondo senza costi nascosti. <strong>Scopri ora il confronto consigliato:</strong> <a href='https://www.tarifcheck.com/YKQ2R5K'>trova la carta di credito più adatta al tuo viaggio alle Maldive</a>.",
+    "is_optimized": true
   },
   {
     "slug": "indonesien",
     "name": "Indonesia",
-    "visum_status": "Visa on Arrival / e-VoA richiesto",
+    "visum_status": "Visto all'arrivo / e-VoA richiesto per i cittadini italiani",
     "pass_monate": 6,
-    "visum_text": "Che stiate pianificando un tour o cerchiate specificamente un visto per Bali: per l'Indonesia è richiesto un visto (Visa on Arrival). Potete acquistarlo all'arrivo oppure, per evitare attese, richiederlo in anticipo online come e-VoA (valido 30 giorni).",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Bali e le altre isole si possono esplorare splendidamente con un veicolo proprio. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui i prezzi per l'Indonesia.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Indonesia per turismo è richiesto un visto. In pratica, potete ottenere il Visa on Arrival (VoA) direttamente all'arrivo oppure richiedere in anticipo l'e-VoA online per entrare più rapidamente nel Paese. Il visto turistico è generalmente valido per 30 giorni e, in molti casi, può essere prorogato una volta per ulteriori 30 giorni. Rispetto ai cittadini tedeschi, per i cittadini italiani valgono le stesse regole di ingresso turistico: non c'è un'esenzione dal visto, ma è disponibile la formula Visa on Arrival / e-VoA. Prima della partenza, verificate sempre che il passaporto sia valido per almeno 6 mesi e che siano soddisfatti eventuali requisiti aggiuntivi di ingresso.",
+    "affiliate_hinweis": "Consiglio per il viaggio in Indonesia: se volete <strong>risparmiare sulle commissioni di prelievo all'estero</strong> e <strong>pagare nel mondo senza costi inutili</strong>, vale la pena confrontare le carte di credito prima della partenza. Un buon confronto può aiutarvi a trovare una carta ideale per i viaggi, con vantaggi come prelievi convenienti, pagamenti internazionali gratuiti e condizioni adatte al vostro soggiorno in Indonesia. Potete dare un'occhiata qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronto carte di credito per viaggiare in Indonesia</a>.",
+    "is_optimized": true
   },
   {
     "slug": "vietnam",
     "name": "Vietnam",
-    "visum_status": "Nessun visto necessario (fino a 45 giorni)",
+    "visum_status": "Visto richiesto: e-Visa fino a 90 giorni",
     "pass_monate": 6,
-    "visum_text": "I cittadini tedeschi possono entrare in Vietnam senza visto per un massimo di 45 giorni. Chi desidera restare più a lungo (fino a 90 giorni) deve richiedere in anticipo un e-Visa.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Scoprite il Vietnam in modo del tutto individuale e al vostro ritmo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Assicuratevi qui il vostro veicolo.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Vietnam come turisti, le regole di ingresso sono diverse rispetto ai cittadini tedeschi: al momento non si applica una lunga esenzione dal visto come per la Germania. In genere, i cittadini italiani devono richiedere in anticipo un e-Visa per entrare in Vietnam come turisti. L’e-Visa consente normalmente un soggiorno fino a 90 giorni ed è la soluzione più pratica per un viaggio turistico. Prima della partenza, verifica sempre i requisiti aggiornati, perché le norme di ingresso possono cambiare.",
+    "affiliate_hinweis": "<strong>Consiglio utile per il tuo viaggio in Vietnam:</strong> prima di partire, confronta le migliori carte di credito per viaggiare e risparmiare su prelievi e pagamenti all’estero. Con la carta giusta puoi spesso <strong>evitare commissioni elevate</strong> sui prelievi in valuta locale e <strong>pagare in tutto il mondo senza costi aggiuntivi</strong>. Scopri le offerte più convenienti qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronta ora le carte di credito per il Vietnam</a>.",
+    "is_optimized": true
   },
   {
     "slug": "sri-lanka",
     "name": "Sri Lanka",
-    "visum_status": "e-Visa / ETA richiesto",
+    "visum_status": "ETA elettronica richiesta",
     "pass_monate": 6,
-    "visum_text": "Per lo Sri Lanka è previsto l'obbligo di visto. L'e-Visa (ETA) dovrebbe essere richiesto obbligatoriamente online prima del viaggio. Consente un soggiorno fino a 30 giorni.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Vivete le piantagioni di tè e le spiagge dello Sri Lanka in modo flessibile con la vostra auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trovate qui l'auto a noleggio adatta.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Sri Lanka per turismo è richiesto un visto prima dell’ingresso. Attualmente la soluzione prevista è l’ETA elettronica, che va richiesta online prima della partenza. Non risulta una differenza sostanziale rispetto ai cittadini tedeschi: anche per gli italiani non è prevista l’esenzione dal visto per soggiorni turistici. L’ETA consente in genere un soggiorno fino a 30 giorni ed è consigliabile verificare sempre eventuali aggiornamenti ufficiali prima del viaggio, poiché le norme di ingresso possono cambiare.",
+    "affiliate_hinweis": "Consiglio utile per il tuo viaggio in Sri Lanka: prima di partire, confronta le migliori carte di credito per risparmiare sulle commissioni all’estero, prelevare contanti a costi ridotti e pagare in tutto il mondo senza spese inutili. Trova l’offerta più adatta alle tue esigenze qui: <strong><a href='https://www.tarifcheck.com/YKQ2R5K'>confronto carte di credito per viaggiare in Sri Lanka</a></strong>.",
+    "is_optimized": true
   },
   {
     "slug": "suedafrika",
     "name": "Sudafrica",
-    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "visum_status": "Nessun visto necessario per turismo fino a 90 giorni",
     "pass_monate": 1,
-    "visum_text": "I tedeschi non necessitano di visto per soggiorni turistici fino a 90 giorni. All'ingresso ricevono un permesso di visita (Visitor's Visa) alla frontiera. Il passaporto deve essere leggibile elettronicamente e avere almeno due pagine libere.",
-    "affiliate_hinweis": "💡 <strong>Auto a noleggio per il Sudafrica:</strong> Per la Garden Route o i parchi nazionali, un'auto a noleggio propria è la scelta migliore. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui auto a noleggio convenienti con copertura completa.</a>"
+    "visum_text": "I cittadini italiani possono entrare in Sudafrica per motivi turistici senza visto per soggiorni fino a 90 giorni. All'arrivo viene rilasciato un permesso di visita (Visitor's Permit) alla frontiera. Il passaporto deve essere valido per almeno 30 giorni oltre la data di uscita prevista dal Paese e deve contenere almeno due pagine bianche consecutive per i timbri di ingresso e uscita. È importante verificare che il documento sia in buone condizioni e leggibile elettronicamente, se applicabile. Le regole per i cittadini italiani sono quindi sostanzialmente le stesse previste per i cittadini tedeschi: per turismo non è richiesto un visto preventivo, ma restano obbligatori i requisiti di validità del passaporto e il rispetto della durata massima di soggiorno consentita.",
+    "affiliate_hinweis": "<strong>Consiglio utile per il viaggio in Sudafrica:</strong> prima di partire, confronta le carte di credito più adatte ai viaggi internazionali per risparmiare sulle commissioni di prelievo e pagare in tutto il mondo senza costi inutili. Una buona carta può fare davvero la differenza durante il soggiorno. Scopri ora il confronto qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>https://www.tarifcheck.com/YKQ2R5K</a>",
+    "is_optimized": true
   },
   {
     "slug": "japan",
     "name": "Giappone",
-    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "visum_status": "Nessun visto necessario per cittadini italiani (fino a 90 giorni)",
     "pass_monate": 0,
-    "visum_text": "I tedeschi possono entrare in Giappone come 'Temporary Visitor' senza visto per un massimo di 90 giorni. Il passaporto deve essere semplicemente valido per tutta la durata del soggiorno. Una registrazione web preventiva (Visit Japan Web) accelera l'ingresso.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Per esplorare le regioni rurali del Giappone, un'auto a noleggio è un complemento perfetto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui le auto a noleggio in Giappone.</a>"
+    "visum_text": "I cittadini italiani possono entrare in Giappone come \"Temporary Visitor\" senza visto per soggiorni turistici fino a 90 giorni. Per l’ingresso è necessario un passaporto italiano valido per tutta la durata del soggiorno; in alcuni casi le autorità possono richiedere anche un biglietto di ritorno o di proseguimento del viaggio e la prova di mezzi economici sufficienti. Per i viaggiatori italiani non è previsto un visto all’arrivo: l’ingresso avviene normalmente in regime di esenzione dal visto, come per i cittadini tedeschi. Una registrazione preventiva su Visit Japan Web non è obbligatoria, ma può velocizzare le procedure di immigrazione e dogana all’arrivo. Se il soggiorno supera i 90 giorni o se il viaggio ha finalità diverse dal turismo, è necessario verificare in anticipo i requisiti specifici presso le autorità competenti.",
+    "affiliate_hinweis": "<strong>Consiglio utile per il tuo viaggio in Giappone:</strong> prima di partire, confronta le migliori carte di credito per risparmiare sulle commissioni all’estero, prelevare contanti in modo conveniente e pagare in tutto il mondo senza costi inutili. Con il confronto giusto puoi trovare soluzioni ideali per viaggiare in Giappone in modo più pratico e conveniente: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronta ora le carte di credito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "dominikanische-republik",
     "name": "Repubblica Dominicana",
-    "visum_status": "E-Ticket richiesto (nessun visto)",
+    "visum_status": "Nessun visto richiesto, ma E-Ticket obbligatorio",
     "pass_monate": 6,
-    "visum_text": "Per un soggiorno turistico fino a 30 giorni, i tedeschi non necessitano di visto. Tuttavia, è obbligatorio compilare online un modulo elettronico gratuito (E-Ticket) per ingresso e uscita.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Scoprite spiagge da sogno e l'entroterra dell'isola in autonomia. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Prenotate qui la vostra auto a noleggio per la Rep. Dominicana.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano nella Repubblica Dominicana per turismo non è richiesto alcun visto per soggiorni di breve durata. L’ingresso è generalmente consentito senza visto per motivi turistici, a condizione che il viaggio rientri nelle norme vigenti e che il passaporto sia valido per tutta la durata del soggiorno. Tuttavia, è obbligatorio compilare online l’E-Ticket, il modulo elettronico gratuito richiesto sia per l’ingresso sia per l’uscita dal Paese. In pratica, rispetto ai cittadini tedeschi non risultano differenze sostanziali: anche per gli italiani vale la stessa regola di esenzione dal visto per turismo e l’obbligo dell’E-Ticket. Prima della partenza, è consigliabile verificare eventuali aggiornamenti delle autorità dominicane e controllare che i documenti di viaggio siano completi e in regola.",
+    "affiliate_hinweis": "Consiglio utile per chi viaggia nella Repubblica Dominicana: prima di partire, confronta le migliori carte di credito per <strong>risparmiare sulle commissioni all’estero</strong>, prelevare contanti con costi ridotti e <strong>pagare in tutto il mondo senza spese inutili</strong>. Un confronto mirato può fare davvero la differenza in vacanza. Scopri l’offerta qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>https://www.tarifcheck.com/YKQ2R5K</a>",
+    "is_optimized": true
   },
   {
     "slug": "mexiko",
     "name": "Messico",
-    "visum_status": "Nessun visto necessario (fino a 180 giorni)",
+    "visum_status": "Nessun visto necessario per i cittadini italiani (fino a 180 giorni per turismo)",
     "pass_monate": 6,
-    "visum_text": "L'ingresso per i turisti tedeschi è possibile senza visto. All'arrivo può essere concesso un soggiorno fino a 180 giorni. A volte in aeroporto viene compilata una carta turistica (FMM), spesso ormai in formato digitale.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Ideale per raggiungere cenote e rovine Maya nello Yucatán. Meglio prenotare già dalla Germania. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trovate qui auto a noleggio per il Messico.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Messico per turismo non è necessario richiedere un visto in anticipo. All’ingresso nel Paese può essere autorizzato un soggiorno fino a 180 giorni, a discrezione delle autorità di frontiera. In genere è richiesto un passaporto valido per tutta la durata del viaggio e, a seconda del punto di ingresso, possono essere richiesti dati sul volo di ritorno o sul soggiorno. La vecchia carta turistica FMM è stata in molti casi digitalizzata o non viene più consegnata in formato cartaceo come in passato. Le regole per i cittadini italiani risultano sostanzialmente uguali a quelle per i cittadini tedeschi: anche per l’Italia vale normalmente l’ingresso senza visto per turismo, senza differenze rilevanti in termini di visa on arrival o obbligo di visto. È comunque consigliabile verificare prima della partenza eventuali aggiornamenti ufficiali, soprattutto in caso di cambi normativi o di viaggi con scali particolari.",
+    "affiliate_hinweis": "Consiglio utile per il tuo viaggio in Messico: prima di partire, confronta una carta di credito adatta ai viaggi internazionali. Con la carta giusta puoi <strong>risparmiare sulle commissioni di prelievo all’estero</strong> e <strong>pagare in tutto il mondo senza costi inutili</strong>. Scopri le offerte più vantaggiose nel confronto dedicato: <a href='https://www.tarifcheck.com/YKQ2R5K' target='_blank' rel='noopener noreferrer'>confronta ora le carte di credito per il Messico</a>.",
+    "is_optimized": true
   },
   {
     "slug": "kuba",
     "name": "Cuba",
-    "visum_status": "Carta turistica richiesta",
+    "visum_status": "Carta turistica richiesta per i cittadini italiani",
     "pass_monate": 6,
-    "visum_text": "Per Cuba è necessaria una carta turistica (Tarjeta del Turista) al posto di un visto classico, valida per 90 giorni. Inoltre, è obbligatorio dimostrare di avere un'assicurazione sanitaria estera valida (in spagnolo o inglese).",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Un road trip attraverso l'isola rende la vacanza a Cuba davvero indimenticabile. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Verificate qui la disponibilità di auto a noleggio.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano a Cuba per turismo non è previsto un visto classico, ma è obbligatoria la Carta Turistica (Tarjeta del Turista). In genere consente un soggiorno fino a 90 giorni, con possibilità di proroga secondo le regole locali. Inoltre, all’ingresso può essere richiesto di dimostrare una copertura assicurativa sanitaria valida per l’estero, idealmente in lingua spagnola o inglese. Prima della partenza, verifica sempre eventuali aggiornamenti su documenti, moduli di ingresso e requisiti sanitari, perché le disposizioni possono cambiare.",
+    "affiliate_hinweis": "Consiglio utile per il tuo viaggio a Cuba: prima di partire, confronta le migliori <strong>carte di credito per viaggiare</strong> e scegli quella più adatta per <strong>prelevare contanti all’estero con meno commissioni</strong> e <strong>pagare in tutto il mondo senza costi nascosti</strong>. Un buon confronto può aiutarti a risparmiare subito durante il soggiorno. Scopri le offerte qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronta ora le carte di credito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "brasilien",
     "name": "Brasile",
-    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "visum_status": "Nessun visto necessario per i cittadini italiani fino a 90 giorni",
     "pass_monate": 6,
-    "visum_text": "I turisti tedeschi possono entrare in Brasile senza visto per un massimo di 90 giorni per semestre. All'ingresso deve poter essere presentato un biglietto di ritorno o di proseguimento e una prova di mezzi finanziari sufficienti.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Il Brasile è enorme – un'auto a noleggio propria garantisce la flessibilità necessaria sul posto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Assicuratevi qui per tempo la vostra auto.</a>"
+    "visum_text": "I cittadini italiani possono entrare in Brasile per turismo senza visto per soggiorni fino a 90 giorni. In molti casi il soggiorno può essere prorogato una volta, fino a un massimo complessivo di 180 giorni nell’arco di 12 mesi, secondo le disposizioni delle autorità brasiliane. All’ingresso è consigliabile poter presentare un biglietto di ritorno o di proseguimento, la prova di mezzi finanziari sufficienti per il soggiorno e un passaporto valido per il periodo richiesto dalle norme vigenti. Poiché le regole di ingresso possono cambiare, è opportuno verificare sempre i requisiti aggiornati prima della partenza. Rispetto ai cittadini tedeschi, per i turisti italiani non risultano in genere differenze sostanziali: anche per l’Italia vale normalmente l’ingresso senza visto per brevi soggiorni turistici in Brasile.",
+    "affiliate_hinweis": "Consiglio utile per il tuo viaggio in Brasile: prima di partire, confronta le migliori carte di credito da viaggio per risparmiare sulle commissioni e pagare in tutto il mondo senza costi inutili. Con la carta giusta puoi spesso prelevare contanti all’estero a condizioni più vantaggiose e fare acquisti in valuta locale in modo più conveniente. Scopri le offerte aggiornate qui: <strong><a href='https://www.tarifcheck.com/YKQ2R5K'>confronto carte di credito per viaggiare in Brasile</a></strong>.",
+    "is_optimized": true
   },
   {
     "slug": "costa-rica",
     "name": "Costa Rica",
-    "visum_status": "Nessun visto necessario (fino a 180 giorni)",
+    "visum_status": "Nessun visto necessario per i cittadini italiani (fino a 180 giorni)",
     "pass_monate": 6,
-    "visum_text": "Nessun obbligo di visto per i tedeschi. All'ingresso possono essere concessi fino a 180 giorni di soggiorno. È obbligatorio un biglietto di ritorno o di proseguimento (bus o aereo).",
-    "affiliate_hinweis": "💡 <strong>Auto a noleggio in Costa Rica:</strong> Per i parchi nazionali e le strade non asfaltate è spesso consigliato un veicolo 4x4. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui le auto a noleggio per la Costa Rica.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Costa Rica per turismo non è richiesto alcun visto per soggiorni fino a 180 giorni. All'ingresso può essere richiesto un passaporto valido, un biglietto di ritorno o di proseguimento del viaggio e, in alcuni casi, la prova di mezzi finanziari sufficienti per la durata del soggiorno. Rispetto ai cittadini tedeschi, le regole per i cittadini italiani sono sostanzialmente identiche: anche per l'Italia vale normalmente l'ingresso senza visto per turismo, senza differenze rilevanti in termini di visumzwang, visa on arrival o visumfreiheit.",
+    "affiliate_hinweis": "Consiglio utile per il tuo viaggio in Costa Rica: prima della partenza conviene confrontare una carta di credito pensata per chi viaggia spesso, così puoi <strong>risparmiare sulle commissioni di prelievo all'estero</strong> e <strong>pagare in tutto il mondo senza costi inutili</strong>. Un confronto mirato ti aiuta a trovare offerte con vantaggi reali per il viaggio. Dai un'occhiata qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronta ora le carte di credito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "neuseeland",
     "name": "Nuova Zelanda",
-    "visum_status": "NZeTA richiesta",
+    "visum_status": "Nessun visto richiesto, ma NZeTA obbligatoria",
     "pass_monate": 3,
-    "visum_text": "I tedeschi non necessitano di visto per soggiorni fino a 3 mesi, ma è obbligatoria l'autorizzazione elettronica all'ingresso (NZeTA). Insieme alla NZeTA viene automaticamente applicata una tassa turistica (IVL).",
-    "affiliate_hinweis": "💡 <strong>Paradiso dei road trip:</strong> Esplorate la Nuova Zelanda al meglio con il vostro veicolo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Prenotate qui un'auto a noleggio in Nuova Zelanda.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Nuova Zelanda come turisti non è necessario richiedere un visto per soggiorni brevi fino a 3 mesi. Tuttavia, prima della partenza è obbligatoria l'autorizzazione elettronica all'ingresso NZeTA (New Zealand Electronic Travel Authority). Inoltre, insieme alla NZeTA viene applicata l'International Visitor Conservation and Tourism Levy (IVL), una tassa turistica prevista per molti viaggiatori. In sintesi: per l'ingresso turistico in Nuova Zelanda gli italiani godono di esenzione dal visto, ma devono ottenere la NZeTA prima del viaggio. Le regole sono sostanzialmente diverse rispetto ai cittadini di Paesi soggetti a visto, mentre per gli italiani non è previsto un visto tradizionale né un visto all'arrivo per turismo.",
+    "affiliate_hinweis": "Per il tuo viaggio in Nuova Zelanda, valuta una <strong>carta di credito adatta all'estero</strong>: può aiutarti a <strong>risparmiare sulle commissioni di prelievo</strong>, a <strong>pagare in tutto il mondo senza costi inutili</strong> e a gestire meglio le spese in valuta locale. Confronta ora le offerte più convenienti qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>trova la carta di credito ideale per viaggiare in Nuova Zelanda</a>.",
+    "is_optimized": true
   },
   {
     "slug": "philippinen",
     "name": "Filippine",
-    "visum_status": "Nessun visto necessario (fino a 30 giorni)",
+    "visum_status": "Nessun visto necessario per turismo fino a 30 giorni",
     "pass_monate": 6,
-    "visum_text": "Per un soggiorno fino a 30 giorni, i cittadini tedeschi non necessitano di visto. Sono obbligatori un biglietto di ritorno o di proseguimento valido e la registrazione elettronica (eTravel) prima della partenza.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Sulle isole più grandi vale la pena noleggiare un'auto per escursioni indipendenti. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui le offerte convenienti.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano nelle Filippine come turisti, non è necessario un visto per soggiorni fino a 30 giorni. All’ingresso è richiesto un passaporto valido per almeno 6 mesi oltre la data di arrivo, un biglietto di ritorno o di proseguimento del viaggio e la registrazione elettronica eTravel prima della partenza. Le regole per i cittadini italiani sono sostanzialmente le stesse previste per i cittadini tedeschi: per brevi soggiorni turistici non è richiesto un visto d’ingresso, purché siano rispettati i requisiti documentali e di registrazione.",
+    "affiliate_hinweis": "<strong>Consiglio utile per il viaggio nelle Filippine:</strong> prima di partire, confronta le migliori carte di credito per risparmiare sulle spese in viaggio, evitare commissioni elevate sui prelievi all’estero e pagare in tutto il mondo senza costi nascosti. Un confronto mirato può farti risparmiare davvero durante il soggiorno. Scopri l’offerta qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronta ora le carte di credito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "malaysia",
     "name": "Malesia",
-    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "visum_status": "Ingresso senza visto fino a 90 giorni per cittadini italiani",
     "pass_monate": 6,
-    "visum_text": "Ingresso senza visto per i tedeschi fino a 90 giorni. Attenzione: dal 2024 è obbligatorio compilare la carta d'arrivo digitale (MDAC - Malaysia Digital Arrival Card) entro 3 giorni dall'arrivo.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> La rete stradale in Malesia è eccellentemente sviluppata – perfetta per un road trip. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Prenotate qui un'auto a noleggio.</a>"
+    "visum_text": "I cittadini italiani possono entrare in Malesia per turismo senza visto per soggiorni fino a 90 giorni. È necessario avere un passaporto valido per tutta la durata del viaggio e rispettare le normali condizioni di ingresso turistiche. Attenzione: per l’ingresso è obbligatorio compilare la Malaysia Digital Arrival Card (MDAC) entro 3 giorni prima dell’arrivo. In generale, per i cittadini italiani le regole sono analoghe a quelle previste per i cittadini tedeschi: non è richiesto un visto turistico per soggiorni brevi, ma resta obbligatorio l’adempimento digitale di arrivo.",
+    "affiliate_hinweis": "<strong>Consiglio viaggio per la Malesia:</strong> prima di partire, confronta le migliori carte di credito per risparmiare sulle spese in viaggio. Una carta adatta all’estero può aiutarti a <strong>prelevare contanti con commissioni ridotte</strong> e a <strong>pagare in tutto il mondo senza costi nascosti</strong>. Scopri le offerte più convenienti qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronta ora le carte di credito per la Malesia</a>.",
+    "is_optimized": true
   },
   {
     "slug": "singapur",
     "name": "Singapore",
     "visum_status": "Nessun visto necessario (fino a 90 giorni)",
     "pass_monate": 6,
-    "visum_text": "Per Singapore, come turista, non avete bisogno di un visto. Tuttavia, è obbligatorio compilare online la 'SG Arrival Card' fino a 3 giorni prima dell'arrivo, nella quale vengono richieste informazioni sanitarie e di viaggio.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Anche a Singapore e dintorni un'auto a noleggio può essere estremamente pratica per le escursioni. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui i prezzi.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano a Singapore come turisti non è richiesto alcun visto per soggiorni di breve durata, generalmente fino a 90 giorni. Rispetto ai cittadini tedeschi, le regole di ingresso sono sostanzialmente le stesse: anche per l'Italia vale l'ingresso senza visto per turismo, a condizione di rispettare i requisiti di soggiorno e di ingresso stabiliti dalle autorità di Singapore. È comunque obbligatorio compilare online la Singapore Arrival Card (SG Arrival Card) entro 3 giorni prima dell'arrivo. In questo modulo vengono richieste informazioni personali, di viaggio e sanitarie. Inoltre, è necessario disporre di un passaporto valido per l'intera durata del soggiorno e di un biglietto di ritorno o di proseguimento del viaggio, oltre a dimostrare di avere mezzi sufficienti per il soggiorno. Le norme di ingresso possono cambiare, quindi è consigliabile verificare sempre gli aggiornamenti ufficiali prima della partenza.",
+    "affiliate_hinweis": "<strong>Consiglio per chi viaggia a Singapore:</strong> prima di partire, confronta le migliori carte di credito per risparmiare sulle spese in viaggio. Con la carta giusta puoi <strong>prelevare contanti all'estero con commissioni ridotte</strong> e <strong>pagare in tutto il mondo senza costi nascosti</strong>. Scopri ora le offerte più adatte a Singapore qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronta le carte di credito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "suedkorea",
     "name": "Corea del Sud",
-    "visum_status": "K-ETA richiesta",
+    "visum_status": "Ingresso senza visto per turismo fino a 90 giorni, con K-ETA temporaneamente non richiesta per i cittadini italiani.",
     "pass_monate": 6,
-    "visum_text": "Ingresso senza visto fino a 90 giorni. Tuttavia, l'autorizzazione elettronica di viaggio (K-ETA) è obbligatoria e deve essere approvata online prima della partenza. Evita anche di dover compilare la carta d'arrivo in aereo.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Soprattutto per esplorare la popolare isola di Jeju, un'auto a noleggio è indispensabile. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trovate qui il vostro veicolo per la Corea del Sud.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Corea del Sud per turismo, l’ingresso è generalmente possibile senza visto per soggiorni fino a 90 giorni. A differenza di alcune altre nazionalità, non è previsto un visto turistico preventivo per brevi permanenze. Inoltre, al momento i cittadini italiani sono esentati dall’obbligo di richiedere la K-ETA per l’ingresso turistico, salvo eventuali cambiamenti normativi. È comunque consigliabile verificare prima della partenza eventuali aggiornamenti ufficiali, in particolare se il viaggio prevede scali, soggiorni più lunghi o motivi diversi dal turismo. Assicurati inoltre di avere un passaporto valido per tutta la durata del soggiorno e di poter dimostrare il biglietto di ritorno o di proseguimento del viaggio.",
+    "affiliate_hinweis": "<strong>Consiglio viaggio per la Corea del Sud:</strong> prima di partire, confronta le carte di credito più adatte ai viaggi internazionali per risparmiare su prelievi e pagamenti all’estero. Con la carta giusta puoi ridurre le commissioni, prelevare contanti in modo più conveniente e pagare in tutto il mondo senza costi inutili. Scopri le offerte più interessanti qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronta ora le carte di credito per viaggiare in Corea del Sud</a>.",
+    "is_optimized": true
   },
   {
     "slug": "china",
     "name": "Cina",
-    "visum_status": "Senza visto (fino a 15 giorni) / altrimenti visto",
+    "visum_status": "Visto obbligatorio per i cittadini italiani",
     "pass_monate": 6,
-    "visum_text": "Grazie a una normativa speciale, i tedeschi possono attualmente entrare senza visto per soggiorni turistici fino a 15 giorni. Per soggiorni superiori a 15 giorni, è obbligatorio richiedere in anticipo un visto classico presso un Visa Application Service Center.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Muovetevi con flessibilità nel Regno di Mezzo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui i prezzi delle auto a noleggio per la Cina.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Cina per turismo, l'ingresso senza visto non è generalmente previsto. A differenza di alcune agevolazioni temporanee che possono riguardare altre nazionalità, i viaggiatori italiani devono normalmente richiedere in anticipo un visto turistico per la Cina presso l'autorità competente o un Visa Application Service Center prima della partenza. È importante verificare sempre i requisiti aggiornati prima del viaggio, poiché le norme di ingresso possono cambiare con breve preavviso. Per soggiorni turistici, assicurati inoltre che il passaporto abbia una validità sufficiente e che la documentazione richiesta sia completa per evitare ritardi o rifiuti.",
+    "affiliate_hinweis": "Consiglio utile per il tuo viaggio in Cina: prima di partire, confronta le migliori <strong>carte di credito da viaggio</strong> per risparmiare su prelievi all'estero, pagamenti in valuta locale e commissioni nascoste. Una carta adatta ai viaggi internazionali può fare davvero la differenza, soprattutto se vuoi <strong>pagare ovunque senza costi aggiuntivi</strong> e prelevare contanti in modo più conveniente. Scopri qui il confronto aggiornato: <a href='https://www.tarifcheck.com/YKQ2R5K'>https://www.tarifcheck.com/YKQ2R5K</a>",
+    "is_optimized": true
   },
   {
     "slug": "indien",
     "name": "India",
-    "visum_status": "e-Visa richiesto",
+    "visum_status": "Visto elettronico richiesto",
     "pass_monate": 6,
-    "visum_text": "L'ingresso è possibile solo con un visto valido. Per i turisti si consiglia l'e-Visa, da richiedere online in anticipo. Il passaporto deve avere almeno due pagine libere.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Per maggiore comfort e indipendenza sulle strade indiane, si consiglia un'auto a noleggio. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Verificate qui le offerte.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in India per turismo è necessario ottenere un visto prima della partenza. In genere è possibile richiedere l'e-Visa online, una soluzione pratica e consigliata per soggiorni turistici di breve durata. Non è prevista l'esenzione dal visto per i cittadini italiani e, salvo casi particolari, non si può entrare in India senza un'autorizzazione valida. Il passaporto deve essere valido per tutta la durata del soggiorno e avere almeno due pagine libere per i timbri di ingresso e uscita. Prima della partenza, verifica sempre i requisiti aggiornati per l'e-Visa India, inclusi durata consentita, documenti richiesti e tempi di elaborazione.",
+    "affiliate_hinweis": "<strong>Consiglio utile per il tuo viaggio in India:</strong> prima di partire, confronta le migliori carte di credito per viaggiare e risparmiare su prelievi e pagamenti all'estero. Una carta adatta ai viaggi può aiutarti a <strong>evitare commissioni elevate</strong>, prelevare contanti in modo più conveniente e pagare in tutto il mondo senza costi nascosti. Dai un'occhiata al confronto qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>scopri ora la carta di credito più conveniente per il tuo viaggio</a>.",
+    "is_optimized": true
   },
   {
     "slug": "kenia",
     "name": "Kenya",
-    "visum_status": "eTA richiesta",
+    "visum_status": "eTA obbligatoria",
     "pass_monate": 6,
-    "visum_text": "Il Kenya ha abolito il visto, ma ora richiede obbligatoriamente a tutti i viaggiatori (anche ai bambini) un'autorizzazione elettronica all'ingresso (eTA). Questa deve essere richiesta online per tempo prima della partenza.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Per un safari personalizzato o per proseguire il viaggio, un 4x4 a noleggio è l'ideale. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui i 4x4 a noleggio.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Kenya come turisti non è richiesto un visto tradizionale, ma è obbligatoria un'autorizzazione elettronica di viaggio (eTA) da richiedere online prima della partenza. L'eTA è necessaria anche per i minori e deve essere approvata prima dell'imbarco. Ti consigliamo di presentare la richiesta con anticipo, verificare che il passaporto sia valido per l'intera durata del soggiorno e controllare eventuali requisiti aggiuntivi prima del viaggio. In sintesi: per l'ingresso turistico in Kenya, i cittadini italiani devono ottenere l'eTA in anticipo; non è prevista la visa on arrival.",
+    "affiliate_hinweis": "<strong>Consiglio utile per il Kenya:</strong> prima di partire, confronta le migliori carte di credito per viaggiare e risparmiare su prelievi e pagamenti all'estero. Una carta adatta ai viaggi può aiutarti a <strong>evitare commissioni elevate</strong> ai bancomat, pagare <strong>in tutto il mondo senza costi</strong> e gestire meglio le spese in valuta locale. Scopri le offerte più convenienti qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronto carte di credito per viaggiatori</a>.",
+    "is_optimized": true
   },
   {
     "slug": "tansania",
     "name": "Tanzania (Zanzibar)",
     "visum_status": "Visto / e-Visa richiesto",
     "pass_monate": 6,
-    "visum_text": "I tedeschi necessitano di un visto per la Tanzania e la popolare Zanzibar. L'e-Visa dovrebbe essere richiesto online al più tardi 10 giorni prima della partenza. È possibile ottenere un 'Visa on Arrival', ma può comportare lunghe attese.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Scoprite Zanzibar o la terraferma in modo flessibile e in autonomia. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Prenotate qui la vostra auto a noleggio in Tanzania.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano a Zanzibar per turismo è richiesto un visto per la Tanzania. In pratica, non c'è esenzione dal visto per i titolari di passaporto italiano: è possibile richiedere l'e-Visa online prima della partenza oppure ottenere un Visa on Arrival all'arrivo, ma questa seconda opzione può comportare tempi di attesa più lunghi e non è sempre la soluzione più comoda. Per un viaggio senza stress, si consiglia di presentare la domanda di e-Visa con un certo anticipo rispetto alla partenza. Verifica sempre che il passaporto sia valido per tutta la durata del soggiorno e che tu disponga dei documenti di viaggio richiesti per l'ingresso turistico.",
+    "affiliate_hinweis": "<strong>Consiglio per il viaggio a Tanzania (Zanzibar):</strong> prima di partire, confronta le migliori carte di credito per viaggiare e risparmiare su prelievi e pagamenti all'estero. Con la carta giusta puoi ridurre le commissioni, prelevare contanti in modo più conveniente e pagare in tutto il mondo senza costi inutili. Scopri le offerte nel confronto dedicato qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronto carte di credito per viaggiatori</a>.",
+    "is_optimized": true
   },
   {
     "slug": "seychellen",
     "name": "Seychelles",
-    "visum_status": "Travel Authorization richiesta",
+    "visum_status": "Autorizzazione di viaggio richiesta",
     "pass_monate": 0,
-    "visum_text": "Per le Seychelles non è previsto l'obbligo di visto. Prima della partenza, tuttavia, è obbligatorio ottenere online un'autorizzazione all'ingresso a pagamento (Travel Authorization). Il passaporto deve essere valido almeno fino all'uscita dal Paese.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Esplorate Mahé o Praslin al vostro ritmo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Assicuratevi qui un'auto per le Seychelles.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano alle Seychelles per turismo non è richiesto un visto d'ingresso. Tuttavia, prima della partenza è obbligatorio ottenere online una Travel Authorization a pagamento. All'arrivo deve inoltre essere presentato un passaporto valido per tutta la durata del soggiorno, insieme ai documenti di viaggio richiesti, come prova del volo di ritorno, conferma dell'alloggio e mezzi finanziari sufficienti. Le norme per i cittadini italiani risultano quindi sostanzialmente uguali a quelle previste per i cittadini tedeschi: nessun visto turistico, ma autorizzazione di viaggio obbligatoria prima dell'ingresso.",
+    "affiliate_hinweis": "Consiglio utile per il tuo viaggio alle Seychelles: prima di partire, confronta le migliori carte di credito per risparmiare sulle spese in vacanza, ad esempio su prelievi di contanti all'estero e pagamenti in tutto il mondo senza commissioni. Un confronto rapido può aiutarti a scegliere la carta più conveniente per il tuo soggiorno: <strong><a href='https://www.tarifcheck.com/YKQ2R5K'>confronta ora le carte di credito più adatte ai viaggi alle Seychelles</a></strong>.",
+    "is_optimized": true
   },
   {
     "slug": "mauritius",
     "name": "Mauritius",
-    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "visum_status": "Nessun visto necessario per turismo (fino a 90 giorni)",
     "pass_monate": 0,
-    "visum_text": "Nessun obbligo di visto. I cittadini tedeschi possono entrare fino a 90 giorni. Il passaporto deve essere valido oltre la fine del viaggio. Devono essere presentati un biglietto di ritorno o di proseguimento e una prenotazione alberghiera.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Un'auto a noleggio è la scelta migliore per scoprire tutte le spiagge nascoste di Mauritius. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui le offerte.</a>"
+    "visum_text": "Per i cittadini italiani non è richiesto un visto per soggiorni turistici a Mauritius fino a 90 giorni. All’arrivo è necessario presentare un passaporto valido per tutta la durata del viaggio, un biglietto di ritorno o di proseguimento e una prova di alloggio, ad esempio una prenotazione alberghiera o l’indirizzo del soggiorno. Le autorità di frontiera possono inoltre richiedere la dimostrazione di mezzi finanziari sufficienti per coprire il soggiorno. In sintesi, per i cittadini italiani le regole di ingresso per turismo a Mauritius sono molto simili a quelle previste per i cittadini tedeschi: non c’è obbligo di visto prima della partenza, ma restano validi i controlli standard all’ingresso.",
+    "affiliate_hinweis": "Consiglio utile per il tuo viaggio a Mauritius: prima di partire, confronta le migliori <strong>carte di credito per viaggiare</strong> e scegli quella che ti aiuta a <strong>risparmiare sulle commissioni</strong>, prelevare contanti all’estero e pagare in tutto il mondo senza costi inutili. Un confronto mirato può fare davvero la differenza durante la vacanza. Scopri le offerte qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>https://www.tarifcheck.com/YKQ2R5K</a>",
+    "is_optimized": true
   },
   {
     "slug": "marokko",
     "name": "Marocco",
-    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "visum_status": "Nessun visto necessario per turismo fino a 90 giorni",
     "pass_monate": 0,
-    "visum_text": "Per scopi turistici, i tedeschi possono entrare in Marocco senza visto fino a 90 giorni. Il passaporto deve essere valido per l'intera durata del soggiorno (consigliato: 6 mesi).",
-    "affiliate_hinweis": "💡 <strong>Consiglio road trip:</strong> Per spettacolari viaggi attraverso l'Atlante, un'auto a noleggio propria è essenziale. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Prenotate qui auto a noleggio convenienti.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Marocco per turismo non è necessario alcun visto per soggiorni fino a 90 giorni. L’ingresso è generalmente consentito con passaporto valido per l’intera durata del soggiorno; per maggiore sicurezza, si consiglia comunque una validità residua di almeno 6 mesi. All’arrivo potrebbero essere richiesti il biglietto di ritorno o di proseguimento del viaggio e la prova di mezzi economici sufficienti. Rispetto ai cittadini tedeschi, per i cittadini italiani non risultano differenze sostanziali: anche per l’Italia vale la regola dell’ingresso senza visto per turismo fino a 90 giorni.",
+    "affiliate_hinweis": "Consiglio utile per il tuo viaggio in Marocco: prima di partire, confronta le migliori carte di credito per risparmiare sulle commissioni all’estero, prelevare contanti a costi ridotti e pagare in tutto il mondo senza spese inutili. Scopri ora le offerte più vantaggiose su <strong><a href='https://www.tarifcheck.com/YKQ2R5K'>Tarifcheck</a></strong> e trova la carta più adatta al tuo soggiorno.",
+    "is_optimized": true
   },
   {
     "slug": "tunesien",
     "name": "Tunisia",
-    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "visum_status": "Nessun visto necessario per i cittadini italiani fino a 90 giorni",
     "pass_monate": 6,
-    "visum_text": "Nessun obbligo di visto per turisti organizzati e viaggiatori individuali dalla Germania fino a 90 giorni. L'ingresso con la carta d'identità è possibile solo nell'ambito di un viaggio organizzato con volo e hotel inclusi; altrimenti è necessario il passaporto.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Scoprite le coste e i paesaggi affascinanti della Tunisia in autonomia. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui i prezzi delle auto a noleggio.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Tunisia per turismo non è richiesto alcun visto per soggiorni fino a 90 giorni. In generale, l’ingresso è possibile con passaporto in corso di validità; la carta d’identità non è normalmente sufficiente per l’ingresso turistico individuale. Le regole possono cambiare in base alla durata del soggiorno, al tipo di viaggio e alle disposizioni delle autorità tunisine, quindi è consigliabile verificare sempre i documenti richiesti prima della partenza.",
+    "affiliate_hinweis": "<strong>Consiglio utile per il tuo viaggio in Tunisia:</strong> prima di partire, confronta una carta di credito pensata per i viaggi all’estero. Puoi risparmiare su commissioni di prelievo e pagamenti in valuta estera, oltre a trovare soluzioni con prelievi convenienti e pagamenti gratuiti in tutto il mondo. Scopri le offerte più adatte qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronta ora le carte di credito per viaggiare in Tunisia</a>.",
+    "is_optimized": true
   },
   {
     "slug": "oman",
     "name": "Oman",
-    "visum_status": "Senza visto fino a 14 giorni / altrimenti e-Visa",
+    "visum_status": "Fino a 14 giorni senza visto; per soggiorni più lunghi è richiesto un e-Visa",
     "pass_monate": 6,
-    "visum_text": "Per soggiorni fino a 14 giorni, i tedeschi non necessitano più di visto. Chi desidera restare più a lungo deve obbligatoriamente richiedere in anticipo un e-Visa online. Devono essere disponibili una prenotazione alberghiera e un biglietto di ritorno.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> L'Oman è un classico paese da road trip. Spesso si consiglia un'auto a noleggio 4x4. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Assicuratevi qui il vostro veicolo.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Oman come turisti, l’ingresso è possibile senza visto per soggiorni fino a 14 giorni. Per permanenze superiori, è necessario richiedere in anticipo un e-Visa online. In pratica, le regole per gli italiani sono sostanzialmente in linea con quelle previste per i cittadini tedeschi: per brevi viaggi turistici non serve un visto, mentre per soggiorni più lunghi occorre un’autorizzazione elettronica prima della partenza. Al momento dell’ingresso possono essere richiesti una prenotazione alberghiera e un biglietto di ritorno o di proseguimento del viaggio. Si consiglia inoltre di verificare sempre eventuali aggiornamenti prima della partenza, poiché le norme di ingresso possono cambiare.",
+    "affiliate_hinweis": "<strong>Consiglio per il viaggio in Oman:</strong> prima di partire, confronta le migliori carte di credito per risparmiare sulle commissioni all’estero, prelevare contanti in modo conveniente e pagare in tutto il mondo senza costi nascosti. Un confronto mirato può aiutarti a trovare la carta più adatta al tuo viaggio in Oman: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronta ora le carte di credito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "katar",
     "name": "Qatar (Doha)",
-    "visum_status": "Visa on Arrival gratuito",
+    "visum_status": "Ingresso senza visto per turismo per cittadini italiani",
     "pass_monate": 6,
-    "visum_text": "I cittadini tedeschi ricevono all'ingresso un 'Visa Waiver' gratuito (Visa on Arrival), valido per soggiorni fino a 90 giorni entro un periodo di 180 giorni.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Doha e i paesaggi spettacolari circostanti si possono esplorare splendidamente in auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trovate qui auto a noleggio per il Qatar.</a>"
+    "visum_text": "I cittadini italiani che viaggiano a Qatar (Doha) per turismo possono entrare senza richiedere un visto in anticipo. All’arrivo viene generalmente concesso un regime di esenzione dal visto/visa on arrival gratuito, valido per soggiorni turistici fino a 90 giorni nell’arco di 180 giorni. È importante viaggiare con un passaporto italiano valido e con una validità residua sufficiente per tutta la durata del soggiorno. Le regole per i cittadini italiani risultano quindi molto simili a quelle applicate ai cittadini tedeschi: per turismo non è normalmente necessario un visto preventivo, ma l’ingresso resta sempre soggetto alle decisioni delle autorità di frontiera e al rispetto dei requisiti di viaggio aggiornati.",
+    "affiliate_hinweis": "<strong>Consiglio per il viaggio a Qatar (Doha):</strong> prima di partire, confronta le migliori carte di credito per risparmiare sulle commissioni all’estero, prelevare contanti in modo più conveniente e pagare in tutto il mondo senza costi inutili. Un confronto mirato può aiutarti a trovare la carta più adatta al tuo viaggio in Qatar. Scopri le offerte qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronto carte di credito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "saudi-arabien",
     "name": "Arabia Saudita",
-    "visum_status": "e-Visa / Visa on Arrival",
+    "visum_status": "Visto elettronico (e-Visa) obbligatorio per i turisti italiani",
     "pass_monate": 6,
-    "visum_text": "I turisti tedeschi possono richiedere in anticipo online un e-Visa oppure ottenere un 'Visa on Arrival' all'arrivo. Il visto è valido per un anno e consente ingressi multipli (fino a un massimo di 90 giorni consecutivi).",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Le enormi distanze in Arabia Saudita si coprono al meglio in modo flessibile con un'auto a noleggio. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate ora i prezzi delle auto a noleggio.</a>"
+    "visum_text": "I cittadini italiani che viaggiano in Arabia Saudita per turismo devono ottenere un visto elettronico (e-Visa) prima della partenza. A differenza di alcune altre nazionalità, per i turisti italiani non è previsto l'ingresso senza visto; il Visa on Arrival non è la soluzione standard e non va considerato come opzione principale. L'e-Visa saudita consente generalmente ingressi multipli ed è valido per un anno dalla data di emissione, con soggiorni fino a 90 giorni complessivi per viaggio o periodo di validità, secondo le condizioni del visto. È consigliabile verificare sempre i requisiti aggiornati prima della partenza, inclusi passaporto valido, assicurazione di viaggio e eventuali documenti aggiuntivi richiesti dalle autorità saudite.",
+    "affiliate_hinweis": "<strong>Consiglio utile per il viaggio in Arabia Saudita:</strong> prima di partire, confronta le migliori carte di credito per risparmiare sulle spese all'estero, evitare commissioni nascoste e pagare in tutto il mondo senza costi inutili. Un confronto mirato può aiutarti a trovare soluzioni con prelievi convenienti e pagamenti internazionali vantaggiosi. Scopri l'offerta qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronta ora le carte di credito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "jordanien",
     "name": "Giordania",
-    "visum_status": "Visto richiesto (spesso tramite Jordan Pass)",
+    "visum_status": "Visto richiesto, con possibilità di visto all'arrivo per i cittadini italiani",
     "pass_monate": 6,
-    "visum_text": "Obbligo di visto. Il visto può spesso essere rilasciato all'arrivo in aeroporto. Se restate più di 3 notti, si consiglia di acquistare prima del viaggio il 'Jordan Pass': esonera dalla tassa del visto e include l'ingresso a Petra.",
-    "affiliate_hinweis": "💡 <strong>Consiglio road trip:</strong> Da Amman a Petra e al Mar Morto – la Giordania è perfetta per chi viaggia in autonomia. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Prenotate qui la vostra auto a noleggio.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Giordania come turisti è richiesto il visto. In molti casi il visto può essere ottenuto all'arrivo in aeroporto o ad alcuni valichi di frontiera, ma è sempre consigliabile verificare prima della partenza le condizioni aggiornate. Per soggiorni turistici più lunghi o per risparmiare sulla tassa d'ingresso, il Jordan Pass può essere una soluzione molto conveniente: include l'accesso a importanti siti archeologici, come Petra, e in molti casi consente anche di evitare il costo del visto, se si rispettano le condizioni previste. Rispetto ai cittadini tedeschi, per gli italiani la regola pratica è sostanzialmente la stessa: non c'è esenzione dal visto, ma spesso è disponibile il visto all'arrivo. Per questo, prima di partire, conviene controllare durata del soggiorno, punto di ingresso e requisiti aggiornati.",
+    "affiliate_hinweis": "Consiglio viaggio per la Giordania: se vuoi <strong>risparmiare sulle commissioni all'estero</strong> e pagare in modo più conveniente durante il tuo soggiorno, confronta le migliori carte di credito per viaggiare. Cerca soluzioni con <strong>prelievi gratuiti o a basso costo in tutto il mondo</strong>, <strong>pagamenti senza commissioni in valuta estera</strong> e vantaggi utili per chi viaggia spesso. Puoi trovare un confronto aggiornato qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>https://www.tarifcheck.com/YKQ2R5K</a>",
+    "is_optimized": true
   },
   {
     "slug": "jamaika",
     "name": "Giamaica",
-    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "visum_status": "Nessun visto necessario per i cittadini italiani (fino a 90 giorni)",
     "pass_monate": 6,
-    "visum_text": "Per un soggiorno turistico fino a 90 giorni, i tedeschi non necessitano di visto. Tuttavia, è obbligatorio compilare gratuitamente prima della partenza un modulo di ingresso (Online Passenger Declaration).",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Scoprite la splendida isola caraibica al vostro ritmo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Assicuratevi qui un'auto a noleggio per la Giamaica.</a>"
+    "visum_text": "Per un viaggio turistico in Giamaica fino a 90 giorni, i cittadini italiani non necessitano di visto. All’ingresso è però necessario presentare un passaporto valido per l’intera durata del soggiorno e, in alcuni casi, documenti che dimostrino il proseguimento del viaggio e la disponibilità di mezzi economici sufficienti. Prima della partenza, i viaggiatori devono inoltre compilare la dichiarazione di ingresso online richiesta dalle autorità giamaicane. Le regole per i cittadini italiani sono quindi sostanzialmente le stesse previste per i cittadini tedeschi: per turismo non serve un visto, ma restano obbligatori i controlli documentali e la registrazione d’ingresso.",
+    "affiliate_hinweis": "<strong>Consiglio per risparmiare in viaggio in Giamaica:</strong> prima di partire, confronta le migliori carte di credito per evitare commissioni inutili sui prelievi all’estero e per pagare in tutto il mondo senza costi nascosti. Una carta adatta ai viaggi può aiutarti a risparmiare su cambio valuta, prelievi e pagamenti internazionali. Scopri le offerte qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronta ora le carte di credito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "peru",
     "name": "Perù",
-    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "visum_status": "Nessun visto necessario per i cittadini italiani (fino a 90 giorni)",
     "pass_monate": 6,
-    "visum_text": "Per il Perù non è previsto l'obbligo di visto. I turisti tedeschi ricevono di norma all'ingresso un permesso di soggiorno per 90 giorni (nel semestre). Deve essere mostrato un biglietto di proseguimento o di ritorno.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Vivete le Ande e le strade costiere con la massima flessibilità grazie a un'auto a noleggio. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trovate qui i veicoli adatti.</a>"
+    "visum_text": "Per il Perù non è previsto l'obbligo di visto per i cittadini italiani che viaggiano per turismo. All'ingresso viene normalmente concesso un permesso di soggiorno fino a 90 giorni. È importante presentare un passaporto valido e, in genere, anche un biglietto di ritorno o di proseguimento del viaggio. Le regole per i cittadini italiani sono sostanzialmente le stesse previste per i cittadini tedeschi: non è richiesto un visto turistico in anticipo e non è previsto un visto all'arrivo come procedura standard. Poiché le disposizioni possono cambiare, è consigliabile verificare sempre i requisiti aggiornati prima della partenza.",
+    "affiliate_hinweis": "<strong>Consiglio utile per il tuo viaggio in Perù:</strong> confronta le migliori carte di credito per risparmiare sulle commissioni all'estero, prelevare contanti in modo conveniente e pagare in tutto il mondo senza costi inutili. Scopri ora l'offerta più adatta alle tue esigenze su <a href='https://www.tarifcheck.com/YKQ2R5K'>tarifcheck.com</a>.",
+    "is_optimized": true
   },
   {
     "slug": "kolumbien",
     "name": "Colombia",
     "visum_status": "Nessun visto necessario (fino a 90 giorni)",
     "pass_monate": 6,
-    "visum_text": "Ingresso senza visto per i tedeschi fino a 90 giorni. È obbligatorio compilare il modulo di ingresso online 'Check-MIG' entro 72 ore prima della partenza.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> State pianificando un tour nella famosa zona del caffè? Un'auto a noleggio offre la massima libertà. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui le offerte.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Colombia per turismo non è richiesto alcun visto per soggiorni fino a 90 giorni. All’arrivo può essere concessa un’autorizzazione di ingresso come visitatore turistico, con possibilità di proroga secondo le regole locali. È obbligatorio compilare online il modulo di ingresso Check-MIG entro 72 ore prima della partenza. Inoltre, il passaporto deve essere valido per tutta la durata del soggiorno e si consiglia di avere un biglietto di ritorno o di proseguimento del viaggio e una prova di disponibilità economica. Le regole possono cambiare, quindi è sempre consigliabile verificare i requisiti aggiornati prima della partenza.",
+    "affiliate_hinweis": "Consiglio viaggio per la Colombia: per risparmiare su prelievi e pagamenti all’estero, confronta una carta di credito pensata per i viaggi internazionali. Cerca soluzioni con <strong>prelievi convenienti in valuta estera</strong>, <strong>pagamenti gratuiti in tutto il mondo</strong> e nessuna commissione nascosta. Un confronto rapido può aiutarti a trovare l’offerta più adatta al tuo viaggio: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronta ora le carte di credito per la Colombia</a>.",
+    "is_optimized": true
   },
   {
     "slug": "argentinien",
     "name": "Argentina",
-    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "visum_status": "Nessun visto necessario per i cittadini italiani fino a 90 giorni",
     "pass_monate": 0,
-    "visum_text": "Nessun obbligo di visto per i cittadini tedeschi fino a 90 giorni. Il passaporto deve essere valido per l'intera durata del soggiorno previsto. Spesso all'ingresso viene richiesto un documento che attesti il viaggio di proseguimento o di ritorno.",
-    "affiliate_hinweis": "💡 <strong>Road trip in Patagonia:</strong> Le distanze in Argentina sono enormi. Un buon veicolo a noleggio è essenziale. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trovate qui auto a noleggio affidabili per il Sud America.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Argentina come turisti non è richiesto alcun visto per soggiorni fino a 90 giorni. L’ingresso è quindi generalmente possibile in regime di esenzione dal visto, a differenza di alcune altre nazionalità che possono essere soggette a regole diverse. Il passaporto deve essere valido per l’intera durata del soggiorno previsto e, in alcuni casi, le autorità di frontiera possono richiedere la prova del viaggio di ritorno o di proseguimento, oltre a mezzi finanziari sufficienti per il soggiorno. È sempre consigliabile verificare eventuali aggiornamenti prima della partenza, poiché le disposizioni d’ingresso possono cambiare.",
+    "affiliate_hinweis": "Consiglio utile per il tuo viaggio in Argentina: prima di partire, confronta le carte di credito più adatte ai viaggiatori per risparmiare sulle commissioni all’estero, prelevare contanti con costi ridotti e pagare in tutto il mondo senza spese inutili. Un confronto mirato può aiutarti a trovare l’offerta migliore per il tuo profilo di viaggio: <strong><a href='https://www.tarifcheck.com/YKQ2R5K'>confronta ora le carte di credito per viaggiare in Argentina</a></strong>.",
+    "is_optimized": true
   },
   {
     "slug": "chile",
     "name": "Cile",
-    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "visum_status": "Nessun visto necessario per i cittadini italiani (fino a 90 giorni)",
     "pass_monate": 6,
-    "visum_text": "Per soggiorni turistici fino a 90 giorni non è necessario alcun visto. All'ingresso riceverete una carta turistica (Tarjeta de Turismo), che dovrete conservare con cura fino all'uscita dal Paese.",
-    "affiliate_hinweis": "💡 <strong>Auto a noleggio in Sud America:</strong> Il Cile è perfetto per road trip spettacolari (ad es. sulla Carretera Austral). <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trovate qui l'auto a noleggio adatta.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Cile per turismo non è necessario alcun visto per soggiorni fino a 90 giorni. All’ingresso nel Paese viene normalmente rilasciata una carta turistica (Tarjeta de Turismo), che deve essere conservata con cura per tutta la durata del soggiorno e restituita all’uscita. Il passaporto deve essere valido per l’intera durata del viaggio; in alcuni casi le autorità possono richiedere anche un biglietto di ritorno o di proseguimento e la prova di mezzi finanziari sufficienti. Le regole di ingresso possono cambiare, quindi è sempre consigliabile verificare prima della partenza eventuali aggiornamenti ufficiali.",
+    "affiliate_hinweis": "<strong>Consiglio per il viaggio in Cile:</strong> prima di partire, confronta una carta di credito adatta all’estero per <strong>risparmiare sulle commissioni di prelievo</strong> e <strong>pagare in tutto il mondo senza costi aggiuntivi</strong>. Un confronto mirato può aiutarti a trovare la soluzione migliore per il tuo viaggio: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronta ora le carte di credito per il Cile</a>.",
+    "is_optimized": true
   },
   {
     "slug": "ecuador",
     "name": "Ecuador",
     "visum_status": "Nessun visto necessario (fino a 90 giorni)",
     "pass_monate": 6,
-    "visum_text": "I tedeschi possono entrare in Ecuador senza visto per un massimo di 90 giorni (incluse le isole Galápagos). All'ingresso deve poter essere presentato un biglietto di proseguimento o di ritorno.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Nella terraferma ecuadoriana vale la pena noleggiare un'auto per escursioni attraverso le Ande. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Prenotate qui un'auto a noleggio.</a>"
+    "visum_text": "I cittadini italiani possono entrare in Ecuador come turisti senza visto per un soggiorno fino a 90 giorni. Questa regola vale anche per le isole Galápagos, che fanno parte del territorio ecuadoriano. All’ingresso può essere richiesto un biglietto di ritorno o di proseguimento del viaggio, oltre a un passaporto valido per tutta la durata del soggiorno. In linea generale, per i cittadini italiani non risultano requisiti più restrittivi rispetto ai cittadini tedeschi per l’ingresso turistico in Ecuador.",
+    "affiliate_hinweis": "<strong>Consiglio utile per il viaggio in Ecuador:</strong> prima di partire, confronta le carte di credito più adatte ai viaggi internazionali. Con la carta giusta puoi <strong>risparmiare sulle commissioni prelievo all’estero</strong> e <strong>pagare in tutto il mondo senza costi aggiuntivi</strong>. Scopri ora le offerte più convenienti nel confronto dedicato: <a href='https://www.tarifcheck.com/YKQ2R5K'>clicca qui per il confronto carte di credito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "bolivien",
     "name": "Bolivia",
-    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "visum_status": "Visto non richiesto per turismo (fino a 90 giorni)",
     "pass_monate": 6,
-    "visum_text": "L'ingresso è senza visto fino a 90 giorni. All'arrivo, i turisti ricevono inizialmente di solito un timbro per 30 giorni, che può essere esteso gratuitamente nel Paese fino a 90 giorni presso l'autorità per l'immigrazione.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Scoprite i paesaggi impressionanti della Bolivia in modo flessibile con il vostro veicolo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui auto a noleggio convenienti.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Bolivia come turisti, in genere non è richiesto un visto per soggiorni brevi fino a 90 giorni. All’ingresso, l’autorità di frontiera può rilasciare inizialmente un permesso di soggiorno turistico di 30 giorni, che di norma può essere prorogato gratuitamente in Bolivia fino a un massimo di 90 giorni complessivi presso l’ufficio immigrazione competente. È importante viaggiare con un passaporto valido e verificare prima della partenza eventuali requisiti aggiornati, poiché le norme di ingresso possono cambiare. Rispetto ai cittadini tedeschi, per i turisti italiani non risultano in genere regole più restrittive: l’ingresso turistico è normalmente senza visto per brevi soggiorni.",
+    "affiliate_hinweis": "<strong>Consiglio viaggio per la Bolivia:</strong> prima di partire, confronta le carte di credito più adatte ai viaggi internazionali. Una buona carta può aiutarti a <strong>risparmiare sulle commissioni di prelievo all’estero</strong> e a <strong>pagare in tutto il mondo senza costi aggiuntivi</strong>. Scopri ora il confronto consigliato qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronto carte di credito per viaggiare in Bolivia</a>.",
+    "is_optimized": true
   },
   {
     "slug": "panama",
     "name": "Panama",
-    "visum_status": "Nessun visto necessario (fino a 180 giorni)",
+    "visum_status": "Nessun visto necessario per i cittadini italiani (fino a 90 giorni)",
     "pass_monate": 3,
-    "visum_text": "Nessun obbligo di visto per i tedeschi. All'arrivo viene spesso concesso un permesso di soggiorno fino a 180 giorni. Il passaporto deve essere ancora valido per almeno 3 mesi all'ingresso. È obbligatorio un biglietto di uscita.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Con un'auto a noleggio potete spostarvi comodamente e in autonomia dalla città alle spiagge da sogno di Panama. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Controllate qui i prezzi delle auto a noleggio.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Panama per turismo non è generalmente richiesto un visto d'ingresso: l'ingresso è normalmente consentito senza visto per soggiorni fino a 90 giorni. All'arrivo, le autorità di frontiera possono richiedere un passaporto valido per almeno 6 mesi, un biglietto di ritorno o di proseguimento del viaggio e, in alcuni casi, la prova di mezzi finanziari sufficienti per la durata del soggiorno. Le regole possono cambiare in base alla situazione personale e al tipo di viaggio, quindi è sempre consigliabile verificare i requisiti aggiornati prima della partenza. Rispetto ai cittadini tedeschi, per i turisti italiani non risultano in genere differenze sostanziali: anche per l'Italia vale la regola dell'ingresso senza visto per soggiorni turistici di breve durata, ma con controlli documentali all'arrivo.",
+    "affiliate_hinweis": "Consiglio utile per il tuo viaggio in Panama: prima di partire, confronta le migliori carte di credito per risparmiare su prelievi e pagamenti all'estero. Con la carta giusta puoi <strong>evitare commissioni inutili</strong>, prelevare contanti in modo più conveniente e <strong>pagare in tutto il mondo senza costi nascosti</strong>. Scopri ora le offerte più adatte ai viaggiatori su <a href='https://www.tarifcheck.com/YKQ2R5K'>tarifcheck.com</a>.",
+    "is_optimized": true
   },
   {
     "slug": "guatemala",
     "name": "Guatemala",
-    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "visum_status": "Nessun visto necessario per cittadini italiani fino a 90 giorni",
     "pass_monate": 6,
-    "visum_text": "Ingresso senza visto possibile fino a 90 giorni (vale per l'intera area C4). Chi entra via terra, a volte alla frontiera viene invitato a pagare una piccola tassa di gestione non ufficiale.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> L'affascinante terra dei Maya si può visitare meravigliosamente in modo individuale con la propria auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Prenotate qui in anticipo un'auto a noleggio.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Guatemala per turismo, non è necessario alcun visto per soggiorni fino a 90 giorni. L’ingresso è quindi possibile senza visto e le regole sono sostanzialmente le stesse previste per i cittadini tedeschi. Tieni presente che il periodo di soggiorno può essere soggetto alle norme dell’area CA-4, che comprende anche altri Paesi dell’America Centrale: in alcuni casi i giorni trascorsi negli Stati membri vengono conteggiati complessivamente. All’arrivo è consigliabile avere un passaporto valido, un biglietto di ritorno o di proseguimento del viaggio e, se richiesto, prove sufficienti dei mezzi economici. Se entri via terra, possono essere applicate piccole tasse o costi amministrativi locali.",
+    "affiliate_hinweis": "Consiglio di viaggio: prima di partire per il Guatemala, confronta le carte di credito più adatte ai viaggi internazionali. Una buona carta può aiutarti a <strong>risparmiare sulle commissioni di prelievo all’estero</strong> e a <strong>pagare in tutto il mondo senza costi aggiuntivi</strong>. Scopri le offerte più convenienti nel confronto dedicato: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronta ora le carte di credito per il tuo viaggio in Guatemala</a>.",
+    "is_optimized": true
   },
   {
     "slug": "bahamas",
     "name": "Bahamas",
-    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "visum_status": "Nessun visto necessario per turismo fino a 90 giorni",
     "pass_monate": 6,
-    "visum_text": "I cittadini tedeschi non necessitano di visto per un soggiorno turistico fino a 90 giorni. Tuttavia, all'ingresso è obbligatorio presentare un biglietto di ritorno o di proseguimento.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Esplorate le isole più grandi delle Bahamas in totale autonomia con un'auto a noleggio. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Assicuratevi qui il veicolo adatto.</a>"
+    "visum_text": "I cittadini italiani possono entrare alle Bahamas per turismo senza visto per soggiorni fino a 90 giorni. All’ingresso è comunque necessario presentare un passaporto valido, un biglietto di ritorno o di proseguimento del viaggio e, se richiesto, la prova di fondi sufficienti per la durata del soggiorno. Le regole per i cittadini italiani sono sostanzialmente le stesse previste per i cittadini tedeschi: non è richiesto un visto turistico in anticipo, ma i requisiti di ingresso devono essere rispettati. Poiché le norme possono cambiare, si consiglia di verificare sempre le disposizioni aggiornate prima della partenza.",
+    "affiliate_hinweis": "Per il tuo viaggio alle Bahamas, conviene confrontare le migliori carte di credito per risparmiare sulle commissioni all’estero e prelevare contanti in modo più conveniente. Scopri le offerte più adatte a chi viaggia spesso, con vantaggi come pagamenti gratuiti in tutto il mondo e costi ridotti per i prelievi: <strong>confronta ora le carte di credito più vantaggiose su <a href='https://www.tarifcheck.com/YKQ2R5K'>Tarifcheck</a></strong>.",
+    "is_optimized": true
   },
   {
     "slug": "barbados",
     "name": "Barbados",
-    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "visum_status": "Ingresso senza visto fino a 90 giorni",
     "pass_monate": 6,
-    "visum_text": "Ingresso senza visto fino a 90 giorni. È obbligatorio compilare il modulo di ingresso online gratuito (ED Card) entro 72 ore prima dell'arrivo, per accelerare l'ingresso.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Un'auto a noleggio è perfetta per raggiungere anche spiagge e baie nascoste a Barbados. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui le offerte.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano a Barbados come turisti non è necessario alcun visto per soggiorni fino a 90 giorni. Le regole di ingresso sono quindi sostanzialmente le stesse previste per i cittadini tedeschi: accesso senza visto per brevi soggiorni turistici. È però obbligatorio compilare online la Barbados ED Card gratuita entro 72 ore prima dell’arrivo, così da velocizzare i controlli all’ingresso. Il passaporto deve essere valido per tutta la durata del soggiorno e possono essere richiesti anche il biglietto di ritorno o di proseguimento viaggio e la prova di fondi sufficienti per il soggiorno.",
+    "affiliate_hinweis": "Consiglio utile per il tuo viaggio a Barbados: prima di partire, confronta le migliori carte di credito da viaggio per risparmiare sulle commissioni all’estero, prelevare contanti con costi ridotti e pagare in tutto il mondo senza spese inutili. Un confronto rapido può fare davvero la differenza durante la vacanza: <strong>trova ora l’offerta più adatta a te</strong> su <a href='https://www.tarifcheck.com/YKQ2R5K'>Tarifcheck</a>.",
+    "is_optimized": true
   },
   {
     "slug": "namibia",
     "name": "Namibia",
-    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "visum_status": "Visto non necessario per turismo fino a 90 giorni",
     "pass_monate": 6,
-    "visum_text": "Per soggiorni fino a 90 giorni nell'anno solare, i turisti tedeschi non necessitano di visto. Tuttavia, il passaporto deve essere obbligatoriamente valido per almeno 6 mesi oltre la data di rientro.",
-    "affiliate_hinweis": "💡 <strong>Veicoli da safari:</strong> Per la Namibia è indispensabile un'auto a noleggio robusta (di solito 4x4). <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Assicuratevi qui per tempo il vostro veicolo.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Namibia come turisti, in genere non è richiesto un visto per soggiorni brevi fino a 90 giorni. All’ingresso è comunque necessario presentare un passaporto valido per almeno 6 mesi oltre la data prevista di uscita dal Paese, con pagine libere per i timbri. Le autorità di frontiera possono inoltre richiedere un biglietto di ritorno o di proseguimento del viaggio, la prova di fondi sufficienti e, se necessario, la documentazione relativa all’alloggio. Poiché le norme di ingresso possono cambiare, è consigliabile verificare sempre le disposizioni aggiornate prima della partenza.",
+    "affiliate_hinweis": "Consiglio utile per il viaggio in Namibia: prima di partire, confronta una carta di credito pensata per i viaggi internazionali, così puoi <strong>risparmiare sulle commissioni di prelievo all’estero</strong> e <strong>pagare in tutto il mondo senza costi nascosti</strong>. Un confronto rapido può aiutarti a trovare l’offerta più adatta alle tue esigenze di viaggio: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronta ora le carte di credito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "botswana",
     "name": "Botswana",
-    "visum_status": "Nessun visto necessario (fino a 90 giorni)",
+    "visum_status": "Nessun visto necessario per i cittadini italiani fino a 90 giorni",
     "pass_monate": 6,
-    "visum_text": "I tedeschi ricevono gratuitamente ai valichi di frontiera o negli aeroporti un permesso di ingresso (Visitor's Pass) per un massimo di 90 giorni nell'anno solare. È necessario presentare un biglietto di ritorno o di proseguimento.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Il Botswana si esplora splendidamente come self-drive. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui le auto a noleggio per il Botswana.</a>"
+    "visum_text": "I cittadini italiani possono entrare in Botswana per turismo senza richiedere un visto in anticipo. All’arrivo viene generalmente rilasciato un Visitor’s Pass per soggiorni fino a 90 giorni. È necessario disporre di un passaporto valido, di un biglietto di ritorno o di proseguimento del viaggio e di mezzi sufficienti per il soggiorno. Le norme di ingresso possono cambiare, quindi è consigliabile verificare sempre i requisiti aggiornati prima della partenza.",
+    "affiliate_hinweis": "Consiglio per il viaggio in Botswana: confronta le migliori carte di credito per risparmiare sulle spese all’estero, prelevare contanti con commissioni ridotte e pagare in tutto il mondo senza costi nascosti. Un confronto intelligente può fare la differenza durante il viaggio. Scopri le offerte qui: <strong><a href='https://www.tarifcheck.com/YKQ2R5K'>confronta ora le carte di credito per il Botswana</a></strong>.",
+    "is_optimized": true
   },
   {
     "slug": "uganda",
     "name": "Uganda",
-    "visum_status": "e-Visa richiesto",
+    "visum_status": "Visto elettronico richiesto",
     "pass_monate": 6,
-    "visum_text": "Per l'Uganda è previsto un rigido obbligo di visto. Il visto deve essere obbligatoriamente richiesto online come e-Visa prima dell'ingresso. Inoltre, per l'ingresso è richiesto il certificato di vaccinazione contro la febbre gialla.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Per le visite ai parchi nazionali e i safari in autonomia, un 4x4 a noleggio è l'ideale. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui i veicoli 4x4.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Uganda come turisti è richiesto un visto prima dell’ingresso. Il visto non è disponibile in forma di esenzione: deve essere richiesto online come e-Visa prima della partenza. In aggiunta, per l’ingresso nel Paese è obbligatorio presentare il certificato di vaccinazione contro la febbre gialla. Rispetto ai cittadini tedeschi, per gli italiani valgono sostanzialmente le stesse regole di ingresso per turismo: nessuna esenzione dal visto, ma obbligo di e-Visa e documentazione sanitaria conforme.",
+    "affiliate_hinweis": "Consiglio utile per il tuo viaggio in Uganda: prima di partire, confronta le migliori carte di credito per viaggiare e risparmiare su prelievi e pagamenti all’estero. Con la carta giusta puoi ridurre o evitare commissioni sui prelievi in valuta estera e pagare in tutto il mondo senza costi nascosti. Scopri le offerte più vantaggiose qui: <strong><a href='https://www.tarifcheck.com/YKQ2R5K'>Confronta ora le carte di credito per viaggiare</a></strong>.",
+    "is_optimized": true
   },
   {
     "slug": "madagaskar",
     "name": "Madagascar",
-    "visum_status": "e-Visa o Visa on Arrival",
+    "visum_status": "Visto richiesto: e-Visa o Visa on Arrival per i cittadini italiani",
     "pass_monate": 6,
-    "visum_text": "I tedeschi necessitano di un visto. Questo può essere ottenuto in anticipo come e-Visa oppure all'arrivo in aeroporto (Visa on Arrival). La durata del soggiorno può essere di 15, 30 o 60 giorni (con tariffe diverse).",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Scoprite il celebre Viale dei Baobab e i parchi nazionali in totale flessibilità. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Assicuratevi qui un'auto a noleggio adatta al fuoristrada.</a>"
+    "visum_text": "I cittadini italiani che viaggiano in Madagascar come turisti necessitano di un visto. Non esiste un ingresso senza visto per i titolari di passaporto italiano. Il visto può essere ottenuto in anticipo tramite e-Visa oppure direttamente all’arrivo in aeroporto come Visa on Arrival. La durata del soggiorno turistico è generalmente disponibile per 15, 30 o 60 giorni, con tariffe diverse in base alla permanenza scelta. È consigliabile verificare prima della partenza che il passaporto sia valido e che siano rispettati i requisiti di ingresso aggiornati, così da evitare ritardi all’arrivo.",
+    "affiliate_hinweis": "Consiglio utile per il tuo viaggio in Madagascar: prima di partire, confronta le migliori carte di credito da viaggio per risparmiare sulle commissioni e gestire al meglio le spese all’estero. Con la carta giusta puoi spesso <strong>prelevare contanti con costi ridotti</strong> e <strong>pagare in tutto il mondo senza commissioni</strong>, un vantaggio pratico quando viaggi fuori dall’Europa. Scopri le offerte più interessanti qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronta ora le carte di credito per viaggiare</a>.",
+    "is_optimized": true
   },
   {
     "slug": "kap-verde",
     "name": "Capo Verde (Isole di Capo Verde)",
-    "visum_status": "Registrazione EASE (nessun visto)",
+    "visum_status": "Registrazione EASE obbligatoria (nessun visto per turismo fino a 30 giorni)",
     "pass_monate": 6,
-    "visum_text": "Per soggiorni fino a 30 giorni, i tedeschi non necessitano di visto. Tuttavia, è necessario registrarsi online sulla piattaforma ufficiale EASE e pagare la tassa di sicurezza aeroportuale (TSA) al più tardi 5 giorni prima della partenza.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Sulle isole più grandi come Sal o Santiago, un'auto a noleggio offre grande indipendenza. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Verificate qui le auto a noleggio.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano a Capo Verde (Isole di Capo Verde) per turismo, in genere non è richiesto un visto per soggiorni fino a 30 giorni. Tuttavia, prima della partenza è obbligatoria la registrazione online sulla piattaforma ufficiale EASE e il pagamento della tassa di sicurezza aeroportuale (TSA), di norma entro 5 giorni dalla partenza. È inoltre consigliabile verificare che il passaporto sia valido per l’intero periodo di soggiorno e che siano rispettati eventuali requisiti sanitari o documentali aggiornati. Rispetto ai cittadini tedeschi, per i turisti italiani le regole di ingresso sono sostanzialmente le stesse: niente visto per brevi soggiorni, ma registrazione EASE e pagamento della tassa TSA restano obbligatori.",
+    "affiliate_hinweis": "<strong>Consiglio utile per il viaggio a Capo Verde:</strong> prima di partire, confronta le carte di credito più adatte ai viaggi internazionali. Una buona carta può aiutarti a <strong>risparmiare sulle commissioni di prelievo all’estero</strong> e a <strong>pagare in tutto il mondo senza costi aggiuntivi</strong>. Scopri le offerte più convenienti qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronto carte di credito per viaggiatori</a>.",
+    "is_optimized": true
   },
   {
     "slug": "georgien",
     "name": "Georgia",
-    "visum_status": "Nessun visto necessario (fino a 1 anno)",
+    "visum_status": "Nessun visto necessario per soggiorni turistici fino a 1 anno",
     "pass_monate": 0,
-    "visum_text": "La Georgia ha una delle normative d'ingresso più generose al mondo: i cittadini tedeschi possono soggiornare nel Paese fino a un anno intero senza visto con il passaporto (o persino con la carta d'identità).",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Le strade di montagna del Caucaso vi aspettano! <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Prenotate qui la vostra auto a noleggio per tour indimenticabili in Georgia.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Georgia come turisti non è richiesto alcun visto per soggiorni fino a 365 giorni. In pratica, le regole per gli italiani sono molto simili a quelle previste per i cittadini tedeschi: l’ingresso è possibile senza visto per turismo, con un passaporto valido. In molti casi, per brevi viaggi, è sufficiente anche la carta d’identità, ma per evitare problemi al controllo di frontiera è consigliabile viaggiare con il passaporto. La Georgia è quindi una destinazione particolarmente semplice da raggiungere per i viaggiatori italiani, grazie a una normativa d’ingresso molto favorevole e adatta a soggiorni turistici di lunga durata.",
+    "affiliate_hinweis": "Consiglio utile per il tuo viaggio in Georgia: prima di partire, confronta le migliori carte di credito per risparmiare sulle spese all’estero. Una buona carta può aiutarti a <strong>prelevare contanti con commissioni ridotte</strong> e a <strong>pagare in tutto il mondo senza costi nascosti</strong>. Per trovare l’offerta più adatta alle tue esigenze, puoi usare questo confronto dedicato: <a href='https://www.tarifcheck.com/YKQ2R5K'>scopri ora il confronto carte di credito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "kambodscha",
     "name": "Cambogia",
-    "visum_status": "e-Visa o Visa on Arrival",
+    "visum_status": "Visto obbligatorio: e-Visa o Visa on Arrival",
     "pass_monate": 6,
-    "visum_text": "È previsto l'obbligo di visto. I turisti possono richiedere in anticipo il visto elettronico e-Visa (consigliato) oppure ottenere il Visa on Arrival in aeroporto/ai valichi di frontiera. Sono necessarie foto tessera e contanti in dollari USA.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Approfittate di maggiore comfort e flessibilità lontano dalle rotte principali. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui le auto a noleggio in Cambogia.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Cambogia per turismo è previsto l'obbligo di visto. È possibile richiedere in anticipo l'e-Visa, soluzione generalmente consigliata per maggiore comodità, oppure ottenere il Visa on Arrival all'arrivo in aeroporto o ai principali valichi di frontiera. Per la pratica possono essere richieste una foto tessera e il pagamento in contanti in dollari აშშ. In sintesi, rispetto ai cittadini tedeschi non risultano differenze sostanziali: anche per gli italiani non è prevista la libertà di ingresso senza visto, ma sono disponibili sia l'e-Visa sia il Visa on Arrival.",
+    "affiliate_hinweis": "Consiglio utile per chi viaggia in Cambogia: prima della partenza confronta le migliori <strong>carte di credito e debito per l'estero</strong> per risparmiare sulle commissioni e pagare in modo più conveniente durante il viaggio. Con la carta giusta puoi <strong>prelevare contanti all'estero con costi ridotti</strong> e spesso <strong>pagare in tutto il mondo senza commissioni</strong>. Confronta ora le offerte più interessanti qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>https://www.tarifcheck.com/YKQ2R5K</a>",
+    "is_optimized": true
   },
   {
     "slug": "laos",
     "name": "Laos",
-    "visum_status": "e-Visa o Visa on Arrival",
+    "visum_status": "Visto obbligatorio: e-Visa o Visa on Arrival",
     "pass_monate": 6,
-    "visum_text": "L'ingresso è possibile solo con visto. Potete richiedere il visto come e-Visa online oppure ottenerlo sul posto come Visa on Arrival. Per il visto all'arrivo servono foto tessera e dollari USA.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Scoprite la pittoresca bellezza paesaggistica del Laos al vostro ritmo. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Controllate qui i prezzi delle auto a noleggio.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Laos per turismo è necessario un visto d’ingresso. È possibile richiedere comodamente l’e-Visa online prima della partenza oppure ottenere il Visa on Arrival all’arrivo in alcuni punti di ingresso autorizzati. Per il visto all’arrivo sono in genere richieste una foto tessera recente, un passaporto valido e il pagamento della tassa in contanti, spesso in dollari USA. Le regole possono variare in base al valico di frontiera e alla durata del soggiorno, quindi è consigliabile verificare sempre i requisiti aggiornati prima del viaggio. In sintesi: per i cittadini italiani non c’è esenzione dal visto per turismo, ma sono disponibili sia l’e-Visa sia il Visa on Arrival.",
+    "affiliate_hinweis": "Consiglio viaggio: prima di partire per il Laos, confronta le migliori <strong>carte di credito e debito per viaggiare all’estero</strong>. Puoi risparmiare su <strong>prelievi in valuta estera</strong>, evitare commissioni inutili e pagare in tutto il mondo in modo più conveniente. Scopri le offerte più adatte ai viaggiatori qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronta ora le carte di credito per il tuo viaggio in Laos</a>.",
+    "is_optimized": true
   },
   {
     "slug": "taiwan",
     "name": "Taiwan",
     "visum_status": "Nessun visto necessario (fino a 90 giorni)",
     "pass_monate": 6,
-    "visum_text": "I cittadini tedeschi possono entrare a Taiwan senza visto per soggiorni turistici fino a 90 giorni. Su richiesta, deve essere presentato un biglietto di ritorno o di proseguimento confermato.",
-    "affiliate_hinweis": "💡 <strong>Consiglio road trip:</strong> Un emozionante giro dell'intera isola di Taiwan è un vero highlight della vacanza. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Trovate qui la vostra auto a noleggio a Taiwan.</a>"
+    "visum_text": "I cittadini italiani possono entrare a Taiwan senza visto per soggiorni turistici fino a 90 giorni. Per l’ingresso può essere richiesto un biglietto di ritorno o di proseguimento del viaggio confermato, oltre a un passaporto valido per l’intera durata del soggiorno. In base alle regole attualmente in vigore, per i cittadini italiani non risultano condizioni più restrittive rispetto ai cittadini tedeschi per i viaggi turistici di breve durata.",
+    "affiliate_hinweis": "<strong>Consiglio utile per il viaggio a Taiwan:</strong> prima della partenza, confronta le migliori carte di credito per risparmiare sulle spese in viaggio. Una carta adatta all’estero può aiutarti a <strong>prelevare contanti con commissioni ridotte</strong> e a <strong>pagare in tutto il mondo senza costi aggiuntivi</strong>. Confronta ora le offerte più convenienti qui: <a href='https://www.tarifcheck.com/YKQ2R5K'>https://www.tarifcheck.com/YKQ2R5K</a>",
+    "is_optimized": true
   },
   {
     "slug": "nepal",
     "name": "Nepal",
-    "visum_status": "Visa on Arrival (registrazione online)",
+    "visum_status": "Visto all'arrivo (Visa on Arrival) per cittadini italiani con registrazione online consigliata",
     "pass_monate": 6,
-    "visum_text": "I turisti necessitano di un visto, che viene rilasciato senza problemi come Visa on Arrival all'aeroporto di Kathmandu. Per risparmiare tempo, il modulo di richiesta online obbligatorio deve essere compilato elettronicamente prima della partenza.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Se non fate solo trekking, un'auto a noleggio propria offre grande flessibilità per le escursioni nella valle di Kathmandu. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui i prezzi.</a>"
+    "visum_text": "I cittadini italiani che viaggiano in Nepal per turismo necessitano di un visto. La buona notizia è che, per l'ingresso turistico, il visto può essere ottenuto comodamente come Visa on Arrival all'aeroporto di Kathmandu e in alcuni altri punti di ingresso autorizzati. Per velocizzare le procedure, è consigliabile compilare online prima della partenza il modulo di richiesta elettronico richiesto dalle autorità nepalesi. In genere, il soggiorno turistico viene concesso per un periodo limitato e può essere esteso in loco secondo le regole vigenti. Rispetto ai cittadini tedeschi, per i turisti italiani non risultano differenze sostanziali: anche per l'Italia vale normalmente l'obbligo di visto, con possibilità di ottenerlo all'arrivo. Poiché le norme di ingresso possono cambiare, è sempre opportuno verificare prima del viaggio i requisiti aggiornati relativi a passaporto, durata di validità e documentazione richiesta.",
+    "affiliate_hinweis": "Consiglio pratico per il tuo viaggio in Nepal: prima di partire, confronta una <strong>carta di credito adatta ai viaggi</strong> per risparmiare su prelievi di contante e pagamenti all'estero. Una buona carta può aiutarti a ridurre commissioni, ottenere condizioni vantaggiose per i prelievi internazionali e pagare in tutto il mondo senza costi inutili. Per trovare l'offerta più adatta alle tue esigenze, puoi usare questo confronto: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronta ora le carte di credito per viaggiare in Nepal</a>.",
+    "is_optimized": true
   },
   {
     "slug": "usbekistan",
     "name": "Uzbekistan",
-    "visum_status": "Nessun visto necessario (fino a 30 giorni)",
+    "visum_status": "Nessun visto necessario per turismo fino a 30 giorni",
     "pass_monate": 6,
-    "visum_text": "Per soggiorni turistici fino a 30 giorni, i cittadini tedeschi non necessitano più di visto. Importante: entro 3 giorni dall'arrivo bisogna registrarsi (di norma se ne occupa l'hotel).",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Sulle affascinanti tracce della Via della Seta sarete massimamente flessibili con un'auto a noleggio. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Assicuratevi qui un'auto a noleggio per l'Uzbekistan.</a>"
+    "visum_text": "Per i cittadini italiani che viaggiano in Uzbekistan per turismo, non è richiesto alcun visto per soggiorni fino a 30 giorni. Questa regola è diversa da quella di alcuni altri Paesi e rende l’ingresso particolarmente semplice per i viaggiatori italiani. È comunque importante viaggiare con un passaporto valido per l’intera durata del soggiorno e verificare eventuali aggiornamenti prima della partenza. All’arrivo, i viaggiatori devono rispettare le norme di registrazione locale: in genere la registrazione entro 3 giorni dall’ingresso è obbligatoria, e spesso viene gestita direttamente dalla struttura ricettiva. Per soggiorni superiori a 30 giorni o per motivi diversi dal turismo, possono essere richieste condizioni di ingresso differenti.",
+    "affiliate_hinweis": "Consiglio utile per il viaggio in Uzbekistan: se vuoi risparmiare sulle spese in valuta estera, sui prelievi all’estero e sui pagamenti internazionali, conviene confrontare le carte di credito pensate per chi viaggia spesso. Con una carta adatta puoi ridurre commissioni, prelevare contanti in modo più conveniente e pagare in tutto il mondo senza costi inutili. Confronta ora le migliori offerte qui: <strong><a href='https://www.tarifcheck.com/YKQ2R5K'>confronto carte di credito per viaggiare in Uzbekistan</a></strong>.",
+    "is_optimized": true
   },
   {
     "slug": "fidschi",
     "name": "Figi",
-    "visum_status": "Nessun visto necessario (fino a 4 mesi)",
+    "visum_status": "Nessun visto necessario per i cittadini italiani (fino a 4 mesi)",
     "pass_monate": 6,
-    "visum_text": "I tedeschi ricevono all'arrivo un permesso di visita gratuito (Visitor Permit) timbrato sul passaporto per un massimo di 4 mesi. Sono obbligatori un biglietto di ritorno o di proseguimento e la prova di fondi sufficienti.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Esplorate la splendida isola principale Viti Levu comodamente con la vostra auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Prenotate qui un'auto a noleggio per le Figi.</a>"
+    "visum_text": "I cittadini italiani che viaggiano alle Figi per turismo non hanno bisogno di un visto prima della partenza. All’arrivo viene generalmente rilasciato un Visitor Permit gratuito, apposto sul passaporto, valido fino a 4 mesi. Per l’ingresso sono normalmente richiesti un passaporto valido, un biglietto di ritorno o di proseguimento e la prova di fondi sufficienti per il soggiorno. Le regole possono cambiare in base alla durata e allo scopo del viaggio, quindi è sempre consigliabile verificare i requisiti aggiornati prima della partenza.",
+    "affiliate_hinweis": "Consiglio utile per il viaggio alle Figi: prima di partire, confronta le migliori <strong>carte di credito per viaggiare</strong> e scegli una soluzione che ti aiuti a <strong>risparmiare sulle commissioni</strong> quando prelevi contanti all’estero e a <strong>pagare in tutto il mondo senza costi aggiuntivi</strong>. Un confronto rapido può fare davvero la differenza durante il soggiorno: <a href='https://www.tarifcheck.com/YKQ2R5K'>scopri ora il confronto carte di credito</a>.",
+    "is_optimized": true
   },
   {
     "slug": "armenien",
     "name": "Armenia",
-    "visum_status": "Nessun visto necessario (fino a 180 giorni)",
+    "visum_status": "Nessun visto necessario per i cittadini italiani (fino a 180 giorni)",
     "pass_monate": 5,
-    "visum_text": "I tedeschi possono entrare in Armenia senza visto per un soggiorno fino a 180 giorni nell'arco di un anno solare. Il passaporto deve essere ancora valido per almeno 5 mesi al momento dell'ingresso.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Scoprite i suggestivi monasteri e i paesaggi montani dell'Armenia con facilità in auto. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Assicuratevi qui la vostra auto a noleggio.</a>"
+    "visum_text": "I cittadini italiani possono entrare in Armenia senza visto per motivi turistici e soggiornare fino a 180 giorni nell'arco di un anno solare. Per l'ingresso è necessario un passaporto valido; si consiglia inoltre di verificare che il documento abbia una validità residua sufficiente per tutta la durata del viaggio. Le regole per i cittadini italiani sono quindi sostanzialmente equivalenti a quelle previste per i cittadini tedeschi: per turismo non è richiesto alcun visto, né prima della partenza né all'arrivo, purché il soggiorno rientri nel limite consentito.",
+    "affiliate_hinweis": "Consiglio utile per il tuo viaggio in Armenia: prima di partire, confronta le carte di credito pensate per chi viaggia spesso. Una buona carta può aiutarti a <strong>risparmiare sulle commissioni di prelievo all'estero</strong> e a <strong>pagare in tutto il mondo senza costi aggiuntivi</strong>. Per trovare l'offerta più adatta alle tue esigenze, puoi consultare questo confronto: <a href='https://www.tarifcheck.com/YKQ2R5K'>confronto carte di credito per viaggiare</a>.",
+    "is_optimized": true
   },
   {
     "slug": "anderes-land-allgemein",
     "name": "Altra destinazione di viaggio (disposizioni generali)",
     "visum_status": "Verificare le disposizioni individualmente",
     "pass_monate": 6,
-    "visum_text": "Per questa destinazione al momento non disponiamo di dati specifici. Verificate le condizioni di ingresso sul sito del Ministero degli Esteri. Come regola generale a livello mondiale: il vostro passaporto dovrebbe essere valido ancora per almeno 6 mesi.",
-    "affiliate_hinweis": "💡 <strong>Consiglio auto a noleggio:</strong> Ovunque andiate, un'auto a noleggio offre in tutto il mondo la massima libertà. <a href='https://www.c24n.de/nsnjZZ8' style='color:#0056b3;'>Confrontate qui in modo semplice le offerte di auto a noleggio in tutto il mondo.</a>"
+    "visum_text": "Per questa destinazione non disponiamo al momento di dati specifici e le norme di ingresso possono variare in base al Paese di transito o alla durata del soggiorno. Per i cittadini italiani, in molti casi turistici valgono regole simili a quelle previste per altri cittadini UE, ma possono comunque essere richiesti visto, visto all'arrivo o autorizzazioni elettroniche a seconda della destinazione. Vi consigliamo quindi di controllare sempre prima della partenza le disposizioni aggiornate presso il Ministero degli Esteri italiano e l'ambasciata o il consolato competente. Come regola generale, il passaporto dovrebbe essere valido per almeno 6 mesi oltre la data di ingresso prevista.",
+    "affiliate_hinweis": "Consiglio utile per il viaggio: prima di partire, confronta una carta di credito pensata per chi viaggia spesso. Puoi risparmiare su prelievi all'estero, pagare in tutto il mondo senza commissioni e avere condizioni vantaggiose anche fuori dall'Italia. Scopri le offerte e confronta le migliori soluzioni qui: <strong><a href='https://www.tarifcheck.com/YKQ2R5K'>confronta ora le carte di credito per viaggiare</a></strong>.",
+    "is_optimized": true
   }
 ]
