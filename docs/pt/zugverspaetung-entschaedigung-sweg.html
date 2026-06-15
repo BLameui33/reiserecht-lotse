@@ -291,11 +291,11 @@ Alemanha</textarea>
   <div class="popular-links" style="margin-top: 40px; padding: 20px; background: #f9f9f9; border-radius: 8px;">
     <h3>Outros prestadores e regiões:</h3>
     <div class="link-grid">
-      <a href="zugverspaetung-entschaedigung-eurobahn.html">eurobahn</a>
-<a href="zugverspaetung-entschaedigung-westbahn.html">WESTbahn</a>
-<a href="zugverspaetung-entschaedigung-cp.html">CP (Comboios de Portugal)</a>
-<a href="zugverspaetung-entschaedigung-flixtrain.html">FlixTrain</a>
+      <a href="zugverspaetung-entschaedigung-oebb.html">ÖBB (Österreichische Bundesbahnen)</a>
+<a href="zugverspaetung-entschaedigung-cfr.html">CFR Călători</a>
+<a href="zugverspaetung-entschaedigung-vlexx.html">vlexx</a>
 <a href="zugverspaetung-entschaedigung-sj.html">SJ (Statens Järnvägar)</a>
+<a href="zugverspaetung-entschaedigung-odeg.html">ODEG (Ostdeutsche Eisenbahn)</a>
 
     </div>
   </div>
@@ -504,9 +504,9 @@ const empfaenger = document.getElementById('rAddress').value;
     doc.text("Percurso:", 25, 115);
 
     doc.setFont("helvetica", "normal");
-    doc.text(fTicket, 75, 105);
-    doc.text(fDatum, 75, 110);
-    doc.text(`${fStart} para ${fZiel}`, 75, 115);
+    doc.text(fTicket, 95, 105);
+    doc.text(fDatum, 95, 110);
+    doc.text(`${fStart} para ${fZiel}`, 95, 115);
 
     doc.setDrawColor(0, 0, 0);
     doc.line(25, 120, 185, 120); 

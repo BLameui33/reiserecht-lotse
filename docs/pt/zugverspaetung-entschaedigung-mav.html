@@ -291,11 +291,11 @@ Hungria</textarea>
   <div class="popular-links" style="margin-top: 40px; padding: 20px; background: #f9f9f9; border-radius: 8px;">
     <h3>Outros prestadores e regiões:</h3>
     <div class="link-grid">
-      <a href="zugverspaetung-entschaedigung-ice.html">ICE (Deutsche Bahn)</a>
-<a href="zugverspaetung-entschaedigung-deutsche-bahn.html">Deutsche Bahn</a>
-<a href="zugverspaetung-entschaedigung-cd.html">ČD (České dráhy)</a>
-<a href="zugverspaetung-entschaedigung-nordwestbahn.html">NordWestBahn</a>
-<a href="zugverspaetung-entschaedigung-national-express.html">National Express</a>
+      <a href="zugverspaetung-entschaedigung-pkp.html">PKP Intercity</a>
+<a href="zugverspaetung-entschaedigung-trenitalia.html">Trenitalia</a>
+<a href="zugverspaetung-entschaedigung-eurobahn.html">eurobahn</a>
+<a href="zugverspaetung-entschaedigung-eurostar.html">Eurostar</a>
+<a href="zugverspaetung-entschaedigung-erixx.html">erixx</a>
 
     </div>
   </div>
@@ -504,9 +504,9 @@ const empfaenger = document.getElementById('rAddress').value;
     doc.text("Percurso:", 25, 115);
 
     doc.setFont("helvetica", "normal");
-    doc.text(fTicket, 75, 105);
-    doc.text(fDatum, 75, 110);
-    doc.text(`${fStart} para ${fZiel}`, 75, 115);
+    doc.text(fTicket, 95, 105);
+    doc.text(fDatum, 95, 110);
+    doc.text(`${fStart} para ${fZiel}`, 95, 115);
 
     doc.setDrawColor(0, 0, 0);
     doc.line(25, 120, 185, 120); 

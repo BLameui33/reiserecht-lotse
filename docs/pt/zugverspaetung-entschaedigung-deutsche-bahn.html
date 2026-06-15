@@ -289,11 +289,11 @@ Alemanha</textarea>
   <div class="popular-links" style="margin-top: 40px; padding: 20px; background: #f9f9f9; border-radius: 8px;">
     <h3>Outros prestadores e regiões:</h3>
     <div class="link-grid">
-      <a href="zugverspaetung-entschaedigung-dsb.html">DSB (Danske Statsbaner)</a>
-<a href="zugverspaetung-entschaedigung-agilis.html">agilis</a>
-<a href="zugverspaetung-entschaedigung-ns.html">NS (Nederlandse Spoorwegen)</a>
-<a href="zugverspaetung-entschaedigung-sj.html">SJ (Statens Järnvägar)</a>
-<a href="zugverspaetung-entschaedigung-westbahn.html">WESTbahn</a>
+      <a href="zugverspaetung-entschaedigung-cp.html">CP (Comboios de Portugal)</a>
+<a href="zugverspaetung-entschaedigung-ice.html">ICE (Deutsche Bahn)</a>
+<a href="zugverspaetung-entschaedigung-renfe.html">Renfe</a>
+<a href="zugverspaetung-entschaedigung-vlexx.html">vlexx</a>
+<a href="zugverspaetung-entschaedigung-dsb.html">DSB (Danske Statsbaner)</a>
 
     </div>
   </div>
@@ -502,9 +502,9 @@ const empfaenger = document.getElementById('rAddress').value;
     doc.text("Percurso:", 25, 115);
 
     doc.setFont("helvetica", "normal");
-    doc.text(fTicket, 75, 105);
-    doc.text(fDatum, 75, 110);
-    doc.text(`${fStart} para ${fZiel}`, 75, 115);
+    doc.text(fTicket, 95, 105);
+    doc.text(fDatum, 95, 110);
+    doc.text(`${fStart} para ${fZiel}`, 95, 115);
 
     doc.setDrawColor(0, 0, 0);
     doc.line(25, 120, 185, 120); 
