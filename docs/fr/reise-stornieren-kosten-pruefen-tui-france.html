@@ -198,6 +198,26 @@ France</textarea>
 </div>
   </form>
 
+  <!-- START: Text-Output Box für Online-Formulare -->
+<div id="textOutputArea" style="display: none; margin-top: 40px; background: #ffffff; padding: 35px; border: 1px solid #f5c6c6; border-top: 5px solid #aa3131; border-radius: 8px; box-shadow: 0 10px 30px rgba(137, 24, 24, 0.08); box-sizing: border-box;">
+    
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-wrap: wrap; gap: 15px;">
+        <div style="flex: 1; min-width: 250px;">
+            <h3 style="margin: 0 0 5px 0; color: #aa3131; font-size: 1.4em;">Votre texte final</h3>
+            <p style="margin: 0; font-size: 0.95em; color: #666; line-height: 1.4;">Le prestataire ne propose-t-il pas d'option pour télécharger des fichiers PDF ? Copiez simplement le texte généré en un seul clic pour le coller dans le formulaire de contact en ligne.</p>
+        </div>
+        
+        <!-- Der neue Copy-Button -->
+        <button type="button" id="copyToClipboardBtn" style="background: #aa3131; color: #ffffff; border: none; padding: 12px 24px; font-size: 1em; font-weight: bold; border-radius: 6px; cursor: pointer; transition: background 0.3s; box-shadow: 0 4px 10px rgba(137, 24, 24, 0.2); white-space: nowrap;">
+             Copier le texte
+        </button>
+    </div>
+
+    <!-- Das eigentliche Textfeld (readonly = Nutzer kann es kopieren, aber nicht versehentlich löschen) -->
+    <textarea id="plainTextResult" rows="12" style="width: 100%; padding: 20px; font-family: 'Courier New', Courier, monospace; font-size: 0.95em; line-height: 1.6; color: #333; background: #fdfdfd; border: 1px solid #e0e0e0; border-radius: 6px; resize: vertical; box-sizing: border-box;" readonly></textarea>
+</div>
+<!-- ENDE: Text-Output Box -->
+
   <!-- Umfassender SEO Content Bereich -->
   <div class="seo-content">
     <h2>Annuler un voyage à forfait : vos droits légaux</h2>
@@ -242,11 +262,11 @@ France</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Autres thèmes intéressants :</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="reise-stornieren-kosten-pruefen-bucher-reisen.html">Bucher Reisen (ANEX Tour GmbH)</a>
-<a href="reise-stornieren-kosten-pruefen-aida.html">AIDA Cruises - German Branch of Costa Crociere S.p.A.</a>
-<a href="reise-stornieren-kosten-pruefen-eti.html">Express Travel International GmbH</a>
-<a href="reise-stornieren-kosten-pruefen-voyageurs-du-monde.html">Voyageurs du Monde S.A.</a>
-<a href="reise-stornieren-kosten-pruefen-anex-tour.html">ANEX Tour GmbH</a>
+    <a href="reise-stornieren-kosten-pruefen-olimar.html">OLIMAR Reisen Vertriebs GmbH</a>
+<a href="reise-stornieren-kosten-pruefen-hlx.html">HLX Touristik GmbH</a>
+<a href="reise-stornieren-kosten-pruefen-gebeco.html">Gebeco GmbH & Co. KG</a>
+<a href="reise-stornieren-kosten-pruefen-phoenix-reisen.html">Phoenix Reisen GmbH</a>
+<a href="reise-stornieren-kosten-pruefen-alpitour.html">Alpitour S.p.A.</a>
 
   </div>
 </div>
@@ -408,6 +428,20 @@ document.getElementById('stornoForm').addEventListener('submit', function(e) {
     
     const { jsPDF } = window.jspdf;
     const doc = new jsPDF();
+
+    // --- ZAUBERTRICK START ---
+let plainText = "";
+const originalText = doc.text.bind(doc);
+doc.text = function() {
+    let text = arguments[0];
+    if (Array.isArray(text)) {
+        plainText += text.join('\n') + '\n';
+    } else {
+        plainText += text + '\n';
+    }
+    return originalText.apply(this, arguments);
+};
+// --- ZAUBERTRICK ENDE ---
     
     const empfaenger = document.getElementById('aName').value;
     const adresse = document.getElementById('aAdresse').value.replace(/\\n/g, '\n');
@@ -543,6 +577,15 @@ document.getElementById('stornoForm').addEventListener('submit', function(e) {
     doc.text(`Signature (${sName})`, 100, yPos + 5);
 
     const cleanEmpf = empfaenger.replace(/[^a-zA-Z0-9]/g, '_');
+
+    // Box einblenden und den abgefangenen Text einfügen
+const outputArea = document.getElementById('textOutputArea');
+outputArea.style.display = 'block';
+document.getElementById('plainTextResult').value = plainText;
+
+// Optional: Sanft zur neuen Box scrollen, damit der Nutzer sie sofort sieht
+outputArea.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
     doc.save(`Reiseruecktritt_${cleanEmpf}_${fBuchung}.pdf`);
 setTimeout(() => document.getElementById('donateOverlay').classList.add('active'), 800);
 });
@@ -603,6 +646,29 @@ document.getElementById('donateOverlay').addEventListener('click', function(e) {
   if (e.target === this) {
     closeOverlay();
   }
+});
+
+// --- KOPIER-BUTTON LOGIK ---
+document.getElementById('copyToClipboardBtn').addEventListener('click', function() {
+    const textArea = document.getElementById('plainTextResult');
+    
+    // Text in die Zwischenablage schreiben
+    navigator.clipboard.writeText(textArea.value).then(() => {
+        const btn = this;
+        const originalText = btn.innerHTML;
+        
+        // Optisches Feedback: Grün und neues Icon
+        btn.innerHTML = "✅ Copié avec succès !";
+        btn.style.background = "#2e7d32"; 
+        
+        // Nach 3 Sekunden wieder zurück zum Standard-Rot
+        setTimeout(() => {
+            btn.innerHTML = originalText;
+            btn.style.background = "#891818";
+        }, 3000);
+    }).catch(err => {
+        alert("Erreur lors de la copie. Veuillez sélectionner le texte manuellement.");
+    });
 });
 </script>
 

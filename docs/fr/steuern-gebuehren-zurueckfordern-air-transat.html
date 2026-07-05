@@ -144,10 +144,11 @@
       <label>Nom de la compagnie aérienne :</label>
       <input type="text" id="aName" value="Air Transat (Transat Tours Canada Inc.)" required>
       <label>Adresse :</label>
-      <textarea id="aAdresse" rows="3" required>Service clientèle, Place du Parc
-300 Léo Pariseau Street, Suite 200
-Montréal (Québec) H2X 4C2
-Canada</textarea>
+      <textarea id="aAdresse" rows="3" required>Air Transat
+Bureau de Paris
+10 rue de la Paix
+75002 Paris
+France</textarea>
     </fieldset>
     <p style="font-size: 0.8em; color: #666; margin-top: 5px; line-height: 1.3;">
   💡 <strong>Remarque :</strong> L'adresse centrale ou régionale du prestataire est indiquée ici par défaut. Vous pouvez modifier cette adresse à tout moment et saisir celle de la succursale locale dans votre pays.
@@ -191,6 +192,26 @@ Canada</textarea>
     <button type="submit" class="button-primary">📄 Générer la demande de remboursement en PDF</button>
 </div>
   </form>
+
+  <!-- START: Text-Output Box für Online-Formulare -->
+<div id="textOutputArea" style="display: none; margin-top: 40px; background: #ffffff; padding: 35px; border: 1px solid #f5c6c6; border-top: 5px solid #aa3131; border-radius: 8px; box-shadow: 0 10px 30px rgba(137, 24, 24, 0.08); box-sizing: border-box;">
+    
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-wrap: wrap; gap: 15px;">
+        <div style="flex: 1; min-width: 250px;">
+            <h3 style="margin: 0 0 5px 0; color: #aa3131; font-size: 1.4em;">Votre texte final</h3>
+            <p style="margin: 0; font-size: 0.95em; color: #666; line-height: 1.4;">Le prestataire ne propose-t-il pas d'option pour télécharger des fichiers PDF ? Copiez simplement le texte généré en un seul clic pour le coller dans le formulaire de contact en ligne.</p>
+        </div>
+        
+        <!-- Der neue Copy-Button -->
+        <button type="button" id="copyToClipboardBtn" style="background: #aa3131; color: #ffffff; border: none; padding: 12px 24px; font-size: 1em; font-weight: bold; border-radius: 6px; cursor: pointer; transition: background 0.3s; box-shadow: 0 4px 10px rgba(137, 24, 24, 0.2); white-space: nowrap;">
+             Copier le texte
+        </button>
+    </div>
+
+    <!-- Das eigentliche Textfeld (readonly = Nutzer kann es kopieren, aber nicht versehentlich löschen) -->
+    <textarea id="plainTextResult" rows="12" style="width: 100%; padding: 20px; font-family: 'Courier New', Courier, monospace; font-size: 0.95em; line-height: 1.6; color: #333; background: #fdfdfd; border: 1px solid #e0e0e0; border-radius: 6px; resize: vertical; box-sizing: border-box;" readonly></textarea>
+</div>
+<!-- ENDE: Text-Output Box -->
 
   <!-- Umfassender SEO Content Bereich -->
   <div class="seo-content">
@@ -237,11 +258,11 @@ Canada</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Autres sujets intéressants :</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="steuern-gebuehren-zurueckfordern-bulgaria-air.html">Bulgaria Air</a>
-<a href="steuern-gebuehren-zurueckfordern-etihad-airways.html">Etihad Airways</a>
-<a href="steuern-gebuehren-zurueckfordern-luxair.html">Luxair S.A.</a>
-<a href="steuern-gebuehren-zurueckfordern-croatia-airlines.html">Croatia Airlines d.d.</a>
-<a href="steuern-gebuehren-zurueckfordern-vueling.html">Vueling Airlines S.A.</a>
+    <a href="steuern-gebuehren-zurueckfordern-aegean-airlines.html">Aegean Airlines S.A.</a>
+<a href="steuern-gebuehren-zurueckfordern-iberia.html">IBERIA LAE SA Operadora Unipersonal</a>
+<a href="steuern-gebuehren-zurueckfordern-neos-air.html">Neos S.p.A.</a>
+<a href="steuern-gebuehren-zurueckfordern-ana.html">ANA Holdings Inc. (All Nippon Airways)</a>
+<a href="steuern-gebuehren-zurueckfordern-discover-airlines.html">EW Discover GmbH</a>
 
   </div>
 </div>
@@ -364,6 +385,20 @@ document.getElementById('taxForm').addEventListener('submit', function(e) {
     
     const { jsPDF } = window.jspdf;
     const doc = new jsPDF();
+
+    // --- ZAUBERTRICK START ---
+let plainText = "";
+const originalText = doc.text.bind(doc);
+doc.text = function() {
+    let text = arguments[0];
+    if (Array.isArray(text)) {
+        plainText += text.join('\n') + '\n';
+    } else {
+        plainText += text + '\n';
+    }
+    return originalText.apply(this, arguments);
+};
+// --- ZAUBERTRICK ENDE ---
     
     const airline = document.getElementById('aName').value;
     const airlineAddr = document.getElementById('aAdresse').value.replace(/\\n/g, '\n');
@@ -500,6 +535,15 @@ doc.text("Lieu, date", 25, yPos + 5);
 doc.text(`Signature (${sName})`, 100, yPos + 5);
 
 const cleanAirline = airline.replace(/[^a-zA-Z0-9]/g, '_');
+
+// Box einblenden und den abgefangenen Text einfügen
+const outputArea = document.getElementById('textOutputArea');
+outputArea.style.display = 'block';
+document.getElementById('plainTextResult').value = plainText;
+
+// Optional: Sanft zur neuen Box scrollen, damit der Nutzer sie sofort sieht
+outputArea.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
 doc.save(`Remboursement_taxes_${cleanAirline}_${fBuchung}.pdf`);
 setTimeout(() => document.getElementById('donateOverlay').classList.add('active'), 800);
 });
@@ -560,6 +604,29 @@ document.getElementById('donateOverlay').addEventListener('click', function(e) {
   if (e.target === this) {
     closeOverlay();
   }
+});
+
+// --- KOPIER-BUTTON LOGIK ---
+document.getElementById('copyToClipboardBtn').addEventListener('click', function() {
+    const textArea = document.getElementById('plainTextResult');
+    
+    // Text in die Zwischenablage schreiben
+    navigator.clipboard.writeText(textArea.value).then(() => {
+        const btn = this;
+        const originalText = btn.innerHTML;
+        
+        // Optisches Feedback: Grün und neues Icon
+        btn.innerHTML = "✅ Copié avec succès !";
+        btn.style.background = "#2e7d32"; 
+        
+        // Nach 3 Sekunden wieder zurück zum Standard-Rot
+        setTimeout(() => {
+            btn.innerHTML = originalText;
+            btn.style.background = "#891818";
+        }, 3000);
+    }).catch(err => {
+        alert("Erreur lors de la copie. Veuillez sélectionner le texte manuellement.");
+    });
 });
 </script>
 

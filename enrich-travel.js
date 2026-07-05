@@ -1,66 +1,59 @@
 // ==========================================
-//  Reise-Portal Master-Skript (Laender-Anpassung)
-//  Multilingual & Multi-File - Visa & Kreditkarten
+//  Airlines-Portal Master-Skript (Laender-Anpassung)
+//  Fokus: NUR Adressen anpassen (Chain-of-Thought für LOKALE Adressen)
 // ==========================================
 const fs = require('fs');
 const path = require('path');
 
 // ==========================================
-// 1. HIER OPENAI API-KEY & KREDITKARTEN-LINK EINTRAGEN
+// 1. HIER OPENAI API-KEY EINTRAGEN
 // ==========================================
-const API_KEY = "";
-const CREDIT_CARD_LINK = "https://www.tarifcheck.com/YKQ2R5K"; // Dein neuer Link
+const API_KEY = "Hier KEY eintragen"; // <--- Bitte hier deinen OpenAI API-Key eintragen
 
-// Definition der Ordnerstruktur und genaue Zuordnung von Sprache + Staatsbürgerschaft
+// Definition der Ordnerstruktur und genaue Zuordnung von Sprache + Zielland
 const originMap = {
-    'de': { language: 'Deutsch', citizen: 'deutsche Staatsbürger (Deutschland)' },
-    'es': { language: 'Spanisch', citizen: 'spanische Staatsbürger (Spanien)' },
-    'it': { language: 'Italienisch', citizen: 'italienische Staatsbürger (Italien)' },
-    'fr': { language: 'Französisch', citizen: 'französische Staatsbürger (Frankreich)' },
-    'nl': { language: 'Niederländisch', citizen: 'niederländische Staatsbürger (Niederlande)' },
-    'fr-be': { language: 'Französisch', citizen: 'belgische Staatsbürger (Belgien)' },
-    'nl-be': { language: 'Niederländisch', citizen: 'belgische Staatsbürger (Belgien)' },
-    'pt': { language: 'Portugiesisch', citizen: 'portugiesische Staatsbürger (Portugal)' }
+    'de': { language: 'Deutsch', country: 'Deutschland' },
+    'es': { language: 'Spanisch', country: 'Spanien' },
+    'it': { language: 'Italienisch', country: 'Italien' },
+    'fr': { language: 'Französisch', country: 'Frankreich' },
+    'nl': { language: 'Niederländisch', country: 'Niederlande' },
+    'fr-be': { language: 'Französisch', country: 'Belgien' },
+    'nl-be': { language: 'Niederländisch', country: 'Belgien' },
+    'pt': { language: 'Portugiesisch', country: 'Portugal' }
 };
 
-const filesToProcess = ['laender.json'];
+const filesToProcess = ['airlines.json'];
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
-// Dynamischer Prompt-Generator für die Länder-Spezifischen Anpassungen
-function getPrompt(targetCountry, origin, oldData) {
+// Dynamischer Prompt-Generator - MIT Chain-of-Thought für lokale Büros
+function getPrompt(airlineName, origin, oldData) {
     return `
-Du bist ein Experte für internationale Einreisebestimmungen und ein SEO-Copywriter.
-Deine Aufgabe ist es, die Einreisebestimmungen für das Zielland "${targetCountry}" anzupassen.
+Du bist ein Experte für Luftfahrt und kennst die weltweiten Standorte, City Ticket Offices (CTO), Flughafenbüros und Landesvertretungen (GSA) der Fluggesellschaften.
+Deine Aufgabe ist es, die postalische Kontaktadresse von "${airlineName}" SPEZIELL FÜR DAS LAND "${origin.country}" (Sprache: ${origin.language}) herauszufinden.
 
-WICHTIGSTE REGEL: 
-Die Bestimmungen müssen speziell für **${origin.citizen}** gelten, die als Touristen einreisen! 
-Recherchiere kurz (bzw. nutze dein Wissen), ob für ${origin.citizen} andere Regeln als für deutsche Staatsbürger gelten (z.B. Visumzwang, Visa on Arrival oder Visumfreiheit).
+Bisherige Adresse (als Referenz): "${oldData.adresse}"
 
-Hier sind die alten Daten zur Orientierung (beziehen sich meist auf deutsche Staatsbürger):
-- Alter Visum Status: "${oldData.visum_status}"
-- Alter Text: "${oldData.visum_text}"
-
-ZUSÄTZLICHE AUFGABE (Affiliate-Wechsel):
-Schreibe den Affiliate-Hinweis komplett um. Erstelle einen attraktiven Tipp für einen Kreditkarten-Vergleich, der auf Reisen im Zielland "${targetCountry}" optimiert ist (z.B. Gebühren sparen beim Geld abheben im Ausland, weltweit kostenlos bezahlen). 
-Füge dort exakt diesen Link ein: ${CREDIT_CARD_LINK}
+REGELN FÜR DIE SUCHE:
+1. Nimm NICHT einfach den globalen Hauptsitz im Heimatland der Airline!
+2. Suche gezielt nach einer Niederlassung, einem Stadtbüro (City Office) oder einem Flughafenbüro von ${airlineName} direkt in ${origin.country}.
+3. Wenn es z.B. um Frankreich geht, suche nach dem Büro in Paris oder am Flughafen CDG/ORY. 
+4. Nur wenn du dir zu 100% sicher bist, dass diese Airline absolut keine Vertretung in ${origin.country} hat, darfst du den globalen Hauptsitz verwenden (dann aber das Land auf ${origin.language} übersetzt).
+5. Erhalte zwingend die Zeilenumbrüche mit \\n.
 
 VORGABEN FÜR DIE AUSGABE:
-1. Sprache: Schreibe ALLES komplett in der Sprache **${origin.language}**.
-2. Der Stil soll professionell, einladend und SEO-optimiert sein.
-3. Verwende im Affiliate-Hinweis passende HTML-Tags wie <strong> und <a href='...'> (Nutze im JSON bitte einfache Anführungszeichen '' für HTML-Attribute, damit das JSON valide bleibt).
-4. Antworte AUSSCHLIESSLICH mit einem validen JSON-Objekt. Verwende kein Markdown (keine \`\`\`json Blöcke). 
+Antworte AUSSCHLIESSLICH mit einem validen JSON-Objekt.
+Um sicherzustellen, dass du gründlich suchst, fülle zuerst das Feld "gedankengang" aus, in dem du kurz erklärst, wo sich das Büro in ${origin.country} befindet. Danach trägst du die gefundene Adresse ins Feld "adresse" ein.
 
 Das JSON MUSS exakt diese Struktur haben:
 {
-  "visum_status": "Ein prägnanter Status-Satz",
-  "visum_text": "Der ausführliche Text zu den Einreisebestimmungen",
-  "affiliate_hinweis": "Der neue Kreditkarten-Tipp mit dem Link"
+  "gedankengang": "Hat die Airline ein Büro in [Zielland]? Ja, das Büro befindet sich in... / Nein, sie haben keines, ich nutze das HQ in...",
+  "adresse": "Straße\\nPLZ Ort\\nLand"
 }
 `;
 }
 
-async function generateCountryData(targetCountry, origin, oldData) {
-    const prompt = getPrompt(targetCountry, origin, oldData);
+async function generateAirlineData(airlineName, origin, oldData) {
+    const prompt = getPrompt(airlineName, origin, oldData);
 
     try {
         const response = await fetch("https://api.openai.com/v1/chat/completions", {
@@ -70,12 +63,13 @@ async function generateCountryData(targetCountry, origin, oldData) {
                 "Authorization": `Bearer ${API_KEY}`
             },
             body: JSON.stringify({
-                model: "gpt-5.4-mini", // Auf ein existierendes, stabiles Modell angepasst
+                model: "gpt-5.4-mini",
                 messages: [
                     { role: "system", content: "Du bist eine API, die ausschließlich reines JSON ohne Markdown-Formatierung zurückgibt." },
                     { role: "user", content: prompt }
                 ],
-                temperature: 0.4
+                // Leicht erhöhte Temperatur (0.3), damit die KI besser "nachdenken" und Assoziationen zu lokalen Büros knüpfen kann
+                temperature: 0.3 
             })
         });
 
@@ -87,19 +81,18 @@ async function generateCountryData(targetCountry, origin, oldData) {
         const data = await response.json();
         let text = data.choices[0].message.content.trim();
         
-        // Eventuelle Markdown-Reste entfernen, falls die KI sich nicht dran hält
         text = text.replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/\s*```$/i, '');
         
         return JSON.parse(text); 
         
     } catch (error) {
-        console.error(`❌ Fehler bei Land ${targetCountry} (${origin.language}):`, error.message);
+        console.error(`❌ Fehler bei Airline ${airlineName} (${origin.language}):`, error.message);
         return null;
     }
 }
 
 async function processAll() {
-    console.log('🚀 Starte KI-Anpassung für Länder, Visa & Kreditkarten...\n');
+    console.log('🚀 Starte KI-Anpassung für Airlines (Fokus: LOKALE Adressen)...\n');
 
     for (const folder of Object.keys(originMap)) {
         const origin = originMap[folder];
@@ -109,11 +102,10 @@ async function processAll() {
             const outputPath = path.join(__dirname, 'src', folder, fileName.replace('.json', '_optimiert.json'));
 
             if (!fs.existsSync(inputPath)) {
-                // Überspringen, falls das Verzeichnis oder die Datei nicht existiert
                 continue;
             }
 
-            console.log(`\n📂 Öffne [${folder.toUpperCase()}] -> ${fileName} (Zielgruppe: ${origin.citizen})`);
+            console.log(`\n📂 Öffne [${folder.toUpperCase()}] -> ${fileName} (Ziel-Markt: ${origin.country})`);
             
             let items;
             if (fs.existsSync(outputPath)) {
@@ -125,49 +117,46 @@ async function processAll() {
             
             const itemsOptimiert = [];
 
+            // Um das Ganze erneut zu testen, müsstest du bei den falschen Einträgen in deiner JSON 
+            // "is_optimized": false wieder entfernen oder auf false setzen, damit das Skript sie neu greift!
             for (let i = 0; i < items.length; i++) {
                 let item = items[i];
                 
-                // Bereits bearbeitete Einträge anhand unseres neuen Flags ignorieren
                 if (item.is_optimized === true) {
                     console.log(`⏭️  [${i+1}/${items.length}] ${item.name} bereits angepasst.`);
                     itemsOptimiert.push(item);
                     continue;
                 }
 
-                console.log(`⏳ [${i+1}/${items.length}] Optimiere Regeln für: ${item.name}...`);
+                console.log(`⏳ [${i+1}/${items.length}] Suche lokales Büro für: ${item.name}...`);
                 
-                const result = await generateCountryData(item.name, origin, item);
+                const result = await generateAirlineData(item.name, origin, item);
                 
                 let itemGesichert;
-                if (result) {
+                if (result && result.adresse) {
+                    console.log(`   💡 KI-Gedanke: ${result.gedankengang}`);
+                    
                     itemGesichert = {
-                        ...item,
-                        visum_status: result.visum_status,
-                        visum_text: result.visum_text,
-                        affiliate_hinweis: result.affiliate_hinweis,
-                        is_optimized: true // Markierung für den nächsten Durchlauf
+                        ...item, 
+                        adresse: result.adresse, // Wir übernehmen NUR die Adresse, der Gedankengang wird verworfen
+                        is_optimized: true 
                     };
-                    console.log(`✅ Text erfolgreich generiert.`);
+                    console.log(`✅ Adresse erfolgreich aktualisiert.`);
                 } else {
-                    // Fallback, falls die API fehlschlägt
                     itemGesichert = item;
                 }
 
                 itemsOptimiert.push(itemGesichert);
 
-                // Direkt speichern, um bei Abbruch den Fortschritt zu sichern
                 fs.writeFileSync(outputPath, JSON.stringify(itemsOptimiert, null, 2), 'utf8');
 
-                // 1,5 Sekunden Pause für das Rate-Limit
-                await delay(1500);
+                await delay(1200);
             }
             console.log(`✅ ${fileName} in [${folder}] vollständig bearbeitet!`);
         }
     }
 
-    console.log('\n🎉 FERTIG! Alle Länderdaten wurden auf die jeweiligen Staatsbürger und Kreditkarten umgestellt.');
-    console.log('👉 Bitte benenne nun alle "laender_optimiert.json"-Dateien in "laender.json" um.');
+    console.log('\n🎉 FERTIG! Alle Airline-Adressen wurden überprüft.');
 }
 
 processAll();
