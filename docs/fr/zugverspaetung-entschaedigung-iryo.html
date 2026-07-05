@@ -103,7 +103,7 @@
 </div>
 
   <div class="highlight-box pruefdatum-box" role="note" aria-label="Vérifié par la rédaction" style="margin-top: 15px; margin-bottom: 30px;">
-    <p><strong>Vérifié par la rédaction le :</strong> <span id="pruefdatum">05.05.2026</span></p>
+    <p><strong>Vérifié par la rédaction le :</strong> <span id="pruefdatum">05.07.2026</span></p>
   </div>
 
   <!-- Lesson Learned Affiliate Box: Zugverspätung -->
@@ -318,11 +318,11 @@ Espagne</textarea>
   <div class="popular-links" style="margin-top: 40px; padding: 20px; background: #f9f9f9; border-radius: 8px;">
     <h3>Autres prestataires et régions :</h3>
     <div class="link-grid">
-      <a href="zugverspaetung-entschaedigung-nordwestbahn.html">NordWestBahn</a>
-<a href="zugverspaetung-entschaedigung-brb.html">BRB (Bayerische Regiobahn)</a>
+      <a href="zugverspaetung-entschaedigung-flixtrain.html">FlixTrain</a>
+<a href="zugverspaetung-entschaedigung-sj.html">SJ (Statens Järnvägar)</a>
 <a href="zugverspaetung-entschaedigung-oebb.html">ÖBB (Österreichische Bundesbahnen)</a>
 <a href="zugverspaetung-entschaedigung-eurobahn.html">eurobahn</a>
-<a href="zugverspaetung-entschaedigung-zssk.html">ZSSK (Železničná spoločnosť Slovensko)</a>
+<a href="zugverspaetung-entschaedigung-vlexx.html">vlexx</a>
 
     </div>
   </div>
@@ -459,6 +459,43 @@ Espagne</textarea>
         <a href="datenschutz.html">Protection des données</a>
     </nav>
 </footer>
+
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Fermer">&times;</button>
+    <div class="donate-emoji">🎉</div>
+    <h2>Votre lettre est prête !</h2>
+    <p class="sub">Vous venez d'économiser des <strong style="color:#2e7d32;">frais de commission</strong> –<br>pas de prestataire tiers, pas de frais, tout vous revient.</p>
+    <div class="donate-hint">
+      Ce service est et reste <strong>100 % gratuit</strong>. S'il vous a aidé, nous serions très heureux d'un petit soutien volontaire – afin que Fix my Trip reste gratuit pour les autres voyageurs aussi.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Sélection rapide :</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Saisir un montant personnalisé …" oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Donner maintenant 5 €</button>
+    <button class="btn-skip" onclick="closeOverlay()">Non merci, je ferme la fenêtre</button>
+    <p class="paypal-note">Volontaire et sécurisé via PayPal</p>
+    <!-- P.S. Trick für das Bahn-Overlay -->
+<div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
+  
+  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
+    Publicité / lien sponsorisé
+  </span>
+
+  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
+    <strong style="color: #333;">P.S. : Vous repartez bientôt ?</strong> Protégez-vous avant le prochain chaos ferroviaire ou aérien. Les vraies cartes de crédit voyage aident facilement en cas de frais imprévus d'hôtel ou de location de voiture et offrent souvent une forte protection des achats. <br>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Comparer maintenant les meilleurs prestataires et se protéger 🚆</a>
+  </p>
+</div>
+  </div>
+</div>
 
 <script>
 document.getElementById('trainForm').addEventListener('submit', function(e) {
@@ -732,41 +769,6 @@ document.getElementById('copyToClipboardBtn').addEventListener('click', function
 });
 </script>
 
-<div class="overlay" id="donateOverlay">
-  <div class="donate-modal">
-    <button class="close-x" onclick="closeOverlay()" aria-label="Fermer">&times;</button>
-    <div class="donate-emoji">🎉</div>
-    <h2>Votre lettre est prête !</h2>
-    <p class="sub">Vous venez d'économiser des <strong style="color:#2e7d32;">frais de commission</strong> –<br>pas de prestataire tiers, pas de frais, tout vous revient.</p>
-    <div class="donate-hint">
-      Ce service est et reste <strong>100 % gratuit</strong>. S'il vous a aidé, nous serions très heureux d'un petit soutien volontaire – afin que Fix my Trip reste gratuit pour les autres voyageurs aussi.
-    </div>
-    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Sélection rapide :</p>
-    <div class="donate-amounts">
-      <button onclick="selectPreset(3, this)">3 €</button>
-      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
-      <button onclick="selectPreset(10, this)">10 €</button>
-    </div>
-    <div class="custom-amount-wrapper">
-      <span class="currency-symbol">€</span>
-      <input type="number" id="customAmount" min="1" step="1" placeholder="Saisir un montant personnalisé …" oninput="handleCustomInput(this)">
-    </div>
-    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Donner maintenant 5 €</button>
-    <button class="btn-skip" onclick="closeOverlay()">Non merci, je ferme la fenêtre</button>
-    <p class="paypal-note">Volontaire et sécurisé via PayPal</p>
-    <!-- P.S. Trick für das Bahn-Overlay -->
-<div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
-  
-  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
-    Publicité / lien sponsorisé
-  </span>
 
-  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
-    <strong style="color: #333;">P.S. : Vous repartez bientôt ?</strong> Protégez-vous avant le prochain chaos ferroviaire ou aérien. Les vraies cartes de crédit voyage aident facilement en cas de frais imprévus d'hôtel ou de location de voiture et offrent souvent une forte protection des achats. <br>
-    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Comparer maintenant les meilleurs prestataires et se protéger 🚆</a>
-  </p>
-</div>
-  </div>
-</div>
 </body>
 </html>

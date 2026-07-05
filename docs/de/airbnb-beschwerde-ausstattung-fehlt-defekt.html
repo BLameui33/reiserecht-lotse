@@ -114,7 +114,7 @@
     Dieses Tool ist ein <strong>automatisierter Musterbrief-Generator</strong> (Hilfe zur Selbsthilfe). Es fügt Ihre Daten lediglich in juristische Standardvorlagen ein. Es findet <strong>keine individuelle Prüfung</strong> Ihres Falls statt. Dieser kostenlose Service ersetzt keine anwaltliche Rechtsberatung. Die Nutzung erfolgt auf eigene Verantwortung, eine Erfolgsgarantie wird nicht übernommen.
 </div>
 <div class="highlight-box pruefdatum-box" role="note" aria-label="Redaktionell geprüft" style="margin-top: 15px; margin-bottom: 30px;">
-    <p><strong>Redaktionell geprüft am:</strong> <span id="pruefdatum">07.05.2026</span></p>
+    <p><strong>Redaktionell geprüft am:</strong> <span id="pruefdatum">05.07.2026</span></p>
   </div>
 
   <div class="lesson-learned-box" style="background: #f8f9fa; border-left: 4px solid #ffb300; padding: 15px 20px; margin: 30px 0; border-radius: 4px; display: flex; align-items: flex-start; gap: 15px; position: relative;">
@@ -260,11 +260,11 @@
 <div class="crosslink-box" style="background: #fffafb; border: 1px solid #ffebee; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3 style="color: #ff385c;">Weitere Airbnb-Problemlösungen:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="airbnb-beschwerde-allgemein.html">Allgemeines Airbnb Problem</a>
-<a href="airbnb-beschwerde-dreck-schimmel-ungeziefer.html">Schimmel, Dreck & Ungeziefer</a>
+    <a href="airbnb-beschwerde-gastgeber-storniert-kurzfristig.html">Stornierung durch Gastgeber</a>
+<a href="airbnb-beschwerde-allgemein.html">Allgemeines Airbnb Problem</a>
 <a href="airbnb-beschwerde-kaution-unrechtmaessig-einbehalten.html">Kaution unrechtmäßig einbehalten</a>
 <a href="airbnb-beschwerde-aircover-abgelehnt-geld-zurueck.html">AirCover Käuferschutz abgelehnt</a>
-<a href="airbnb-beschwerde-falsche-angaben-fake-fotos.html">Falsche Angaben & Fake-Fotos</a>
+<a href="airbnb-beschwerde-dreck-schimmel-ungeziefer.html">Schimmel, Dreck & Ungeziefer</a>
 
   </div>
 </div>
@@ -341,6 +341,44 @@
         <a href="datenschutz.html">Datenschutz</a>
     </nav>
 </footer>
+
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Schließen">&times;</button>
+    <div class="donate-emoji">🎉</div>
+    <h2>Ihr Brief an Airbnb ist fertig!</h2>
+    <p class="sub">Viel Erfolg bei der Rückforderung über AirCover.</p>
+    <div class="donate-hint">
+      Dieser Service ist und bleibt <strong>100 % kostenlos</strong>. Wenn er Ihnen geholfen hat, freuen wir uns sehr über eine kleine freiwillige Unterstützung.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Schnellauswahl:</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Eigener Betrag eingeben …" oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" style="background-color: #ff385c;" onclick="openPayPal()">Jetzt 5 € spenden</button>
+    <button class="btn-skip" onclick="closeOverlay()">Nein danke, ich schließe das Fenster</button>
+
+    <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
+  
+  <!-- NEU: Affiliate Hinweis über dem Text -->
+  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
+    Anzeige / Werbelink
+  </span>
+
+  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
+    <strong style="color: #333;">P.S.: Fliegen Sie bald wieder?</strong> Sichern Sie sich vor dem nächsten Reise-Ärger ab. Echte Travel-Kreditkarten kosten dauerhaft 0 € Jahresgebühr, streichen das Auslandseinsatzentgelt und bieten oft starken Käuferschutz. <br>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Jetzt Top-Anbieter vergleichen & absichern ✈️</a>
+  </p>
+</div>
+
+  </div>
+</div>
 
 <script>
 // Live-Rechner Logik
@@ -669,42 +707,5 @@ document.getElementById('copyToClipboardBtn').addEventListener('click', function
 });
 </script>
 
-<div class="overlay" id="donateOverlay">
-  <div class="donate-modal">
-    <button class="close-x" onclick="closeOverlay()" aria-label="Schließen">&times;</button>
-    <div class="donate-emoji">🎉</div>
-    <h2>Ihr Brief an Airbnb ist fertig!</h2>
-    <p class="sub">Viel Erfolg bei der Rückforderung über AirCover.</p>
-    <div class="donate-hint">
-      Dieser Service ist und bleibt <strong>100 % kostenlos</strong>. Wenn er Ihnen geholfen hat, freuen wir uns sehr über eine kleine freiwillige Unterstützung.
-    </div>
-    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Schnellauswahl:</p>
-    <div class="donate-amounts">
-      <button onclick="selectPreset(3, this)">3 €</button>
-      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
-      <button onclick="selectPreset(10, this)">10 €</button>
-    </div>
-    <div class="custom-amount-wrapper">
-      <span class="currency-symbol">€</span>
-      <input type="number" id="customAmount" min="1" step="1" placeholder="Eigener Betrag eingeben …" oninput="handleCustomInput(this)">
-    </div>
-    <button class="btn-donate" id="btnDonate" style="background-color: #ff385c;" onclick="openPayPal()">Jetzt 5 € spenden</button>
-    <button class="btn-skip" onclick="closeOverlay()">Nein danke, ich schließe das Fenster</button>
-
-    <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
-  
-  <!-- NEU: Affiliate Hinweis über dem Text -->
-  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
-    Anzeige / Werbelink
-  </span>
-
-  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
-    <strong style="color: #333;">P.S.: Fliegen Sie bald wieder?</strong> Sichern Sie sich vor dem nächsten Reise-Ärger ab. Echte Travel-Kreditkarten kosten dauerhaft 0 € Jahresgebühr, streichen das Auslandseinsatzentgelt und bieten oft starken Käuferschutz. <br>
-    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Jetzt Top-Anbieter vergleichen & absichern ✈️</a>
-  </p>
-</div>
-
-  </div>
-</div>
 </body>
 </html>

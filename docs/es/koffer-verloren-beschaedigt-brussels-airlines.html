@@ -117,7 +117,7 @@
 </div>
 
   <div class="highlight-box pruefdatum-box" role="note" aria-label="Revisado editorialmente" style="margin-top: 15px; margin-bottom: 30px;">
-    <p><strong>Revisado editorialmente el:</strong> <span id="pruefdatum">05.05.2026</span></p>
+    <p><strong>Revisado editorialmente el:</strong> <span id="pruefdatum">05.07.2026</span></p>
   </div>
 
   
@@ -292,11 +292,11 @@ España</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Otros temas de interés:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="koffer-verloren-beschaedigt-condor.html">Condor Flugdienst GmbH</a>
-<a href="koffer-verloren-beschaedigt-vietnam-airlines.html">Vietnam Airlines</a>
-<a href="koffer-verloren-beschaedigt-binter-canarias.html">Binter Canarias S.A.</a>
-<a href="koffer-verloren-beschaedigt-tarom.html">TAROM</a>
-<a href="koffer-verloren-beschaedigt-wideroe.html">Widerøe's Flyveselskap AS</a>
+    <a href="koffer-verloren-beschaedigt-british-airways.html">British Airways Plc (Sucursal Alemania)</a>
+<a href="koffer-verloren-beschaedigt-japan-airlines.html">Japan Airlines Co., Ltd. (JAL)</a>
+<a href="koffer-verloren-beschaedigt-korean-air.html">Korean Air</a>
+<a href="koffer-verloren-beschaedigt-eva-air.html">EVA Airways Corp.</a>
+<a href="koffer-verloren-beschaedigt-andere-airline.html">Airlines</a>
 
   </div>
 </div>
@@ -386,6 +386,45 @@ España</textarea>
         <a href="datenschutz.html">Protección de datos</a>
     </nav>
 </footer>
+
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Cerrar">&times;</button>
+    <div class="donate-emoji">🎉</div>
+    <h2>¡Su carta está lista!</h2>
+    <p class="sub">Acaba de ahorrarse la <strong style="color:#2e7d32;">comisión</strong> –<br>sin terceros, sin cargos, todo le pertenece a usted.</p>
+    <div class="donate-hint">
+      Este servicio es y seguirá siendo <strong>100 % gratuito</strong>. Si le ha ayudado, estaremos muy agradecidos por una pequeña contribución voluntaria, para que Fix my Trip siga siendo gratuito para otros viajeros.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Selección rápida:</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Introduzca un importe personalizado …" oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Donee ahora 5 €</button>
+    <button class="btn-skip" onclick="closeOverlay()">No, gracias, cerraré la ventana</button>
+    <p class="paypal-note">Voluntario y seguro a través de PayPal</p>
+    <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
+  
+  <!-- NEU: Affiliate Hinweis über dem Text -->
+  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
+    Anuncio / enlace publicitario
+  </span>
+
+  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
+    <strong style="color: #333;">P.D.: ¿Vuela de nuevo pronto?</strong> Protéjase antes del próximo contratiempo en sus viajes. Las tarjetas de crédito de viaje reales cuestan 0 € al año de forma permanente, eliminan la comisión por uso en el extranjero y a menudo ofrecen una sólida protección de compra. <br>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Compare ahora los mejores proveedores y protéjase ✈️</a>
+  </p>
+</div>
+  </div>
+</div>
+
+
 
 <script>
 
@@ -690,41 +729,6 @@ document.getElementById('copyToClipboardBtn').addEventListener('click', function
 });
 </script>
 
-<div class="overlay" id="donateOverlay">
-  <div class="donate-modal">
-    <button class="close-x" onclick="closeOverlay()" aria-label="Cerrar">&times;</button>
-    <div class="donate-emoji">🎉</div>
-    <h2>¡Su carta está lista!</h2>
-    <p class="sub">Acaba de ahorrarse la <strong style="color:#2e7d32;">comisión</strong> –<br>sin terceros, sin cargos, todo le pertenece a usted.</p>
-    <div class="donate-hint">
-      Este servicio es y seguirá siendo <strong>100 % gratuito</strong>. Si le ha ayudado, estaremos muy agradecidos por una pequeña contribución voluntaria, para que Fix my Trip siga siendo gratuito para otros viajeros.
-    </div>
-    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Selección rápida:</p>
-    <div class="donate-amounts">
-      <button onclick="selectPreset(3, this)">3 €</button>
-      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
-      <button onclick="selectPreset(10, this)">10 €</button>
-    </div>
-    <div class="custom-amount-wrapper">
-      <span class="currency-symbol">€</span>
-      <input type="number" id="customAmount" min="1" step="1" placeholder="Introduzca un importe personalizado …" oninput="handleCustomInput(this)">
-    </div>
-    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Donee ahora 5 €</button>
-    <button class="btn-skip" onclick="closeOverlay()">No, gracias, cerraré la ventana</button>
-    <p class="paypal-note">Voluntario y seguro a través de PayPal</p>
-    <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
-  
-  <!-- NEU: Affiliate Hinweis über dem Text -->
-  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
-    Anuncio / enlace publicitario
-  </span>
 
-  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
-    <strong style="color: #333;">P.D.: ¿Vuela de nuevo pronto?</strong> Protéjase antes del próximo contratiempo en sus viajes. Las tarjetas de crédito de viaje reales cuestan 0 € al año de forma permanente, eliminan la comisión por uso en el extranjero y a menudo ofrecen una sólida protección de compra. <br>
-    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Compare ahora los mejores proveedores y protéjase ✈️</a>
-  </p>
-</div>
-  </div>
-</div>
 </body>
 </html>

@@ -117,7 +117,7 @@
 </div>
 
   <div class="highlight-box pruefdatum-box" role="note" aria-label="Revisto editorialmente" style="margin-top: 15px; margin-bottom: 30px;">
-    <p><strong>Revisto editorialmente em:</strong> <span id="pruefdatum">05.05.2026</span></p>
+    <p><strong>Revisto editorialmente em:</strong> <span id="pruefdatum">05.07.2026</span></p>
   </div>
 
   
@@ -292,10 +292,10 @@ Portugal</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Outros temas interessantes:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="koffer-verloren-beschaedigt-british-airways.html">British Airways Plc (Niederlassung Deutschland)</a>
-<a href="koffer-verloren-beschaedigt-aegean-airlines.html">Aegean Airlines S.A.</a>
-<a href="koffer-verloren-beschaedigt-qatar-airways.html">Qatar Airways</a>
-<a href="koffer-verloren-beschaedigt-norwegian-air-shuttle.html">Norwegian Air Shuttle ASA</a>
+    <a href="koffer-verloren-beschaedigt-oman-air.html">Oman Air S.A.O.C.</a>
+<a href="koffer-verloren-beschaedigt-eurowings.html">Eurowings GmbH</a>
+<a href="koffer-verloren-beschaedigt-arkia.html">Arkia Israeli Airlines Ltd.</a>
+<a href="koffer-verloren-beschaedigt-united-airlines.html">United Airlines, Inc.</a>
 <a href="koffer-verloren-beschaedigt-middle-east-airlines.html">Middle East Airlines Air Liban</a>
 
   </div>
@@ -385,6 +385,43 @@ Portugal</textarea>
         <a href="datenschutz.html">Proteção de dados</a>
     </nav>
 </footer>
+
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Fechar">&times;</button>
+    <div class="donate-emoji">🎉</div>
+    <h2>A sua carta está pronta!</h2>
+    <p class="sub">Acabou de poupar <strong style="color:#2e7d32;">comissão</strong> –<br>sem terceiros, sem taxas, tudo fica consigo.</p>
+    <div class="donate-hint">
+      Este serviço é e continuará a ser <strong>100 % gratuito</strong>. Se lhe foi útil, agradecemos muito um pequeno apoio voluntário – para que a Fix my Trip continue gratuita para outros viajantes.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Seleção rápida:</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Introduza um montante personalizado …" oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Doe agora 5 €</button>
+    <button class="btn-skip" onclick="closeOverlay()">Não, obrigado, vou fechar a janela</button>
+    <p class="paypal-note">Voluntário &amp; seguro via PayPal</p>
+    <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
+  
+  <!-- NEU: Affiliate Hinweis über dem Text -->
+  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
+    Anúncio / link publicitário
+  </span>
+
+  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
+    <strong style="color: #333;">P.S.: Vai voltar a voar em breve?</strong> Proteja-se antes do próximo contratempo na viagem. Os cartões de crédito de viagem verdadeiros têm 0 € de anuidade permanente, eliminam a comissão por utilização no estrangeiro e muitas vezes oferecem uma forte proteção ao comprador. <br>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Compare já os melhores fornecedores e viaje protegido ✈️</a>
+  </p>
+</div>
+  </div>
+</div>
 
 <script>
 
@@ -687,41 +724,6 @@ document.getElementById('copyToClipboardBtn').addEventListener('click', function
 });
 </script>
 
-<div class="overlay" id="donateOverlay">
-  <div class="donate-modal">
-    <button class="close-x" onclick="closeOverlay()" aria-label="Fechar">&times;</button>
-    <div class="donate-emoji">🎉</div>
-    <h2>A sua carta está pronta!</h2>
-    <p class="sub">Acabou de poupar <strong style="color:#2e7d32;">comissão</strong> –<br>sem terceiros, sem taxas, tudo fica consigo.</p>
-    <div class="donate-hint">
-      Este serviço é e continuará a ser <strong>100 % gratuito</strong>. Se lhe foi útil, agradecemos muito um pequeno apoio voluntário – para que a Fix my Trip continue gratuita para outros viajantes.
-    </div>
-    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Seleção rápida:</p>
-    <div class="donate-amounts">
-      <button onclick="selectPreset(3, this)">3 €</button>
-      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
-      <button onclick="selectPreset(10, this)">10 €</button>
-    </div>
-    <div class="custom-amount-wrapper">
-      <span class="currency-symbol">€</span>
-      <input type="number" id="customAmount" min="1" step="1" placeholder="Introduza um montante personalizado …" oninput="handleCustomInput(this)">
-    </div>
-    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Doe agora 5 €</button>
-    <button class="btn-skip" onclick="closeOverlay()">Não, obrigado, vou fechar a janela</button>
-    <p class="paypal-note">Voluntário &amp; seguro via PayPal</p>
-    <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
-  
-  <!-- NEU: Affiliate Hinweis über dem Text -->
-  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
-    Anúncio / link publicitário
-  </span>
 
-  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
-    <strong style="color: #333;">P.S.: Vai voltar a voar em breve?</strong> Proteja-se antes do próximo contratempo na viagem. Os cartões de crédito de viagem verdadeiros têm 0 € de anuidade permanente, eliminam a comissão por utilização no estrangeiro e muitas vezes oferecem uma forte proteção ao comprador. <br>
-    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Compare já os melhores fornecedores e viaje protegido ✈️</a>
-  </p>
-</div>
-  </div>
-</div>
 </body>
 </html>

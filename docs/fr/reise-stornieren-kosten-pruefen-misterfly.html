@@ -115,7 +115,7 @@
 </div>
 
   <div class="highlight-box pruefdatum-box" role="note" aria-label="Vérifié par la rédaction" style="margin-top: 15px; margin-bottom: 30px;">
-    <p><strong>Vérifié par la rédaction le :</strong> <span id="pruefdatum">05.05.2026</span></p>
+    <p><strong>Vérifié par la rédaction le :</strong> <span id="pruefdatum">05.07.2026</span></p>
   </div>
 
   <div class="lesson-learned-box" style="background: #f8f9fa; border-left: 4px solid #ffb300; padding: 15px 20px; margin: 30px 0; border-radius: 4px; display: flex; align-items: flex-start; gap: 15px; position: relative;">
@@ -262,11 +262,11 @@ France</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Autres thèmes intéressants :</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="reise-stornieren-kosten-pruefen-rewe-reisen.html">REWE Markt GmbH</a>
-<a href="reise-stornieren-kosten-pruefen-sonnenklar-tv.html">Euvia Travel GmbH (sonnenklar.TV)</a>
-<a href="reise-stornieren-kosten-pruefen-penny-reisen.html">PENNY-Markt GmbH</a>
-<a href="reise-stornieren-kosten-pruefen-urlaubsguru.html">UNIQ GmbH (Urlaubsguru)</a>
-<a href="reise-stornieren-kosten-pruefen-govoyages.html">GO Voyages SAS (govoyages.com)</a>
+    <a href="reise-stornieren-kosten-pruefen-expedia.html">Expedia.com GmbH</a>
+<a href="reise-stornieren-kosten-pruefen-travelscout24.html">Triplemind GmbH (TravelScout24)</a>
+<a href="reise-stornieren-kosten-pruefen-lastminute-fr.html">Bravofly SAS (lastminute.com)</a>
+<a href="reise-stornieren-kosten-pruefen-holidaycheck.html">HolidayCheck AG</a>
+<a href="reise-stornieren-kosten-pruefen-leclerc-voyages.html">Leclerc Voyages (Siplec SAS)</a>
 
   </div>
 </div>
@@ -382,6 +382,42 @@ France</textarea>
     </nav>
 </footer>
 
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Schließen">&times;</button>
+    <div class="donate-emoji">🎉</div>
+    <h2>Votre lettre est prête !</h2>
+    <p class="sub">Vous venez d’économiser une <strong style="color:#2e7d32;">commission</strong> –<br>aucun prestataire tiers, aucun prélèvement, tout vous revient.</p>
+    <div class="donate-hint">
+      Ce service est et reste <strong>100 % gratuit</strong>. S’il vous a aidé, nous serions très heureux d’un petit soutien volontaire – afin que Fix my Trip reste gratuit pour les autres voyageurs aussi.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Sélection rapide :</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Saisir un montant personnalisé …" oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Faire un don de 5 € maintenant</button>
+    <button class="btn-skip" onclick="closeOverlay()">Non merci, je ferme la fenêtre</button>
+    <p class="paypal-note">Volontaire &amp; sécurisé via PayPal</p>
+    <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
+  
+  <!-- NEU: Affiliate Hinweis über dem Text -->
+  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
+    Publicité / lien sponsorisé
+  </span>
+
+  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
+    <strong style="color: #333;">P.S. : Vous reprenez bientôt l’avion ?</strong> Protégez-vous contre les prochains tracas de voyage. Les vraies cartes de crédit voyage coûtent durablement 0 € de cotisation annuelle, suppriment les frais de paiement à l’étranger et offrent souvent une solide protection des achats. <br>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Comparer et sécuriser dès maintenant les meilleurs fournisseurs ✈️</a>
+  </p>
+</div>
+  </div>
+</div>
 
 <script>
 // --- LIVE CHECKER LOGIK ---
@@ -672,41 +708,6 @@ document.getElementById('copyToClipboardBtn').addEventListener('click', function
 });
 </script>
 
-<div class="overlay" id="donateOverlay">
-  <div class="donate-modal">
-    <button class="close-x" onclick="closeOverlay()" aria-label="Schließen">&times;</button>
-    <div class="donate-emoji">🎉</div>
-    <h2>Votre lettre est prête !</h2>
-    <p class="sub">Vous venez d’économiser une <strong style="color:#2e7d32;">commission</strong> –<br>aucun prestataire tiers, aucun prélèvement, tout vous revient.</p>
-    <div class="donate-hint">
-      Ce service est et reste <strong>100 % gratuit</strong>. S’il vous a aidé, nous serions très heureux d’un petit soutien volontaire – afin que Fix my Trip reste gratuit pour les autres voyageurs aussi.
-    </div>
-    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Sélection rapide :</p>
-    <div class="donate-amounts">
-      <button onclick="selectPreset(3, this)">3 €</button>
-      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
-      <button onclick="selectPreset(10, this)">10 €</button>
-    </div>
-    <div class="custom-amount-wrapper">
-      <span class="currency-symbol">€</span>
-      <input type="number" id="customAmount" min="1" step="1" placeholder="Saisir un montant personnalisé …" oninput="handleCustomInput(this)">
-    </div>
-    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Faire un don de 5 € maintenant</button>
-    <button class="btn-skip" onclick="closeOverlay()">Non merci, je ferme la fenêtre</button>
-    <p class="paypal-note">Volontaire &amp; sécurisé via PayPal</p>
-    <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
-  
-  <!-- NEU: Affiliate Hinweis über dem Text -->
-  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
-    Publicité / lien sponsorisé
-  </span>
 
-  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
-    <strong style="color: #333;">P.S. : Vous reprenez bientôt l’avion ?</strong> Protégez-vous contre les prochains tracas de voyage. Les vraies cartes de crédit voyage coûtent durablement 0 € de cotisation annuelle, suppriment les frais de paiement à l’étranger et offrent souvent une solide protection des achats. <br>
-    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Comparer et sécuriser dès maintenant les meilleurs fournisseurs ✈️</a>
-  </p>
-</div>
-  </div>
-</div>
 </body>
 </html>

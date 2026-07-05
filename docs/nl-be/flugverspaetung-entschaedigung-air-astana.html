@@ -110,7 +110,7 @@
 </div>
   
   <div class="highlight-box pruefdatum-box" role="note" aria-label="Redactioneel gecontroleerd" style="margin-top: 15px; margin-bottom: 30px;">
-    <p><strong>Redactioneel gecontroleerd op:</strong> <span id="pruefdatum">05.05.2026</span></p>
+    <p><strong>Redactioneel gecontroleerd op:</strong> <span id="pruefdatum">05.07.2026</span></p>
   </div>
 
   <!-- Lesson Learned Affiliate Box -->
@@ -289,11 +289,11 @@ Kazachstan</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Meer interessante onderwerpen:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="flugverspaetung-entschaedigung-air-baltic.html">Air Baltic</a>
+    <a href="flugverspaetung-entschaedigung-malaysia-airlines.html">Malaysia Airlines</a>
+<a href="flugverspaetung-entschaedigung-royal-air-maroc.html">Royal Air Maroc</a>
+<a href="flugverspaetung-entschaedigung-andere-airline.html">Airlines</a>
+<a href="flugverspaetung-entschaedigung-transavia.html">Transavia France S.A.S.</a>
 <a href="flugverspaetung-entschaedigung-neos-air.html">Neos S.p.A.</a>
-<a href="flugverspaetung-entschaedigung-vueling.html">Vueling Airlines S.A.</a>
-<a href="flugverspaetung-entschaedigung-aer-lingus.html">Aer Lingus</a>
-<a href="flugverspaetung-entschaedigung-air-malta.html">Air Malta Plc.</a>
 
   </div>
 </div>
@@ -413,7 +413,60 @@ Kazachstan</textarea>
     </nav>
 </footer>
 
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Sluiten">&times;</button>
+    <div class="donate-emoji">🎉</div>
+    <h2>Uw brief is klaar!</h2>
+    <p class="sub">U heeft zojuist tot <strong style="color:#2e7d32;">€600 commissie</strong> bespaard –<br>geen derde partij, geen afdracht, alles is van u.</p>
+    
+    <div class="donate-hint">
+      Deze service is en blijft <strong>100% gratis</strong>. Als het u heeft geholpen, stellen wij een kleine vrijwillige bijdrage zeer op prijs – zodat Fix my Trip ook voor andere reizigers gratis blijft.
+    </div>
 
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Snelle keuze:</p>
+
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">€3</button>
+      <button onclick="selectPreset(5, this)" class="selected">€5</button>
+      <button onclick="selectPreset(10, this)">€10</button>
+    </div>
+
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input
+        type="number"
+        id="customAmount"
+        min="1"
+        step="1"
+        placeholder="Voer een eigen bedrag in …"
+        oninput="handleCustomInput(this)"
+      >
+    </div>
+
+    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">
+      Doneer nu €5
+    </button>
+    <button class="btn-skip" onclick="closeOverlay()">Nee bedankt, ik sluit het venster</button>
+    <p class="paypal-note">
+      Vrijwillig &amp; veilig via PayPal
+    </p>
+
+    <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
+  
+  <!-- NEU: Affiliate Hinweis über dem Text -->
+  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
+    Advertentie / advertentielink
+  </span>
+
+  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
+    <strong style="color: #333;">P.S.: Gaat u binnenkort weer vliegen?</strong> Bescherm uzelf vóór de volgende reisellende. Echte travel-creditcards kosten permanent €0 jaarlijkse kosten, schrappen de kosten voor betalingen in het buitenland en bieden vaak sterke aankoopbescherming. <br>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Vergelijk nu de beste aanbieders & bescherm uzelf ✈️</a>
+  </p>
+</div>
+
+  </div>
+</div>
 
 <script>
 /* ── Mitreisende ein-/ausblenden ── */
@@ -715,59 +768,6 @@ document.getElementById('copyToClipboardBtn').addEventListener('click', function
 });
 </script>
 
-<div class="overlay" id="donateOverlay">
-  <div class="donate-modal">
-    <button class="close-x" onclick="closeOverlay()" aria-label="Sluiten">&times;</button>
-    <div class="donate-emoji">🎉</div>
-    <h2>Uw brief is klaar!</h2>
-    <p class="sub">U heeft zojuist tot <strong style="color:#2e7d32;">€600 commissie</strong> bespaard –<br>geen derde partij, geen afdracht, alles is van u.</p>
-    
-    <div class="donate-hint">
-      Deze service is en blijft <strong>100% gratis</strong>. Als het u heeft geholpen, stellen wij een kleine vrijwillige bijdrage zeer op prijs – zodat Fix my Trip ook voor andere reizigers gratis blijft.
-    </div>
 
-    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Snelle keuze:</p>
-
-    <div class="donate-amounts">
-      <button onclick="selectPreset(3, this)">€3</button>
-      <button onclick="selectPreset(5, this)" class="selected">€5</button>
-      <button onclick="selectPreset(10, this)">€10</button>
-    </div>
-
-    <div class="custom-amount-wrapper">
-      <span class="currency-symbol">€</span>
-      <input
-        type="number"
-        id="customAmount"
-        min="1"
-        step="1"
-        placeholder="Voer een eigen bedrag in …"
-        oninput="handleCustomInput(this)"
-      >
-    </div>
-
-    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">
-      Doneer nu €5
-    </button>
-    <button class="btn-skip" onclick="closeOverlay()">Nee bedankt, ik sluit het venster</button>
-    <p class="paypal-note">
-      Vrijwillig &amp; veilig via PayPal
-    </p>
-
-    <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
-  
-  <!-- NEU: Affiliate Hinweis über dem Text -->
-  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
-    Advertentie / advertentielink
-  </span>
-
-  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
-    <strong style="color: #333;">P.S.: Gaat u binnenkort weer vliegen?</strong> Bescherm uzelf vóór de volgende reisellende. Echte travel-creditcards kosten permanent €0 jaarlijkse kosten, schrappen de kosten voor betalingen in het buitenland en bieden vaak sterke aankoopbescherming. <br>
-    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Vergelijk nu de beste aanbieders & bescherm uzelf ✈️</a>
-  </p>
-</div>
-
-  </div>
-</div>
 </body>
 </html>

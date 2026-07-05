@@ -99,7 +99,7 @@
   <p>Chega de respostas arrogantes no balcão de Guest Relations. Seja <strong>alteração de rota</strong>, <strong>problemas na cabine</strong> ou <strong>ruído excessivo</strong> em {{CRUISE_LINE}}: o direito de viagens protege você. Enquanto as companhias de cruzeiro muitas vezes tentam compensá-lo com um vale-cocktail barato, nosso gerador permite exigir um reembolso real em euros. Com base na jurisprudência atual das <strong>diretrizes consolidadas de direito de viagens</strong>.</p>
 
   <div class="highlight-box pruefdatum-box" role="note" style="margin-top: 15px; margin-bottom: 30px;">
-    <p><strong>Atualização das diretrizes consolidadas de direito de viagens:</strong> <span id="pruefdatum">05.05.2026</span></p>
+    <p><strong>Atualização das diretrizes consolidadas de direito de viagens:</strong> <span id="pruefdatum">05.07.2026</span></p>
   </div>
   
    <div class="legal-info-box">
@@ -110,7 +110,7 @@
 
 
 <div class="highlight-box pruefdatum-box" role="note" aria-label="Revisado editorialmente" style="margin-top: 15px; margin-bottom: 30px;">
-    <p><strong>Revisado editorialmente em:</strong> <span id="pruefdatum">05.05.2026</span></p>
+    <p><strong>Revisado editorialmente em:</strong> <span id="pruefdatum">05.07.2026</span></p>
   </div>
 
   <div class="lesson-learned-box" style="background: #f8f9fa; border-left: 4px solid #ffb300; padding: 15px 20px; margin: 30px 0; border-radius: 4px; display: flex; align-items: flex-start; gap: 15px; position: relative;">
@@ -333,6 +333,43 @@
         <a href="datenschutz.html">Proteção de dados</a>
     </nav>
 </footer>
+
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Fechar">&times;</button>
+    <div class="donate-emoji">🎉</div>
+    <h2>Sua carta está pronta!</h2>
+    <p class="sub">Você acabou de economizar <strong style="color:#2e7d32;">comissão</strong> –<br>sem terceiros, sem taxas, tudo fica com você.</p>
+    <div class="donate-hint">
+      Este serviço é e continua sendo <strong>100 % gratuito</strong>. Se ele ajudou você, ficaremos muito felizes com uma pequena contribuição voluntária – para que o Fix my Trip continue gratuito para outros viajantes.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Seleção rápida:</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Digite um valor personalizado …" oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Doe agora 5 €</button>
+    <button class="btn-skip" onclick="closeOverlay()">Não, obrigado, vou fechar a janela</button>
+    <p class="paypal-note">Voluntário &amp; seguro via PayPal</p>
+    <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
+  
+  <!-- NEU: Affiliate Hinweis über dem Text -->
+  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
+    Anúncio / link publicitário
+  </span>
+
+  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
+    <strong style="color: #333;">P.S.: Vai viajar novamente em breve?</strong> Proteja-se antes do próximo problema de viagem. Cartões de crédito de viagem de verdade custam 0 € de anuidade permanentemente, eliminam a taxa de uso no exterior e muitas vezes oferecem forte proteção ao comprador. <br>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Compare agora os melhores fornecedores e viaje com segurança ✈️</a>
+  </p>
+</div>
+  </div>
+</div>
 
 <script>
 /* ── Gerar PDF + abrir overlay ── */
@@ -608,42 +645,7 @@ document.getElementById('copyToClipboardBtn').addEventListener('click', function
 });
 </script>
 
-<div class="overlay" id="donateOverlay">
-  <div class="donate-modal">
-    <button class="close-x" onclick="closeOverlay()" aria-label="Fechar">&times;</button>
-    <div class="donate-emoji">🎉</div>
-    <h2>Sua carta está pronta!</h2>
-    <p class="sub">Você acabou de economizar <strong style="color:#2e7d32;">comissão</strong> –<br>sem terceiros, sem taxas, tudo fica com você.</p>
-    <div class="donate-hint">
-      Este serviço é e continua sendo <strong>100 % gratuito</strong>. Se ele ajudou você, ficaremos muito felizes com uma pequena contribuição voluntária – para que o Fix my Trip continue gratuito para outros viajantes.
-    </div>
-    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Seleção rápida:</p>
-    <div class="donate-amounts">
-      <button onclick="selectPreset(3, this)">3 €</button>
-      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
-      <button onclick="selectPreset(10, this)">10 €</button>
-    </div>
-    <div class="custom-amount-wrapper">
-      <span class="currency-symbol">€</span>
-      <input type="number" id="customAmount" min="1" step="1" placeholder="Digite um valor personalizado …" oninput="handleCustomInput(this)">
-    </div>
-    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Doe agora 5 €</button>
-    <button class="btn-skip" onclick="closeOverlay()">Não, obrigado, vou fechar a janela</button>
-    <p class="paypal-note">Voluntário &amp; seguro via PayPal</p>
-    <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
-  
-  <!-- NEU: Affiliate Hinweis über dem Text -->
-  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
-    Anúncio / link publicitário
-  </span>
 
-  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
-    <strong style="color: #333;">P.S.: Vai viajar novamente em breve?</strong> Proteja-se antes do próximo problema de viagem. Cartões de crédito de viagem de verdade custam 0 € de anuidade permanentemente, eliminam a taxa de uso no exterior e muitas vezes oferecem forte proteção ao comprador. <br>
-    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Compare agora os melhores fornecedores e viaje com segurança ✈️</a>
-  </p>
-</div>
-  </div>
-</div>
 
 </body>
 </html>

@@ -114,7 +114,7 @@
     Deze tool is een <strong>geautomatiseerde voorbeeldbriefgenerator</strong> (hulp tot zelfhulp). Uw gegevens worden alleen in juridische standaardtemplates ingevuld. Er vindt <strong>geen individuele beoordeling</strong> van uw zaak plaats. Deze gratis service vervangt geen juridisch advies van een advocaat. Gebruik is op eigen verantwoordelijkheid; er wordt geen succesgarantie gegeven.
 </div>
 <div class="highlight-box pruefdatum-box" role="note" aria-label="Redactioneel gecontroleerd" style="margin-top: 15px; margin-bottom: 30px;">
-    <p><strong>Redactioneel gecontroleerd op:</strong> <span id="pruefdatum">07.05.2026</span></p>
+    <p><strong>Redactioneel gecontroleerd op:</strong> <span id="pruefdatum">05.07.2026</span></p>
   </div>
 
   <div class="lesson-learned-box" style="background: #f8f9fa; border-left: 4px solid #ffb300; padding: 15px 20px; margin: 30px 0; border-radius: 4px; display: flex; align-items: flex-start; gap: 15px; position: relative;">
@@ -258,11 +258,11 @@
 <div class="crosslink-box" style="background: #fffafb; border: 1px solid #ffebee; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3 style="color: #ff385c;">Meer Airbnb-probleemoplossingen:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="airbnb-beschwerde-gastgeber-storniert-kurzfristig.html">Annulering door de host</a>
+    <a href="airbnb-beschwerde-dreck-schimmel-ungeziefer.html">Schimmel, vuil & ongedierte</a>
 <a href="airbnb-beschwerde-ausstattung-fehlt-defekt.html">Ontbrekende voorzieningen (wifi, zwembad, airco)</a>
 <a href="airbnb-beschwerde-allgemein.html">Algemeen Airbnb-probleem</a>
-<a href="airbnb-beschwerde-dreck-schimmel-ungeziefer.html">Schimmel, vuil & ongedierte</a>
-<a href="airbnb-beschwerde-aircover-abgelehnt-geld-zurueck.html">AirCover-kopersbescherming afgewezen</a>
+<a href="airbnb-beschwerde-gastgeber-storniert-kurzfristig.html">Annulering door de host</a>
+<a href="airbnb-beschwerde-falsche-angaben-fake-fotos.html">Onjuiste informatie & nepfoto's</a>
 
   </div>
 </div>
@@ -339,6 +339,44 @@
         <a href="datenschutz.html">Privacybeleid</a>
     </nav>
 </footer>
+
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Sluiten">&times;</button>
+    <div class="donate-emoji">🎉</div>
+    <h2>Uw brief aan Airbnb is klaar!</h2>
+    <p class="sub">Veel succes met het terugvorderen via AirCover.</p>
+    <div class="donate-hint">
+      Deze service is en blijft <strong>100 % gratis</strong>. Als het u heeft geholpen, stellen wij een kleine vrijwillige bijdrage zeer op prijs.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Snelle keuze:</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Voer een eigen bedrag in …" oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" style="background-color: #ff385c;" onclick="openPayPal()">Doneer nu 5 €</button>
+    <button class="btn-skip" onclick="closeOverlay()">Nee bedankt, ik sluit het venster</button>
+
+    <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
+  
+  <!-- NEU: Affiliate-melding boven de tekst -->
+  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
+    Advertentie / advertentielink
+  </span>
+
+  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
+    <strong style="color: #333;">P.S.: Gaat u binnenkort weer vliegen?</strong> Bescherm uzelf alvast tegen de volgende reisellende. Echte travel-kredietkaarten kosten permanent 0 € jaarlijkse kosten, schrappen de buitenlandse transactiekosten en bieden vaak sterke kopersbescherming. <br>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Vergelijk nu de beste aanbieders & bescherm uzelf ✈️</a>
+  </p>
+</div>
+
+  </div>
+</div>
 
 <script>
 // Live-rekenlogica
@@ -667,42 +705,6 @@ document.getElementById('copyToClipboardBtn').addEventListener('click', function
 });
 </script>
 
-<div class="overlay" id="donateOverlay">
-  <div class="donate-modal">
-    <button class="close-x" onclick="closeOverlay()" aria-label="Sluiten">&times;</button>
-    <div class="donate-emoji">🎉</div>
-    <h2>Uw brief aan Airbnb is klaar!</h2>
-    <p class="sub">Veel succes met het terugvorderen via AirCover.</p>
-    <div class="donate-hint">
-      Deze service is en blijft <strong>100 % gratis</strong>. Als het u heeft geholpen, stellen wij een kleine vrijwillige bijdrage zeer op prijs.
-    </div>
-    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Snelle keuze:</p>
-    <div class="donate-amounts">
-      <button onclick="selectPreset(3, this)">3 €</button>
-      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
-      <button onclick="selectPreset(10, this)">10 €</button>
-    </div>
-    <div class="custom-amount-wrapper">
-      <span class="currency-symbol">€</span>
-      <input type="number" id="customAmount" min="1" step="1" placeholder="Voer een eigen bedrag in …" oninput="handleCustomInput(this)">
-    </div>
-    <button class="btn-donate" id="btnDonate" style="background-color: #ff385c;" onclick="openPayPal()">Doneer nu 5 €</button>
-    <button class="btn-skip" onclick="closeOverlay()">Nee bedankt, ik sluit het venster</button>
 
-    <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
-  
-  <!-- NEU: Affiliate-melding boven de tekst -->
-  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
-    Advertentie / advertentielink
-  </span>
-
-  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
-    <strong style="color: #333;">P.S.: Gaat u binnenkort weer vliegen?</strong> Bescherm uzelf alvast tegen de volgende reisellende. Echte travel-kredietkaarten kosten permanent 0 € jaarlijkse kosten, schrappen de buitenlandse transactiekosten en bieden vaak sterke kopersbescherming. <br>
-    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Vergelijk nu de beste aanbieders & bescherm uzelf ✈️</a>
-  </p>
-</div>
-
-  </div>
-</div>
 </body>
 </html>

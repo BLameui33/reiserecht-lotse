@@ -99,7 +99,7 @@
   <p>Schluss mit arroganten Absagen am Guest-Relations-Desk. Ob <strong>Routenänderung</strong>, <strong>Kabinenmängel</strong> oder <strong>Lärmbelästigung</strong> bei Cunard Line: Das Reiserecht schützt Sie. Während Reedereien Sie oft mit einem billigen Cocktail-Gutschein abspeisen wollen, ermöglicht Ihnen unser Generator die Forderung einer echten Rückzahlung in Euro. Basierend auf der aktuellen Rechtsprechung der <strong>Würzburger Tabelle</strong>.</p>
 
   <div class="highlight-box pruefdatum-box" role="note" style="margin-top: 15px; margin-bottom: 30px;">
-    <p><strong>Stand der Würzburger Tabelle:</strong> <span id="pruefdatum">05.05.2026</span></p>
+    <p><strong>Stand der Würzburger Tabelle:</strong> <span id="pruefdatum">05.07.2026</span></p>
   </div>
   
    <div class="legal-info-box">
@@ -110,7 +110,7 @@
 
 
 <div class="highlight-box pruefdatum-box" role="note" aria-label="Redaktionell geprüft" style="margin-top: 15px; margin-bottom: 30px;">
-    <p><strong>Redaktionell geprüft am:</strong> <span id="pruefdatum">05.05.2026</span></p>
+    <p><strong>Redaktionell geprüft am:</strong> <span id="pruefdatum">05.07.2026</span></p>
   </div>
 
   <div class="lesson-learned-box" style="background: #f8f9fa; border-left: 4px solid #ffb300; padding: 15px 20px; margin: 30px 0; border-radius: 4px; display: flex; align-items: flex-start; gap: 15px; position: relative;">
@@ -192,9 +192,10 @@ Am Sandtorkai 38
     </p>
     <button type="submit" class="button-primary">📄 PDF generieren</button>
 </div>
+
   </form>
 
-   <!-- START: Text-Output Box für Online-Formulare -->
+  <!-- START: Text-Output Box für Online-Formulare -->
 <div id="textOutputArea" style="display: none; margin-top: 40px; background: #ffffff; padding: 35px; border: 1px solid #f5c6c6; border-top: 5px solid #aa3131; border-radius: 8px; box-shadow: 0 10px 30px rgba(137, 24, 24, 0.08); box-sizing: border-box;">
     
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-wrap: wrap; gap: 15px;">
@@ -213,6 +214,8 @@ Am Sandtorkai 38
     <textarea id="plainTextResult" rows="12" style="width: 100%; padding: 20px; font-family: 'Courier New', Courier, monospace; font-size: 0.95em; line-height: 1.6; color: #333; background: #fdfdfd; border: 1px solid #e0e0e0; border-radius: 6px; resize: vertical; box-sizing: border-box;" readonly></textarea>
 </div>
 <!-- ENDE: Text-Output Box -->
+
+   
 
   <div class="seo-content">
     <h2>Preisminderung bei Cunard Line erfolgreich durchsetzen</h2>
@@ -336,6 +339,43 @@ Am Sandtorkai 38
         <a href="datenschutz.html">Datenschutz</a>
     </nav>
 </footer>
+
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Schließen">&times;</button>
+    <div class="donate-emoji">🎉</div>
+    <h2>Ihr Brief ist fertig!</h2>
+    <p class="sub">Sie haben sich gerade <strong style="color:#2e7d32;">Provision</strong> gespart –<br>kein Drittanbieter, keine Abgaben, alles gehört Ihnen.</p>
+    <div class="donate-hint">
+      Dieser Service ist und bleibt <strong>100 % kostenlos</strong>. Wenn er Ihnen geholfen hat, freuen wir uns sehr über eine kleine freiwillige Unterstützung – damit Fix my Trip auch für andere Reisende kostenlos bleibt.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Schnellauswahl:</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Eigener Betrag eingeben …" oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Jetzt 5 € spenden</button>
+    <button class="btn-skip" onclick="closeOverlay()">Nein danke, ich schließe das Fenster</button>
+    <p class="paypal-note">Freiwillig &amp; sicher über PayPal</p>
+    <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
+  
+  <!-- NEU: Affiliate Hinweis über dem Text -->
+  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
+    Anzeige / Werbelink
+  </span>
+
+  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
+    <strong style="color: #333;">P.S.: Verreisen Sie bald wieder?</strong> Sichern Sie sich vor dem nächsten Reise-Ärger ab. Echte Travel-Kreditkarten kosten dauerhaft 0 € Jahresgebühr, streichen das Auslandseinsatzentgelt und bieten oft starken Käuferschutz. <br>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Jetzt Top-Anbieter vergleichen & absichern ✈️</a>
+  </p>
+</div>
+  </div>
+  </div>
 
 <script>
 /* ── PDF generieren + Overlay öffnen ── */
@@ -587,66 +627,69 @@ document.getElementById('donateOverlay').addEventListener('click', function(e) {
   }
 });
 
-// --- KOPIER-BUTTON LOGIK ---
-document.getElementById('copyToClipboardBtn').addEventListener('click', function() {
-    const textArea = document.getElementById('plainTextResult');
+// =========================================================================
+// KOPIER-BUTTON LOGIK (Bulletproof: Event Delegation + Fallback)
+// =========================================================================
+
+// Wir hören auf JEDEN Klick im Dokument...
+document.addEventListener('click', function(e) {
     
-    // Text in die Zwischenablage schreiben
-    navigator.clipboard.writeText(textArea.value).then(() => {
-        const btn = this;
+    // ...prüfen aber, ob exakt unser Kopier-Button geklickt wurde!
+    if (e.target && e.target.id === 'copyToClipboardBtn') {
+        
+        const textArea = document.getElementById('plainTextResult');
+        if (!textArea) return;
+
+        const btn = e.target;
         const originalText = btn.innerHTML;
+
+        // Optisches Feedback: Button wird 3 Sekunden lang grün
+        const showSuccess = () => {
+            btn.innerHTML = "✅ Erfolgreich kopiert!";
+            btn.style.background = "#2e7d32"; 
+            
+            setTimeout(() => {
+                btn.innerHTML = originalText;
+                btn.style.background = "#aa3131"; 
+            }, 3000);
+        };
+
         
-        // Optisches Feedback: Grün und neues Icon
-        btn.innerHTML = "✅ Erfolgreich kopiert!";
-        btn.style.background = "#2e7d32"; 
+        if (navigator.clipboard && window.isSecureContext) {
+            navigator.clipboard.writeText(textArea.value)
+                .then(showSuccess)
+                .catch(err => {
+                    console.warn("Modernes Kopieren fehlgeschlagen, nutze Fallback...", err);
+                    fallbackCopy(textArea, showSuccess);
+                });
+        } 
         
-        // Nach 3 Sekunden wieder zurück zum Standard-Rot
-        setTimeout(() => {
-            btn.innerHTML = originalText;
-            btn.style.background = "#891818";
-        }, 3000);
-    }).catch(err => {
-        alert("Fehler beim Kopieren. Bitte markieren Sie den Text manuell.");
-    });
+        else {
+            fallbackCopy(textArea, showSuccess);
+        }
+    }
 });
+
+function fallbackCopy(textArea, successCallback) {
+    textArea.focus();
+    textArea.select();
+    textArea.setSelectionRange(0, 99999); // Wichtig für Smartphones
+
+    try {
+        const successful = document.execCommand('copy');
+        if (successful) {
+            successCallback();
+        } else {
+            alert("Fehler beim Kopieren. Bitte markieren Sie den Text manuell.");
+        }
+    } catch (err) {
+        alert("Ihr Browser blockiert das Kopieren. Bitte markieren Sie den Text manuell.");
+    }
+    
+    window.getSelection().removeAllRanges(); // Markierung optisch wieder aufheben
+}
 </script>
 
-<div class="overlay" id="donateOverlay">
-  <div class="donate-modal">
-    <button class="close-x" onclick="closeOverlay()" aria-label="Schließen">&times;</button>
-    <div class="donate-emoji">🎉</div>
-    <h2>Ihr Brief ist fertig!</h2>
-    <p class="sub">Sie haben sich gerade <strong style="color:#2e7d32;">Provision</strong> gespart –<br>kein Drittanbieter, keine Abgaben, alles gehört Ihnen.</p>
-    <div class="donate-hint">
-      Dieser Service ist und bleibt <strong>100 % kostenlos</strong>. Wenn er Ihnen geholfen hat, freuen wir uns sehr über eine kleine freiwillige Unterstützung – damit Fix my Trip auch für andere Reisende kostenlos bleibt.
-    </div>
-    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Schnellauswahl:</p>
-    <div class="donate-amounts">
-      <button onclick="selectPreset(3, this)">3 €</button>
-      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
-      <button onclick="selectPreset(10, this)">10 €</button>
-    </div>
-    <div class="custom-amount-wrapper">
-      <span class="currency-symbol">€</span>
-      <input type="number" id="customAmount" min="1" step="1" placeholder="Eigener Betrag eingeben …" oninput="handleCustomInput(this)">
-    </div>
-    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Jetzt 5 € spenden</button>
-    <button class="btn-skip" onclick="closeOverlay()">Nein danke, ich schließe das Fenster</button>
-    <p class="paypal-note">Freiwillig &amp; sicher über PayPal</p>
-    <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #eee; text-align: left;">
-  
-  <!-- NEU: Affiliate Hinweis über dem Text -->
-  <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">
-    Anzeige / Werbelink
-  </span>
-
-  <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;">
-    <strong style="color: #333;">P.S.: Verreisen Sie bald wieder?</strong> Sichern Sie sich vor dem nächsten Reise-Ärger ab. Echte Travel-Kreditkarten kosten dauerhaft 0 € Jahresgebühr, streichen das Auslandseinsatzentgelt und bieten oft starken Käuferschutz. <br>
-    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" style="color: #1565c0; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Jetzt Top-Anbieter vergleichen & absichern ✈️</a>
-  </p>
-</div>
-  </div>
-</div>
 
 </body>
 </html>
