@@ -1,0 +1,330 @@
+[
+  {
+    "slug": "schweiz",
+    "name": "Switzerland",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$4.50",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "tuerkei",
+    "name": "Turkey",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$4.50",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "aegypten",
+    "name": "Egypt",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$7.00",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "europe",
+    "name": "Europe",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$4.50",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "thailand",
+    "name": "Thailand",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$9.90",
+    "datenvolumen": "Unlimited for 8 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "grossbritannien",
+    "name": "United Kingdom",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$5.00",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "japan",
+    "name": "Japan",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$4.50",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "vae",
+    "name": "United Arab Emirates",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$8.50",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "kreuzfahrt",
+    "name": "Cruise Ship",
+    "roaming_kosten": "$20.48",
+    "esim_preis": "$9.50",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "australien",
+    "name": "Australia",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$4.50",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "kanada",
+    "name": "Canada",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$6.00",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "neuseeland",
+    "name": "New Zealand",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$4.50",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "suedafrika",
+    "name": "South Africa",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$5.00",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "marokko",
+    "name": "Morocco",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$8.00",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "tunesien",
+    "name": "Tunisia",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$7.50",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "dominikanische-republik",
+    "name": "Dominican Republic",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$9.50",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "mexiko",
+    "name": "Mexico",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$8.00",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "malediven",
+    "name": "Maldives",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$17.00",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "indonesien",
+    "name": "Indonesia (Bali)",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$5.50",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "vietnam",
+    "name": "Vietnam",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$4.50",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "singapur",
+    "name": "Singapore",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$4.50",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "malaysia",
+    "name": "Malaysia",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$4.50",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "philippinen",
+    "name": "Philippines",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$4.50",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "suedkorea",
+    "name": "South Korea",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$4.50",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "china",
+    "name": "China",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$5.00",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "indien",
+    "name": "India",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$4.50",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "brasilien",
+    "name": "Brazil",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$7.00",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "argentinien",
+    "name": "Argentina",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$6.00",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "chile",
+    "name": "Chile",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$7.00",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "peru",
+    "name": "Peru",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$6.00",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "kolumbien",
+    "name": "Colombia",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$7.00",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "costa-rica",
+    "name": "Costa Rica",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$8.50",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "jamaika",
+    "name": "Jamaica",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$9.50",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "bahamas",
+    "name": "Bahamas",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$9.50",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "mauritius",
+    "name": "Mauritius",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$9.50",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "seychellen",
+    "name": "Seychelles",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$9.50",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "sri-lanka",
+    "name": "Sri Lanka",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$4.50",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "kenia",
+    "name": "Kenya",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$5.00",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "tansania",
+    "name": "Tanzania",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$4.50",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "serbien",
+    "name": "Serbia",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$4.50",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  },
+  {
+    "slug": "albanien",
+    "name": "Albania",
+    "roaming_kosten": "$2.05",
+    "esim_preis": "$4.50",
+    "datenvolumen": "1 GB for 7 days",
+    "affiliate_link": "https://esim.holafly.com"
+  }
+]

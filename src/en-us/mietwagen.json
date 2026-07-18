@@ -1,0 +1,560 @@
+[
+  {
+    "slug": "alamo",
+    "name": "Alamo Rent A Car",
+    "schalter_taktik": "Focuses heavily on vacationers. Agents frequently push 'Roadside Plus' (extended roadside assistance) and overpriced pre-paid fuel options, claiming gas prices nearby are much higher.",
+    "kaution_hinweis": "The security deposit is relatively low, typically blocking the estimated rental total plus an additional $200 to $300 on a valid credit card."
+  },
+  {
+    "slug": "avis",
+    "name": "Avis Car Rental",
+    "schalter_taktik": "Targeting business travelers but aggressive with leisure clients, pushing premium vehicle upgrades, personal accident insurance (PAI), and expensive e-Toll electronic toll passes.",
+    "kaution_hinweis": "A hold consisting of the estimated rental cost plus a standard $200 to $500 is applied. A physical credit card matching the primary driver's name is strictly mandatory."
+  },
+  {
+    "slug": "budget",
+    "name": "Budget Rent A Car",
+    "schalter_taktik": "As Avis's value brand, agents try to recover lower base rates by aggressively cross-selling roadside protection, satellite radio, standalone GPS units, and optional coverage plans.",
+    "kaution_hinweis": "Requires a credit card authorization for the total estimated charges plus $100 to $300. Debit cards are heavily restricted and subject to strict credit checks or flight proofs."
+  },
+  {
+    "slug": "hertz",
+    "name": "Hertz",
+    "schalter_taktik": "Agents heavily push their pre-paid fuel option and premium emergency roadside service. They often emphasize that third-party or credit card insurances involve complicated reimbursement processes.",
+    "kaution_hinweis": "A standard security hold of $200 to $500 plus the rental cost is placed on credit cards. Debit cards are accepted with proof of a round-trip airline ticket and extra identification."
+  },
+  {
+    "slug": "enterprise",
+    "name": "Enterprise Rent-A-Car",
+    "schalter_taktik": "Known for highly polite but persistent customer service. Agents thoroughly pitch the full Damage Waiver (DW) and supplemental liability protection by conducting a detailed walk-around of existing damage.",
+    "kaution_hinweis": "Holds a standard deposit of $200 to $400 plus the rental amount. Debit cards are readily accepted at neighborhood branches with proof of utility bills, but face stricter rules at airports."
+  },
+  {
+    "slug": "national",
+    "name": "National Car Rental",
+    "schalter_taktik": "Geared toward corporate travelers. Counter pressure is minimal for Emerald Club members who skip the desk entirely, but agents will double-check fuel choices and premium upgrades at the exit gate.",
+    "kaution_hinweis": "Blocks the estimated rental cost plus a standard $200 security hold. Requires a major credit card; debit cards are generally discouraged or require extensive flight documentation."
+  },
+  {
+    "slug": "sixt",
+    "name": "Sixt",
+    "schalter_taktik": "Highly aggressive upselling for luxury vehicle categories. Staff frequently warn that standard vehicles are inadequate for long US road trips and strongly push their premium loss damage waiver.",
+    "kaution_hinweis": "Applies substantial credit card holds, frequently ranging from $500 up to $2,500 for high-end luxury or exotic models. Pre-paid or debit cards are heavily restricted for premium categories."
+  },
+  {
+    "slug": "thrifty",
+    "name": "Thrifty Car Rental",
+    "schalter_taktik": "As a budget brand under Hertz, counter agents intensely market their 'SuperCover' package, capitalising on international renters' fears of high out-of-pocket costs or unexpected US towing fees.",
+    "kaution_hinweis": "Strictly blocks a security deposit of $200 to $500 plus rental fees on a physical credit card. Debit cards are often rejected unless severe criteria (like round-trip flights) are fully met."
+  },
+  {
+    "slug": "dollar",
+    "name": "Dollar Car Rental",
+    "schalter_taktik": "Prone to long airport queues where agents use the wait to pitch pre-paid toll passes (PlatePass) and premium upgrades, often claiming the booked category has limited availability.",
+    "kaution_hinweis": "A mandatory deposit of $200 to $500 along with the rental total is held on the card. Utilizing a debit card triggers deep background checks and requires a significant hold."
+  },
+  {
+    "slug": "fox-rent-a-car",
+    "name": "Fox Rent A Car",
+    "schalter_taktik": "A major independent discount provider. Counter staff aggressively push proprietary toll road packages and domestic collision damage waivers, arguing that international broker policies are void.",
+    "kaution_hinweis": "Imposes rigid deposit rules. Credit card holds are at least $150–$500 plus rental costs. Out-of-state renters using debit cards face mandatory verification and higher deposit requirements."
+  },
+  {
+    "slug": "payless",
+    "name": "Payless Car Rental",
+    "schalter_taktik": "Operating as a low-cost off-airport subsidiary of Avis, agents are notorious for hard-selling roadside packages, mechanical breakdown protection, and unbundled service add-ons to boost thin margins.",
+    "kaution_hinweis": "A substantial hold of $250 to $500 plus the rental value is initiated. Declining the company's internal insurance policies can sometimes lead to an increased security hold requirement."
+  },
+  {
+    "slug": "ace-rent-a-car",
+    "name": "ACE Rent A Car",
+    "schalter_taktik": "A large network of independent operators. Counter pressure varies by location, but there is a consistent push for all-inclusive toll coverage and localized emergency roadside protection programs.",
+    "kaution_hinweis": "Typically holds between $250 and $500. Rental locations frequently reject debit cards completely for local residents or require proof of comprehensive personal auto insurance."
+  },
+  {
+    "slug": "advantage",
+    "name": "Advantage Rent A Car",
+    "schalter_taktik": "Focuses on high-volume airport locations. Agents systematically attempt to upsell customers to larger vehicle classes and strongly advise buying their collision damage coverage to bypass long claims.",
+    "kaution_hinweis": "A deposit of $200 to $500 plus estimated rental fees is blocked on the main driver's credit card. Debit cards require extensive proof of return travel and localized residency validation."
+  },
+  {
+    "slug": "ez-rent-a-car",
+    "name": "E-Z Rent-A-Car",
+    "schalter_taktik": "Often co-located with Advantage. Staff utilize aggressive pricing strategies on bookings but apply significant pressure at the counter to purchase comprehensive pre-paid fuel and toll-by-plate options.",
+    "kaution_hinweis": "Secures an authorization hold of around $200 to $500. Refusing their local protection packages means you must present explicit written proof of your own transferable auto insurance policy."
+  },
+  {
+    "slug": "silvercar",
+    "name": "Silvercar by Audi",
+    "schalter_taktik": "An upscale, app-driven rental service. Counter friction is non-existent as it relies on digital pickup, but premium add-ons like child seats or premium fuel options are handled digitally within the app.",
+    "kaution_hinweis": "Applies a premium hold on a major credit card, usually around $300 to $500. Debit cards are generally not accepted for these high-end Audi fleets."
+  },
+  {
+    "slug": "routes-car-rental",
+    "name": "Routes Car Rental",
+    "schalter_taktik": "Off-airport provider that relies heavily on shuttle services. Counter agents use intense pressure tactics to sell local toll passes, stating that driving on local highways without them results in massive fines.",
+    "kaution_hinweis": "Blocks high deposits, usually starting at $500 and climbing up to $1,500 if the consumer declines the company's internal loss damage waivers."
+  },
+  {
+    "slug": "easirent",
+    "name": "Easirent",
+    "schalter_taktik": "Low-cost provider infamous for strict verification. Counter agents meticulously inspect personal insurance papers and push their own 'Relax Insurance' by highlighting worst-case financial scenarios.",
+    "kaution_hinweis": "Extremely high credit card holds of $1,000 to $2,000 are standard if third-party insurance is chosen. Debit cards are rejected unless the premium maximum-protection package is bought."
+  },
+  {
+    "slug": "green-motion",
+    "name": "Green Motion",
+    "schalter_taktik": "Promotes eco-friendly fleets but enforces microscopic vehicle pre-inspection. Counter agents rigorously sell their premium damage waivers to prevent minor pre-existing scuffs from being charged.",
+    "kaution_hinweis": "Holds a significant deposit ranging from $500 to $1,500 on major credit cards. Standard debit cards are rarely allowed unless the highest tier of zero-deductible coverage is added."
+  },
+  {
+    "slug": "nu-car-rentals",
+    "name": "NU Car Rentals",
+    "schalter_taktik": "Operates via independent regional affiliates. Desk agents heavily emphasize high towing costs across remote US states to convince travelers to opt for in-house mechanical breakdown cover.",
+    "kaution_hinweis": "Requires a credit card authorization hold between $200 and $500. Rules regarding debit cards are hyper-local and frequently require a verified utility bill match."
+  },
+  {
+    "slug": "mex-rent-a-car",
+    "name": "Mex Rent A Car",
+    "schalter_taktik": "Catters largely to cross-border and warm-weather US destinations. Counter agents strongly pitch third-party liability insurance, arguing that international corporate coverages lack valid US legal standing.",
+    "kaution_hinweis": "A hold of $350 to $1,000 is put on credit cards. Travelers using debit cards face limited vehicle selections and must accept full-coverage options to proceed."
+  },
+  {
+    "slug": "u-save",
+    "name": "U-Save Car & Truck Rental",
+    "schalter_taktik": "Mainly franchised neighborhood and airport locations. Agents push local toll management systems and multi-driver insurance add-ons, warning against unauthorized vehicle operators.",
+    "kaution_hinweis": "Deposits range from $200 to $500. Local renters or those utilizing debit cards must pass an internal credit verification check and display verifiable proof of an active return ticket."
+  },
+  {
+    "slug": "rent-a-wreck",
+    "name": "Rent-A-Wreck",
+    "schalter_taktik": "Specializes in older, high-mileage used vehicles. Counter staff focus on selling basic collision waivers by emphasizing that older vehicles are more susceptible to unexpected operational wear.",
+    "kaution_hinweis": "Requires a security hold of $200 to $500. Credit cards are highly preferred; cash or debit deposits are strictly handled on a case-by-case basis with massive background checks."
+  },
+  {
+    "slug": "priceless-car-rental",
+    "name": "Priceless Car Rental",
+    "schalter_taktik": "An affiliate network focused on budget travelers. Agents routinely up-sell additional driver coverage, infant seats, and pre-paid localized fuel refills to maximize basic booking metrics.",
+    "kaution_hinweis": "Holds a mandatory $250 to $500 security deposit. Out-of-state or international drivers must provide clear documentation showing their specific policy transfers seamlessly to rental units."
+  },
+  {
+    "slug": "nextcar",
+    "name": "NextCar",
+    "schalter_taktik": "Strong presence in the Mid-Atlantic region. Counter employees actively pitch comprehensive tire and windshield protection plans, highlighting high debris rates on regional commuter highways.",
+    "kaution_hinweis": "A security hold of $300 to $500 is standard. Renters without a traditional credit card are subject to strict geographic residency checks and must present verifiable employment documentation."
+  },
+  {
+    "slug": "economy-rent-a-car",
+    "name": "Economy Rent a Car",
+    "schalter_taktik": "An international brand with prominent US franchise locations. Staff strongly encourage buying internal supplemental liability insurance (SLI) to protect against massive legal damages in the US.",
+    "kaution_hinweis": "A substantial credit card hold of $500 to $1,200 is enforced if internal coverage is declined. Debit cards are heavily restricted or completely disallowed for non-flight arrivals."
+  },
+  {
+    "slug": "carwiz",
+    "name": "Carwiz",
+    "schalter_taktik": "An expanding global franchise network in major US tourist hubs. Counter staff persistently highlight that standard booking vouchers omit critical local airport concession fees and toll options.",
+    "kaution_hinweis": "A hold of $500 to $1,000 is initialized on credit cards. Declining their proprietary protection packages results in a rigorous assessment of the renter's primary insurance coverage documents."
+  },
+  {
+    "slug": "zoom-rent-a-car",
+    "name": "Zoom Rent A Car",
+    "schalter_taktik": "Operating near key vacation airports. Agents use targeted upselling scripts to sell electronic toll passes, claiming toll violations carry hefty administrative fines per transaction.",
+    "kaution_hinweis": "Standard holds run between $300 and $600. Major international credit cards are required; debit cards are scrutinized and often force the mandatory purchase of an in-house waiver plan."
+  },
+  {
+    "slug": "aco-rent-a-car",
+    "name": "ACO Rent A Car",
+    "schalter_taktik": "Catters mostly to international arrivals in Florida. Counter personnel focus heavily on the language barrier to pitch complete premium packages, claiming US law mandates specialized localized coverage.",
+    "kaution_hinweis": "Maintains an elevated deposit profile, blocking $500 to $1,000. Physical credit cards must match the driver's passport exactly; electronic or app-based payment forms are systematically denied."
+  },
+  {
+    "slug": "york-car-rental",
+    "name": "York Car Rental",
+    "schalter_taktik": "Off-airport model dependent on shuttle logistics. Counter agents use long wait times to push guaranteed rapid vehicle preparation via paid tier-upgrades and in-house safety protection.",
+    "kaution_hinweis": "Imposes a standard deposit of $500 which can scale to $1,500 if full coverage is waived. Strict mileage limitations may apply depending on the state of registration."
+  },
+  {
+    "slug": "right-cars",
+    "name": "Right Cars",
+    "schalter_taktik": "Known for highly rigid counter policies. Agents routinely claim that third-party broker insurance policies do not comply with specific state regulations, steering renters toward their standalone coverage.",
+    "kaution_hinweis": "Secures an extensive hold of $1,000 to $1,500 on credit cards when external insurance is used. Failure to provide a card with sufficient funds leads to a cancelled reservation without a refund."
+  },
+  {
+    "slug": "yesaway",
+    "name": "Yesaway Car Rental",
+    "schalter_taktik": "Focuses on providing personalized services to international travelers. While milder than ultra-low-cost brands, they heavily emphasize the convenience of pre-purchased local toll and fuel tracking systems.",
+    "kaution_hinweis": "Holds a deposit of $300 to $600 on major credit cards. Debit cards are occasionally processed provided the renter purchases a comprehensive zero-liability policy packet."
+  },
+  {
+    "slug": "airport-van-rental",
+    "name": "Airport Van Rental (AVR)",
+    "schalter_taktik": "Specializes in large multi-passenger vans and SUVs. Counter staff aggressively push detailed interior stain and tear protection plans, highlighting high cleanup fees for family road trips.",
+    "kaution_hinweis": "A substantial security deposit of $500 to $1,000 is held due to the high asset value of large passenger vans. Credit cards are standard; debit cards require comprehensive insurance verification."
+  },
+  {
+    "slug": "bandago",
+    "name": "Bandago Van Rental",
+    "schalter_taktik": "Specializes in niche niche passenger and production vans equipped with entertainment systems. Staff systematically go over high tech-equipment replacement costs to cross-sell comprehensive collision policies.",
+    "kaution_hinweis": "Imposes a high security hold of $500 to $1,000 on major credit cards. Debit cards are rarely accepted and require an exhaustive advanced screening process."
+  },
+  {
+    "slug": "kyte",
+    "name": "Kyte",
+    "schalter_taktik": "A modern vehicle delivery service. There is no traditional counter; instead, delivery 'surfers' bring the vehicle. Upselling is entirely handled through digital push notifications regarding fuel and insurance options.",
+    "kaution_hinweis": "Applies a standard, clean digital hold of $300 to $500 on a major credit card. Prepaid cards and non-traditional bank debit cards are systematically rejected by their verification system."
+  },
+  {
+    "slug": "turo",
+    "name": "Turo",
+    "schalter_taktik": "Peer-to-peer car sharing marketplace. No counters exist; transactions are handled via an app. Protection plans (Minimum, Standard, Premier) must be selected during the digital booking process prior to pickup.",
+    "kaution_hinweis": "Deposits range from $0 to $750+ depending on the guest's age, vehicle value tier, and selected protection plan. Holds are automatically released after a successful trip inspection."
+  },
+  {
+    "slug": "getaround",
+    "name": "Getaround",
+    "schalter_taktik": "App-based instant car sharing. There is zero human contact at pickup. All optional features like damage protection waivers or roadside packages are integrated directly into the digital reservation stream.",
+    "kaution_hinweis": "Applies a temporary authorization hold of $150 to $500 based on user profile risk metrics. The hold is processed digitally and released automatically within a few business days post-rental."
+  },
+  {
+    "slug": "zipcar",
+    "name": "Zipcar",
+    "schalter_taktik": "Hourly and daily membership-based car club. Completely automated entry via smartphone or RFID card. Upselling is limited to premium monthly membership tiers and optional low-deductible damage waivers.",
+    "kaution_hinweis": "Does not charge a traditional per-rental security deposit for members in good standing, but places a temporary hold for non-member promotions or specific luxury vehicle categories."
+  },
+  {
+    "slug": "midway",
+    "name": "Midway Car Rental",
+    "schalter_taktik": "A prominent premium rental brand based in Los Angeles. Counter staff cater to entertainment industry professionals and emphasize premium upgrades to exotics, alongside luxury vehicle collision policies.",
+    "kaution_hinweis": "Holds a significant deposit of $500 for standard models, which easily escalates to $2,000+ for high-performance sports cars or ultra-luxury luxury SUVs."
+  },
+  {
+    "slug": "go-rentals",
+    "name": "Go Rentals",
+    "schalter_taktik": "Serves private aviation terminals (FBOs) and elite resort destinations. The 'Car Amigos' service focuses on high-touch hospitality; upselling is extremely subtle, focusing on premium lifestyle amenities.",
+    "kaution_hinweis": "A substantial credit card authorization is mandatory, usually starting at $500 and matching the high-end vehicle tier. Debit cards are structurally prohibited across all elite locations."
+  },
+  {
+    "slug": "beverly-hills-car-rental",
+    "name": "Beverly Hills Car Rental",
+    "schalter_taktik": "Specializes in ultra-exotic and high-end luxury vehicles. Staff thoroughly emphasize the high cost of paint repair and rim scratches, using this to sell specialized exotic collision waivers.",
+    "kaution_hinweis": "Extremely high deposits are mandatory, typically ranging from $1,500 to $5,000+ blocked exclusively on premium credit cards. Comprehensive personal insurance coverage verification is mandatory."
+  },
+  {
+    "slug": "black-white-car-rental",
+    "name": "Black & White Car Rental",
+    "schalter_taktik": "An independent luxury brand in Southern California. Counter agents pitch vehicle category upgrades (e.g., standard to Porsche) and offer comprehensive, high-tier supplemental liability coverage packages.",
+    "kaution_hinweis": "Requires a security hold from $500 up to $2,500 depending on whether you rent a standard sedan or a high-end exotic vehicle. Major credit cards are mandatory."
+  },
+  {
+    "slug": "mpg-car-rental",
+    "name": "MPG Car Rental",
+    "schalter_taktik": "Focuses on eco-friendly, hybrid, and electric vehicles in California. Agents heavily pitch pre-paid charging network access plans and specialized electric vehicle roadside assistance options.",
+    "kaution_hinweis": "Applies a standard $300 to $500 hold on a credit card. Renters must return the EV with a minimum battery level to avoid high in-house recharging service fees."
+  },
+  {
+    "slug": "super-cheap-car-rental",
+    "name": "Super Cheap Car Rental",
+    "schalter_taktik": "Caters explicitly to students, under-25 drivers, and international backpackers. Counter agents focus heavily on selling basic roadside assistance and collision coverage to high-risk profiles.",
+    "kaution_hinweis": "Holds around $250 to $500. Accepts debit cards and international licenses, but applies specific daily youthful driver surcharges that are added to the final bill."
+  },
+  {
+    "slug": "state-van-rental",
+    "name": "State Van Rental",
+    "schalter_taktik": "Focuses exclusively on high-capacity multi-passenger vans out of Los Angeles and Las Vegas. Agents push specialized multi-passenger liability coverage and roadside flat-tire assistance packages.",
+    "kaution_hinweis": "A mandatory $500 credit card deposit is processed for all 12-to-15 passenger configurations. Corporate renters must supply verified corporate insurance certificates."
+  },
+  {
+    "slug": "executive-car-rental",
+    "name": "Executive Car Rental",
+    "schalter_taktik": "Regional operator focused on major airport hubs. Counter staff are trained to aggressively pitch automated toll packages, stating that manually paying regional tolls is physically impossible.",
+    "kaution_hinweis": "Secures an authorization of $350 to $750. If the renter's personal insurance policy cannot be instantly verified via phone or database, purchasing their waiver becomes mandatory."
+  },
+  {
+    "slug": "surprice",
+    "name": "Surprice Car Rental",
+    "schalter_taktik": "An international discount brand expanding into the US. Agents use ultra-low online booking rates as leverage to hard-sell localized collision damage waivers and high-margin product bundles at the counter.",
+    "kaution_hinweis": "Imposes strict financial rules, holding $800 to $1,500 on a credit card. Unmatched names on credit cards or using a debit card results in an immediate refusal to hand over the car."
+  },
+  {
+    "slug": "zezgo",
+    "name": "Zezgo Rent A Car",
+    "schalter_taktik": "Off-airport boutique low-cost operator. Counter staff strictly audit personal insurance declarations for specific exclusions, using any omission to push their own all-inclusive insurance policies.",
+    "kaution_hinweis": "Blocks high security deposits ranging from $1,000 to $2,000 on a credit card. Debit cards are heavily restricted and usually trigger a requirement for maximum tier coverage options."
+  },
+  {
+    "slug": "amigo",
+    "name": "Amigo Car Rental",
+    "schalter_taktik": "Operates extensively in Florida's vacation market. Agents use persistent upselling strategies for pre-paid fuel and toll passes, pointing out complex local express lane rules to holidaymakers.",
+    "kaution_hinweis": "Holds between $300 and $700 on a credit card. Renters must present a physical card; virtual wallets, Apple Pay, and unembossed debit cards are systematically declined."
+  },
+  {
+    "slug": "one-switch",
+    "name": "One Switch Rent A Car",
+    "schalter_taktik": "A localized low-cost provider in major Florida transit hubs. Counter staff heavily prioritize selling their integrated toll tracking package, emphasizing high state-level administrative fines for toll bypass.",
+    "kaution_hinweis": "A credit card hold of $500 to $1,000 is executed. If a renter chooses to utilize their own personal auto insurance, they must present the physical declarations page at the desk."
+  },
+  {
+    "slug": "jc-car-rental",
+    "name": "JC Car Rental",
+    "schalter_taktik": "A smaller independent discount agency. Agents use highly structured scripts to offer vehicle category upgrades and strongly emphasize out-of-pocket windshield rock chip costs to sell glass protection.",
+    "kaution_hinweis": "Requires a credit card security authorization of $300 to $600. Local neighborhood residents face stricter mileage limits compared to inbound airport travelers."
+  },
+  {
+    "slug": "americar",
+    "name": "Americar",
+    "schalter_taktik": "A regional operator focusing on value-driven travelers. Staff highlight potential mechanical breakdown towing scenarios on remote state routes to pitch premium roadside assistance policies.",
+    "kaution_hinweis": "Standard deposits range from $200 to $500 on valid major credit cards. Debit cards are subject to a mandatory credit check and a verified return flight confirmation."
+  },
+  {
+    "slug": "action-car-rental",
+    "name": "Action Car Rental",
+    "schalter_taktik": "Catters to budget airport traffic. Desk agents actively cross-sell pre-paid fuel, child safety seats, and localized navigation solutions to boost low margin web reservations.",
+    "kaution_hinweis": "Holds an authorization of $300 to $650. Declining the localized collision damage waiver requires proof that the traveler's personal insurance covers rental vehicles up to the full value."
+  },
+  {
+    "slug": "adocar-rental",
+    "name": "Adocar Rental",
+    "schalter_taktik": "Independent provider in regional vacation markets. Counter agents use a firm approach to market daily toll transponder rentals, explaining that many local express highways do not accept cash.",
+    "kaution_hinweis": "Places a standard security hold of $400 to $800 on major credit cards. Debit card usage requires purchasing the provider's top-tier loss damage waiver program."
+  },
+  {
+    "slug": "drive-car-rental",
+    "name": "Drive Car Rental",
+    "schalter_taktik": "Boutique discount rental provider. Counter personnel push emergency medical protection plans and premium bumper-to-bumper collision coverage by emphasizing dense metropolitan traffic risks.",
+    "kaution_hinweis": "Holds $300 to $600 on a standard credit card. Anyone wishing to drive across state borders must disclose this at the desk, which may trigger additional cross-border surcharges."
+  },
+  {
+    "slug": "master-car-rental",
+    "name": "Master Car Rental",
+    "schalter_taktik": "Small independent agency catering to tourist hotspots. Staff use the vehicle walkthrough process to aggressively upsell zero-deductible coverage plans, noting that tiny paint chips are heavily billed.",
+    "kaution_hinweis": "Requires a minimum $500 credit card authorization hold. Debit cards are rejected for international travelers unless a comprehensive local coverage plan is added."
+  },
+  {
+    "slug": "express-rent-a-car",
+    "name": "Express Rent A Car",
+    "schalter_taktik": "Focuses on rapid service but counter staff still take time to pitch supplemental liability insurance (SLI) and pre-paid refueling packages to avoid refueling penalties.",
+    "kaution_hinweis": "Applies a security hold of $250 to $500. Renters using a debit card must present an active, non-prepaid smartphone utility bill matching their physical driver's license address."
+  },
+  {
+    "slug": "a1-rent-a-car",
+    "name": "A1 Rent A Car",
+    "schalter_taktik": "Independent neighborhood and airport discount supplier. Agents rely heavily on upselling vehicle sizes and localized roadside protection tiers to offset low initial base rates.",
+    "kaution_hinweis": "Holds a mandatory $300 to $600 deposit. Out-of-state drivers are required to demonstrate clear transferable collision insurance coverage at the counter."
+  },
+  {
+    "slug": "jiffy",
+    "name": "Jiffy Car Rental",
+    "schalter_taktik": "Regional operator offering quick turnarounds. Agents pitch automated toll tracking and pre-paid gas packages, stating that finding an open gas station near the airport layout is highly challenging.",
+    "kaution_hinweis": "Secures an authorization hold of $200 to $400 on main credit cards. Debit cards are allowed exclusively for inbound airport passengers with a verified return flight confirmation."
+  },
+  {
+    "slug": "allied",
+    "name": "Allied Car Rental",
+    "schalter_taktik": "Serves corporate and insurance replacement clients. Counter staff offer specialized vehicle upgrades and cross-sell personal property coverage to protect against luggage theft from the vehicle.",
+    "kaution_hinweis": "A standard hold of $200 to $400 plus the total estimated rental cost is executed. Debit cards are accepted with comprehensive localized residency checks."
+  },
+  {
+    "slug": "affiliated",
+    "name": "Affiliated Car Rental",
+    "schalter_taktik": "A network of independent operators. Staff thoroughly evaluate external broker vouchers and heavily market localized mechanical breakdown protection plans to international tourists.",
+    "kaution_hinweis": "Deposits range from $300 to $800. If the credit card lacks an embedded microchip, the rental may be denied or require full optional in-house insurance purchases."
+  },
+  {
+    "slug": "signature-car-rental",
+    "name": "Signature Car Rental",
+    "schalter_taktik": "Focuses on premium sedans and corporate executive vehicle classes. Agents systematically present higher-tier luxury vehicles at check-in, highlighting advanced cabin features for comfort.",
+    "kaution_hinweis": "Holds a standard premium authorization of $500 to $1,000 on major credit cards. Debit cards are completely banned for all premium and luxury vehicle categories."
+  },
+  {
+    "slug": "luxury-car-rental-usa",
+    "name": "Luxury Car Rental USA",
+    "schalter_taktik": "Caters to high-net-worth clients seeking exotic brands. Counter personnel focus on customized delivery services and pitch high-tier supplemental liability limits for maximum legal protection.",
+    "kaution_hinweis": "Places high authorization holds ranging from $1,500 to $3,500+ exclusively on major high-limit credit cards. Personal auto policies must be fully vetted prior to keys being handed over."
+  },
+  {
+    "slug": "carhop",
+    "name": "CarHop Rent A Car",
+    "schalter_taktik": "Provides low-cost local neighborhood rentals. Agents focus heavily on selling daily collision waivers to non-traditional credit applicants or those lacking personal auto insurance policies.",
+    "kaution_hinweis": "A security deposit of $200 to $400 is held. They frequently accept debit cards and cash deposits, provided the renter undergoes a comprehensive identity check."
+  },
+  {
+    "slug": "auto-premium",
+    "name": "Auto Premium Rental",
+    "schalter_taktik": "Specializes in importing European luxury models. Desk agents upsell zero-deductible damage waivers by detailing the extreme parts and labor costs associated with premium European vehicle repairs.",
+    "kaution_hinweis": "A credit hold of $1,000 to $2,000 is placed on the main driver's credit card. Debit cards and prepaid checking cards are not accepted under any circumstances."
+  },
+  {
+    "slug": "inland-empire-van-rental",
+    "name": "Inland Empire Van Rental",
+    "schalter_taktik": "Regional Southern California operator for large vans. Agents push specialized interior damage waivers and high-tier liability packages, highlighting high cargo and passenger liabilities.",
+    "kaution_hinweis": "A mandatory $500 security deposit is held on a credit card. Debit cards are rejected for all passenger configurations exceeding 8 seats."
+  },
+  {
+    "slug": "sna-car-rental",
+    "name": "SNA Car Rental",
+    "schalter_taktik": "Operates primarily out of Orange County, California. Staff focus on offering premium convertible and SUV upgrades, pitching comprehensive tire and wheel damage protection plans.",
+    "kaution_hinweis": "Holds a standard $300 to $500 security deposit on a major credit card. Local residents face stricter credit screening and mileage boundaries than out-of-state travelers."
+  },
+  {
+    "slug": "galpin-car-rental",
+    "name": "Galpin Car Rental",
+    "schalter_taktik": "A large dealership-backed rental operation in California. Counter staff highly emphasize new vehicle models and persistent pitches for factory-backed collision damage waivers.",
+    "kaution_hinweis": "Secures a standard $250 to $500 authorization hold on major credit cards. Personal insurance coverage must transfer directly to dealership rental assets."
+  },
+  {
+    "slug": "sensible-car-rental",
+    "name": "Sensible Car Rental",
+    "schalter_taktik": "Focuses on providing long-term, highly economical used car options. Agents focus on marketing maintenance protection packages and baseline collision damage waivers to budget clients.",
+    "kaution_hinweis": "A standard deposit of $200 to $400 is held. Debit cards are accepted provided the renter presents a localized residential utility bill or paystub."
+  },
+  {
+    "slug": "practical-car-rental",
+    "name": "Practical Car Rental",
+    "schalter_taktik": "Value brand focusing on localized neighborhood service. Counter staff cross-sell additional driver options and pre-paid local fuel packages to optimize basic rental margins.",
+    "kaution_hinweis": "Holds an authorization of $250 to $500. Renters must possess a physical credit card; digital cards, phone tap payments, and prepaid cards are systematically blocked."
+  },
+  {
+    "slug": "sunshine-rent-a-car",
+    "name": "Sunshine Rent A Car",
+    "schalter_taktik": "Florida-based regional agency. Counter staff heavily market pre-paid SunPass toll options, warning travelers that automated cameras photograph license plates on all local highways.",
+    "kaution_hinweis": "Requires a security hold of $300 to $600. Using a debit card requires the mandatory purchase of their zero-deductible collision waiver package."
+  },
+  {
+    "slug": "coast-to-coast",
+    "name": "Coast to Coast Car Rental",
+    "schalter_taktik": "Independent agency catering to long-distance road trippers. Counter personnel push unlimited mileage add-ons and roadside emergency assistance, highlighting high out-of-state towing fees.",
+    "kaution_hinweis": "A standard $300 to $500 deposit is initialized. Major credit cards are required; out-of-state drivers face strict verification of active personal auto coverage."
+  },
+  {
+    "slug": "pacific-rent-a-car",
+    "name": "Pacific Rent A Car",
+    "schalter_taktik": "West Coast independent operator. Counter agents focus on upselling compact reservations to convertibles or all-wheel-drive SUVs, citing mountain or coastal driving requirements.",
+    "kaution_hinweis": "Holds between $300 and $500 on a standard credit card. Debit cards are subject to a strict verification process including round-trip ticket presentation."
+  },
+  {
+    "slug": "florida-van-rentals",
+    "name": "Florida Van Rentals",
+    "schalter_taktik": "Specializes in wheelchair-accessible and high-capacity passenger vans. Staff thoroughly explain specialized equipment operations while pushing comprehensive equipment damage protection.",
+    "kaution_hinweis": "A substantial hold of $500 is placed on a major credit card due to specialized hydraulic lifts and seating configurations. Debit cards face high restrictions."
+  },
+  {
+    "slug": "carls-van-rentals",
+    "name": "Carl's Van Rentals",
+    "schalter_taktik": "A prominent regional van specialist in Florida. Counter agents focus on cross-selling high-limit supplemental liability insurance and detailed interior upholstery cleaning waivers.",
+    "kaution_hinweis": "Secures an authorization hold of $500 on major credit cards. Debit cards are rejected for all high-capacity van configurations unless intensive local background checks are passed."
+  },
+  {
+    "slug": "rent-a-vette",
+    "name": "Rent-A-Vette",
+    "schalter_taktik": "Specializes in renting American sports cars and high-performance Corvettes. Counter staff focus heavily on tire wear, racing restrictions, and high-tier collision damage waiver upselling.",
+    "kaution_hinweis": "An elevated authorization of $1,000 to $2,500 is strictly held on a primary credit card. Renters must present a personal insurance declarations page explicitly covering exotic sports cars."
+  },
+  {
+    "slug": "gotham-dream-cars",
+    "name": "Gotham Dream Cars",
+    "schalter_taktik": "Boutique ultra-exotic rental agency. The checkout process involves an exhaustive vehicle walk-around and a detailed brief on high-performance driving limits, with subtle pushes for elite coverage extensions.",
+    "kaution_hinweis": "Extremely high deposits of $2,000 to $5,000+ are held exclusively on high-tier credit cards. Comprehensive personal insurance policies are thoroughly verified with the provider."
+  },
+  {
+    "slug": "club-sportiva",
+    "name": "Club Sportiva",
+    "schalter_taktik": "A classic and exotic car rental club model. Staff emphasize membership options and pitch specialized high-value damage waivers to cover vintage vehicle bodywork complexities.",
+    "kaution_hinweis": "Requires a substantial security hold of $1,500 to $3,500 on major credit cards. Drivers must meet an elevated minimum age requirement of 25 or 30 years old."
+  },
+  {
+    "slug": "royalty-exotic-cars",
+    "name": "Royalty Exotic Cars",
+    "schalter_taktik": "Based in Las Vegas, renting hypercars and luxury vehicles. Staff heavily pitch tire, wheel, and windshield protection packages, detailing high gravel hazards on desert valley highways.",
+    "kaution_hinweis": "Blocks a significant deposit of $1,000 to $3,000 on major credit cards. Debit cards are completely prohibited across the entire hypercar inventory."
+  },
+  {
+    "slug": "san-diego-van-rentals",
+    "name": "San Diego Van Rentals",
+    "schalter_taktik": "Regional Southern California large vehicle operator. Desk staff focus on marketing supplemental liability plans and pre-paid toll options for cross-border or regional toll express lanes.",
+    "kaution_hinweis": "A standard $500 deposit is locked on a major credit card. Renters must undergo explicit commercial or personal auto policy verification prior to vehicle release."
+  },
+  {
+    "slug": "phoenix-car-rental",
+    "name": "Phoenix Car Rental",
+    "schalter_taktik": "Independent operator in Arizona. Counter agents actively market pre-paid refueling packages and high-tier loss damage waivers, pointing out high desert heat mechanical risks.",
+    "kaution_hinweis": "Holds an authorization of $250 to $500. Local neighborhood residents are subject to strict geographic mileage boundaries and specialized utility verification."
+  },
+  {
+    "slug": "vegas-car-rental",
+    "name": "Vegas Car Rental",
+    "schalter_taktik": "Independent discount operator targeting Las Vegas tourists. Staff use highly persuasive scripts to upsell to luxury convertibles and sell all-inclusive local toll road options.",
+    "kaution_hinweis": "Secures an authorization hold of $300 to $700. Utilizing a debit card requires purchasing the agency's internal comprehensive protection plan."
+  },
+  {
+    "slug": "hawaii-car-rental",
+    "name": "Hawaii Car Rental",
+    "schalter_taktik": "Consolidated independent network for island travelers. Counter agents strongly pitch specialized comprehensive sand and interior saltwater damage cleaning waivers.",
+    "kaution_hinweis": "Holds a standard deposit of $200 to $400 on a major credit card. Debit cards are accepted provided the renter presents proof of an active return inter-island flight."
+  },
+  {
+    "slug": "maui-vans",
+    "name": "Maui Vans",
+    "schalter_taktik": "Rents campervans and utility vans across the Hawaiian islands. Staff focus heavily on roadside assistance packages and remote island towing limitations to cross-sell internal waivers.",
+    "kaution_hinweis": "A credit card security hold of $400 to $800 is required. Debit cards face extensive processing verification and require purchasing maximum-protection plans."
+  },
+  {
+    "slug": "island-rent-a-car",
+    "name": "Island Rent A Car",
+    "schalter_taktik": "Localized Hawaiian independent agency. Counter staff focus on island-specific driving rules and cross-sell comprehensive collision coverage to bypass complicated long-distance insurance claims.",
+    "kaution_hinweis": "A standard hold of $200 to $500 is applied on major credit cards. Prepaid banking or virtual payment applications are not accepted for security verification."
+  },
+  {
+    "slug": "enterprise-carshare",
+    "name": "Enterprise CarShare",
+    "schalter_taktik": "Automated app-driven hourly car sharing service. No physical counter exists; upselling is integrated into the membership portal focusing on tier upgrades and optional low-deductible plans.",
+    "kaution_hinweis": "Does not apply individual per-trip deposits for fully verified members, but places a temporary validation hold on newly added credit cards."
+  },
+  {
+    "slug": "cruise-america",
+    "name": "Cruise America",
+    "schalter_taktik": "The largest RV and motorhome rental operator in the US. Counter agents thoroughly review complex vehicle systems and heavily push specialized generator use packages and zero-deductible damage waivers.",
+    "kaution_hinweis": "Imposes a mandatory security deposit hold of $500 on a major credit card. This deposit is fully refunded after the RV is returned with clean interiors and emptied holding tanks."
+  },
+  {
+    "slug": "el-monte-rv",
+    "name": "El Monte RV",
+    "schalter_taktik": "A prominent nationwide RV rental company. Counter staff focus on marketing comprehensive mileage packages, pre-paid housekeeping kits, and high-limit supplemental liability protection.",
+    "kaution_hinweis": "Holds a mandatory $1,000 security deposit on a valid credit card matching the primary driver's license. Debit cards are rejected for security holds at check-in."
+  },
+  {
+    "slug": "road-bear-rv",
+    "name": "Road Bear RV",
+    "schalter_taktik": "Premium RV and motorhome specialist. Agents focus on high-end luxury vehicle walk-throughs and cross-sell premium vehicle awning and exterior bodywork damage protection plans.",
+    "kaution_hinweis": "A strict security hold of $1,000 is placed on a major credit card. International renters must present a valid passport and international driving permit if applicable."
+  },
+  {
+    "slug": "jucy-rentals",
+    "name": "Jucy Rentals USA",
+    "schalter_taktik": "Specializes in compact campervans and mini-RVs popular with backpackers. Counter staff heavily pitch complete bedding kits, kitchen packages, and comprehensive collision insurance to young drivers.",
+    "kaution_hinweis": "Holds a deposit of $500 on credit cards. Renters under the age of 25 face specific daily youthful operator fees that are compiled at the desk."
+  },
+  {
+    "slug": "escape-campervans",
+    "name": "Escape Campervans",
+    "schalter_taktik": "Rents custom-painted campervans across major US tourist trails. Staff use a friendly, relaxed approach but persistently offer comprehensive roadside protection and tire/glass waiver add-ons.",
+    "kaution_hinweis": "A mandatory authorization hold of $200 to $500 is processed on a major credit card. Debit cards are accepted if the renter opts for premium coverage tiers."
+  },
+  {
+    "slug": "native-campervans",
+    "name": "Native Campervans",
+    "schalter_taktik": "Regional campervan operator in the Rocky Mountains and West Coast. Staff focus on mountain safety briefs and actively market tire, windshield, and comprehensive animal-collision waivers.",
+    "kaution_hinweis": "Secures an authorization hold of $500 on a valid credit card. Personal insurance policies are reviewed to ensure explicit coverage for modified living vehicles."
+  },
+  {
+    "slug": "campervan-north-america",
+    "name": "Campervan North America",
+    "schalter_taktik": "Focuses on highly efficient, compact custom campervans. Desk agents pitch extended mileage plans, portable camping gear packages, and comprehensive collision protection options.",
+    "kaution_hinweis": "Requires a $500 credit card security deposit hold. Debit cards are generally restricted or require explicit verification of secondary insurance coverages."
+  },
+  {
+    "slug": "outdoorsy",
+    "name": "Outdoorsy",
+    "schalter_taktik": "Peer-to-peer RV and campervan marketplace. Transactions are fully digital via app. Mandatory protection tiers (Essential, Preferred, Peace of Mind) must be selected during online checkout.",
+    "kaution_hinweis": "Security deposits vary widely from $500 to $2,000+, determined directly by the vehicle owner. The hold is processed digitally and released post-trip inspection."
+  }
+]

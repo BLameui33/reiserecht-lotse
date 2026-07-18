@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Global Entry Requirements: Check Visa, Passport & Travel Rules</title>
+  <meta name="description" content="Up-to-date entry requirements and visa rules for all countries. Do you need an ETIAS, eTA, or a passport? Use our free checker.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & Internationalization -->
+ {{SEO_LINKS}}
+
+  <!-- HTML to PDF Generation Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="/logo-lotse-fav.png">
+
+  <!-- FAQ Schema.org JSON-LD for Google Rich Snippets -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "How long must my passport be valid?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For most international destinations, your passport must be valid for at least six months beyond your date of entry. Many countries also require that your passport has at least two blank pages for entry stamps and visas."
+      }
+    }, {
+      "@type": "Question",
+      "name": "What is the difference between a visa and an eTA, ESTA, or ETIAS?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A traditional visa must often be applied for in advance at an embassy or online (as an eVisa) with associated processing times. An ESTA (for visitors to the US), eTA (for Canada), or ETIAS (for Europe) are electronic travel authorizations for citizens of visa-waiver countries (like the US). They must still be obtained online before your departure flight."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Do I need a visa if I am only transiting (connecting flights) through an airport?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This heavily depends on the transit country. In the US, all passengers must clear customs, meaning foreign transit travelers require an ESTA or transit visa even for a layover without leaving the secure area. Similarly, US citizens transiting through countries like Canada or Australia must obtain an electronic travel authorization (eTA/ETA) beforehand. However, many European, Asian, or Middle Eastern airports allow international transit without a visa."
+      }
+    }, {
+      "@type": "Question",
+      "name": "What happens if I arrive at the airport without a valid visa or the required documents?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Airlines check your travel documents during check-in or boarding. If you are missing required documents, you will be denied boarding, as airlines face heavy fines at the destination and are responsible for your immediate return flight. You will have to bear the full cost of the missed flight."
+      }
+    }]
+  }
+  </script>
+
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Global Entry Requirements: Visa, Passport & Travel Rules</h1>
+  
+  <div class="seo-text">
+    <p>The excitement of an upcoming vacation is great, but planning an international trip always begins with having the right travel documents. Whether you are heading for a beach vacation in Asia, a city trip to London, or a business trip to Europe, it is essential to check the **entry requirements** for your destination country well in advance.</p>
+    <p>Do you need a traditional tourist visa that must be applied for in advance? Is an electronic travel authorization sufficient (such as an eTA for Canada or ETIAS for Europe)? Or is a standard passport all you need? Our guide and interactive checker provide you with the exact answers for your next travel destination.</p>
+  </div>
+
+  <!-- INTERACTIVE AREA & INTERNAL LINKING FOR CRAWLERS -->
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Start Visa Checker</h2>
+    <p>Select your destination to check the exact entry rules and visa requirements (100% free):</p>
+    
+    <select id="countrySelect">
+      <option value="">-- Please select destination country --</option>
+      <!-- The script inserts the countries as options here -->
+      {{VISA_OPTIONS}}
+      <option value="einreisebestimmungen-allgemein.html">My destination is not listed (General Info)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Check Entry Requirements</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Popular Travel Destinations from A to Z</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{VISA_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Which Travel Documents Are Required?</h2>
+  <div class="seo-text">
+    <p>Requirements vary significantly depending on your citizenship and destination. For US citizens, there are generally three main scenarios:</p>
+    <ul>
+      <li><strong>US Passport (Visa-Waiver / ETIAS / eTA):</strong> For many popular destinations (including Europe's Schengen Area, Canada, the UK, and Australia), US citizens can enter visa-free for short stays but must obtain an electronic travel authorization (like ETIAS for Europe or eTA for Canada) online before boarding.</li>
+      <li><strong>Passport only (Visa on Arrival / Visa-Free):</strong> For some destinations (e.g., Thailand or Mexico), US citizens can enter purely with a valid US passport book for a limited duration. The passport must typically be valid for at least 6 months beyond your arrival date.</li>
+      <li><strong>Passport with Traditional Visa / eVisa:</strong> For countries like China, India, or Brazil, you must apply for and receive a physical visa or an electronic visa (eVisa) before your departure. If you do not have it, you will be denied boarding.</li>
+    </ul>
+  </div>
+
+  <h2 style="margin-top: 40px;">Checklist: Review Your Documents Before Departure</h2>
+  <p>Use this list to ensure you don't face any unexpected surprises at the airport. You can easily print or save it as a PDF!</p>
+  
+  <!-- The ID "checklistToPrint" wraps the exact box to be printed -->
+  <div class="checklist-box" id="checklistToPrint">
+    <h3 style="margin-top:0; color:#1565c0;">International Travel Entry Checklist</h3>
+    <ul>
+      <li><strong>Passport Validity:</strong> Is your passport valid for at least 6 months from your entry date, and does it have empty pages? (Be careful with temporary or emergency passports, as they are not accepted by all countries!).</li>
+      <li><strong>Visa / ETIAS / eTA:</strong> Have you received approval for your electronic travel authorization and printed a copy?</li>
+      <li><strong>Return or Onward Ticket:</strong> Almost all countries outside the US require proof that you will exit the country (e.g., a return flight ticket).</li>
+      <li><strong>Hotel Booking & Proof of Funds:</strong> You are often required to show proof of your first night's accommodation or evidence of sufficient funds to cover your stay at the border.</li>
+      <li><strong>Vaccination Requirements (Yellow Fever, etc.):</strong> Do you have your international certificate of vaccination (yellow card) with you if the destination country mandates specific vaccines for entry?</li>
+    </ul>
+  </div>
+  
+  <!-- Button generates the PDF on-the-fly, ignoring itself in the PDF (data-html2canvas-ignore) -->
+  <button onclick="generateChecklistPDF('entry-checklist.pdf')" class="btn-download" data-html2canvas-ignore="true">
+    Generate & Save Checklist as PDF
+  </button>
+
+  <h2 style="margin-top: 40px;">Case Studies: When Entry is Denied</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Example 1: The Expiring Passport to Bali</h3>
+    <p>Mark is excited about his vacation in Indonesia. At the check-in desk at JFK Airport, the airline agent notices that his passport is only valid for another 3 months. Indonesia strictly requires at least 6 months of validity.<br>
+    <strong>Outcome:</strong> Mark is not allowed to board. Because passport validity falls entirely under the traveler's responsibility, passenger rights regulations and standard trip cancellation insurance do not cover this. The money spent on the flight is lost.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Example 2: Underestimating International Transit Rules</h3>
+    <p>The Miller family is flying from Chicago to Japan with a layover in Vancouver, Canada. Since they are only transiting through Vancouver and not leaving the airport, they did not apply for a Canadian eTA.<br>
+    <strong>Outcome:</strong> Canada requires an eTA for visa-exempt foreign nationals even if they are only transiting through a Canadian airport. Without an approved eTA, the airline in Chicago denies them boarding, causing them to miss their entire trip to Japan.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">FAQ: Frequently Asked Questions about Visas & Entry</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">How long must my passport be valid?</div>
+    <div class="faq-answer">For most international destinations, your passport must be valid for at least six months beyond your date of entry. Many countries also require that your passport has at least two blank pages for entry stamps and visas. Note that state IDs or driver's licenses (even Real IDs) cannot be used for international travel.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">What is the difference between a visa and an eTA, ESTA, or ETIAS?</div>
+    <div class="faq-answer">A traditional visa must often be applied for in advance at an embassy or online (as an eVisa) with associated processing times. An ESTA (for visitors to the US), eTA (for Canada), or ETIAS (for Europe) are electronic travel authorizations for citizens of visa-waiver countries (like the US). They must still be obtained online before your departure flight.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Do I need a visa if I am only transiting (connecting flights) through an airport?</div>
+    <div class="faq-answer">This heavily depends on the transit country. In the US, all passengers must clear customs, meaning foreign transit travelers require an ESTA or transit visa even for a layover without leaving the secure area. Similarly, US citizens transiting through countries like Canada or Australia must obtain an electronic travel authorization (eTA/ETA) beforehand. However, many European, Asian, or Middle Eastern airports allow international transit without a visa.</div>
+  </div>
+  
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">What happens if I arrive at the airport without a valid visa or the required documents?</div>
+    <div class="faq-answer">Airlines check your travel documents during check-in or boarding. If you are missing required documents, you will be denied boarding, as airlines face heavy fines at the destination and are responsible for your immediate return flight. You will have to bear the full cost of the missed flight.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise in Travel Law & Passenger Rights</h3>
+    <p class="trust-text">
+        Our guides and generators are based on rigorous analysis of current international passenger regulations (such as the Montreal Convention and EU 261/2004) and passenger rights frameworks. They are developed by Marc (Project Lead) & the team to empower travelers to assert their rights against airlines and travel providers.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Important Notice: Our tools provide self-help resources for flight delays, hotel issues, or travel cancellations. They do not replace professional, individual legal advice from an attorney.
+        </span>
+    </p>
+
+    <a href="ueber-uns.html" class="trust-link">
+        Learn more about our legal methodology & editorial standards →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Have an issue with a flight, train, or hotel?</strong><br>
+        Fix-My-Trip quickly checks your eligibility for compensation, ticket refunds, or travel price reductions. <br>
+        <em>A service by Fix my Trip.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Found a bug in our tool?</strong> Since we operate as an automated self-help platform and do not offer individual legal advice, you help us immensely by reporting bugs or outdated providers: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Send feedback to our headquarters</a>.
+</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">About Us</a> | 
+        <a href="index.html">Home</a> | 
+        <a href="impressum.html">Legal Notice</a> | 
+        <a href="datenschutz.html">Privacy Policy</a>
+    </nav>
+</footer>
+
+<script>
+// Redirects the user via dropdown selection (UX)
+function routeToGenerator() {
+    const selectElement = document.getElementById('countrySelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Please select a destination country from the list first.");
+    }
+}
+
+// Generates the PDF from the HTML checklist (Fixed against empty page bugs!)
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // 15mm margin
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, // High resolution for crisp text
+            scrollY: 0, // Forces the canvas to start at the top (fixes empty pages on scroll!)
+            windowWidth: document.documentElement.offsetWidth
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    // Creates the PDF and triggers download
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

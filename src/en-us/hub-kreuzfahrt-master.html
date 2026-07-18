@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Cruise Defects: Claim a Price Reduction & Refunds | PDF</title>
+  <meta name="description" content="Your rights regarding cruise defects like route changes, noise, or missed ports. Claim up to a 30% refund based on industry standard compensation guidelines.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  {{SEO_LINKS}}
+  
+  <!-- Bibliothek für die PDF-Generierung aus HTML -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "What are Industry Standard Compensation Guidelines for cruises?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While the US doesn't have an official legal table, consumer advocates and small claims courts use industry-standard percentage benchmarks. These guidelines list typical cruise defects (like broken AC or severe noise) and assign them a pro-rated percentage refund based on your daily fare."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Do I have to accept onboard credit (OBC) as compensation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Cruise lines often try to brush off complaints at the Guest Services desk with a small onboard credit (e.g., $50) or free drinks. Legally, under breach of contract, you have the right to a cash refund (a reduction of the travel price), which is usually significantly higher."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Does a route change due to weather count as a defect?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. While passenger safety comes first and the captain can cancel a port due to storms (Acts of God), the cruise line is still legally required to refund the port taxes and fees for the missed port. Furthermore, for significant itinerary deviations, you are often entitled to a pro-rated refund of your daily fare."
+      }
+    }, {
+      "@type": "Question",
+      "name": "How long do I have to file a complaint after the cruise?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Warning: US cruise ticket contracts have extremely strict deadlines! You generally must provide written notice of your claim within 6 months of the cruise and file any lawsuit within 1 year. It is highly recommended to file your claim within a few weeks of returning."
+      }
+    }]
+  }
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Cruise Defects: How to Claim a Price Reduction & Refunds</h1>
+  
+  <p>A cruise is usually an expensive dream vacation. If the cabin doesn't meet the standard, the itinerary is spontaneously changed, or there is unbearable construction noise on deck, the frustration is immense. What many guests don't realize: You are strongly protected by <strong>US Maritime Law, the Cruise Line Passenger Bill of Rights, and your Ticket Contract</strong>.</p>
+  
+  <p>Instead of letting the Guest Services desk brush you off with a free cocktail or a $50 onboard credit (OBC), you have the right to hard cash compensation. <strong>Industry Standard Compensation Guidelines</strong> serve as a legal compass and often entitle passengers to a refund of <strong>10% to 30% of the pro-rated cruise fare</strong> in the event of significant defects. We help you enforce this claim.</p>
+
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Generate PDF Demand Letter</h2>
+    <p>Select your cruise line to create a legally sound document that is tailored exactly to the respective provider:</p>
+    
+    <div class="legal-info-box">
+    <strong>Important Notice on Usage</strong><br>
+    This tool is an <strong>automated template generator</strong> (help for self-help). It simply inserts your data into standard legal templates. There is <strong>no individual review</strong> of your case. This free service does not replace legal advice from an attorney. Use of this tool is at your own risk, and no guarantee of success is provided.
+</div>
+
+    <select id="cruiseSelect">
+      <option value="">-- Please select a cruise line --</option>
+      {{CRUISE_OPTIONS}}
+      <option value="kreuzfahrt-maengel-minderung-allgemein.html">My cruise line is not listed (General form)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Go to the generator for this cruise line</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Claim Check by Cruise Line</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{CRUISE_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Checklist: Immediate Help for Cruise Defects</h2>
+  <p>The most important thing when dealing with travel defects is securing evidence on-site. Follow these steps on board to secure your later refund:</p>
+  
+  <div class="checklist-box" id="checklistToPrint">
+  <!-- Optional: Eine versteckte oder sichtbare Überschrift, die nur im PDF gut aussieht -->
+  <h3 style="margin-top:0; color:#1565c0;">Checklist: Defects on Board</h3>
+
+    <ul>
+      <li><strong>Report the defect:</strong> Report the problem IMMEDIATELY to the reception (Guest Services). If you hide the defect, you lose your rights later.</li>
+      <li><strong>Set a deadline for a remedy:</strong> Demand a solution (e.g., a different cabin) and write down the name of the staff member.</li>
+      <li><strong>Secure evidence:</strong> Take photos/videos (e.g., of dirt, broken AC, or leaks) or keep a detailed noise/odor log with dates and times.</li>
+      <li><strong>Find witnesses:</strong> Exchange phone numbers with other affected passengers. Statements from independent fellow travelers are worth their weight in gold.</li>
+      <li><strong>Don't sign final waivers:</strong> If you accept onboard credit, do not sign anything stating "in full and final settlement of all claims." If you must sign, add the words "Under Protest" or "Without Prejudice".</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('checklist-cruise.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+  Generate & save checklist as PDF
+</button>
+
+  <h2 style="margin-top: 40px;">Case Studies: Pro-Rated Compensation Guidelines</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Example 1: Itinerary Change & Missed Port</h3>
+    <p>On a Caribbean cruise (total price $3,000 for 10 days = $300/day), the highlight stop in St. Thomas is canceled due to strong winds without a comparable substitute port.<br>
+    <strong>Result:</strong> Since the travel contract was not fulfilled, you are entitled to a refund. In addition to the mandatory refund of port taxes for that specific stop, passengers are often entitled to a reduction of approx. <strong>20% to 30% of the daily fare</strong> for the lost day (approx. $60 - $90 per person).</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Example 2: Unreasonable Noise in the Cabin</h3>
+    <p>The assigned cabin is located directly below the ship's nightclub. Sleep is impossible until 3 AM. Guest Services has no alternative room available.<br>
+    <strong>Result:</strong> Noise that massively disrupts your sleep is a severe defect. For the affected period, you can demand a price reduction of <strong>up to 30% of the pro-rated daily fare</strong>.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">FAQ: Your Rights in Detail</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">How is the percentage reduction calculated?</div>
+    <div class="faq-answer">The reduction is always calculated on a pro-rated basis. If the defect affects the entire trip (e.g., a booked balcony was missing), the percentage is deducted from the total cruise fare. If the problem only occurs on certain days (e.g., 2 days of construction noise at the pool), the total fare is divided by the number of travel days, and the percentage is applied to this "daily fare" for the affected days.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">What happens if the cruise line claims "Acts of God" (Force Majeure)?</div>
+    <div class="faq-answer">Cruise lines often use "Acts of God" (like storms or heavy fog) to deny compensation claims. However, under breach of contract, they are still legally required to refund you for the unrendered services, such as port taxes for a missed port. If the core of the cruise is fundamentally altered, you are still entitled to a pro-rated reduction, regardless of whose fault it is.</div>
+  </div>
+
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">Can I demand an oceanview cabin if my inside cabin is defective?</div>
+    <div class="faq-answer">Yes. If the booked cabin category is unusable due to a defect and no identical cabin is available, the cruise line must offer you a free upgrade. If the cruise line refuses to do this and you are forced to stay in the defective cabin, your compensation claims increase drastically.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise in Travel Law & Passenger Rights</h3>
+    <p class="trust-text">
+        Our guides and generators are based on a strict evaluation of US Maritime Law, the Cruise Line Passenger Bill of Rights, and FTC regulations. 
+        They are developed by Marc (Project Lead) & Team to enable travelers to legally enforce their rights against cruise lines and tour operators.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Important Note: Our tools provide help for self-help regarding cruise defects, hotel problems, or flight delays. They do not replace individual legal advice from an attorney.
+        </span>
+    </p>
+
+    <a href="ueber-uns.html" class="trust-link">
+        Learn more about our legal methodology & editorial team →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Problem on your cruise, flight, or at your hotel?</strong><br>
+        Fix-My-Trip checks your claim for compensation, ticket refunds, or travel price reductions in just a few steps. <br>
+        <em>A service provided by Fix my Trip.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Spotted a bug in the tool?</strong> Since we operate as an automated portal and do not provide individual legal advice, it helps us enormously if you report bugs or outdated providers: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Send feedback to our headquarters</a>.
+</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">About us</a> | 
+        <a href="index.html">Home</a> | 
+        <a href="impressum.html">Imprint</a> | 
+        <a href="datenschutz.html">Privacy Policy</a>
+    </nav>
+</footer>
+
+<script>
+function routeToGenerator() {
+    const selectElement = document.getElementById('cruiseSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Please select a cruise line from the list first.");
+    }
+}
+
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // 15mm Rand rundherum
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, // Hohe Auflösung
+            scrollY: 0, // WICHTIG: Fixt das Problem mit der leeren Seite!
+            windowWidth: document.documentElement.offsetWidth // Stellt sicher, dass die Breite stimmt
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    // PDF generieren
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

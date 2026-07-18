@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Flight Delay & Cancellation: Claim Compensation | PDF</title>
+  <meta name="description" content="Your rights regarding flight delays, cancellations, or overbooking. Learn how to claim refunds and up to $1,550 in compensation under US DOT regulations.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  {{SEO_LINKS}}
+
+  <!-- Bibliothek für die PDF-Generierung aus HTML -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="/logo-lotse-fav.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "After how many hours of delay am I entitled to a refund or compensation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under US Department of Transportation (DOT) rules, you are entitled to an automatic full refund if your domestic flight is delayed by more than 3 hours (or 6 hours for international flights) and you choose not to fly."
+      }
+    }, {
+      "@type": "Question",
+      "name": "How much is the compensation for flight problems?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For delays and cancellations, you are entitled to a full ticket refund. If you are involuntarily bumped from an overbooked flight, DOT rules mandate cash compensation up to 400% of your one-way fare (maximum $1,550)."
+      }
+    }, {
+      "@type": "Question",
+      "name": "What are uncontrollable events?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "These are events outside the airline's control, such as severe weather or Air Traffic Control (ATC) issues. Maintenance problems or airline staff shortages are considered 'controllable' by the airline."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Am I entitled to food and a hotel at the airport?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, if the delay or cancellation is 'controllable' (e.g., a mechanical issue) and forces a significant wait. Most major US airlines have committed to providing meal vouchers and overnight hotel accommodations in these cases."
+      }
+    }]
+  }
+  </script>
+
+  
+  
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Flight Delay & Cancellation: How to Claim up to $1,550 in Compensation & Refunds</h1>
+  
+  <p>A delayed or canceled flight can completely ruin your travel plans. However, as a passenger, you have specific rights under <strong>US Department of Transportation (DOT) regulations</strong>. Many travelers do not realize that they are entitled to a mandatory full refund for significant delays or cancellations if they choose not to fly, and up to <strong>$1,550 in cash compensation</strong> if they are involuntarily bumped due to overbooking.</p>
+  
+  <p>Airlines often try to avoid their obligations by citing "uncontrollable events" like weather. In reality, however, technical problems and crew shortages are legally considered controllable issues, meaning the airline owes you care and assistance. Our portal helps you enforce your rights without any financial risk.</p>
+
+  <div class="legal-info-box">
+    <strong>Important Notice on Usage</strong><br>
+    This tool is an <strong>automated template generator</strong> (help for self-help). It simply inserts your data into standard legal templates. There is <strong>no individual review</strong> of your case. This free service does not replace legal advice from an attorney. Use of this tool is at your own risk, and no guarantee of success is provided.
+</div>
+
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Generate PDF Demand Letter</h2>
+    <p>Select your airline to create a document that is tailored exactly to that specific airline:</p>
+    
+    <select id="airlineSelect">
+      <option value="">-- Please select an airline --</option>
+      {{AIRLINE_OPTIONS}}
+      <option value="flugverspaetung-entschaedigung-allgemein.html">My airline is not listed (General form)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Go to the generator for this airline</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Claim Check by Airline</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{AIRLINE_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Checklist: Immediate Help for Flight Problems</h2>
+  <p>If you are currently stuck at the airport, follow these steps to secure your future claim for compensation or a refund:</p>
+  
+
+  <div class="checklist-box" id="checklistToPrint">
+  <!-- Optional: Eine versteckte oder sichtbare Überschrift, die nur im PDF gut aussieht -->
+  <h3 style="margin-top:0; color:#1565c0;">Checklist</h3>
+
+    <ul>
+      <li><strong>Get the reason confirmed:</strong> Ask the airline staff for a written statement detailing the exact reason for the delay.</li>
+      <li><strong>Collect receipts:</strong> Keep your boarding passes, booking confirmations, and receipts for out-of-pocket food or hotel expenses.</li>
+      <li><strong>Take photos:</strong> Document the departure board showing your delayed or canceled flight.</li>
+      <li><strong>Demand care and assistance:</strong> For controllable delays, request meal vouchers and hotel accommodations directly from the gate agent.</li>
+      <li><strong>Do not sign travel vouchers blindly:</strong> Do not sign or accept flight credits if doing so means waiving your right to a full cash refund.</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('checkliste-zoll.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+  Generate & save checklist as PDF
+</button>
+
+  <h2 style="margin-top: 40px;">Case Studies: When the Airline Must Pay</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Example 1: Maintenance Issue on a Domestic Flight</h3>
+    <p>A flight from New York to Chicago is delayed by 4 hours due to a defective hydraulic system. The airline claims this was a sudden issue.<br>
+    <strong>Result:</strong> Under US DOT rules, maintenance is a "controllable" delay. The passenger is entitled to meal vouchers and, if they choose to cancel their trip, an <strong>automatic full refund</strong> to their original payment method.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Example 2: Involuntary Bumping (Overbooking)</h3>
+    <p>A traveler is flying from Los Angeles to Miami. The flight is overbooked, and the passenger is denied boarding against their will. The airline rebooks them, but they arrive 3 hours later than originally planned.<br>
+    <strong>Result:</strong> Since the arrival delay is over 2 hours for a domestic flight, the DOT mandates maximum compensation. Claim: <strong>400% of the one-way fare, up to $1,550</strong>.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">FAQ: Your Rights in Detail</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">When are circumstances truly "uncontrollable"?</div>
+    <div class="faq-answer">Only events that the airline cannot reasonably prevent, such as severe weather systems, natural disasters, or Air Traffic Control (ATC) disruptions. Maintenance issues, aircraft changes, or a shortage of airline crew are considered controllable by the airline and trigger passenger assistance commitments.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">How far back can I retroactively claim a refund or compensation?</div>
+    <div class="faq-answer">Unlike specific federal aviation limits, retroactive claims often fall under breach of contract law. In the US, the statute of limitations varies by state but generally ranges from 2 to 6 years. However, it is always best to file complaints with the airline or the DOT as soon as possible.</div>
+  </div>
+
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">What happens if I am offered an alternative flight?</div>
+    <div class="faq-answer">If your flight is significantly delayed or canceled and the airline offers alternative transportation, you can decline it and demand a full refund instead. For overbooking situations, if the alternative flight gets you to your destination within 1 hour of the original time, no bumping compensation is owed.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise in Travel Law & Passenger Rights</h3>
+    <p class="trust-text">
+        Our guides and generators are based on a strict evaluation of current US DOT consumer protection rules and federal travel regulations. 
+        They are developed by Marc (Project Lead) & Team to enable travelers to legally enforce their rights against airlines and tour operators.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Important Note: Our tools provide help for self-help regarding flight delays, hotel defects, or train cancellations. They do not replace individual legal advice from an attorney.
+        </span>
+    </p>
+
+    <a href="ueber-uns.html" class="trust-link">
+        Learn more about our legal methodology & editorial team →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Problem with your flight, train, or hotel?</strong><br>
+        Fix-My-Trip checks your claim for compensation, ticket refunds, or travel price reductions in just a few steps. <br>
+        <em>A service provided by Fix my Trip.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Spotted a bug in the tool?</strong> Since we operate as an automated portal and do not provide individual legal advice, it helps us enormously if you report bugs or outdated providers: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Send feedback to our headquarters</a>.
+</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">About us</a> | 
+        <a href="index.html">Home</a> | 
+        <a href="impressum.html">Imprint</a> | 
+        <a href="datenschutz.html">Privacy Policy</a>
+    </nav>
+</footer>
+
+<script>
+function routeToGenerator() {
+    const selectElement = document.getElementById('airlineSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Please select an airline from the list first.");
+    }
+}
+
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // 15mm Rand rundherum
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, // Hohe Auflösung
+            scrollY: 0, // WICHTIG: Fixt das Problem mit der leeren Seite!
+            windowWidth: document.documentElement.offsetWidth // Stellt sicher, dass die Breite stimmt
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    // PDF generieren
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

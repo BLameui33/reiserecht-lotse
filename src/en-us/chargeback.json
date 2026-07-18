@@ -1,0 +1,506 @@
+[
+  {
+    "slug": "delta-air-lines",
+    "name": "Delta Air Lines, Inc.",
+    "infobox": "<p>Delta Air Lines is headquartered in Atlanta, Georgia, with its primary hub at Hartsfield-Jackson Atlanta International Airport, the busiest airport in the world. Delta is subject to DOT regulations covering denied boarding compensation, refund obligations for cancelled or significantly delayed flights, and the Montreal Convention for baggage claims on international trips. Passengers denied boarding involuntarily on an oversold domestic flight are entitled to cash compensation, not merely a travel voucher. If Delta fails to resolve a complaint directly, travelers can escalate the matter to the DOT.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "american-airlines",
+    "name": "American Airlines, Inc.",
+    "infobox": "<p>American Airlines is headquartered in Fort Worth, Texas, and operates its largest hub at Dallas/Fort Worth International Airport. Under DOT rules, American must refund the fare in the original form of payment (not just travel credit) whenever it cancels a flight or makes a significant schedule change, regardless of the fare class or 'non-refundable' label on the ticket. American also participates in the DOT's 24-hour risk-free cancellation window for reservations made at least 7 days before departure.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "united-airlines",
+    "name": "United Airlines, Inc.",
+    "infobox": "<p>United Airlines is headquartered in Chicago, Illinois, with major hubs in Chicago, Denver, Houston, and Newark. United is bound by the same DOT automatic-refund requirement as other U.S. carriers: a cancelled flight or materially changed schedule entitles the passenger to a cash refund on request, even if United's system defaults to issuing a travel credit instead. Involuntary denied-boarding compensation on oversold domestic flights is likewise owed in cash, not credit.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "southwest-airlines",
+    "name": "Southwest Airlines Co.",
+    "infobox": "<p>Southwest Airlines is headquartered in Dallas, Texas, and is known for its no-change-fee policy and 'Transferable Flight Credits' introduced after the December 2022 operational meltdown that triggered a DOT enforcement action and record civil penalty. Because Southwest tickets are rarely truly 'non-refundable' (funds are typically converted to reusable travel credit), a chargeback is usually only appropriate when Southwest cancelled the flight and refused a cash refund despite a direct request.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "jetblue-airways",
+    "name": "JetBlue Airways Corporation",
+    "infobox": "<p>JetBlue is headquartered in Long Island City, New York, with a major focus city at John F. Kennedy International Airport. JetBlue is subject to the same DOT refund mandate as other U.S. carriers for cancellations and significant delays, and was fined by the DOT in 2024 for chronically delayed flights. If JetBlue offered only a credit for a cancelled flight, note the date of your explicit cash-refund request in your dispute details.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "alaska-airlines",
+    "name": "Alaska Airlines, Inc.",
+    "infobox": "<p>Alaska Airlines is headquartered in Seattle, Washington, and completed its acquisition of Hawaiian Airlines in 2024, meaning both brands may appear as merchant names depending on which airline actually operated your flight. Alaska is bound by DOT cash-refund rules for cancellations and significant schedule changes, and participates in the 24-hour free cancellation window for advance bookings.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "spirit-airlines",
+    "name": "Spirit Airlines, Inc.",
+    "infobox": "<p>Spirit Airlines is a Florida-based ultra-low-cost carrier where most add-ons (seat selection, bags, 'Bare Fare' tickets) are contractually non-refundable — but this does not apply when Spirit itself cancels the flight or makes a significant schedule change. Make clear in your dispute that the disruption was airline-initiated to avoid the claim being misclassified as a voluntary change.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "frontier-airlines",
+    "name": "Frontier Airlines, Inc.",
+    "infobox": "<p>Frontier Airlines, based in Denver, Colorado, operates an ultra-low-cost model similar to Spirit, with strict non-refundable fare rules for voluntary changes. However, DOT refund requirements still apply in full when Frontier cancels a flight or significantly alters the schedule, entitling passengers to a cash refund rather than the travel credit Frontier's system may default to.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "allegiant-air",
+    "name": "Allegiant Travel Company",
+    "infobox": "<p>Allegiant Air, headquartered in Las Vegas, Nevada, primarily serves smaller regional airports with point-to-point leisure routes. As with other ultra-low-cost carriers, Allegiant's standard fares are non-refundable for personal changes, but DOT rules still require a cash refund when Allegiant cancels a flight or makes a significant schedule change without offering a comparable alternative.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "hawaiian-airlines",
+    "name": "Hawaiian Airlines, Inc.",
+    "infobox": "<p>Hawaiian Airlines, headquartered in Honolulu, was acquired by Alaska Air Group in 2024, so charges may post under either brand name depending on the operating carrier. Hawaiian is subject to standard DOT refund obligations for cancellations and significant delays on both its interisland and long-haul mainland/international routes.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "sun-country-airlines",
+    "name": "Sun Country Airlines Holdings, Inc.",
+    "infobox": "<p>Sun Country Airlines, based in Minneapolis-St. Paul, operates a hybrid low-cost and charter/cargo business model. Standard DOT cash-refund rules apply for airline-initiated cancellations and significant schedule changes, even though many of Sun Country's leisure fares are otherwise non-refundable for voluntary changes.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "british-airways",
+    "name": "British Airways plc",
+    "infobox": "<p>British Airways is headquartered in London and operates its main hub at London Heathrow. Flights departing the EU or UK (regardless of destination) are covered by EU261/UK261 regulations, which can entitle passengers to fixed cash compensation for cancellations or long delays, in addition to any refund. U.S. travelers should note that EU261/UK261 claims are filed with the airline directly and are separate from a card-issuer chargeback for non-delivery of service.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "lufthansa",
+    "name": "Deutsche Lufthansa AG",
+    "infobox": "<p>Lufthansa is headquartered in Frankfurt, Germany, and operates major hubs at Frankfurt and Munich airports. Any flight departing an EU airport on Lufthansa is covered by EU Regulation 261/2004, entitling passengers to standardized compensation for cancellations, denied boarding, or delays over three hours, independent of any credit card dispute. Keep both the airline's written cancellation notice and any EU261 claim correspondence as supporting evidence for a chargeback.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "air-france",
+    "name": "Société Air France",
+    "infobox": "<p>Air France is headquartered near Paris and operates its main hub at Paris-Charles de Gaulle Airport. As an EU carrier, Air France flights departing the EU are subject to EU261/2004 compensation rules, and flights arriving in the EU on Air France are covered as well. U.S. cardholders can pursue an FCBA chargeback in parallel with (not instead of) any EU261 compensation claim filed directly with the airline.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "klm",
+    "name": "Koninklijke Luchtvaart Maatschappij N.V. (KLM)",
+    "infobox": "<p>KLM Royal Dutch Airlines is headquartered in Amstelveen, Netherlands, and operates its hub at Amsterdam Schiphol Airport. Flights departing the EU on KLM are covered by EU261/2004, which can provide fixed cash compensation for cancellations and long delays in addition to a standard refund. KLM's Dutch corporate registration means EU consumer protection rules apply even to itineraries booked from the United States.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "emirates",
+    "name": "Emirates (Dubai Corporation for Air Transport)",
+    "infobox": "<p>Emirates is headquartered in Dubai, United Arab Emirates, and operates a hub-and-spoke long-haul network through Dubai International Airport. Emirates is not an EU carrier and EU261 generally does not apply unless the flight departs an EU airport. For U.S. cardholders, disputes typically hinge on the Montreal Convention for baggage/delay claims and standard FCBA grounds for cancelled or undelivered services.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "qatar-airways",
+    "name": "Qatar Airways Group Q.C.S.C.",
+    "infobox": "<p>Qatar Airways is headquartered in Doha, Qatar, and operates its hub at Hamad International Airport. As a non-EU carrier, EU261 protections generally only apply to flights departing an EU airport on Qatar Airways. For most U.S.-originating itineraries, a credit card chargeback under the FCBA for non-delivery or refund refusal is the primary consumer remedy.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "air-canada",
+    "name": "Air Canada",
+    "infobox": "<p>Air Canada is headquartered in Montreal and operates major hubs in Toronto, Montreal, and Vancouver. Air Canada is regulated by Canada's Air Passenger Protection Regulations (APPR), which set minimum compensation and refund standards for flight disruptions within Canadian jurisdiction, separate from any U.S. credit card dispute. Keep both APPR correspondence and refund refusal emails as evidence when filing a chargeback.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "ryanair",
+    "name": "Ryanair DAC",
+    "infobox": "<p>Ryanair is headquartered in Swords, Ireland, and operates as Europe's largest low-cost carrier. Flights departing an EU airport on Ryanair are covered by EU261/2004, though Ryanair is well known for contesting compensation claims, particularly for delays attributed to 'extraordinary circumstances.' Because Ryanair fares are billed in EUR, the disputed USD amount on a U.S. card statement will reflect the card network's exchange rate at the time of the charge, not the listed ticket price.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "easyjet",
+    "name": "easyJet plc",
+    "infobox": "<p>easyJet is headquartered in Luton, United Kingdom, and operates as one of Europe's largest low-cost carriers. Flights departing the UK or EU on easyJet are covered by UK261/EU261 rules for cancellations and long delays. As with other European low-cost carriers, fares are billed in GBP or EUR, so the USD amount on a U.S. statement will vary with currency conversion.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "virgin-atlantic",
+    "name": "Virgin Atlantic Airways Limited",
+    "infobox": "<p>Virgin Atlantic is headquartered in Crawley, United Kingdom, and operates transatlantic routes primarily out of London Heathrow and Manchester. Flights departing the UK on Virgin Atlantic are covered by UK261 rules, which mirror EU261 compensation standards for cancellations and long delays. U.S. cardholders should retain both the airline's cancellation notice and any UK261 correspondence when disputing a charge.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "turkish-airlines",
+    "name": "Türk Hava Yolları A.O. (Turkish Airlines)",
+    "infobox": "<p>Turkish Airlines is headquartered in Istanbul and operates its hub at Istanbul Airport, a major connecting point between the U.S. and destinations across Europe, the Middle East, Africa, and Asia. As a non-EU carrier, EU261 protections generally apply only to flights departing an EU airport. Standard FCBA chargeback grounds apply for cancelled, undelivered, or non-refunded services on U.S.-originating bookings.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "copa-airlines",
+    "name": "Copa Holdings, S.A.",
+    "infobox": "<p>Copa Airlines is headquartered in Panama City, Panama, and operates its 'Hub of the Americas' connecting the U.S. with destinations throughout Latin America and the Caribbean. Copa is not subject to U.S. DOT refund automatism or EU261, so a credit card chargeback under standard FCBA grounds (service not provided, credit not processed) is typically the most direct consumer remedy for U.S. cardholders.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "aeromexico",
+    "name": "Aerovías de México, S.A. de C.V. (Aeroméxico)",
+    "infobox": "<p>Aeroméxico is headquartered in Mexico City and operates its main hub at Mexico City International Airport, connecting extensively with U.S. cities as part of its joint venture with Delta Air Lines. Mexican consumer protection law (PROFECO) provides separate remedies within Mexico, but U.S. cardholders disputing a charge should rely on standard FCBA grounds and document any refund refusal in writing.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "latam-airlines",
+    "name": "LATAM Airlines Group S.A.",
+    "infobox": "<p>LATAM Airlines is headquartered in Santiago, Chile, and is the largest airline group in Latin America, serving numerous U.S. gateway cities. LATAM is not subject to U.S. DOT automatic cash-refund rules or EU261, so U.S. cardholders should rely on standard FCBA chargeback grounds and clearly document any refusal to issue a promised refund.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "expedia",
+    "name": "Expedia, Inc.",
+    "infobox": "<p>Expedia, headquartered in Seattle, Washington, acts as the 'Merchant of Record' for most bookings made through its platform, meaning the charge on your statement will typically read 'Expedia' even when the underlying issue was caused by the airline or hotel. File the chargeback against Expedia directly, and attach both your Expedia itinerary number and any correspondence with the underlying travel provider as supporting evidence.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "booking-com",
+    "name": "Booking.com B.V.",
+    "infobox": "<p>Booking.com is headquartered in Amsterdam, Netherlands, and for most hotel reservations acts only as a booking intermediary — the hotel itself charges your card at check-in or check-out rather than Booking.com billing you directly. Check your statement: if it reads 'Booking.com', dispute the charge with them; if it shows the hotel's name, the hotel is the correct merchant to dispute.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "priceline",
+    "name": "Priceline.com LLC",
+    "infobox": "<p>Priceline, headquartered in Norwalk, Connecticut, bundles flights, hotels, and rental cars, typically billing the full package as a single 'Priceline.com' charge. When disputing a Priceline charge, break down the amount by component (flight vs. hotel vs. car) in your explanation so the bank can match your dispute reason to the correct part of the itinerary.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "hotels-com",
+    "name": "Hotels.com, L.P.",
+    "infobox": "<p>Hotels.com, part of Expedia Group and headquartered in Dallas, Texas, typically pre-charges the full stay at the time of booking under a 'Collect Booking' model, unlike many hotels that charge only at checkout. If a property later refused to honor your reservation, dispute the Hotels.com charge directly rather than contacting the hotel's front desk.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "orbitz",
+    "name": "Orbitz, LLC",
+    "infobox": "<p>Orbitz, part of Expedia Group and headquartered in Chicago, Illinois, acts as the merchant of record for most flight and package bookings, so the charge will typically post under 'Orbitz' rather than the airline or hotel name. Because Orbitz shares back-end systems with Expedia, refund processing delays are common — document the exact date any refund was promised when filing a 'Credit Not Processed' dispute.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "travelocity",
+    "name": "Travelocity.com LLC",
+    "infobox": "<p>Travelocity, part of Expedia Group and headquartered in Southlake, Texas, historically marketed a 'Guarantee' promising to fix travel problems within 24 hours; if that guarantee was invoked but never honored, cite the specific guarantee claim number in your dispute. As with other Expedia Group brands, the charge typically posts under 'Travelocity' rather than the underlying airline or hotel.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "kayak",
+    "name": "Kayak Software Corporation",
+    "infobox": "<p>Kayak, part of Booking Holdings and headquartered in Stamford, Connecticut, is primarily a search and comparison engine — most bookings are actually completed on a partner site (an airline, hotel, or another OTA), meaning the charge and the correct dispute merchant will usually be that underlying partner, not Kayak itself. Check your booking confirmation email carefully to identify which company actually processed payment.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "hotwire",
+    "name": "Hotwire.com, LLC",
+    "infobox": "<p>Hotwire, part of Expedia Group and headquartered in Dallas, Texas, specializes in discounted 'opaque' hotel and car bookings where the specific property is only revealed after purchase. Because Hotwire bookings are typically fully pre-paid and non-refundable by policy, a chargeback is usually only appropriate when the property failed to honor the reservation entirely or was materially different from its disclosed star rating and amenities.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "cheapoair",
+    "name": "CheapOair (Fareportal, Inc.)",
+    "infobox": "<p>CheapOair, operated by Fareportal and headquartered in New York, acts as the merchant of record for the flights and packages it sells, meaning the airline itself will often deny responsibility for a refund and redirect you back to CheapOair. Document any instance where the airline confirms a refund was approved but CheapOair has not passed it on — this strengthens a 'Credit Not Processed' claim.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "trip-com",
+    "name": "Trip.com Group Limited",
+    "infobox": "<p>Trip.com, headquartered in Singapore and part of Trip.com Group, is a major international OTA increasingly used by U.S. travelers for international flights and hotels. Because Trip.com processes payments internationally, refunds can take considerably longer to post than with U.S.-based OTAs — keep a clear timeline of your refund request date when filing a 'Credit Not Processed' dispute.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "airbnb",
+    "name": "Airbnb, Inc.",
+    "infobox": "<p>Airbnb, headquartered in San Francisco, California, processes charges through 'Airbnb Payments,' which is the name that should appear on your statement. Airbnb requires guests to report problems within 24 hours of check-in through its official Rebooking and Refund Policy portal, so include a screenshot of your submitted Airbnb case as proof of your Good Faith Effort when filing a chargeback.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "vrbo",
+    "name": "Vrbo (Expedia Group, Inc.)",
+    "infobox": "<p>Vrbo, owned by Expedia Group and headquartered in Austin, Texas, may bill charges under either 'Vrbo' or the legacy 'HomeAway' name depending on when the account was created. Vrbo's 'Book with Confidence Guarantee' covers only limited scenarios such as fraudulent listings, so a bank chargeback is often the faster remedy when a property was materially different from its listing description.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "marriott",
+    "name": "Marriott International, Inc.",
+    "infobox": "<p>Marriott International is headquartered in Bethesda, Maryland, and operates as an umbrella brand for over 30 hotel chains including Courtyard, Sheraton, Westin, and Ritz-Carlton. Most Marriott-branded properties are independently owned and operated by franchisees, so the charge on your statement may show the local property name rather than 'Marriott' — check your statement carefully to identify the correct merchant before disputing.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "hilton",
+    "name": "Hilton Worldwide Holdings Inc.",
+    "infobox": "<p>Hilton is headquartered in McLean, Virginia, and franchises the large majority of its properties (including Hampton Inn, DoubleTree, and Embassy Suites) to independent owners. Because franchisees, not Hilton corporate, typically handle billing, the merchant name on your statement is often the specific property, not 'Hilton' — identify the correct entity from your statement before filing a dispute.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "ihg-hotels-resorts",
+    "name": "IHG Hotels & Resorts (InterContinental Hotels Group)",
+    "infobox": "<p>IHG Hotels & Resorts is headquartered in Denham, United Kingdom, and operates brands including Holiday Inn, Holiday Inn Express, and Crowne Plaza largely through independent franchisees. As with other major hotel groups, the charge on your statement typically reflects the individual property's billing name rather than 'IHG,' so confirm the exact merchant name before submitting your dispute.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "hyatt",
+    "name": "Hyatt Hotels Corporation",
+    "infobox": "<p>Hyatt Hotels Corporation is headquartered in Chicago, Illinois, and operates a mix of company-managed and franchised properties across brands such as Hyatt Regency, Hyatt Place, and Andaz. Because ownership structures vary by property, always confirm the exact billing entity on your statement, as it may be the local ownership group rather than 'Hyatt' directly.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "wyndham-hotels-resorts",
+    "name": "Wyndham Hotels & Resorts, Inc.",
+    "infobox": "<p>Wyndham Hotels & Resorts is headquartered in Parsippany, New Jersey, and is the world's largest hotel franchising company by number of properties, operating economy brands such as Days Inn, Super 8, Travelodge, and La Quinta. Nearly all Wyndham-branded hotels are independently owned franchises, so the charge typically posts under the local property's own name, and refund disputes are usually handled by that individual owner rather than Wyndham corporate.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "choice-hotels",
+    "name": "Choice Hotels International, Inc.",
+    "infobox": "<p>Choice Hotels International is headquartered in Rockville, Maryland, and franchises economy and midscale brands including Comfort Inn, Quality Inn, and Econo Lodge. Choice promotes a '100% Guest Satisfaction Guarantee,' but because nearly all locations are independently owned franchises, disputes over refunds are typically resolved with the local property first before escalating to a chargeback.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "best-western",
+    "name": "Best Western Hotels & Resorts",
+    "infobox": "<p>Best Western is headquartered in Phoenix, Arizona, and operates as a membership-based cooperative rather than a traditional franchise, meaning each hotel is independently owned and managed by its member-operator. Best Western enforces a corporate Guest Satisfaction Guarantee that members must honor, so cite this guarantee explicitly in your 'Good Faith Effort' explanation if a property refused a refund.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "motel-6",
+    "name": "Motel 6 Operating L.P. (G6 Hospitality)",
+    "infobox": "<p>Motel 6 is headquartered in Dallas, Texas, and operates as both corporately-owned and franchised budget properties under G6 Hospitality. Because Motel 6 (and its sister brand Studio 6) skews toward simple pay-at-property billing, disputes most often arise from double charges, deposit non-refunds, or properties that failed to honor a prepaid online reservation.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "red-roof-inn",
+    "name": "Red Roof Inn, Inc.",
+    "infobox": "<p>Red Roof is headquartered in New Albany, Ohio, and operates primarily as a franchised budget hotel chain. As with other economy brands, the merchant name on your statement is typically the specific franchised property rather than 'Red Roof' corporate, so verify the exact billing entity before submitting a chargeback.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "extended-stay-america",
+    "name": "Extended Stay America, Inc.",
+    "infobox": "<p>Extended Stay America, headquartered in Charlotte, North Carolina, focuses on longer-term stays with weekly billing cycles rather than nightly charges, which can lead to disputes over prorated refunds when a guest checks out early. Because billing is typically handled directly by Extended Stay America rather than a third-party franchisee, disputes are usually filed against the company directly.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "la-quinta",
+    "name": "La Quinta Inns & Suites (Wyndham Hotels & Resorts)",
+    "infobox": "<p>La Quinta, acquired by Wyndham Hotels & Resorts in 2018, is headquartered administratively alongside Wyndham in Parsippany, New Jersey, though most properties remain independently owned franchises. As with other Wyndham economy brands, the charge on your statement typically reflects the local property's name, and refund issues should first be raised with that specific hotel.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "days-inn",
+    "name": "Days Inn by Wyndham",
+    "infobox": "<p>Days Inn is a Wyndham Hotels & Resorts economy brand, with nearly all locations independently owned and operated by franchisees. Because franchise owners set their own refund practices within Wyndham's brand standards, document your communication with the specific property in addition to any corporate Wyndham guest-relations correspondence when filing a dispute.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "super-8",
+    "name": "Super 8 by Wyndham",
+    "infobox": "<p>Super 8, another Wyndham Hotels & Resorts economy brand, operates almost entirely through independent franchisees. As with Days Inn and other Wyndham-branded budget properties, confirm the exact merchant name on your card statement, since it typically reflects the local franchise rather than 'Wyndham' or 'Super 8' corporate.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "hertz",
+    "name": "The Hertz Corporation",
+    "infobox": "<p>Hertz is headquartered in Estero, Florida, and emerged from Chapter 11 bankruptcy in 2021. Hertz has faced significant legal scrutiny and lawsuits over erroneous vehicle theft reports and disputed damage charges filed against renters who had, in fact, returned their vehicles properly — if you are disputing an unexpected damage or theft-related charge, explicitly reference your original rental agreement and return receipt as evidence.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "avis",
+    "name": "Avis Rent A Car System, LLC (Avis Budget Group)",
+    "infobox": "<p>Avis is headquartered in Parsippany, New Jersey, and is part of Avis Budget Group alongside the Budget and Zipcar brands. Common Avis chargeback scenarios include disputed damage charges assessed after return, undisclosed mandatory fees added at the counter, and pre-authorization holds that were never released after the vehicle was returned undamaged.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "budget-rent-a-car",
+    "name": "Budget Rent A Car System, LLC (Avis Budget Group)",
+    "infobox": "<p>Budget Rent A Car, part of Avis Budget Group and headquartered in Parsippany, New Jersey, is a value-oriented brand that shares much of its rental infrastructure with Avis. Disputes commonly involve counter up-sells not agreed to online, unreturned security deposits, or damage charges applied without a documented inspection at drop-off.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "enterprise-rent-a-car",
+    "name": "Enterprise Rent-A-Car Company (Enterprise Holdings)",
+    "infobox": "<p>Enterprise Rent-A-Car is headquartered in Clayton, Missouri, and is part of privately-held Enterprise Holdings, alongside the National and Alamo brands. Enterprise's local-branch model means individual locations sometimes handle billing disputes differently than corporate guidance suggests — keep your rental agreement, pre-rental inspection photos, and any local branch correspondence when filing a chargeback.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "national-car-rental",
+    "name": "National Car Rental (Enterprise Holdings)",
+    "infobox": "<p>National Car Rental, part of Enterprise Holdings and headquartered in Clayton, Missouri, primarily serves business and airport travelers through its Emerald Club loyalty program. Disputes typically involve unauthorized loyalty-tier upgrades billed as extras, fuel service charges despite a full tank at return, or damage assessments made without the renter present.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "alamo-rent-a-car",
+    "name": "Alamo Rent A Car (Enterprise Holdings)",
+    "infobox": "<p>Alamo Rent A Car, part of Enterprise Holdings and headquartered in Clayton, Missouri, focuses primarily on leisure and airport rentals. As with its sister brands, common disputes include undisclosed young-driver or additional-driver fees, and damage charges billed weeks after a vehicle was already returned and inspected without incident.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "dollar-rent-a-car",
+    "name": "Dollar Rent A Car (The Hertz Corporation)",
+    "infobox": "<p>Dollar Rent A Car, owned by Hertz Corporation and headquartered in Estero, Florida, targets value-conscious leisure travelers. Disputes commonly arise from mandatory add-on fees not disclosed at the time of online booking, or damage charges applied without photographic evidence from the return inspection.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "thrifty-car-rental",
+    "name": "Thrifty Car Rental (The Hertz Corporation)",
+    "infobox": "<p>Thrifty Car Rental, part of the Hertz Corporation and headquartered in Estero, Florida, operates as Hertz's budget-focused brand. As with Dollar and Hertz, keep your original rental agreement, odometer/fuel readings, and any return receipt or email confirmation when disputing an unexpected post-rental charge.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "sixt-rent-a-car",
+    "name": "Sixt Rent a Car, LLC",
+    "infobox": "<p>Sixt is headquartered in Pullach, Germany, with a growing U.S. presence concentrated in major metro and airport locations. Sixt is frequently the subject of disputes over damage assessments conducted after the renter has already left the return location and over additional-driver or one-way drop-off fees added without clear disclosure at booking.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "royal-caribbean",
+    "name": "Royal Caribbean International (Royal Caribbean Group)",
+    "infobox": "<p>Royal Caribbean International is headquartered in Miami, Florida, and is the world's largest cruise line by capacity. Cruise contracts generally include mandatory arbitration or a Florida-venue clause and are subject to U.S. maritime law rather than typical consumer protection statutes, but a credit card chargeback for a cancelled cruise or 'Credit Not Processed' refund can still be pursued directly with your bank under the FCBA.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "carnival-cruise-line",
+    "name": "Carnival Cruise Line (Carnival Corporation & plc)",
+    "infobox": "<p>Carnival Cruise Line is headquartered in Miami, Florida, and is part of Carnival Corporation, the world's largest cruise operator by fleet size. Carnival is a signatory to the CLIA (Cruise Lines International Association) passenger bill of rights, which includes a right to a full refund if a cruise is cancelled after passengers have already boarded due to mechanical failure.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "norwegian-cruise-line",
+    "name": "Norwegian Cruise Line Holdings Ltd.",
+    "infobox": "<p>Norwegian Cruise Line is headquartered in Miami, Florida, and markets a 'Freestyle Cruising' concept with flexible dining and scheduling. As a CLIA member, Norwegian is bound by the CLIA passenger bill of rights covering timely refunds for cancelled sailings and full disclosure of ship changes, in addition to standard FCBA chargeback protections for U.S. cardholders.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "msc-cruises",
+    "name": "MSC Cruises S.A.",
+    "infobox": "<p>MSC Cruises is headquartered in Geneva, Switzerland, and has rapidly expanded its U.S. departure ports in recent years. As a foreign-flagged, foreign-based cruise line, U.S. cardholders should rely primarily on FCBA chargeback grounds — service not provided, or credit not processed — rather than U.S. maritime consumer regulations, which apply unevenly to non-U.S. operators.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "princess-cruises",
+    "name": "Princess Cruise Lines, Ltd. (Carnival Corporation & plc)",
+    "infobox": "<p>Princess Cruises is headquartered in Santa Clarita, California, and is part of Carnival Corporation, best known for extensive Alaska and Panama Canal itineraries. As a CLIA member, Princess is bound by industry refund and disclosure standards for cancelled sailings, and disputes are commonly filed when a promised refund for a cancelled cruise or shore excursion was never processed.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "celebrity-cruises",
+    "name": "Celebrity Cruises Inc. (Royal Caribbean Group)",
+    "infobox": "<p>Celebrity Cruises is headquartered in Miami, Florida, and operates as Royal Caribbean Group's premium brand. As with its parent brand, cruise contracts generally include mandatory arbitration and Florida-venue clauses, but a standard FCBA credit card chargeback remains available for cancelled sailings or refunds that were promised but never processed.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "holland-america-line",
+    "name": "Holland America Line N.V. (Carnival Corporation & plc)",
+    "infobox": "<p>Holland America Line is headquartered in Seattle, Washington, and is part of Carnival Corporation, known for longer, destination-focused itineraries. As a CLIA member, Holland America is subject to the industry passenger bill of rights on cancellations and refunds, in addition to standard FCBA chargeback protections available to U.S. cardholders.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "disney-cruise-line",
+    "name": "Disney Cruise Line (The Walt Disney Company)",
+    "infobox": "<p>Disney Cruise Line is headquartered in Celebration, Florida, and operates as part of The Walt Disney Company's Parks, Experiences and Products division. Disney Cruise Line's refund policies are generally more generous than industry norms, so a chargeback is typically only necessary when a promised refund was approved but not actually processed within the disclosed timeframe.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "amtrak",
+    "name": "National Railroad Passenger Corporation (Amtrak)",
+    "infobox": "<p>Amtrak is a U.S. government-chartered corporation headquartered in Washington, D.C., operating the nation's primary intercity passenger rail network. Refund eligibility depends heavily on fare class: fully refundable fares can be cancelled for a full refund, flexible fares typically incur a partial fee, and the cheapest 'Value' fares are non-refundable except when Amtrak itself cancels or significantly delays the train.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "apple-vacations",
+    "name": "Apple Vacations, LLC",
+    "infobox": "<p>Apple Vacations, headquartered in Newtown Square, Pennsylvania, is one of the largest U.S. tour operators specializing in all-inclusive package vacations to Mexico, the Caribbean, and Central America. Because a package bundles the flight, hotel, and transfers into a single non-itemized charge, disputes should identify which specific component failed (e.g., the resort refusing check-in) and request that Apple Vacations, as the package seller, refund the corresponding portion.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "globus",
+    "name": "Globus family of brands (Globus, Cosmos, Avalon Waterways)",
+    "infobox": "<p>The Globus family of brands is headquartered in Littleton, Colorado, and operates escorted coach tours and river cruises under the Globus, Cosmos, and Avalon Waterways names. Because these are pre-packaged, deposit-based tours, refund eligibility typically depends on the cancellation window stated in the booking terms — a chargeback is generally appropriate only when Globus cancelled the tour itself or failed to deliver the itinerary as sold.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "trafalgar",
+    "name": "Trafalgar Tours (The Travel Corporation)",
+    "infobox": "<p>Trafalgar, part of The Travel Corporation, markets escorted group tours across Europe, the Americas, and beyond, with U.S. sales support based in Los Angeles, California. As with other escorted-tour operators, disputes typically center on tours that were substantially changed or cancelled by the operator rather than on standard cancellation-fee schedules disclosed at booking.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "cosmos-tours",
+    "name": "Cosmos (The Travel Corporation)",
+    "infobox": "<p>Cosmos, the budget-oriented sister brand of Globus and part of The Travel Corporation, offers escorted coach tours at a lower price point, with U.S. operations based in Littleton, Colorado. Because Cosmos itineraries are typically prepaid well in advance, keep the original booking confirmation and any tour-cancellation notice on hand when disputing a charge.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "collette",
+    "name": "Collette Travel Service, Inc.",
+    "infobox": "<p>Collette is headquartered in Pawtucket, Rhode Island, and is one of the oldest U.S.-based guided-tour operators, offering escorted trips worldwide. Collette publishes a tiered cancellation-fee schedule based on how far in advance a trip is cancelled, so a chargeback is generally most appropriate when Collette itself altered or cancelled the tour rather than when the traveler cancelled voluntarily.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "tauck",
+    "name": "Tauck, Inc.",
+    "infobox": "<p>Tauck is headquartered in Wilton, Connecticut, and operates as a premium guided-tour and small-ship cruise operator. Tauck packages are typically fully inclusive and prepaid, so disputes are most common when a specific advertised component (a included excursion, a named ship, or a listed hotel category) was substituted without the traveler's consent.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "contiki",
+    "name": "Contiki Holidays (The Travel Corporation)",
+    "infobox": "<p>Contiki, part of The Travel Corporation, markets group tours aimed at younger travelers, with U.S. sales support based in Los Angeles, California. As with its sister brands Trafalgar and Cosmos, disputes are generally strongest when Contiki cancelled or materially changed the advertised itinerary rather than when a traveler cancelled within the standard fee schedule.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "insight-vacations",
+    "name": "Insight Vacations (The Travel Corporation)",
+    "infobox": "<p>Insight Vacations, part of The Travel Corporation, offers premium escorted touring with smaller group sizes, supported out of Los Angeles, California for the U.S. market. Because trips are sold as a single inclusive package, a dispute should clearly state which advertised element (accommodation category, included meals, or a specific excursion) was not delivered as booked.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "g-adventures",
+    "name": "G Adventures Inc.",
+    "infobox": "<p>G Adventures is headquartered in Toronto, Canada, and specializes in small-group adventure travel, often with mixed local transport and accommodation rather than a single branded hotel chain. Because itineraries can change for logistical reasons in remote destinations, a chargeback is most appropriate when G Adventures cancelled the tour outright or failed to deliver core, contractually-promised elements such as flights or lodging.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "intrepid-travel",
+    "name": "Intrepid Group Pty Ltd",
+    "infobox": "<p>Intrepid Travel is headquartered in Melbourne, Australia, and markets small-group adventure and sustainable-travel itineraries to U.S. customers through its intrepidtravel.com storefront. As with other adventure-tour operators, disputes are strongest when Intrepid cancelled the trip or substantially altered the advertised itinerary rather than for routine post-departure logistical changes.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "sandals-beaches-resorts",
+    "name": "Unique Vacations, Inc. (Sandals Resorts / Beaches Resorts)",
+    "infobox": "<p>Sandals Resorts and Beaches Resorts are marketed in the U.S. by Unique Vacations, Inc., headquartered in Miami, Florida, and operate all-inclusive adult-only and family resorts throughout the Caribbean. Because bookings are typically bundled and prepaid well in advance, disputes commonly involve a resort closure, a room-category downgrade at check-in, or a promised refund for a cancelled stay that was never processed.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "funjet-vacations",
+    "name": "Funjet Vacations (Travel Impressions / MyVacationSite)",
+    "infobox": "<p>Funjet Vacations is headquartered in Glendale, Wisconsin, and packages flights, hotels, and transfers for leisure destinations across Mexico, the Caribbean, and the continental U.S. Because Funjet acts as the merchant of record for the full package, the charge on your statement will typically read 'Funjet' even when the underlying issue originated with the resort or airline.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "delta-vacations",
+    "name": "Delta Vacations (Delta Air Lines, Inc.)",
+    "infobox": "<p>Delta Vacations is Delta Air Lines' in-house package-vacation division, bundling Delta flights with hotels, cruises, or car rentals. Charges typically post as 'Delta Vacations' rather than 'Delta Air Lines,' so identify the correct merchant name from your statement, and note that package cancellation terms often differ from the refund rules that apply to a standalone Delta flight ticket.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "united-vacations",
+    "name": "United Vacations (United Airlines, Inc.)",
+    "infobox": "<p>United Vacations is United Airlines' in-house package-vacation division, combining United flights with hotel stays, car rentals, or cruises into a single booking. As with other airline-branded package divisions, the charge typically posts under 'United Vacations,' and the cancellation and refund terms are governed by the vacation package's own contract rather than United's standalone airfare rules.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "southwest-vacations",
+    "name": "Southwest Vacations",
+    "infobox": "<p>Southwest Vacations packages Southwest Airlines flights with hotels, car rentals, and activities as a licensed vacation brand operated in partnership with a third-party fulfillment provider. Because the charge typically posts as 'Southwest Vacations' rather than 'Southwest Airlines,' confirm the exact merchant name on your statement, and note that package refund terms differ from Southwest's standalone flight-credit policies.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "costco-travel",
+    "name": "Costco Travel (Costco Wholesale Corporation)",
+    "infobox": "<p>Costco Travel is a division of Costco Wholesale, headquartered in Issaquah, Washington, offering packaged cruises, vacations, and rental cars exclusively to Costco members, often bundled with a Costco Shop Card incentive. Because Costco Travel acts as a booking agent for underlying suppliers (cruise lines, hotels, tour operators), first confirm from your statement whether Costco Travel or the underlying supplier is the actual billing merchant before filing a dispute.</p><!--opt-->",
+    "is_optimized": true
+  }
+]

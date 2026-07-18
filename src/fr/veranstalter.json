@@ -250,29 +250,5 @@
     "name": "Voyageurs du Monde S.A.",
     "adresse": "55 rue Sainte-Anne\n75002 Paris\nFrance",
     "infobox": "<p>Voyageurs du Monde est un tour-opérateur français de premier plan, spécialisé dans les voyages sur mesure, les circuits personnalisés et le tourisme individuel haut de gamme. En tant que créateur de voyages à forfait, il assume la responsabilité de la conformité du séjour; en cas de manquement aux obligations contractuelles, le client dispose de recours juridiques pour exiger des prestations de remplacement ou une compensation financière. En cas de désistement, la politique de remboursement est encadrée par ses conditions de vente spécifiques. Le siège social et le for juridique principal de la société sont situés à Paris.</p><!--opt-->"
-  },
-  {
-    "slug": "alpitour",
-    "name": "Alpitour S.p.A.",
-    "adresse": "Via Cernaia 20\n10122 Torino\nItalia",
-    "infobox": "<p>Alpitour S.p.A. è il più grande e storico tour operator sul mercato italiano, specializzato in pacchetti vacanze e viaggi organizzati in tutto il mondo. In caso di difetti di conformità durante il viaggio, come disservizi alberghieri o modifiche dei voli, la Direttiva sui pacchetti turistici (Codice del Turismo) tutela i consumatori, consentendo di richiedere il ripristino dei servizi, una riduzione del prezzo o un risarcimento danni. In caso di recesso volontario o cancellazione da parte del cliente, si applicano le penali previste dalle condizioni generali di contratto. Il foro competente principale per le controversie legali è solitamente quello di Torino.</p><!--opt-->"
-  },
-  {
-    "slug": "veratour",
-    "name": "Veratour S.p.A.",
-    "adresse": "Via Lucrezio Caro 38\n00193 Roma\nItalia",
-    "infobox": "<p>Veratour S.p.A. è un leader italiano nel settore dei viaggi organizzati, celebre per i suoi villaggi vacanze (Veraclub) in destinazioni balneari nazionali e internazionali. Operando nell'ambito della normativa sui pacchetti turistici, l'operatore è responsabile dell'esatta esecuzione di tutti i servizi contrattati. Dinanzi a vizi nei servizi o modifiche unilaterali, il viaggiatore può far valere i propri diritti alla riduzione del prezzo o al risarcimento secondo il Codice del Turismo. La verifica delle clausole di annullamento è fondamentale in caso di recesso dal soggiorno. Il foro giuridico di riferimento è situato a Roma.</p><!--opt-->"
-  },
-  {
-    "slug": "nicolaus-valtur",
-    "name": "Nicolaus Tour S.r.l. (Valtur)",
-    "adresse": "Via S. Lorenzo 67\n72017 Ostuni (BR)\nItalia",
-    "infobox": "<p>Nicolaus Tour S.r.l., operante anche con il rinomato marchio Valtur, è un importante tour operator italiano specializzato in club vacanze, resort e soggiorni mare. Conformemente alla legislazione sui pacchetti turistici, i clienti godono di tutele legali rigorose in caso di inadempimento dei servizi, sovrarenotazione (overbooking) o variazioni di itinerario, con diritto a compensazioni proporzionali. Nelle situazioni di cancellazione o recesso volontario dal viaggio, si applicano i costi di risoluzione stabiliti nelle condizioni di vendita. La sede legale e il foro competente principale si trovano a Brindisi.</p><!--opt-->"
-  },
-  {
-    "slug": "boscolo-tours",
-    "name": "Boscolo Tours S.p.A.",
-    "adresse": "Via Settima Strada 15\n35129 Padova\nItalia",
-    "infobox": "<p>Boscolo Tours S.p.A. è un rinomato tour operator italiano specializzato in viaggi guidati di stampo culturale, circuiti di fascia alta e soggiorni personalizzati. In qualità di organizzatore di pacchetti turistici, si assume la piena responsabilità della conformità del viaggio; in caso di disservizi o mancato rispetto degli accordi contrattuali, il consumatore dispone di rimedi legali per esigere alternative idonee o un indennizzo finanziario. In caso di annullamento del viaggio, la politica di rimborso è regolata dalle specifiche clausole contrattuali. Il foro giudiziario principale è fissato a Padova.</p><!--opt-->"
   }
 ]

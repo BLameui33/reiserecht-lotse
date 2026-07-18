@@ -1,0 +1,242 @@
+[
+  {
+    "slug": "atlanta",
+    "name": "Hartsfield-Jackson Atlanta",
+    "kuerzel": "ATL",
+    "terminal_preis_14_tage": "$420",
+    "alternative_preis_start": "$112",
+    "terminal_rate_per_day": 30.00,
+    "alternative_rate_per_day": 8.00,
+    "affiliate_link": "https://www.way.com"
+  },
+  {
+    "slug": "los-angeles",
+    "name": "Los Angeles International",
+    "kuerzel": "LAX",
+    "terminal_preis_14_tage": "$490",
+    "alternative_preis_start": "$210",
+    "terminal_rate_per_day": 35.00,
+    "alternative_rate_per_day": 15.00,
+    "affiliate_link": "https://www.way.com"
+  },
+  {
+    "slug": "chicago-ohare",
+    "name": "Chicago O'Hare",
+    "kuerzel": "ORD",
+    "terminal_preis_14_tage": "$420",
+    "alternative_preis_start": "$140",
+    "terminal_rate_per_day": 30.00,
+    "alternative_rate_per_day": 10.00,
+    "affiliate_link": "https://www.way.com"
+  },
+  {
+    "slug": "dallas-fort-worth",
+    "name": "Dallas/Fort Worth",
+    "kuerzel": "DFW",
+    "terminal_preis_14_tage": "$378",
+    "alternative_preis_start": "$126",
+    "terminal_rate_per_day": 27.00,
+    "alternative_rate_per_day": 9.00,
+    "affiliate_link": "https://www.way.com"
+  },
+  {
+    "slug": "denver",
+    "name": "Denver International",
+    "kuerzel": "DEN",
+    "terminal_preis_14_tage": "$252",
+    "alternative_preis_start": "$98",
+    "terminal_rate_per_day": 18.00,
+    "alternative_rate_per_day": 7.00,
+    "affiliate_link": "https://www.way.com"
+  },
+  {
+    "slug": "new-york-jfk",
+    "name": "New York JFK",
+    "kuerzel": "JFK",
+    "terminal_preis_14_tage": "$490",
+    "alternative_preis_start": "$168",
+    "terminal_rate_per_day": 35.00,
+    "alternative_rate_per_day": 12.00,
+    "affiliate_link": "https://www.way.com"
+  },
+  {
+    "slug": "san-francisco",
+    "name": "San Francisco",
+    "kuerzel": "SFO",
+    "terminal_preis_14_tage": "$504",
+    "alternative_preis_start": "$196",
+    "terminal_rate_per_day": 36.00,
+    "alternative_rate_per_day": 14.00,
+    "affiliate_link": "https://www.way.com"
+  },
+  {
+    "slug": "orlando",
+    "name": "Orlando International",
+    "kuerzel": "MCO",
+    "terminal_preis_14_tage": "$336",
+    "alternative_preis_start": "$119",
+    "terminal_rate_per_day": 24.00,
+    "alternative_rate_per_day": 8.50,
+    "affiliate_link": "https://www.way.com"
+  },
+  {
+    "slug": "las-vegas-harry-reid",
+    "name": "Harry Reid (Las Vegas)",
+    "kuerzel": "LAS",
+    "terminal_preis_14_tage": "$252",
+    "alternative_preis_start": "$105",
+    "terminal_rate_per_day": 18.00,
+    "alternative_rate_per_day": 7.50,
+    "affiliate_link": "https://www.way.com"
+  },
+  {
+    "slug": "miami",
+    "name": "Miami International",
+    "kuerzel": "MIA",
+    "terminal_preis_14_tage": "$350",
+    "alternative_preis_start": "$126",
+    "terminal_rate_per_day": 25.00,
+    "alternative_rate_per_day": 9.00,
+    "affiliate_link": "https://www.way.com"
+  },
+  {
+    "slug": "charlotte",
+    "name": "Charlotte Douglas",
+    "kuerzel": "CLT",
+    "terminal_preis_14_tage": "$280",
+    "alternative_preis_start": "$112",
+    "terminal_rate_per_day": 20.00,
+    "alternative_rate_per_day": 8.00,
+    "affiliate_link": "https://www.way.com"
+  },
+  {
+    "slug": "seattle-tacoma",
+    "name": "Seattle-Tacoma",
+    "kuerzel": "SEA",
+    "terminal_preis_14_tage": "$518",
+    "alternative_preis_start": "$154",
+    "terminal_rate_per_day": 37.00,
+    "alternative_rate_per_day": 11.00,
+    "affiliate_link": "https://www.way.com"
+  },
+  {
+    "slug": "newark-liberty",
+    "name": "Newark Liberty",
+    "kuerzel": "EWR",
+    "terminal_preis_14_tage": "$490",
+    "alternative_preis_start": "$182",
+    "terminal_rate_per_day": 35.00,
+    "alternative_rate_per_day": 13.00,
+    "affiliate_link": "https://www.way.com"
+  },
+  {
+    "slug": "phoenix-sky-harbor",
+    "name": "Phoenix Sky Harbor",
+    "kuerzel": "PHX",
+    "terminal_preis_14_tage": "$350",
+    "alternative_preis_start": "$140",
+    "terminal_rate_per_day": 25.00,
+    "alternative_rate_per_day": 10.00,
+    "affiliate_link": "https://www.way.com"
+  },
+  {
+    "slug": "houston-george-bush",
+    "name": "George Bush Intercontinental (Houston)",
+    "kuerzel": "IAH",
+    "terminal_preis_14_tage": "$350",
+    "alternative_preis_start": "$126",
+    "terminal_rate_per_day": 25.00,
+    "alternative_rate_per_day": 9.00,
+    "affiliate_link": "https://www.way.com"
+  },
+  {
+    "slug": "boston-logan",
+    "name": "Boston Logan",
+    "kuerzel": "BOS",
+    "terminal_preis_14_tage": "$532",
+    "alternative_preis_start": "$210",
+    "terminal_rate_per_day": 38.00,
+    "alternative_rate_per_day": 15.00,
+    "affiliate_link": "https://www.way.com"
+  },
+  {
+    "slug": "minneapolis-saint-paul",
+    "name": "Minneapolis-St. Paul",
+    "kuerzel": "MSP",
+    "terminal_preis_14_tage": "$364",
+    "alternative_preis_start": "$168",
+    "terminal_rate_per_day": 26.00,
+    "alternative_rate_per_day": 12.00,
+    "affiliate_link": "https://www.way.com"
+  },
+  {
+    "slug": "detroit-metro",
+    "name": "Detroit Metropolitan",
+    "kuerzel": "DTW",
+    "terminal_preis_14_tage": "$308",
+    "alternative_preis_start": "$133",
+    "terminal_rate_per_day": 22.00,
+    "alternative_rate_per_day": 9.50,
+    "affiliate_link": "https://www.way.com"
+  },
+  {
+    "slug": "new-york-laguardia",
+    "name": "New York LaGuardia",
+    "kuerzel": "LGA",
+    "terminal_preis_14_tage": "$490",
+    "alternative_preis_start": "$196",
+    "terminal_rate_per_day": 35.00,
+    "alternative_rate_per_day": 14.00,
+    "affiliate_link": "https://www.way.com"
+  },
+  {
+    "slug": "fort-lauderdale",
+    "name": "Fort Lauderdale-Hollywood",
+    "kuerzel": "FLL",
+    "terminal_preis_14_tage": "$280",
+    "alternative_preis_start": "$112",
+    "terminal_rate_per_day": 20.00,
+    "alternative_rate_per_day": 8.00,
+    "affiliate_link": "https://www.way.com"
+  },
+  {
+    "slug": "philadelphia",
+    "name": "Philadelphia International",
+    "kuerzel": "PHL",
+    "terminal_preis_14_tage": "$336",
+    "alternative_preis_start": "$140",
+    "terminal_rate_per_day": 24.00,
+    "alternative_rate_per_day": 10.00,
+    "affiliate_link": "https://www.way.com"
+  },
+  {
+    "slug": "baltimore-washington",
+    "name": "Baltimore/Washington International",
+    "kuerzel": "BWI",
+    "terminal_preis_14_tage": "$308",
+    "alternative_preis_start": "$112",
+    "terminal_rate_per_day": 22.00,
+    "alternative_rate_per_day": 8.00,
+    "affiliate_link": "https://www.way.com"
+  },
+  {
+    "slug": "salt-lake-city",
+    "name": "Salt Lake City",
+    "kuerzel": "SLC",
+    "terminal_preis_14_tage": "$294",
+    "alternative_preis_start": "$119",
+    "terminal_rate_per_day": 21.00,
+    "alternative_rate_per_day": 8.50,
+    "affiliate_link": "https://www.way.com"
+  },
+  {
+    "slug": "san-diego",
+    "name": "San Diego International",
+    "kuerzel": "SAN",
+    "terminal_preis_14_tage": "$448",
+    "alternative_preis_start": "$154",
+    "terminal_rate_per_day": 32.00,
+    "alternative_rate_per_day": 11.00,
+    "affiliate_link": "https://www.way.com"
+  }
+]

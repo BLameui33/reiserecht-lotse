@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Escalate Airline Issues: File a DOT Complaint | Generator</title>
+  <meta name="description" content="Airlines ignoring your refund request? Learn how to escalate your issue to the US Department of Transportation (DOT) and generate a formal complaint letter.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<link rel="canonical" href="https://www.fix-my-trip.com/en-us/dot-complaints-info.html">
+<link rel="alternate" hreflang="en-US" href="https://www.fix-my-trip.com/en-us/dot-complaints-info.html">
+<link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/en-us/dot-complaints-info.html">
+
+  <!-- Bibliothek für die PDF-Generierung aus HTML -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "When should I file a complaint with the DOT?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You should file a DOT complaint if an airline refuses to provide a mandatory refund for a significantly delayed or canceled flight, denies required compensation for involuntary bumping, or fails to assist passengers with disabilities."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Can the DOT force the airline to pay me?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The DOT enforces consumer protection rules. While they don't act as a personal judge for individual claims, airlines are required to respond to DOT complaints within 60 days. Frequently, escalating the issue prompts the airline to issue the refund to avoid federal fines."
+      }
+    }]
+  }
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Airline Ignoring You? How to Escalate to the DOT</h1>
+  
+  <p>If you have requested a refund for a canceled flight or compensation for being bumped and the airline simply ignores you or wrongly denies your claim, you do not have to accept it. The <strong>US Department of Transportation (DOT)</strong> has strict consumer protection rules that airlines must follow.</p>
+  
+  <p>Filing a formal complaint with the DOT puts massive pressure on the airline. By law, the airline must acknowledge your complaint within 30 days and provide a substantive response within 60 days. Our generator helps you create a structured escalation letter to submit to the airline and the DOT.</p>
+
+  <div class="legal-info-box">
+    <strong>Important Notice on Usage</strong><br>
+    This tool is an <strong>automated template generator</strong> (help for self-help). It simply inserts your data into standard templates. There is <strong>no individual review</strong> of your case. This free service does not replace individual advice from an attorney. Use of this tool is at your own risk.
+  </div>
+
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Generate DOT Escalation Document</h2>
+    <p>Select your airline to create an escalation template tailored to that specific carrier:</p>
+    
+    <select id="airlineSelect">
+      <option value="">-- Please select an airline --</option>
+      {{DOT_OPTIONS}}
+      <option value="dot-complaint-escalation-allgemein.html">My airline is not listed (General form)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Go to the generator for this airline</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Direct Links by Airline</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{DOT_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Checklist: Before You Involve the DOT</h2>
+  <p>To ensure your escalation is successful, make sure you have completed the following steps:</p>
+  
+  <div class="checklist-box" id="checklistToPrint">
+    <h3 style="margin-top:0; color:#1565c0;">DOT Escalation Checklist</h3>
+    <ul>
+      <li><strong>Contact the airline first:</strong> The DOT requires that you try to resolve the issue with the airline directly before filing a complaint.</li>
+      <li><strong>Keep your initial request:</strong> Save the email or support ticket number of your first refund request.</li>
+      <li><strong>Gather proof:</strong> Have your ticket number, booking confirmation, and any communication with the airline ready.</li>
+      <li><strong>Submit via the official DOT portal:</strong> After generating your text with our tool, copy it into the official DOT online complaint form.</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('checklist-dot-escalation.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+    Generate & save checklist as PDF
+  </button>
+
+  <h2 style="margin-top: 40px;">FAQ: The Escalation Process</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">What happens after I file a DOT complaint?</div>
+    <div class="faq-answer">The DOT forwards your complaint directly to the airline. The airline is federally mandated to review your case and respond. Because a high volume of DOT complaints can lead to heavy fines for the airline, your case is usually handled by higher-level support staff rather than automated bots.</div>
+  </div>
+
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">Does it cost money to file a DOT complaint?</div>
+    <div class="faq-answer">No, filing a complaint with the US Department of Transportation is a completely free service for consumers. Our document generator is also completely free to use.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Consumer Protection & Passenger Rights</h3>
+    <p class="trust-text">
+        Our guides are based on US DOT regulations to help travelers enforce their rights against airlines without unnecessary hurdles.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Important Note: Our tools provide help for self-help. They do not replace individual advice from a licensed attorney.
+        </span>
+    </p>
+
+    <div class="lotse-card">
+        <p>
+            <strong>Tired of arguing with airlines?</strong><br>
+            Fix-My-Trip helps you generate standard documents to claim refunds and compensation in just a few steps.<br>
+            <em>A service provided by Fix my Trip.</em>
+        </p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">About us</a> | 
+        <a href="index.html">Home</a> | 
+        <a href="impressum.html">Imprint</a> | 
+        <a href="datenschutz.html">Privacy Policy</a>
+    </nav>
+</footer>
+
+<script>
+function routeToGenerator() {
+    const selectElement = document.getElementById('airlineSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Please select an airline from the list first.");
+    }
+}
+
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    const opt = {
+        margin:       15,
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { scale: 2, scrollY: 0, windowWidth: document.documentElement.offsetWidth },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

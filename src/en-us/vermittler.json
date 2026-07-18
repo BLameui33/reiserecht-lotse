@@ -1,0 +1,104 @@
+[
+  {
+    "slug": "expedia",
+    "name": "Expedia, Inc.",
+    "adresse": "1111 Expedia Group Way W\nSeattle, WA 98119\nUSA",
+    "infobox": "<p>Expedia, Inc. is a major travel booking portal and intermediary (OTA) and does not typically operate the travel services directly. When you book flights, hotels, or car rentals, your primary contract is usually with the respective service provider; in case of travel deficiencies, claims should generally be directed to the actual operator or hotel. For cancellations, rebookings, and refund issues, Expedia is often the first point of contact for processing and handling fees. Depending on the booking structure, specific consumer protection laws or DOT regulations may apply. The corporate headquarters and primary legal venue is located in Seattle, Washington.</p><!--opt-->"
+  },
+  {
+    "slug": "booking-com",
+    "name": "Booking.com USA, Inc.",
+    "adresse": "100 William St, Fl 15\nNew York, NY 10038\nUSA",
+    "infobox": "<p>Booking.com USA, Inc. acts as an intermediary booking portal for accommodations and rental cars and does not operate travel packages itself. The accommodation contract is established directly between you and the specific service provider. In the event of property deficiencies or service failures, the hotel or local provider is your primary target for claims, and issues should be reported on-site immediately. Booking.com is usually the first point of contact for managing reservations, cancellations, and disputes over reservation fees. While the parent company is based in the Netherlands, US-focused consumer complaints are typically processed via their office in New York.</p><!--opt-->"
+  },
+  {
+    "slug": "priceline",
+    "name": "Priceline.com, LLC",
+    "adresse": "800 Connecticut Ave\nNorwalk, CT 06854\nUSA",
+    "infobox": "<p>Priceline.com, LLC is a leading online travel intermediary specializing in discounted rates for flights, hotels, and rental cars, and does not operate these services itself. When booking, the transaction contract is formed directly with the individual airline, hotel, or rental agency. For travel deficiencies, poor room quality, or scheduling failures, your claims must be made against the underlying service provider. Priceline acts as the agent for handling bookings, cancellations, and customer support. Their legal headquarters and primary venue for dispute resolution is in Connecticut.</p><!--opt-->"
+  },
+  {
+    "slug": "tripadvisor",
+    "name": "Tripadvisor, Inc.",
+    "adresse": "400 1st Ave\nNeedham, MA 02494\nUSA",
+    "infobox": "<p>Tripadvisor, Inc. operates as a travel guidance, review, and booking intermediary that aggregates offers from various third-party suppliers. They do not operate tours, hotels, or flights themselves. When you complete a booking through their platform, the contract is finalized with the respective travel partner or service provider, who remains solely liable for any travel defects or deficiencies. Tripadvisor serves as the facilitating booking agent. For reservation adjustments, cancellations, or complaints about the booking process, you must coordinate with their support team. Their corporate headquarters and legal venue is in Massachusetts.</p><!--opt-->"
+  },
+  {
+    "slug": "travelocity",
+    "name": "Travelocity (Expedia Group, Inc.)",
+    "adresse": "1111 Expedia Group Way W\nSeattle, WA 98119\nUSA",
+    "infobox": "<p>Travelocity, operating as part of the Expedia Group, is an online travel agency and booking intermediary. They facilitate the booking of flights, hotels, vacation packages, and rental cars but do not execute these services. If you encounter travel deficiencies, such as dirty rooms, flight delays, or missed transfers, your legal claims lie with the actual airline or hotel provider. Travelocity functions as the booking contact for customer service, cancellation processing, and reservation modifications. Legal matters and customer disputes are managed through the corporate headquarters in Washington.</p><!--opt-->"
+  },
+  {
+    "slug": "orbitz",
+    "name": "Orbitz, LLC (Expedia Group, Inc.)",
+    "adresse": "1111 Expedia Group Way W\nSeattle, WA 98119\nUSA",
+    "infobox": "<p>Orbitz, LLC is an online travel intermediary within the Expedia Group portfolio, functioning as a booking aggregator for flights, hotels, and vacation packages rather than a direct travel operator. When issues or deficiencies arise during your trip, legal liability and service obligations rest primarily with the respective airline or hospitality provider. Orbitz handles booking inquiries, cancellations, and initial customer support requests. Specific regulations, including DOT rules for air travel, govern individual segments of your booking. Legal disputes are directed to the parent group's corporate legal offices in Washington.</p><!--opt-->"
+  },
+  {
+    "slug": "cheapflights",
+    "name": "Cheapflights (Booking Holdings Inc.)",
+    "adresse": "700 Stamford Forum, Suite 201\nStamford, CT 06901\nUSA",
+    "infobox": "<p>Cheapflights, part of Booking Holdings Inc., operates as a travel search engine and booking intermediary rather than a direct supplier of travel services. The platform connects consumers with airlines, hotels, and other online agencies where the actual booking contract is formed. If you experience flight cancellations, hotel discrepancies, or other travel deficiencies, claims must be brought directly against the partner provider. Cheapflights does not manage reservations or process refunds. Corporate matters and formal disputes involving their US operations are handled through their affiliate network in Connecticut.</p><!--opt-->"
+  },
+  {
+    "slug": "kayak",
+    "name": "Kayak Software Corporation",
+    "adresse": "700 Stamford Forum, Suite 201\nStamford, CT 06901\nUSA",
+    "infobox": "<p>Kayak Software Corporation is a major travel metasearch engine and booking intermediary that compares travel options and redirects users to third-party providers. Because Kayak does not sell or operate travel services directly, booking contracts are established with the airline, hotel, or partner OTA. In the event of travel deficiencies, schedule disruptions, or service failures, you must seek recourse from the actual merchant of record. Kayak does not directly handle cancellations or booking refunds. Their corporate headquarters and legal venue is situated in Connecticut.</p><!--opt-->"
+  },
+  {
+    "slug": "hotwire",
+    "name": "Hotwire, Inc. (Expedia Group, Inc.)",
+    "adresse": "1111 Expedia Group Way W\nSeattle, WA 98119\nUSA",
+    "infobox": "<p>Hotwire, Inc. is a discount travel intermediary specializing in \"opaque\" bookings for hotels, flights, and rental cars, and does not operate any travel services itself. The final booking contract is established directly with the provider, whose identity is often revealed only after payment. In case of travel deficiencies or sub-standard service, claims must be filed against the specific hotel or carrier. Hotwire operates as the agent for reservations, but bookings are typically non-refundable and subject to strict cancellation terms. Legal disputes are governed under the jurisdiction of the corporate parent in Washington.</p><!--opt-->"
+  },
+  {
+    "slug": "cheap-tickets",
+    "name": "CheapTickets (Expedia Group, Inc.)",
+    "adresse": "1111 Expedia Group Way W\nSeattle, WA 98119\nUSA",
+    "infobox": "<p>CheapTickets is an online booking intermediary and travel portal operating under the Expedia Group umbrella. They do not operate flights, hotels, or event bookings themselves. When you utilize their platform, the contract for travel services is established directly with the respective service provider. Any issues, disruptions, or deficiencies with the accommodations or transport must be resolved directly with the hotel or airline. CheapTickets acts as the customer service touchpoint for modifications and cancellation processes. Legal inquiries are processed through the corporate offices in Washington.</p><!--opt-->"
+  },
+  {
+    "slug": "hopper",
+    "name": "Hopper (USA), Inc.",
+    "adresse": "265 Franklin Street, Suite 1702\nBoston, MA 02110\nUSA",
+    "infobox": "<p>Hopper (USA), Inc. is a mobile-first travel intermediary and booking application that analyzes and predicts flight and hotel prices. Hopper does not operate flights or run hotel properties itself; it acts solely as an agent. The contract for travel services exists between you and the airline or hotel. If you face travel deficiencies, delays, or service issues, your claims should be directed to the direct supplier. Hopper handles booking adjustments and offers proprietary travel protection products. Their US corporate headquarters is located in Massachusetts.</p><!--opt-->"
+  },
+  {
+    "slug": "student-universe",
+    "name": "StudentUniverse (Flight Centre Travel Group)",
+    "adresse": "130 Turner Street, Suite 430\nWaltham, MA 02451\nUSA",
+    "infobox": "<p>StudentUniverse is a specialized booking intermediary focusing on discounted travel for students and youth, and does not operate flights or hotels directly. Bookings made through their platform establish a direct contract between the passenger and the airline, hotel, or tour provider. For issues like flight cancellations, hotel standard deficiencies, or itinerary disruptions, claims must be processed with the service provider. StudentUniverse provides support for booking changes, cancellations, and verify academic eligibility. Their legal headquarters is located in Massachusetts.</p><!--opt-->"
+  },
+  {
+    "slug": "skyscanner",
+    "name": "Skyscanner Limited (US Office)",
+    "adresse": "1515 Wyandotte St\nKansas City, MO 64108\nUSA",
+    "infobox": "<p>Skyscanner Limited is an international travel metasearch engine and booking intermediary. They compile pricing data and redirect users to airlines, hotels, or OTAs, meaning they do not direct-sell or execute travel packages. Your booking contract is formed exclusively with the third-party provider of record. If you experience travel deficiencies, flight cancellations, or booking errors, Skyscanner is not responsible for compensation, and claims must go to the direct seller. US customer relations and corporate inquiries are routed through their regional office in Missouri.</p><!--opt-->"
+  },
+  {
+    "slug": "agoda",
+    "name": "Agoda Company Pte. Ltd. (US Office)",
+    "adresse": "2 Park Ave\nNew York, NY 10016\nUSA",
+    "infobox": "<p>Agoda Company Pte. Ltd. is an online travel intermediary specializing in global accommodation bookings, particularly in the Asia-Pacific region. Agoda does not run or own any hotel properties; they facilitate the booking contract between the traveler and the lodging provider. For any room deficiencies, booking disputes, or poor hotel conditions, complaints must be filed with the specific property. Agoda acts as the booking agent for refunds, cancellations, and reservation adjustments. Their US administrative and customer relations operations are managed through their office in New York.</p><!--opt-->"
+  },
+  {
+    "slug": "kiwi-com",
+    "name": "Kiwi.com, Inc.",
+    "adresse": "14 NE 1st Ave, Suite 1101\nMiami, FL 33132\nUSA",
+    "infobox": "<p>Kiwi.com, Inc. is an online travel intermediary specializing in flight virtual interlining, booking separate flight segments that do not naturally coordinate. Kiwi.com is not an airline and does not operate flights; your carriage contracts are with individual airlines. If flight delays occur, causing missed connections, the individual airlines are responsible for their respective segments, though Kiwi provides limited proprietary self-guarantees in select packages. For disputes regarding cancellation fees, processing delays, or refunds, their US legal office is situated in Florida.</p><!--opt-->"
+  },
+  {
+    "slug": "costco-travel",
+    "name": "Costco Travel Services, Inc.",
+    "adresse": "45310 Costco Dr, Suite 100\nIssaquah, WA 98027\nUSA",
+    "infobox": "<p>Costco Travel Services, Inc. is a major travel intermediary in the United States, offering exclusive vacation packages, cruises, and rental cars to Costco members. While they bundle high-value travel options, they act as an agent rather than the direct operator of the flights or hotel properties. For travel deficiencies or unmet expectations, you must report the issue on-site to the actual service provider, though Costco Travel offers support to resolve partner disputes. Complaints regarding booking management, package refunds, or membership-exclusive terms are directed to their headquarters in Washington.</p><!--opt-->"
+  },
+  {
+    "slug": "amex-travel",
+    "name": "American Express Travel Related Services Company, Inc.",
+    "adresse": "200 Vesey St\nNew York, NY 10285\nUSA",
+    "infobox": "<p>American Express Travel operates as a premium booking intermediary and full-service travel agency, heavily utilized by cardmembers for flights, hotels, and custom vacation packages. Because they function as an agent, the core service contract is held with the respective airline or hotel provider, who is liable for actual service deficiencies. Amex Travel acts as the primary contact for modifications, points-based booking adjustments, and premium customer assistance. Any formal legal disputes or service-fee-related complaints are handled at their corporate headquarters in New York.</p><!--opt-->"
+  }
+]

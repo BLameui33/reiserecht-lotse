@@ -6,7 +6,7 @@ const path = require('path');
 // =====================================================================
 const CONFIG = {
     baseLang: 'de',          // Wo liegen deine deutschen Originale? (src/de/)
-    targetLangs: ['es', 'fr', 'it', 'nl', 'pt', 'nl-be', 'fr-be'],     // Welche Sprachen sollen generiert werden? (z.B. ['es', 'it', 'fr'])
+    targetLangs: ['es', 'fr', 'it', 'nl', 'pt', 'nl-be', 'fr-be', 'en-us'],     // Welche Sprachen sollen generiert werden? (z.B. ['es', 'it', 'fr'])
     useAI: false,            // HIER AUF 'true' STELLEN, UM DIE KI ZU STARTEN oder false
     openaiKey: '', // HIER DEINEN API KEY EINTRAGEN
 
@@ -15,17 +15,94 @@ const CONFIG = {
 };
 
 // Hilfsfunktion: Prüft ob ein Silo für die aktuelle Sprache übersprungen werden soll
+// Hilfsfunktion: Prüft ob ein Silo für die aktuelle Sprache übersprungen werden soll
 const isExcludedForLang = (siloName, lang) => {
-    // AUSNAHME: OTA darf für nl und nl-be generiert werden
-    if (siloName === 'ota' && ['nl', 'nl-be'].includes(lang)) {
+    // 1. AUSNAHME OTA: Darf für nl, nl-be UND en-us generiert werden
+    if (siloName === 'ota' && ['nl', 'nl-be', 'en-us'].includes(lang)) {
         return false; // Nicht ausschließen!
     }
     
-    // Standard-Regel für alle anderen Silos und Sprachen
+    // 2. AUSNAHME FLUGHAFEN-PARKEN: Darf für en-us generiert werden
+    if (siloName === 'flughafen-parken' && lang === 'en-us') {
+        return false; // Nicht ausschließen!
+    }
+    
+    // 3. AUSNAHME US-MARKT: Bahn, Steuern und Ferienhaus in en-us NICHT generieren
+    if (['bahn', 'steuern', 'ferienhaus'].includes(siloName) && lang === 'en-us') {
+        return true; // Ausschließen!
+    }
+    
+    // Standard-Regel für alle anderen Silos und Sprachen (Zoll etc.)
     return lang !== CONFIG.baseLang && CONFIG.baseLangOnlySilos.includes(siloName);
 };
 
 console.log('🚀 Starte das internationale Hub & Spoke Build-System...\n');
+
+// =====================================================================
+// SEO-MAGIE: DYNAMISCHE HREFLANG GENERIERUNG
+// =====================================================================
+const jsonCache = {};
+
+// Prüft, ob ein Slug in der JSON der jeweiligen Sprache existiert
+function hasItemInLang(lang, jsonFile, slug) {
+    if (!jsonCache[lang]) jsonCache[lang] = {};
+    if (!jsonCache[lang][jsonFile]) {
+        const p = path.join(__dirname, 'src', lang, jsonFile);
+        if (fs.existsSync(p)) {
+            jsonCache[lang][jsonFile] = JSON.parse(fs.readFileSync(p, 'utf8'));
+        } else {
+            jsonCache[lang][jsonFile] = [];
+        }
+    }
+    return jsonCache[lang][jsonFile].some(item => item.slug === slug);
+}
+
+// Baut den fertigen SEO-Block und ersetzt den Platzhalter im HTML
+function injectSEO(content, currentLang, fName, jsonFile = null, slug = null, siloName = null) {
+    const domain = "https://www.fix-my-trip.com";
+    const allLangs = [CONFIG.baseLang, ...CONFIG.targetLangs];
+    let availableLangs = [];
+
+    allLangs.forEach(l => {
+        // 1. Überspringen, wenn das Silo (z.B. Bahn) für diese Sprache (z.B. en-us) gesperrt ist
+        if (siloName && isExcludedForLang(siloName, l)) return;
+
+        // 2. Existiert der Eintrag in der Ziel-JSON? (Für Detailseiten)
+        if (jsonFile && slug) {
+            if (hasItemInLang(l, jsonFile, slug)) availableLangs.push(l);
+        } else {
+            // (Für Hub-Seiten, die keine JSON/Slugs haben)
+            availableLangs.push(l);
+        }
+    });
+
+    // Fallback: Wenn nichts da ist, zumindest auf sich selbst verweisen
+    if (availableLangs.length === 0) availableLangs.push(currentLang);
+
+    // Canonical Tag bauen
+    let seoBlock = `<link rel="canonical" href="${domain}/${currentLang}/${fName}">\n`;
+    
+    // Hreflang Tags bauen
+    availableLangs.forEach(l => {
+        let langCode = l;
+        if (l === 'en-us') langCode = 'en-us';
+        if (l === 'nl-be') langCode = 'nl-be';
+        if (l === 'fr-be') langCode = 'fr-be';
+        seoBlock += `<link rel="alternate" hreflang="${langCode}" href="${domain}/${l}/${fName}">\n`;
+    });
+
+    // x-default (US bevorzugen, sonst DE, sonst das Erste)
+    let xDefault = availableLangs.includes('en-us') ? 'en-us' : (availableLangs.includes(CONFIG.baseLang) ? CONFIG.baseLang : availableLangs[0]);
+    seoBlock += `<link rel="alternate" hreflang="x-default" href="${domain}/${xDefault}/${fName}">`;
+
+   // Den Platzhalter im HTML ersetzen
+    if (content.includes('{{SEO_LINKS}}')) {
+        return content.replace('{{SEO_LINKS}}', seoBlock);
+    }
+    
+    // Wenn kein Platzhalter da ist: Nichts tun! (Erlaubt manuelle SEO-Tags)
+    return content;
+}
 
 // =====================================================================
 // 2. HILFSFUNKTION FÜR KI-ÜBERSETZUNG (Nutzt natives Fetch ab Node 18+)
@@ -183,30 +260,40 @@ async function buildEngine() {
         const readJson = (name) => JSON.parse(fs.readFileSync(path.join(currentSrcDir, name), 'utf8'));
 
         // =====================================================================
-        // SILO 1: FLUG (Airlines)
+        // SILO 1: FLUG (Airlines) + DOT (US-Markt)
         // =====================================================================
         const airlines = readJson('airlines.json');
+        
+        // Diese gibt es immer
         const flugTpl = loadTemplate('flug-master.html');
-        const steuerTpl = loadTemplate('steuern-master.html');
         const gepaeckTpl = loadTemplate('gepaeck-master.html');
+        let optFlug = "", optGepaeck = "";
+        let linkFlug = "", linkGepaeck = "";
 
-        let optFlug = "", optSteuer = "", optGepaeck = "";
-        let linkFlug = "", linkSteuer = "", linkGepaeck = "";
+        // STEUERN (Prüfen, ob für diese Sprache aktiv)
+        const generateSteuern = !isExcludedForLang('steuern', lang);
+        let steuerTpl, optSteuer = "", linkSteuer = "";
+        if (generateSteuern) steuerTpl = loadTemplate('steuern-master.html');
+
+        // DOT (Prüfen, ob das Template in diesem Sprachordner existiert)
+        const dotPath = path.join(currentSrcDir, 'dot-escalation.html');
+        const generateDot = fs.existsSync(dotPath);
+        let dotTpl, optDot = "", linkDot = "";
+        if (generateDot) dotTpl = loadTemplate('dot-escalation.html');
 
         airlines.forEach(a => {
+            // Standard: Flug & Gepäck
             let fFlug = `flugverspaetung-entschaedigung-${a.slug}.html`;
-            let fSteuer = `steuern-gebuehren-zurueckfordern-${a.slug}.html`;
             let fGepaeck = `koffer-verloren-beschaedigt-${a.slug}.html`;
 
             let crossFlug = generateCrossLinks(airlines, a, item => `flugverspaetung-entschaedigung-${item.slug}.html`, item => item.name);
-            let crossSteuer = generateCrossLinks(airlines, a, item => `steuern-gebuehren-zurueckfordern-${item.slug}.html`, item => item.name);
             let crossGepaeck = generateCrossLinks(airlines, a, item => `koffer-verloren-beschaedigt-${item.slug}.html`, item => item.name);
 
             let textName = a.name;
             let inputAdresse = a.adresse;
 
             if (a.slug === 'andere-airline') {
-                textName = lang === 'de' ? "Ihrer Fluggesellschaft" : (a.textName || a.name); 
+                textName = lang === 'de' ? "Ihrer Fluggesellschaft" : (a.textName || a.name || "your airline"); 
                 inputAdresse = ""; 
             }
 
@@ -214,7 +301,7 @@ async function buildEngine() {
                 let content = tpl;
                 if (a.slug === 'andere-airline') {
                     const placeholderText = lang === 'de' ? "Name der Airline eintragen" : (a.placeholderName || "Enter airline name");
-                    const addrPlaceholder = lang === 'de' ? "Bitte Adresse der Fluggesellschaft eintragen" : "";
+                    const addrPlaceholder = lang === 'de' ? "Bitte Adresse der Fluggesellschaft eintragen" : "Enter airline address";
                     content = content
                         .replace(/value="\{\{AIRLINE_NAME\}\}"/g, `value="" placeholder="${placeholderText}"`)
                         .replace(/>\{\{AIRLINE_ADRESSE\}\}</g, ` placeholder="${addrPlaceholder}">${inputAdresse}<`);
@@ -227,23 +314,56 @@ async function buildEngine() {
                     .replace(/\{\{AIRLINE_INFOBOX\}\}/g, a.infobox || '');
             };
 
-            fs.writeFileSync(path.join(outputDir, fFlug), processTemplate(flugTpl, fFlug, crossFlug), 'utf8');
-            fs.writeFileSync(path.join(outputDir, fSteuer), processTemplate(steuerTpl, fSteuer, crossSteuer), 'utf8');
-            fs.writeFileSync(path.join(outputDir, fGepaeck), processTemplate(gepaeckTpl, fGepaeck, crossGepaeck), 'utf8');
-            
-            let displayName = a.slug === 'andere-airline' ? (lang === 'de' ? "Andere Airline (Allgemeines Formular)" : a.name) : a.name;
+            // Speichere Flug & Gepäck mit SEO Inject
+            let finalFlug = injectSEO(processTemplate(flugTpl, fFlug, crossFlug), lang, fFlug, 'airlines.json', a.slug, 'flug');
+            fs.writeFileSync(path.join(outputDir, fFlug), finalFlug, 'utf8');
 
+            let finalGepaeck = injectSEO(processTemplate(gepaeckTpl, fGepaeck, crossGepaeck), lang, fGepaeck, 'airlines.json', a.slug, 'gepaeck');
+            fs.writeFileSync(path.join(outputDir, fGepaeck), finalGepaeck, 'utf8');
+            
+            let displayName = a.slug === 'andere-airline' ? (lang === 'de' ? "Andere Airline (Allgemeines Formular)" : (a.name || "Other Airline")) : a.name;
             optFlug += `<option value="${fFlug}">${displayName}</option>\n`;
             linkFlug += `<a href="${fFlug}">${displayName}</a>\n`;
-            optSteuer += `<option value="${fSteuer}">${displayName}</option>\n`;
-            linkSteuer += `<a href="${fSteuer}">${displayName}</a>\n`;
             optGepaeck += `<option value="${fGepaeck}">${displayName}</option>\n`;
             linkGepaeck += `<a href="${fGepaeck}">${displayName}</a>\n`;
+
+            // Optional: Steuern speichern (falls nicht ausgeschlossen)
+            if (generateSteuern) {
+                let fSteuer = `steuern-gebuehren-zurueckfordern-${a.slug}.html`;
+                let crossSteuer = generateCrossLinks(airlines, a, item => `steuern-gebuehren-zurueckfordern-${item.slug}.html`, item => item.name);
+                let finalSteuer = injectSEO(processTemplate(steuerTpl, fSteuer, crossSteuer), lang, fSteuer, 'airlines.json', a.slug, 'steuern');
+                fs.writeFileSync(path.join(outputDir, fSteuer), finalSteuer, 'utf8');
+                optSteuer += `<option value="${fSteuer}">${displayName}</option>\n`;
+                linkSteuer += `<a href="${fSteuer}">${displayName}</a>\n`;
+            }
+
+            // Optional: DOT speichern (falls Template existiert)
+            if (generateDot) {
+                let fDot = `dot-complaint-escalation-${a.slug}.html`;
+                let crossDot = generateCrossLinks(airlines, a, item => `dot-complaint-escalation-${item.slug}.html`, item => item.name);
+                let finalDot = injectSEO(processTemplate(dotTpl, fDot, crossDot), lang, fDot, 'airlines.json', a.slug, 'dot');
+                fs.writeFileSync(path.join(outputDir, fDot), finalDot, 'utf8');
+                optDot += `<option value="${fDot}">${displayName}</option>\n`;
+                linkDot += `<a href="${fDot}">${displayName}</a>\n`;
+            }
         });
 
-        fs.writeFileSync(path.join(outputDir, 'flugverspaetung-info.html'), loadTemplate('hub-flug-master.html').replace(/\{\{AIRLINE_OPTIONS\}\}/g, optFlug).replace(/\{\{AIRLINE_LINKS\}\}/g, linkFlug), 'utf8');
-        fs.writeFileSync(path.join(outputDir, 'steuern-info.html'), loadTemplate('hub-steuern-master.html').replace(/\{\{STEUER_OPTIONS\}\}/g, optSteuer).replace(/\{\{STEUER_LINKS\}\}/g, linkSteuer), 'utf8');
-        fs.writeFileSync(path.join(outputDir, 'gepaeck-info.html'), loadTemplate('hub-gepaeck-master.html').replace(/\{\{GEPAECK_OPTIONS\}\}/g, optGepaeck).replace(/\{\{GEPAECK_LINKS\}\}/g, linkGepaeck), 'utf8');
+        // Die Hub-Seiten generieren mit SEO Inject
+        let finalHubFlug = injectSEO(loadTemplate('hub-flug-master.html').replace(/\{\{AIRLINE_OPTIONS\}\}/g, optFlug).replace(/\{\{AIRLINE_LINKS\}\}/g, linkFlug), lang, 'flugverspaetung-info.html', null, null, 'flug');
+        fs.writeFileSync(path.join(outputDir, 'flugverspaetung-info.html'), finalHubFlug, 'utf8');
+
+        let finalHubGepaeck = injectSEO(loadTemplate('hub-gepaeck-master.html').replace(/\{\{GEPAECK_OPTIONS\}\}/g, optGepaeck).replace(/\{\{GEPAECK_LINKS\}\}/g, linkGepaeck), lang, 'gepaeck-info.html', null, null, 'gepaeck');
+        fs.writeFileSync(path.join(outputDir, 'gepaeck-info.html'), finalHubGepaeck, 'utf8');
+        
+        if (generateSteuern) {
+            let finalHubSteuer = injectSEO(loadTemplate('hub-steuern-master.html').replace(/\{\{STEUER_OPTIONS\}\}/g, optSteuer).replace(/\{\{STEUER_LINKS\}\}/g, linkSteuer), lang, 'steuern-info.html', null, null, 'steuern');
+            fs.writeFileSync(path.join(outputDir, 'steuern-info.html'), finalHubSteuer, 'utf8');
+        }
+
+        if (generateDot && fs.existsSync(path.join(currentSrcDir, 'hub-dot-master.html'))) {
+            let finalHubDot = injectSEO(loadTemplate('hub-dot-master.html').replace(/\{\{DOT_OPTIONS\}\}/g, optDot).replace(/\{\{DOT_LINKS\}\}/g, linkDot), lang, 'dot-complaints-info.html', null, null, 'dot');
+            fs.writeFileSync(path.join(outputDir, 'dot-complaints-info.html'), finalHubDot, 'utf8');
+        }
 
         // =====================================================================
         // SILO 2: HOTEL & STORNO
@@ -289,8 +409,11 @@ async function buildEngine() {
                     .replace(/\{\{VERANSTALTER_INFOBOX\}\}/g, v.infobox || '');
             };
 
-            fs.writeFileSync(path.join(outputDir, fHotel), processTemplate(hotelTpl, fHotel, crossHotel), 'utf8');
-            fs.writeFileSync(path.join(outputDir, fStorno), processTemplate(stornoTpl, fStorno, crossStorno), 'utf8');
+            let finalHotel = injectSEO(processTemplate(hotelTpl, fHotel, crossHotel), lang, fHotel, 'veranstalter.json', v.slug, 'hotel');
+            fs.writeFileSync(path.join(outputDir, fHotel), finalHotel, 'utf8');
+
+            let finalStorno = injectSEO(processTemplate(stornoTpl, fStorno, crossStorno), lang, fStorno, 'veranstalter.json', v.slug, 'storno');
+            fs.writeFileSync(path.join(outputDir, fStorno), finalStorno, 'utf8');
             
             let displayName = v.slug === 'anderer-veranstalter' ? (lang === 'de' ? "Anderer Veranstalter (Allgemein)" : v.name) : v.name;
             optHotel += `<option value="${fHotel}">${displayName}</option>\n`;
@@ -348,8 +471,11 @@ async function buildEngine() {
                     .replace(/\{\{VERANSTALTER_INFOBOX\}\}/g, v.infobox || '');
             };
 
-            fs.writeFileSync(path.join(outputDir, fPort), processTemplatePort(vermittlerTpl, fPort, crossHotelPort), 'utf8');
-            fs.writeFileSync(path.join(outputDir, fStorno), processTemplateStorno(stornoTpl, fStorno, crossStornoPort), 'utf8');
+            let finalPort = injectSEO(processTemplatePort(vermittlerTpl, fPort, crossHotelPort), lang, fPort, 'vermittler.json', v.slug, 'hotel');
+            fs.writeFileSync(path.join(outputDir, fPort), finalPort, 'utf8');
+
+            let finalStornoPort = injectSEO(processTemplateStorno(stornoTpl, fStorno, crossStornoPort), lang, fStorno, 'vermittler.json', v.slug, 'storno');
+            fs.writeFileSync(path.join(outputDir, fStorno), finalStornoPort, 'utf8');
             
             let displayName = v.slug === 'anderer-vermittler' ? (lang === 'de' ? "Anderes Portal (Allgemein)" : v.name) : v.name;
             optHotel += `<option value="${fPort}">${displayName} (Portal)</option>\n`;
@@ -358,8 +484,11 @@ async function buildEngine() {
             linkStorno += `<a href="${fStorno}">${displayName}</a>\n`;
         });
 
-        fs.writeFileSync(path.join(outputDir, 'hotel-maengel-info.html'), loadTemplate('hub-hotel-master.html').replace(/\{\{HOTEL_OPTIONS\}\}/g, optHotel).replace(/\{\{HOTEL_LINKS\}\}/g, linkHotel), 'utf8');
-        fs.writeFileSync(path.join(outputDir, 'storno-info.html'), loadTemplate('hub-storno-master.html').replace(/\{\{STORNO_OPTIONS\}\}/g, optStorno).replace(/\{\{STORNO_LINKS\}\}/g, linkStorno), 'utf8');
+        let finalHubHotel = injectSEO(loadTemplate('hub-hotel-master.html').replace(/\{\{HOTEL_OPTIONS\}\}/g, optHotel).replace(/\{\{HOTEL_LINKS\}\}/g, linkHotel), lang, 'hotel-maengel-info.html', null, null, 'hotel');
+        fs.writeFileSync(path.join(outputDir, 'hotel-maengel-info.html'), finalHubHotel, 'utf8');
+
+        let finalHubStorno = injectSEO(loadTemplate('hub-storno-master.html').replace(/\{\{STORNO_OPTIONS\}\}/g, optStorno).replace(/\{\{STORNO_LINKS\}\}/g, linkStorno), lang, 'storno-info.html', null, null, 'storno');
+        fs.writeFileSync(path.join(outputDir, 'storno-info.html'), finalHubStorno, 'utf8');
 
         // =====================================================================
         // SILO 3 & 4: PRE-TRAVEL & ZOLL
@@ -374,7 +503,9 @@ async function buildEngine() {
         laender.forEach(l => {
             let f = `einreisebestimmungen-${l.slug}.html`;
             let crossVisa = generateCrossLinks(laender, l, item => `einreisebestimmungen-${item.slug}.html`, item => item.name);
-            fs.writeFileSync(path.join(outputDir, f), loadTemplate('visum-master.html').replace(/\{\{LAND_NAME\}\}/g, l.name).replace(/\{\{VISUM_STATUS\}\}/g, l.visum_status).replace(/\{\{PASS_MONATE\}\}/g, l.pass_monate).replace(/\{\{VISUM_TEXT\}\}/g, l.visum_text).replace(/\{\{AFFILIATE_HINWEIS\}\}/g, l.affiliate_hinweis).replace(/\{\{DATEINAME\}\}/g, f).replace(/\{\{BELIEBTE_LINKS\}\}/g, crossVisa), 'utf8');
+            let contentVisa = loadTemplate('visum-master.html').replace(/\{\{LAND_NAME\}\}/g, l.name).replace(/\{\{VISUM_STATUS\}\}/g, l.visum_status).replace(/\{\{PASS_MONATE\}\}/g, l.pass_monate).replace(/\{\{VISUM_TEXT\}\}/g, l.visum_text).replace(/\{\{AFFILIATE_HINWEIS\}\}/g, l.affiliate_hinweis).replace(/\{\{DATEINAME\}\}/g, f).replace(/\{\{BELIEBTE_LINKS\}\}/g, crossVisa);
+            contentVisa = injectSEO(contentVisa, lang, f, 'laender.json', l.slug, 'visum');
+            fs.writeFileSync(path.join(outputDir, f), contentVisa, 'utf8');
             optVisa += `<option value="${f}">${l.name}</option>\n`;
             linkVisa += `<a href="${f}">${l.name}</a>\n`;
         });
@@ -382,7 +513,9 @@ async function buildEngine() {
         esim.forEach(e => {
             let f = `internet-roaming-kosten-${e.slug}.html`;
             let crossEsim = generateCrossLinks(esim, e, item => `internet-roaming-kosten-${item.slug}.html`, item => item.name);
-            fs.writeFileSync(path.join(outputDir, f), loadTemplate('esim-master.html').replace(/\{\{LAND_NAME\}\}/g, e.name).replace(/\{\{ROAMING_KOSTEN\}\}/g, e.roaming_kosten).replace(/\{\{ESIM_PREIS\}\}/g, e.esim_preis).replace(/\{\{DATENVOLUMEN\}\}/g, e.datenvolumen).replace(/\{\{AFFILIATE_LINK\}\}/g, e.affiliate_link).replace(/\{\{DATEINAME\}\}/g, f).replace(/\{\{BELIEBTE_LINKS\}\}/g, crossEsim), 'utf8');
+            let contentEsim = loadTemplate('esim-master.html').replace(/\{\{LAND_NAME\}\}/g, e.name).replace(/\{\{ROAMING_KOSTEN\}\}/g, e.roaming_kosten).replace(/\{\{ESIM_PREIS\}\}/g, e.esim_preis).replace(/\{\{DATENVOLUMEN\}\}/g, e.datenvolumen).replace(/\{\{AFFILIATE_LINK\}\}/g, e.affiliate_link).replace(/\{\{DATEINAME\}\}/g, f).replace(/\{\{BELIEBTE_LINKS\}\}/g, crossEsim);
+            contentEsim = injectSEO(contentEsim, lang, f, 'esim.json', e.slug, 'esim');
+            fs.writeFileSync(path.join(outputDir, f), contentEsim, 'utf8');
             optEsim += `<option value="${f}">${e.name}</option>\n`;
             linkEsim += `<a href="${f}">${e.name}</a>\n`;
         });
@@ -390,14 +523,21 @@ async function buildEngine() {
         mietwagen.forEach(m => {
             let f = `mietwagen-versicherungen-${m.slug}.html`;
             let crossMiet = generateCrossLinks(mietwagen, m, item => `mietwagen-versicherungen-${item.slug}.html`, item => item.name);
-            fs.writeFileSync(path.join(outputDir, f), loadTemplate('mietwagen-master.html').replace(/\{\{MIETWAGEN_NAME\}\}/g, m.name).replace(/\{\{SCHALTER_TAKTIK\}\}/g, m.schalter_taktik).replace(/\{\{KAUTION_HINWEIS\}\}/g, m.kaution_hinweis).replace(/\{\{DATEINAME\}\}/g, f).replace(/\{\{BELIEBTE_LINKS\}\}/g, crossMiet), 'utf8');
+            let contentMiet = loadTemplate('mietwagen-master.html').replace(/\{\{MIETWAGEN_NAME\}\}/g, m.name).replace(/\{\{SCHALTER_TAKTIK\}\}/g, m.schalter_taktik).replace(/\{\{KAUTION_HINWEIS\}\}/g, m.kaution_hinweis).replace(/\{\{DATEINAME\}\}/g, f).replace(/\{\{BELIEBTE_LINKS\}\}/g, crossMiet);
+            contentMiet = injectSEO(contentMiet, lang, f, 'mietwagen.json', m.slug, 'mietwagen');
+            fs.writeFileSync(path.join(outputDir, f), contentMiet, 'utf8');
             optMiet += `<option value="${f}">${m.name}</option>\n`;
             linkMiet += `<a href="${f}">${m.name}</a>\n`;
         });
 
-        fs.writeFileSync(path.join(outputDir, 'einreise-info.html'), loadTemplate('hub-einreise-master.html').replace(/\{\{VISA_OPTIONS\}\}/g, optVisa).replace(/\{\{VISA_LINKS\}\}/g, linkVisa), 'utf8');
-        fs.writeFileSync(path.join(outputDir, 'esim-roaming-info.html'), loadTemplate('hub-esim-master.html').replace(/\{\{ESIM_OPTIONS\}\}/g, optEsim).replace(/\{\{ESIM_LINKS\}\}/g, linkEsim), 'utf8');
-        fs.writeFileSync(path.join(outputDir, 'mietwagen-info.html'), loadTemplate('hub-mietwagen-master.html').replace(/\{\{MIETWAGEN_OPTIONS\}\}/g, optMiet).replace(/\{\{MIETWAGEN_LINKS\}\}/g, linkMiet), 'utf8');
+        let finalHubVisa = injectSEO(loadTemplate('hub-einreise-master.html').replace(/\{\{VISA_OPTIONS\}\}/g, optVisa).replace(/\{\{VISA_LINKS\}\}/g, linkVisa), lang, 'einreise-info.html', null, null, 'visum');
+        fs.writeFileSync(path.join(outputDir, 'einreise-info.html'), finalHubVisa, 'utf8');
+
+        let finalHubEsim = injectSEO(loadTemplate('hub-esim-master.html').replace(/\{\{ESIM_OPTIONS\}\}/g, optEsim).replace(/\{\{ESIM_LINKS\}\}/g, linkEsim), lang, 'esim-roaming-info.html', null, null, 'esim');
+        fs.writeFileSync(path.join(outputDir, 'esim-roaming-info.html'), finalHubEsim, 'utf8');
+
+        let finalHubMiet = injectSEO(loadTemplate('hub-mietwagen-master.html').replace(/\{\{MIETWAGEN_OPTIONS\}\}/g, optMiet).replace(/\{\{MIETWAGEN_LINKS\}\}/g, linkMiet), lang, 'mietwagen-info.html', null, null, 'mietwagen');
+        fs.writeFileSync(path.join(outputDir, 'mietwagen-info.html'), finalHubMiet, 'utf8');
 
         // ---- ZOLL: Nur für Basissprache ----
         if (!isExcludedForLang('zoll', lang)) {
@@ -405,11 +545,14 @@ async function buildEngine() {
             zoll.forEach(z => {
                 let f = `zoll-strafe-beschlagnahmt-${z.slug}.html`;
                 let crossZoll = generateCrossLinks(zoll, z, item => `zoll-strafe-beschlagnahmt-${item.slug}.html`, item => item.artikel);
-                fs.writeFileSync(path.join(outputDir, f), loadTemplate('zoll-master.html').replace(/\{\{ARTIKEL\}\}/g, z.artikel).replace(/\{\{PROBLEM\}\}/g, z.problem).replace(/\{\{DATEINAME\}\}/g, f).replace(/\{\{BELIEBTE_LINKS\}\}/g, crossZoll), 'utf8');
+                let contentZoll = loadTemplate('zoll-master.html').replace(/\{\{ARTIKEL\}\}/g, z.artikel).replace(/\{\{PROBLEM\}\}/g, z.problem).replace(/\{\{DATEINAME\}\}/g, f).replace(/\{\{BELIEBTE_LINKS\}\}/g, crossZoll);
+                contentZoll = injectSEO(contentZoll, lang, f, 'zoll.json', z.slug, 'zoll');
+                fs.writeFileSync(path.join(outputDir, f), contentZoll, 'utf8');
                 optZoll += `<option value="${f}">${z.artikel}</option>\n`;
                 linkZoll += `<a href="${f}">${z.artikel}</a>\n`;
             });
-            fs.writeFileSync(path.join(outputDir, 'zoll-info.html'), loadTemplate('hub-zoll-master.html').replace(/\{\{ZOLL_OPTIONS\}\}/g, optZoll).replace(/\{\{ZOLL_LINKS\}\}/g, linkZoll), 'utf8');
+            let finalHubZoll = injectSEO(loadTemplate('hub-zoll-master.html').replace(/\{\{ZOLL_OPTIONS\}\}/g, optZoll).replace(/\{\{ZOLL_LINKS\}\}/g, linkZoll), lang, 'zoll-info.html', null, null, 'zoll');
+            fs.writeFileSync(path.join(outputDir, 'zoll-info.html'), finalHubZoll, 'utf8');
         } else {
             console.log(`   ⏭️  Silo [Zoll] wird für [${lang.toUpperCase()}] übersprungen (kein EU-Recht).`);
         }
@@ -417,28 +560,34 @@ async function buildEngine() {
         // =====================================================================
         // SILO 5: BAHN
         // =====================================================================
-        const bahnAnbieter = readJson('bahn.json');
-        const bahnTpl = loadTemplate('bahn-master.html');
+        if (!isExcludedForLang('bahn', lang)) {
+            const bahnAnbieter = readJson('bahn.json');
+            const bahnTpl = loadTemplate('bahn-master.html');
 
-        let optBahn = "", linkBahn = "";
+            let optBahn = "", linkBahn = "";
 
-        bahnAnbieter.forEach(b => {
-            let fBahn = `zugverspaetung-entschaedigung-${b.slug}.html`;
-            let crossBahn = generateCrossLinks(bahnAnbieter, b, item => `zugverspaetung-entschaedigung-${item.slug}.html`, item => item.name);
+            bahnAnbieter.forEach(b => {
+                let fBahn = `zugverspaetung-entschaedigung-${b.slug}.html`;
+                let crossBahn = generateCrossLinks(bahnAnbieter, b, item => `zugverspaetung-entschaedigung-${item.slug}.html`, item => item.name);
 
-            let content = bahnTpl
-                .replace(/\{\{BAHN_NAME\}\}/g, b.name)
-                .replace(/\{\{BAHN_ADRESSE\}\}/g, b.adresse)
-                .replace(/\{\{DATEINAME\}\}/g, fBahn)
-                .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossBahn)
-                .replace(/\{\{BAHN_INFOBOX\}\}/g, b.infobox || '');
+                let content = bahnTpl
+                    .replace(/\{\{BAHN_NAME\}\}/g, b.name)
+                    .replace(/\{\{BAHN_ADRESSE\}\}/g, b.adresse)
+                    .replace(/\{\{DATEINAME\}\}/g, fBahn)
+                    .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossBahn)
+                    .replace(/\{\{BAHN_INFOBOX\}\}/g, b.infobox || '');
 
-            fs.writeFileSync(path.join(outputDir, fBahn), content, 'utf8');
-            optBahn += `<option value="${fBahn}">${b.name}</option>\n`;
-            linkBahn += `<a href="${fBahn}">${b.name}</a>\n`;
-        });
+                content = injectSEO(content, lang, fBahn, 'bahn.json', b.slug, 'bahn');
+                fs.writeFileSync(path.join(outputDir, fBahn), content, 'utf8');
+                optBahn += `<option value="${fBahn}">${b.name}</option>\n`;
+                linkBahn += `<a href="${fBahn}">${b.name}</a>\n`;
+            });
 
-        fs.writeFileSync(path.join(outputDir, 'zugverspaetung-info.html'), loadTemplate('hub-bahn-master.html').replace(/\{\{BAHN_OPTIONS\}\}/g, optBahn).replace(/\{\{BAHN_LINKS\}\}/g, linkBahn), 'utf8');
+            let finalHubBahn = injectSEO(loadTemplate('hub-bahn-master.html').replace(/\{\{BAHN_OPTIONS\}\}/g, optBahn).replace(/\{\{BAHN_LINKS\}\}/g, linkBahn), lang, 'zugverspaetung-info.html', null, null, 'bahn');
+            fs.writeFileSync(path.join(outputDir, 'zugverspaetung-info.html'), finalHubBahn, 'utf8');
+        } else {
+            console.log(`   ⏭️  Silo [Bahn] wird für [${lang.toUpperCase()}] übersprungen.`);
+        }
 
         // =====================================================================
         // SILO 6: OTA — Nur für Basissprache
@@ -478,12 +627,14 @@ async function buildEngine() {
                         .replace(/\{\{VERMITTLER_INFOBOX\}\}/g, v.infobox || '');
                 };
 
-                fs.writeFileSync(path.join(outputDir, fOta), processTemplateOta(otaTpl, fOta, crossOta), 'utf8');
+                let finalOta = injectSEO(processTemplateOta(otaTpl, fOta, crossOta), lang, fOta, 'vermittler-ota.json', v.slug, 'ota');
+                fs.writeFileSync(path.join(outputDir, fOta), finalOta, 'utf8');
                 optOta += `<option value="${fOta}">${v.name}</option>\n`;
                 linkOta += `<a href="${fOta}">${v.name}</a>\n`;
             });
 
-            fs.writeFileSync(path.join(outputDir, 'ota-rueckerstattung-info.html'), loadTemplate('hub-ota-master.html').replace(/\{\{OTA_OPTIONS\}\}/g, optOta).replace(/\{\{OTA_LINKS\}\}/g, linkOta), 'utf8');
+            let finalHubOta = injectSEO(loadTemplate('hub-ota-master.html').replace(/\{\{OTA_OPTIONS\}\}/g, optOta).replace(/\{\{OTA_LINKS\}\}/g, linkOta), lang, 'ota-rueckerstattung-info.html', null, null, 'ota');
+            fs.writeFileSync(path.join(outputDir, 'ota-rueckerstattung-info.html'), finalHubOta, 'utf8');
         } else {
             console.log(`   ⏭️  Silo [OTA] wird für [${lang.toUpperCase()}] übersprungen (kein EU-Recht).`);
         }
@@ -525,57 +676,65 @@ async function buildEngine() {
                     .replace(/\{\{CRUISE_INFOBOX\}\}/g, c.infobox || '');
             };
 
-            fs.writeFileSync(path.join(outputDir, fCruise), processTemplateCruise(kreuzfahrtTpl, fCruise, crossCruise), 'utf8');
+            let finalCruise = injectSEO(processTemplateCruise(kreuzfahrtTpl, fCruise, crossCruise), lang, fCruise, 'kreuzfahrten.json', c.slug, 'kreuzfahrt');
+            fs.writeFileSync(path.join(outputDir, fCruise), finalCruise, 'utf8');
             optCruise += `<option value="${fCruise}">${c.name}</option>\n`;
             linkCruise += `<a href="${fCruise}">${c.name}</a>\n`;
         });
 
-        fs.writeFileSync(path.join(outputDir, 'kreuzfahrt-minderung.html'), loadTemplate('hub-kreuzfahrt-master.html').replace(/\{\{CRUISE_OPTIONS\}\}/g, optCruise).replace(/\{\{CRUISE_LINKS\}\}/g, linkCruise), 'utf8');
+        let finalHubCruise = injectSEO(loadTemplate('hub-kreuzfahrt-master.html').replace(/\{\{CRUISE_OPTIONS\}\}/g, optCruise).replace(/\{\{CRUISE_LINKS\}\}/g, linkCruise), lang, 'kreuzfahrt-minderung.html', null, null, 'kreuzfahrt');
+        fs.writeFileSync(path.join(outputDir, 'kreuzfahrt-minderung.html'), finalHubCruise, 'utf8');
 
         // =====================================================================
         // SILO 8: FERIENHÄUSER
         // =====================================================================
-        const fewoAnbieter = readJson('ferienhaus.json');
-        const fewoTpl = loadTemplate('ferienhaus-master.html');
+        if (!isExcludedForLang('ferienhaus', lang)) {
+            const fewoAnbieter = readJson('ferienhaus.json');
+            const fewoTpl = loadTemplate('ferienhaus-master.html');
 
-        let optFewo = "", linkFewo = "";
+            let optFewo = "", linkFewo = "";
 
-        fewoAnbieter.forEach(f => {
-            let fFileName = `ferienhaus-reklamation-beschwerde-${f.slug}.html`;
-            let crossFewo = generateCrossLinks(fewoAnbieter, f, item => `ferienhaus-reklamation-beschwerde-${item.slug}.html`, item => item.name);
+            fewoAnbieter.forEach(f => {
+                let fFileName = `ferienhaus-reklamation-beschwerde-${f.slug}.html`;
+                let crossFewo = generateCrossLinks(fewoAnbieter, f, item => `ferienhaus-reklamation-beschwerde-${item.slug}.html`, item => item.name);
 
-            let textName = f.name;
-            let inputValue = f.name;
-            let titleName = f.name + (lang === 'de' ? " Beschwerde" : " Complaint");
-            let inputAdresse = f.adresse;
+                let textName = f.name;
+                let inputValue = f.name;
+                let titleName = f.name + (lang === 'de' ? " Beschwerde" : " Complaint");
+                let inputAdresse = f.adresse;
 
-            let finalPlaceholderName = "";
-            let finalPlaceholderAdr = f.adresse;
+                let finalPlaceholderName = "";
+                let finalPlaceholderAdr = f.adresse;
 
-            if (f.slug === 'allgemein') {
-                textName = lang === 'de' ? "Ihrem Anbieter" : (f.name || "your provider");
-                inputValue = "";
-                inputAdresse = "";
-                titleName = lang === 'de' ? "Allgemeine Beschwerde" : "General Complaint";
-                finalPlaceholderName = lang === 'de' ? "Name des Anbieters eintragen" : "Enter provider name";
-                finalPlaceholderAdr = lang === 'de' ? "Bitte Adresse des Anbieters eintragen" : "Enter provider address";
-            }
+                if (f.slug === 'allgemein') {
+                    textName = lang === 'de' ? "Ihrem Anbieter" : (f.name || "your provider");
+                    inputValue = "";
+                    inputAdresse = "";
+                    titleName = lang === 'de' ? "Allgemeine Beschwerde" : "General Complaint";
+                    finalPlaceholderName = lang === 'de' ? "Name des Anbieters eintragen" : "Enter provider name";
+                    finalPlaceholderAdr = lang === 'de' ? "Bitte Adresse des Anbieters eintragen" : "Enter provider address";
+                }
 
-            let content = fewoTpl
-                .replace(/\{\{ANBIETER_NAME\}\} Beschwerde/g, titleName) 
-                .replace(/value="\{\{ANBIETER_NAME\}\}"/g, `value="${inputValue}" placeholder="${finalPlaceholderName}"`) 
-                .replace(/>\{\{ANBIETER_ADRESSE\}\}</g, ` placeholder="${finalPlaceholderAdr}">${inputAdresse}<`) 
-                .replace(/\{\{ANBIETER_NAME\}\}/g, textName) 
-                .replace(/\{\{DATEINAME\}\}/g, fFileName)
-                .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossFewo)
-                .replace(/\{\{ANBIETER_INFOBOX\}\}/g, f.infobox || '');
+                let content = fewoTpl
+                    .replace(/\{\{ANBIETER_NAME\}\} Beschwerde/g, titleName) 
+                    .replace(/value="\{\{ANBIETER_NAME\}\}"/g, `value="${inputValue}" placeholder="${finalPlaceholderName}"`) 
+                    .replace(/>\{\{ANBIETER_ADRESSE\}\}</g, ` placeholder="${finalPlaceholderAdr}">${inputAdresse}<`) 
+                    .replace(/\{\{ANBIETER_NAME\}\}/g, textName) 
+                    .replace(/\{\{DATEINAME\}\}/g, fFileName)
+                    .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossFewo)
+                    .replace(/\{\{ANBIETER_INFOBOX\}\}/g, f.infobox || '');
 
-            fs.writeFileSync(path.join(outputDir, fFileName), content, 'utf8');
-            optFewo += `<option value="${fFileName}">${f.name}</option>\n`;
-            linkFewo += `<a href="${fFileName}">${f.name}</a>\n`;
-        });
+                content = injectSEO(content, lang, fFileName, 'ferienhaus.json', f.slug, 'ferienhaus');
+                fs.writeFileSync(path.join(outputDir, fFileName), content, 'utf8');
+                optFewo += `<option value="${fFileName}">${f.name}</option>\n`;
+                linkFewo += `<a href="${fFileName}">${f.name}</a>\n`;
+            });
 
-        fs.writeFileSync(path.join(outputDir, 'ferienhaus-maengel-info.html'), loadTemplate('hub-ferienhaus-master.html').replace(/\{\{FEWO_OPTIONS\}\}/g, optFewo).replace(/\{\{FEWO_LINKS\}\}/g, linkFewo), 'utf8');
+            let finalHubFewo = injectSEO(loadTemplate('hub-ferienhaus-master.html').replace(/\{\{FEWO_OPTIONS\}\}/g, optFewo).replace(/\{\{FEWO_LINKS\}\}/g, linkFewo), lang, 'ferienhaus-maengel-info.html', null, null, 'ferienhaus');
+            fs.writeFileSync(path.join(outputDir, 'ferienhaus-maengel-info.html'), finalHubFewo, 'utf8');
+        } else {
+            console.log(`   ⏭️  Silo [Ferienhaus] wird für [${lang.toUpperCase()}] übersprungen.`);
+        }
 
         // =====================================================================
         // SILO 9: AIRBNB
@@ -595,12 +754,14 @@ async function buildEngine() {
                 .replace(/\{\{DATEINAME\}\}/g, fAirbnb)
                 .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossAirbnb);
 
+            content = injectSEO(content, lang, fAirbnb, 'airbnb.json', a.slug, 'airbnb');
             fs.writeFileSync(path.join(outputDir, fAirbnb), content, 'utf8');
             optAirbnb += `<option value="${fAirbnb}">${a.name}</option>\n`;
             linkAirbnb += `<a href="${fAirbnb}">${a.name}</a>\n`;
         });
 
-        fs.writeFileSync(path.join(outputDir, 'airbnb-probleme-info.html'), loadTemplate('hub-airbnb-master.html').replace(/\{\{AIRBNB_OPTIONS\}\}/g, optAirbnb).replace(/\{\{AIRBNB_LINKS\}\}/g, linkAirbnb), 'utf8');
+        let finalHubAirbnb = injectSEO(loadTemplate('hub-airbnb-master.html').replace(/\{\{AIRBNB_OPTIONS\}\}/g, optAirbnb).replace(/\{\{AIRBNB_LINKS\}\}/g, linkAirbnb), lang, 'airbnb-probleme-info.html', null, null, 'airbnb');
+        fs.writeFileSync(path.join(outputDir, 'airbnb-probleme-info.html'), finalHubAirbnb, 'utf8');
 
         // =====================================================================
         // SILO 10: FLUGHAFEN-PARKEN — Nur für Basissprache
@@ -632,13 +793,15 @@ async function buildEngine() {
                     .replace(/\{\{TERMINAL_RATE_PER_DAY\}\}/g, terminalRate)
                     .replace(/\{\{ALTERNATIVE_RATE_PER_DAY\}\}/g, alternativeRate);
 
+                content = injectSEO(content, lang, fFileName, 'flughafen.json', f.slug, 'flughafen-parken');
                 fs.writeFileSync(path.join(outputDir, fFileName), content, 'utf8');
                 optFlughafen += `<option value="${fFileName}">${f.name} (${f.kuerzel})</option>\n`;
                 linkFlughafen += `<a href="${fFileName}">${f.name} (${f.kuerzel})</a>\n`;
             });
 
             if (fs.existsSync(path.join(currentSrcDir, 'hub-flughafen-parken-master.html'))) {
-                fs.writeFileSync(path.join(outputDir, 'flughafen-parken-info.html'), loadTemplate('hub-flughafen-parken-master.html').replace(/\{\{FLUGHAFEN_OPTIONS\}\}/g, optFlughafen).replace(/\{\{FLUGHAFEN_LINKS\}\}/g, linkFlughafen), 'utf8');
+                let finalHubFlughafen = injectSEO(loadTemplate('hub-flughafen-parken-master.html').replace(/\{\{FLUGHAFEN_OPTIONS\}\}/g, optFlughafen).replace(/\{\{FLUGHAFEN_LINKS\}\}/g, linkFlughafen), lang, 'flughafen-parken-info.html', null, null, 'flughafen-parken');
+                fs.writeFileSync(path.join(outputDir, 'flughafen-parken-info.html'), finalHubFlughafen, 'utf8');
             }
         } else {
             console.log(`   ⏭️  Silo [Flughafen-Parken] wird für [${lang.toUpperCase()}] übersprungen (DE-spezifisch).`);
@@ -664,18 +827,57 @@ async function buildEngine() {
                 .replace(/\{\{DATEINAME\}\}/g, fFileName)
                 .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossKredit);
 
+            content = injectSEO(content, lang, fFileName, 'fremdwaehrung.json', w.slug, 'reisekreditkarte');
             fs.writeFileSync(path.join(outputDir, fFileName), content, 'utf8');
             optKredit += `<option value="${fFileName}">${w.name} (${w.waehrung})</option>\n`;
             linkKredit += `<a href="${fFileName}">${w.name}</a>\n`;
         });
 
         if (fs.existsSync(path.join(currentSrcDir, 'hub-reisekreditkarten-master.html'))) {
-            fs.writeFileSync(path.join(outputDir, 'reisekreditkarten-info.html'), loadTemplate('hub-reisekreditkarten-master.html').replace(/\{\{KREDIT_OPTIONS\}\}/g, optKredit).replace(/\{\{KREDIT_LINKS\}\}/g, linkKredit), 'utf8');
+            let finalHubKredit = injectSEO(loadTemplate('hub-reisekreditkarten-master.html').replace(/\{\{KREDIT_OPTIONS\}\}/g, optKredit).replace(/\{\{KREDIT_LINKS\}\}/g, linkKredit), lang, 'reisekreditkarten-info.html', null, null, 'reisekreditkarte');
+            fs.writeFileSync(path.join(outputDir, 'reisekreditkarten-info.html'), finalHubKredit, 'utf8');
         }
-    });
+   
 
-    console.log('\n🎉 Fertig! Alle internationalen Verzeichnisse wurden erfolgreich erzeugt.');
+// =====================================================================
+        // SILO 12: CHARGEBACK GENERATOR (z.B. für en-us)
+        // =====================================================================
+        const chargebackJsonPath = path.join(currentSrcDir, 'chargeback.json');
+        
+        if (fs.existsSync(chargebackJsonPath)) {
+            const chargebackMerchants = readJson('chargeback.json');
+            const chargebackTpl = loadTemplate('chargeback-generator.html');
+
+            let optCharge = "", linkCharge = "";
+
+            chargebackMerchants.forEach(c => {
+                let fCharge = `credit-card-chargeback-${c.slug}.html`; 
+                let crossCharge = generateCrossLinks(chargebackMerchants, c, item => `credit-card-chargeback-${item.slug}.html`, item => item.name);
+
+                let content = chargebackTpl
+                    .replace(/\{\{MERCHANT_NAME\}\}/g, c.name) 
+                    .replace(/\{\{MERCHANT_INFOBOX\}\}/g, c.infobox || '') 
+                    .replace(/\{\{DATEINAME\}\}/g, fCharge)
+                    .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossCharge);
+
+                content = injectSEO(content, lang, fCharge, 'chargeback.json', c.slug, 'chargeback');
+                fs.writeFileSync(path.join(outputDir, fCharge), content, 'utf8');
+                optCharge += `<option value="${fCharge}">${c.name}</option>\n`;
+                linkCharge += `<a href="${fCharge}">${c.name}</a>\n`;
+            });
+
+            if (fs.existsSync(path.join(currentSrcDir, 'hub-chargeback-master.html'))) {
+                let finalHubChargeback = injectSEO(loadTemplate('hub-chargeback-master.html').replace(/\{\{CHARGEBACK_OPTIONS\}\}/g, optCharge).replace(/\{\{CHARGEBACK_LINKS\}\}/g, linkCharge), lang, 'chargeback-info.html', null, null, 'chargeback');
+                fs.writeFileSync(path.join(outputDir, 'chargeback-info.html'), finalHubChargeback, 'utf8');
+            }
+        }
+
+         });
+
+         console.log('\n🎉 Fertig! Alle internationalen Verzeichnisse wurden erfolgreich erzeugt.');
 }
+
+
 
 // Skript starten
 buildEngine();

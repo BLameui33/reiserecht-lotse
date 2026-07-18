@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Lost & Damaged Luggage: Rights & Compensation | PDF</title>
+  <meta name="description" content="Suitcase lost or damaged? Learn your rights under US DOT rules and the Montreal Convention to claim up to $3,800 in compensation. Incl. template generator.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & Internationalisierung -->
+  {{SEO_LINKS}}
+
+  <!-- Bibliothek für die PDF-Generierung aus HTML -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="/logo-lotse-fav.png">
+
+  <!-- FAQ Schema.org JSON-LD für Rich Snippets -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "What should I do immediately if my suitcase is missing or damaged?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Report the loss or damage to the baggage claim desk (Lost & Found) BEFORE leaving the secure area of the airport. You must fill out a Property Irregularity Report (PIR) there. Without this document, it is extremely difficult to file claims later."
+      }
+    }, {
+      "@type": "Question",
+      "name": "How much compensation am I entitled to for luggage problems?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For US domestic flights, the Department of Transportation (DOT) mandates a maximum liability of up to $3,800 per passenger. For international flights under the Montreal Convention, the maximum is about 1,288 Special Drawing Rights (SDR), which currently equals roughly $1,700. This covers the depreciated value of the suitcase and its verifiable contents."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Can I buy replacement clothes if my suitcase is delayed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you are allowed to make necessary replacement purchases (e.g., toiletries, underwear, basic clothing). However, the purchases must be reasonable (no luxury brands), and you must keep all receipts to claim the money back from the airline."
+      }
+    }, {
+      "@type": "Question",
+      "name": "What are the deadlines for filing a damage claim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Caution, the deadlines are strict! For damaged luggage, you must submit your written claim (including receipts) to the airline no later than 7 days after receiving the suitcase. For delayed luggage, you have 21 days from the time the suitcase is returned to you."
+      }
+    }]
+  }
+  </script>
+
+  
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Lost & Damaged Luggage: How to Claim Compensation</h1>
+  
+  <p>Are you waiting in vain at the baggage carousel, or did your suitcase arrive completely demolished? This is not only incredibly frustrating but also causes unforeseen costs. Fortunately, your rights are strongly protected by the <strong>US Department of Transportation (DOT)</strong> for domestic flights and the <strong>Montreal Convention</strong> for international travel. Airlines are liable for the delay, damage, or loss of checked baggage up to <strong>$3,800 per passenger for US domestic flights</strong>, and up to approx. <strong>$1,700 for international flights</strong>.</p>
+  
+  <p>The most important key to success is immediate documentation on-site and strict adherence to reporting deadlines. With our templates, you can easily assert your claims for replacement purchases or the depreciated value of your luggage.</p>
+
+  <div class="legal-info-box">
+    <strong>Important Notice on Usage</strong><br>
+    This tool is an <strong>automated template generator</strong> (help for self-help). It simply inserts your data into standard legal templates. There is <strong>no individual review</strong> of your case. This free service does not replace legal advice from an attorney. Use of this tool is at your own risk, and no guarantee of success is provided.
+</div>
+
+  <!-- DAS IST DER MAGISCHE BEREICH FÜR DIE INTERNE VERLINKUNG -->
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Generate Demand Letter</h2>
+    <p>Select your airline to create the exact matching form for your damaged or lost luggage (100% free):</p>
+    
+    <select id="airlineSelect">
+      <option value="">-- Please select an airline --</option>
+      {{GEPAECK_OPTIONS}}
+      <option value="gepaeck-entschaedigung-allgemein.html">My airline is not listed (General form)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Go to the generator for this airline</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Claim Check by Airline</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{GEPAECK_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Checklist: Emergency Plan at the Baggage Carousel</h2>
+  <p>Act quickly as soon as you notice your suitcase is missing or damaged. Work through these points before leaving the airport:</p>
+  
+  <div class="checklist-box" id="checklistToPrint">
+  <!-- Optional: Eine versteckte oder sichtbare Überschrift, die nur im PDF gut aussieht -->
+  <h3 style="margin-top:0; color:#1565c0;">Checklist</h3>
+
+    <ul>
+      <li><strong>Fill out the PIR form:</strong> Go IMMEDIATELY to the "Lost & Found" desk and request the "Property Irregularity Report" (PIR).</li>
+      <li><strong>Keep your baggage claim tag:</strong> Never throw away the small sticker with the baggage registration number that you received at check-in.</li>
+      <li><strong>Photograph any damage:</strong> If your suitcase is damaged, take detailed photos right there at the airport.</li>
+      <li><strong>Collect receipts for replacement purchases:</strong> Keep all receipts for items like a toothbrush, body wash, and emergency clothing.</li>
+      <li><strong>Observe deadlines:</strong> Report damage in writing within 7 days, and delays/expenses within 21 days after receiving your suitcase.</li>
+    </ul>
+    <!-- Hier ist das 'download' Attribut, welches die Datei direkt herunterlädt -->
+  </div>
+  <button onclick="generateChecklistPDF('checklist-luggage.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+  Generate & save checklist as PDF
+</button>
+
+  <h2 style="margin-top: 40px;">Case Studies: How Much You Will Be Reimbursed</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Example 1: Suitcase Arrives 2 Days Late on a Beach Vacation</h3>
+    <p>Lisa flies to Hawaii, but her suitcase mistakenly ends up in Chicago. On the day of arrival, she buys sunscreen, dental care products, a bikini, and a change of clothes for a total of $150.<br>
+    <strong>Result:</strong> Since these are absolutely necessary replacement purchases for her vacation and she kept all receipts, the airline must refund the full <strong>$150</strong>.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Example 2: Suitcase Wheels Torn Off</h3>
+    <p>Mr. Smith picks up his 2-year-old branded hardshell suitcase (original price $200) from the carousel and notices that two wheels have completely broken off. He immediately fills out the PIR form.<br>
+    <strong>Result:</strong> The airline will check if the suitcase can be repaired. If not, they will refund the current depreciated value of the suitcase (in this case, about <strong>$150 to $170</strong>). Note that scratches or dents are usually considered normal wear and tear and are not compensated.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">FAQ: Your Luggage Rights at a Glance</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">What should I do immediately if my suitcase is missing or damaged?</div>
+    <div class="faq-answer">Report the loss or damage to the baggage claim desk (Lost & Found) BEFORE leaving the secure area of the airport. You must fill out a Property Irregularity Report (PIR) there. Without this receipt, it is extremely difficult to successfully assert claims later.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">How much compensation am I entitled to for luggage problems?</div>
+    <div class="faq-answer">For US domestic flights, the US DOT mandates that airlines are liable for up to $3,800. For international flights, under the Montreal Convention, the airline is liable for up to approx. 1,288 Special Drawing Rights (SDR). This currently corresponds to about $1,700 per passenger. This applies to the depreciated value of the suitcase and its verifiable contents.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Can I buy replacement clothes if my suitcase is delayed?</div>
+    <div class="faq-answer">Yes, you are allowed to make necessary replacement purchases (e.g., toiletries, underwear, basic clothing). However, the purchases must be reasonable (no luxury brands), and you must keep all receipts to claim the money back from the airline. Tip: If you are on your flight back home, clothing purchases are usually not reimbursed, as it is assumed you have everything you need at home.</div>
+  </div>
+  
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">What are the deadlines for filing a damage claim?</div>
+    <div class="faq-answer">Caution, the deadlines are extremely strict! For damaged luggage, you must submit your written claim (including invoices/receipts) to the airline no later than <strong>7 days</strong> after receiving the suitcase. For delayed luggage, you have <strong>21 days</strong> from the time the suitcase was returned to you. The PIR filled out at the airport is NOT enough on its own to meet this deadline!</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise in Travel Law & Passenger Rights</h3>
+    <p class="trust-text">
+        Our guides and generators are based on a strict evaluation of current US DOT consumer protection rules, the Montreal Convention, and federal travel regulations. 
+        They are developed by Marc (Project Lead) & Team to enable travelers to legally enforce their rights against airlines and tour operators.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Important Note: Our tools provide help for self-help regarding flight delays, hotel defects, or train cancellations. They do not replace individual legal advice from an attorney.
+        </span>
+    </p>
+
+    <!-- Umlaut in URL entfernt! -->
+    <a href="ueber-uns.html" class="trust-link">
+        Learn more about our legal methodology & editorial team →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Problem with your flight, train, or hotel?</strong><br>
+        Fix-My-Trip checks your claim for compensation, ticket refunds, or travel price reductions in just a few steps. <br>
+        <em>A service provided by Fix my Trip.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Spotted a bug in the tool?</strong> Since we operate as an automated portal and do not provide individual legal advice, it helps us enormously if you report bugs or outdated providers: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Send feedback to our headquarters</a>.
+</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">About us</a> | 
+        <a href="index.html">Home</a> | 
+        <a href="impressum.html">Imprint</a> | 
+        <a href="datenschutz.html">Privacy Policy</a>
+    </nav>
+</footer>
+
+<script>
+function routeToGenerator() {
+    const selectElement = document.getElementById('airlineSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Please select an airline from the list first.");
+    }
+}
+
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // 15mm Rand rundherum
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, // Hohe Auflösung
+            scrollY: 0, // WICHTIG: Fixt das Problem mit der leeren Seite!
+            windowWidth: document.documentElement.offsetWidth // Stellt sicher, dass die Breite stimmt
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    // PDF generieren
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

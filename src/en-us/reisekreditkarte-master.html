@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>{{LAND_NAME}} Cash Withdrawal: Free Fee Checker</title>
+
+  <meta name="description" content="Cost Trap Warning: How expensive card payments and ATM withdrawals in {{LAND_NAME}} really are. Calculate bank fees and find the best travel credit cards.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   {{SEO_LINKS}}
+
+  
+  <meta property="og:title" content="Paying in {{LAND_NAME}}: How to Avoid the Foreign Transaction Fee Trap">
+  <meta property="og:description" content="Cost Trap Warning: How expensive card payments and ATM withdrawals in {{LAND_NAME}} really are. Use our calculator.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.fix-my-trip.com/en-us/{{DATEINAME}}">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <style>
+    /* Table of Contents */
+    .toc { background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 25px 0; border: 1px solid #eee; }
+    .toc p { font-weight: bold; margin-top: 0; font-size: 1.1em; color: #333; }
+    .toc ul { margin-bottom: 0; padding-left: 25px; }
+    .toc li { margin-bottom: 8px; }
+    .toc a { color: #1565c0; text-decoration: none; }
+    .toc a:hover { text-underline-position: from-font; text-decoration: underline; }
+
+    /* Calculator Slider */
+    .slider-container { margin: 15px 0; }
+    .slider-value { font-weight: bold; color: #1565c0; font-size: 1.1em; }
+    
+    /* Sticky CTA Bar (Mobile & Desktop) */
+    .sticky-cta { position: fixed; bottom: 0; left: 0; width: 100%; background: #fff; padding: 15px; box-shadow: 0 -2px 10px rgba(0,0,0,0.1); text-align: center; z-index: 1000; transform: translateY(100%); transition: transform 0.3s ease; }
+    .sticky-cta.show { transform: translateY(0); }
+    .sticky-cta .button-primary { margin: 0; padding: 12px 25px; font-size: 1.1em; width: auto; display: inline-block; }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Foreign Transaction Fee Calculator: {{LAND_NAME}}",
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "All",
+    "description": "Interactive tool to uncover hidden bank fees (foreign transaction fees & ATM surcharges) in {{LAND_NAME}}.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "USD"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Can I use my regular US debit card in {{LAND_NAME}}?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, cards with a Visa or Mastercard logo generally work technically. However, traditional home banks will almost always hit you with high foreign transaction fees and international ATM fees for converting USD to {{WAEHRUNG}}."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a foreign transaction fee in {{LAND_NAME}}?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Since {{LAND_NAME}} does not use the US Dollar, your bank has to convert every payment from {{WAEHRUNG}} to USD. For this service, traditional financial institutions typically charge between 2% and 3% of the total purchase price."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I avoid ATM fees in {{LAND_NAME}}?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "To bypass out-of-network international fees (often $5 to $10 per withdrawal) and the bad conversion rates of your hometown bank, you should pick up a dedicated no-foreign-transaction-fee travel card before you leave. Top providers wave these costs globally."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+  <span style="font-size: 0.9em; color: #666;">Travel smart without the cost traps</span>
+</header>
+
+<div class="page-container">
+
+  <h1 id="kostenfalle">Paying in {{LAND_NAME}}: The Foreign Transaction Fee Trap</h1>
+  
+  <div class="back-to-hub-banner">
+    <a href="reisekreditkarten-info.html">
+      <span class="arrow">&larr;</span> Back to Overview: Fees for all travel destinations
+    </a>
+  </div>
+
+  <div class="usp-bar">
+    <div class="usp-item">Live Fee Calculator</div>
+    <div class="usp-item">Hidden Bank Costs Uncovered</div>
+    <div class="usp-item">No-FX Travel Cards Tested</div>
+  </div>
+
+  <p>Planning a trip to <strong>{{LAND_NAME}}</strong>? Whether you are booking a local hotel, dining out, or pulling cash from an ATM: The second you use your everyday banking card outside the United States, your bank back home quietly takes a cut.</p>
+
+  <nav class="toc">
+    <p>Table of Contents</p>
+    <ul>
+      <li><a href="#kostenfalle">The Cost Trap in {{LAND_NAME}}</a></li>
+      <li><a href="#rechner">Tool: What Does Your Bank Charge You Abroad?</a></li>
+      <li><a href="#loesung">The Solution: No-Foreign-Transaction-Fee Travel Cards</a></li>
+      <li><a href="#details">Why Your Home Bank Is So Expensive (Details)</a></li>
+      <li><a href="#faq">Frequently Asked Questions (FAQ)</a></li>
+    </ul>
+  </nav>
+
+  <div class="shock-box" style="background: #ffebee; border-left: 4px solid #c62828; padding: 15px 20px; margin: 20px 0; border-radius: 4px;">
+    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Warning: Expensive conversion into {{WAEHRUNG}}!</h2>
+    <p>You won't be paying in US Dollars in {{LAND_NAME}}. Every single time you swipe your standard credit or debit card, your bank tacks on a <strong>foreign transaction fee</strong> (usually 2% to 3%).</p>
+    <div class="shock-price" style="font-size: 1.2em; font-weight: bold; color: #c62828; margin: 10px 0;">On top of that, international ATM cash withdrawals often cost an extra $5.00 to $10.00 flat per transaction!</div>
+    <p><em>Most travelers don't even realize they are being nickeled-and-dimed until weeks later when they check their bank statement and see dozens of small fee adjustments.</em></p>
+  </div>
+
+  <h2 id="rechner">Tool: What Does Your Bank Charge You Abroad?</h2>
+  <p>Estimate your local travel budget below. Based on standard market conditions, our calculator estimates how much money your current bank will likely charge you for currency exchange in {{LAND_NAME}}.</p>
+
+  <div class="highlight-box pruefdatum-box" role="note" aria-label="Redaktionell geprüft" style="margin-top: 15px; margin-bottom: 30px;">
+    <p><strong>Fact-checked on:</strong> <span id="pruefdatum">05.07.2026</span></p>
+  </div>
+  
+  <div class="calc-box">
+    <form id="feeCalcForm">
+      <fieldset style="border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
+        <legend style="font-weight: bold; padding: 0 10px; color: #1565c0;">Your Travel Budget & Habits</legend>
+        
+        <label for="cBudget" style="display:block; margin-top: 10px; font-weight:bold;">Estimated local budget (in USD):</label>
+        <p style="font-size: 0.85em; color: #666; margin-top: 2px; margin-bottom: 10px;">(Local spending on dining, tours, shopping, and hotels)</p>
+        <input type="number" id="cBudget" value="1500" min="100" step="100" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+
+        <div class="slider-container">
+          <label for="cCardPercent" style="display:block; font-weight:bold;">What % of your budget do you expect to pay by card?</label>
+          <p style="font-size: 0.85em; color: #666; margin-top: 2px; margin-bottom: 10px;">The remaining amount will be withdrawn as cash from local ATMs.</p>
+          <input type="range" id="cCardPercent" min="0" max="100" value="60" step="10" style="width: 100%;" oninput="document.getElementById('cardPercentVal').innerText = this.value + '%'">
+          <div style="text-align: right; margin-top: 5px;">Card Share: <span id="cardPercentVal" class="slider-value">60%</span></div>
+        </div>
+
+        <label for="cWithdrawals" style="display:block; margin-top: 15px; font-weight:bold;">How many times do you plan to withdraw cash from ATMs?</label>
+        <select id="cWithdrawals" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+          <option value="1">1x (Just emergency cash)</option>
+          <option value="3" selected>3x (Occasional cash needs)</option>
+          <option value="6">6x (Prefer carrying local cash)</option>
+          <option value="10">10x or more</option>
+        </select>
+
+        <label for="cBankType" style="display:block; font-weight:bold;">Where do you currently bank?</label>
+        <select id="cBankType" required style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+          <option value="filial" selected>Traditional Big Bank (e.g., Chase, Bank of America, Wells Fargo)</option>
+          <option value="direkt">Online-Only Bank / Credit Union (e.g., Capital One, Chime, Ally)</option>
+        </select>
+      </fieldset>
+
+      <button type="submit" class="button-primary" id="calcFeeBtn" style="background: #1565c0; color: #fff; padding: 15px 30px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer; width: 100%; margin-top: 20px;">Calculate Hidden Fees</button>
+    </form>
+
+    <div id="feeResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #1565c0;">
+      </div>
+  </div>
+
+  <h2 id="loesung">The Solution: No-Foreign-Transaction-Fee Travel Cards</h2>
+  <p>You don't have to accept these arbitrary bank markups. Dedicated travel cards are explicitly designed to skip foreign transaction fees entirely and save you from premium exchange rates while keeping your money secure.</p>
+
+  <div class="solution-box" style="background: #f1f8e9; border: 2px solid #a5d6a7; padding: 25px; border-radius: 8px; text-align: center; margin: 30px 0;">
+
+    <span style="font-size: 0.75rem; color: #fff; background-color: rgba(0,0,0,0.15); padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; display: inline-block; margin-bottom: 12px; font-weight: bold;">
+        Advertising / Affiliate Disclosure
+    </span>
+    
+    <h2 style="color: #2e7d32; margin-top: 0;">✅ The Smart Travel Hack: $0 Fees</h2>
+    <p>Sign up for a card with no foreign transaction fees before your trip. Top-tier options carry a <strong>$0 annual fee</strong> – giving you full flexibility without ongoing costs.</p>
+    
+    <div class="solution-price" style="font-size: 1.5em; font-weight: 900; color: #1565c0; margin: 15px 0;">0% Foreign Transaction Fees in {{LAND_NAME}}</div>
+    <p style="font-size: 1.1em; margin-bottom: 25px;">Always settle transactions in {{WAEHRUNG}} at the actual, standard wholesale Visa/Mastercard exchange rate.</p>
+    
+    <a href="{{AFFILIATE_LINK}}" target="_blank" rel="noopener nofollow" class="button-primary main-affiliate-btn" style="background: #ffb300; color: #000; display: inline-block; padding: 15px 30px; text-decoration: none; border-radius: 6px; font-size: 1.2em; font-weight: bold;">Compare the Best Travel Credit Cards Now</a>
+    <p style="font-size: 0.85em; color: #666; margin-top: 15px;">No annual fees • $0 out-of-network international ATM access options • Apple/Google Pay ready • Marketing Disclosure: We may receive compensation from card issuers if you click on the links provided above (Commercial Compensation Disclosure).</p>
+  </div>
+
+  <div id="details" class="seo-content" style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 30px;">
+    <h2>Why Your Home Bank Is So Expensive in {{LAND_NAME}}</h2>
+    <p>Most standard checking accounts and credit cards in the US are optimized strictly for domestic transactions. Once you cross borders, institutions view international transactions as easy margin drivers. There are two core cost pillars you need to look out for in {{LAND_NAME}}:</p>
+
+    <h3>1. The Foreign Transaction Fee (FX Markups)</h3>
+    <p>Because businesses in {{LAND_NAME}} settle charges in {{WAEHRUNG}}, your bank must convert that local price back to US Dollars. For running this calculation, traditional financial companies add a percentage-based markup. This typically scales from <strong>2% to 3%</strong>. Spending $1,000 on your vacation means your bank keeps up to $30 purely for managing basic data translation.</p>
+
+    <h3>2. Flat International ATM Surcharges</h3>
+    <p>Using a standard debit card at overseas ATMs can be even more punishing. Home banks regularly hit you with a fixed out-of-network flat fee per use, entirely independent of the amount drawn. These baseline expenses typically range from <strong>$5.00 to $10.00 per withdrawal</strong>. Pulling out small amounts frequently ("just a little bit for a taxi or coffee") adds a severe, unnecessary premium to your total trip overhead.</p>
+
+    <table class="comparison-table" style="width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.95em;">
+      <tr style="background: #f5f5f5;">
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Service in {{LAND_NAME}}</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Traditional US Bank</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">No-FX Travel Card</th>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Paying at Restaurants/Hotels</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #c62828;">approx. + 2.0% to 3.0% fee</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #2e7d32; font-weight: bold;">0.00 % (Free)</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Withdrawing Cash from ATMs</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #c62828;">approx. $5.00 - $10.00 per use</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #2e7d32; font-weight: bold;">$0.00 (Free options)</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Annual Card Fees</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Up to $95+ annually</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #2e7d32; font-weight: bold;">Permanently $0</td>
+      </tr>
+    </table>
+
+    <h3 style="margin-top: 30px;">The Ultimate Merchant Trick: DCC (Dynamic Currency Conversion)</h3>
+    <p>There is one specific terminal trick you must know before arriving in {{LAND_NAME}}: When checking out or using an ATM, the screen will ask if you prefer to be billed in your home currency (<strong>USD</strong>) or the local currency (<strong>{{WAEHRUNG}}</strong>). <br><br>
+    <strong>ALWAYS select the local currency ({{WAEHRUNG}})!</strong><br>
+    Choosing USD hands the conversion process directly to the local terminal processor or ATM vendor (DCC). They establish custom exchange rates that run up to 10% worse than baseline averages. Leaving the settlement in {{WAEHRUNG}} lets Visa or Mastercard process the conversion at competitive, institutional rates.</p>
+    
+    <h2 id="faq">Frequently Asked Questions (FAQ) About Paying in {{LAND_NAME}}</h2>
+    <details style="background: #fafafa; border: 1px solid #ddd; padding: 10px 15px; margin-bottom: 10px; border-radius: 4px;">
+      <summary style="font-weight: bold; cursor: pointer;">Can I use my standard domestic debit card in {{LAND_NAME}}?</summary>
+      <p style="margin-top: 10px; color: #555;">Standard US debit cards carrying a Visa or Mastercard logo generally clear transactions globally. However, unless you are using a specialized checking account, you will still face premium international conversion expenses and flat out-of-network terminal fees from your home institution.</p>
+    </details>
+    <details style="background: #fafafa; border: 1px solid #ddd; padding: 10px 15px; margin-bottom: 10px; border-radius: 4px;">
+      <summary style="font-weight: bold; cursor: pointer;">Are there fees that even specialized travel cards cannot prevent?</summary>
+      <p style="margin-top: 10px; color: #555;">Yes. Some individual terminal and ATM operators in {{LAND_NAME}} charge local owner fees (surcharges) directly displayed before cash distribution (e.g., \"This ATM charges a fee of ...\"). These originate from the terminal owner, not your card network. Travel cards generally cannot override these third-party operators. If you see this notice, decline the transaction and look for an ATM operated by a major local bank.</p>
+    </details>
+    <details style="background: #fafafa; border: 1px solid #ddd; padding: 10px 15px; margin-bottom: 10px; border-radius: 4px;">
+      <summary style="font-weight: bold; cursor: pointer;">Do I even need cash in {{LAND_NAME}} anymore?</summary>
+      <p style="margin-top: 10px; color: #555;">While tap-to-pay options (Apple Pay, Google Pay, and contactless cards) are heavily utilized globally, keeping a reasonable amount of local cash ({{WAEHRUNG}}) on hand remains highly recommended for tips, marketplace vendors, transport services, or unexpected offline rural areas.</p>
+    </details>
+  </div>
+
+  <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
+    <h3>Information for other travel destinations:</h3>
+    <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
+      {{BELIEBTE_LINKS}}
+    </div>
+  </div>
+</div>
+
+<div class="trust-section">
+    <h3>Expertise in Travel Regulation & Consumer Finance</h3>
+    <p class="trust-text">
+        Our toolkits and travel guides rely on ongoing analysis of current retail banking terms and conditions across major financial networks. 
+        They are constructed to help everyday travelers bypass unnecessary banking premiums and common terminal pricing strategies abroad.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Important Notice: Retail banking terms change frequently. Our interactive tool generates baseline projections to illustrate potential cost profiles (informational self-help). All contents and output balances are provided purely for informational references and do not represent financial, investment, legal, or professional tax consulting advice (No Financial Advice). Any liability for direct accuracy, timeline alignment, or financial variances and personal economic outcomes related to this data is excluded to the furthest extent permitted by applicable law (Disclaimer of Liability).
+        </span>
+    </p>
+
+    <a href="ueber-uns.html" class="trust-link">
+        Learn more about our editorial standards &rarr;
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Issues with a flight cancellation, train delay, or hotel booking?</strong><br>
+        Fix-My-Trip evaluates potential consumer compensation claims, ticket refunds, or package price reductions in just a few clicks. <br>
+        <em>A service provided by Fix my Trip.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Spotted an outdated bank fee or fee metric?</strong> Help us stay precise by reporting data drops or systemic bugs directly to our quality center: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Send data updates to our team</a>.
+</p>
+</div>
+
+<section class="site-niche-directory">
+    <div class="niche-directory-container">
+        <h2 class="niche-directory-title">Explore Additional Travel Guides</h2>
+        <p class="niche-directory-intro">
+            From flight interruptions and accommodation standard gaps to roaming fee traps – our analysis teams provide structured checklists and form layouts for almost any travel issue.
+        </p>
+        
+        <div class="niche-directory-grid">
+            <div class="niche-directory-group">
+                <h3>Flights &amp; Transit hubs</h3>
+                <ul>
+                    <li><a href="flugverspaetung-info.html">Flight Delays &amp; Cancellations</a></li>
+                    <li><a href="steuern-info.html">Reclaiming Unused Flight Taxes</a></li>
+                    <li><a href="gepaeck-info.html">Baggage Damage &amp; Lost Luggage</a></li>
+                    <li><a href="flughafen-parken-info.html">Airport Parking Rate Tips</a></li>
+                    <li><a href="ota-rueckerstattung-info.html">Booking Portal (OTA) Refunds</a></li>
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Lodging &amp; Vacation Packages</h3>
+                <ul>
+                    <li><a href="hotel-maengel-info.html">Hotel Deficiencies &amp; Construction Noise</a></li>
+                    <li><a href="storno-info.html">Cancellation Fees &amp; Rules</a></li>
+                    <li><a href="ferienhaus-maengel-info.html">Vacation Rentals &amp; Villas</a></li>
+                    <li><a href="airbnb-probleme-info.html">Resolving Airbnb Booking Issues</a></li>
+                    <li><a href="kreuzfahrt-minderung.html">Cruise Disruption &amp; Rights</a></li>
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Logistics &amp; Global Mobility</h3>
+                <ul>
+                    <li><a href="zugverspaetung-info.html">Rail Disruption &amp; Passenger Rights</a></li>
+                    <li><a href="einreise-info.html">Entry Rules &amp; Visa Logistics</a></li>
+                    <li><a href="esim-roaming-info.html">eSIM Setup &amp; Data Roaming</a></li>
+                    <li><a href="mietwagen-info.html">Car Rental Loss Damage Waivers</a></li>
+                    <li><a href="zoll-info.html">Customs, Limits &amp; Import Allowances</a></li>
+                    <li><a href="reisekreditkarten-info.html">Travel Credit Card Deep Dives</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">About Us</a> | 
+        <a href="index.html">Home</a> | 
+        <a href="impressum.html">Legal Notice</a> | 
+        <a href="datenschutz.html">Privacy Policy</a>
+    </nav>
+</footer>
+
+<div id="stickyCta" class="sticky-cta">
+  <p style="margin: 0 0 10px 0; font-size: 0.9em; font-weight: bold; color: #333;">$0 Foreign Transaction Fees in {{LAND_NAME}}</p>
+  <a href="{{AFFILIATE_LINK}}" target="_blank" rel="noopener nofollow" class="button-primary" style="background: #ffb300; color: #000; text-decoration: none; border-radius: 6px; font-weight: bold;">Compare Travel Credit Cards</a>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const form = document.getElementById('feeCalcForm');
+  const resultBox = document.getElementById('feeResultBox');
+
+  if(form) {
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      // 1. Collect inputs
+      const budget = parseFloat(document.getElementById('cBudget').value) || 0;
+      const cardPercent = parseFloat(document.getElementById('cCardPercent').value) || 0;
+      const withdrawals = parseInt(document.getElementById('cWithdrawals').value) || 0;
+      const bankType = document.getElementById('cBankType').value;
+
+      const budgetOnCard = budget * (cardPercent / 100);
+
+      // 2. US Market fee conditions
+      let feePercentLow = 0;
+      let feePercentHigh = 0;
+      let atmFeeLow = 0;
+      let atmFeeHigh = 0;
+
+      if (bankType === 'filial') {
+        feePercentLow = 0.0200; // 2.0%
+        feePercentHigh = 0.0300; // 3.0%
+        atmFeeLow = 5.00; // $5 flat
+        atmFeeHigh = 10.00; // $10 flat
+      } else {
+        feePercentLow = 0.0000; // Credit Unions / No-FX Online Checkings often 0%
+        feePercentHigh = 0.0100; // 1.0%
+        atmFeeLow = 0.00; 
+        atmFeeHigh = 5.00;
+      }
+
+      // 3. Calculation
+      const costPercentLow = budgetOnCard * feePercentLow;
+      const costPercentHigh = budgetOnCard * feePercentHigh;
+      
+      const costAtmLow = withdrawals * atmFeeLow;
+      const costAtmHigh = withdrawals * atmFeeHigh;
+
+      const totalLow = costPercentLow + costAtmLow;
+      const totalHigh = costPercentHigh + costAtmHigh;
+
+      // 4. US Formatting
+      const formatCurrency = (val) => val.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+      
+      const textTotalLow = formatCurrency(totalLow);
+      const textTotalHigh = formatCurrency(totalHigh);
+
+      // 5. Output template string updates
+      resultBox.style.display = 'block';
+      resultBox.innerHTML = `
+        <h3 style="color: #1565c0; margin-top: 0; font-size: 1.4em;">Your Estimated Fee Profile:</h3>
+        <p style="font-size: 1.1em;">With a local budget of ${formatCurrency(budget)} (${cardPercent}% card usage) and ${withdrawals} ATM withdrawals, your current home bank will likely charge:</p>
+        
+        <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
+          <div style="flex: 1; min-width: 250px; padding: 20px; background: #ffebee; border: 2px solid #c62828; border-radius: 6px;">
+            <h4 style="color: #b71c1c; margin-top: 0; font-size: 1.1em;">Your Current Account</h4>
+            <p style="margin-bottom: 5px; font-size: 0.9em; color: #555;">Foreign Transaction & Surcharges:</p>
+            <span style="font-size: 1.6em; font-weight: 900; color: #c62828;">${textTotalLow} to ${textTotalHigh}</span>
+            <p style="font-size: 0.85em; color: #b71c1c; margin-top: 10px; font-weight: bold;">⚠️ This money is completely lost to bank overhead.</p>
+          </div>
+          
+          <div style="flex: 1; min-width: 250px; padding: 20px; background: #f1f8e9; border: 2px solid #2e7d32; border-radius: 6px;">
+            <h4 style="color: #2e7d32; margin-top: 0; font-size: 1.1em;">With a Travel Card</h4>
+            <p style="margin-bottom: 5px; font-size: 0.9em; color: #555;">Pay & withdraw cash globally for free:</p>
+            <span style="font-size: 1.8em; font-weight: 900; color: #2e7d32;">$0.00</span>
+            <p style="font-size: 0.85em; color: #2e7d32; margin-top: 10px; font-weight: bold;">✅ You keep up to ${textTotalHigh} in your pocket!</p>
+          </div>
+        </div>
+        
+        <p style="margin-top: 25px; text-align: center;">
+          <button type="button" onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth', block: 'center'});" style="background: #1565c0; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">Secure a Fee-Free Card & Save Money</button>
+        </p>
+      `;
+
+      resultBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    });
+  }
+
+  // Sticky CTA Behavior
+  const stickyCta = document.getElementById('stickyCta');
+  const mainAffiliateBtn = document.querySelector('.main-affiliate-btn');
+  
+  if(stickyCta && mainAffiliateBtn) {
+    window.addEventListener('scroll', function() {
+      const btnRect = mainAffiliateBtn.getBoundingClientRect();
+      if (btnRect.top < 0) {
+        stickyCta.classList.add('show');
+      } else {
+        stickyCta.classList.remove('show');
+      }
+    });
+  }
+});
+</script>
+</body>
+</html>

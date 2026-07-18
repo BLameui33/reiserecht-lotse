@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Credit Card Chargeback: Dispute Transactions & Get Refunds</title>
+  <meta name="description" content="Did a travel provider cancel your trip and refuse a refund? Learn how to use a credit card chargeback to get your money back under US billing rules.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="canonical" href="https://www.fix-my-trip.com/en-us/chargeback-info.html">
+<link rel="alternate" hreflang="en-US" href="https://www.fix-my-trip.com/en-us/chargeback-info.html">
+<link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/en-us/chargeback-info.html">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "What is a credit card chargeback?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A chargeback is a reversal of a credit card transaction. Under the Fair Credit Billing Act, if you paid for a service (like a flight or hotel) that was not provided, your bank can pull the funds back from the merchant."
+      }
+    }, {
+      "@type": "Question",
+      "name": "How long do I have to file a chargeback?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Typically, you have 60 days from the date the charge appeared on your credit card statement to initiate a dispute. In some cases involving future travel, the timeframe may start from the date the service was supposed to be provided."
+      }
+    }]
+  }
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Refused Refund? Initiate a Credit Card Chargeback</h1>
+  
+  <p>If an airline cancels your flight or a tour operator goes bankrupt and refuses to issue a refund, your credit card is your best safety net. Under the <strong>Fair Credit Billing Act</strong>, US consumers have the right to dispute charges for services that were paid for but not delivered.</p>
+  
+  <p>A "chargeback" allows your bank to forcibly reverse the transaction and return the money to your account. Our tool helps you generate a clear, structured document to submit to your credit card issuer (like Chase, Amex, or Citi) to prove your case.</p>
+
+  <div class="legal-info-box">
+    <strong>Important Notice on Usage</strong><br>
+    This tool is an <strong>automated template generator</strong> (help for self-help). It simply inserts your data into standard templates to help you communicate with your bank. There is <strong>no individual review</strong> of your case. This free service does not replace professional advice from an attorney. Use of this tool is at your own risk.
+  </div>
+
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Generate Dispute Document</h2>
+    <p>Select the merchant (airline, hotel, or booking portal) that refused your refund:</p>
+    
+    <select id="merchantSelect">
+      <option value="">-- Please select a merchant --</option>
+      {{CHARGEBACK_OPTIONS}}
+      <option value="credit-card-chargeback-allgemein.html">Other Merchant (General form)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Go to the chargeback generator</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Popular Merchants for Disputes</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{CHARGEBACK_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Checklist: Filing a Successful Chargeback</h2>
+  <p>Banks require proof before they take money back from a merchant. Follow these steps:</p>
+  
+  <div class="checklist-box" id="checklistToPrint">
+    <h3 style="margin-top:0; color:#1565c0;">Chargeback Preparation List</h3>
+    <ul>
+      <li><strong>Attempt resolution first:</strong> You must try to get a refund directly from the merchant before asking your bank for a chargeback.</li>
+      <li><strong>Document the refusal:</strong> Save the email or chat transcript showing the merchant denying your refund or offering only a voucher you didn't want.</li>
+      <li><strong>Identify the reason code:</strong> In travel scenarios, the dispute is almost always "Services Not Provided" or "Canceled Service".</li>
+      <li><strong>Act quickly:</strong> Do not wait. You generally only have 60 days from your billing statement to file the dispute.</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('checklist-chargeback.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+    Generate & save checklist as PDF
+  </button>
+
+  <h2 style="margin-top: 40px;">Case Studies: When to Dispute</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Example: The Forced Travel Voucher</h3>
+    <p>An airline cancels a flight to Europe and only offers the passenger a travel credit valid for one year. The passenger wants their money back, but the airline support hotline hangs up.<br>
+    <strong>Solution:</strong> The passenger initiates a chargeback with their credit card company. Since DOT rules mandate cash refunds for canceled flights, the bank reverses the charge and the passenger gets their money back.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">FAQ: Chargeback Process</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">Will the merchant ban me for doing a chargeback?</div>
+    <div class="faq-answer">It is possible. Some merchants (like certain ride-share apps or airlines) may suspend your account if you initiate a chargeback. You should only use this method if the merchant is unfairly withholding a refund you are entitled to, and you do not mind potentially losing access to that specific account.</div>
+  </div>
+
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">What if I paid with a debit card?</div>
+    <div class="faq-answer">Debit cards are governed by the Electronic Fund Transfer Act, which has different rules and tighter deadlines than credit cards. While you can still dispute debit card charges, the protection is often weaker and your actual bank account funds remain tied up during the investigation.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Consumer Protection & Financial Tools</h3>
+    <p class="trust-text">
+        Our standard document generators are built to empower consumers to navigate billing disputes efficiently and structure their communication with major banks.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Important Note: Our tools provide help for self-help. They do not replace individual advice from an attorney.
+        </span>
+    </p>
+
+    <div class="lotse-card">
+        <p>
+            <strong>Need your money back?</strong><br>
+            Fix-My-Trip helps you compile the necessary text to submit a formal dispute with your credit card issuer.<br>
+            <em>A service provided by Fix my Trip.</em>
+        </p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">About us</a> | 
+        <a href="index.html">Home</a> | 
+        <a href="impressum.html">Imprint</a> | 
+        <a href="datenschutz.html">Privacy Policy</a>
+    </nav>
+</footer>
+
+<script>
+function routeToGenerator() {
+    const selectElement = document.getElementById('merchantSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Please select a merchant from the list first.");
+    }
+}
+
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    const opt = {
+        margin:       15,
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { scale: 2, scrollY: 0, windowWidth: document.documentElement.offsetWidth },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,184 @@
+[
+  {
+    "slug": "american-airlines",
+    "name": "American Airlines, Inc.",
+    "adresse": "American Airlines Customer Relations\n4000 E. Sky Harbor Blvd.\nPhoenix, AZ 85034\nUSA",
+    "infobox": "<p>American Airlines is the world's largest carrier by fleet size, headquartered in Fort Worth, Texas, with its main hub at Dallas/Fort Worth International Airport. As a U.S. carrier, American is bound by Department of Transportation (DOT) rules on flight delays, cancellations, and denied boarding, as well as by the Montreal Convention for lost or damaged baggage on international itineraries. Passengers who are involuntarily bumped from an oversold domestic flight are entitled to cash compensation of up to $1,550, and refunds are owed whenever a flight is cancelled or significantly changed and the passenger chooses not to travel. Complaints that go unresolved with the airline can be escalated to the DOT's Aviation Consumer Protection Division.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "delta-air-lines",
+    "name": "Delta Air Lines, Inc.",
+    "adresse": "Delta Air Lines\nCustomer Care\nP.O. Box 20980\nDepartment 980\nAtlanta, GA 30320-2980\nUSA",
+    "infobox": "<p>Delta Air Lines is headquartered in Atlanta, Georgia, with its primary hub at Hartsfield-Jackson Atlanta International Airport, the busiest airport in the world. Delta is subject to DOT regulations covering denied boarding compensation, refund obligations for cancelled or significantly delayed flights, and to the Montreal Convention for baggage claims on international trips. Passengers denied boarding involuntarily on an oversold domestic flight can be entitled to compensation of up to $1,550 in cash, not a travel voucher. If Delta fails to resolve a complaint directly, travelers can escalate the matter to the DOT.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "united-airlines",
+    "name": "United Airlines, Inc.",
+    "adresse": "United Airlines, Inc.\nCustomer Relations\nP.O. Box 06649\nChicago, IL 60606-0649\nUSA",
+    "infobox": "<p>United Airlines is headquartered in Chicago, Illinois, and operates major hubs in Chicago, Denver, Houston, Newark, San Francisco, and Los Angeles. As a U.S. carrier, United must comply with DOT rules on refunds, denied boarding compensation, and baggage liability, with the Montreal Convention applying to international flights. Passengers bumped from an oversold domestic United flight against their will are entitled to cash compensation of up to $1,550, and a full refund is owed for cancelled flights the passenger does not wish to rebook. Complaints that United does not adequately resolve can be forwarded to the DOT's Aviation Consumer Protection Division.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "southwest-airlines",
+    "name": "Southwest Airlines Co.",
+    "adresse": "Southwest Airlines\nP.O. Box 36647-1CR\nDallas, TX 75235\nUSA",
+    "infobox": "<p>Southwest Airlines is a low-cost carrier headquartered in Dallas, Texas, and is the largest domestic airline in the United States by passengers carried. Southwest is known for not charging change fees and for its two-free-checked-bags policy, but it remains bound by DOT rules on refunds for cancelled flights and on compensation for involuntary denied boarding. Following the airline's major December 2022 operational meltdown, Southwest also agreed to a Customer Service Plan with enforceable commitments on rebooking and reimbursement during controllable disruptions. Unresolved complaints can be escalated to the DOT.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "alaska-airlines",
+    "name": "Alaska Airlines, Inc.",
+    "adresse": "Alaska Airlines\nAttn.: Customer Relations\nP.O. Box 68900\nSeattle, WA 98168\nUSA",
+    "infobox": "<p>Alaska Airlines is headquartered in Seattle, Washington, with its main hub at Seattle-Tacoma International Airport, and it strongly serves the West Coast and Hawaii. Since its 2024 merger with Hawaiian Airlines, Alaska has expanded its network considerably while remaining subject to the same DOT rules on refunds, cancellations, and denied boarding compensation as other major U.S. carriers. Passengers involuntarily bumped from an oversold domestic flight are entitled to cash compensation of up to $1,550, and international baggage claims fall under the Montreal Convention. Complaints unresolved by the airline can be taken to the DOT.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "jetblue-airways",
+    "name": "JetBlue Airways Corporation",
+    "adresse": "JetBlue Airways Corporation\nAttn: Customer Support\n27-01 Queens Plaza North\nLong Island City, NY 11101\nUSA",
+    "infobox": "<p>JetBlue Airways is headquartered in Long Island City, New York, with major operations centered on New York's JFK Airport and Boston Logan. JetBlue publishes a formal Customer Bill of Rights that goes beyond baseline DOT requirements, promising cash or credit compensation for controllable delays and cancellations. The airline is also bound by standard DOT rules on denied boarding compensation and ticket refunds, and by the Montreal Convention for baggage issues on international itineraries. If JetBlue does not resolve a complaint satisfactorily, travelers can file with the DOT.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "spirit-airlines",
+    "name": "Spirit Airlines, Inc.",
+    "adresse": "Spirit Airlines\nCustomer Relations\n2800 Executive Way\nMiramar, FL 33025\nUSA",
+    "infobox": "<p>Spirit Airlines is an ultra-low-cost carrier headquartered in Miramar, Florida, operating a major hub at Fort Lauderdale-Hollywood International Airport. As a budget carrier with unbundled pricing, Spirit is frequently the subject of complaints about ancillary fees, seat assignments, and schedule changes, but it remains fully subject to DOT rules on refunds and denied boarding compensation. Passengers involuntarily bumped from an oversold domestic flight are entitled to cash compensation of up to $1,550, and a full refund is owed whenever the airline cancels or significantly changes a flight. Escalation to the DOT is available if Spirit does not resolve a complaint directly.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "frontier-airlines",
+    "name": "Frontier Airlines, Inc.",
+    "adresse": "Frontier Airlines\nAttn: Customer Relations\n4545 Airport Way\nDenver, CO 80239\nUSA",
+    "infobox": "<p>Frontier Airlines is an ultra-low-cost carrier headquartered in Denver, Colorado, with its primary hub at Denver International Airport. Like other budget carriers, Frontier relies on a la carte pricing for bags, seats, and changes, which frequently leads to disputes over fees and refunds. Frontier must nonetheless comply with DOT requirements on refunds for cancelled or significantly changed flights and on cash compensation for involuntary denied boarding. Complaints that Frontier fails to resolve satisfactorily can be escalated to the DOT's Aviation Consumer Protection Division.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "hawaiian-airlines",
+    "name": "Hawaiian Airlines, Inc.",
+    "adresse": "Hawaiian Airlines\nP.O. Box 30008\nHonolulu, HI 96820\nUSA",
+    "infobox": "<p>Hawaiian Airlines is headquartered in Honolulu, Hawaii, and operates the largest network of flights between the U.S. mainland and the Hawaiian Islands, as well as long-haul international routes across the Pacific. Since 2024 the airline has been part of the Alaska Air Group, though it continues to operate under its own brand and customer service channels. Hawaiian is subject to DOT rules on refunds and denied boarding compensation, and international baggage claims are governed by the Montreal Convention. Unresolved complaints can be forwarded to the DOT.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "allegiant-air",
+    "name": "Allegiant Air, LLC",
+    "adresse": "Allegiant Travel Company\nAttn: Customer Relations\nP.O. Box 371730\nLas Vegas, NV 89137\nUSA",
+    "infobox": "<p>Allegiant Air is an ultra-low-cost carrier headquartered in Las Vegas, Nevada, focused on nonstop leisure routes connecting small and mid-sized cities to vacation destinations such as Florida, Las Vegas, and Phoenix. The airline, owned by Allegiant Travel Company, completed a merger with Sun Country Airlines in 2026, though both brands continue to operate their own customer service channels during the integration. Allegiant must comply with DOT rules on refunds for cancelled or significantly changed flights and on cash compensation for involuntary denied boarding. If a complaint is not resolved directly with the airline, it can be escalated to the DOT.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "sun-country-airlines",
+    "name": "Sun Country Airlines, Inc.",
+    "adresse": "Sun Country Airlines\n2005 Cargo Road\nMinneapolis, MN 55450\nUSA",
+    "infobox": "<p>Sun Country Airlines is a leisure and charter carrier headquartered in Minneapolis, Minnesota, with its primary hub at Minneapolis-Saint Paul International Airport. As an ultra-low-cost carrier with unbundled pricing, disputes commonly arise over baggage fees, seat assignments, and schedule changes. Sun Country remains bound by DOT rules on refunds for cancelled or significantly changed flights and on cash compensation for involuntary denied boarding. Complaints that the airline does not resolve satisfactorily can be escalated to the DOT.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "british-airways",
+    "name": "British Airways Plc",
+    "adresse": "British Airways Customer Relations\n11 West 42nd Street, 24th Floor\nNew York, NY 10036\nUSA",
+    "infobox": "<p>British Airways is the flag carrier of the United Kingdom, headquartered near London Heathrow Airport, and a founding member of the Oneworld alliance. On flights departing the U.S., passengers are protected primarily by DOT rules on refunds and denied boarding compensation, while the Montreal Convention governs liability for lost, delayed, or damaged baggage. On the return leg from the UK or EU, passengers may additionally be entitled to compensation under UK or EU passenger rights rules for long delays and cancellations caused by the airline. Complaints unresolved by British Airways directly can be escalated to the DOT for the U.S. portion of the journey.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "lufthansa",
+    "name": "Deutsche Lufthansa AG",
+    "adresse": "Lufthansa Customer Relations\n1400 RXR Plaza, West Tower\nUniondale, NY 11556\nUSA",
+    "infobox": "<p>Lufthansa is Germany's flag carrier, headquartered in Cologne, with major hubs in Frankfurt and Munich. On U.S.-departing flights, passengers are covered by DOT refund and denied boarding rules, while the Montreal Convention applies to international baggage claims. On flights originating in the EU, passengers may separately be entitled to compensation of €250 to €600 under EU Regulation 261/2004 for delays of three or more hours or short-notice cancellations caused by the airline. If Lufthansa does not resolve a complaint, U.S. travelers can escalate to the DOT.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "air-france",
+    "name": "Société Air France",
+    "adresse": "Air France\n45 Rue de Paris\n95747 Tremblay-en-France Cedex\nFrankreich",
+    "infobox": "<p>Air France is France's flag carrier, headquartered near Paris-Charles de Gaulle Airport, its main hub, and a founding member of the SkyTeam alliance. On flights to or from the U.S., passengers are protected by DOT rules on refunds and denied boarding compensation, with the Montreal Convention governing baggage liability. On flights departing an EU airport, passengers may additionally claim compensation under EU Regulation 261/2004 for significant delays or cancellations attributable to the airline. Unresolved complaints regarding the U.S. portion of a trip can be escalated to the DOT.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "air-canada",
+    "name": "Air Canada",
+    "adresse": "Air Canada Customer Relations\nP.O. Box 64239, RPO Thorncliffe\nCalgary, AB T2K 6J7\nKanada",
+    "infobox": "<p>Air Canada is Canada's largest airline, headquartered in Montreal, with major hubs in Toronto, Montreal, and Vancouver. On flights to and from the U.S., American passengers are covered by DOT rules on refunds and denied boarding compensation, and by the Montreal Convention for baggage claims. Wholly Canadian itineraries instead fall under Canada's Air Passenger Protection Regulations, which set their own compensation amounts for delays, cancellations, and denied boarding. Complaints regarding the U.S. portion of travel that Air Canada does not resolve can be escalated to the DOT.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "klm",
+    "name": "Koninklijke Luchtvaart Maatschappij N.V. (KLM)",
+    "adresse": "KLM Royal Dutch Airlines\nAmsterdamseweg 55\n1182 GP Amstelveen\nNiederlande",
+    "infobox": "<p>KLM Royal Dutch Airlines is the flag carrier of the Netherlands, headquartered in Amstelveen near Amsterdam Airport Schiphol, and part of the Air France-KLM Group. On flights to or from the U.S., American passengers are covered by DOT rules on refunds and denied boarding compensation, with the Montreal Convention applying to baggage claims. On flights departing an EU airport, passengers may additionally be entitled to compensation under EU Regulation 261/2004 for delays or cancellations caused by the airline. Complaints regarding the U.S. leg of a journey that KLM does not resolve can be escalated to the DOT.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "emirates",
+    "name": "Emirates",
+    "adresse": "Emirates Group Headquarters\nAl Garhoud, Airport Road, Opposite Terminal 3\nP.O. Box 686\nDubai\nVereinigte Arabische Emirate",
+    "infobox": "<p>Emirates is the flag carrier of the United Arab Emirates, headquartered in Dubai and operating one of the largest long-haul fleets in the world through its hub at Dubai International Airport. On flights to or from the U.S., passengers are protected by DOT rules on refunds and denied boarding compensation, and by the Montreal Convention for lost, delayed, or damaged baggage. Because Emirates operates numerous one-stop connections through Dubai, delays or missed connections are common sources of complaints, making careful documentation of the disruption especially important. Complaints affecting the U.S. portion of travel that Emirates does not resolve can be escalated to the DOT.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "qatar-airways",
+    "name": "Qatar Airways",
+    "adresse": "Qatar Airways Tower 1\nAirport Road\nDoha\nKatar",
+    "infobox": "<p>Qatar Airways is the flag carrier of Qatar, headquartered in Doha with its hub at Hamad International Airport, and a member of the Oneworld alliance. On flights to or from the U.S., passengers are entitled to a full refund under DOT rules if a flight is significantly delayed, cancelled, or changed, and to cash compensation if involuntarily denied boarding due to overbooking. International baggage mishandling is covered by the Montreal Convention. If Qatar Airways does not resolve a complaint satisfactorily, U.S. travelers can escalate the matter to the DOT.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "turkish-airlines",
+    "name": "Turkish Airlines (Türk Hava Yolları A.O.)",
+    "adresse": "Turkish Airlines General Management Building\nIstanbul Airport\n34149 Istanbul\nTürkei",
+    "infobox": "<p>Turkish Airlines is Turkey's flag carrier, headquartered at Istanbul Airport, which also serves as its primary hub connecting Europe, Asia, Africa, and North America. On flights to or from the U.S., passengers are covered by DOT rules on refunds and denied boarding compensation, with the Montreal Convention applying to baggage claims. On flights departing an EU airport, passengers may separately be entitled to compensation under EU Regulation 261/2004 for delays or cancellations caused by the airline. Complaints regarding the U.S. portion of a trip that Turkish Airlines does not resolve can be escalated to the DOT.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "virgin-atlantic",
+    "name": "Virgin Atlantic Airways Limited",
+    "adresse": "Virgin Atlantic Airways Limited\nVHQ, Fleming Way\nCrawley, RH10 9DF\nVereinigtes Königreich",
+    "infobox": "<p>Virgin Atlantic is a British airline headquartered in Crawley near London Gatwick Airport, operating primarily between the UK and North America in a close partnership with Delta Air Lines. On flights to or from the U.S., passengers are protected by DOT rules on refunds and denied boarding compensation, and by the Montreal Convention for baggage issues. On flights departing the UK, passengers may additionally be entitled to compensation under UK passenger rights rules for significant delays or cancellations caused by the airline. Complaints regarding the U.S. leg of travel that Virgin Atlantic does not resolve can be escalated to the DOT.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "ana-all-nippon-airways",
+    "name": "All Nippon Airways Co., Ltd. (ANA)",
+    "adresse": "All Nippon Airways Co., Ltd.\nShiodome City Center, 1-5-2 Higashi-Shimbashi\nMinato-ku, Tokyo 105-7140\nJapan",
+    "infobox": "<p>All Nippon Airways (ANA) is Japan's largest airline, headquartered in Tokyo with hubs at Haneda and Narita airports, and a member of the Star Alliance. On flights to or from the U.S., passengers are covered by DOT rules on refunds for cancelled or significantly changed flights and on cash compensation for involuntary denied boarding, while the Montreal Convention governs international baggage claims. Long-haul disruptions on ANA's U.S. routes often involve connections through its Tokyo hubs, so documenting the full itinerary and any missed connections strengthens a claim. Complaints regarding the U.S. portion of a trip that ANA does not resolve can be escalated to the DOT.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "japan-airlines",
+    "name": "Japan Airlines Co., Ltd. (JAL)",
+    "adresse": "Japan Airlines Co., Ltd.\n2-4-11 Higashi-Shinagawa\nShinagawa-ku, Tokyo 140-8637\nJapan",
+    "infobox": "<p>Japan Airlines (JAL) is one of Japan's two major flag carriers, headquartered in Tokyo with hubs at Haneda and Narita airports, and a member of the Oneworld alliance. On flights to or from the U.S., passengers are entitled to full refunds under DOT rules for significantly delayed, cancelled, or changed flights, and to cash compensation for involuntary denied boarding due to overbooking. International baggage claims are governed by the Montreal Convention. Complaints affecting the U.S. portion of travel that JAL does not resolve can be escalated to the DOT.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "korean-air",
+    "name": "Korean Air Lines Co., Ltd.",
+    "adresse": "Korean Air Lines Co., Ltd.\n260 Haneul-gil, Gangseo-gu\nSeoul\nSüdkorea",
+    "infobox": "<p>Korean Air is South Korea's flag carrier, headquartered in Seoul with its hub at Incheon International Airport, and a founding member of the SkyTeam alliance. On flights to or from the U.S., passengers are protected by DOT rules on refunds and denied boarding compensation, with the Montreal Convention applying to lost, delayed, or damaged baggage. Following its 2024 acquisition of Asiana Airlines, Korean Air's network and codeshare partnerships have expanded significantly. Complaints regarding the U.S. portion of a trip that Korean Air does not resolve can be escalated to the DOT.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "singapore-airlines",
+    "name": "Singapore Airlines Limited",
+    "adresse": "Singapore Airlines Limited\nAirline House, 25 Airline Road\nSingapur 819829\nSingapur",
+    "infobox": "<p>Singapore Airlines is the flag carrier of Singapore, headquartered at Airline House near Singapore Changi Airport, and consistently ranked among the world's highest-rated carriers for service quality. On flights to or from the U.S., passengers are covered by DOT rules on refunds for cancelled or significantly changed flights and on cash compensation for involuntary denied boarding, while the Montreal Convention governs baggage liability on this long-haul route. Given the length of Singapore Airlines' U.S. routes, disruptions often trigger substantial additional costs for hotels and rebooking, which may be separately reimbursable. Complaints regarding the U.S. portion of a trip that the airline does not resolve can be escalated to the DOT.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "latam-airlines",
+    "name": "LATAM Airlines Group S.A.",
+    "adresse": "LATAM Airlines Group S.A.\nAv. Presidente Riesco 5711\n7550611 Santiago\nChile",
+    "infobox": "<p>LATAM Airlines Group is the largest airline group in Latin America, headquartered in Santiago, Chile, and a member of the Oneworld alliance, operating extensive routes between the U.S. and South America. On flights to or from the U.S., passengers are protected by DOT rules on refunds and denied boarding compensation, with the Montreal Convention applying to international baggage claims. Because many LATAM itineraries route through hubs in Santiago, Lima, or São Paulo, missed connections are a frequent source of complaints and should be documented alongside the original booking. Complaints regarding the U.S. portion of a trip that LATAM does not resolve can be escalated to the DOT.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "icelandair",
+    "name": "Icelandair ehf.",
+    "adresse": "Icelandair\nReykjavik Airport\n101 Reykjavik\nIsland",
+    "infobox": "<p>Icelandair is Iceland's flag carrier, headquartered in Reykjavik, and known for offering stopover connections between the U.S. East Coast and Europe through Keflavik International Airport. On flights to or from the U.S., passengers are covered by DOT rules on refunds and denied boarding compensation, with the Montreal Convention governing baggage liability. On the European leg of a journey departing Iceland or another EU/EEA country, passengers may additionally be entitled to compensation under EU Regulation 261/2004 for delays or cancellations caused by the airline. Complaints regarding the U.S. portion of a trip that Icelandair does not resolve can be escalated to the DOT.</p><!--opt-->",
+    "is_optimized": true
+  }
+]
