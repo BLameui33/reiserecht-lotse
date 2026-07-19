@@ -136,8 +136,7 @@
       <label>Airline Name:</label>
       <input type="text" id="aName" value="Sun Country Airlines, Inc." required>
       <label>Airline Address (Optional):</label>
-      <textarea id="aAdresse" rows="3" required>Sun Country Airlines
-2005 Cargo Road
+      <textarea id="aAdresse" rows="3" required>2005 Cargo Road
 Minneapolis, MN 55450
 USA</textarea>
     </fieldset>
@@ -259,10 +258,10 @@ USA</textarea>
   <h3>Discover other related topics:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="dot-complaint-escalation-icelandair.html">Icelandair ehf.</a>
-<a href="dot-complaint-escalation-latam-airlines.html">LATAM Airlines Group S.A.</a>
+<a href="dot-complaint-escalation-spirit-airlines.html">Spirit Airlines, Inc.</a>
+<a href="dot-complaint-escalation-turkish-airlines.html">Turkish Airlines (Türk Hava Yolları A.O.)</a>
 <a href="dot-complaint-escalation-allegiant-air.html">Allegiant Air, LLC</a>
-<a href="dot-complaint-escalation-air-canada.html">Air Canada</a>
-<a href="dot-complaint-escalation-ana-all-nippon-airways.html">All Nippon Airways Co., Ltd. (ANA)</a>
+<a href="dot-complaint-escalation-frontier-airlines.html">Frontier Airlines, Inc.</a>
 
   </div>
 </div>
@@ -331,10 +330,11 @@ USA</textarea>
                 <h3>Flight &amp; Airport</h3>
                 <ul>
                     <li><a href="flugverspaetung-info.html">Flight Delays &amp; Cancellations</a></li>
-                    <li><a href="steuern-info.html">Reclaiming Flight Taxes</a></li>
+                    
                     <li><a href="gepaeck-info.html">Lost Baggage &amp; Damage</a></li>
                     <li><a href="flughafen-parken-info.html">Airport Parking Fees</a></li>
                     <li><a href="ota-rueckerstattung-info.html">Booking Portals (OTA) Issues</a></li>
+                    <li><a href="dot-escalation.html">DOT complaint</a></li>
                 </ul>
             </div>
 
@@ -343,20 +343,20 @@ USA</textarea>
                 <ul>
                     <li><a href="hotel-maengel-info.html">Hotel Complaints &amp; Noise</a></li>
                     <li><a href="storno-info.html">Trip Cancellation Costs</a></li>
-                    <li><a href="ferienhaus-maengel-info.html">Vacation Rentals</a></li>
                     <li><a href="airbnb-probleme-info.html">Airbnb Dispute Resolution</a></li>
                     <li><a href="kreuzfahrt-minderung.html">Cruise Ship Issues</a></li>
+                    <li><a href="chargeback-info.html">Reversal of the amount</a></li>
                 </ul>
             </div>
 
             <div class="niche-directory-group">
                 <h3>Preparation &amp; Mobility</h3>
                 <ul>
-                    <li><a href="zugverspaetung-info.html">Train Delays &amp; Rights</a></li>
+                    
                     <li><a href="einreise-info.html">Visa &amp; Entry Requirements</a></li>
                     <li><a href="esim-roaming-info.html">eSIM &amp; Roaming Charges</a></li>
                     <li><a href="mietwagen-info.html">Rental Car Insurance</a></li>
-                    <li><a href="zoll-info.html">Customs &amp; Import Rules</a></li>
+                    
                     <li><a href="reisekreditkarten-info.html">Travel Credit Card Comparison</a></li>
                 </ul>
             </div>
@@ -429,7 +429,6 @@ USA</textarea>
 </div>
 
 <script>
-
 /* ══════════════════════════════════════════
    ▶▶  PAYPAL-E-MAIL HIER EINTRAGEN ◀◀
    ══════════════════════════════════════════ */
@@ -487,23 +486,6 @@ function closeOverlay() {
 document.getElementById('dotForm').addEventListener('submit', function(e) {
   e.preventDefault();
 
-  const { jsPDF } = window.jspdf;
-  const doc = new jsPDF();
-
-  // --- ZAUBERTRICK START (Fängt den Text für die Copy-Box ab) ---
-let plainText = "";
-const originalText = doc.text.bind(doc);
-doc.text = function() {
-    let text = arguments[0];
-    if (Array.isArray(text)) {
-        plainText += text.join('\n') + '\n';
-    } else {
-        plainText += text + '\n';
-    }
-    return originalText.apply(this, arguments);
-};
-// --- ZAUBERTRICK ENDE ---
-
   const airline   = document.getElementById('aName').value;
   const airlineAddr = document.getElementById('aAdresse').value.replace(/\\n/g, '\n');
   const sName     = document.getElementById('sName').value;
@@ -513,8 +495,10 @@ doc.text = function() {
   const fBuchung  = document.getElementById('fBuchung').value;
   const fNummer   = document.getElementById('fNummer').value;
   const rawDate   = document.getElementById('fDatum').value;
+  
+  // Konvertierung in US-Datumsformat (MM/DD/YYYY)
   const fDatumParts = rawDate.split('-');
-  const fDatum    = `${fDatumParts[1]}/${fDatumParts[2]}/${fDatumParts[0]}`; // US Date Format
+  const fDatum    = `${fDatumParts[1]}/${fDatumParts[2]}/${fDatumParts[0]}`; 
   const fRoute    = document.getElementById('fRoute').value;
   const fGrund    = document.getElementById('fGrund').value;
   const fDetails  = document.getElementById('fDetails').value;
@@ -522,66 +506,7 @@ doc.text = function() {
 
   const todayStr = new Date().toLocaleDateString('en-US', {day: '2-digit', month: '2-digit', year: 'numeric'});
 
-  doc.setFont("helvetica");
-
-  // Absender
-  doc.setFontSize(10);
-  doc.setTextColor(0, 0, 0);
-  doc.setFont("helvetica", "bold");
-  doc.text(sName, 25, 30);
-  doc.setFont("helvetica", "normal");
-  doc.text(sStrasse, 25, 35);
-  doc.text(sPLZOrt, 25, 40);
-  doc.text(`Email: ${sEmail}`, 25, 45);
-
-  // Empfänger (DOT)
-  doc.setFontSize(11);
-  doc.setFont("helvetica", "bold");
-  doc.text("To: U.S. Department of Transportation", 110, 30);
-  doc.setFont("helvetica", "normal");
-  doc.text("Aviation Consumer Protection Division", 110, 35);
-  doc.text("1200 New Jersey Ave, SE", 110, 40);
-  doc.text("Washington, DC 20590", 110, 45);
-
-  doc.text(`Date: ${todayStr}`, 185, 60, {align: 'right'});
-
-  doc.setFontSize(12);
-  doc.setFont("helvetica", "bold");
-  doc.text(`Formal Complaint Against ${airline} – Failure to Comply with Regulations`, 25, 75);
-
-  doc.setFontSize(10.5);
-  doc.setFont("helvetica", "bold");
-  doc.text("Flight Details:", 25, 85);
-  doc.setFont("helvetica", "normal");
-  doc.text(`Confirmation (PNR): ${fBuchung}`, 25, 90);
-  doc.text(`Flight Number: ${fNummer} on ${fDatum}`, 25, 95);
-  doc.text(`Routing: ${fRoute}`, 25, 100);
-
-  doc.setDrawColor(0, 0, 0);
-  doc.line(25, 105, 185, 105);
-
-  const pageH = 297;
-  const marginBottom = 20;
-  const lineH = 6;
-
-  function checkNewPage(doc, y, neededHeight = lineH) {
-    if (y + neededHeight > pageH - marginBottom) { doc.addPage(); return 30; }
-    return y;
-  }
-  function writeLines(doc, lines, startY, lh = lineH) {
-    let y = startY;
-    for (const line of lines) {
-      y = checkNewPage(doc, y);
-      doc.text(line, 25, y);
-      y += lh;
-    }
-    return y;
-  }
-
-  let yPos = 115;
-  doc.setFontSize(11);
-
-  // Dynamischer Einleitungstext je nach Grund
+  // Originaler Einleitungstext je nach Grund (1:1 beibehalten!)
   let regulatoryText = "";
   if(fGrund === "Refund") {
       regulatoryText = `This complaint is filed because ${airline} has failed to provide a prompt refund for a canceled or significantly altered flight, in violation of U.S. Department of Transportation regulations regarding ticket refunds.`;
@@ -593,46 +518,196 @@ doc.text = function() {
       regulatoryText = `This complaint is filed because ${airline} has failed to adhere to its own commitments outlined in its Customer Service Plan, causing significant financial and emotional distress.`;
   }
 
-  const para1 = doc.splitTextToSize(
-    `Dear DOT Aviation Consumer Protection Division,\n\n` +
-    `I am submitting this formal complaint against ${airline} to request your intervention. I have already made a good faith effort to resolve this issue directly with the airline, but they have failed to provide an adequate resolution.\n\n` +
-    regulatoryText + `\n\nNature of the Incident:\n` + fDetails, 160
-  );
-  yPos = writeLines(doc, para1, yPos);
-  yPos += 5;
+  /* -------------------------------------------------------------------------
+     SAUBERER PLAIN-TEXT FÜR DIE COPY-BOX (Perfekt formatiert als E-Mail)
+     ------------------------------------------------------------------------- */
+  const plainText = 
+`${sName}
+${sStrasse}
+${sPLZOrt}
+Email: ${sEmail}
 
-  const para2 = doc.splitTextToSize(
-    `As a result of their failure to comply with established consumer protection rules, I am currently facing unresolved financial damages in the amount of $${fPreis}. The airline's refusal to resolve this matter directly leaves me with no option but to escalate this to your department.\n\n` +
-    `I request that the DOT logs this complaint against the carrier, forwards this grievance to their executive team, and compels them to provide a substantive response as mandated by federal law.`, 160
-  );
-  yPos = writeLines(doc, para2, yPos);
-  yPos += 15;
+Date: ${todayStr}
 
-  yPos = checkNewPage(doc, yPos, 40);
-  doc.text("Sincerely,", 25, yPos);
-  yPos += 20;
+To: U.S. Department of Transportation
+Aviation Consumer Protection Division
+1200 New Jersey Ave, SE
+Washington, DC 20590
 
-  doc.setLineWidth(0.5);
-  doc.line(25, yPos, 80, yPos);
+SUBJECT: Formal Complaint Against ${airline} – Failure to Comply with Regulations
+
+--- FLIGHT DETAILS ---
+Airline: ${airline}
+Confirmation (PNR): ${fBuchung}
+Flight Number: ${fNummer} on ${fDatum}
+Routing: ${fRoute}
+----------------------
+
+Dear DOT Aviation Consumer Protection Division,
+
+I am submitting this formal complaint against ${airline} to request your intervention. I have already made a good faith effort to resolve this issue directly with the airline, but they have failed to provide an adequate resolution.
+
+${regulatoryText}
+
+Nature of the Incident:
+${fDetails}
+
+As a result of their failure to comply with established consumer protection rules, I am currently facing unresolved financial damages in the amount of $${fPreis}. The airline's refusal to resolve this matter directly leaves me with no option but to escalate this to your department.
+
+I request that the DOT logs this complaint against the carrier, forwards this grievance to their executive team, and compels them to provide a substantive response as mandated by federal law.
+
+Sincerely,
+
+${sName}
+
+CC: Executive Customer Care, ${airline}`;
+
+  /* -------------------------------------------------------------------------
+     PDF GENERIERUNG - HOCHWERTIGES US CORPORATE DESIGN
+     ------------------------------------------------------------------------- */
+  const { jsPDF } = window.jspdf;
   
+  // WICHTIG: 'letter' Format für U.S. Behörden
+  const doc = new jsPDF({ unit: 'mm', format: 'letter' }); 
+  
+  const pw = doc.internal.pageSize.getWidth(); 
+  const ph = doc.internal.pageSize.getHeight(); 
+  const margin = 25.4; 
+  const contentW = pw - (margin * 2);
+
+  // 1. Dekorativer Header (Dunkelblaues Band)
+  doc.setFillColor(21, 101, 192); // US Corporate Blue (#1565c0)
+  doc.rect(0, 0, pw, 8, 'F');
+
+  // 2. Dokumenten-Titel (Rechtsbündig)
+  doc.setTextColor(21, 101, 192);
+  doc.setFont("helvetica", "bold");
+  doc.setFontSize(14);
+  doc.text("FORMAL DOT COMPLAINT", pw - margin, 24, { align: 'right' });
+  
+  doc.setTextColor(120, 120, 120);
+  doc.setFontSize(9);
+  doc.setFont("helvetica", "normal");
+  doc.text("Aviation Consumer Protection Division", pw - margin, 29, { align: 'right' });
+
+  // 3. Absender & Datum (Links)
+  doc.setTextColor(0, 0, 0);
+  let y = 45;
+  doc.setFontSize(11);
+  doc.setFont("helvetica", "bold");
+  doc.text(sName, margin, y);
+  doc.setFont("helvetica", "normal");
+  y += 5;
+  doc.text(sStrasse, margin, y);
+  y += 5;
+  doc.text(sPLZOrt, margin, y);
+  y += 5;
+  doc.text(`Email: ${sEmail}`, margin, y);
+  y += 10;
+  doc.text(`Date: ${todayStr}`, margin, y);
+  y += 12;
+
+  // 4. Empfänger (DOT)
+  doc.setFont("helvetica", "bold");
+  doc.text("To: U.S. Department of Transportation", margin, y);
+  doc.setFont("helvetica", "normal");
+  y += 5;
+  doc.text("Aviation Consumer Protection Division", margin, y);
+  y += 5;
+  doc.text("1200 New Jersey Ave, SE", margin, y);
+  y += 5;
+  doc.text("Washington, DC 20590", margin, y);
+  y += 12;
+
+  // 5. Visuelle Info-Box für Flugdetails
+  doc.setDrawColor(200, 200, 200);
+  doc.setFillColor(248, 249, 250); 
+  doc.roundedRect(margin, y, contentW, 28, 2, 2, 'FD'); 
+  
+  y += 7;
+  doc.setFontSize(10);
+  doc.setFont("helvetica", "bold");
+  doc.text("FLIGHT DETAILS", margin + 5, y);
+  
+  y += 6;
+  doc.setFont("helvetica", "normal");
+  // Linke Spalte
+  doc.text(`Airline: ${airline}`, margin + 5, y);
+  doc.text(`Confirmation (PNR): ${fBuchung}`, margin + 5, y + 6);
+  // Rechte Spalte
+  doc.text(`Flight Number: ${fNummer} on ${fDatum}`, margin + (contentW / 2) + 5, y);
+  doc.text(`Routing: ${fRoute}`, margin + (contentW / 2) + 5, y + 6);
+  
+  y += 20; // Unter die Box springen
+
+  // 6. Haupttext (mit sauberem Umbruch-Management, 1:1 original Text!)
+  doc.setFontSize(11);
+  
+  const p1 = `Dear DOT Aviation Consumer Protection Division,\n\nI am submitting this formal complaint against ${airline} to request your intervention. I have already made a good faith effort to resolve this issue directly with the airline, but they have failed to provide an adequate resolution.`;
+  const p2 = regulatoryText;
+  const p3 = `Nature of the Incident:\n${fDetails}`;
+  const p4 = `As a result of their failure to comply with established consumer protection rules, I am currently facing unresolved financial damages in the amount of $${fPreis}. The airline's refusal to resolve this matter directly leaves me with no option but to escalate this to your department.\n\nI request that the DOT logs this complaint against the carrier, forwards this grievance to their executive team, and compels them to provide a substantive response as mandated by federal law.`;
+
+  // Hilfsfunktion für automatischen Zeilen- und Seitenumbruch
+  function writeParagraph(text, currentY) {
+    const lines = doc.splitTextToSize(text, contentW);
+    // Prüfen, ob eine neue Seite nötig ist
+    if (currentY + (lines.length * 5) > ph - 30) {
+      doc.addPage();
+      currentY = margin + 10;
+    }
+    doc.text(lines, margin, currentY);
+    return currentY + (lines.length * 5.5) + 3; // Nächste Y-Position berechnen
+  }
+
+  y = writeParagraph(p1, y);
+  y = writeParagraph(p2, y);
+  y = writeParagraph(p3, y);
+  y = writeParagraph(p4, y);
+
+  // 7. Grußformel, Unterschrift & CC
+  if (y + 40 > ph - 30) { doc.addPage(); y = margin + 10; } // Neue Seite falls kein Platz
+  
+  y += 5;
+  doc.text("Sincerely,", margin, y);
+  y += 20;
+  
+  doc.setDrawColor(0, 0, 0);
+  doc.setLineWidth(0.3);
+  doc.line(margin, y, margin + 60, y); // Unterschriften-Linie
+  y += 5;
   doc.setFontSize(9);
   doc.setTextColor(100, 100, 100);
-  doc.text(`Signature (${sName})`, 25, yPos + 5);
+  doc.text(`Signature (${sName})`, margin, y);
 
-  doc.text(`CC: Executive Customer Care, ${airline}`, 25, yPos + 15);
+  y += 15;
+  doc.setFontSize(10);
+  doc.setTextColor(0, 0, 0);
+  doc.text(`CC: Executive Customer Care, ${airline}`, margin, y);
 
+  // 8. Footer auf allen Seiten einfügen
+  const pageCount = doc.internal.getNumberOfPages();
+  for (let i = 1; i <= pageCount; i++) {
+    doc.setPage(i);
+    doc.setDrawColor(220, 220, 220);
+    doc.setLineWidth(0.5);
+    doc.line(margin, ph - 20, pw - margin, ph - 20); // Trennlinie unten
+    
+    doc.setFontSize(9);
+    doc.setTextColor(150, 150, 150);
+    doc.text(`Official DOT Escalation Form`, margin, ph - 14);
+    doc.text(`Page ${i} of ${pageCount}`, pw - margin, ph - 14, { align: 'right' });
+  }
+
+  // --- PDF Speichern ---
   const cleanAirline = airline.replace(/[^a-zA-Z0-9]/g, '_');
-
-  // Box einblenden und den abgefangenen Text einfügen
-const outputArea = document.getElementById('textOutputArea');
-outputArea.style.display = 'block';
-
-document.getElementById('plainTextResult').value = plainText;
-
-// Sanft zur neuen Box scrollen
-outputArea.scrollIntoView({ behavior: 'smooth', block: 'center' });
-
   doc.save(`DOT_Complaint_${cleanAirline}_${fBuchung}.pdf`);
+
+  // --- Plain-Text ins HTML-Feld schreiben ---
+  const outputArea = document.getElementById('textOutputArea');
+  outputArea.style.display = 'block';
+  document.getElementById('plainTextResult').value = plainText;
+  outputArea.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
   /* ── Overlay nach kurzem Delay öffnen ── */
   setTimeout(() => {
@@ -644,19 +719,16 @@ outputArea.scrollIntoView({ behavior: 'smooth', block: 'center' });
 document.getElementById('copyToClipboardBtn').addEventListener('click', function() {
     const textArea = document.getElementById('plainTextResult');
     
-    // Text in die Zwischenablage schreiben
     navigator.clipboard.writeText(textArea.value).then(() => {
         const btn = this;
         const originalText = btn.innerHTML;
         
-        // Optisches Feedback: Grün und neues Icon
         btn.innerHTML = "✅ Copied to Clipboard!";
         btn.style.background = "#2e7d32"; 
         
-        // Nach 3 Sekunden wieder zurück
         setTimeout(() => {
             btn.innerHTML = originalText;
-            btn.style.background = "#d32f2f";
+            btn.style.background = "#1565c0"; // Angepasst auf Corporate Blau
         }, 3000);
     }).catch(err => {
         alert("Error copying text. Please select the text manually.");

@@ -246,11 +246,11 @@
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Discover other related topics:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="credit-card-chargeback-hawaiian-airlines.html">Hawaiian Airlines, Inc.</a>
-<a href="credit-card-chargeback-air-france.html">Société Air France</a>
-<a href="credit-card-chargeback-southwest-airlines.html">Southwest Airlines Co.</a>
-<a href="credit-card-chargeback-american-airlines.html">American Airlines, Inc.</a>
-<a href="credit-card-chargeback-wyndham-hotels-resorts.html">Wyndham Hotels & Resorts, Inc.</a>
+    <a href="credit-card-chargeback-latam-airlines.html">LATAM Airlines Group S.A.</a>
+<a href="credit-card-chargeback-hertz.html">The Hertz Corporation</a>
+<a href="credit-card-chargeback-cheapoair.html">CheapOair (Fareportal, Inc.)</a>
+<a href="credit-card-chargeback-alaska-airlines.html">Alaska Airlines, Inc.</a>
+<a href="credit-card-chargeback-contiki.html">Contiki Holidays (The Travel Corporation)</a>
 
   </div>
 </div>
@@ -319,10 +319,11 @@
                 <h3>Flight &amp; Airport</h3>
                 <ul>
                     <li><a href="flugverspaetung-info.html">Flight Delays &amp; Cancellations</a></li>
-                    <li><a href="steuern-info.html">Reclaiming Flight Taxes</a></li>
+                    
                     <li><a href="gepaeck-info.html">Lost Baggage &amp; Damage</a></li>
                     <li><a href="flughafen-parken-info.html">Airport Parking Fees</a></li>
                     <li><a href="ota-rueckerstattung-info.html">Booking Portals (OTA) Issues</a></li>
+                    <li><a href="dot-escalation.html">DOT complaint</a></li>
                 </ul>
             </div>
 
@@ -331,20 +332,20 @@
                 <ul>
                     <li><a href="hotel-maengel-info.html">Hotel Complaints &amp; Noise</a></li>
                     <li><a href="storno-info.html">Trip Cancellation Costs</a></li>
-                    <li><a href="ferienhaus-maengel-info.html">Vacation Rentals</a></li>
                     <li><a href="airbnb-probleme-info.html">Airbnb Dispute Resolution</a></li>
                     <li><a href="kreuzfahrt-minderung.html">Cruise Ship Issues</a></li>
+                    <li><a href="chargeback-info.html">Reversal of the amount</a></li>
                 </ul>
             </div>
 
             <div class="niche-directory-group">
                 <h3>Preparation &amp; Mobility</h3>
                 <ul>
-                    <li><a href="zugverspaetung-info.html">Train Delays &amp; Rights</a></li>
+                    
                     <li><a href="einreise-info.html">Visa &amp; Entry Requirements</a></li>
                     <li><a href="esim-roaming-info.html">eSIM &amp; Roaming Charges</a></li>
                     <li><a href="mietwagen-info.html">Rental Car Insurance</a></li>
-                    <li><a href="zoll-info.html">Customs &amp; Import Rules</a></li>
+                    
                     <li><a href="reisekreditkarten-info.html">Travel Credit Card Comparison</a></li>
                 </ul>
             </div>
@@ -474,91 +475,21 @@ function closeOverlay() {
 document.getElementById('chargebackForm').addEventListener('submit', function(e) {
   e.preventDefault();
 
-  const { jsPDF } = window.jspdf;
-  const doc = new jsPDF();
-
-  // --- ZAUBERTRICK START (Fängt den Text für die Copy-Box ab) ---
-let plainText = "";
-const originalText = doc.text.bind(doc);
-doc.text = function() {
-    let text = arguments[0];
-    if (Array.isArray(text)) {
-        plainText += text.join('\n') + '\n';
-    } else {
-        plainText += text + '\n';
-    }
-    return originalText.apply(this, arguments);
-};
-// --- ZAUBERTRICK ENDE ---
-
   const bName     = document.getElementById('bName').value;
   const sName     = document.getElementById('sName').value;
   const bCard     = document.getElementById('bCard').value;
   const sStrasse  = document.getElementById('sStrasse').value;
   const aName     = document.getElementById('aName').value; // Merchant Name
   const rawDate   = document.getElementById('fDatum').value;
+  
+  // Konvertierung in US-Datumsformat (MM/DD/YYYY)
   const fDatumParts = rawDate.split('-');
-  const fDatum    = `${fDatumParts[1]}/${fDatumParts[2]}/${fDatumParts[0]}`; // US Date Format
+  const fDatum    = `${fDatumParts[1]}/${fDatumParts[2]}/${fDatumParts[0]}`; 
   const fPreis    = parseFloat(document.getElementById('fPreis').value).toFixed(2);
   const fGrund    = document.getElementById('fGrund').value;
   const fDetails  = document.getElementById('fDetails').value;
 
   const todayStr = new Date().toLocaleDateString('en-US', {day: '2-digit', month: '2-digit', year: 'numeric'});
-
-  doc.setFont("helvetica");
-
-  // Absender (Cardholder)
-  doc.setFontSize(10);
-  doc.setTextColor(0, 0, 0);
-  doc.setFont("helvetica", "bold");
-  doc.text(sName, 25, 30);
-  doc.setFont("helvetica", "normal");
-  doc.text(`Card ending in: ${bCard}`, 25, 35);
-  doc.text(sStrasse, 25, 40);
-
-  // Empfänger (Bank/Issuer)
-  doc.setFontSize(11);
-  doc.setFont("helvetica", "bold");
-  doc.text(`To: ${bName} Disputes Department`, 110, 30);
-  doc.setFont("helvetica", "normal");
-
-  doc.text(`Date: ${todayStr}`, 185, 60, {align: 'right'});
-
-  doc.setFontSize(12);
-  doc.setFont("helvetica", "bold");
-  doc.text(`Formal Notice of Disputed Charge (Fair Credit Billing Act)`, 25, 75);
-
-  doc.setFontSize(10.5);
-  doc.setFont("helvetica", "bold");
-  doc.text("Dispute Details:", 25, 85);
-  doc.setFont("helvetica", "normal");
-  doc.text(`Merchant Name: ${aName}`, 25, 90);
-  doc.text(`Transaction Date: ${fDatum}`, 25, 95);
-  doc.text(`Disputed Amount: $${fPreis}`, 25, 100);
-
-  doc.setDrawColor(0, 0, 0);
-  doc.line(25, 105, 185, 105);
-
-  const pageH = 297;
-  const marginBottom = 20;
-  const lineH = 6;
-
-  function checkNewPage(doc, y, neededHeight = lineH) {
-    if (y + neededHeight > pageH - marginBottom) { doc.addPage(); return 30; }
-    return y;
-  }
-  function writeLines(doc, lines, startY, lh = lineH) {
-    let y = startY;
-    for (const line of lines) {
-      y = checkNewPage(doc, y);
-      doc.text(line, 25, y);
-      y += lh;
-    }
-    return y;
-  }
-
-  let yPos = 115;
-  doc.setFontSize(11);
 
   // Dynamischer Einleitungstext je nach FCBA Grund
   let regulatoryText = "";
@@ -572,46 +503,181 @@ doc.text = function() {
       regulatoryText = `The basis for this dispute is "Duplicate or Incorrect Charge". The merchant charged me incorrectly or multiple times for the same transaction.`;
   }
 
-  const para1 = doc.splitTextToSize(
-    `Dear Dispute Resolution Department,\n\n` +
-    `I am writing to formally dispute a charge on my account in the amount of $${fPreis} from ${aName}. I am requesting a chargeback under the protections afforded to me by the Fair Credit Billing Act.\n\n` +
-    regulatoryText + `\n\n` +
-    `I have made a Good Faith Effort to resolve this matter directly with the merchant, but they have failed to provide a resolution. Details of my attempts to contact them are as follows:\n\n` + 
-    fDetails, 160
-  );
-  yPos = writeLines(doc, para1, yPos);
-  yPos += 5;
+  /* -------------------------------------------------------------------------
+     SAUBERER PLAIN-TEXT FÜR DIE COPY-BOX (Perfekt formatiert als E-Mail)
+     ------------------------------------------------------------------------- */
+  const plainText = 
+`${sName}
+${sStrasse}
 
-  const para2 = doc.splitTextToSize(
-    `I have enclosed/attached any relevant evidence supporting my claim, including receipts, cancellation notices, or correspondence with the merchant demonstrating my good faith effort.\n\n` +
-    `Please process this chargeback and credit my account for the disputed amount of $${fPreis} while you investigate this claim with the merchant.`, 160
-  );
-  yPos = writeLines(doc, para2, yPos);
-  yPos += 15;
+Date: ${todayStr}
 
-  yPos = checkNewPage(doc, yPos, 40);
-  doc.text("Sincerely,", 25, yPos);
-  yPos += 20;
+To: ${bName}
+Dispute Resolution Department
 
-  doc.setLineWidth(0.5);
-  doc.line(25, yPos, 80, yPos);
+SUBJECT: Formal Notice of Disputed Charge (Fair Credit Billing Act)
+
+--- DISPUTE DETAILS ---
+Merchant Name: ${aName}
+Transaction Date: ${fDatum}
+Disputed Amount: $${fPreis}
+Card Ending In: ${bCard}
+-----------------------
+
+Dear Dispute Resolution Department,
+
+I am writing to formally dispute a charge on my account in the amount of $${fPreis} from ${aName}. I am requesting a chargeback under the protections afforded to me by the Fair Credit Billing Act (FCBA).
+
+${regulatoryText}
+
+I have made a Good Faith Effort to resolve this matter directly with the merchant, but they have failed to provide a resolution. Details of my attempts to contact them are as follows:
+
+${fDetails}
+
+I have enclosed relevant evidence supporting my claim, including receipts, cancellation notices, or correspondence with the merchant demonstrating my good faith effort.
+
+Please process this chargeback and credit my account for the disputed amount of $${fPreis} while you investigate this claim with the merchant.
+
+Sincerely,
+
+${sName}
+Cardholder`;
+
+  /* -------------------------------------------------------------------------
+     PDF GENERIERUNG - HOCHWERTIGES US CORPORATE DESIGN
+     ------------------------------------------------------------------------- */
+  const { jsPDF } = window.jspdf;
   
+  // WICHTIG: 'letter' Format für die USA (statt A4)
+  const doc = new jsPDF({ unit: 'mm', format: 'letter' }); 
+  
+  const pw = doc.internal.pageSize.getWidth(); // ca. 215.9 mm
+  const ph = doc.internal.pageSize.getHeight(); // ca. 279.4 mm
+  const margin = 25.4; // 1 Zoll US-Margin
+  const contentW = pw - (margin * 2);
+
+  // 1. Dekorativer Header (Dunkelblaues Band)
+  doc.setFillColor(21, 101, 192); // US Corporate Blue (#1565c0)
+  doc.rect(0, 0, pw, 8, 'F');
+
+  // 2. Dokumenten-Titel (Rechtsbündig)
+  doc.setTextColor(21, 101, 192);
+  doc.setFont("helvetica", "bold");
+  doc.setFontSize(14);
+  doc.text("CREDIT CARD DISPUTE NOTICE", pw - margin, 24, { align: 'right' });
+  
+  doc.setTextColor(120, 120, 120);
+  doc.setFontSize(9);
+  doc.setFont("helvetica", "normal");
+  doc.text("Pursuant to the Fair Credit Billing Act (FCBA)", pw - margin, 29, { align: 'right' });
+
+  // 3. Absender & Datum (Links)
+  doc.setTextColor(0, 0, 0);
+  let y = 45;
+  doc.setFontSize(11);
+  doc.setFont("helvetica", "bold");
+  doc.text(sName, margin, y);
+  doc.setFont("helvetica", "normal");
+  y += 5;
+  doc.text(sStrasse, margin, y);
+  y += 10;
+  doc.text(`Date: ${todayStr}`, margin, y);
+  y += 12;
+
+  // 4. Empfänger (Bank)
+  doc.setFont("helvetica", "bold");
+  doc.text(`To: ${bName}`, margin, y);
+  doc.setFont("helvetica", "normal");
+  y += 5;
+  doc.text("Dispute Resolution Department", margin, y);
+  y += 12;
+
+  // 5. Visuelle Info-Box für Transaktionsdetails
+  doc.setDrawColor(200, 200, 200);
+  doc.setFillColor(248, 249, 250); // Sehr helles Grau
+  doc.roundedRect(margin, y, contentW, 28, 2, 2, 'FD'); // FD = Fill & Draw (Rand)
+  
+  y += 7;
+  doc.setFontSize(10);
+  doc.setFont("helvetica", "bold");
+  doc.text("DISPUTE DETAILS", margin + 5, y);
+  
+  y += 6;
+  doc.setFont("helvetica", "normal");
+  // Linke Spalte in der Box
+  doc.text(`Merchant Name: ${aName}`, margin + 5, y);
+  doc.text(`Transaction Date: ${fDatum}`, margin + 5, y + 6);
+  // Rechte Spalte in der Box
+  doc.text(`Disputed Amount: $${fPreis}`, margin + (contentW / 2) + 5, y);
+  doc.text(`Card Ending In: ${bCard}`, margin + (contentW / 2) + 5, y + 6);
+  
+  y += 20; // Unter die Box springen
+
+  // 6. Haupttext (mit sauberem Umbruch-Management)
+  doc.setFontSize(11);
+  doc.text("Dear Dispute Resolution Department,", margin, y);
+  y += 8;
+
+  const p1 = `I am writing to formally dispute a charge on my account in the amount of $${fPreis} from ${aName}. I am requesting a chargeback under the protections afforded to me by the Fair Credit Billing Act (FCBA).`;
+  const p2 = regulatoryText;
+  const p3 = `I have made a Good Faith Effort to resolve this matter directly with the merchant, but they have failed to provide a resolution. Details of my attempts to contact them are as follows:\n\n${fDetails}`;
+  const p4 = `I have enclosed relevant evidence supporting my claim, including receipts, cancellation notices, or correspondence with the merchant demonstrating my good faith effort.\n\nPlease process this chargeback and credit my account for the disputed amount of $${fPreis} while you investigate this claim with the merchant.`;
+
+  // Hilfsfunktion für automatischen Zeilen- und Seitenumbruch
+  function writeParagraph(text, currentY) {
+    const lines = doc.splitTextToSize(text, contentW);
+    // Prüfen, ob eine neue Seite nötig ist
+    if (currentY + (lines.length * 5) > ph - 30) {
+      doc.addPage();
+      currentY = margin + 10;
+    }
+    doc.text(lines, margin, currentY);
+    return currentY + (lines.length * 5.5) + 3; // Nächste Y-Position berechnen
+  }
+
+  y = writeParagraph(p1, y);
+  y = writeParagraph(p2, y);
+  y = writeParagraph(p3, y);
+  y = writeParagraph(p4, y);
+
+  // 7. Grußformel & Unterschrift
+  if (y + 35 > ph - 30) { doc.addPage(); y = margin + 10; } // Neue Seite falls kein Platz
+  
+  y += 5;
+  doc.text("Sincerely,", margin, y);
+  y += 20;
+  
+  doc.setDrawColor(0, 0, 0);
+  doc.setLineWidth(0.3);
+  doc.line(margin, y, margin + 60, y); // Unterschriften-Linie
+  y += 5;
   doc.setFontSize(9);
   doc.setTextColor(100, 100, 100);
-  doc.text(`Signature (${sName})`, 25, yPos + 5);
+  doc.text(`Signature (${sName})`, margin, y);
 
+  // 8. Footer auf allen Seiten einfügen
+  const pageCount = doc.internal.getNumberOfPages();
+  for (let i = 1; i <= pageCount; i++) {
+    doc.setPage(i);
+    doc.setDrawColor(220, 220, 220);
+    doc.setLineWidth(0.5);
+    doc.line(margin, ph - 20, pw - margin, ph - 20); // Trennlinie unten
+    
+    doc.setFontSize(9);
+    doc.setTextColor(150, 150, 150);
+    doc.text(`Enclosures: Evidence of transaction and merchant correspondence`, margin, ph - 14);
+    doc.text(`Page ${i} of ${pageCount}`, pw - margin, ph - 14, { align: 'right' });
+  }
+
+  // --- PDF Speichern ---
   const cleanMerchant = aName.replace(/[^a-zA-Z0-9]/g, '_');
-
-  // Box einblenden und den abgefangenen Text einfügen
-const outputArea = document.getElementById('textOutputArea');
-outputArea.style.display = 'block';
-
-document.getElementById('plainTextResult').value = plainText;
-
-// Sanft zur neuen Box scrollen
-outputArea.scrollIntoView({ behavior: 'smooth', block: 'center' });
-
   doc.save(`Chargeback_${cleanMerchant}.pdf`);
+
+  // --- Plain-Text ins HTML-Feld schreiben ---
+  const outputArea = document.getElementById('textOutputArea');
+  outputArea.style.display = 'block';
+  document.getElementById('plainTextResult').value = plainText;
+  outputArea.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
   /* ── Overlay nach kurzem Delay öffnen ── */
   setTimeout(() => {
@@ -623,19 +689,16 @@ outputArea.scrollIntoView({ behavior: 'smooth', block: 'center' });
 document.getElementById('copyToClipboardBtn').addEventListener('click', function() {
     const textArea = document.getElementById('plainTextResult');
     
-    // Text in die Zwischenablage schreiben
     navigator.clipboard.writeText(textArea.value).then(() => {
         const btn = this;
         const originalText = btn.innerHTML;
         
-        // Optisches Feedback: Grün und neues Icon
         btn.innerHTML = "✅ Copied to Clipboard!";
         btn.style.background = "#2e7d32"; 
         
-        // Nach 3 Sekunden wieder zurück
         setTimeout(() => {
             btn.innerHTML = originalText;
-            btn.style.background = "#d32f2f";
+            btn.style.background = "#1565c0"; // Angepasst auf das Blau der Hub-Page
         }, 3000);
     }).catch(err => {
         alert("Error copying text. Please select the text manually.");
