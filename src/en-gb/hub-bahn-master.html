@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+  <meta charset="UTF-8">
+  <title>Train Delay & Cancellation: Claim Compensation (PDF)</title>
+  <meta name="description" content="Your rights in the event of a train delay, train cancellation or missed connection. Find out how to claim up to 50% reimbursement under the Delay Repay scheme and the National Rail Conditions of Travel.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  {{SEO_LINKS}}
+  
+  <!-- Library for generating PDFs from HTML -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <!-- FAQ schema for Google Rich Snippets -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "From how many minutes of delay am I entitled to compensation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Under the Delay Repay scheme, compensation usually becomes available if your train is delayed by 15, 30 or 60 minutes, depending on the train operator. Many operators pay 25% of the single fare for delays of 15 to 29 minutes, 50% for 30 to 59 minutes, and up to 100% of the single fare for longer delays. Always check your operator’s specific Delay Repay policy."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Does the railway company also pay in cases of severe weather or emergency incidents?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In the UK, Delay Repay generally applies regardless of the cause of the delay, including severe weather or operational disruption, provided your operator participates in the scheme and the delay meets the required threshold. Your rights may also be supported by the National Rail Conditions of Travel."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Can I get money back on a season ticket?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. If you travel with a season ticket, compensation is usually calculated differently from a standard single or return ticket. Train operators normally work out compensation based on the value of the individual journey within your season ticket. Check your operator’s Delay Repay terms for the exact method."
+      }
+    }, {
+      "@type": "Question",
+      "name": "May I take another train if my train is cancelled?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If your train is cancelled or seriously delayed, you will often be allowed to travel on the next available service or on a reasonable alternative route, subject to the National Rail Conditions of Travel and the train operator’s arrangements during disruption. Always check with station staff or the operator where possible."
+      }
+    }]
+  }
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Train Delay & Cancellation: How to claim up to 50% reimbursement</h1>
+  
+  <p>A missed connection or a complete train cancellation is more than just an inconvenience. Fortunately, your passenger rights are clearly protected in the UK through the <strong>Delay Repay scheme</strong> and the <strong>National Rail Conditions of Travel</strong>. Depending on the train operator, you may be entitled to compensation if you reach your destination with a qualifying delay. In many cases, this can mean <strong>25% or 50% of the ticket price</strong>, and sometimes more for longer delays.</p>
+  
+  <p>What matters is the arrival time at your booked destination, not just the delay to one individual train along the way. Our portal helps you avoid much of the paperwork and assert your right to compensation in a formally correct manner.</p>
+
+  <div class="legal-info-box">
+    <strong>Important note on use</strong><br>
+    This tool is an <strong>automated template letter generator</strong> (self-help support). It merely inserts your details into standard legal templates. There is <strong>no individual assessment</strong> of your case. This free service does not replace legal advice from a solicitor. Use is at your own responsibility, and no guarantee of success is given.
+</div>
+
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Generate a PDF claim letter</h2>
+    <p>Select your rail operator to create a form including the correct recipient address:</p>
+    
+    <select id="bahnSelect">
+      <option value="">-- Please select a rail operator --</option>
+      {{BAHN_OPTIONS}}
+      <option value="zugverspaetung-entschaedigung-allgemein.html">My operator is not listed (general form)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Go to the generator for this operator</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Operator selection: Direct forms</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{BAHN_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Checklist: Immediate help at the station</h2>
+  <p>If you are currently stranded at the station, follow these steps so that you can enforce your passenger rights more easily later:</p>
+
+  <div class="checklist-box" id="checklistToPrint">
+    <h3 style="margin-top:0; color:#1565c0;">Checklist for train delays</h3>
+    <ul>
+      <li><strong>Get the delay confirmed:</strong> Ask station staff or onboard staff to confirm the delay on your ticket or booking where possible.</li>
+      <li><strong>Secure evidence:</strong> Photograph the departure board on the platform or take screenshots from the operator’s app.</li>
+      <li><strong>Check alternative travel options:</strong> In the event of disruption, you may be allowed to use another train or a reasonable alternative route under the National Rail Conditions of Travel.</li>
+      <li><strong>Keep receipts:</strong> Make sure you keep original tickets, taxi receipts or hotel invoices.</li>
+      <li><strong>Request assistance:</strong> In cases of significant delay, you may be entitled to appropriate assistance or onward travel arrangements depending on the circumstances and the operator’s policy.</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('checklist-train-delay.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+    Generate & save checklist as PDF
+  </button>
+
+  <h2 style="margin-top: 40px;">Case studies: When the rail operator must pay</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Example 1: Missed connection due to signalling failure</h3>
+    <p>A passenger travels on a regional service that is only 10 minutes late, but as a result misses the booked onward connection. They have to take a later train and arrive 65 minutes late at their destination. Reason: signalling failure.<br>
+    <strong>Outcome:</strong> Operational and technical disruption will often fall within the scope of the operator’s Delay Repay scheme. The passenger may be entitled to <strong>25% reimbursement</strong> of the ticket price, depending on the operator’s compensation thresholds.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Example 2: Severe weather stops rail services</h3>
+    <p>An intercity train is stranded for 3 hours because a severe storm has brought trees down onto the track.<br>
+    <strong>Outcome:</strong> In the UK, many train operators still process compensation under <strong>Delay Repay</strong> even where the disruption was caused by severe weather, provided the delay meets the relevant threshold. The rail operator may also have to provide assistance or information about alternative travel arrangements.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">FAQ: Your passenger rights in detail</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">Can I simply take a taxi if there is a delay?</div>
+    <div class="faq-answer">Sometimes, but not automatically. If your train is cancelled, the last service has stopped running, or no reasonable alternative is provided, you may in some circumstances be able to recover the cost of a taxi or other onward transport. However, you should first try to speak to station staff or the train operator and keep all receipts.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">How long do I have to submit my claim?</div>
+    <div class="faq-answer">This depends on the train operator. Many Delay Repay claims must be submitted within 28 days of the delayed journey, although some operators allow longer. Check the operator’s terms and conditions as soon as possible and do not leave it too late.</div>
+  </div>
+
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">Is there a minimum compensation threshold?</div>
+    <div class="faq-answer">Some train operators may set a minimum payment threshold or calculate compensation differently for season tickets and discounted fares. The exact rules depend on the operator’s Delay Repay policy, so it is worth checking the small print before submitting your claim.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise in travel law & passenger rights</h3>
+    <p class="trust-text">
+        Our guides and generators are based on a strict review of current UK consumer law, the National Rail Conditions of Travel, and relevant industry practice. 
+        They are developed by Marc (Project Lead) & team to help travellers enforce their rights against transport operators in a legally robust way.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Important note: Our tools provide self-help support for flight delays, hotel issues or train cancellations. They do not replace individual legal advice from a solicitor.
+        </span>
+    </p>
+
+    <a href="ueber-uns.html" class="trust-link">
+        Find out more about our legal methodology & editorial process →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Problem with your flight, train or hotel?</strong><br>
+        Fix-My-Trip checks your entitlement to compensation, ticket reimbursement or a price reduction in just a few steps. <br>
+        <em>A service from Fix my Trip.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Found an error in the tool?</strong> As we are an automated portal and do not provide individual legal advice, it helps us enormously if you report bugs or outdated operators: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Send feedback to our central team</a>.
+</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">About us</a> | 
+        <a href="index.html">Home</a> | 
+        <a href="impressum.html">Legal notice</a> | 
+        <a href="datenschutz.html">Privacy</a>
+    </nav>
+</footer>
+
+<script>
+function routeToGenerator() {
+    const selectElement = document.getElementById('bahnSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Please select an operator from the list first.");
+    }
+}
+
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // 15mm margin all round
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, 
+            scrollY: 0, 
+            windowWidth: document.documentElement.offsetWidth 
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

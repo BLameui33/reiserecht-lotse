@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+  <meta charset="UTF-8">
+  <title>Entry requirements worldwide: check visas, passports & rules</title>
+  <meta name="description" content="Up-to-date entry requirements and visa rules for all countries. Do you need an ESTA, eTA or a passport? Use our free checker.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & internationalisation -->
+  {{SEO_LINKS}}
+
+  <!-- Library for generating PDFs from HTML -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="/logo-lotse-fav.png">
+
+  <!-- FAQ Schema.org JSON-LD for rich snippets on Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "How long must my passport be valid for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For most non-EU countries, your passport must be valid for at least six months at the time of entry. Many countries also require that the passport has at least two blank pages for stamps and visas."
+      }
+    }, {
+      "@type": "Question",
+      "name": "What is the difference between a visa and an eTA / ESTA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A traditional visa often has to be applied for in advance through an embassy or online (as an e-visa), with processing time required. ESTA (USA) or eTA (Canada), by contrast, are electronic travel authorisations for citizens of countries that are otherwise exempt from visa requirements (such as the UK). However, they must still be obtained online before departure."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Do I need a visa if I am only changing flights at an airport (transit)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "That depends heavily on the transit country. In the USA, even for a pure transit without leaving the secure area, you must have an ESTA or transit visa. In many Asian or Middle Eastern countries, however, you may remain in the international transit area without a visa."
+      }
+    }, {
+      "@type": "Question",
+      "name": "What happens if I arrive at the airport without a valid visa or the necessary documents?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Airlines usually check your documents at check-in or boarding. If documents are missing, you will be refused carriage because the airline could otherwise face substantial penalties. You will usually have to bear the cost of the missed flight yourself, as this is your responsibility."
+      }
+    }]
+  }
+  </script>
+
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Entry requirements worldwide: visas, passports & rules</h1>
+  
+  <div class="seo-text">
+    <p>The excitement of a holiday is great, but planning an overseas trip always starts with the right travel documents. Whether it is a beach holiday in Asia, a city break to London or a business trip to the USA, it is essential to find out early which <strong>entry requirements</strong> apply to your destination country.</p>
+    <p>Do you need a traditional tourist visa that must be applied for in advance? Is an electronic travel authorisation enough (such as ESTA for the USA or eTA for Canada)? Or, within Europe, is your standard national identity card sufficient? Our guide and interactive checker provide the exact answers for your next destination.</p>
+  </div>
+
+  <!-- INTERACTIVE AREA & INTERNAL LINKING FOR CRAWLERS -->
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Start visa checker</h2>
+    <p>Select your destination to check the exact entry conditions and visa requirements (100% free):</p>
+    
+    <select id="countrySelect">
+      <option value="">-- Please choose a destination country --</option>
+      <!-- The script inserts the countries here as options -->
+      {{VISA_OPTIONS}}
+      <option value="einreisebestimmungen-allgemein.html">My destination country is not listed (general information)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Check entry requirements</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Popular travel destinations from A to Z</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{VISA_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Which travel documents are mandatory?</h2>
+  <div class="seo-text">
+    <p>Requirements vary considerably depending on your nationality and destination country. In principle, there are three scenarios:</p>
+    <ul>
+      <li><strong>National identity card:</strong> Fully sufficient within the Schengen Area and in many European countries.</li>
+      <li><strong>Passport (without visa):</strong> For many long-haul destinations (e.g. Thailand, Japan), British tourists may enter visa-free for a certain period, but they still need a passport that is often required to be valid for at least 6 months at the time of entry.</li>
+      <li><strong>Passport with visa / e-visa:</strong> For countries such as China, India or the USA, you must apply for a visa or electronic travel authorisation before travelling. If you forget, you will not be allowed to board the aircraft.</li>
+    </ul>
+  </div>
+
+  <h2 style="margin-top: 40px;">Checklist: documents to check before departure</h2>
+  <p>Use this list to make sure you do not face any unpleasant surprises at the airport. Simply print it as a PDF.</p>
+  
+  <!-- The ID "checklistToPrint" sits exactly around the box that should be printed -->
+  <div class="checklist-box" id="checklistToPrint">
+    <h3 style="margin-top:0; color:#1565c0;">Entry checklist for long-haul travel</h3>
+    <ul>
+      <li><strong>Passport validity:</strong> Will your passport still be valid for at least 6 months on the day of entry, and does it still have blank pages? (Be careful with emergency or temporary passports: these are not accepted everywhere.)</li>
+      <li><strong>Visa / ESTA / eTA:</strong> Have you received approval for your electronic travel authorisation, and do you have a printed copy with you?</li>
+      <li><strong>Return or onward ticket:</strong> Almost all countries outside the EU require proof on entry that you will leave the country again.</li>
+      <li><strong>Hotel booking & finances:</strong> You may often need to show proof of your first night's accommodation or sufficient financial means at the border.</li>
+      <li><strong>Vaccination requirements (yellow fever etc.):</strong> Do you have your international vaccination certificate with you if the country requires certain vaccinations for entry?</li>
+    </ul>
+  </div>
+  
+  <!-- Button generates the PDF on the fly, ignores itself in the PDF (data-html2canvas-ignore) -->
+  <button onclick="generateChecklistPDF('entry-checklist.pdf')" class="btn-download" data-html2canvas-ignore="true">
+    Generate & save checklist as PDF
+  </button>
+
+  <h2 style="margin-top: 40px;">Case studies: when entry is refused</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Example 1: The expired passport before Bali</h3>
+    <p>Mark is looking forward to his holiday in Indonesia. At the check-in desk in Frankfurt, the staff member notices that his passport is only valid for another 3 months. Indonesia strictly requires 6 months.<br>
+    <strong>Outcome:</strong> Mark is not allowed to board. As this falls within his own responsibility, neither UK Regulation 261 (UK261) nor a standard travel cancellation insurance policy will help. The money for the flight is lost.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Example 2: Underestimating transit in the USA</h3>
+    <p>The Weber family are flying from Munich via Miami (USA) to Costa Rica. Because they are not leaving the airport in Miami, they did not apply for an ESTA for the USA.<br>
+    <strong>Outcome:</strong> In the USA, there is no classic "international transit area". Every passenger officially enters the country and then departs again. Without an ESTA, the airline in Munich refuses boarding. Their connecting flight to Costa Rica is forfeited.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">FAQ: common questions about visas & entry</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">How long must my passport be valid for?</div>
+    <div class="faq-answer">For most non-EU countries, your passport must be valid for at least six months at the time of entry. Many countries also require that the passport has at least two blank pages for stamps and visas. Within the EU, a valid national identity card is often sufficient.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">What is the difference between a visa and an eTA / ESTA?</div>
+    <div class="faq-answer">A traditional visa often has to be applied for in advance through an embassy or online (as an e-visa), with the relevant processing time. ESTA (USA) or eTA (Canada), by contrast, are electronic travel authorisations for citizens of countries that are otherwise exempt from visa requirements (such as the UK). However, they must still be obtained online before departure.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Do I need a visa if I am only changing flights at an airport (transit)?</div>
+    <div class="faq-answer">That depends heavily on the relevant transit country. In the USA, even for a pure transit without leaving the secure area, you must have an ESTA or transit visa. In many Asian or Middle Eastern countries, however, you may remain in the international transit area without a visa.</div>
+  </div>
+  
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">What happens if I arrive at the airport without a valid visa or the necessary documents?</div>
+    <div class="faq-answer">Airlines usually check your documents at check-in or, at the latest, at boarding. If documents are missing, you will be firmly refused carriage because the airline could otherwise face substantial penalties at the destination and may have to cover your return transport. You will bear the full cost of the missed flight yourself.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise in travel law & passenger rights</h3>
+    <p class="trust-text">
+        Our guides and generators are based on a strict review of current UK regulations (such as UK Regulation 261 (UK261)), Supreme Court and Court of Appeal judgments, and UK consumer travel law. 
+        They are developed by Marc (Project Lead) & team to help travellers pursue their rights with airlines and travel organisers in a legally robust way.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Important note: Our tools provide practical self-help for flight delays, hotel issues or rail disruption. They do not replace individual legal advice from a solicitor.
+        </span>
+    </p>
+
+    <!-- Umlaut removed from URL -->
+    <a href="ueber-uns.html" class="trust-link">
+        Learn more about our legal methodology & editorial process →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Problem with your flight, train or hotel?</strong><br>
+        Fix-My-Trip checks your entitlement to compensation, ticket refunds or a price reduction for travel services in just a few steps. <br>
+        <em>A service from Fix my Trip.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Found an error in the tool?</strong> As an automated portal, we do not provide individual legal advice, so it helps us enormously if you report bugs or outdated providers: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Send feedback to our central team</a>.
+</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">About us</a> | 
+        <a href="index.html">Home</a> | 
+        <a href="impressum.html">Legal notice</a> | 
+        <a href="datenschutz.html">Privacy</a>
+    </nav>
+</footer>
+
+<script>
+// Redirects the user via the dropdown (UX)
+function routeToGenerator() {
+    const selectElement = document.getElementById('countrySelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Please select a destination country from the list first.");
+    }
+}
+
+// Generates the PDF from the HTML checklist (safe against blank page bug!)
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // 15mm margin
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, // High resolution for sharp text
+            scrollY: 0, // Forces the canvas to start at the top (fixes blank pages when scrolling!)
+            windowWidth: document.documentElement.offsetWidth
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    // Creates the PDF and starts the download
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

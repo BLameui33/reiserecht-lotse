@@ -1,0 +1,202 @@
+[
+  {
+    "slug": "london-heathrow",
+    "name": "London Heathrow",
+    "kuerzel": "LHR",
+    "terminal_preis_14_tage": "280 £",
+    "alternative_preis_start": "75 £",
+    "terminal_rate_per_day": 20.00,
+    "alternative_rate_per_day": 5.35,
+    "affiliate_link": "https://www.purpleparking.com"
+  },
+  {
+    "slug": "london-gatwick",
+    "name": "London Gatwick",
+    "kuerzel": "LGW",
+    "terminal_preis_14_tage": "240 £",
+    "alternative_preis_start": "65 £",
+    "terminal_rate_per_day": 17.15,
+    "alternative_rate_per_day": 4.65,
+    "affiliate_link": "https://www.purpleparking.com"
+  },
+  {
+    "slug": "manchester",
+    "name": "Manchester",
+    "kuerzel": "MAN",
+    "terminal_preis_14_tage": "210 £",
+    "alternative_preis_start": "58 £",
+    "terminal_rate_per_day": 15.00,
+    "alternative_rate_per_day": 4.15,
+    "affiliate_link": "https://www.purpleparking.com"
+  },
+  {
+    "slug": "london-stansted",
+    "name": "London Stansted",
+    "kuerzel": "STN",
+    "terminal_preis_14_tage": "220 £",
+    "alternative_preis_start": "60 £",
+    "terminal_rate_per_day": 15.70,
+    "alternative_rate_per_day": 4.30,
+    "affiliate_link": "https://www.purpleparking.com"
+  },
+  {
+    "slug": "london-luton",
+    "name": "London Luton",
+    "kuerzel": "LTN",
+    "terminal_preis_14_tage": "230 £",
+    "alternative_preis_start": "62 £",
+    "terminal_rate_per_day": 16.40,
+    "alternative_rate_per_day": 4.40,
+    "affiliate_link": "https://www.purpleparking.com"
+  },
+  {
+    "slug": "edinburgh",
+    "name": "Edinburgh",
+    "kuerzel": "EDI",
+    "terminal_preis_14_tage": "190 £",
+    "alternative_preis_start": "52 £",
+    "terminal_rate_per_day": 13.55,
+    "alternative_rate_per_day": 3.70,
+    "affiliate_link": "https://www.purpleparking.com"
+  },
+  {
+    "slug": "birmingham",
+    "name": "Birmingham",
+    "kuerzel": "BHX",
+    "terminal_preis_14_tage": "195 £",
+    "alternative_preis_start": "54 £",
+    "terminal_rate_per_day": 13.90,
+    "alternative_rate_per_day": 3.85,
+    "affiliate_link": "https://www.purpleparking.com"
+  },
+  {
+    "slug": "glasgow",
+    "name": "Glasgow",
+    "kuerzel": "GLA",
+    "terminal_preis_14_tage": "175 £",
+    "alternative_preis_start": "48 £",
+    "terminal_rate_per_day": 12.50,
+    "alternative_rate_per_day": 3.40,
+    "affiliate_link": "https://www.purpleparking.com"
+  },
+  {
+    "slug": "bristol",
+    "name": "Bristol",
+    "kuerzel": "BRS",
+    "terminal_preis_14_tage": "185 £",
+    "alternative_preis_start": "50 £",
+    "terminal_rate_per_day": 13.20,
+    "alternative_rate_per_day": 3.55,
+    "affiliate_link": "https://www.purpleparking.com"
+  },
+  {
+    "slug": "belfast-international",
+    "name": "Belfast International",
+    "kuerzel": "BFS",
+    "terminal_preis_14_tage": "140 £",
+    "alternative_preis_start": "42 £",
+    "terminal_rate_per_day": 10.00,
+    "alternative_rate_per_day": 3.00,
+    "affiliate_link": "https://www.purpleparking.com"
+  },
+  {
+    "slug": "newcastle",
+    "name": "Newcastle",
+    "kuerzel": "NCL",
+    "terminal_preis_14_tage": "160 £",
+    "alternative_preis_start": "45 £",
+    "terminal_rate_per_day": 11.40,
+    "alternative_rate_per_day": 3.20,
+    "affiliate_link": "https://www.purpleparking.com"
+  },
+  {
+    "slug": "liverpool",
+    "name": "Liverpool John Lennon",
+    "kuerzel": "LPL",
+    "terminal_preis_14_tage": "150 £",
+    "alternative_preis_start": "42 £",
+    "terminal_rate_per_day": 10.70,
+    "alternative_rate_per_day": 3.00,
+    "affiliate_link": "https://www.purpleparking.com"
+  },
+  {
+    "slug": "leeds-bradford",
+    "name": "Leeds Bradford",
+    "kuerzel": "LBA",
+    "terminal_preis_14_tage": "155 £",
+    "alternative_preis_start": "44 £",
+    "terminal_rate_per_day": 11.00,
+    "alternative_rate_per_day": 3.15,
+    "affiliate_link": "https://www.purpleparking.com"
+  },
+  {
+    "slug": "east-midlands",
+    "name": "East Midlands",
+    "kuerzel": "EMA",
+    "terminal_preis_14_tage": "165 £",
+    "alternative_preis_start": "46 £",
+    "terminal_rate_per_day": 11.80,
+    "alternative_rate_per_day": 3.30,
+    "affiliate_link": "https://www.purpleparking.com"
+  },
+  {
+    "slug": "london-city",
+    "name": "London City",
+    "kuerzel": "LCY",
+    "terminal_preis_14_tage": "290 £",
+    "alternative_preis_start": "85 £",
+    "terminal_rate_per_day": 20.70,
+    "alternative_rate_per_day": 6.05,
+    "affiliate_link": "https://www.purpleparking.com"
+  },
+  {
+    "slug": "aberdeen",
+    "name": "Aberdeen",
+    "kuerzel": "ABZ",
+    "terminal_preis_14_tage": "145 £",
+    "alternative_preis_start": "40 £",
+    "terminal_rate_per_day": 10.35,
+    "alternative_rate_per_day": 2.85,
+    "affiliate_link": "https://www.purpleparking.com"
+  },
+  {
+    "slug": "southampton",
+    "name": "Southampton",
+    "kuerzel": "SOU",
+    "terminal_preis_14_tage": "150 £",
+    "alternative_preis_start": "44 £",
+    "terminal_rate_per_day": 10.70,
+    "alternative_rate_per_day": 3.15,
+    "affiliate_link": "https://www.purpleparking.com"
+  },
+  {
+    "slug": "cardiff",
+    "name": "Cardiff",
+    "kuerzel": "CWL",
+    "terminal_preis_14_tage": "135 £",
+    "alternative_preis_start": "38 £",
+    "terminal_rate_per_day": 9.65,
+    "alternative_rate_per_day": 2.70,
+    "affiliate_link": "https://www.purpleparking.com"
+  },
+  {
+    "slug": "belfast-city",
+    "name": "Belfast City (George Best)",
+    "kuerzel": "BHD",
+    "terminal_preis_14_tage": "150 £",
+    "alternative_preis_start": "45 £",
+    "terminal_rate_per_day": 10.70,
+    "alternative_rate_per_day": 3.20,
+    "affiliate_link": "https://www.purpleparking.com"
+  },
+  {
+    "slug": "exeter",
+    "name": "Exeter",
+    "kuerzel": "EXT",
+    "terminal_preis_14_tage": "130 £",
+    "alternative_preis_start": "36 £",
+    "terminal_rate_per_day": 9.30,
+    "alternative_rate_per_day": 2.55,
+    "affiliate_link": "https://www.purpleparking.com"
+  }
+]

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+  <meta charset="UTF-8">
+  <title>Avoid car hire rip-offs: rights, insurance & tips</title>
+  <meta name="description" content="Protect yourself against hidden charges and unnecessary add-on insurance when hiring a car. Guidance on deposits, damage disputes and common car hire tricks.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & internationalisation -->
+  {{SEO_LINKS}}
+
+  <!-- Library for generating PDFs from HTML -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="/logo-lotse-fav.png">
+
+  <!-- FAQ Schema.org JSON-LD for rich snippets on Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Do I have to take out the expensive add-on insurance at the desk?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. If you booked your hire car through a portal (broker) including 'fully comprehensive cover with no excess', you are already covered. Staff on site often try to sell their own heavily overpriced policies by using scare tactics. Decline them politely but firmly."
+      }
+    }, {
+      "@type": "Question",
+      "name": "What should I do if I am charged for damage after returning the car that I did not cause?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dispute the charge immediately in writing. Ask the car hire company to provide the signed return report showing the vehicle was returned without defects, as well as the repair assessment. Submit your own photos as evidence, taken when you returned the car. In urgent cases, you may be able to reverse an unauthorised card charge through your credit card provider (chargeback)."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Why is my card often not accepted for the deposit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Many providers require a genuine credit card with an available credit limit in order to block the deposit. Debit cards (for example modern Visa/Mastercard Debit or Maestro), where the money is taken directly from your current account, are often refused at the desk. The trick: the provider then pressures you into taking out expensive insurance for which no deposit is required."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Which fuel policy is best?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Always choose the 'Full to Full' policy. You collect the car with a full tank and return it full. With 'Full to Empty', you pay extremely inflated per-litre prices for the first tank plus a service fee, and you also lose any fuel left in the tank."
+      }
+    }]
+  }
+  </script>
+
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Car hire: how to fight back against rip-offs and unfair charges</h1>
+  
+  <p>A cheap online deal often turns into an expensive trap at your holiday destination. Many car hire companies lure customers in with extremely low daily rates, only to make money at the desk through aggressive sales of <strong>unnecessary add-on insurance</strong>, upgrades or unclear fuel policies.</p>
+  
+  <p>There are also increasing numbers of cases where holidaymakers are later charged for alleged scratches or stone chips. On this page, we explain which insurance you really need (for example, a high third-party liability limit and fully comprehensive cover with no excess) and how to challenge unfair charges made to your credit card successfully.</p>
+
+  <div class="legal-info-box">
+    <strong>Important note on use</strong><br>
+    This tool is an <strong>automated template letter generator</strong> (self-help support). It merely inserts your details into standard legal templates. There is <strong>no individual assessment</strong> of your case. This free service does not replace legal advice from a solicitor. Use is at your own risk, and no guarantee of success is given.
+</div>
+
+  <!-- THIS IS THE MAGIC AREA FOR INTERNAL LINKING -->
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Generate complaint / objection</h2>
+    <p>Select your car hire company or booking portal to create a letter (for example, to challenge unjustified damage claims):</p>
+    
+    <select id="rentalSelect">
+      <option value="">-- Please choose a car hire company --</option>
+      <!-- The script inserts the providers here as options -->
+      {{MIETWAGEN_OPTIONS}}
+      <!-- Fallback for providers not on the list -->
+      <option value="mietwagen-reklamation-allgemein.html">My provider is not listed (general form)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Go to the form for this provider</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Car hire companies & booking portals</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{MIETWAGEN_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Checklist: safe collection and return</h2>
+  <p>Do not let yourself be pressured at the desk, and document the vehicle’s condition meticulously:</p>
+  
+  <div class="checklist-box" id="checklistToPrint">
+  <!-- Optional: a hidden or visible heading that only looks good in the PDF -->
+  <h3 style="margin-top:0; color:#1565c0;">Checklist</h3>
+
+    <ul>
+      <li><strong>Record existing damage:</strong> Check the car for scratches, dents and stone chips when collecting it. Make sure EVERY single mark, however small, is entered on the collection report.</li>
+      <li><strong>Take photos & videos:</strong> Film the car from all sides when collecting and returning it (including the roof, underside and wheels) in good lighting conditions.</li>
+      <li><strong>Photograph the fuel level:</strong> Take a photo of the fuel gauge on collection and again immediately on return in the car park.</li>
+      <li><strong>No unnecessary signatures:</strong> Do not sign contracts in languages you do not understand. Check that no extras (for example, "Super CDW") have been ticked if you do not want them.</li>
+      <li><strong>Ask for a return report:</strong> When returning the car, insist that a member of staff checks it and gives you a signed "Damage Free" report.</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('checklist-customs.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+  Generate & save checklist as PDF
+</button>
+
+  <h2 style="margin-top: 40px;">Case studies: the tricks used by hire companies</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Example 1: the insurance bluff at the desk</h3>
+    <p>Mr Weber booked a car in Mallorca through a portal, including "fully comprehensive cover with no excess". At the desk, the staff member says: <em>"That insurance does not apply with us; in the event of damage we will block €1,500. You must take out our in-house insurance for €25/day."</em><br>
+    <strong>The truth:</strong> Mr Weber is in fact covered. In the event of damage, he may have to pay the amount upfront locally, but he will be reimbursed afterwards by the online portal (the broker). He confidently declines the add-on insurance.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Example 2: alleged scratch after return</h3>
+    <p>Ms Schneider returns her hire car in Italy early in the morning and drops the key into the drop box because the desk is still closed. A week later, £390 is charged to her credit card for an alleged scratch on the bumper.<br>
+    <strong>The solution:</strong> Ms Schneider filmed the undamaged vehicle at the airport when returning it. She uses our template letter, sends the video to the provider as evidence and at the same time requests a chargeback from her bank. The money is refunded.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">Frequently asked questions (FAQ) about car hire</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">Do I have to take out the expensive add-on insurance at the desk?</div>
+    <div class="faq-answer">No. If you booked your hire car through a portal (broker) including "fully comprehensive cover with no excess", you are already covered. Staff on site often try to sell their own heavily overpriced policies by using scare tactics. Decline them politely but firmly.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">What should I do if I am charged for damage after returning the car that I did not cause?</div>
+    <div class="faq-answer">Dispute the charge immediately in writing. Ask the car hire company to provide the signed return report showing the vehicle was returned without defects, as well as the repair assessment. Submit your own photos as evidence, taken when you returned the car. In urgent cases, you may be able to reverse an unauthorised card charge through your credit card provider (chargeback).</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Why is my card often not accepted for the deposit?</div>
+    <div class="faq-answer">Many providers require a genuine credit card with an available credit limit in order to block the deposit. Debit cards (for example modern Visa/Mastercard Debit or Maestro), where the money is taken directly from your current account, are often refused at the desk. The trick: the provider then pressures you into taking out expensive insurance for which no deposit is required.</div>
+  </div>
+  
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">Which fuel policy is best?</div>
+    <div class="faq-answer">Always choose the "Full to Full" policy. You collect the car with a full tank and return it full. With "Full to Empty", you pay extremely inflated per-litre prices for the first tank plus a hefty service charge, and you also lose any fuel left in the tank at the end.</div>
+  </div>
+
+</div>
+<div class="trust-section">
+    <h3>Expertise in travel law & passenger rights</h3>
+    <p class="trust-text">
+        Our guides and generators are based on a strict review of current regulations (such as UK Regulation 261 (UK261)), court judgments and UK consumer travel law. 
+        They are developed by Marc (Project Lead) & team to help travellers enforce their rights against airlines and tour operators.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Important note: Our tools provide self-help support for flight delays, hotel defects or rail disruption. They do not replace individual legal advice from a solicitor.
+        </span>
+    </p>
+
+    <!-- Umlaut removed from URL! -->
+    <a href="ueber-uns.html" class="trust-link">
+        Find out more about our legal methodology & editorial process →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Problem with your flight, train or hotel?</strong><br>
+        Fix-My-Trip checks your entitlement to compensation, ticket reimbursement or a price reduction in just a few steps. <br>
+        <em>A service from Fix my Trip.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Found an error in the tool?</strong> As we are an automated portal and do not provide individual legal advice, it helps us enormously if you report bugs or outdated providers: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Send feedback to our head office</a>.
+</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">About us</a> | 
+        <a href="index.html">Home</a> | 
+        <a href="impressum.html">Legal notice</a> | 
+        <a href="datenschutz.html">Privacy</a>
+    </nav>
+</footer>
+
+<script>
+// Redirects the user to the relevant generator form
+function routeToGenerator() {
+    const selectElement = document.getElementById('rentalSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Please first select a car hire company or portal from the list.");
+    }
+}
+
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // 15mm margin all round
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, // High resolution
+            scrollY: 0, // IMPORTANT: fixes the problem with the blank page!
+            windowWidth: document.documentElement.offsetWidth // Ensures the width is correct
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    // Generate PDF
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

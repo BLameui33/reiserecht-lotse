@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+  <meta charset="UTF-8">
+  <title>Holiday Let Defects: Claim a Rent Reduction | PDF</title>
+  <meta name="description" content="Mould, a broken pool or no Wi-Fi in your holiday let? A guide to your rights when a holiday property has defects. Claim money back from the provider (including PDF generator).">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  {{SEO_LINKS}}
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Do package travel rules apply to holiday lets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, usually not. If you book only a holiday house or holiday flat (without a flight or car hire as a package), the matter will generally be governed by your accommodation contract and the UK Consumer Rights Act 2015. If there are defects, you may be entitled to a price reduction."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Who do I need to report the defect in the holiday let to?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You must report the defect promptly on site. The right contact is the direct owner, the local property manager or the key-handover agency named in the contract. You should also report it to the booking portal."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Can I use the Frankfurter Tabelle for holiday flats?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. In the UK, German compensation tables do not apply. In practice, industry-standard ABTA guidelines for compensation may provide useful guidance when assessing an appropriate reduction or compensation amount, depending on the circumstances."
+      }
+    }, {
+      "@type": "Question",
+      "name": "What should I do if there is overbooking or a cancellation shortly before arrival?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If the owner cancels at short notice without a valid reason, you may have a claim for your losses. In many cases, they may have to reimburse the additional cost of comparable replacement accommodation (for example, a more expensive nearby hotel)."
+      }
+    }]
+  }
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Holiday Let Defects: Your Rights to a Rent Reduction</h1>
+  
+  <p>The photos showed a dream villa, but the reality is very different: a green pool, mould on the walls, pests or a faulty heating system during a winter break. If your booked holiday house or holiday flat has significant defects, your rights will usually arise under your accommodation contract, the <strong>UK Consumer Rights Act 2015</strong> and, where applicable, the <strong>Package Travel and Linked Travel Arrangements Regulations 2018</strong>.</p>
+  
+  <p>The law is on your side here: if the accommodation does not match the promised description, you may be entitled to a price reduction. <strong>The biggest mistake:</strong> travellers put up with the problem for two weeks, go home and only then ask the portal for money back. That usually does not work. You must give the owner or provider the chance to put things right straight away while you are there. Use our free generators to pursue industry-standard reduction rates.</p>
+
+  <div class="legal-info-box">
+    <strong>Important note on use</strong><br>
+    This tool is an <strong>automated template letter generator</strong> (self-help guidance). It merely inserts your details into standard legal templates. There is <strong>no individual assessment</strong> of your case. This free service does not replace legal advice from a solicitor. Use is at your own responsibility, and no guarantee of success is given.
+</div>
+
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Generate a defect notice</h2>
+    <p>Select your holiday let portal or intermediary to create a tailored claim letter (PDF) (100% free):</p>
+    
+    <select id="organizerSelect">
+      <option value="">-- Please choose a holiday let provider / portal --</option>
+      {{FEWO_OPTIONS}}
+      <option value="ferienhaus-reklamation-allgemein.html">My provider is not listed (general form)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Go to the generator for this provider</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Holiday let portals & intermediaries at a glance</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{FEWO_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Checklist: What to do on site if your holiday let has defects</h2>
+  <p>Anyone who accepts defects without complaint may lose their right to a refund. Be sure to follow this checklist:</p>
+  
+  <div class="checklist-box" id="checklistToPrint">
+    <h3 style="margin-top:0; color:#1565c0;">Checklist for holiday lets</h3>
+    <ul>
+      <li><strong>Report the defect immediately:</strong> Contact the owner, property manager or local key-handover point straight away.</li>
+      <li><strong>Inform the portal:</strong> At the same time, send a message through the provider’s messaging system (e.g. Novasol, Booking) to document that you reported it in time.</li>
+      <li><strong>Request a remedy & set a deadline:</strong> Ask for an immediate repair (e.g. pool cleaning, heating repair) or cleaning.</li>
+      <li><strong>Preserve evidence:</strong> Take clear photos and videos (with date stamp) of dirt, mould or defects.</li>
+      <li><strong>Note witnesses:</strong> Write down the names and addresses of witnesses (e.g. neighbours or fellow travellers who are not family members).</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('holiday-let-checklist.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+    Generate & save checklist as PDF
+  </button>
+
+  <h2 style="margin-top: 40px;">Case studies: Entitlement to a reduction under consumer law</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Example 1: Pool unusable</h3>
+    <p>The Becker family books a finca in Mallorca for €2,500. The pool, advertised as a key feature, is completely dirty on arrival and the pump is broken. Despite immediate reporting to the agency, nothing happens for days.<br>
+    <strong>Outcome:</strong> The loss of a promised key facility such as a swimming pool may justify a <strong>15% to 20%</strong> reduction for the period of the defect, depending on the circumstances and with reference to industry-standard ABTA guidelines for compensation.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Example 2: Heating failure during a winter break</h3>
+    <p>A married couple rents a cabin in Denmark in December. The heating fails completely on the second day and the indoor temperature drops to 12 degrees. The caretaker cannot be reached.<br>
+    <strong>Outcome:</strong> A total heating failure in winter is a serious defect. If the property is practically uninhabitable, the provider may face up to a <strong>100% reduction</strong> for the affected days. The guests may even move to a hotel and claim the additional costs.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">Frequently asked questions (FAQ) about holiday let defects</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">Do package travel rules apply to holiday lets?</div>
+    <div class="faq-answer">No, usually not. If you are only renting accommodation (without additional travel services such as flights as part of a package), the matter will generally be governed by your accommodation contract and the UK Consumer Rights Act 2015. Liability for defects depends on whether the property matches the condition contractually promised.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Who do I need to report the defect in the holiday let to?</div>
+    <div class="faq-answer">You must report the defect promptly on site. Your first point of contact is the direct owner, the local property manager or the key agency named in the contract. For evidential reasons, you should also report it immediately to the booking portal in writing.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Can I use the Frankfurter Tabelle for holiday flats?</div>
+    <div class="faq-answer">No. The Frankfurter Tabelle is a German framework for package travel and does not apply in the UK. In practice, industry-standard ABTA guidelines for compensation may be used as a helpful reference point when estimating an appropriate reduction. Our generators are guided by these types of market-standard benchmarks.</div>
+  </div>
+  
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">Who should I address my claim letter to?</div>
+    <div class="faq-answer">This can often be legally complex. Portals (such as FeWo-direkt or Casamundo) usually act only as intermediaries, while the legal contracting party is the property owner. For practical reasons, however, we recommend first pursuing the reduction through the portal or intermediary, as they often have internal complaints procedures or hold funds (such as deposits). The PDF tool therefore addresses the selected portal.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise in travel & consumer law</h3>
+    <p class="trust-text">
+        Our guides and generators are based on the review of current court decisions and the UK Consumer Rights Act 2015. 
+        They are developed by Marc (Project Lead) & team to help renters enforce their rights with legal confidence against portals and owners.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Important note: Our tools provide self-help guidance for holiday let defects. They do not replace individual legal advice from a solicitor.
+        </span>
+    </p>
+
+    <a href="ueber-uns.html" class="trust-link">
+        Learn more about the legal methodology & editorial process →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Problem with your flight, rail journey or holiday let?</strong><br>
+        Fix-My-Trip checks your entitlement to a refund or rent reduction in just a few steps. <br>
+        <em>A service from Fix my Trip.</em>
+    </p>
+    </div>
+
+    <p class="feedback-note">
+        💡 <strong>Found an error in the tool?</strong> You would help us enormously by reporting bugs or outdated providers: 
+        <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Send feedback to our central team</a>.
+    </p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">About us</a> | 
+        <a href="index.html">Home</a> | 
+        <a href="impressum.html">Legal notice</a> | 
+        <a href="datenschutz.html">Privacy policy</a>
+    </nav>
+</footer>
+
+<script>
+function routeToGenerator() {
+    const selectElement = document.getElementById('organizerSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Please first select a portal or provider from the list.");
+    }
+}
+
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15,
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2,
+            scrollY: 0,
+            windowWidth: document.documentElement.offsetWidth
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

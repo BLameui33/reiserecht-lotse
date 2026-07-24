@@ -1,0 +1,551 @@
+[
+  {
+    "slug": "usa",
+    "name": "USA",
+    "visum_status": "ESTA required",
+    "pass_monate": 6,
+    "visum_text": "For tourist entry into the United States, British citizens are covered by the U.S. Visa Waiver Program (VWP). This means visa-free entry is possible in principle, but you must apply for an Electronic System for Travel Authorization (ESTA) before departure. A standard visa is generally not required for tourist stays as long as the trip does not exceed 90 days and all VWP conditions are met. Important: your passport must be a biometric, machine-readable UK passport. Anyone wishing to stay longer, work, or travel for another purpose will need the relevant visa.",
+    "affiliate_hinweis": "<strong>Tip for your USA trip:</strong> With the right credit card you can often save real money abroad — for example through low or no fees when withdrawing cash and worldwide, ideally fee-free card payments. : <a href='#'>Compare credit cards now</a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "aegypten",
+    "name": "Egypt",
+    "visum_status": "Visa required (e-visa or visa on arrival)",
+    "pass_monate": 6,
+    "visum_text": "British citizens need a visa for tourist entry into Egypt. Entry is possible either with an e-visa applied for in advance online, or with a visa on arrival issued directly at the airport. The e-visa is generally the more convenient option since it can help you avoid waiting at the airport. Visa on arrival is offered at many major Egyptian airports but can involve longer queues depending on how busy the airport is. There are no different rules for British citizens compared with other Western nationalities; what matters is your UK citizenship. Please check current entry requirements before you travel, as rules can change on short notice.",
+    "affiliate_hinweis": "<strong>Tip for your trip to Egypt:</strong> With the right credit card you can often save real money abroad — for example through fee-free spending worldwide or fee-free cash withdrawals. : <a href='#'>Compare credit cards now</a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "tuerkei",
+    "name": "Turkey",
+    "visum_status": "No visa needed for British citizens for up to 90 days",
+    "pass_monate": 5,
+    "visum_text": "British citizens can enter Turkey visa-free for tourist stays of up to 90 days within any 180-day period. No e-visa or visa is required for tourism or short business visits. Your passport should be valid for at least 150 days (roughly 5 months) beyond your date of entry and should have at least one blank page for entry and exit stamps. Anyone planning to stay longer than 90 days, work, or study will need to apply for a residence permit or the appropriate visa in advance. As entry rules can change, it's worth checking the latest guidance before you fly.",
+    "affiliate_hinweis": "<strong>Tip for your trip to Turkey:</strong> The right credit card can help you avoid unnecessary fees abroad — for example through fee-free purchases worldwide and low-cost cash withdrawals. : <a href='#'>Compare credit cards now</a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "uk",
+    "name": "United Kingdom",
+    "visum_status": "No visa needed — this is your home country",
+    "pass_monate": 0,
+    "visum_text": "As a British citizen, you do not need a visa, ETA, or any other travel authorisation to enter the United Kingdom — this is your home country and you enter on your valid British passport (or, where entitled, another accepted proof of British citizenship). There are no length-of-stay restrictions since you are not a visitor. If you have been travelling abroad, make sure your passport has enough remaining validity for your outbound journey, since some countries and airlines set their own minimum-validity rules. This entry mainly exists in our guide for travellers checking requirements for family members or companions who hold a different passport and may need a visa or UK ETA to enter the UK.",
+    "affiliate_hinweis": "<strong>Credit card tip:</strong> Even on trips within the UK, or on the international leg that often follows, the right travel credit card can help you avoid foreign transaction fees and earn rewards on flights and hotels. : <a href='#'>Compare credit cards now</a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "thailand",
+    "name": "Thailand",
+    "visum_status": "Visa-free tourist entry (currently up to 60 days, being reduced to 30 days in 2026)",
+    "pass_monate": 6,
+    "visum_text": "British citizens can generally enter Thailand visa-free for tourism. As of mid-2026, UK passport holders have been eligible for a 60-day visa exemption, extendable once by 30 days at a local immigration office for a maximum stay of 90 days. However, in May 2026 Thailand's cabinet approved a reduction of the standard visa-free stay to 30 days for many nationalities, with the change taking effect after official publication — so the exact allowance at the time of your trip may differ from the 60-day figure. Your passport should be valid for at least 6 months from your arrival date. Before flying, you must complete the free Thailand Digital Arrival Card (TDAC) online. Please verify the current stay limit shortly before departure, as rules are actively changing.",
+    "affiliate_hinweis": "<strong>Tip for Thailand trips:</strong> With the right credit card you can often save real money on holiday — for example through fee-free purchases worldwide and low-cost cash withdrawals. A comparison is especially worthwhile for Thailand so you don't pay unnecessary extra costs at hotels, restaurants, or ATMs. : <a href='#'>Compare credit cards now</a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "australien",
+    "name": "Australia",
+    "visum_status": "eVisitor (subclass 651) required for British citizens — free",
+    "pass_monate": 6,
+    "visum_text": "British citizens need an eVisitor (subclass 651) before travelling to Australia — there is no fully visa-free entry. Unlike travellers from a small number of other countries (including the US) who use the paid Electronic Travel Authority (ETA, subclass 601), UK passport holders use the free eVisitor visa, applied for online. It allows tourism and short-term business visitor activities, but not work, for stays of up to 3 months per visit, and remains valid for 12 months (or until your passport expires). There is no application fee. If you need to stay longer than 3 months in a single visit, you'd need a Visitor visa (subclass 600) instead.",
+    "affiliate_hinweis": "<strong>Tip for Australia trips:</strong> The right credit card can help you avoid unnecessary costs on holiday. Look for cards with fee-free purchases worldwide, low or no ATM withdrawal fees abroad, and fair exchange rates. : <a href='#'>Compare credit cards now</a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "kanada",
+    "name": "Canada",
+    "visum_status": "eTA required for British citizens travelling by air",
+    "pass_monate": 6,
+    "visum_text": "British citizens do not need a traditional visa to enter Canada for tourism, but — unlike U.S. citizens, who are fully exempt — UK passport holders must obtain an Electronic Travel Authorization (eTA) before boarding any flight to, or transiting through, a Canadian airport. The eTA costs CAD 7, is usually approved within minutes, and is valid for up to 5 years or until your passport expires, whichever comes first. If you're arriving by land or sea, no eTA is required, though you still need a valid passport. The eTA allows stays of up to 6 months per entry for tourism or business. Make sure your details match your travel passport exactly, since the eTA is electronically linked to it.",
+    "affiliate_hinweis": "<strong>Tip for Canada travellers:</strong> With the right credit card you can often save real money on holiday. Look for cards offering fee-free purchases worldwide and ideally no fees on cash withdrawals abroad, so you can stay flexible and avoid unnecessary costs in Canada. : <a href='#'>Compare credit cards now</a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "vae",
+    "name": "United Arab Emirates (Dubai)",
+    "visum_status": "Free visa on arrival for British citizens",
+    "pass_monate": 6,
+    "visum_text": "British citizens travelling to the United Arab Emirates, including Dubai, can generally enter without applying for a visa in advance. On arrival, a free visa is stamped into the passport, typically allowing a stay of up to 90 days within a 180-day period. Your passport should have sufficient remaining validity at entry, and you should comply with the entry requirements set by local authorities. There are no special rules that apply differently to British citizens compared with other Western nationalities; what matters is your UK citizenship. Since entry requirements can change on short notice, it's worth checking the current situation before you travel.",
+    "affiliate_hinweis": "<strong>Tip for your trip to the United Arab Emirates (Dubai):</strong> With the right credit card you can often save real money on holiday — for example through fee-free purchases worldwide and favourable conditions for cash withdrawals abroad. : <a href='#'>Compare credit cards now</a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "malediven",
+    "name": "Maldives",
+    "visum_status": "Free visa on arrival for British citizens",
+    "pass_monate": 6,
+    "visum_text": "British citizens travelling to the Maldives for tourism do not need to arrange a visa in advance. On arrival, a free 30-day tourist visa is issued. Requirements include a valid passport, a return or onward ticket, and proof of sufficient funds. Additionally, the electronic IMUGA arrival declaration must be completed online before entry. Please note that entry requirements can change on short notice, and this information applies to British citizens entering on a UK passport as tourists.",
+    "affiliate_hinweis": "<strong>Tip for your trip to the Maldives:</strong> The right credit card can often save you money on trips — for example on ATM withdrawal fees and foreign currency charges when paying abroad. : <a href='#'>Compare credit cards now</a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "indonesien",
+    "name": "Indonesia",
+    "visum_status": "Visa on arrival / e-VoA required for British citizens",
+    "pass_monate": 6,
+    "visum_text": "British citizens visiting Indonesia as tourists generally need a visa — entry is not visa-free. You can obtain a visa on arrival (VoA) at the airport, or apply in advance for the more convenient e-VoA online to avoid waiting in line. The tourist visa is usually valid for 30 days and can typically be extended once for another 30 days. The same entry rules apply whether you're travelling to Bali or elsewhere in Indonesia. Your passport should generally be valid for at least 6 months at entry, and airlines or immigration may ask for proof of onward or return travel.",
+    "affiliate_hinweis": "<strong>Tip for your trip to Indonesia:</strong> The right credit card can often save you money on the road — for example on ATM fees abroad or through fee-free purchases worldwide. A comparison is especially worthwhile for trips to Indonesia so you can pay flexibly and affordably. : <a href='#'>Compare credit cards for your Indonesia trip</a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "vietnam",
+    "name": "Vietnam",
+    "visum_status": "Visa-free for British citizens for up to 45 days",
+    "pass_monate": 6,
+    "visum_text": "British citizens (holding a standard 'British Citizen' passport) can enter Vietnam visa-free for tourist stays of up to 45 consecutive days under a unilateral waiver currently running until March 2028. For longer stays, you'll need to apply in advance for a Vietnam e-visa, which typically allows stays of up to 90 days. Your UK passport should be valid for at least 6 months beyond your arrival date and have at least two blank pages. Important: British National (Overseas) — BNO — passport holders are not covered by this exemption and must obtain a visa regardless of stay length. Because entry rules can change, check the latest requirements before booking your trip.",
+    "affiliate_hinweis": "<strong>Tip for your Vietnam trip:</strong> The right credit card can help you save money abroad — for example through fee-free transactions worldwide and low-cost cash withdrawals in Vietnam. : <a href='#'>Compare credit cards for Vietnam</a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "sri-lanka",
+    "name": "Sri Lanka",
+    "visum_status": "Electronic Travel Authorization (ETA) required for British citizens",
+    "pass_monate": 6,
+    "visum_text": "British citizens travelling to Sri Lanka for tourism need an Electronic Travel Authorization (ETA) before departure. Visa-free entry is not available. The ETA should be applied for online well ahead of your trip and generally permits a stay of up to 30 days. Applying online in advance is the recommended and most reliable option, rather than relying on a visa on arrival. Before departure, also check current requirements for travel documents, return or onward tickets, and any recent changes to entry rules.",
+    "affiliate_hinweis": "Tip for your Sri Lanka trip: The right credit card can help you save money on the road. Look for fee-free purchases worldwide, free cash withdrawals abroad, and low foreign currency charges — especially useful for hotels, restaurants, and excursions in Sri Lanka. : <a href='#'>Compare credit cards and lower your travel costs</a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "suedafrika",
+    "name": "South Africa",
+    "visum_status": "No visa needed for British citizens (up to 90 days)",
+    "pass_monate": 1,
+    "visum_text": "British citizens can generally enter South Africa visa-free for tourism and receive a visitor's permit for up to 90 days on arrival. Your passport must be machine-readable, valid for at least 30 days beyond your planned departure date, and contain at least two blank pages for entry and exit stamps. Since entry requirements can change on short notice, travellers should verify current rules before departure. There are no special rules that apply differently to British citizens compared with other visa-exempt nationalities.",
+    "affiliate_hinweis": "<strong>Tip for South Africa travellers:</strong> The right credit card can save you money on the road — for example on ATM fees, or when paying at restaurants, hotels, or rental car companies. A comparison is especially worthwhile for trips to South Africa if you want to pay fee-free worldwide and get good conditions for cash withdrawals. : <a href='#'>Compare credit cards for South Africa</a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "japan",
+    "name": "Japan",
+    "visum_status": "No visa needed for British citizens for up to 90 days",
+    "pass_monate": 0,
+    "visum_text": "British citizens can generally enter Japan visa-free as a 'temporary visitor' and stay for up to 90 days. No visa is typically required in advance. Your passport should be valid for your entire stay, and it can help to be able to show proof of onward or return travel. Registering in advance through Visit Japan Web isn't mandatory, but it can significantly speed up entry and customs processing. There are no different rules for British citizens on short tourist stays compared with other visa-exempt nationalities.",
+    "affiliate_hinweis": "<strong>Tip for Japan trips:</strong> Travellers who want to save smartly in Japan should compare credit cards before departure. Pay special attention to cards with fee-free purchases worldwide, low-cost cash withdrawals abroad, and fair exchange rates — this helps you avoid unnecessary costs on hotels, trains, shopping, and ATM withdrawals. : <a href='#'>Compare credit cards now</a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "dominikanische-republik",
+    "name": "Dominican Republic",
+    "visum_status": "Visa-free for British citizens, E-Ticket required",
+    "pass_monate": 6,
+    "visum_text": "British citizens can generally enter the Dominican Republic visa-free for tourism. No visa is required for a standard holiday stay. However, before travel and at both departure and arrival, the free electronic E-Ticket entry/exit form must be completed online. Tourist stays are typically permitted for up to 30 days; longer stays may require fees or an extension. Entry requirements can change on short notice, and your passport should be valid for the entire duration of your trip.",
+    "affiliate_hinweis": "Tip for your trip to the Dominican Republic: The right credit card can help you avoid unnecessary costs on holiday. Look for cards that let you pay fee-free worldwide and withdraw cash with low fees — ideal for local expenses, transfers, and spontaneous activities. : <a href='#'>Compare credit cards now</a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "mexiko",
+    "name": "Mexico",
+    "visum_status": "No visa needed for British citizens for tourist stays (up to 180 days)",
+    "pass_monate": 6,
+    "visum_text": "British citizens can enter Mexico visa-free for tourist purposes. On arrival, a stay of up to 180 days is typically granted for tourism, visiting family, or similarly short-term purposes. No advance visa is generally needed. Note that the final permitted length of stay is always determined by Mexican border officials at entry. In practice, a tourist card / entry permit (FMM) may be requested or recorded digitally at the border. You should also carry a valid passport, a return or onward ticket, and, if requested, proof of sufficient funds.",
+    "affiliate_hinweis": "<strong>Tip for your Mexico trip:</strong> With the right credit card you can often save on fees, pay fee-free worldwide, and avoid unnecessary costs when withdrawing cash abroad. A credit card comparison is especially worthwhile for trips to Mexico so you can find the card with the best terms for international use, cash withdrawals, and travel perks. : <a href='#'>Compare credit cards</a> and find the card that fits your Mexico trip.",
+    "is_optimized": false
+  },
+  {
+    "slug": "kuba",
+    "name": "Cuba",
+    "visum_status": "Tourist card required for British citizens",
+    "pass_monate": 6,
+    "visum_text": "British citizens travelling to Cuba need a Tourist Card (Tarjeta del Turista) rather than a traditional visa stamp; this typically allows a stay of up to 30 days and can be extended once locally for a further 30 days. Additionally, valid overseas health/travel insurance is compulsory and should ideally be documented in English or Spanish. This policy should ideally cover your entire stay. Please note that entry requirements can change on short notice and the exact arrangements for obtaining your Tourist Card can vary depending on your airline, tour operator, or point of issue.",
+    "affiliate_hinweis": "<strong>Tip for your Cuba trip:</strong> With the right credit card you can often save real money abroad — for example through low or no fees when withdrawing cash and worldwide, fee-free card payments. Note that many UK-issued cards may face restrictions in Cuba due to sanctions on certain payment networks, so check compatibility carefully. : <a href='#'>Compare credit cards for travel</a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "brasilien",
+    "name": "Brazil",
+    "visum_status": "No visa needed for British citizens for up to 90 days",
+    "pass_monate": 6,
+    "visum_text": "Unlike U.S., Canadian, and Australian citizens — for whom Brazil reinstated an e-visa requirement in April 2025 — British citizens continue to enjoy visa-free entry to Brazil for tourist stays of up to 90 days per year (counted from your first entry, multiple entries permitted). No advance visa or e-visa application is required. Your passport should be valid for at least 6 months beyond your arrival and have at least one blank page. An extension of stay may be possible through the Federal Police before your permitted stay expires. Since entry rules can change, check current requirements before you travel.",
+    "affiliate_hinweis": "Tip for your trip to Brazil: With the right credit card you can often save money on international transactions. Look for fee-free purchases worldwide, low-cost cash withdrawals abroad, and a fair exchange rate with no hidden markups. : <a href='#'>Compare credit cards</a> to find the right one for your Brazil trip.",
+    "is_optimized": false
+  },
+  {
+    "slug": "costa-rica",
+    "name": "Costa Rica",
+    "visum_status": "No visa needed for British citizens for up to 90 days",
+    "pass_monate": 6,
+    "visum_text": "British citizens generally do not need a visa for tourist trips to Costa Rica. On arrival, a stay of up to 90 days can be granted. A valid passport as well as a return or onward ticket are important, since immigration authorities may ask for proof that you plan to leave the country. There are no different tourist entry requirements for British citizens compared with other visa-exempt nationalities. Please note that the final length of stay is always determined by border officials.",
+    "affiliate_hinweis": "<strong>Tip for Costa Rica travellers:</strong> Anyone wanting to save on fees and pay flexibly on holiday should compare credit cards before departure. Cards that let you pay fee-free worldwide and avoid unnecessary costs when withdrawing cash abroad are especially useful. : <a href='#'>Go to the credit card comparison</a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "neuseeland",
+    "name": "New Zealand",
+    "visum_status": "NZeTA required",
+    "pass_monate": 3,
+    "visum_text": "British citizens do not need a traditional visa for tourist stays in New Zealand of up to 3 months, but must apply in advance for a New Zealand Electronic Travel Authority (NZeTA). In addition, the International Visitor Conservation and Tourism Levy (IVL) is collected at the time of application. Entry is only permitted with a valid NZeTA, a passport valid for the duration of your stay, and a return or onward travel ticket. There are no different rules for British citizens compared with other NZeTA-eligible nationalities. Travellers planning to stay longer or work will need a different visa.",
+    "affiliate_hinweis": "Tip for your trip to New Zealand: The right credit card can help you save money on the road — for example on cash withdrawal fees and foreign currency charges. Look for cards with fee-free purchases worldwide and favourable conditions for withdrawals abroad. : <a href='#'>Compare credit cards now</a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "philippinen",
+    "name": "Philippines",
+    "visum_status": "Visa-free for British citizens for up to 30 days",
+    "pass_monate": 6,
+    "visum_text": "British citizens can generally enter the Philippines visa-free for tourism if the stay does not exceed 30 days. Your passport should be valid for at least 6 months at entry, and a confirmed return or onward flight ticket is important. In addition, the electronic eTravel registration must be completed before departure. Longer stays or other travel purposes require a different visa, which should be applied for in advance.",
+    "affiliate_hinweis": "<strong>Tip for your trip to the Philippines:</strong> The right credit card can help you save money on the road — for example on ATM fees, or when paying at hotels, restaurants, or booking excursions online. A comparison is especially worthwhile for trips to the Philippines so you can pay flexibly and affordably worldwide. : <a href='#'>Compare credit cards</a> and find a card with low fees and good travel perks.",
+    "is_optimized": false
+  },
+  {
+    "slug": "malaysia",
+    "name": "Malaysia",
+    "visum_status": "No visa needed for British citizens (up to 90 days)",
+    "pass_monate": 6,
+    "visum_text": "British citizens can generally enter Malaysia visa-free for tourism and stay for up to 90 days. No advance visa is typically required. Important: since 2024, the Malaysia Digital Arrival Card (MDAC) is mandatory and must be completed online within 3 days before arrival. Your passport should be valid for at least 6 months at entry. Entry requirements can change and the final decision always rests with Malaysian border authorities. There are no different tourist rules for British citizens compared with other visa-exempt nationalities.",
+    "affiliate_hinweis": "Tip for your trip to Malaysia: With the right credit card you can often save on international transactions. Look for fee-free purchases worldwide, low-cost cash withdrawals, and fair exchange rates so you can travel flexibly and affordably in Malaysia. : <a href='#'>Compare credit cards now</a> and find the right card for your Malaysia trip.",
+    "is_optimized": false
+  },
+  {
+    "slug": "singapur",
+    "name": "Singapore",
+    "visum_status": "No visa needed for British citizens for up to 90 days",
+    "pass_monate": 6,
+    "visum_text": "British citizens can enter Singapore visa-free for tourist stays of up to 90 days. There are no different entry requirements for British citizens compared with other visa-exempt nationalities. Importantly, the SG Arrival Card must be completed online no later than 3 days before arrival, requesting personal, health, and travel information. A visa on arrival is not required for British tourists. Your passport must be valid for entry, and entry requirements can change at any time.",
+    "affiliate_hinweis": "Tip for your trip to Singapore: With the right credit card you can often save money on the road — for example through fee-free purchases worldwide or on cash withdrawals abroad. A credit card comparison can help you find the right card for your Singapore trip. Compare now and secure the best terms: <a href='#'></a>",
+    "is_optimized": false
+  },
+  {
+    "slug": "suedkorea",
+    "name": "South Korea",
+    "visum_status": "K-ETA required for British citizens; visa-free stays of up to 90 days",
+    "pass_monate": 6,
+    "visum_text": "British citizens can generally enter South Korea visa-free for tourist stays of up to 90 days. Since 2025, however, the Korea Electronic Travel Authorization (K-ETA) has become a required pre-registration for most visa-exempt travellers, similar to the UK's own ETA system. Apply for the K-ETA online before departure. Entry requirements can change depending on travel purpose, length of stay, or diplomatic developments, so it is worth checking the latest requirements from South Korean authorities before your flight.",
+    "affiliate_hinweis": "<strong>Tip for your trip to South Korea:</strong> With the right credit card you can often save money on the road — for example through fee-free purchases worldwide and affordable conditions for cash withdrawals abroad. A credit card comparison can help you find the card that best fits your trip. Compare now: <a href='#'></a>",
+    "is_optimized": false
+  },
+  {
+    "slug": "china",
+    "name": "China",
+    "visum_status": "Visa-free for British citizens for up to 30 days",
+    "pass_monate": 6,
+    "visum_text": "Since 17 February 2026, British citizens holding ordinary UK passports can enter mainland China visa-free for stays of up to 30 days, for tourism, business, visiting family and friends, exchanges, or transit — no advance application is needed. The 30-day count begins the day after your arrival. This unilateral policy currently runs through the end of 2026, and could be extended or amended, so it's worth checking the latest official guidance shortly before you travel. Note that the emergency 12-page UK passport is excluded from this policy — holders of that document still need to apply for a visa. Longer stays, work, or study still require the appropriate visa.",
+    "affiliate_hinweis": "Tip for your trip to China: With the right credit card you can often save on cash withdrawal fees abroad and enjoy fee-free purchases worldwide. A comparison is especially worthwhile for trips to China, since foreign transaction fees, ATM charges, and card perks vary significantly between cards. : <a href='#'>Compare credit cards</a> and find the card that best fits your China trip.",
+    "is_optimized": false
+  },
+  {
+    "slug": "indien",
+    "name": "India",
+    "visum_status": "Visa required: e-visa for British citizens",
+    "pass_monate": 6,
+    "visum_text": "British citizens generally need a visa for tourist entry into India. Visa-free entry or a visa on arrival is not typically available for UK tourists. For holiday travel, the e-visa is recommended and should be applied for online before departure. Your passport should be valid for at least six months at entry and generally have at least two blank pages for entry and exit stamps. The final decision on entry always rests with Indian border authorities, and requirements can change on short notice.",
+    "affiliate_hinweis": "<strong>Travel tip for India:</strong> Anyone wanting to save smartly in India should compare credit cards before departure. This helps you find cards that let you pay fee-free worldwide and significantly reduce fees for cash withdrawals abroad — especially useful for trips to India. : <a href='#'>Compare credit cards now</a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "kenia",
+    "name": "Kenya",
+    "visum_status": "eTA required",
+    "pass_monate": 6,
+    "visum_text": "British citizens travelling to Kenya as tourists no longer need a traditional visa. Instead, an Electronic Travel Authorization (eTA) must be applied for online before travel. The eTA also applies to children travelling with you and should be requested early, since processing can take some time. On arrival, you'll need a valid passport along with any other documents required by Kenyan authorities. Standard entry and stay requirements for Kenya apply, and it's worth checking these before you depart.",
+    "affiliate_hinweis": "<strong>Tip for your Kenya trip:</strong> Anyone wanting to save smartly while on holiday in Kenya should compare credit cards before departure. This helps you find cards for fee-free purchases worldwide and reduced fees on cash withdrawals abroad. Especially useful for a Kenya trip to avoid unnecessary costs. Compare now: <a href='#'></a>",
+    "is_optimized": false
+  },
+  {
+    "slug": "tansania",
+    "name": "Tanzania (Zanzibar)",
+    "visum_status": "Visa generally required for British citizens",
+    "pass_monate": 6,
+    "visum_text": "British citizens travelling to Tanzania, including Zanzibar, generally need a visa. An e-visa can be applied for online in advance and is preferred by many travellers since it can make arrival smoother. Alternatively, a visa on arrival is generally available for British citizens, though this can involve longer wait times at entry. It's recommended to apply for your visa well ahead of your trip. Also note that entry requirements can change on short notice, and additional documentation such as a valid passport, a return or onward ticket, and possibly proof of accommodation may be required.",
+    "affiliate_hinweis": "<strong>Tip for your trip to Tanzania (Zanzibar):</strong> With the right credit card you can often save on fees abroad, pay fee-free worldwide, and save money withdrawing cash locally. A comparison is especially worthwhile for trips to Tanzania so you can travel flexibly and affordably. : <a href='#'>Compare credit cards</a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "seychellen",
+    "name": "Seychelles",
+    "visum_status": "No visa needed for British citizens, but a paid Travel Authorization is required in advance",
+    "pass_monate": 0,
+    "visum_text": "British citizens can enter the Seychelles visa-free for tourism. There is no traditional visa requirement. Before departure, however, you must obtain a paid Travel Authorization online. A passport valid at least through your departure date is also required. In addition, travellers generally need to be able to show a return or onward ticket, proof of accommodation, and sufficient financial means for their stay. There are no different entry requirements for British citizens compared with other visa-exempt nationalities.",
+    "affiliate_hinweis": "Tip for your trip to the Seychelles: With the right credit card you can often save money on the road — for example through fee-free purchases worldwide and favourable conditions for cash withdrawals abroad. : <a href='#'>Compare credit cards now</a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "mauritius",
+    "name": "Mauritius",
+    "visum_status": "No visa needed for British citizens for up to 90 days",
+    "pass_monate": 0,
+    "visum_text": "British citizens can enter Mauritius visa-free for tourism and stay for up to 90 days. No advance visa is required. Your passport must be valid for your entire stay and ideally remain valid beyond your return date. On arrival, you may be asked for a return or onward ticket, proof of sufficient funds, and a confirmed accommodation address. Since entry requirements can change on short notice, it's a good idea to check with the relevant embassy or your airline before departure.",
+    "affiliate_hinweis": "<strong>Tip for Mauritius travellers:</strong> Anyone wanting to save on payments and cash withdrawals while on holiday in Mauritius should compare credit cards before departure. Look for cards with fee-free purchases worldwide and as low as possible or no fees for withdrawals abroad — ideal for a relaxed trip without unnecessary extra costs. : <a href='#'>Compare credit cards for Mauritius</a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "marokko",
+    "name": "Morocco",
+    "visum_status": "No visa needed for British citizens for up to 90 days",
+    "pass_monate": 0,
+    "visum_text": "British citizens can enter Morocco visa-free for tourism and stay for up to 90 days. No visa is required for this type of trip. Your passport should be valid at entry and ideally remain valid for at least 6 months beyond your return date to avoid potential issues at the border. Longer stays, work trips, or other travel purposes are subject to different requirements and may require a visa or residence permit.",
+    "affiliate_hinweis": "<strong>Tip for your Morocco trip:</strong> The right credit card can help you save money on holiday — for example on fees for cash withdrawals abroad and on fee-free purchases worldwide. A comparison is especially worthwhile before a trip to Morocco. Check current options now: <a href='#'></a> and find a card that fits your travel habits.",
+    "is_optimized": false
+  },
+  {
+    "slug": "tunesien",
+    "name": "Tunisia",
+    "visum_status": "No visa needed for British citizens for up to 90 days",
+    "pass_monate": 6,
+    "visum_text": "British citizens can enter Tunisia visa-free for tourism for up to 90 days. A valid passport is generally required for entry; entering on any other ID is generally not an option for UK travellers and is only relevant for certain package-tour arrangements offered to some other nationalities. A passport is therefore the safe choice for independent travellers. Please note that entry requirements can change on short notice, and your travel documents must be valid at the time of entry.",
+    "affiliate_hinweis": "<strong>Tip for your Tunisia trip:</strong> With the right credit card you can often save on fees — for example when withdrawing cash abroad and through fee-free purchases worldwide. Compare credit cards now and find one that fits your Tunisia trip well: <a href='#'></a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "oman",
+    "name": "Oman",
+    "visum_status": "Visa-free for British citizens for up to 14 days; e-visa required for longer stays",
+    "pass_monate": 6,
+    "visum_text": "British citizens can enter Oman visa-free for tourist stays of up to 14 days. This visa-free short-stay option applies only if all conditions for the stay are met. Travellers wishing to stay longer in Oman must apply for an e-visa online before departure. Entry generally requires a valid passport, confirmed accommodation, and a return or onward flight ticket. Please note that entry requirements can change on short notice.",
+    "affiliate_hinweis": "Tip for your trip to Oman: With the right credit card you can often save money on holiday — for example on fees for cash withdrawals and when paying in foreign currency. A comparison is especially worthwhile for travellers who want to pay fee-free worldwide and get affordable rates for cash withdrawals abroad. <strong>Compare credit cards here:</strong> <a href='#'></a>",
+    "is_optimized": false
+  },
+  {
+    "slug": "katar",
+    "name": "Qatar (Doha)",
+    "visum_status": "Free visa on arrival for British citizens",
+    "pass_monate": 6,
+    "visum_text": "British citizens travelling to Qatar (Doha) for tourism can generally enter visa-free and receive a free visa on arrival. This is typically valid for stays of up to 90 days within a 180-day period. Your passport should be valid for at least six months at entry. Please note that entry requirements can change on short notice and the final decision always rests with Qatari border authorities.",
+    "affiliate_hinweis": "<strong>Tip for your trip to Qatar (Doha):</strong> The right credit card comparison can help you save money while travelling — for example through fee-free purchases worldwide and favourable conditions for cash withdrawals abroad. Compare cards now and find one that fits your next trip well: <a href='#'></a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "saudi-arabien",
+    "name": "Saudi Arabia",
+    "visum_status": "e-visa or visa on arrival for British citizens",
+    "pass_monate": 6,
+    "visum_text": "British citizens travelling to Saudi Arabia as tourists need a visa. You can typically apply for an e-visa online in advance or obtain a visa on arrival. The tourist visa is generally valid for multiple entries within a year and allows stays of up to 90 days per visit. Please note that entry requirements can change on short notice and the final decision always rests with Saudi border authorities.",
+    "affiliate_hinweis": "Tip for your trip to Saudi Arabia: The right credit card can help you avoid unnecessary fees abroad. Look for cards with fee-free purchases worldwide and as low as possible fees for cash withdrawals so you can pay flexibly and affordably on the road. Find a current <a href='#'></a> here — ideal for discovering the right card for your Saudi Arabia trip.",
+    "is_optimized": false
+  },
+  {
+    "slug": "jordanien",
+    "name": "Jordan",
+    "visum_status": "Visa on arrival or in advance; entry for British citizens is generally straightforward",
+    "pass_monate": 6,
+    "visum_text": "British citizens generally need a visa for tourist entry into Jordan. In many cases this can be obtained as a visa on arrival, for example at Amman airport. Depending on your travel plans, applying in advance is also possible. For tourist visits, the Jordan Pass is often worthwhile: it can replace the visa fee under certain conditions and also includes admission to many attractions, including Petra. If you plan to stay longer or visit multiple attractions, it's worth checking the Jordan Pass before your trip, since it's often the most convenient and economical option for UK travellers.",
+    "affiliate_hinweis": "Tip for your trip to Jordan: With the right credit card you can often save money on the road — for example on fees for cash withdrawals abroad or through fee-free purchases worldwide. A comparison is especially worthwhile for trips to Jordan so you can pay flexibly and affordably. <strong>Compare credit cards here:</strong> <a href='#' target='_blank' rel='noopener noreferrer'></a>",
+    "is_optimized": false
+  },
+  {
+    "slug": "jamaika",
+    "name": "Jamaica",
+    "visum_status": "No visa needed for British citizens for up to 90 days",
+    "pass_monate": 6,
+    "visum_text": "British citizens can generally enter Jamaica visa-free for tourism and stay for up to 90 days. A valid passport is required, along with completion of the online entry formality (Online Passenger Declaration) before travel. Please note that entry requirements can change and the final decision always rests with Jamaican border authorities.",
+    "affiliate_hinweis": "Tip for your trip to Jamaica: With the right credit card you can often save money on holiday — for example through low or no fees on cash withdrawals abroad and fee-free purchases worldwide. A credit card comparison can help you find the right card for your trip: <strong>Compare credit cards now and save on fees in Jamaica</strong> — <a href='#'></a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "peru",
+    "name": "Peru",
+    "visum_status": "No visa needed for British citizens (up to 90 days)",
+    "pass_monate": 6,
+    "visum_text": "British citizens travelling to Peru as tourists generally do not need a visa. Entry is visa-free, and on arrival a stay permit is typically granted for up to 90 days. Please note that the final length of stay is set by Peruvian border authorities. A valid passport is required, and you may be asked to show a return or onward ticket as well as proof of sufficient funds for your stay. No special visa-on-arrival arrangements are needed, since British citizens can generally travel to Peru without a visa.",
+    "affiliate_hinweis": "<strong>Tip for your Peru trip:</strong> The right credit card can often save you money on the road — for example on ATM fees, when paying at restaurants, or for online bookings. Compare cards for trips to Peru and look for perks like fee-free purchases worldwide and low foreign transaction fees: <a href='#'></a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "kolumbien",
+    "name": "Colombia",
+    "visum_status": "Visa-free entry for British citizens for up to 90 days",
+    "pass_monate": 6,
+    "visum_text": "British citizens can enter Colombia visa-free for tourism and generally stay for up to 90 days. An extension of up to another 90 days is possible locally under certain conditions. Important: before entry, you must complete the online Check-MIG entry form, generally within 72 hours before your flight. Your passport must be valid for entry, and entry requirements can change on short notice. There are no different rules for British citizens compared with other visa-exempt nationalities entering Colombia for tourism.",
+    "affiliate_hinweis": "<strong>Tip for your trip to Colombia:</strong> The right credit card can help you save on cash withdrawal fees abroad and pay fee-free worldwide — ideal for a trip to Colombia. Compare cards now and find one with strong travel perks under <a href='#'></a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "argentinien",
+    "name": "Argentina",
+    "visum_status": "Visa-free for British citizens for up to 90 days",
+    "pass_monate": 0,
+    "visum_text": "British citizens generally do not need a visa for tourist stays in Argentina of up to 90 days. Your passport should be valid for your entire stay, and you may be asked to show proof of onward or return travel as well as sufficient funds at entry. There are no different rules for British citizens compared with other visa-exempt nationalities. Please check current entry requirements before departure, as rules can change on short notice.",
+    "affiliate_hinweis": "<strong>Tip for your trip to Argentina:</strong> The right credit card can help you save on cash withdrawal fees abroad and pay fee-free worldwide — ideal for your Argentina trip. Compare offers now and find the card that fits your travel style: <a href='#'></a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "chile",
+    "name": "Chile",
+    "visum_status": "No visa needed for British citizens for up to 90 days",
+    "pass_monate": 6,
+    "visum_text": "British citizens can generally enter Chile visa-free for tourism. No visa is required as long as your stay does not exceed 90 days. On arrival, a tourist card or entry confirmation is typically issued, which should be kept safe until departure. Your passport must be valid at entry, and Chilean border authorities may ask for additional documentation such as a return or onward ticket and proof of sufficient funds.",
+    "affiliate_hinweis": "<strong>Tip for your Chile trip:</strong> With the right credit card you can often save money abroad — for example through fee-free purchases worldwide and low-cost or free cash withdrawals in Chile. Compare cards now and find one that fits your trip well: <a href='#'></a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "ecuador",
+    "name": "Ecuador",
+    "visum_status": "No visa needed for British citizens for up to 90 days",
+    "pass_monate": 6,
+    "visum_text": "British citizens can enter Ecuador visa-free for tourism, generally for stays of up to 90 days. This also applies to the Galápagos Islands. On arrival, you may be asked for a confirmed return or onward ticket. Your passport should be valid for your entire trip and have sufficient blank pages. There are no different rules for British citizens compared with other visa-exempt nationalities. Please note that entry requirements can change on short notice.",
+    "affiliate_hinweis": "<strong>Tip for your Ecuador trip:</strong> With the right credit card you can often save money abroad — for example on ATM fees and when paying in foreign currency. Compare cards for trips to Ecuador and find offers with worldwide perks so you can pay flexibly and affordably: <a href='#'></a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "bolivien",
+    "name": "Bolivia",
+    "visum_status": "No visa needed for British citizens for tourist entry (up to 90 days)",
+    "pass_monate": 6,
+    "visum_text": "British citizens can generally enter Bolivia visa-free for tourism. On arrival, an initial 30-day stay may be granted, which can generally be extended for free at Bolivian immigration up to a total of 90 days. Your passport should be sufficiently valid at entry, and entry requirements can change on short notice. There are no different rules for British citizens compared with other visa-exempt nationalities. Travellers with a different travel purpose or a longer stay should check the applicable visa or residence requirements in advance.",
+    "affiliate_hinweis": "<strong>Tip for your Bolivia trip:</strong> With the right credit card you can often save money abroad — for example on ATM fees, when paying in foreign currency, and with strong travel perks. A comparison is especially worthwhile before a trip to Bolivia so you can pay flexibly and affordably worldwide. Compare cards now: <a href='#'></a>",
+    "is_optimized": false
+  },
+  {
+    "slug": "panama",
+    "name": "Panama",
+    "visum_status": "No visa needed for British citizens for tourist entry",
+    "pass_monate": 3,
+    "visum_text": "British citizens can generally enter Panama visa-free for tourism. On arrival, a stay of up to 90 days is typically granted; an extension may be possible depending on individual circumstances and Panamanian rules. Your passport must be valid for at least 6 months at entry. Authorities generally also require a return or onward ticket and proof of sufficient funds. Please note that entry requirements can change on short notice and the final decision always rests with border authorities.",
+    "affiliate_hinweis": "<strong>Tip for your trip to Panama:</strong> With the right credit card you can often save on cash withdrawal fees abroad and pay fee-free worldwide. Compare attractive cards for your Panama trip and find the right offer under <a href='#'></a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "guatemala",
+    "name": "Guatemala",
+    "visum_status": "No visa needed for British citizens for up to 90 days",
+    "pass_monate": 6,
+    "visum_text": "British citizens can generally enter Guatemala visa-free for tourism, with stays of up to 90 days possible under the CA-4 regional agreement shared with neighbouring countries. UK travellers typically need a valid passport as well as a return or onward flight ticket. Your passport should be sufficiently valid at entry. At land border crossings, occasional unofficial fee requests have been reported; travellers should insist on official receipts and avoid making undocumented payments. No advance visa or standard visa-on-arrival is generally required for British citizens for tourism.",
+    "affiliate_hinweis": "Tip for your trip to Guatemala: Anyone wanting to save smartly abroad should compare credit cards before departure. Pay special attention to cards with fee-free purchases worldwide and as low as possible or no fees for cash withdrawals so you can avoid unnecessary costs on payments and withdrawals in Guatemala. Find a comparison here: <a href='#'></a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "bahamas",
+    "name": "Bahamas",
+    "visum_status": "No visa needed for British citizens (up to 90 days)",
+    "pass_monate": 6,
+    "visum_text": "British citizens can generally enter the Bahamas visa-free for tourism, typically for stays of up to 90 days. A valid passport is required for entry. A return or onward ticket and, if requested, proof of sufficient funds and accommodation should be available. Please note that the entry decision always rests with border authorities and that requirements can change on short notice.",
+    "affiliate_hinweis": "<strong>Tip for your Bahamas trip:</strong> Anyone wanting to pay smartly abroad and save on fees should compare credit cards before departure. This can help you find cards that let you pay fee-free worldwide and avoid unnecessary costs when withdrawing cash abroad. : <a href='#'>Compare credit cards</a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "barbados",
+    "name": "Barbados",
+    "visum_status": "No visa needed for British citizens for up to 90 days",
+    "pass_monate": 6,
+    "visum_text": "British citizens can enter Barbados visa-free for tourism and generally stay for up to 90 days. A valid passport is required for entry; please make sure your travel document is valid for your entire stay. A digital entry declaration may also be required before arrival and should be completed online in advance to speed up entry. Since entry requirements can change on short notice, it's a good idea to check the latest official guidance before your trip.",
+    "affiliate_hinweis": "<strong>Tip for your trip to Barbados:</strong> With the right credit card you can often save money abroad — for example on cash withdrawal fees and through fee-free purchases worldwide with no foreign transaction charges. Compare cards now and find one that fits your Barbados trip: <a href='#'></a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "namibia",
+    "name": "Namibia",
+    "visum_status": "Visa-free for British citizens for up to 90 days",
+    "pass_monate": 6,
+    "visum_text": "British citizens travelling to Namibia as tourists generally do not need a visa for stays of up to 90 days. Entry is visa-free provided your passport is valid for at least 6 months at entry and has sufficient blank pages. Please note that entry requirements can change on short notice, and different rules may apply for longer stays or other travel purposes.",
+    "affiliate_hinweis": "Tip for your Namibia trip: The right credit card can help you avoid unnecessary fees abroad. Look for cards with fee-free purchases worldwide, as low as possible fees for cash withdrawals, and fair exchange rates so you can travel flexibly and affordably in Namibia. Find a current <a href='#'></a> here.",
+    "is_optimized": false
+  },
+  {
+    "slug": "botswana",
+    "name": "Botswana",
+    "visum_status": "No visa needed for British citizens for tourist stays (up to 90 days)",
+    "pass_monate": 6,
+    "visum_text": "British citizens visiting Botswana for tourism generally do not need a visa. On arrival at the border or airport, a free entry permit (Visitor's Pass) is typically issued, valid for stays of up to 90 days. Your passport must have sufficient remaining validity. Travellers should also carry a return or onward ticket and, if needed, proof of sufficient funds and accommodation. There are no different entry requirements for British citizens compared with other visa-exempt nationalities. Since entry rules can change on short notice, check current requirements before departure.",
+    "affiliate_hinweis": "Tip for your trip to Botswana: With the right credit card you can often save noticeably on fees abroad. Look for cards with fee-free purchases worldwide, as low as possible fees for cash withdrawals, and fair exchange rates so you can travel comfortably and affordably in Botswana. Find a comparison here: <a href='#'></a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "uganda",
+    "name": "Uganda",
+    "visum_status": "e-visa required for British citizens",
+    "pass_monate": 6,
+    "visum_text": "British citizens visiting Uganda for tourism need a valid e-visa before entry. A visa on arrival is generally not available to UK travellers, so it's important to apply online well before departure. In addition, proof of yellow fever vaccination is mandatory for entry into Uganda. Make sure your passport has sufficient remaining validity and that all travel documents are complete.",
+    "affiliate_hinweis": "<strong>Tip for your Uganda trip:</strong> With the right credit card you can often save money on holiday. Look for cards with fee-free purchases worldwide and as low as possible fees for cash withdrawals abroad so you can pay flexibly and affordably in Uganda. Find a current <a href='#'></a> here.",
+    "is_optimized": false
+  },
+  {
+    "slug": "madagaskar",
+    "name": "Madagascar",
+    "visum_status": "Visa required: e-visa or visa on arrival for British citizens",
+    "pass_monate": 6,
+    "visum_text": "British citizens visiting Madagascar as tourists need a visa; visa-free entry is not available. The visa can be applied for online in advance as an e-visa or issued on arrival at the airport. Depending on the length of your planned stay, several options are typically available — often for 15, 30, or 60 days — with fees varying accordingly. You should also carry a valid passport that meets the requirements of local authorities. Since entry requirements can change on short notice, check the latest guidance before departure.",
+    "affiliate_hinweis": "Tip for your trip to Madagascar: With the right credit card you can often save on fees abroad. Look for cards with fee-free purchases worldwide and affordable cash withdrawals — especially useful for trips to Madagascar, where card payments aren't always accepted. A current comparison can help you find the right card for your trip: <a href='#'></a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "kap-verde",
+    "name": "Cape Verde",
+    "visum_status": "EASE registration required (no traditional visa for British citizens)",
+    "pass_monate": 6,
+    "visum_text": "British citizens travelling to Cape Verde for a short tourist stay generally do not need a traditional visa. Instead, an online registration through the official EASE platform is required before travel, which should be completed at least 5 days before departure. In addition, an airport security tax (TSA) must be paid. In short: visa-free, but registration and a fee are required. Please note that entry requirements can change at any time and may differ for other nationalities.",
+    "affiliate_hinweis": "Tip for your trip to Cape Verde: With the right credit card you can often save money on holiday — for example through fee-free purchases worldwide or affordable cash withdrawals abroad. A comparison is especially useful for travellers who want to pay flexibly and avoid unnecessary extra costs. Find a matching <a href='#'></a> here.",
+    "is_optimized": false
+  },
+  {
+    "slug": "georgien",
+    "name": "Georgia",
+    "visum_status": "No visa needed (up to 1 year)",
+    "pass_monate": 0,
+    "visum_text": "Georgia offers a very generous policy for British citizens travelling as tourists: entry is visa-free, and with a valid UK passport you can stay in the country for up to 365 days. There are no different tourist entry rules for British citizens compared with other visa-exempt nationalities. A visa is generally not required for tourist entry. Please note that your passport should be valid for your entire stay, and that entry requirements can change on short notice.",
+    "affiliate_hinweis": "<strong>Tip for your trip to Georgia:</strong> With the right credit card you can often save money on the road — for example through fee-free purchases worldwide and favourable cash withdrawal conditions abroad. A comparison is especially worthwhile before your trip so you can pay flexibly in Georgia without unnecessary extra costs. Find a matching credit card comparison here: <a href='#'></a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "kambodscha",
+    "name": "Cambodia",
+    "visum_status": "Visa required for British citizens; e-visa or visa on arrival available",
+    "pass_monate": 6,
+    "visum_text": "British citizens visiting Cambodia as tourists need a visa. Entry is possible either with a pre-arranged electronic e-visa or with a visa on arrival at select airports and border crossings. The e-visa is generally the more convenient and reliably plannable option, since it secures your entry in advance. For visa on arrival, you'll typically need a valid passport, passport photos, and the visa fee in cash (US dollars). Please note that entry requirements can change on short notice and requirements may vary by border point.",
+    "affiliate_hinweis": "Tip for your trip to Cambodia: With the right credit card you can often save money on cash withdrawals and card payments abroad. Look for as low as possible or no foreign transaction fees, fee-free cash withdrawals worldwide, and good acceptance on the ground. Compare cards now: <a href='#'></a> and find the right one for your Cambodia trip.",
+    "is_optimized": false
+  },
+  {
+    "slug": "laos",
+    "name": "Laos",
+    "visum_status": "Visa generally required for British citizens; e-visa, visa on arrival, and other entry options available",
+    "pass_monate": 6,
+    "visum_text": "British citizens visiting Laos as tourists generally need a visa. Several options are typically available: an e-visa applied for online in advance, a visa on arrival at select border crossings, and in some cases other entry procedures depending on current regulations. The e-visa is especially practical if you plan your trip ahead of time and want to avoid waiting at the border. Visa on arrival can be requested directly at entry; you should generally have a valid travel document, passport photos, a return or onward ticket, and the visa fee in cash ready. Since entry requirements can change on short notice, always check the latest official guidance for Laos before departure.",
+    "affiliate_hinweis": "Tip for your trip to Laos: With the right credit card you can often save on cash withdrawal fees abroad and enjoy fee-free purchases worldwide without foreign transaction charges. Compare cards for frequent travellers before your trip and secure perks like travel insurance, low cash withdrawal fees, and strong holiday terms. Compare credit cards now: <a href='#'></a>",
+    "is_optimized": false
+  },
+  {
+    "slug": "taiwan",
+    "name": "Taiwan",
+    "visum_status": "Visa-free for British citizens for up to 90 days",
+    "pass_monate": 6,
+    "visum_text": "British citizens can enter Taiwan visa-free for tourism and stay for up to 90 days. A valid passport covering your entire stay is generally required for entry. A confirmed return or onward ticket may also be requested. Entry requirements can change on short notice, so it's a good idea to check the latest guidance before departure.",
+    "affiliate_hinweis": "Tip for Taiwan trips: With the right credit card you can often save on unnecessary fees on holiday. Look for cards that let you pay fee-free worldwide and withdraw cash without extra fees — especially useful for trips to Taiwan. A comparison is worthwhile, since foreign transaction fees, ATM charges, and card perks vary significantly. Find a matching credit card comparison here: <a href='#'></a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "nepal",
+    "name": "Nepal",
+    "visum_status": "Visa required: visa on arrival for British citizens",
+    "pass_monate": 6,
+    "visum_text": "British citizens visiting Nepal as tourists need a visa. Entry is generally possible with a visa on arrival, which can be obtained at Kathmandu airport or at select border crossings. Filling out the online application form in advance can help speed up the process. Applying for a visa in advance is also possible and can be a good option depending on your travel plans. Your passport should be valid for at least six months at entry. Since entry requirements can change on short notice, check the latest guidance again before your trip.",
+    "affiliate_hinweis": "Tip for your Nepal trip: With the right credit card you can often save on cash withdrawal fees abroad and enjoy convenient, fee-free purchases worldwide. A comparison is especially worthwhile for Nepal, since exchange rates, ATM fees, and foreign transaction charges can add up quickly. Compare cards now for travellers and find the model that fits your trip: <a href='#'></a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "usbekistan",
+    "name": "Uzbekistan",
+    "visum_status": "No visa needed for British citizens for tourist stays of up to 30 days",
+    "pass_monate": 6,
+    "visum_text": "British citizens can enter Uzbekistan visa-free for tourism as long as the stay does not exceed 30 days. Different entry requirements apply for longer trips, other travel purposes, or extended stay plans, and a visa may be required. Important: after arrival, there is generally a registration requirement within 3 days, which is often handled by your hotel or accommodation. Since entry and stay rules can change at any time, travellers should check the current requirements before departure.",
+    "affiliate_hinweis": "Tip for your trip to Uzbekistan: With the right credit card you can often save money abroad — for example through fee-free purchases worldwide and affordable cash withdrawals. A comparison is especially worthwhile if you want to pay flexibly in Uzbekistan and avoid unnecessary foreign transaction fees. Compare current offers at <a href='#'></a> and find the card that best fits your trip.",
+    "is_optimized": false
+  },
+  {
+    "slug": "fidschi",
+    "name": "Fiji",
+    "visum_status": "No visa needed for British citizens (up to 4 months)",
+    "pass_monate": 6,
+    "visum_text": "British citizens can enter Fiji visa-free for tourism and generally receive a free Visitor Permit for up to 4 months on arrival. Requirements include a valid passport, a return or onward flight ticket, and proof of sufficient funds for your stay. Please note that the final entry decision always rests with border authorities, and requirements can change on short notice.",
+    "affiliate_hinweis": "Tip for your trip to Fiji: With the right credit card you can often save on cash withdrawal fees abroad and pay fee-free worldwide — ideal for a Fiji holiday. Compare cards now and find one that fits your travel plans: <a href='#'></a>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "armenien",
+    "name": "Armenia",
+    "visum_status": "No visa needed for British citizens for tourist stays",
+    "pass_monate": 5,
+    "visum_text": "British citizens can enter Armenia visa-free for tourism. No visa is generally required for a tourist stay. Your passport should be valid for at least 6 months at entry and have sufficient blank pages. Please note that entry requirements can change on short notice, and different rules may apply for longer stays, work, or other travel purposes.",
+    "affiliate_hinweis": "Tip for your trip to Armenia: With the right credit card you can often save money on the road — for example on cash withdrawal fees and when paying in foreign currency. Compare cards now for trips that offer fee-free purchases worldwide and good conditions abroad: <strong><a href='#'></a></strong>.",
+    "is_optimized": false
+  },
+  {
+    "slug": "anderes-land-allgemein",
+    "name": "Other Travel Destination (General Requirements)",
+    "visum_status": "Entry requirements for British citizens depend on the destination country; please check individually before travel.",
+    "pass_monate": 6,
+    "visum_text": "For British citizens travelling as tourists, requirements vary widely by destination: from visa-free entry, to visa on arrival, to a visa required in advance. Since this is a general travel destination without specific country data, be sure to check current entry requirements before departure with the Foreign, Commonwealth & Development Office (FCDO) or the relevant foreign embassy. As a general rule of thumb: for many destinations, your passport should be valid for at least 6 months beyond your return date. Also watch for other possible requirements such as a return or onward flight ticket, proof of sufficient funds, and possibly proof of accommodation.",
+    "affiliate_hinweis": "Tip for your trip: With the right credit card comparison you can often save on cash withdrawal fees abroad and pay fee-free worldwide. A close look at cards with fair exchange rates, no foreign transaction fees, and good terms for cash withdrawals is especially worthwhile when travelling. Compare current offers at <a href='#'></a> and find the credit card that best fits your trip.",
+    "is_optimized": false
+  }
+]

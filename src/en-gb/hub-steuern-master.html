@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+  <meta charset="UTF-8">
+  <title>Did not take your flight: reclaim taxes & fees | PDF</title>
+  <meta name="description" content="Flight cancelled or missed? Reclaim your taxes, airport charges and security fees from the airline. Our guide and template letter generator can help.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & internationalisation -->
+  {{SEO_LINKS}}
+
+  <!-- Library for generating PDFs from HTML -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="/logo-lotse-fav.png">
+
+  <!-- FAQ Schema.org JSON-LD for rich snippets on Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Can I still get money back for a non-refundable ticket (budget fare)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Even if you booked the cheapest fare (e.g. Economy Light), where the basic airfare itself is not refundable, the airline must still refund taxes and charges that were not incurred, such as airport charges and security fees. That is because the airline only pays these amounts on if you actually travel."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Can the airline charge an administration fee for the refund?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Generally, airlines cannot simply deduct arbitrary administration fees from refunds of unused taxes and charges unless this is lawful and clearly provided for in the contract. If an airline makes such a deduction, you should challenge it and ask for a full breakdown."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Can I also get the fuel surcharge back?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "That depends on the individual case and the airline’s terms and conditions. Airlines often classify the fuel surcharge (usually shown as YQ or YR on the ticket) as part of the basic airfare, which may not be refundable on budget fares. Genuine third-party charges, such as airport taxes, should however be refunded if they were not incurred."
+      }
+    }, {
+      "@type": "Question",
+      "name": "How far back can I reclaim the taxes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Time limits depend on the legal basis of your claim and the circumstances of the booking. In the UK, limitation periods can vary, so you should act promptly and, if needed, seek guidance from Citizens Advice or a legal professional."
+      }
+    }]
+  }
+  </script>
+
+  
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Missed or cancelled your flight? Here’s how to reclaim taxes & fees</h1>
+  
+  <p>Were you unable to take your flight due to illness, did you miss it (no-show), or did you cancel voluntarily? With cheaper, “non-refundable” fares, the basic ticket price is often lost. What many airlines do not make clear, however, is this: <strong>you can still reclaim a significant part of the money.</strong></p>
+  
+  <p>An airline ticket is made up of the basic airfare plus various taxes, airport charges and security fees. As the airline only has to pass these charges on to the airport or the authorities if you <em>actually board the flight</em>, it may not be entitled to keep them if you do not travel. Reclaim your money now without risk.</p>
+
+  <div class="legal-info-box">
+    <strong>Important note on use</strong><br>
+    This tool is an <strong>automated template letter generator</strong> (self-help guidance). It simply inserts your details into standard legal templates. There is <strong>no individual assessment</strong> of your case. This free service does not replace legal advice from a solicitor. Use is at your own responsibility, and no guarantee of success is given.
+</div>
+
+  <!-- THIS IS THE MAGIC AREA FOR INTERNAL LINKING -->
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Generate your reclaim</h2>
+    <p>Select your airline to create a legally robust claim letter for the refund of your taxes & fees (100% free):</p>
+    
+    <select id="airlineSelect">
+      <option value="">-- Please select an airline --</option>
+      <!-- The script inserts the airlines here as options -->
+      {{STEUER_OPTIONS}}
+      <!-- Fallback for airlines not included in the list -->
+      <option value="steuern-gebuehren-erstattung-allgemein.html">My airline is not listed (general form)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Go to the generator for this airline</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Eligibility check by airline</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{STEUER_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Checklist: how to proceed properly</h2>
+  <p>To avoid the airline delaying your refund with arbitrary deductions or excuses, keep these points in mind:</p>
+  
+  <div class="checklist-box" id="checklistToPrint">
+  <!-- Optional: a hidden or visible heading that looks good in the PDF -->
+  <h3 style="margin-top:0; color:#1565c0;">Checklist</h3>
+
+    <ul>
+      <li><strong>Check your booking confirmation:</strong> Look on your e-ticket for terms such as “Taxes”, “Fees”, “Airport charges” or codes such as “XT”. This will show you exactly how much you may be entitled to reclaim.</li>
+      <li><strong>Cancel the flight proactively:</strong> Even if this is not always strictly necessary for reclaiming taxes (a no-show may still be enough), an official cancellation before departure often speeds up the refund process.</li>
+      <li><strong>Provide your own bank details:</strong> When making the claim, make sure you state where the money should be paid, especially if the original payment card has expired.</li>
+      <li><strong>Challenge administration fees:</strong> If the airline deducts £20 to £45 as an “administration fee” from your refund without proper justification, object immediately and ask for the legal basis and a full breakdown.</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('checklist-customs.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+  Generate & save checklist as PDF
+</button>
+
+  <h2 style="margin-top: 40px;">Case studies: why it is worth the effort</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Example 1: The flight to London (budget airline)</h3>
+    <p>Anna books a budget flight for £57. She falls ill and cannot travel. The fare is non-refundable. A look at the ticket breakdown shows that the basic airfare is only £13, while the remaining £44 consists of taxes and passenger charges from the airports.<br>
+    <strong>Outcome:</strong> Anna reclaims the charges using our form. The airline must refund the full <strong>£44</strong>, even though the flight itself was not refundable.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Example 2: Unjustified administration fee</h3>
+    <p>Mark cancels a flight and reclaims £70 in taxes. The airline pays him only £26 and keeps £44 as a “cancellation and administration fee”, relying on its terms and conditions.<br>
+    <strong>Outcome:</strong> Such deductions are not automatically enforceable. Mark uses our portal to challenge the deduction, and the airline must also pay the remaining <strong>£44</strong> if it cannot justify withholding it.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">FAQ: common questions about tax refunds</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">Can I still get money back for a non-refundable ticket?</div>
+    <div class="faq-answer">Yes. Even if you booked the cheapest fare (e.g. Economy Light), where the basic airfare itself is not refundable, the airline must still refund taxes and charges that were not incurred, such as airport charges and security fees. That is because the airline only pays these amounts on if you actually travel.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Can the airline charge an administration fee for the refund?</div>
+    <div class="faq-answer">Generally, airlines cannot simply deduct arbitrary administration fees from refunds of unused taxes and charges unless this is lawful and clearly provided for in the contract. If an airline makes such a deduction, you should challenge it and ask for a full breakdown.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Can I also get the fuel surcharge back?</div>
+    <div class="faq-answer">That depends on the individual case and the airline’s terms and conditions. Airlines often classify the fuel surcharge (usually shown as YQ or YR on the ticket) as part of the basic airfare, which may not be refundable on budget fares. Genuine third-party charges, such as airport taxes, should however be refunded if they were not incurred.</div>
+  </div>
+  
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">How far back can I reclaim the taxes?</div>
+    <div class="faq-answer">Time limits depend on the legal basis of your claim and the circumstances of the booking. In the UK, limitation periods can vary, so you should act promptly and, if needed, seek guidance from Citizens Advice or a legal professional.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise in travel law & passenger rights</h3>
+    <p class="trust-text">
+        Our guides and generators are based on a careful review of current regulations (such as UK Regulation 261 (UK261)), court decisions and UK consumer travel law. 
+        They are developed by Marc (Project Lead) & team to help travellers pursue claims against airlines and travel organisers.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Important note: Our tools provide self-help guidance for flight delays, hotel complaints or rail disruption. They do not replace individual legal advice from a solicitor.
+        </span>
+    </p>
+
+    <!-- Umlaut removed from URL -->
+    <a href="ueber-uns.html" class="trust-link">
+        Learn more about our legal methodology & editorial process →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Problem with your flight, train or hotel?</strong><br>
+        Fix-My-Trip checks your entitlement to compensation, ticket refunds or a price reduction in just a few steps. <br>
+        <em>A service from Fix my Trip.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Found an error in the tool?</strong> As we are an automated portal and do not provide individual legal advice, it helps us enormously if you report bugs or outdated providers: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Send feedback to our central team</a>.
+</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">About us</a> | 
+        <a href="index.html">Home</a> | 
+        <a href="impressum.html">Legal notice</a> | 
+        <a href="datenschutz.html">Privacy</a>
+    </nav>
+</footer>
+
+<script>
+function routeToGenerator() {
+    const selectElement = document.getElementById('airlineSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Please select an airline from the list first.");
+    }
+}
+
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // 15mm margin all round
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, // High resolution
+            scrollY: 0, // IMPORTANT: fixes the blank page problem
+            windowWidth: document.documentElement.offsetWidth // Ensures the width is correct
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    // Generate PDF
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <title>Flight refunds from booking portals: get your money back | PDF</title>
+  <meta name="description" content="Portal not refunding your ticket? Find out how to put Opodo, Kiwi, eDreams & Co. on notice and enforce your refund.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+ {{SEO_LINKS}}
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Why is the booking portal not refunding my money?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Booking portals (OTAs) often use delay tactics. As they only earn a small commission for arranging the booking, they have little interest in processing refunds without charge. Legally, however, they must pass the money on promptly once the airline has refunded it."
+      }
+    }, {
+      "@type": "Question",
+      "name": "What is the ping-pong tactic between the airline and the portal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The portal claims the airline has not yet paid. The airline claims the money has already been sent. In many cases, the money is already with the portal but has not yet been allocated to your booking or is being deliberately withheld."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Do I have to pay fees to the portal for the refund?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If the airline cancelled the flight, you are entitled to a full refund under UK Regulation 261 (UK261). The portal must not deduct additional service fees from the ticket price for a refund that is legally required."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Will a credit card chargeback help?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, a chargeback can be an effective remedy. However, you should first have given the portal a clear payment deadline that you can evidence. Our generator creates exactly this document."
+      }
+    }]
+  }
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>OTA trap: force flight refunds from booking portals</h1>
+  
+  <p>It is the darkest black hole in the travel industry: you book through portals such as <strong>Opodo, eDreams, Kiwi or Booking.com</strong> because it was £10 cheaper. But when the flight is cancelled, the nightmare begins. Customer service consists only of useless chatbots, and the airline and portal each blame the other.</p>
+  
+  <p>Do not let them fob you off with excuses. If the flight has been cancelled, you are entitled to a <strong>100% refund of the ticket price</strong>. Our portal helps you break through the wall of silence and put the portal under proper legal pressure.</p>
+
+  <div class="legal-info-box">
+    <strong>Important note on use</strong><br>
+    This tool is an <strong>automated template letter generator</strong> (self-help guidance). It merely inserts your details into standard legal templates. There is <strong>no individual assessment</strong> of your case. This free service does not replace legal advice from a solicitor. Use is at your own risk, and no guarantee of success is given.
+</div>
+
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #d32f2f;">Generate a refund deadline letter</h2>
+    <p>Select your booking portal to create a demand letter (PDF):</p>
+    
+    <select id="otaSelect">
+      <option value="">-- Please choose a booking portal --</option>
+      {{OTA_OPTIONS}}
+      <option value="rueckerstattung-flug-portal-allgemein.html">Portal not listed (general form)</option>
+    </select>
+    
+    <button onclick="routeToOTAGenerator()" class="btn-route" style="background-color: #d32f2f;">Go to the generator for this portal</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Refund help by booking portal</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{OTA_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Checklist: how to get your money back</h2>
+  <p>If the portal refuses payment or ignores you, follow these steps:</p>
+
+  <div class="checklist-box" id="otaChecklistPrint">
+    <h3 style="margin-top:0; color:#d32f2f;">Steps to counter OTA delay tactics</h3>
+    <ul>
+      <li><strong>Obtain airline confirmation:</strong> Ask the airline to confirm in writing (email/chat) that the refund has already been paid to the intermediary.</li>
+      <li><strong>No vouchers:</strong> Do not accept "wallet credits" or vouchers from the portal. Demand cash back to your account.</li>
+      <li><strong>Set a deadline:</strong> Use our tool to generate a 14-day deadline letter and send it to the portal by email.</li>
+      <li><strong>Prepare a chargeback:</strong> Keep records of all contact attempts. If the deadline expires, contact your bank about a credit card chargeback.</li>
+      <li><strong>Costs of default:</strong> Inform the portal that, after the deadline expires, it may also be liable for additional recovery costs under the UK Consumer Rights Act 2015 and general UK contract law principles.</li>
+    </ul>
+  </div>
+  <button onclick="generateOTAChecklistPDF('checklist-ota-refund.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer; background: #555;">
+    Save checklist as PDF
+  </button>
+
+  <h2 style="margin-top: 40px;">Case studies: typical excuses used by portals</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Example 1: the "we have not received anything" lie</h3>
+    <p>A customer claims back £500 from Opodo. Opodo has been claiming for 3 months that the airline has not paid. The customer sends a screenshot of the airline's confirmation showing that the money was paid to Opodo 10 weeks earlier.<br>
+    <strong>Outcome:</strong> After a firm deadline is imposed, the money is suddenly paid out within 48 hours.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Example 2: unlawful service fees</h3>
+    <p>Kiwi.com wants to pay out only £380 from a £400 refund and keep £20 as a "processing fee", even though the airline cancelled the flight.<br>
+    <strong>Outcome:</strong> This is not permitted. Where the airline cancels the flight, the refund must be processed free of charge under UK law.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">FAQ: help with the OTA trap</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">Why should I not sue the airline directly?</div>
+    <div class="faq-answer">If the airline has already refunded the money to the intermediary, it has fulfilled its obligation. Your claim is then against the portal that is holding your money.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">How do I find the correct address for the portal?</div>
+    <div class="faq-answer">Many portals are based abroad (Spain, the Czech Republic, etc.). In our generators, the official addresses of the parent companies (such as Vacaciones eDreams or Kiwi.com s.r.o.) are already stored for you.</div>
+  </div>
+
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">What is the benefit of alternative dispute resolution?</div>
+    <div class="faq-answer">ADR bodies such as AviationADR can help free of charge with disputes in some cases. However, many OTAs deal with complaints and ADR referrals extremely slowly. A properly drafted deadline letter is always the first and most important step in putting the portal in default.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise in travel law</h3>
+    <p class="trust-text">
+        Our generators help thousands of travellers each year to stand up to the power imbalance of online travel agencies. We know the tactics used by portals and constantly update our templates in line with the latest case law and UK consumer standards.
+    </p>
+    <a href="ueber-uns.html" class="trust-link">Find out more about our methodology →</a>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">About us</a> | 
+        <a href="index.html">Home</a> | 
+        <a href="impressum.html">Legal notice</a> | 
+        <a href="datenschutz.html">Privacy</a>
+    </nav>
+</footer>
+
+<script>
+function routeToOTAGenerator() {
+    const selectElement = document.getElementById('otaSelect');
+    const targetUrl = selectElement.value;
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Please select a booking portal first.");
+    }
+}
+
+function generateOTAChecklistPDF(filename) {
+    const element = document.getElementById('otaChecklistPrint');
+    const opt = {
+        margin: 15,
+        filename: filename,
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2, scrollY: 0, windowWidth: document.documentElement.offsetWidth },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

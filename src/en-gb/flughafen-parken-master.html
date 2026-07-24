@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+  <meta charset="UTF-8">
+  <title>Parking at {{FLUGHAFEN_NAME}} ({{FLUGHAFEN_KUERZEL}}): avoid the hidden cost trap for free</title>
+
+  <meta name="description" content="Beware of parking fee shock: this is how expensive parking at {{FLUGHAFEN_NAME}} Airport really is. Use our calculator and find alternatives from {{ALTERNATIVE_PREIS_START}}.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  {{SEO_LINKS}}
+
+  
+  <!-- Open Graph tags for social media / messenger -->
+  <meta property="og:title" content="Parking at {{FLUGHAFEN_NAME}} Airport: the terminal car park cost trap">
+  <meta property="og:description" content="Calculate the real parking charges at {{FLUGHAFEN_NAME}} Airport now and find affordable, certified alternatives.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.fix-my-trip.com/{{DATEINAME}}">
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <style>
+    /* Table of contents */
+    .toc { background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 25px 0; border: 1px solid #eee; }
+    .toc p { font-weight: bold; margin-top: 0; font-size: 1.1em; color: #333; }
+    .toc ul { margin-bottom: 0; padding-left: 25px; }
+    .toc li { margin-bottom: 8px; }
+    .toc a { color: #1565c0; text-decoration: none; }
+    .toc a:hover { text-decoration: underline; }
+    
+    /* Sticky CTA Bar (Mobile & Desktop) */
+    .sticky-cta { position: fixed; bottom: 0; left: 0; width: 100%; background: #fff; padding: 15px; box-shadow: 0 -2px 10px rgba(0,0,0,0.1); text-align: center; z-index: 1000; transform: translateY(100%); transition: transform 0.3s ease; }
+    .sticky-cta.show { transform: translateY(0); }
+    .sticky-cta .button-primary { margin: 0; padding: 12px 25px; font-size: 1.1em; width: auto; display: inline-block; font-weight: bold; }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Airport parking charges calculator: {{FLUGHAFEN_NAME}}",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "All",
+    "description": "Interactive calculator for estimating parking charges at {{FLUGHAFEN_NAME}} Airport compared with certified alternative parking providers.",
+    "offers": {
+      "@type": "Offer",
+      "price": "0.00",
+      "priceCurrency": "GBP"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the difference between shuttle parking and valet parking at {{FLUGHAFEN_NAME}} Airport?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "With shuttle parking, you drive yourself to a nearby secure car park outside the terminal area. A free shuttle bus takes you and your luggage directly to the terminal and collects you again on your return. With valet parking, you drive straight to the departures terminal. A trained member of staff will be waiting there, take over your car and park it for you. When you return, your car is handed back to you directly at the terminal."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are the alternative car parks at {{FLUGHAFEN_NAME}} Airport safe?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, absolutely. The car parks we list and that can be booked via platforms such as Parkos or Holiday Extras are certified. They are generally fenced, monitored by CCTV, well lit and often staffed around the clock. In addition, operators usually carry liability insurance for any transport-related damage."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Should I reserve my parking space in advance?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, strongly recommended. Anyone who turns up without a reservation and drives straight into an airport car park will usually pay the highest daily walk-up rate. By booking online in advance – whether on official off-site parking areas or with alternative providers – you can often secure discounts of more than 50%."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+  <span style="font-size: 0.9em; color: #666;">Travel smart without hidden costs</span>
+</header>
+
+<div class="page-container">
+
+  <h1 id="einleitung">Parking at {{FLUGHAFEN_NAME}} Airport: how to avoid the parking rip-off</h1>
+  
+  <div class="back-to-hub-banner">
+    <a href="flughafen-parken-info.html">
+      <span class="arrow">&larr;</span> Back to overview: parking charges at all airports
+    </a>
+  </div>
+
+  <div class="usp-bar">
+    <div class="usp-item">Live parking charges calculator</div>
+    <div class="usp-item">Official tariffs checked</div>
+    <div class="usp-item">Certified alternative providers</div>
+  </div>
+
+  <p>Planning a relaxed holiday or business trip from <strong>{{FLUGHAFEN_NAME}} Airport ({{FLUGHAFEN_KUERZEL}})</strong> and want the convenience of travelling by car? Be careful: anyone who turns up unprepared and without a reservation and drives into the first terminal car park they see often gets an unpleasant surprise at the payment machine after returning.</p>
+
+  <!-- Table of contents -->
+  <nav class="toc">
+    <p>Contents</p>
+    <ul>
+      <li><a href="#einleitung">The cost trap at {{FLUGHAFEN_NAME}} Airport</a></li>
+      <li><a href="#rechner">Tool: parking charges calculator</a></li>
+      <li><a href="#loesung">Solution: certified alternative parking</a></li>
+      <li><a href="#details">Price comparison: terminal vs shuttle service</a></li>
+      <li><a href="#faq">Frequently asked questions (FAQ)</a></li>
+    </ul>
+  </nav>
+
+  <div class="shock-box" style="background: #ffebee; border-left: 4px solid #c62828; padding: 15px 20px; margin: 20px 0; border-radius: 4px;">
+    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Warning: expensive walk-up terminal rate!</h2>
+    <p>Airport operators charge a premium for being close to the gate. If you drive into the official car parks right by the terminal without booking online in advance, you will be hit with the airport’s eye-watering standard rates.</p>
+    <div class="shock-price" style="font-size: 1.5em; font-weight: bold; color: #c62828; margin: 10px 0;">Cost: up to {{TERMINAL_PREIS_14_TAGE}} for 14 days!</div>
+    <p><em>For context: some people can already fly return for that price. Parking can quickly end up costing more than the actual flight ticket. And all because your car is sitting on a grey concrete space while you are away.</em></p>
+  </div>
+
+  <h2 id="rechner">Tool: how much will parking cost on your travel dates?</h2>
+  <p>Find out the estimated standard parking charges at {{FLUGHAFEN_NAME}} Airport for the length of your trip and how much money you could save with a certified alternative parking provider.</p>
+
+  <div class="highlight-box pruefdatum-box" role="note" aria-label="Editorially checked" style="margin-top: 15px; margin-bottom: 30px;">
+    <p><strong>Editorially checked on:</strong> <span id="pruefdatum">05/07/2026</span></p>
+  </div>
+  
+  <div class="calc-box">
+    <!-- IMPORTANT: use form instead of div and listen for submit -->
+    <form id="parkingCalcForm">
+      <fieldset style="border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
+        <legend style="font-weight: bold; padding: 0 10px; color: #1565c0;">Your travel details</legend>
+        
+        <label for="pDays" style="display:block; margin-top: 10px; font-weight:bold;">Trip length (in days):</label>
+        <input type="number" id="pDays" value="14" min="1" max="90" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+
+        <label for="pType" style="display:block; font-weight:bold;">Preferred parking type:</label>
+        <select id="pType" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+          <option value="standard" selected>Standard parking space (outdoor/covered)</option>
+          <option value="valet">Valet parking (direct vehicle handover at the terminal)</option>
+        </select>
+      </fieldset>
+
+      <!-- type="submit" for validation -->
+      <button type="submit" class="button-primary" id="calcParkingBtn" style="background: #1565c0; color: #fff; padding: 15px 30px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer; width: 100%; margin-top: 20px;">Calculate parking charges & savings</button>
+    </form>
+
+    <div id="parkingResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #1565c0;">
+      <!-- JS content -->
+    </div>
+  </div>
+
+  <h2 id="loesung">The solution: certified shuttle or valet parking</h2>
+  <p>Instead of handing unnecessary money to the airport operator, savvy travellers use alternative car parks close to {{FLUGHAFEN_NAME}} Airport. You leave your car on a secure, CCTV-monitored site. A free shuttle bus takes you directly to the terminal in just a few minutes and collects you again when you return.</p>
+
+  <div class="solution-box" style="background: #f1f8e9; border: 2px solid #a5d6a7; padding: 25px; border-radius: 8px; text-align: center; margin: 30px 0;">
+    <!-- NEW: Affiliate notice -->
+    <span style="font-size: 0.75rem; color: #fff; background-color: rgba(0,0,0,0.15); padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; display: inline-block; margin-bottom: 12px; font-weight: bold;">
+        Advertisement / promotional recommendation
+    </span>
+
+    <h2 style="color: #2e7d32; margin-top: 0;">✅ The smart travel hack: park safely & cheaply</h2>
+    <p>Through verified comparison portals, you can book your monitored parking space in advance, including a free shuttle transfer or exclusive valet service. No hidden costs, no stress on departure day.</p>
+    
+    <div class="solution-price" style="font-size: 2em; font-weight: 900; color: #1565c0; margin: 15px 0;">from {{ALTERNATIVE_PREIS_START}}</div>
+    <p style="font-size: 1.1em; margin-bottom: 25px;"><strong>Certified parking spaces</strong> near {{FLUGHAFEN_NAME}} Airport with top ratings.</p>
+    
+    <a href="{{AFFILIATE_LINK}}" target="_blank" rel="noopener nofollow" class="button-primary main-affiliate-btn" style="background: #ffb300; color: #000; display: inline-block; padding: 15px 30px; text-decoration: none; border-radius: 6px; font-size: 1.2em; font-weight: bold;">Compare cheap parking at {{FLUGHAFEN_KUERZEL}} Airport</a>
+    <p style="font-size: 0.85em; color: #666; margin-top: 15px;">Free shuttle included • 24/7 monitored • Often free cancellation up to 24 hours before arrival</p>
+  </div>
+
+  <div id="details" class="seo-content" style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 30px;">
+    <h2>Why parking directly at the terminal is a pricing trap</h2>
+    <p>Airport operators shamelessly exploit passengers’ desire for convenience. The car parks directly next to the departure halls (Terminal 1 & 2) are aimed primarily at business travellers whose company covers the cost, or at people dropping off and collecting passengers. Families parking there for a two-week summer holiday often pay more than for an extra hotel room. Even the airports’ so-called “saver rates” on distant outdoor car parks are usually more expensive than offers from independent private parking operators nearby.</p>
+
+    <h3>Official terminal parking vs alternative shuttle service</h3>
+    <p>Many holidaymakers are hesitant about parking outside the airport grounds. However, a direct comparison shows that the alternatives are not only cheaper, but often even more convenient:</p>
+    <table class="comparison-table" style="width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.95em;">
+      <tr style="background: #f5f5f5;">
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Criterion</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Official terminal parking</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Certified alternative car park</th>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Cost (example: 14 days)</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #c62828; font-weight: bold;">approx. £155 – £260</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #2e7d32; font-weight: bold;">approx. £45 – £70</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Carrying luggage</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Often long walks through huge multi-storey car parks and across levels to check-in.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">The shuttle bus loads your luggage at the car and drops you directly outside the correct departure hall.</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Security</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Publicly accessible car parks that anyone can enter without checks.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Fenced, locked sites accessible only to customers and staff.</td>
+      </tr>
+    </table>
+
+    <h3 style="margin-top: 30px;">The luxury hack: valet parking at {{FLUGHAFEN_NAME}} Airport</h3>
+    <p>If you think maximum convenience is unaffordable, try a <strong>valet service</strong>. You drive your car straight to the departure hall at {{FLUGHAFEN_NAME}} Airport. A trained and insured member of staff from the parking operator will already be waiting for you there. You get out, take your luggage and can head straight to check-in. While you are checking in, the driver takes your car to the secure off-site car park. When you return, your car will be waiting for you at the terminal, ready to drive away. The surprising part: with alternative providers, this service is often still significantly cheaper than ordinary self-parking in the official terminal car park.</p>
+    
+    <h2 id="faq">Frequently asked questions (FAQ) about parking at {{FLUGHAFEN_NAME}} Airport</h2>
+    <details style="background: #fafafa; border: 1px solid #ddd; padding: 10px 15px; margin-bottom: 10px; border-radius: 4px;">
+      <summary style="font-weight: bold; cursor: pointer;">How much extra time should I allow for the shuttle service?</summary>
+      <p style="margin-top: 10px; color: #555;">We recommend allowing an extra <strong>30 to 45 minutes</strong> on top of your airline’s normal check-in time. The journey from the car park to terminal {{FLUGHAFEN_KUERZEL}} usually takes only 5 to 12 minutes, but luggage has to be loaded and unloaded and the shuttle bus may be completing another run.</p>
+    </details>
+    <details style="background: #fafafa; border: 1px solid #ddd; padding: 10px 15px; margin-bottom: 10px; border-radius: 4px;">
+      <summary style="font-weight: bold; cursor: pointer;">What happens if my return flight is delayed?</summary>
+      <p style="margin-top: 10px; color: #555;">That is usually not a problem. When booking, you provide your return flight number. Alternative parking operators track the flight live, so the shuttle bus knows exactly when you land, even if you are delayed by hours. If your return is pushed back by a full day, a small charge for the extra day will usually apply (often around £5–£10), which you can simply pay on site.</p>
+    </details>
+    <details style="background: #fafafa; border: 1px solid #ddd; padding: 10px 15px; margin-bottom: 10px; border-radius: 4px;">
+      <summary style="font-weight: bold; cursor: pointer;">Do I have to hand over my car key?</summary>
+      <p style="margin-top: 10px; color: #555;">That depends on the car park you choose. With valet parking, handing over the key is essential because the staff member parks the car for you. With classic shuttle parking, most portals offer filter options such as “keep your keys”. In that case, you park the car yourself and take the key with you on holiday.</p>
+    </details>
+  </div>
+
+  <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
+    <h3>Other interesting topics:</h3>
+    <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
+      {{BELIEBTE_LINKS}}
+    </div>
+  </div>
+</div>
+
+<div class="trust-section">
+    <h3>Expertise in travel law & passenger rights</h3>
+    <p class="trust-text">
+        Our guides and generators are based on a strict assessment of current UK passenger rights rules (such as UK Regulation 261 (UK261)), relevant court decisions and UK travel law. 
+        They are developed by Marc (Project Lead) & team to help travellers pursue claims against airlines and travel organisers with confidence.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Important note: our tools provide practical self-help for flight delays, hotel issues or rail disruption. They do not replace individual legal advice from a solicitor.
+        </span>
+    </p>
+
+    <a href="ueber-uns.html" class="trust-link">
+        Find out more about our legal methodology & editorial process →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Problem with your flight, train or hotel?</strong><br>
+        Fix-My-Trip checks your entitlement to compensation, ticket reimbursement or a price reduction in just a few steps. <br>
+        <em>A service from Fix my Trip.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Spotted an error in the tool?</strong> As an automated portal, we do not provide individual legal advice, so it helps us enormously if you report bugs or outdated providers: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Send feedback to our central team</a>.
+</p>
+</div>
+
+<section class="site-niche-directory">
+    <div class="niche-directory-container">
+        <h2 class="niche-directory-title">Explore more topic areas</h2>
+        <p class="niche-directory-intro">
+            Whether it is a flight delay, hotel problem or roaming cost trap – our experts have prepared the right guide and template letters for almost every travel niche.
+        </p>
+        
+        <div class="niche-directory-grid">
+            <div class="niche-directory-group">
+                <h3>Flights &amp; airports</h3>
+                <ul>
+                    <li><a href="flugverspaetung-info.html">Flight delay &amp; cancellation</a></li>
+                    <li><a href="steuern-info.html">Reclaim flight taxes</a></li>
+                    <li><a href="gepaeck-info.html">Lost luggage &amp; suitcase damage</a></li>
+                    <li><a href="flughafen-parken-info.html">Airport parking charges</a></li>
+                    <li><a href="ota-rueckerstattung-info.html">Flight booking portals (OTA)</a></li>
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Accommodation &amp; package holidays</h3>
+                <ul>
+                    <li><a href="hotel-maengel-info.html">Hotel problems &amp; building noise</a></li>
+                    <li><a href="storno-info.html">Cancelling a trip (costs)</a></li>
+                    <li><a href="ferienhaus-maengel-info.html">Holiday homes &amp; rentals</a></li>
+                    <li><a href="airbnb-probleme-info.html">Airbnb problem solving</a></li>
+                    <li><a href="kreuzfahrt-minderung.html">Cruise holiday defects</a></li>
+                </ul>
+            </div>
+
+            <div class="niche-directory-group">
+                <h3>Travel preparation &amp; mobility</h3>
+                <ul>
+                    <li><a href="zugverspaetung-info.html">Train delays &amp; Delay Repay</a></li>
+                    <li><a href="einreise-info.html">Entry requirements &amp; visas</a></li>
+                    <li><a href="esim-roaming-info.html">eSIM &amp; roaming charges</a></li>
+                    <li><a href="mietwagen-info.html">Car hire insurance</a></li>
+                   
+                    <li><a href="reisekreditkarten-info.html">Travel credit card comparison</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">About us</a> | 
+        <a href="index.html">Home</a> | 
+        <a href="impressum.html">Legal notice</a> | 
+        <a href="datenschutz.html">Privacy</a>
+    </nav>
+</footer>
+
+<!-- Sticky CTA bar for mobile view -->
+<div id="stickyCta" class="sticky-cta">
+  <p style="margin: 0 0 10px 0; font-size: 0.9em; font-weight: bold; color: #333;">Certified parking from {{ALTERNATIVE_PREIS_START}}</p>
+  <a href="{{AFFILIATE_LINK}}" target="_blank" rel="noopener nofollow" class="button-primary" style="background: #ffb300; color: #000; text-decoration: none; border-radius: 6px; font-weight: bold;">Compare prices & book</a>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const form = document.getElementById('parkingCalcForm');
+  const resultBox = document.getElementById('parkingResultBox');
+
+  if(form) {
+    // Switched to 'submit' for native validation
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      // 1. Read values from the form
+      const days = parseInt(document.getElementById('pDays').value) || 1;
+      const parkingType = document.getElementById('pType').value;
+
+      // 2. Dynamic price calculation from the JSON (injected by build.js)
+      let baseTerminalRate = parseFloat("{{TERMINAL_RATE_PER_DAY}}") || 22.00;
+      let baseAlternativeRate = parseFloat("{{ALTERNATIVE_RATE_PER_DAY}}") || 5.00;
+
+      if (parkingType === 'valet') {
+        baseTerminalRate = parseFloat("{{TERMINAL_RATE_PER_DAY}}") * 1.3 || 30.00; // Valet terminal equivalent 
+        baseAlternativeRate = parseFloat("{{ALTERNATIVE_RATE_PER_DAY}}") * 1.5 || 9.00;  // Alternative valet rate
+      }
+
+      // 3. Generate price range
+      let totalTerminalCostLow = days * (baseTerminalRate * 0.85);
+      let totalTerminalCostHigh = days * (baseTerminalRate * 1.15);
+
+      let totalAlternativeCost = (days * baseAlternativeRate) + 15; 
+      
+      if(totalAlternativeCost < 39) totalAlternativeCost = 39;
+      
+      let avgTerminal = (totalTerminalCostLow + totalTerminalCostHigh) / 2;
+      let savings = avgTerminal - totalAlternativeCost;
+
+      // 4. Format as currency
+      const formatCurrency = (val) => val.toLocaleString('en-GB', { style: 'currency', currency: 'GBP' });
+
+      const formattedTerminalLow = formatCurrency(totalTerminalCostLow);
+      const formattedTerminalHigh = formatCurrency(totalTerminalCostHigh);
+      const formattedAlternative = formatCurrency(totalAlternativeCost);
+      const formattedSavings = formatCurrency(savings);
+
+      // 5. Output result in the box and display it
+      resultBox.style.display = 'block';
+      resultBox.innerHTML = `
+        <h3 style="color: #1565c0; margin-top: 0; font-size: 1.4em;">Your result for ${days} days of parking:</h3>
+        <p style="font-size: 1.1em;">If you simply turn up, you are likely to pay outrageous airport charges. Use the alternative instead.</p>
+        
+        <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
+          <!-- Shock box: terminal -->
+          <div style="flex: 1; min-width: 250px; padding: 20px; background: #ffebee; border: 2px solid #c62828; border-radius: 6px;">
+            <h4 style="color: #b71c1c; margin-top: 0; font-size: 1.1em;">Official terminal car park</h4>
+            <p style="margin-bottom: 10px; font-size: 0.9em; color: #555;">Walk-up rate on site (estimate):</p>
+            <span style="font-size: 1.6em; font-weight: 900; color: #c62828;">approx. ${formattedTerminalLow} to ${formattedTerminalHigh}</span>
+            <p style="font-size: 0.85em; color: #b71c1c; margin-top: 10px; font-weight: bold;">⚠️ A complete rip-off at the payment machine!</p>
+          </div>
+          
+          <!-- Solution box: alternative -->
+          <div style="flex: 1; min-width: 250px; padding: 20px; background: #f1f8e9; border: 2px solid #2e7d32; border-radius: 6px;">
+            <h4 style="color: #2e7d32; margin-top: 0; font-size: 1.1em;">Certified alternative parking</h4>
+            <p style="margin-bottom: 10px; font-size: 0.9em; color: #555;">With shuttle / valet service:</p>
+            <span style="font-size: 1.8em; font-weight: 900; color: #2e7d32;">from ${formattedAlternative}</span>
+            <p style="font-size: 0.85em; color: #2e7d32; margin-top: 10px; font-weight: bold;">✅ Your saving: approx. ${formattedSavings}!</p>
+          </div>
+        </div>
+        
+        <p style="margin-top: 25px; text-align: center;">
+          <button type="button" onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth', block: 'center'});" style="background: #1565c0; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">Save over ${formatCurrency(savings - 10)} now & secure your parking space</button>
+        </p>
+      `;
+
+      // 6. Smooth scroll to the result
+      resultBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    });
+  }
+
+  // Sticky CTA Logic
+  const stickyCta = document.getElementById('stickyCta');
+  const mainAffiliateBtn = document.querySelector('.main-affiliate-btn');
+  
+  if(stickyCta && mainAffiliateBtn) {
+    window.addEventListener('scroll', function() {
+      const btnRect = mainAffiliateBtn.getBoundingClientRect();
+      if (btnRect.top < 0) {
+        stickyCta.classList.add('show');
+      } else {
+        stickyCta.classList.remove('show');
+      }
+    });
+  }
+});
+</script>
+</body>
+</html>

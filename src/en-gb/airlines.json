@@ -1,0 +1,688 @@
+[
+  {
+    "slug": "lufthansa",
+    "name": "Deutsche Lufthansa AG",
+    "adresse": "Lufthansa Aviation Center\nAirportring\n60546 Frankfurt am Main\nGermany",
+    "infobox": "<p>Deutsche Lufthansa AG is Germany's largest network airline, connecting destinations worldwide from its home hub of Frankfurt am Main and other hubs. For UK passengers, the key protections are UK Air Passenger Rights (Regulation 261, as retained in UK law) or, on flights departing the EU, EU Regulation 261/2004, for flight delays and cancellations, and the Montreal Convention for lost, damaged or delayed baggage. Overpaid taxes and fees may also be reclaimed in certain circumstances. Lufthansa's registered office and legal jurisdiction is Cologne, Germany. As a major carrier, it must assess and meet passenger claims on a case-by-case basis.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "ryanair",
+    "name": "Ryanair DAC",
+    "adresse": "Ryanair Customer Service Department\nPO Box 11451\nSwords, Co. Dublin\nIreland",
+    "infobox": "<p>Ryanair DAC is an Irish low-cost airline headquartered in Swords, near Dublin, with Dublin Airport as its main base. The airline serves numerous destinations across Europe, including many UK routes, and is frequently involved in flight delay, lost baggage and refundable tax and fee claims. Depending on the flight, UK Air Passenger Rights (UK261) or EU Regulation 261/2004 may entitle passengers to compensation and assistance, while the Montreal Convention governs checked baggage claims. The airline's legal seat and jurisdiction is Ireland. It's worth checking any refund carefully, since ancillary charges and add-on fees aren't always fully recoverable.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "eurowings",
+    "name": "Eurowings GmbH",
+    "adresse": "Waldstraße 249\n51147 Cologne\nGermany",
+    "infobox": "<p>Eurowings GmbH is a German low-cost airline within the Lufthansa Group, based at Düsseldorf Airport. For claims relating to flight delay, lost baggage or refundable taxes and fees, it's essential to establish which airline actually operated the flight. Depending on the case, either UK Air Passenger Rights (UK261) and EU Regulation 261/2004, or the Montreal Convention, will apply. Eurowings GmbH's registered office and jurisdiction is Düsseldorf, Germany. Always check which carrier operated your flight and pursue any claim promptly to secure compensation or reimbursement.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "condor",
+    "name": "Condor Flugdienst GmbH",
+    "adresse": "An der Gehespitz 50\n63263 Neu-Isenburg\nGermany",
+    "infobox": "<p>Condor Flugdienst GmbH is a German leisure airline focused on holiday and package travel. Its home base is Frankfurt am Main, where its registered office and legal jurisdiction are also located. Claims for flight delay, cancellation or baggage problems may fall under UK Air Passenger Rights (UK261), EU Regulation 261/2004 and the Montreal Convention, depending on the route. Overpaid taxes and fees can also be reclaimed in certain circumstances. Travellers with Condor should have any claim reviewed carefully to pursue compensation or reimbursement consistently.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "tuifly",
+    "name": "TUIfly GmbH",
+    "adresse": "Flughafenstraße 10\n30855 Langenhagen\nGermany",
+    "infobox": "<p>TUIfly GmbH is a German leisure airline focused on holiday and charter flights, based at Hannover Airport. Flight delay, cancellation or baggage claims may fall under UK Air Passenger Rights (UK261), EU Regulation 261/2004 or the Montreal Convention, depending on the case. Overpaid taxes and fees may also be reclaimable. TUIfly GmbH's registered office and legal jurisdiction is Hannover, Germany. Review every disruption carefully, as entitlements and refunds can differ significantly by route and flight type.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "aer-lingus",
+    "name": "Aer Lingus",
+    "adresse": "Aer Lingus Limited\nDublin Airport\nCo. Dublin, K67 NY94\nIreland",
+    "infobox": "<p>Aer Lingus is the Irish network carrier, headquartered in Dublin with its main hub at Dublin Airport. It connects Europe and North America, often via connections through Ireland. For flight delays, missed connections or cancellations, UK Air Passenger Rights (UK261) or EU Regulation 261/2004 may apply depending on route; baggage problems are usually governed by the Montreal Convention. Unused taxes and fees can also sometimes be reclaimed on unused flights. Aer Lingus's registered office and relevant jurisdiction is Dublin, Ireland.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "easyjet",
+    "name": "easyJet",
+    "adresse": "easyJet Airline Company Limited\nHangar 89\nLondon Luton Airport\nLuton, Bedfordshire LU2 9PF\nUnited Kingdom",
+    "infobox": "<p>easyJet is a British low-cost airline headquartered at London Luton Airport, its principal base and busiest hub. The airline serves a wide network of European destinations and is known for strict baggage rules. Under UK Air Passenger Rights (UK261) or EU Regulation 261/2004, passengers may be entitled to compensation for flight delays or cancellations. If a bag is lost or arrives damaged, liability is generally governed by the Montreal Convention. Overpaid taxes and fees can also often be reclaimed on cancelled or unused bookings, so it's worth having any claim reviewed carefully.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "wizz-air",
+    "name": "Wizz Air",
+    "adresse": "Wizz Air Hungary Ltd.\nLaurus Offices, Kőér utca 2/A\nBuilding B, H-1103\nBudapest\nHungary",
+    "infobox": "<p>Wizz Air Hungary Ltd. is a Hungarian low-cost airline focused on affordable European and medium-haul routes, based at Budapest Ferenc Liszt Airport. Depending on the flight, passengers may be entitled to compensation and assistance under UK Air Passenger Rights (UK261) or EU Regulation 261/2004 for delays, cancellations or denied boarding. Lost or damaged baggage is governed by the Montreal Convention, and taxes and fees on unused flights can sometimes be reclaimed. Wizz Air's registered office and jurisdiction is Budapest, Hungary. Claims rejected on grounds of alleged extraordinary circumstances are worth reviewing closely.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "turkish-airlines",
+    "name": "Turkish Airlines",
+    "adresse": "Turkish Airlines Inc.\nUK Office\n125 Pall Mall\nLondon SW1Y 5EA\nUnited Kingdom",
+    "infobox": "<p>Turkish Airlines is Türkiye's national carrier and a major hub operator, based at Istanbul Airport. Flights departing the UK or EU may fall under UK Air Passenger Rights (UK261) or EU Regulation 261/2004 for delay or cancellation claims, while baggage problems are typically governed by the Montreal Convention. Depending on the ticket and route, taxes and fees may also be reclaimable. Turkish Airlines' registered office and jurisdiction is Istanbul, Türkiye. Always check the departure point, destination and fare type to establish your rights correctly.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "sunexpress",
+    "name": "SunExpress",
+    "adresse": "SunExpress Deutschland GmbH\nDe-Saint-Exupéry-Straße 10\n60549 Frankfurt am Main\nGermany",
+    "infobox": "<p>SunExpress is a leisure airline with a strong focus on routes to Türkiye and other holiday destinations. Its registered office and legal jurisdiction is in Kelsterbach, near Frankfurt am Main. For flight delays and cancellations, UK Air Passenger Rights (UK261) or EU Regulation 261/2004 may give rise to claims. Lost or damaged baggage is generally covered by the Montreal Convention, and overpaid taxes and fees are often reclaimable. Time limits vary by claim type, so notify the airline in writing as soon as possible.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "vueling",
+    "name": "Vueling",
+    "adresse": "Vueling Airlines S.A.\nParque de Negocios Mas Blau II\nPlaza de l'Estany, 5\n08820 Barcelona\nSpain",
+    "infobox": "<p>Vueling Airlines S.A. is a Spanish low-cost airline based at Barcelona-El Prat Airport, its main hub. The carrier operates an extensive short and medium-haul network across Europe. Flight delay and cancellation claims may fall under UK Air Passenger Rights (UK261) or EU Regulation 261/2004, while baggage problems are covered by the Montreal Convention. Unused taxes and fees may also be worth reclaiming. Vueling's registered office and jurisdiction is El Prat de Llobregat, near Barcelona, Spain.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "british-airways",
+    "name": "British Airways",
+    "adresse": "British Airways Customer Relations (S506)\nPO Box 1126\nUxbridge UB8 9XS\nUnited Kingdom",
+    "infobox": "<p>British Airways is the UK's largest network airline, connecting destinations worldwide from its main hub, London Heathrow. Since Brexit, UK Air Passenger Rights (UK261) apply to eligible flights, offering broadly similar protections to the EU Regulation 261/2004 they replaced for domestic and departing-UK flights. Lost or damaged baggage is additionally covered by the Montreal Convention. Taxes and fees may also be reclaimable on unused flights in certain circumstances. British Airways' registered office and legal jurisdiction is London, United Kingdom.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "klm",
+    "name": "KLM Royal Dutch Airlines",
+    "adresse": "KLM UK Engineering / Customer Relations\n1st Floor, Building 501\nHatton Cross\nHounslow TW6 2GA\nUnited Kingdom",
+    "infobox": "<p>KLM Royal Dutch Airlines is the Dutch national carrier and part of the Air France-KLM Group. Its central hub is Amsterdam Schiphol, the key connecting point for many European and long-haul routes. Depending on the case, claims for flight delay, missed connections, lost baggage or reclaimable taxes and fees may arise under UK Air Passenger Rights (UK261), EU Regulation 261/2004 or the Montreal Convention. KLM's legal seat is the Netherlands, with jurisdiction generally at Amstelveen or Amsterdam. For connecting itineraries, the entire booked journey can matter, not just the delayed leg.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "air-france",
+    "name": "Air France",
+    "adresse": "Air France\nUK Customer Relations\nWaterside House\nHarlequin Avenue\nBrentford TW8 9EX\nUnited Kingdom",
+    "infobox": "<p>Air France is the French network airline and part of the Air France-KLM Group, with its hub at Paris-Charles de Gaulle Airport. Its registered office and legal jurisdiction is Paris, France. Depending on the route, UK Air Passenger Rights (UK261), EU Regulation 261/2004 and the Montreal Convention may apply to flight delay, cancellation or baggage claims. Even where extraordinary circumstances such as strikes or weather rule out compensation, passengers usually retain rights to rerouting, reimbursement and the recovery of unused taxes and fees. Lost or delayed baggage is handled under the Montreal Convention.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "emirates",
+    "name": "Emirates",
+    "adresse": "Emirates\nUK Customer Affairs\nPO Box 686\nDubai\nUnited Arab Emirates",
+    "infobox": "<p>Emirates is the flag carrier of the United Arab Emirates and one of the largest international airlines in the world. Its hub and registered office is Dubai International Airport (DXB). On flights departing the UK or EU, UK Air Passenger Rights (UK261) or EU Regulation 261/2004 may give rise to compensation claims for delays, while the Montreal Convention typically applies on routes outside those jurisdictions. Lost or delayed baggage and reclaimable taxes and fees may also give rise to claims, depending on the case.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "qatar-airways",
+    "name": "Qatar Airways",
+    "adresse": "Qatar Airways\n1 Cabot Square\nCanary Wharf\nLondon E14 4QJ\nUnited Kingdom",
+    "infobox": "<p>Qatar Airways is Qatar's national carrier and a leading premium international airline. Its hub and home base is Hamad International Airport in Doha. UK Air Passenger Rights (UK261) or EU Regulation 261/2004 may apply where a flight departs the UK or EU, or where the delay originates there. Lost or damaged baggage is usually handled under the Montreal Convention, and overpaid taxes and fees can sometimes be reclaimed. Qatar Airways' registered office and jurisdiction is Doha, Qatar.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "tap-air-portugal",
+    "name": "TAP Air Portugal",
+    "adresse": "TAP Air Portugal\nUK Sales Office\n1 Warwick Row\nLondon SW1E 5ER\nUnited Kingdom",
+    "infobox": "<p>TAP Air Portugal is Portugal's national carrier, with its hub at Lisbon Airport. The airline connects Europe with North and South America and Africa, making it especially relevant for flight delay, missed connection and baggage claims. UK Air Passenger Rights (UK261) or EU Regulation 261/2004 apply to cancellation or major delay claims, while the Montreal Convention governs lost or damaged baggage. Unused taxes and fees may also often be reclaimed. TAP's registered office and legal jurisdiction is Lisbon, Portugal.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "iberia",
+    "name": "Iberia",
+    "adresse": "IBERIA LAE SA Operadora Unipersonal\nC/ Martínez Villergas, 49\n28027 Madrid\nSpain",
+    "infobox": "<p>Iberia is Spain's largest airline and a major network carrier, with its central hub at Madrid-Barajas Airport. Passenger rights for flight delay, lost baggage or reclaimable taxes and fees are clearly set out: UK Air Passenger Rights (UK261) or EU Regulation 261/2004 applies within their respective scopes, and the Montreal Convention additionally covers baggage damage or loss. Iberia's registered office and legal jurisdiction is Madrid, Spain. Depending on the case, passengers may have claims for compensation, reimbursement or damages.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "finnair",
+    "name": "Finnair",
+    "adresse": "Finnair Oyj\nUK Sales Office\n1 Farnham Road\nSlough SL1 3RB\nUnited Kingdom",
+    "infobox": "<p>Finnair is Finland's national carrier, known for connections to Europe, Asia and North America. Its hub is Helsinki-Vantaa Airport (HEL); its registered office and legal jurisdiction is Helsinki, Finland. Flight delay or cancellation claims may arise under UK Air Passenger Rights (UK261) or EU Regulation 261/2004, covering care, rerouting or compensation. Lost or damaged baggage is handled under the Montreal Convention, and overpaid taxes and fees may also be reclaimable in certain circumstances. Check claims and time limits promptly.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "sas",
+    "name": "SAS (Scandinavian Airlines)",
+    "adresse": "SAS Scandinavian Airlines\nUK Customer Relations\nAirport House\nPurley Way\nCroydon CR0 0XZ\nUnited Kingdom",
+    "infobox": "<p>SAS (Scandinavian Airlines) is the national carrier of Sweden, Denmark and Norway, connecting numerous European and intercontinental destinations. Its main hub is Stockholm-Arlanda Airport, with further hubs in Copenhagen and Oslo. For flight delays and cancellations, passengers can look at claims under UK Air Passenger Rights (UK261) or EU Regulation 261/2004 for compensation and assistance. Lost or damaged baggage is additionally covered by the Montreal Convention. SAS's registered office and legal jurisdiction is Solna, near Stockholm. Overpaid taxes and fees can also be worth checking.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "delta-air-lines",
+    "name": "Delta Air Lines",
+    "adresse": "Delta Air Lines, Inc.\nUK Customer Care\n2 World Business Centre Heathrow\nNewall Road\nHounslow TW6 2SF\nUnited Kingdom",
+    "infobox": "<p>Delta Air Lines is one of the largest US airlines, with its home hub at Atlanta's Hartsfield-Jackson International Airport. As an international carrier, it is frequently involved in flight delay, lost baggage and tax and fee reclaim cases. On flights departing the UK or EU, UK Air Passenger Rights (UK261) or EU Regulation 261/2004 may give rise to claims, while the Montreal Convention often applies to baggage damage or loss. Delta's registered office and legal jurisdiction is Atlanta, Georgia, USA. Depending on route and direction, different legal frameworks and compensation rules may apply.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "united-airlines",
+    "name": "United Airlines",
+    "adresse": "United Airlines, Inc.\nUK Customer Care\n2nd Floor, Sipson Way\nHeathrow Airport\nHounslow UB7 0GB\nUnited Kingdom",
+    "infobox": "<p>United Airlines is one of the largest US airlines, with its hub at Chicago O'Hare International Airport (ORD). It flies worldwide, with particular strength on long-haul and connecting routes. On departures from the UK or EU, claims for delay, cancellation or denied boarding may arise under UK Air Passenger Rights (UK261) or EU Regulation 261/2004; this generally doesn't apply on return flights from the US. The Montreal Convention governs lost or delayed baggage on both legs. United's registered office and legal jurisdiction is Chicago, Illinois, USA. Reclaiming unused taxes and fees may also be possible.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "american-airlines",
+    "name": "American Airlines",
+    "adresse": "American Airlines\nUK Customer Relations\nHatton Cross Corner\nHounslow TW6 2GA\nUnited Kingdom",
+    "infobox": "<p>American Airlines is one of the largest US airlines, with major hubs at Dallas/Fort Worth, Charlotte, Miami and Chicago O'Hare. Its registered office and legal jurisdiction is Fort Worth, Texas. UK Air Passenger Rights (UK261) or EU Regulation 261/2004 apply only where there is a clear UK or EU connection, such as departure from the UK or EU. On many US-origin routes, the Montreal Convention is instead the key framework, particularly for lost or damaged baggage. Refunds of taxes and fees are additionally governed by the relevant fare and carriage conditions.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "singapore-airlines",
+    "name": "Singapore Airlines",
+    "adresse": "Singapore Airlines Ltd.\nUK Office\n143 Vauxhall Bridge Road\nLondon SW1V 1EQ\nUnited Kingdom",
+    "infobox": "<p>Singapore Airlines is Singapore's premium carrier, based at its home hub, Singapore Changi Airport. Its registered office and relevant legal jurisdiction is Singapore. Different rules apply depending on the case: UK Air Passenger Rights (UK261) or EU Regulation 261/2004 applies on departures from the UK or EU, while the Montreal Convention frequently governs baggage damage or loss. On flights from Singapore to the UK or EU, there is usually no entitlement to compensation under UK or EU rules, but it can still be worth reviewing individual cases.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "corendon-airlines",
+    "name": "Corendon Airlines",
+    "adresse": "Corendon Airlines\nUK Sales Office\n2nd Floor, Charter House\n26 Claremont Road\nSurbiton KT6 4QZ\nUnited Kingdom",
+    "infobox": "<p>Corendon Airlines is part of the Corendon Group and mainly operates or arranges leisure flights to popular holiday destinations, with Antalya Airport as a key hub for many routes. For flight delays and cancellations, UK Air Passenger Rights (UK261) or EU Regulation 261/2004 may apply, depending on the operating carrier and departure point. Lost or damaged baggage is generally covered by the Montreal Convention. The registered office and legal jurisdiction of Corendon's German entity is Düsseldorf, Germany. Overpaid taxes and fees can often be separately claimed back.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "pegasus-airlines",
+    "name": "Pegasus Airlines",
+    "adresse": "Pegasus Airlines\nUK Sales Office\n125 Kingsway\nLondon WC2B 6NH\nUnited Kingdom",
+    "infobox": "<p>Pegasus Airlines is a Turkish low-cost airline based at Istanbul Sabiha Gökçen Airport. The carrier serves numerous domestic European and international routes and is relevant to flight delay, baggage and tax and fee claims. For flights from the UK or EU, or with a clear connection to them, UK Air Passenger Rights (UK261) or EU Regulation 261/2004 may apply, while the Montreal Convention frequently governs baggage damage and loss. Pegasus's registered office and legal jurisdiction is Istanbul, Türkiye. Time limits and responsible parties vary considerably by route and departure point.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "swiss",
+    "name": "Swiss International Air Lines",
+    "adresse": "Swiss International Air Lines AG\nUK Customer Relations\n10 Wardour Street\nLondon W1D 6QF\nUnited Kingdom",
+    "infobox": "<p>Swiss International Air Lines is the Swiss national carrier and part of the Lufthansa Group. Its home hub is Zurich (ZRH), with Geneva and Basel as additional key bases. UK Air Passenger Rights (UK261) or EU Regulation 261/2004 will often apply to flight delay and cancellation claims, as Switzerland has adopted broadly equivalent rules. Lost or damaged baggage is generally covered by the Montreal Convention. Swiss's registered office and legal jurisdiction is Basel. It's also worth checking ticket conditions and the actual departure route when reclaiming taxes and fees.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "thai-airways",
+    "name": "Thai Airways International",
+    "adresse": "THAI Airways International Public Company Ltd.\nUK Sales Office\nWorldwide House\nThorpe Wood\nPeterborough PE3 6SB\nUnited Kingdom",
+    "infobox": "<p>Thai Airways International is Thailand's national carrier, based at Bangkok Suvarnabhumi Airport (BKK). Depending on the departure point, passengers may have claims under UK Air Passenger Rights (UK261) or EU Regulation 261/2004 for delay or cancellation, while the Montreal Convention often governs baggage problems. Thai Airways' registered office and legal jurisdiction is Bangkok, Thailand. Where tickets are cancelled or flights not taken, country-specific taxes and airport fees may often also be reclaimable under the applicable law.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "ana",
+    "name": "ANA (All Nippon Airways)",
+    "adresse": "All Nippon Airways Co., Ltd.\nUK Sales Office\n1st Floor, 4 Grosvenor Place\nLondon SW1X 7HJ\nUnited Kingdom",
+    "infobox": "<p>ANA (All Nippon Airways) is Japan's largest full-service airline, hubbed at Tokyo Haneda Airport, with Tokyo Narita as a further major hub. Depending on the route, different entitlements apply for flight delay, lost baggage and reclaimable taxes and fees. On flights from the UK or EU, UK Air Passenger Rights (UK261) or EU Regulation 261/2004 may apply; the Montreal Convention often governs baggage damage or loss. ANA's registered office and legal jurisdiction is Tokyo, Japan. Always check the departure point, destination and carriage conditions to establish your rights correctly.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "cathay-pacific",
+    "name": "Cathay Pacific",
+    "adresse": "Cathay Pacific Airways Ltd.\nUK Office\n11th Floor, 10 Queen Street Place\nLondon EC4R 1BE\nUnited Kingdom",
+    "infobox": "<p>Cathay Pacific is Hong Kong's premium carrier, connecting Europe, Asia and the Pacific from its home hub, Hong Kong International Airport (HKG). UK Air Passenger Rights (UK261) or EU Regulation 261/2004 apply only where the flight departs the UK or EU. For lost or delayed baggage, the Montreal Convention applies worldwide. Reclaim claims for unused taxes and fees may also arise. Cathay Pacific's registered office and often relevant jurisdiction is Hong Kong.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "austrian-airlines",
+    "name": "Austrian Airlines",
+    "adresse": "Austrian Airlines AG\nc/o Lufthansa Group\nAirportring\n60546 Frankfurt am Main\nGermany",
+    "infobox": "<p>Austrian Airlines is Austria's national carrier and a member of the Lufthansa Group. Its hub is Vienna International Airport, from which numerous European and intercontinental routes depart. UK Air Passenger Rights (UK261) or EU Regulation 261/2004 may give rise to claims for flight delay, cancellation or short-notice rebooking. If your baggage is lost or arrives damaged, the Montreal Convention governs possible compensation. Overpaid taxes and fees can also often be reclaimed. Austrian Airlines' registered office and legal jurisdiction is Vienna, Austria.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "air-canada",
+    "name": "Air Canada",
+    "adresse": "Air Canada\nUK Customer Relations\n5th Floor, 3 Piccadilly Place\nManchester M1 3BN\nUnited Kingdom",
+    "infobox": "<p>Air Canada is Canada's largest airline, connecting numerous worldwide destinations from its home hub, Toronto Pearson International Airport. Depending on the departure point, either UK Air Passenger Rights (UK261)/EU Regulation 261/2004 or the Canadian APPR may apply to flight delays and cancellations. Lost or damaged baggage is governed by the Montreal Convention, and unused taxes and fees may also often be reclaimed. Air Canada's registered office and legal jurisdiction is Montreal, Quebec. Claims against Air Canada can therefore be assessed for reimbursement, compensation or baggage damage depending on the case.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "etihad-airways",
+    "name": "Etihad Airways",
+    "adresse": "Etihad Airways\nUK Office\n1st Floor, Building 4\nHeathrow Boulevard\n282 Bath Road\nHayes UB3 5AY\nUnited Kingdom",
+    "infobox": "<p>Etihad Airways is the national carrier of the United Arab Emirates, based at Abu Dhabi's home and hub airport. The airline connects numerous worldwide destinations and is known for its long-haul network. Depending on the route, different rights apply for flight delay, baggage problems and reclaimable taxes and fees: UK Air Passenger Rights (UK261) or EU Regulation 261/2004 only applies to certain flights, while the Montreal Convention frequently governs delayed or lost baggage. Etihad's registered office and legal jurisdiction is Abu Dhabi.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "latam-airlines",
+    "name": "LATAM Airlines",
+    "adresse": "LATAM Airlines Group S.A.\nAvenida Presidente Riesco 5711, Floor 20\nLas Condes, Santiago\nChile",
+    "infobox": "<p>LATAM Airlines is South America's largest airline group, with a central hub in Santiago, Chile (Santiago Airport, SCL). On flights departing the UK or EU, UK Air Passenger Rights (UK261) or EU Regulation 261/2004 may entitle passengers to compensation; lost or delayed baggage is usually governed by the Montreal Convention. Note: on codeshare flights, the airline that actually operated the flight (the operating carrier) is generally responsible. LATAM's registered office and legal jurisdiction is Santiago, Chile. Refunds of unused taxes and fees may also be possible depending on the ticket and fare.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "qantas-airways",
+    "name": "Qantas Airways",
+    "adresse": "Qantas Airways Limited\nUK Office\n10 Chiswick Park\n566 Chiswick High Road\nLondon W4 5XS\nUnited Kingdom",
+    "infobox": "<p>Qantas Airways is Australia's largest airline, hubbed at Sydney Kingsford Smith Airport. The airline connects Europe, Asia, North America and Oceania on long-haul routes. For flight delay or cancellation on departures from the UK, claims may arise under UK Air Passenger Rights (UK261) depending on the route. Lost or damaged baggage is governed by the Montreal Convention. Overpaid taxes and fees can also often be checked and reclaimed. Qantas's registered office and legal jurisdiction is Mascot, New South Wales, Australia.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "japan-airlines",
+    "name": "Japan Airlines (JAL)",
+    "adresse": "Japan Airlines Co., Ltd.\nUK Sales Office\nHeathrow Airport\nHounslow TW6 2GA\nUnited Kingdom",
+    "infobox": "<p>Japan Airlines (JAL) is one of Japan's leading airlines, headquartered in Tokyo, with a key hub at Haneda Airport. UK Air Passenger Rights (UK261) or EU Regulation 261/2004 applies only where the flight departs the UK or EU. Lost or damaged baggage is generally governed by the Montreal Convention. Taxes and fees can also often be reclaimed on cancelled tickets where UK law applies. JAL's registered office and legal jurisdiction is Tokyo, Japan.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "air-china",
+    "name": "Air China",
+    "adresse": "Air China Limited\nUK Office\n1st Floor, 41 Fitzroy Square\nLondon W1T 6EL\nUnited Kingdom",
+    "infobox": "<p>Air China is China's national carrier and one of Asia's largest airlines, with its principal hub at Beijing Capital International Airport. On departures from the UK or EU, UK Air Passenger Rights (UK261) or EU Regulation 261/2004 may give rise to compensation for flight delays; this is usually not the case on return flights from China to Europe. On lost or delayed baggage, or damage claims under the Montreal Convention, entitlements can still exist regardless of direction. Air China's registered office and legal jurisdiction is Beijing, China.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "korean-air",
+    "name": "Korean Air",
+    "adresse": "Korean Air\nUK Office\n7th Floor, 25 Farringdon Street\nLondon EC4A 4AB\nUnited Kingdom",
+    "infobox": "<p>Korean Air is South Korea's largest airline and a member of the SkyTeam alliance. Its main hub is Seoul-Incheon Airport (ICN); its registered office and legal jurisdiction is Seoul. On departures from the UK or EU, delays and denied boarding may give rise to compensation and assistance claims under UK Air Passenger Rights (UK261) or EU Regulation 261/2004. Lost or damaged baggage is governed by the Montreal Convention. Wrongly charged taxes and fees can often also be reclaimed. Review your claims promptly and keep supporting evidence.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "air-india",
+    "name": "Air India",
+    "adresse": "Air India Limited\nUK Office\n7 Cork Street\nLondon W1S 3LH\nUnited Kingdom",
+    "infobox": "<p>Air India is India's state-owned carrier and a major network operator, connecting numerous destinations across Asia, Europe and beyond. Its home hub is Indira Gandhi International Airport in New Delhi. On flights departing the UK or EU, claims may arise under UK Air Passenger Rights (UK261) or EU Regulation 261/2004 for delay or cancellation. Baggage problems and related damages claims often fall under the Montreal Convention. Air India's registered office and legal jurisdiction is New Delhi, India. Depending on the ticket and routing, reclaimable taxes and fees may also apply.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "lot-polish-airlines",
+    "name": "LOT Polish Airlines",
+    "adresse": "LOT Polish Airlines\nUK Office\n313 Oxford Street\nLondon W1C 2DR\nUnited Kingdom",
+    "infobox": "<p>LOT Polish Airlines is Poland's national carrier, connecting numerous European and worldwide destinations from its home hub, Warsaw Chopin Airport. UK Air Passenger Rights (UK261) or EU Regulation 261/2004 will typically apply to LOT flights for delay, cancellation and denied boarding claims. Lost or damaged baggage may give rise to claims under the Montreal Convention. LOT's registered office and legal jurisdiction is Warsaw. Taxes and fees can also often be reclaimed where a ticket goes unused or a flight isn't taken.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "brussels-airlines",
+    "name": "Brussels Airlines",
+    "adresse": "Brussels Airlines SA/NV\nc/o Lufthansa Group\nAirportring\n60546 Frankfurt am Main\nGermany",
+    "infobox": "<p>Brussels Airlines is Belgium's national carrier, hubbed at Brussels-Zaventem Airport. Its registered office and legal jurisdiction is Brussels, Belgium. As an EU carrier, it falls under UK Air Passenger Rights (UK261) or EU Regulation 261/2004 for flight delay and cancellation claims; depending on arrival delay, compensation of up to £520/€600 may be possible. Lost or damaged baggage is additionally covered by the Montreal Convention. Overpaid taxes and fees may also often be reclaimed. Brussels Airlines is therefore well covered legally for passengers on European and African routes.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "ita-airways",
+    "name": "ITA Airways",
+    "adresse": "Italia Trasporto Aereo S.p.A.\nUK Office\n1 Duchess Street\nLondon W1W 6AN\nUnited Kingdom",
+    "infobox": "<p>ITA Airways is Italy's state-owned carrier and the successor to Alitalia. Its home hub is Rome-Fiumicino Airport (FCO). On departures from the UK or EU, or on flights with a UK/EU connection, UK Air Passenger Rights (UK261) and EU Regulation 261/2004 apply to delay and cancellation claims, while the Montreal Convention generally governs baggage damage or loss. Overpaid taxes and fees may also be reclaimable in certain circumstances. ITA's registered office and legal jurisdiction is Rome, Italy.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "air-baltic",
+    "name": "airBaltic",
+    "adresse": "Air Baltic Corporation AS\nUK Sales Office\n2nd Floor, 145–157 St John Street\nLondon EC1V 4PY\nUnited Kingdom",
+    "infobox": "<p>airBaltic is Latvia's network carrier, headquartered and with jurisdiction in Riga. Its home hub is Riga International Airport (RIX), serving numerous European and other destinations. On flight delays and cancellations, passengers can claim compensation and assistance under UK Air Passenger Rights (UK261) or EU Regulation 261/2004. Lost or damaged baggage may give rise to claims under the Montreal Convention. Passengers who don't take a booked flight can also often reclaim unpaid taxes and airport fees.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "aegean-airlines",
+    "name": "Aegean Airlines",
+    "adresse": "Aegean Airlines S.A.\nUK Office\n125 Kingsway\nLondon WC2B 6NH\nUnited Kingdom",
+    "infobox": "<p>Aegean Airlines is Greece's largest airline and a Star Alliance member. Its registered office and legal jurisdiction is Kifisia, near Athens; its home hub is Athens International Airport (ATH). Flight delay or cancellation claims may arise under UK Air Passenger Rights (UK261) or EU Regulation 261/2004, while lost or damaged baggage is additionally covered by the Montreal Convention. Overpaid taxes and fees may often be reclaimable too. Strikes or regulatory restrictions can count as extraordinary circumstances but don't automatically rule out reimbursement or rerouting.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "air-europa",
+    "name": "Air Europa",
+    "adresse": "Air Europa Líneas Aéreas S.A.U.\nCarretera Arenal-Llucmajor, Km 21.5\n07620 Llucmajor - Balearic Islands\nSpain",
+    "infobox": "<p>Air Europa is a Spanish full-service carrier within the Globalia Group, based at Madrid-Barajas Airport (MAD). UK Air Passenger Rights (UK261) or EU Regulation 261/2004 apply to flight delay or cancellation claims, and the Montreal Convention applies to baggage problems. Depending on the ticket and fare, refunds of taxes and fees may also be possible. Air Europa's registered office and legal jurisdiction is Llucmajor, Mallorca, Spain. It's worth reviewing claims carefully for rebooked, lost-baggage or unused-flight cases.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "discover-airlines",
+    "name": "Discover Airlines",
+    "adresse": "EW Discover GmbH\nHugo-Eckener-Ring 1\n60549 Frankfurt am Main\nGermany",
+    "infobox": "<p>Discover Airlines is a German leisure carrier within the Lufthansa Group, based at Frankfurt am Main; its registered office and legal jurisdiction is also Frankfurt am Main. Claims for flight delay, lost baggage or delayed baggage may arise under UK Air Passenger Rights (UK261), EU Regulation 261/2004 and the Montreal Convention, depending on the case. Unused taxes and fees can often also be reclaimed. Where baggage is delayed, passengers may buy essential replacement items; keep receipts for clothing, toiletries and other expenses. Since strict time limits often apply, gather documentation early.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "edelweiss-air",
+    "name": "Edelweiss Air",
+    "adresse": "Edelweiss Air AG\nCustomer Relations\nThe Circle 32, PO Box\n8058 Zurich Airport\nSwitzerland",
+    "infobox": "<p>Edelweiss Air is the Swiss leisure carrier within the Lufthansa Group, based at Zurich Airport. Flight delay, baggage problems or reclaimable taxes and fees are typically covered by UK Air Passenger Rights (UK261), EU Regulation 261/2004 and the Montreal Convention. As an airline registered in Kloten, near Zurich, Edelweiss Air is generally subject to Swiss law; its legal jurisdiction is Kloten. Depending on the case, claims for compensation, reimbursement or damages may apply. Flight changes or cancellations are also worth having reviewed.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "norwegian-air-shuttle",
+    "name": "Norwegian",
+    "adresse": "Norwegian Air Shuttle ASA\nFornebuveien 11\n1366 Lysaker\nNorway",
+    "infobox": "<p>Norwegian is a Norwegian low-cost airline focused on European and transatlantic routes, based at Oslo-Gardermoen Airport. Although the airline is headquartered in Norway, UK Air Passenger Rights (UK261) or EU Regulation 261/2004 apply to many of its flights, giving rise to claims for delay or cancellation. For baggage problems, such as lost or delayed suitcases, the Montreal Convention applies. Norwegian's registered office and legal jurisdiction is Fornebu, near Oslo. Taxes and fees may also be reclaimable on cancelled bookings, in certain circumstances.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "icelandair",
+    "name": "Icelandair",
+    "adresse": "Icelandair\nUK Office\n2nd Floor, Cassini House\n57–59 St James's Street\nLondon SW1A 1LD\nUnited Kingdom",
+    "infobox": "<p>Icelandair is Iceland's largest airline, connecting Europe with North America via its hub at Keflavík Airport near Reykjavík. Depending on the route, claims for flight delay or missed connections may arise under UK Air Passenger Rights (UK261) or EU Regulation 261/2004, while the Montreal Convention often applies to baggage problems. Claims for lost baggage or reclaimable taxes and fees may be worth reviewing. Icelandair's registered office and legal jurisdiction is Reykjavík, Iceland. Route, departure point and cause of disruption are always decisive factors.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "volotea",
+    "name": "Volotea",
+    "adresse": "Volotea S.L.\nTravessera de Gràcia 56\n4th Floor\n08006 Barcelona\nSpain",
+    "infobox": "<p>Volotea S.L. is a Spanish low-cost airline headquartered and with jurisdiction in Barcelona; its main hub is Barcelona-El Prat Airport. Flight delay and cancellation claims may arise under UK Air Passenger Rights (UK261) or EU Regulation 261/2004 where no extraordinary circumstances apply. Lost or damaged baggage may also give rise to claims under the Montreal Convention. Depending on the ticket and booking, taxes, fees and other ancillary flight costs may also be reclaimable. Many rejections cite weather or operational reasons, but not every disruption is legally excusable.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "air-transat",
+    "name": "Air Transat",
+    "adresse": "Air Transat (Transat Tours Canada Inc.)\nUK Office\n5 Fleet Place\nLondon EC4M 7RD\nUnited Kingdom",
+    "infobox": "<p>Air Transat is a Canadian leisure and scheduled airline focused on long-haul and holiday routes. Its home hub is Montréal-Trudeau Airport (YUL); its registered office and legal jurisdiction is Montréal, Quebec, Canada. Depending on departure point, claims for flight delay, lost baggage or reclaimable taxes and fees may fall under UK Air Passenger Rights (UK261) or EU Regulation 261/2004, Canadian regulations, or the Montreal Convention. UK/EU-origin flights are especially relevant for UK261/EU261, while baggage damage and loss are typically covered by the Montreal Convention.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "saudia",
+    "name": "Saudia (Saudi Arabian Airlines)",
+    "adresse": "Saudi Arabian Airlines\nUK Office\n1st Floor, Portland House\nBressenden Place\nLondon SW1E 5BH\nUnited Kingdom",
+    "infobox": "<p>Saudia (Saudi Arabian Airlines) is Saudi Arabia's national carrier, primarily connecting Riyadh and Jeddah with numerous international destinations. Its main hub is King Abdulaziz International Airport in Jeddah, with its registered office and legal jurisdiction in Jeddah. On flights departing the UK or EU, UK Air Passenger Rights (UK261) or EU Regulation 261/2004 may give rise to claims for delay or cancellation; on baggage loss or damage, the Montreal Convention applies worldwide. Unused taxes and fees may also be reclaimable depending on the ticket and fare.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "el-al",
+    "name": "El Al Israel Airlines",
+    "adresse": "EL AL Israel Airlines Ltd.\nUK Office\n5th Floor, Chesham House\n150 Regent Street\nLondon W1B 5SG\nUnited Kingdom",
+    "infobox": "<p>El Al is Israel's national carrier, headquartered in Tel Aviv with its main hub at Ben Gurion Airport (TLV). For flights to or from Israel, UK Air Passenger Rights (UK261) and EU Regulation 261/2004 often don't apply; instead, Israel's Aviation Services Law usually governs delay and cancellation claims, while the Montreal Convention frequently applies to baggage damage or loss. Whether it's flight delay, lost baggage, or reclaiming taxes and fees, the applicable legal framework depends on route, ticket and departure point. El Al's jurisdiction and registered office is Tel Aviv.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "eva-air",
+    "name": "EVA Air",
+    "adresse": "EVA Airways Corp.\nUK Office\n10 Wardour Street\nLondon W1D 6QF\nUnited Kingdom",
+    "infobox": "<p>EVA Air is a Taiwanese premium carrier headquartered in Taoyuan, with its main hub at Taiwan Taoyuan International Airport. On departures from the UK or EU, UK Air Passenger Rights (UK261) or EU Regulation 261/2004 may apply to flight delay and cancellation claims. Lost or delayed baggage is typically governed by the Montreal Convention. Unused taxes and fees may also be worth reclaiming. EVA Air's registered office and legal jurisdiction is Taoyuan, Taiwan. Entitlements vary considerably by route and booking, so review claims carefully.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "jet2",
+    "name": "Jet2.com",
+    "adresse": "Jet2.com Limited\nCustomer Relations\nLow Fold\nWhitehall Road East\nLeeds LS27 0NN\nUnited Kingdom",
+    "infobox": "<p>Jet2.com is a British low-cost airline focused on holiday and package travel. Its home hub is Leeds Bradford Airport, with further bases across the UK and Europe. UK Air Passenger Rights (UK261) generally applies to Jet2 flights for delays and cancellations; EU Regulation 261/2004 may additionally apply depending on the route. Lost or damaged baggage is usually covered under the Montreal Convention. Taxes and fees can often be reclaimed where a flight isn't taken. Jet2.com Limited is registered in Leeds, England; its jurisdiction is generally England and Wales.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "tui-airways-uk",
+    "name": "TUI Airways",
+    "adresse": "TUI UK Limited (TUI Airways)\nWigmore House, Wigmore Lane\nLuton LU2 9TN\nUnited Kingdom",
+    "infobox": "<p>TUI Airways is a British leisure carrier with its main base at London Luton Airport and further bases in Manchester, Birmingham and Gatwick. UK Air Passenger Rights (UK261) applies to many TUI Airways flights; EU Regulation 261/2004 may additionally apply on some routes. Delay, cancellation and denied boarding may give rise to compensation and assistance claims. Lost or damaged baggage is governed by the Montreal Convention. TUI Airways' registered office and legal jurisdiction is Luton, England. Overpaid taxes and fees may also be reclaimable in certain circumstances.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "virgin-atlantic",
+    "name": "Virgin Atlantic",
+    "adresse": "Virgin Atlantic Airways Limited\nThe VHQ, Fleming Way\nCrawley, West Sussex RH10 9DF\nUnited Kingdom",
+    "infobox": "<p>Virgin Atlantic is a British long-haul carrier, based at London Heathrow and Manchester with routes to North America, the Caribbean, Africa and Asia. UK Air Passenger Rights (UK261) generally applies to flight delay, cancellation and denied boarding claims on departures from the UK. Lost or damaged baggage is governed by the Montreal Convention. Overpaid taxes and fees may also be reclaimable on unused or cancelled bookings. Virgin Atlantic's registered office and legal jurisdiction is Crawley, West Sussex, England.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "loganair",
+    "name": "Loganair",
+    "adresse": "Loganair Limited\nHangar 62\nHeadland House\nGlasgow Airport\nPaisley PA3 2TG\nUnited Kingdom",
+    "infobox": "<p>Loganair is Scotland's largest regional airline, connecting the Scottish islands, Northern Ireland and regional UK airports, based at Glasgow Airport. UK Air Passenger Rights (UK261) applies to Loganair's domestic and international flights for delay, cancellation and denied boarding claims. Lost or damaged baggage is governed by the Montreal Convention. Taxes and fees can also often be reclaimed on cancelled tickets. Loganair's registered office and legal jurisdiction is Paisley, Scotland, United Kingdom.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "croatia-airlines",
+    "name": "Croatia Airlines",
+    "adresse": "Croatia Airlines d.d.\nBani 75b\n10010 Zagreb\nCroatia",
+    "infobox": "<p>Croatia Airlines is Croatia's national carrier, headquartered in Zagreb with its main hub at Zagreb Airport. As an EU carrier, many claims for flight delay, cancellation or denied boarding fall under UK Air Passenger Rights (UK261) or EU Regulation 261/2004. Lost or damaged baggage may additionally be covered by the Montreal Convention. Refunds of unused taxes and fees may also be possible. Jurisdiction lies in Zagreb, so claims against the airline are generally assessed under Croatian law alongside applicable UK/EU rules.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "air-serbia",
+    "name": "Air Serbia",
+    "adresse": "Air Serbia a.d.\nJurija Gagarina 12\n11070 Belgrade\nSerbia",
+    "infobox": "<p>Air Serbia is Serbia's national carrier, based at Belgrade Nikola Tesla Airport. Depending on the case, claims for flight delay, baggage problems or reclaimable taxes and fees may arise. UK Air Passenger Rights (UK261) or EU Regulation 261/2004 applies on departures from the UK or EU, and to flights with EU carriers; as a non-UK/EU carrier, Air Serbia is mainly relevant for departures from the UK or EU. The Montreal Convention frequently governs baggage damage or loss. Air Serbia's registered office and legal jurisdiction is Belgrade, Serbia.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "tarom",
+    "name": "TAROM",
+    "adresse": "TAROM\nCalea Bucureștilor 224F\n075100 Otopeni, Ilfov\nRomania",
+    "infobox": "<p>TAROM is Romania's state-owned network carrier, hubbed at Bucharest-Otopeni (Henri Coandă Airport). As a Romania-registered airline, TAROM falls under UK Air Passenger Rights (UK261) or EU Regulation 261/2004 for flight delay and cancellation claims where eligibility criteria are met. Delayed or lost baggage may give rise to claims for essential replacement costs under the Montreal Convention. Reclaiming unused taxes and fees may also be worth reviewing. TAROM's registered office and legal jurisdiction is Bucharest, Romania.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "south-african-airways",
+    "name": "South African Airways",
+    "adresse": "South African Airways\nAirways Park, Jones Road\nOR Tambo International Airport\nKempton Park 1627\nSouth Africa",
+    "infobox": "<p>South African Airways is South Africa's national carrier, primarily connecting Johannesburg with destinations across Africa, Europe and beyond. Its main hub is OR Tambo International Airport in Johannesburg; its registered office and relevant jurisdiction is also in South Africa. Depending on the route, different rights may apply for flight delay, lost baggage or reclaimable taxes and fees: UK Air Passenger Rights (UK261) or EU Regulation 261/2004 applies on departures from the UK or EU, and the Montreal Convention frequently governs baggage damage or loss. Always check the departure point, airline and ticket details.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "ethiopian-airlines",
+    "name": "Ethiopian Airlines",
+    "adresse": "Ethiopian Airlines S.C.\nUK Office\n78 Cannon Street\nLondon EC4N 6HH\nUnited Kingdom",
+    "infobox": "<p>Ethiopian Airlines is Africa's largest airline, connecting numerous worldwide destinations from its home hub, Addis Ababa Bole Airport. For flight delay, lost or damaged baggage, or reclaiming taxes and fees, claims may arise under UK Air Passenger Rights (UK261), EU Regulation 261/2004 and the Montreal Convention depending on the case. Ethiopian Airlines' registered office and legal jurisdiction is Addis Ababa, Ethiopia. For itineraries connecting through Addis Ababa in particular, it's worth carefully reviewing your rights and any potential compensation.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "tunisair",
+    "name": "Tunisair",
+    "adresse": "Tunisair\nBoulevard du 7 Novembre 1987\n2035 Tunis-Carthage\nTunisia",
+    "infobox": "<p>Tunisair is Tunisia's national carrier, based at Tunis-Carthage Airport. For flight delay or cancellation, UK Air Passenger Rights (UK261), EU Regulation 261/2004 and the Montreal Convention apply depending on the flight route: claims may arise on flights departing the UK or EU, but usually not on the return leg from Tunisia. Lost or damaged baggage is governed by the Montreal Convention on either leg. Taxes and fees can often be reclaimed on unused tickets, depending on the fare and carriage contract. Tunisair's registered office and legal jurisdiction is Tunis, Tunisia.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "royal-air-maroc",
+    "name": "Royal Air Maroc",
+    "adresse": "Royal Air Maroc\nUK Office\n205–206 Regent Street\nLondon W1B 4HB\nUnited Kingdom",
+    "infobox": "<p>Royal Air Maroc is Morocco's national carrier, connecting Europe, Africa, North America and the Middle East from its home hub, Casablanca (Mohammed V International Airport). On flights departing the UK or EU, claims may arise under UK Air Passenger Rights (UK261) or EU Regulation 261/2004 for delay or cancellation. Lost or damaged baggage is generally covered by the Montreal Convention. Taxes and fees may also be reclaimable under certain conditions. Royal Air Maroc's registered office and legal jurisdiction is Casablanca, Morocco.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "egyptair",
+    "name": "EgyptAir",
+    "adresse": "EgyptAir\nUK Office\n296 Regent Street\nLondon W1B 3HH\nUnited Kingdom",
+    "infobox": "<p>EgyptAir is Egypt's national carrier and a Star Alliance member. Its main hub is Cairo International Airport. On flights departing the UK or EU, claims for delay, cancellation or denied boarding may arise under UK Air Passenger Rights (UK261) or EU Regulation 261/2004; the Montreal Convention applies to many baggage problems and international cases. EgyptAir's registered office and legal jurisdiction is Cairo, Egypt. Taxes and fees may also be reclaimable in certain circumstances, such as for unused flights or partial journeys.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "kuwait-airways",
+    "name": "Kuwait Airways",
+    "adresse": "Kuwait Airways\nUK Office\n16 Baker Street\nLondon W1U 3ES\nUnited Kingdom",
+    "infobox": "<p>Kuwait Airways is Kuwait's national carrier, hubbed at Kuwait International Airport in Kuwait City. The airline's registered office and legal jurisdiction is also Kuwait City. Different rights apply depending on the route for flight delay, cancellation or baggage problems: UK Air Passenger Rights (UK261) or EU Regulation 261/2004 only applies to flights departing the UK or EU, while lost or damaged baggage is usually governed by the Montreal Convention. Unused taxes and fees may also be refundable in certain circumstances. Review your claims promptly to keep within any applicable time limits.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "middle-east-airlines",
+    "name": "Middle East Airlines",
+    "adresse": "Middle East Airlines - Air Liban\nUK General Sales Agent\nHeathrow Airport\nHounslow TW6 2GA\nUnited Kingdom",
+    "infobox": "<p>Middle East Airlines is Lebanon's national carrier, mainly operating from its home hub, Beirut-Rafic Hariri Airport. Different rights may apply for flight delay, lost baggage or reclaimable taxes and fees, depending on route. Where a flight departs the UK or EU, UK Air Passenger Rights (UK261) and EU Regulation 261/2004 often apply and may give rise to compensation. On journeys departing Beirut, the Montreal Convention is usually the key framework. Middle East Airlines' registered office and legal jurisdiction is Beirut, Lebanon. Always check the departure point, ticket type and specific cause of disruption.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "air-malta",
+    "name": "Air Malta",
+    "adresse": "Air Malta plc\nOM Malta House\nTriq il-Kbira\nLuqa LQA 4000\nMalta",
+    "infobox": "<p>Air Malta is the national carrier of Malta, based at and registered in Luqa, with its hub at Malta International Airport (Valletta/Luqa). The airline may be relevant for flight delay, lost baggage or reclaimable taxes and fees claims. As an EU-registered carrier, Air Malta is subject to EU Regulation 261/2004, with UK Air Passenger Rights (UK261) also applying to flights departing the UK; damaged or lost baggage claims usually fall under the Montreal Convention. Air Malta's registered office and legal jurisdiction is Luqa, Malta. Report any baggage damage immediately at the airport (PIR) to protect your claim.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "royal-jordanian",
+    "name": "Royal Jordanian",
+    "adresse": "Royal Jordanian Airlines\nUK Office\n32 Cockspur Street\nLondon SW1Y 5BN\nUnited Kingdom",
+    "infobox": "<p>Royal Jordanian is Jordan's national carrier, hubbed at Amman Queen Alia International Airport. The airline's registered office and legal jurisdiction is Amman, Jordan. Different rights apply depending on the flight route: UK Air Passenger Rights (UK261) or EU Regulation 261/2004 may apply to flights departing the UK or EU for delay and cancellation claims, while the Montreal Convention is often the key framework for baggage problems and damages claims. Unused tickets or return flights may also give rise to reclaimable taxes and fees under certain conditions.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "malaysia-airlines",
+    "name": "Malaysia Airlines",
+    "adresse": "Malaysia Airlines\nUK Office\n247–249 Cromwell Road\nLondon SW5 9GA\nUnited Kingdom",
+    "infobox": "<p>Malaysia Airlines is Malaysia's national carrier, connecting numerous worldwide destinations from its home hub, Kuala Lumpur International Airport (KUL). UK Air Passenger Rights (UK261) or EU Regulation 261/2004 apply only where the flight departs the UK or EU. Lost or damaged baggage is generally covered by the Montreal Convention worldwide; claims should ideally be made immediately, and no later than 7 days for damage. Taxes and fees may also be refundable depending on the fare and ticket conditions. Malaysia Airlines' registered office and legal jurisdiction is Kuala Lumpur, Malaysia.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "china-southern-airlines",
+    "name": "China Southern Airlines",
+    "adresse": "China Southern Airlines\nUK Office\n1st Floor, 30 City Road\nLondon EC1Y 2AB\nUnited Kingdom",
+    "infobox": "<p>China Southern Airlines is one of Asia's largest airlines, headquartered in Guangzhou with its main hub at Guangzhou-Baiyun Airport. UK Air Passenger Rights (UK261) or EU Regulation 261/2004 may give rise to claims for flight delay or cancellation where the flight departs the UK or EU. Lost or damaged baggage is generally governed by the Montreal Convention. Claims for unused taxes and fees may also apply. China Southern Airlines' registered office and legal jurisdiction is Guangzhou, China. Always check your rights on an individual basis.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "garuda-indonesia",
+    "name": "Garuda Indonesia",
+    "adresse": "Garuda Indonesia\nUK Office\n40 Chandos Street\nLondon W1G 9RS\nUnited Kingdom",
+    "infobox": "<p>Garuda Indonesia is Indonesia's national carrier, connecting numerous worldwide destinations from its home hub, Jakarta Soekarno-Hatta Airport. Claims for flight delay or baggage problems may fall under UK Air Passenger Rights (UK261), EU Regulation 261/2004 or the Montreal Convention, depending on the route. Garuda's registered office and legal jurisdiction is Jakarta, Indonesia. Where a flight is cancelled for personal reasons, government taxes and unused fees can often still be reclaimed. Check your entitlements carefully, particularly for departures from the UK or EU, or for international connections.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "air-astana",
+    "name": "Air Astana",
+    "adresse": "Air Astana JSC\nUK Representative Office\n41 Great Portland Street\nLondon W1W 7LA\nUnited Kingdom",
+    "infobox": "<p>Air Astana is Kazakhstan's leading airline, hubbed at Almaty Airport, with a further key base at Astana. The airline's registered office and legal jurisdiction is Almaty, Kazakhstan. UK Air Passenger Rights (UK261) or EU Regulation 261/2004 apply only to departures from the UK or EU, so arrivals with Air Astana generally give no entitlement to compensation. Lost or damaged baggage, and related refund and claims issues, may arise under the Montreal Convention. Unused taxes and fees can also often be reviewed and reclaimed separately.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "rwandair",
+    "name": "RwandAir",
+    "adresse": "RwandAir Ltd.\nKigali International Airport\nPO Box 7275\nKigali\nRwanda",
+    "infobox": "<p>RwandAir is Rwanda's national carrier, connecting Kigali with numerous destinations across Africa, the Middle East and Europe. Its home hub is Kigali International Airport. Claims for flight delay or cancellation may arise under UK Air Passenger Rights (UK261) or EU Regulation 261/2004 where the flight departs the UK or EU. Lost or damaged baggage is generally governed by the Montreal Convention. Unused taxes and fees may also often be reclaimable. RwandAir's registered office and legal jurisdiction is Kigali, Rwanda.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "kenya-airways",
+    "name": "Kenya Airways",
+    "adresse": "Kenya Airways\nUK Office\nHatton Cross Corner\nHounslow TW6 2GA\nUnited Kingdom",
+    "infobox": "<p>Kenya Airways is Kenya's national carrier, connecting Europe, Africa and the Middle East from its home hub, Nairobi Jomo Kenyatta International Airport. On flights departing the UK or EU, UK Air Passenger Rights (UK261) or EU Regulation 261/2004 may apply for delay or cancellation claims; this usually doesn't apply on return flights from Kenya. The Montreal Convention is also important for baggage damage, loss and many delay-related claims. Kenya Airways' registered office and legal jurisdiction is Nairobi. Unused taxes and fees can often be separately reclaimed depending on the ticket and fare.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "srilankan-airlines",
+    "name": "SriLankan Airlines",
+    "adresse": "SriLankan Airlines\nUK Office\n10 Nightingale Lane\nLondon SW12 8SA\nUnited Kingdom",
+    "infobox": "<p>SriLankan Airlines is Sri Lanka's national carrier, connecting numerous destinations across Asia, Europe and beyond from its hub, Bandaranaike International Airport in Colombo. On flights departing the UK or EU, UK Air Passenger Rights (UK261) or EU Regulation 261/2004 may give rise to compensation claims for flight delay. Lost or damaged baggage is usually governed by the Montreal Convention. Overpaid taxes and fees may also often be checked and reclaimed. SriLankan's registered office and legal jurisdiction is Katunayake, Sri Lanka.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "luxair",
+    "name": "Luxair",
+    "adresse": "Luxair S.A.\nAéroport de Luxembourg\nL-2987 Luxembourg\nLuxembourg",
+    "infobox": "<p>Luxair is Luxembourg's national carrier, mainly operating from its home hub, Luxembourg Airport (LUX). UK Air Passenger Rights (UK261) or EU Regulation 261/2004 applies to many routes for flight delay, cancellation and missed connection claims; baggage problems and damages claims are often governed by the Montreal Convention. Luxair's registered office and legal jurisdiction is Sandweiler, Luxembourg. Depending on the case, passengers may have claims for compensation, reimbursement, assistance, or the recovery of taxes and fees. The cause, route and booking arrangement are the key deciding factors.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "air-dolomiti",
+    "name": "Air Dolomiti",
+    "adresse": "Air Dolomiti S.p.A.\nc/o Lufthansa Group\nAirportring\n60546 Frankfurt am Main\nGermany",
+    "infobox": "<p>Air Dolomiti is an Italian regional airline within the Lufthansa Group, based at Verona Airport, from where it mainly operates feeder and short-haul flights to Lufthansa's hubs. UK Air Passenger Rights (UK261) or EU Regulation 261/2004 may give rise to claims for flight delay or cancellation. Lost or damaged baggage is generally governed by the Montreal Convention. Wrongly withheld taxes and fees may also be reclaimable in certain circumstances. Air Dolomiti's registered office and legal jurisdiction is Verona, Italy.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "helvetic-airways",
+    "name": "Helvetic Airways",
+    "adresse": "Helvetic Airways AG\nSteinackerstrasse 56\nCH-8302 Kloten\nSwitzerland",
+    "infobox": "<p>Helvetic Airways is a Swiss regional and leisure carrier based at Zurich Airport. The airline mainly serves European destinations and also operates wet-lease flights for other carriers. Claims for flight delay, baggage problems or reclaimable taxes and fees may arise under UK Air Passenger Rights (UK261), EU Regulation 261/2004 or the Montreal Convention, depending on the case. Helvetic Airways AG's registered office and legal jurisdiction is Kloten, in the canton of Zurich. What matters most is often who contractually sold or operationally carried out the flight.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "neos-air",
+    "name": "Neos",
+    "adresse": "Neos S.p.A.\nVia Della Chiesa 68\n21019 Somma Lombardo (Varese)\nItaly",
+    "infobox": "<p>Neos is an Italian charter and leisure airline based at Milan-Malpensa Airport. As an EU carrier, it is subject to EU Regulation 261/2004 for flight delay and cancellation, with UK Air Passenger Rights (UK261) also relevant for flights departing the UK; depending on the case, compensation, care and reimbursement may be available. If a bag is lost or delayed, Montreal Convention rules apply — keep receipts for essential replacement purchases. Taxes and fees may also be reclaimable in certain circumstances. Neos's registered office and legal jurisdiction is Somma Lombardo, in the province of Varese.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "binter-canarias",
+    "name": "Binter Canarias",
+    "adresse": "Binter Canarias S.A.\nGran Canaria Airport\nC/ La Paleta 6\n35230 Las Palmas\nSpain",
+    "infobox": "<p>Binter Canarias is the leading regional airline of the Canary Islands, mainly connecting island destinations from its home hub, Gran Canaria Airport (LPA). Claims for flight delay, cancellation or missed connections may arise under UK Air Passenger Rights (UK261) or EU Regulation 261/2004; compensation of up to £220/€250 is possible on many short routes. Lost or damaged baggage is generally governed by the Montreal Convention. Unused or reclaimable taxes and fees may also be worth checking. Binter Canarias's registered office and legal jurisdiction is Las Palmas de Gran Canaria, Spain.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "transavia",
+    "name": "Transavia",
+    "adresse": "Transavia France S.A.S.\nCoeur d'Orly – Bâtiment Belaïa\n7 avenue de l'Union\n94310 Orly\nFrance",
+    "infobox": "<p>Transavia France is a French low-cost airline within the Air France-KLM Group, based at Paris-Orly Airport. Claims for flight delay or cancellation may arise under UK Air Passenger Rights (UK261) or EU Regulation 261/2004; lost or damaged baggage is generally governed by the Montreal Convention. Taxes and fees may also be reclaimable in certain circumstances where a flight isn't taken. Transavia's registered office and legal jurisdiction is Paris, France. It's also worth checking whether any contractual administration fees in the terms and conditions are valid.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "play-airlines",
+    "name": "PLAY",
+    "adresse": "PLAY airlines\nSuðurlandsbraut 14\n108 Reykjavík\nIceland",
+    "infobox": "<p>PLAY is an Icelandic low-cost airline based at Reykjavík-Keflavík Airport (KEF). As an Iceland-based airline, it generally falls under UK Air Passenger Rights (UK261) or EU Regulation 261/2004, allowing passengers to review claims for flight delay or cancellation. Lost or delayed baggage is generally governed by the Montreal Convention. It's also worth reviewing the ticket terms for reclaimable taxes and fees. PLAY's registered office and legal jurisdiction is Reykjavík, Iceland. Given the low-cost model, travellers should keep receipts and booking documents carefully.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "air-cairo",
+    "name": "Air Cairo",
+    "adresse": "Air Cairo\nSmart Village, Building B211\nKm 28 Cairo Alexandria Desert Road\nGiza\nEgypt",
+    "infobox": "<p>Air Cairo is an Egyptian airline based in Cairo, with a key hub at Cairo International Airport (CAI). The airline mainly serves leisure and scheduled routes between Egypt, Europe and other destinations. Whether a claim under UK Air Passenger Rights (UK261) or EU Regulation 261/2004 applies on routes to or from the UK depends on the specific route and the operating carrier. Lost or damaged baggage is generally governed by the Montreal Convention. Unused taxes and fees may also be reclaimable in certain circumstances. Air Cairo's registered office and legal jurisdiction is Cairo, Egypt.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "arkia",
+    "name": "Arkia Israeli Airlines",
+    "adresse": "Arkia Israeli Airlines Ltd.\nPO Box 39301\nTel Aviv 61392\nIsrael",
+    "infobox": "<p>Arkia Israeli Airlines is an Israeli airline focused on scheduled and charter flights from its home hub, Tel Aviv-Ben Gurion Airport. Depending on the route, UK Air Passenger Rights (UK261), EU Regulation 261/2004, Israel's aviation law (the Tibi Law) and the Montreal Convention for baggage damage or loss may all be relevant. Claims for delay, cancellation, lost baggage, or reclaimable taxes and fees often arise. Arkia's registered office and legal jurisdiction is Israel, usually Tel Aviv.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "georgian-airways",
+    "name": "Georgian Airways",
+    "adresse": "Georgian Airways\nA. Tsereteli Ave. 49\n0159 Tbilisi\nGeorgia",
+    "infobox": "<p>Georgian Airways is Georgia's national carrier, hubbed at Tbilisi Airport (TBS). On flights departing the UK or EU, UK Air Passenger Rights (UK261) or EU Regulation 261/2004 may apply to delay, cancellation or denied boarding claims; on departures from Tbilisi, claims are usually assessed under the Montreal Convention. International liability rules also apply to lost or delayed baggage. Taxes and fees may be refundable depending on the ticket and fare. Georgian Airways' registered office and legal jurisdiction is Tbilisi, Georgia.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "air-arabia",
+    "name": "Air Arabia",
+    "adresse": "Air Arabia PJSC\nAir Arabia Building\nSharjah International Airport\nPO Box 132\nSharjah\nUnited Arab Emirates",
+    "infobox": "<p>Air Arabia is a low-cost carrier from the United Arab Emirates, headquartered in Sharjah, with its main hub at Sharjah International Airport. For flight delay and cancellation, if your flight departs the UK or EU, claims may arise under UK Air Passenger Rights (UK261) or EU Regulation 261/2004. Baggage problems, including lost, damaged or delayed suitcases, are usually governed by the Montreal Convention. Air Arabia's registered office and legal jurisdiction is Sharjah, UAE. The point of ticket purchase and the actual carriage may also be legally relevant when reclaiming taxes and fees.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "flyone",
+    "name": "FlyOne",
+    "adresse": "FlyOne\nbd. Dacia 80/3\nMD-2026 Chișinău\nMoldova",
+    "infobox": "<p>FlyOne is a Moldovan low-cost airline based in Chișinău, with its home hub at Chișinău Airport (RMO). Passengers may have claims for flight delay, lost baggage or reclaimable taxes and fees. Depending on the route, UK Air Passenger Rights (UK261) or EU Regulation 261/2004 and the Montreal Convention may apply. As Moldova isn't part of the UK or EU, entitlements should be checked individually, especially for flights departing the UK or EU. FlyOne's registered office is in Chișinău, where the relevant jurisdiction is generally also located.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "nouvelair",
+    "name": "Nouvelair",
+    "adresse": "Nouvelair Tunisie S.A.\nZone Touristique Dkhila BP 66\n5065 Monastir\nTunisia",
+    "infobox": "<p>Nouvelair is a Tunisian leisure and scheduled airline headquartered in Tunis, with its main hub at Tunis-Carthage Airport. Claims under UK Air Passenger Rights (UK261) or EU Regulation 261/2004 for flight delay or cancellation generally only apply on flights from the UK or EU to Tunisia, not the reverse. Lost or damaged baggage is usually governed by the Montreal Convention. Claims for unused taxes and fees may also apply. Nouvelair's legal seat is in Tunisia, with jurisdiction generally in Tunis.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "sky-express",
+    "name": "SKY express",
+    "adresse": "SKY express S.A.\nBuilding 57, Athens International Airport\nSpata, Attica 19019\nGreece",
+    "infobox": "<p>SKY express is a Greek airline based at Athens Airport (ATH). As a Greece-registered airline, it falls under EU Regulation 261/2004, with UK Air Passenger Rights (UK261) also applying on flights from the UK, so travellers may be entitled to compensation and assistance for flight delay, cancellation or denied boarding. Lost or damaged baggage additionally falls under the Montreal Convention. Refunds of unused taxes and fees may also be possible. The company's registered office and legal jurisdiction is in Greece.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "air-algerie",
+    "name": "Air Algérie",
+    "adresse": "Air Algérie\n1 Place Maurice Audin\n16000 Algiers\nAlgeria",
+    "infobox": "<p>Air Algérie is Algeria's national carrier, connecting Europe, North Africa and the Middle East. Its main hub is Algiers-Houari Boumediene Airport (ALG). On flights departing the UK or EU, UK Air Passenger Rights (UK261) or EU Regulation 261/2004 may give rise to claims for flight delay, cancellation or denied boarding; this generally doesn't apply on return flights from Algeria to the UK or EU. Lost or damaged baggage is governed by the Montreal Convention in both directions. Air Algérie's registered office and legal jurisdiction is Algiers, Algeria.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "air-seychelles",
+    "name": "Air Seychelles",
+    "adresse": "Air Seychelles Ltd\nPO Box 386\nPointe Larue, Mahé\nSeychelles",
+    "infobox": "<p>Air Seychelles is the national carrier of the Seychelles, connecting the island nation with international destinations. Its home hub is Seychelles International Airport in Victoria, Mahé. On flights departing the UK or EU, UK Air Passenger Rights (UK261) or EU Regulation 261/2004 may give rise to claims for delay or cancellation; baggage problems are often governed by the Montreal Convention. Taxes and fees may also be separately checked and reclaimed depending on the fare and ticket conditions. Air Seychelles' registered office and legal jurisdiction is the Seychelles.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "bulgaria-air",
+    "name": "Bulgaria Air",
+    "adresse": "Bulgaria Air\n1 Brussels Blvd\nSofia Airport\n1540 Sofia\nBulgaria",
+    "infobox": "<p>Bulgaria Air is Bulgaria's national carrier, connecting numerous European and international destinations from its home hub, Sofia Airport. UK Air Passenger Rights (UK261) or EU Regulation 261/2004 and the Montreal Convention are especially relevant for flight delay, lost baggage or reclaimable taxes and fees. For baggage damage or loss, claims generally must be submitted in writing within the applicable time limits. Bulgaria Air's registered office and legal jurisdiction is Sofia, Bulgaria. Depending on the case, compensation, reimbursement or other claims may apply.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "air-mauritius",
+    "name": "Air Mauritius",
+    "adresse": "Air Mauritius Ltd.\nAir Mauritius Centre\nJohn Kennedy Street\nPort Louis\nMauritius",
+    "infobox": "<p>Air Mauritius is the national carrier of Mauritius, hubbed at Sir Seewoosagur Ramgoolam International Airport near Port Louis. On flights departing the UK or EU, UK Air Passenger Rights (UK261) or EU Regulation 261/2004 may give rise to claims for delay, cancellation or denied boarding. For lost or damaged baggage, or reclaiming taxes and fees, the Montreal Convention and the relevant ticket or carriage contract are also relevant. Air Mauritius's registered office and legal jurisdiction is Port Louis, Mauritius. UK/EU rights generally don't apply on return flights from Mauritius, though other claims may still exist.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "aeromexico",
+    "name": "Aeroméxico",
+    "adresse": "Aerovías de México, S.A. de C.V.\nPaseo de la Reforma 445\nCol. Cuauhtémoc\n06500 Mexico City\nMexico",
+    "infobox": "<p>Aeroméxico is Mexico's largest network airline, hubbed at Mexico City Airport (MEX). On flights from the UK or EU, UK Air Passenger Rights (UK261) or EU Regulation 261/2004 may apply depending on route; for delays, cancellations or baggage problems, the Montreal Convention and Mexican aviation law are also relevant. Aeroméxico's registered office and legal jurisdiction is Mexico City, Mexico. When reclaiming taxes and fees, or for lost or delayed baggage, keep booking data, boarding passes and receipts carefully.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "avianca",
+    "name": "Avianca",
+    "adresse": "Avianca\nAvenida El Dorado 108-27\nBogotá\nColombia",
+    "infobox": "<p>Avianca is Colombia's largest airline and a major carrier across Latin America, hubbed at Bogotá-El Dorado Airport. Its registered office and legal jurisdiction is Bogotá, Colombia. UK Air Passenger Rights (UK261) or EU Regulation 261/2004 applies only where the flight departs the UK or EU. For lost or delayed baggage, the Montreal Convention may give rise to a compensation claim. Passengers who cancel their own ticket may sometimes be able to reclaim taxes and fees. Always check what rights apply for any specific Avianca flight.</p><!--opt-->",
+    "is_optimized": true
+  },
+  {
+    "slug": "andere-airline",
+    "name": "Other Airline",
+    "adresse": " ",
+    "infobox": "<p>[Airline] is an international airline with its home hub at [home airport]. Its registered office and legal jurisdiction is [jurisdiction]. Claims for flight delay, cancellation or denied boarding may fall under UK Air Passenger Rights (UK261) where the flight departs the UK, or EU Regulation 261/2004 where the flight departs the EU or the airline is EU-based. Lost or damaged baggage is generally governed by the Montreal Convention. Taxes and fees may also be reclaimable depending on the ticket and carriage conditions. The specific flight route and the legal classification of the case are always decisive.</p><!--opt-->",
+    "is_optimized": false
+  }
+]

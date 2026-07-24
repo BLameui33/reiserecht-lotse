@@ -6,7 +6,7 @@ const path = require('path');
 // =====================================================================
 const CONFIG = {
     baseLang: 'de',          // Wo liegen deine deutschen Originale? (src/de/)
-    targetLangs: ['es', 'fr', 'it', 'nl', 'pt', 'nl-be', 'fr-be', 'en-us'],     // Welche Sprachen sollen generiert werden? (z.B. ['es', 'it', 'fr'])
+    targetLangs: ['es', 'fr', 'it', 'nl', 'pt', 'nl-be', 'fr-be', 'en-us', 'en-gb'],     // Welche Sprachen sollen generiert werden? (z.B. ['es', 'it', 'fr'])
     useAI: false,            // HIER AUF 'true' STELLEN, UM DIE KI ZU STARTEN oder false
     openaiKey: '', // HIER DEINEN API KEY EINTRAGEN
 
@@ -15,16 +15,15 @@ const CONFIG = {
 };
 
 // Hilfsfunktion: Prüft ob ein Silo für die aktuelle Sprache übersprungen werden soll
-// Hilfsfunktion: Prüft ob ein Silo für die aktuelle Sprache übersprungen werden soll
 const isExcludedForLang = (siloName, lang) => {
     // 1. AUSNAHME OTA: Darf für nl, nl-be UND en-us generiert werden
-    if (siloName === 'ota' && ['nl', 'nl-be', 'en-us'].includes(lang)) {
+    if (siloName === 'ota' && ['nl', 'nl-be', 'en-us', 'en-gb'].includes(lang)) {
         return false; // Nicht ausschließen!
     }
     
-    // 2. AUSNAHME FLUGHAFEN-PARKEN: Darf für en-us generiert werden
-    if (siloName === 'flughafen-parken' && lang === 'en-us') {
-        return false; // Nicht ausschließen!
+    // 2. AUSNAHME FLUGHAFEN-PARKEN: Darf für en-us & en-gb generiert werden
+    if (siloName === 'flughafen-parken' && ['en-us', 'en-gb'].includes(lang)) {
+        return false; // Parken für UK/US erlauben
     }
     
     // 3. AUSNAHME US-MARKT: Bahn, Steuern und Ferienhaus in en-us NICHT generieren
@@ -86,6 +85,7 @@ function injectSEO(content, currentLang, fName, jsonFile = null, slug = null, si
     availableLangs.forEach(l => {
         let langCode = l;
         if (l === 'en-us') langCode = 'en-us';
+        if (l === 'en-gb') langCode = 'en-gb';
         if (l === 'nl-be') langCode = 'nl-be';
         if (l === 'fr-be') langCode = 'fr-be';
         seoBlock += `<link rel="alternate" hreflang="${langCode}" href="${domain}/${l}/${fName}">\n`;

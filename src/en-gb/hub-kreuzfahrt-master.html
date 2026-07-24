@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+  <meta charset="UTF-8">
+  <title>Cruise defects: Reduce your holiday price - ABTA compensation guidelines | PDF</title>
+  <meta name="description" content="Your rights for cruise defects such as itinerary changes, noise or missed ports. Claim up to 30% of the holiday price reduction under industry-standard ABTA guidelines for compensation.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+ {{SEO_LINKS}}
+  
+  <!-- Library for generating PDFs from HTML -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "What are the ABTA compensation guidelines for cruises?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Industry-standard ABTA compensation guidelines are used as a practical benchmark by travel law specialists. They list typical cruise defects and assign percentage-based reductions that may be used as guidance when assessing refunds in the UK."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Do I have to accept onboard credit as compensation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Cruise lines often try to settle complaints on board with a small onboard credit (for example £50 or complimentary drinks). However, under the Package Travel and Linked Travel Arrangements Regulations 2018 and the UK Consumer Rights Act 2015, you may be entitled to a cash refund or price reduction, which is often worth significantly more."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Does an itinerary change due to weather count as a defect?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Even where safety comes first and the captain has to cancel a port because of a storm, this is still a deviation from the contracted holiday. A missed port will often justify a reduction in the daily holiday price."
+      }
+    }, {
+      "@type": "Question",
+      "name": "How long do I have after the cruise to complain?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Time limits depend on the terms of your booking and the applicable limitation rules, but in many cases court claims in the UK must be brought within six years in England and Wales. It is still advisable to raise your complaint as soon as possible, ideally within a few weeks."
+      }
+    }]
+  }
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Cruise defects: How to claim a holiday price reduction (ABTA compensation guidelines)</h1>
+  
+  <p>A cruise is usually an expensive dream holiday. If the cabin does not meet the expected standard, the itinerary is changed at short notice, or there is unbearable construction noise on deck, the frustration is considerable. What many guests do not realise is that a cruise is generally treated in law as a package holiday. That means you are well protected by the <strong>UK Consumer Rights Act 2015</strong> and the <strong>Package Travel and Linked Travel Arrangements Regulations 2018</strong>.</p>
+  
+  <p>Instead of letting the guest relations desk fob you off with a free cocktail or £50 onboard credit, you may have the right to a proper cash refund. The <strong>industry-standard ABTA guidelines for compensation</strong> serve as a practical legal benchmark and often support refunds of <strong>10% up to 30% of the proportionate holiday price</strong> where there are significant defects. We help you enforce that amount.</p>
+
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Generate a PDF claim letter</h2>
+    <p>Select your cruise line to create a legally focused document tailored precisely to that provider:</p>
+    
+    <div class="legal-info-box">
+    <strong>Important note on use</strong><br>
+    This tool is an <strong>automated template letter generator</strong> (self-help guidance). It simply inserts your details into standard legal templates. There is <strong>no individual assessment</strong> of your case. This free service does not replace legal advice from a solicitor. Use is at your own responsibility, and no guarantee of success is given.
+</div>
+
+    <select id="cruiseSelect">
+      <option value="">-- Please choose a cruise line --</option>
+      {{CRUISE_OPTIONS}}
+      <option value="kreuzfahrt-maengel-minderung-allgemein.html">My cruise line is not listed (general form)</option>
+    </select>
+    
+    <button onclick="routeToGenerator()" class="btn-route">Go to the generator for this cruise line</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Eligibility check by cruise line</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{CRUISE_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Checklist: Immediate help for cruise defects</h2>
+  <p>The most important thing with travel defects is preserving evidence on the spot. Follow these steps on board to support your later price reduction claim:</p>
+  
+  <div class="checklist-box" id="checklistToPrint">
+  <!-- Optional: A hidden or visible heading that only looks good in the PDF -->
+  <h3 style="margin-top:0; color:#1565c0;">Checklist: Defects on board</h3>
+
+    <ul>
+      <li><strong>Report the defect:</strong> Report the problem IMMEDIATELY to reception or guest relations. If you keep quiet about the defect, you may weaken your later claim.</li>
+      <li><strong>Set a deadline for remedy:</strong> Ask for a solution (for example, a different cabin) and note the name of the staff member.</li>
+      <li><strong>Preserve evidence:</strong> Take photographs (for example of dirt or defects) or keep a detailed noise and odour log with dates and times.</li>
+      <li><strong>Find witnesses:</strong> Exchange mobile numbers with other affected passengers. Statements from independent fellow travellers can be extremely valuable.</li>
+      <li><strong>Do not sign final settlements:</strong> If you accept onboard credit, do not sign anything stating it is in full and final settlement of all claims; instead, note that you accept it without prejudice.</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('checklist-cruise.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+  Generate & save checklist as PDF
+</button>
+
+  <h2 style="margin-top: 40px;">Case examples under ABTA compensation guidelines</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Example 1: Itinerary change & missed port</h3>
+    <p>On a Mediterranean cruise (total price £3,000 for 10 days = £300/day), the highlight stop at Santorini is cancelled due to strong winds without an equivalent replacement port.<br>
+    <strong>Outcome:</strong> As the holiday contract was not delivered as agreed, the ABTA compensation guidelines may support a price reduction. For the lost day, the passenger will often be entitled to around <strong>20 to 30% of the daily price</strong> (around £60 - £90 per person).</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Example 2: Unacceptable noise in the cabin</h3>
+    <p>The allocated cabin is directly below the ship’s nightclub. Sleeping is impossible until 3 am. Reception has no replacement cabin available. <br>
+    <strong>Outcome:</strong> Noise that seriously disrupts night-time rest is a major defect. For the affected period, reductions of <strong>up to 30% of the proportionate holiday price</strong> may be claimed.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">FAQ: Your rights in detail</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">What amount is the percentage applied to?</div>
+    <div class="faq-answer">The reduction is always calculated proportionately. If the defect affects the whole holiday (for example, a missing balcony that was booked), the reduction is based on the total holiday price. If the problem only occurs on certain days (for example, 2 days of construction noise by the pool), the holiday price is divided by the number of travel days and the percentage is applied to that daily holiday price.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">What happens if the cruise line claims force majeure?</div>
+    <div class="faq-answer">For a holiday price reduction, arguments about force majeure (such as storms or dense fog) will not necessarily prevent a claim where the holiday was not provided as booked. A reduction may still be due if the contracted service was not delivered, even where the cruise line was not at fault. The position may be different for additional damages for loss of enjoyment.</div>
+  </div>
+
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">Can I demand an outside cabin if my inside cabin is defective?</div>
+    <div class="faq-answer">Yes. If the booked cabin category cannot be used because of a defect and no identical cabin is available, the cruise line should offer a free upgrade where reasonable. If the cruise line refuses and you have to remain in the defective cabin, your claim for a price reduction may increase significantly.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise in travel law & passenger rights</h3>
+    <p class="trust-text">
+        Our guides and generators are based on a strict review of current regulations (such as <strong>UK Regulation 261 (UK261)</strong>), leading court judgments and UK travel law. 
+        They are developed by Marc (Project Lead) & team to help travellers enforce their rights against airlines and tour operators.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Important note: Our tools provide self-help guidance for cruise defects, hotel problems or rail disruption. They do not replace individual legal advice from a solicitor.
+        </span>
+    </p>
+
+    <a href="ueber-uns.html" class="trust-link">
+        Learn more about our legal methodology & editorial process →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Problem on your cruise, flight or at your hotel?</strong><br>
+        Fix-My-Trip checks your entitlement to compensation, ticket refunds or a holiday price reduction in just a few steps. <br>
+        <em>A service from Fix my Trip.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Spotted an error in the tool?</strong> As we are an automated portal and do not provide individual legal advice, it helps us enormously if you report bugs or outdated providers: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Send feedback to our central team</a>.
+</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">About us</a> | 
+        <a href="index.html">Home</a> | 
+        <a href="impressum.html">Legal notice</a> | 
+        <a href="datenschutz.html">Privacy</a>
+    </nav>
+</footer>
+
+<script>
+function routeToGenerator() {
+    const selectElement = document.getElementById('cruiseSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Please select a cruise line from the list first.");
+    }
+}
+
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // 15mm margin all round
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, // High resolution
+            scrollY: 0, // IMPORTANT: Fixes the problem with the blank page!
+            windowWidth: document.documentElement.offsetWidth // Ensures the width is correct
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    // Generate PDF
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

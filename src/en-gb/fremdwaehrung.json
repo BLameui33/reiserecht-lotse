@@ -1,0 +1,356 @@
+[
+  {
+    "slug": "thailand",
+    "name": "Thailand",
+    "waehrung": "Thai Baht (THB)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "tuerkei",
+    "name": "Turkey",
+    "waehrung": "Turkish Lira (TRY)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "usa",
+    "name": "United States",
+    "waehrung": "US Dollar (USD)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "schweiz",
+    "name": "Switzerland",
+    "waehrung": "Swiss Franc (CHF)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "grossbritannien",
+    "name": "United Kingdom",
+    "waehrung": "British Pound (GBP)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "norwegen",
+    "name": "Norway",
+    "waehrung": "Norwegian Krone (NOK)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "island",
+    "name": "Iceland",
+    "waehrung": "Icelandic Króna (ISK)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "aegypten",
+    "name": "Egypt",
+    "waehrung": "Egyptian Pound (EGP)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "suedafrika",
+    "name": "South Africa",
+    "waehrung": "South African Rand (ZAR)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "marokko",
+    "name": "Morocco",
+    "waehrung": "Moroccan Dirham (MAD)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "kanada",
+    "name": "Canada",
+    "waehrung": "Canadian Dollar (CAD)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "mexiko",
+    "name": "Mexico",
+    "waehrung": "Mexican Peso (MXN)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "dominikanische-republik",
+    "name": "Dominican Republic",
+    "waehrung": "Dominican Peso (DOP)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "brasilien",
+    "name": "Brazil",
+    "waehrung": "Brazilian Real (BRL)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "vereinigte-arabische-emirate",
+    "name": "United Arab Emirates",
+    "waehrung": "UAE Dirham (AED)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "indonesien",
+    "name": "Indonesia",
+    "waehrung": "Indonesian Rupiah (IDR)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "japan",
+    "name": "Japan",
+    "waehrung": "Japanese Yen (JPY)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "china",
+    "name": "China",
+    "waehrung": "Chinese Yuan (CNY)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "vietnam",
+    "name": "Vietnam",
+    "waehrung": "Vietnamese Dong (VND)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "indien",
+    "name": "India",
+    "waehrung": "Indian Rupee (INR)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "malediven",
+    "name": "Maldives",
+    "waehrung": "Maldivian Rufiyaa (MVR)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "singapur",
+    "name": "Singapore",
+    "waehrung": "Singapore Dollar (SGD)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "australien",
+    "name": "Australia",
+    "waehrung": "Australian Dollar (AUD)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "neuseeland",
+    "name": "New Zealand",
+    "waehrung": "New Zealand Dollar (NZD)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "serbien",
+    "name": "Serbia",
+    "waehrung": "Serbian Dinar (RSD)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "bosnien-und-herzegowina",
+    "name": "Bosnia and Herzegovina",
+    "waehrung": "Convertible Mark (BAM)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "albanien",
+    "name": "Albania",
+    "waehrung": "Albanian Lek (ALL)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "nordmazedonien",
+    "name": "North Macedonia",
+    "waehrung": "Macedonian Denar (MKD)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "georgien",
+    "name": "Georgia",
+    "waehrung": "Georgian Lari (GEL)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "suedkorea",
+    "name": "South Korea",
+    "waehrung": "South Korean Won (KRW)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "malaysia",
+    "name": "Malaysia",
+    "waehrung": "Malaysian Ringgit (MYR)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "philippinen",
+    "name": "Philippines",
+    "waehrung": "Philippine Peso (PHP)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "sri-lanka",
+    "name": "Sri Lanka",
+    "waehrung": "Sri Lankan Rupee (LKR)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "taiwan",
+    "name": "Taiwan",
+    "waehrung": "New Taiwan Dollar (TWD)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "kambodscha",
+    "name": "Cambodia",
+    "waehrung": "Cambodian Riel (KHR)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "laos",
+    "name": "Laos",
+    "waehrung": "Lao Kip (LAK)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "nepal",
+    "name": "Nepal",
+    "waehrung": "Nepalese Rupee (NPR)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "jordanien",
+    "name": "Jordan",
+    "waehrung": "Jordanian Dinar (JOD)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "oman",
+    "name": "Oman",
+    "waehrung": "Omani Rial (OMR)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "saudi-arabien",
+    "name": "Saudi Arabia",
+    "waehrung": "Saudi Riyal (SAR)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "katar",
+    "name": "Qatar",
+    "waehrung": "Qatari Riyal (QAR)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "israel",
+    "name": "Israel",
+    "waehrung": "Israeli New Shekel (ILS)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "argentinien",
+    "name": "Argentina",
+    "waehrung": "Argentine Peso (ARS)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "chile",
+    "name": "Chile",
+    "waehrung": "Chilean Peso (CLP)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "kolumbien",
+    "name": "Colombia",
+    "waehrung": "Colombian Peso (COP)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "peru",
+    "name": "Peru",
+    "waehrung": "Peruvian Sol (PEN)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "costa-rica",
+    "name": "Costa Rica",
+    "waehrung": "Costa Rican Colón (CRC)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "kuba",
+    "name": "Cuba",
+    "waehrung": "Cuban Peso (CUP)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "jamaika",
+    "name": "Jamaica",
+    "waehrung": "Jamaican Dollar (JMD)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "panama",
+    "name": "Panama",
+    "waehrung": "Panamanian Balboa (PAB)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "bahamas",
+    "name": "Bahamas",
+    "waehrung": "Bahamian Dollar (BSD)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "kenia",
+    "name": "Kenya",
+    "waehrung": "Kenyan Shilling (KES)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "tansania",
+    "name": "Tanzania",
+    "waehrung": "Tanzanian Shilling (TZS)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "mauritius",
+    "name": "Mauritius",
+    "waehrung": "Mauritian Rupee (MUR)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "seychellen",
+    "name": "Seychelles",
+    "waehrung": "Seychellois Rupee (SCR)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "tunesien",
+    "name": "Tunisia",
+    "waehrung": "Tunisian Dinar (TND)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "namibia",
+    "name": "Namibia",
+    "waehrung": "Namibian Dollar (NAD)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "madagaskar",
+    "name": "Madagascar",
+    "waehrung": "Malagasy Ariary (MGA)",
+    "affiliate_link": "#"
+  },
+  {
+    "slug": "fidschi",
+    "name": "Fiji",
+    "waehrung": "Fijian Dollar (FJD)",
+    "affiliate_link": "#"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "slug": "sixt",
+    "name": "Sixt",
+    "schalter_taktik": "Sixt desk staff often aggressively push tyre and windscreen cover. Upgrades to premium vehicle classes are also frequently pitched as a 'special cheap deal for today only'.",
+    "kaution_hinweis": "Sixt usually blocks a minimum deposit of £250 to £500 on your credit card, even for fully prepaid bookings."
+  },
+  {
+    "slug": "europcar",
+    "name": "Europcar",
+    "schalter_taktik": "At Europcar, the so-called 'Premium Protection' (zero excess CDW) is heavily promoted at the desk, even if you have already purchased independent excess insurance through a broker.",
+    "kaution_hinweis": "The deposit is blocked on the credit card and depends heavily on the booked vehicle class (often ranging from £250 to £800)."
+  },
+  {
+    "slug": "goldcar",
+    "name": "Goldcar",
+    "schalter_taktik": "Goldcar is notorious for extremely aggressive upselling. Staff often earn commission for selling their in-house 'Super Relax' cover and frequently claim falsely that third-party broker insurance is not valid.",
+    "kaution_hinweis": "Warning: Goldcar often blocks very high deposits (up to £1,200 - £1,500) if you decline their own insurance. Your credit card must have sufficient available credit!"
+  },
+  {
+    "slug": "hertz",
+    "name": "Hertz",
+    "schalter_taktik": "Hertz often tries to sell their 'SuperCover' and pushes pre-paid fuel options (e.g., buying the first tank of fuel upfront), which almost always results in a financial loss for the customer.",
+    "kaution_hinweis": "Hertz strictly requires a physical credit card (no debit cards!) in the name of the main driver to block the deposit."
+  },
+  {
+    "slug": "avis",
+    "name": "Avis",
+    "schalter_taktik": "Avis persistently advertises 'Avis Inclusive' or additional personal accident insurance at the desk. Expensive refuelling options are also routinely offered as a 'convenience'.",
+    "kaution_hinweis": "Depending on the vehicle group, the deposit is usually the estimated rental cost plus a flat rate of about £200 to £300."
+  },
+  {
+    "slug": "enterprise",
+    "name": "Enterprise",
+    "schalter_taktik": "The staff are usually very friendly but consistently try to sell paid upgrades or their in-house 'Excess Protection' (to reduce the excess to zero).",
+    "kaution_hinweis": "Enterprise generally blocks a rather moderate deposit of around £200 to £250, but strictly requires a fully-fledged physical credit card."
+  },
+  {
+    "slug": "record-go",
+    "name": "Record Go",
+    "schalter_taktik": "Extremely high frustration potential: They lure you in with dirt-cheap online prices. At the desk, 'Just Go' or 'Total Comfort' insurance is aggressively sold, often accompanied by threats of horrendous deposit amounts.",
+    "kaution_hinweis": "If you decline their in-house insurance, an extremely high deposit (often £1,200 to £1,500) is blocked. Any damage upon return is scrutinised meticulously."
+  },
+  {
+    "slug": "centauro",
+    "name": "Centauro",
+    "schalter_taktik": "Follows the same low-cost pattern as Goldcar: Book cheap online, pay dearly at the desk. Their in-house 'Smart Cover' is pushed using all sorts of psychological tricks.",
+    "kaution_hinweis": "Without purchasing 'Smart Cover', a deposit of approx. £1,000 to £1,200 is required. Debit cards are mostly only accepted if you buy their expensive additional insurance."
+  },
+  {
+    "slug": "ok-mobility",
+    "name": "OK Mobility",
+    "schalter_taktik": "This provider massively pushes the purchase of their 'Premium Cover'. Staff issue dire warnings about tiny scratches being billed at extortionate rates without their insurance.",
+    "kaution_hinweis": "They block extremely high deposits (sometimes well over £1,200) if the in-house insurance is declined. Taking a thorough video of the car before driving off is an absolute must here!"
+  },
+  {
+    "slug": "firefly",
+    "name": "Firefly",
+    "schalter_taktik": "As Hertz's budget offshoot, they are notorious for extremely long queues and persistent upselling. Basic insurance policies from online brokers are often badmouthed as 'insufficient' or 'complicated'.",
+    "kaution_hinweis": "Blocks deposits ranging from £700 to over £1,000. Unfavourable fuel policies (full/empty) are often pushed, adding extra charges to your credit card."
+  },
+  {
+    "slug": "clickrent",
+    "name": "ClickRent",
+    "schalter_taktik": "Attracts customers with low prices in popular holiday destinations. At the desk, they often claim that external broker insurance won't help in the event of a breakdown to force their 'Relax' tariff on you.",
+    "kaution_hinweis": "Very strict deposit rules: Often £1,000 to £1,500 is blocked. If your presented card lacks this limit, you are effectively forced into buying their insurance."
+  },
+  {
+    "slug": "alamo",
+    "name": "Alamo",
+    "schalter_taktik": "Alamo focuses heavily on leisure travellers and often tries to sell 'Roadside Plus' (enhanced breakdown cover) and pre-paid fuel at vastly inflated prices at the desk.",
+    "kaution_hinweis": "The deposit with Alamo is often relatively low; usually, the estimated rental price plus approx. 20% to 30% is blocked on the credit card."
+  },
+  {
+    "slug": "budget",
+    "name": "Budget",
+    "schalter_taktik": "As the cheaper subsidiary of Avis, Budget tries to compensate for lower base rates by aggressively selling additional insurance and GPS devices at the desk.",
+    "kaution_hinweis": "As with its parent company Avis, usually the rental price plus a flat rate of approx. £200 to £300 is blocked. A physical credit card is strictly required."
+  },
+  {
+    "slug": "thrifty",
+    "name": "Thrifty",
+    "schalter_taktik": "The Hertz subsidiary is known for intensively pitching its expensive 'SuperCover' at the desk, trying to scare customers about the often high standard excess fees.",
+    "kaution_hinweis": "Thrifty blocks the deposit very strictly on a physical credit card in the main driver's name; prepaid or debit cards are almost never accepted at the desk."
+  },
+  {
+    "slug": "zest-car-rental",
+    "name": "Zest Car Rental",
+    "schalter_taktik": "Zest is a broker without its own desks, but they include top-up insurance in their bookings. The problem: The local fleet provider will still try to sell you their insurance. Stand your ground!",
+    "kaution_hinweis": "Zest themselves do not take a deposit, but the local provider will block one. If you are charged for damage, Zest will reimburse you the excess amount after a review."
+  },
+  {
+    "slug": "travelsupermarket",
+    "name": "TravelSupermarket",
+    "schalter_taktik": "This is only a price comparison/broker site. At the local provider's desk, staff often claim: 'We have nothing to do with TravelSupermarket, you need our insurance.' Do not sign anything extra!",
+    "kaution_hinweis": "The deposit is always based on the T&Cs of the local provider (e.g., Avis, Europcar, Goldcar). You strictly need a credit card with a sufficient limit in the main driver's name."
+  },
+  {
+    "slug": "holiday-autos",
+    "name": "Holiday Autos",
+    "schalter_taktik": "Holiday Autos is a pure broker without its own rental stations. Even if you booked their premium excess protection online, the local provider will often try to sell their own CDW upon collection.",
+    "kaution_hinweis": "The deposit amount is determined solely by the local provider. If you book a 'Zero Deposit' package via a broker, a partner usually guarantees the excess—but read the fine print carefully."
+  },
+  {
+    "slug": "rentalcars-com",
+    "name": "Rentalcars.com",
+    "schalter_taktik": "Part of Booking Holdings. Local providers often specifically warn that Rentalcars' 'Full Protection' is complicated to claim on, purely to sell you their own second policy.",
+    "kaution_hinweis": "The deposit is blocked by the local partner. Important: The insurance sold by Rentalcars does NOT exempt you from the obligation to leave a deposit at the desk!"
+  },
+  {
+    "slug": "auto-europe",
+    "name": "Auto Europe",
+    "schalter_taktik": "Auto Europe is a broker. This means you will be standing at the desk of a partner like Sixt or Centauro. They will always try to talk you into upgrades or extra insurance.",
+    "kaution_hinweis": "Deposit rules depend on the local partner. Auto Europe often offers 'Excess Refund'—but the deposit must still be blocked in full on your card at the desk."
+  },
+  {
+    "slug": "national",
+    "name": "National",
+    "schalter_taktik": "Focuses more on business travellers in the UK and USA. Upselling is often more subtle here; they primarily offer expensive vehicle upgrades to the premium class or Toll Pass packages.",
+    "kaution_hinweis": "The deposit is usually moderate (rental price + approx. £200). National accepts debit cards at some locations, but this is often tied to compulsory insurance purchases."
+  },
+  {
+    "slug": "general",
+    "name": "General Car Hire Companies",
+    "schalter_taktik": "Regardless of the provider: Stand firm! Car hire companies often train their staff to use scare tactics (e.g., high theft rates) to sell expensive additional insurance. If you have taken out an independent excess policy beforehand, that is sufficient. Never sign anything you do not understand.",
+    "kaution_hinweis": "The golden rule: You almost always need a physical, fully-fledged credit card (Credit, not Debit!) in the name of the main driver. The limit must be high enough (often up to £1,200). Without a suitable card, you face being forced to buy expensive insurance at the desk."
+  }
+]

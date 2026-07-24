@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+  <meta charset="UTF-8">
+  <title>Airport parking: calculate charges & find alternatives</title>
+  <meta name="description" content="Guide to airport parking: avoid expensive terminal car parks. Use our calculator for parking charges and find affordable shuttle & valet offers.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO & internationalisation -->
+  {{SEO_LINKS}}
+
+  <!-- Library for generating PDFs from HTML -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <!-- FAQ Schema.org JSON-LD for rich snippets on Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Why is parking directly at the terminal so expensive?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Airport operators take advantage of passengers' desire for convenience. Car parks directly at the terminal are often aimed at business travellers whose company covers the cost, or at short-stay parkers. For ordinary holidaymakers, these walk-up rates are usually an unaffordable cost trap."
+      }
+    }, {
+      "@type": "Question",
+      "name": "What is the difference between shuttle and valet parking?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "With shuttle parking, you park your car yourself in a secure car park nearby and are taken to the terminal by a free bus. With valet parking, you hand your car over directly at the departures terminal to a member of staff, who parks it for you – maximum convenience with no loss of time."
+      }
+    }, {
+      "@type": "Question",
+      "name": "Is my car safe in alternative car parks?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Certified alternative car parks offered through reputable platforms are generally fenced, barrier-controlled, well lit, often monitored by CCTV and staffed. Insurance also usually covers manoeuvring or transport damage."
+      }
+    }, {
+      "@type": "Question",
+      "name": "When should I book my airport parking space?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ideally, book your parking space as soon as your flights are confirmed, but no later than 2 to 4 weeks before departure. Anyone who drives into an airport car park without a reservation usually pays the highest maximum rate."
+      }
+    }]
+  }
+  </script>
+
+  
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Airport parking: how to avoid the parking charges trap</h1>
+  
+  <p>Anyone who likes to drive to the airport in their own car will know the problem: parking directly at the terminal often feels like daylight robbery. If you turn up without an online reservation and use the official car parks at major airports, you will often pay between £220 and well over £260 for 14 days. Parking can quickly become more expensive than the flight itself.</p>
+  
+  <p>The solution is <strong>certified shuttle and valet parking</strong> in the immediate area around the airport. In our guide, you will find out what walk-up rates look like at your departure airport, how much money you can save by booking in advance, and what to look out for when choosing alternative parking operators.</p>
+
+  <!-- THIS IS THE MAGIC AREA FOR INTERNAL LINKING -->
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Start the parking charges calculator</h2>
+    <p>Select your departure airport to compare the official charges with cheaper alternatives (100% free):</p>
+    
+    <select id="toolSelect">
+      <option value="">-- Please select departure airport --</option>
+      <!-- The script inserts the options here -->
+      {{FLUGHAFEN_OPTIONS}}
+      <!-- Fallback for general enquiries -->
+      <option value="parken-flughafen-allgemein.html">My airport is not listed (general comparison)</option>
+    </select>
+    
+    <button onclick="routeToTool()" class="btn-route">Check charges & savings now</button>
+  </div>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Popular airports & parking comparisons</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{FLUGHAFEN_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">The ultimate airport parking checklist</h2>
+  <p>To make sure everything runs smoothly on the day you travel and you reach check-in without stress, work through these points in advance:</p>
+  
+  <div class="checklist-box" id="checklistToPrint">
+  <!-- Optional: a hidden or visible heading that looks good in the PDF -->
+  <h3 style="margin-top:0; color:#1565c0;">Checklist: airport parking</h3>
+
+    <ul>
+      <li><strong>Compare prices & book:</strong> Use our calculator and book alternative parking no later than 2 weeks in advance.</li>
+      <li><strong>Allow extra time for the shuttle:</strong> Allow around 30 to 45 minutes in addition to the airline’s check-in time to unload luggage and be taken to the terminal.</li>
+      <li><strong>Keep flight numbers ready:</strong> When booking, make sure you provide your return flight number. That way, the shuttle bus will know when to collect you even if your flight is delayed.</li>
+      <li><strong>Keep your booking confirmation safe:</strong> Print the booking confirmation including directions, or save it offline on your phone (including the driver’s emergency contact number).</li>
+      <li><strong>Vehicle check (for valet):</strong> For your own protection, take 4 quick photos of your car on your phone when handing it over at the terminal (front, rear, sides).</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('checklist-parking.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+  Generate & save checklist as PDF
+</button>
+
+  <h2 style="margin-top: 40px;">Case studies: how savvy travellers save money on parking</h2>
+  
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Case study 1: family holiday from Heathrow (LHR)</h3>
+    <p>The Smith family are flying to Mallorca for 14 days. The official terminal car park at Heathrow costs over £250 if they simply turn up on the day. <br>
+    <strong>The solution:</strong> By using a comparison service, the family books a secure shuttle car park just 8 minutes from the terminal two weeks in advance. They pay only £55 in total and save more than £195 for their holiday spending money.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Case study 2: relaxed travel from Manchester (MAN)</h3>
+    <p>Mr Weber hates dragging suitcases from the car park to the check-in desk. A premium terminal car park in Manchester would cost him around £210 for 10 days. <br>
+    <strong>The solution:</strong> He books a valet service from an alternative provider for £89. He drives straight to the departures area, hands the keys to a member of staff, goes directly to check-in and still saves more than £120 compared with the standard rate.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">Frequently asked questions (FAQ) about airport parking</h2>
+  
+  <div class="faq-item">
+    <div class="faq-question">Why is parking directly at the terminal so expensive?</div>
+    <div class="faq-answer">Airport operators take advantage of passengers' desire for convenience. Car parks directly at the terminal are often aimed at business travellers whose company covers the cost, or at short-stay parkers (pick-ups and drop-offs). For ordinary holidaymakers, these walk-up rates are usually an unaffordable cost trap.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">What is the difference between shuttle and valet parking?</div>
+    <div class="faq-answer">With shuttle parking, you park your car yourself in a secure off-site car park and are taken to the terminal by a free minibus. With valet parking, you drive your car directly to the departures terminal and hand it over there to a member of staff, who parks it for you.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Is my car safe in alternative car parks?</div>
+    <div class="faq-answer">Yes. Certified alternative car parks offered through major platforms (such as Parkos, ParkCare or Holiday Extras) are professionally secured. They are fenced, well lit, usually monitored by CCTV and often staffed around the clock.</div>
+  </div>
+  
+  <div class="faq-item" style="border-bottom: none;">
+    <div class="faq-question">When should I book my airport parking space?</div>
+    <div class="faq-answer">Ideally, book your parking space as soon as your flight details are confirmed, but no later than 2 to 4 weeks before departure. Anyone who turns up at an airport car park without an online reservation will almost always pay the highest rate.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise in travel law & passenger rights</h3>
+    <p class="trust-text">
+        Our guides and generators are based on a strict review of current UK regulations (such as UK Regulation 261 (UK261)), UK case law and consumer travel law. 
+        They are developed by Marc (Project Lead) & team to help travellers pursue their rights against airlines and travel organisers with confidence.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Important note: Our tools provide practical self-help for flight delays, hotel issues or rail disruption. They do not replace individual legal advice from a solicitor.
+        </span>
+    </p>
+
+    <a href="ueber-uns.html" class="trust-link">
+        Find out more about our legal methodology & editorial process →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Problem with your flight, train or hotel?</strong><br>
+        Fix-My-Trip checks your entitlement to compensation, ticket refunds or a reduction in holiday cost in just a few steps. <br>
+        <em>A service from Fix my Trip.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Found an error in the tool?</strong> As an automated portal, we do not provide individual legal advice, so it helps us enormously if you report bugs or outdated providers: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Send feedback to our head office</a>.
+</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">About us</a> | 
+        <a href="index.html">Home</a> | 
+        <a href="impressum.html">Legal notice</a> | 
+        <a href="datenschutz.html">Privacy</a>
+    </nav>
+</footer>
+
+<script>
+// Redirects the user to the relevant tool or checker page
+function routeToTool() {
+    const selectElement = document.getElementById('toolSelect');
+    const targetUrl = selectElement.value;
+    
+    if(targetUrl) {
+        window.location.href = targetUrl;
+    } else {
+        alert("Please select an option from the list first.");
+    }
+}
+function generateChecklistPDF(filename) {
+    const element = document.getElementById('checklistToPrint');
+    
+    const opt = {
+        margin:       15, // 15mm margin all round
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, // High resolution
+            scrollY: 0, // IMPORTANT: fixes the blank page problem!
+            windowWidth: document.documentElement.offsetWidth // Ensures the width is correct
+        },
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    // Generate PDF
+    html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

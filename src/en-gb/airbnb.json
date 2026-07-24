@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Cancellation by Host",
+    "slug": "host-cancelled-last-minute",
+    "beschreibung": "The host cancelled your booking at the last minute and you are left without accommodation? We help you claim a full refund and, if applicable, compensation for the additional costs of a replacement hotel."
+  },
+  {
+    "name": "Mould, Dirt & Pests",
+    "slug": "dirt-mould-pests",
+    "beschreibung": "Mould in the bathroom, cockroaches in the kitchen, or just dirty bed linen? You do not have to accept such hygiene issues. Document everything for your AirCover refund."
+  },
+  {
+    "name": "False Information & Fake Photos",
+    "slug": "false-information-fake-photos",
+    "beschreibung": "The luxury villa turns out to be a basement flat, or the photos in the listing were completely outdated? If the property does not match the description, you are entitled to a significant price reduction."
+  },
+  {
+    "name": "Missing Amenities (Wi-Fi, Pool, AC)",
+    "slug": "amenities-missing-defective",
+    "beschreibung": "No Wi-Fi despite planning to work from home, or the advertised pool is green and unusable? Missing guaranteed amenities entitle you to a reduction in the rental price."
+  },
+  {
+    "name": "Unlawfully Withheld Deposit",
+    "slug": "deposit-unlawfully-withheld",
+    "beschreibung": "The host claims damages after departure that you did not cause and keeps the deposit? Defend yourself against unjustified claims and demand your money back."
+  },
+  {
+    "name": "AirCover Claim Rejected",
+    "slug": "aircover-rejected-money-back",
+    "beschreibung": "Airbnb closed your case or rejected the refund even though the issue was obvious? Increase the pressure with an official legal letter to their legal department."
+  },
+  {
+    "name": "General Airbnb Issue",
+    "slug": "general",
+    "beschreibung": "Is your specific issue not listed above? No problem. Use this general form to legally file a complaint for any kind of defect or issue with Airbnb."
+  }
+]

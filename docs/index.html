@@ -6,6 +6,7 @@
     
     <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/index.html" />
      <link rel="alternate" hreflang="en-us" href="https://www.fix-my-trip.com/en-us/index.html" />
+          <link rel="alternate" hreflang="en-gb" href="https://www.fix-my-trip.com/en-gb/index.html" />
     <link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/index.html" />
     <link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/index.html" />
     <link rel="alternate" hreflang="it" href="https://www.fix-my-trip.com/it/index.html" />
@@ -18,45 +19,54 @@
     <meta http-equiv="refresh" content="0; url=/de/index.html">
     
     <script>
-        (function() {
-            var userLang = (navigator.language || navigator.userLanguage).toLowerCase();
-            
-            // SCHRITT 1: Zuerst auf spezifische Regionen prüfen (5-stellig)
-            if (userLang.startsWith("nl-be")) {
-                window.location.replace("/nl-be/index.html");
-                return;
-            } else if (userLang.startsWith("fr-be")) {
-                window.location.replace("/fr-be/index.html");
-                return;
-            }
-            
-            // SCHRITT 2: Wenn es keine belgische Region ist, nach den ersten 2 Zeichen filtern
-            var lang = userLang.substring(0, 2);
-            
-            if (lang === "es") {
-                window.location.replace("/es/index.html");
-            } else if (lang === "fr") {
-                window.location.replace("/fr/index.html");
-            } else if (lang === "it") {
-                window.location.replace("/it/index.html");
-            }
-            else if (lang === "en-us") {
-                window.location.replace("/en-us/index.html");
-            } else if (lang === "nl") {
-                window.location.replace("/nl/index.html");
-            } else if (lang === "pt") {
-                window.location.replace("/pt/index.html");
-            } else {
-                window.location.replace("/de/index.html");
-            }
-        })();
-    </script>
+    (function() {
+        var userLang = (navigator.language || navigator.userLanguage).toLowerCase();
+        
+        // SCHRITT 1: Regionalspezifische Sprachen prüfen (UK, US, Belgien)
+        if (userLang.startsWith("en-gb") || userLang.startsWith("en-uk")) {
+            window.location.replace("/en-gb/index.html");
+            return;
+        } else if (userLang.startsWith("en-us")) {
+            window.location.replace("/en-us/index.html");
+            return;
+        } else if (userLang.startsWith("nl-be")) {
+            window.location.replace("/nl-be/index.html");
+            return;
+        } else if (userLang.startsWith("fr-be")) {
+            window.location.replace("/fr-be/index.html");
+            return;
+        }
+        
+        // SCHRITT 2: Allgemeine 2-stellige Sprachcodes prüfen
+        var lang = userLang.substring(0, 2);
+        
+        if (lang === "es") {
+            window.location.replace("/es/index.html");
+        } else if (lang === "fr") {
+            window.location.replace("/fr/index.html");
+        } else if (lang === "it") {
+            window.location.replace("/it/index.html");
+        } else if (lang === "nl") {
+            window.location.replace("/nl/index.html");
+        } else if (lang === "pt") {
+            window.location.replace("/pt/index.html");
+        } else if (lang === "en") {
+            // Fallback für allgemeines Englisch (z.B. Australien, Kanada oder en-WW):
+            // Leitet standardmäßig auf UK oder US weiter (hier: en-gb)
+            window.location.replace("/en-gb/index.html");
+        } else {
+            // Standard-Fallback für alle anderen Sprachen
+            window.location.replace("/de/index.html");
+        }
+    })();
+</script>
 </head>
 <body>
     <p>Redirecting... / Bitte wählen Sie Ihre Sprache / Kies uw taal / Choisissez votre langue:</p>
     <ul>
         <li><a href="/de/index.html">Deutsch</a></li>
-        <li><a href="/en-us/index.html">English</a></li>
+        <li><a href="/en-us/index.html">English US</a></li>
+        <li><a href="/en-gb/index.html">English UK</a></li>
         <li><a href="/es/index.html">Español</a></li>
         <li><a href="/fr/index.html">Français</a></li>
         <li><a href="/it/index.html">Italiano</a></li>

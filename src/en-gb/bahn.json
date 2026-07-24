@@ -1,0 +1,310 @@
+[
+  {
+    "name": "LNER (London North Eastern Railway)",
+    "slug": "lner",
+    "adresse": "LNER Customer Relations\nFreepost RTUH-TUGH-GCLZ\nCramlington NE23 1WG\nUnited Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>LNER (London North Eastern Railway) operates the principal long-distance services on the East Coast Main Line, connecting London King's Cross with Yorkshire, the North East and Scotland. Unlike EU rail journeys, compensation for delay or cancellation is governed by the National Rail Conditions of Travel and LNER's own Delay Repay scheme rather than EU rail passenger rights: a partial refund is generally available from 15 minutes' delay, rising in steps up to a full refund from 2 hours. LNER's registered office and customer relations team is based in York. If you're unhappy with the response, you can escalate free of charge to the independent Rail Ombudsman.</p><!--opt-->"
+  },
+  {
+    "name": "Avanti West Coast",
+    "slug": "avanti-west-coast",
+    "adresse": "Avanti West Coast Customer Resolutions Centre\nVictoria Square House\nVictoria Square\nBirmingham B2 4DN\nUnited Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>Avanti West Coast runs the principal long-distance services on the West Coast Main Line, linking London Euston with Birmingham, Manchester, Liverpool, North Wales and Scotland. Claims for delay or cancellation fall under the National Rail Conditions of Travel and the Delay Repay scheme rather than EU rail regulation: passengers are generally entitled to a partial refund from as little as 15 minutes' delay, with a full refund typically available from 2 hours. Avanti West Coast's registered office is in Birmingham, with the Customer Resolutions Centre handling claims and complaints. Unresolved disputes can be referred to the free, independent Rail Ombudsman.</p><!--opt-->"
+  },
+  {
+    "name": "Great Western Railway (GWR)",
+    "slug": "gwr",
+    "adresse": "Great Western Railway\nFreepost GWR CUSTOMER SUPPORT\nPlymouth PL4 6AB\nUnited Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>Great Western Railway (GWR) operates long-distance, regional and suburban services from London Paddington to the West of England, South Wales and the Cotswolds. As with other British operators, delay and cancellation claims are handled under the National Rail Conditions of Travel and GWR's Delay Repay scheme, not EU rail regulation, with compensation typically starting at 15 minutes' delay. GWR's registered office is in Swindon, with customer support based in Plymouth. Passengers who remain unsatisfied after a formal complaint can take their case to the independent, free-of-charge Rail Ombudsman.</p><!--opt-->"
+  },
+  {
+    "name": "ScotRail",
+    "slug": "scotrail",
+    "adresse": "ScotRail Customer Relations\nPO Box 27129\nGlasgow G2 9LH\nUnited Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>ScotRail operates the majority of domestic passenger services within Scotland, including the Caledonian Sleeper's daytime counterpart routes, suburban Glasgow and Edinburgh services, and connections to the Highlands and islands. Delay and cancellation claims are handled under the National Rail Conditions of Travel and ScotRail's Delay Repay scheme, with compensation generally available from 30 minutes' delay. ScotRail's registered office and Customer Relations team is based in Glasgow. Complaints not resolved to your satisfaction can be escalated free of charge to the Rail Ombudsman or, for Scottish routes, to Transport Focus.</p><!--opt-->"
+  },
+  {
+    "name": "Southeastern",
+    "slug": "southeastern",
+    "adresse": "Southeastern Customer Services\nPO Box 8625\nSwadlincote DE11 1HZ\nUnited Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>Southeastern runs commuter and regional services into London from Kent and East Sussex, including the UK's domestic high-speed Javelin service to and from the Kent coast via HS1. As with other British operators, delay and cancellation claims fall under the National Rail Conditions of Travel and Southeastern's Delay Repay scheme rather than EU rail regulation, with compensation typically starting at 15 minutes' delay. Southeastern's registered office is in London, with its customer services team based in Swadlincote. If a complaint isn't resolved satisfactorily, passengers can escalate free of charge to the Rail Ombudsman.</p><!--opt-->"
+  },
+  {
+    "name": "South Western Railway (SWR)",
+    "slug": "south-western-railway",
+    "adresse": "South Western Railway Customer Relations\nFreepost SWR CUSTOMER RELATIONS\nUnited Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>South Western Railway (SWR) operates suburban, regional and long-distance services from London Waterloo to Surrey, Hampshire, Dorset, Wiltshire and the Isle of Wight. Delay and cancellation claims are handled under the National Rail Conditions of Travel and SWR's Delay Repay scheme, not EU rail regulation, with a partial refund generally available from 15 minutes' delay. SWR's registered office is in London, and complaints are handled by its dedicated Customer Relations team. Passengers who remain dissatisfied after a final response can refer their case free of charge to the independent Rail Ombudsman.</p><!--opt-->"
+  },
+  {
+    "name": "Southern (Govia Thameslink Railway)",
+    "slug": "southern",
+    "adresse": "Govia Thameslink Railway\nCustomer Relations\nPO Box 8644\nDerby DE1 9RQ\nUnited Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>Southern operates suburban and regional services across Sussex, Surrey and south London, connecting London Victoria and London Bridge with the south coast, including Brighton and Gatwick Airport. Southern is part of Govia Thameslink Railway (GTR), whose Customer Relations team handles claims under the National Rail Conditions of Travel and the Delay Repay scheme, with compensation typically starting at 15 minutes' delay, rather than EU rail regulation. GTR's registered office is in London, with claims processed via its Derby customer relations centre. Unresolved complaints can be escalated free of charge to the Rail Ombudsman.</p><!--opt-->"
+  },
+  {
+    "name": "Thameslink (Govia Thameslink Railway)",
+    "slug": "thameslink",
+    "adresse": "Govia Thameslink Railway\nCustomer Relations\nPO Box 8644\nDerby DE1 9RQ\nUnited Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>Thameslink runs north-south cross-London services connecting Bedford, Luton and Cambridge with Gatwick and Brighton via central London stations including St Pancras and London Bridge. As part of Govia Thameslink Railway (GTR), Thameslink handles delay and cancellation claims under the National Rail Conditions of Travel and the Delay Repay scheme rather than EU rail regulation, with compensation typically starting at 15 minutes' delay. GTR's registered office is in London, with customer claims processed via its Derby centre. If your complaint isn't resolved, you can escalate it free of charge to the Rail Ombudsman.</p><!--opt-->"
+  },
+  {
+    "name": "Northern",
+    "slug": "northern",
+    "adresse": "Northern Customer Relations\nFreepost NORTHERN CUSTOMER RELATIONS\nUnited Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>Northern operates a large regional and suburban network across the North of England, including Greater Manchester, Yorkshire, Merseyside, Cumbria and the North East. Delay and cancellation claims fall under the National Rail Conditions of Travel and Northern's Delay Repay scheme, with a partial refund generally available from 15 minutes' delay, rather than EU rail regulation. Northern's registered office and Customer Relations team is based in Leeds. Passengers who are unhappy with the outcome of a complaint can refer it free of charge to the independent Rail Ombudsman for a further review.</p><!--opt-->"
+  },
+  {
+    "name": "TransPennine Express",
+    "slug": "transpennine-express",
+    "adresse": "TransPennine Express Customer Relations\nFreepost TPE CUSTOMER RELATIONS\nUnited Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>TransPennine Express connects major cities across the North of England and into Scotland, including Manchester, Leeds, Newcastle, York, Edinburgh and Glasgow. As with other British operators, claims for delay or cancellation are handled under the National Rail Conditions of Travel and TPE's Delay Repay scheme rather than EU rail regulation, with compensation typically starting at 15 minutes' delay. TransPennine Express's registered office and Customer Relations team is based in Manchester. If a complaint remains unresolved, passengers can escalate it free of charge to the independent Rail Ombudsman.</p><!--opt-->"
+  },
+  {
+    "name": "CrossCountry",
+    "slug": "crosscountry",
+    "adresse": "CrossCountry Customer Relations\nFreepost CROSSCOUNTRY CUSTOMER RELATIONS\nUnited Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>CrossCountry operates one of the UK's longest and most extensive regional networks, connecting Scotland and the North East with the Midlands, the South West and the South Coast without needing to change in London. Delay and cancellation claims fall under the National Rail Conditions of Travel and CrossCountry's Delay Repay scheme rather than EU rail regulation, with compensation typically available from 15 minutes' delay. CrossCountry's registered office and Customer Relations team is based in Birmingham. Unresolved complaints can be referred, free of charge, to the independent Rail Ombudsman.</p><!--opt-->"
+  },
+  {
+    "name": "West Midlands Railway",
+    "slug": "west-midlands-railway",
+    "adresse": "West Midlands Railway Customer Relations\nFreepost WMR CUSTOMER RELATIONS\nUnited Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>West Midlands Railway operates suburban and regional services across the West Midlands, connecting Birmingham with towns such as Wolverhampton, Coventry and Shrewsbury. As with other British operators, delay and cancellation claims are handled under the National Rail Conditions of Travel and the Delay Repay scheme rather than EU rail regulation, with compensation typically starting at 15 minutes' delay. West Midlands Railway's registered office and Customer Relations team is based in Birmingham. If your complaint isn't resolved to your satisfaction, you can escalate it free of charge to the Rail Ombudsman.</p><!--opt-->"
+  },
+  {
+    "name": "Chiltern Railways",
+    "slug": "chiltern-railways",
+    "adresse": "Chiltern Railways Customer Relations\nFreepost CHILTERN RAILWAYS CUSTOMER RELATIONS\nUnited Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>Chiltern Railways connects London Marylebone with Birmingham, Oxford and towns across Buckinghamshire and Warwickshire. Delay and cancellation claims are handled under the National Rail Conditions of Travel and Chiltern's Delay Repay scheme, with compensation generally starting at 15 minutes' delay, rather than under EU rail regulation. Chiltern Railways' registered office and Customer Relations team is based in Birmingham. Passengers who remain unhappy with a final response can take their complaint, free of charge, to the independent Rail Ombudsman for further review.</p><!--opt-->"
+  },
+  {
+    "name": "Greater Anglia",
+    "slug": "greater-anglia",
+    "adresse": "Greater Anglia Customer Relations\nFreepost GREATER ANGLIA CUSTOMER RELATIONS\nUnited Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>Greater Anglia operates services from London Liverpool Street to Essex, Suffolk, Norfolk and Cambridgeshire, including the Stansted Express to Stansted Airport. Delay and cancellation claims are governed by the National Rail Conditions of Travel and Greater Anglia's Delay Repay scheme rather than EU rail regulation, with compensation typically available from 15 minutes' delay. Greater Anglia's registered office and Customer Relations team is based in Norwich. If a complaint remains unresolved, it can be escalated free of charge to the independent Rail Ombudsman.</p><!--opt-->"
+  },
+  {
+    "name": "c2c",
+    "slug": "c2c",
+    "adresse": "c2c Customer Relations\nFreepost C2C CUSTOMER RELATIONS\nUnited Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>c2c operates a compact but heavily used commuter network between London Fenchurch Street and South Essex, including Southend and Shoeburyness. Delay and cancellation claims are handled under the National Rail Conditions of Travel and c2c's Delay Repay scheme rather than EU rail regulation, with compensation typically starting at 15 minutes' delay. c2c's registered office and Customer Relations team is based in London. Passengers who aren't satisfied with the response to a complaint can escalate it free of charge to the independent Rail Ombudsman.</p><!--opt-->"
+  },
+  {
+    "name": "Merseyrail",
+    "slug": "merseyrail",
+    "adresse": "Merseyrail Customer Relations\nFreepost MERSEYRAIL CUSTOMER RELATIONS\nUnited Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>Merseyrail operates the electrified commuter network around Liverpool and the Wirral, including the Northern and Wirral lines. Delay and cancellation claims fall under the National Rail Conditions of Travel and Merseyrail's Delay Repay scheme rather than EU rail regulation, with compensation generally available from 15 minutes' delay. Merseyrail's registered office and Customer Relations team is based in Liverpool. If you remain unhappy with the outcome of a complaint, you can refer it free of charge to the independent Rail Ombudsman for further review.</p><!--opt-->"
+  },
+  {
+    "name": "Caledonian Sleeper",
+    "slug": "caledonian-sleeper",
+    "adresse": "Caledonian Sleeper Customer Relations\nGlasgow\nUnited Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>Caledonian Sleeper operates overnight services between London Euston and Scotland, including Edinburgh, Glasgow, Aberdeen, Inverness and Fort William, with sleeping berths and lounge cars. Delay and cancellation claims are handled under the National Rail Conditions of Travel and Caledonian Sleeper's Delay Repay scheme rather than EU rail regulation, with compensation typically available from 15 minutes' delay. Caledonian Sleeper's registered office and Customer Relations team is based in Glasgow. Unresolved complaints can be escalated free of charge to the independent Rail Ombudsman.</p><!--opt-->"
+  },
+  {
+    "name": "Transport for Wales",
+    "slug": "transport-for-wales",
+    "adresse": "Transport for Wales Customer Relations\nFreepost TFW CUSTOMER RELATIONS\nCardiff\nUnited Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>Transport for Wales operates regional and suburban rail services across Wales and into neighbouring English regions, connecting Cardiff, Swansea, North Wales and the Wales & Borders network. Delay and cancellation claims are handled under the National Rail Conditions of Travel and Transport for Wales's Delay Repay scheme rather than EU rail regulation, with compensation typically starting at 15 minutes' delay. The company's registered office and Customer Relations team is based in Cardiff. Passengers who remain unsatisfied after a formal complaint can take their case, free of charge, to the independent Rail Ombudsman.</p><!--opt-->"
+  },
+  {
+    "name": "Elizabeth line",
+    "slug": "elizabeth-line",
+    "adresse": "TfL Customer Services\n4th Floor, 14 Pier Walk\nLondon SE10 0ES\nUnited Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>The Elizabeth line is Transport for London's cross-London rail service, connecting Reading and Heathrow in the west with Shenfield and Abbey Wood in the east via central London. As a TfL service, delay and cancellation claims are handled under the National Rail Conditions of Travel and TfL's own compensation scheme rather than EU rail regulation, with refunds generally available for delays of 15 minutes or more. TfL's registered office and Customer Services team is based in London. Complaints that remain unresolved can be referred free of charge to London TravelWatch.</p><!--opt-->"
+  },
+  {
+    "name": "Lumo",
+    "slug": "lumo",
+    "adresse": "Lumo Customer Experience\nNewcastle upon Tyne\nUnited Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>Lumo is an open-access, low-cost operator running direct high-speed services on the East Coast Main Line between London King's Cross and Edinburgh, calling at Newcastle and Morpeth. Delay and cancellation claims are handled under the National Rail Conditions of Travel and Lumo's Delay Repay scheme rather than EU rail regulation, with compensation typically available from 15 minutes' delay. Lumo's registered office and Customer Experience team is based in Newcastle upon Tyne. Passengers who remain dissatisfied with a final response can escalate their complaint free of charge to the independent Rail Ombudsman.</p><!--opt-->"
+  },
+  {
+    "name": "Heathrow Express",
+    "slug": "heathrow-express",
+    "adresse": "Heathrow Express Customer Relations\nFreepost HEATHROW EXPRESS CUSTOMER RELATIONS\nUnited Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>Heathrow Express runs the direct, non-stop rail link between London Paddington and Heathrow Airport, popular with air passengers needing a fast, reliable connection. Delay and cancellation claims fall under the National Rail Conditions of Travel and Heathrow Express's Delay Repay scheme rather than EU rail regulation, with compensation typically available from 15 minutes' delay. Heathrow Express's registered office and Customer Relations team is based in London. If a complaint isn't resolved to your satisfaction, you can refer it free of charge to the independent Rail Ombudsman.</p><!--opt-->"
+  },
+  {
+    "name": "Gatwick Express",
+    "slug": "gatwick-express",
+    "adresse": "Govia Thameslink Railway\nCustomer Relations\nPO Box 8644\nDerby DE1 9RQ\nUnited Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>Gatwick Express provides a fast, dedicated non-stop rail link between London Victoria and Gatwick Airport, widely used by air passengers travelling to and from the South East. As part of Govia Thameslink Railway (GTR), delay and cancellation claims are handled under the National Rail Conditions of Travel and the Delay Repay scheme rather than EU rail regulation, with compensation generally available from 15 minutes' delay. GTR's registered office is in London, with claims processed via its Derby customer relations centre. Unresolved complaints can be escalated free of charge to the Rail Ombudsman.</p><!--opt-->"
+  },
+  {
+    "name": "Eurostar",
+    "slug": "eurostar",
+    "adresse": "Eurostar Traveller Care\n2nd Floor, Kent House\n81 Station Road\nAshford TN23 1AP\nUnited Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>Eurostar is the international high-speed operator connecting London St Pancras with Brussels, Paris, Amsterdam and other European cities via the Channel Tunnel. For these cross-border journeys, delay and cancellation claims fall under UK Rail Passenger Rights and EU Regulation 2021/782 (or its predecessor 1371/2007), so compensation is generally available from 60 minutes' delay, alongside care and rerouting duties for longer disruptions. Eurostar's registered office and Traveller Care team is based in Ashford, Kent. Since Brexit, some additional fare and refund conditions may apply, so it's worth checking your specific ticket terms.</p><!--opt-->"
+  },
+  {
+    "name": "SNCF (incl. TGV)",
+    "slug": "sncf",
+    "adresse": "Service Relation Client SNCF\n62973 ARRAS Cedex 9\nFrance",
+    "land": "France",
+    "infobox": "<p>SNCF is the French state railway, running the high-speed TGV network as well as regional and long-distance services across France and into neighbouring countries such as Germany, Switzerland, Italy, Belgium and Spain – popular onward connections for UK travellers arriving via Eurostar. For delay, cancellation or strike disruption, EU rail passenger rights apply, with compensation and rebooking generally available from 60 minutes' delay, depending on ticket type. The TGV additionally offers its own G30 goodwill guarantee from as little as 30 minutes. SNCF's registered office and central customer service is based in Saint-Denis, near Paris.</p><!--opt-->"
+  },
+  {
+    "name": "Deutsche Bahn (incl. ICE)",
+    "slug": "deutsche-bahn",
+    "adresse": "Servicecenter Fahrgastrechte\n60647 Frankfurt am Main\nGermany",
+    "land": "Germany",
+    "infobox": "<p>Deutsche Bahn is Germany's largest railway operator, running the high-speed ICE network as well as regional and long-distance services across Germany and into neighbouring European countries. For UK travellers connecting onward from Eurostar via Brussels or Paris, delay, cancellation or missed-connection claims are governed by EU rail passenger rights: compensation is generally available from 60 minutes' delay, with care such as meals and hotel accommodation required for longer disruptions regardless of the cause. Deutsche Bahn's registered office is in Berlin, with its passenger rights service centre based in Frankfurt am Main.</p><!--opt-->"
+  },
+  {
+    "name": "Renfe (incl. AVE)",
+    "slug": "renfe",
+    "adresse": "Renfe Viajeros S.A.\nAvenida de Ciudad de Barcelona 6\n28007 Madrid\nSpain",
+    "land": "Spain",
+    "infobox": "<p>Renfe is Spain's state railway, operating the AVE high-speed network alongside its low-cost Avlo and Ouigo-competing services, connecting major cities such as Madrid, Barcelona, Valencia, Seville and Málaga. UK travellers extending a rail trip into Spain can rely on EU rail passenger rights for delay and cancellation claims: partial refunds are typically available from 60 minutes' delay, rising to 50% from 120 minutes. Renfe's registered office and central customer service is based in Madrid, Spain, where claims and complaints are also handled.</p><!--opt-->"
+  },
+  {
+    "name": "Trenitalia (incl. Frecciarossa)",
+    "slug": "trenitalia",
+    "adresse": "Trenitalia S.p.A.\nUfficio Reclami e Rimborsi\nPiazza della Croce Rossa 1\n00161 Rome\nItaly",
+    "land": "Italy",
+    "infobox": "<p>Trenitalia is Italy's principal railway operator, running the high-speed Frecciarossa network alongside regional and long-distance services connecting Milan, Rome, Naples, Turin and beyond. For UK travellers extending a European rail trip into Italy, EU rail passenger rights generally allow a compensation or refund claim from 60 minutes' delay, with additional care obligations for longer disruptions. Trenitalia's registered office and central customer service is based in Rome, Italy. Claims should ideally be submitted promptly, with your ticket and any delay confirmation kept as evidence.</p><!--opt-->"
+  },
+  {
+    "name": "Italo (NTV)",
+    "slug": "italo",
+    "adresse": "Italo - Nuovo Trasporto Viaggiatori S.p.A.\nServizio Clienti\nViale del Policlinico 149/b\n00161 Rome\nItaly",
+    "land": "Italy",
+    "infobox": "<p>Italo (NTV) is Italy's private high-speed operator, competing with Trenitalia on major routes such as Milan–Rome–Naples. As with other EU operators, delay, cancellation or missed-connection claims fall under EU rail passenger rights, allowing compensation or a fare refund generally from 60 minutes' delay. NTV/Italo's registered office is in Rome, with customer service also based in Italy. Many Italo refunds are issued automatically as credit or a voucher, so it's worth checking your account and any correspondence carefully after a disrupted journey.</p><!--opt-->"
+  },
+  {
+    "name": "iryo",
+    "slug": "iryo",
+    "adresse": "Intermodalidad de Levante S.A.\nCalle de Méndez Álvaro 56\n28045 Madrid\nSpain",
+    "land": "Spain",
+    "infobox": "<p>iryo is a private Spanish high-speed operator connecting major cities on the national network, including Madrid, Barcelona, Valencia, Seville and Málaga. Delay, cancellation and compensation claims fall under EU rail passenger rights: for delays from 60 minutes, passengers can generally claim compensation or a fare refund, while total cancellations bring additional rerouting and care obligations. iryo's registered office and headquarters is based in Madrid, Spain, where claims and customer enquiries are also handled.</p><!--opt-->"
+  },
+  {
+    "name": "ÖBB (Austrian Federal Railways)",
+    "slug": "oebb",
+    "adresse": "ÖBB-Personenverkehr AG\nCustomer Service\nPO Box 75\n1020 Vienna\nAustria",
+    "land": "Austria",
+    "infobox": "<p>ÖBB (Austrian Federal Railways) is Austria's state railway, running long-distance and regional services within Austria as well as key connections into neighbouring countries. For UK travellers continuing a European rail trip into Austria, EU rail passenger rights generally allow a compensation or refund claim from 60 minutes' delay. ÖBB's registered office and Customer Service team is based in Vienna, Austria. Season ticket holders and regular commuters may also be entitled to route-specific compensation schemes.</p><!--opt-->"
+  },
+  {
+    "name": "Nightjet (ÖBB)",
+    "slug": "nightjet",
+    "adresse": "ÖBB-Personenverkehr AG\nCustomer Service\nPO Box 75\n1020 Vienna\nAustria",
+    "land": "Austria",
+    "infobox": "<p>Nightjet is ÖBB's overnight sleeper network, connecting Austria with numerous destinations in Germany, Italy, Switzerland, the Netherlands and other European cities – an increasingly popular alternative for UK travellers looking to reach the continent without flying. Delay, cancellation or significant service faults fall under EU rail passenger rights, generally allowing compensation or a fare refund from 60 minutes' delay at the destination. Nightjet's registered office and customer service is based in Vienna, Austria.</p><!--opt-->"
+  },
+  {
+    "name": "WESTbahn",
+    "slug": "westbahn",
+    "adresse": "WESTbahn Management GmbH\nEuropaplatz 3\n1150 Vienna\nAustria",
+    "land": "Austria",
+    "infobox": "<p>WESTbahn is a private Austrian rail operator connecting Vienna, Salzburg and Innsbruck as a competitor to ÖBB on some of the country's busiest routes. Delay, cancellation and compensation claims fall under EU rail passenger rights: from 60 minutes' delay, passengers can generally request care, rebooking or a fare refund, with alternative transport also available if a train is cancelled. WESTbahn's registered office and customer service is based in Vienna, Austria.</p><!--opt-->"
+  },
+  {
+    "name": "SBB (Swiss Federal Railways)",
+    "slug": "sbb",
+    "adresse": "SBB Customer Service\nPO Box\n3000 Bern 65\nSwitzerland",
+    "land": "Switzerland",
+    "infobox": "<p>SBB (Swiss Federal Railways) is Switzerland's state railway, running a dense domestic network alongside numerous cross-border connections into Germany, France, Italy and Austria. For many claims, the harmonised EU-style rail passenger rights apply, with compensation, refunds or care generally available for delays from 60 minutes, even though Switzerland is outside the EU. SBB's registered office and Customer Service is based in Bern. Always check whether a payment or refund is due for your specific journey and ticket type.</p><!--opt-->"
+  },
+  {
+    "name": "NS (Nederlandse Spoorwegen)",
+    "slug": "ns",
+    "adresse": "NS Customer Service\nPO Box 2372\n3500 GJ Utrecht\nNetherlands",
+    "land": "Netherlands",
+    "infobox": "<p>NS (Nederlandse Spoorwegen) is the Dutch state railway, running the dense national Intercity, Sprinter and regional network throughout the Netherlands – a common onward connection for UK travellers arriving via Eurostar's direct Amsterdam service. Delay and cancellation claims fall under EU rail passenger rights, with a partial refund or compensation generally available from 60 minutes' delay. NS's registered office and Customer Service team is based in Utrecht. NS also runs a 'Geld terug bij vertraging' (money back for delay) scheme for many domestic journeys.</p><!--opt-->"
+  },
+  {
+    "name": "SNCB / NMBS (Belgian Railways)",
+    "slug": "sncb",
+    "adresse": "SNCB Customer Service\nAvenue de la Porte de Hal 40\n1060 Brussels\nBelgium",
+    "land": "Belgium",
+    "infobox": "<p>SNCB/NMBS is Belgium's state railway, running domestic services throughout the country, including connections to Brussels, Antwerp, Ghent and Bruges – Brussels being one of Eurostar's principal direct destinations from London. Delay and cancellation claims fall under EU rail passenger rights, with compensation or a fare refund generally available from 60 minutes' delay. Regular commuters may also be entitled to compensation for repeated shorter delays. SNCB/NMBS's registered office and Customer Service team is based in Brussels.</p><!--opt-->"
+  },
+  {
+    "name": "DSB (Danish State Railways)",
+    "slug": "dsb",
+    "adresse": "DSB Customer Centre\nTelegade 2\n2630 Taastrup\nDenmark",
+    "land": "Denmark",
+    "infobox": "<p>DSB (Danske Statsbaner) is Denmark's state railway, operating long-distance and regional services across the country, including key connections to Sweden and Germany. Passengers may be entitled to compensation or a fare refund under EU rail passenger rights, typically from 60 minutes' delay. DSB's registered office and Customer Centre is based in Taastrup, near Copenhagen. Check your rights carefully, especially for longer delays on domestic and cross-border routes that might connect with a wider European rail itinerary.</p><!--opt-->"
+  },
+  {
+    "name": "SJ (Swedish Railways)",
+    "slug": "sj",
+    "adresse": "SJ AB\nCustomer Service\n105 50 Stockholm\nSweden",
+    "land": "Sweden",
+    "infobox": "<p>SJ (Statens Järnvägar) is Sweden's state railway, connecting long-distance and regional routes within Sweden, such as Stockholm, Gothenburg and Malmö. Delay and cancellation claims generally fall under EU rail passenger rights, alongside SJ's own Swedish compensation rules, typically from 60 minutes' delay. SJ's registered office and Customer Service is based in Stockholm. Passengers can generally request either compensation or a fare refund, depending on the specific circumstances of the disruption.</p><!--opt-->"
+  },
+  {
+    "name": "VR (Finnish Railways)",
+    "slug": "vr",
+    "adresse": "VR-Yhtymä Oyj\nCustomer Service\nPO Box 7020\n00063 VR\nFinland",
+    "land": "Finland",
+    "infobox": "<p>VR (VR-Yhtymä) is Finland's state railway, running long-distance and regional services connecting Helsinki, Tampere, Turku, Oulu and other Finnish cities. Delay, cancellation and compensation claims fall under EU rail passenger rights, generally available from 60 minutes' delay. VR's registered office and Customer Service is based in Helsinki, Finland. For cancellations, passengers are usually also entitled to assistance such as meals or accommodation where a long wait is unavoidable.</p><!--opt-->"
+  },
+  {
+    "name": "PKP Intercity",
+    "slug": "pkp",
+    "adresse": "PKP Intercity S.A.\nAl. Jerozolimskie 142A\n02-305 Warsaw\nPoland",
+    "land": "Poland",
+    "infobox": "<p>PKP Intercity is Poland's national long-distance and premium rail operator, running domestic and some international connections within Poland and to neighbouring countries. EU rail passenger rights generally apply, allowing compensation, a fare refund or onward travel from 60 minutes' delay. If a train is cancelled, passengers are usually also entitled to free onward transport or reimbursement. PKP Intercity's registered office and Customer Service is based in Warsaw, Poland.</p><!--opt-->"
+  },
+  {
+    "name": "MÁV-START (Hungarian Railways)",
+    "slug": "mav",
+    "adresse": "MÁV-START Zrt.\nCustomer Service\nPO Box 56\n1426 Budapest\nHungary",
+    "land": "Hungary",
+    "infobox": "<p>MÁV-START is Hungary's state passenger railway, operating the national network of long-distance and regional services across Hungary. Delay, cancellation and missed-connection claims are generally covered by EU rail passenger rights, with compensation or a fare refund available from 60 minutes' delay. MÁV-START's registered office and Customer Service is based in Budapest, Hungary. Keep your ticket and, where possible, a delay confirmation to support a successful claim.</p><!--opt-->"
+  },
+  {
+    "name": "ČD (Czech Railways)",
+    "slug": "cd",
+    "adresse": "České dráhy a.s.\nnábřeží L. Svobody 1222/1\n110 15 Prague 1\nCzech Republic",
+    "land": "Czech Republic",
+    "infobox": "<p>ČD (České dráhy) is the Czech state railway, running national long-distance, regional and commuter services as well as several international connections across Europe. Delay, cancellation and missed-connection claims fall under EU rail passenger rights, with compensation or a refund generally available from 60 minutes' delay. ČD's registered office and Customer Service is based in Prague, Czech Republic.</p><!--opt-->"
+  },
+  {
+    "name": "ZSSK (Slovak Railways)",
+    "slug": "zssk",
+    "adresse": "ZSSK a.s.\nCustomer Centre\nRožňavská 1\n832 72 Bratislava\nSlovakia",
+    "land": "Slovakia",
+    "infobox": "<p>ZSSK (Železničná spoločnosť Slovensko) is Slovakia's state railway, operating long-distance and regional services across the country. Delay, cancellation and connection claims generally fall under EU rail passenger rights, with a fare refund, rebooking or other support available from 60 minutes' delay. ZSSK's registered office and Customer Centre is based in Bratislava. Travellers on Slovak routes should check their rights promptly and keep supporting evidence such as tickets and delay confirmations.</p><!--opt-->"
+  },
+  {
+    "name": "CFR Călători (Romanian Railways)",
+    "slug": "cfr",
+    "adresse": "SNTFC CFR Călători S.A.\nBd. Dinicu Golescu 38\nSector 1\n010873 Bucharest\nRomania",
+    "land": "Romania",
+    "infobox": "<p>CFR Călători is Romania's state passenger railway, operating long-distance and regional services within Romania, with some international connections. Delay and cancellation claims are generally covered by EU rail passenger rights, allowing a fare refund or compensation from 60 minutes' delay. CFR Călători's registered office and Customer Service is based in Bucharest. A written claim, submitted with your ticket and any relevant journey details, is generally recommended to support a successful claim.</p><!--opt-->"
+  },
+  {
+    "name": "CP (Comboios de Portugal)",
+    "slug": "cp",
+    "adresse": "CP - Comboios de Portugal\nCalçada do Duque 20\n1200-156 Lisbon\nPortugal",
+    "land": "Portugal",
+    "infobox": "<p>CP (Comboios de Portugal) is Portugal's state railway, running long-distance, regional and suburban services on the mainland, including Lisbon, Porto, Coimbra and Faro. Delay and cancellation claims generally fall under EU rail passenger rights, allowing compensation or a fare refund from 60 minutes' delay. CP's registered office and Customer Service is based in Lisbon. Claims should ideally be submitted promptly, with supporting evidence such as your ticket and journey details.</p><!--opt-->"
+  }
+]
