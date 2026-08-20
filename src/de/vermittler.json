@@ -3,156 +3,175 @@
     "slug": "check24",
     "name": "CHECK24 Vergleichsportal Reise GmbH",
     "adresse": "Trappentreustraße 1 - 3\n80339 München\nDeutschland",
-    "infobox": "<p>CHECK24 Vergleichsportal Reise GmbH ist ein Reisevermittler und Buchungsportal; die angebotenen Reisen werden nicht selbst durchgeführt. Bei Reisemängeln vor Ort – etwa Hotelmängeln, Baulärm oder Leistungsabweichungen – ist in der Regel der im Reisevertrag genannte Reiseveranstalter der richtige Anspruchsgegner. Anders bei Reiserücktritt und Stornogebühren: Hier ist häufig zunächst der Vermittler erster Ansprechpartner für Umbuchung, Stornierung und die Weiterleitung Ihrer Erklärung. Für Vermittlungs- und Beratungsfehler haftet CHECK24 im Rahmen seiner Pflichten. Juristischer Sitz und Gerichtsstand ist München.</p><!--opt-->"
+    "infobox": "<p>CHECK24 Vergleichsportal Reise GmbH ist ein Reisevermittler und Buchungsportal; die angebotenen Reisen werden nicht selbst durchgeführt. Bei Reisemängeln vor Ort – etwa Hotelmängeln, Baulärm oder Leistungsabweichungen – ist in der Regel der im Reisevertrag genannte Reiseveranstalter der richtige Anspruchsgegner. Anders bei Reiserücktritt und Stornogebühren: Hier ist häufig zunächst der Vermittler erster Ansprechpartner für Umbuchung, Stornierung und die Weiterleitung Ihrer Erklärung. Für Vermittlungs- und Beratungsfehler haftet CHECK24 im Rahmen seiner Pflichten. Juristischer Sitz und Gerichtsstand ist München.</p><!--opt-->",
+    "portal_url":"https://www.check24.de/unternehmen/feedback-anliegen/"
   },
   {
     "slug": "holidaycheck",
     "name": "HolidayCheck AG",
     "adresse": "Bahnweg 8\n8598 Bottighofen\nSchweiz",
-    "infobox": "<p>HolidayCheck AG ist ein Vermittlungs- und Buchungsportal und führt Reisen grundsätzlich nicht selbst durch. Bei Reisemängeln richtet sich die Haftung in der Regel gegen den Reiseveranstalter; eine an HolidayCheck gerichtete Mängelanzeige gilt im Pauschalreiserecht unter Umständen als beim Veranstalter eingegangen und muss weitergeleitet werden. Bei Stornierungen und Fragen zu Stornogebühren ist HolidayCheck häufig der erste Ansprechpartner, da die Abwicklung über die Buchungsplattform erfolgt. Juristischer Hauptsitz und Gerichtsstand der HolidayCheck AG ist in der Regel München.</p><!--opt-->"
+    "infobox": "<p>HolidayCheck AG ist ein Vermittlungs- und Buchungsportal und führt Reisen grundsätzlich nicht selbst durch. Bei Reisemängeln richtet sich die Haftung in der Regel gegen den Reiseveranstalter; eine an HolidayCheck gerichtete Mängelanzeige gilt im Pauschalreiserecht unter Umständen als beim Veranstalter eingegangen und muss weitergeleitet werden. Bei Stornierungen und Fragen zu Stornogebühren ist HolidayCheck häufig der erste Ansprechpartner, da die Abwicklung über die Buchungsplattform erfolgt. Juristischer Hauptsitz und Gerichtsstand der HolidayCheck AG ist in der Regel München.</p><!--opt-->",
+    "portal_url":"https://www.holidaycheck.de/kontakt/bereits-gebucht"
   },
   {
     "slug": "aldi-reisen",
     "name": "ALDI Reisen (Vermittler)",
     "adresse": "Gilt als Vermittler für verschiedene Veranstalter\n(Adresse des Kundenservice laut Buchung einsetzen)",
-    "infobox": "<p>ALDI Reisen tritt als Vermittler und Buchungsportal auf; die Reisen werden nicht von ALDI Reisen selbst, sondern von externen Veranstaltern durchgeführt. Bei Reisemängeln, etwa Hotelproblemen oder Flugänderungen, ist in der Regel der jeweilige Reiseveranstalter der richtige Anspruchsgegner, da der Reisevertrag mit ihm zustande kommt. Bei Stornierungen und Reiserücktritt ist ALDI Reisen als Vermittler oft der erste Ansprechpartner für die Abwicklung, die maßgeblichen Stornobedingungen ergeben sich jedoch aus den Vertragsunterlagen des Veranstalters. Juristischer Hauptsitz und Gerichtsstand sind in Deutschland am Sitz des jeweiligen Vermittlers bzw. nach den Angaben in den AGB maßgeblich.</p><!--opt-->"
+    "infobox": "<p>ALDI Reisen tritt als Vermittler und Buchungsportal auf; die Reisen werden nicht von ALDI Reisen selbst, sondern von externen Veranstaltern durchgeführt. Bei Reisemängeln, etwa Hotelproblemen oder Flugänderungen, ist in der Regel der jeweilige Reiseveranstalter der richtige Anspruchsgegner, da der Reisevertrag mit ihm zustande kommt. Bei Stornierungen und Reiserücktritt ist ALDI Reisen als Vermittler oft der erste Ansprechpartner für die Abwicklung, die maßgeblichen Stornobedingungen ergeben sich jedoch aus den Vertragsunterlagen des Veranstalters. Juristischer Hauptsitz und Gerichtsstand sind in Deutschland am Sitz des jeweiligen Vermittlers bzw. nach den Angaben in den AGB maßgeblich.</p><!--opt-->",
+    "portal_url":"https://www.aldi-reisen.de/service/kontakt"
   },
   {
     "slug": "ab-in-den-urlaub",
     "name": "Invia Travel Germany GmbH (ab-in-den-urlaub.de)",
     "adresse": "Dittrichring 18-20\n04109 Leipzig\nDeutschland",
-    "infobox": "<p>Invia Travel Germany GmbH (ab-in-den-urlaub.de) ist ein Online-Reisevermittler und Buchungsportal; die Reisen werden in der Regel nicht selbst durchgeführt, sondern von Drittveranstaltern organisiert. Bei Reisemängeln ist meist der Reiseveranstalter der richtige Anspruchsgegner, da Gewährleistungsrechte grundsätzlich ihn treffen. Bei Stornierungen und Reiserücktritt ist Invia hingegen häufig erster Ansprechpartner für die Abwicklung, etwa bei der Weitergabe von Stornowünschen oder der Prüfung von Gebühren. Der juristische Hauptsitz und Gerichtsstand liegt in Leipzig. Fehler bei Buchung, Vermittlung oder Beratung können ausnahmsweise eine eigene Haftung von Invia begründen.</p><!--opt-->"
+    "infobox": "<p>Invia Travel Germany GmbH (ab-in-den-urlaub.de) ist ein Online-Reisevermittler und Buchungsportal; die Reisen werden in der Regel nicht selbst durchgeführt, sondern von Drittveranstaltern organisiert. Bei Reisemängeln ist meist der Reiseveranstalter der richtige Anspruchsgegner, da Gewährleistungsrechte grundsätzlich ihn treffen. Bei Stornierungen und Reiserücktritt ist Invia hingegen häufig erster Ansprechpartner für die Abwicklung, etwa bei der Weitergabe von Stornowünschen oder der Prüfung von Gebühren. Der juristische Hauptsitz und Gerichtsstand liegt in Leipzig. Fehler bei Buchung, Vermittlung oder Beratung können ausnahmsweise eine eigene Haftung von Invia begründen.</p><!--opt-->",
+    "portal_url":"https://www.ab-in-den-urlaub.de/service/kontakt"
   },
   {
     "slug": "weg-de",
     "name": "BravoNext SA (weg.de)",
     "adresse": "Vicolo de’ Calvi 2\n6830 Chiasso\nSchweiz",
-    "infobox": "<p>BravoNext SA betreibt weg.de als Buchungs- und Vermittlungsportal und führt die angebotenen Reisen nicht selbst durch. Vertragspartner für die eigentliche Reiseleistung ist in der Regel der jeweilige Reiseveranstalter oder Leistungsträger. Bei Reisemängeln ist deshalb meist der Veranstalter verantwortlich; Mängel sollten dennoch sofort vor Ort angezeigt werden, um spätere Ansprüche zu sichern. Bei Stornierungen und Reiserücktritt ist häufig zunächst der Vermittler erster Ansprechpartner für die Abwicklung. Juristischer Hauptsitz und Gerichtsstand von BravoNext SA ist Chiasso, Schweiz.</p><!--opt-->"
+    "infobox": "<p>BravoNext SA betreibt weg.de als Buchungs- und Vermittlungsportal und führt die angebotenen Reisen nicht selbst durch. Vertragspartner für die eigentliche Reiseleistung ist in der Regel der jeweilige Reiseveranstalter oder Leistungsträger. Bei Reisemängeln ist deshalb meist der Veranstalter verantwortlich; Mängel sollten dennoch sofort vor Ort angezeigt werden, um spätere Ansprüche zu sichern. Bei Stornierungen und Reiserücktritt ist häufig zunächst der Vermittler erster Ansprechpartner für die Abwicklung. Juristischer Hauptsitz und Gerichtsstand von BravoNext SA ist Chiasso, Schweiz.</p><!--opt-->",
+    "portal_url":"https://www.weg.de/info/hilfe-faq"
   },
   {
     "slug": "sonnenklar-tv",
     "name": "Euvia Travel GmbH (sonnenklar.TV)",
     "adresse": "Landsberger Str. 88\n80339 München\nDeutschland",
-    "infobox": "<p>Die Euvia Travel GmbH (sonnenklar.TV) tritt als Reisevermittler und Buchungsportal auf; die eigentliche Durchführung der Reise übernimmt in der Regel der jeweilige Reiseveranstalter. Bei Reisemängeln ist daher meist der Veranstalter der richtige Anspruchsgegner, etwa bei Hotelmängeln oder Ausfällen vor Ort. Bei Reiserücktritt und Stornogebühren ist hingegen oft zunächst der Vermittler erster Ansprechpartner für die Abwicklung. Der juristische Hauptsitz und Gerichtsstand der Euvia Travel GmbH liegt in München. Prüfen Sie bei jeder Buchung die Vertragsunterlagen genau, um Zuständigkeiten, Fristen und mögliche Ansprüche korrekt zuzuordnen.</p><!--opt-->"
+    "infobox": "<p>Die Euvia Travel GmbH (sonnenklar.TV) tritt als Reisevermittler und Buchungsportal auf; die eigentliche Durchführung der Reise übernimmt in der Regel der jeweilige Reiseveranstalter. Bei Reisemängeln ist daher meist der Veranstalter der richtige Anspruchsgegner, etwa bei Hotelmängeln oder Ausfällen vor Ort. Bei Reiserücktritt und Stornogebühren ist hingegen oft zunächst der Vermittler erster Ansprechpartner für die Abwicklung. Der juristische Hauptsitz und Gerichtsstand der Euvia Travel GmbH liegt in München. Prüfen Sie bei jeder Buchung die Vertragsunterlagen genau, um Zuständigkeiten, Fristen und mögliche Ansprüche korrekt zuzuordnen.</p><!--opt-->",
+    "portal_url":"https://sonnenklartv-reisebuero.de/reiseziele/sonnenklar-tv-beschwerdemanagement/"
   },
   {
     "slug": "lidl-reisen",
     "name": "Lidl Digital Trading GmbH & Co. KG",
     "adresse": "Stiftsbergstraße 1\n74172 Neckarsulm\nDeutschland",
-    "infobox": "<p>Lidl Digital Trading GmbH &amp; Co. KG tritt als Vermittler und Buchungsportal für Reisen auf und führt die Reise selbst nicht durch. Bei Reisemängeln, Mängelbeseitigung vor Ort, Reisepreisminderung oder Schadensersatz ist in der Regel der auf der Buchungsbestätigung genannte Reiseveranstalter der richtige Anspruchsgegner. Bei Stornierungen und Fragen zu Rücktritt oder Stornogebühren ist häufig zunächst der Vermittler erster Ansprechpartner, da er die Buchung abgewickelt hat. Juristischer Hauptsitz und Gerichtsstand der Lidl Digital Trading GmbH &amp; Co. KG ist Neckarsulm.</p><!--opt-->"
-  },
-  {
-    "slug": "tchibo-reisen",
-    "name": "Tchibo GmbH",
-    "adresse": "Überseering 18\n22297 Hamburg\nDeutschland",
-    "infobox": "<p>Tchibo GmbH tritt als Reisevermittler und Buchungsportal auf und führt die angebotenen Reisen nicht selbst durch. Vertragspartner für die eigentliche Reiseleistung ist in der Regel der jeweilige Veranstalter; bei Reisemängeln oder Leistungsstörungen richtet sich die Haftung daher meist gegen diesen. Bei Reiserücktritt, Umbuchung oder Stornogebühren ist Tchibo oft der erste Ansprechpartner für die Abwicklung der Buchung. Der juristische Sitz und Gerichtsstand der Tchibo GmbH ist Hamburg. Für Ansprüche aus dem Reisevertrag sind zudem die jeweiligen Buchungsunterlagen und die Bedingungen des Kooperationspartners maßgeblich.</p><!--opt-->"
+    "infobox": "<p>Lidl Digital Trading GmbH &amp; Co. KG tritt als Vermittler und Buchungsportal für Reisen auf und führt die Reise selbst nicht durch. Bei Reisemängeln, Mängelbeseitigung vor Ort, Reisepreisminderung oder Schadensersatz ist in der Regel der auf der Buchungsbestätigung genannte Reiseveranstalter der richtige Anspruchsgegner. Bei Stornierungen und Fragen zu Rücktritt oder Stornogebühren ist häufig zunächst der Vermittler erster Ansprechpartner, da er die Buchung abgewickelt hat. Juristischer Hauptsitz und Gerichtsstand der Lidl Digital Trading GmbH &amp; Co. KG ist Neckarsulm.</p><!--opt-->",
+    "portal_url":"https://www.lidl-reisen.de/contact"
   },
   {
     "slug": "nix-wie-weg",
     "name": "Nix-wie-weg.de GmbH & Co. KG",
     "adresse": "Alter Schlachthof 3\n92637 Weiden\nDeutschland",
-    "infobox": "<p>Nix-wie-weg.de GmbH &amp; Co. KG ist ein Online-Reisevermittler und Buchungsportal; die gebuchten Reisen werden in der Regel nicht von Nix-wie-weg selbst durchgeführt, sondern von einem Reiseveranstalter erbracht. Bei Reisemängeln richten sich Ansprüche wie Abhilfe, Minderung oder Schadensersatz meist gegen den Veranstalter. Bei Reiserücktritt und Stornogebühren ist das Portal häufig erster Ansprechpartner für die Buchungsabwicklung und die Weiterleitung der Erklärung. Der juristische Sitz und Gerichtsstand von Nix-wie-weg.de GmbH &amp; Co. KG ist Weiden i.d.OPf., Deutschland.</p><!--opt-->"
+    "infobox": "<p>Nix-wie-weg.de GmbH &amp; Co. KG ist ein Online-Reisevermittler und Buchungsportal; die gebuchten Reisen werden in der Regel nicht von Nix-wie-weg selbst durchgeführt, sondern von einem Reiseveranstalter erbracht. Bei Reisemängeln richten sich Ansprüche wie Abhilfe, Minderung oder Schadensersatz meist gegen den Veranstalter. Bei Reiserücktritt und Stornogebühren ist das Portal häufig erster Ansprechpartner für die Buchungsabwicklung und die Weiterleitung der Erklärung. Der juristische Sitz und Gerichtsstand von Nix-wie-weg.de GmbH &amp; Co. KG ist Weiden i.d.OPf., Deutschland.</p><!--opt-->",
+    "portal_url":"https://www.nix-wie-weg.de/kontakt"
   },
   {
     "slug": "kurz-mal-weg",
     "name": "KMW Reisen GmbH (kurz-mal-weg.de)",
     "adresse": "Stralsunder Str. 10\n04156 Leipzig\nDeutschland",
-    "infobox": "<p>KMW Reisen GmbH (kurz-mal-weg.de) ist ein Buchungs- und Vermittlungsportal für Kurz-, Städte- und Wellnessreisen; die Reise wird in der Regel nicht von KMW selbst durchgeführt. Bei Reisemängeln kommt es rechtlich auf die Vertragsrolle an: Ansprüche richten sich häufig gegen den Reiseveranstalter, während KMW als Vermittler nicht automatisch haftet. Bei Stornierungen und Reiserücktritt ist der Vermittler oft der erste Ansprechpartner für Umbuchung, Rücktritt und die Prüfung von Stornogebühren. Juristischer Hauptsitz und Gerichtsstand ist Leipzig.</p><!--opt-->"
+    "infobox": "<p>KMW Reisen GmbH (kurz-mal-weg.de) ist ein Buchungs- und Vermittlungsportal für Kurz-, Städte- und Wellnessreisen; die Reise wird in der Regel nicht von KMW selbst durchgeführt. Bei Reisemängeln kommt es rechtlich auf die Vertragsrolle an: Ansprüche richten sich häufig gegen den Reiseveranstalter, während KMW als Vermittler nicht automatisch haftet. Bei Stornierungen und Reiserücktritt ist der Vermittler oft der erste Ansprechpartner für Umbuchung, Rücktritt und die Prüfung von Stornogebühren. Juristischer Hauptsitz und Gerichtsstand ist Leipzig.</p><!--opt-->",
+    "portal_url":"https://www.kurz-mal-weg.de/c/kontakt"
   },
   {
     "slug": "expedia",
     "name": "Expedia.com GmbH",
     "adresse": "Seidlstraße 26\n80335 München\nDeutschland",
-    "infobox": "<p>Expedia.com GmbH ist ein Buchungsportal bzw. Vermittler und führt Reisen in der Regel nicht selbst durch. Wer dort Flug, Hotel oder Mietwagen bucht, schließt den Vertrag häufig mit dem jeweiligen Leistungsträger; bei Reisemängeln können Ansprüche daher meist den Veranstalter oder den konkreten Anbieter betreffen. Bei Stornierungen und Reiserücktritt ist Expedia oft der erste Ansprechpartner für die Buchung und mögliche Stornogebühren. Der juristische Sitz und damit regelmäßige Gerichtsstand der Expedia.com GmbH ist Frankfurt am Main. Je nach Buchungsart können zudem gesonderte Rechte aus Pauschalreise-, Fluggast- oder Hotelrecht gelten.</p><!--opt-->"
+    "infobox": "<p>Expedia.com GmbH ist ein Buchungsportal bzw. Vermittler und führt Reisen in der Regel nicht selbst durch. Wer dort Flug, Hotel oder Mietwagen bucht, schließt den Vertrag häufig mit dem jeweiligen Leistungsträger; bei Reisemängeln können Ansprüche daher meist den Veranstalter oder den konkreten Anbieter betreffen. Bei Stornierungen und Reiserücktritt ist Expedia oft der erste Ansprechpartner für die Buchung und mögliche Stornogebühren. Der juristische Sitz und damit regelmäßige Gerichtsstand der Expedia.com GmbH ist Frankfurt am Main. Je nach Buchungsart können zudem gesonderte Rechte aus Pauschalreise-, Fluggast- oder Hotelrecht gelten.</p><!--opt-->",
+    "portal_url":"https://www.expedia.com/lp/b/getintouch"
   },
   {
     "slug": "booking-com",
     "name": "Booking.com B.V.",
     "adresse": "Oosterdokskade 163\n1011 DL Amsterdam\nNiederlande",
-    "infobox": "<p>Booking.com B.V. ist ein internationales Buchungsportal und Vermittler von Unterkünften; die Reise bzw. Leistung wird nicht selbst durchgeführt. Der Beherbergungsvertrag kommt regelmäßig direkt zwischen Ihnen und dem jeweiligen Anbieter zustande. Bei Reisemängeln ist daher häufig der Veranstalter oder Leistungsträger der richtige Anspruchsgegner, wobei Mängel unverzüglich vor Ort angezeigt werden sollten. Bei Stornierungen, Umbuchungen oder Stornogebühren ist Booking.com oft der erste Ansprechpartner für die Abwicklung. Juristischer Hauptsitz und Gerichtsstand von Booking.com B.V. ist Amsterdam, Niederlande.</p><!--opt-->"
+    "infobox": "<p>Booking.com B.V. ist ein internationales Buchungsportal und Vermittler von Unterkünften; die Reise bzw. Leistung wird nicht selbst durchgeführt. Der Beherbergungsvertrag kommt regelmäßig direkt zwischen Ihnen und dem jeweiligen Anbieter zustande. Bei Reisemängeln ist daher häufig der Veranstalter oder Leistungsträger der richtige Anspruchsgegner, wobei Mängel unverzüglich vor Ort angezeigt werden sollten. Bei Stornierungen, Umbuchungen oder Stornogebühren ist Booking.com oft der erste Ansprechpartner für die Abwicklung. Juristischer Hauptsitz und Gerichtsstand von Booking.com B.V. ist Amsterdam, Niederlande.</p><!--opt-->",
+    "portal_url":"https://www.booking.com/customer-service.html"
   },
   {
     "slug": "lastminute-de",
     "name": "BravoNext SA (lastminute.de)",
     "adresse": "Vicolo de’ Calvi 2\n6830 Chiasso\nSchweiz",
-    "infobox": "<p>BravoNext SA (lastminute.de) ist ein Reisevermittler und Buchungsportal, das Reisen nicht selbst veranstaltet oder durchführt. Bei Reisemängeln, etwa Flugausfällen oder erheblichen Hotelproblemen, richten sich Ansprüche meist gegen die Fluggesellschaft oder den Pauschalreiseveranstalter. Bei Stornierungen und Reiserücktritt ist lastminute.de häufig der erste Ansprechpartner für Umbuchung, Rückabwicklung und Fragen zu Stornogebühren. Rechtlich maßgeblich ist der Sitz von BravoNext SA in Chiasso, Schweiz; der allgemeine Gerichtsstand liegt dort. Für die konkrete Anspruchsprüfung kommt es stets auf die gebuchte Leistungsart und die Vertragsunterlagen an.</p><!--opt-->"
+    "infobox": "<p>BravoNext SA (lastminute.de) ist ein Reisevermittler und Buchungsportal, das Reisen nicht selbst veranstaltet oder durchführt. Bei Reisemängeln, etwa Flugausfällen oder erheblichen Hotelproblemen, richten sich Ansprüche meist gegen die Fluggesellschaft oder den Pauschalreiseveranstalter. Bei Stornierungen und Reiserücktritt ist lastminute.de häufig der erste Ansprechpartner für Umbuchung, Rückabwicklung und Fragen zu Stornogebühren. Rechtlich maßgeblich ist der Sitz von BravoNext SA in Chiasso, Schweiz; der allgemeine Gerichtsstand liegt dort. Für die konkrete Anspruchsprüfung kommt es stets auf die gebuchte Leistungsart und die Vertragsunterlagen an.</p><!--opt-->",
+    "portal_url":"https://www.lastminute.de/de/help/assistance"
   },
   {
     "slug": "reisen-de",
     "name": "Invia Travel Germany GmbH (reisen.de)",
     "adresse": "Dittrichring 18-20\n04109 Leipzig\nDeutschland",
-    "infobox": "<p>Invia Travel Germany GmbH (reisen.de) ist ein Reisevermittler bzw. Buchungsportal und führt die angebotenen Reisen nicht selbst durch. Bei Reisemängeln, etwa Verspätungen, Ausfällen oder Leistungsabweichungen, ist rechtlich meist der Reiseveranstalter der richtige Anspruchsgegner. Bei Reiserücktritt und Stornierungen ist hingegen häufig zunächst der Vermittler der erste Ansprechpartner für die Abwicklung. Der juristische Sitz und Gerichtsstand der Invia Travel Germany GmbH ist Leipzig. Für Reisende ist daher wichtig, die Vertragsrolle genau zu prüfen, um Ansprüche auf Minderung, Schadensersatz oder Erstattung korrekt geltend zu machen.</p><!--opt-->"
+    "infobox": "<p>Invia Travel Germany GmbH (reisen.de) ist ein Reisevermittler bzw. Buchungsportal und führt die angebotenen Reisen nicht selbst durch. Bei Reisemängeln, etwa Verspätungen, Ausfällen oder Leistungsabweichungen, ist rechtlich meist der Reiseveranstalter der richtige Anspruchsgegner. Bei Reiserücktritt und Stornierungen ist hingegen häufig zunächst der Vermittler der erste Ansprechpartner für die Abwicklung. Der juristische Sitz und Gerichtsstand der Invia Travel Germany GmbH ist Leipzig. Für Reisende ist daher wichtig, die Vertragsrolle genau zu prüfen, um Ansprüche auf Minderung, Schadensersatz oder Erstattung korrekt geltend zu machen.</p><!--opt-->",
+    "portal_url":"https://www.reisen.de/service/kontakt"
   },
   {
     "slug": "opodo",
     "name": "Vacaciones eDreams, S.L. (Opodo)",
     "adresse": "Calle de López de Hoyos 35\n28002 Madrid\nSpanien",
-    "infobox": "<p>Vacaciones eDreams, S.L. (Opodo) ist ein Online-Buchungsportal und Reisevermittler; die Reisen selbst werden in der Regel nicht von Opodo durchgeführt. Bei Reisemängeln wie Flugproblemen, Hotelmängeln oder Leistungsabweichungen ist häufig der jeweilige Veranstalter oder Leistungsträger zuständig. Bei Stornierungen und Reiserücktritt ist Opodo als Vermittler oft der erste Ansprechpartner, etwa für die Abwicklung von Umbuchungen, Stornierungen oder die Weiterleitung von Informationen. Der juristische Sitz und Gerichtsstand des Unternehmens liegt in Barcelona, Spanien. Eine eigene Haftung von Opodo kommt vor allem bei Vermittlungsfehlern, falschen Buchungsdaten oder fehlerhafter Tarifübermittlung in Betracht.</p><!--opt-->"
+    "infobox": "<p>Vacaciones eDreams, S.L. (Opodo) ist ein Online-Buchungsportal und Reisevermittler; die Reisen selbst werden in der Regel nicht von Opodo durchgeführt. Bei Reisemängeln wie Flugproblemen, Hotelmängeln oder Leistungsabweichungen ist häufig der jeweilige Veranstalter oder Leistungsträger zuständig. Bei Stornierungen und Reiserücktritt ist Opodo als Vermittler oft der erste Ansprechpartner, etwa für die Abwicklung von Umbuchungen, Stornierungen oder die Weiterleitung von Informationen. Der juristische Sitz und Gerichtsstand des Unternehmens liegt in Barcelona, Spanien. Eine eigene Haftung von Opodo kommt vor allem bei Vermittlungsfehlern, falschen Buchungsdaten oder fehlerhafter Tarifübermittlung in Betracht.</p><!--opt-->",
+    "portal_url":"https://www.opodo.com/travel/support-area/"
   },
   {
     "slug": "edreams",
     "name": "Vacaciones eDreams, S.L.",
     "adresse": "Calle de López de Hoyos 35\n28002 Madrid\nSpanien",
-    "infobox": "<p>Vacaciones eDreams, S.L. ist ein Online-Reisevermittler und Buchungsportal; die gebuchten Reisen, Flüge oder Unterkünfte werden in der Regel nicht selbst durchgeführt. Bei Reisemängeln ist deshalb oft der Reiseveranstalter oder die jeweilige Leistungsgesellschaft der richtige Anspruchsgegner, während eDreams bei der Buchung unterstützt. Bei Stornierungen und Reiserücktritt ist der Vermittler häufig der erste Ansprechpartner für Umbuchung, Rücktritt und die Abwicklung von Stornogebühren. Der juristische Hauptsitz und Gerichtsstand von Vacaciones eDreams, S.L. ist in Barcelona, Spanien. Prüfen Sie daher stets, wer Vertragspartner ist und welche Bedingungen für Ihre Buchung gelten.</p><!--opt-->"
+    "infobox": "<p>Vacaciones eDreams, S.L. ist ein Online-Reisevermittler und Buchungsportal; die gebuchten Reisen, Flüge oder Unterkünfte werden in der Regel nicht selbst durchgeführt. Bei Reisemängeln ist deshalb oft der Reiseveranstalter oder die jeweilige Leistungsgesellschaft der richtige Anspruchsgegner, während eDreams bei der Buchung unterstützt. Bei Stornierungen und Reiserücktritt ist der Vermittler häufig der erste Ansprechpartner für Umbuchung, Rücktritt und die Abwicklung von Stornogebühren. Der juristische Hauptsitz und Gerichtsstand von Vacaciones eDreams, S.L. ist in Barcelona, Spanien. Prüfen Sie daher stets, wer Vertragspartner ist und welche Bedingungen für Ihre Buchung gelten.</p><!--opt-->",
+    "portal_url":"https://help.edreams.com/hc/en-150/sections/18960538104210-Complaints"
   },
   {
     "slug": "urlaubspiraten",
     "name": "HolidayPirates GmbH",
     "adresse": "Wallstraße 59-65\n10179 Berlin\nDeutschland",
-    "infobox": "<p>HolidayPirates GmbH ist ein Buchungs- und Vermittlungsportal für Reisen, führt die angebotenen Leistungen jedoch nicht selbst durch. Bei Reisemängeln, Leistungsabweichungen oder Schadensersatzansprüchen ist daher in der Regel der jeweilige Reiseveranstalter oder Leistungsträger der richtige Anspruchsgegner. Geht es um Rücktritt, Umbuchung oder Stornogebühren, ist HolidayPirates bzw. der dort eingebundene Vermittler häufig der erste Ansprechpartner, da die Buchung über das Portal angebahnt wurde. Der juristische Sitz und Gerichtsstand der HolidayPirates GmbH liegt in Berlin.</p><!--opt-->"
+    "infobox": "<p>HolidayPirates GmbH ist ein Buchungs- und Vermittlungsportal für Reisen, führt die angebotenen Leistungen jedoch nicht selbst durch. Bei Reisemängeln, Leistungsabweichungen oder Schadensersatzansprüchen ist daher in der Regel der jeweilige Reiseveranstalter oder Leistungsträger der richtige Anspruchsgegner. Geht es um Rücktritt, Umbuchung oder Stornogebühren, ist HolidayPirates bzw. der dort eingebundene Vermittler häufig der erste Ansprechpartner, da die Buchung über das Portal angebahnt wurde. Der juristische Sitz und Gerichtsstand der HolidayPirates GmbH liegt in Berlin.</p><!--opt-->",
+    "portal_url":"https://travel.holidaypirates.com/contact"
   },
   {
     "slug": "urlaubsguru",
     "name": "UNIQ GmbH (Urlaubsguru)",
     "adresse": "Rhenus Platz 2\n59439 Holzwickede\nDeutschland",
-    "infobox": "<p>UNIQ GmbH (Urlaubsguru) ist ein Reisevermittler und Buchungsportal, das Reisen und Angebote präsentiert, aber die Reise selbst nicht durchführt. Für Reisemängel ist rechtlich häufig der jeweilige Reiseveranstalter verantwortlich; Ansprüche wegen Mängeln vor Ort richten sich daher meist gegen diesen. Bei Reiserücktritt, Stornierungen oder Stornogebühren ist hingegen oft zunächst der Vermittler bzw. der gebuchte Vertragspartner der richtige Ansprechpartner. Der juristische Hauptsitz und Gerichtsstand der UNIQ GmbH liegt in Berlin. Prüfen Sie daher stets, wer Ihr Vertragspartner ist und an wen Sie Ihre Ansprüche richten müssen.</p><!--opt-->"
+    "infobox": "<p>UNIQ GmbH (Urlaubsguru) ist ein Reisevermittler und Buchungsportal, das Reisen und Angebote präsentiert, aber die Reise selbst nicht durchführt. Für Reisemängel ist rechtlich häufig der jeweilige Reiseveranstalter verantwortlich; Ansprüche wegen Mängeln vor Ort richten sich daher meist gegen diesen. Bei Reiserücktritt, Stornierungen oder Stornogebühren ist hingegen oft zunächst der Vermittler bzw. der gebuchte Vertragspartner der richtige Ansprechpartner. Der juristische Hauptsitz und Gerichtsstand der UNIQ GmbH liegt in Berlin. Prüfen Sie daher stets, wer Ihr Vertragspartner ist und an wen Sie Ihre Ansprüche richten müssen.</p><!--opt-->",
+    "portal_url":"https://www.urlaubsguru.de/urlaubsguru-feedback/"
   },
   {
     "slug": "rewe-reisen",
     "name": "REWE Markt GmbH",
     "adresse": "Domstraße 20\n50668 Köln\nDeutschland",
-    "infobox": "<p>REWE Markt GmbH tritt als Reisevermittler und Buchungsportal auf; die gebuchten Reisen werden nicht selbst durchgeführt, sondern von den jeweils genannten Veranstaltern erbracht. Bei Reisemängeln, Überbuchungen oder erheblichen Leistungsabweichungen ist regelmäßig der vertragliche Reiseveranstalter der richtige Anspruchsgegner. Bei Reiserücktritt, Umbuchung oder Stornogebühren ist REWE Markt GmbH häufig erster Ansprechpartner für die Abwicklung. Der juristische Hauptsitz und Gerichtsstand ist Köln. Maßgeblich bleiben stets die Angaben in Buchungsbestätigung, Reiseunterlagen und den jeweiligen Vertragsbedingungen des Veranstalters.</p><!--opt-->"
+    "infobox": "<p>REWE Markt GmbH tritt als Reisevermittler und Buchungsportal auf; die gebuchten Reisen werden nicht selbst durchgeführt, sondern von den jeweils genannten Veranstaltern erbracht. Bei Reisemängeln, Überbuchungen oder erheblichen Leistungsabweichungen ist regelmäßig der vertragliche Reiseveranstalter der richtige Anspruchsgegner. Bei Reiserücktritt, Umbuchung oder Stornogebühren ist REWE Markt GmbH häufig erster Ansprechpartner für die Abwicklung. Der juristische Hauptsitz und Gerichtsstand ist Köln. Maßgeblich bleiben stets die Angaben in Buchungsbestätigung, Reiseunterlagen und den jeweiligen Vertragsbedingungen des Veranstalters.</p><!--opt-->",
+    "portal_url":"https://www.rewe-reisen.de/rewe-reisen/impressum.html"
   },
   {
     "slug": "penny-reisen",
     "name": "PENNY-Markt GmbH",
     "adresse": "Domstraße 20\n50668 Köln\nDeutschland",
-    "infobox": "<p>Die PENNY-Markt GmbH tritt im Reisebereich in der Regel als Vermittler und Buchungsportal auf; die eigentliche Reise wird meist von einem Drittveranstalter durchgeführt. Bei Reisemängeln, etwa Hotel- oder Leistungsabweichungen, richten sich Ansprüche auf Minderung oder Schadensersatz grundsätzlich gegen den ausführenden Reiseveranstalter. Bei Stornierungen und Reiserücktritt ist PENNY als Vermittler oft erster Ansprechpartner für die Abwicklung, die Höhe der Stornogebühren bestimmt jedoch regelmäßig der Veranstalter bzw. die Vertragslage. Juristischer Hauptsitz und Gerichtsstand ist Köln.</p><!--opt-->"
+    "infobox": "<p>Die PENNY-Markt GmbH tritt im Reisebereich in der Regel als Vermittler und Buchungsportal auf; die eigentliche Reise wird meist von einem Drittveranstalter durchgeführt. Bei Reisemängeln, etwa Hotel- oder Leistungsabweichungen, richten sich Ansprüche auf Minderung oder Schadensersatz grundsätzlich gegen den ausführenden Reiseveranstalter. Bei Stornierungen und Reiserücktritt ist PENNY als Vermittler oft erster Ansprechpartner für die Abwicklung, die Höhe der Stornogebühren bestimmt jedoch regelmäßig der Veranstalter bzw. die Vertragslage. Juristischer Hauptsitz und Gerichtsstand ist Köln.</p><!--opt-->",
+    "portal_url":"https://www.penny-reisen.de/penny-reisen/impressum.html"
   },
   {
     "slug": "netto-urlaub",
     "name": "Netto Marken-Discount Stiftung & Co. KG",
     "adresse": "Industriepark Ponholz 1\n93142 Maxhütte-Haidhof\nDeutschland",
-    "infobox": "<p>Netto Marken-Discount Stiftung &amp; Co. KG tritt als Reisevermittler bzw. Buchungsportal auf und führt die Reise nicht selbst durch. Vertragspartner für die Pauschalreise ist regelmäßig der in den Reiseunterlagen genannte Veranstalter. Bei Reisemängeln sind daher meist dessen Ansprüche und die Meldung vor Ort bei der Reiseleitung entscheidend. Bei Stornierungen und Reiserücktritt ist hingegen häufig zunächst der Vermittler der erste Ansprechpartner, da er die Buchung organisiert. Juristisch maßgeblich ist der Hauptsitz in Maxhütte-Haidhof; Gerichtsstand ist grundsätzlich der dortige Sitz des Unternehmens, soweit gesetzlich zulässig.</p><!--opt-->"
+    "infobox": "<p>Netto Marken-Discount Stiftung &amp; Co. KG tritt als Reisevermittler bzw. Buchungsportal auf und führt die Reise nicht selbst durch. Vertragspartner für die Pauschalreise ist regelmäßig der in den Reiseunterlagen genannte Veranstalter. Bei Reisemängeln sind daher meist dessen Ansprüche und die Meldung vor Ort bei der Reiseleitung entscheidend. Bei Stornierungen und Reiserücktritt ist hingegen häufig zunächst der Vermittler der erste Ansprechpartner, da er die Buchung organisiert. Juristisch maßgeblich ist der Hauptsitz in Maxhütte-Haidhof; Gerichtsstand ist grundsätzlich der dortige Sitz des Unternehmens, soweit gesetzlich zulässig.</p><!--opt-->",
+    "portal_url":"https://www.netto-reisen.de/kontakt"
   },
   {
     "slug": "secret-escapes",
     "name": "Secret Escapes GmbH",
     "adresse": "Reichenberger Str. 124\n10999 Berlin\nDeutschland",
-    "infobox": "<p>Secret Escapes GmbH ist ein Buchungs- und Vermittlungsportal für exklusive Hotel- und Reiseangebote; die eigentliche Durchführung der Reise übernimmt in der Regel ein Reiseveranstalter oder Leistungsträger. Bei Reisemängeln ist deshalb meist der im Vertrag genannte Veranstalter Ihr richtiger Anspruchsgegner. Bei Stornierungen, Umbuchungen oder Fragen zu Stornogebühren ist Secret Escapes häufig der erste Ansprechpartner, da die Buchung über das Portal erfolgt. Prüfen Sie immer Ihre Reisebestätigung und AGB. Juristischer Hauptsitz und Gerichtsstand der Secret Escapes GmbH ist Hamburg.</p><!--opt-->"
+    "infobox": "<p>Secret Escapes GmbH ist ein Buchungs- und Vermittlungsportal für exklusive Hotel- und Reiseangebote; die eigentliche Durchführung der Reise übernimmt in der Regel ein Reiseveranstalter oder Leistungsträger. Bei Reisemängeln ist deshalb meist der im Vertrag genannte Veranstalter Ihr richtiger Anspruchsgegner. Bei Stornierungen, Umbuchungen oder Fragen zu Stornogebühren ist Secret Escapes häufig der erste Ansprechpartner, da die Buchung über das Portal erfolgt. Prüfen Sie immer Ihre Reisebestätigung und AGB. Juristischer Hauptsitz und Gerichtsstand der Secret Escapes GmbH ist Hamburg.</p><!--opt-->",
+    "portal_url":"https://www.secretescapes.com/contact?srsltid=AfmBOopt8mrQOMq_Nh36HLWjvUurWGKLjU1a2McGdh9UyNvGRYltZPPI"
   },
   {
     "slug": "der-reisebuero",
     "name": "DER Deutsches Reisebüro GmbH & Co. OHG",
     "adresse": "Emil-von-Behring-Straße 6\n60439 Frankfurt am Main\nDeutschland",
-    "infobox": "<p>DER Deutsches Reisebüro GmbH &amp; Co. OHG ist als Reisevermittler und Buchungsportal tätig und führt die Reise selbst nicht durch. Bei Reisemängeln haftet in der Regel der Reiseveranstalter; Mängelanzeigen werden über den Vermittler entgegengenommen und weitergeleitet. Bei Reiserücktritt und Stornogebühren ist der Vermittler häufig erster Ansprechpartner für Umbuchung, Storno und die Prüfung der anfallenden Kosten. Juristischer Hauptsitz und Gerichtsstand ist Frankfurt am Main. Für Ansprüche aus Reisevertrag und Storno gilt daher: Zuständigkeiten genau prüfen und Fristen einhalten.</p><!--opt-->"
+    "infobox": "<p>DER Deutsches Reisebüro GmbH &amp; Co. OHG ist als Reisevermittler und Buchungsportal tätig und führt die Reise selbst nicht durch. Bei Reisemängeln haftet in der Regel der Reiseveranstalter; Mängelanzeigen werden über den Vermittler entgegengenommen und weitergeleitet. Bei Reiserücktritt und Stornogebühren ist der Vermittler häufig erster Ansprechpartner für Umbuchung, Storno und die Prüfung der anfallenden Kosten. Juristischer Hauptsitz und Gerichtsstand ist Frankfurt am Main. Für Ansprüche aus Reisevertrag und Storno gilt daher: Zuständigkeiten genau prüfen und Fristen einhalten.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "slug": "travelscout24",
     "name": "Triplemind GmbH (TravelScout24)",
     "adresse": "Berliner Straße 269\n63067 Offenbach am Main\nDeutschland",
-    "infobox": "<p>Die Triplemind GmbH betreibt TravelScout24 als Reisevermittler und Buchungsportal; die angebotenen Reisen werden nicht von ihr selbst durchgeführt. Bei Reisemängeln ist regelmäßig der jeweilige Reiseveranstalter der richtige Anspruchsgegner, da er für die ordnungsgemäße Durchführung der Pauschalreise haftet. Bei Reiserücktritt und Stornogebühren ist TravelScout24 beziehungsweise die Triplemind GmbH oft der erste Ansprechpartner für Buchungs- und Vermittlungsfragen, etwa zur Weiterleitung von Erklärungen oder zur Klärung der Stornobedingungen. Juristischer Sitz und Gerichtsstand der Triplemind GmbH ist München.</p><!--opt-->"
+    "infobox": "<p>Die Triplemind GmbH betreibt TravelScout24 als Reisevermittler und Buchungsportal; die angebotenen Reisen werden nicht von ihr selbst durchgeführt. Bei Reisemängeln ist regelmäßig der jeweilige Reiseveranstalter der richtige Anspruchsgegner, da er für die ordnungsgemäße Durchführung der Pauschalreise haftet. Bei Reiserücktritt und Stornogebühren ist TravelScout24 beziehungsweise die Triplemind GmbH oft der erste Ansprechpartner für Buchungs- und Vermittlungsfragen, etwa zur Weiterleitung von Erklärungen oder zur Klärung der Stornobedingungen. Juristischer Sitz und Gerichtsstand der Triplemind GmbH ist München.</p><!--opt-->",
+    "portal_url":"https://www.travelscout24.de/kontakt/"
   },
   {
     "slug": "tourlane",
     "name": "Tourlane GmbH",
     "adresse": "Prinzessinnenstraße 19-20\n10969 Berlin\nDeutschland",
-    "infobox": "<p>Die Tourlane GmbH ist ein Reiseportal bzw. Vermittler für individuell zusammengestellte Reisen und führt die Reise selbst nicht durch. Je nach Buchung kann Tourlane nur als Vermittler von Einzelleistungen auftreten oder – bei entsprechender Buchungsbestätigung – als Reiseveranstalter. Bei Reisemängeln sind Ansprüche häufig gegen den Veranstalter oder den jeweiligen Leistungsträger zu richten; bei Stornierungen und Reiserücktritt ist Tourlane als Buchungsstelle oft der erste Ansprechpartner. Der juristische Sitz und Gerichtsstand der Tourlane GmbH ist Berlin. Für die genaue Anspruchsgegnerin kommt es stets auf die konkreten Vertragsunterlagen und Buchungsbedingungen an.</p><!--opt-->"
+    "infobox": "<p>Die Tourlane GmbH ist ein Reiseportal bzw. Vermittler für individuell zusammengestellte Reisen und führt die Reise selbst nicht durch. Je nach Buchung kann Tourlane nur als Vermittler von Einzelleistungen auftreten oder – bei entsprechender Buchungsbestätigung – als Reiseveranstalter. Bei Reisemängeln sind Ansprüche häufig gegen den Veranstalter oder den jeweiligen Leistungsträger zu richten; bei Stornierungen und Reiserücktritt ist Tourlane als Buchungsstelle oft der erste Ansprechpartner. Der juristische Sitz und Gerichtsstand der Tourlane GmbH ist Berlin. Für die genaue Anspruchsgegnerin kommt es stets auf die konkreten Vertragsunterlagen und Buchungsbedingungen an.</p><!--opt-->",
+    "portal_url":"https://support.tourlane.de/contact"
   },
   {
     "slug": "anderer-vermittler",
     "name": "Ihren Reisevermittler",
     "adresse": "",
-    "infobox": "<p>Ihren Reisevermittler ist ein Buchungsportal bzw. Reisevermittler und führt die gebuchte Reise nicht selbst durch. Bei Reisemängeln liegt die Verantwortung in der Regel beim Reiseveranstalter oder Leistungsträger; Mängel sollten daher vor Ort sofort angezeigt und Abhilfe verlangt werden. Bei Reiserücktritt und Stornogebühren ist oft zunächst der Vermittler der richtige Ansprechpartner, da er die Buchung bearbeitet. Rechtlich zuständig ist in der Regel der Hauptsitz des jeweiligen Unternehmens; Gerichtsstand ist – soweit zulässig – ebenfalls der Sitz von Ihren Reisevermittler. Maßgeblich bleiben stets die konkreten Vertrags- und AGB-Regelungen.</p><!--opt-->"
+    "infobox": "<p>Ihren Reisevermittler ist ein Buchungsportal bzw. Reisevermittler und führt die gebuchte Reise nicht selbst durch. Bei Reisemängeln liegt die Verantwortung in der Regel beim Reiseveranstalter oder Leistungsträger; Mängel sollten daher vor Ort sofort angezeigt und Abhilfe verlangt werden. Bei Reiserücktritt und Stornogebühren ist oft zunächst der Vermittler der richtige Ansprechpartner, da er die Buchung bearbeitet. Rechtlich zuständig ist in der Regel der Hauptsitz des jeweiligen Unternehmens; Gerichtsstand ist – soweit zulässig – ebenfalls der Sitz von Ihren Reisevermittler. Maßgeblich bleiben stets die konkreten Vertrags- und AGB-Regelungen.</p><!--opt-->",
+    "portal_url":"#"
   }
 ]

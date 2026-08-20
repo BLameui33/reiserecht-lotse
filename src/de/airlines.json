@@ -2,709 +2,811 @@
   {
     "slug": "lufthansa",
     "name": "Deutsche Lufthansa AG",
-    "adresse": "Lufthansa Aviation Center\nAirportring\n60546 Frankfurt am Main\nDeutschland",
+    "adresse": "Deutsche Lufthansa AG\nCustomer Relations\nPostfach 710234\n60492 Frankfurt am Main\nDeutschland",
     "infobox": "<p>Die Deutsche Lufthansa AG ist Deutschlands größte Netzwerkairline und verbindet von ihrem Heimat- und Knotenflughafen Frankfurt am Main sowie weiteren Drehkreuzen weltweit Reiseziele. Für Fluggäste sind vor allem die EU-Fluggastrechte-Verordnung bei Flugverspätung und Annullierung sowie das Montrealer Übereinkommen bei Koffer verloren, beschädigtem Gepäck oder Gepäckverspätung relevant. Auch Steuern und Gebühren können unter bestimmten Voraussetzungen zurückgefordert werden. Juristischer Sitz und Gerichtsstand der Lufthansa ist Köln. Als EU-Airline unterliegt sie den europäischen Fluggastrechten und muss Ansprüche je nach Fall prüfen und erfüllen.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.lufthansa.com/de/de/help-and-contact"
   },
   {
     "slug": "ryanair",
     "name": "Ryanair DAC",
-    "adresse": "Airside Business Park\nSwords, Co. Dublin\nIrland",
+    "adresse": "Ryanair DAC\nCustomer Service Department\nP.O. Box 11451\nSwords, Co. Dublin\nIrland",
     "infobox": "<p>Ryanair DAC ist eine irische Low-Cost-Airline mit Hauptsitz in Swords bei Dublin; wichtiger Heimat- und Knotenflughafen ist der Flughafen Dublin. Die Airline fliegt zahlreiche Ziele in Europa an und ist oft relevant bei Flugverspätung, Koffer verloren sowie der Rückforderung von Steuern und Gebühren. Nach der EU-Fluggastrechte-Verordnung können Passagiere je nach Fall Entschädigung und Unterstützung verlangen. Für aufgegebenes Gepäck und Gepäckschäden gilt zudem das Montrealer Übereinkommen. Juristisch maßgeblich ist der Sitz bzw. Gerichtsstand in Irland. Bei Erstattungen lohnt sich eine genaue Prüfung, da Nebenkosten und Zusatzgebühren nicht immer vollständig berechtigt sind.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://help.ryanair.com/hc/de"
+    
   },
   {
     "slug": "eurowings",
     "name": "Eurowings GmbH",
     "adresse": "Waldstraße 249\n51147 Köln\nDeutschland",
     "infobox": "<p>Eurowings GmbH ist eine deutsche Low-Cost-Airline der Lufthansa Group mit Heimat- und Knotenflughafen in Düsseldorf. Für Ansprüche bei Flugverspätung, Koffer verloren oder erstattungsfähigen Steuern und Gebühren ist entscheidend, wer den Flug tatsächlich ausgeführt hat. Maßgeblich sind je nach Fall die EU-Fluggastrechte-Verordnung und das Montrealer Übereinkommen. Der juristische Hauptsitz und Gerichtsstand der Eurowings GmbH liegt in Düsseldorf. Prüfen Sie deshalb stets die ausführende Fluggesellschaft und sichern Sie Ihre Ansprüche rechtzeitig, um mögliche Entschädigungen oder Rückzahlungen effektiv durchzusetzen.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.eurowings.com/de/informieren/ueber-uns/unternehmen/kontakt-kundenservice.html"
   },
   {
     "slug": "condor",
     "name": "Condor Flugdienst GmbH",
-    "adresse": "An der Gehespitz 50\n63263 Neu-Isenburg\nDeutschland",
+    "adresse": "Condor Flugdienst GmbH\nCondor Platz\n60549 Frankfurt am Main\nDeutschland",
     "infobox": "<p>Die Condor Flugdienst GmbH ist eine deutsche Ferienfluggesellschaft mit starkem Fokus auf Urlaubs- und Pauschalreisen. Ihr Heimat- und Knotenflughafen ist Frankfurt am Main; der juristische Hauptsitz und Gerichtsstand befindet sich ebenfalls in Frankfurt. Bei Flugverspätungen, Annullierungen oder Gepäckproblemen können Ansprüche nach der EU-Fluggastrechte-Verordnung und dem Montrealer Übereinkommen bestehen. Auch zu viel gezahlte Steuern und Gebühren lassen sich unter bestimmten Voraussetzungen zurückfordern. Für Reisende mit Condor lohnt sich daher eine genaue Prüfung der Ansprüche, um mögliche Entschädigungen und Erstattungen konsequent geltend zu machen.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.condor.com/de/hilfe-kontakt/kontakt/beschwerdeformular-eu261.jsp"
   },
   {
     "slug": "tuifly",
     "name": "TUIfly GmbH",
-    "adresse": "Flughafenstraße 10\n30855 Langenhagen\nDeutschland",
+    "adresse": "TUIfly GmbH\nKarl-Wiechert-Allee 23\n30625 Hannover\nDeutschland",
     "infobox": "<p>Die TUIfly GmbH ist eine deutsche Ferienfluggesellschaft mit Schwerpunkt auf Urlaubs- und Charterflügen; wichtiger Heimat- und Knotenflughafen ist Hannover. Bei Flugverspätungen, Annullierungen oder Gepäckproblemen kommen je nach Fall Ansprüche aus der EU-Fluggastrechte-Verordnung und dem Montrealer Übereinkommen in Betracht. Auch zu viel gezahlte Steuern und Gebühren lassen sich unter Umständen zurückfordern. Der juristische Hauptsitz und Gerichtsstand der TUIfly GmbH befindet sich in Hannover. Prüfen Sie deshalb jede Störung sorgfältig, da sich je nach Strecke und Flugart unterschiedliche Rechte und Erstattungen ergeben können.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.tui.com/hilfe/flug/reklamationen/"
   },
   {
     "slug": "aer-lingus",
     "name": "Aer Lingus",
-    "adresse": "Aer Lingus\nc/o [Büro/Vertretung in Frankfurt am Main]\nFrankfurt am Main\nDeutschland",
+    "adresse": "Aer Lingus Limited\nCustomer Care\nBuilding 10, Dublin Airport\nCloghran, Co. Dublin\nK67 X9X3\nIrland",
     "infobox": "<p>Aer Lingus ist die irische Netzwerkairline mit Sitz in Dublin und wichtigem Drehkreuz am Flughafen Dublin. Die Airline verbindet Europa mit Nordamerika, oft über Umsteigeverbindungen ab Irland. Bei Flugverspätungen, verpassten Anschlüssen oder Annullierungen können Ansprüche nach der EU-Fluggastrechte-Verordnung bestehen; bei Gepäckproblemen gilt regelmäßig das Montrealer Übereinkommen. Auch bei nicht genutzten Flügen lassen sich Steuern und Gebühren unter Umständen zurückfordern. Juristischer Hauptsitz und maßgeblicher Gerichtsstand von Aer Lingus ist Dublin, Irland.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.aerlingus.com/app/support/forms/complaints-form"
   },
   {
     "slug": "easyjet",
     "name": "easyJet Airline Company Limited",
-    "adresse": "easyJet Airline Company Limited\nFlughafen Berlin Brandenburg (BER)\n12529 Schönefeld\nDeutschland",
+    "adresse": "easyJet Airline Company Limited\nHangar 89\nLondon Luton Airport\nLuton, Bedfordshire LU2 9PF\nVereinigtes Königreich",
     "infobox": "<p>easyJet Airline Company Limited ist eine britische Low-Cost-Airline mit Hauptsitz und Gerichtsstand in Luton, England; ihr wichtigster Heimat- und Knotenflughafen ist London Luton. Die Airline fliegt zahlreiche europäische Ziele an und ist für strikte Gepäckregeln bekannt. Bei Flugverspätung oder Annullierung können Ansprüche nach der EU-Fluggastrechte-Verordnung bestehen. Geht ein Koffer verloren oder kommt beschädigt an, richtet sich die Haftung regelmäßig nach dem Montrealer Übereinkommen. Auch bei Stornierung oder nicht genutzten Leistungen lassen sich häufig Steuern und Gebühren zurückfordern. Für Passagiere lohnt sich daher eine genaue Prüfung der Ansprüche.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.easyjet.com/de/claim/welfare"
   },
   {
     "slug": "wizz-air",
     "name": "Wizz Air Hungary Ltd.",
     "adresse": "Laurus Offices, Kőér utca 2/A\nGebäude B, H-1103\nBudapest\nUngarn",
     "infobox": "<p>Wizz Air Hungary Ltd. ist eine ungarische Low-Cost-Airline mit Schwerpunkt auf günstigen Europa- und Mittelstreckenflügen. Der Heimat- und wichtige Knotenflughafen ist Budapest Ferenc Liszt. Bei Flugverspätung, Annullierung oder verweigertem Boarding können Ansprüche nach der EU-Fluggastrechte-Verordnung bestehen. Geht Gepäck verloren oder wird es beschädigt, ist das Montrealer Übereinkommen maßgeblich. Auch bei nicht genutzten Flügen lassen sich Steuern und Gebühren unter Umständen zurückfordern. Juristischer Hauptsitz und Gerichtsstand der Airline ist Budapest, Ungarn. Eine genaue Prüfung der Umstände lohnt sich besonders bei abgelehnten Zahlungen wegen angeblich außergewöhnlicher Umstände.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.wizzair.com/de-de/hilfe-center/mein-wizz-konto/anspruche-und-reklamationen"
   },
   {
     "slug": "turkish-airlines",
     "name": "Turkish Airlines",
-    "adresse": "Turkish Airlines Inc.\nFrankfurt Office\nHahnstraße 70\n60528 Frankfurt am Main\nDeutschland",
+    "adresse": "Turkish Airlines Inc.\nFrankfurt Office\nHamburger Allee 2-4\n60486 Frankfurt am Main\nDeutschland",
     "infobox": "<p>Turkish Airlines ist die nationale Fluggesellschaft der Türkei und ein wichtiger Drehkreuz-Carrier mit Heimatflughafen Istanbul Airport. Für Flüge ab der EU kann die EU-Fluggastrechte-Verordnung Ansprüche bei Verspätung oder Annullierung begründen; bei Gepäckproblemen ist oft das Montrealer Übereinkommen maßgeblich. Auch bei der Rückforderung von Steuern und Gebühren können je nach Ticket und Strecke Ansprüche bestehen. Juristischer Hauptsitz und Gerichtsstand der Airline ist Istanbul, Türkei. Prüfen Sie daher immer Abflugort, Ziel und Buchungsart, um Ihre Rechte bei Flugverspätung, verlorenem Koffer oder erstattbaren Gebühren korrekt durchzusetzen.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.turkishairlines.com/de-de/any-questions/feedback-form/"
   },
   {
     "slug": "sunexpress",
     "name": "SunExpress Deutschland GmbH",
-    "adresse": "De-Saint-Exupéry-Straße 10\n60549 Frankfurt am Main\nDeutschland",
+    "adresse": "SunExpress Kundenservice\nPostfach 710352\n60493 Frankfurt am Main\nDeutschland",
     "infobox": "<p>SunExpress Deutschland GmbH ist eine Ferienfluggesellschaft mit starkem Fokus auf Verbindungen zu beliebten Zielen in der Türkei und anderen Urlaubsdestinationen. Wichtiger Heimat- und Knotenflughafen ist Frankfurt am Main; der juristische Hauptsitz bzw. Gerichtsstand liegt in Kelsterbach bei Frankfurt. Bei Flugverspätungen und Annullierungen können Ansprüche nach der EU-Fluggastrechte-Verordnung bestehen. Geht ein Koffer verloren oder wird beschädigt, ist regelmäßig das Montrealer Übereinkommen maßgeblich. Auch zu viel gezahlte Steuern und Gebühren lassen sich oft zurückfordern. Entscheidend sind die jeweiligen Fristen und eine schnelle schriftliche Meldung.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://customerservices.sunexpress.com/s/?language=de"
   },
   {
     "slug": "vueling",
     "name": "Vueling Airlines S.A.",
-    "adresse": "Parque de Negocios Mas Blau II\nPlaza de l'Estany, núm. 5\n08820 Barcelona\nSpanien",
+    "adresse": "Vueling Airlines S.A.\nParque de Negocios Mas Blau II\nPla de l'Estany 5\n08820 El Prat de Llobregat - Barcelona\nSpanien",
     "infobox": "<p>Vueling Airlines S.A. ist eine spanische Low-Cost-Airline mit Heimat- und Knotenflughafen Barcelona-El Prat. Die Gesellschaft gehört zu den wichtigsten Verbindungen innerhalb Europas und ist besonders auf Kurz- und Mittelstrecken stark vertreten. Bei Flugverspätungen und Annullierungen können Ansprüche nach der EU-Fluggastrechte-Verordnung bestehen; bei Gepäckproblemen gilt das Montrealer Übereinkommen. Auch bei der Rückforderung nicht genutzter Steuern und Gebühren kann eine Prüfung sinnvoll sein. Juristischer Hauptsitz und Gerichtsstand der Airline sind in El Prat de Llobregat bei Barcelona, Spanien.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://help.vueling.com/hc/de/articles/19798807271441-Anspr%C3%BCche-und-Erstattungen"
   },
   {
     "slug": "british-airways",
     "name": "British Airways Plc (Niederlassung Deutschland)",
-    "adresse": "British Airways Plc Niederlassung Deutschland\nc/o British Airways Plc\nPostfach 10 02 43\n60002 Frankfurt am Main\nDeutschland",
+    "adresse": "British Airways Plc\nCustomer Relations\nPO Box 1126\nUxbridge UB8 9XS\nVereinigtes Königreich",
     "infobox": "<p>British Airways Plc (Niederlassung Deutschland) ist die größte britische Netzwerk-Airline und verbindet weltweit zahlreiche Ziele über ihren Heimat- und Knotenflughafen London Heathrow. Für Flugverspätungen und Annullierungen gelten nach dem Brexit vor allem die britischen Fluggastrechte, die der EU-Fluggastrechte-Verordnung sehr ähnlich sind. Bei verlorenem oder beschädigtem Gepäck kommt zusätzlich das Montrealer Übereinkommen zum Tragen. Auch bei nicht genutzten Flügen können Steuern und Gebühren unter Umständen zurückgefordert werden. Juristischer Hauptsitz und Gerichtsstand der Airline ist London, Vereinigtes Königreich.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.britishairways.com/content/de/de/information/help-and-contacts/complaints-and-claims"
   },
   {
     "slug": "klm",
     "name": "KLM Royal Dutch Airlines",
-    "adresse": "KLM Royal Dutch Airlines\nPostfach 10 12 28\n60012 Frankfurt am Main\nDeutschland",
+    "adresse": "KLM Royal Dutch Airlines\nDirektion für Deutschland\nDe-Saint-Exupéry-Straße 10\n60549 Frankfurt am Main\nDeutschland",
     "infobox": "<p>KLM Royal Dutch Airlines ist die niederländische Nationalairline und Teil der Air France-KLM-Gruppe. Zentrales Drehkreuz ist Amsterdam Schiphol, der wichtigste Knoten für zahlreiche Europa- und Langstreckenverbindungen. Bei Flugverspätung, verpasstem Anschluss, Gepäckverlust oder der Rückforderung von Steuern und Gebühren können Ansprüche je nach Fall aus der EU-Fluggastrechte-Verordnung und dem Montrealer Übereinkommen entstehen. Juristisch ist KLM in den Niederlanden ansässig; maßgeblicher Gerichtsstand ist in der Regel Amstelveen bzw. Amsterdam. Für Reisende mit Umsteigeverbindungen ist besonders wichtig: Entscheidend kann die gesamte gebuchte Reise sein, nicht nur der verspätete Teilflug.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.klm.de/information/refund-compensation"
   },
   {
     "slug": "air-france",
     "name": "Air France",
-    "adresse": "Air France / KLM\nHansaallee 247\n40549 Düsseldorf\nDeutschland",
+    "adresse": "Air France\nDirektion für Deutschland\nDe-Saint-Exupéry-Straße 10\n60549 Frankfurt am Main\nDeutschland",
     "infobox": "<p>Air France ist die französische Netzwerkairline und Mitglied der Air-France-KLM-Gruppe mit Drehkreuz am Flughafen Paris-Charles de Gaulle. Der juristische Hauptsitz und Gerichtsstand liegt in Paris, Frankreich. Bei Flugverspätung, Flugausfall oder Gepäckproblemen gelten je nach Fall die EU-Fluggastrechte-Verordnung und das Montrealer Übereinkommen. Auch wenn außergewöhnliche Umstände wie Streiks oder Wetter die Entschädigung ausschließen können, bleiben Ansprüche auf Ersatzbeförderung, Erstattung sowie auf Rückforderung nicht genutzter Steuern und Gebühren möglich. Für verlorenes oder verspätetes Gepäck haftet Air France nach den Regeln des Montrealer Übereinkommens.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://wwws.airfrance.de/information/legal/reclamation"
   },
   {
     "slug": "emirates",
     "name": "Emirates",
-    "adresse": "Emirates Airline\nc/o Emirates Group Headquarters\nP.O. Box 686\nDubai\nVereinigte Arabische Emirate",
+    "adresse": "Emirates Zentrale für Deutschland\nBrüsseler Straße 1-3\n60327 Frankfurt am Main\nDeutschland",
     "infobox": "<p>Emirates ist die staatliche Fluggesellschaft der Vereinigten Arabischen Emirate und zählt zu den größten internationalen Airlines der Welt. Ihr Heimat- und Knotenflughafen ist Dubai International (DXB); der juristische Hauptsitz und Gerichtsstand befindet sich in Dubai. Bei Flugverspätungen ab der EU kann die EU-Fluggastrechte-Verordnung Ansprüche auf Ausgleichszahlung auslösen, während auf Flügen außerhalb der EU oft das Montrealer Übereinkommen relevant ist. Auch bei verlorenem oder verspätetem Gepäck sowie bei der Rückforderung nicht genutzter Steuern und Gebühren können je nach Fall Rechte bestehen.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.emirates.com/de/german/help/forms/complaint/"
   },
   {
     "slug": "qatar-airways",
     "name": "Qatar Airways",
-    "adresse": "Qatar Airways\nFrankfurt Airport Center 1\nHugo-Eckener-Ring\n60549 Frankfurt am Main\nDeutschland",
+    "adresse": "Qatar Airways\nZeil 65\n60313 Frankfurt am Main\nDeutschland",
     "infobox": "<p>Qatar Airways ist die nationale Fluggesellschaft Katars und zählt zu den renommierten Premium-Airlines im internationalen Linienverkehr. Drehkreuz und Heimatflughafen ist der Hamad International Airport in Doha. Bei Flugverspätungen oder verpassten Anschlussflügen können Ansprüche nach der EU-Fluggastrechte-Verordnung bestehen, wenn der Flug in der EU startet oder die Verspätung dort ihren Ursprung hat. Geht ein Koffer verloren oder kommt beschädigt an, regelt häufig das Montrealer Übereinkommen die Haftung. Auch zu viel gezahlte Steuern und Gebühren lassen sich unter Umständen zurückfordern. Juristischer Sitz und Gerichtsstand der Airline ist Doha, Katar.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.qatarairways.com/de-de/help.html"
   },
   {
     "slug": "tap-air-portugal",
     "name": "TAP Air Portugal",
-    "adresse": "TAP Air Portugal\nFrankfurt am Main\nDeutschland",
+    "adresse": "TAP Air Portugal\nDirektion Deutschland / Schweiz / Österreich\nHanauer Landstraße 114-116\n60314 Frankfurt am Main\nDeutschland",
     "infobox": "<p>TAP Air Portugal ist die portugiesische Nationalairline mit Drehkreuz am Flughafen Lissabon. Die Gesellschaft verbindet Europa mit Nord- und Südamerika sowie Afrika und ist damit besonders relevant bei Flugverspätungen, verpassten Anschlüssen und Gepäckproblemen. Für Ansprüche wegen Annullierung oder großer Verspätung gilt die EU-Fluggastrechte-Verordnung, bei Kofferverlust oder Beschädigung das Montrealer Übereinkommen. Auch nicht genutzte Steuern und Gebühren lassen sich oft zurückfordern. Juristischer Hauptsitz und Gerichtsstand der Airline ist Lissabon in Portugal.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.flytap.com/de-de/hilfe/anfragen-reklamationen"
   },
   {
     "slug": "iberia",
     "name": "IBERIA LAE SA Operadora Unipersonal",
-    "adresse": "C/ Martínez Villergas, 49\n28027 Madrid\nSpanien",
+    "adresse": "IBERIA LAE SA Operadora Unipersonal\nApdo. Correos 62033\n28080 Madrid\nSpanien",
     "infobox": "<p>IBERIA LAE SA Operadora Unipersonal ist die spanische Netzwerkairline und größte Fluggesellschaft Spaniens mit zentralem Drehkreuz am Flughafen Madrid-Barajas. Für Passagiere auf Flugverspätung, Koffer verloren oder bei der Rückforderung von Steuern und Gebühren sind die Rechte klar geregelt: Innerhalb der EU gilt die EU-Fluggastrechte-Verordnung, bei Gepäckschäden oder -verlust zusätzlich das Montrealer Übereinkommen. Der juristische Hauptsitz und Gerichtsstand der Airline liegt in Madrid, Spanien. Je nach Fall können Ansprüche auf Ausgleichszahlung, Erstattung oder Schadensersatz bestehen.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.iberia.com/de/reklamationen-belege/"
   },
   {
     "slug": "finnair",
     "name": "Finnair plc (Finnair Oyj)",
-    "adresse": "Finnair Oyj\nc/o Finnair Sales Office Germany\nFrankfurt am Main\nDeutschland",
+    "adresse": "Finnair Oyj\nTietotie 9\n01530 Vantaa\nFinnland",
     "infobox": "<p>Finnair plc (Finnair Oyj) ist die nationale Fluggesellschaft Finnlands und bekannt für Verbindungen nach Europa, Asien und Nordamerika. Heimat- und Knotenflughafen ist Helsinki-Vantaa (HEL); der juristische Hauptsitz und Gerichtsstand befindet sich in Helsinki, Finnland. Bei Flugverspätungen oder Annullierungen können Ansprüche nach der EU-Fluggastrechte-Verordnung bestehen, etwa auf Betreuung, Ersatzbeförderung oder Ausgleichszahlung. Geht ein Koffer verloren oder kommt beschädigt an, regelt das Montrealer Übereinkommen die Haftung. Auch zu viel gezahlte Steuern und Gebühren lassen sich unter bestimmten Voraussetzungen zurückfordern. Wichtig ist eine schnelle Prüfung der Ansprüche und Fristen.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.finnair.com/de-de/kundenservice-und-kontakt/kontakt--und-anfrageformulare/feedback-und-entsch%C3%A4digung"
   },
   {
     "slug": "sas",
     "name": "Scandinavian Airlines System (SAS)",
-    "adresse": "Scandinavian Airlines System (SAS)\nFrankfurt am Main\nDeutschland",
+    "adresse": "SAS Scandinavian Airlines\nCustomer Relations Dept. STOSN\nFrösundaviks allé 1\n195 87 Stockholm\nSchweden",
     "infobox": "<p>Scandinavian Airlines System (SAS) ist die nationale Airline von Schweden, Dänemark und Norwegen und verbindet zahlreiche europäische und interkontinentale Ziele. Der wichtigste Knotenflughafen ist der Flughafen Stockholm-Arlanda, weitere Drehkreuze sind Kopenhagen und Oslo. Bei Flugverspätungen und Annullierungen können Fluggäste nach der EU-Fluggastrechte-Verordnung Ansprüche auf Entschädigung und Betreuung prüfen. Für verlorenes oder beschädigtes Gepäck gilt zusätzlich das Montrealer Übereinkommen. Der juristische Hauptsitz und Gerichtsstand der SAS liegt in Solna bei Stockholm. Auch bei der Rückforderung von Steuern und Gebühren lohnt sich eine genaue Prüfung der Ticketkosten.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.flysas.com/de-de/hilfe-informationen/reklamation"
   },
   {
     "slug": "delta-air-lines",
     "name": "Delta Air Lines, Inc.",
-    "adresse": "Delta Air Lines, Inc.\nFrankfurt am Main\nDeutschland",
+    "adresse": "Delta Air Lines, Inc.\nZweigniederlassung Deutschland\nTerminal 3, Gebäude 600H/005\n60549 Frankfurt am Main\nDeutschland",
     "infobox": "<p>Delta Air Lines, Inc. ist eine der größten US-Fluggesellschaften mit Heimat- und wichtigstem Drehkreuz in Atlanta (Hartsfield-Jackson Atlanta International Airport). Als internationale Airline spielt sie bei Flugverspätung, verlorenem Gepäck sowie der Rückforderung von Steuern und Gebühren eine zentrale Rolle. Für Flüge ab der EU kann die EU-Fluggastrechte-Verordnung Ansprüche begründen; bei Gepäckschäden oder -verlust gilt häufig das Montrealer Übereinkommen. Der juristische Hauptsitz und Gerichtsstand von Delta Air Lines, Inc. befindet sich in Atlanta, Georgia, USA. Abhängig von Route und Flugrichtung können unterschiedliche Rechtsgrundlagen und Entschädigungsansprüche gelten.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://de.delta.com/eu/de/change-cancel/cancel-flight#ticket6"
   },
   {
     "slug": "united-airlines",
     "name": "United Airlines, Inc.",
     "adresse": "United Airlines, Inc.\nFrankfurt am Main\nDeutschland",
     "infobox": "<p>United Airlines, Inc. ist eine der größten US-Fluggesellschaften mit Drehkreuz am Chicago O’Hare International Airport (ORD). Die Airline fliegt weltweit und ist besonders auf Langstrecken sowie Umsteigeverbindungen stark. Bei Abflügen aus der EU können bei Verspätungen, Annullierungen oder Nichtbeförderung Ansprüche nach der EU-Fluggastrechte-Verordnung bestehen; bei Rückflügen aus den USA gilt dies in der Regel nicht. Für verlorenes oder verspätetes Gepäck auf beiden Strecken ist das Montrealer Übereinkommen maßgeblich. Juristischer Hauptsitz und Gerichtsstand der Airline ist Chicago, Illinois, USA. Auch bei ungenutzten Steuern und Gebühren kann eine Rückforderung möglich sein.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.united.com/de/de/refunds/"
   },
   {
     "slug": "american-airlines",
     "name": "American Airlines",
-    "adresse": "American Airlines\nc/o Flughafen Frankfurt\n60547 Frankfurt am Main\nDeutschland",
+    "adresse": "American Airlines, Inc.\nLyonerstraße 9\n60528 Frankfurt am Main\nDeutschland",
     "infobox": "<p>American Airlines ist eine der größten US-Fluggesellschaften mit Drehkreuzen vor allem in Dallas/Fort Worth, Charlotte, Miami und Chicago O’Hare. Der juristische Hauptsitz und Gerichtsstand liegt in Fort Worth, Texas. Bei Verspätungen, Gepäckproblemen oder Rückforderungen von Steuern und Gebühren gilt: Die EU-Fluggastrechte-Verordnung greift nur bei klaren EU-Bezügen, etwa bei Abflügen aus der EU. Auf vielen Strecken ab den USA ist stattdessen häufig das Montrealer Übereinkommen maßgeblich, insbesondere bei Koffer verloren oder beschädigtem Gepäck. Für Rückerstattungen von Steuern und Gebühren gelten zusätzlich die jeweiligen Tarif- und Beförderungsbedingungen.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.aa.com/web/i18n/customer-service/contact-american/american-customer-service.html?from=comp_footer&locale=de_DE"
   },
   {
     "slug": "singapore-airlines",
     "name": "Singapore Airlines",
-    "adresse": "Singapore Airlines Ltd.\nThe Squaire 12\n60549 Frankfurt am Main\nDeutschland",
+    "adresse": "Singapore Airlines Ltd.\nHahnstraße 31-35\n60528 Frankfurt am Main\nDeutschland",
     "infobox": "<p>Singapore Airlines ist die Premium-Airline Singapurs mit ihrem Heimat- und Knotenflughafen am Singapore Changi Airport. Der juristische Hauptsitz und maßgebliche Gerichtsstand liegt in Singapur. Bei Flugverspätungen, Gepäckproblemen oder der Rückforderung von Steuern und Gebühren gelten je nach Fall unterschiedliche Regeln: Die EU-Fluggastrechte-Verordnung greift bei Abflügen aus der EU, während bei Gepäckschäden oder Verlusten häufig das Montrealer Übereinkommen maßgeblich ist. Bei Flügen ab Singapur in die EU besteht nach EU-Recht meist kein Anspruch auf Entschädigung, kann aber im Einzelfall dennoch eine Prüfung sinnvoll sein.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.singaporeair.com/de_DE/de/support/help-centre/"
   },
   {
     "slug": "corendon-airlines",
     "name": "Corendon Touristik GmbH",
-    "adresse": "Köln Bonn Airport, Konrad-Adenauer-Straße 25\n51147 Köln\nDeutschland",
+    "adresse": "Corendon Touristik GmbH\nZentralgebäude Ost, Raum 5.044\nTerminal Ring 1\n40474 Düsseldorf\nDeutschland",
     "infobox": "<p>Corendon Touristik GmbH ist Teil der Corendon-Gruppe und vermittelt bzw. organisiert vor allem Ferienflüge zu beliebten Urlaubszielen. Als wichtiger Knotenpunkt gilt der Flughafen Antalya, von dem viele Verbindungen starten oder enden. Bei Flugverspätungen und Annullierungen kann die EU-Fluggastrechte-Verordnung greifen, abhängig von ausführender Airline und Abflugort. Geht Gepäck verloren oder kommt beschädigt an, ist häufig das Montrealer Übereinkommen maßgeblich. Der juristische Sitz und Gerichtsstand der Corendon Touristik GmbH befindet sich in Deutschland, in Düsseldorf. Auch nicht erstattete Steuern und Gebühren lassen sich in vielen Fällen gesondert prüfen und zurückfordern.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.corendonairlines.com/de/service-center/kontakt/kundenkontaktformular?srsltid=AfmBOoqJpMJ5RRcarFuCbz-F0ArpQXXruOO75fTANsg510aCo8dKaqNb"
   },
   {
     "slug": "pegasus-airlines",
     "name": "Pegasus Airlines",
-    "adresse": "Kaiser-Wilhelm-Ring 27-29\n50672 Köln\nDeutschland",
+    "adresse": "Pegasus Hava Taşımacılığı A.Ş.\nSchadowplatz 16\n40212 Düsseldorf\nDeutschland",
     "infobox": "<p>Pegasus Airlines ist eine türkische Low-Cost-Airline mit Heimatbasis am Flughafen Istanbul-Sabiha Gökçen. Die Gesellschaft bedient zahlreiche innereuropäische und internationale Strecken und ist für Flugverspätungen, Gepäckprobleme sowie Fragen zu Steuern und Gebühren relevant. Bei Flügen aus der EU oder mit EU-Bezug können Ansprüche nach der EU-Fluggastrechte-Verordnung bestehen; für Gepäckschäden und -verlust gilt häufig das Montrealer Übereinkommen. Juristischer Hauptsitz und Gerichtsstand der Airline ist Istanbul, Türkei. Je nach Route und Abflugort unterscheiden sich Fristen, Zuständigkeiten und Erstattungsansprüche deutlich.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.flypgs.com/de/hilfe-center"
   },
   {
     "slug": "swiss",
     "name": "Swiss International Air Lines AG",
-    "adresse": "Swiss International Air Lines AG\nc/o Lufthansa Group\nAirportring\n60546 Frankfurt am Main\nDeutschland",
+    "adresse": "Swiss International Air Lines AG\nSt. Jakobs-Strasse 7\n4052 Basel\nSchweiz",
     "infobox": "<p>Swiss International Air Lines AG ist die nationale Airline der Schweiz und Teil der Lufthansa Group. Ihr Heimat- und Knotenflughafen ist Zürich (ZRH); weitere wichtige Drehscheiben sind Genf und Basel. Bei Flugverspätungen und Annullierungen können Ansprüche oft nach der EU-Fluggastrechte-Verordnung bestehen, da die Schweiz entsprechende Regelungen übernommen hat. Für verlorenes oder beschädigtes Gepäck gilt in der Regel das Montrealer Übereinkommen. Der juristische Hauptsitz und Gerichtsstand der Airline befindet sich in Basel. Auch bei der Rückforderung von Steuern und Gebühren lohnt sich eine Prüfung der Ticketbedingungen und der tatsächlichen Abflugroute.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.swiss.com/at/de/customer-support/feedback"
   },
   {
     "slug": "thai-airways",
     "name": "THAI AIRWAYS International Public Company Ltd.",
-    "adresse": "THAI Airways International Public Company Ltd.\nFrankfurt Airport Center 1, 3. OG\n60549 Frankfurt am Main\nDeutschland",
+    "adresse": "THAI Airways International Public Company Ltd.\nHead Office, Building 6, 1. Stock\n89 Vibhavadi Rangsit Road\n10900 Bangkok\nThailand",
     "infobox": "<p>THAI AIRWAYS International Public Company Ltd. ist die nationale Fluggesellschaft Thailands mit Heimat- und Drehkreuz am Flughafen Bangkok-Suvarnabhumi (BKK). Für Fluggäste können bei Flugverspätung oder Annullierung je nach Abflugort Ansprüche nach der EU-Fluggastrechte-Verordnung bestehen; bei Gepäckproblemen gilt häufig das Montrealer Übereinkommen. Der juristische Hauptsitz und Gerichtsstand der Airline liegt in Bangkok, Thailand. Werden Tickets selbst storniert oder Flüge nicht angetreten, lassen sich zudem oft länderspezifische Steuern und Flughafengebühren zurückfordern, sofern dies nach dem anwendbaren Recht vorgesehen ist.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.thaiairways.com/de-de/content/help/"
   },
   {
     "slug": "ana",
     "name": "ANA Holdings Inc. (All Nippon Airways)",
-    "adresse": "ANA All Nippon Airways Co., Ltd.\nFrankfurt Office\nc/o Lufthansa City Center\nMainzer Landstraße 50\n60325 Frankfurt am Main\nDeutschland",
+    "adresse": "All Nippon Airways Co., Ltd.\nRossmarkt 21\n60311 Frankfurt am Main\nDeutschland",
     "infobox": "<p>ANA Holdings Inc. (All Nippon Airways) ist Japans größte Full-Service-Airline mit Drehkreuz am Flughafen Tokio-Haneda und einem weiteren wichtigen Hub in Tokio-Narita. Für Flugverspätungen, Kofferverlust sowie die Rückforderung von Steuern und Gebühren gelten je nach Flugroute unterschiedliche Ansprüche. Auf Flügen aus der EU kann die EU-Fluggastrechte-Verordnung greifen; bei Gepäckschäden und -verlust ist oft das Montrealer Übereinkommen maßgeblich. Juristischer Hauptsitz und Gerichtsstand der Airline ist Tokio, Japan. Prüfen Sie daher stets Abflugort, Ziel und Beförderungsbedingungen, um Ihre Rechte korrekt durchzusetzen.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "cathay-pacific",
     "name": "Cathay Pacific",
-    "adresse": "Cathay Pacific Airways Ltd.\nFrankfurt Airport Center 1\nHugo-Eckener-Ring 1\n60549 Frankfurt am Main\nDeutschland",
+    "adresse": "Cathay Pacific Airways Ltd.\nLyoner Str. 15\n60528 Frankfurt am Main\nDeutschland",
     "infobox": "<p>Cathay Pacific ist die Premium-Airline aus Hongkong und verbindet Europa, Asien und den Pazifikraum über ihren Heimat- und Knotenflughafen Hong Kong International Airport (HKG). Bei Flugverspätungen und Annullierungen gilt die EU-Fluggastrechte-Verordnung nur, wenn der Flug in der EU startet. Für verloren gegangene oder verspätete Koffer ist das Montrealer Übereinkommen weltweit maßgeblich. Auch bei nicht genutzten Steuern und Gebühren können Erstattungsansprüche bestehen. Juristischer Hauptsitz und häufig relevanter Gerichtsstand der Airline ist Hongkong.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "austrian-airlines",
     "name": "Austrian Airlines AG",
-    "adresse": "Austrian Airlines AG\nc/o Lufthansa Group\nAirportring\n60546 Frankfurt am Main\nDeutschland",
+    "adresse": "Austrian Airlines AG\nFeedback Management\nPostfach 33\n1300 Wien-Flughafen\nÖsterreich",
     "infobox": "<p>Austrian Airlines AG ist die nationale Fluggesellschaft Österreichs und Mitglied der Lufthansa-Gruppe. Drehkreuz und Heimatflughafen ist der Flughafen Wien-Schwechat, von dem aus zahlreiche europäische und interkontinentale Verbindungen starten. Bei Flugverspätung, Annullierung oder kurzfristiger Umbuchung können Ansprüche nach der EU-Fluggastrechte-Verordnung bestehen. Geht Ihr Gepäck verloren oder kommt beschädigt an, regelt das Montrealer Übereinkommen mögliche Ersatzansprüche. Auch nicht genutzte Steuern und Gebühren lassen sich häufig zurückfordern. Juristischer Hauptsitz und Gerichtsstand der Airline ist Wien in Österreich.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "air-canada",
     "name": "Air Canada",
-    "adresse": "Air Canada\nFrankfurt Airport Center 1\nHugo-Eckener-Ring 1\n60549 Frankfurt am Main\nDeutschland",
+    "adresse": "Air Canada\nCustomer Relations\nP.O. Box 447\nTW13 9DZ Feltham\nVereinigtes Königreich",
     "infobox": "<p>Air Canada ist die größte Fluggesellschaft Kanadas und verbindet von ihrem Heimat- und Knotenflughafen Toronto Pearson International Airport aus zahlreiche Ziele weltweit. Bei Flugverspätungen und Annullierungen können je nach Abflugort die EU-Fluggastrechte-Verordnung oder die kanadischen APPR greifen. Geht Gepäck verloren oder kommt beschädigt an, ist das Montrealer Übereinkommen maßgeblich. Auch nicht genutzte Steuern und Gebühren lassen sich oft zurückfordern. Juristischer Hauptsitz und Gerichtsstand der Airline ist Montreal, Québec. So lassen sich Ansprüche gegen Air Canada je nach Fall auf Erstattung, Entschädigung oder Gepäckschaden prüfen.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "etihad-airways",
     "name": "Etihad Airways",
-    "adresse": "Etihad Airways\nc/o Flughafen Frankfurt am Main\n60547 Frankfurt am Main\nDeutschland",
+    "adresse": "Etihad Airways\nNew Airport Road\nKhalifa City A\nPO Box 35566\nAbu Dhabi\nVereinigte Arabische Emirate",
     "infobox": "<p>Etihad Airways ist die nationale Fluggesellschaft der Vereinigten Arabischen Emirate mit Heimat- und Knotenflughafen in Abu Dhabi. Die Airline verbindet weltweit zahlreiche Ziele und ist für ihre Langstreckenverbindungen bekannt. Bei Flugverspätungen, Gepäckproblemen oder der Rückforderung von Steuern und Gebühren gelten je nach Route unterschiedliche Rechte: Die EU-Fluggastrechte-Verordnung greift nur auf bestimmten Flügen, während bei verspätetem oder verlorenem Gepäck häufig das Montrealer Übereinkommen maßgeblich ist. Juristischer Hauptsitz und Gerichtsstand von Etihad Airways sind in Abu Dhabi.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "latam-airlines",
     "name": "LATAM Airlines",
-    "adresse": "LATAM Airlines Group S.A.\nAvenida Presidente Riesco 5711, Piso 20\nLas Condes, Santiago\nChile",
+    "adresse": "LATAM Airlines Group S.A.\nKaiserstrasse 5, 4. OG\n60311 Frankfurt am Main\nDeutschland",
     "infobox": "<p>LATAM Airlines ist die größte Airline-Gruppe Südamerikas mit zentralem Drehkreuz in Santiago de Chile (Flughafen Santiago de Chile, SCL). Für Flugverspätungen ab der EU kann die EU-Fluggastrechte-Verordnung Ansprüche auf Ausgleichszahlungen eröffnen; bei Gepäckverlust oder -verspätung gilt meist das Montrealer Übereinkommen. Wichtig: Bei Codeshare-Flügen ist in der Regel die tatsächlich ausführende Airline (Operating Carrier) verantwortlich. Der juristische Hauptsitz und Gerichtsstand von LATAM Airlines Group S.A. befindet sich in Santiago, Chile. Auch bei nicht genutzten Steuern und Gebühren können je nach Ticket und Tarif Rückforderungen möglich sein.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "qantas-airways",
     "name": "Qantas Airways Limited",
-    "adresse": "Qantas Airways Limited\nc/o Qantas Airways Ltd. Germany\nFrankfurt am Main\nDeutschland",
+    "adresse": "Qantas Airways Limited\nCustomer Care\n10 Bourke Road\nMascot NSW 2020\nAustralien",
     "infobox": "<p>Qantas Airways Limited ist Australiens größte Fluggesellschaft mit Drehkreuz am Flughafen Sydney Kingsford Smith. Die Airline verbindet Europa, Asien, Nordamerika und Ozeanien mit Langstreckenflügen. Bei Flugverspätung oder Annullierung können für Abflüge aus der EU beziehungsweise dem UK je nach Strecke Ansprüche nach der EU-Fluggastrechte-Verordnung oder den britischen Regeln bestehen. Geht ein Koffer verloren oder kommt beschädigt an, ist das Montrealer Übereinkommen maßgeblich. Auch zu viel gezahlte Steuern und Gebühren lassen sich prüfen und oft zurückfordern. Der juristische Hauptsitz und Gerichtsstand von Qantas ist Mascot, New South Wales, Australien.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "japan-airlines",
     "name": "Japan Airlines Co., Ltd. (JAL)",
-    "adresse": "Japan Airlines Co., Ltd.\nJapan Airlines Frankfurt Office\nc/o Flughafen Frankfurt am Main\n60549 Frankfurt am Main\nDeutschland",
+    "adresse": "Japan Airlines Co., Ltd.\nRossmarkt 15\n60311 Frankfurt am Main\nDeutschland",
     "infobox": "<p>Japan Airlines Co., Ltd. (JAL) ist eine der führenden japanischen Fluggesellschaften mit Hauptsitz in Tokio und wichtigem Knotenflughafen am Haneda Airport. Bei Flugverspätungen gelten die Ansprüche nach der EU-Fluggastrechte-Verordnung nur, wenn der Flug in der EU startet. Geht Gepäck verloren oder kommt beschädigt an, richtet sich die Haftung regelmäßig nach dem Montrealer Übereinkommen. Auch bei Stornierungen können personalisierte Steuern und Gebühren oft zurückgefordert werden, wenn deutsches Recht anwendbar ist. Juristischer Hauptsitz und Gerichtsstand der Airline sind in Tokio, Japan.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "air-new-zealand",
     "name": "Air New Zealand",
-    "adresse": "Air New Zealand\nc/o Lufthansa City Center\nFrankfurt am Main\nDeutschland",
+    "adresse": "Air New Zealand\nCustomer Relations\nPrivate Bag 92007\nAuckland 1142\nNeuseeland",
     "infobox": "<p>Air New Zealand ist die nationale Fluggesellschaft Neuseelands und verbindet vor allem Auckland, Wellington und Christchurch mit Zielen in Ozeanien, Asien, Nordamerika und Europa. Der wichtigste Knotenflughafen ist Auckland Airport. Bei Flügen mit Air New Zealand gilt die EU-Fluggastrechte-Verordnung nur in bestimmten Fällen, etwa bei Abflug aus der EU. Für verlorenes oder beschädigtes Gepäck ist das Montrealer Übereinkommen maßgeblich. Der juristische Hauptsitz und Gerichtsstand der Airline liegt in Auckland, Neuseeland. Prüfen Sie zudem bei Flugausfällen oder Umbuchungen, ob Steuern und Gebühren erstattbar sind.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "air-china",
     "name": "Air China Limited",
-    "adresse": "Air China Limited\nc/o Lufthansa Aviation Center\nAirportring\n60546 Frankfurt am Main\nDeutschland",
+    "adresse": "Air China Limited\nOpernring 1/E/527\n1010 Wien\nÖsterreich",
     "infobox": "<p>Air China Limited ist die nationale Fluggesellschaft Chinas und eine der größten Airlines Asiens. Ihr wichtigster Heimat- und Knotenflughafen ist der Beijing Capital International Airport in Peking. Für Flugverspätungen gilt: Bei Abflügen aus der EU kann die EU-Fluggastrechte-Verordnung Ansprüche auf Ausgleichszahlung eröffnen; bei Rückflügen aus China nach Europa ist dies meist nicht der Fall. Bei verlorenem oder verspätetem Gepäck sowie für Schäden nach dem Montrealer Übereinkommen bestehen dennoch Ansprüche. Der juristische Hauptsitz und Gerichtsstand der Airline liegt in Peking, China.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "korean-air",
     "name": "Korean Air",
-    "adresse": "Korean Air\nFrankfurt Office\nc/o Korean Air Lines Co. Ltd.\nFrankfurt am Main\nDeutschland",
+    "adresse": "Korean Air\nTowerstraße 645/2/211\n1300 Wien\nÖsterreich",
     "infobox": "<p>Korean Air ist die größte Fluggesellschaft Südkoreas und Mitglied der SkyTeam-Allianz. Der wichtigste Heimat- und Knotenflughafen ist Seoul-Incheon (ICN); der juristische Hauptsitz und Gerichtsstand liegt in Seoul. Bei Flugverspätungen und Nichtbeförderungen ab der EU kann die EU-Fluggastrechte-Verordnung Ansprüche auf Ausgleichszahlung und Betreuung begründen. Geht ein Koffer verloren oder kommt beschädigt an, regelt das Montrealer Übereinkommen die Haftung der Airline. Auch zu Unrecht erhobene Steuern und Gebühren lassen sich oft zurückfordern. Prüfen Sie Ihre Ansprüche schnell und sichern Sie Beweise.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "air-india",
     "name": "Air India Limited",
-    "adresse": "Air India Limited\nc/o Flughafen Frankfurt am Main\n60547 Frankfurt am Main\nDeutschland",
+    "adresse": "Air India Limited\nKaiserstraße 11\n60311 Frankfurt am Main\nDeutschland",
     "infobox": "<p>Air India Limited ist die staatliche Fluggesellschaft Indiens und verbindet als Netzwerk-Carrier zahlreiche Ziele in Asien, Europa und darüber hinaus. Ihr Heimat- und Knotenflughafen ist der Indira Gandhi International Airport in Neu-Delhi. Für Flüge ab der EU können Ansprüche nach der EU-Fluggastrechte-Verordnung bestehen, etwa bei Flugverspätung oder Annullierung. Bei Gepäckproblemen und Schadenersatzfragen ist zudem das Montrealer Übereinkommen relevant. Der juristische Hauptsitz und Gerichtsstand der Airline befindet sich in Neu-Delhi, Indien. Auch zu erstattbaren Steuern und Gebühren können sich je nach Ticket und Beförderungskonstellation Rückforderungsansprüche ergeben.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "lot-polish-airlines",
     "name": "LOT Polish Airlines",
-    "adresse": "LOT Polish Airlines, Germany\nc/o LOT Polish Airlines GmbH\nFrankfurt am Main\nDeutschland",
+    "adresse": "LOT Polish Airlines\nKomitetu Obrony Robotników St., 43\n02-146 Warschau\nPolen",
     "infobox": "<p>LOT Polish Airlines ist die nationale Fluggesellschaft Polens und verbindet von ihrem Heimat- und Knotenflughafen Warschau-Chopin aus zahlreiche Ziele in Europa und weltweit. Für Verspätungen, Annullierungen und verweigerte Beförderung gilt bei Flügen mit LOT regelmäßig die EU-Fluggastrechte-Verordnung. Geht ein Koffer verloren oder kommt beschädigt an, können Ansprüche nach dem Montrealer Übereinkommen bestehen. Der juristische Hauptsitz und Gerichtsstand der Airline befindet sich in Warschau. Auch Steuern und Gebühren lassen sich in vielen Fällen zurückfordern, wenn ein Ticket ungenutzt bleibt oder der Flug nicht angetreten wird. </p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "brussels-airlines",
     "name": "Brussels Airlines SA/NV",
-    "adresse": "Brussels Airlines SA/NV\nc/o Lufthansa Group\nAirportring\n60546 Frankfurt am Main\nDeutschland",
+    "adresse": "Brussels Airlines SA/NV\n100-102, Avenue des Saisons\nPostfach 30\n1050 Brüssel\nBelgien",
     "infobox": "<p>Brussels Airlines SA/NV ist die nationale Airline Belgiens mit Drehkreuz am Flughafen Brüssel-Zaventem. Der juristische Hauptsitz und Gerichtsstand liegt in Brüssel, Belgien. Als EU-Carrier fällt sie bei Flugverspätungen und Annullierungen unter die EU-Fluggastrechte-Verordnung; je nach Ankunftsverspätung können bis zu 600 Euro Entschädigung möglich sein. Bei verlorenem oder beschädigtem Gepäck gilt zusätzlich das Montrealer Übereinkommen. Auch nicht genutzte Steuern und Gebühren lassen sich in vielen Fällen zurückfordern. Für Passagiere auf Europa- und Afrika-Strecken ist Brussels Airlines damit rechtlich gut abgedeckt.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "ita-airways",
     "name": "Italia Trasporto Aereo S.p.A. (Headquarter)",
-    "adresse": "ITA Airways\nFrankfurt Airport Center 1\nHugo-Eckener-Ring\n60549 Frankfurt am Main\nDeutschland",
+    "adresse": "Italia Trasporto Aereo S.p.A.\nVia Ostiense, 131/L\n00154 Roma\nItalien",
     "infobox": "<p>Italia Trasporto Aereo S.p.A. (ITA Airways) ist die staatliche italienische Fluggesellschaft und Nachfolgerin von Alitalia. Ihr Heimat- und Knotenflughafen ist Rom-Fiumicino (FCO). Für Flugverspätung und Annullierung gelten bei Abflügen aus der EU sowie bei Flügen mit EU-Bezug die EU-Fluggastrechte-Verordnung; bei Gepäckschäden oder verlorenem Koffer ist regelmäßig das Montrealer Übereinkommen maßgeblich. Auch zu viel gezahlte Steuern und Gebühren können unter Umständen zurückgefordert werden. Juristischer Hauptsitz und Gerichtsstand der Airline ist Rom, Italien.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "air-baltic",
     "name": "Air Baltic",
-    "adresse": "Air Baltic Corporation AS\nFrankfurt Airport Center, Terminal 2\n60549 Frankfurt am Main\nDeutschland",
+    "adresse": "Air Baltic Corporation AS\nRiga International Airport\n1053 Mārupes\nLettland",
     "infobox": "<p>Air Baltic ist die lettische Netzwerk-Airline mit Hauptsitz und Gerichtsstand in Riga. Der wichtigste Heimat- und Knotenflughafen ist der Riga International Airport (RIX), von dem aus zahlreiche Ziele in Europa und darüber hinaus bedient werden. Bei Flugverspätungen und Annullierungen können Passagiere nach der EU-Fluggastrechte-Verordnung Entschädigung und Betreuung geltend machen. Geht Gepäck verloren oder kommt beschädigt an, regelt das Montrealer Übereinkommen mögliche Ansprüche. Wer einen Flug nicht antritt, kann zudem oft nicht angefallene Steuern und Flughafengebühren zurückfordern.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "aegean-airlines",
     "name": "Aegean Airlines S.A.",
-    "adresse": "Aegean Airlines S.A.\nFrankfurt am Main\nDeutschland",
+    "adresse": "Aegean Airlines S.A.\nViltanioti 31\n14564 Kifisia\nGriechenland",
     "infobox": "<p>Aegean Airlines S.A. ist Griechenlands größte Fluggesellschaft und Mitglied der Star Alliance. Der Hauptsitz und Gerichtsstand liegt in Kifisia bei Athen, der wichtigste Heimat- und Knotenflughafen ist der Athens International Airport (ATH). Bei Flugverspätung oder Annullierung können Ansprüche nach der EU-Fluggastrechte-Verordnung bestehen; bei Gepäckverlust oder -schäden gilt zusätzlich das Montrealer Übereinkommen. Auch nicht genutzte Steuern und Gebühren lassen sich oft zurückfordern. Streiks oder behördliche Einschränkungen können als außergewöhnliche Umstände gelten, schließen jedoch nicht automatisch Erstattung oder Ersatzbeförderung aus.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "air-europa",
     "name": "Air Europa Líneas Aéreas S.A.U.",
-    "adresse": "Carretera Arenal-Llucmajor, KM 21.5\nCP: 07620 Llucmajor - Balearen\nSpanien",
+    "adresse": "Air Europa Líneas Aéreas S.A.U.\nPostfach 132\n07620 Llucmajor-Baleares\nSpanien",
     "infobox": "<p>Air Europa Líneas Aéreas S.A.U. ist eine spanische Full-Service-Airline der Globalia-Gruppe mit Heimat- und Knotenflughafen in Madrid-Barajas (MAD). Für Fluggäste sind bei Flugverspätung oder Flugausfall die EU-Fluggastrechte-Verordnung sowie bei Gepäckproblemen das Montrealer Übereinkommen maßgeblich. Auch die Erstattung von Steuern und Gebühren kann je nach Ticket und Tarif möglich sein. Der juristische Hauptsitz und Gerichtsstand der Airline liegt in Llucmajor auf Mallorca, Spanien. Bei Umbuchungen, verlorenen Koffern oder nicht genutzten Flügen lohnt sich eine genaue Prüfung der Ansprüche.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "smartwings",
     "name": "Smartwings a.s.",
-    "adresse": "K letišti 1068/30\n160 08 Praha 6\nTschechische Republik",
+    "adresse": "Smartwings a.s.\nK letišti 1068/30\n160 08 Praha 6\nTschechische Republik",
     "infobox": "<p>Smartwings a.s. ist eine tschechische Fluggesellschaft mit starkem Fokus auf Charter- und Ferienflüge; wichtiger Heimat- und Knotenflughafen ist der Václav-Havel-Flughafen Prag. Bei Flugverspätungen und Annullierungen können Ansprüche nach der EU-Fluggastrechte-Verordnung bestehen, während bei verlorenem oder beschädigtem Gepäck das Montrealer Übereinkommen maßgeblich ist. Auch die Rückforderung von Steuern und Gebühren kann im Einzelfall möglich sein. Juristischer Hauptsitz und Gerichtsstand der Airline ist Prag in der Tschechischen Republik. Prüfen Sie Ihre Ansprüche daher immer sorgfältig – gerade bei Pauschal- und Charterreisen.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "discover-airlines",
     "name": "EW Discover GmbH",
-    "adresse": "Hugo-Eckener-Ring 1\n60549 Frankfurt am Main\nDeutschland",
+    "adresse": "EW Discover GmbH\nHugo-Eckener-Ring 1\nFAC, Building 234, D7.01\n60549 Frankfurt am Main\nDeutschland",
     "infobox": "<p>EW Discover GmbH ist eine deutsche Ferienfluggesellschaft der Lufthansa Group mit Heimat- und Knotenflughafen Frankfurt am Main; juristischer Sitz und Gerichtsstand ist Frankfurt am Main. Bei Flugverspätung, Kofferverlust oder Gepäckverspätung können Ansprüche je nach Fall nach der EU-Fluggastrechte-Verordnung und dem Montrealer Übereinkommen bestehen. Auch nicht genutzte Steuern und Gebühren lassen sich häufig zurückfordern. Bei verspätetem Gepäck dürfen Reisende notwendige Ersatzkäufe tätigen; sinnvoll sind Belege für Kleidung, Hygieneartikel und weitere Ausgaben. Für viele Ansprüche gelten klare Fristen, daher sollten Unterlagen frühzeitig gesichert werden.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "edelweiss-air",
     "name": "Edelweiss Air AG",
     "adresse": "Customer Relations\nThe Circle 32, Postfach\n8058 Zürich-Flughafen\nSchweiz",
     "infobox": "<p>Edelweiss Air AG ist die Schweizer Ferienfluggesellschaft der Lufthansa Group mit Heimat- und Knotenflughafen Zürich. Für Fluggäste sind bei Flugverspätung, Gepäckproblemen oder der Rückforderung von Steuern und Gebühren vor allem die EU-Fluggastrechte-Verordnung sowie das Montrealer Übereinkommen relevant. Als Airline mit Sitz in Kloten/Zürich unterliegt Edelweiss Air grundsätzlich schweizerischem Recht; Gerichtsstand ist der juristische Sitz in Kloten. Je nach Fall können Ansprüche auf Entschädigung, Erstattung oder Schadensersatz bestehen. Auch bei Flugänderungen oder Stornierungen lohnt sich eine rechtliche Prüfung.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "oman-air",
     "name": "Oman Air S.A.O.C.",
-    "adresse": "Oman Air S.A.O.C.\nFrankfurt am Main\nDeutschland",
+    "adresse": "Oman Air\nFrankfurt Flughafen, Terminal 2/Halle E\nHBK 150/074, Raum 150.2339\n60549 Frankfurt am Main\nDeutschland",
     "infobox": "<p>Oman Air S.A.O.C. ist die nationale Fluggesellschaft des Sultanats Oman mit Drehkreuz am Flughafen Muscat (MCT). Bei Flugverspätung, Annullierung, Kofferverlust oder der Rückforderung von Steuern und Gebühren gelten je nach Reiseroute unterschiedliche Ansprüche. Bei Abflug aus der EU kann die EU-Fluggastrechte-Verordnung greifen; für Gepäckschäden und -verlust ist oft das Montrealer Übereinkommen maßgeblich. Der juristische Hauptsitz und Gerichtsstand der Airline liegt in Muscat, Oman. Für Flüge ab Muscat nach Europa ist EU-Recht regelmäßig nicht anwendbar, sodass Ansprüche nach Vertrag und anwendbarem Recht geprüft werden müssen.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "gulf-air",
     "name": "Gulf Air",
     "adresse": "Gulf Air\nc/o Airline Sales Agency GmbH\nHahnstraße 70\n60528 Frankfurt am Main\nDeutschland",
     "infobox": "<p>Gulf Air ist die nationale Fluggesellschaft Bahrains und verbindet als Full-Service-Airline zahlreiche Ziele in Europa, Asien und dem Nahen Osten. Drehkreuz und Heimatflughafen ist der Bahrain International Airport in Muharraq; der juristische Hauptsitz und Gerichtsstand der Airline liegen in Bahrain. Bei Flugverspätung oder Annullierung können ab Abflug in der EU Ansprüche nach der EU-Fluggastrechte-Verordnung bestehen. Geht Ihr Koffer verloren oder kommt beschädigt an, regelt das Montrealer Übereinkommen den Schadenersatz. Auch nicht genutzte Steuern und Gebühren lassen sich in vielen Fällen zurückfordern.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "norwegian-air-shuttle",
     "name": "Norwegian Air Shuttle ASA",
-    "adresse": "Fornebuveien 11\n1366 Lysaker\nNorwegen",
+    "adresse": "Norwegian Air Shuttle ASA\nCustomer Relations\nPO Box 115\n1330 Fornebu\nNorwegen",
     "infobox": "<p>Norwegian Air Shuttle ASA ist eine norwegische Low-Cost-Airline mit Schwerpunkt auf innereuropäischen und nordatlantischen Verbindungen; wichtiger Knotenflughafen ist Oslo-Gardermoen. Obwohl die Airline ihren Sitz in Norwegen hat, gelten für viele Flüge die EU-Fluggastrechte-Verordnung und damit Ansprüche bei Flugverspätung oder Annullierung. Bei Gepäckproblemen, etwa verlorenem oder verspätetem Koffer, ist das Montrealer Übereinkommen maßgeblich. Der juristische Hauptsitz und Gerichtsstand von Norwegian Air Shuttle ASA befindet sich in Fornebu bei Oslo. Auch bei Stornierungen können Steuern und Gebühren unter bestimmten Voraussetzungen zurückgefordert werden.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "icelandair",
     "name": "Icelandair",
-    "adresse": "Icelandair Deutschland GmbH\nc/o Flughafen Frankfurt\n60547 Frankfurt am Main\nDeutschland",
+    "adresse": "Icelandair ehf.\nFlugvellir 1\n221 Hafnarfjörður\nIsland",
     "infobox": "<p>Icelandair ist die größte isländische Fluggesellschaft und verbindet Europa mit Nordamerika über ihr Drehkreuz am Flughafen Keflavík bei Reykjavík. Für Flugverspätungen und verpasste Anschlussflüge können je nach Route Ansprüche nach der EU-Fluggastrechte-Verordnung bestehen; bei Gepäckproblemen gilt häufig das Montrealer Übereinkommen. Auch bei verlorenen Koffern oder erstattbaren Steuern und Gebühren lohnt sich eine Prüfung der Ansprüche. Der juristische Hauptsitz und Gerichtsstand von Icelandair befindet sich in Reykjavík, Island. Entscheidend sind stets Flugroute, Abflugort und die Ursache der Störung.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "volotea",
     "name": "Volotea S.L.",
     "adresse": "Travessera de Gràcia 56\n4. Stockwerk\n08006 Barcelona\nSpanien",
     "infobox": "<p>Volotea S.L. ist eine spanische Low-Cost-Airline mit Hauptsitz und Gerichtsstand in Barcelona; ihr wichtigster Heimat- und Knotenflughafen ist Barcelona-El Prat. Bei Flugverspätungen und Annullierungen können Ansprüche nach der EU-Fluggastrechte-Verordnung bestehen, wenn keine außergewöhnlichen Umstände vorliegen. Auch bei verlorenem oder beschädigtem Gepäck kommen Ansprüche nach dem Montrealer Übereinkommen in Betracht. Zudem lassen sich je nach Ticket und Buchungssituation unter Umständen Steuern, Gebühren und sonstige Flugnebenkosten zurückfordern. Viele Ablehnungen berufen sich auf Wetter oder operative Gründe, doch nicht jede Störung ist rechtlich entschuldigend.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "air-transat",
     "name": "Air Transat (Transat Tours Canada Inc.)",
-    "adresse": "Air Transat Deutschland\nc/o Transat Tours Germany GmbH\nKaiserstraße 77\n60329 Frankfurt am Main\nDeutschland",
+    "adresse": "Transat A.T. Inc. (Air Transat)\n300, rue Léo-Pariseau, bureau 600\nMontréal, Québec H2X 4B3\nKanada",
     "infobox": "<p>Air Transat (Transat Tours Canada Inc.) ist eine kanadische Ferien- und Linienfluggesellschaft mit Schwerpunkt auf Langstrecken- und Urlaubsflügen. Der Heimat- und Knotenflughafen ist Montréal-Trudeau (YUL); der juristische Hauptsitz und Gerichtsstand liegt in Montréal, Québec, Kanada. Bei Flugverspätung, Gepäckverlust oder der Rückforderung von Steuern und Gebühren können je nach Abflugort die EU-Fluggastrechte-Verordnung, kanadische Regelungen oder das Montrealer Übereinkommen relevant sein. Für Flüge ab der EU sind häufig die EU-Regeln besonders wichtig, während bei Gepäckschäden und -verlust oft das Montrealer Übereinkommen greift.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "saudia",
     "name": "Saudi Arabian Airlines (Saudia)",
-    "adresse": "Saudia Airlines Germany GmbH\nFrankfurt am Main\nDeutschland",
+    "adresse": "Saudi Arabian Airlines (Saudia)\nJeddah Airport\nP.O. Box 620\nJeddah 21231\nSaudi-Arabien",
     "infobox": "<p>Saudi Arabian Airlines (Saudia) ist die nationale Fluggesellschaft Saudi-Arabiens und verbindet als Full-Service-Carrier vor allem Riad und Dschidda mit zahlreichen internationalen Zielen. Der wichtigste Knotenflughafen ist der King Abdulaziz International Airport in Dschidda, der juristische Hauptsitz und Gerichtsstand liegt in Jeddah. Für Flüge aus der EU kann die EU-Fluggastrechte-Verordnung Ansprüche bei Verspätung oder Annullierung begründen; bei Gepäckverlust oder -schäden gilt weltweit das Montrealer Übereinkommen. Auch nicht genutzte Steuern und Gebühren können je nach Ticket und Tarif unter Umständen zurückgefordert werden.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "el-al",
     "name": "EL AL Israel Airlines Ltd.",
-    "adresse": "EL AL Israel Airlines Ltd.\nBüro Frankfurt\nKaiserstraße 77\n60329 Frankfurt am Main\nDeutschland",
+    "adresse": "EL AL Israel Airlines Ltd.\nEschersheimer Landstraße 162\n60322 Frankfurt am Main\nDeutschland",
     "infobox": "<p>EL AL Israel Airlines Ltd. ist die nationale Fluggesellschaft Israels mit Hauptsitz in Tel Aviv und wichtigem Knotenflughafen am Ben-Gurion-Flughafen (TLV). Für Flüge ab oder nach Israel gilt häufig nicht die EU-Fluggastrechte-Verordnung, sondern das israelische Aviation Services Law; bei Gepäckschäden und -verlust kommt zudem oft das Montrealer Übereinkommen zur Anwendung. Ob Flugverspätung, verlorener Koffer oder die Rückforderung von Steuern und Gebühren: Die rechtliche Lage hängt von Route, Ticket und Abflugort ab. Gerichtsstand und juristischer Hauptsitz liegen in Tel Aviv.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "eva-air",
     "name": "EVA Airways Corp.",
-    "adresse": "EVA Airways Corp.\nFrankfurt Office\nc/o Aviareps AG\nFriedrich-Ebert-Anlage 49\n60308 Frankfurt am Main\nDeutschland",
+    "adresse": "EVA Airways Corp.\nOffice Park 3, Objekt 682, Top 65\n1300 Wien-Flughafen\nÖsterreich",
     "infobox": "<p>EVA Airways Corp. ist eine taiwanische Premium-Airline mit Sitz in Taoyuan und wichtigem Drehkreuz am Taiwan Taoyuan International Airport. Für Flugverspätungen und Annullierungen können bei Abflügen aus der EU die Ansprüche nach der EU-Fluggastrechte-Verordnung greifen. Bei verlorenem oder verspätetem Gepäck richtet sich die Haftung regelmäßig nach dem Montrealer Übereinkommen. Auch bei nicht genutzten Steuern und Gebühren kann sich eine Rückforderung lohnen. Juristischer Hauptsitz und Gerichtsstand der Airline sind in Taoyuan, Taiwan. Prüfen Sie Ihre Ansprüche sorgfältig, da je nach Flugroute und Buchung unterschiedliche Rechte bestehen.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "vietnam-airlines",
     "name": "Vietnam Airlines",
-    "adresse": "Vietnam Airlines Germany GmbH\nLyoner Straße 36\n60528 Frankfurt am Main\nDeutschland",
+    "adresse": "Vietnam Airlines\nFrankfurt Airport, Terminal 1\nRoom-Nr. 151.2342\n60547 Frankfurt am Main\nDeutschland",
     "infobox": "<p>Vietnam Airlines ist die nationale Fluggesellschaft Vietnams und verbindet von ihrem Heimat- und Knotenflughafen Hanoi (Noi Bai) sowie Ho-Chi-Minh-Stadt aus zahlreiche Ziele in Asien, Europa und darüber hinaus. Bei Flugverspätung oder -ausfall gilt die EU-Fluggastrechte-Verordnung für Flüge ab der EU; bei Rückflügen aus Vietnam sind meist die Vertragsbedingungen der Airline maßgeblich. Für verlorenes oder verspätetes Gepäck kann das Montrealer Übereinkommen Ansprüche begründen. Der juristische Hauptsitz und Gerichtsstand von Vietnam Airlines befindet sich in Hanoi. Auch Steuern und Gebühren lassen sich je nach Ticket und Beförderungsbedingungen unter Umständen zurückfordern.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "jet2",
     "name": "Jet2.com Limited",
     "adresse": "Data Protection Department / Legal Services\nPostfach 284\nLeeds LS11 1GE\nVereinigtes Königreich",
     "infobox": "<p>Jet2.com Limited ist eine britische Low-Cost-Airline mit starkem Fokus auf Urlaubsflüge und Pauschalreisen. Ihr Heimat- und wichtiger Knotenflughafen ist Leeds Bradford, weitere Basen liegen in Großbritannien und Europa. Für Verspätungen und Annullierungen gelten je nach Fall die EU-Fluggastrechte-Verordnung sowie nach dem Brexit das britische UK261-Regime. Bei verlorenem oder beschädigtem Gepäck greift in der Regel das Montrealer Übereinkommen. Steuern und Gebühren können bei nicht angetretenen Flügen oft zurückgefordert werden. Juristisch ist Jet2.com Limited in Leeds, England, ansässig; Gerichtsstand ist grundsätzlich England und Wales.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "tui-airways-uk",
     "name": "TUI UK Limited (TUI Airways)",
     "adresse": "Wigmore House, Wigmore Lane\nLuton LU2 9TN\nVereinigtes Königreich",
     "infobox": "<p>TUI UK Limited (TUI Airways) ist eine britische Ferienfluggesellschaft mit Hauptknoten am Flughafen London Luton und weiteren Basen in Manchester, Birmingham und Gatwick. Rechtlich gilt für viele Flüge die britische UK261-Regelung; je nach Strecke kann auch die EU-Fluggastrechte-Verordnung greifen. Bei Flugverspätung, Annullierung oder verweigertem Boarding kommen Ausgleichs- und Betreuungsansprüche in Betracht. Geht ein Koffer verloren oder kommt beschädigt an, ist das Montrealer Übereinkommen maßgeblich. Der juristische Hauptsitz und Gerichtsstand der Airline liegt in Luton, England. Auch zu Unrecht erhobene Steuern und Gebühren können unter Umständen zurückgefordert werden.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "croatia-airlines",
     "name": "Croatia Airlines d.d.",
-    "adresse": "c/o Aviareps AG\nLyoner Straße 36\n60528 Frankfurt am Main\nDeutschland",
+    "adresse": "Croatia Airlines d.d.\nCustomer Relations\nBani 75b, Buzin\n10010 Zagreb\nKroatien",
     "infobox": "<p>Croatia Airlines d.d. ist die nationale Fluggesellschaft Kroatiens mit Hauptsitz in Zagreb und ihrem wichtigsten Drehkreuz am Flughafen Zagreb. Als EU-Airline fallen viele Ansprüche bei Flugverspätung, Annullierung oder Nichtbeförderung unter die EU-Fluggastrechte-Verordnung. Bei verlorenem oder beschädigtem Gepäck kann zusätzlich das Montrealer Übereinkommen greifen. Auch bei nicht genutzten Steuern und Gebühren kommen Erstattungen in Betracht. Der Gerichtsstand liegt in Zagreb, sodass Ansprüche gegen die Airline häufig nach kroatischem Recht und unter Beachtung der EU-Vorgaben geprüft werden.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "air-serbia",
     "name": "Air Serbia a.d.",
-    "adresse": "Air Serbia Airport Office\nTerminal 2, Bereich D, Ebene 2\n60549 Frankfurt am Main\nDeutschland",
+    "adresse": "Air Serbia a.d.\nJurija Gagarina 12\n11070 Novi Beograd\nSerbien",
     "infobox": "<p>Air Serbia a.d. ist die nationale Fluggesellschaft Serbiens mit Heimat- und Knotenflughafen in Belgrad (Nikola-Tesla-Flughafen). Für Flüge mit Air Serbia können je nach Fall Ansprüche bei Flugverspätung, Gepäckproblemen oder der Rückforderung von Steuern und Gebühren bestehen. Die EU-Fluggastrechte-Verordnung gilt bei Abflügen aus der EU sowie bei Flügen mit EU-Airlines; bei Air Serbia als Nicht-EU-Airline ist sie vor allem für Starts in der EU relevant. Für Gepäckschäden und -verlust ist häufig das Montrealer Übereinkommen maßgeblich. Juristischer Hauptsitz und Gerichtsstand der Airline ist Belgrad, Serbien.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "tarom",
     "name": "TAROM",
-    "adresse": "TAROM / Sales Office Frankfurt\nc/o Lufthansa City Center\nKaiserstraße 56\n60329 Frankfurt am Main\nDeutschland",
+    "adresse": "TAROM\nCalea Bucureștilor Nr. 224 F\nOtopeni, Kreis Ilfov, 075150\nRumänien",
     "infobox": "<p>TAROM ist die staatliche rumänische Netzwerkairline mit Heimat- und Knotenflughafen in Bukarest-Otopeni (Henri Coandă Airport). Als Fluggesellschaft mit Sitz in Rumänien unterliegt TAROM bei Flugverspätungen und Annullierungen der EU-Fluggastrechte-Verordnung, wenn die Voraussetzungen erfüllt sind. Geht Gepäck verspätet an oder verloren, kommen Ansprüche auf Ersatz notwendiger Kosten nach dem Montrealer Übereinkommen in Betracht. Auch bei der Rückforderung nicht genutzter Steuern und Gebühren kann eine Prüfung sinnvoll sein. Juristischer Hauptsitz und Gerichtsstand der Airline ist Bukarest, Rumänien.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "south-african-airways",
     "name": "South African Airways",
-    "adresse": "South African Airways\nFrankfurt am Main\nDeutschland",
+    "adresse": "South African Airways\nDarmstädter Landstr. 125\n60598 Frankfurt am Main\nDeutschland",
     "infobox": "<p>South African Airways ist die nationale Fluggesellschaft Südafrikas und verbindet als Full-Service-Airline vor allem Johannesburg mit Zielen in Afrika, Europa und weltweit. Der wichtigste Knotenflughafen ist der O. R. Tambo International Airport in Johannesburg; der juristische Hauptsitz und maßgebliche Gerichtsstand liegen ebenfalls dort in Südafrika. Bei Flugverspätungen, Gepäckverlust oder Erstattungen von Steuern und Gebühren können je nach Route unterschiedliche Rechte greifen: Für Flüge ab der EU gilt die EU-Fluggastrechte-Verordnung, bei Gepäckschäden und -verlust häufig das Montrealer Übereinkommen. Prüfen Sie daher stets Abflugort, Airline und Ticketdetails.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "ethiopian-airlines",
     "name": "Ethiopian Airlines S.C.",
-    "adresse": "Ethiopian Airlines S.C.\nFrankfurt Airport Center 1\n60549 Frankfurt am Main\nDeutschland",
+    "adresse": "Ethiopian Airlines S.C.\nCustomer Relations Management Office\nP.O. Box 1755\nAddis Abeba\nÄthiopien",
     "infobox": "<p>Ethiopian Airlines S.C. ist die größte Fluggesellschaft Afrikas und verbindet von ihrem Heimat- und Knotenflughafen Addis Abeba Bole aus zahlreiche Ziele weltweit. Kommt es bei einem Flug zu einer Verspätung, zu verlorenem oder beschädigtem Gepäck oder möchten Sie Steuern und Gebühren zurückfordern, können Ansprüche je nach Fall nach der EU-Fluggastrechte-Verordnung und dem Montrealer Übereinkommen bestehen. Der juristische Hauptsitz und Gerichtsstand der Airline befindet sich in Addis Abeba, Äthiopien. Besonders bei Umsteigeverbindungen über Addis Abeba lohnt sich eine genaue Prüfung Ihrer Rechte und möglicher Entschädigungen.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "tunisair",
     "name": "Tunisair",
-    "adresse": "Tunisair\nFrankfurt am Main\nDeutschland",
+    "adresse": "Tunisair\nOffice Wien\nMariahilfer Straße 115/10\n1060 Wien\nÖsterreich",
     "infobox": "<p>Tunisair ist die nationale Fluggesellschaft Tunesiens mit Heimat- und Knotenflughafen in Tunis-Carthage. Bei Flugverspätung oder Annullierung gelten die EU-Fluggastrechte-Verordnung und die Montrealer Übereinkommen je nach Flugroute: Auf Strecken ab der EU können Ansprüche bestehen, auf dem Rückflug aus Tunesien meist nicht. Für verlorenes oder beschädigtes Gepäck ist das Montrealer Übereinkommen maßgeblich. Steuern und Gebühren können bei nicht genutzten Tickets oft zurückgefordert werden, abhängig vom Tarif und Beförderungsvertrag. Juristischer Hauptsitz und Gerichtsstand von Tunisair ist Tunis, Tunesien.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "royal-air-maroc",
     "name": "Royal Air Maroc",
     "adresse": "Royal Air Maroc\nc/o Flughafen Frankfurt am Main\n60547 Frankfurt am Main\nDeutschland",
     "infobox": "<p>Royal Air Maroc ist die nationale Fluggesellschaft Marokkos und verbindet von ihrem Heimat- und Knotenflughafen Casablanca (Mohammed V International Airport) zahlreiche Ziele in Europa, Afrika, Nordamerika und dem Nahen Osten. Bei Flugverspätungen oder -ausfällen können auf Flügen aus der EU Ansprüche nach der EU-Fluggastrechte-Verordnung bestehen. Für Gepäckprobleme wie Verlust oder Beschädigung gilt regelmäßig das Montrealer Übereinkommen. Steuern und Gebühren lassen sich unter bestimmten Voraussetzungen zurückfordern. Der juristische Hauptsitz und Gerichtsstand der Airline befindet sich in Casablanca, Marokko.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "egyptair",
     "name": "EgyptAir",
-    "adresse": "EgyptAir\nFrankfurt Airport Center 1\nHugo-Eckener-Ring\n60549 Frankfurt am Main\nDeutschland",
+    "adresse": "EgyptAir\nOpernring 1/R/4. Stock\n1010 Wien\nÖsterreich",
     "infobox": "<p>EgyptAir ist die nationale Fluggesellschaft Ägyptens und Mitglied der Star Alliance. Der wichtigste Knotenflughafen ist der Cairo International Airport in Kairo. Für Flüge ab der EU können bei Verspätungen, Annullierungen oder Nichtbeförderung Ansprüche nach der EU-Fluggastrechte-Verordnung bestehen; bei Gepäckproblemen und vielen internationalen Fällen gilt das Montrealer Übereinkommen. Der juristische Hauptsitz und Gerichtsstand von EgyptAir befindet sich in Kairo, Ägypten. Auch Steuern und Gebühren lassen sich unter bestimmten Voraussetzungen zurückfordern, etwa bei nicht angetretenen Flügen oder Teilstrecken.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "kuwait-airways",
     "name": "Kuwait Airways",
-    "adresse": "Kuwait Airways\nFrankfurt Airport Center\nHugo-Eckener-Ring\n60549 Frankfurt am Main\nDeutschland",
+    "adresse": "Kuwait Airways\nBethmannstraße 56\n60311 Frankfurt am Main\nDeutschland",
     "infobox": "<p>Kuwait Airways ist die nationale Fluggesellschaft Kuwaits mit Drehkreuz am Kuwait International Airport in Kuwait-Stadt. Der juristische Hauptsitz und Gerichtsstand der Airline liegt ebenfalls in Kuwait-Stadt. Bei Flugverspätungen, Ausfällen oder Gepäckproblemen gelten je nach Strecke unterschiedliche Ansprüche: Die EU-Fluggastrechte-Verordnung greift nur bei Flügen ab der EU, während für Koffer verloren oder beschädigtes Gepäck häufig das Montrealer Übereinkommen maßgeblich ist. Auch nicht genutzte Steuern und Gebühren können unter bestimmten Voraussetzungen erstattet werden. Prüfen Sie Ihre Ansprüche schnell, um Fristen zu wahren.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "middle-east-airlines",
     "name": "Middle East Airlines Air Liban",
-    "adresse": "Middle East Airlines Air Liban\nc/o General Sales Agent (GSA) Deutschland\nFrankfurt am Main\nDeutschland",
+    "adresse": "Middle East Airlines - Air Liban S.A.L.\nMEA Building, Beirut International Airport\nP.O. Box 42\nBeirut\nLibanon",
     "infobox": "<p>Middle East Airlines Air Liban ist die nationale Fluggesellschaft des Libanon und fliegt vor allem ab ihrem Heimat- und Knotenflughafen Beirut-Rafic-Hariri. Bei Flugverspätung, Gepäckverlust oder der Rückforderung von Steuern und Gebühren können je nach Route unterschiedliche Ansprüche gelten. Startet Ihr Flug in der EU, greifen häufig die EU-Fluggastrechte-Verordnung und mögliche Entschädigungen. Bei Reisen ab Beirut ist oft das Montrealer Übereinkommen maßgeblich. Der juristische Hauptsitz und Gerichtsstand der Airline befindet sich in Beirut, Libanon. Prüfen Sie daher immer Abflugort, Ticketart und die konkrete Ursache der Störung.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "air-malta",
     "name": "Air Malta Plc.",
-    "adresse": "Air Malta Plc.\nBüro Frankfurt am Main\nDeutschland",
+    "adresse": "Air Malta plc\nMalta International Airport\nLuqa LQA 4000\nMalta",
     "infobox": "<p>Air Malta Plc. ist die nationale Airline Maltas mit Sitz in Luqa und Drehkreuz am Malta International Airport in Valletta/Luqa. Für Fluggäste kann die Gesellschaft bei Flugverspätung, Gepäckverlust oder der Rückforderung von Steuern und Gebühren relevant sein. Als EU-Airline unterliegt Air Malta der EU-Fluggastrechte-Verordnung; Ansprüche wegen beschädigtem oder verlorenem Gepäck richten sich regelmäßig nach dem Montrealer Übereinkommen. Der juristische Hauptsitz und Gerichtsstand liegt in Luqa, Malta. Bei Kofferproblemen sollte der Schaden sofort am Flughafen per PIR gemeldet werden, um spätere Ansprüche zu sichern.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "royal-jordanian",
     "name": "Royal Jordanian",
-    "adresse": "Royal Jordanian Airlines\nFrankfurt am Main\nDeutschland",
+    "adresse": "Royal Jordanian Airlines\nLyoner Straße 15\n60528 Frankfurt am Main\nDeutschland",
     "infobox": "<p>Royal Jordanian ist die nationale Fluggesellschaft Jordaniens mit Heimat- und Drehkreuzflughafen Amman Queen Alia International Airport. Der juristische Hauptsitz und Gerichtsstand liegt in Amman, Jordanien. Für Fluggäste sind je nach Flugroute unterschiedliche Rechte relevant: Bei Verspätungen und Annullierungen kann die EU-Fluggastrechte-Verordnung auf Flüge aus der EU Anwendung finden, während bei Gepäckproblemen und Schadensersatzansprüchen oft das Montrealer Übereinkommen maßgeblich ist. Auch bei nicht genutzten Tickets oder Rückflügen können unter Umständen Steuern und Gebühren zurückgefordert werden.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "malaysia-airlines",
     "name": "Malaysia Airlines",
-    "adresse": "Malaysia Airlines Berhad\nc/o Lufthansa City Center\nFrankfurt am Main\nDeutschland",
+    "adresse": "Malaysia Airlines Berhad\nUntere Donaustrasse 11/3. Stock\n1020 Wien\nÖsterreich",
     "infobox": "<p>Malaysia Airlines ist die nationale Fluggesellschaft Malaysias und verbindet von ihrem Heimat- und Knotenflughafen Kuala Lumpur International Airport (KUL) aus zahlreiche Ziele weltweit. Bei Flugverspätungen oder Annullierungen greift die EU-Fluggastrechte-Verordnung nur, wenn der Flug in der EU startet. Für verlorenes oder beschädigtes Gepäck gilt dagegen das Montrealer Übereinkommen oft weltweit; Ansprüche sollten möglichst sofort, bei Schäden spätestens binnen 7 Tagen schriftlich gemeldet werden. Steuern und Gebühren können zudem je nach Tarif und Ticketbedingungen erstattungsfähig sein. Juristischer Hauptsitz und Gerichtsstand der Airline ist in Kuala Lumpur, Malaysia.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "china-southern-airlines",
     "name": "China Southern Airlines",
-    "adresse": "China Southern Airlines Germany GmbH\nFrankfurt am Main\nDeutschland",
+    "adresse": "China Southern Airlines\n278 Ji Chang Road\nGuangzhou 510405\nChina",
     "infobox": "<p>China Southern Airlines ist eine der größten Fluggesellschaften Asiens mit Hauptsitz in Guangzhou und ihrem wichtigsten Drehkreuz am Flughafen Guangzhou-Baiyun. Bei Flugverspätungen oder Annullierungen können Ansprüche nach der EU-Fluggastrechte-Verordnung bestehen, wenn der Flug in der EU startet. Für verloren gegangenes oder beschädigtes Gepäck gilt regelmäßig das Montrealer Übereinkommen. Auch bei nicht genutzten Steuern und Gebühren können Rückforderungsansprüche bestehen. Juristischer Hauptsitz und Gerichtsstand der Airline ist Guangzhou, China. Prüfen Sie Ihre Rechte daher immer individuell.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "garuda-indonesia",
     "name": "Garuda Indonesia",
-    "adresse": "Garuda Indonesia Representative Office\nc/o [nicht verifiziert]\nFrankfurt am Main\nDeutschland",
+    "adresse": "Garuda Indonesia\nFrankfurt Airport, Terminal 1\n60547 Frankfurt am Main\nDeutschland",
     "infobox": "<p>Garuda Indonesia ist die nationale Fluggesellschaft Indonesiens und verbindet von ihrem Heimat- und Knotenflughafen Jakarta-Soekarno-Hatta aus zahlreiche Ziele weltweit. Bei Flugverspätungen und Gepäckproblemen können Ansprüche je nach Reiseroute nach der EU-Fluggastrechte-Verordnung oder dem Montrealer Übereinkommen bestehen. Der juristische Hauptsitz und Gerichtsstand der Airline liegt in Jakarta, Indonesien. Wird ein Flug aus persönlichen Gründen storniert, lassen sich häufig zumindest staatliche Steuern und nicht verbrauchte Gebühren zurückfordern. Prüfen Sie daher Ihre Ansprüche sorgfältig, insbesondere bei Abflug in der EU oder bei internationalen Flügen mit Anschlussverbindungen.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "air-astana",
     "name": "Air Astana JSC",
-    "adresse": "Air Astana JSC\nc/o Representation Office Germany\nFrankfurt am Main\nDeutschland",
+    "adresse": "Air Astana JSC\n85 Zheltoksan Street\n050091 Almaty\nKasachstan",
     "infobox": "<p>Air Astana JSC ist die führende Fluggesellschaft Kasachstans mit Drehkreuz am Flughafen Almaty; weitere wichtige Basis ist Astana. Der juristische Hauptsitz und Gerichtsstand liegt in Almaty, Kasachstan. Bei Flugverspätungen gilt die EU-Fluggastrechte-Verordnung nur für Abflüge aus der EU; für Ankünfte mit Air Astana bestehen daher meist keine Ansprüche auf Ausgleichszahlung. Bei verlorenen oder beschädigten Koffern sowie für Gepäck- und Erstattungsfragen können Ansprüche nach dem Montrealer Übereinkommen relevant sein. Auch nicht genutzte Steuern und Gebühren lassen sich oft separat prüfen und zurückfordern.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "rwandair",
     "name": "RwandAir Ltd.",
-    "adresse": "RwandAir Ltd.\nFrankfurt Airport, Terminal 2\n60549 Frankfurt am Main\nDeutschland",
+    "adresse": "RwandAir Ltd.\nKigali International Airport\nP.O. Box 7275\nKigali\nRuanda",
     "infobox": "<p>RwandAir Ltd. ist die nationale Fluggesellschaft Ruandas und verbindet Kigali mit zahlreichen Zielen in Afrika, dem Nahen Osten und Europa. Heimat- und Knotenflughafen ist der Kigali International Airport. Bei Flugverspätung oder Annullierung können Ansprüche nach der EU-Fluggastrechte-Verordnung bestehen, wenn der Flug in der EU startet. Für verlorenes oder beschädigtes Gepäck gilt regelmäßig das Montrealer Übereinkommen. Auch nicht genutzte Steuern und Gebühren lassen sich oft zurückfordern. Juristischer Hauptsitz und Gerichtsstand der Airline ist Kigali, Ruanda.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "kenya-airways",
     "name": "Kenya Airways",
-    "adresse": "Kenya Airways\nFrankfurt am Main\nDeutschland",
+    "adresse": "Kenya Airways\nAirport North Road\nP.O. Box 19002 - 00501\nNairobi\nKenia",
     "infobox": "<p>Kenya Airways ist die nationale Fluggesellschaft Kenias und verbindet Europa, Afrika sowie den Nahen Osten über ihren Heimat- und Knotenflughafen Nairobi Jomo Kenyatta International Airport. Bei Flügen aus der EU kann die EU-Fluggastrechte-Verordnung greifen, etwa bei Flugverspätung oder Annullierung; für Rückflüge aus Kenia gilt sie meist nicht. Für Gepäckschäden, Kofferverlust und viele Ansprüche rund um Verspätungen ist zudem das Montrealer Übereinkommen wichtig. Der juristische Hauptsitz und Gerichtsstand der Airline befindet sich in Nairobi. Nicht genutzte Steuern und Gebühren können je nach Ticket und Tarif oft separat zurückgefordert werden.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "srilankan-airlines",
     "name": "SriLankan Airlines",
-    "adresse": "SriLankan Airlines c/o Aviareps AG\nKaiserstraße 77\n60329 Frankfurt am Main\nDeutschland",
+    "adresse": "SriLankan Airlines\nCentral Point Building\nP.O. Box 1707, 04 Bank of Ceylon Mawatha\nColombo 01\nSri Lanka",
     "infobox": "<p>SriLankan Airlines ist die nationale Fluggesellschaft Sri Lankas und verbindet von ihrem Drehkreuz am Bandaranaike International Airport in Colombo zahlreiche Ziele in Asien, Europa und darüber hinaus. Bei Flugverspätungen ab einem EU-Abflug kann je nach Fall die EU-Fluggastrechte-Verordnung Ansprüche auf Entschädigung begründen. Geht Gepäck verloren oder kommt beschädigt an, gilt regelmäßig das Montrealer Übereinkommen. Auch zu viel gezahlte Steuern und Gebühren lassen sich oft prüfen und zurückfordern. Juristischer Hauptsitz und Gerichtsstand der Airline sind in Katunayake, Sri Lanka.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "luxair",
     "name": "Luxair S.A.",
-    "adresse": "Luxair S.A.\nFlughafen Frankfurt am Main\n60549 Frankfurt am Main\nDeutschland",
+    "adresse": "Luxair S.A.\nAéroport de Luxembourg\n2987 Luxemburg\nLuxemburg",
     "infobox": "<p>Luxair S.A. ist die nationale Airline Luxemburgs und fliegt vor allem ab ihrem Heimat- und Knotenflughafen Luxemburg (LUX). Für Flugverspätungen, Annullierungen und verpasste Anschlüsse gilt auf vielen Strecken die EU-Fluggastrechte-Verordnung; bei Gepäckproblemen und Schadensfällen ist oft das Montrealer Übereinkommen maßgeblich. Der juristische Hauptsitz und Gerichtsstand der Airline liegt in Sandweiler, Luxemburg. Je nach Fall können Reisende Entschädigung, Erstattung, Unterstützungsleistungen oder die Rückforderung von Steuern und Gebühren prüfen lassen. Entscheidend sind Ursache, Strecke und Buchungskonstellation.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "air-dolomiti",
     "name": "Air Dolomiti S.p.A.",
-    "adresse": "Air Dolomiti S.p.A.\nFlughafen Frankfurt am Main\n60547 Frankfurt am Main\nDeutschland",
+    "adresse": "Air Dolomiti S.p.A.\nVia Paolo Bembo 70\n37062 Dossobuono di Villafranca (VR)\nItalien",
     "infobox": "<p>Air Dolomiti S.p.A. ist eine italienische Regionalairline und Teil der Lufthansa Group. Ihr Heimat- und wichtiger Knotenflughafen ist Verona, von wo aus vor allem Zubringer- und Kurzstreckenflüge zu den Lufthansa-Drehkreuzen starten. Bei Flugverspätungen oder Annullierungen können Ansprüche nach der EU-Fluggastrechte-Verordnung bestehen. Geht ein Koffer verloren oder kommt beschädigt an, richtet sich die Haftung regelmäßig nach dem Montrealer Übereinkommen. Auch zu Unrecht einbehaltene Steuern und Gebühren lassen sich unter Umständen zurückfordern. Juristischer Hauptsitz und Gerichtsstand der Airline ist Verona, Italien.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "helvetic-airways",
     "name": "Helvetic Airways AG",
-    "adresse": "Steinackerstrasse 56\nCH-8302 Kloten\nSchweiz",
+    "adresse": "Helvetic Airways AG\nSteinackerstrasse 56\n8302 Kloten\nSchweiz",
     "infobox": "<p>Helvetic Airways AG ist eine Schweizer Regional- und Ferienfluggesellschaft mit Heimat- und Knotenflughafen in Zürich. Die Airline fliegt vor allem europäische Destinationen und tritt teils auch im Wet-Lease für andere Carrier auf. Bei Flugverspätung, Gepäckproblemen oder der Rückforderung von Steuern und Gebühren können Ansprüche je nach Fall nach der EU-Fluggastrechte-Verordnung und dem Montrealer Übereinkommen bestehen. Juristischer Hauptsitz und Gerichtsstand der Helvetic Airways AG ist Kloten im Kanton Zürich. Entscheidend ist oft, wer den Flug vertraglich verkauft oder operativ durchgeführt hat.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "wideroe",
     "name": "Widerøe's Flyveselskap AS",
-    "adresse": "Customer Relations\nLangstranda 6, Postfach 247\n8001 Bodø\nNorwegen",
+    "adresse": "Widerøe's Flyveselskap AS\nCustomer Relations\nLangstranda 6, Postboks 247\n8001 Bodø\nNorwegen",
     "infobox": "<p>Widerøe’s Flyveselskap AS ist Norwegens größte Regionalfluggesellschaft und verbindet vor allem kleinere Städte und Küstenregionen. Der Heimat- und wichtige Knotenflughafen ist Bodø, zudem spielt Bergen eine zentrale Rolle im Streckennetz. Bei Flugverspätungen, Annullierungen oder verpassten Anschlussflügen können je nach Route die EU-Fluggastrechte-Verordnung und ergänzend das Montrealer Übereinkommen relevant sein. Auch bei verlorenem oder verspätetem Gepäck bestehen Ansprüche auf Erstattung und Entschädigung. Der juristische Hauptsitz und Gerichtsstand der Airline liegt in Bodø, Norwegen. Zusätzlich können in bestimmten Fällen Steuern und Gebühren von nicht genutzten Tickets zurückgefordert werden.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "neos-air",
     "name": "Neos S.p.A.",
-    "adresse": "Via Della Chiesa 68\n21019 Somma Lombardo (Varese)\nItalien",
+    "adresse": "Neos S.p.A.\nVia Della Chiesa 68\n21019 Somma Lombardo (VA)\nItalien",
     "infobox": "<p>Neos S.p.A. ist eine italienische Charter- und Ferienfluggesellschaft mit Heimat- und Knotenflughafen in Mailand-Malpensa. Als EU-Airline unterliegt sie bei Flugverspätung und Annullierung der EU-Fluggastrechte-Verordnung, sodass Ihnen je nach Fall Ausgleichszahlung, Betreuung und Erstattung zustehen können. Geht ein Koffer verloren oder kommt verspätet an, greifen die Regeln des Montrealer Übereinkommens; notwendige Ersatzkäufe sollten Sie mit Quittungen belegen. Auch Steuern und Gebühren können unter Umständen zurückgefordert werden. Juristischer Hauptsitz und Gerichtsstand der Airline ist Somma Lombardo in der Provinz Varese.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "binter-canarias",
     "name": "Binter Canarias S.A.",
-    "adresse": "Aeropuerto de Gran Canaria\nC/ La Paleta 6\n35230 Las Palmas\nSpanien",
+    "adresse": "Binter Canarias S.A.\nAeropuerto de Gran Canaria\nC/ La Paleta 6\n35230 Las Palmas de Gran Canaria\nSpanien",
     "infobox": "<p>Binter Canarias S.A. ist die führende Regionalairline der Kanarischen Inseln und verbindet vor allem Inselziele ab ihrem Heimat- und Knotenflughafen Gran Canaria (LPA). Bei Flugverspätungen, Annullierungen oder verpassten Anschlüssen können Ansprüche nach der EU-Fluggastrechte-Verordnung bestehen; auf vielen kurzen Strecken sind 250 Euro möglich. Geht Gepäck verloren oder kommt es beschädigt an, ist das Montrealer Übereinkommen maßgeblich. Auch bei nicht genutzten oder erstattungsfähigen Steuern und Gebühren lohnt sich eine Prüfung. Juristisch maßgeblich ist der Sitz der Gesellschaft in Las Palmas de Gran Canaria, Spanien.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "transavia",
     "name": "Transavia France S.A.S.",
-    "adresse": "Coeur d’Orly – Bâtiment Belaïa\n7 avenue de l’Union\n94310 Orly\nFrankreich",
+    "adresse": "Transavia France S.A.S.\nZone Orlytech\n3 allée Hélène Boucher\n91781 Wissous Cedex\nFrankreich",
     "infobox": "<p>Transavia France S.A.S. ist eine französische Low-Cost-Airline der Air France-KLM-Gruppe mit Heimat- und Knotenflughafen Paris-Orly. Bei Flugverspätung oder Annullierung können Ansprüche nach der EU-Fluggastrechte-Verordnung bestehen; bei verlorenem oder beschädigtem Gepäck gilt regelmäßig das Montrealer Übereinkommen. Auch Steuern und Gebühren lassen sich unter Umständen zurückfordern, wenn der Flug nicht angetreten wird. Juristischer Hauptsitz und Gerichtsstand der Airline ist Paris, Frankreich. Prüfen Sie zudem, ob vertragliche Bearbeitungsgebühren in den AGB wirksam sind.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "play-airlines",
     "name": "PLAY airlines",
-    "adresse": "Suðurlandsbraut 14\n108 Reykjavík\nIsland",
+    "adresse": "PLAY airlines hf.\nSuðurlandsbraut 14\n108 Reykjavík\nIsland",
     "infobox": "<p>PLAY airlines ist eine isländische Low-Cost-Airline mit Heimat- und Knotenflughafen in Reykjavík-Keflavík (KEF). Als Airline aus Island fällt sie grundsätzlich unter die EU-Fluggastrechte-Verordnung, sodass Passagiere bei Flugverspätung oder Annullierung Ansprüche prüfen können. Bei verlorenem oder verspätetem Gepäck richtet sich die Haftung regelmäßig nach dem Montrealer Übereinkommen. Auch bei Steuern und Gebühren lohnt sich ein genauer Blick auf die Ticketbedingungen. Juristischer Hauptsitz und Gerichtsstand von PLAY airlines sind in Reykjavík, Island. Gerade bei Billigflügen sollten Reisende Belege und Buchungsunterlagen sorgfältig aufbewahren.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "air-cairo",
     "name": "Air Cairo",
-    "adresse": "Smart Village, Building B211\nKilo 28 Cairo Alexandria Desert Road\nGizeh\nÄgypten",
+    "adresse": "Air Cairo\n20, El Sayed Zakaria Khalil St\nSheraton Heliopolis Zone\nKairo\nÄgypten",
     "infobox": "<p>Air Cairo ist eine ägyptische Fluggesellschaft mit Sitz in Kairo und einem wichtigen Knotenpunkt am Flughafen Kairo-International (CAI). Die Airline bedient vor allem Urlaubs- und Linienflüge zwischen Ägypten, Europa und weiteren Zielen. Bei Flugverspätungen auf Strecken von oder nach Deutschland hängt ein Anspruch nach der EU-Fluggastrechte-Verordnung von der konkreten Flugroute und dem ausführenden Luftfahrtunternehmen ab. Für verlorenes oder beschädigtes Gepäck gilt regelmäßig das Montrealer Übereinkommen. Auch nicht genutzte Steuern und Gebühren können unter Umständen erstattungsfähig sein. Gerichtsstand und juristischer Hauptsitz der Airline sind in Kairo, Ägypten.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "arkia",
     "name": "Arkia Israeli Airlines Ltd.",
-    "adresse": "P.O. Box 39301\nTel Aviv 61392\nIsrael",
+    "adresse": "Arkia Israeli Airlines Ltd.\nBen Gurion Airport\nP.O. Box 63\n7015001 Ben Gurion Airport\nIsrael",
     "infobox": "<p>Arkia Israeli Airlines Ltd. ist eine israelische Fluggesellschaft mit Schwerpunkt auf Linien- und Charterflügen ab dem Heimat- und Knotenflughafen Tel Aviv-Ben Gurion. Für Passagiere können je nach Route die EU-Fluggastrechte-Verordnung, das israelische Luftfahrtgesetz (Tibi Law) sowie bei Gepäckschäden oder -verlust das Montrealer Übereinkommen relevant sein. Auch bei Verspätungen, Annullierungen oder Problemen mit Koffer, Steuern und Gebühren bestehen oft Ansprüche. Juristischer Hauptsitz und Gerichtsstand der Airline ist in Israel, in der Regel in Tel Aviv.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "georgian-airways",
     "name": "Georgian Airways",
-    "adresse": "A. Tsereteli Ave. 49\n0159 Tiflis\nGeorgien",
+    "adresse": "Georgian Airways\nA. Tsereteli Ave. 49\n0159 Tiflis\nGeorgien",
     "infobox": "<p>Georgian Airways ist die nationale Fluggesellschaft Georgiens mit Drehkreuz am Flughafen Tiflis (TBS). Für Flüge mit Abflug in der EU kann die EU-Fluggastrechte-Verordnung bei Verspätung, Annullierung oder Nichtbeförderung greifen; bei Abflügen aus Tiflis richtet sich ein Anspruch meist nach dem Montrealer Übereinkommen. Auch bei verlorenem oder verspätetem Gepäck gelten internationale Haftungsregeln. Steuern und Gebühren können je nach Ticket und Tarif erstattbar sein. Juristischer Hauptsitz und Gerichtsstand der Airline ist Tiflis, Georgien.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "air-arabia",
     "name": "Air Arabia PJSC",
-    "adresse": "Air Arabia Building\nSharjah International Airport\nPostfach 132\nVereinigte Arabische Emirate",
+    "adresse": "Air Arabia PJSC\nBuilding A1, Next to Cargo Entrance\nP.O. Box 132\nSharjah International Airport\nVereinigte Arabische Emirate",
     "infobox": "<p>Air Arabia PJSC ist eine günstige Fluggesellschaft aus den Vereinigten Arabischen Emiraten mit Hauptsitz in Sharjah; wichtigster Knotenflughafen ist der Sharjah International Airport. Für Flugverspätung und -annullierung gilt: Startet Ihr Flug in der EU, können Ansprüche nach der EU-Fluggastrechte-Verordnung bestehen. Bei Gepäckproblemen ist das Montrealer Übereinkommen maßgeblich, etwa bei Verlust, Beschädigung oder Verspätung von Koffern. Der juristische Hauptsitz und Gerichtsstand der Airline liegt in Sharjah, VAE. Auch bei der Rückforderung von Steuern und Gebühren kann der Ticketkauf und die tatsächliche Beförderung rechtlich relevant sein.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "flyone",
     "name": "FLYONE",
-    "adresse": "bd. Dacia 80/3\nMD-2026 Chișinău\nMoldau",
+    "adresse": "FLYONE\nbd. Dacia 80/3\nMD-2026 Chișinău\nMoldau",
     "infobox": "<p>FLYONE ist eine moldauische Low-Cost-Airline mit Schwerpunkt in Chișinău; wichtiger Heimat- und Knotenflughafen ist der Flughafen Chișinău (RMO). Für Passagiere können bei Flugverspätung, Kofferverlust oder der Rückforderung von Steuern und Gebühren Ansprüche entstehen. Maßgeblich sind je nach Flugstrecke die EU-Fluggastrechte-Verordnung sowie das Montrealer Übereinkommen. Da Moldau nicht zur EU gehört, ist der Anspruch im Einzelfall zu prüfen, insbesondere bei Abflügen aus der EU. Juristisch ist FLYONE in Chișinău ansässig; dort liegt regelmäßig auch der maßgebliche Gerichtsstand.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "nouvelair",
     "name": "Nouvelair Tunisie S.A.",
-    "adresse": "Zone Touristique Dkhila BP 66\n5065 Monastir\nTunesien",
+    "adresse": "Nouvelair Tunisie S.A.\nTouristische Zone Dkhila\n5065 Monastir\nTunesien",
     "infobox": "<p>Nouvelair Tunisie S.A. ist eine tunesische Ferien- und Linienfluggesellschaft mit Hauptsitz in Tunis; ihr wichtigster Knotenflughafen ist der Flughafen Tunis-Carthage. Bei Flugverspätung oder Annullierung gelten die Ansprüche nach der EU-Fluggastrechte-Verordnung meist nur auf Flügen aus der EU nach Tunesien, nicht umgekehrt. Für verlorenes oder beschädigtes Gepäck ist in der Regel das Montrealer Übereinkommen maßgeblich. Auch bei nicht genutzten Steuern und Gebühren können Erstattungsansprüche bestehen. Juristisch ist Nouvelair in Tunesien ansässig; Gerichtsstand ist grundsätzlich Tunis.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "sky-express",
     "name": "SKY express S.A.",
-    "adresse": "Building 57, Athens International Airport\nSpata, Attika 19019\nGriechenland",
+    "adresse": "SKY express S.A.\nBuilding 57, Athens International Airport\nSpata, Attika 19019\nGriechenland",
     "infobox": "<p>SKY express S.A. ist eine griechische Fluggesellschaft mit Heimat- und Knotenflughafen in Athen (ATH). Als Airline mit Sitz in Griechenland unterliegt sie der EU-Fluggastrechte-Verordnung, sodass Reisende bei Flugverspätung, Annullierung oder Nichtbeförderung je nach Fall Anspruch auf Ausgleichs- und Unterstützungsleistungen haben können. Bei verlorenem oder beschädigtem Gepäck gelten zusätzlich die Regeln des Montrealer Übereinkommens. Auch die Erstattung nicht genutzter Steuern und Gebühren kann in Betracht kommen. Juristischer Hauptsitz und Gerichtsstand der Gesellschaft sind in Griechenland verortet.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "air-algerie",
     "name": "Air Algérie",
-    "adresse": "Air Algérie\nBüro Frankfurt am Main\nDeutschland",
+    "adresse": "EPE/SPA Air Algérie\nPlace Maurice Audin 1\n16000 Alger\nAlgerien",
     "infobox": "<p>Air Algérie ist die nationale Fluggesellschaft Algeriens und verbindet Europa, Nordafrika und den Nahen Osten. Der wichtigste Heimat- und Knotenflughafen ist der Flughafen Algier-Houari Boumediene (ALG). Bei Flügen mit Abflug aus der EU kann die EU-Fluggastrechte-Verordnung Ansprüche wegen Flugverspätung, Annullierung oder Nichtbeförderung begründen; für Rückflüge aus Algerien in die EU gilt sie in der Regel nicht. Bei verlorenem oder beschädigtem Gepäck ist in beiden Richtungen das Montrealer Übereinkommen maßgeblich. Juristischer Hauptsitz und Gerichtsstand der Airline ist Algier, Algerien.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "air-seychelles",
     "name": "Air Seychelles Ltd",
-    "adresse": "Postfach 386\nPointe Larue, Mahé\nSeychellen",
+    "adresse": "Air Seychelles Ltd\nP.O. Box 386\nPointe Larue, Mahé\nSeychellen",
     "infobox": "<p>Air Seychelles Ltd ist die nationale Fluggesellschaft der Seychellen und verbindet den Inselstaat mit internationalen Zielen. Der Heimat- und Knotenflughafen ist der Seychelles International Airport in Victoria auf Mahé. Für Flüge ab der EU kann die EU-Fluggastrechte-Verordnung Ansprüche bei Verspätung oder Annullierung begründen; für Gepäckschäden und Kofferprobleme ist oft das Montrealer Übereinkommen maßgeblich. Steuern und Gebühren lassen sich je nach Tarif und Ticketbedingungen separat prüfen und unter Umständen zurückfordern. Juristischer Hauptsitz und Gerichtsstand der Airline sind auf den Seychellen.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "bulgaria-air",
     "name": "Bulgaria Air",
-    "adresse": "Bulgaria Air Germany\nFrankfurt am Main\nDeutschland",
+    "adresse": "Bulgaria Air\nIvan Wasow 2 str.\nSofia\nBulgarien",
     "infobox": "<p>Bulgaria Air ist die nationale Fluggesellschaft Bulgariens und verbindet von ihrem Heimat- und Knotenflughafen Sofia aus zahlreiche europäische und internationale Ziele. Für Fluggäste sind bei Flugverspätung, Gepäckverlust oder der Rückforderung von Steuern und Gebühren vor allem die EU-Fluggastrechte-Verordnung sowie das Montrealer Übereinkommen relevant. Bei Gepäckschäden oder -verlust müssen Ansprüche in der Regel fristgerecht schriftlich gemeldet werden. Juristischer Hauptsitz und Gerichtsstand der Airline ist Sofia, Bulgarien. Je nach Fall können Entschädigung, Erstattung oder weitere Ansprüche bestehen.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "air-mauritius",
     "name": "Air Mauritius Ltd. (GSA Deutschland/AT)",
-    "adresse": "Air Mauritius Ltd. (GSA Deutschland/AT)\nFrankfurt am Main\nDeutschland",
+    "adresse": "Air Mauritius Ltd.\nGSA Office Austria\nOpernring 1 / Top E-439\n1010 Wien\nÖsterreich",
     "infobox": "<p>Air Mauritius Ltd. ist die nationale Airline von Mauritius mit Drehkreuz am Sir Seewoosagur Ramgoolam International Airport in Mahebourg bei Port Louis. Für Flugverspätungen, Annullierungen oder Nichtbeförderung können Ansprüche nach der EU-Fluggastrechte-Verordnung bestehen, wenn der Flug in der EU startet. Bei verlorenem oder beschädigtem Gepäck sowie bei Erstattungen von Steuern und Gebühren sind zusätzlich das Montrealer Übereinkommen und das jeweilige Ticket- bzw. Vertragsrecht relevant. Juristischer Hauptsitz und Gerichtsstand der Airline ist Port Louis, Mauritius. Auch auf Rückflügen ab Mauritius gelten EU-Rechte meist nicht, andere Ansprüche können aber bestehen.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "aeromexico",
     "name": "Aerovías de México, S.A. de C.V.",
-    "adresse": "Aeroméxico c/o General Sales Agent\nFrankfurt am Main\nDeutschland",
+    "adresse": "Aerovías de México, S.A. de C.V.\nPaseo de la Reforma 243, Piso 25\nCol. Cuauhtémoc\n06500 Ciudad de México\nMexiko",
     "infobox": "<p>Aerovías de México, S.A. de C.V. (Aeroméxico) ist die größte mexikanische Netzwerk-Airline mit Drehkreuz am Flughafen Mexiko-Stadt (MEX). Für Flüge aus der EU kann je nach Route die EU-Fluggastrechte-Verordnung greifen; bei Verspätungen, Annullierungen oder Gepäckproblemen sind außerdem das Montrealer Übereinkommen und das mexikanische Luftfahrtrecht relevant. Der juristische Hauptsitz und Gerichtsstand der Airline liegt in Mexiko-Stadt, Mexiko. Auch bei der Rückforderung von Steuern und Gebühren sowie bei verlorenem oder verspätetem Gepäck sollten Buchungsdaten, Bordkarten und Belege sorgfältig aufbewahrt werden.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "avianca",
     "name": "Avianca",
-    "adresse": "Avianca Germany GmbH\nFrankfurt am Main\nDeutschland",
+    "adresse": "Avianca\nAvenida Calle 26 No. 59-15\nBogotá\nKolumbien",
     "infobox": "<p>Avianca ist die größte Airline Kolumbiens und ein wichtiger Carrier in Lateinamerika mit Drehkreuz am Flughafen Bogotá-El Dorado. Der juristische Hauptsitz und Gerichtsstand der Fluggesellschaft liegt in Bogotá, Kolumbien. Bei Flugverspätungen und Annullierungen gilt die EU-Fluggastrechte-Verordnung nur, wenn der Flug in der EU startet. Für verlorenes oder verspätetes Gepäck kann das Montrealer Übereinkommen Ansprüche auf Entschädigung begründen. Wer ein Ticket selbst storniert, kann unter Umständen Steuern und Gebühren zurückfordern. Prüfen Sie deshalb stets, welche Rechte im Einzelfall für Avianca-Flüge bestehen.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": ""
   },
   {
     "slug": "andere-airline",

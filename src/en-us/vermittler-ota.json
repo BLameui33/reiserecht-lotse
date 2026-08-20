@@ -3,109 +3,127 @@
     "name": "CheapOair",
     "slug": "cheapoair",
     "adresse": "Fareportal, Inc.\n135 W 50th St, Suite 500\nNew York, NY 10020\nUSA",
-    "infobox": "<p>CheapOair is an online travel agency (OTA) and not the operating airline. For ticket cancellations and refunds of taxes and fees, it is crucial to determine who issued the ticket and processed the payment. In practice, OTAs and airlines frequently point fingers at each other regarding refund delays. Legally, under US Department of Transportation (DOT) guidelines, if the airline issues a refund to CheapOair, the OTA must promptly pass it on to the consumer. Furthermore, OTAs are not permitted to charge unreasonable or deceptive processing fees for merely passing through a mandatory refund. The corporate headquarters of CheapOair (Fareportal) is located in New York, NY.</p><!--opt-->"
+    "infobox": "<p>CheapOair is an online travel agency (OTA) and not the operating airline. For ticket cancellations and refunds of taxes and fees, it is crucial to determine who issued the ticket and processed the payment. In practice, OTAs and airlines frequently point fingers at each other regarding refund delays. Legally, under US Department of Transportation (DOT) guidelines, if the airline issues a refund to CheapOair, the OTA must promptly pass it on to the consumer. Furthermore, OTAs are not permitted to charge unreasonable or deceptive processing fees for merely passing through a mandatory refund. The corporate headquarters of CheapOair (Fareportal) is located in New York, NY.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "Kiwi.com",
     "slug": "kiwi-com",
     "adresse": "Kiwi.com, Inc.\n14 NE 1st Ave, Suite 1101\nMiami, FL 33132\nUSA",
-    "infobox": "<p>Kiwi.com is a booking platform (OTA) and not the operating airline. Ticket cancellations and refunds of taxes and fees often trigger jurisdictional disputes, with the OTA directing you to the airline and the airline pointing back to the intermediary. Under US Department of Transportation (DOT) rules, once an airline refunds the ticket cost, the intermediary is required to forward those funds to the passenger without unnecessary delay. Charging exorbitant administrative fees for merely processing an official refund is legally questionable. Kiwi.com's US operations are registered in Miami, Florida, while its global headquarters is in Brno, Czech Republic.</p><!--opt-->"
+    "infobox": "<p>Kiwi.com is a booking platform (OTA) and not the operating airline. Ticket cancellations and refunds of taxes and fees often trigger jurisdictional disputes, with the OTA directing you to the airline and the airline pointing back to the intermediary. Under US Department of Transportation (DOT) rules, once an airline refunds the ticket cost, the intermediary is required to forward those funds to the passenger without unnecessary delay. Charging exorbitant administrative fees for merely processing an official refund is legally questionable. Kiwi.com's US operations are registered in Miami, Florida, while its global headquarters is in Brno, Czech Republic.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "Booking.com Flights",
     "slug": "booking-flights",
     "adresse": "Booking.com USA, Inc.\n100 William St, Fl 15\nNew York, NY 10038\nUSA",
-    "infobox": "<p>Booking.com Flights is a booking portal (OTA) and not the operating airline. For flight cancellations and the reimbursement of unused taxes and government fees, online travel agencies often refer customers to the airline, while airlines point back to the booking platform. Legally, the entity that processed your payment is responsible for executing the refund process. According to US DOT standards, once the airline authorizes and sends the refund to the OTA, those funds must be transferred to the customer within a strict timeframe. Booking.com USA, Inc. manages US passenger relations from its office in New York, NY.</p><!--opt-->"
+    "infobox": "<p>Booking.com Flights is a booking portal (OTA) and not the operating airline. For flight cancellations and the reimbursement of unused taxes and government fees, online travel agencies often refer customers to the airline, while airlines point back to the booking platform. Legally, the entity that processed your payment is responsible for executing the refund process. According to US DOT standards, once the airline authorizes and sends the refund to the OTA, those funds must be transferred to the customer within a strict timeframe. Booking.com USA, Inc. manages US passenger relations from its office in New York, NY.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "Expedia",
     "slug": "expedia",
     "adresse": "Expedia, Inc.\n1111 Expedia Group Way W\nSeattle, WA 98119\nUSA",
-    "infobox": "<p>Expedia is an online travel agency (OTA) and not the operating airline. When booking a standalone flight, your contract of carriage is directly with the operating air carrier. In case of flight cancellations or requests for refunds of taxes and fees, Expedia and the airline often redirect consumers to one another. Legally, if Expedia has received a refund from the airline on your behalf, US DOT rules require them to forward it to you promptly. The OTA should not impose excessive or deceptive administrative fees for processing a simple refund. Expedia's corporate headquarters and legal venue is in Seattle, Washington.</p><!--opt-->"
+    "infobox": "<p>Expedia is an online travel agency (OTA) and not the operating airline. When booking a standalone flight, your contract of carriage is directly with the operating air carrier. In case of flight cancellations or requests for refunds of taxes and fees, Expedia and the airline often redirect consumers to one another. Legally, if Expedia has received a refund from the airline on your behalf, US DOT rules require them to forward it to you promptly. The OTA should not impose excessive or deceptive administrative fees for processing a simple refund. Expedia's corporate headquarters and legal venue is in Seattle, Washington.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "JustFly",
     "slug": "justfly",
     "adresse": "JustFly Corp.\n350 Main St, Suite 201\nMalden, MA 02148\nUSA",
-    "infobox": "<p>JustFly is an online booking intermediary (OTA) and not the operating air carrier. For ticket cancellations and the recovery of unused taxes and fees, customers often get caught in a runaround between the airline and the OTA. Legally, once the operating carrier processes and sends the refund back to the booking agent, US DOT regulations require the agent to release those funds to the consumer within a set timeline. JustFly cannot retain refunded airfare under the guise of excessive administrative fees. The corporate and customer service headquarters for JustFly's US entity is in Massachusetts.</p><!--opt-->"
+    "infobox": "<p>JustFly is an online booking intermediary (OTA) and not the operating air carrier. For ticket cancellations and the recovery of unused taxes and fees, customers often get caught in a runaround between the airline and the OTA. Legally, once the operating carrier processes and sends the refund back to the booking agent, US DOT regulations require the agent to release those funds to the consumer within a set timeline. JustFly cannot retain refunded airfare under the guise of excessive administrative fees. The corporate and customer service headquarters for JustFly's US entity is in Massachusetts.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "FlightHub",
     "slug": "flighthub",
     "adresse": "FlightHub Group Inc. (US Office)\n350 Main St, Suite 201\nMalden, MA 02148\nUSA",
-    "infobox": "<p>FlightHub is a prominent online travel agency (OTA) and not the actual airline performing the flight. In cases of ticket cancellations or requests for a refund of government taxes and fees, a common dispute arises where the airline and the OTA pass responsibility to one another. Legally, the contract holder who handled your payment is responsible for resolving the refund loop. Under US consumer protection rules, any refunds received by FlightHub from an airline must be processed and returned to the passenger's original payment method swiftly. The primary US legal and operations office is located in Massachusetts.</p><!--opt-->"
+    "infobox": "<p>FlightHub is a prominent online travel agency (OTA) and not the actual airline performing the flight. In cases of ticket cancellations or requests for a refund of government taxes and fees, a common dispute arises where the airline and the OTA pass responsibility to one another. Legally, the contract holder who handled your payment is responsible for resolving the refund loop. Under US consumer protection rules, any refunds received by FlightHub from an airline must be processed and returned to the passenger's original payment method swiftly. The primary US legal and operations office is located in Massachusetts.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "Gotogate",
     "slug": "gotogate",
     "adresse": "Etraveli Group / Gotogate, Inc.\n1209 Orange St\nWilmington, DE 19801\nUSA",
-    "infobox": "<p>Gotogate is an online booking portal (OTA) and not the operating airline. When canceling a flight or seeking a refund of taxes and airport fees, passengers frequently face finger-pointing between Gotogate and the carrier. Legally, if Gotogate acts as the merchant of record and receives the refunded amount from the airline, they are obligated to pass those funds back to the passenger. Excessive processing or handling fees for distributing a mandated refund are highly regulated and disputable under US consumer laws. The legal registration and registered agent for Gotogate in the US is in Delaware.</p><!--opt-->"
+    "infobox": "<p>Gotogate is an online booking portal (OTA) and not the operating airline. When canceling a flight or seeking a refund of taxes and airport fees, passengers frequently face finger-pointing between Gotogate and the carrier. Legally, if Gotogate acts as the merchant of record and receives the refunded amount from the airline, they are obligated to pass those funds back to the passenger. Excessive processing or handling fees for distributing a mandated refund are highly regulated and disputable under US consumer laws. The legal registration and registered agent for Gotogate in the US is in Delaware.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "Priceline Flights",
     "slug": "priceline-flights",
     "adresse": "Priceline.com, LLC\n800 Connecticut Ave\nNorwalk, CT 06854\nUSA",
-    "infobox": "<p>Priceline Flights is a prominent online travel agency (OTA) and booking portal, not the carrier executing the flight. For ticket cancellations and the refund of unused taxes and fees, the airline and the booking agent often refer customers back and forth. Legally, the merchant who charged your card must facilitate the refund. Under US DOT guidelines, once the airline authorizes and transfers the refund to Priceline, the agency is required to credit your account promptly. Priceline is headquartered in Norwalk, Connecticut, which serves as the primary legal jurisdiction for consumer complaints.</p><!--opt-->"
+    "infobox": "<p>Priceline Flights is a prominent online travel agency (OTA) and booking portal, not the carrier executing the flight. For ticket cancellations and the refund of unused taxes and fees, the airline and the booking agent often refer customers back and forth. Legally, the merchant who charged your card must facilitate the refund. Under US DOT guidelines, once the airline authorizes and transfers the refund to Priceline, the agency is required to credit your account promptly. Priceline is headquartered in Norwalk, Connecticut, which serves as the primary legal jurisdiction for consumer complaints.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "CheapTickets Flights",
     "slug": "cheaptickets-flights",
     "adresse": "CheapTickets (Expedia Group, Inc.)\n1111 Expedia Group Way W\nSeattle, WA 98119\nUSA",
-    "infobox": "<p>CheapTickets Flights is an online booking portal (OTA) operating under the Expedia Group and is not the operating airline. In the event of flight cancellations or attempts to recover unused taxes and fees, the airline often directs passengers to CheapTickets, while the OTA refers them back to the airline. Legally, if the airline has refunded the fare to CheapTickets, US DOT regulations require the OTA to transfer the refund to the passenger without undue delay. CheapTickets cannot impose unconscionably high service fees for simple refund distribution. Legal disputes are routed through Expedia's headquarters in Seattle, Washington.</p><!--opt-->"
+    "infobox": "<p>CheapTickets Flights is an online booking portal (OTA) operating under the Expedia Group and is not the operating airline. In the event of flight cancellations or attempts to recover unused taxes and fees, the airline often directs passengers to CheapTickets, while the OTA refers them back to the airline. Legally, if the airline has refunded the fare to CheapTickets, US DOT regulations require the OTA to transfer the refund to the passenger without undue delay. CheapTickets cannot impose unconscionably high service fees for simple refund distribution. Legal disputes are routed through Expedia's headquarters in Seattle, Washington.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "Travelocity Flights",
     "slug": "travelocity-flights",
     "adresse": "Travelocity (Expedia Group, Inc.)\n1111 Expedia Group Way W\nSeattle, WA 98119\nUSA",
-    "infobox": "<p>Travelocity Flights is a booking platform (OTA) and not the carrier executing the transportation. For ticket cancellations and the recovery of governmental taxes and fees, both the airline and the portal frequently deny direct responsibility, leaving consumers in a loop. Legally, the entity acting as the merchant of record must handle the financial reversal. Under DOT rules, once the carrier releases the refund to Travelocity, the agency must credit the customer promptly, and excessive processing fees are restricted. Formal legal matters and corporate escalations are managed at the Seattle, Washington headquarters.</p><!--opt-->"
+    "infobox": "<p>Travelocity Flights is a booking platform (OTA) and not the carrier executing the transportation. For ticket cancellations and the recovery of governmental taxes and fees, both the airline and the portal frequently deny direct responsibility, leaving consumers in a loop. Legally, the entity acting as the merchant of record must handle the financial reversal. Under DOT rules, once the carrier releases the refund to Travelocity, the agency must credit the customer promptly, and excessive processing fees are restricted. Formal legal matters and corporate escalations are managed at the Seattle, Washington headquarters.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "Orbitz Flights",
     "slug": "orbitz-flights",
     "adresse": "Orbitz, LLC (Expedia Group, Inc.)\n1111 Expedia Group Way W\nSeattle, WA 98119\nUSA",
-    "infobox": "<p>Orbitz Flights is an online booking portal (OTA) and not the carrier operating the aircraft. When a ticket is canceled, recovering unused taxes and fees often involves a finger-pointing dispute between Orbitz and the airline. Legally, US DOT standards mandate that once an airline returns flight funds to the booking agency, the OTA must forward them to the passenger within 7 business days for credit cards. Charging exorbitant administrative fees to execute this pass-through is generally prohibited. Orbitz corporate operations and consumer dispute resolutions are handled at the main Seattle, Washington campus.</p><!--opt-->"
+    "infobox": "<p>Orbitz Flights is an online booking portal (OTA) and not the carrier operating the aircraft. When a ticket is canceled, recovering unused taxes and fees often involves a finger-pointing dispute between Orbitz and the airline. Legally, US DOT standards mandate that once an airline returns flight funds to the booking agency, the OTA must forward them to the passenger within 7 business days for credit cards. Charging exorbitant administrative fees to execute this pass-through is generally prohibited. Orbitz corporate operations and consumer dispute resolutions are handled at the main Seattle, Washington campus.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "eDreams US",
     "slug": "edreams-us",
     "adresse": "Vacaciones eDreams, S.L. (US Operations)\nCalle de Manzanares 4\n28005 Madrid\nSpain",
-    "infobox": "<p>eDreams US is an online travel agency (OTA) and not the operating airline. For ticket cancellations, refunds, and the return of taxes and airport fees, it is crucial to track who collected the payment. In practice, OTAs and airlines often point fingers at each other over refund delays. Legally, if eDreams receives a refund from the air carrier, they must immediately forward it to the customer. They are not permitted to withhold funds or levy unconscionable processing fees for passing through a refund. The primary legal headquarters for eDreams is located in Barcelona, Spain, though they serve the US market digitally.</p><!--opt-->"
+    "infobox": "<p>eDreams US is an online travel agency (OTA) and not the operating airline. For ticket cancellations, refunds, and the return of taxes and airport fees, it is crucial to track who collected the payment. In practice, OTAs and airlines often point fingers at each other over refund delays. Legally, if eDreams receives a refund from the air carrier, they must immediately forward it to the customer. They are not permitted to withhold funds or levy unconscionable processing fees for passing through a refund. The primary legal headquarters for eDreams is located in Barcelona, Spain, though they serve the US market digitally.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "OneTravel",
     "slug": "onetravel",
     "adresse": "Fareportal, Inc. (OneTravel Division)\n135 W 50th St, Suite 500\nNew York, NY 10020\nUSA",
-    "infobox": "<p>OneTravel is an online travel agency (OTA) and not the operating airline. If your flight is canceled and you request a refund of taxes and fees, you will often face a runaround where OneTravel directs you to the airline and the airline directs you back to the OTA. Legally, under US Department of Transportation (DOT) guidelines, if the airline issues a refund to OneTravel, they are obligated to pass it on to you without delay. Charging unreasonable internal processing fees for a standard carrier-mandated refund is prohibited under consumer protection laws. OneTravel's corporate parent, Fareportal, is based in New York, NY.</p><!--opt-->"
+    "infobox": "<p>OneTravel is an online travel agency (OTA) and not the operating airline. If your flight is canceled and you request a refund of taxes and fees, you will often face a runaround where OneTravel directs you to the airline and the airline directs you back to the OTA. Legally, under US Department of Transportation (DOT) guidelines, if the airline issues a refund to OneTravel, they are obligated to pass it on to you without delay. Charging unreasonable internal processing fees for a standard carrier-mandated refund is prohibited under consumer protection laws. OneTravel's corporate parent, Fareportal, is based in New York, NY.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "MyTrip",
     "slug": "mytrip",
     "adresse": "Etraveli Group / MyTrip\n1209 Orange St\nWilmington, DE 19801\nUSA",
-    "infobox": "<p>MyTrip is an online booking intermediary (OTA) and not the operating air carrier. When dealing with cancellations and the recovery of unused taxes or airport fees, MyTrip and the airlines often refer customers to each other. Legally, the merchant of record is responsible for processing refunds once the airline releases the funds. US consumer protection and DOT regulations dictate that the agent must pass airline-approved refunds directly back to the passenger's original payment method in a timely manner, without adding unconscionable service fees. MyTrip's registered agent and legal venue in the United States is in Delaware.</p><!--opt-->"
+    "infobox": "<p>MyTrip is an online booking intermediary (OTA) and not the operating air carrier. When dealing with cancellations and the recovery of unused taxes or airport fees, MyTrip and the airlines often refer customers to each other. Legally, the merchant of record is responsible for processing refunds once the airline releases the funds. US consumer protection and DOT regulations dictate that the agent must pass airline-approved refunds directly back to the passenger's original payment method in a timely manner, without adding unconscionable service fees. MyTrip's registered agent and legal venue in the United States is in Delaware.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "Hopper",
     "slug": "hopper",
     "adresse": "Hopper (USA), Inc.\n265 Franklin Street, Suite 1702\nBoston, MA 02110\nUSA",
-    "infobox": "<p>Hopper is an online travel agency (OTA) specializing in mobile-first flight bookings and is not the operating airline. For ticket cancellations and refunds of taxes and fees, the primary point of contact is the merchant of record. Because Hopper frequently sells proprietary financial technology products (like price freezes or cancellation protection), refund terms can vary depending on what add-ons you purchased. Under US DOT guidelines, once an airline processes a refund, the booking agent must transfer the funds back to you without unnecessary delay. Hopper's corporate headquarters is in Boston, Massachusetts.</p><!--opt-->"
+    "infobox": "<p>Hopper is an online travel agency (OTA) specializing in mobile-first flight bookings and is not the operating airline. For ticket cancellations and refunds of taxes and fees, the primary point of contact is the merchant of record. Because Hopper frequently sells proprietary financial technology products (like price freezes or cancellation protection), refund terms can vary depending on what add-ons you purchased. Under US DOT guidelines, once an airline processes a refund, the booking agent must transfer the funds back to you without unnecessary delay. Hopper's corporate headquarters is in Boston, Massachusetts.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "ASAP Tickets",
     "slug": "asap-tickets",
     "adresse": "Trevolution Group / ASAP Tickets\n1000 N West Street, Suite 1200\nWilmington, DE 19801\nUSA",
-    "infobox": "<p>ASAP Tickets is an online travel agency (OTA) and flight consolidator specializing in discounted international airline tickets, and is not the operating airline. In cases of ticket cancellations or requests for refunds of unused taxes and fees, consumers often experience complex communication between the consolidator and the carrier. Under US DOT rules, once the airline approves and transmits a refund, ASAP Tickets must promptly credit the passenger's account. Be sure to carefully review their booking terms, as consolidator tickets often carry strict cancellation penalties and unique change policies. Their legal registration is in Delaware.</p><!--opt-->"
+    "infobox": "<p>ASAP Tickets is an online travel agency (OTA) and flight consolidator specializing in discounted international airline tickets, and is not the operating airline. In cases of ticket cancellations or requests for refunds of unused taxes and fees, consumers often experience complex communication between the consolidator and the carrier. Under US DOT rules, once the airline approves and transmits a refund, ASAP Tickets must promptly credit the passenger's account. Be sure to carefully review their booking terms, as consolidator tickets often carry strict cancellation penalties and unique change policies. Their legal registration is in Delaware.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "Skiplagged",
     "slug": "skiplagged",
     "adresse": "Skiplagged, Inc.\nPO Box 318\nNew York, NY 10003\nUSA",
-    "infobox": "<p>Skiplagged is a specialized flight booking portal (OTA) famous for finding \"hidden-city\" ticketing opportunities, and is not the operating air carrier. When you use hidden-city ticketing, traditional refund and cancellation procedures can become highly complicated, and airlines strictly prohibit this practice in their contract of carriage. For standard cancellations and refunds of taxes and fees, the refund must legally be passed back to you if the airline releases it to the OTA. Skiplagged cannot retain airline-refunded ticket costs under the guise of excessive admin fees. Their corporate mailing address is in New York, NY.</p><!--opt-->"
+    "infobox": "<p>Skiplagged is a specialized flight booking portal (OTA) famous for finding \"hidden-city\" ticketing opportunities, and is not the operating air carrier. When you use hidden-city ticketing, traditional refund and cancellation procedures can become highly complicated, and airlines strictly prohibit this practice in their contract of carriage. For standard cancellations and refunds of taxes and fees, the refund must legally be passed back to you if the airline releases it to the OTA. Skiplagged cannot retain airline-refunded ticket costs under the guise of excessive admin fees. Their corporate mailing address is in New York, NY.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "SmartFares",
     "slug": "smartfares",
     "adresse": "LBF Travel, Inc. (SmartFares)\n4545 Murphy Canyon Road, Suite 210\nSan Diego, CA 92123\nUSA",
-    "infobox": "<p>SmartFares is an online travel agency (OTA) and flight booking portal, not the carrier operating the flight. If your flight is canceled and you require a refund of taxes and fees, SmartFares and the airline may refer you back and forth. Legally, under US DOT guidelines, the booking intermediary must quickly forward any refunds authorized by the airline back to the passenger's original payment method. SmartFares is not permitted to impose unconscionably high service fees for simply processing standard airline-mandated refunds. Their corporate parent, LBF Travel, is based in San Diego, California.</p><!--opt-->"
+    "infobox": "<p>SmartFares is an online travel agency (OTA) and flight booking portal, not the carrier operating the flight. If your flight is canceled and you require a refund of taxes and fees, SmartFares and the airline may refer you back and forth. Legally, under US DOT guidelines, the booking intermediary must quickly forward any refunds authorized by the airline back to the passenger's original payment method. SmartFares is not permitted to impose unconscionably high service fees for simply processing standard airline-mandated refunds. Their corporate parent, LBF Travel, is based in San Diego, California.</p><!--opt-->",
+    "portal_url":"#"
   }
 
 ]

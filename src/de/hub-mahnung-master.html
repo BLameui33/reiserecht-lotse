@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Letzte Mahnung generieren (Reise, Flug & Hotel)</title>
+  <meta name="description" content="Anbieter ignoriert Ihre Beschwerde? Setzen Sie Fluggesellschaften, Hotels und Reiseveranstalter mit unserem Generator kostenlos offiziell in Verzug.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, follow">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+  {{SEO_LINKS}}
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+  <span style="font-size: 0.9em; color: #666;">Eskalation & Verzug</span>
+</header>
+
+<div class="page-container">
+  
+  <div class="back-to-hub-banner" style="margin-bottom: 20px;">
+    <a href="index.html">
+      <span class="arrow">&larr;</span> Zurück zur Startseite
+    </a>
+  </div>
+
+  <h1>Gegenseite in Verzug setzen (Letzte Mahnung)</h1>
+  <p>Sie haben Ihre erste Forderung wegen Flugverspätung, Hotelmängeln oder Stornierung bereits verschickt, aber der Anbieter reagiert seit über 14 Tagen nicht? Oder Sie werden mit Standard-Nachrichten hingehalten?</p>
+  <p>Jetzt ist es an der Zeit, rechtlichen Druck aufzubauen. Mit unseren kostenlosen Generatoren erstellen Sie in 2 Minuten ein wasserdichtes Mahnschreiben. Sie setzen die Gegenseite offiziell in Verzug (nach geltendem Zivilrecht) und drohen die Schlichtungsstelle bzw. anwaltliche Hilfe an.</p>
+
+  <!-- SEO-LIGHT: Kompakte rechtliche Einordnung -->
+<div class="legal-highlights-seo" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin: 20px 0 25px 0;">
+  <div style="background: #fff; border: 1px solid #f5c6c6; padding: 12px 15px; border-radius: 6px; font-size: 0.9em;">
+    <strong style="color: #aa3131; display: block; margin-bottom: 4px;">Gesetzlicher Verzug (§ 286 BGB)</strong>
+    <span style="color: #555;">Nach Ablauf der Frist gerät der Anbieter automatisch in Verzug.</span>
+  </div>
+  <div style="background: #fff; border: 1px solid #f5c6c6; padding: 12px 15px; border-radius: 6px; font-size: 0.9em;">
+    <strong style="color: #aa3131; display: block; margin-bottom: 4px;">Nachweisbare Fristsetzung</strong>
+    <span style="color: #555;">Kompakte Frist von 7 bis 14 Tagen schafft die rechtliche Basis.</span>
+  </div>
+  <div style="background: #fff; border: 1px solid #f5c6c6; padding: 12px 15px; border-radius: 6px; font-size: 0.9em;">
+    <strong style="color: #aa3131; display: block; margin-bottom: 4px;">Vorbereitung Schlichtung</strong>
+    <span style="color: #555;">Eine unbeantwortete Mahnung ist die Voraussetzung für kostenlose Schlichtung.</span>
+  </div>
+</div>
+
+  <!-- Schnellauswahl für den Nutzer -->
+  <div class="selection-box" style="background: #fdf5f5; border: 1px solid #f5c6c6; border-top: 5px solid #aa3131; padding: 25px; border-radius: 8px; margin: 30px 0;">
+    <h3 style="margin-top: 0; color: #aa3131;">Mahnung jetzt kostenlos generieren:</h3>
+    <p style="font-size: 0.9em; color: #555;">Wählen Sie das Unternehmen aus, das Sie in Verzug setzen möchten:</p>
+    <select id="hubSelector" style="width: 100%; padding: 12px; margin-bottom: 15px; border-radius: 4px; border: 1px solid #ccc; font-size: 16px;">
+      <option value="">-- Bitte Anbieter wählen --</option>
+      {{MAHNUNG_OPTIONS}}
+    </select>
+    <button onclick="goToSelected()" class="button-primary" style="background: #aa3131; width: 100%;">Mahnung erstellen ➔</button>
+  </div>
+
+  <hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
+
+  <!-- SEO Link-Liste für Google -->
+  <h2>Verzeichnis: Mahnungs-Vorlagen (A-Z)</h2>
+  <p style="font-size: 0.9em; color: #666;">Wählen Sie Ihren Anbieter aus unserer Datenbank, um das spezifische Mahnschreiben samt korrekter Kontaktadresse und Hinweisen zur zuständigen Schlichtungsstelle zu laden:</p>
+  
+  <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
+    {{MAHNUNG_LINKS}}
+  </div>
+
+  <hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
+
+<!-- SEO MINI-FAQ BEREICH -->
+<section class="seo-faq-mini" style="line-height: 1.6; margin-bottom: 30px;">
+  <h2 style="font-size: 1.3em; color: #aa3131;">Häufige Fragen zur letzten Mahnung</h2>
+
+  <div style="margin-bottom: 15px;">
+    <strong style="display: block; color: #333;">Warum ist eine schriftliche Mahnung juristisch notwendig?</strong>
+    <p style="margin: 4px 0 0 0; font-size: 0.95em; color: #555;">
+      Erst wenn Sie dem Anbieter eine ausdrückliche Zahlungsaufforderung mit konkretem Datum setzen, gerät dieser rechtlich in Verzug. Erst ab diesem Zeitpunkt können Folgekosten (z. B. Schlichtungsverfahren oder Verzugszinsen) geltend gemacht werden.
+    </p>
+  </div>
+
+  <div style="margin-bottom: 15px;">
+    <strong style="display: block; color: #333;">Welche Frist sollte in der Letzten Mahnung gesetzt werden?</strong>
+    <p style="margin: 4px 0 0 0; font-size: 0.95em; color: #555;">
+      Da der Anbieter bei der letzten Mahnung meist schon die ursprüngliche Zahlungsfrist ignoriert hat, ist eine kurze Nachfrist von 7 bis 10 Werktagen rechtlich vollkommen ausreichend.
+    </p>
+  </div>
+
+  <div>
+    <strong style="display: block; color: #333;">Was passiert, wenn der Anbieter auch auf die Mahnung nicht reagiert?</strong>
+    <p style="margin: 4px 0 0 0; font-size: 0.95em; color: #555;">
+      Nach Ablauf der Mahnfrist können Sie ohne weitere Ankündigung ein kostenfreies Schlichtungsverfahren einleiten oder einen Anwalt beauftragen.
+    </p>
+  </div>
+</section>
+
+<!-- JSON-LD FAQ Schema für Suchmaschinen (stärkt Snippet-Ranking ohne Platz zu verbrauchen) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Warum ist eine schriftliche Mahnung juristisch notwendig?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Erst wenn Sie dem Anbieter eine ausdrückliche Zahlungsaufforderung mit konkretem Datum setzen, gerät dieser rechtlich in Verzug. Erst ab diesem Zeitpunkt können Folgekosten oder Schlichtungsverfahren durchgesetzt werden."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Welche Frist sollte in der Letzten Mahnung gesetzt werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Da der Anbieter meist schon die erste Frist ignoriert hat, ist eine kurze Nachfrist von 7 bis 10 Werktagen rechtlich vollkommen ausreichend."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Was passiert, wenn der Anbieter auch auf die Mahnung nicht reagiert?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nach Ablauf der Mahnfrist können Sie kostenfrei ein Schlichtungsverfahren einleiten oder anwaltliche Hilfe in Anspruch nehmen."
+      }
+    }
+  ]
+}
+</script>
+
+</div>
+
+<div class="trust-section">
+    <h3>Expertise im Reiserecht & Fahrgastrechten</h3>
+    <p class="trust-text">
+        Unsere Ratgeber und Generatoren basieren auf der strikten Auswertung aktueller EU-Verordnungen (wie EG 261/2004), BGH-Urteilen und dem nationalen Reiserecht. 
+        Sie werden von Marc (Projektleitung) & Team entwickelt, um Reisenden eine rechtssichere Durchsetzung gegenüber Airlines und Reiseveranstaltern zu ermöglichen.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Wichtiger Hinweis: Unsere Tools bieten Hilfe zur Selbsthilfe bei Flugverspätung, Hotelmängeln oder Zugausfällen. Sie ersetzen keine individuelle Rechtsberatung durch einen Anwalt.
+        </span>
+    </p>
+
+    <!-- Umlaut in URL entfernt! -->
+    <a href="ueber-uns.html" class="trust-link">
+        Details zur rechtlichen Methodik & Redaktion erfahren →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Problem mit dem Flug, der Bahn oder dem Hotel?</strong><br>
+        Fix-My-Trip prüft in wenigen Schritten Ihren Anspruch auf Entschädigung, Ticket-Erstattung oder Reisepreisminderung. <br>
+        <em>Ein Service von Fix my Trip.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Fehler im Tool entdeckt?</strong> Da wir als automatisiertes Portal keine individuelle Rechtsberatung leisten, helfen Sie uns enorm, wenn Sie Bugs oder veraltete Anbieter melden: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Feedback an unsere Zentrale senden</a>.
+</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Über uns</a> | 
+        <a href="index.html">Startseite</a> | 
+        <a href="impressum.html">Impressum</a> | 
+        <a href="datenschutz.html">Datenschutz</a>
+    </nav>
+</footer>
+
+<script>
+function goToSelected() {
+  const sel = document.getElementById('hubSelector');
+  if (sel.value) {
+    window.location.href = sel.value;
+  }
+}
+</script>
+</body>
+</html>

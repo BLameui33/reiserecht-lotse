@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Instruções & Escalação: Reclamação contra a iryo</title>
+  <meta name="description" content="O seu pedido à iryo foi criado? Descubra aqui os próximos passos e o que deve fazer se a sua solicitação for ignorada.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="https://www.fix-my-trip.com/pt/beschwerde-anleitung-iryo.html">
+<link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/beschwerde-anleitung-iryo.html">
+<link rel="alternate" hreflang="pt" href="https://www.fix-my-trip.com/pt/beschwerde-anleitung-iryo.html">
+<link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/es/beschwerde-anleitung-iryo.html">
+  
+  <style>
+    /* Grundlegendes Design & Weißraum */
+    :root {
+      --primary-dark-red: #7b1113;
+      --light-grey: #f9f9f9;
+      --text-color: #333333;
+      --border-color: #e0e0e0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text-color);
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+    }
+
+    /* Header */
+    .site-header {
+      padding: 20px 40px;
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #ffffff;
+    }
+
+    .site-logo {
+      font-size: 1.5em;
+      font-weight: bold;
+      color: var(--primary-dark-red);
+      text-decoration: none;
+    }
+
+    .header-subtitle {
+      font-size: 0.9em;
+      color: #666;
+    }
+
+    /* Layout mit Navigation links und Content rechts */
+    .page-wrapper {
+      display: flex;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 40px;
+      gap: 60px;
+    }
+
+    /* Sidebar Navigation */
+    .sidebar {
+      flex: 0 0 280px;
+      position: sticky;
+      top: 40px;
+      align-self: flex-start;
+    }
+
+    .sidebar h3 {
+      font-size: 1.1em;
+      color: var(--text-color);
+      border-bottom: 2px solid var(--primary-dark-red);
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    .sidebar-menu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .sidebar-menu li {
+      margin-bottom: 15px;
+    }
+
+    .sidebar-menu a {
+      text-decoration: none;
+      color: #555;
+      font-size: 0.95em;
+      display: block;
+      transition: color 0.3s ease;
+    }
+
+    .sidebar-menu a:hover {
+      color: var(--primary-dark-red);
+      font-weight: 500;
+    }
+
+    .sidebar-category {
+      font-weight: bold;
+      color: var(--text-color);
+      margin-top: 25px;
+      margin-bottom: 10px;
+      font-size: 0.9em;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* Hauptinhalt */
+    .main-content {
+      flex: 1;
+      max-width: 800px;
+    }
+
+    h1 {
+      font-size: 2.2em;
+      margin-top: 0;
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+
+    h2 {
+      font-size: 1.6em;
+      color: var(--primary-dark-red);
+      margin-top: 50px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    /* PDF Button */
+    .pdf-download-bar {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 30px;
+    }
+
+    .btn-pdf {
+      background-color: transparent;
+      border: 1px solid var(--primary-dark-red);
+      color: var(--primary-dark-red);
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 0.9em;
+      transition: all 0.3s ease;
+    }
+
+    .btn-pdf:hover {
+      background-color: var(--primary-dark-red);
+      color: #ffffff;
+    }
+
+    /* Universelle Boxen (Edel, dezent) */
+    .step-box {
+      background: var(--light-grey);
+      border-left: 3px solid var(--primary-dark-red);
+      padding: 25px;
+      margin: 25px 0;
+    }
+
+    .step-box h3 {
+      margin-top: 0;
+      font-size: 1.2em;
+      color: var(--text-color);
+    }
+
+    .btn-primary {
+      display: inline-block;
+      background-color: var(--primary-dark-red);
+      color: #ffffff;
+      padding: 12px 24px;
+      text-decoration: none;
+      margin-top: 15px;
+      font-size: 0.95em;
+    }
+
+    .btn-primary:hover {
+      background-color: #5a0c0e;
+    }
+
+    /* Spezifische Platzhalter Boxen */
+    .info-box {
+      background: #ffffff;
+      padding: 25px;
+      border: 1px solid var(--border-color);
+      margin-bottom: 25px;
+    }
+
+    .address-box {
+      background: var(--light-grey);
+      padding: 15px;
+      font-family: monospace;
+      font-size: 1em;
+      color: #444;
+    }
+
+    /* --- DRUCK & PDF OPTIMIERUNG --- */
+    @media print {
+      body {
+        background-color: #fff;
+        color: #000;
+      }
+      .sidebar, .site-header, .pdf-download-bar, .btn-primary {
+        display: none !important;
+      }
+      .page-wrapper {
+        padding: 0;
+        margin: 0;
+        display: block;
+      }
+      .main-content {
+        max-width: 100%;
+      }
+      .step-box {
+        border: 1px solid #ccc;
+        border-left: 4px solid var(--primary-dark-red);
+        page-break-inside: avoid;
+      }
+      h1, h2, h3 {
+        page-break-after: avoid;
+      }
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+    }
+
+    /* Mobile Anpassung */
+    @media (max-width: 900px) {
+      .page-wrapper {
+        flex-direction: column;
+        padding: 20px;
+      }
+      .sidebar {
+        position: static;
+        flex: none;
+        width: 100%;
+      }
+    }
+
+    /* Versteckt alle Kategorien standardmäßig */
+    .category-content {
+      display: none;
+      animation: fadeIn 0.5s ease;
+    }
+
+    /* Weiches Einblenden */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Markiert den aktiven Menüpunkt */
+    .sidebar-menu a.active-link {
+      color: var(--primary-dark-red);
+      font-weight: bold;
+      border-left: 3px solid var(--primary-dark-red);
+      padding-left: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+  <span class="header-subtitle">Guia & Plano de Ação</span>
+</header>
+
+<div class="page-wrapper">
+  
+  <!-- LINKE SPALTE: Navigation -->
+  <nav class="sidebar">
+    <h3>Tópicos & Categorias</h3>
+    <ul class="sidebar-menu">
+      <div class="sidebar-category">Voos & Bagagem</div>
+      <li><a href="#flugverspaetung" onclick="showCategory('flugverspaetung', this)">Atrasos & Cancelamentos de Voos</a></li>
+      <li><a href="#gepaeck" onclick="showCategory('gepaeck', this)">Mala perdida ou danificada</a></li>
+      <li><a href="#steuern" onclick="showCategory('steuern', this)">Reembolso de Taxas & Impostos</a></li>
+
+      <div class="sidebar-category">Hotel & Viagens Organizadas</div>
+      <li><a href="#hotelmaengel" onclick="showCategory('hotelmaengel', this)">Problemas no Hotel & Viagem</a></li>
+      <li><a href="#reiseruecktritt" onclick="showCategory('reiseruecktritt', this)">Cancelamento da Viagem & Custos</a></li>
+
+      <div class="sidebar-category">Outros Meios de Transporte</div>
+      <li><a href="#bahn" onclick="showCategory('bahn', this)">Atrasos & Cancelamentos de Comboios</a></li>
+      <li><a href="#kreuzfahrt" onclick="showCategory('kreuzfahrt', this)">Problemas em Cruzeiros</a></li>
+
+      <div class="sidebar-category">Alojamentos & Portais</div>
+      <li><a href="#ferienhaus" onclick="showCategory('ferienhaus', this)">Problemas em Casas de Férias</a></li>
+      <li><a href="#airbnb" onclick="showCategory('airbnb', this)">Airbnb & Reembolsos</a></li>
+      <li><a href="#buchungsportale" onclick="showCategory('buchungsportale', this)">Reembolso de Portais (OTA)</a></li>
+    </ul>
+  </nav>
+
+  <!-- RECHTE SPALTE: Inhalt -->
+  <main class="main-content">
+    
+    <h1>Passo a passo: Como exigir o seu dinheiro da iryo</h1>
+    <p>Criou a carta de reclamação com sucesso? Muito bem. Siga agora este plano de 3 passos para evitar erros formais e concretizar a sua exigência de forma eficaz.</p>
+    
+    <!-- Universeller Teil -->
+    <div class="step-box">
+        <h3>1. Enviar recibos e comprovativos</h3>
+        <p>Nunca envie a sua carta sem os respetivos comprovativos. Anexe cópias das confirmações de reserva, bilhetes e recibos (para despesas incorridas). Guarde sempre os originais nos seus documentos pessoais.</p>
+    </div>
+    
+    <div class="step-box">
+        <h3>2. O envio correto</h3>
+        <p>Dê preferência à utilização do formulário de contacto online ou ao endereço de e-mail da iryo. Faça uma captura de ecrã (screenshot) do formulário preenchido ou do e-mail como comprovativo. Em alternativa, recomenda-se o envio por carta registada (idealmente com aviso de receção) para a morada postal indicada abaixo.</p>
+    </div>
+    
+    <div class="step-box">
+        <h3>3. O prazo expirou? Próximo passo</h3>
+        <p>Estabeleceu um prazo razoável (geralmente 14 dias). Se a iryo não responder ou recusar o pagamento, terá de aumentar a pressão. Utilize para o efeito o nosso gerador para a notificação de mora (aviso final).</p>
+        <a href="letzte-mahnung-nachdruck-iryo.html" class="btn-primary">
+            Gerar aviso final para a iryo
+        </a>
+    </div>
+
+    <hr style="margin: 50px 0; border: 0; border-top: 1px solid var(--border-color);">
+
+    <!-- Spezifischer Teil (Universal-Daten aus JSON) -->
+    <p><strong>Morada postal oficial para envio de carta registada:</strong></p>
+    <div class="address-box">Iryo – Intermodalidad de Levante, S.A.
+Atención al Cliente
+Calle Ribera del Loira, 60
+28042 Madrid
+Espanha</div>
+
+    <p style="margin-top: 20px;"><strong>Centro de Arbitragem competente:</strong><br>
+    Caso o aviso final também não produza resultados, pode dirigir-se a esta entidade oficial:<br>
+    <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener" style="color: var(--primary-dark-red);">Juntas Arbitrales de Consumo (Espanha) ou Resolução de Litígios em Linha (Plataforma RLL)</a></p>
+
+    <div class="info-box" style="margin-top: 30px;">
+        <h4 style="margin-top:0; color: var(--primary-dark-red);">Comprei o bilhete através de terceiros, mas o comboio da iryo teve atraso – quem é responsável?</h4>
+        <p style="margin-bottom: 0;">O interlocutor para a prestação de transporte é, em regra, a empresa ferroviária operadora – neste caso a iryo – independentemente da plataforma através da qual o bilhete foi comprado. Dirija o seu pedido de indemnização diretamente à iryo, juntando o comprovativo de compra do terceiro.</p>
+    </div>
+        <div class="info-box" style="margin-top: 30px;">
+        <h4 style="margin-top:0; color: var(--primary-dark-red);">Quanto tempo tenho para pedir o reembolso do preço do bilhete junto da iryo?</h4>
+        <p style="margin-bottom: 0;">Para o reembolso do preço do bilhete ao abrigo do regulamento europeu dos direitos dos passageiros ferroviários, aplica-se habitualmente um prazo de um ano a contar da data da viagem, dentro do qual o pedido deve ser apresentado à iryo. Para direitos de indemnização mais amplos, como custos adicionais causados pelo atraso, aplica-se antes o prazo civil geral de três anos.</p>
+    </div>
+    <div class="info-box" style="margin-top: 30px;">
+        <h4 style="margin-top:0; color: var(--primary-dark-red);">O que fazer se a iryo recusar a minha indemnização?</h4>
+        <p style="margin-bottom: 0;">Verifique primeiro se a recusa da iryo foi fundamentada de forma objetiva e compreensível. Não sendo esse o caso, dirija-se novamente por escrito à empresa, fixando um último prazo, e recorra depois ao centro de arbitragem competente. Este analisa o seu caso de forma gratuita e independente, antes de ser necessário um processo judicial.</p>
+    </div>
+
+    <div class="step-box" style="background-color: transparent; border: 1px solid var(--border-color); border-left: 3px solid #333;">
+        <p style="margin: 0;"><strong>Nota sobre a iryo:</strong> Dica: a iryo é uma operadora privada de alta velocidade que concorre com a Renfe em Espanha, sobretudo em ligações como Madrid-Barcelona. Guarde o bilhete ou a confirmação de reserva com o código de ligação exato, já que o cálculo da indemnização é feito com base na viagem concreta. Sendo a iryo uma operadora relativamente recente no mercado espanhol, é aconselhável guardar sempre a confirmação de reserva em formato digital, já que o histórico de viagens na conta online por vezes não fica disponível de forma tão completa como nos operadores históricos.</p>
+    </div>
+
+    <div class="pdf-download-bar">
+      <button class="btn-pdf" onclick="window.print()">Guardar instruções em PDF</button>
+    </div>
+
+    <!-- Start-Hinweis, der verschwindet, sobald eine Kategorie gewählt wird -->
+    <div id="selection-prompt" style="text-align: center; padding: 50px 20px; background: #f9f9f9; border: 1px dashed #ccc; margin-top: 40px;">
+        <h3 style="color: var(--primary-dark-red); margin-top: 0;">Selecionar instruções específicas</h3>
+        <p style="margin-bottom: 0; color: #555;">Por favor, selecione o seu problema de viagem no menu à esquerda.<br>As respetivas instruções e dicas serão então apresentadas aqui e poderão ser guardadas como PDF.</p>
+    </div>
+
+    <!--  DIE KATEGORIEN -->
+
+    <!-- KATEGORIE: Flugverspätung & Ausfall -->
+    <div id="flugverspaetung" class="category-content" style="padding-top: 20px;">
+        <h2>Atrasos & Cancelamentos de Voos</h2>
+        <p>Se o seu voo chegar com grande atraso ou for cancelado à última hora, está protegido pelo Regulamento Europeu dos Direitos dos Passageiros Aéreos (Regulamento (CE) n.º 261/2004). Dependendo da rota do voo, tem direito a uma indemnização fixa de 250, 400 ou 600 Euros. Isto aplica-se independentemente do preço original do bilhete.</p>
+        
+        <h3 style="margin-top: 30px; font-size: 1.2em;">Quando tem direito a uma indemnização?</h3>
+        <ul style="line-height: 1.8; margin-bottom: 30px;">
+            <li><strong>A regra das três horas:</strong> O que importa é que chegue ao seu aeroporto de destino final com, pelo menos, três horas de atraso. A hora de partida não é decisiva para este efeito.</li>
+            <li><strong>Cancelamento de última hora:</strong> O voo foi cancelado a menos de 14 dias da partida planeada e não lhe foi oferecida uma alternativa de transporte adequada.</li>
+            <li><strong>Âmbito de aplicação:</strong> O voo partiu da UE. Em alternativa, o voo aterrou na UE e foi operado por uma companhia aérea europeia.</li>
+        </ul>
+
+        <div class="info-box" style="background-color: #fcfcfc; border-left: 4px solid var(--primary-dark-red);">
+            <h4 style="margin-top: 0; font-size: 1.1em;">Dicas & Truques para um processo bem-sucedido</h4>
+            <p>As companhias aéreas recusam frequentemente os pagamentos de início com justificações genéricas. Não se deixe desanimar. Siga os seguintes conselhos:</p>
+            <ul style="line-height: 1.7; margin-bottom: 0;">
+                <li><strong>Guardar documentos:</strong> Não deite fora os seus cartões de embarque, confirmações de reserva e etiquetas de bagagem. Estes servem como comprovativos fundamentais da sua reserva.</li>
+                <li><strong>Pedir confirmação do motivo:</strong> Pergunte ao pessoal de terra ainda no aeroporto qual o motivo exato do atraso e peça, se possível, uma confirmação por escrito.</li>
+                <li><strong>Verificar as desculpas:</strong> Muitas vezes, as companhias aéreas invocam as chamadas "circunstâncias extraordinárias" (como mau tempo imprevisível ou greves de terceiros) para não terem de pagar. Frequentemente, descobre-se mais tarde que se tratou de defeitos técnicos internos ou falta de pessoal. Nestes casos, a companhia aérea tem de pagar.</li>
+                <li><strong>Despesas de assistência:</strong> Pagou comida ou bebidas do seu bolso durante o tempo de espera porque a companhia aérea não ofereceu nada? Envie os recibos juntamente com o pedido principal.</li>
+            </ul>
+        </div>
+
+        <h3 style="margin-top: 30px; font-size: 1.2em;">Como fazer valer os seus direitos</h3>
+        <p>Para apresentar o seu pedido de forma correta e dentro dos prazos estipulados à iryo, necessita de uma carta precisa. Não precisa de contratar um serviço dispendioso que ficará com uma grande parte da sua indemnização.</p>
+        <p>Em vez disso, utilize o nosso gerador gratuito. Este cria a carta exata, incluindo todas as referências relevantes ao Regulamento dos Direitos dos Passageiros Aéreos. Terá apenas de enviar o documento finalizado.</p>
+        
+        <a href="flugverspaetung-info.html" class="btn-primary" style="margin-top: 10px;">
+            Criar carta de reclamação por atraso de voo
+        </a>
+    </div>
+
+    <!-- KATEGORIE: Koffer weg oder kaputt -->
+    <div id="gepaeck" class="category-content" style="padding-top: 20px;">
+        <h2>Mala atrasada, danificada ou perdida</h2>
+        <p>Se a sua bagagem não chegar ao destino ou chegar danificada ao tapete, tem direito a uma indemnização por danos. Na maioria dos voos internacionais (incluindo na UE, nos EUA e no Reino Unido), aplica-se a <strong>Convenção de Montreal</strong>, de âmbito mundial. Esta convenção obriga as companhias aéreas a assumir a responsabilidade por problemas com a bagagem.</p>
+        
+        <h3 style="margin-top: 30px; font-size: 1.2em;">O passo mais importante: O relatório PIR</h3>
+        <p>Nunca saia do aeroporto sem ter reportado oficialmente o dano ou a perda. Dirija-se imediatamente ao balcão de bagagens (frequentemente designado por "Baggage Claim" ou "Lost and Found") e exija a emissão de um <strong>Property Irregularity Report (PIR) - Relatório de Irregularidade de Bagagem</strong>. Este documento, que contém um número de processo, é o requisito básico e absoluto para mais tarde exigir o seu dinheiro de volta à iryo.</p>
+
+        <div class="info-box" style="background-color: #fcfcfc; border-left: 4px solid var(--primary-dark-red);">
+            <h4 style="margin-top: 0; font-size: 1.1em;">Dicas & Truques: Prazos e Compras de Emergência</h4>
+            <p>Os prazos de notificação para problemas com a bagagem são extremamente rigorosos. Se não os cumprir, perde totalmente o seu direito. Preste atenção aos seguintes pontos:</p>
+            <ul style="line-height: 1.7; margin-bottom: 0;">
+                <li><strong>Prazo em caso de danos:</strong> Se a sua mala estiver danificada, tem de notificar a companhia aérea por escrito no prazo de <strong>7 dias</strong>. Tire imediatamente fotografias a todos os rasgões, amolgadelas ou rodas em falta.</li>
+                <li><strong>Prazo em caso de atraso:</strong> Se a mala chegar com atraso, tem <strong>21 dias</strong> após a receção da bagagem para apresentar as despesas das suas compras de emergência.</li>
+                <li><strong>O que são compras de emergência permitidas?</strong> Se a sua mala não chegar durante as férias, tem o direito de comprar os bens essenciais. Isto inclui artigos de higiene (escova de dentes, gel de banho) e roupa de substituição razoável (roupa interior, t-shirts). Contudo, não compre artigos de luxo ou roupa de noite cara – a companhia aérea apenas reembolsa custos razoáveis e compreensíveis.</li>
+                <li><strong>Guardar recibos:</strong> Guarde cada um dos recibos das suas compras de emergência. Sem o recibo original, regra geral, não há qualquer reembolso.</li>
+            </ul>
+        </div>
+
+        <h3 style="margin-top: 30px; font-size: 1.2em;">Como exigir o reembolso das suas despesas</h3>
+        <p>Para recuperar os custos das suas compras de substituição ou o valor de uma mala destruída junto da iryo, tem de redigir uma carta formal baseada na Convenção de Montreal (ou nas diretrizes nacionais de transporte).</p>
+        <p>Poupe o trabalho de procurar os artigos exatos da lei. Utilize o nosso gerador gratuito. Ele pede-lhe os dados mais importantes (como o seu número PIR) e cria um documento finalizado que poderá enviar diretamente à companhia aérea.</p>
+        
+        <a href="gepaeck-info.html" class="btn-primary" style="margin-top: 10px;">
+            Criar carta de reclamação para problemas de bagagem
+        </a>
+    </div>
+
+    <!-- KATEGORIE: Steuern & Gebühren zurück -->
+    <div id="steuern" class="category-content" style="padding-top: 20px;">
+        <h2>Reembolso de Taxas & Impostos</h2>
+        <p>Perdeu o seu voo, teve de o cancelar à última hora ou simplesmente não compareceu na porta de embarque? Mesmo que tenha reservado a tarifa mais barata e o seu bilhete original seja considerado "não reembolsável", tem direito a um reembolso parcial. Este é um princípio comum a nível mundial e aplica-se a voos na UE, nos EUA, no Reino Unido e na maioria dos outros países.</p>
+        
+        <h3 style="margin-top: 30px; font-size: 1.2em;">Por que motivo tem direito a este dinheiro?</h3>
+        <p>Um bilhete de avião é composto pelo preço base do voo e por vários custos adicionais (por exemplo, taxas de aeroporto, taxas de segurança e suplementos de combustível). A companhia aérea apenas tem de pagar estas taxas e impostos ao respetivo aeroporto ou Estado se o passageiro viajar efetivamente no avião. Se não viajar, a companhia aérea retém frequentemente este dinheiro – embora, legalmente, lhe pertença.</p>
+
+        <div class="info-box" style="background-color: #fcfcfc; border-left: 4px solid var(--primary-dark-red);">
+            <h4 style="margin-top: 0; font-size: 1.1em;">Dicas & Truques: Não se deixe enganar</h4>
+            <p>As companhias aéreas dificultam frequentemente, e de forma propositada, a recuperação deste dinheiro pelos consumidores. Preste atenção a estes obstáculos clássicos:</p>
+            <ul style="line-height: 1.7; margin-bottom: 0;">
+                <li><strong>A desculpa do "Bilhete Low Cost":</strong> Mesmo em voos extremamente baratos (por exemplo, por 29 Euros), os impostos e as taxas constituem frequentemente a maior parte do preço. O direito ao reembolso destas taxas existe de forma totalmente independente da tarifa reservada.</li>
+                <li><strong>Atenção às taxas de processamento:</strong> Muitas companhias aéreas exigem taxas de processamento elevadas nos seus Termos e Condições para o reembolso de impostos, de tal forma que no fim parece não sobrar qualquer crédito. Não se deixe intimidar; em muitos países, tais cláusulas são ilegais ou estritamente limitadas.</li>
+                <li><strong>Exija o pagamento:</strong> Frequentemente, é-lhe oferecido apenas um voucher de viagem. No entanto, tem o direito de receber os impostos e taxas não incorridos através de uma transferência bancária real para a sua conta.</li>
+                <li><strong>Prazos longos:</strong> Ao contrário dos problemas com bagagem, neste caso tem geralmente muito mais tempo para reclamar o dinheiro de volta (muitas vezes vários anos retroativamente, consoante a legislação nacional).</li>
+            </ul>
+        </div>
+
+        <h3 style="margin-top: 30px; font-size: 1.2em;">Como reaver o seu dinheiro</h3>
+        <p>Um breve telefonema para o serviço de apoio ao cliente muitas vezes não é suficiente. Tem de exigir por escrito à iryo que detalhe os impostos e taxas retidos e que os transfira para a sua conta.</p>
+        <p>Utilize o nosso gerador gratuito para este efeito. Ele redige a carta exatamente de forma a obrigar a companhia aérea a apresentar o detalhe dos custos do bilhete e a proceder ao pagamento.</p>
+        
+        <a href="steuern-info.html" class="btn-primary" style="margin-top: 10px;">
+            Criar carta para o reembolso de impostos e taxas
+        </a>
+    </div>
+
+    <!-- KATEGORIE: Hotel- & Reisemängel -->
+    <div id="hotelmaengel" class="category-content" style="padding-top: 20px;">
+        <h2>Problemas no Hotel & Viagem</h2>
+        <p>Um quarto sujo, ruído de obras insuportável na piscina ou comida estragada no buffet: Se o seu hotel ou pacote de férias diferir significativamente da descrição reservada, tem o direito a uma redução do preço da viagem. Este princípio - pagou por um serviço que não foi prestado - aplica-se mundialmente aos contratos com operadores turísticos e hotéis.</p>
+        
+        <h3 style="margin-top: 30px; font-size: 1.2em;">O maior erro: Reclamar apenas quando chega a casa</h3>
+        <p>O passo mais importante em caso de problemas na viagem começa logo durante as férias. É obrigado contratualmente a dar ao operador turístico ou ao gerente do hotel a oportunidade de corrigir o problema (por exemplo, mudando-o de quarto). Por conseguinte, reporte o problema <strong>imediatamente no local</strong>. Se esperar até depois do regresso a casa, o seu direito a um reembolso caducará completamente na maioria dos países.</p>
+
+        <div class="info-box" style="background-color: #fcfcfc; border-left: 4px solid var(--primary-dark-red);">
+            <h4 style="margin-top: 0; font-size: 1.1em;">Dicas & Truques para uma redução de preço bem-sucedida</h4>
+            <p>A mera alegação de um problema não é suficiente para uma reclamação posterior. Proceda de forma estruturada:</p>
+            <ul style="line-height: 1.7; margin-bottom: 0;">
+                <li><strong>Recolher provas:</strong> Fotografe ou filme detalhadamente todos os problemas. No caso de poluição sonora, certifique-se de que grava vídeos com som. Anote também os nomes e contactos de testemunhas (outros turistas) que possam confirmar o problema.</li>
+                <li><strong>Elaborar um relatório de problemas:</strong> Peça que a sua queixa seja confirmada por escrito no local. Muitas vezes existem formulários próprios para o efeito no representante do operador ou na receção. Uma breve assinatura do funcionário com a data serve de prova de que comunicou o problema atempadamente.</li>
+                <li><strong>Prazo razoável:</strong> Dê ao alojamento um prazo curto e razoável para resolver o problema (muitas vezes bastam algumas horas a um dia, consoante a urgência).</li>
+                <li><strong>Referência para cálculo:</strong> Quando regressar a casa e exigir o seu dinheiro de volta, a chamada "Tabela de Frankfurt" serve como um excelente guia (frequentemente usada como referência na Europa). Esta tabela indica detalhadamente a percentagem do preço da viagem que pode exigir consoante o problema (por exemplo, até 25% por forte ruído de obras ou até 50% por pragas de insetos no quarto).</li>
+            </ul>
+        </div>
+
+        <h3 style="margin-top: 30px; font-size: 1.2em;">Como exigir a redução do preço da sua viagem</h3>
+        <p>Assim que regressar das férias, não deve esperar demasiado tempo. No caso de viagens organizadas (pacotes), dirija sempre a sua carta ao seu operador turístico e não ao hotel local. No caso de hotéis reservados individualmente, dirija-se diretamente ao alojamento ou ao portal de reservas.</p>
+        <p>Utilize o nosso gerador gratuito para listar de forma clara os problemas recolhidos e para exigir à iryo um reembolso calculado com precisão. O documento formulará a sua solicitação de forma objetiva, firme e sem rodeios emocionais.</p>
+        
+        <a href="hotel-maengel-info.html" class="btn-primary" style="margin-top: 10px;">
+            Criar carta de reclamação por problemas na viagem
+        </a>
+    </div>
+
+         <!-- KATEGORIE: Reiserücktritt & Stornokosten -->
+    <div id="reiseruecktritt" class="category-content" style="padding-top: 20px;">
+        <h2>Cancelamento da Viagem & Custos</h2>
+        <p>Por vezes, a vida prega-nos uma partida: Uma doença inesperada ou uma emergência familiar obriga-o a cancelar a sua viagem. Muitas vezes, os operadores turísticos, portais de reserva ou hotéis exigem taxas de cancelamento extremamente altas nestes casos – por vezes até 100 por cento do preço original da viagem. No entanto, não tem de aceitar cegamente estas exigências fixas (taxas forfetárias).</p>
+        
+        <h3 style="margin-top: 30px; font-size: 1.2em;">O mito das taxas de cancelamento fixas</h3>
+        <p>A nível mundial, um princípio importante aplica-se frequentemente aos contratos: O fornecedor não pode penalizá-lo por um cancelamento, devendo apenas compensar a sua perda financeira real efetiva. Além disso, tem a obrigação de minimizar os danos ao máximo. Se o hotel ou o operador conseguir revender o seu quarto cancelado a outro hóspede, na realidade não terá quase nenhum prejuízo. Consequentemente, também não lhe pode cobrar taxas astronómicas por esse serviço.</p>
+
+        <div class="info-box" style="background-color: #fcfcfc; border-left: 4px solid var(--primary-dark-red);">
+            <h4 style="margin-top: 0; font-size: 1.1em;">Dicas & Truques: Defenda-se contra taxas excessivas</h4>
+            <p>Se receber uma fatura de cancelamento elevada, deve verificar os seguintes pontos antes de pagar:</p>
+            <ul style="line-height: 1.7; margin-bottom: 0;">
+                <li><strong>Exigir provas concretas:</strong> Não aceite percentagens fixas das letras pequenas. Exija por escrito que o fornecedor comprove detalhadamente a sua perda real e prove que não conseguiu alugar o quarto a outra pessoa.</li>
+                <li><strong>Indicar um substituto:</strong> Se não puder viajar, em pacotes de férias tem quase sempre a possibilidade de indicar uma pessoa substituta para viajar no seu lugar. Regra geral, o operador apenas pode cobrar os custos de alteração de nome, mas não uma taxa de cancelamento total.</li>
+                <li><strong>Circunstâncias extraordinárias:</strong> Se ocorrerem perigos repentinos e imprevisíveis no local das suas férias (como desastres naturais, pandemias ou graves distúrbios sociais) que afetem significativamente a viagem, muitas vezes pode cancelar gratuitamente. No entanto, o risco pessoal de adoecer não se enquadra nesta regra.</li>
+                <li><strong>Seguro de cancelamento de viagem:</strong> Se estiver segurado, comunique o cancelamento imediatamente. Envie os atestados médicos o mais rápido possível e certifique-se de que o motivo (por exemplo, uma doença grave inesperada) está coberto pela apólice.</li>
+            </ul>
+        </div>
+
+        <h3 style="margin-top: 30px; font-size: 1.2em;">Como contestar uma exigência injustificada</h3>
+        <p>Para se defender contra taxas de cancelamento excessivas da iryo, tem de apresentar uma contestação por escrito e exigir a apresentação dos custos reais. Só assim criará a pressão necessária para conseguir uma redução das taxas.</p>
+        <p>Utilize o nosso gerador gratuito para este passo. Ele redige uma contestação objetiva, mas firme, que obriga o fornecedor a justificar as suas exigências fixas ou a reduzi-las em conformidade.</p>
+        
+        <a href="storno-info.html" class="btn-primary" style="margin-top: 10px;">
+            Gerar contestação de custos de cancelamento
+        </a>
+    </div>
+
+    <!-- KATEGORIE: Zugverspätung & Ausfall -->
+    <div id="bahn" class="category-content" style="padding-top: 20px;">
+        <h2>Atrasos & Cancelamentos de Comboios</h2>
+        <p>Quer viaje por Portugal, por toda a Europa ou no Reino Unido de comboio: Os passageiros ferroviários estão protegidos por amplos direitos. Se chegar ao seu destino com um atraso significativo ou se o seu comboio for totalmente cancelado, tem direito a um reembolso parcial ou mesmo total do preço do seu bilhete.</p>
+        
+        <h3 style="margin-top: 30px; font-size: 1.2em;">A quanto reembolso tem direito?</h3>
+        <p>Os direitos dos passageiros ferroviários europeus (e regulamentações britânicas comparáveis) estabelecem limites claros. Se for previsível que chegará à estação de destino com atraso, aplicam-se geralmente os seguintes direitos de indemnização sobre o preço do bilhete de ida:</p>
+        <ul style="line-height: 1.8; margin-bottom: 30px;">
+            <li><strong>A partir de 60 minutos de atraso:</strong> Tem direito a um reembolso de 25 por cento do preço do bilhete.</li>
+            <li><strong>A partir de 120 minutos de atraso:</strong> A sua indemnização sobe para 50 por cento do preço do bilhete.</li>
+            <li><strong>Interrupção da viagem:</strong> Se já antes da partida for previsível um atraso de mais de 60 minutos no destino, pode prescindir totalmente da viagem e receber um reembolso de 100 por cento do preço do bilhete.</li>
+            <li><strong>Nota:</strong> Muitas companhias ferroviárias oferecem prestações melhores ou adicionais quando os seus comboios sofrem atrasos. Informe-se atempadamente sobre as opções disponíveis.</li>
+
+        </ul>
+
+        <div class="info-box" style="background-color: #fcfcfc; border-left: 4px solid var(--primary-dark-red);">
+            <h4 style="margin-top: 0; font-size: 1.1em;">Dicas & Truques: Restrição de comboio, Táxis e Hotéis</h4>
+            <p>As companhias ferroviárias frequentemente não o informam de forma adequada sobre os seus direitos em caso de emergência nas estações. Assim, memorize estas regras importantes:</p>
+            <ul style="line-height: 1.7; margin-bottom: 0;">
+                <li><strong>Levantamento da restrição de comboio:</strong> Se comprou um bilhete para um comboio muito específico (tarifa promocional/restrita) e este for cancelado ou sofrer um atraso previsível de, pelo menos, 20 minutos, a restrição ao comboio é geralmente suspensa. Poderá então utilizar simplesmente o comboio regular seguinte no mesmo trajeto.</li>
+                <li><strong>Ficar retido durante a noite:</strong> Se o seu comboio for cancelado à noite ou o atraso o levar a perder o seu último comboio de ligação, a companhia ferroviária não pode simplesmente deixá-lo abandonado na estação. A empresa tem de organizar uma forma de prosseguir viagem (por exemplo, de táxi) ou o alojamento num hotel para passar a noite.</li>
+                <li><strong>Autossocorro com custos de táxi:</strong> Se não houver pessoal disponível durante a noite, tem muitas vezes o direito de arranjar um táxi ou um hotel razoável pelos seus próprios meios. Guarde sempre o recibo. Os custos estão limitados a montantes máximos; em caso de dúvida, consulte rapidamente o site do operador.</li>
+                <li><strong>Exceção em caso de força maior:</strong> Tenha em atenção que em caso de catástrofes naturais extremas, pessoas na via ou bloqueios por parte das autoridades, a compensação pura (os 25 ou 50 por cento) pode não ser aplicável. Contudo, o seu direito a assistência (hotel, táxi, transporte alternativo) permanece inalterado!</li>
+            </ul>
+        </div>
+
+        <h3 style="margin-top: 30px; font-size: 1.2em;">Como fazer valer os seus direitos</h3>
+        <p>Não deite o seu bilhete fora. Para reclamar a sua indemnização ou as despesas de um táxi utilizado à iryo, tem de apresentar um pedido correspondente e anexar cópias dos seus bilhetes e recibos.</p>
+        <p>Utilize o nosso gerador gratuito para documentar o atraso de forma profissional. O sistema cria-lhe a carta finalizada para que não tenha de lidar com os artigos complexos dos direitos dos passageiros ferroviários europeus.</p>
+        
+        <a href="zugverspaetung-info.html" class="btn-primary" style="margin-top: 10px;">
+            Criar carta de reclamação por atraso de comboio
+        </a>
+    </div>
+
+    <!-- KATEGORIE: Kreuzfahrten & Reedereien -->
+    <div id="kreuzfahrt" class="category-content" style="padding-top: 20px;">
+        <h2>Problemas em Cruzeiros & Alterações de Rota</h2>
+        <p>Um cruzeiro é, para muitas pessoas, a viagem de uma vida. No entanto, se a cabine com varanda reservada for subitamente um quarto sem janelas, se a área da piscina prometida parecer um estaleiro de obras ou se portos essenciais forem cancelados sem justificação, não tem de aceitar a situação. A nível mundial aplica-se o princípio do direito contratual: Se a companhia de cruzeiros não fornecer o serviço prometido, tem o direito a uma redução do preço.</p>
+        
+        <h3 style="margin-top: 30px; font-size: 1.2em;">O ponto de contacto mais importante: A receção a bordo</h3>
+        <p>Num navio de cruzeiro aplica-se a mesma regra que num hotel: Os problemas têm de ser reportados imediatamente no local. Dirija-se de imediato à receção (frequentemente designada por "Guest Relations" ou "Purser's Desk") e exija uma solução, como por exemplo, outra cabine. Quem suportar o descontentamento em silêncio e reclamar apenas semanas depois de desembarcar a partir de casa, perderá o direito a qualquer reembolso na maioria dos sistemas jurídicos.</p>
+
+        <div class="info-box" style="background-color: #fcfcfc; border-left: 4px solid var(--primary-dark-red);">
+            <h4 style="margin-top: 0; font-size: 1.1em;">Dicas & Truques: Distinguir entre azar com o tempo e verdadeiros problemas</h4>
+            <p>As companhias de cruzeiros rejeitam de bom grado as queixas de forma generalizada. Com este conhecimento, garante os seus direitos:</p>
+            <ul style="line-height: 1.7; margin-bottom: 0;">
+                <li><strong>Alterações de rota:</strong> Se um porto não puder ser visitado devido à aproximação de um furacão ou mares agitados e perigosos, isso serve para a sua segurança (força maior). Neste caso, geralmente não há reembolso. No entanto, se a rota for alterada por razões organizacionais, excesso de reservas ou defeitos técnicos no navio, tem efetivamente direito a uma compensação.</li>
+                <li><strong>Downgrade da cabine & Ruído:</strong> Se receber uma categoria de cabine inferior à que reservou, tem de lhe ser reembolsada, no mínimo, a diferença de preço. Se sofrer com ruído extremo (por exemplo, porque a sua cabine fica logo abaixo da discoteca ou ao lado da ruidosa casa das máquinas), exija uma mudança de quarto ou uma confirmação escrita do problema por parte do pessoal.</li>
+                <li><strong>Atenção ao crédito a bordo:</strong> Frequentemente, em caso de problemas, a companhia de cruzeiros oferece espontaneamente uma garrafa de espumante ou um pequeno crédito a bordo. Se assinar a aceitação disto como "compensação final", mais tarde não poderá exigir nenhum reembolso em dinheiro. Aceite apenas se considerar que o problema ficou verdadeiramente resolvido.</li>
+                <li><strong>A Tabela de Würzburg:</strong> Para o cálculo da sua exigência após a viagem, a chamada "Tabela de Würzburg" serve como excelente referência (frequentemente usada na Europa). Esta tabela detalha a percentagem do preço diário da viagem que pode aplicar para problemas típicos em cruzeiros (como ar condicionado avariado ou ruído intenso).</li>
+            </ul>
+        </div>
+
+        <h3 style="margin-top: 30px; font-size: 1.2em;">Como exigir o reembolso à companhia de cruzeiros</h3>
+        <p>Um e-mail informal é muitas vezes rejeitado por grandes empresas internacionais de cruzeiros através de respostas padronizadas. Necessita de uma missiva que liste de forma precisa os problemas que encontrou, quantifique a perda de usufruto das férias e defina um prazo claro de pagamento.</p>
+        <p>Poupe tempo precioso e utilize o nosso gerador gratuito. Ele reúne as suas provas e formula uma carta de reclamação objetiva e firme dirigida à iryo, com a qual fará valer profissionalmente o seu direito à redução de preço.</p>
+        
+        <a href="kreuzfahrt-minderung.html" class="btn-primary" style="margin-top: 10px;">
+            Criar carta de reclamação para cruzeiros
+        </a>
+    </div>
+
+    <!-- KATEGORIE: Ferienhäuser & Ferienwohnungen -->
+    <div id="ferienhaus" class="category-content" style="padding-top: 20px;">
+        <h2>Problemas na Casa ou Apartamento de Férias</h2>
+        <p>Uma piscina avariada, falta de Wi-Fi, mofo na casa de banho ou um alojamento que na realidade é completamente diferente das fotos na internet: Se a sua casa de férias não corresponder à descrição reservada, existe uma violação do contrato. Independentemente do país onde passa férias, no caso de características em falta ou defeituosas, tem o direito a uma redução do valor do aluguer.</p>
+        
+        <h3 style="margin-top: 30px; font-size: 1.2em;">A regra de ouro: Dar ao proprietário a oportunidade de reparar</h3>
+        <p>Tal como nos hotéis, aplica-se aqui o mesmo: Não pode simplesmente deduzir ou exigir o reembolso do valor do aluguer mais tarde se tiver ocultado o problema no local. É obrigado a informar imediatamente o proprietário ou a agência responsável e a exigir a resolução da anomalia (por ex., uma nova limpeza ou a reparação do ar condicionado).</p>
+
+        <div class="info-box" style="background-color: #fcfcfc; border-left: 4px solid var(--primary-dark-red);">
+            <h4 style="margin-top: 0; font-size: 1.1em;">Dicas & Truques: A pessoa de contacto certa e provas</h4>
+            <p>Especialmente no caso de casas de férias, a comunicação é muitas vezes confusa. Tenha em atenção estes passos essenciais para proteger os seus direitos:</p>
+            <ul style="line-height: 1.7; margin-bottom: 0;">
+                <li><strong>Escolher o contacto certo:</strong> Uma simples queixa ao jardineiro, à pessoa que entrega as chaves ou ao serviço de limpeza não é suficiente. Tem de contactar o seu parceiro contratual oficial. Se reservou através de uma grande agência, ligue para a sua linha de apoio de emergência.</li>
+                <li><strong>Documentar tudo com precisão:</strong> Tire fotografias ou grave vídeos de todas as anomalias logo após a chegada. Se o alojamento estiver sujo, fotografe as respetivas zonas antes de pegar num pano de limpeza.</li>
+                <li><strong>Estabelecer prazos:</strong> Dê ao proprietário um prazo claro e razoável para a resolução do problema. Se, por exemplo, o aquecimento avariar no inverno, tem de haver uma resposta em poucas horas. No caso de uma torradeira avariada, pode dar ao fornecedor um a dois dias.</li>
+                <li><strong>Alojamento inabitável (Falha total):</strong> Se a casa for inabitável (por ex., devido a grave infestação de mofo, pragas ou falta de água canalizada) e o proprietário não oferecer um alojamento alternativo razoável, em muitos casos poderá cancelar o contrato sem aviso prévio e procurar você mesmo um alojamento alternativo. Se possível, peça a testemunhas imparciais que confirmem o estado inabitável e exija primeiro ao proprietário, por escrito, que encontre uma solução.</li>
+            </ul>
+        </div>
+
+        <h3 style="margin-top: 30px; font-size: 1.2em;">Como exigir a redução do seu aluguer</h3>
+        <p>Quando regressar de férias e se o proprietário não tiver resolvido o problema (ou tiver resolvido de forma insatisfatória) no local, deve formalizar o seu pedido de redução de preço por escrito. Dirija a carta exatamente à empresa ou à pessoa com a qual assinou o contrato de arrendamento.</p>
+        <p>Utilize o nosso gerador gratuito para redigir uma carta de reclamação profissional. O sistema agrupa os problemas documentados num texto claro e, caso pretenda, calcula um reembolso adequado, sem que tenha de ler leis complexas.</p>
+        
+        <a href="ferienhaus-maengel-info.html" class="btn-primary" style="margin-top: 10px;">
+            Criar carta de reclamação por problemas na casa de férias
+        </a>
+    </div>
+
+    <!-- KATEGORIE: Airbnb & AirCover -->
+    <div id="airbnb" class="category-content" style="padding-top: 20px;">
+        <h2>Reservas Airbnb & Reembolsos AirCover</h2>
+        <p>Se reservar um alojamento através do Airbnb, os procedimentos em caso de reclamação diferem das reservas clássicas de hotel. Em termos legais, o Airbnb atua na maioria das vezes apenas como intermediário. No entanto, a plataforma oferece uma proteção global aos hóspedes com o programa de proteção interno "AirCover". Se o alojamento não corresponder aos dados fornecidos, faltar equipamento essencial ou estiver muito sujo, este programa ajuda-o – mas apenas se seguir as rigorosas regras internas da plataforma.</p>
+        
+        <h3 style="margin-top: 30px; font-size: 1.2em;">A regra mais importante: O prazo de 72 horas</h3>
+        <p>O maior risco em caso de problemas no Airbnb é perder os prazos internos para reportar. Se descobrir um problema grave após o check-in, tem obrigatoriamente de comunicá-lo de forma oficial ao serviço de apoio ao cliente do Airbnb <strong>dentro de 72 horas após a descoberta</strong>. Se aguardar até ao fim da sua estadia, a proteção AirCover deixará de estar em vigor e o Airbnb, regra geral, recusará qualquer reembolso.</p>
+
+        <div class="info-box" style="background-color: #fcfcfc; border-left: 4px solid var(--primary-dark-red);">
+            <h4 style="margin-top: 0; font-size: 1.1em;">Dicas & Truques: Evitar erros na comunicação</h4>
+            <p>Para estar seguro no caso de um conflito com o anfitrião, deve observar rigorosamente os seguintes princípios:</p>
+            <ul style="line-height: 1.7; margin-bottom: 0;">
+                <li><strong>Comunicação exclusivamente através da App:</strong> Não se envolva em discussões por WhatsApp, SMS ou e-mails privados. O serviço de apoio ao cliente do Airbnb apenas reconhece como prova as mensagens que foram enviadas através do sistema oficial de mensagens da plataforma.</li>
+                <li><strong>Nunca cancele você mesmo:</strong> Se o alojamento for inabitável e desejar partir, em circunstância alguma cancele você próprio a reserva na App. Quem cancela voluntariamente submete-se à política de cancelamento regular do anfitrião e perde quase sempre o seu dinheiro. Em vez disso, contacte o suporte e exija que o Airbnb cancele a reserva devido aos problemas encontrados.</li>
+                <li><strong>Fazer upload de provas no Chat:</strong> Tire fotografias ou vídeos do problema e envie-os diretamente no chat oficial para o seu anfitrião, em conjunto com o pedido educado de resolução imediata. Desta forma, o problema fica documentado de forma transparente para o Airbnb.</li>
+                <li><strong>Se o anfitrião cancelar:</strong> Se o proprietário cancelar a sua reserva à última hora, recebe o seu dinheiro de volta automaticamente. Num caso destes, solicite adicional e proativamente ao serviço de apoio ao cliente ajuda na procura de um alojamento de substituição ou um voucher como compensação pelos inconvenientes causados.</li>
+            </ul>
+        </div>
+
+        <h3 style="margin-top: 30px; font-size: 1.2em;">Como exigir o seu dinheiro fora da App</h3>
+        <p>Caso o anfitrião bloqueie e o suporte do Airbnb rejeite o seu pedido apesar do cumprimento dos prazos, terá de aumentar a pressão. Também as plataformas e os senhorios têm de cumprir a legislação contratual superior, se o serviço intermediado tiver sido defeituoso.</p>
+        <p>Utilize o nosso gerador gratuito para elaborar uma carta formal. Esta agrupa as suas provas e formula inequivocamente o seu direito ao reembolso, para que possa dar seguimento ao assunto, se necessário, através de Centros de Arbitragem oficiais.</p>
+        
+        <a href="airbnb-probleme-info.html" class="btn-primary" style="margin-top: 10px;">
+            Criar carta de reclamação por problemas com o Airbnb
+        </a>
+    </div>
+
+    <!-- KATEGORIE: Buchungsportale (OTA) -->
+    <div id="buchungsportale" class="category-content" style="padding-top: 20px;">
+        <h2>Portais de Reserva (OTA) & Intermediários</h2>
+        <p>Não reservou o seu voo, carro de aluguer ou hotel diretamente com o fornecedor, mas sim através de um portal de reservas online (como a Expedia, Opodo ou Booking.com)? Quando num caso destes um voo é cancelado ou ocorrem problemas, o reembolso torna-se frequentemente complicado. A nível mundial, muitos intermediários aproveitam-se disto para atrasar os pagamentos o máximo de tempo possível.</p>
+        
+        <h3 style="margin-top: 30px; font-size: 1.2em;">Acabe com o famoso "Jogo de Ping-Pong"</h3>
+        <p>O problema mais comum com os portais de reserva é a recusa deliberada de assumir responsabilidade: A companhia aérea ou o hotel remetem-no para o portal, porque foi lá que efetuou o pagamento. O portal, por sua vez, alega que é apenas o intermediário e que se deve dirigir diretamente à companhia aérea. Este empurra-empurra infindável desgasta muitos viajantes. No entanto, a regra principal dita: Quem cobrou o seu dinheiro e emitiu uma fatura é, na maioria das vezes, o seu principal ponto de contacto para o reembolso do preço de compra.</p>
+
+        <div class="info-box" style="background-color: #fcfcfc; border-left: 4px solid var(--primary-dark-red);">
+            <h4 style="margin-top: 0; font-size: 1.1em;">Dicas & Truques: Invalidar as desculpas dos portais</h4>
+            <p>Não se deixe despachar pelos colaboradores do serviço de apoio ao cliente por telefone. Utilize as seguintes estratégias:</p>
+            <ul style="line-height: 1.7; margin-bottom: 0;">
+                <li><strong>Indemnização vs. Reembolso:</strong> Distinga claramente o que está a exigir. Se se tratar de uma indemnização fixa (por ex., devido a um atraso de voo), a responsável é sempre a companhia aérea operadora. Mas se se tratar do mero reembolso do preço do bilhete por um voo cancelado, responsabilize o portal onde efetuou o pagamento.</li>
+                <li><strong>Taxas de processamento ilegais:</strong> Muitos portais de reserva tentam deduzir do crédito uma elevada "taxa de processamento" própria no momento de um reembolso de um voo cancelado. Oponha-se a isto de forma decidida. Se a companhia aérea cancelar o voo, tem geralmente direito ao valor total do bilhete sem deduções.</li>
+                <li><strong>Estorno de cartão de crédito (Chargeback):</strong> Se o voo ou hotel foi cancelado e o portal recusa o reembolso apesar do estabelecimento de um prazo razoável, contacte o seu banco ou a entidade emissora do cartão de crédito. Pode solicitar por aí um estorno do pagamento (chargeback), uma vez que o serviço reservado nunca foi prestado. Isto funciona a nível mundial com cartões de crédito e, muitas vezes, também com o PayPal.</li>
+                <li><strong>Notificar ambas as partes:</strong> Para terminar o jogo de ping-pong, o ideal é enviar a sua carta de reclamação a ambas as partes em simultâneo e colocar ambas nos destinatários (com conhecimento). Desta forma, ninguém poderá alegar desconhecimento.</li>
+            </ul>
+        </div>
+
+        <h3 style="margin-top: 30px; font-size: 1.2em;">Como obrigar o portal a agir</h3>
+        <p>Um telefonema raramente atinge o objetivo com os grandes portais de intermediação. Necessita de uma carta juridicamente fundamentada que deixe claro que não está mais disposto a ser empurrado de um lado para o outro entre o fornecedor e o portal.</p>
+        <p>Utilize o nosso gerador gratuito. Ele redige uma carta de reclamação rigorosa, rejeita de antemão as desculpas relativas ao papel de mero intermediário e define um prazo de pagamento final e vinculativo.</p>
+        
+        <a href="ota-rueckerstattung-info.html" class="btn-primary" style="margin-top: 10px;">
+            Criar carta de reclamação para um portal de reservas
+        </a>
+    </div>
+
+  </main>
+</div>
+
+<script>
+function showCategory(categoryId, clickedLink) {
+    // 1. Den Aufforderungs-Text ausblenden
+    document.getElementById('selection-prompt').style.display = 'none';
+
+    // 2. Alle Kategorien ausblenden
+    var allCategories = document.querySelectorAll('.category-content');
+    allCategories.forEach(function(cat) {
+        cat.style.display = 'none';
+    });
+
+    // 3. Die ausgewählte Kategorie einblenden
+    var selectedCategory = document.getElementById(categoryId);
+    if (selectedCategory) {
+        selectedCategory.style.display = 'block';
+    }
+
+    // 4. Optische Hervorhebung im Menü (altes entfernen, neues setzen)
+    var allLinks = document.querySelectorAll('.sidebar-menu a');
+    allLinks.forEach(function(link) {
+        link.classList.remove('active-link');
+    });
+    if (clickedLink) {
+        clickedLink.classList.add('active-link');
+    }
+}
+</script>
+
+</body>
+</html>

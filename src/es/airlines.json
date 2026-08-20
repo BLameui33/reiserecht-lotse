@@ -2,709 +2,802 @@
   {
     "slug": "lufthansa",
     "name": "Deutsche Lufthansa AG",
-    "adresse": "Paseo de la Castellana 53\n28046 Madrid\nEspaña",
+    "adresse": "Cedaceros 10\nplanta, 28014 Madrid\nEspaña",
     "infobox": "<p>Deutsche Lufthansa AG es la aerolínea de bandera alemana y una de las mayores compañías de Europa, con centro operativo principal en el aeropuerto de Fráncfort del Meno. Como transportista de la UE, está sujeta a la Reglamento de la UE sobre los derechos de los pasajeros aéreos para reclamaciones por vuelo retrasado y, en materia de equipaje perdido o dañado, al Convención de Montreal. Los pasajeros también pueden solicitar la devolución de impuestos y tasas no utilizados. La sede legal y el fuero competente de Lufthansa se encuentran en Colonia, Alemania. Si tu vuelo con Lufthansa se ha visto afectado, conviene revisar tus derechos cuanto antes.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.lufthansa.com/cr/es/passenger-rights"
   },
   {
     "slug": "ryanair",
     "name": "Ryanair DAC",
-    "adresse": "Aeropuerto Adolfo Suárez Madrid-Barajas\nAvda. de la Hispanidad s/n\n28042 Madrid\nEspaña",
+    "adresse": "Zona Aeropuerto de Girona\nAvda. s/n, 17185 Vilobí d'Onyar (Girona)\n28042 Madrid\nEspaña",
     "infobox": "<p>Ryanair DAC es una aerolínea irlandesa de bajo coste con base principal en el aeropuerto de Dublín y una amplia red de rutas europeas. Su sede jurídica y fuero principal se encuentran en Swords, condado de Dublín, Irlanda. En caso de vuelo retrasado o cancelado, pueden aplicarse derechos según la Reglamento de la UE sobre los derechos de los pasajeros aéreos, incluida una posible compensación o reembolso. Si el equipaje se pierde o llega dañado, el Convención de Montreal regula la reclamación por daños. Además, en determinadas circunstancias es posible recuperar tasas, impuestos y cargos no utilizados del billete, aunque la aerolínea suele preferir ofrecer vales o créditos.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.ryanair.com/es/es/myryanair/feedback"
   },
   {
     "slug": "eurowings",
     "name": "Eurowings GmbH",
-    "adresse": "Aeropuerto de Palma de Mallorca\n07611 Palma de Mallorca\nEspaña",
+    "adresse": "Großenbaumer Weg 6\n40472 Düsseldorf\nnAlemania",
     "infobox": "<p>Eurowings GmbH es una aerolínea alemana de bajo coste y parte del grupo Lufthansa, con su principal centro de operaciones en Düsseldorf. Para reclamaciones por vuelo retrasado, equipaje perdido o reembolso de tasas e impuestos, conviene identificar siempre a la aerolínea operadora exacta. En muchos casos, tus derechos se valoran según la Reglamento de la UE sobre los derechos de los pasajeros aéreos y, en caso de daños o pérdida de equipaje, también conforme al Convención de Montreal. El domicilio social y fuero jurídico de Eurowings GmbH se encuentra en Düsseldorf, Alemania. Si tu vuelo salió de la UE o fue operado por Eurowings, podrías tener derecho a compensación o devolución.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.eurowings.com/es/faq/retraso-cancelacion-de-vuelos/reclamaciones-danos.html"
   },
   {
     "slug": "condor",
     "name": "Condor Flugdienst GmbH",
-    "adresse": "Aeropuerto de Palma de Mallorca\n07611 Palma de Mallorca\nEspaña",
+    "adresse": " Im Düsseldorfer Feld 7\n65451 Kelsterbach\nnAlemania",
     "infobox": "<p>Condor Flugdienst GmbH es una aerolínea alemana especializada en vuelos vacacionales y de larga distancia, con base principal en el aeropuerto de Fráncfort del Meno. Si sufre una cancelación, una gran demora o la pérdida de equipaje, pueden entrar en juego la Reglamento de la UE sobre los derechos de los pasajeros aéreos y el Convención de Montreal. Además, en muchos casos es posible reclamar el reembolso de tasas e impuestos no utilizados. La sede social y el fuero jurídico principal de Condor se encuentran en Neu-Isenburg, Alemania. Este texto sirve para reclamaciones por retraso de vuelo, equipaje perdido y devolución de cargos.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.condor.com/es-es/informacion-servicios/ayuda-contacto/"
   },
   {
     "slug": "tuifly",
     "name": "TUIfly GmbH",
     "adresse": "Flughafenstraße 10\n30855 Langenhagen\nAlemania",
     "infobox": "<p>TUIfly GmbH es una aerolínea alemana de ocio y vuelos chárter, con base operativa en el aeropuerto de Hannover-Langenhagen. Para reclamaciones por vuelo retrasado, equipaje perdido o devolución de impuestos y tasas, pueden aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos y el Convención de Montreal. La compañía puede modificar horarios o cancelar vuelos con poca antelación, lo que en determinados casos da derecho a compensación o reembolso. El domicilio social y fuero competente de TUIfly GmbH se encuentran en Hannover. Si tu vuelo de TUIfly llegó con demora, tu maleta no apareció o deseas recuperar cargos no utilizados, conviene revisar tus derechos cuanto antes.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.tuifly.be/en/complaint-others"
   },
   {
     "slug": "aer-lingus",
     "name": "Aer Lingus",
-    "adresse": "Aer Lingus\nAeropuerto Adolfo Suárez Madrid-Barajas\n28042 Madrid\nEspaña",
+    "adresse": "Aer Lingus Limited\nDublin Airport\nCo. Dublin\nIreland",
     "infobox": "<p>Aer Lingus es la aerolínea de bandera de Irlanda y opera principalmente desde su hub en el Aeropuerto de Dublín. Si sufres una <strong>flugverspätung</strong>, pierdes una conexión o tu <strong>koffer verloren</strong> con esta compañía, pueden aplicarse la <strong>Reglamento de la UE sobre los derechos de los pasajeros aéreos</strong> y el <strong>Convención de Montreal</strong>, según el caso. La sede jurídica y el foro competente de Aer Lingus se encuentran en Dublín, Irlanda. Además, si no utilizaste tu vuelo, en muchos casos puedes reclamar la devolución de <strong>steuern/gebühren zurückfordern</strong>. Revisa siempre tu derecho a indemnización y reembolso.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.aerlingus.com/app/support/forms/complaints-form"
   },
   {
     "slug": "easyjet",
     "name": "easyJet Airline Company Limited",
-    "adresse": "Paseo de la Castellana 95\n28046 Madrid\nEspaña",
+    "adresse": "Calle Nuñez Morgado, 6\n Bajo Derecha, 28036 Madrid\nEspaña",
     "infobox": "<p>easyJet Airline Company Limited es una aerolínea británica de bajo coste con sede jurídica en Londres y principal centro de operaciones en Londres-Luton, además de otros hubs europeos. Para reclamaciones por vuelo retrasado, equipaje perdido o daños en la maleta, y para solicitar la devolución de impuestos y tasas no utilizados, pueden aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos y el Convención de Montreal, según el caso. Si tu vuelo se cancela o no se utiliza, también conviene revisar si la aerolínea debe reembolsar cargos e importes accesorios. En litigios, la competencia suele vincularse a los tribunales del domicilio social de la compañía.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.easyjet.com/es/centro-de-ayuda/contacto/contacta-con-nosotros"
   },
   {
     "slug": "wizz-air",
     "name": "Wizz Air Hungary Ltd.",
     "adresse": "Laurus Offices, Kőér street 2/A\nBuilding B, H-1103\nBudapest\nHungría",
     "infobox": "<p>Wizz Air Hungary Ltd. es una aerolínea de bajo coste con sede en Budapest y centro de operaciones principal en el aeropuerto de Budapest Ferenc Liszt. La compañía vuela en numerosas rutas europeas y es conocida por cambios de horario, retrasos y cancelaciones. En caso de vuelo retrasado o cancelado, puede aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos; para equipaje perdido, dañado o retrasado, suele ser relevante el Convención de Montreal. También conviene revisar si pueden recuperarse impuestos y tasas no utilizados. El domicilio social y fuero jurídico de la aerolínea se encuentran en Hungría.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://claim.wizzair.com/ClaimCompanies"
   },
   {
     "slug": "turkish-airlines",
     "name": "Turkish Airlines",
-    "adresse": "Paseo de la Castellana 95, Planta 15\n28046 Madrid\nEspaña",
+    "adresse": "Calle Antonio Maura, 12, Piso Primero\n28014 Madrid\nEspaña",
     "infobox": "<p>Turkish Airlines es la aerolínea de bandera de Turquía y una de las mayores compañías del mundo, con su hub principal en el Aeropuerto de Estambul. Para reclamaciones por vuelo retrasado, equipaje perdido o reembolso de tasas e impuestos, pueden aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos en salidas desde la UE y el Convención de Montreal para incidencias de equipaje y daños. Su sede legal y foro jurisdiccional principal se encuentra en Estambul, Turquía. Si tu vuelo con Turkish Airlines sufrió incidencias, revisa tus derechos y posibles compensaciones según la ruta y el lugar de salida.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.turkishairlines.com/es-int/any-questions/get-in-touch/"
   },
   {
     "slug": "sunexpress",
     "name": "SunExpress Deutschland GmbH",
-    "adresse": "De-Saint-Exupéry-Straße 10\n60549 Frankfurt am Main\nAlemania",
+    "adresse": "SunExpress Güneş Ekspres Havacılık A.Ş.\nYenigöl Mah. Nergiz Sok. No: 84 PK 07230 Muratpaşa\nAntalya\nTurquía",
     "infobox": "<p>SunExpress Deutschland GmbH es una aerolínea especializada en vuelos vacacionales y conexiones entre Alemania, Turquía y otros destinos de ocio. Su base operativa y aeropuerto de referencia se sitúan en Fráncfort del Meno; su sede jurídica y fuero competente están en Kelsterbach, Alemania. En casos de retraso de vuelo, cancelación o denegación de embarque, puede aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos. Si sufre pérdida, retraso o daño del equipaje, rige el Convención de Montreal. Además, en determinadas reservas es posible reclamar tasas, impuestos y cargos no utilizados. Para proteger sus derechos, conserve siempre tarjetas de embarque, etiquetas y recibos.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://customerservices.sunexpress.com/s/"
   },
   {
     "slug": "vueling",
     "name": "Vueling Airlines S.A.",
-    "adresse": "Parque de Negocios Mas Blau II\nPlaza de l'Estany, núm. 5\n08820 Barcelona\nEspaña",
+    "adresse": "Carrer de Catalunya, 83 (Edif. Brasil)\nPlaza de l'Estany, núm. 5\n08840 Viladecans (Barcelona)\nEspaña",
     "infobox": "<p>Vueling Airlines S.A. es una aerolínea low cost española con base y principal centro de operaciones en el Aeropuerto de Barcelona-El Prat. Si sufre una <strong>flugverspätung</strong> con Vueling, puede tener derecho a asistencia y, según el caso, a compensación conforme al <strong>Reglamento de la UE sobre los derechos de los pasajeros aéreos</strong>. En caso de <strong>koffer verloren</strong> o equipaje dañado, la reclamación suele tramitarse bajo el <strong>Convención de Montreal</strong>. También puede reclamar <strong>steuern/gebühren zurückfordern</strong> si no voló. El domicilio social y foro jurídico principal de la compañía se encuentra en El Prat de Llobregat, Barcelona.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://help.vueling.com/hc/es/articles/19798807271441-Reclamaci%C3%B3n-y-reembolsos"
   },
   {
     "slug": "british-airways",
     "name": "British Airways Plc (Sucursal Alemania)",
-    "adresse": "British Airways\nAeropuerto Adolfo Suárez Madrid-Barajas, Terminal 4\n28042 Madrid\nEspaña",
+    "adresse": "British Airways\n Waterside, PO Box 365\nHarmondsworth, UB7 0GB\nReino Unido",
     "infobox": "<p>British Airways Plc (Sucursal Alemania) es la aerolínea de bandera del Reino Unido y una de las mayores compañías europeas, con centro de operaciones en el aeropuerto de Londres-Heathrow. Para reclamaciones por vuelo retrasado, equipaje perdido o daños en la maleta, y la devolución de tasas y cargos, pueden aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos, el derecho británico equivalente y el Convención de Montreal. El domicilio social y fuero jurídico principal de British Airways Plc se encuentra en Londres, Reino Unido. Si su vuelo sale de la UE o llega operado por BA, podría tener derecho a indemnización o reembolso.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.britishairways.com/content/es/es/information/help-and-contacts/complaints-and-claims"
   },
   {
     "slug": "klm",
     "name": "KLM Royal Dutch Airlines",
-    "adresse": "KLM Royal Dutch Airlines\nPaseo de la Castellana 95\n28046 Madrid\nEspaña",
+    "adresse": "Koninklijke Luchtvaart Maatschappij N.V.\nAmsterdamseweg 55\n1182 GP Amstelveen\nPaíses Bajos",
     "infobox": "<p>KLM Royal Dutch Airlines es la aerolínea de bandera de los Países Bajos y una de las compañías más antiguas de Europa. Su principal centro de operaciones y aeropuerto de origen es Ámsterdam-Schiphol. En casos de vuelo retrasado o conexión perdida, pueden aplicarse derechos de la Reglamento de la UE sobre los derechos de los pasajeros aéreos; para equipaje perdido o dañado rige, en general, el Convención de Montreal. Si no viajas, también puedes reclamar el reembolso de impuestos y tasas no utilizados. El domicilio social y foro jurídico principal de KLM se encuentra en Amstelveen, cerca de Ámsterdam.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.klm.es/claim"
   },
   {
     "slug": "air-france",
     "name": "Air France",
-    "adresse": "Paseo de la Castellana 95\n28046 Madrid\nEspaña",
+    "adresse": "Air France, 45 rue de Paris\n93290 Tremblay-en-France\nFrancia",
     "infobox": "<p>Air France es la aerolínea nacional de Francia y una de las principales compañías europeas de red, con su hub en el aeropuerto de París-Charles de Gaulle. Su sede jurídica y foro competente principal se encuentran en Roissy-en-France, cerca de París. En casos de retraso o cancelación, la Reglamento de la UE sobre los derechos de los pasajeros aéreos puede dar derecho a asistencia, transporte alternativo o compensación, salvo circunstancias extraordinarias. Si su equipaje se pierde o se retrasa, el Convención de Montreal regula la reclamación de daños. Además, en algunos billetes es posible solicitar la devolución de tasas y cargos no utilizados.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://wwws.airfrance.es/claim"
   },
   {
     "slug": "emirates",
     "name": "Emirates",
     "adresse": "Emirates España\nPaseo de la Castellana 53\n28046 Madrid\nEspaña",
     "infobox": "<p>Emirates es la aerolínea insignia de Dubái y una de las mayores compañías internacionales del mundo, con su principal hub en el Aeropuerto Internacional de Dubái (DXB). Como transportista no perteneciente a la UE, la <strong>Reglamento de la UE sobre los derechos de los pasajeros aéreos</strong> solo suele aplicarse en vuelos que salen de la Unión Europea; en rutas desde Dubái, los derechos por retraso dependen del caso. Para equipaje perdido o dañado, y para reclamaciones por gastos, rige en muchos supuestos el <strong>Convención de Montreal</strong>. La sede legal y jurisdicción principal de Emirates se encuentra en Dubái, Emiratos Árabes Unidos.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.emirates.com/es/spanish/help/forms/complaint/"
   },
   {
     "slug": "qatar-airways",
     "name": "Qatar Airways",
-    "adresse": "Qatar Airways\nPaseo de la Castellana 141, 18ª planta\n28046 Madrid\nEspaña",
+    "adresse": "Qatar Airways\nC/ Orense 34, Planta 4\n28020 Madrid\nEspaña",
     "infobox": "<p>Qatar Airways es la aerolínea nacional de Catar y una de las compañías de red más premiadas del mundo, con su principal centro de operaciones en el Aeropuerto Internacional de Hamad, en Doha. En caso de retraso, pérdida de conexión o equipaje perdido, pueden aplicarse distintos derechos según la ruta: la Reglamento de la UE sobre los derechos de los pasajeros aéreos suele ser relevante en salidas desde la UE, mientras que para equipaje y daños rige a menudo el Convención de Montreal. El domicilio social y fuero jurídico principal de Qatar Airways se encuentra en Doha, Catar. También puede ser posible reclamar el reembolso de tasas, impuestos y cargos no utilizados.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.qatarairways.com/en/help/submit-request-form.html"
   },
   {
     "slug": "tap-air-portugal",
     "name": "TAP Air Portugal",
-    "adresse": "TAP Air Portugal\nOficina en Madrid\nCalle de Orense, 69\n28020 Madrid\nEspaña",
+    "adresse": "TAP Air Portugal\nEdifício 25, Aeroporto de Lisboa\n1704-801 Lissabon\nPortugal",
     "infobox": "<p>TAP Air Portugal es la aerolínea nacional de Portugal y uno de los principales operadores entre Europa, Brasil, África y EE. UU., con Lisboa como centro de conexiones clave. Su sede jurídica y principal foro competente se encuentra en Lisboa, Portugal. En caso de vuelo retrasado, conexión perdida, equipaje extraviado o tasas y gastos no reembolsados, pueden aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos y el Convención de Montreal. Esto es especialmente relevante para reclamaciones por compensación, reembolso o indemnización, siempre que no existan circunstancias extraordinarias. Si volaste con TAP, conviene revisar tus derechos y reclamar dentro de plazo.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.flytap.com/es-es/ayuda/solicitudes-reclamaciones/reclamacion"
   },
   {
     "slug": "iberia",
     "name": "IBERIA LAE SA Operadora Unipersonal",
     "adresse": "C/ Martínez Villergas, 49\n28027 Madrid\nEspaña",
     "infobox": "<p>IBERIA LAE SA Operadora Unipersonal es la aerolínea de red y bandera de España, con centro operativo principal en el aeropuerto Adolfo Suárez Madrid-Barajas y sede jurídica en Madrid. En casos de vuelo retrasado, denegación de embarque o cancelación, pueden aplicarse derechos de la Reglamento de la UE sobre los derechos de los pasajeros aéreos, incluida compensación y asistencia. Si el problema es equipaje perdido, dañado o retrasado, rige el Convención de Montreal. Además, según la tarifa y el billete, puede ser posible reclamar tasas, impuestos y cargos no utilizados. Conviene revisar cada caso de forma individual para valorar la reclamación correcta.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.iberia.com/de/reclamaciones-justificantes/"
   },
   {
     "slug": "finnair",
     "name": "Finnair plc (Finnair Oyj)",
-    "adresse": "Paseo de la Castellana 95, Planta 15\n28046 Madrid\nEspaña",
+    "adresse": "PO Box 15\n01031 Finnair\nFinlandia",
     "infobox": "<p>Finnair plc (Finnair Oyj) es la aerolínea de bandera de Finlandia y destaca por sus conexiones rápidas entre Europa y Asia. Su principal centro de operaciones y aeropuerto de origen es Helsinki-Vantaa (HEL). Si su vuelo sufre retrasos, si su equipaje se pierde o llega dañado, o si desea reclamar impuestos y tasas de billetes no utilizados, pueden aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos y el Convención de Montreal. El domicilio social y foro jurídico principal de Finnair se encuentra en Helsinki, Finlandia. Compruebe sus derechos y reclame posibles compensaciones, reembolsos y gastos adicionales.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.finnair.com/es-es/servicio-de-atenci%C3%B3n-al-cliente-e-informaci%C3%B3n-de-contacto/formularios-de-solicitud-y-contacto/comentarios-y-compensaciones"
   },
   {
     "slug": "sas",
     "name": "Scandinavian Airlines System (SAS)",
-    "adresse": "Scandinavian Airlines System (SAS)\nPaseo de la Castellana 95\n28046 Madrid\nEspaña",
+    "adresse": "Frösundaviks allé 1\n195 87 Stockholm\nSuecia",
     "infobox": "<p>Scandinavian Airlines System (SAS) es la aerolínea de bandera de Dinamarca, Noruega y Suecia, con sede jurídica en Estocolmo y principal centro de operaciones en el aeropuerto de Copenhague-Kastrup. Si su vuelo con SAS sufre retraso o cancelación, pueden aplicarse sus derechos conforme a la Reglamento de la UE sobre los derechos de los pasajeros aéreos. En caso de equipaje perdido o dañado, el Convención de Montreal regula posibles reclamaciones. Además, si el vuelo no se utiliza o se cancela, en determinadas circunstancias puede solicitar la devolución de impuestos, tasas y cargos. Revise su caso y reclame lo que le corresponda.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.flysas.com/es-es/soporte-informacion"
   },
   {
     "slug": "delta-air-lines",
     "name": "Delta Air Lines, Inc.",
-    "adresse": "Delta Air Lines, Inc.\nPaseo de la Castellana 95\n28046 Madrid\nEspaña",
+    "adresse": "Delta Air Lines, Inc.\nCustomer Care, P.O. Box 20980\nDepartment 980, Atlanta\nGA 30320-2980, USA",
     "infobox": "<p>Delta Air Lines, Inc. es una de las mayores aerolíneas de Estados Unidos y opera principalmente desde su centro neurálgico en el Aeropuerto Internacional Hartsfield-Jackson de Atlanta. Para reclamaciones por vuelo retrasado, equipaje perdido o reembolso de tasas e impuestos, aplican distintas normas según la ruta: en salidas desde la UE puede entrar en juego la Reglamento de la UE sobre los derechos de los pasajeros aéreos, mientras que los daños por equipaje se valoran según el Convención de Montreal. El domicilio social y foro jurídico principal de Delta se encuentra en Atlanta, Georgia, lo que también puede ser relevante para acciones legales y reclamaciones transfronterizas.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.delta.com/us/en/need-help/overview"
   },
   {
     "slug": "united-airlines",
     "name": "United Airlines, Inc.",
-    "adresse": "Paseo de la Castellana 141, 18ª planta\n28046 Madrid\nEspaña",
+    "adresse": "Willis Tower, 233 South Wacker Drive\nChicago, IL 60606\nUSA",
     "infobox": "<p>United Airlines, Inc. es una de las mayores aerolíneas de red de EE. UU., con centro de operaciones principal en el aeropuerto de Chicago O’Hare. Para retrasos de vuelos que salen de la UE, puede aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos; en trayectos de regreso desde EE. UU., por lo general no. Si su equipaje se pierde o llega dañado, en ambos sentidos rige el Convención de Montreal, que permite reclamar una indemnización limitada. Además, en ciertos casos pueden recuperarse impuestos y tasas no utilizados. El domicilio social y fuero jurídico principal de United Airlines, Inc. se encuentra en Chicago, Illinois, EE. UU.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.united.com/es/mx/customercare"
   },
   {
     "slug": "american-airlines",
     "name": "American Airlines",
-    "adresse": "Aeropuerto Adolfo Suárez Madrid-Barajas\n28042 Madrid\nEspaña",
+    "adresse": "1 Skyview Drive\n Fort Worth, TX 76155\nUSA",
     "infobox": "<p>American Airlines es una de las mayores aerolíneas de Estados Unidos, con centro principal en el aeropuerto de Dallas/Fort Worth (DFW) y sede jurídica en Fort Worth, Texas. En vuelos con salida desde la UE, pueden aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos para reclamaciones por retraso o cancelación; en rutas desde EE. UU., normalmente rige el marco local y, para equipaje perdido o dañado, el Convención de Montreal. Además, en determinados casos es posible reclamar el reembolso de tasas e impuestos no utilizados. La viabilidad depende de la ruta, la reserva y el motivo de la incidencia.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.aa.com/web/i18n/customer-service/contact-american/american-customer-service.html?from=comp_footer&locale=es_ES"
   },
   {
     "slug": "singapore-airlines",
     "name": "Singapore Airlines",
-    "adresse": "Singapore Airlines España, S.A.\nPaseo de la Castellana, 95, Planta 28\n28046 Madrid\nEspaña",
+    "adresse": "Singapore Airlines Ltd.\nHahnstraße 31-35\nD-60528 Frankfurt/Main\nGermany",
     "infobox": "<p>Singapore Airlines es la aerolínea de bandera de Singapur y una de las compañías premium más reconocidas de Asia, con su principal hub en el aeropuerto de Singapur-Changi. En caso de vuelo retrasado, equipaje perdido o reclamación de tasas e impuestos, pueden aplicarse distintas normas según la ruta: la <strong>Reglamento de la UE sobre los derechos de los pasajeros aéreos</strong> solo rige si el vuelo sale de la UE, mientras que para daños por equipaje suele ser decisivo el <strong>Convención de Montreal</strong>. El domicilio social y fuero jurídico principal de Singapore Airlines se encuentra en Singapur.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.singaporeair.com/feedback-form"
   },
   {
     "slug": "corendon-airlines",
     "name": "Corendon Touristik GmbH",
     "adresse": "Zentralgebäude Ost – sala 5.044, Terminal Ring 1\n40474 Düsseldorf\nAlemania",
     "infobox": "<p>Corendon Touristik GmbH es una aerolínea y turoperador del grupo Corendon, con fuerte presencia en vuelos vacacionales hacia el Mediterráneo y otros destinos turísticos. Su base operativa y principal aeropuerto de conexión suele estar en Antalya, aunque, según la filial que opere el vuelo, pueden aplicarse distintas normas. En retrasos o cancelaciones, la <strong>Reglamento de la UE sobre los derechos de los pasajeros aéreos</strong> puede ser relevante; para equipaje perdido o dañado, rige el <strong>Convención de Montreal</strong>. El domicilio social y fuero jurídico de Corendon Touristik GmbH se sitúan en Alemania. También pueden reclamarse en ciertos casos tasas y cargos no utilizados.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.corendonairlines.com/de/service-center/kontakt/kundenkontaktformular?srsltid=AfmBOorS5t4Xe4LqJhVzIsioFFSwcCt5zJzHddNwkybDp3YtYHbF4uc8"
   },
   {
     "slug": "pegasus-airlines",
     "name": "Pegasus Airlines",
     "adresse": "Aeropark Yenişehir Mah. Osmanlı Bulvarı No: 11/A\n34912 Kurtköy, Pendik, Estambul\nTurquía",
     "infobox": "<p>Pegasus Airlines es una aerolínea turca de bajo coste con sede en Estambul y centro operativo principal en el aeropuerto Sabiha Gökçen (SAW). En casos de vuelo retrasado, equipaje perdido o reclamación de tasas e impuestos, la situación jurídica depende de la ruta: en vuelos desde la UE pueden aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos, mientras que para daños, pérdida de equipaje y muchas incidencias internacionales suele ser relevante el Convención de Montreal. El domicilio social y fuero jurisdiccional de la compañía se encuentran en Estambul. Revisamos si tienes derecho a compensación, reembolso o devolución de importes pagados.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.flypgs.com/en"
   },
   {
     "slug": "swiss",
     "name": "Swiss International Air Lines AG",
-    "adresse": "Paseo de la Castellana 95\n28046 Madrid\nEspaña",
+    "adresse": "Customer Feedback Services\nP.O. Box 8010 Zürich,\nSuiza",
     "infobox": "<p>Swiss International Air Lines AG es la aerolínea nacional de Suiza y miembro del grupo Lufthansa, con centro operativo en el aeropuerto de Zúrich. Como compañía suiza, sus vuelos están sujetos a la Reglamento de la UE sobre los derechos de los pasajeros aéreos en muchas rutas relevantes por los acuerdos bilaterales entre Suiza y la UE. En casos de vuelo retrasado, equipaje perdido o reclamación de tasas y cargos, también puede ser decisivo el Convención de Montreal. La sede legal y el fuero competente de la aerolínea se encuentran en Basilea. Por ello, los pasajeros pueden hacer valer sus derechos con base en las normas europeas e internacionales aplicables.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.swiss.com/es/es/customer-support/contact-us"
   },
   {
     "slug": "thai-airways",
     "name": "THAI AIRWAYS International Public Company Ltd.",
-    "adresse": "Paseo de la Castellana 95, Planta 15\n28046 Madrid\nEspaña",
+    "adresse": "Select Aviation (Thai Airways Office)\nCalle de la Princesa 2, Planta 2, Oficina 1\n 28008 Madrid\nEspaña",
     "infobox": "<p>THAI AIRWAYS International Public Company Ltd. es la aerolínea de bandera de Tailandia y uno de los principales operadores de Asia, con centro de operaciones en el aeropuerto de Bangkok-Suvarnabhumi (BKK). Su sede jurídica y fuero principal se encuentran en Bangkok, Tailandia. Para reclamaciones por vuelo retrasado, equipaje perdido o deteriorado, y para la devolución de impuestos y tasas en billetes no utilizados, pueden ser relevantes la Reglamento de la UE sobre los derechos de los pasajeros aéreos y el Convención de Montreal, según la ruta y el caso concreto. En vuelos con origen o conexión en Europa, también pueden existir derechos adicionales de compensación o reembolso.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.thaiairways.com/en-jp/help/feedback/"
   },
   {
     "slug": "ana",
     "name": "ANA Holdings Inc. (All Nippon Airways)",
-    "adresse": "Paseo de la Castellana 95, Planta 15\n28046 Madrid\nEspaña",
+    "adresse": "Shiodome City Center\n1-5-2 Higashi-Shimbashi\nMinato-ku\nJapón",
     "infobox": "<p>ANA Holdings Inc. (All Nippon Airways) es la principal aerolínea japonesa de red, reconocida por su servicio premium en vuelos nacionales e internacionales. Su centro de operaciones principal se encuentra en el aeropuerto de Tokio-Haneda, y su sede jurídica se sitúa en Tokio, Japón. En vuelos desde Alemania a la UE puede aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos; en trayectos desde Japón, suelen regir las condiciones de transporte de la aerolínea. Para retrasos, equipaje perdido o reclamaciones de tasas e impuestos, también pueden ser relevantes el Convención de Montreal y las normas contractuales de ANA.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://ana-support.my.site.com/enus/s/anacs-en"
   },
   {
     "slug": "cathay-pacific",
     "name": "Cathay Pacific",
-    "adresse": "Cathay Pacific Airways Ltd.\nPaseo de la Castellana 95, Planta 15\n28046 Madrid\nEspaña",
+    "adresse": "Cathay City, 8 Scenic Road\nHong Kong International Airport\nLantau, Hong Kong",
     "infobox": "<p>Cathay Pacific es la aerolínea bandera de Hong Kong, reconocida por su amplia red internacional y su hub principal en el Aeropuerto Internacional de Hong Kong. En vuelos con salida desde la UE, la Reglamento de la UE sobre los derechos de los pasajeros aéreos puede dar derecho a compensación por retrasos, cancelaciones o denegación de embarque. Si tu equipaje se pierde o llega dañado, el Convención de Montreal protege tus reclamaciones en rutas de todo el mundo. Además, si no utilizaste el billete, en algunos casos puedes solicitar la devolución de tasas y cargos. La sede legal y jurisdicción principal de la compañía se encuentran en Hong Kong.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.cathaypacific.com/cx/es_ES/contact-us/complaints-and-suggestions.html"
   },
   {
     "slug": "austrian-airlines",
     "name": "Austrian Airlines AG",
-    "adresse": "Austrian Airlines AG\nc/o Lufthansa Group\nPaseo de la Castellana 95\n28046 Madrid\nEspaña",
+    "adresse": "Austrian Airlines AG\nPostfach 33\n A-1300 Wien-Flughafen\nAustria",
     "infobox": "<p>Austrian Airlines AG es la aerolínea nacional de Austria y miembro del grupo Lufthansa, con su centro de operaciones principal en el aeropuerto de Viena-Schwechat (VIE). Como transportista de la UE, están vigentes la Reglamento de la UE sobre los derechos de los pasajeros aéreos y, en caso de equipaje perdido o dañado, el Convención de Montreal. Los pasajeros pueden reclamar indemnización por retrasos, cancelaciones o cambios de horario comunicados con poca antelación, así como la devolución de tasas, impuestos y cargos no utilizados. El domicilio social y fuero jurídico de Austrian Airlines AG se encuentra en Viena, Austria.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.austrian.com/es/es/contact"
   },
   {
     "slug": "air-canada",
     "name": "Air Canada",
-    "adresse": "Air Canada\nAeropuerto Adolfo Suárez Madrid-Barajas\nTerminal 1, Planta 1, Oficina de Air Canada\n28042 Madrid\nEspaña",
+    "adresse": "Air Canada\nAeropuerto Adolfo Suárez Madrid-Barajas\nT4\n28042 Madrid\nEspaña",
     "infobox": "<p>Air Canada es la aerolínea de bandera de Canadá y una de las mayores compañías de Norteamérica, con su centro principal de operaciones en el Aeropuerto Internacional Toronto Pearson (YYZ). Para vuelos que salen de la UE, pueden aplicarse los derechos de la Reglamento de la UE sobre los derechos de los pasajeros aéreos; en rutas desde Canadá, además pueden entrar en juego las APPR. Si tu equipaje se pierde o llega dañado, suele ser relevante el Convención de Montreal. También es posible reclamar tasas e impuestos no utilizados. La sede jurídica y el fuero principal de Air Canada se encuentran en Montreal, Quebec.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.aircanada.com/es/es/aco/home/fly/customer-support.html"
   },
   {
     "slug": "etihad-airways",
     "name": "Etihad Airways",
-    "adresse": "Etihad Airways\nMadrid, Spain\nEspaña",
+    "adresse": "New Airport Road\nAbu Dhabi\nEmiratos Árabes Unidos",
     "infobox": "<p>Etihad Airways es la aerolínea nacional de Emiratos Árabes Unidos y opera principalmente desde su hub en el aeropuerto internacional de Abu Dabi. Su sede jurídica y foro competente se sitúan en Abu Dabi. En caso de retraso de vuelo, pérdida de equipaje o reclamación de tasas e impuestos, la situación legal depende de la ruta y del billete. La Reglamento de la UE sobre los derechos de los pasajeros aéreos puede aplicarse en determinados vuelos con salida desde la UE, mientras que el Convención de Montreal regula, entre otras cosas, el equipaje retrasado o perdido y los gastos de emergencia. Conviene revisar cada caso individualmente.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.etihad.com/es-es/help"
   },
   {
     "slug": "latam-airlines",
     "name": "LATAM Airlines",
-    "adresse": "Paseo de la Castellana 95, Planta 28\n28046 Madrid\nEspaña",
+    "adresse": "Presidente Riesco 5711\n20th Floor, Las Condes\nSantiago, Chile",
     "infobox": "<p>LATAM Airlines es el mayor grupo aéreo de Sudamérica, con centro de operaciones principal en el Aeropuerto Internacional Arturo Merino Benítez de Santiago de Chile. Como aerolínea con sede jurídica en Chile, sus reclamaciones suelen tramitarse conforme a la legislación aplicable en el país de origen y, en determinados vuelos, también bajo la Reglamento de la UE sobre los derechos de los pasajeros aéreos cuando la salida parte de la UE. En casos de vuelo retrasado, equipaje perdido o reembolso de tasas y cargos, puede entrar en juego el Convención de Montreal, especialmente para daños por equipaje y demoras. En vuelos de código compartido, responde la aerolínea operadora efectiva.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.latamairlines.com/es/es/centro-ayuda/preguntas/necesidades-especiales/oficinas-contact-center/crear-caso"
   },
   {
     "slug": "qantas-airways",
     "name": "Qantas Airways Limited",
-    "adresse": "Qantas Airways Limited\nPaseo de la Castellana 95\n28046 Madrid\nEspaña",
+    "adresse": "Qantas Airways Limited\nC. de Ramírez de Arellano\nCiudad Lineal\n28943 Madrid\nEspaña",
     "infobox": "<p>Qantas Airways Limited es la aerolínea de bandera de Australia y una de las más reconocidas en rutas de larga distancia, con su principal centro de operaciones en el Aeropuerto de Sídney-Kingsford Smith. Para vuelos que salen de la UE o del Reino Unido, pueden aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos y la normativa británica correspondiente en caso de retraso o cancelación; en equipaje perdido o dañado rige, por lo general, el Convención de Montreal. También es posible reclamar tasas e impuestos no utilizados. El domicilio social y fuero jurídico principal de Qantas se encuentra en Sídney, Nueva Gales del Sur.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.qantas.com/en-cl/spanish/help-contact-us"
   },
   {
     "slug": "japan-airlines",
     "name": "Japan Airlines Co., Ltd. (JAL)",
-    "adresse": "Paseo de la Castellana 95\n28046 Madrid\nEspaña",
+    "adresse": "Rossmarkt 15\n60311 Frankfurt am Main\nAlemania",
     "infobox": "<p>Japan Airlines Co., Ltd. (JAL) es una de las principales aerolíneas de Japón y opera principalmente desde su centro en el Aeropuerto Internacional de Tokio Haneda. En casos de vuelo retrasado o equipaje perdido, la <strong>Reglamento de la UE sobre los derechos de los pasajeros aéreos</strong> solo suele aplicarse cuando el vuelo sale de la UE; en otros trayectos, puede ser relevante el <strong>Convención de Montreal</strong>. Si cancela su billete, también puede reclamar el reembolso de impuestos y tasas no devengados. El domicilio social y fuero judicial de JAL se encuentra en Tokio, Japón.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.jal.co.jp/jp/en/help/"
   },
   {
     "slug": "air-new-zealand",
     "name": "Air New Zealand",
     "adresse": "185 Fanshawe Street\nAuckland 1010\nNueva Zelanda",
     "infobox": "<p>Air New Zealand es la aerolínea de bandera de Nueva Zelanda, con centro de operaciones en el aeropuerto de Auckland. Para reclamaciones por vuelo retrasado, equipaje perdido o daños en la maleta, es importante saber que la Reglamento de la UE sobre los derechos de los pasajeros aéreos suele no aplicarse a vuelos operados desde Nueva Zelanda; en cambio, el Convención de Montreal protege frente a incidencias de equipaje. Guarde siempre el PIR, la tarjeta de embarque y los recibos. La sede legal y jurisdicción principal de Air New Zealand se encuentra en Auckland, Nueva Zelanda. En algunos casos, también puede solicitar la devolución de impuestos y tasas no utilizados.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.airnewzealand.co.nz/feedback/complaint/"
   },
   {
     "slug": "air-china",
     "name": "Air China Limited",
-    "adresse": "Paseo de la Castellana 95, 15ª planta\n28046 Madrid\nEspaña",
+    "adresse": "Air China Limited Sucursal en España\nCalle Gran Vía 30, Planta 11\n28013 Madrid\nEspaña",
     "infobox": "<p>Air China Limited es la aerolínea de bandera de China y uno de los mayores operadores del país, con centro de conexiones principal en el Aeropuerto Internacional de Pekín-Capital (PEK). Su sede jurídica y foro competente se encuentran en Pekín, China. Para vuelos con Air China, la <strong>Reglamento de la UE sobre los derechos de los pasajeros aéreos</strong> puede aplicarse en salidas desde la UE hacia destinos fuera de Europa, por ejemplo en casos de retraso o cancelación. En pérdidas o daños de equipaje, así como en reclamaciones por retrasos de maletas, suele ser decisivo el <strong>Convención de Montreal</strong>. También pueden reclamarse, según el caso, tasas e impuestos de vuelos no utilizados.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.airchina.es/ES/ES/contact-us/passenger-feedbak/"
   },
   {
     "slug": "korean-air",
     "name": "Korean Air",
-    "adresse": "Korean Air España\nPaseo de la Castellana, 95\n28046 Madrid\nEspaña",
+    "adresse": "Korean Air Lines Co., Ltd.\n260, Haneul-gil, Gangseo-gu\nSeoul, 07505\nCorea del Sur",
     "infobox": "<p>Korean Air es la aerolínea de bandera de Corea del Sur y uno de los principales operadores de Asia, con su centro de operaciones en el aeropuerto de Seúl-Incheon (ICN) y sede jurídica en Seúl. En vuelos con salida desde la UE, pueden aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos en casos de retraso o denegación de embarque. Si su equipaje se pierde o llega dañado, el Convención de Montreal suele ser la base para reclamar indemnización. Además, en determinadas tarifas o cancelaciones, también puede solicitar la devolución de impuestos y tasas no utilizados.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.koreanair.com/footer/customer-support/feedback"
   },
   {
     "slug": "air-india",
     "name": "Air India Limited",
-    "adresse": "Air India Limited\nPaseo de la Castellana 95, Planta 15\n28046 Madrid\nEspaña",
+    "adresse": "Air India Limited\nUnit 1 Gilbert House, Great West Quarter\nBrentford, Middlesex, TW8 0GH\nUnited Kingdom",
     "infobox": "<p>Air India Limited es la aerolínea nacional de la India y opera principalmente desde su centro en el Aeropuerto Internacional Indira Gandhi de Delhi. Si su vuelo sufre una cancelación o gran retraso, o si su equipaje se pierde o llega dañado, pueden aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos y el Convención de Montreal, según la ruta y el lugar de salida. Para reclamaciones de tasas, impuestos o cargos no utilizados, también puede existir derecho a reembolso. El domicilio social y foro jurídico principal de Air India Limited se encuentra en Nueva Delhi, India. Revise su caso y haga valer sus derechos a tiempo.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.airindia.com/in/en/contact-us/customer-support-portal.html"
   },
   {
     "slug": "lot-polish-airlines",
     "name": "LOT Polish Airlines",
-    "adresse": "Paseo de la Castellana 95, Planta 15\n28046 Madrid\nEspaña",
+    "adresse": "LOT Polish Airlines S.A\nClaims Department, ul.\nKomitetu Obrony Robotników 43\n02-143 Warschau\nPolonia",
     "infobox": "<p>LOT Polish Airlines es la aerolínea nacional de Polonia y opera principalmente desde su centro de conexión en el Aeropuerto Chopin de Varsovia. Como compañía europea, los pasajeros pueden reclamar derechos por retrasos de vuelos según la Reglamento de la UE sobre los derechos de los pasajeros aéreos en muchas rutas operadas por LOT. Si tu equipaje se pierde o llega dañado, también puede aplicarse el Convención de Montreal. Además, en algunos casos es posible solicitar el reembolso de impuestos y tasas. El domicilio social y fuero jurídico principal de LOT Polish Airlines se encuentra en Varsovia, Polonia.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.lot.com/es/es/help-center/contact/forms/form-claim-after-departure"
   },
   {
     "slug": "brussels-airlines",
     "name": "Brussels Airlines SA/NV",
-    "adresse": "Brussels Airlines\nCalle de Orense 34\n28020 Madrid\nEspaña",
+    "adresse": "Brussels Airlines\n100-102 Avenue des Saisons\nPostfach 30\n1050 Brüssel\nBélgica",
     "infobox": "<p>Brussels Airlines SA/NV es la aerolínea nacional de Bélgica y miembro de Lufthansa Group, con su principal hub en el aeropuerto de Bruselas-Zaventem (BRU). Su sede jurídica y foro competente se encuentran en Bruselas, Bélgica. En caso de retraso de vuelo, cancelación o denegación de embarque, pueden aplicarse derechos de compensación según la Reglamento de la UE sobre los derechos de los pasajeros aéreos, hasta 600 euros en determinadas rutas. Para equipaje perdido, dañado o retrasado, el Convención de Montreal ofrece base legal para reclamar. Además, si no voló, puede solicitar el reembolso de impuestos y tasas incluidos en el billete.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.brusselsairlines.com/xx/es/contact/feedback"
   },
   {
     "slug": "ita-airways",
     "name": "Italia Trasporto Aereo S.p.A. (Headquarter)",
-    "adresse": "Aeropuerto Adolfo Suárez Madrid-Barajas\nTerminal 1, Planta 1\n28042 Madrid\nEspaña",
+    "adresse": "Via Venti Settembre 97\nTerminal 1, Planta 1\n00187 Roma\nItalia",
     "infobox": "<p>Italia Trasporto Aereo S.p.A. (ITA Airways) es la aerolínea nacional de Italia y sucesora de Alitalia, con sede jurídica en Roma y principal hub en el aeropuerto de Roma-Fiumicino. Como transportista de la UE, está sujeta a la Reglamento de la UE sobre los derechos de los pasajeros aéreos en caso de retrasos o cancelaciones, y al Convención de Montreal cuando se trata de equipaje perdido, dañado o retrasado. Además, en determinadas reservas y billetes pueden reclamarse impuestos, tasas y cargos no utilizados. Si un vuelo sale de Italia o de la UE, los pasajeros suelen tener buenas bases legales para revisar sus derechos y posibles indemnizaciones.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.trenitalia.com/en/information/how-to-send-a-complaint.html"
   },
   {
     "slug": "air-baltic",
     "name": "Air Baltic",
     "adresse": "Tehnikas iela 3\nLV-1010 Riga\nLetonia",
     "infobox": "<p>Air Baltic es la aerolínea nacional de Letonia y opera principalmente desde su hub en el Aeropuerto Internacional de Riga. Como compañía con sede en la UE y domicilio social en Riga, se aplican en muchos casos la Reglamento de la UE sobre los derechos de los pasajeros aéreos y, según la incidencia, el Convención de Montreal. Esto es relevante tanto para retrasos y cancelaciones como para equipaje perdido o dañado. Si no utilizó su vuelo, en muchos casos también puede reclamar impuestos y tasas aeroportuarias no utilizados. Revisar su caso puede ayudarle a hacer valer sus derechos frente a Air Baltic.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.airbaltic.com/en/submit-a-claim"
   },
   {
     "slug": "aegean-airlines",
     "name": "Aegean Airlines S.A.",
-    "adresse": "Aeropuerto Adolfo Suárez Madrid-Barajas\nTerminal 1, Planta 1, Oficina de Aegean Airlines\n28042 Madrid\nEspaña",
+    "adresse": "Building 57\nAthens International Airport\n19 019 Artemida, Spata, Attiki\nGrecia",
     "infobox": "<p>Aegean Airlines S.A. es la principal aerolínea griega de red, miembro de Star Alliance, con base operativa en el aeropuerto de Atenas-Eleftherios Venizelos (ATH). Su domicilio social y sede jurídica se encuentran en Kifissia, Ática, Grecia. En casos de retraso o cancelación, la <strong>Reglamento de la UE sobre los derechos de los pasajeros aéreos</strong> puede dar derecho a compensación, salvo circunstancias extraordinarias. Si tu equipaje se pierde o llega dañado, suele aplicarse el <strong>Convención de Montreal</strong>. Además, en ciertas reservas es posible reclamar la devolución de impuestos y tasas no utilizadas.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://es.aegeanair.com/contact/"
   },
   {
     "slug": "air-europa",
     "name": "Air Europa Líneas Aéreas S.A.U.",
     "adresse": "Carretera Arenal-Llucmajor, KM 21.5\nCP: 07620 Llucmajor - Islas Baleares\nEspaña",
     "infobox": "<p>Air Europa Líneas Aéreas S.A.U. es una aerolínea española de red, con hub principal en el Aeropuerto Adolfo Suárez Madrid-Barajas y sede jurídica en Llucmajor, Mallorca. En casos de retraso, cancelación o denegación de embarque, pueden aplicarse los derechos del pasajero según el Reglamento (CE) n.º 261/2004 de la UE. Si su equipaje se pierde o llega con demora, el Convenio de Montreal puede respaldar su reclamación. Además, en determinadas situaciones es posible solicitar el reembolso de tasas, impuestos y cargos no utilizados.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://customerservice.aireuropa.com/complaints/ES/es/complaints-compliments"
   },
   {
     "slug": "smartwings",
     "name": "Smartwings a.s.",
     "adresse": "K letisti 1068/30\n160 08 Praha 6\nRepública Checa",
     "infobox": "<p>Smartwings a.s. es una aerolínea checa especializada en vuelos chárter y de ocio, con su base principal en el aeropuerto de Praga-Václav Havel. Si tu vuelo llega con retraso, tu equipaje se pierde o quieres reclamar tasas e impuestos, pueden existir derechos frente a la compañía. En muchos casos se aplica la Reglamento de la UE sobre los derechos de los pasajeros aéreos; en reclamaciones por equipaje también puede ser relevante el Convención de Montreal. La sede social y jurisdicción principal de Smartwings se encuentran en Praga, República Checa. Revisa siempre tu caso concreto, especialmente en vuelos chárter o paquetes vacacionales, para valorar la compensación o el reembolso posible.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.smartwings.com/es/formulario-de-contacto"
   },
   {
     "slug": "discover-airlines",
     "name": "EW Discover GmbH",
     "adresse": "Hugo-Eckener Ring 1\nFAC, Building 234, D7.01\n60549 Frankfurt am Main\nAlemania",
     "infobox": "<p>EW Discover GmbH, conocida como Discover Airlines, es una aerolínea alemana de ocio con base en Fráncfort del Meno, su principal centro de operaciones y aeropuerto de conexión. Si sufre un retraso de vuelo, la <strong>Reglamento de la UE sobre los derechos de los pasajeros aéreos</strong> puede darle derecho a compensación y asistencia. En caso de equipaje perdido o retrasado, el <strong>Convención de Montreal</strong> regula la reclamación de daños y gastos necesarios. Además, si no pudo volar, puede revisar la devolución de impuestos y tasas. El domicilio social y foro competente de la compañía se encuentra en Fráncfort del Meno.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.discover-airlines.com/de/en/my-bookings/manage/customer-service/contact-form"
   },
   {
     "slug": "edelweiss-air",
     "name": "Edelweiss Air AG",
-    "adresse": "Edelweiss Air AG\nBarcelona-El Prat Airport\n08820 El Prat de Llobregat\nEspaña",
+    "adresse": "Edelweiss Air AG\nThe Circle 32\nPostfach, 8058 Zürich-Airport\nSuiza",
     "infobox": "<p>Edelweiss Air AG es la aerolínea vacacional suiza del grupo Lufthansa, con base y centro de operaciones en el aeropuerto de Zúrich. Como compañía con sede en Kloten, Suiza, sus reclamaciones por vuelos retrasados, equipaje perdido o dañado y reembolso de tasas e impuestos pueden verse afectadas por la Reglamento de la UE sobre los derechos de los pasajeros aéreos y, en materia de equipaje, por el Convención de Montreal. En muchos casos, los pasajeros pueden exigir asistencia, compensación o devolución de importes no utilizados. El fuero y domicilio social de la aerolínea se encuentran en Kloten, cantón de Zúrich.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.flyedelweiss.com/de/de/customer-service/contact-form.html"
   },
   {
     "slug": "oman-air",
     "name": "Oman Air S.A.O.C.",
-    "adresse": "P.O. Box 58\n111 Mascate\nOmán",
+    "adresse": "Muscat International Airport\nP.O. Box 58, PC 111\nMuscat\nOmán",
     "infobox": "<p>Oman Air S.A.O.C. es la aerolínea nacional de Omán y opera principalmente desde su hub en el Aeropuerto Internacional de Mascate. Para vuelos con retraso o cancelación, la <strong>Reglamento de la UE sobre los derechos de los pasajeros aéreos</strong> solo puede aplicarse en salidas desde la UE; en otras rutas, rigen las condiciones de transporte y la normativa local. En caso de equipaje perdido o dañado, suele ser relevante el <strong>Convención de Montreal</strong>. La sede legal y el fuero competente de la compañía se encuentran en Mascate, Omán. También puede revisarse si procede reclamar tasas e impuestos no utilizados del billete.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://services.omanair.com/om/en/feedback"
   },
   {
     "slug": "gulf-air",
     "name": "Gulf Air",
-    "adresse": "Gulf Air\nMadrid, Spain",
+    "adresse": "Gulf Air Head Office\nP.O. Box 138, Manama\nMuharraq\nBaréin",
     "infobox": "<p>Gulf Air es la aerolínea nacional de Baréin y opera principalmente desde el Aeropuerto Internacional de Baréin, en Manama. Como pasajero, puede tener derechos en caso de vuelo retrasado, equipaje perdido o para reclamar tasas y gastos no utilizados. En rutas desde la UE, la Reglamento de la UE sobre los derechos de los pasajeros aéreos puede otorgar asistencia y, según el caso, compensación por grandes retrasos o cancelaciones. Si su maleta se pierde o llega dañada, el Convención de Montreal regula la reclamación de indemnización. El domicilio social y sede jurídica de Gulf Air se encuentra en Muharraq, Baréin, lo que puede ser relevante para la competencia judicial.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.gulfair.com/contact-us"
   },
   {
     "slug": "norwegian-air-shuttle",
     "name": "Norwegian Air Shuttle ASA",
-    "adresse": "Calle de Orense 69\n28020 Madrid\nEspaña",
+    "adresse": "Oksenøyveien 3\nP.O. Box 115\n1366 Lysaker / Fornebu\nNoruega",
     "infobox": "<p>Norwegian Air Shuttle ASA es una aerolínea low cost noruega con una amplia red de rutas europeas e internacionales. Su base principal se encuentra en el aeropuerto de Oslo-Gardermoen, y su sede jurídica y foro competente están en Fornebu, Noruega. Para vuelos con retraso o cancelación, la Reglamento de la UE sobre los derechos de los pasajeros aéreos puede dar derecho a compensación según la ruta y la causa. Si se pierde o daña el equipaje, el Convención de Montreal regula la reclamación. Además, cuando un pasajero no vuela, suelen poder reclamarse impuestos, tasas y cargos no utilizados, incluso si la tarifa era económica.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.norwegian.com/es/atencion-al-cliente/quejas-y-elogios/"
   },
   {
     "slug": "icelandair",
     "name": "Icelandair",
-    "adresse": "Paseo de la Castellana 95\n28046 Madrid\nEspaña",
+    "adresse": "Flugvellir 1\n221 Hafnarfjörður\nIslandia",
     "infobox": "<p>Icelandair es la aerolínea de bandera de Islandia y opera principalmente desde su centro de conexiones en el Aeropuerto Internacional de Keflavík, cerca de Reikiavik. Como compañía con sede jurídica en Reykjavík, los pasajeros pueden invocar la Reglamento de la UE sobre los derechos de los pasajeros aéreos en determinados vuelos y, para equipaje perdido o dañado, el Convención de Montreal. Si su vuelo llega con retraso, pierde una conexión o su maleta no aparece, pueden existir derechos a compensación o reembolso. Además, en algunos casos es posible reclamar tasas e impuestos no utilizados cuando el viaje no se ha realizado.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.icelandair.com/support/contact-us/"
   },
   {
     "slug": "volotea",
     "name": "Volotea S.L.",
-    "adresse": "Travessera de Gràcia 56\n4.ª planta\n08006 Barcelona\nEspaña",
+    "adresse": "Travessera de Gràcia 56, 4.ª planta\n08006 Barcelona\nEspaña",
     "infobox": "<p>Volotea S.L. es una aerolínea española de bajo coste con base operativa en Barcelona-El Prat y una amplia red de rutas europeas. Como transportista de la UE, está sujeta a la Reglamento de la UE sobre los derechos de los pasajeros aéreos para reclamaciones por vuelo retrasado o cancelado, y al Convención de Montreal en casos de equipaje perdido, dañado o entregado con demora. Muchas denegaciones se apoyan en supuestas condiciones meteorológicas, pero solo eximen cuando son realmente extremas y afectan de forma objetiva al vuelo concreto. El domicilio social y fuero principal de Volotea se encuentra en Barcelona, España. También pueden reclamarse tasas e impuestos de billetes no utilizados.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.volotea.com/es/contacto/"
   },
   {
     "slug": "air-transat",
     "name": "Air Transat (Transat Tours Canada Inc.)",
-    "adresse": "Aeropuerto de Barcelona-El Prat\nOficina de Air Transat\n08820 El Prat de Llobregat, Barcelona\nEspaña",
+    "adresse": "5959 Côte-Vertu Blvd\nSaint-Laurent, Quebec H4S 2E6\nCanadá",
     "infobox": "<p>Air Transat (Transat Tours Canada Inc.) es una aerolínea canadiense de ocio y vuelos chárter, con base en Montreal y centro de operaciones principal en el Aeropuerto Internacional Montréal–Trudeau (YUL). En caso de retraso de vuelo, pérdida de equipaje o reclamación de tasas e impuestos, pueden aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos, la normativa canadiense APPR o el Convención de Montreal, según la ruta y el lugar de salida. El domicilio social y foro jurídico principal de la compañía se encuentra en Montreal, Quebec. En muchos casos, los pasajeros pueden reclamar la compensación o el reembolso más favorable, pero no duplicar indemnizaciones por el mismo incidente.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.airtransat.com/es-ES/formularios/reclamacion-por-retraso-del-vuelo"
   },
   {
     "slug": "saudia",
     "name": "Saudi Arabian Airlines (Saudia)",
-    "adresse": "Paseo de la Castellana 95\n28046 Madrid\nEspaña",
+    "adresse": "Al-Khalediyya, Airport Road\nP.O. Box 620\nJeddah 21231\nArabia Saudita",
     "infobox": "<p>Saudi Arabian Airlines (Saudia) es la aerolínea nacional de Arabia Saudí y una de las principales compañías del Golfo. Su centro de operaciones se encuentra en el Aeropuerto Internacional Rey Abdulaziz de Yeda, con otro hub importante en Riad. Si tu vuelo sale desde la UE, pueden aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos y derechos por retraso o cancelación; desde Yeda o Riad hacia la UE, normalmente no. En caso de equipaje perdido o dañado, rige en todo el mundo el Convención de Montreal. La sede legal y jurisdicción principal de Saudia se encuentra en Yeda. También es posible reclamar tasas y cargos no utilizados.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.saudia.com/es/forms/baggage-claim-form"
   },
   {
     "slug": "el-al",
     "name": "EL AL Israel Airlines Ltd.",
-    "adresse": "Calle de Velázquez 150, 1º D\n28002 Madrid\nSpanien",
+    "adresse": "Ben Gurion International Airport\nP.O. Box 41\nTel Aviv 7010000\nIsrael",
     "infobox": "<p>EL AL Israel Airlines Ltd. es la aerolínea nacional de Israel, con centro de operaciones en el Aeropuerto Ben Gurion de Tel Aviv. Su sede jurídica y foro competente se encuentran en Tel Aviv-Yafo, Israel. En caso de vuelo retrasado, equipaje perdido o reclamación de impuestos y tasas, pueden aplicarse distintas normas según la ruta: la Reglamento de la UE sobre los derechos de los pasajeros aéreos para salidas desde la UE y el Convención de Montreal para incidencias con equipaje y daños. Además, la legislación israelí de servicios aéreos puede ofrecer derechos adicionales en determinadas cancelaciones o demoras.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.elal.com/eng/about-elal/contact-us"
   },
   {
     "slug": "eva-air",
     "name": "EVA Airways Corp.",
-    "adresse": "Paseo de la Castellana 95, Planta 15\n28046 Madrid\nEspaña",
+    "adresse": "No. 376, Sec. 1, Hsin-Nan Rd.\nLuzhu District\nTaoyuan City 33801\nTaiwán",
     "infobox": "<p>EVA Air (EVA Airways Corp.) es una aerolínea taiwanesa de red, reconocida por sus vuelos de largo radio entre Europa, Asia y Norteamérica, con base y centro de operaciones principal en el Aeropuerto Internacional de Taoyuan, cerca de Taipéi. En caso de retrasos de vuelos que salgan de la UE, puede aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos; para incidencias con equipaje perdido o dañado rige el Convención de Montreal. Además, en determinadas cancelaciones o no utilización del billete, es posible reclamar impuestos y tasas. El domicilio social y fuero jurídico principal de la aerolínea se encuentra en Taoyuan, Taiwán.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://booking.evaair.com/flyeva/eva/b2c/feedback.aspx"
   },
   {
     "slug": "vietnam-airlines",
     "name": "Vietnam Airlines",
-    "adresse": "Paseo de la Castellana 95, Planta 15\n28046 Madrid\nEspaña",
+    "adresse": "200 Nguyen Son Street, Bo De Ward\nLong Bien District\nHanoi\nVietnam",
     "infobox": "<p>Vietnam Airlines es la aerolínea de bandera de Vietnam y opera principalmente desde su hub en el Aeropuerto Internacional de Nội Bài, en Hanói. Como compañía no perteneciente a la UE, la <strong>Reglamento de la UE sobre los derechos de los pasajeros aéreos</strong> suele aplicarse solo a vuelos que salen de la Unión Europea; en retrasos o cancelaciones en otros trayectos, pueden regir las condiciones de transporte y la ley local. Para equipaje perdido o dañado, el <strong>Convención de Montreal</strong> es la base jurídica relevante. El domicilio social y foro competente de la aerolínea se encuentra en Hanói, Vietnam. También pueden reclamarse, según el caso, tasas e impuestos no utilizados.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.vietnamairlines.com/dk/en/support/customer-care/feedback"
   },
   {
     "slug": "jet2",
     "name": "Jet2.com Limited",
-    "adresse": "Data Protection Department / Legal Services\nPO Box 284\nLeeds LS11 1GE\nReino Unido",
+    "adresse": "Low Fare Finder House\nLeeds Bradford Airport, Yeadon\nLeeds LS19 7TU\nReino Unido",
     "infobox": "<p>Jet2.com Limited es una aerolínea británica de bajo coste y vacaciones, con base principal en el aeropuerto de Leeds Bradford y fuerte presencia operativa también en Manchester y otros aeropuertos del Reino Unido. Su sede jurídica y foro competente se encuentran en Leeds, Inglaterra. Para retrasos de vuelo, la Reglamento de la UE sobre los derechos de los pasajeros aéreos puede servir de referencia práctica, mientras que tras el Brexit suelen aplicarse las normas británicas equivalentes. En caso de equipaje perdido o dañado, el Convención de Montreal regula la reclamación. Además, en determinados casos puede solicitarse el reembolso de impuestos y tasas no utilizadas.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.jet2.com/es-es/contact-us/returned/complaint"
   },
   {
     "slug": "tui-airways-uk",
     "name": "TUI UK Limited (TUI Airways)",
     "adresse": "Wigmore House, Wigmore Lane\nLuton LU2 9TN\nReino Unido",
     "infobox": "<p>TUI UK Limited, que opera como TUI Airways, es una aerolínea británica de ocio con sede jurídica en Luton, Reino Unido, y centro principal en el aeropuerto de Londres-Gatwick. Para retrasos de vuelo, cancelaciones o denegaciones de embarque, en muchos casos se aplica la normativa británica UK261; según la ruta, también puede ser relevante la Reglamento de la UE sobre los derechos de los pasajeros aéreos. Si su equipaje se pierde o llega dañado, rige el Convención de Montreal. Además, en determinadas reservas pueden reclamarse impuestos, tasas y cargos no utilizados. Analizamos cada caso individualmente para valorar su derecho a indemnización o reembolso.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.tui.co.uk/destinations/contact-us"
   },
   {
     "slug": "croatia-airlines",
     "name": "Croatia Airlines d.d.",
-    "adresse": "Carrer de Balmes 173, 1º 1ª\n08006 Barcelona\nEspaña",
+    "adresse": "Ul. Radoslava Cimermana 2A\n10000 Zagreb\nCroacia",
     "infobox": "<p>Croatia Airlines d.d. es la aerolínea nacional de Croacia y opera principalmente desde el Aeropuerto de Zagreb-Franjo Tuđman, su centro de conexiones. Como compañía con sede jurídica en Zagreb, está sujeta a la Reglamento de la UE sobre los derechos de los pasajeros aéreos en muchos vuelos dentro de la UE, lo que puede ser relevante en casos de retraso, cancelación o denegación de embarque. Si tu equipaje se pierde o llega dañado, también puede aplicarse el Convención de Montreal. Además, en determinadas reservas y tasas no utilizadas, puede ser posible reclamar impuestos y cargos. Revisar cada caso con rapidez aumenta las posibilidades de éxito.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.croatiaairlines.com/en/customer/request-type"
   },
   {
     "slug": "air-serbia",
     "name": "Air Serbia a.d.",
-    "adresse": "Air Serbia a.d.\nOficina de Madrid\nEspaña",
+    "adresse": "Jurija Gagarina 12\n11070 Belgrado\nSerbia",
     "infobox": "<p>Air Serbia a.d. es la aerolínea nacional de Serbia y opera principalmente desde su centro en el Aeropuerto Nikola Tesla de Belgrado (BEG). Para reclamaciones por vuelo retrasado, equipaje perdido o reembolso de tasas e impuestos, la base jurídica depende de la ruta y del caso concreto. En salidas desde la UE puede aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos; para daños, retrasos de equipaje y pérdida de maletas suele ser relevante el Convención de Montreal. El domicilio social y fuero jurídico de Air Serbia a.d. se encuentra en Belgrado, Serbia. Si tu vuelo salió de un aeropuerto de la UE, puede haber derecho a compensación.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.airserbia.com/en/claims"
   },
   {
     "slug": "tarom",
     "name": "TAROM",
-    "adresse": "Customer Relations\nCalea Bucureștilor nr. 224 F, Otopeni\nCondado de Ilfov\nRumanía",
+    "adresse": "Calea Bucureștilor nr. 224F\n075150 Otopeni, Condado de Ilfov\nRumanía",
     "infobox": "<p>TAROM es la aerolínea nacional de Rumanía y opera principalmente desde el aeropuerto de Bucarest-Henri Coandă, su hub principal. Como compañía con sede jurídica en Bucarest, está sujeta a la Reglamento de la UE sobre los derechos de los pasajeros aéreos en caso de vuelo retrasado o cancelado, lo que puede dar derecho a compensación. Si su equipaje se pierde o llega con retraso, el Convención de Montreal puede obligar a la aerolínea a reembolsar gastos de sustitución. Además, en determinadas circunstancias, los pasajeros pueden reclamar tasas, impuestos y cargos no utilizados del billete.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.tarom.ro/es/informaciones-pasajeros/asistenta/demandas-sugerencias-y-quejas/"
   },
   {
     "slug": "south-african-airways",
     "name": "South African Airways",
-    "adresse": "South African Airways\nMadrid\nEspaña",
+    "adresse": "Airways Park, Jones Road\nOR Tambo International Airport, Kempton Park\nJohannesburgo 1627\nSudáfrica",
     "infobox": "<p>South African Airways es la aerolínea de bandera de Sudáfrica y opera principalmente desde el aeropuerto de Johannesburgo-O. R. Tambo, su principal centro de conexiones. Para retrasos y cancelaciones en vuelos con salida desde la UE, puede aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos; en trayectos desde Sudáfrica suelen regir otras normas. Si sufre pérdida o daño de equipaje, el Convención de Montreal puede ofrecer base legal para reclamar. Además, en ciertos casos es posible solicitar la devolución de tasas e impuestos no utilizados. El domicilio social y foro competente de la compañía se sitúan en Johannesburgo, Sudáfrica.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.flysaa.com/help"
   },
   {
     "slug": "ethiopian-airlines",
     "name": "Ethiopian Airlines S.C.",
-    "adresse": "Paseo de la Castellana 95, Planta 15\n28046 Madrid\nEspaña",
+    "adresse": "Bole International Airport\nP.O. Box 1755\nAddis Abeba\nEtiopía",
     "infobox": "<p>Ethiopian Airlines S.C. es la aerolínea de bandera de Etiopía y una de las mayores compañías de África. Su centro de operaciones principal es el Aeropuerto Internacional Bole de Addis Abeba, donde se concentran numerosos vuelos de conexión. Si sufre una cancelación, un gran retraso, la pérdida de equipaje o desea reclamar tasas e impuestos, pueden aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos y el Convención de Montreal, según la ruta y el caso. La sede jurídica y el fuero principal de la aerolínea se encuentran en Addis Abeba, Etiopía. Analizamos su reclamación de forma rápida y con base legal sólida.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.ethiopianairlines.com/services/help-and-contact/support-and-feedback"
   },
   {
     "slug": "tunisair",
     "name": "Tunisair",
-    "adresse": "Tunisair\nCalle de Orense 34\n28020 Madrid\nEspaña",
+    "adresse": "Boulevard 14 Janvier\nAéroport International de Tunis-Carthage\n2035 Túnez\nTúnez",
     "infobox": "<p>Tunisair es la aerolínea nacional de Túnez, con su centro de operaciones principal en el Aeropuerto Internacional de Túnez-Cartago. Para vuelos con salida desde la UE, pueden aplicarse los derechos de la Reglamento de la UE sobre los derechos de los pasajeros aéreos en caso de retraso o cancelación; en los trayectos de regreso, la protección depende en general de otras normas. Si tu equipaje se pierde o llega dañado, suele ser relevante el Convención de Montreal. La reclamación de impuestos y tasas tras una cancelación depende del contrato de transporte. La sede legal y jurisdicción principal de Tunisair se encuentra en Túnez.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.tunisair.com/es-es/Relaci%C3%B3n-con-clientes"
   },
   {
     "slug": "royal-air-maroc",
     "name": "Royal Air Maroc",
-    "adresse": "Royal Air Maroc\nPaseo de la Castellana 95, Planta 15\n28046 Madrid\nEspaña",
+    "adresse": "Aéroport Casablanca-Anfa, Casa-Anfa\nCasablanca 20200\nMarruecos",
     "infobox": "<p>Royal Air Maroc es la aerolínea de bandera de Marruecos y opera principalmente desde su centro de conexiones en el Aeropuerto Internacional Mohammed V de Casablanca. En vuelos que salen de la UE, pueden aplicarse los derechos de los pasajeros de la UE según la Reglamento de la UE sobre los derechos de los pasajeros aéreos; en trayectos desde Marruecos hacia la UE, por lo general no existe derecho a compensación fija bajo esta normativa. Para incidencias de equipaje perdido o dañado, así como para reclamaciones por retrasos, rige en muchos casos el Convención de Montreal. La sede legal y jurisdicción principal de la aerolínea se encuentran en Casablanca.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.royalairmaroc.com/int-es/information/reclamaciones"
   },
   {
     "slug": "egyptair",
     "name": "EgyptAir",
-    "adresse": "Madrid\nEspaña",
+    "adresse": "EgyptAir Administrative Complex\nCairo International Airport\nEl Cairo\nEgipto",
     "infobox": "<p>EgyptAir es la aerolínea de bandera de Egipto y opera principalmente desde su centro de conexiones en el Aeropuerto Internacional de El Cairo. Su sede jurídica y foro competente se encuentran en El Cairo, Egipto. En los vuelos que salen de la UE, la Reglamento de la UE sobre los derechos de los pasajeros aéreos puede dar derecho a compensación por retrasos de llegada de 3 horas o más, así como por cancelaciones. Para equipaje perdido, dañado o retrasado, suele aplicarse el Convención de Montreal. Además, si no se ha utilizado el billete, en muchos casos pueden reclamarse impuestos y tasas aeroportuarias no consumidos.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.egyptair.com/en/contact-us/Pages/Complains.aspx"
   },
   {
     "slug": "kuwait-airways",
     "name": "Kuwait Airways",
-    "adresse": "Bethmannstraße 56\n60311 Frankfurt am Main\nAlemania",
+    "adresse": "Kuwait Airways Head Office\nKuwait International Airport, Al Farwaniyah\nCiudad de Kuwait\nKuwait",
     "infobox": "<p>Kuwait Airways es la aerolínea nacional de Kuwait y opera principalmente desde su centro de conexiones en el Aeropuerto Internacional de Kuwait, en Ciudad de Kuwait. Para vuelos con salida desde la UE, pueden aplicarse derechos de compensación y asistencia según la Reglamento de la UE sobre los derechos de los pasajeros aéreos; en vuelos internacionales, además, el Convención de Montreal regula reclamaciones por equipaje perdido, dañado o retrasado. Si su vuelo llega con demora, se cancela o su maleta no aparece, puede revisar si tiene derecho a reembolso, compensación o gastos adicionales. El domicilio social y fuero jurídico principal de Kuwait Airways se encuentra en Ciudad de Kuwait.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://kuwaitairways.com/en/contact/pages/compliments-and-complaints.aspx"
   },
   {
     "slug": "middle-east-airlines",
     "name": "Middle East Airlines Air Liban",
-    "adresse": "P.O. Box 11-206\nRiad El Solh\nBeirut\nLíbano",
+    "adresse": "MEA Head Office, Airport Road\nP.O. Box 11-206\nBeirut\nLíbano",
     "infobox": "<p>Middle East Airlines Air Liban es la aerolínea nacional del Líbano y opera principalmente desde el aeropuerto de Beirut-Rafic Hariri, su centro de conexiones y sede operativa. Para reclamaciones por vuelo retrasado, equipaje perdido o reembolso de tasas y cargos, los derechos del pasajero dependen de la ruta y del marco legal aplicable. En vuelos que salen de la UE puede aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos; en otros casos, especialmente en conexiones internacionales, suele ser relevante el Convención de Montreal. El domicilio social y fuero jurídico de la aerolínea se encuentra en Beirut, Líbano.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.mea.com.lb/english/Contact-us/contact-form"
   },
   {
     "slug": "air-malta",
     "name": "Air Malta Plc.",
-    "adresse": "Air Malta Plc.\nMadrid\nEspaña",
+    "adresse": "Air Malta Head Office\nLuqa LQA 4000\nMalta",
     "infobox": "<p>Air Malta Plc. es la aerolínea nacional de Malta y opera principalmente desde el aeropuerto internacional de Malta, en Luqa, que actúa como su centro de operaciones. Como compañía aérea de la UE, se aplican la Reglamento de la UE sobre los derechos de los pasajeros aéreos para reclamaciones por retrasos y cancelaciones, así como el Convención de Montreal en casos de equipaje perdido o dañado. Si su vuelo llega con retraso, su equipaje no aparece o desea reclamar tasas e impuestos no utilizados, puede tener derechos frente a la aerolínea. El domicilio social y fuero jurídico de Air Malta Plc. se encuentran en Malta.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://help.kmmaltairlines.com/s/complaint-form"
   },
   {
     "slug": "royal-jordanian",
     "name": "Royal Jordanian",
-    "adresse": "Paseo de la Castellana 95\n28046 Madrid\nEspaña",
+    "adresse": "Mohammad Al-Baset Street, Building 37\nP.O. Box 302\nAmmán 11118\nJordania",
     "infobox": "<p>Royal Jordanian es la aerolínea nacional de Jordania y opera principalmente desde su hub en el Aeropuerto Internacional Queen Alia de Ammán. Si tu vuelo sufre retraso, si tu equipaje se pierde o llega dañado, o si quieres reclamar tasas e impuestos, las normas aplicables dependen de la ruta y del billete. En vuelos con origen en la UE, la Reglamento de la UE sobre los derechos de los pasajeros aéreos puede dar derecho a compensación; para daños, equipaje y muchos vuelos internacionales se aplica el Convención de Montreal. La sede legal y jurisdicción principal de Royal Jordanian se encuentra en Ammán, Jordania.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.rj.com/es/contact-us/stay-in-touch"
   },
   {
     "slug": "malaysia-airlines",
     "name": "Malaysia Airlines",
-    "adresse": "Paseo de la Castellana, 95\n28046 Madrid\nEspaña",
+    "adresse": "1st Floor, Administration Building, South Support Zone\nKuala Lumpur International Airport\n64000 Sepang, Selangor\nMalasia",
     "infobox": "<p>Malaysia Airlines es la aerolínea de bandera de Malasia y opera principalmente desde su centro de conexiones en el Aeropuerto Internacional de Kuala Lumpur (KLIA). Para reclamaciones por vuelo retrasado o cancelaciones, la <strong>Reglamento de la UE sobre los derechos de los pasajeros aéreos</strong> puede aplicarse en salidas desde la UE. En caso de equipaje perdido o dañado, rige el <strong>Convención de Montreal</strong> a nivel mundial. Además, si no utilizaste tu billete, puedes reclamar tasas e impuestos. El domicilio social y foro jurídico principal de la compañía se encuentra en Kuala Lumpur, Malasia.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.malaysiaairlines.com/uk/en/askmh/contact-us.html"
   },
   {
     "slug": "china-southern-airlines",
     "name": "China Southern Airlines",
-    "adresse": "Paseo de la Castellana 95, Planta 15\n28046 Madrid\nEspaña",
+    "adresse": "No. 68 Qixin Road, Baiyun District\nGuangzhou 510403, Guangdong Province\nChina",
     "infobox": "<p>China Southern Airlines es una de las mayores aerolíneas de Asia, con sede en Guangzhou y hub principal en el Aeropuerto Internacional de Guangzhou Baiyun. Para vuelos con retraso, equipaje perdido o reclamaciones de tasas e impuestos, los derechos aplicables dependen de la ruta: la Reglamento de la UE sobre los derechos de los pasajeros aéreos suele proteger solo salidas desde la UE, mientras que el Convención de Montreal puede ser relevante para daños, retrasos y equipaje en rutas internacionales. El fuero y domicilio social jurídico de la aerolínea se encuentran en Guangzhou, China. Antes de contratar un vuelo alternativo, conviene dejar constancia previa de una solicitud de transporte sustitutivo.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://feedback.csair.com/feedback-mobile/mobile/enfeedbackForm/us?s=touch/"
   },
   {
     "slug": "garuda-indonesia",
     "name": "Garuda Indonesia",
-    "adresse": "Garuda Indonesia\nMadrid, Spain\nEspaña",
+    "adresse": "Garuda Indonesia Management Building\nSoekarno-Hatta International Airport\nTangerang 15111, Banten\nIndonesia",
     "infobox": "<p>Garuda Indonesia es la aerolínea de bandera de Indonesia y opera principalmente desde su centro en el Aeropuerto Internacional Soekarno-Hatta de Yakarta. Su sede jurídica y foro competente se encuentran en Yakarta, Indonesia. En caso de retraso, pérdida de equipaje o cancelación, los derechos del pasajero dependen de la ruta: la <strong>Reglamento de la UE sobre los derechos de los pasajeros aéreos</strong> puede aplicarse en salidas desde la UE, mientras que para incidencias de equipaje rige en muchos casos el <strong>Convención de Montreal</strong>. Si la aerolínea cancela el vuelo por motivos propios, suele poder reclamarse al menos el reembolso de impuestos, tasas y cargos no utilizados.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.garuda-indonesia.com/id/id/contact"
   },
   {
     "slug": "air-astana",
     "name": "Air Astana JSC",
-    "adresse": "c/o Aviareps AG\nKaiserstraße 77\n60329 Frankfurt am Main\nAlemania",
+    "adresse": "4A Zakarpatskaya Street\nAlmaty 050039\nKazajistán",
     "infobox": "<p>Air Astana JSC es la aerolínea nacional de Kazajistán y opera principalmente desde su centro de conexiones en el Aeropuerto Internacional de Almaty, con base jurídica en Astaná. En caso de vuelo retrasado, equipaje perdido o reclamación de tasas e impuestos, tus derechos dependen de la ruta y del marco aplicable. La <strong>Reglamento de la UE sobre los derechos de los pasajeros aéreos</strong> solo suele aplicar a salidas desde la UE, mientras que para daños por equipaje rige el <strong>Convención de Montreal</strong>. Si tu vuelo salió de la UE o tienes una reclamación internacional, conviene revisar si procede compensación o reembolso.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://help.airastana.com/hc/en-gb/requests/new?ticket_form_id=6713986070546"
   },
   {
     "slug": "rwandair",
     "name": "RwandAir Ltd.",
-    "adresse": "Kigali Heights, 2nd Floor\nKG 7 Ave, Nyarutarama\nKigali\nRuanda",
+    "adresse": "Kigali International Airport, Main Building, Top Floor\nP.O. Box 7275\nKigali\nRuanda",
     "infobox": "<p>RwandAir Ltd. es la aerolínea nacional de Ruanda y opera principalmente desde el Aeropuerto Internacional de Kigali (KGL), su centro de conexiones. En vuelos con salida desde la UE, pueden aplicarse derechos de los pasajeros conforme a la Reglamento de la UE sobre los derechos de los pasajeros aéreos, por ejemplo en caso de gran retraso o denegación de embarque. Si su equipaje se pierde o se retrasa, la reclamación suele basarse en el Convención de Montreal. Además, en determinadas rutas puede solicitarse el reembolso de impuestos y tasas no utilizados. El domicilio social y foro jurídico principal de RwandAir Ltd. se encuentra en Kigali, Ruanda.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.rwandair.com/connect-with-us/contact-us/"
   },
   {
     "slug": "kenya-airways",
     "name": "Kenya Airways",
-    "adresse": "Kenya Airways Spain\nPaseo de la Castellana 95, Planta 15\n28046 Madrid\nEspaña",
+    "adresse": "Airport North Road, Embakasi\nP.O. Box 19002-00501\nNairobi\nKenia",
     "infobox": "<p>Kenya Airways es la aerolínea nacional de Kenia y un importante operador en África, con centro de operaciones en el Aeropuerto Internacional Jomo Kenyatta de Nairobi. Para vuelos que salen desde la UE, puede aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos, por ejemplo en caso de retrasos; en vuelos desde Nairobi hacia Europa, la protección depende en gran medida del itinerario y de otras normas aplicables. Si su equipaje se pierde o llega dañado, el Convención de Montreal suele ser la base legal. El domicilio social y fuero jurídico principal de Kenya Airways se encuentran en Nairobi, Kenia.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://feedbackhub.kenya-airways.com/enquiry"
   },
   {
     "slug": "srilankan-airlines",
     "name": "SriLankan Airlines",
-    "adresse": "SriLankan Airlines (Spain)\nPaseo de la Castellana, 95\n28046 Madrid\nEspaña",
+    "adresse": "Airline Centre, Bandaranaike International Airport\nKatunayake\nSri Lanka",
     "infobox": "<p>SriLankan Airlines es la aerolínea de bandera de Sri Lanka y conecta Asia, Europa y Oriente Medio desde su principal centro de operaciones en el Aeropuerto Internacional Bandaranaike de Colombo. En caso de vuelo retrasado, equipaje perdido o para reclamar impuestos y tasas, pueden existir derechos de los pasajeros según la Reglamento de la UE sobre los derechos de los pasajeros aéreos y el Convención de Montreal, dependiendo de la ruta y del punto de salida. El domicilio social y fuero jurídico de la compañía se encuentran en Colombo, Sri Lanka. Si la aerolínea rechaza una reclamación, conviene revisar la base legal aplicable antes de iniciar nuevas gestiones.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.srilankan.com/de_de/Corporate/ComplainFeedback"
   },
   {
     "slug": "luxair",
     "name": "Luxair S.A.",
     "adresse": "25, rue Gabriel Lippmann\nL-5365 Munsbach\nLuxemburgo",
     "infobox": "<p>Luxair S.A. es la aerolínea nacional de Luxemburgo y opera principalmente desde el aeropuerto de Luxemburgo-Findel, su centro de conexiones. Como compañía de la UE, los pasajeros pueden invocar la Reglamento de la UE sobre los derechos de los pasajeros aéreos en casos de vuelo retrasado o cancelado, y reclamar compensaciones o asistencia según la situación. Si el equipaje se pierde o llega dañado, también puede aplicarse el Convención de Montreal para exigir indemnización. Además, en determinadas reservas es posible solicitar el reembolso de impuestos y tasas no utilizados. El domicilio social y foro competente de Luxair S.A. se encuentra en Luxemburgo, lo que facilita la reclamación jurídica.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.luxair.lu/es/contact/"
   },
   {
     "slug": "air-dolomiti",
     "name": "Air Dolomiti S.p.A.",
-    "adresse": "Maximiliansplatz 12a\n80333 Múnich\nAlemania",
+    "adresse": "Via Paolo Bonomi, 4\n37069 Villafranca di Verona VR\nItalia",
     "infobox": "<p>Air Dolomiti S.p.A. es una aerolínea regional italiana del grupo Lufthansa, especializada en vuelos de enlace dentro de Europa. Su base operativa principal está en el aeropuerto de Verona-Villafranca, y suele conectar pasajeros con grandes hubs como Múnich y Fráncfort. Si tu vuelo sufre retraso, pierdes una conexión o tu equipaje se retrasa o se extravía, pueden aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos y el Convención de Montreal. Además, en determinadas reservas y tasas no utilizadas, también puede reclamarse la devolución de impuestos y cargos. El domicilio social y fuero principal de la compañía se encuentra en Verona, Italia.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.airdolomiti.eu/do-you-need-help/customer-relations-eu"
   },
   {
     "slug": "helvetic-airways",
     "name": "Helvetic Airways AG",
     "adresse": "Steinackerstrasse 56\nCH-8302 Kloten\nSuiza",
     "infobox": "<p>Helvetic Airways AG es una aerolínea suiza especializada en vuelos de corto y medio radio, con base y principal centro de operaciones en el aeropuerto de Zúrich. En caso de retraso de vuelo, pérdida de equipaje o reclamación de tasas e impuestos, pueden aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos y el Convención de Montreal, según la ruta y la incidencia. Su sede social y foro jurídico se encuentran en Kloten, Suiza. En muchas operaciones, especialmente bajo wet lease para otras compañías, conviene comprobar qué aerolínea figura en el billete y cuál operó realmente el vuelo para determinar la responsabilidad.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.helvetic.com/contact/servicecenter"
   },
   {
     "slug": "wideroe",
     "name": "Widerøe's Flyveselskap AS",
-    "adresse": "Customer Relations\nLangstranda 6, Apartado postal 247\n8001 Bodø\nNoruega",
+    "adresse": "Langstranda 6, Postboks 247\n8001 Bodø\nNoruega",
     "infobox": "<p>Widerøe's Flyveselskap AS es la aerolínea regional más grande de Noruega, con sede jurídica en Bodø y principal centro de operaciones en el aeropuerto de Bodø, además de una importante base en Bergen. Para reclamaciones por vuelo retrasado, equipaje perdido o reembolso de tasas e impuestos, pueden aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos y el Convención de Montreal, según la ruta y la incidencia. En vuelos dentro del EEE, la compañía suele estar sujeta a las normas europeas de protección al pasajero. Si su vuelo se cancela o se retrasa, conviene revisar de inmediato si existe derecho a compensación o asistencia.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://help.wideroe.no/hc/en-gb/articles/29541777305746-Contact-Us"
   },
   {
     "slug": "neos-air",
     "name": "Neos S.p.A.",
-    "adresse": "Aeropuerto Adolfo Suárez Madrid-Barajas\n28042 Madrid\nEspaña",
+    "adresse": "Via de Marchi, 14\n21019 Somma Lombardo (VA)\nItalia",
     "infobox": "<p>Neos S.p.A. es una aerolínea italiana de vuelos chárter y ocio, con base operativa en el aeropuerto de Milán-Malpensa. En caso de retraso de vuelo, equipaje perdido o reclamación de tasas e impuestos, pueden aplicarse tus derechos según la Reglamento de la UE sobre los derechos de los pasajeros aéreos y el Convención de Montreal. La compañía tiene su sede legal y foro competente en Somma Lombardo (Varese), Italia. Si tu maleta llega con demora, conserva los recibos de compras necesarias; si el vuelo se cancela o no utilizas el billete, también puede revisarse la devolución de ciertos importes. Actúa siempre dentro de los plazos legales.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url": "https://www.neosair.com/en/information/customer-service"
   },
   {
     "slug": "binter-canarias",
     "name": "Binter Canarias S.A.",
-    "adresse": "Aeropuerto de Gran Canaria\nC/ La Paleta 6\n35230 Las Palmas\nEspaña",
+    "adresse": "Parque Empresarial Melenara\nCañón del Ámbar s/n\n35214 Telde (Gran Canaria)\nEspaña",
     "infobox": "<p>Binter Canarias S.A. es la aerolínea regional líder en las Islas Canarias, con base operativa y principal hub en el Aeropuerto de Gran Canaria (LPA), en Telde. Opera sobre todo vuelos interinsulares y conexiones con la península y otros destinos. En caso de retraso, pérdida de equipaje o reclamación de tasas e impuestos, pueden aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos y el Convención de Montreal, según la ruta y la incidencia. La sede social y el fuero principal de la compañía se encuentran en Telde, Las Palmas. Si tu vuelo llegó con más de 3 horas de retraso o tu maleta no apareció, podrías tener derecho a compensación o reembolso.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.bintercanarias.com/es/formulario-contacto"
   },
   {
     "slug": "transavia",
     "name": "Transavia France S.A.S.",
     "adresse": "Coeur d’Orly – Bâtiment Belaïa\n7 avenue de l’Union\n94310 Orly\nFrancia",
     "infobox": "<p>Transavia France S.A.S. es una aerolínea de bajo coste del grupo Air France-KLM, con base operativa y principal hub en el aeropuerto de París-Orly. Para reclamaciones por vuelo retrasado, equipaje perdido o reembolso de impuestos y tasas, pueden aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos y el Convención de Montreal, según el caso. Su sede social y foro jurídico principal se encuentran en Francia, lo que puede influir en la competencia judicial. Si no utilizó el vuelo, suele ser posible reclamar la devolución de tasas e impuestos, incluso cuando la aerolínea intente aplicar cargos administrativos.</p><!--opt-->",
-    "is_optimized": true
-  },
-  {
-    "slug": "play-airlines",
-    "name": "PLAY airlines",
-    "adresse": "Suðurlandsbraut 14\n108 Reikiavik\nIslandia",
-    "infobox": "<p>PLAY airlines es una aerolínea islandesa de bajo coste con base en el aeropuerto de Keflavík, cerca de Reikiavik. Para retrasos de vuelo, equipaje perdido o reclamaciones de tasas y cargos, suelen aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos y, en caso de daños o pérdida de equipaje, el Convención de Montreal. Su sede jurídica y foro competente se encuentran en Islandia. Los pasajeros deben revisar especialmente las normas sobre equipaje de mano y costes adicionales, ya que en las tarifas low cost pueden generarse cargos en puerta o por servicios extra. En muchos casos, una reclamación bien fundada puede ayudar a recuperar importes o indemnizaciones.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.transavia.com/ayuda/es-es/contacto-quejas/contacto/queja"
   },
   {
     "slug": "air-cairo",
     "name": "Air Cairo",
-    "adresse": "Aeropuerto de Barcelona-El Prat, Terminal 1\n08820 El Prat de Llobregat, Barcelona\nEspaña",
+    "adresse": "6 El-Safa street\nSheraton Heliopolis\nKairo\nEgipto",
     "infobox": "<p>Air Cairo es una aerolínea egipcia de bajo coste y charter, con sede jurídica en El Cairo y base principal en el Aeropuerto Internacional de El Cairo. Para reclamaciones por vuelo con retraso, equipaje perdido o daños en la maleta, así como para la devolución de impuestos y tasas, conviene revisar primero la ruta y el contrato de transporte. Como compañía no perteneciente a la UE, la <strong>Reglamento de la UE sobre los derechos de los pasajeros aéreos</strong> no suele aplicar en muchos vuelos desde Egipto hacia Europa; en cambio, las reclamaciones por equipaje se rigen a menudo por el <strong>Convención de Montreal</strong>. La competencia judicial suele corresponder a los tribunales de Egipto.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://aircairo.com/en-rs/claims"
   },
   {
     "slug": "arkia",
     "name": "Arkia Israeli Airlines Ltd.",
     "adresse": "P.O. Box 39301\nTel Aviv 61392\nIsrael",
     "infobox": "<p>Arkia Israeli Airlines Ltd. es una aerolínea israelí de ocio y regional, con base y principal centro de operaciones en el Aeropuerto Ben Gurion de Tel Aviv. Para retrasos, cancelaciones, equipaje perdido o reclamaciones de tasas e impuestos, pueden aplicarse distintos marcos legales según la ruta: en vuelos con conexión a la UE, la Reglamento de la UE sobre los derechos de los pasajeros aéreos; y para daños o pérdida de equipaje, el Convención de Montreal. Además, la legislación israelí de aviación también puede ser relevante. El domicilio social y fuero jurídico principal de Arkia se encuentran en Israel, por lo que muchas reclamaciones se tramitan allí.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.arkia.co.il/en/content/contact-with-arkia"
   },
   {
     "slug": "georgian-airways",
     "name": "Georgian Airways",
     "adresse": "Mittelgasse 2\n55130 Maguncia\nAlemania",
     "infobox": "<p>Georgian Airways es la aerolínea nacional de Georgia, con sede jurídica y fuero en Tiflis y base principal en el Aeropuerto Internacional de Tiflis. En materia de retrasos o cancelaciones, la Reglamento de la UE sobre los derechos de los pasajeros aéreos solo suele aplicarse cuando el vuelo parte de un aeropuerto de la UE; en rutas desde Tiflis hacia la UE, normalmente no procede una reclamación según ese reglamento. Si sufre problemas con equipaje facturado, puede reclamar conforme al Convención de Montreal. También es posible revisar si existen tasas, impuestos o cargos reembolsables en casos de billetes no utilizados o cancelados.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://georgian-airways.com/en/contactus/customer-support-"
   },
   {
     "slug": "air-arabia",
     "name": "Air Arabia PJSC",
     "adresse": "Air Arabia Building\nAeropuerto Internacional de Sharjah\nApartado de correos 132\nEmiratos Árabes Unidos",
     "infobox": "<p>Air Arabia PJSC es una aerolínea de bajo coste con sede en Sharjah, Emiratos Árabes Unidos, y su principal centro de operaciones es el Aeropuerto Internacional de Sharjah. Si tu vuelo sale de la UE, la Reglamento de la UE sobre los derechos de los pasajeros aéreos puede darte derecho a compensación por retrasos o cancelaciones; si parte de los EAU, suelen aplicarse otras normas. Para equipaje perdido o dañado, el Convención de Montreal es normalmente la base legal. Además, en algunos casos también puedes reclamar tasas, impuestos y cargos no utilizados. El domicilio social y fuero jurídico de la aerolínea se encuentran en Sharjah.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.airarabia.com/en/help/contact-us/email-us"
   },
   {
     "slug": "flyone",
     "name": "FLYONE",
     "adresse": "bd. Dacia 80/3\nMD-2026 Chisináu\nMoldavia",
     "infobox": "<p>FLYONE es una aerolínea moldava de bajo coste y chárter, con base principal en el Aeropuerto Internacional de Chișinău. Su sede jurídica y foro competente se encuentran en Chișinău, Moldavia. En caso de vuelo retrasado, equipaje perdido o reclamación de tasas e impuestos, pueden entrar en juego la Reglamento de la UE sobre los derechos de los pasajeros aéreos para salidas desde la UE y, según la ruta y el tipo de daño, el Convención de Montreal. Compruebe siempre si su vuelo sale de la UE o está operado por un transportista cubierto, ya que esto puede ampliar sus derechos y las posibles indemnizaciones.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://flyone.eu/en/Contact/Contact-us"
   },
   {
     "slug": "nouvelair",
     "name": "Nouvelair Tunisie S.A.",
     "adresse": "Zone Touristique Dkhila BP 66\n5065 Monastir\nTúnez",
     "infobox": "<p>Nouvelair Tunisie S.A. es una aerolínea privada tunecina de ocio y vuelos regulares, con base y centro de operaciones en el aeropuerto de Túnez-Cartago. Para reclamaciones por vuelo retrasado, equipaje perdido o reembolso de tasas e impuestos, es importante saber que la <strong>Reglamento de la UE sobre los derechos de los pasajeros aéreos</strong> suele aplicarse solo en determinados trayectos con salida desde la UE. En caso de daños o pérdida de maletas, puede entrar en juego el <strong>Convención de Montreal</strong>. El domicilio social y fuero jurídico de la aerolínea se encuentra en Túnez, Túnez.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.nouvelair.com/en/contact"
   },
   {
     "slug": "sky-express",
     "name": "SKY express S.A.",
     "adresse": "Building 57, Aeropuerto Internacional de Atenas\nSpata, Ática 19019\nGrecia",
     "infobox": "<p>SKY express S.A. es una aerolínea griega de red y bajo coste con sede en Atenas y centro de operaciones principal en el aeropuerto de Atenas–Eleftherios Venizelos. Como compañía de la UE, los pasajeros pueden reclamar derechos por retrasos, cancelaciones y denegación de embarque conforme al Reglamento de la UE sobre los derechos de los pasajeros aéreos. En caso de equipaje perdido o dañado, también puede aplicarse el Convención de Montreal. Además, si un vuelo no se utiliza, en determinadas circunstancias es posible solicitar el reembolso de impuestos y tasas. El fuero y la sede jurídica de la aerolínea se encuentran en Grecia.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.skyexpress.gr/en/company/contact"
   },
   {
     "slug": "air-algerie",
     "name": "Air Algérie",
-    "adresse": "Calle de la Princesa, 31\n28008 Madrid\nEspaña",
+    "adresse": "1 Place Maurice Audin\n16000 Algier\nArgelia",
     "infobox": "<p>Air Algérie es la aerolínea nacional de Argelia y su principal centro de operaciones está en el Aeropuerto de Argel de Houari Boumediene. Como compañía con sede jurídica en Argel, las reclamaciones suelen tramitarse ante los tribunales argelinos. En los vuelos que salen de la UE, puede aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos para retrasos, cancelaciones y denegación de embarque; en vuelos de regreso desde Argelia, normalmente no. Si se pierde equipaje, el Convención de Montreal regula la indemnización en ambos sentidos. Además, en ciertos casos es posible solicitar la devolución de tasas e impuestos no utilizados.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://doleances.airalgerie.dz/contact"
   },
   {
     "slug": "air-seychelles",
     "name": "Air Seychelles Ltd",
     "adresse": "P.O. Box 386\nPointe Larue, Mahé\nSeychelles",
     "infobox": "<p>Air Seychelles Ltd es la aerolínea nacional de Seychelles y opera principalmente desde el Aeropuerto Internacional de Seychelles, en Mahé. Para reclamaciones por vuelo retrasado, equipaje perdido o devolución de impuestos y tasas, la situación jurídica depende de la ruta: en vuelos con salida desde la UE puede aplicarse la Reglamento de la UE sobre los derechos de los pasajeros aéreos, mientras que para daños, retrasos de equipaje o incidencias en rutas internacionales suele ser relevante el Convención de Montreal. El domicilio social y foro competente de la compañía se sitúan en Seychelles, por lo que muchas reclamaciones deben analizarse conforme al derecho local y a las condiciones del contrato de transporte.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://fly.airseychelles.com/en/eform/submit/feedback"
   },
   {
     "slug": "bulgaria-air",
     "name": "Bulgaria Air",
     "adresse": "1, Brussels Blvd\nAeropuerto de Sofía\n1540 Sofía\nBulgaria",
     "infobox": "<p>Bulgaria Air es la aerolínea nacional de Bulgaria y opera principalmente desde el Aeropuerto de Sofía, su centro de conexiones. Como compañía de la UE, se aplican la Reglamento de la UE sobre los derechos de los pasajeros aéreos en caso de vuelo retrasado y, según el Convención de Montreal, las reclamaciones por equipaje perdido o dañado deben tramitarse con rapidez. Además, si no utilizó su billete, en muchos casos puede solicitar la devolución de impuestos y tasas. La sede legal y jurisdicción principal de Bulgaria Air se encuentra en Sofía, Bulgaria.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://air.bg/en/complaints"
   },
   {
     "slug": "air-mauritius",
     "name": "Air Mauritius Ltd. (GSA Deutschland/AT)",
     "adresse": "Air Mauritius Ltd.\nSir Seewoosagur Ramgoolam International Airport\nP.O. Box 02, Plaine Magnien\nMauricio",
     "infobox": "<p>Air Mauritius Ltd. (GSA Deutschland/AT) es la aerolínea nacional de Mauricio y opera principalmente desde el aeropuerto de Sir Seewoosagur Ramgoolam (MRU) en la isla de Mauricio. En casos de retraso de vuelo, la Reglamento de la UE sobre los derechos de los pasajeros aéreos puede aplicarse solo si el vuelo sale de la UE; en el trayecto de regreso, por lo general no ofrece protección. Para equipaje perdido o dañado, suele ser relevante el Convención de Montreal. También pueden reclamarse tasas e impuestos no utilizados según las condiciones tarifarias. El fuero y domicilio social jurídico de la aerolínea se encuentran en Plaisance, Mauricio.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.airmauritius.com/customer-support"
   },
   {
     "slug": "aeromexico",
     "name": "Aerovías de México, S.A. de C.V.",
-    "adresse": "Paseo de la Castellana 95, Planta 15\n28046 Madrid\nEspaña",
+    "adresse": " Paseo de la Reforma 243\nCol. Cuauhtémoc\n06500 Ciudad de México\nCDMX, México",
     "infobox": "<p>Aerovías de México, S.A. de C.V. (Aeroméxico) es la aerolínea de bandera de México y opera principalmente desde su hub en el Aeropuerto Internacional de la Ciudad de México (AICM). Como compañía no comunitaria, la Reglamento de la UE sobre los derechos de los pasajeros aéreos suele aplicarse solo a vuelos que salen de la UE; en demoras de vuelo, el derecho a compensación depende de la ruta concreta. En casos de equipaje perdido o dañado, normalmente rige el Convención de Montreal. Para reclamar tasas, cargos o reembolsos, también importan las condiciones tarifarias y la normativa aplicable. Su sede y foro jurídico principal se encuentran en Ciudad de México.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://www.aeromexico.com/es-mx/contacto"
   },
   {
     "slug": "avianca",
     "name": "Avianca",
-    "adresse": "Paseo de la Castellana 95, Planta 18\n28046 Madrid\nEspaña",
+    "adresse": "Avenida Calle 26 # 59-15\nBogotá\nColombia",
     "infobox": "<p>Avianca es una aerolínea latinoamericana de gran alcance, con sede principal y domicilio social en Bogotá, Colombia, y su centro de operaciones en el Aeropuerto Internacional El Dorado. Para retrasos de vuelo y cancelaciones, la <strong>Reglamento de la UE sobre los derechos de los pasajeros aéreos</strong> solo suele aplicarse cuando el vuelo sale de un aeropuerto de la UE; en otros casos puede ser relevante el derecho local o el <strong>Convención de Montreal</strong>. Si su equipaje se pierde o llega dañado, también pueden existir reclamaciones según el <strong>Convención de Montreal</strong>. Además, al cancelar el billete, en determinados supuestos es posible solicitar la devolución de impuestos y tasas.</p><!--opt-->",
-    "is_optimized": true
+    "is_optimized": true,
+    "portal_url":"https://ayuda.avianca.com/hc/es/requests/new"
   },
   {
     "slug": "andere-airline",

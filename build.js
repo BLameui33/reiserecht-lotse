@@ -311,6 +311,7 @@ async function buildEngine() {
                     .replace(/\{\{AIRLINE_ADRESSE\}\}/g, inputAdresse)
                     .replace(/\{\{DATEINAME\}\}/g, fName)
                     .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks)
+                    .replace(/\{\{PORTAL_URL\}\}/g, a.Portal_URL || '#')
                     .replace(/\{\{AIRLINE_INFOBOX\}\}/g, a.infobox || '');
             };
 
@@ -406,6 +407,7 @@ async function buildEngine() {
                     .replace(/\{\{VERANSTALTER_ADRESSE\}\}/g, inputAdresse)
                     .replace(/\{\{DATEINAME\}\}/g, fName)
                     .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks)
+                    .replace(/\{\{PORTAL_URL\}\}/g, v.Portal_URL || '#')
                     .replace(/\{\{VERANSTALTER_INFOBOX\}\}/g, v.infobox || '');
             };
 
@@ -451,6 +453,7 @@ async function buildEngine() {
                     .replace(/\{\{VERMITTLER_ADRESSE\}\}/g, inputAdresse)
                     .replace(/\{\{DATEINAME\}\}/g, fName)
                     .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks)
+                    .replace(/\{\{PORTAL_URL\}\}/g, v.Portal_URL || '#')
                     .replace(/\{\{VERMITTLER_INFOBOX\}\}/g, v.infobox || '');
             };
 
@@ -575,6 +578,7 @@ async function buildEngine() {
                     .replace(/\{\{BAHN_ADRESSE\}\}/g, b.adresse)
                     .replace(/\{\{DATEINAME\}\}/g, fBahn)
                     .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossBahn)
+                    .replace(/\{\{PORTAL_URL\}\}/g, b.Portal_URL || '#')
                     .replace(/\{\{BAHN_INFOBOX\}\}/g, b.infobox || '');
 
                 content = injectSEO(content, lang, fBahn, 'bahn.json', b.slug, 'bahn');
@@ -624,6 +628,7 @@ async function buildEngine() {
                         .replace(/\{\{VERMITTLER_ADRESSE\}\}/g, inputAdresse)
                         .replace(/\{\{DATEINAME\}\}/g, fName)
                         .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks)
+                        .replace(/\{\{PORTAL_URL\}\}/g, v.Portal_URL || '#')
                         .replace(/\{\{VERMITTLER_INFOBOX\}\}/g, v.infobox || '');
                 };
 
@@ -673,6 +678,7 @@ async function buildEngine() {
                     .replace(/\{\{CRUISE_ADRESSE\}\}/g, inputAdresse)
                     .replace(/\{\{DATEINAME\}\}/g, fName)
                     .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks)
+                    .replace(/\{\{PORTAL_URL\}\}/g, c.Portal_URL || '#')
                     .replace(/\{\{CRUISE_INFOBOX\}\}/g, c.infobox || '');
             };
 
@@ -722,6 +728,7 @@ async function buildEngine() {
                     .replace(/\{\{ANBIETER_NAME\}\}/g, textName) 
                     .replace(/\{\{DATEINAME\}\}/g, fFileName)
                     .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossFewo)
+                    .replace(/\{\{PORTAL_URL\}\}/g, f.Portal_URL || '#')
                     .replace(/\{\{ANBIETER_INFOBOX\}\}/g, f.infobox || '');
 
                 content = injectSEO(content, lang, fFileName, 'ferienhaus.json', f.slug, 'ferienhaus');
@@ -752,6 +759,7 @@ async function buildEngine() {
                 .replace(/\{\{PROBLEM_KATEGORIE\}\}/g, a.name)
                 .replace(/\{\{MANGEL_BESCHREIBUNG\}\}/g, a.beschreibung) 
                 .replace(/\{\{DATEINAME\}\}/g, fAirbnb)
+                .replace(/\{\{PORTAL_URL\}\}/g, a.Portal_URL || '#')
                 .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossAirbnb);
 
             content = injectSEO(content, lang, fAirbnb, 'airbnb.json', a.slug, 'airbnb');
@@ -872,10 +880,103 @@ async function buildEngine() {
             }
         }
 
-         });
+        
 
+         // =====================================================================
+        // SILO 13: ESKALATION (Anleitungen & Mahnungs-Generator)
+        // =====================================================================
+        // Prüfen, ob die json existiert (so crasht das Skript nicht, wenn du sie in manchen Sprachen noch nicht hast)
+        const eskalationJsonPath = path.join(currentSrcDir, 'eskalation.json');
+        
+        if (fs.existsSync(eskalationJsonPath)) {
+            const eskalationen = readJson('eskalation.json');
+            
+            // Templates laden
+            const anleitungTpl = loadTemplate('anleitung-master.html');
+            const mahnungTpl = loadTemplate('mahnung-master.html');
+            
+            let optAnleitung = "", linkAnleitung = "";
+            let optMahnung = "", linkMahnung = "";
+
+            eskalationen.forEach(e => {
+                // Dateinamen definieren
+                let fAnleitung = `beschwerde-anleitung-${e.slug}.html`;
+                let fMahnung = `letzte-mahnung-nachdruck-${e.slug}.html`;
+
+                // Cross-Links generieren (für das SEO-Netz am Ende der Seite)
+                let crossAnleitung = generateCrossLinks(eskalationen, e, item => `beschwerde-anleitung-${item.slug}.html`, item => item.name);
+                let crossMahnung = generateCrossLinks(eskalationen, e, item => `letzte-mahnung-nachdruck-${item.slug}.html`, item => item.name);
+
+                // --- 1. Anleitung verarbeiten ---
+                let contentAnleitung = anleitungTpl
+                    .replace(/\{\{BRAND_NAME\}\}/g, e.name)
+                    .replace(/\{\{BRAND_SLUG\}\}/g, e.slug) // Wichtig, damit der Button zur richtigen Mahnung führt!
+                    .replace(/\{\{BRAND_ADRESSE\}\}/g, e.adresse)
+                    .replace(/\{\{FAQ_FRAGE\}\}/g, e.faq_frage)
+                    .replace(/\{\{FAQ_ANTWORT\}\}/g, e.faq_antwort)
+                    .replace(/\{\{FAQ2_FRAGE\}\}/g, e.faq2_frage || '')
+                    .replace(/\{\{FAQ2_ANTWORT\}\}/g, e.faq2_antwort || '')
+                     .replace(/\{\{FAQ3_FRAGE\}\}/g, e.faq3_frage || '')
+                     .replace(/\{\{FAQ3_ANTWORT\}\}/g, e.faq3_antwort || '')
+                    .replace(/\{\{SCHLICHTUNG_NAME\}\}/g, e.schlichtung_name)
+                    .replace(/\{\{SCHLICHTUNG_LINK\}\}/g, e.schlichtung_link)
+                    .replace(/\{\{BRAND_INFOBOX\}\}/g, e.infobox || '')
+                    .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossAnleitung);
+
+                // SEO Inject & Speichern
+                contentAnleitung = injectSEO(contentAnleitung, lang, fAnleitung, 'eskalation.json', e.slug, 'eskalation');
+                fs.writeFileSync(path.join(outputDir, fAnleitung), contentAnleitung, 'utf8');
+
+                // --- 2. Mahnungs-Generator verarbeiten ---
+                let contentMahnung = mahnungTpl
+                    .replace(/\{\{BRAND_NAME\}\}/g, e.name)
+                    .replace(/\{\{BRAND_TYP\}\}/g, e.typ)
+                    .replace(/\{\{BRAND_ADRESSE\}\}/g, e.adresse)
+                    .replace(/\{\{FAQ_FRAGE\}\}/g, e.faq_frage)
+                    .replace(/\{\{FAQ_ANTWORT\}\}/g, e.faq_antwort)
+                    .replace(/\{\{FAQ2_FRAGE\}\}/g, e.faq2_frage || '')
+                    .replace(/\{\{FAQ2_ANTWORT\}\}/g, e.faq2_antwort || '')
+                    .replace(/\{\{FAQ3_FRAGE\}\}/g, e.faq3_frage || '')
+                    .replace(/\{\{FAQ3_ANTWORT\}\}/g, e.faq3_antwort || '')
+                    .replace(/\{\{SCHLICHTUNG_NAME\}\}/g, e.schlichtung_name)
+                    .replace(/\{\{SCHLICHTUNG_LINK\}\}/g, e.schlichtung_link)
+                    .replace(/\{\{BRAND_INFOBOX\}\}/g, e.infobox || '')
+                    .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossMahnung);
+
+                // SEO Inject & Speichern
+                contentMahnung = injectSEO(contentMahnung, lang, fMahnung, 'eskalation.json', e.slug, 'eskalation');
+                fs.writeFileSync(path.join(outputDir, fMahnung), contentMahnung, 'utf8');
+
+                // Optionen für die Hub-Seiten sammeln
+                optAnleitung += `<option value="${fAnleitung}">${e.name} (Anleitung)</option>\n`;
+                linkAnleitung += `<a href="${fAnleitung}">${e.name}</a>\n`;
+                
+                optMahnung += `<option value="${fMahnung}">${e.name} (Mahnung generieren)</option>\n`;
+                linkMahnung += `<a href="${fMahnung}">${e.name}</a>\n`;
+            });
+
+            // --- 3. Hub-Seiten speichern ---
+            if (fs.existsSync(path.join(currentSrcDir, 'hub-anleitung-master.html'))) {
+                let finalHubAnleitung = injectSEO(loadTemplate('hub-anleitung-master.html')
+                    .replace(/\{\{ANLEITUNG_OPTIONS\}\}/g, optAnleitung)
+                    .replace(/\{\{ANLEITUNG_LINKS\}\}/g, linkAnleitung), lang, 'beschwerde-anleitungen-info.html', null, null, 'eskalation');
+                fs.writeFileSync(path.join(outputDir, 'beschwerde-anleitungen-info.html'), finalHubAnleitung, 'utf8');
+            }
+
+            if (fs.existsSync(path.join(currentSrcDir, 'hub-mahnung-master.html'))) {
+                let finalHubMahnung = injectSEO(loadTemplate('hub-mahnung-master.html')
+                    .replace(/\{\{MAHNUNG_OPTIONS\}\}/g, optMahnung)
+                    .replace(/\{\{MAHNUNG_LINKS\}\}/g, linkMahnung), lang, 'letzte-mahnung-nachdruck-info.html', null, null, 'eskalation');
+                fs.writeFileSync(path.join(outputDir, 'letzte-mahnung-nachdruck-info.html'), finalHubMahnung, 'utf8');
+            }
+        } else {
+            console.log(`   ⏭️  Silo [Eskalation] wird für [${lang.toUpperCase()}] übersprungen (keine JSON gefunden).`);
+        }
+});
          console.log('\n🎉 Fertig! Alle internationalen Verzeichnisse wurden erfolgreich erzeugt.');
 }
+
+ 
 
 
 

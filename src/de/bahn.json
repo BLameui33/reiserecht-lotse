@@ -4,307 +4,351 @@
     "slug": "deutsche-bahn",
     "adresse": "Servicecenter Fahrgastrechte\n60647 Frankfurt am Main\nDeutschland",
     "land": "Deutschland",
-    "infobox": "<p>Die Deutsche Bahn ist das größte Eisenbahnunternehmen Deutschlands und verbindet mit Fern- und Regionalverkehr weite Teile des deutschen Streckennetzes sowie internationale Ziele in Europa. Bei Zugverspätung, Zugausfall oder Anschlussverlust greifen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr: Ab einer Verspätung ab 60 Minuten am Zielort besteht in der Regel Anspruch auf Fahrpreiserstattung bzw. Entschädigung. Der Sitz des Unternehmens und des Kundenservice ist in Berlin. Auch bei außergewöhnlichen Umständen bleiben Betreuungsleistungen wie Verpflegung und Hotel grundsätzlich zu beachten.</p><!--opt-->"
+    "infobox": "<p>Die Deutsche Bahn ist das größte Eisenbahnunternehmen Deutschlands und verbindet mit Fern- und Regionalverkehr weite Teile des deutschen Streckennetzes sowie internationale Ziele in Europa. Bei Zugverspätung, Zugausfall oder Anschlussverlust greifen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr: Ab einer Verspätung ab 60 Minuten am Zielort besteht in der Regel Anspruch auf Fahrpreiserstattung bzw. Entschädigung. Der Sitz des Unternehmens und des Kundenservice ist in Berlin. Auch bei außergewöhnlichen Umständen bleiben Betreuungsleistungen wie Verpflegung und Hotel grundsätzlich zu beachten.</p><!--opt-->",
+    "portal_url":"https://www.bahn.de/hilfe"
   },
   {
     "name": "ICE (Deutsche Bahn)",
     "slug": "ice",
     "adresse": "Servicecenter Fahrgastrechte\n60647 Frankfurt am Main\nDeutschland",
     "land": "Deutschland",
-    "infobox": "<p>ICE (Deutsche Bahn) steht für den Fernverkehr der Deutschen Bahn und verbindet vor allem deutsche Metropolen sowie zahlreiche Ziele im europäischen Ausland. Bei Zugverspätung, Zugausfall oder Anschlussverlust gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr: Ab 60 Minuten Verspätung besteht grundsätzlich Anspruch auf Entschädigung, bei längeren Ausfällen kann auch eine Fahrpreiserstattung möglich sein. Der Kundenservice der Deutschen Bahn hat seinen Sitz in Frankfurt am Main; der juristische Hauptsitz liegt in Berlin. Für Reisende im ICE ist zudem wichtig, dass Ersatzverbindungen und Umbuchungen nach den gesetzlichen Vorgaben geprüft werden.</p><!--opt-->"
+    "infobox": "<p>ICE (Deutsche Bahn) steht für den Fernverkehr der Deutschen Bahn und verbindet vor allem deutsche Metropolen sowie zahlreiche Ziele im europäischen Ausland. Bei Zugverspätung, Zugausfall oder Anschlussverlust gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr: Ab 60 Minuten Verspätung besteht grundsätzlich Anspruch auf Entschädigung, bei längeren Ausfällen kann auch eine Fahrpreiserstattung möglich sein. Der Kundenservice der Deutschen Bahn hat seinen Sitz in Frankfurt am Main; der juristische Hauptsitz liegt in Berlin. Für Reisende im ICE ist zudem wichtig, dass Ersatzverbindungen und Umbuchungen nach den gesetzlichen Vorgaben geprüft werden.</p><!--opt-->",
+    "portal_url":"https://www.bahn.de/hilfe"
   },
   {
     "name": "AVE (Renfe)",
     "slug": "ave",
     "adresse": "Renfe Viajeros S.A.\nAvenida de Ciudad de Barcelona 6\n28007 Madrid\nSpanien",
     "land": "Spanien",
-    "infobox": "<p>AVE (Renfe) ist das Hochgeschwindigkeitsnetz der spanischen Staatsbahn Renfe und verbindet vor allem große Städte in Spanien, etwa Madrid, Barcelona, Valencia, Sevilla und Málaga. Für Reisende auf der Seite zu Zugverspätung, Zugausfall und Entschädigung sind die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr maßgeblich: Bei einer Verspätung ab 60 Minuten kommen je nach Fall Betreuungsleistungen und eine Fahrpreiserstattung in Betracht. Renfe/AVE hat seinen juristischen Sitz in Madrid; dort befindet sich auch der zentrale Kundenservice.</p><!--opt-->"
+    "infobox": "<p>AVE (Renfe) ist das Hochgeschwindigkeitsnetz der spanischen Staatsbahn Renfe und verbindet vor allem große Städte in Spanien, etwa Madrid, Barcelona, Valencia, Sevilla und Málaga. Für Reisende auf der Seite zu Zugverspätung, Zugausfall und Entschädigung sind die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr maßgeblich: Bei einer Verspätung ab 60 Minuten kommen je nach Fall Betreuungsleistungen und eine Fahrpreiserstattung in Betracht. Renfe/AVE hat seinen juristischen Sitz in Madrid; dort befindet sich auch der zentrale Kundenservice.</p><!--opt-->",
+    "portal_url":"https://www.renfe.com/es/en/ayuda/contact-renfe"
   },
   {
     "name": "OUIGO España",
     "slug": "ouigo-espana",
-    "adresse": "OUIGO España S.A.U.\nCalle de Alcalá 44\n28014 Madrid\nSpanien",
+    "adresse": "OUIGO España S.A.U.\n Calle de Alfonso XII 62\n28014 Madrid\nSpanien",
     "land": "Spanien",
-    "infobox": "<p>OUIGO España ist der spanische Low-Cost-Hochgeschwindigkeitsanbieter der SNCF-Gruppe und fährt vor allem auf innerspanischen Strecken zwischen großen Städten wie Madrid, Barcelona, Valencia, Alicante oder Sevilla. Bei Zugverspätung, Zugausfall oder Anschlussverlust gelten die EU-Fahrgastrechte nach der Verordnung (EG) Nr. 1371/2007 bzw. den aktuellen EU-Regeln im Eisenbahnverkehr. Ab einer Verspätung ab 60 Minuten kommen je nach Fall Fahrpreiserstattung, kostenlose Umbuchung oder Entschädigung in Betracht. Der juristische Sitz bzw. Kundenservice von OUIGO España befindet sich in Madrid, Spanien.</p><!--opt-->"
+    "infobox": "<p>OUIGO España ist der spanische Low-Cost-Hochgeschwindigkeitsanbieter der SNCF-Gruppe und fährt vor allem auf innerspanischen Strecken zwischen großen Städten wie Madrid, Barcelona, Valencia, Alicante oder Sevilla. Bei Zugverspätung, Zugausfall oder Anschlussverlust gelten die EU-Fahrgastrechte nach der Verordnung (EG) Nr. 1371/2007 bzw. den aktuellen EU-Regeln im Eisenbahnverkehr. Ab einer Verspätung ab 60 Minuten kommen je nach Fall Fahrpreiserstattung, kostenlose Umbuchung oder Entschädigung in Betracht. Der juristische Sitz bzw. Kundenservice von OUIGO España befindet sich in Madrid, Spanien.</p><!--opt-->",
+    "portal_url":"https://ouigo.zendesk.com/hc/en-gb/requests/new"
   },
   {
     "name": "Avlo (Renfe)",
     "slug": "avlo",
-    "adresse": "Renfe Viajeros S.A.\nAvenida de Ciudad de Barcelona 6\n28007 Madrid\nSpanien",
+    "adresse": "Renfe Viajeros S.A.\nPlaza del Emperador Carlos V\n28007 Madrid\nSpanien",
     "land": "Spanien",
-    "infobox": "<p>Avlo ist die Low-Cost-Hochgeschwindigkeitsmarke von Renfe und verkehrt vor allem im spanischen Fernverkehr auf stark nachgefragten AVE-Strecken zwischen Metropolen wie Madrid, Barcelona, Valencia oder Sevilla. Bei Zugverspätung, Zugausfall und Entschädigung gelten die EU-Fahrgastrechte nach der Verordnung (EG) Nr. 1371/2007: Ab 60 Minuten Verspätung besteht in der Regel Anspruch auf 25 % Fahrpreiserstattung, ab 120 Minuten auf 50 %. Der juristische Sitz bzw. Kundenservice von Renfe befindet sich in Madrid, Spanien.</p><!--opt-->"
+    "infobox": "<p>Avlo ist die Low-Cost-Hochgeschwindigkeitsmarke von Renfe und verkehrt vor allem im spanischen Fernverkehr auf stark nachgefragten AVE-Strecken zwischen Metropolen wie Madrid, Barcelona, Valencia oder Sevilla. Bei Zugverspätung, Zugausfall und Entschädigung gelten die EU-Fahrgastrechte nach der Verordnung (EG) Nr. 1371/2007: Ab 60 Minuten Verspätung besteht in der Regel Anspruch auf 25 % Fahrpreiserstattung, ab 120 Minuten auf 50 %. Der juristische Sitz bzw. Kundenservice von Renfe befindet sich in Madrid, Spanien.</p><!--opt-->",
+    "portal_url":"https://www.renfe.com/es/en/ayuda/contact-renfe"
   },
   {
     "name": "Frecciarossa (Trenitalia)",
     "slug": "frecciarossa",
     "adresse": "Trenitalia S.p.A.\nUfficio Reclami e Rimborsi\nPiazza della Croce Rossa 1\n00161 Rom\nItalien",
     "land": "Italien",
-    "infobox": "<p>Frecciarossa ist die Hochgeschwindigkeitsmarke von Trenitalia und verbindet vor allem große Städte in Italien auf schnellen Fernverkehrsachsen wie Mailand, Rom, Neapel oder Turin. Bei Zugverspätung, Zugausfall und Entschädigung gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Bei einer Verspätung ab 60 Minuten kommen je nach Fall Entschädigung oder Fahrpreiserstattung in Betracht; bei längeren Ausfällen können außerdem Betreuungsleistungen greifen. Der Hauptsitz von Trenitalia bzw. der Kundenservice befindet sich in Rom, Italien.</p><!--opt-->"
+    "infobox": "<p>Frecciarossa ist die Hochgeschwindigkeitsmarke von Trenitalia und verbindet vor allem große Städte in Italien auf schnellen Fernverkehrsachsen wie Mailand, Rom, Neapel oder Turin. Bei Zugverspätung, Zugausfall und Entschädigung gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Bei einer Verspätung ab 60 Minuten kommen je nach Fall Entschädigung oder Fahrpreiserstattung in Betracht; bei längeren Ausfällen können außerdem Betreuungsleistungen greifen. Der Hauptsitz von Trenitalia bzw. der Kundenservice befindet sich in Rom, Italien.</p><!--opt-->",
+    "portal_url":"https://www.trenitalia.com/it/regionale/alto-adige/informazioni-utili-alto-adige/reclami.html"
   },
   {
     "name": "Trenord",
     "slug": "trenord",
     "adresse": "Trenord S.r.l.\nPiazzale Cadorna 14\n20123 Mailand\nItalien",
     "land": "Italien",
-    "infobox": "<p>Trenord ist ein wichtiger Regional- und Pendlerbahnanbieter in Italien, vor allem in der Lombardei mit Verbindungen rund um Mailand, in Vororte und zu Regionalzielen. Bei Zugverspätung, Zugausfall oder Anschlussverlust gelten grundsätzlich die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab einer Verspätung ab 60 Minuten kommen je nach Fall eine Fahrpreiserstattung oder andere Entschädigungen in Betracht. Für viele Zeitkarten gilt bei Trenord zudem ein spezielles Bonus-System statt Einzelfallanträgen. Juristischer Sitz und Kundenservice befinden sich in Mailand.</p><!--opt-->"
+    "infobox": "<p>Trenord ist ein wichtiger Regional- und Pendlerbahnanbieter in Italien, vor allem in der Lombardei mit Verbindungen rund um Mailand, in Vororte und zu Regionalzielen. Bei Zugverspätung, Zugausfall oder Anschlussverlust gelten grundsätzlich die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab einer Verspätung ab 60 Minuten kommen je nach Fall eine Fahrpreiserstattung oder andere Entschädigungen in Betracht. Für viele Zeitkarten gilt bei Trenord zudem ein spezielles Bonus-System statt Einzelfallanträgen. Juristischer Sitz und Kundenservice befinden sich in Mailand.</p><!--opt-->",
+    "portal_url":"https://www.trenord.it/en/assistance/services/complaints/"
   },
   {
     "name": "TGV (SNCF)",
     "slug": "tgv",
     "adresse": "Service Relation Client SNCF\n62973 ARRAS Cedex 9\nFrankreich",
     "land": "Frankreich",
-    "infobox": "<p>TGV (SNCF) ist das Hochgeschwindigkeitsangebot der französischen Staatsbahn SNCF und verbindet vor allem Frankreich mit wichtigen Zielen in Deutschland, der Schweiz, Belgien, Italien und Spanien. Bei Zugverspätung, Zugausfall oder Anschlussverlust greifen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr: Ab 60 Minuten Verspätung kommen je nach Ticket eine Entschädigung oder Fahrpreiserstattung in Betracht. Der juristische Sitz der SNCF liegt in Saint-Denis bei Paris; dort befindet sich auch der zentrale Kundenservice. Für den TGV gilt zusätzlich die Garantie G30 mit Kulanzleistungen bereits ab 30 Minuten.</p><!--opt-->"
+    "infobox": "<p>TGV (SNCF) ist das Hochgeschwindigkeitsangebot der französischen Staatsbahn SNCF und verbindet vor allem Frankreich mit wichtigen Zielen in Deutschland, der Schweiz, Belgien, Italien und Spanien. Bei Zugverspätung, Zugausfall oder Anschlussverlust greifen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr: Ab 60 Minuten Verspätung kommen je nach Ticket eine Entschädigung oder Fahrpreiserstattung in Betracht. Der juristische Sitz der SNCF liegt in Saint-Denis bei Paris; dort befindet sich auch der zentrale Kundenservice. Für den TGV gilt zusätzlich die Garantie G30 mit Kulanzleistungen bereits ab 30 Minuten.</p><!--opt-->",
+    "portal_url":"https://www.sncf-connect.com/en-en/help/complaint"
   },
   {
     "name": "Nightjet (ÖBB)",
     "slug": "nightjet",
     "adresse": "ÖBB-Personenverkehr AG\nKundenservice\nPostfach 75\n1020 Wien\nÖsterreich",
     "land": "Österreich",
-    "infobox": "<p>Nightjet (ÖBB) ist das Nachtzugangebot der Österreichischen Bundesbahnen und verbindet vor allem Österreich mit zahlreichen Zielen in Deutschland, Italien, der Schweiz, den Niederlanden und weiteren europäischen Städten. Bei Zugverspätung, Zugausfall oder erheblichen Mängeln können nach den EU-Fahrgastrechten und der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr Ansprüche auf Entschädigung oder Fahrpreiserstattung bestehen. Ab einer Verspätung ab 60 Minuten am Zielbahnhof ist in der Regel eine teilweise Erstattung möglich. Der Sitz des Unternehmens bzw. Kundenservice liegt in Wien, Österreich.</p><!--opt-->"
+    "infobox": "<p>Nightjet (ÖBB) ist das Nachtzugangebot der Österreichischen Bundesbahnen und verbindet vor allem Österreich mit zahlreichen Zielen in Deutschland, Italien, der Schweiz, den Niederlanden und weiteren europäischen Städten. Bei Zugverspätung, Zugausfall oder erheblichen Mängeln können nach den EU-Fahrgastrechten und der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr Ansprüche auf Entschädigung oder Fahrpreiserstattung bestehen. Ab einer Verspätung ab 60 Minuten am Zielbahnhof ist in der Regel eine teilweise Erstattung möglich. Der Sitz des Unternehmens bzw. Kundenservice liegt in Wien, Österreich.</p><!--opt-->",
+    "portal_url":"https://www.oebb.at/de/reiseplanung-services/kundenservice/beschwerde-lob-idee-chatbot"
   },
   {
     "name": "FlixTrain",
     "slug": "flixtrain",
     "adresse": "FlixTrain GmbH\nFahrgastrechte\nPostfach 10 30 47\n70026 Stuttgart\nDeutschland",
     "land": "Deutschland",
-    "infobox": "<p>FlixTrain ist ein privater Fernverkehrsanbieter in Deutschland und betreibt grüne Fernzüge auf ausgewählten innerdeutschen Strecken, oft zwischen Metropolen wie Berlin, Hamburg, Köln oder Stuttgart. Bei Zugverspätung oder Zugausfall greifen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr: Ab 60 Minuten Verspätung kommen Erstattung, Umbuchung oder – je nach Fall – eine Fahrpreiserstattung in Betracht. Ein Ersatz mit DB-Zügen ist nicht automatisch erlaubt. Der juristische Sitz von FlixTrain bzw. FlixMobility liegt in München; der Kundenservice ist ebenfalls dort angesiedelt.</p><!--opt-->"
+    "infobox": "<p>FlixTrain ist ein privater Fernverkehrsanbieter in Deutschland und betreibt grüne Fernzüge auf ausgewählten innerdeutschen Strecken, oft zwischen Metropolen wie Berlin, Hamburg, Köln oder Stuttgart. Bei Zugverspätung oder Zugausfall greifen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr: Ab 60 Minuten Verspätung kommen Erstattung, Umbuchung oder – je nach Fall – eine Fahrpreiserstattung in Betracht. Ein Ersatz mit DB-Zügen ist nicht automatisch erlaubt. Der juristische Sitz von FlixTrain bzw. FlixMobility liegt in München; der Kundenservice ist ebenfalls dort angesiedelt.</p><!--opt-->",
+    "portal_url":"https://help.flixtrain.com/s/contact-us?language=en_IE"
   },
   {
     "name": "ÖBB (Österreichische Bundesbahnen)",
     "slug": "oebb",
     "adresse": "ÖBB-Personenverkehr AG\nKundenservice\nPostfach 75\n1020 Wien\nÖsterreich",
     "land": "Österreich",
-    "infobox": "<p>Die ÖBB (Österreichische Bundesbahnen) sind das staatliche Bahnunternehmen Österreichs und verbinden mit Fern- und Regionalverkehr vor allem Strecken innerhalb Österreichs sowie wichtige Verbindungen in Nachbarländer. Bei Zugverspätung, Zugausfall oder Anschlussverlust greifen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab 60 Minuten Verspätung besteht je nach Fall Anspruch auf Entschädigung oder Fahrpreiserstattung. Der juristische Sitz der ÖBB liegt in Wien; auch der Kundenservice ist dort angesiedelt. Für Pendler und Reisende sind besonders Zeitkarten und nationale Verbindungen relevant.</p><!--opt-->"
+    "infobox": "<p>Die ÖBB (Österreichische Bundesbahnen) sind das staatliche Bahnunternehmen Österreichs und verbinden mit Fern- und Regionalverkehr vor allem Strecken innerhalb Österreichs sowie wichtige Verbindungen in Nachbarländer. Bei Zugverspätung, Zugausfall oder Anschlussverlust greifen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab 60 Minuten Verspätung besteht je nach Fall Anspruch auf Entschädigung oder Fahrpreiserstattung. Der juristische Sitz der ÖBB liegt in Wien; auch der Kundenservice ist dort angesiedelt. Für Pendler und Reisende sind besonders Zeitkarten und nationale Verbindungen relevant.</p><!--opt-->",
+    "portal_url":"https://www.oebb.at/de/reiseplanung-services/kundenservice/beschwerde-lob-idee-chatbot"
   },
   {
     "name": "WESTbahn",
     "slug": "westbahn",
     "adresse": "WESTbahn Management GmbH\nEuropaplatz 3\n1150 Wien\nÖsterreich",
     "land": "Österreich",
-    "infobox": "<p>Die WESTbahn ist ein privater Fernverkehrsanbieter in Österreich und verbindet vor allem Strecken wie Wien, Salzburg und Innsbruck. Für Verspätung, Zugausfall und Entschädigung gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Bei einer Verspätung ab 60 Minuten können Reisende je nach Fall Betreuung, Umbuchung oder Fahrpreiserstattung verlangen; fällt der Zug aus, ist auch eine alternative Beförderung möglich. Der juristische Sitz bzw. Kundenservice der WESTbahn befindet sich in Wien.</p><!--opt-->"
+    "infobox": "<p>Die WESTbahn ist ein privater Fernverkehrsanbieter in Österreich und verbindet vor allem Strecken wie Wien, Salzburg und Innsbruck. Für Verspätung, Zugausfall und Entschädigung gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Bei einer Verspätung ab 60 Minuten können Reisende je nach Fall Betreuung, Umbuchung oder Fahrpreiserstattung verlangen; fällt der Zug aus, ist auch eine alternative Beförderung möglich. Der juristische Sitz bzw. Kundenservice der WESTbahn befindet sich in Wien.</p><!--opt-->",
+    "portal_url":"https://westbahn.at/en/service-support/"
   },
   {
     "name": "SBB (Schweizerische Bundesbahnen)",
     "slug": "sbb",
     "adresse": "SBB Kundendienst\nPostfach\n3000 Bern 65\nSchweiz",
     "land": "Schweiz",
-    "infobox": "<p>Die SBB (Schweizerische Bundesbahnen) ist das staatliche Bahnunternehmen der Schweiz und betreibt ein dichtes Netz im Binnenverkehr sowie zahlreiche grenzüberschreitende Verbindungen nach Deutschland, Frankreich, Italien und Österreich. Bei Zugverspätung, Zugausfall oder verpassten Anschlüssen gelten für viele Fälle die harmonisierten EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Je nach Verspätung ab 60 Minuten kommen Entschädigung, Fahrpreiserstattung oder Betreuungsleistungen in Betracht. Juristischer Hauptsitz und Kundenservice befinden sich in Bern. Prüfen Sie daher stets, ob Ihnen eine Zahlung oder Erstattung zusteht.</p><!--opt-->"
+    "infobox": "<p>Die SBB (Schweizerische Bundesbahnen) ist das staatliche Bahnunternehmen der Schweiz und betreibt ein dichtes Netz im Binnenverkehr sowie zahlreiche grenzüberschreitende Verbindungen nach Deutschland, Frankreich, Italien und Österreich. Bei Zugverspätung, Zugausfall oder verpassten Anschlüssen gelten für viele Fälle die harmonisierten EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Je nach Verspätung ab 60 Minuten kommen Entschädigung, Fahrpreiserstattung oder Betreuungsleistungen in Betracht. Juristischer Hauptsitz und Kundenservice befinden sich in Bern. Prüfen Sie daher stets, ob Ihnen eine Zahlung oder Erstattung zusteht.</p><!--opt-->",
+    "portal_url":"https://www.sbb.ch/en/help-and-contact/customer-service/praise-comments.html"
   },
   {
     "name": "SNCF (Société Nationale des Chemins de fer Français)",
     "slug": "sncf",
     "adresse": "Service Relation Client SNCF\n62973 ARRAS Cedex 9\nFrankreich",
     "land": "Frankreich",
-    "infobox": "<p>Die SNCF (Société Nationale des Chemins de fer Français) ist die staatliche französische Eisenbahngesellschaft und betreibt vor allem den Fern-, Regional- und Hochgeschwindigkeitsverkehr in Frankreich sowie grenzüberschreitende Verbindungen in zahlreiche Nachbarländer. Bei Zugverspätung, Zugausfall oder Streik gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab einer Verspätung ab 60 Minuten können je nach Fall Entschädigung, Umbuchung oder Fahrpreiserstattung verlangt werden. Der juristische Sitz und Kundenservice befinden sich in Saint-Denis bei Paris.</p><!--opt-->"
+    "infobox": "<p>Die SNCF (Société Nationale des Chemins de fer Français) ist die staatliche französische Eisenbahngesellschaft und betreibt vor allem den Fern-, Regional- und Hochgeschwindigkeitsverkehr in Frankreich sowie grenzüberschreitende Verbindungen in zahlreiche Nachbarländer. Bei Zugverspätung, Zugausfall oder Streik gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab einer Verspätung ab 60 Minuten können je nach Fall Entschädigung, Umbuchung oder Fahrpreiserstattung verlangt werden. Der juristische Sitz und Kundenservice befinden sich in Saint-Denis bei Paris.</p><!--opt-->",
+    "portal_url":"https://www.sncf-connect.com/en-en/help/complaint"
   },
   {
     "name": "Trenitalia",
     "slug": "trenitalia",
     "adresse": "Trenitalia S.p.A.\nUfficio Reclami e Rimborsi\nPiazza della Croce Rossa 1\n00161 Rom\nItalien",
     "land": "Italien",
-    "infobox": "<p>Trenitalia ist Italiens größtes Eisenbahnunternehmen und betreibt vor allem den Fern- und Regionalverkehr in Italien, mit Verbindungen auch ins europäische Ausland. Bei Zugverspätung oder Zugausfall greifen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab einer Verspätung ab 60 Minuten kann je nach Fall eine Entschädigung oder Fahrpreiserstattung verlangt werden. Der Hauptsitz von Trenitalia liegt in Rom, dort befindet sich auch der Kundenservice. Ansprüche sollten nach der Reise geprüft und fristgerecht geltend gemacht werden.</p><!--opt-->"
+    "infobox": "<p>Trenitalia ist Italiens größtes Eisenbahnunternehmen und betreibt vor allem den Fern- und Regionalverkehr in Italien, mit Verbindungen auch ins europäische Ausland. Bei Zugverspätung oder Zugausfall greifen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab einer Verspätung ab 60 Minuten kann je nach Fall eine Entschädigung oder Fahrpreiserstattung verlangt werden. Der Hauptsitz von Trenitalia liegt in Rom, dort befindet sich auch der Kundenservice. Ansprüche sollten nach der Reise geprüft und fristgerecht geltend gemacht werden.</p><!--opt-->",
+    "portal_url":"https://www.trenitalia.com/en/information/how-to-send-a-complaint.html"
   },
   {
     "name": "Renfe",
     "slug": "renfe",
     "adresse": "Renfe Viajeros S.A.\nAvenida de Ciudad de Barcelona 6\n28007 Madrid\nSpanien",
     "land": "Spanien",
-    "infobox": "<p>Renfe ist Spaniens staatlicher Bahnanbieter und betreibt ein dichtes Netz im gesamten Land, von AVE-Hochgeschwindigkeitszügen bis zu Regional- und Fernverkehrsverbindungen. Bei Zugverspätung, Zugausfall oder Anschlussverlust greifen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr; je nach Strecke kommen Fahrpreiserstattung oder weitere Entschädigungen in Betracht, etwa bei Verspätung ab 60 Minuten. Der Hauptsitz von Renfe befindet sich in Madrid, dort ist auch der Kundenservice angesiedelt. Für Ansprüche sollten Ticketdaten und Buchungsbelege sorgfältig aufbewahrt werden.</p><!--opt-->"
+    "infobox": "<p>Renfe ist Spaniens staatlicher Bahnanbieter und betreibt ein dichtes Netz im gesamten Land, von AVE-Hochgeschwindigkeitszügen bis zu Regional- und Fernverkehrsverbindungen. Bei Zugverspätung, Zugausfall oder Anschlussverlust greifen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr; je nach Strecke kommen Fahrpreiserstattung oder weitere Entschädigungen in Betracht, etwa bei Verspätung ab 60 Minuten. Der Hauptsitz von Renfe befindet sich in Madrid, dort ist auch der Kundenservice angesiedelt. Für Ansprüche sollten Ticketdaten und Buchungsbelege sorgfältig aufbewahrt werden.</p><!--opt-->",
+    "portal_url":"https://www.renfe.com/es/en/ayuda/contact-renfe"
   },
   {
     "name": "NS (Nederlandse Spoorwegen)",
     "slug": "ns",
     "adresse": "NS Klantenservice\nPostbus 2372\n3500 GJ Utrecht\nNiederlande",
     "land": "Niederlande",
-    "infobox": "<p>NS (Nederlandse Spoorwegen) ist das staatliche Bahnunternehmen der Niederlande und betreibt vor allem den dichten nationalen Personenverkehr mit Intercity-, Sprinter- und Regionalverbindungen im gesamten niederländischen Streckennetz. Bei Zugverspätung oder Zugausfall greifen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr; bei einer Verspätung ab 60 Minuten kommt je nach Fall eine Fahrpreiserstattung oder Entschädigung in Betracht. Der Hauptsitz bzw. Kundenservice von NS befindet sich in Utrecht. Für viele Inlandsfahrten bietet NS zudem das Programm „Geld terug bij vertraging“ an.</p><!--opt-->"
+    "infobox": "<p>NS (Nederlandse Spoorwegen) ist das staatliche Bahnunternehmen der Niederlande und betreibt vor allem den dichten nationalen Personenverkehr mit Intercity-, Sprinter- und Regionalverbindungen im gesamten niederländischen Streckennetz. Bei Zugverspätung oder Zugausfall greifen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr; bei einer Verspätung ab 60 Minuten kommt je nach Fall eine Fahrpreiserstattung oder Entschädigung in Betracht. Der Hauptsitz bzw. Kundenservice von NS befindet sich in Utrecht. Für viele Inlandsfahrten bietet NS zudem das Programm „Geld terug bij vertraging“ an.</p><!--opt-->",
+    "portal_url":"https://www.ns.nl/en/service-and-contact/complaints"
   },
   {
     "name": "SNCB / NMBS (Belgische Bahn)",
     "slug": "sncb",
     "adresse": "SNCB Customer Service\nAvenue de la Porte de Hal 40\n1060 Brüssel\nBelgien",
     "land": "Belgien",
-    "infobox": "<p>Die SNCB/NMBS ist die staatliche Belgische Bahn und betreibt den Personenverkehr in ganz Belgien, mit wichtigen Verbindungen nach Brüssel, Antwerpen, Gent, Brügge und in Grenzregionen zu Nachbarländern. Bei Zugverspätung oder Zugausfall gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr: Ab 60 Minuten Verspätung kommen Entschädigung oder Fahrpreiserstattung in Betracht. Für Pendler können auch wiederholte kürzere Verspätungen relevant sein. Der Hauptsitz bzw. Kundenservice der SNCB/NMBS befindet sich in Brüssel.</p><!--opt-->"
+    "infobox": "<p>Die SNCB/NMBS ist die staatliche Belgische Bahn und betreibt den Personenverkehr in ganz Belgien, mit wichtigen Verbindungen nach Brüssel, Antwerpen, Gent, Brügge und in Grenzregionen zu Nachbarländern. Bei Zugverspätung oder Zugausfall gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr: Ab 60 Minuten Verspätung kommen Entschädigung oder Fahrpreiserstattung in Betracht. Für Pendler können auch wiederholte kürzere Verspätungen relevant sein. Der Hauptsitz bzw. Kundenservice der SNCB/NMBS befindet sich in Brüssel.</p><!--opt-->",
+    "portal_url":"https://www.belgiantrain.be/support/customer-service"
   },
   {
     "name": "Eurostar",
     "slug": "eurostar",
     "adresse": "Eurostar Traveller Care\n2nd Floor, Kent House\n81 Station Road\nAshford, TN23 1AP\nVereinigtes Königreich",
     "land": "Vereinigtes Königreich",
-    "infobox": "<p>Eurostar ist ein internationaler Hochgeschwindigkeitszuganbieter, der vor allem Großbritannien mit Belgien, Frankreich und den Niederlanden verbindet. Für Reisende auf diesen grenzüberschreitenden Strecken gelten bei Zugverspätung und Zugausfall die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Bei einer Verspätung ab 60 Minuten kommen je nach Fall Fahrpreiserstattung, Umbuchung oder Entschädigung in Betracht. Der juristische Hauptsitz bzw. Kundenservice von Eurostar befindet sich in London. Nach dem Brexit können ergänzend besondere Tarif- und Erstattungsbedingungen gelten.</p><!--opt-->"
+    "infobox": "<p>Eurostar ist ein internationaler Hochgeschwindigkeitszuganbieter, der vor allem Großbritannien mit Belgien, Frankreich und den Niederlanden verbindet. Für Reisende auf diesen grenzüberschreitenden Strecken gelten bei Zugverspätung und Zugausfall die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Bei einer Verspätung ab 60 Minuten kommen je nach Fall Fahrpreiserstattung, Umbuchung oder Entschädigung in Betracht. Der juristische Hauptsitz bzw. Kundenservice von Eurostar befindet sich in London. Nach dem Brexit können ergänzend besondere Tarif- und Erstattungsbedingungen gelten.</p><!--opt-->",
+    "portal_url":"https://www.eurostar.com/rw-en/complaints-handling-procedure"
   },
   {
     "name": "ČD (České dráhy)",
     "slug": "cd",
     "adresse": "České dráhy a.s.\nnábřeží L. Svobody 1222/1\n110 15 Prag 1\nTschechien",
     "land": "Tschechien",
-    "infobox": "<p>ČD (České dráhy) ist die staatliche Eisenbahn der Tschechischen Republik und bedient vor allem den nationalen Fern-, Regional- und Pendlerverkehr in Tschechien sowie zahlreiche grenzüberschreitende Verbindungen in Europa. Bei Zugverspätung, Zugausfall oder Anschlussverlust gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr: Ab einer Verspätung ab 60 Minuten kommt regelmäßig eine Fahrpreiserstattung oder Entschädigung in Betracht. Der juristische Sitz und Kundenservice von ČD befindet sich in Praha 1, Nábřeží L. Svobody 1222.</p><!--opt-->"
+    "infobox": "<p>ČD (České dráhy) ist die staatliche Eisenbahn der Tschechischen Republik und bedient vor allem den nationalen Fern-, Regional- und Pendlerverkehr in Tschechien sowie zahlreiche grenzüberschreitende Verbindungen in Europa. Bei Zugverspätung, Zugausfall oder Anschlussverlust gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr: Ab einer Verspätung ab 60 Minuten kommt regelmäßig eine Fahrpreiserstattung oder Entschädigung in Betracht. Der juristische Sitz und Kundenservice von ČD befindet sich in Praha 1, Nábřeží L. Svobody 1222.</p><!--opt-->",
+    "portal_url":"https://www.cd.cz/en/kontaktni-formular/?openform&t=S"
   },
   {
     "name": "DSB (Danske Statsbaner)",
     "slug": "dsb",
     "adresse": "DSB Kundecenter\nTelegade 2\n2630 Taastrup\nDänemark",
     "land": "Dänemark",
-    "infobox": "<p>Die DSB (Danske Statsbaner) ist das staatliche Bahnunternehmen Dänemarks und verbindet vor allem den Fern- und Regionalverkehr im dänischen Streckennetz, inklusive wichtiger Verbindungen nach Schweden und Deutschland. Bei Zugverspätung, Zugausfall oder Anschlussverlust können Fahrgäste nach den EU-Fahrgastrechten und der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr Ansprüche auf Entschädigung oder Fahrpreiserstattung haben, etwa bei einer Verspätung ab 60 Minuten. Der juristische Hauptsitz bzw. Kundenservice der DSB befindet sich in Taastrup bei Kopenhagen. Prüfen Sie Ihre Rechte und mögliche Erstattungen, insbesondere bei längeren Verspätungen auf nationalen und grenzüberschreitenden Strecken.</p><!--opt-->"
+    "infobox": "<p>Die DSB (Danske Statsbaner) ist das staatliche Bahnunternehmen Dänemarks und verbindet vor allem den Fern- und Regionalverkehr im dänischen Streckennetz, inklusive wichtiger Verbindungen nach Schweden und Deutschland. Bei Zugverspätung, Zugausfall oder Anschlussverlust können Fahrgäste nach den EU-Fahrgastrechten und der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr Ansprüche auf Entschädigung oder Fahrpreiserstattung haben, etwa bei einer Verspätung ab 60 Minuten. Der juristische Hauptsitz bzw. Kundenservice der DSB befindet sich in Taastrup bei Kopenhagen. Prüfen Sie Ihre Rechte und mögliche Erstattungen, insbesondere bei längeren Verspätungen auf nationalen und grenzüberschreitenden Strecken.</p><!--opt-->",
+    "portal_url":"https://www.dsb.dk/en/customer-service/"
   },
   {
     "name": "metronom",
     "slug": "metronom",
     "adresse": "metronom Eisenbahngesellschaft mbH\nKundenzentrum\nSt.-Viti-Straße 15\n29525 Uelzen\nDeutschland",
     "land": "Deutschland",
-    "infobox": "<p>metronom ist ein regionaler Eisenbahnverkehrsanbieter in Norddeutschland und bedient vor allem Strecken in Niedersachsen, Hamburg und angrenzenden Regionen. Bei Zugverspätung, Zugausfall oder Anschlussverlust gelten die EU-Fahrgastrechte nach der Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab 60 Minuten Verspätung kommen Entschädigung oder Fahrpreiserstattung in Betracht; bei längeren Wartezeiten bestehen zudem Betreuungs- und Informationspflichten. Der juristische Sitz bzw. Kundenservice von metronom befindet sich in Uelzen. Wichtig: Bei Fahrten mit dem Deutschlandticket sind Erstattungen für Fernverkehrstickets grundsätzlich ausgeschlossen.</p><!--opt-->"
+    "infobox": "<p>metronom ist ein regionaler Eisenbahnverkehrsanbieter in Norddeutschland und bedient vor allem Strecken in Niedersachsen, Hamburg und angrenzenden Regionen. Bei Zugverspätung, Zugausfall oder Anschlussverlust gelten die EU-Fahrgastrechte nach der Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab 60 Minuten Verspätung kommen Entschädigung oder Fahrpreiserstattung in Betracht; bei längeren Wartezeiten bestehen zudem Betreuungs- und Informationspflichten. Der juristische Sitz bzw. Kundenservice von metronom befindet sich in Uelzen. Wichtig: Bei Fahrten mit dem Deutschlandticket sind Erstattungen für Fernverkehrstickets grundsätzlich ausgeschlossen.</p><!--opt-->",
+    "portal_url":"https://www.der-metronom.com/formulare/fahrgastrechte/"
   },
   {
     "name": "ODEG (Ostdeutsche Eisenbahn)",
     "slug": "odeg",
     "adresse": "ODEG Kundenservice\nMöllendorffstraße 49\n10367 Berlin\nDeutschland",
     "land": "Deutschland",
-    "infobox": "<p>Die ODEG (Ostdeutsche Eisenbahn) ist ein Regionalbahnunternehmen mit Schwerpunkt in Ostdeutschland, vor allem in Berlin, Brandenburg, Mecklenburg-Vorpommern, Sachsen und Sachsen-Anhalt. Bei Zugverspätung oder Zugausfall greifen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr: Ab 60 Minuten Verspätung kommen je nach Fall Entschädigung, Fahrpreiserstattung oder alternative Beförderung in Betracht. Der Kundenservice der ODEG hat seinen Sitz in Berlin. Auch bei Anschlussverlust oder nächtlicher Ankunft können Betroffene ihre Ansprüche prüfen und Erstattung verlangen.</p><!--opt-->"
+    "infobox": "<p>Die ODEG (Ostdeutsche Eisenbahn) ist ein Regionalbahnunternehmen mit Schwerpunkt in Ostdeutschland, vor allem in Berlin, Brandenburg, Mecklenburg-Vorpommern, Sachsen und Sachsen-Anhalt. Bei Zugverspätung oder Zugausfall greifen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr: Ab 60 Minuten Verspätung kommen je nach Fall Entschädigung, Fahrpreiserstattung oder alternative Beförderung in Betracht. Der Kundenservice der ODEG hat seinen Sitz in Berlin. Auch bei Anschlussverlust oder nächtlicher Ankunft können Betroffene ihre Ansprüche prüfen und Erstattung verlangen.</p><!--opt-->",
+    "portal_url":"https://www.odeg.de/kontakt/kontaktformulare"
   },
   {
     "name": "National Express",
     "slug": "national-express",
     "adresse": "National Express Rail GmbH\nKundendialog\nKölner Straße 266\n51149 Köln\nDeutschland",
     "land": "Deutschland",
-    "infobox": "<p>National Express ist ein privater Eisenbahnverkehrsunternehmer, der vor allem im Regionalverkehr in Nordrhein-Westfalen eingesetzt wird. Auf diesen Strecken gelten bei Zugverspätung, Zugausfall und verpassten Anschlüssen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab einer Verspätung von 60 Minuten kommen je nach Fall Entschädigung oder Fahrpreiserstattung in Betracht. Fahrgastrechte-Formulare können in der Regel online eingereicht werden. Juristischer Sitz und Kundenservice von National Express in Deutschland befinden sich in Köln.</p><!--opt-->"
+    "infobox": "<p>National Express ist ein privater Eisenbahnverkehrsunternehmer, der vor allem im Regionalverkehr in Nordrhein-Westfalen eingesetzt wird. Auf diesen Strecken gelten bei Zugverspätung, Zugausfall und verpassten Anschlüssen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab einer Verspätung von 60 Minuten kommen je nach Fall Entschädigung oder Fahrpreiserstattung in Betracht. Fahrgastrechte-Formulare können in der Regel online eingereicht werden. Juristischer Sitz und Kundenservice von National Express in Deutschland befinden sich in Köln.</p><!--opt-->",
+    "portal_url":"https://www.nationalexpress.com/en/help/contact"
   },
   {
     "name": "BRB (Bayerische Regiobahn)",
     "slug": "brb",
     "adresse": "Bayerische Regiobahn GmbH\nKundencenter\nBahnhofplatz 9\n83646 Bad Tölz\nDeutschland",
     "land": "Deutschland",
-    "infobox": "<p>Die BRB Bayerische Regiobahn ist ein regionales Bahnunternehmen mit Schwerpunkt in Bayern und angrenzenden Strecken in Süddeutschland. Bei Zugverspätung, Zugausfall oder Anschlussverlust gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr: Ab 60 Minuten Verspätung besteht grundsätzlich Anspruch auf Entschädigung oder Fahrpreiserstattung. Der Kundenservice bzw. das Servicecenter Fahrgastrechte ist in München angesiedelt. Wichtig: Kleine Beträge werden oft erst ab einer Sammelabrechnung ausgezahlt. Prüfen Sie daher Ihre Ansprüche sorgfältig und reichen Sie Belege vollständig ein.</p><!--opt-->"
+    "infobox": "<p>Die BRB Bayerische Regiobahn ist ein regionales Bahnunternehmen mit Schwerpunkt in Bayern und angrenzenden Strecken in Süddeutschland. Bei Zugverspätung, Zugausfall oder Anschlussverlust gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr: Ab 60 Minuten Verspätung besteht grundsätzlich Anspruch auf Entschädigung oder Fahrpreiserstattung. Der Kundenservice bzw. das Servicecenter Fahrgastrechte ist in München angesiedelt. Wichtig: Kleine Beträge werden oft erst ab einer Sammelabrechnung ausgezahlt. Prüfen Sie daher Ihre Ansprüche sorgfältig und reichen Sie Belege vollständig ein.</p><!--opt-->",
+    "portal_url":"https://www.brb.de/en/services/contact"
   },
   {
     "name": "agilis",
     "slug": "agilis",
     "adresse": "agilis Eisenbahngesellschaft mbH & Co. KG\nKundencenter\nGalgenbergstraße 2a\n93053 Regensburg\nDeutschland",
     "land": "Deutschland",
-    "infobox": "<p>agilis ist ein regionaler Eisenbahnverkehrs-Anbieter in Bayern und bedient vor allem Strecken in Niederbayern, der Oberpfalz und Oberfranken. Für Fahrten mit agilis gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Bei einer Verspätung ab 60 Minuten haben Sie Anspruch auf Entschädigung; bei Zugausfall oder erheblicher Verzögerung kommen je nach Fall auch Fahrpreiserstattung oder alternative Beförderung in Betracht. Der Kundenservice von agilis hat seinen Sitz in Regensburg. Verpassen Sie wegen eines Ausfalls die letzte Verbindung, kann unter Umständen ein Taxi bis zur Höchstgrenze erstattet werden.</p><!--opt-->"
+    "infobox": "<p>agilis ist ein regionaler Eisenbahnverkehrs-Anbieter in Bayern und bedient vor allem Strecken in Niederbayern, der Oberpfalz und Oberfranken. Für Fahrten mit agilis gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Bei einer Verspätung ab 60 Minuten haben Sie Anspruch auf Entschädigung; bei Zugausfall oder erheblicher Verzögerung kommen je nach Fall auch Fahrpreiserstattung oder alternative Beförderung in Betracht. Der Kundenservice von agilis hat seinen Sitz in Regensburg. Verpassen Sie wegen eines Ausfalls die letzte Verbindung, kann unter Umständen ein Taxi bis zur Höchstgrenze erstattet werden.</p><!--opt-->",
+    "portal_url":"https://www.agilis.de/einspruch-ebe/"
   },
   {
     "name": "vlexx",
     "slug": "vlexx",
     "adresse": "vlexx GmbH\nKundencenter\nMombacher Str. 36\n55122 Mainz\nDeutschland",
     "land": "Deutschland",
-    "infobox": "<p>vlexx ist ein regionaler Bahnverkehrsanbieter mit Schwerpunkt in Rheinland-Pfalz und dem Saarland, auf Strecken etwa zwischen Mainz, Kaiserslautern, Saarbrücken und Frankfurt. Bei Zugverspätung, Zugausfall oder Anschlussverlust gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr: Ab einer Verspätung von 60 Minuten kommen Entschädigung, Fahrpreiserstattung oder alternative Beförderung in Betracht. Bei längeren Verzögerungen kann unter bestimmten Voraussetzungen auch ein Ersatzverkehr genutzt werden. Der Kundenservice von vlexx hat seinen Sitz in Mainz; dort werden Anträge und Beschwerden bearbeitet.</p><!--opt-->"
+    "infobox": "<p>vlexx ist ein regionaler Bahnverkehrsanbieter mit Schwerpunkt in Rheinland-Pfalz und dem Saarland, auf Strecken etwa zwischen Mainz, Kaiserslautern, Saarbrücken und Frankfurt. Bei Zugverspätung, Zugausfall oder Anschlussverlust gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr: Ab einer Verspätung von 60 Minuten kommen Entschädigung, Fahrpreiserstattung oder alternative Beförderung in Betracht. Bei längeren Verzögerungen kann unter bestimmten Voraussetzungen auch ein Ersatzverkehr genutzt werden. Der Kundenservice von vlexx hat seinen Sitz in Mainz; dort werden Anträge und Beschwerden bearbeitet.</p><!--opt-->",
+    "portal_url":"https://www.vlexx.de/service/fahrgastrechte/"
   },
   {
     "name": "erixx",
     "slug": "erixx",
     "adresse": "erixx GmbH\nKundenzentrum\nSt.-Viti-Straße 15\n29525 Uelzen\nDeutschland",
     "land": "Deutschland",
-    "infobox": "<p>erixx ist ein regionales Eisenbahnunternehmen im Norden Deutschlands und bedient vor allem Strecken in Niedersachsen, teils auch in angrenzenden Regionen. Für Fahrgäste gelten bei Zugverspätung, Zugausfall und Anschlussverlust die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab einer Verspätung von 60 Minuten kommen je nach Fall eine Fahrpreiserstattung oder Entschädigung in Betracht. Der juristische Sitz bzw. Kundenservice von erixx befindet sich in Uelzen. Wichtig: Das Deutschlandticket ersetzt keine weitergehenden Ansprüche auf Ersatz privater Folgeschäden.</p><!--opt-->"
+    "infobox": "<p>erixx ist ein regionales Eisenbahnunternehmen im Norden Deutschlands und bedient vor allem Strecken in Niedersachsen, teils auch in angrenzenden Regionen. Für Fahrgäste gelten bei Zugverspätung, Zugausfall und Anschlussverlust die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab einer Verspätung von 60 Minuten kommen je nach Fall eine Fahrpreiserstattung oder Entschädigung in Betracht. Der juristische Sitz bzw. Kundenservice von erixx befindet sich in Uelzen. Wichtig: Das Deutschlandticket ersetzt keine weitergehenden Ansprüche auf Ersatz privater Folgeschäden.</p><!--opt-->",
+    "portal_url":"https://www.erixx.de/hilfe-kontakt/"
   },
   {
     "name": "eurobahn",
     "slug": "eurobahn",
     "adresse": "eurobahn GmbH & Co. KG\nKundencenter\nUnionstraße 3\n59067 Hamm\nDeutschland",
     "land": "Deutschland",
-    "infobox": "<p>eurobahn ist ein regionaler Eisenbahnverkehrsunternehmer mit Schwerpunkt in Nordrhein-Westfalen und angrenzenden Verbindungen, unter anderem ins benachbarte Ausland. Bei Zugverspätung, Zugausfall oder Anschlussverlust greifen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab 60 Minuten Verspätung können Ansprüche auf Entschädigung, Fahrpreiserstattung oder alternative Beförderung bestehen; bei längeren Wartezeiten kommt zudem Betreuung am Bahnhof in Betracht. Der Sitz des Kundenservice befindet sich in Hamm. Prüfen Sie Ihre Ansprüche, wenn Ihr eurobahn-Zug nicht planmäßig fährt.</p><!--opt-->"
+    "infobox": "<p>eurobahn ist ein regionaler Eisenbahnverkehrsunternehmer mit Schwerpunkt in Nordrhein-Westfalen und angrenzenden Verbindungen, unter anderem ins benachbarte Ausland. Bei Zugverspätung, Zugausfall oder Anschlussverlust greifen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab 60 Minuten Verspätung können Ansprüche auf Entschädigung, Fahrpreiserstattung oder alternative Beförderung bestehen; bei längeren Wartezeiten kommt zudem Betreuung am Bahnhof in Betracht. Der Sitz des Kundenservice befindet sich in Hamm. Prüfen Sie Ihre Ansprüche, wenn Ihr eurobahn-Zug nicht planmäßig fährt.</p><!--opt-->",
+    "portal_url":"https://www.eurobahn.de/kontakt/"
   },
   {
     "name": "cantus",
     "slug": "cantus",
     "adresse": "cantus Verkehrsgesellschaft mbH\nKundenzentrum\nBahnhofstraße 1\n34117 Kassel\nDeutschland",
     "land": "Deutschland",
-    "infobox": "<p>cantus Verkehrsgesellschaft mbH ist ein regionales Bahnunternehmen im Nahverkehr in Hessen und Niedersachsen und bedient vor allem Strecken rund um Kassel, Göttingen und Bebra. Bei Zugverspätung, Zugausfall oder Anschlussverlust greifen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab einer Verspätung ab 60 Minuten kommen je nach Fall Entschädigung oder Fahrpreiserstattung in Betracht. Der juristische Sitz des Unternehmens liegt in Kassel; der Kundenservice ist ebenfalls dort angesiedelt. Wichtig: Auch bei cantus können Ansprüche auf Erstattung und Hilfeleistungen bestehen.</p><!--opt-->"
+    "infobox": "<p>cantus Verkehrsgesellschaft mbH ist ein regionales Bahnunternehmen im Nahverkehr in Hessen und Niedersachsen und bedient vor allem Strecken rund um Kassel, Göttingen und Bebra. Bei Zugverspätung, Zugausfall oder Anschlussverlust greifen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab einer Verspätung ab 60 Minuten kommen je nach Fall Entschädigung oder Fahrpreiserstattung in Betracht. Der juristische Sitz des Unternehmens liegt in Kassel; der Kundenservice ist ebenfalls dort angesiedelt. Wichtig: Auch bei cantus können Ansprüche auf Erstattung und Hilfeleistungen bestehen.</p><!--opt-->",
+    "portal_url":"https://www.cantus-bahn.de/kontakt"
   },
   {
     "name": "PKP Intercity",
     "slug": "pkp",
     "adresse": "PKP Intercity S.A.\nAl. Jerozolimskie 142A\n02-305 Warschau\nPolen",
     "land": "Polen",
-    "infobox": "<p>PKP Intercity ist der polnische Fernverkehrs- und Premiumanbieter für nationale und internationale Zugverbindungen, vor allem auf Strecken innerhalb Polens sowie in Nachbarländer. Für Fahrgäste gelten grundsätzlich die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr: Bei einer Verspätung ab 60 Minuten kommen je nach Fall Entschädigung, Fahrpreiserstattung oder Weiterreise in Betracht. Bei Zugausfall besteht zudem regelmäßig Anspruch auf kostenlose Weiterbeförderung oder Rückzahlung. Juristischer Hauptsitz und Kundenservice von PKP Intercity befinden sich in Warschau, Polen.</p><!--opt-->"
+    "infobox": "<p>PKP Intercity ist der polnische Fernverkehrs- und Premiumanbieter für nationale und internationale Zugverbindungen, vor allem auf Strecken innerhalb Polens sowie in Nachbarländer. Für Fahrgäste gelten grundsätzlich die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr: Bei einer Verspätung ab 60 Minuten kommen je nach Fall Entschädigung, Fahrpreiserstattung oder Weiterreise in Betracht. Bei Zugausfall besteht zudem regelmäßig Anspruch auf kostenlose Weiterbeförderung oder Rückzahlung. Juristischer Hauptsitz und Kundenservice von PKP Intercity befinden sich in Warschau, Polen.</p><!--opt-->",
+    "portal_url":"https://www.intercity.pl/en/site/for-passengers/customer-service/claims-and-complaints/"
   },
   {
     "name": "SJ (Statens Järnvägar)",
     "slug": "sj",
     "adresse": "SJ AB\nKundservice\n105 50 Stockholm\nSchweden",
     "land": "Schweden",
-    "infobox": "<p>SJ (Statens Järnvägar) ist die staatliche schwedische Bahn und verbindet vor allem Fernverkehrs- und Regionalstrecken innerhalb Schwedens, etwa zwischen Stockholm, Göteborg und Malmö. Bei Zugverspätung, Zugausfall oder Anschlussverlust greifen grundsätzlich die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Zusätzlich gelten die schwedischen Entschädigungsregeln von SJ, etwa bei einer Verspätung ab 60 Minuten. Der juristische Sitz bzw. Kundenservice von SJ befindet sich in Stockholm. Fahrgäste können je nach Fall eine Entschädigung oder Fahrpreiserstattung verlangen.</p><!--opt-->"
+    "infobox": "<p>SJ (Statens Järnvägar) ist die staatliche schwedische Bahn und verbindet vor allem Fernverkehrs- und Regionalstrecken innerhalb Schwedens, etwa zwischen Stockholm, Göteborg und Malmö. Bei Zugverspätung, Zugausfall oder Anschlussverlust greifen grundsätzlich die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Zusätzlich gelten die schwedischen Entschädigungsregeln von SJ, etwa bei einer Verspätung ab 60 Minuten. Der juristische Sitz bzw. Kundenservice von SJ befindet sich in Stockholm. Fahrgäste können je nach Fall eine Entschädigung oder Fahrpreiserstattung verlangen.</p><!--opt-->",
+    "portal_url":"https://www.sj.se/en/customer-service"
   },
   {
     "name": "Italo (NTV)",
     "slug": "italo",
     "adresse": "Italo - Nuovo Trasporto Viaggiatori S.p.A.\nServizio Clienti\nViale del Policlinico 149/b\n00161 Rom\nItalien",
     "land": "Italien",
-    "infobox": "<p>Italo (NTV) ist ein privater italienischer Hochgeschwindigkeitsanbieter im Fernverkehr und verbindet vor allem große Städte in Italien, etwa auf den Achsen Mailand–Rom–Neapel. Bei Zugverspätung, Zugausfall oder Anschlussverlust gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab einer Verspätung ab 60 Minuten können Reisende je nach Fall eine Entschädigung oder Fahrpreiserstattung verlangen. Der juristische Sitz von NTV bzw. Italo liegt in Rom, der Kundenservice ist ebenfalls in Italien angesiedelt. Viele Erstattungen werden bei Italo automatisch als Gutschrift oder Gutschein abgewickelt.</p><!--opt-->"
+    "infobox": "<p>Italo (NTV) ist ein privater italienischer Hochgeschwindigkeitsanbieter im Fernverkehr und verbindet vor allem große Städte in Italien, etwa auf den Achsen Mailand–Rom–Neapel. Bei Zugverspätung, Zugausfall oder Anschlussverlust gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab einer Verspätung ab 60 Minuten können Reisende je nach Fall eine Entschädigung oder Fahrpreiserstattung verlangen. Der juristische Sitz von NTV bzw. Italo liegt in Rom, der Kundenservice ist ebenfalls in Italien angesiedelt. Viele Erstattungen werden bei Italo automatisch als Gutschrift oder Gutschein abgewickelt.</p><!--opt-->",
+    "portal_url":"https://www.italotreno.com/en/support-contacts/claims-management"
   },
   {
     "name": "iryo",
     "slug": "iryo",
     "adresse": "Intermodalidad de Levante S.A.\nCalle de Méndez Álvaro 56\n28045 Madrid\nSpanien",
     "land": "Spanien",
-    "infobox": "<p>iryo ist ein privates Hochgeschwindigkeits-Bahnunternehmen in Spanien und verbindet vor allem wichtige Städte auf dem spanischen Fernverkehrsnetz, etwa Madrid, Barcelona, Valencia, Sevilla und Málaga. Für Zugverspätung, Zugausfall und Entschädigung gelten die EU-Fahrgastrechte nach der Verordnung (EG) Nr. 1371/2007. Bei einer Verspätung ab 60 Minuten können Fahrgäste je nach Fall eine Entschädigung oder Fahrpreiserstattung verlangen; bei Totalausfällen sind zudem Ersatzbeförderung und Betreuungspflichten zu beachten. Der juristische Sitz bzw. Hauptsitz von iryo ist in Madrid, Spanien.</p><!--opt-->"
+    "infobox": "<p>iryo ist ein privates Hochgeschwindigkeits-Bahnunternehmen in Spanien und verbindet vor allem wichtige Städte auf dem spanischen Fernverkehrsnetz, etwa Madrid, Barcelona, Valencia, Sevilla und Málaga. Für Zugverspätung, Zugausfall und Entschädigung gelten die EU-Fahrgastrechte nach der Verordnung (EG) Nr. 1371/2007. Bei einer Verspätung ab 60 Minuten können Fahrgäste je nach Fall eine Entschädigung oder Fahrpreiserstattung verlangen; bei Totalausfällen sind zudem Ersatzbeförderung und Betreuungspflichten zu beachten. Der juristische Sitz bzw. Hauptsitz von iryo ist in Madrid, Spanien.</p><!--opt-->",
+    "portal_url":"https://iryo.eu/en/travel/frequent-questions/claims"
   },
   {
     "name": "CP (Comboios de Portugal)",
     "slug": "cp",
     "adresse": "CP - Comboios de Portugal\nCalçada do Duque 20\n1200-156 Lissabon\nPortugal",
     "land": "Portugal",
-    "infobox": "<p>CP (Comboios de Portugal) ist das staatliche Bahnunternehmen Portugals und bedient vor allem Fern-, Regional- und Vorortverbindungen auf dem Festland, etwa zwischen Lissabon, Porto, Coimbra und Faro. Bei Zugverspätung oder Zugausfall gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Eine Entschädigung oder Fahrpreiserstattung kommt je nach Fall in Betracht, etwa bei Verspätung ab 60 Minuten. Der juristische Sitz bzw. Kundenservice von CP befindet sich in Lissabon. Wichtig: Ansprüche sollten fristgerecht und mit Belegen eingereicht werden.</p><!--opt-->"
+    "infobox": "<p>CP (Comboios de Portugal) ist das staatliche Bahnunternehmen Portugals und bedient vor allem Fern-, Regional- und Vorortverbindungen auf dem Festland, etwa zwischen Lissabon, Porto, Coimbra und Faro. Bei Zugverspätung oder Zugausfall gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Eine Entschädigung oder Fahrpreiserstattung kommt je nach Fall in Betracht, etwa bei Verspätung ab 60 Minuten. Der juristische Sitz bzw. Kundenservice von CP befindet sich in Lissabon. Wichtig: Ansprüche sollten fristgerecht und mit Belegen eingereicht werden.</p><!--opt-->",
+    "portal_url":"https://www.cp.pt/info/en/w/complaint-cp"
   },
   {
     "name": "MÁV-START",
     "slug": "mav",
     "adresse": "MÁV-START Zrt.\nÜgyfélszolgálat\nPf. 56.\n1426 Budapest\nUngarn",
     "land": "Ungarn",
-    "infobox": "<p>MÁV-START ist die ungarische Staatsbahn für den Personenverkehr und bedient vor allem das nationale Streckennetz in Ungarn, inklusive vieler Regional- und Fernverbindungen. Bei Zugverspätung, Zugausfall oder Anschlussverlust greifen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab einer Verspätung ab 60 Minuten können je nach Fall Entschädigung oder Fahrpreiserstattung in Betracht kommen. Der Hauptsitz bzw. Kundenservice von MÁV-START befindet sich in Budapest, Ungarn. Für eine erfolgreiche Geltendmachung sollten Fahrgäste Belege und, wenn möglich, eine Bestätigung der Verspätung sichern.</p><!--opt-->"
+    "infobox": "<p>MÁV-START ist die ungarische Staatsbahn für den Personenverkehr und bedient vor allem das nationale Streckennetz in Ungarn, inklusive vieler Regional- und Fernverbindungen. Bei Zugverspätung, Zugausfall oder Anschlussverlust greifen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab einer Verspätung ab 60 Minuten können je nach Fall Entschädigung oder Fahrpreiserstattung in Betracht kommen. Der Hauptsitz bzw. Kundenservice von MÁV-START befindet sich in Budapest, Ungarn. Für eine erfolgreiche Geltendmachung sollten Fahrgäste Belege und, wenn möglich, eine Bestätigung der Verspätung sichern.</p><!--opt-->",
+    "portal_url":"https://www.mavcsoport.hu/en/mav-szemelyszallitas/organisation/domestic-travels/customer-service"
   },
   {
     "name": "VR (VR-Yhtymä)",
     "slug": "vr",
     "adresse": "VR-Yhtymä Oyj\nAsiakaspalvelu\nPL 7020\n00063 VR\nFinnland",
     "land": "Finnland",
-    "infobox": "<p>VR (VR-Yhtymä) ist das staatliche finnische Bahnunternehmen und betreibt den Personen- und Fernverkehr vor allem in Finnland, mit Verbindungen zwischen Helsinki, Tampere, Turku, Oulu und weiteren Regionen. Für Zugverspätung, Zugausfall und Entschädigung gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Bei einer Verspätung ab 60 Minuten kommen je nach Fall Betreuungsleistungen, Umbuchung oder Fahrpreiserstattung in Betracht. Der juristische Sitz bzw. Kundenservice von VR befindet sich in Helsinki, Finnland. Bei Ausfällen müssen Reisende zudem oft Hilfe, Verpflegung oder Hotelunterbringung erhalten.</p><!--opt-->"
+    "infobox": "<p>VR (VR-Yhtymä) ist das staatliche finnische Bahnunternehmen und betreibt den Personen- und Fernverkehr vor allem in Finnland, mit Verbindungen zwischen Helsinki, Tampere, Turku, Oulu und weiteren Regionen. Für Zugverspätung, Zugausfall und Entschädigung gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Bei einer Verspätung ab 60 Minuten kommen je nach Fall Betreuungsleistungen, Umbuchung oder Fahrpreiserstattung in Betracht. Der juristische Sitz bzw. Kundenservice von VR befindet sich in Helsinki, Finnland. Bei Ausfällen müssen Reisende zudem oft Hilfe, Verpflegung oder Hotelunterbringung erhalten.</p><!--opt-->",
+    "portal_url":"https://www.vr.fi/en/customer-service"
   },
   {
     "name": "CFR Călători",
     "slug": "cfr",
     "adresse": "SNTFC CFR Călători S.A.\nBd. Dinicu Golescu 38\nSector 1\n010873 Bukarest\nRumänien",
     "land": "Rumänien",
-    "infobox": "<p>CFR Călători ist der staatliche rumänische Fernverkehrs- und Regionalanbieter und bedient vor allem Strecken innerhalb Rumäniens, mit einzelnen grenzüberschreitenden Verbindungen. Bei Zugverspätung, Zugausfall oder Anschlussverlust gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab einer Verspätung ab 60 Minuten können Reisende je nach Fall eine Fahrpreiserstattung oder Entschädigung verlangen. Juristischer Sitz und Kundenservice befinden sich in Bukarest. Für die Durchsetzung empfiehlt sich eine schriftliche Beantragung mit Belegen und Ticketdaten.</p><!--opt-->"
+    "infobox": "<p>CFR Călători ist der staatliche rumänische Fernverkehrs- und Regionalanbieter und bedient vor allem Strecken innerhalb Rumäniens, mit einzelnen grenzüberschreitenden Verbindungen. Bei Zugverspätung, Zugausfall oder Anschlussverlust gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab einer Verspätung ab 60 Minuten können Reisende je nach Fall eine Fahrpreiserstattung oder Entschädigung verlangen. Juristischer Sitz und Kundenservice befinden sich in Bukarest. Für die Durchsetzung empfiehlt sich eine schriftliche Beantragung mit Belegen und Ticketdaten.</p><!--opt-->",
+    "portal_url":"https://www.cfrcalatori.ro/en/contact/"
   },
   {
     "name": "ZSSK (Železničná spoločnosť Slovensko)",
     "slug": "zssk",
     "adresse": "ZSSK a.s.\nZákaznícke centrum\nRožňavská 1\n832 72 Bratislava\nSlowakei",
     "land": "Slowakei",
-    "infobox": "<p>Die Železničná spoločnosť Slovensko (ZSSK) ist das staatliche Eisenbahnunternehmen der Slowakei und betreibt den Personenverkehr vor allem im landesweiten Schienenfern- und Regionalverkehr. Bei Zugverspätung, Zugausfall oder Anschlussverlust gelten grundsätzlich die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab einer Verspätung ab 60 Minuten kommen je nach Fall eine Fahrpreiserstattung, eine Umbuchung oder andere Unterstützungsleistungen in Betracht. Der Hauptsitz bzw. Kundenservice der ZSSK befindet sich in Bratislava. Für Reisende auf slowakischen Strecken ist daher wichtig, Ansprüche zeitnah zu prüfen und Belege aufzubewahren.</p><!--opt-->"
+    "infobox": "<p>Die Železničná spoločnosť Slovensko (ZSSK) ist das staatliche Eisenbahnunternehmen der Slowakei und betreibt den Personenverkehr vor allem im landesweiten Schienenfern- und Regionalverkehr. Bei Zugverspätung, Zugausfall oder Anschlussverlust gelten grundsätzlich die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab einer Verspätung ab 60 Minuten kommen je nach Fall eine Fahrpreiserstattung, eine Umbuchung oder andere Unterstützungsleistungen in Betracht. Der Hauptsitz bzw. Kundenservice der ZSSK befindet sich in Bratislava. Für Reisende auf slowakischen Strecken ist daher wichtig, Ansprüche zeitnah zu prüfen und Belege aufzubewahren.</p><!--opt-->",
+    "portal_url":"https://www.zssk.sk/en/about-us/rail-passenger-rights/suggestions-and-complaints/"
   },
   {
     "name": "NordWestBahn",
     "slug": "nordwestbahn",
     "adresse": "NordWestBahn GmbH\nKundendialog\nPostfach 42 64\n49032 Osnabrück\nDeutschland",
     "land": "Deutschland",
-    "infobox": "<p>Die NordWestBahn ist ein regionaler Eisenbahnverkehrs-Anbieter in Deutschland und fährt vor allem im Nordwesten, etwa in Niedersachsen, Bremen und angrenzenden Regionen. Bei Zugverspätung, Zugausfall oder Anschlussverlust greifen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab einer Verspätung ab 60 Minuten besteht je nach Ticket ein Anspruch auf Entschädigung oder Fahrpreiserstattung; Schadensersatz für verpasste Termine ist dagegen regelmäßig ausgeschlossen. Der juristische Sitz der NordWestBahn liegt in Osnabrück, dort befindet sich auch der Kundenservice.</p><!--opt-->"
+    "infobox": "<p>Die NordWestBahn ist ein regionaler Eisenbahnverkehrs-Anbieter in Deutschland und fährt vor allem im Nordwesten, etwa in Niedersachsen, Bremen und angrenzenden Regionen. Bei Zugverspätung, Zugausfall oder Anschlussverlust greifen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab einer Verspätung ab 60 Minuten besteht je nach Ticket ein Anspruch auf Entschädigung oder Fahrpreiserstattung; Schadensersatz für verpasste Termine ist dagegen regelmäßig ausgeschlossen. Der juristische Sitz der NordWestBahn liegt in Osnabrück, dort befindet sich auch der Kundenservice.</p><!--opt-->",
+    "portal_url":"https://www.nordwestbahn.de/de/kontakt"
   },
   {
     "name": "HLB (Hessische Landesbahn)",
     "slug": "hlb",
     "adresse": "Hessische Landesbahn GmbH\nKundenservice\nErlenstraße 2\n60325 Frankfurt am Main\nDeutschland",
     "land": "Deutschland",
-    "infobox": "<p>Die HLB (Hessische Landesbahn) ist ein regionaler Eisenbahnverkehrsbetreiber in Hessen und angrenzenden Regionen, mit Strecken in Mittelhessen, dem Rhein-Main-Gebiet sowie teils in Rheinland-Pfalz und Niedersachsen. Bei Zugverspätung, Zugausfall oder Anschlussverlust gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab einer Verspätung ab 60 Minuten kommen je nach Fall Entschädigung oder Fahrpreiserstattung in Betracht. Der juristische Sitz und Kundenservice der HLB befinden sich in Butzbach. Fahrgastrechte-Anträge sollten mit Ticketbeleg und Verspätungsnachweis eingereicht werden.</p><!--opt-->"
+    "infobox": "<p>Die HLB (Hessische Landesbahn) ist ein regionaler Eisenbahnverkehrsbetreiber in Hessen und angrenzenden Regionen, mit Strecken in Mittelhessen, dem Rhein-Main-Gebiet sowie teils in Rheinland-Pfalz und Niedersachsen. Bei Zugverspätung, Zugausfall oder Anschlussverlust gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab einer Verspätung ab 60 Minuten kommen je nach Fall Entschädigung oder Fahrpreiserstattung in Betracht. Der juristische Sitz und Kundenservice der HLB befinden sich in Butzbach. Fahrgastrechte-Anträge sollten mit Ticketbeleg und Verspätungsnachweis eingereicht werden.</p><!--opt-->",
+    "portal_url":"https://hlb-online.de/kontakt/"
   },
   {
     "name": "SWEG",
     "slug": "sweg",
     "adresse": "SWEG Südwestdeutsche Landesverkehrs-GmbH\nKundencenter\nRheinstraße 8\n77933 Lahr\nDeutschland",
     "land": "Deutschland",
-    "infobox": "<p>Die SWEG ist ein regionales Verkehrsunternehmen mit Schwerpunkt in Baden-Württemberg und betreibt vor allem Regional- und Nahverkehr auf Bahn- und Busstrecken in Südwestdeutschland. Bei Zugverspätung oder Zugausfall greifen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr: Ab 60 Minuten Verspätung kommt je nach Fall eine Entschädigung oder Fahrpreiserstattung in Betracht. Verpassen Reisende wegen einer Verspätung den letzten Anschluss, kann unter Umständen ein Taxi erstattet werden. Der Sitz des Unternehmens bzw. Kundenservice befindet sich in Lahr/Schwarzwald.</p><!--opt-->"
+    "infobox": "<p>Die SWEG ist ein regionales Verkehrsunternehmen mit Schwerpunkt in Baden-Württemberg und betreibt vor allem Regional- und Nahverkehr auf Bahn- und Busstrecken in Südwestdeutschland. Bei Zugverspätung oder Zugausfall greifen die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr: Ab 60 Minuten Verspätung kommt je nach Fall eine Entschädigung oder Fahrpreiserstattung in Betracht. Verpassen Reisende wegen einer Verspätung den letzten Anschluss, kann unter Umständen ein Taxi erstattet werden. Der Sitz des Unternehmens bzw. Kundenservice befindet sich in Lahr/Schwarzwald.</p><!--opt-->",
+    "portal_url":"https://www.sweg.de/de/service/kontakt/"
   },
   {
     "name": "VIAS",
     "slug": "vias",
     "adresse": "VIAS Rail GmbH\nKundenservice\nKölner Straße 266\n51149 Köln\nDeutschland",
     "land": "Deutschland",
-    "infobox": "<p>VIAS ist ein deutscher Eisenbahnverkehrsunternehmer, der vor allem im Rhein-Main-Gebiet und in Hessen sowie angrenzenden Regionen unterwegs ist. Bei Zugverspätung, Zugausfall oder verpassten Anschlüssen gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab einer Verspätung ab 60 Minuten können je nach Fall Entschädigung, Umbuchung oder Fahrpreiserstattung beansprucht werden. Auch wenn die Ursache bei einem Infrastrukturproblem liegt, bleiben Ansprüche bestehen. Der Kundenservice von VIAS sitzt in Frankfurt am Main.</p><!--opt-->"
+    "infobox": "<p>VIAS ist ein deutscher Eisenbahnverkehrsunternehmer, der vor allem im Rhein-Main-Gebiet und in Hessen sowie angrenzenden Regionen unterwegs ist. Bei Zugverspätung, Zugausfall oder verpassten Anschlüssen gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr. Ab einer Verspätung ab 60 Minuten können je nach Fall Entschädigung, Umbuchung oder Fahrpreiserstattung beansprucht werden. Auch wenn die Ursache bei einem Infrastrukturproblem liegt, bleiben Ansprüche bestehen. Der Kundenservice von VIAS sitzt in Frankfurt am Main.</p><!--opt-->",
+    "portal_url":"https://www.vias-online.de/startseite/kontakt/"
   },
   {
     "name": "NEB (Niederbarnimer Eisenbahn)",
     "slug": "neb",
     "adresse": "Niederbarnimer Eisenbahn AG\nKundencenter\nGeorgenstraße 22\n10117 Berlin\nDeutschland",
     "land": "Deutschland",
-    "infobox": "<p>Die NEB (Niederbarnimer Eisenbahn) ist ein regionales Bahnunternehmen im Raum Berlin-Brandenburg und bedient vor allem Linien im VBB-Netz sowie im Umland von Berlin. Bei Zugverspätung oder Zugausfall gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr: Ab 60 Minuten Verspätung kommt eine Entschädigung, in bestimmten Fällen auch eine Fahrpreiserstattung, in Betracht. Der Sitz des Kundenservice befindet sich in Berlin. Ansprüche lassen sich bei der NEB nach den gesetzlichen Vorgaben des Nahverkehrs geltend machen.</p><!--opt-->"
+    "infobox": "<p>Die NEB (Niederbarnimer Eisenbahn) ist ein regionales Bahnunternehmen im Raum Berlin-Brandenburg und bedient vor allem Linien im VBB-Netz sowie im Umland von Berlin. Bei Zugverspätung oder Zugausfall gelten die EU-Fahrgastrechte nach der EU-Verordnung über die Rechte der Fahrgäste im Eisenbahnverkehr: Ab 60 Minuten Verspätung kommt eine Entschädigung, in bestimmten Fällen auch eine Fahrpreiserstattung, in Betracht. Der Sitz des Kundenservice befindet sich in Berlin. Ansprüche lassen sich bei der NEB nach den gesetzlichen Vorgaben des Nahverkehrs geltend machen.</p><!--opt-->",
+    "portal_url":"https://www.neb.de/kontakt/"
   }
 ]

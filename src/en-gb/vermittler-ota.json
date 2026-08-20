@@ -3,84 +3,98 @@
     "name": "Opodo",
     "slug": "opodo",
     "adresse": "Vacaciones eDreams, S.L.\nCalle de López de Hoyos 35\n28002 Madrid\nSpain",
-    "infobox": "<p>Opodo is a booking platform (OTA) and not the operating airline. Regarding ticket cancellations and the refund of taxes and fees: claims for unused flight tickets often concern the airline, but in practice, OTAs frequently refer you to the airline—and vice versa. Legally, Opodo is not permitted to charge excessive administration fees merely for forwarding or processing a refund. The legal headquarters of Opodo are in Madrid, Spain. Anyone claiming a refund should carefully check deadlines, booking documents, and the agent's role to avoid unnecessary delays.</p><!--opt-->"
+    "infobox": "<p>Opodo is a booking platform (OTA) and not the operating airline. Regarding ticket cancellations and the refund of taxes and fees: claims for unused flight tickets often concern the airline, but in practice, OTAs frequently refer you to the airline—and vice versa. Legally, Opodo is not permitted to charge excessive administration fees merely for forwarding or processing a refund. The legal headquarters of Opodo are in Madrid, Spain. Anyone claiming a refund should carefully check deadlines, booking documents, and the agent's role to avoid unnecessary delays.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "eDreams",
     "slug": "edreams",
     "adresse": "Vacaciones eDreams, S.L.\nCalle de López de Hoyos 35\n28002 Madrid\nSpain",
-    "infobox": "<p>eDreams is an Online Travel Agency (OTA) and not the operating airline. For ticket cancellations and the refund of taxes and fees, it is crucial to determine who sold the flight and who received the payment. In practice, OTAs and airlines often pass the buck to each other. Legally: if eDreams has received a refund from the airline, it must be forwarded to the customer without undue delay. Excessive administration fees cannot be charged for the mere refund process. The legal headquarters of eDreams are in Madrid, Spain.</p><!--opt-->"
+    "infobox": "<p>eDreams is an Online Travel Agency (OTA) and not the operating airline. For ticket cancellations and the refund of taxes and fees, it is crucial to determine who sold the flight and who received the payment. In practice, OTAs and airlines often pass the buck to each other. Legally: if eDreams has received a refund from the airline, it must be forwarded to the customer without undue delay. Excessive administration fees cannot be charged for the mere refund process. The legal headquarters of eDreams are in Madrid, Spain.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "Kiwi.com",
     "slug": "kiwi-com",
     "adresse": "Kiwi.com s.r.o.\nPalachovo náměstí 797/4\n625 00 Brno\nCzech Republic",
-    "infobox": "<p>Kiwi.com is a booking platform (OTA) and not the operating airline. When cancelling a ticket and requesting a refund of taxes and fees, disputes over responsibility frequently arise: the OTA often points to the airline, while the airline points back to the agent. Legally, excessive processing fees must not be charged for merely refunding refundable taxes and fees. Kiwi.com's legal headquarters are in Brno, Czech Republic. Always check who actually operated the flight and what refund rules apply in the booking contract.</p><!--opt-->"
+    "infobox": "<p>Kiwi.com is a booking platform (OTA) and not the operating airline. When cancelling a ticket and requesting a refund of taxes and fees, disputes over responsibility frequently arise: the OTA often points to the airline, while the airline points back to the agent. Legally, excessive processing fees must not be charged for merely refunding refundable taxes and fees. Kiwi.com's legal headquarters are in Brno, Czech Republic. Always check who actually operated the flight and what refund rules apply in the booking contract.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "Booking.com Flights",
     "slug": "booking-flights",
     "adresse": "Booking.com B.V.\nOosterdokskade 163\n1011 DL Amsterdam\nNetherlands",
-    "infobox": "<p>Booking.com Flights acts as a booking platform (OTA) and not the operating airline. When it comes to ticket cancellations and the refund of unused taxes and fees, online travel agents often refer customers to the airline, which in turn refers them back to the OTA. Legally speaking, disproportionate admin fees cannot be charged for the refund process alone. The legal headquarters of Booking.com Flights are in Amsterdam, Netherlands. When claiming a refund, you should carefully check fare conditions and responsibilities to strictly enforce your claims for taxes and fees.</p><!--opt-->"
+    "infobox": "<p>Booking.com Flights acts as a booking platform (OTA) and not the operating airline. When it comes to ticket cancellations and the refund of unused taxes and fees, online travel agents often refer customers to the airline, which in turn refers them back to the OTA. Legally speaking, disproportionate admin fees cannot be charged for the refund process alone. The legal headquarters of Booking.com Flights are in Amsterdam, Netherlands. When claiming a refund, you should carefully check fare conditions and responsibilities to strictly enforce your claims for taxes and fees.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "Expedia Flights",
     "slug": "expedia",
     "adresse": "Expedia Group\nAngel Building, 407 St John Street\nLondon, EC1V 4EX\nUnited Kingdom",
-    "infobox": "<p>Expedia is an Online Travel Agency (OTA) and not the operating airline. When booking a flight only, the contract of carriage is usually made directly with the airline. For ticket cancellations and the refund of taxes and fees, OTAs and airlines often pass the responsibility back and forth. Legally, the OTA is not allowed to charge excessive administration fees solely for processing a refund. The UK operations are legally overseen from London. Claims should be carefully reviewed and directed to the correct contractual partner.</p><!--opt-->"
+    "infobox": "<p>Expedia is an Online Travel Agency (OTA) and not the operating airline. When booking a flight only, the contract of carriage is usually made directly with the airline. For ticket cancellations and the refund of taxes and fees, OTAs and airlines often pass the responsibility back and forth. Legally, the OTA is not allowed to charge excessive administration fees solely for processing a refund. The UK operations are legally overseen from London. Claims should be carefully reviewed and directed to the correct contractual partner.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "TravelUp",
     "slug": "travelup",
     "adresse": "Travel Up Ltd\n10th Floor, The Oriel\nSlough, Berkshire, SL1 1XW\nUnited Kingdom",
-    "infobox": "<p>TravelUp is a booking platform (OTA) and not the operating airline. Regarding ticket cancellations and the refund of aviation taxes and fees: OTAs and airlines frequently refer customers to one another. However, legally, any refund actually received must be passed on to the customer without unlawful delay. Excessive admin fees must not be demanded for the refund process alone. TravelUp's legal headquarters are based in Slough, United Kingdom.</p><!--opt-->"
+    "infobox": "<p>TravelUp is a booking platform (OTA) and not the operating airline. Regarding ticket cancellations and the refund of aviation taxes and fees: OTAs and airlines frequently refer customers to one another. However, legally, any refund actually received must be passed on to the customer without unlawful delay. Excessive admin fees must not be demanded for the refund process alone. TravelUp's legal headquarters are based in Slough, United Kingdom.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "Trip.com Flights",
     "slug": "trip-com",
     "adresse": "Trip.com Travel Singapore Pte. Ltd.\nUK Branch: 1st Floor, 11-15 William Road\nLondon, NW1 3ER\nUnited Kingdom",
-    "infobox": "<p>Trip.com is a booking platform (OTA) and not the operating airline. For ticket cancellations or the refund of taxes and fees, OTAs and airlines frequently pass the responsibility to each other. Legally speaking, agents are not permitted to charge excessive admin fees just for processing a refund. Depending on the booking and ticket type, the airline or Trip.com may be the contractual partner. Therefore, it is important to carefully check your documents, booking confirmation, and cancellation request.</p><!--opt-->"
+    "infobox": "<p>Trip.com is a booking platform (OTA) and not the operating airline. For ticket cancellations or the refund of taxes and fees, OTAs and airlines frequently pass the responsibility to each other. Legally speaking, agents are not permitted to charge excessive admin fees just for processing a refund. Depending on the booking and ticket type, the airline or Trip.com may be the contractual partner. Therefore, it is important to carefully check your documents, booking confirmation, and cancellation request.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "Gotogate",
     "slug": "gotogate",
     "adresse": "Etraveli Group AB\nBox 1340\n751 43 Uppsala\nSweden",
-    "infobox": "<p>Gotogate is a booking platform (OTA) and not the operating airline. This is crucial for ticket cancellations and the refund of taxes and fees, as OTAs and airlines often refer back to each other. Legally, however, refunds must generally be assessed according to applicable passenger rights. The OTA may not charge excessive processing fees for the mere administration of a refund. Gotogate is operated by the Etraveli Group, with its legal headquarters in Sweden.</p><!--opt-->"
+    "infobox": "<p>Gotogate is a booking platform (OTA) and not the operating airline. This is crucial for ticket cancellations and the refund of taxes and fees, as OTAs and airlines often refer back to each other. Legally, however, refunds must generally be assessed according to applicable passenger rights. The OTA may not charge excessive processing fees for the mere administration of a refund. Gotogate is operated by the Etraveli Group, with its legal headquarters in Sweden.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "Mytrip",
     "slug": "mytrip",
     "adresse": "Etraveli Group AB\nBox 1340\n751 43 Uppsala\nSweden",
-    "infobox": "<p>Mytrip is a booking platform (OTA) and not the operating airline. The brand's legal headquarters lie in Sweden under the Etraveli Group. For ticket cancellations and refunds of taxes and fees, it is common for the OTA and the airline to redirect you to one another. Legally, the refund for already collected flight taxes and unused fees must be correctly processed and forwarded. Mytrip is not permitted to demand excessive admin fees for this refund process. Consumers should thoroughly document deadlines, responsibilities, and payment methods.</p><!--opt-->"
+    "infobox": "<p>Mytrip is a booking platform (OTA) and not the operating airline. The brand's legal headquarters lie in Sweden under the Etraveli Group. For ticket cancellations and refunds of taxes and fees, it is common for the OTA and the airline to redirect you to one another. Legally, the refund for already collected flight taxes and unused fees must be correctly processed and forwarded. Mytrip is not permitted to demand excessive admin fees for this refund process. Consumers should thoroughly document deadlines, responsibilities, and payment methods.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "Southall Travel",
     "slug": "southall-travel",
     "adresse": "Southall Travel Limited\nPalumbo House, 111 Boundary Road\nSt John's Wood, London, NW8 0RH\nUnited Kingdom",
-    "infobox": "<p>Southall Travel is a booking platform (OTA) and not the operating airline. To cancel a ticket and claim a refund of taxes and fees, you must legally determine who your contractual partner is: online travel agents often refer you to the airline, while the airline points back to the OTA. However, OTAs may not charge excessive processing fees for the refund procedure itself. Southall Travel's legal headquarters are located in London. Clear identification of claims is essential to efficiently enforce your refund.</p><!--opt-->"
+    "infobox": "<p>Southall Travel is a booking platform (OTA) and not the operating airline. To cancel a ticket and claim a refund of taxes and fees, you must legally determine who your contractual partner is: online travel agents often refer you to the airline, while the airline points back to the OTA. However, OTAs may not charge excessive processing fees for the refund procedure itself. Southall Travel's legal headquarters are located in London. Clear identification of claims is essential to efficiently enforce your refund.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "lastminute.com Flights",
     "slug": "lastminute-com",
     "adresse": "BravoNext S.A.\nVicolo de’ Calvi 2\n6830 Chiasso\nSwitzerland",
-    "infobox": "<p>lastminute.com acts as an online travel agency (OTA) and booking platform; it is not the operating airline but acts as an intermediary. For ticket cancellations and the refund of taxes and fees, the buck is often passed: the airline points to the OTA, and the OTA to the airline. Legally, excessive admin fees cannot be charged for the refund process if only previously paid taxes and unused fees are being returned. The legal headquarters of the operator, BravoNext S.A., are in Chiasso, Switzerland.</p><!--opt-->"
+    "infobox": "<p>lastminute.com acts as an online travel agency (OTA) and booking platform; it is not the operating airline but acts as an intermediary. For ticket cancellations and the refund of taxes and fees, the buck is often passed: the airline points to the OTA, and the OTA to the airline. Legally, excessive admin fees cannot be charged for the refund process if only previously paid taxes and unused fees are being returned. The legal headquarters of the operator, BravoNext S.A., are in Chiasso, Switzerland.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "Alternative Airlines",
     "slug": "alternative-airlines",
     "adresse": "Alternative Airlines Ltd\nSuite 9, Gatwick House, Peeks Brook Lane\nHorley, Surrey, RH6 9ST\nUnited Kingdom",
-    "infobox": "<p>Alternative Airlines is a booking platform (OTA) and not the operating airline. Regarding ticket cancellations and the refund of taxes and fees, OTAs and airlines frequently refer back and forth to each other. Legally, the OTA must not charge unreasonably high admin fees solely for forwarding and processing a refund. What matters is that your claims are correctly assessed, forwarded to the appropriate department, and any refunds are transparently paid out to you. The legal headquarters are in Surrey, United Kingdom.</p><!--opt-->"
+    "infobox": "<p>Alternative Airlines is a booking platform (OTA) and not the operating airline. Regarding ticket cancellations and the refund of taxes and fees, OTAs and airlines frequently refer back and forth to each other. Legally, the OTA must not charge unreasonably high admin fees solely for forwarding and processing a refund. What matters is that your claims are correctly assessed, forwarded to the appropriate department, and any refunds are transparently paid out to you. The legal headquarters are in Surrey, United Kingdom.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "Travel Trolley",
     "slug": "travel-trolley",
     "adresse": "Southall Travel Limited (trading as Travel Trolley)\nPalumbo House, 111 Boundary Road\nLondon, NW8 0RH\nUnited Kingdom",
-    "infobox": "<p>Travel Trolley is a booking platform (OTA) and not the operating airline. For ticket cancellations and the refund of taxes and fees, the legal responsibility generally lies with the carrier (the airline). However, in practice, OTAs often refer you to the airline, which in turn refers you back to the travel portal. Excessive admin fees may not be charged for the refund process itself. The legal headquarters are in London. Always verify who your contractual partner is and whether you are entitled to a refund of taxes and unused fees.</p><!--opt-->"
+    "infobox": "<p>Travel Trolley is a booking platform (OTA) and not the operating airline. For ticket cancellations and the refund of taxes and fees, the legal responsibility generally lies with the carrier (the airline). However, in practice, OTAs often refer you to the airline, which in turn refers you back to the travel portal. Excessive admin fees may not be charged for the refund process itself. The legal headquarters are in London. Always verify who your contractual partner is and whether you are entitled to a refund of taxes and unused fees.</p><!--opt-->",
+    "portal_url":"#"
   },
   {
     "name": "Other Flight Portal (General Template)",
     "slug": "general",
     "adresse": "[Name of the Flight Portal]\n[e.g., Customer Service / Refunds]\n[Street and House Number]\n[Postcode and City]\nUnited Kingdom",
-    "infobox": "<p>This flight portal is a booking platform or OTA, not the operating airline. For ticket cancellations and the refund of taxes and fees: OTAs frequently refer refund requests to the airline, while airlines point to the portal. Legally, however, it is crucial that the refund process is not hindered by disproportionate admin fees. The operating airline generally remains responsible; the OTA must process and forward applications correctly. Please check the legal headquarters in the provider's imprint.</p><!--opt-->"
+    "infobox": "<p>This flight portal is a booking platform or OTA, not the operating airline. For ticket cancellations and the refund of taxes and fees: OTAs frequently refer refund requests to the airline, while airlines point to the portal. Legally, however, it is crucial that the refund process is not hindered by disproportionate admin fees. The operating airline generally remains responsible; the OTA must process and forward applications correctly. Please check the legal headquarters in the provider's imprint.</p><!--opt-->",
+    "portal_url":"#"
   }
 ]

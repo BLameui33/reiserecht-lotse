@@ -1,68 +1,79 @@
 [
-{
-"slug": "carnival-cruise-line",
-"name": "Carnival Cruise Line",
-"adresse": "Guest Care\n3655 NW 87th Ave\nMiami, FL 33178\nUSA",
-"infobox": "Carnival Cruise Line is America's most popular cruise brand, famous for its 'Fun Ships' sailing extensively to the Caribbean, Bahamas, Mexico, and Alaska. If you experience service issues, cabin defects, or itinerary changes, your rights are governed by the Cruise Ticket Contract. Under US maritime guidelines, passengers must report complaints directly to Guest Care, typically within a strict timeframe of 14 to 30 days post-cruise. Federal Maritime Commission (FMC) regulations also protect consumers regarding non-performance or cancellation refunds."
-},
-{
-"slug": "royal-caribbean",
-"name": "Royal Caribbean International",
-"adresse": "Guest Relations\n1050 Caribbean Way\nMiami, FL 33132\nUSA",
-"infobox": "Royal Caribbean International is a major US cruise line known for massive, innovative ships operating primarily in the Caribbean, Alaska, Europe, and Asia. When dealing with travel defects, route changes, or cabin issues, the Cruise Ticket Contract dictates the terms. Passenger claims in the US are subject to specific notification windows and mandatory arbitration clauses. Ensure all issues are documented onboard and submitted to Guest Relations promptly to protect your right to compensation or refunds."
-},
-{
-"slug": "ncl-norwegian-cruise-line",
-"name": "Norwegian Cruise Line (NCL)",
-"adresse": "Guest Services / Passenger Relations\n7665 Corporate Center Drive\nMiami, FL 33126\nUSA",
-"infobox": "Norwegian Cruise Line (NCL) pioneered 'Freestyle Cruising,' offering flexible dining and entertainment on routes to the Caribbean, Alaska, Hawaii, and Europe. In the event of service failures, missed ports, or cabin issues, US passengers must refer to NCL's Guest Ticket Contract. Most claims require written notice within 30 days of the cruise ending. For severe issues, maritime law and contract terms typically require resolving disputes in specific Florida jurisdictions or through arbitration."
-},
-{
-"slug": "disney-cruise-line",
-"name": "Disney Cruise Line",
-"adresse": "Guest Communications\nP.O. Box 10238\nLake Buena Vista, FL 32830-0238\nUSA",
-"infobox": "Disney Cruise Line is a premier family-focused cruise operator, sailing primarily to the Caribbean, Bahamas, Alaska, and Europe. For complaints regarding service discrepancies, missed ports, or lost luggage, passengers are bound by the Cruise Contract terms. Complaints must be filed in writing to Disney Guest Communications within the designated contractual deadline (usually 30 days after cruise completion). US maritime standards and arbitration terms apply to unresolved disputes."
-},
-{
-"slug": "celebrity-cruises",
-"name": "Celebrity Cruises",
-"adresse": "Guest Relations\n1050 Caribbean Way\nMiami, FL 33132\nUSA",
-"infobox": "Celebrity Cruises offers premium, modern luxury cruises with highly rated dining and design, sailing to the Caribbean, Alaska, Europe, and the Galápagos. For service complaints, itinerary alterations, or onboard grievances, passenger rights are defined by the Celebrity Cruises Guest Ticket Contract. Written notices of non-injury claims must typically be submitted to Guest Relations within 30 days of disembarkation. Be sure to document any issues with onboard staff to support your case."
-},
-{
-"slug": "princess-cruises",
-"name": "Princess Cruises",
-"adresse": "Passenger Relations\n24305 Town Center Drive\nSanta Clarita, CA 91355\nUSA",
-"infobox": "Princess Cruises is a leading premium brand globally recognized for its extensive Alaska, Caribbean, European, and Panama Canal itineraries. If you experience boarding delays, missed ports, or sub-standard cabin conditions, your rights are detailed in the Passage Contract. US passengers must submit service complaints in writing to Passenger Relations within 30 days of cruise termination. Unresolved claims may be subject to class-action waivers and specific venue requirements in California."
-},
-{
-"slug": "holland-america-line",
-"name": "Holland America Line",
-"adresse": "Guest Relations\n450 Third Ave. W.\nSeattle, WA 98119\nUSA",
-"infobox": "Holland America Line provides a classic, premium cruising experience with popular mid-sized ships sailing to Alaska, Europe, the Caribbean, and global destinations. If you encounter service issues, mechanical failures, or itinerary deviations, your claims are governed by the Cruise Contract. Written notification of any non-personal injury claim must be sent to Guest Relations in Seattle within 30 days of the cruise's end. Ensure you obtain written documentation of any onboard complaints."
-},
-{
-"slug": "msc-kreuzfahrten",
-"name": "MSC Cruises (USA)",
-"adresse": "MSC Cruises (USA) Inc.\nGuest Relations\n1000 Corporate Drive, Suite 300\nFort Lauderdale, FL 33334\nUSA",
-"infobox": "MSC Cruises is a rapidly expanding global cruise line with a major presence in the US, sailing from Miami, Port Canaveral, and New York to the Caribbean and Bahamas. US passengers' rights for service failures, canceled excursions, or cabin defects are outlined in the MSC Cruise Ticket Contract. Non-injury claims must be submitted to Guest Relations in Florida within 30 days of the cruise. Specific consumer protection policies and arbitration rules apply under US jurisdiction."
-},
-{
-"slug": "virgin-voyages",
-"name": "Virgin Voyages",
-"adresse": "Sailor Services\n1000 S. Pine Island Road, Suite 600\nPlantation, FL 33324\nUSA",
-"infobox": "Virgin Voyages is a modern, adults-only cruise line known for its boutique hotel-style ships sailing the Caribbean, Europe, and transatlantic routes. If you encounter issues with dining, cabin amenities, or port cancellations, your options are governed by the Ticket Contract. US passengers must submit written service complaints within 30 days of disembarkation. Documenting issues onboard and securing digital receipts or statements from the Sailor Services crew is highly recommended."
-},
-{
-"slug": "viking-kreuzfahrten",
-"name": "Viking Cruises",
-"adresse": "Guest Relations\n5700 Canoga Ave, Suite 200\nWoodland Hills, CA 91367\nUSA",
-"infobox": "Viking Cruises is a premier provider of destination-focused river and ocean cruises highly popular with US travelers sailing in Europe, the Americas, and Egypt. Due to changing water levels or weather, itinerary changes and missed ports can occur. While the Passenger Ticket Contract limits liability for these variations, substantial service defects may entitle you to future cruise credits or refunds. Non-injury claims must be submitted to Viking Guest Relations within 30 days of your cruise ending."
-},
-{
-"slug": "allgemein",
-"name": "Other Cruise Line (General Template)",
-"adresse": "[Name of the Cruise Line]\n[e.g. Guest Relations Department]\n[Street Address]\n[City, State, Zip Code]\nUSA",
-"infobox": "This general template covers classic ocean and river cruise lines catering to US travelers on domestic and international itineraries. For service issues, cabin defects, or unexpected port cancellations, passenger rights are primarily determined by the cruise line's specific Ticket Contract. US passengers should document all complaints while onboard and submit a written claim to the cruise line's Guest Relations department within 30 days of disembarkation. If unresolved, complaints can also be flagged to the Federal Maritime Commission (FMC) for non-performance or refund issues."
-}
+  {
+    "slug": "carnival-cruise-line",
+    "name": "Carnival Cruise Line",
+    "adresse": "Guest Care\n3655 NW 87th Ave\nMiami, FL 33178\nUSA",
+    "infobox": "Carnival Cruise Line is America's most popular cruise brand, famous for its 'Fun Ships' sailing extensively to the Caribbean, Bahamas, Mexico, and Alaska. If you experience service issues, cabin defects, or itinerary changes, your rights are governed by the Cruise Ticket Contract. Under US maritime guidelines, passengers must report complaints directly to Guest Care, typically within a strict timeframe of 14 to 30 days post-cruise. Federal Maritime Commission (FMC) regulations also protect consumers regarding non-performance or cancellation refunds.",
+    "portal_url": "https://www.carnival.com/about-carnival/contact-us"
+  },
+  {
+    "slug": "royal-caribbean",
+    "name": "Royal Caribbean International",
+    "adresse": "Guest Relations\n1050 Caribbean Way\nMiami, FL 33132\nUSA",
+    "infobox": "Royal Caribbean International is a major US cruise line known for massive, innovative ships operating primarily in the Caribbean, Alaska, Europe, and Asia. When dealing with travel defects, route changes, or cabin issues, the Cruise Ticket Contract dictates the terms. Passenger claims in the US are subject to specific notification windows and mandatory arbitration clauses. Ensure all issues are documented onboard and submitted to Guest Relations promptly to protect your right to compensation or refunds.",
+    "portal_url": "https://www.royalcaribbean.com/resources/contact-us"
+  },
+  {
+    "slug": "ncl-norwegian-cruise-line",
+    "name": "Norwegian Cruise Line (NCL)",
+    "adresse": "Guest Services / Passenger Relations\n7665 Corporate Center Drive\nMiami, FL 33126\nUSA",
+    "infobox": "Norwegian Cruise Line (NCL) pioneered 'Freestyle Cruising,' offering flexible dining and entertainment on routes to the Caribbean, Alaska, Hawaii, and Europe. In the event of service failures, missed ports, or cabin issues, US passengers must refer to NCL's Guest Ticket Contract. Most claims require written notice within 30 days of the cruise ending. For severe issues, maritime law and contract terms typically require resolving disputes in specific Florida jurisdictions or through arbitration.",
+    "portal_url": "https://www.ncl.com/case-submission"
+  },
+  {
+    "slug": "disney-cruise-line",
+    "name": "Disney Cruise Line",
+    "adresse": "Guest Communications\nP.O. Box 10238\nLake Buena Vista, FL 32830-0238\nUSA",
+    "infobox": "Disney Cruise Line is a premier family-focused cruise operator, sailing primarily to the Caribbean, Bahamas, Alaska, and Europe. For complaints regarding service discrepancies, missed ports, or lost luggage, passengers are bound by the Cruise Contract terms. Complaints must be filed in writing to Disney Guest Communications within the designated contractual deadline (usually 30 days after cruise completion). US maritime standards and arbitration terms apply to unresolved disputes.",
+    "portal_url": "https://disneycruise.disney.go.com/en-eu/help/email/"
+  },
+  {
+    "slug": "celebrity-cruises",
+    "name": "Celebrity Cruises",
+    "adresse": "Guest Relations\n1050 Caribbean Way\nMiami, FL 33132\nUSA",
+    "infobox": "Celebrity Cruises offers premium, modern luxury cruises with highly rated dining and design, sailing to the Caribbean, Alaska, Europe, and the Galápagos. For service complaints, itinerary alterations, or onboard grievances, passenger rights are defined by the Celebrity Cruises Guest Ticket Contract. Written notices of non-injury claims must typically be submitted to Guest Relations within 30 days of disembarkation. Be sure to document any issues with onboard staff to support your case.",
+    "portal_url": "https://www.celebritycruises.com/int/company/customer-support/contact-us"
+  },
+  {
+    "slug": "princess-cruises",
+    "name": "Princess Cruises",
+    "adresse": "Passenger Relations\n24305 Town Center Drive\nSanta Clarita, CA 91355\nUSA",
+    "infobox": "Princess Cruises is a leading premium brand globally recognized for its extensive Alaska, Caribbean, European, and Panama Canal itineraries. If you experience boarding delays, missed ports, or sub-standard cabin conditions, your rights are detailed in the Passage Contract. US passengers must submit service complaints in writing to Passenger Relations within 30 days of cruise termination. Unresolved claims may be subject to class-action waivers and specific venue requirements in California.",
+    "portal_url": "https://book.princess.com/captaincircle/customerCare.page"
+  },
+  {
+    "slug": "holland-america-line",
+    "name": "Holland America Line",
+    "adresse": "Guest Relations\n450 Third Ave. W.\nSeattle, WA 98119\nUSA",
+    "infobox": "Holland America Line provides a classic, premium cruising experience with popular mid-sized ships sailing to Alaska, Europe, the Caribbean, and global destinations. If you encounter service issues, mechanical failures, or itinerary deviations, your claims are governed by the Cruise Contract. Written notification of any non-personal injury claim must be sent to Guest Relations in Seattle within 30 days of the cruise's end. Ensure you obtain written documentation of any onboard complaints.",
+    "portal_url": "https://www.hollandamerica.com/en/about/contact-us"
+  },
+  {
+    "slug": "msc-kreuzfahrten",
+    "name": "MSC Cruises (USA)",
+    "adresse": "MSC Cruises (USA) Inc.\nGuest Relations\n1000 Corporate Drive, Suite 300\nFort Lauderdale, FL 33334\nUSA",
+    "infobox": "MSC Cruises is a rapidly expanding global cruise line with a major presence in the US, sailing from Miami, Port Canaveral, and New York to the Caribbean and Bahamas. US passengers' rights for service failures, canceled excursions, or cabin defects are outlined in the MSC Cruise Ticket Contract. Non-injury claims must be submitted to Guest Relations in Florida within 30 days of the cruise. Specific consumer protection policies and arbitration rules apply under US jurisdiction.",
+    "portal_url": "https://www.msccruisesusa.com/forms/contact-us"
+  },
+  {
+    "slug": "virgin-voyages",
+    "name": "Virgin Voyages",
+    "adresse": "Sailor Services\n1000 S. Pine Island Road, Suite 600\nPlantation, FL 33324\nUSA",
+    "infobox": "Virgin Voyages is a modern, adults-only cruise line known for its boutique hotel-style ships sailing the Caribbean, Europe, and transatlantic routes. If you encounter issues with dining, cabin amenities, or port cancellations, your options are governed by the Ticket Contract. US passengers must submit written service complaints within 30 days of disembarkation. Documenting issues onboard and securing digital receipts or statements from the Sailor Services crew is highly recommended.",
+    "portal_url": "https://help.virginvoyages.com/helpportal/s/contactus"
+  },
+  {
+    "slug": "viking-kreuzfahrten",
+    "name": "Viking Cruises",
+    "adresse": "Guest Relations\n5700 Canoga Ave, Suite 200\nWoodland Hills, CA 91367\nUSA",
+    "infobox": "Viking Cruises is a premier provider of destination-focused river and ocean cruises highly popular with US travelers sailing in Europe, the Americas, and Egypt. Due to changing water levels or weather, itinerary changes and missed ports can occur. While the Passenger Ticket Contract limits liability for these variations, substantial service defects may entitle you to future cruise credits or refunds. Non-injury claims must be submitted to Viking Guest Relations within 30 days of your cruise ending.",
+    "portal_url": "https://www.vikingcruises.com/contact-us"
+  },
+  {
+    "slug": "allgemein",
+    "name": "Other Cruise Line (General Template)",
+    "adresse": "[Name of the Cruise Line]\n[e.g. Guest Relations Department]\n[Street Address]\n[City, State, Zip Code]\nUSA",
+    "infobox": "This general template covers classic ocean and river cruise lines catering to US travelers on domestic and international itineraries. For service issues, cabin defects, or unexpected port cancellations, passenger rights are primarily determined by the cruise line's specific Ticket Contract. US passengers should document all complaints while onboard and submit a written claim to the cruise line's Guest Relations department within 30 days of disembarkation. If unresolved, complaints can also be flagged to the Federal Maritime Commission (FMC) for non-performance or refund issues.",
+    "portal_url": "#"
+  }
 ]

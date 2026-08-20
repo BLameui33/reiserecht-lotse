@@ -2,36 +2,43 @@
     {
         "name": "Cancellation by Host",
         "slug": "gastgeber-storniert-kurzfristig",
+        "portal_url": "https://www.airbnb.com/help/article/3996",
         "beschreibung": "Did your host cancel your booking at the last minute, leaving you without a place to stay? We'll help you claim a full refund and, if applicable, compensation for the extra cost of a replacement hotel."
     },
     {
         "name": "Mold, Dirt & Pests",
         "slug": "dreck-schimmel-ungeziefer",
+        "portal_url": "https://www.airbnb.com/help/article/3996",
         "beschreibung": "Mold in the bathroom, roaches in the kitchen, or just plain dirty bedding? You don't have to put up with hygiene issues like these. Document everything for your AirCover reimbursement."
     },
     {
         "name": "False Listings & Fake Photos",
         "slug": "falsche-angaben-fake-fotos",
+        "portal_url": "https://www.airbnb.com/help/article/3996",
         "beschreibung": "Did the \"luxury villa\" turn out to be a basement apartment, or were the listing photos completely outdated? If the property doesn't match the description, you're entitled to a significant price reduction."
     },
     {
         "name": "Missing Amenities (Wi-Fi, Pool, A/C)",
         "slug": "ausstattung-fehlt-defekt",
+        "portal_url": "https://www.airbnb.com/help/article/3996",
         "beschreibung": "No Wi-Fi despite your work-from-home plans, or the advertised pool turned out green and unusable? Missing amenities that were promised in the listing entitle you to a reduced rental price."
     },
     {
         "name": "Security Deposit Wrongfully Withheld",
         "slug": "kaution-unrechtmaessig-einbehalten",
+        "portal_url": "https://www.airbnb.com/help/article/3996",
         "beschreibung": "Is the host claiming damages after checkout that you didn't cause, and withholding your deposit? Fight back against unjustified claims and get your money back."
     },
     {
         "name": "AirCover Claim Denied",
         "slug": "aircover-abgelehnt-geld-zurueck",
+        "portal_url": "https://www.airbnb.com/help/article/3996",
         "beschreibung": "Did Airbnb close your case or deny your refund even though the problem was obvious? Turn up the pressure with an official legal letter to the legal department."
     },
     {
         "name": "General Airbnb Issue",
         "slug": "allgemein",
+        "portal_url": "https://www.airbnb.com/help/article/3996",
         "beschreibung": "Don't see your specific issue listed above? No problem. Use this general form to file a legally sound complaint about any Airbnb issue."
     }
 ]
