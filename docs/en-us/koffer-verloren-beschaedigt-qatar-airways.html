@@ -104,7 +104,7 @@
   <p>Are you standing at the baggage carousel, but your suitcase never shows up? Or did you receive your belongings back with torn handles and cracked shells? Under US DOT regulations and international aviation law, the airline is liable. However, you must act immediately: There are extremely strict and short reporting deadlines for luggage issues. Use our free generator to create a claim letter to <strong>Qatar Airways</strong> now.</p>
 
   <div class="info-box danger">
-    <strong>Warning, strict legal deadlines!</strong> You must send this letter in time, otherwise your legal claim will be completely forfeited: For baggage damage, you only have <strong>7 days</strong> to file a claim. For delays (and reimbursement of emergency purchases made on vacation), you have exactly <strong>21 days</strong> from the day the luggage was handed back to you.
+    <strong> Deadlines vary by route!</strong>  For international flights (Montreal Convention), you have exactly <strong>7 days</strong> to report damage and </strong>21 days</strong> for delays/loss. For US domestic flights, airlines often require you to report physical damage within </strong>24 hours</strong>, and a bag is usually declared lost after </strong>5 to 14 days</strong>. Act immediately!
   </div>
 
   <div class="info-box blue">
@@ -189,7 +189,7 @@ Qatar</textarea>
       <select id="gArt" required>
         <option value="DELAY">Baggage was delayed (Reimburse emergency purchases)</option>
         <option value="DAMAGE">Baggage was damaged (Suitcase / Contents)</option>
-        <option value="LOST">Baggage has been missing for over 21 days (Total Loss)</option>
+        <option value="LOST">Baggage is permanently missing / declared lost (Total Loss)</option>
       </select>
 
       <label>Total Claim Amount in USD (Total value of expenses / damages):</label>
@@ -230,13 +230,13 @@ Qatar</textarea>
   <!-- Umfassender SEO Content Bereich -->
   <div class="seo-content">
     <h2>Lost or Damaged Luggage: Your Rights Under DOT Rules & the Montreal Convention</h2>
-    <p>Depending on your travel route, your baggage rights are protected by two powerful legal frameworks. For <strong>domestic flights</strong> within the United States, the U.S. Department of Transportation (DOT) strictly mandates under Title 14 CFR Part 254 that airlines like <strong>Qatar Airways</strong> are liable for verifiable baggage loss, delay, or damage up to <strong>$4,700 per passenger</strong>. For <strong>international flights</strong>, the Montreal Convention applies, capping liability at roughly 1,519 Special Drawing Rights (SDR), which equates to about <strong>$1,800 per passenger</strong>. Regardless of the route, airlines are strictly liable for the mishandling of checked baggage.</p>
+    <p>Depending on your travel route, your baggage rights are protected by two powerful legal frameworks. For <strong>domestic flights</strong> within the United States, the U.S. Department of Transportation (DOT) strictly mandates under Title 14 CFR Part 254 that airlines like <strong>Qatar Airways</strong> are liable for verifiable baggage loss, delay, or damage up to <strong>$4,700 per passenger</strong>. For <strong>international flights</strong>, the Montreal Convention applies, capping liability at roughly 1,519 Special Drawing Rights (SDR), which equates to about <strong>$2,180 per passenger</strong>. Regardless of the route, airlines are strictly liable for the mishandling of checked baggage.</p>
 
     <h3>Delayed Baggage: What qualifies as an "incidental expense"?</h3>
     <p>If you arrive at your vacation destination and your suitcase is missing, you are permitted to purchase essential items at the expense of Qatar Airways (referred to as incidental expenses). The main legal principle here is the <em>duty to mitigate damages</em>. This means you cannot go on a luxury shopping spree. Reimbursements cover items absolutely necessary for the purpose of your trip. This includes toiletries (toothbrush, shampoo), underwear, and appropriate clothing (e.g., a replacement suit for an urgent business meeting or a swimsuit for a beach vacation). Keep all receipts safe and claim the expenses back using our template.</p>
 
     <h3>Total Loss: When the suitcase is gone forever</h3>
-    <p>If your luggage does not turn up even after an intensive search, it is legally considered lost (total loss) after exactly <strong>21 days</strong>. From day 21, you have the right to claim the full value (accounting for depreciation) of the suitcase and the entire contents from Qatar Airways, up to the maximum liability limit. It is best to create a detailed packing list from memory and attach any old purchase receipts if available.</p>
+    <p>If your luggage does not turn up even after an intensive search, it is legally considered lost after exactly 21 days for international flights (Montreal Convention). However, for US domestic flights, the DOT requires airlines to compensate you once they officially declare the bag lost, which typically happens between 5 and 14 days, depending on the carrier's policy. From day 21 (Montreal Convention), you have the right to claim the full value (accounting for depreciation) of the suitcase and the entire contents from Qatar Airways, up to the maximum liability limit. It is best to create a detailed packing list from memory and attach any old purchase receipts if available.</p>
 
     <!-- FAQ Bereich -->
     <div class="faq-section">
@@ -292,10 +292,10 @@ Qatar</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Discover other related topics:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="koffer-verloren-beschaedigt-korean-air.html">Korean Air Lines Co., Ltd.</a>
-<a href="koffer-verloren-beschaedigt-united-airlines.html">United Airlines, Inc.</a>
-<a href="koffer-verloren-beschaedigt-virgin-atlantic.html">Virgin Atlantic Airways Limited</a>
-<a href="koffer-verloren-beschaedigt-air-france.html">Société Air France</a>
+    <a href="koffer-verloren-beschaedigt-air-canada.html">Air Canada</a>
+<a href="koffer-verloren-beschaedigt-emirates.html">Emirates</a>
+<a href="koffer-verloren-beschaedigt-american-airlines.html">American Airlines, Inc.</a>
+<a href="koffer-verloren-beschaedigt-korean-air.html">Korean Air Lines Co., Ltd.</a>
 <a href="koffer-verloren-beschaedigt-spirit-airlines.html">Spirit Airlines, Inc.</a>
 
   </div>
@@ -566,8 +566,10 @@ if (gArtValue === 'DELAY') {
 } else if (gArtValue === 'DAMAGE') {
     schadensText = `My checked baggage was damaged during transport by ${airline} (Flight: ${fFlug}). The damage was reported immediately at the airport under File Reference / PIR Number ${gPIR}. A detailed breakdown of the damage, as well as photographs, are attached to this letter.`;
 } else if (gArtValue === 'LOST') {
-    schadensText = `My checked baggage was lost during flight ${fFlug}. More than 21 days have passed, and the luggage has not been found despite being reported under File Reference / PIR Number ${gPIR}. It is therefore legally considered permanently lost. A detailed inventory of the contents and their depreciated value is attached to this letter.`;
+    schadensText = `My checked baggage was lost during flight ${fFlug}. The luggage has not been found despite being reported under File Reference / PIR Number ${gPIR} and is now officially considered permanently lost under applicable regulations. A detailed inventory of the contents and their depreciated value is attached to this letter.`;
+
 }
+
 
 let yPos = 135;
 doc.setFontSize(11);
