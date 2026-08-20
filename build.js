@@ -311,7 +311,7 @@ async function buildEngine() {
                     .replace(/\{\{AIRLINE_ADRESSE\}\}/g, inputAdresse)
                     .replace(/\{\{DATEINAME\}\}/g, fName)
                     .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks)
-                    .replace(/\{\{PORTAL_URL\}\}/g, a.Portal_URL || '#')
+                    .replace(/\{\{PORTAL_URL\}\}/g, a.portal_url || '#')
                     .replace(/\{\{AIRLINE_INFOBOX\}\}/g, a.infobox || '');
             };
 
@@ -407,7 +407,7 @@ async function buildEngine() {
                     .replace(/\{\{VERANSTALTER_ADRESSE\}\}/g, inputAdresse)
                     .replace(/\{\{DATEINAME\}\}/g, fName)
                     .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks)
-                    .replace(/\{\{PORTAL_URL\}\}/g, v.Portal_URL || '#')
+                    .replace(/\{\{PORTAL_URL\}\}/g, v.portal_url || '#')
                     .replace(/\{\{VERANSTALTER_INFOBOX\}\}/g, v.infobox || '');
             };
 
@@ -453,7 +453,7 @@ async function buildEngine() {
                     .replace(/\{\{VERMITTLER_ADRESSE\}\}/g, inputAdresse)
                     .replace(/\{\{DATEINAME\}\}/g, fName)
                     .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks)
-                    .replace(/\{\{PORTAL_URL\}\}/g, v.Portal_URL || '#')
+                    .replace(/\{\{PORTAL_URL\}\}/g, v.portal_url || '#')
                     .replace(/\{\{VERMITTLER_INFOBOX\}\}/g, v.infobox || '');
             };
 
@@ -578,7 +578,7 @@ async function buildEngine() {
                     .replace(/\{\{BAHN_ADRESSE\}\}/g, b.adresse)
                     .replace(/\{\{DATEINAME\}\}/g, fBahn)
                     .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossBahn)
-                    .replace(/\{\{PORTAL_URL\}\}/g, b.Portal_URL || '#')
+                    .replace(/\{\{PORTAL_URL\}\}/g, b.portal_url || '#')
                     .replace(/\{\{BAHN_INFOBOX\}\}/g, b.infobox || '');
 
                 content = injectSEO(content, lang, fBahn, 'bahn.json', b.slug, 'bahn');
@@ -628,7 +628,7 @@ async function buildEngine() {
                         .replace(/\{\{VERMITTLER_ADRESSE\}\}/g, inputAdresse)
                         .replace(/\{\{DATEINAME\}\}/g, fName)
                         .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks)
-                        .replace(/\{\{PORTAL_URL\}\}/g, v.Portal_URL || '#')
+                        .replace(/\{\{PORTAL_URL\}\}/g, v.portal_url || '#')
                         .replace(/\{\{VERMITTLER_INFOBOX\}\}/g, v.infobox || '');
                 };
 
@@ -678,7 +678,7 @@ async function buildEngine() {
                     .replace(/\{\{CRUISE_ADRESSE\}\}/g, inputAdresse)
                     .replace(/\{\{DATEINAME\}\}/g, fName)
                     .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossLinks)
-                    .replace(/\{\{PORTAL_URL\}\}/g, c.Portal_URL || '#')
+                    .replace(/\{\{PORTAL_URL\}\}/g, c.portal_url || '#')
                     .replace(/\{\{CRUISE_INFOBOX\}\}/g, c.infobox || '');
             };
 
@@ -728,7 +728,7 @@ async function buildEngine() {
                     .replace(/\{\{ANBIETER_NAME\}\}/g, textName) 
                     .replace(/\{\{DATEINAME\}\}/g, fFileName)
                     .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossFewo)
-                    .replace(/\{\{PORTAL_URL\}\}/g, f.Portal_URL || '#')
+                    .replace(/\{\{PORTAL_URL\}\}/g, f.portal_url || '#')
                     .replace(/\{\{ANBIETER_INFOBOX\}\}/g, f.infobox || '');
 
                 content = injectSEO(content, lang, fFileName, 'ferienhaus.json', f.slug, 'ferienhaus');
@@ -759,7 +759,7 @@ async function buildEngine() {
                 .replace(/\{\{PROBLEM_KATEGORIE\}\}/g, a.name)
                 .replace(/\{\{MANGEL_BESCHREIBUNG\}\}/g, a.beschreibung) 
                 .replace(/\{\{DATEINAME\}\}/g, fAirbnb)
-                .replace(/\{\{PORTAL_URL\}\}/g, a.Portal_URL || '#')
+                .replace(/\{\{PORTAL_URL\}\}/g, a.portal_url || '#')
                 .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossAirbnb);
 
             content = injectSEO(content, lang, fAirbnb, 'airbnb.json', a.slug, 'airbnb');
