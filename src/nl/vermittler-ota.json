@@ -4,97 +4,97 @@
     "slug": "opodo",
     "adresse": "Vacaciones eDreams, S.L.\nCalle de Manzanares 4\n28005 Madrid, Spanje",
     "infobox": "<p>Opodo is een online boekingsplatform (OTA) en niet de uitvoerende luchtvaartmaatschappij. Voor ticketannulering en terugbetaling van belastingen en toeslagen verwijzen OTA’s en airlines klanten vaak naar elkaar, maar juridisch moet duidelijk zijn wie de betaling heeft ontvangen en wie de terugbetaling moet doorzetten. Als Opodo de boeking heeft bemiddeld, moet het eventuele van de airline ontvangen restituties onverwijld aan u doorstorten. Voor de loutere afhandeling van een terugbetaling mag Opodo geen buitensporige eigen verwerkingskosten rekenen. Juridische hoofdzetel: Madrid, Spanje.</p><!--opt-->",
-    "portal_url":"#"
+    "portal_url": "https://help.opodo.nl/"
   },
   {
     "name": "eDreams",
     "slug": "edreams",
     "adresse": "Vacaciones eDreams, S.L.\nCalle de Manzanares 4\n28005 Madrid, Spanje",
     "infobox": "<p>eDreams is een online boekingsplatform (OTA) en niet de luchtvaartmaatschappij die de vlucht uitvoert. Bij een ticketannulering en de terugbetaling van belastingen en toeslagen ontstaat daarom vaak discussie: OTAs verwijzen reizigers geregeld door naar de airline, terwijl de airline weer naar het boekingsportaal verwijst. Juridisch geldt dat eDreams een ontvangen restitutie niet mag achterhouden en voor de loutere afhandeling van de terugbetaling geen buitensporige eigen service- of verwerkingskosten mag rekenen. Het hoofdkantoor van eDreams ODIGEO bevindt zich in Madrid, Spanje.</p><!--opt-->",
-    "portal_url":"#"
+    "portal_url": "https://help.edreams.nl/"
   },
   {
     "name": "Kiwi.com",
     "slug": "kiwi-com",
-    "adresse": "Kiwi.com s.r.o.\nPalachovo náměstí 797/4\n625 00 Brno, Tsjechië",
+    "adresse": "Kiwi.com s.r.o.\nRohanské nábřeží 678/25\n186 00 Praha 8-Karlín, Tsjechië",
     "infobox": "<p>Kiwi.com is een online reisbureau (OTA) en niet de uitvoerende luchtvaartmaatschappij. Bij een ticketannulering of terugvordering van belastingen en toeslagen verwijzen OTA’s en airlines elkaar in de praktijk vaak door. Juridisch geldt: voor de terugbetaling van niet-gebruikte belastingen en luchthavenheffingen moet een redelijke afhandeling mogelijk zijn, en een OTA mag voor het louter doorzetten van die restitutie geen buitensporige eigen administratiekosten rekenen. Kiwi.com heeft zijn statutaire zetel in Praag, Tsjechië. Controleer daarom altijd wie de contractspartij is en welke partij de terugbetaling daadwerkelijk moet uitvoeren.</p><!--opt-->",
-    "portal_url":"#"
+    "portal_url": "https://www.kiwi.com/nl/help/customer-support-262/article/how-to-contact-us-73/"
   },
   {
     "name": "Booking.com Flights",
     "slug": "booking-flights",
     "adresse": "Booking.com B.V.\nHerengracht 597\n1017 CE Amsterdam, Nederland",
     "infobox": "<p>Booking.com Flights is een boekingsplatform/OTA en niet de uitvoerende luchtvaartmaatschappij van uw vlucht. Voor ticketannulering en terugbetaling van belastingen en luchthavenheffingen verwijzen OTA’s en airlines vaak naar elkaar, maar juridisch blijft de partij die de betaling heeft ontvangen in beginsel verantwoordelijk voor een correcte afhandeling van de terugvordering. Voor een zuivere restitutie van niet-gebruikte belastingen/fees mag een OTA geen buitensporige eigen verwerkingskosten rekenen. Booking.com B.V. heeft haar statutaire zetel in Amsterdam, Nederland.</p><!--opt-->",
-    "portal_url":"#"
+    "portal_url": "https://www.booking.com/customer-service.nl.html"
   },
   {
     "name": "Expedia",
     "slug": "expedia",
     "adresse": "Expedia, Inc.\n1111 Expedia Group Way W\nSeattle, WA 98119, USA",
     "infobox": "<p>Expedia is een online boekingsplatform (OTA) en niet de uitvoerende luchtvaartmaatschappij. Bij een ticketannulering of een verzoek om terugbetaling van belastingen en toeslagen verwijst Expedia vaak naar de airline, terwijl de luchtvaartmaatschappij op haar beurt naar Expedia kan doorverwijzen. Juridisch gezien mag de bemiddelaar voor het louter afhandelen van een restitutieverzoek geen buitensporige eigen service- of verwerkingskosten rekenen. De maatschappelijke zetel van Expedia Group, Inc. bevindt zich in Seattle, Washington, VS.</p><!--opt-->",
-    "portal_url":"#"
+    "portal_url": "https://www.expedia.nl/lp/b/getintouch"
   },
   {
-    "name": "Flugladen.de",
-    "slug": "flugladen",
-    "adresse": "Travix Nederland B.V.\nPiet Heinkade 55\n1019 GM Amsterdam, Nederland",
-    "infobox": "<p>Flugladen.de is een online boekingsplatform (OTA) en niet de uitvoerende luchtvaartmaatschappij. Voor ticketannulering en terugbetaling van belastingen en toeslagen ontstaat in de praktijk vaak een verwijzing tussen OTA en airline: de een stuurt u door naar de ander. Juridisch geldt echter dat een OTA voor de loutere afhandeling van een restitutieverzoek geen buitensporige eigen service- of verwerkingskosten mag rekenen. Flugladen.de maakt deel uit van Travix en heeft haar statutaire zetel in Amsterdam, Nederland. Bij een door de luchtvaartmaatschappij goedgekeurde terugbetaling moet het OTA het ontvangen bedrag zonder onredelijke vertraging aan de reiziger doorbetalen.</p><!--opt-->",
-    "portal_url":"#"
+    "name": "Vliegtickets.nl",
+    "slug": "vliegtickets-nl",
+    "adresse": "Tix Travel B.V.\nCeresstraat 15A2\n4811 CA Breda, Nederland",
+    "infobox": "<p>Vliegtickets.nl is een online boekingsplatform (OTA) voor vliegtickets en niet de uitvoerende luchtvaartmaatschappij. Bij ticketannulering, vluchtwijzigingen of terugbetaling van belastingen en toeslagen is het belangrijk vast te stellen wie het ticket heeft uitgegeven en welke partij de betaling heeft ontvangen. Als Vliegtickets.nl als bemiddelaar bij de boeking betrokken is, moet een ontvangen restitutie correct aan de reiziger worden doorgegeven. Voor de loutere afhandeling van een restitutieverzoek mogen geen buitensporige eigen verwerkingskosten worden gerekend. Vliegtickets.nl richt zich rechtstreeks op de Nederlandse markt en biedt Nederlandse klantenservice.</p><!--opt-->",
+    "portal_url": "https://www.vliegtickets.nl/contact/"
   },
   {
     "name": "Trip.com",
     "slug": "trip-com",
     "adresse": "Trip.com Travel Singapore Pte. Ltd.\n30 Raffles Place, #29-01\nSingapore 048622",
     "infobox": "<p>Trip.com is een online boekingsplatform (OTA) en niet de uitvoerende luchtvaartmaatschappij. Het hoofdkantoor is gevestigd in Singapore. Bij ticketannulering en terugbetaling van belastingen en toeslagen verwijzen OTA’s en airlines elkaar in de praktijk vaak naar elkaar door. Juridisch blijft echter relevant wie de vervoersovereenkomst heeft gesloten en wie de betaling heeft ontvangen. Voor de loutere afhandeling van een restitutieverzoek mag Trip.com geen buitensporige eigen verwerkingskosten rekenen. Controleer daarom altijd of u recht heeft op terugbetaling van niet-gebruikte belastingen, luchthavenheffingen en toeslagen, en dien uw verzoek tijdig en schriftelijk in.</p><!--opt-->",
-    "portal_url":"#"
+    "portal_url": "https://nl.trip.com/pages/support/?locale=nl-NL&curr=EUR"
   },
   {
     "name": "Gotogate",
     "slug": "gotogate",
     "adresse": "Etraveli Group AB\nBox 1340\n751 43 Uppsala, Zweden",
     "infobox": "<p>Gotogate is een online reisbureau (OTA) en geen uitvoerende luchtvaartmaatschappij. Het platform bemiddelt bij de boeking van vliegtickets, maar voor ticketannulering en de terugbetaling van belastingen en toeslagen ontstaan vaak discussies: airlines verwijzen reizigers naar Gotogate, terwijl Gotogate hen weer naar de luchtvaartmaatschappij stuurt. Juridisch geldt dat de verschuldigde restitutie in beginsel moet worden uitgekeerd zonder buitensporige eigen verwerkingskosten voor de loutere terugbetalingsprocedure. Gotogate heeft zijn juridische zetel in Zweden, binnen de Etraveli Group.</p><!--opt-->",
-    "portal_url":"#"
+    "portal_url": "https://nl.gotogate.com/rf/contact-us"
   },
   {
     "name": "Mytrip",
     "slug": "mytrip",
     "adresse": "Etraveli Group AB\nBox 1340\n751 43 Uppsala, Zweden",
     "infobox": "<p>Mytrip is een online boekingsplatform (OTA) en niet de uitvoerende luchtvaartmaatschappij. Voor onderwerpen zoals ticketannulering en terugbetaling van belastingen en toeslagen verwijzen OTA’s en airlines klanten in de praktijk vaak naar elkaar. Juridisch geldt: als Mytrip alleen de door de airline verschuldigde restitutie doorgeeft, mogen daarvoor geen buitensporige eigen verwerkingskosten worden gerekend. De terugbetaling moet correct en tijdig worden afgehandeld. Mytrip behoort tot de Etraveli Group met juridisch hoofdkantoor in Stockholm, Zweden.</p><!--opt-->",
-    "portal_url":"#"
+    "portal_url": "https://nl.gotogate.com/rf/contact-us"
   },
   {
-    "name": "Fluege.de",
-    "slug": "fluege-de",
-    "adresse": "Invia Flights Germany GmbH\nDittrichring 18-20\n04109 Leipzig, Duitsland",
-    "infobox": "<p>Fluege.de is een boekingsplatform (OTA) en niet de uitvoerende luchtvaartmaatschappij. Het bedrijf achter fluege.de is Invia Flights Germany GmbH, gevestigd in Leipzig, Duitsland. Bij ticketannuleringen en de terugbetaling van belastingen en luchthaven- of veiligheidsheffingen verwijzen OTA’s en luchtvaartmaatschappijen elkaar vaak naar elkaar door. Juridisch geldt: voor de zuivere terugbetaling van niet-gebruikte belastingen en toeslagen mag geen buitensporige eigen verwerkingsvergoeding worden gerekend. De luchtvaartmaatschappij blijft meestal verantwoordelijk voor de uitvoering van de vlucht, terwijl het OTA alleen de boeking en communicatie afhandelt.</p><!--opt-->",
-    "portal_url":"#"
+    "name": "Tix.nl",
+    "slug": "tix-nl",
+    "adresse": "Tix Travel B.V.\nCeresstraat 15A2\n4811 CA Breda, Nederland",
+    "infobox": "<p>Tix.nl is een online reisbureau (OTA) voor vliegtickets en niet de uitvoerende luchtvaartmaatschappij. Bij een ticketannulering of verzoek om terugbetaling van belastingen en toeslagen is van belang welke partij de boeking heeft verwerkt en wie de betaling heeft ontvangen. Als Tix.nl de boeking heeft bemiddeld, moet een aan de klant toekomende restitutie correct worden afgehandeld. Voor de loutere verwerking van een terugbetaling mag geen buitensporige eigen administratievergoeding worden gevraagd. Tix.nl heeft een Nederlandse vestiging in Breda en richt zich met een Nederlandstalig platform en klantenservice rechtstreeks op Nederlandse reizigers.</p><!--opt-->",
+    "portal_url": "https://help.tix.nl/nl/support/solutions/articles/75000140883-contact"
   },
   {
-    "name": "lastminute.de",
-    "slug": "lastminute-de",
-    "adresse": "BravoNext SA\nVicolo de’ Calvi 2\n6830 Chiasso, Zwitserland",
-    "infobox": "<p>lastminute.de is een online boekingsplatform (OTA) en niet de uitvoerende luchtvaartmaatschappij. De juridische zetel van BravoNext SA bevindt zich in Chiasso, Zwitserland. Bij ticketannulering en terugbetaling van belastingen en toeslagen verwijzen OTA’s en airlines in de praktijk vaak naar elkaar; juridisch blijft echter relevant wie de terugbetaling moet uitvoeren. Voor zuivere restituties mag lastminute.de geen buitensporige eigen verwerkingskosten rekenen voor het louter doorzetten van een terugbetaling. Controleer daarom altijd wie uw ticket heeft uitgegeven en vraag de terugbetaling tijdig aan.</p><!--opt-->",
-    "portal_url":"#"
+    "name": "BudgetAir.nl",
+    "slug": "budgetair-nl",
+    "adresse": "Travix Nederland B.V.\nHoekenrode 3\n1102 BR Amsterdam, Nederland",
+    "infobox": "<p>BudgetAir.nl is een online boekingsplatform (OTA) voor vliegtickets en niet de uitvoerende luchtvaartmaatschappij. Bij ticketannulering en terugbetaling van belastingen en toeslagen verwijzen OTA's en airlines klanten in de praktijk soms naar elkaar, maar duidelijk moet zijn welke partij de betaling heeft ontvangen en de terugbetaling moet uitvoeren. Wanneer BudgetAir.nl als bemiddelaar bij de boeking betrokken is, moet een ontvangen restitutie correct aan de reiziger worden doorgegeven. Voor de loutere afhandeling van een restitutieverzoek mogen geen buitensporige eigen verwerkingskosten worden gerekend. BudgetAir maakt deel uit van Travix, waarvan het hoofdkantoor in Amsterdam is gevestigd.</p><!--opt-->",
+    "portal_url": "https://www.budgetair.nl/klantenservice"
   },
   {
-    "name": "Cheaptickets.de",
-    "slug": "cheaptickets",
-    "adresse": "Travix Nederland B.V.\nPiet Heinkade 55\n1019 GM Amsterdam, Nederland",
-    "infobox": "<p>Cheaptickets.de is een online boekingsplatform (OTA) en niet de uitvoerende luchtvaartmaatschappij. Bij ticketannulering en de terugbetaling van belastingen en toeslagen verwijzen OTA’s en airlines in de praktijk vaak naar elkaar. Juridisch blijft het belangrijk dat uw verzoek correct wordt doorgeleid en dat een eventuele restitutie transparant wordt afgehandeld. Voor het louter verwerken van een terugbetaling mag het OTA geen buitensporige eigen administratiekosten rekenen. Cheaptickets.de wordt geëxploiteerd door Travix Nederland B.V., statutair gevestigd in Amsterdam, Nederland.</p><!--opt-->",
-    "portal_url":"#"
+    "name": "CheapTickets.nl",
+    "slug": "cheaptickets-nl",
+    "adresse": "Travix Nederland B.V.\nHoekenrode 3\n1102 BR Amsterdam, Nederland",
+    "infobox": "<p>CheapTickets.nl is een online boekingsplatform (OTA) voor vliegtickets en niet de uitvoerende luchtvaartmaatschappij. Bij ticketannulering, vluchtwijzigingen of terugbetaling van belastingen en toeslagen is het belangrijk te bepalen welke partij de boeking en betaling heeft verwerkt. Als CheapTickets.nl als bemiddelaar bij de boeking betrokken is, moet een ontvangen restitutie correct aan de reiziger worden doorgegeven. Voor het louter verwerken van een terugbetaling mag geen buitensporige eigen administratievergoeding worden gerekend. CheapTickets.nl maakt deel uit van Travix en is een belangrijk online ticketplatform voor de Nederlandse markt.</p><!--opt-->",
+    "portal_url": "https://www.cheaptickets.nl/contact/"
   },
   {
-    "name": "Check24 Flüge",
-    "slug": "check24-fluege",
-    "adresse": "CHECK24 Vergleichsportal Flug GmbH\nTrappentreustr. 1 - 3\n80339 München, Duitsland",
-    "infobox": "<p>Check24 Flüge is een online boekingsplatform (OTA) en niet de uitvoerende luchtvaartmaatschappij. Voor ticketannulering en de terugbetaling van belastingen en heffingen verwijzen OTA’s en airlines elkaar vaak naar elkaar door. Juridisch geldt: als het alleen om het doorgeven van een restitutieverzoek gaat, mag een OTA daarvoor geen buitensporige eigen verwerkingskosten rekenen. De daadwerkelijke vervoersovereenkomst ligt bij de airline, terwijl het OTA vooral verantwoordelijk is voor correcte boeking en doorgeleiding van betalingen. Het hoofdkantoor van Check24 Flüge bevindt zich in München, Duitsland.</p><!--opt-->",
-    "portal_url":"#"
+    "name": "Vliegwinkel.nl",
+    "slug": "vliegwinkel-nl",
+    "adresse": "Travix Nederland B.V.\nHoekenrode 3\n1102 BR Amsterdam, Nederland",
+    "infobox": "<p>Vliegwinkel.nl is een online reisbureau (OTA) voor vliegtickets en niet de luchtvaartmaatschappij die de vlucht uitvoert. Bij ticketannulering of terugbetaling van belastingen en toeslagen is van belang welke partij het ticket heeft uitgegeven en wer de betaling heeft ontvangen. Als Vliegwinkel.nl de boeking heeft bemiddeld, moet een verschuldigde restitutie correct en zonder onnodige vertraging worden afgehandeld. Voor de loutere verwerking van een terugbetaling mag geen buitensporige eigen administratievergoeding worden gerekend. Vliegwinkel.nl is onderdeel van Travix, het Nederlandse online reisbedrijf met hoofdkantoor in Amsterdam.</p><!--opt-->",
+    "portal_url": "https://www.vliegwinkel.nl/over-vliegwinkel/contact"
   },
   {
     "name": "Ander vluchtportaal (Algemeen sjabloon)",
     "slug": "allgemein",
     "adresse": "[Naam van het vluchtportaal]\n[bijv. Klantenservice / Terugbetalingen]\n[Straat en huisnummer]\n[Postcode en plaats]",
     "infobox": "<p>Ander vluchtportaal (Algemeen sjabloon) is een boekingsplatform (OTA) en niet de uitvoerende luchtvaartmaatschappij. Voor ticketstornatie en terugbetaling van belastingen en toeslagen verwijzen OTA’s en airlines in de praktijk vaak naar elkaar, maar juridisch blijft de vraag wie de betaalde bedragen moet doorstorten of terugbetalen. De hoofdzetel van het platform ligt in Nederland. Een OTA mag voor het louter verwerken van een restitutieverzoek geen buitensporige eigen service- of administratiekosten rekenen. Bij twijfel geldt: controleer wie de contractspartij is en vraag altijd schriftelijke bevestiging van de afhandeling.</p><!--opt-->",
-    "portal_url":"#"
+    "portal_url": "#"
   }
 ]

@@ -209,9 +209,9 @@
   {
     "slug": "suedkorea",
     "name": "South Korea",
-    "visum_status": "K-ETA required for U.S. citizens; visa-free stays of up to 90 days",
+    "visum_status": "No visa needed for U.S. citizens for up to 90 days; K-ETA temporarily not required (exemption through Dec 31, 2026)",
     "pass_monate": 6,
-    "visum_text": "U.S. citizens can generally enter South Korea visa-free for tourist stays of up to 90 days. Since 2025, however, the Korea Electronic Travel Authorization (K-ETA) has become a required pre-registration for most visa-exempt travelers, similar to the U.S. ESTA system. Apply for the K-ETA online before departure. Entry requirements can change depending on travel purpose, length of stay, or diplomatic developments, so it is worth checking the latest requirements from South Korean authorities before your flight.",
+    "visum_text": "U.S. citizens can generally enter South Korea visa-free for tourist stays of up to 90 days. Normally, visa-exempt travelers must also obtain a Korea Electronic Travel Authorization (K-ETA) before entry — however, South Korea has temporarily suspended this requirement for U.S. citizens (along with several dozen other nationalities) since 2023, and this exemption has been extended several times, most recently through December 31, 2026. During the exemption period, U.S. travelers do not need a K-ETA but must instead complete the free online e-Arrival Card before arrival. Note that the K-ETA requirement is scheduled to resume on January 1, 2027 unless extended again, so travelers with trips planned for early 2027 should check the official K-ETA site (k-eta.go.kr) closer to their departure date. Entry requirements can change on short notice, so it's worth verifying the current status before you fly.",
     "affiliate_hinweis": "<strong>Tip for your trip to South Korea:</strong> With the right credit card you can often save money on the road — for example through fee-free purchases worldwide and affordable conditions for cash withdrawals abroad. A credit card comparison can help you find the card that best fits your trip. Compare now: <a href='#'></a>",
     "is_optimized": false
   },
