@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Gerar Última Notificação de Mora (Viagem, Voo & Hotel)</title>
+  <meta name="description" content="O fornecedor ignora a sua reclamação? Coloque companhias aéreas, hotéis e operadores turísticos oficialmente em mora gratuitamente com o nosso gerador.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, follow">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+  {{SEO_LINKS}}
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+  <span style="font-size: 0.9em; color: #666;">Escalada & Mora</span>
+</header>
+
+<div class="page-container">
+  
+  <div class="back-to-hub-banner" style="margin-bottom: 20px;">
+    <a href="index.html">
+      <span class="arrow">&larr;</span> Voltar à página inicial
+    </a>
+  </div>
+
+  <h1>Colocar a parte contrária em mora (Última Notificação)</h1>
+  <p>Já enviou o seu primeiro pedido devido a atraso de voo, deficiências no hotel ou cancelamento, mas o fornecedor não responde há mais de 14 dias? Ou está a ser retido com mensagens padrão?</p>
+  <p>Agora é altura de exercer pressão jurídica. Com os nossos geradores gratuitos, cria uma carta de notificação juridicamente sólida em 2 minutos. Coloca a parte contrária oficialmente em mora (nos termos do direito civil aplicável) e adverte quanto ao recurso a uma entidade de mediação ou assistência jurídica.</p>
+
+  <!-- SEO-LIGHT: Kompakte rechtliche Einordnung -->
+<div class="legal-highlights-seo" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin: 20px 0 25px 0;">
+  <div style="background: #fff; border: 1px solid #f5c6c6; padding: 12px 15px; border-radius: 6px; font-size: 0.9em;">
+    <strong style="color: #aa3131; display: block; margin-bottom: 4px;">Mora Legal (§ 286 do BGB / Direito Civil)</strong>
+    <span style="color: #555;">Após o termo do prazo, o fornecedor entra automaticamente em mora.</span>
+  </div>
+  <div style="background: #fff; border: 1px solid #f5c6c6; padding: 12px 15px; border-radius: 6px; font-size: 0.9em;">
+    <strong style="color: #aa3131; display: block; margin-bottom: 4px;">Fixação de prazo comprovável</strong>
+    <span style="color: #555;">Um prazo curto de 7 a 14 dias cria a base legal.</span>
+  </div>
+  <div style="background: #fff; border: 1px solid #f5c6c6; padding: 12px 15px; border-radius: 6px; font-size: 0.9em;">
+    <strong style="color: #aa3131; display: block; margin-bottom: 4px;">Preparação para a Mediação</strong>
+    <span style="color: #555;">Uma notificação não respondida é o requisito para a mediação gratuita.</span>
+  </div>
+</div>
+
+  <!-- Schnellauswahl für den Nutzer -->
+  <div class="selection-box" style="background: #fdf5f5; border: 1px solid #f5c6c6; border-top: 5px solid #aa3131; padding: 25px; border-radius: 8px; margin: 30px 0;">
+    <h3 style="margin-top: 0; color: #aa3131;">Gerar notificação gratuitamente agora:</h3>
+    <p style="font-size: 0.9em; color: #555;">Selecione a empresa que deseja colocar em mora:</p>
+    <select id="hubSelector" style="width: 100%; padding: 12px; margin-bottom: 15px; border-radius: 4px; border: 1px solid #ccc; font-size: 16px;">
+      <option value="">-- Por favor selecione o fornecedor --</option>
+      {{MAHNUNG_OPTIONS}}
+    </select>
+    <button onclick="goToSelected()" class="button-primary" style="background: #aa3131; width: 100%;">Criar notificação ➔</button>
+  </div>
+
+  <hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
+
+  <!-- SEO-BLOCK 1: Anwendungsfälle (Allgemein gehalten für internationale Gültigkeit) -->
+<section class="seo-content-block" style="margin-bottom: 30px; line-height: 1.6;">
+  <h2 style="font-size: 1.3em; color: #aa3131;">Quando é necessária uma última notificação no direito do viajante?</h2>
+  <p style="color: #444;">Quer atue ao abrigo do direito contratual nacional ou de convenções internacionais (como os direitos dos passageiros aéreos da UE): se o fornecedor se remeter ao silêncio, terá de agir. A última notificação é o instrumento decisivo em caso de:</p>
+  <ul style="color: #444; padding-left: 20px;">
+    <li style="margin-bottom: 8px;"><strong>Problemas com voos:</strong> Indemnizações pendentes por atrasos, cancelamentos ou perda de voos de ligação.</li>
+    <li style="margin-bottom: 8px;"><strong>Perda de bagagem:</strong> Pedidos de reembolso ignorados para compras de emergência ou malas totalmente perdidas.</li>
+    <li style="margin-bottom: 8px;"><strong>Deficiências no hotel:</strong> Reembolsos devido a condições inaceitáveis, obras não comunicadas ou falta de serviços (por exemplo, piscina fechada).</li>
+    <li><strong>Cancelamentos:</strong> Valores retidos em caso de desistência ou cancelamento da viagem por parte do operador.</li>
+  </ul>
+  <p style="font-size: 0.95em; color: #555; margin-top: 15px;">Sem a fixação comprovável de um último prazo, faltar-lhe-á frequentemente a base formal para, no passo seguinte, recorrer a entidades externas, como centros de arbitragem/mediação ou advogados, a expensas da parte contrária.</p>
+</section>
+
+<!-- SEO-BLOCK 2: Der Ablauf der Eskalation -->
+<section class="seo-content-block" style="margin-bottom: 40px; background: #f9f9f9; padding: 20px; border-radius: 6px; border-left: 4px solid #aa3131;">
+  <h2 style="font-size: 1.3em; color: #aa3131; margin-top: 0;">Em 3 passos para o reembolso: Como fazer a escalada corretamente</h2>
+  <p style="color: #444;">Um procedimento claramente estruturado demonstra à empresa de viagens que conhece os seus direitos e que assumirá as devidas consequências:</p>
+  <ol style="color: #444; padding-left: 20px; margin-bottom: 0;">
+    <li style="margin-bottom: 10px;"><strong>1. O pedido inicial (já realizado):</strong> Comunicou a deficiência e estabeleceu um primeiro prazo de pagamento. O fornecedor deixou passar o prazo ou protelou a resposta com mensagens automatizadas.</li>
+    <li style="margin-bottom: 10px;"><strong>2. A última notificação (o seu passo atual):</strong> Utiliza o nosso modelo, estabelece um novo prazo curto e claro (indicando a data exata!) e anuncia consequências jurídicas. A partir do termo do prazo, a mora fica documentada.</li>
+    <li><strong>3. A execução do pedido (em caso de nova ignorância):</strong> Se a empresa continuar sem responder, remete o caso, acompanhado da documentação de notificação, para uma entidade oficial de resolução de litígios ou para um advogado especializado em direito do viajante.</li>
+  </ol>
+</section>
+
+  <!-- SEO Link-Liste für Google -->
+  <h2>Directório: Modelos de Notificação (A-Z)</h2>
+  <p style="font-size: 0.9em; color: #666;">Selecione o seu fornecedor na nossa base de dados para carregar a carta de notificação específica com o endereço de contacto correto e informações sobre a entidade de mediação competente:</p>
+  
+  <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
+    {{MAHNUNG_LINKS}}
+  </div>
+
+  <hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
+
+<!-- SEO MINI-FAQ BEREICH -->
+<section class="seo-faq-mini" style="line-height: 1.6; margin-bottom: 30px;">
+  <h2 style="font-size: 1.3em; color: #aa3131;">Perguntas frequentes sobre a última notificação</h2>
+
+  <div style="margin-bottom: 15px;">
+    <strong style="display: block; color: #333;">Por que razão uma notificação por escrito é juridicamente necessária?</strong>
+    <p style="margin: 4px 0 0 0; font-size: 0.95em; color: #555;">
+      Apenas quando estabelece ao fornecedor uma exigência expressa de pagamento com uma data concreta é que este entra juridicamente em mora. Só a partir desse momento podem ser reclamados custos decorrentes (por exemplo, processos de mediação ou juros de mora).
+    </p>
+  </div>
+
+  <div style="margin-bottom: 15px;">
+    <strong style="display: block; color: #333;">Que prazo deve ser fixado na última notificação?</strong>
+    <p style="margin: 4px 0 0 0; font-size: 0.95em; color: #555;">
+      Dado que o fornecedor já ignorou normalmente o prazo de pagamento inicial aquando da última notificação, um prazo adicional curto de 7 a 10 dias úteis é juridicamente perfeitamente suficiente.
+    </p>
+  </div>
+
+  <div>
+    <strong style="display: block; color: #333;">O que acontece se o fornecedor também não responder à notificação?</strong>
+    <p style="margin: 4px 0 0 0; font-size: 0.95em; color: #555;">
+      Após o termo do prazo de notificação, pode iniciar um processo de mediação gratuito ou contratar um advogado sem aviso prévio.
+    </p>
+  </div>
+</section>
+
+<!-- JSON-LD FAQ Schema für Suchmaschinen (stärkt Snippet-Ranking ohne Platz zu verbrauchen) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Por que razão uma notificação por escrito é juridicamente necessária?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Apenas quando estabelece ao fornecedor uma exigência expressa de pagamento com uma data concreta é que este entra juridicamente em mora. Só a partir desse momento podem ser exigidos custos decorrentes ou iniciados processos de mediação."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Que prazo deve ser fixado na última notificação?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Dado que o fornecedor já ignorou normalmente o primeiro prazo, um prazo adicional curto de 7 a 10 dias úteis é juridicamente perfeitamente suficiente."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "O que acontece se o fornecedor também não responder à notificação?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Após o termo do prazo de notificação, pode iniciar gratuitamente um processo de mediação ou recorrer a assistência jurídica."
+      }
+    }
+  ]
+}
+</script>
+
+</div>
+
+<div class="trust-section">
+    <h3>Especialização em Direito do Viajante e Direitos dos Passageiros</h3>
+    <p class="trust-text">
+        Os nossos guias e geradores baseiam-se numa análise rigorosa dos regulamentos atuais da UE (como o Regulamento CE 261/2004), da jurisprudência e da legislação nacional sobre viagens. 
+        São desenvolvidos por Marc (Gestão de Projetos) e pela sua equipa para permitir aos viajantes fazer valer os seus direitos de forma juridicamente segura perante companhias aéreas e operadores turísticos.
+        <br><br>
+        <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+            Aviso importante: As nossas ferramentas oferecem apoio de autoajuda em casos de atraso de voos, deficiências em hotéis ou supressão de comboios. Não substituem o aconselhamento jurídico individual por parte de um advogado.
+        </span>
+    </p>
+
+    <!-- Umlaut in URL entfernt! -->
+    <a href="ueber-uns.html" class="trust-link">
+        Saber mais sobre a metodologia jurídica e redação →
+    </a>
+
+    <div class="lotse-card">
+    <p>
+        <strong>Problemas com o voo, comboio ou hotel?</strong><br>
+        O Fix-My-Trip verifica em poucos passos o seu direito a indemnização, reembolso de bilhete ou redução do preço da viagem. <br>
+        <em>Um serviço da Fix my Trip.</em>
+    </p>
+</div>
+
+<p class="feedback-note">
+    💡 <strong>Detetou um erro na ferramenta?</strong> Como portal automatizado não prestamos aconselhamento jurídico individual, pelo que a sua ajuda é enorme ao reportar erros ou fornecedores desatualizados: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Enviar feedback para a nossa sede</a>.
+</p>
+</div>
+
+<footer>
+    <p>&copy; 2026 Fix-my-Trip.com</p>
+    <nav>
+        <a href="ueber-uns.html">Sobre nós</a> | 
+        <a href="index.html">Página inicial</a> | 
+        <a href="impressum.html">Ficha técnica</a> | 
+        <a href="datenschutz.html">Política de privacidade</a>
+    </nav>
+</footer>
+
+<script>
+function goToSelected() {
+  const sel = document.getElementById('hubSelector');
+  if (sel.value) {
+    window.location.href = sel.value;
+  }
+}
+</script>
+</body>
+</html>

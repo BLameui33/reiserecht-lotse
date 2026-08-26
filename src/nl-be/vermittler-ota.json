@@ -1,94 +1,73 @@
 [
   {
-    "name": "Opodo",
-    "slug": "opodo",
-    "adresse": "Vacaciones eDreams, S.L.\nCalle de Manzanares 4\n28005 Madrid, Spanje",
-    "infobox": "<p>Opodo is een online boekingsplatform (OTA) en niet de uitvoerende luchtvaartmaatschappij. Voor ticketannulering en terugbetaling van belastingen en toeslagen verwijzen OTA’s en airlines klanten vaak naar elkaar door. Juridisch geldt: als de luchtvaartmaatschappij recht heeft op restitutie, moet Opodo de door de airline terugbetaalde bedragen zonder onredelijke vertraging doorstorten. Voor de loutere afhandeling van een restitutieverzoek mag Opodo bovendien geen buitensporige eigen verwerkingskosten rekenen. Opodo heeft zijn juridische hoofdzetel in Madrid, Spanje.</p><!--opt-->",
-    "portal_url":"#"
-  },
-  {
-    "name": "eDreams",
-    "slug": "edreams",
-    "adresse": "Vacaciones eDreams, S.L.\nCalle de Manzanares 4\n28005 Madrid, Spanje",
-    "infobox": "<p>eDreams is een online reisbureau (OTA) en dus niet de uitvoerende luchtvaartmaatschappij. Voor ticketannuleringen en terugbetaling van belastingen en toeslagen verwijzen OTA’s en airlines elkaar in de praktijk vaak naar elkaar door. Juridisch geldt echter: als de vlucht wordt geannuleerd of niet wordt gebruikt, moeten terugvorderbare bedragen in beginsel correct worden afgewikkeld, en eDreams mag voor het louter doorzetten van een restitutieverzoek geen buitensporige eigen verwerkingskosten rekenen. eDreams heeft zijn statutaire zetel in Barcelona, Spanje, en maakt deel uit van de eDreams ODIGEO-groep.</p><!--opt-->",
-    "portal_url":"#"
-  },
-  {
-    "name": "Kiwi.com",
-    "slug": "kiwi-com",
-    "adresse": "Kiwi.com s.r.o.\nPalachovo náměstí 797/4\n625 00 Brno, Tsjechië",
-    "infobox": "<p>Kiwi.com is een online reisbureau (OTA) en niet de luchtvaartmaatschappij die de vlucht uitvoert. Bij ticketannulering en terugbetaling van belastingen en toeslagen verwijzen OTA’s en airlines elkaar in de praktijk vaak door, wat het proces kan vertragen. Juridisch geldt: voor terugbetaling van niet-gebruikte belastingen en luchthavenheffingen kan de reiziger aanspraak maken op restitutie, en een OTA mag daarvoor geen buitensporige eigen verwerkingskosten rekenen als het alleen om afhandeling van de terugvordering gaat. Kiwi.com heeft zijn statutaire zetel in Praag, Tsjechië.</p><!--opt-->",
-    "portal_url":"#"
+    "name": "CheapTickets.be",
+    "slug": "cheaptickets-be",
+    "adresse": "Port Atlantic House\nNoorderlaan 147\nbox 9, 2030 Antwerpen, België",
+    "infobox": "CheapTickets.be is een online reisbureau (OTA) voor vluchtboekingen en een merk van Travix. Het Nederlandstalige platform richt zich op reizigers in België en biedt mogelijkheden om vliegtickets van verschillende luchtvaartmaatschappijen te zoeken, vergelijken en boeken. CheapTickets.be treedt daarbij op als tussenpersoon en is niet de luchtvaartmaatschappij die de vlucht uitvoert. Het merk maakt deel uit van een internationale organisatie voor online reisbemiddeling. Voor vragen gebruikt de klant de eigen servicekanalen van CheapTickets.be.",
+    "portal_url": "https://www.cheaptickets.be/klantenservice"
   },
   {
     "name": "Booking.com Flights",
     "slug": "booking-flights",
-    "adresse": "Booking.com B.V.\nHerengracht 597\n1017 CE Amsterdam, Nederland",
-    "infobox": "<p>Booking.com Flights is een boekingsplatform (OTA) en niet de uitvoerende luchtvaartmaatschappij. Voor ticketannulering en terugbetaling van belastingen en toeslagen wijst het platform vaak naar de airline, terwijl de airline u weer terugverwijst naar de OTA. Juridisch geldt: bij een loutere restitutie mag een OTA geen buitensporige eigen verwerkingskosten rekenen voor het afhandelen van de terugbetaling. De juridische hoofdzetel van Booking.com Flights is gevestigd in Amsterdam, Nederland. Controleer daarom altijd wie het ticket heeft uitgegeven en welke partij de terugbetaling daadwerkelijk moet uitvoeren.</p><!--opt-->",
-    "portal_url":"#"
+    "adresse": "Booking.com B.V.\n Oosterdokskade 163\n1011 DL Amsterdam, Nederland",
+    "infobox": "Booking.com Flights is de vluchtboekingsdienst van Booking.com en onderdeel van het internationale Booking.com-platform. De dienst biedt reizigers de mogelijkheid om online beschikbare vluchten van verschillende luchtvaartmaatschappijen te zoeken, vergelijken en te boeken. Booking.com treedt daarbij op als online tussenpersoon tussen reiziger en luchtvaartmaatschappij en is niet de uitvoerende vervoerder. De dienstverlening wordt verzorgd binnen de Booking.com-organisatie met hoofdzetel in Amsterdam, Nederland. Voor algemene vragen gebruikt de klant de eigen servicekanalen van Booking.com",
+    "portal_url": "https://www.booking.com/customer-service.html"
   },
   {
     "name": "Expedia",
     "slug": "expedia",
-    "adresse": "Expedia, Inc.\n1111 Expedia Group Way W\nSeattle, WA 98119, USA",
-    "infobox": "<p>Expedia is een online boekingsplatform (OTA) en niet de luchtvaartmaatschappij die de vlucht uitvoert. Voor ticketannulering en terugbetaling van belastingen en toeslagen geldt meestal dat de vervoersovereenkomst met de airline is gesloten; daarom verwijzen Expedia en de airline bij restituties vaak naar elkaar. Juridisch mag Expedia voor het louter verwerken van een terugbetaling geen buitensporige eigen administratiekosten rekenen. Expedia heeft zijn juridische hoofdzetel in Seattle, Washington, VS. Controleer altijd welke partij verantwoordelijk is voor de restitutie en welke kosten wettelijk in rekening mogen worden gebracht.</p><!--opt-->",
-    "portal_url":"#"
+    "adresse": "Expedia, Inc.\n1111 Expedia Group Way West\nSeattle, WA 98119, USA",
+    "infobox": "Expedia is een internationale online reisagent (OTA) die onder meer vluchtboekingen aanbiedt aan reizigers in België. Het platform maakt deel uit van Expedia Group en combineert vluchtboekingen met andere reisproducten, waaronder accommodaties, huurauto’s en activiteiten. Expedia treedt bij vluchtreserveringen op als online tussenpersoon en is niet de uitvoerende luchtvaartmaatschappij. Expedia, Inc. heeft daar haar geregistreerde juridische hoofdzetel in Seattle, Washington, Verenigde Staten. Voor vragen gebruikt de klant de eigen servicekanalen van Expedia.",
+    "portal_url": "https://www.expedia.be/service/"
   },
   {
-    "name": "Flugladen.de",
-    "slug": "flugladen",
-    "adresse": "Travix Nederland B.V.\nPiet Heinkade 55\n1019 GM Amsterdam, Nederland",
-    "infobox": "<p>Flugladen.de is een online boekingsplatform (OTA) en niet de uitvoerende luchtvaartmaatschappij. Voor vragen over ticketannulering en terugbetaling van belastingen en toeslagen verwijst een OTA vaak naar de airline, terwijl de airline u soms weer terugstuurt naar het boekingsplatform. Juridisch geldt: als de terugbetaling alleen het doorgeven van reeds ontvangen bedragen betreft, mag een OTA daarvoor geen buitensporige eigen behandelingskosten rekenen. De juridische zetel van Flugladen.de ligt in Amsterdam, Nederland. Controleer daarom altijd wie de betaling heeft ontvangen en wie volgens de voorwaarden verantwoordelijk is voor de afhandeling van de restitutie.</p><!--opt-->",
-    "portal_url":"#"
+    "name": "eDreams",
+    "slug": "edreams",
+    "adresse": "eDreams ODIGEO S.A.\nCalle López de Hoyos 35, 2ª planta\n28002 Madrid, Spanje",
+    "infobox": "eDreams is een internationale online reisagent (OTA) voor onder meer vliegtickets en maakt deel uit van eDreams ODIGEO. Het platform biedt reizigers toegang tot vluchtopties van verschillende luchtvaartmaatschappijen en ondersteunt het zoeken, vergelijken en boeken van reizen. eDreams treedt daarbij op als tussenpersoon en is niet de luchtvaartmaatschappij die de vlucht uitvoert. De groep en haar verbonden ondernemingen zijn actief vanuit Spanje. Voor vragen gebruikt de klant de eigen servicekanalen van eDreams.",
+    "portal_url": "https://www.edreams.com/travel/support-area/"
+  },
+  {
+    "name": "Opodo",
+    "slug": "opodo",
+    "adresse": "eDreams ODIGEO S.A.\nCalle López de Hoyos 35, 2ª planta\n28002 Madrid, Spanje",
+    "infobox": "Opodo is een online boekingsplatform (OTA) voor vluchtboekingen en onderdeel van eDreams ODIGEO. Het platform biedt reizigers de mogelijkheid om vluchten van verschillende luchtvaartmaatschappijen te zoeken, vergelijken en online te reserveren. Opodo treedt daarbij op als bemiddelend boekingsplatform en is niet de luchtvaartmaatschappij die de vlucht uitvoert. De dienstverlening is verbonden aan de Spaanse eDreams-organisatie en wordt binnen de internationale groep aangeboden. Voor vragen gebruikt de klant de eigen servicekanalen van Opodo.",
+    "portal_url": "https://www.opodo.com/travel/support-area/"
+  },
+  {
+    "name": "Kiwi.com",
+    "slug": "kiwi-com",
+    "adresse": "Kiwi.com s.r.o.\nLazaretní 925/9\n615 00 Brno, Tsjechië",
+    "infobox": "Kiwi.com is een internationale online reisagent (OTA) die gespecialiseerd is in vluchtboekingen en het combineren van reisroutes van verschillende luchtvaartmaatschappijen. Het platform biedt reizigers uiteenlopende vluchtmogelijkheden en ondersteunt het zoeken, vergelijken en boeken van vliegtickets. Kiwi.com treedt daarbij op als online tussenpersoon en is niet de uitvoerende luchtvaartmaatschappij. De onderneming is gevestigd in Brno, Tsjechië, en werkt vanuit een internationaal online platform. Voor vragen gebruikt de klant de eigen servicekanalen van Kiwi.com.",
+    "portal_url": "https://www.kiwi.com/de/help/contact/"
   },
   {
     "name": "Trip.com",
     "slug": "trip-com",
-    "adresse": "Trip.com Travel Singapore Pte. Ltd.\n30 Raffles Place, #29-01\nSingapore 048622",
-    "infobox": "<p>Trip.com is een online reisbureau (OTA) en dus niet de uitvoerende luchtvaartmaatschappij. Voor ticketstornering en terugbetaling van belastingen en toeslagen verwijzen OTA’s en airlines elkaar vaak naar elkaar door. Juridisch geldt: de luchtvaartmaatschappij blijft in principe verantwoordelijk voor de terugbetaling van niet-gebruikte belastingen en luchthavengelden, terwijl Trip.com als boekingsplatform de afhandeling kan ondersteunen. Het hoofdkantoor van Trip.com Group is gevestigd in Singapore. Voor de zuivere restitutie mag Trip.com geen buitensporige eigen verwerkingskosten rekenen; alleen aantoonbare, redelijke kosten kunnen eventueel worden doorbelast.</p><!--opt-->",
-    "portal_url":"#"
+    "adresse": "Trip.com Group Limited\n30 Raffles Place, #29-01\nSingapore 048622",
+    "infobox": "Trip.com is een internationale online reisagent (OTA) die onder meer vluchtboekingen aanbiedt aan reizigers wereldwijd, waaronder klanten in België. Het platform maakt deel uit van Trip.com Group en biedt vluchtopties van verschillende luchtvaartmaatschappijen naast andere reisproducten. Bij vluchtboekingen fungeert Trip.com als online tussenpersoon en is het niet de uitvoerende luchtvaartmaatschappij. Trip.com Group heeft zijn principal executive offices in Singapore. Voor verdere vragen over boekingen gebruikt de klant de eigen servicekanalen van Trip.com.",
+    "portal_url": "https://de.trip.com/pages/support"
+  },
+  {
+    "name": "lastminute.com",
+    "slug": "lastminute-com",
+    "adresse": "BravoNext SA\nVicolo de' Calvi 2\n6830 Chiasso, Zwitserland",
+    "infobox": "lastminute.com is een internationale online reisagent (OTA) die onder meer vliegtickets en andere reisproducten aanbiedt. Het platform maakt deel uit van lastminute.com group en ondersteunt het zoeken en boeken van vluchtopties van verschillende luchtvaartmaatschappijen. Bij een vluchtreservering treedt lastminute.com op als online tussenpersoon en niet als uitvoerende luchtvaartmaatschappij. De dienstverlening is verbonden aan verschillende groepsentiteiten, waaronder BravoNext SA in Zwitserland. Voor vragen gebruikt de klant de eigen digitale online servicekanalen van lastminute.com.",
+    "portal_url": "https://www.lastminute.com/en/help/assistance"
   },
   {
     "name": "Gotogate",
     "slug": "gotogate",
-    "adresse": "Etraveli Group AB\nBox 1340\n751 43 Uppsala, Zweden",
-    "infobox": "<p>Gotogate is een online reisbureau (OTA) en dus niet de uitvoerende luchtvaartmaatschappij. Voor ticketannulering en de terugbetaling van belastingen en toeslagen verwijzen OTA’s en airlines elkaar in de praktijk vaak naar elkaar. Juridisch blijft echter meestal de partij die de betaling heeft ontvangen verantwoordelijk voor de restitutie. Gotogate is onderdeel van de Zweedse Etraveli Group met statutaire zetel in Stockholm, Zweden. Voor de loutere afhandeling van een restitutieverzoek mag het OTA geen buitensporige eigen verwerkingskosten rekenen. Laat u zich daarom niet afschrikken door doorverwijzingen: uw recht op terugbetaling kan ook rechtstreeks tegenover het reisportaal bestaan.</p><!--opt-->",
-    "portal_url":"#"
+    "adresse": " Gotogate International AB (operated by Etraveli Group)\nBox 1340, SE-751 43 Uppsala\nZweden",
+    "infobox": "Gotogate is een internationale online reisagent (OTA) voor vliegtickets en maakt deel uit van Etraveli Group. Het platform biedt reizigers toegang tot vluchtopties van verschillende luchtvaartmaatschappijen en ondersteunt het zoeken, vergelijken en online boeken van vliegtickets. Gotogate treedt daarbij op als bemiddelend boekingsplatform en is niet de luchtvaartmaatschappij die de vlucht uitvoert. De onderneming maakt deel uit van een vluchttechnologie- en reisorganisatie. Voor vragen gebruikt de klant de eigen servicekanalen van Gotogate.",
+    "portal_url": "https://www.gotogate.com/rf/contact-us"
   },
   {
     "name": "Mytrip",
     "slug": "mytrip",
-    "adresse": "Etraveli Group AB\nBox 1340\n751 43 Uppsala, Zweden",
-    "infobox": "<p>Mytrip is een online boekingsplatform (OTA) en niet de uitvoerende luchtvaartmaatschappij van uw vlucht. Voor een ticketannulering en de terugbetaling van belastingen en toeslagen verwijzen OTA’s en airlines in de praktijk vaak naar elkaar, maar dat ontslaat geen van beide partijen van hun verplichtingen. Mytrip mag voor het louter doorgeven en afhandelen van een restitutieverzoek geen buitensporige eigen service- of verwerkingskosten rekenen. Het juridische hoofdkantoor van Mytrip / Etraveli Group is gevestigd in Stockholm, Zweden. Bewaar daarom alle boekings- en communicatiegegevens zorgvuldig.</p><!--opt-->",
-    "portal_url":"#"
-  },
-  {
-    "name": "Fluege.de",
-    "slug": "fluege-de",
-    "adresse": "Invia Flights Germany GmbH\nDittrichring 18-20\n04109 Leipzig, Duitsland",
-    "infobox": "<p>Fluege.de is een online boekingsplatform (OTA) en niet de luchtvaartmaatschappij die de vlucht uitvoert. Het aanbod wordt geëxploiteerd door Invia Flights Germany GmbH, gevestigd in Leipzig. Bij ticketannulering en de terugbetaling van belastingen en luchthaven- of servicekosten verwijzen OTA’s en airlines in de praktijk vaak naar elkaar. Juridisch geldt: voor de feitelijke terugbetaling moet de verantwoordelijke partij worden aangesproken, maar voor het pure restitutieproces mag een OTA geen buitensporige eigen verwerkingskosten rekenen. Controleer daarom altijd wie contractspartij is en welke kosten daadwerkelijk terugvorderbaar zijn.</p><!--opt-->",
-    "portal_url":"#"
-  },
-  {
-    "name": "lastminute.de",
-    "slug": "lastminute-de",
-    "adresse": "BravoNext SA\nVicolo de’ Calvi 2\n6830 Chiasso, Zwitserland",
-    "infobox": "<p>lastminute.de is een boekingsplatform (OTA) en niet de uitvoerende luchtvaartmaatschappij. Bij ticketannulering en terugbetaling van belastingen en toeslagen verwijzen OTA’s en airlines elkaar in de praktijk vaak door. Juridisch geldt echter: voor de afhandeling van een terugbetaling mag lastminute.de geen buitensporige eigen service- of verwerkingskosten rekenen als het uitsluitend gaat om de restitutie van reeds betaalde belastingen en heffingen. De juridische zetel van BravoNext SA, de exploitant van lastminute.de, bevindt zich in Chiasso, Zwitserland. Controleer altijd wie volgens het ticket en de boekingsvoorwaarden verantwoordelijk is voor de uitbetaling.</p><!--opt-->",
-    "portal_url":"#"
-  },
-  {
-    "name": "Cheaptickets.de",
-    "slug": "cheaptickets",
-    "adresse": "Travix Nederland B.V.\nPiet Heinkade 55\n1019 GM Amsterdam, Nederland",
-    "infobox": "<p>Cheaptickets.de is een online boekingsplatform (OTA) en niet de uitvoerende luchtvaartmaatschappij. Het hoofdkantoor van Cheaptickets.de ligt in Amsterdam, Nederland, en de dienst wordt geëxploiteerd door Travix Nederland. Bij ticketannuleringen en terugbetalingen van belastingen en toeslagen verwijzen OTA’s en luchtvaartmaatschappijen vaak naar elkaar. Juridisch geldt: voor de terugbetaling van door de airline verschuldigde bedragen mag het OTA geen buitensporige eigen verwerkingskosten rekenen voor alleen de afhandeling van de restitutie. Controleer daarom altijd wie contractspartij is en vraag om een duidelijke, transparante afrekening.</p><!--opt-->",
-    "portal_url":"#"
-  },
-  {
-    "name": "Check24 Flüge",
-    "slug": "check24-fluege",
-    "adresse": "CHECK24 Vergleichsportal Flug GmbH\nTrappentreustr. 1 - 3\n80339 München, Duitsland",
-    "infobox": "<p>Check24 Flüge is een boekingsplatform en OTA, niet de uitvoerende luchtvaartmaatschappij. Voor ticketannulering en terugbetaling van belastingen en toeslagen verwijst het portaal reizigers vaak door naar de airline, terwijl de airline soms weer naar de OTA terugverwijst. Juridisch geldt: voor de zuivere afhandeling van een restitutie mogen geen buitensporige eigen service- of verwerkingskosten worden gerekend. De hoofdzetel van Check24 Flüge ligt in München, Duitsland. Bij boekingsfouten of onjuiste doorbetaling van ticketgelden kan de OTA wel zelf aansprakelijk zijn.</p><!--opt-->",
-    "portal_url":"#"
+    "adresse": "Etraveli Group Holding AB\nRegeringsgatan 30\n111 53 Stockholm, Zweden",
+    "infobox": "Mytrip is een internationale online reisagent (OTA) voor vliegtickets en maakt deel uit van Etraveli Group. Het platform ondersteunt reizigers bij het zoeken, vergelijken en boeken van vluchtopties van verschillende luchtvaartmaatschappijen. Mytrip treedt bij deze dienstverlening op als online tussenpersoon en niet als de uitvoerende luchtvaartmaatschappij. Het merk maakt deel uit van een internationale organisatie voor vluchttechnologie en online reisbemiddeling. Voor vragen gebruikt de klant de eigen directe online servicekanalen van Mytrip.",
+    "portal_url": "https://www.mytrip.com/support/contact-us"
   },
   {
     "name": "Ander vluchtportaal (Algemeen sjabloon)",
