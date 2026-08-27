@@ -100,8 +100,7 @@
 
   <p>¿Estás planeando un viaje inolvidable a <strong>Brasil</strong> y quieres usar Google Maps para orientarte, enviar fotos de vacaciones por WhatsApp o navegar tranquilamente por la noche? Cuidado: quien sube al avión sin prepararse se lleva a menudo una desagradable sorpresa al volver en forma de una factura de móvil desorbitada.</p>
 
-  <div class="shock-box" style="background: #ffebee; border-left: 4px solid #c62828; padding: 15px 20px; margin: 20px 0; border-radius: 4px;">
-    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Atención: ¡no hay roaming gratuito en la UE!</h2>
+<div class="shock-box">    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Atención: ¡no hay roaming gratuito en la UE!</h2>
     <p>El cómodo "roam like at home", que conoces de otros países de la UE, aquí no se aplica. Si activas tu SIM alemana habitual en Brasil para Internet, se aplican las tarifas estándar de uso en el extranjero de proveedores como Telekom, Vodafone u o2.</p>
     <div class="shock-price" style="font-size: 1.5em; font-weight: bold; color: #c62828; margin: 10px 0;">Coste: ¡hasta 1,99 € por megabyte (MB)!</div>
     <p><em>Para ponerlo en contexto: un vídeo corto de 10 segundos que alguien te envía por WhatsApp consume aprox. 15 MB. Solo eso puede costarte más de 20 euros en Brasil. ¿Un vídeo corto de YouTube? Más rápido de lo que imaginas, se van 100 euros.</em></p>
@@ -149,7 +148,7 @@
     </form>
 
     <!-- Área de resultados para el JS -->
-    <div id="dataResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #1565c0;">
+    <div id="dataResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #8B0000;">
       <!-- Contenido inyectado por JS: GB necesarios, costes de roaming (>1000€) vs costes eSIM -->
     </div>
   </div>
@@ -158,15 +157,14 @@
   <h2>La solución: una eSIM digital para Brasil</h2>
   <p>En lugar de buscar con esfuerzo en el aeropuerto una tienda de móviles carísima, hacer cola allí y dejar que escaneen tu pasaporte, simplemente descarga una <strong>eSIM (una tarjeta SIM digital)</strong> en tu smartphone antes de volar. Solo escaneas un código QR y tendrás cobertura en cuanto aterrices.</p>
 
-  <div class="solution-box" style="background: #f1f8e9; border: 2px solid #a5d6a7; padding: 25px; border-radius: 8px; text-align: center; margin: 30px 0;">
-    <h2 style="color: #2e7d32; margin-top: 0;">✅ El truco de viaje inteligente: Holafly</h2>
+<div class="solution-box">    <h2> El truco de viaje inteligente: Holafly</h2>
     <p>Con el líder del mercado <strong>Holafly</strong>, descargas tu paquete de datos como una app directamente en el móvil. La ventaja: tu número alemán sigue activo en segundo plano para llamadas entrantes o SMS (¡importante para la banca online!).</p>
     
     <span style="font-size: 0.75rem; color: #fff; background-color: rgba(0,0,0,0.15); padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; display: inline-block; margin-bottom: 12px; font-weight: bold;">
         Anuncio / recomendación publicitaria
     </span>
     
-    <div class="solution-price" style="font-size: 2em; font-weight: 900; color: #1565c0; margin: 15px 0;">desde 7,00 $</div>
+    <div class="solution-price">desde 7,00 $</div>
     <p style="font-size: 1.1em; margin-bottom: 25px;"><strong>Mejor relación calidad-precio:</strong> 1 GB durante 7 días en la red local más potente de Brasil.</p>
     
     <a href="https://esim.holafly.com" target="_blank" rel="noopener nofollow" class="button-primary" style="background: #ffb300; color: #000; display: inline-block; padding: 15px 30px; text-decoration: none; border-radius: 6px; font-size: 1.2em;">Ver ahora las tarifas eSIM de Holafly</a>
@@ -224,11 +222,11 @@
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Otros temas interesantes:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="internet-roaming-kosten-kanada.html">Canadá</a>
-<a href="internet-roaming-kosten-indien.html">India</a>
-<a href="internet-roaming-kosten-chile.html">Chile</a>
-<a href="internet-roaming-kosten-philippinen.html">Filipinas</a>
-<a href="internet-roaming-kosten-malaysia.html">Malasia</a>
+    <a href="internet-roaming-kosten-neuseeland.html">Nueva Zelanda</a>
+<a href="internet-roaming-kosten-peru.html">Perú</a>
+<a href="internet-roaming-kosten-kenia.html">Kenia</a>
+<a href="internet-roaming-kosten-suedafrika.html">Sudáfrica</a>
+<a href="internet-roaming-kosten-tunesien.html">Túnez</a>
 
   </div>
 </div>
@@ -353,7 +351,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // 5. Mostrar el resultado en el recuadro
       resultBox.style.display = 'block';
       resultBox.innerHTML = `
-        <h3 style="color: #1565c0; margin-top: 0; font-size: 1.4em;">Tu resultado para ${days} días:</h3>
+        <h3 style="color: #c62828; margin-top: 0; font-size: 1.4em;">Tu resultado para ${days} días:</h3>
         <p style="font-size: 1.1em;">Probablemente necesitarás <strong>aprox. ${totalGB} GB</strong> de datos para este periodo.</p>
         
         <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
@@ -375,7 +373,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         
         <p style="margin-top: 25px; text-align: center;">
-          <button onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth'});" style="background: #1565c0; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">Ver ahora la alternativa barata</button>
+          <button onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth'});" style="background: #8B0000; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">Ver ahora la alternativa barata</button>
         </p>
       `;
     });

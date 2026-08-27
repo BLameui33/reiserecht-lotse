@@ -39,7 +39,13 @@
 
     /* Rechner Slider */
     .slider-container { margin: 15px 0; }
-    .slider-value { font-weight: bold; color: #1565c0; font-size: 1.1em; }
+    .slider-value { font-weight: bold; color: #8B0000; font-size: 1.1em; }
+    #cCardPercent {
+  accent-color: #8B0000; 
+}
+    #cCardPercent {
+  accent-color: #8B0000; 
+}
     
     /* Sticky CTA Bar (Mobile & Desktop) */
     .sticky-cta { position: fixed; bottom: 0; left: 0; width: 100%; background: #fff; padding: 15px; box-shadow: 0 -2px 10px rgba(0,0,0,0.1); text-align: center; z-index: 1000; transform: translateY(100%); transition: transform 0.3s ease; }
@@ -133,8 +139,7 @@
     </ul>
   </nav>
 
-  <div class="shock-box" style="background: #ffebee; border-left: 4px solid #c62828; padding: 15px 20px; margin: 20px 0; border-radius: 4px;">
-    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Achtung: Teure Umrechnung in Britisches Pfund (GBP)!</h2>
+<div class="shock-box">    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Achtung: Teure Umrechnung in Britisches Pfund (GBP)!</h2>
     <p>In Großbritannien zahlen Sie nicht in Euro. Jedes Mal, wenn Sie Ihre normale Sparkassen-, Volksbank- oder Direktbank-Karte nutzen, berechnet Ihnen Ihre Bank ein sogenanntes <strong>Auslandseinsatzentgelt</strong> (meist 1,75% bis 2,00%).</p>
     <div class="shock-price" style="font-size: 1.2em; font-weight: bold; color: #c62828; margin: 10px 0;">Zusätzlich fallen am Geldautomaten oft pauschal 5,00 € bis 7,50 € pro Abhebung an!</div>
     <p><em>Viele Urlauber bemerken diese schleichende Abzocke erst Wochen später, wenn sie zu Hause ihren Kontoauszug überprüfen und dutzende kleine "Fremdwährungs-Gebühren" abgebucht wurden.</em></p>
@@ -150,7 +155,7 @@
   <div class="calc-box">
     <form id="feeCalcForm">
       <fieldset style="border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
-        <legend style="font-weight: bold; padding: 0 10px; color: #1565c0;">Ihr Reisebudget & Verhalten</legend>
+        <legend style="font-weight: bold; padding: 0 10px; color: #f6f7f8;">Ihr Reisebudget & Verhalten</legend>
         
         <label for="cBudget" style="display:block; margin-top: 10px; font-weight:bold;">Ungefähres Budget vor Ort (in Euro):</label>
         <p style="font-size: 0.85em; color: #666; margin-top: 2px; margin-bottom: 10px;">(Ausgaben für Essen, Ausflüge, Shopping, Hotel vor Ort)</p>
@@ -178,29 +183,28 @@
         </select>
       </fieldset>
 
-      <button type="submit" class="button-primary" id="calcFeeBtn" style="background: #1565c0; color: #fff; padding: 15px 30px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer; width: 100%; margin-top: 20px;">Versteckte Gebühren berechnen</button>
+      <button type="submit" class="button-primary" id="calcFeeBtn" style="background: #8B0000; color: #fff; padding: 15px 30px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer; width: 100%; margin-top: 20px;">Versteckte Gebühren berechnen</button>
     </form>
 
-    <div id="feeResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #1565c0;">
+    <div id="feeResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #8B0000;">
       </div>
   </div>
 
   <h2 id="loesung">Die Lösung: Eine dauerhaft kostenlose Reisekreditkarte</h2>
   <p>Sie müssen diese Banken-Abzocke nicht hinnehmen. Spezielle "Travel-Kreditkarten" wurden genau für diesen Zweck entwickelt: Sie verzichten weltweit komplett auf das Auslandseinsatzentgelt und übernehmen sogar die Gebühren für Abhebungen an fremden Automaten.</p>
 
-  <div class="solution-box" style="background: #f1f8e9; border: 2px solid #a5d6a7; padding: 25px; border-radius: 8px; text-align: center; margin: 30px 0;">
-
+<div class="solution-box">
     <span style="font-size: 0.75rem; color: #fff; background-color: rgba(0,0,0,0.15); padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; display: inline-block; margin-bottom: 12px; font-weight: bold;">
         Anzeige / Werbeempfehlung
     </span>
     
-    <h2 style="color: #2e7d32; margin-top: 0;">✅ Der smarte Reise-Hack: 0€ Gebühren</h2>
+    <h2> Der smarte Reise-Hack: 0€ Gebühren</h2>
     <p>Beantragen Sie vor Ihrem Urlaub eine gebührenfreie Reisekreditkarte (z.B. Barclays, DKB, TF Bank oder N26). Diese Karten kosten <strong>0 € Jahresgebühr</strong> – ein Leben lang.</p>
     
-    <div class="solution-price" style="font-size: 1.5em; font-weight: 900; color: #1565c0; margin: 15px 0;">0% Fremdwährungsgebühr in Großbritannien</div>
+    <div class="solution-price">0% Fremdwährungsgebühr in Großbritannien</div>
     <p style="font-size: 1.1em; margin-bottom: 25px;">Bezahlen Sie in Britisches Pfund (GBP) immer zum echten, fairen Visa/Mastercard-Wechselkurs.</p>
     
-    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" class="button-primary main-affiliate-btn" style="background: #ffb300; color: #000; display: inline-block; padding: 15px 30px; text-decoration: none; border-radius: 6px; font-size: 1.2em; font-weight: bold;">Jetzt beste Reisekreditkarten vergleichen</a>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" class="button-primary main-affiliate-btn">Jetzt beste Reisekreditkarten vergleichen</a>
     <p style="font-size: 0.85em; color: #666; margin-top: 15px;">Dauerhaft kostenfrei • 0€ am Geldautomaten weltweit • Apple/Google Pay fähig</p>
   </div>
 
@@ -260,11 +264,11 @@
   <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
     <h3>Informationen zu weiteren Reiseländern:</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="geld-abheben-bezahlen-kanada.html">Kanada</a>
-<a href="geld-abheben-bezahlen-laos.html">Laos</a>
-<a href="geld-abheben-bezahlen-taiwan.html">Taiwan</a>
-<a href="geld-abheben-bezahlen-oman.html">Oman</a>
-<a href="geld-abheben-bezahlen-japan.html">Japan</a>
+      <a href="geld-abheben-bezahlen-dominikanische-republik.html">Dominikanische Republik</a>
+<a href="geld-abheben-bezahlen-norwegen.html">Norwegen</a>
+<a href="geld-abheben-bezahlen-australien.html">Australien</a>
+<a href="geld-abheben-bezahlen-usa.html">USA</a>
+<a href="geld-abheben-bezahlen-thailand.html">Thailand</a>
 
     </div>
   </div>
@@ -356,7 +360,7 @@
 
 <div id="stickyCta" class="sticky-cta">
   <p style="margin: 0 0 10px 0; font-size: 0.9em; font-weight: bold; color: #333;">0€ Fremdwährungsgebühr in Großbritannien</p>
-  <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" class="button-primary" style="background: #ffb300; color: #000; text-decoration: none; border-radius: 6px; font-weight: bold;">Reisekreditkarten vergleichen</a>
+  <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" class="button-primary" style="background: #8B0000; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold;">Reisekreditkarten vergleichen</a>
 </div>
 
 <script>
@@ -415,7 +419,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // 5. Ausgabe
       resultBox.style.display = 'block';
       resultBox.innerHTML = `
-        <h3 style="color: #1565c0; margin-top: 0; font-size: 1.4em;">Ihre geschätzte Gebühren-Falle:</h3>
+        <h3 style="color: #c62828; margin-top: 0; font-size: 1.4em;">Ihre geschätzte Gebühren-Falle:</h3>
         <p style="font-size: 1.1em;">Bei einem Budget von ${formatCurrency(budget)} (${cardPercent}% Karte) und ${withdrawals} Abhebungen berechnet Ihnen Ihre Hausbank voraussichtlich:</p>
         
         <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
@@ -435,7 +439,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         
         <p style="margin-top: 25px; text-align: center;">
-          <button type="button" onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth', block: 'center'});" style="background: #1565c0; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">Jetzt Kostenlos-Karte sichern & Geld sparen</button>
+          <button type="button" onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth', block: 'center'});" style="background: #8B0000; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">Jetzt Kostenlos-Karte sichern & Geld sparen</button>
         </p>
       `;
 

@@ -100,8 +100,7 @@
 
   <p>Are you planning an unforgettable trip to <strong>Singapore</strong> and want to use Google Maps for navigation, send vacation photos via WhatsApp, or surf the web in the evening? Beware: Travelers who hop on a plane unprepared often experience a nasty surprise in the form of a horrendous cell phone bill upon their return.</p>
 
-  <div class="shock-box" style="background: #ffebee; border-left: 4px solid #c62828; padding: 15px 20px; margin: 20px 0; border-radius: 4px;">
-    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Warning: Expensive International Roaming!</h2>
+<div class="shock-box">    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Warning: Expensive International Roaming!</h2>
     <p>Your standard domestic data plan usually does not apply here! If you leave your regular US SIM card active for internet in Singapore, standard international Pay-As-You-Go rates from providers like AT&T, Verizon, or T-Mobile will apply.</p>
     <div class="shock-price" style="font-size: 1.5em; font-weight: bold; color: #c62828; margin: 10px 0;">Costs: up to $2.05 per Megabyte (MB)!</div>
     <p><em>For context: A short 10-second video that someone sends you on WhatsApp uses about 15 MB. That alone can cost you over $30 in Singapore. A short YouTube video? $100 can be gone faster than you think.</em></p>
@@ -149,7 +148,7 @@
     </form>
 
     <!-- Ergebnisbereich für das JS -->
-    <div id="dataResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #1565c0;">
+    <div id="dataResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #8B0000;">
       <!-- JS injected Content: Benötigte GB, Roaming-Kosten (>1000€) vs eSIM Kosten -->
     </div>
   </div>
@@ -158,15 +157,14 @@
   <h2>The Solution: A digital eSIM for Singapore</h2>
   <p>Instead of struggling to find an overpriced cell phone shop at the airport, standing in line, and having your passport scanned, simply download an <strong>eSIM (a digital SIM card)</strong> to your smartphone before your departure. You just scan a QR code and have instant reception upon landing.</p>
 
-  <div class="solution-box" style="background: #f1f8e9; border: 2px solid #a5d6a7; padding: 25px; border-radius: 8px; text-align: center; margin: 30px 0;">
-    <h2 style="color: #2e7d32; margin-top: 0;">✅ The Smart Travel Hack: Holafly</h2>
+<div class="solution-box">    <h2> The Smart Travel Hack: Holafly</h2>
     <p>With the market leader <strong>Holafly</strong>, you download your data package directly to your phone via their app. The best part: Your US phone number remains active in the background for incoming calls or texts (crucial for 2FA and online banking!).</p>
     
     <span style="font-size: 0.75rem; color: #fff; background-color: rgba(0,0,0,0.15); padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; display: inline-block; margin-bottom: 12px; font-weight: bold;">
         Advertisement / Affiliate Recommendation
     </span>
     
-    <div class="solution-price" style="font-size: 2em; font-weight: 900; color: #1565c0; margin: 15px 0;">from $4.50</div>
+    <div class="solution-price">from $4.50</div>
     <p style="font-size: 1.1em; margin-bottom: 25px;"><strong>Best Value Package:</strong> 1 GB for 7 days on the strongest local network in Singapore.</p>
     
     <a href="https://esim.holafly.com" target="_blank" rel="noopener nofollow" class="button-primary" style="background: #ffb300; color: #000; display: inline-block; padding: 15px 30px; text-decoration: none; border-radius: 6px; font-size: 1.2em;">View Holafly eSIM Plans Now</a>
@@ -224,11 +222,11 @@
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Other interesting topics:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="internet-roaming-kosten-bahamas.html">Bahamas</a>
-<a href="internet-roaming-kosten-suedafrika.html">South Africa</a>
-<a href="internet-roaming-kosten-schweiz.html">Switzerland</a>
-<a href="internet-roaming-kosten-peru.html">Peru</a>
-<a href="internet-roaming-kosten-argentinien.html">Argentina</a>
+    <a href="internet-roaming-kosten-argentinien.html">Argentina</a>
+<a href="internet-roaming-kosten-kreuzfahrt.html">Cruise Ship</a>
+<a href="internet-roaming-kosten-chile.html">Chile</a>
+<a href="internet-roaming-kosten-bahamas.html">Bahamas</a>
+<a href="internet-roaming-kosten-mexiko.html">Mexico</a>
 
   </div>
 </div>
@@ -353,7 +351,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // 5. Ergebnis in der Box ausgeben und anzeigen
       resultBox.style.display = 'block';
       resultBox.innerHTML = `
-        <h3 style="color: #1565c0; margin-top: 0; font-size: 1.4em;">Your result for ${days} days:</h3>
+        <h3 style="color: #c62828; margin-top: 0; font-size: 1.4em;">Your result for ${days} days:</h3>
         <p style="font-size: 1.1em;">You will likely need <strong>approx. ${totalGB} GB</strong> of data volume for this period.</p>
         
         <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
@@ -375,7 +373,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         
         <p style="margin-top: 25px; text-align: center;">
-          <button onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth'});" style="background: #1565c0; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">View the affordable alternative now</button>
+          <button onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth'});" style="background: #8B0000; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">View the affordable alternative now</button>
         </p>
       `;
     });

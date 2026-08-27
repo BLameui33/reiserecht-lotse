@@ -39,7 +39,10 @@
 
     /* Calculator slider */
     .slider-container { margin: 15px 0; }
-    .slider-value { font-weight: bold; color: #1565c0; font-size: 1.1em; }
+    .slider-value { font-weight: bold; color: #8B0000; font-size: 1.1em; }
+    #cCardPercent {
+  accent-color: #8B0000; 
+}
     
     /* Sticky CTA Bar (Mobile & Desktop) */
     .sticky-cta { position: fixed; bottom: 0; left: 0; width: 100%; background: #fff; padding: 15px; box-shadow: 0 -2px 10px rgba(0,0,0,0.1); text-align: center; z-index: 1000; transform: translateY(100%); transition: transform 0.3s ease; }
@@ -133,8 +136,7 @@
     </ul>
   </nav>
 
-  <div class="shock-box" style="background: #ffebee; border-left: 4px solid #c62828; padding: 15px 20px; margin: 20px 0; border-radius: 4px;">
-    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Warning: expensive conversion into Indonesian Rupiah (IDR)!</h2>
+<div class="shock-box">    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Warning: expensive conversion into Indonesian Rupiah (IDR)!</h2>
     <p>In Indonesia, you do not pay in pounds. Every time you use your normal bank card, your bank may charge a so-called <strong>foreign transaction fee</strong> (usually 1.75% to 2.00%).</p>
     <div class="shock-price" style="font-size: 1.2em; font-weight: bold; color: #c62828; margin: 10px 0;">On top of that, ATMs often charge a flat fee of £4.50 to £6.50 per withdrawal.</div>
     <p><em>Many holidaymakers only notice this creeping drain on their money weeks later, when they check their bank statement at home and find dozens of small foreign currency charges.</em></p>
@@ -150,7 +152,7 @@
   <div class="calc-box">
     <form id="feeCalcForm">
       <fieldset style="border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
-        <legend style="font-weight: bold; padding: 0 10px; color: #1565c0;">Your travel budget & behaviour</legend>
+        <legend style="font-weight: bold; padding: 0 10px; color: #f6f7f8;">Your travel budget & behaviour</legend>
         
         <label for="cBudget" style="display:block; margin-top: 10px; font-weight:bold;">Approximate budget on the ground (in pounds):</label>
         <p style="font-size: 0.85em; color: #666; margin-top: 2px; margin-bottom: 10px;">(Spending on food, excursions, shopping and accommodation locally)</p>
@@ -178,29 +180,28 @@
         </select>
       </fieldset>
 
-      <button type="submit" class="button-primary" id="calcFeeBtn" style="background: #1565c0; color: #fff; padding: 15px 30px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer; width: 100%; margin-top: 20px;">Calculate hidden charges</button>
+      <button type="submit" class="button-primary" id="calcFeeBtn" style="background: #8B0000; color: #fff; padding: 15px 30px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer; width: 100%; margin-top: 20px;">Calculate hidden charges</button>
     </form>
 
-    <div id="feeResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #1565c0;">
+    <div id="feeResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #8B0000;">
       </div>
   </div>
 
   <h2 id="loesung">The solution: a permanently fee-free travel credit card</h2>
   <p>You do not have to put up with these bank charges. Specialist travel credit cards are designed for exactly this purpose: they waive foreign transaction fees worldwide and may even cover charges for withdrawals at third-party ATMs, depending on the provider’s terms.</p>
 
-  <div class="solution-box" style="background: #f1f8e9; border: 2px solid #a5d6a7; padding: 25px; border-radius: 8px; text-align: center; margin: 30px 0;">
-
+<div class="solution-box">
     <span style="font-size: 0.75rem; color: #fff; background-color: rgba(0,0,0,0.15); padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; display: inline-block; margin-bottom: 12px; font-weight: bold;">
         Advertisement / Promotional recommendation
     </span>
     
-    <h2 style="color: #2e7d32; margin-top: 0;">✅ The smart travel hack: £0 fees</h2>
+    <h2> The smart travel hack: £0 fees</h2>
     <p>Apply for a fee-free travel credit card before your holiday (for example Barclays, DKB, TF Bank or N26). These cards often come with a <strong>£0 annual fee</strong> on a long-term basis.</p>
     
-    <div class="solution-price" style="font-size: 1.5em; font-weight: 900; color: #1565c0; margin: 15px 0;">0% foreign transaction fee in Indonesia</div>
+    <div class="solution-price">0% foreign transaction fee in Indonesia</div>
     <p style="font-size: 1.1em; margin-bottom: 25px;">Pay in Indonesian Rupiah (IDR) using the genuine, fair Visa/Mastercard exchange rate.</p>
     
-    <a href="#" target="_blank" rel="noopener nofollow" class="button-primary main-affiliate-btn" style="background: #ffb300; color: #000; display: inline-block; padding: 15px 30px; text-decoration: none; border-radius: 6px; font-size: 1.2em; font-weight: bold;">Compare the best travel credit cards now</a>
+    <a href="#" target="_blank" rel="noopener nofollow" class="button-primary main-affiliate-btn">Compare the best travel credit cards now</a>
     <p style="font-size: 0.85em; color: #666; margin-top: 15px;">Permanently fee-free • £0 at ATMs worldwide • Apple/Google Pay compatible</p>
   </div>
 
@@ -260,11 +261,11 @@
   <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
     <h3>Information on other travel destinations:</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="geld-abheben-bezahlen-nordmazedonien.html">North Macedonia</a>
-<a href="geld-abheben-bezahlen-serbien.html">Serbia</a>
-<a href="geld-abheben-bezahlen-australien.html">Australia</a>
-<a href="geld-abheben-bezahlen-singapur.html">Singapore</a>
-<a href="geld-abheben-bezahlen-malediven.html">Maldives</a>
+      <a href="geld-abheben-bezahlen-nepal.html">Nepal</a>
+<a href="geld-abheben-bezahlen-malaysia.html">Malaysia</a>
+<a href="geld-abheben-bezahlen-jordanien.html">Jordan</a>
+<a href="geld-abheben-bezahlen-costa-rica.html">Costa Rica</a>
+<a href="geld-abheben-bezahlen-bahamas.html">Bahamas</a>
 
     </div>
   </div>
@@ -356,7 +357,7 @@
 
 <div id="stickyCta" class="sticky-cta">
   <p style="margin: 0 0 10px 0; font-size: 0.9em; font-weight: bold; color: #333;">0% foreign transaction fee in Indonesia</p>
-  <a href="#" target="_blank" rel="noopener nofollow" class="button-primary" style="background: #ffb300; color: #000; text-decoration: none; border-radius: 6px; font-weight: bold;">Compare travel credit cards</a>
+  <a href="#" target="_blank" rel="noopener nofollow" class="button-primary" style="background: #8B0000; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold;">Compare travel credit cards</a>
 </div>
 
 <script>
@@ -415,7 +416,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // 5. Output
       resultBox.style.display = 'block';
       resultBox.innerHTML = `
-        <h3 style="color: #1565c0; margin-top: 0; font-size: 1.4em;">Your estimated fees trap:</h3>
+        <h3 style="color: #c62828; margin-top: 0; font-size: 1.4em;">Your estimated fees trap:</h3>
         <p style="font-size: 1.1em;">With a budget of ${formatCurrency(budget)} (${cardPercent}% by card) and ${withdrawals} withdrawals, your bank is likely to charge you:</p>
         
         <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
@@ -435,7 +436,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         
         <p style="margin-top: 25px; text-align: center;">
-          <button type="button" onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth', block: 'center'});" style="background: #1565c0; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">Get a free card now & save money</button>
+          <button type="button" onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth', block: 'center'});" style="background: #8B0000; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">Get a free card now & save money</button>
         </p>
       `;
 

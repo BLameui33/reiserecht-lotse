@@ -38,7 +38,10 @@
 
     /* Rechner Slider */
     .slider-container { margin: 15px 0; }
-    .slider-value { font-weight: bold; color: #1565c0; font-size: 1.1em; }
+    .slider-value { font-weight: bold; color: #8B0000; font-size: 1.1em; }
+    #cCardPercent {
+  accent-color: #8B0000; 
+}
     
     /* Sticky CTA Bar (Mobile & Desktop) */
     .sticky-cta { position: fixed; bottom: 0; left: 0; width: 100%; background: #fff; padding: 15px; box-shadow: 0 -2px 10px rgba(0,0,0,0.1); text-align: center; z-index: 1000; transform: translateY(100%); transition: transform 0.3s ease; }
@@ -132,8 +135,7 @@
     </ul>
   </nav>
 
-  <div class="shock-box" style="background: #ffebee; border-left: 4px solid #c62828; padding: 15px 20px; margin: 20px 0; border-radius: 4px;">
-    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Atención: ¡costosa conversión a Dólar australiano (AUD)!</h2>
+<div class="shock-box">    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Atención: ¡costosa conversión a Dólar australiano (AUD)!</h2>
     <p>En Australia no se paga en euros. Cada vez que utiliza su tarjeta habitual de una Banco Santander, BBVA o banco directo, su banco le cobra un llamado <strong>recargo por uso en el extranjero</strong> (normalmente entre el 1,75% y el 2,00%).</p>
     <div class="shock-price" style="font-size: 1.2em; font-weight: bold; color: #c62828; margin: 10px 0;">Además, en el cajero suelen aplicarse entre 5,00 € y 7,50 € por retirada, de forma fija.</div>
     <p><em>Muchos viajeros solo se dan cuenta de este abuso silencioso semanas después, cuando revisan su extracto bancario en casa y ven cargadas decenas de pequeñas "comisiones por divisa extranjera".</em></p>
@@ -149,7 +151,7 @@
   <div class="calc-box">
     <form id="feeCalcForm">
       <fieldset style="border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
-        <legend style="font-weight: bold; padding: 0 10px; color: #1565c0;">Su presupuesto de viaje y comportamiento</legend>
+        <legend style="font-weight: bold; padding: 0 10px; color: #f6f7f8;">Su presupuesto de viaje y comportamiento</legend>
         
         <label for="cBudget" style="display:block; margin-top: 10px; font-weight:bold;">Presupuesto aproximado en destino (en euros):</label>
         <p style="font-size: 0.85em; color: #666; margin-top: 2px; margin-bottom: 10px;">(Gastos de comida, excursiones, compras, hotel en destino)</p>
@@ -177,29 +179,28 @@
         </select>
       </fieldset>
 
-      <button type="submit" class="button-primary" id="calcFeeBtn" style="background: #1565c0; color: #fff; padding: 15px 30px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer; width: 100%; margin-top: 20px;">Calcular comisiones ocultas</button>
+      <button type="submit" class="button-primary" id="calcFeeBtn" style="background: #8B0000; color: #fff; padding: 15px 30px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer; width: 100%; margin-top: 20px;">Calcular comisiones ocultas</button>
     </form>
 
-    <div id="feeResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #1565c0;">
+    <div id="feeResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #8B0000;">
       </div>
   </div>
 
   <h2 id="loesung">La solución: una tarjeta de crédito de viaje permanentemente gratuita</h2>
   <p>No tiene por qué aceptar este abuso bancario. Las tarjetas de crédito de viaje especiales se han desarrollado precisamente para este fin: eliminan por completo el recargo por uso en el extranjero en todo el mundo e incluso asumen las comisiones por retiradas en cajeros ajenos.</p>
 
-  <div class="solution-box" style="background: #f1f8e9; border: 2px solid #a5d6a7; padding: 25px; border-radius: 8px; text-align: center; margin: 30px 0;">
-
+<div class="solution-box">
     <span style="font-size: 0.75rem; color: #fff; background-color: rgba(0,0,0,0.15); padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; display: inline-block; margin-bottom: 12px; font-weight: bold;">
         Anuncio / recomendación publicitaria
     </span>
     
-    <h2 style="color: #2e7d32; margin-top: 0;">✅ El truco de viaje inteligente: 0 € en comisiones</h2>
+    <h2> El truco de viaje inteligente: 0 € en comisiones</h2>
     <p>Solicite antes de sus vacaciones una tarjeta de crédito de viaje sin comisiones (p. ej., Barclays, DKB, TF Bank o N26). Estas tarjetas cuestan <strong>0 € de cuota anual</strong> — de por vida.</p>
     
-    <div class="solution-price" style="font-size: 1.5em; font-weight: 900; color: #1565c0; margin: 15px 0;">0% de comisión por divisa extranjera en Australia</div>
+    <div class="solution-price">0% de comisión por divisa extranjera en Australia</div>
     <p style="font-size: 1.1em; margin-bottom: 25px;">Pague siempre en Dólar australiano (AUD) al tipo de cambio real y justo de Visa/Mastercard.</p>
     
-    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" class="button-primary main-affiliate-btn" style="background: #ffb300; color: #000; display: inline-block; padding: 15px 30px; text-decoration: none; border-radius: 6px; font-size: 1.2em; font-weight: bold;">Comparar ahora las mejores tarjetas de viaje</a>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" class="button-primary main-affiliate-btn">Comparar ahora las mejores tarjetas de viaje</a>
     <p style="font-size: 0.85em; color: #666; margin-top: 15px;">Siempre gratis • 0 € en cajeros de todo el mundo • Compatible con Apple/Google Pay</p>
   </div>
 
@@ -259,11 +260,11 @@
   <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
     <h3>Información sobre otros destinos de viaje:</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="geld-abheben-bezahlen-tuerkei.html">Turquía</a>
-<a href="geld-abheben-bezahlen-mexiko.html">México</a>
-<a href="geld-abheben-bezahlen-indien.html">India</a>
-<a href="geld-abheben-bezahlen-tunesien.html">Túnez</a>
-<a href="geld-abheben-bezahlen-taiwan.html">Taiwán</a>
+      <a href="geld-abheben-bezahlen-thailand.html">Tailandia</a>
+<a href="geld-abheben-bezahlen-tansania.html">Tanzania</a>
+<a href="geld-abheben-bezahlen-brasilien.html">Brasil</a>
+<a href="geld-abheben-bezahlen-grossbritannien.html">Gran Bretaña</a>
+<a href="geld-abheben-bezahlen-marokko.html">Marruecos</a>
 
     </div>
   </div>
@@ -355,7 +356,7 @@
 
 <div id="stickyCta" class="sticky-cta">
   <p style="margin: 0 0 10px 0; font-size: 0.9em; font-weight: bold; color: #333;">0 € de comisión por divisa extranjera en Australia</p>
-  <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" class="button-primary" style="background: #ffb300; color: #000; text-decoration: none; border-radius: 6px; font-weight: bold;">Comparar tarjetas de viaje</a>
+  <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" class="button-primary" style="background: #8B0000; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold;">Comparar tarjetas de viaje</a>
 </div>
 
 <script>
@@ -414,7 +415,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // 5. Salida
       resultBox.style.display = 'block';
       resultBox.innerHTML = `
-        <h3 style="color: #1565c0; margin-top: 0; font-size: 1.4em;">Su trampa de comisiones estimada:</h3>
+        <h3 style="color: #c62828; margin-top: 0; font-size: 1.4em;">Su trampa de comisiones estimada:</h3>
         <p style="font-size: 1.1em;">Con un presupuesto de ${formatCurrency(budget)} (${cardPercent}% con tarjeta) y ${withdrawals} retiradas, su banco habitual probablemente le cobrará:</p>
         
         <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
@@ -434,7 +435,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         
         <p style="margin-top: 25px; text-align: center;">
-          <button type="button" onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth', block: 'center'});" style="background: #1565c0; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">Consiga ahora su tarjeta gratis y ahorre dinero</button>
+          <button type="button" onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth', block: 'center'});" style="background: #8B0000; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">Consiga ahora su tarjeta gratis y ahorre dinero</button>
         </p>
       `;
 

@@ -38,7 +38,10 @@
 
     /* Rechner Slider */
     .slider-container { margin: 15px 0; }
-    .slider-value { font-weight: bold; color: #1565c0; font-size: 1.1em; }
+    .slider-value { font-weight: bold; color: #8B0000; font-size: 1.1em; }
+    #cCardPercent {
+  accent-color: #8B0000; 
+}
     
     /* Sticky CTA Bar (Mobile & Desktop) */
     .sticky-cta { position: fixed; bottom: 0; left: 0; width: 100%; background: #fff; padding: 15px; box-shadow: 0 -2px 10px rgba(0,0,0,0.1); text-align: center; z-index: 1000; transform: translateY(100%); transition: transform 0.3s ease; }
@@ -132,8 +135,7 @@
     </ul>
   </nav>
 
-  <div class="shock-box" style="background: #ffebee; border-left: 4px solid #c62828; padding: 15px 20px; margin: 20px 0; border-radius: 4px;">
-    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Attention : conversion coûteuse en Peso philippin (PHP) !</h2>
+<div class="shock-box">    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Attention : conversion coûteuse en Peso philippin (PHP) !</h2>
     <p>En Philippines, vous ne payez pas en euros. Chaque fois que vous utilisez votre carte habituelle de banque de détail ou de banque en ligne, votre banque vous facture des <strong>frais de change</strong> (généralement de 1,75 % à 2,00 %).</p>
     <div class="shock-price" style="font-size: 1.2em; font-weight: bold; color: #c62828; margin: 10px 0;">En plus, les distributeurs appliquent souvent un forfait de 5,00 € à 7,50 € par retrait !</div>
     <p><em>Beaucoup de vacanciers ne remarquent cette arnaque progressive que des semaines plus tard, lorsqu'ils vérifient leur relevé bancaire à la maison et constatent que de nombreux petits "frais de devise étrangère" ont été débités.</em></p>
@@ -149,7 +151,7 @@
   <div class="calc-box">
     <form id="feeCalcForm">
       <fieldset style="border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
-        <legend style="font-weight: bold; padding: 0 10px; color: #1565c0;">Votre budget de voyage et votre comportement</legend>
+        <legend style="font-weight: bold; padding: 0 10px; color: #f6f7f8;">Votre budget de voyage et votre comportement</legend>
         
         <label for="cBudget" style="display:block; margin-top: 10px; font-weight:bold;">Budget approximatif sur place (en euros) :</label>
         <p style="font-size: 0.85em; color: #666; margin-top: 2px; margin-bottom: 10px;">(Dépenses pour les repas, les excursions, le shopping, l'hôtel sur place)</p>
@@ -177,29 +179,28 @@
         </select>
       </fieldset>
 
-      <button type="submit" class="button-primary" id="calcFeeBtn" style="background: #1565c0; color: #fff; padding: 15px 30px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer; width: 100%; margin-top: 20px;">Calculer les frais cachés</button>
+      <button type="submit" class="button-primary" id="calcFeeBtn" style="background: #8B0000; color: #fff; padding: 15px 30px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer; width: 100%; margin-top: 20px;">Calculer les frais cachés</button>
     </form>
 
-    <div id="feeResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #1565c0;">
+    <div id="feeResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #8B0000;">
       </div>
   </div>
 
   <h2 id="loesung">La solution : une carte de voyage durablement gratuite</h2>
   <p>Vous n'êtes pas obligé d'accepter cette arnaque bancaire. Les cartes de voyage spéciales ont été conçues précisément pour cela : elles suppriment totalement les frais de change dans le monde entier et prennent même en charge les frais de retrait aux distributeurs étrangers.</p>
 
-  <div class="solution-box" style="background: #f1f8e9; border: 2px solid #a5d6a7; padding: 25px; border-radius: 8px; text-align: center; margin: 30px 0;">
-
+<div class="solution-box">
     <span style="font-size: 0.75rem; color: #fff; background-color: rgba(0,0,0,0.15); padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; display: inline-block; margin-bottom: 12px; font-weight: bold;">
         Publicité / recommandation sponsorisée
     </span>
     
-    <h2 style="color: #2e7d32; margin-top: 0;">✅ L'astuce voyage intelligente : 0 € de frais</h2>
+    <h2> L'astuce voyage intelligente : 0 € de frais</h2>
     <p>Demandez avant votre départ une carte de voyage sans frais (p. ex. Barclays, DKB, TF Bank ou N26). Ces cartes coûtent <strong>0 € de cotisation annuelle</strong> — à vie.</p>
     
-    <div class="solution-price" style="font-size: 1.5em; font-weight: 900; color: #1565c0; margin: 15px 0;">0 % de frais de change en Philippines</div>
+    <div class="solution-price">0 % de frais de change en Philippines</div>
     <p style="font-size: 1.1em; margin-bottom: 25px;">Payez toujours en Peso philippin (PHP) au vrai taux de change équitable Visa/Mastercard.</p>
     
-    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" class="button-primary main-affiliate-btn" style="background: #ffb300; color: #000; display: inline-block; padding: 15px 30px; text-decoration: none; border-radius: 6px; font-size: 1.2em; font-weight: bold;">Comparer maintenant les meilleures cartes de voyage</a>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" class="button-primary main-affiliate-btn">Comparer maintenant les meilleures cartes de voyage</a>
     <p style="font-size: 0.85em; color: #666; margin-top: 15px;">Gratuit à vie • 0 € aux distributeurs dans le monde entier • compatible Apple/Google Pay</p>
   </div>
 
@@ -259,11 +260,11 @@
   <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
     <h3>Informations sur d'autres pays de voyage :</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="geld-abheben-bezahlen-marokko.html">Maroc</a>
-<a href="geld-abheben-bezahlen-australien.html">Australie</a>
-<a href="geld-abheben-bezahlen-israel.html">Israël</a>
-<a href="geld-abheben-bezahlen-thailand.html">Thaïlande</a>
+      <a href="geld-abheben-bezahlen-kambodscha.html">Cambodge</a>
 <a href="geld-abheben-bezahlen-norwegen.html">Norvège</a>
+<a href="geld-abheben-bezahlen-australien.html">Australie</a>
+<a href="geld-abheben-bezahlen-thailand.html">Thaïlande</a>
+<a href="geld-abheben-bezahlen-jamaika.html">Jamaïque</a>
 
     </div>
   </div>
@@ -355,7 +356,7 @@
 
 <div id="stickyCta" class="sticky-cta">
   <p style="margin: 0 0 10px 0; font-size: 0.9em; font-weight: bold; color: #333;">0 € de frais de change en Philippines</p>
-  <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" class="button-primary" style="background: #ffb300; color: #000; text-decoration: none; border-radius: 6px; font-weight: bold;">Comparer les cartes de voyage</a>
+  <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" class="button-primary" style="background: #8B0000; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold;">Comparer les cartes de voyage</a>
 </div>
 
 <script>
@@ -414,7 +415,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // 5. Affichage
       resultBox.style.display = 'block';
       resultBox.innerHTML = `
-        <h3 style="color: #1565c0; margin-top: 0; font-size: 1.4em;">Votre piège à frais estimé :</h3>
+        <h3 style="color: #c62828; margin-top: 0; font-size: 1.4em;">Votre piège à frais estimé :</h3>
         <p style="font-size: 1.1em;">Pour un budget de ${formatCurrency(budget)} (${cardPercent}% par carte) et ${withdrawals} retraits, votre banque habituelle vous facturera probablement :</p>
         
         <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
@@ -434,7 +435,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         
         <p style="margin-top: 25px; text-align: center;">
-          <button type="button" onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth', block: 'center'});" style="background: #1565c0; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">Obtenir maintenant une carte gratuite et économiser de l'argent</button>
+          <button type="button" onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth', block: 'center'});" style="background: #8B0000; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">Obtenir maintenant une carte gratuite et économiser de l'argent</button>
         </p>
       `;
 

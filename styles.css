@@ -1508,7 +1508,7 @@ footer p {
   position: relative;
 }
 
-/* Linker Akzentstreifen */
+/* Linker Akzentstreifen 
 .checklist-box::before {
   content: '';
   position: absolute;
@@ -1517,8 +1517,8 @@ footer p {
   bottom: 0;
   width: 3px;
   background: linear-gradient(180deg, var(--primary), var(--accent));
-  border-radius: var(--radius-md) 0 0 var(--radius-md);
-}
+  border-radius: var(--radius-md) 0 0 var(--radius-md); 
+} */
 
 .checklist-box h3 {
   font-family: var(--font-display);
@@ -2087,45 +2087,45 @@ footer p {
    2. INDEX — HERO
    -------------------------------------------------------------------------- */
 .hero {
-  background: linear-gradient(135deg, var(--primary-dark) 0%, #560000 55%, #3d0000 100%);
-  color: #ffffff;
-  padding: 56px 40px 52px;
+  background: linear-gradient(180deg, #ffffff 0%, #f4f6f8 100%);
+  color: #212529; 
+  padding: 70px 40px 65px; 
   text-align: center;
   position: relative;
-  overflow: hidden;
+  border-bottom: 1px solid #e9ecef;
 }
 
-/* Hintergrund-Textur */
+
 .hero::before {
   content: '';
   position: absolute;
-  inset: 0;
-  background:
-    radial-gradient(ellipse at 20% 50%, rgba(255,255,255,0.04) 0%, transparent 50%),
-    radial-gradient(ellipse at 80% 20%, rgba(255,100,100,0.06) 0%, transparent 45%);
-  pointer-events: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px; 
+  background: var(--primary); 
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, black 50%, transparent 100%);
+  mask-image: linear-gradient(90deg, transparent 0%, black 50%, transparent 100%);
 }
 
 .hero h1 {
   font-family: var(--font-display);
-  font-size: 2.1em;
+  font-size: 2.4em; 
   font-weight: 700;
-  color: #ffffff;
-  line-height: 1.2;
+  color: #111827; 
+  line-height: 1.15;
   margin: 0 auto 20px;
-  max-width: 620px;
-  position: relative;
+  max-width: 700px;
   letter-spacing: -0.02em;
 }
 
 .hero p {
-  font-size: 1em;
-  color: rgba(255,255,255,0.75);
-  max-width: 580px;
-  margin: 0 auto 28px;
-  line-height: 1.7;
-  font-weight: 300;
-  position: relative;
+  font-size: 1.1em;
+  color: #495057; 
+  max-width: 650px;
+  margin: 0 auto 35px;
+  line-height: 1.6;
+  font-weight: 400; 
 }
 
 /* Styling für die eigenständige Sprach-Box / Trust badges */
@@ -2187,7 +2187,7 @@ footer p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 12px;
   position: relative;
 }
 
@@ -2195,15 +2195,21 @@ footer p {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  background: rgba(255,255,255,0.09);
-  border: 1px solid rgba(255,255,255,0.15);
-  border-radius: 20px;
-  padding: 7px 16px;
-  font-size: 0.845em;
+  background: #ffffff; 
+  border: 1px solid #e5e7eb; 
+  border-radius: 50px;
+  padding: 8px 18px;
+  font-size: 0.9em;
   font-weight: 600;
-  color: rgba(255,255,255,0.9);
-  letter-spacing: 0.01em;
-  backdrop-filter: blur(4px);
+  color: #374151;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.03); 
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.badge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.06);
+  border-color: #d1d5db;
 }
 
 

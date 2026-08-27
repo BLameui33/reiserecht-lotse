@@ -90,8 +90,7 @@
 
   <p>Stai pianificando un viaggio indimenticabile in <strong>{{LAND_NAME}}</strong> e vuoi usare Google Maps per orientarti, inviare foto delle vacanze su WhatsApp o navigare comodamente la sera? Attenzione: chi parte senza preparazione rischia, al ritorno, una brutta sorpresa sotto forma di una bolletta del cellulare salatissima.</p>
 
-  <div class="shock-box" style="background: #ffebee; border-left: 4px solid #c62828; padding: 15px 20px; margin: 20px 0; border-radius: 4px;">
-    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Attenzione: niente roaming UE gratuito!</h2>
+<div class="shock-box">    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Attenzione: niente roaming UE gratuito!</h2>
     <p>Il comodo "roam like at home", che conosci dai paesi dell'UE, qui non vale! Se attivi la tua normale SIM tedesca in {{LAND_NAME}} per Internet, si applicano le tariffe standard per l'estero di operatori come Telekom, Vodafone o o2.</p>
     <div class="shock-price" style="font-size: 1.5em; font-weight: bold; color: #c62828; margin: 10px 0;">Costo: fino a {{ROAMING_KOSTEN}} per megabyte (MB)!</div>
     <p><em>Per dare un'idea: un breve video di 10 secondi che qualcuno ti invia su WhatsApp consuma circa 15 MB. Solo questo può costarti oltre 20 euro in {{LAND_NAME}}. Un breve video su YouTube? Più velocemente di quanto pensi spariscono 100 euro.</em></p>
@@ -139,7 +138,7 @@
     </form>
 
     <!-- Area risultati per il JS -->
-    <div id="dataResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #1565c0;">
+    <div id="dataResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #8B0000;">
       <!-- Contenuto inserito dal JS: GB necessari, costi roaming (>1000€) vs costi eSIM -->
     </div>
   </div>
@@ -148,15 +147,14 @@
   <h2>La soluzione: una eSIM digitale per {{LAND_NAME}}</h2>
   <p>Invece di cercare faticosamente in aeroporto un negozio di telefoni sovrapprezzato, fare la fila e far scansionare il passaporto, scarica semplicemente prima della partenza una <strong>eSIM (una SIM digitale)</strong> sul tuo smartphone. Ti basta scansionare un codice QR e, all'atterraggio, avrai subito copertura.</p>
 
-  <div class="solution-box" style="background: #f1f8e9; border: 2px solid #a5d6a7; padding: 25px; border-radius: 8px; text-align: center; margin: 30px 0;">
-    <h2 style="color: #2e7d32; margin-top: 0;">✅ Il travel hack intelligente: Holafly</h2>
+<div class="solution-box">    <h2> Il travel hack intelligente: Holafly</h2>
     <p>Con il leader di mercato <strong>Holafly</strong> scarichi il tuo pacchetto dati come app direttamente sul telefono. Il vantaggio: il tuo numero tedesco resta attivo in background per chiamate in arrivo o SMS (importante per l'online banking!).</p>
     
     <span style="font-size: 0.75rem; color: #fff; background-color: rgba(0,0,0,0.15); padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; display: inline-block; margin-bottom: 12px; font-weight: bold;">
         Annuncio / raccomandazione pubblicitaria
     </span>
     
-    <div class="solution-price" style="font-size: 2em; font-weight: 900; color: #1565c0; margin: 15px 0;">da {{ESIM_PREIS}}</div>
+    <div class="solution-price">da {{ESIM_PREIS}}</div>
     <p style="font-size: 1.1em; margin-bottom: 25px;"><strong>Miglior rapporto qualità-prezzo:</strong> {{DATENVOLUMEN}} nella rete locale più forte di {{LAND_NAME}}.</p>
     
     <a href="{{AFFILIATE_LINK}}" target="_blank" rel="noopener nofollow" class="button-primary" style="background: #ffb300; color: #000; display: inline-block; padding: 15px 30px; text-decoration: none; border-radius: 6px; font-size: 1.2em;">Vedi ora le tariffe eSIM di Holafly</a>
@@ -337,7 +335,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // 5. Mostra il risultato nella casella
       resultBox.style.display = 'block';
       resultBox.innerHTML = `
-        <h3 style="color: #1565c0; margin-top: 0; font-size: 1.4em;">Il tuo risultato per ${days} giorni:</h3>
+        <h3 style="color: #c62828; margin-top: 0; font-size: 1.4em;">Il tuo risultato per ${days} giorni:</h3>
         <p style="font-size: 1.1em;">Probabilmente ti serviranno <strong>circa ${totalGB} GB</strong> di volume dati per questo periodo.</p>
         
         <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
@@ -359,7 +357,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         
         <p style="margin-top: 25px; text-align: center;">
-          <button onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth'});" style="background: #1565c0; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">Vedi ora l'alternativa conveniente</button>
+          <button onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth'});" style="background: #8B0000; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">Vedi ora l'alternativa conveniente</button>
         </p>
       `;
     });

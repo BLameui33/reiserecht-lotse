@@ -502,5 +502,11 @@
     "name": "Costco Travel (Costco Wholesale Corporation)",
     "infobox": "<p>Costco Travel is a division of Costco Wholesale, headquartered in Issaquah, Washington, offering packaged cruises, vacations, and rental cars exclusively to Costco members, often bundled with a Costco Shop Card incentive. Because Costco Travel acts as a booking agent for underlying suppliers (cruise lines, hotels, tour operators), first confirm from your statement whether Costco Travel or the underlying supplier is the actual billing merchant before filing a dispute.</p><!--opt-->",
     "is_optimized": true
-  }
+  },
+  {
+  "slug": "other-provider",
+  "name": "Other Provider / Airline",
+  "infobox": "<p>If your tour operator or airline is not listed, please keep all original booking confirmations, proof of payment, and relevant correspondence (such as cancellation or schedule change notices) on hand. These documents are essential for reviewing your case or disputing a charge.</p><!--opt-->",
+  "is_optimized": true
+}
 ]

@@ -75,44 +75,70 @@
   <style>
     /* NUR SPEZIFISCHES DESIGN FÜR DIE AFFILIATE BANNER IN ROT-TÖNEN */
     .affiliate-banner-red { 
-      background: linear-gradient(135deg, #d32f2f 0%, #b71c1c 100%); 
-      color: white; 
-      padding: 30px; 
-      border-radius: 8px; 
-      text-align: center; 
-      margin: 40px 0; 
-      box-shadow: 0 6px 20px rgba(183, 28, 28, 0.2);
-      border: 1px solid #c62828;
-    }
-    .affiliate-banner-red h3 { 
-      color: #ffeb3b; /* Gelber Kontrast für maximale Aufmerksamkeit */
-      margin-top: 0; 
-      font-size: 1.4em;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-    }
-    .affiliate-banner-red p {
-      font-size: 1.05em;
-      line-height: 1.5;
-      margin-bottom: 20px;
-    }
-    .btn-affiliate-gold { 
-      display: inline-block; 
-      background: #ffca28; 
-      color: #212121; 
-      text-decoration: none; 
-      padding: 15px 30px; 
-      font-size: 1.1em;
-      font-weight: 900; 
-      border-radius: 6px; 
-      transition: all 0.3s ease; 
-      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-    }
-    .btn-affiliate-gold:hover { 
-      background: #ffb300; 
-      transform: translateY(-2px);
-      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
-    }
+  position: relative; 
+  overflow: hidden;
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%); 
+  color: #495057; 
+  padding: 40px 30px; 
+  border-radius: var(--radius-lg, 12px); 
+  text-align: center; 
+  margin: 40px 0; 
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05); 
+  border: 1px solid #e9ecef;
+}
+
+.affiliate-banner-red::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: #8B0000; 
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, black 50%, transparent 100%);
+  mask-image: linear-gradient(90deg, transparent 0%, black 50%, transparent 100%);
+}
+
+.affiliate-banner-red h3 { 
+  color: #212529; 
+  margin-top: 0; 
+  margin-bottom: 15px;
+  font-size: 1.6em;
+  font-weight: 700;
+  letter-spacing: 0.02em; 
+}
+
+.affiliate-banner-red p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 30px; 
+  color: #555;
+  max-width: 700px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-affiliate-gold { 
+  display: inline-block; 
+  background: #8B0000; 
+  color: #ffffff; 
+  text-decoration: none; 
+  padding: 16px 36px; 
+  font-size: 1.1em;
+  font-weight: 700; 
+  border-radius: var(--radius-md, 8px); 
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease; 
+  
+  box-shadow: 0 4px 15px rgba(139, 0, 0, 0.25); 
+}
+
+/* 6. Knackiger Hover-Effekt */
+.btn-affiliate-gold:hover { 
+  background: #6a0000; 
+  transform: translateY(-2px); 
+  box-shadow: 0 6px 20px rgba(139, 0, 0, 0.35); 
+  color: #ffffff;
+}
   </style>
 </head>
 
@@ -234,7 +260,8 @@
   </div>
 
   <!-- AFFILIATE MONEY MAKER 2: BROKER (Starker Call to Action am Ende) -->
-  <div class="affiliate-banner-red" style="margin-top: 50px; background: linear-gradient(135deg, #c62828 0%, #8e0000 100%);">
+    <div class="affiliate-banner-red">
+
 
     <span style="font-size: 0.75rem; color: #fff; background-color: rgba(0,0,0,0.15); padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; display: inline-block; margin-bottom: 12px; font-weight: bold;">
         Advertentie / reclame-aanbeveling
@@ -247,11 +274,11 @@
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Meer interessante onderwerpen:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="mietwagen-versicherungen-avis.html">Avis</a>
-<a href="mietwagen-versicherungen-record-go.html">Record Go</a>
-<a href="mietwagen-versicherungen-greenwheels.html">Greenwheels</a>
-<a href="mietwagen-versicherungen-billiger-mietwagen.html">Billiger-Mietwagen</a>
-<a href="mietwagen-versicherungen-budget.html">Budget</a>
+    <a href="mietwagen-versicherungen-sunny-cars.html">Sunny Cars</a>
+<a href="mietwagen-versicherungen-diks-autoverhuur.html">Diks Autoverhuur</a>
+<a href="mietwagen-versicherungen-auto-europe.html">Auto Europe</a>
+<a href="mietwagen-versicherungen-enterprise.html">Enterprise</a>
+<a href="mietwagen-versicherungen-firefly.html">Firefly</a>
 
   </div>
 </div>

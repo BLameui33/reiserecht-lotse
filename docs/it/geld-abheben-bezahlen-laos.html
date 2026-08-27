@@ -39,7 +39,10 @@
 
     /* Rechner Slider */
     .slider-container { margin: 15px 0; }
-    .slider-value { font-weight: bold; color: #1565c0; font-size: 1.1em; }
+    .slider-value { font-weight: bold; color: #8B0000; font-size: 1.1em; }
+    #cCardPercent {
+  accent-color: #8B0000; 
+}
     
     /* Sticky CTA Bar (Mobile & Desktop) */
     .sticky-cta { position: fixed; bottom: 0; left: 0; width: 100%; background: #fff; padding: 15px; box-shadow: 0 -2px 10px rgba(0,0,0,0.1); text-align: center; z-index: 1000; transform: translateY(100%); transition: transform 0.3s ease; }
@@ -133,8 +136,7 @@
     </ul>
   </nav>
 
-  <div class="shock-box" style="background: #ffebee; border-left: 4px solid #c62828; padding: 15px 20px; margin: 20px 0; border-radius: 4px;">
-    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Attenzione: conversione costosa in Kip laotiano (LAK)!</h2>
+<div class="shock-box">    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Attenzione: conversione costosa in Kip laotiano (LAK)!</h2>
     <p>In Laos non si paga in euro. Ogni volta che usi la tua normale carta della Intesa Sanpaolo, UniCredit o di una banca diretta, la tua banca applica una cosiddetta <strong>commissione per operazioni in valuta estera</strong> (di solito dall'1,75% al 2,00%).</p>
     <div class="shock-price" style="font-size: 1.2em; font-weight: bold; color: #c62828; margin: 10px 0;">Inoltre, al bancomat spesso si pagano forfettariamente da 5,00 € a 7,50 € per ogni prelievo!</div>
     <p><em>Molti vacanzieri si accorgono di questa lenta fregatura solo settimane dopo, quando controllano l'estratto conto a casa e vedono addebitate decine di piccole "commissioni in valuta estera".</em></p>
@@ -150,7 +152,7 @@
   <div class="calc-box">
     <form id="feeCalcForm">
       <fieldset style="border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
-        <legend style="font-weight: bold; padding: 0 10px; color: #1565c0;">Il tuo budget di viaggio e il tuo comportamento</legend>
+        <legend style="font-weight: bold; padding: 0 10px; color: #f6f7f8;">Il tuo budget di viaggio e il tuo comportamento</legend>
         
         <label for="cBudget" style="display:block; margin-top: 10px; font-weight:bold;">Budget approssimativo in loco (in euro):</label>
         <p style="font-size: 0.85em; color: #666; margin-top: 2px; margin-bottom: 10px;">(Spese per cibo, escursioni, shopping, hotel in loco)</p>
@@ -178,29 +180,28 @@
         </select>
       </fieldset>
 
-      <button type="submit" class="button-primary" id="calcFeeBtn" style="background: #1565c0; color: #fff; padding: 15px 30px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer; width: 100%; margin-top: 20px;">Calcola le commissioni nascoste</button>
+      <button type="submit" class="button-primary" id="calcFeeBtn" style="background: #8B0000; color: #fff; padding: 15px 30px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer; width: 100%; margin-top: 20px;">Calcola le commissioni nascoste</button>
     </form>
 
-    <div id="feeResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #1565c0;">
+    <div id="feeResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #8B0000;">
       </div>
   </div>
 
   <h2 id="loesung">La soluzione: una carta di credito da viaggio gratuita per sempre</h2>
   <p>Non devi accettare questa fregatura bancaria. Le speciali "carte di credito travel" sono state sviluppate proprio per questo scopo: rinunciano completamente alla commissione per operazioni in valuta estera in tutto il mondo e coprono persino le commissioni per i prelievi agli sportelli automatici di altre banche.</p>
 
-  <div class="solution-box" style="background: #f1f8e9; border: 2px solid #a5d6a7; padding: 25px; border-radius: 8px; text-align: center; margin: 30px 0;">
-
+<div class="solution-box">
     <span style="font-size: 0.75rem; color: #fff; background-color: rgba(0,0,0,0.15); padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; display: inline-block; margin-bottom: 12px; font-weight: bold;">
         Annuncio / raccomandazione pubblicitaria
     </span>
     
-    <h2 style="color: #2e7d32; margin-top: 0;">✅ Il trucco di viaggio intelligente: 0€ di commissioni</h2>
+    <h2> Il trucco di viaggio intelligente: 0€ di commissioni</h2>
     <p>Richiedi prima della vacanza una carta di credito da viaggio senza commissioni (ad es. Barclays, DKB, TF Bank o N26). Queste carte costano <strong>0 € di canone annuale</strong> — per tutta la vita.</p>
     
-    <div class="solution-price" style="font-size: 1.5em; font-weight: 900; color: #1565c0; margin: 15px 0;">0% di commissione per operazioni in valuta estera in Laos</div>
+    <div class="solution-price">0% di commissione per operazioni in valuta estera in Laos</div>
     <p style="font-size: 1.1em; margin-bottom: 25px;">Paga sempre in Kip laotiano (LAK) al vero tasso di cambio equo Visa/Mastercard.</p>
     
-    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" class="button-primary main-affiliate-btn" style="background: #ffb300; color: #000; display: inline-block; padding: 15px 30px; text-decoration: none; border-radius: 6px; font-size: 1.2em; font-weight: bold;">Confronta ora le migliori carte di credito da viaggio</a>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" class="button-primary main-affiliate-btn">Confronta ora le migliori carte di credito da viaggio</a>
     <p style="font-size: 0.85em; color: #666; margin-top: 15px;">Sempre gratuita • 0€ al bancomat in tutto il mondo • compatibile con Apple/Google Pay</p>
   </div>
 
@@ -260,11 +261,11 @@
   <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
     <h3>Informazioni su altre destinazioni di viaggio:</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="geld-abheben-bezahlen-panama.html">Panama</a>
-<a href="geld-abheben-bezahlen-peru.html">Perù</a>
-<a href="geld-abheben-bezahlen-kanada.html">Canada</a>
-<a href="geld-abheben-bezahlen-sri-lanka.html">Sri Lanka</a>
-<a href="geld-abheben-bezahlen-serbien.html">Serbia</a>
+      <a href="geld-abheben-bezahlen-sri-lanka.html">Sri Lanka</a>
+<a href="geld-abheben-bezahlen-indien.html">India</a>
+<a href="geld-abheben-bezahlen-malaysia.html">Malesia</a>
+<a href="geld-abheben-bezahlen-kambodscha.html">Cambogia</a>
+<a href="geld-abheben-bezahlen-marokko.html">Marocco</a>
 
     </div>
   </div>
@@ -355,7 +356,7 @@
 
 <div id="stickyCta" class="sticky-cta">
   <p style="margin: 0 0 10px 0; font-size: 0.9em; font-weight: bold; color: #333;">0€ di commissione per operazioni in valuta estera in Laos</p>
-  <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" class="button-primary" style="background: #ffb300; color: #000; text-decoration: none; border-radius: 6px; font-weight: bold;">Confronta le carte di credito da viaggio</a>
+  <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" class="button-primary" style="background: #8B0000; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold;">Confronta le carte di credito da viaggio</a>
 </div>
 
 <script>
@@ -414,7 +415,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // 5. Output
       resultBox.style.display = 'block';
       resultBox.innerHTML = `
-        <h3 style="color: #1565c0; margin-top: 0; font-size: 1.4em;">La tua trappola di commissioni stimata:</h3>
+        <h3 style="color: #c62828; margin-top: 0; font-size: 1.4em;">La tua trappola di commissioni stimata:</h3>
         <p style="font-size: 1.1em;">Con un budget di ${formatCurrency(budget)} (${cardPercent}% carta) e ${withdrawals} prelievi, la tua banca probabilmente ti addebiterà:</p>
         
         <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
@@ -434,7 +435,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
         
         <p style="margin-top: 25px; text-align: center;">
-          <button type="button" onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth', block: 'center'});" style="background: #1565c0; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">Ottieni ora la carta gratuita e risparmia denaro</button>
+          <button type="button" onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth', block: 'center'});" style="background: #8B0000; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">Ottieni ora la carta gratuita e risparmia denaro</button>
         </p>
       `;
 
