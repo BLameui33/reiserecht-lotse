@@ -144,7 +144,429 @@
 .cta-affiliate-box a:hover {
   background-color: #b71c1c;
   transform: translateY(-2px);
-}</style>
+}
+/* === ELEGANTE ERGEBNIS-BOX === */
+.result-box {
+    margin-top: 30px;
+    padding: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+}
+
+.result-box.result-success {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+}
+
+.result-box.result-error {
+    background: #ffffff;
+    border: 1px solid #fecaca;
+}
+
+/* Header der Ergebnis-Box */
+.result-header {
+    padding: 30px 35px 25px 35px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.result-icon {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.result-success .result-icon {
+    background: #f0fdf4;
+    border: 2px solid #10b981;
+}
+
+.result-error .result-icon {
+    background: #fef2f2;
+    border: 2px solid #dc2626;
+}
+
+.result-icon svg {
+    width: 24px;
+    height: 24px;
+}
+
+.result-success .result-icon svg {
+    stroke: #10b981;
+}
+
+.result-error .result-icon svg {
+    stroke: #dc2626;
+}
+
+.result-content {
+    flex: 1;
+}
+
+.result-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin: 0 0 10px 0;
+    line-height: 1.3;
+}
+
+.result-subtitle {
+    font-size: 1rem;
+    color: #64748b;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.result-body {
+    padding: 0 35px 30px 35px;
+    font-size: 0.95rem;
+    color: #475569;
+    line-height: 1.7;
+}
+
+.result-body strong {
+    color: #1e293b;
+    font-weight: 600;
+}
+
+/* Handlungsempfehlung-Box (nur bei Fehler) */
+.action-box {
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+    border-radius: 8px;
+    padding: 20px 25px;
+    margin-top: 25px;
+}
+
+.action-box-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #991b1b;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 0 0 12px 0;
+}
+
+.action-box-text {
+    font-size: 0.95rem;
+    color: #7f1d1d;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.action-box-text strong {
+    color: #991b1b;
+    font-weight: 600;
+}
+
+/* Warnbox (für Dokumenten-Typ) */
+.warning-box {
+    background: #fffbeb;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 18px 22px;
+    margin: 25px 35px 0 35px;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.warning-icon {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+
+.warning-icon svg {
+    width: 20px;
+    height: 20px;
+    stroke: #d97706;
+    fill: none;
+    stroke-width: 2;
+}
+
+.warning-text {
+    flex: 1;
+    font-size: 0.9rem;
+    color: #92400e;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.warning-text strong {
+    color: #78350f;
+    font-weight: 600;
+}
+
+/* === ELEGANTE TIMELINE === */
+.pass-timeline-container {
+    position: relative;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 40px 20px 20px 20px;
+    margin: 30px 35px 0 35px;
+}
+
+.pass-timeline-track {
+    position: relative;
+    height: 12px;
+    background: #e2e8f0;
+    border-radius: 6px;
+    overflow: visible;
+}
+
+.timeline-bar {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    border-radius: 6px;
+    transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bar-trip { 
+    background: #3b82f6; 
+    z-index: 2; 
+    opacity: 0.85;
+}
+
+.bar-pass { 
+    background: #10b981; 
+    z-index: 1; 
+}
+
+.bar-pass-error {
+    background: #ef4444 !important;
+}
+
+.timeline-marker {
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: 32px;
+    background: #dc2626;
+    z-index: 3;
+}
+
+.timeline-marker::after {
+    content: attr(data-label);
+    position: absolute;
+    top: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #dc2626;
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.timeline-legend {
+    display: flex;
+    gap: 20px;
+    font-size: 0.8rem;
+    color: #64748b;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.legend-item { 
+    display: flex; 
+    align-items: center; 
+    gap: 8px; 
+    font-weight: 500;
+}
+
+.legend-color { 
+    width: 16px; 
+    height: 8px; 
+    border-radius: 4px; 
+}
+
+/* Profi-Tipp Box */
+.pro-tip {
+    background: #f8fafc;
+    border-left: 3px solid #b71c1c;
+    padding: 15px 20px;
+    margin: 25px 35px 30px 35px;
+    font-size: 0.9rem;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.pro-tip strong {
+    color: #1e293b;
+    font-weight: 600;
+}
+/* === RESPONSIVE DESIGN FÜR MOBIL === */
+@media (max-width: 768px) {
+    
+    /* Ergebnis-Box kompakter */
+    .result-header {
+        padding: 20px 20px 15px 20px;
+        gap: 15px;
+    }
+    
+    .result-icon {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .result-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .result-title {
+        font-size: 1.2rem;
+    }
+    
+    .result-subtitle {
+        font-size: 0.9rem;
+    }
+    
+    .result-body {
+        padding: 0 20px 20px 20px;
+        font-size: 0.9rem;
+    }
+    
+    /* Warnbox kompakter */
+    .warning-box {
+        padding: 12px 15px;
+        margin: 15px 20px 0 20px;
+        gap: 10px;
+    }
+    
+    .warning-icon {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .warning-icon svg {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .warning-text {
+        font-size: 0.85rem;
+        line-height: 1.5;
+    }
+    
+    /* Timeline mobil-optimiert */
+    .pass-timeline-container {
+        padding: 30px 15px 15px 15px;
+        margin: 20px 20px 0 20px;
+    }
+    
+    .pass-timeline-track {
+        height: 10px;
+    }
+    
+    .timeline-marker {
+        top: -8px;
+        height: 26px;
+    }
+    
+    .timeline-marker::after {
+        top: -20px;
+        font-size: 0.6rem;
+        letter-spacing: 0.03em;
+    }
+    
+    .timeline-legend {
+        gap: 12px;
+        font-size: 0.75rem;
+        margin-top: 15px;
+    }
+    
+    .legend-color {
+        width: 14px;
+        height: 6px;
+    }
+    
+    /* Profi-Tipp kompakter */
+    .pro-tip {
+        padding: 12px 15px;
+        margin: 20px 20px 20px 20px;
+        font-size: 0.85rem;
+    }
+    
+    /* Action-Box kompakter */
+    .action-box {
+        padding: 15px 18px;
+        margin-top: 20px;
+    }
+    
+    .action-box-title {
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+    }
+    
+    .action-box-text {
+        font-size: 0.9rem;
+    }
+    
+    /* ICS Button mobil */
+    .btn-ics {
+        padding: 10px 15px;
+        font-size: 0.85rem;
+        width: 100%;
+        justify-content: center;
+        margin-top: 15px;
+    }
+}
+
+/* Extra kleine Screens (iPhone SE etc.) */
+@media (max-width: 375px) {
+    .result-header {
+        padding: 15px 15px 12px 15px;
+        gap: 12px;
+    }
+    
+    .result-icon {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .result-title {
+        font-size: 1.1rem;
+    }
+    
+    .result-body {
+        padding: 0 15px 15px 15px;
+    }
+    
+    .warning-box {
+        margin: 12px 15px 0 15px;
+        padding: 10px 12px;
+    }
+    
+    .pass-timeline-container {
+        margin: 15px 15px 0 15px;
+        padding: 25px 12px 12px 12px;
+    }
+    
+    .timeline-legend {
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .pro-tip {
+        margin: 15px 15px 15px 15px;
+    }
+}
+</style>
 
   <link rel="stylesheet" href="styles.css">
 <link rel="icon" href="/logo-lotse-fav.png">
@@ -286,11 +708,11 @@
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Autres sujets intéressants :</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="einreisebestimmungen-usa.html">USA</a>
-<a href="einreisebestimmungen-singapur.html">Singapour</a>
-<a href="einreisebestimmungen-guatemala.html">Guatemala</a>
-<a href="einreisebestimmungen-australien.html">Australie</a>
+    <a href="einreisebestimmungen-saudi-arabien.html">Arabie saoudite</a>
 <a href="einreisebestimmungen-laos.html">Laos</a>
+<a href="einreisebestimmungen-botswana.html">Botswana</a>
+<a href="einreisebestimmungen-katar.html">Qatar (Doha)</a>
+<a href="einreisebestimmungen-aegypten.html">Égypte</a>
 
   </div>
 </div>
@@ -413,72 +835,186 @@
 </footer>
 
 <script>
+// Icônes SVG (au lieu des émojis)
+const ICONS = {
+    success: `<svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>`,
+    error: `<svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>`
+};
+
+// Helper : Générer le téléchargement du fichier ICS
+window.downloadICS = function(deadlineISO, country) {
+    const dl = new Date(deadlineISO);
+    const format = (d) => d.toISOString().replace(/-|:|\.\d{3}/g, '');
+    const start = format(dl);
+    const end = format(new Date(dl.getTime() + 3600000));
+    
+    const summary = "IMPORTANT : Renouveler le passeport !";
+    const desc = `Date limite pour la demande de passeport d'urgence en raison du voyage en ${country}.`;
+    
+    const icsData = `BEGIN:VCALENDAR\nVERSION:2.0\nBEGIN:VEVENT\nDTSTART:${start}\nDTEND:${end}\nSUMMARY:${summary}\nDESCRIPTION:${desc}\nEND:VEVENT\nEND:VCALENDAR`;
+    
+    const blob = new Blob([icsData], { type: 'text/calendar;charset=utf-8' });
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = `renouvellement-passeport-${country.toLowerCase().replace(/\s/g,'-')}.ics`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+};
+
 document.getElementById('passForm').addEventListener('submit', function(e) {
     e.preventDefault();
 
+    // 1. Lire les saisies
     const arrivalDateStr = document.getElementById('arrivalDate').value;
     const returnDateStr = document.getElementById('returnDate').value;
     const expiryDateStr = document.getElementById('expiryDate').value;
     const requiredMonths = parseInt(document.getElementById('requiredMonths').value) || 0;
     
     const resultBox = document.getElementById('resultBox');
-
     if(!arrivalDateStr || !returnDateStr || !expiryDateStr) return;
 
     const arrivalDate = new Date(arrivalDateStr);
     const returnDate = new Date(returnDateStr);
     const expiryDate = new Date(expiryDateStr);
     const today = new Date();
-    today.setHours(0,0,0,0); // mettre l’heure à zéro pour une comparaison exacte des jours
+    today.setHours(0,0,0,0);
 
-    // Préparer l’affichage et supprimer les anciennes classes
     resultBox.style.display = "block";
     resultBox.classList.remove("result-success", "result-error");
     resultBox.setAttribute("aria-live", "polite");
 
-    // 1. Validation : la date d’arrivée est-elle après la date de retour ?
+    // 2. Validations
     if (arrivalDate > returnDate) {
         resultBox.classList.add("result-error");
-        resultBox.innerHTML = `⚠️ <strong>Erreur de saisie :</strong> La date d’aller (date d’arrivée) ne peut pas être postérieure à la date de retour.`;
+        resultBox.innerHTML = `
+            <div class="result-header">
+                <div class="result-icon">${ICONS.error}</div>
+                <div class="result-content">
+                    <h3 class="result-title">Erreur de saisie</h3>
+                    <p class="result-subtitle">La date aller ne peut pas être postérieure à la date retour.</p>
+                </div>
+            </div>`;
         return;
     }
-
-    // 2. Validation : le voyage est-il dans le passé ?
     if (returnDate < today) {
         resultBox.classList.add("result-error");
-        resultBox.innerHTML = `⚠️ <strong>Erreur de saisie :</strong> La date de retour ne peut pas être dans le passé.`;
+        resultBox.innerHTML = `
+            <div class="result-header">
+                <div class="result-icon">${ICONS.error}</div>
+                <div class="result-content">
+                    <h3 class="result-title">Erreur de saisie</h3>
+                    <p class="result-subtitle">La date retour ne peut pas être dans le passé.</p>
+                </div>
+            </div>`;
         return;
     }
-
-    // 3. Validation : le passeport expire-t-il déjà PENDANT le voyage lui-même ?
     if (expiryDate <= returnDate) {
         resultBox.classList.add("result-error");
-        resultBox.innerHTML = `❌ <strong>Attention, validité insuffisante !</strong><br><br>Votre passeport expire déjà le jour de votre retour ou avant (${returnDate.toLocaleDateString('de-DE')}). Vous ne pouvez pas entreprendre ce voyage.`;
+        resultBox.innerHTML = `
+            <div class="result-header">
+                <div class="result-icon">${ICONS.error}</div>
+                <div class="result-content">
+                    <h3 class="result-title">Validité insuffisante</h3>
+                    <p class="result-subtitle">Votre passeport expire le jour de votre retour ou avant. Vous ne pouvez pas effectuer ce voyage.</p>
+                </div>
+            </div>`;
         return;
     }
 
-    // Ajout robuste des mois requis à la date de retour
+    // 3. Calculer la durée de validité minimale
     let minimumRequiredDate = new Date(returnDate);
     minimumRequiredDate.setMonth(minimumRequiredDate.getMonth() + requiredMonths);
     
-    // Sécuriser le dépassement de mois en JS (par ex. 31 jan + 1 mois = ne pas finir en mars)
+    // Sécuriser le dépassement de mois JS (ex. 31 janv. + 1 mois)
     if (minimumRequiredDate.getDate() !== returnDate.getDate()) {
         minimumRequiredDate.setDate(0); 
     }
 
-    // Comparaison finale
+    // 4. Calculer la chronologie (Timeline)
+    const userLang = document.documentElement.lang || 'fr';
+    const start = today.getTime();
+    const bufferDate = new Date(minimumRequiredDate);
+    bufferDate.setDate(bufferDate.getDate() + 30);
+    const end = Math.max(expiryDate.getTime(), bufferDate.getTime());
+    const totalDuration = end - start;
+
+    const calcPos = (date) => Math.max(0, Math.min(100, ((date.getTime() - start) / totalDuration) * 100));
+
+    const tripLeft = calcPos(arrivalDate);
+    const tripWidth = calcPos(returnDate) - tripLeft;
+    const passWidth = calcPos(expiryDate);
+    const markerLeft = calcPos(minimumRequiredDate);
+
+    const timelineHTML = `
+        <div class="pass-timeline-container">
+            <div class="pass-timeline-track">
+                <div class="timeline-bar bar-pass" style="width: ${passWidth}%"></div>
+                <div class="timeline-bar bar-trip" style="left: ${tripLeft}%; width: ${tripWidth}%"></div>
+                <div class="timeline-marker" style="left: ${markerLeft}%" data-label="Exigence Émirats arabes unis (Dubaï)"></div>
+            </div>
+            <div class="timeline-legend">
+                <div class="legend-item"><span class="legend-color" style="background:#3b82f6"></span> Période du voyage</div>
+                <div class="legend-item"><span class="legend-color" style="background:#10b981"></span> Votre passeport</div>
+                <div class="legend-item"><span class="legend-color" style="background:#dc2626; width:4px; height:8px; border-radius:0;"></span> Validité minimale</div>
+            </div>
+        </div>`;
+
+    // 5. Afficher le résultat
     if(expiryDate >= minimumRequiredDate) {
         resultBox.classList.add("result-success");
-        resultBox.innerHTML = `✅ <strong>Feu vert !</strong> Votre passeport est valable suffisamment longtemps pour votre période de voyage (du ${arrivalDate.toLocaleDateString('de-DE')} au ${returnDate.toLocaleDateString('de-DE')}) ainsi que pour les ${requiredMonths} mois de validité supplémentaires exigés pour l’entrée dans Émirats arabes unis (Dubaï). Bon voyage !`;
+        resultBox.innerHTML = `
+            <div class="result-header">
+                <div class="result-icon">${ICONS.success}</div>
+                <div class="result-content">
+                    <h3 class="result-title">Entrée en Émirats arabes unis (Dubaï) autorisée</h3>
+                    <p class="result-subtitle">Votre passeport est valide pour la période de voyage prévue.</p>
+                </div>
+            </div>
+            <div class="result-body">
+                <p>Votre passeport couvre sans problème la période du voyage du <strong>${arrivalDate.toLocaleDateString(userLang)}</strong> au <strong>${returnDate.toLocaleDateString(userLang)}</strong> ainsi que la durée de validité résiduelle requise de <strong>${requiredMonths} mois</strong>.</p>
+                ${timelineHTML}
+            </div>
+            <div class="pro-tip">
+                <strong>Conseil :</strong> Prenez une photo de votre passeport avant de partir et enregistrez-la hors ligne sur votre téléphone ou sur un cloud sécurisé. Cela sera très utile en cas de perte du document sur place.
+            </div>`;
+            
+        resultBox.querySelector('.bar-pass').classList.remove('bar-pass-error');
+
     } else {
         resultBox.setAttribute("aria-live", "assertive");
         resultBox.classList.add("result-error");
         
-        let reqDateFormatted = minimumRequiredDate.toLocaleDateString('de-DE');
+        let reqDateFormatted = minimumRequiredDate.toLocaleDateString(userLang);
         
-        resultBox.innerHTML = `❌ <strong>Attention, l’entrée est compromise !</strong><br><br>
-        Votre passeport doit encore être valable pour Émirats arabes unis (Dubaï) jusqu’au moins le <strong>${reqDateFormatted}</strong> (${requiredMonths} mois après le retour).<br><br>
-        <em>Recommandation :</em> Demandez immédiatement un passeport express auprès de votre mairie/administration compétente.`;
+        let deadlineDate = new Date(minimumRequiredDate);
+        deadlineDate.setDate(deadlineDate.getDate() - 7); 
+        let deadlineFormatted = deadlineDate.toLocaleDateString(userLang);
+
+        let icsBtn = `<button class="btn-ics" onclick="window.downloadICS('${deadlineDate.toISOString()}', 'Émirats arabes unis (Dubaï)')">📅 Enregistrer le rappel dans le calendrier</button>`;
+
+        resultBox.innerHTML = `
+            <div class="result-header">
+                <div class="result-icon">${ICONS.error}</div>
+                <div class="result-content">
+                    <h3 class="result-title">Entrée en Émirats arabes unis (Dubaï) impossible</h3>
+                    <p class="result-subtitle">Votre passeport ne respecte pas la durée de validité minimale requise.</p>
+                </div>
+            </div>
+            <div class="result-body">
+                <p>Votre passeport pour Émirats arabes unis (Dubaï) doit être valide au moins jusqu'au <strong>${reqDateFormatted}</strong> (${requiredMonths} mois après le retour).</p>
+                ${timelineHTML}
+                <div class="action-box">
+                    <h4 class="action-box-title">Recommandation d'action</h4>
+                    <p class="action-box-text">
+                        Contactez immédiatement <strong>l'autorité compétente en matière de documents d'identité</strong> pour demander un nouveau passeport.<br>
+                        <em>Dernier délai recommandé pour un passeport d'urgence :</em> <strong>${deadlineFormatted}</strong>
+                    </p>
+                    ${icsBtn}
+                </div>
+            </div>`;
+        
+        resultBox.querySelector('.bar-pass').classList.add('bar-pass-error');
     }
 });
 </script>
