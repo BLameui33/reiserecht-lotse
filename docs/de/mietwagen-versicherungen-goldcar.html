@@ -139,6 +139,224 @@
   box-shadow: 0 6px 20px rgba(139, 0, 0, 0.35); 
   color: #ffffff;
 }
+/* === SCHALTER-CHECK: NAHTLOS INS SEITENDESIGN INTEGRIERT === */
+/* Gleiche Box-Sprache wie legal-info-box / affiliate-banner: vollbreit, flach, feine Linie */
+.calc-box.elegant-tool {
+  max-width: none;
+  width: 100%;
+  margin: 30px 0 40px;
+  padding: 35px 40px;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: var(--radius-lg, 12px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  font-family: inherit; /* Serifen-Headlines der Seite bleiben erhalten */
+}
+
+.elegant-tool .tool-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.elegant-tool .tool-subtitle {
+  color: #555;
+  margin: 0 0 30px;
+}
+
+/* Abschnitts-Überschriften: dezente rote Label-Zeile statt fieldset/legend */
+.elegant-tool .tool-section {
+  margin-bottom: 28px;
+}
+
+.elegant-tool .tool-section-title {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #8B0000;
+  margin: 0 0 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* Checkbox-Zeilen: flache Karten im Seiten-Look */
+.elegant-tool .checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.elegant-tool .checkbox-group label {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin: 0;
+  padding: 14px 16px;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: var(--radius-md, 8px);
+  color: #495057;
+  line-height: 1.55;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.elegant-tool .checkbox-group label:hover {
+  border-color: #d3b3b3;
+}
+
+.elegant-tool .checkbox-group label:has(input:checked) {
+  border-color: #8B0000;
+  background: #fcf7f7;
+}
+
+/* Custom Checkbox: schlank, eckiger, dunkelrot */
+.elegant-tool .checkbox-group input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid #ced4da;
+  border-radius: 4px;
+  flex-shrink: 0;
+  margin: 2px 0 0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+  background: #fff;
+}
+
+.elegant-tool .checkbox-group input[type="checkbox"]:checked {
+  background-color: #8B0000;
+  border-color: #8B0000;
+}
+
+.elegant-tool .checkbox-group input[type="checkbox"]:checked::after {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 9px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+/* Button: identische Sprache wie .btn-affiliate-gold */
+.button-elegant {
+  display: inline-block;
+  background: #8B0000;
+  color: #ffffff;
+  border: none;
+  padding: 15px 34px;
+  font-size: 1em;
+  font-weight: 700;
+  font-family: inherit;
+  border-radius: var(--radius-md, 8px);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  box-shadow: 0 4px 15px rgba(139, 0, 0, 0.25);
+}
+
+.button-elegant:hover {
+  background: #6a0000;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(139, 0, 0, 0.35);
+  color: #ffffff;
+}
+
+/* Ergebnisbox: weiße Seiten-Box mit dunkelroter Akzentkante links */
+.result-box-elegant {
+  margin-top: 32px;
+  padding: 28px 32px;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-left: 4px solid #8B0000;
+  border-radius: var(--radius-md, 8px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
+  animation: toolFadeIn 0.4s ease;
+}
+
+@keyframes toolFadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.result-box-elegant h3 {
+  color: #8B0000;
+  margin: 0 0 16px;
+  font-size: 1.25em;
+}
+
+.result-box-elegant h4 {
+  color: #212529;
+  margin: 22px 0 10px;
+  font-size: 1.05em;
+}
+
+.result-box-elegant p {
+  color: #495057;
+  line-height: 1.65;
+  margin-bottom: 14px;
+}
+
+.result-box-elegant ul {
+  padding-left: 0;
+  list-style: none;
+  margin: 0 0 20px;
+}
+
+.result-box-elegant li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 10px;
+  color: #495057;
+  line-height: 1.6;
+}
+
+.result-box-elegant li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 6px;
+  height: 6px;
+  background: #8B0000;
+  border-radius: 50%;
+}
+
+/* Zitat-Box für die Sätze am Schalter */
+.result-box-elegant .quote-box {
+  position: relative;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  padding: 16px 20px 16px 46px;
+  margin: 16px 0;
+  font-style: italic;
+  color: #495057;
+}
+
+.result-box-elegant .quote-box::before {
+  content: '\201C';
+  font-family: Georgia, serif;
+  font-size: 3.4rem;
+  line-height: 1;
+  color: #8B0000;
+  opacity: 0.25;
+  position: absolute;
+  top: 6px;
+  left: 14px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .calc-box.elegant-tool { padding: 22px 20px; margin: 24px 0 32px; }
+  .result-box-elegant { padding: 20px 18px; }
+  .button-elegant { display: block; width: 100%; }
+}
   </style>
 </head>
 
@@ -185,26 +403,69 @@
   <div class="highlight-box pruefdatum-box" role="note" aria-label="Redaktionell geprüft" style="margin-top: 15px; margin-bottom: 30px;">
     <p><strong>Redaktionell geprüft am:</strong> <span id="pruefdatum">20.08.2026</span></p>
   </div>
-  <!-- Interaktiver Rechner-Bereich (IDs & Struktur exakt beibehalten) -->
-  <div class="calc-box">
-    <div class="checkbox-group" id="insuranceCheckboxes">
-      <label>
-        <input type="checkbox" id="chkBroker"> 
-        Ich habe über ein Portal (z.B. Check24, Billiger-Mietwagen) gebucht und dort den Tarif <strong>"Ohne Selbstbeteiligung" / "Premium-Schutz"</strong> gewählt.
-      </label>
-      <label>
-        <input type="checkbox" id="chkCreditCard"> 
-        Ich bezahle mit einer <strong>Reise-Kreditkarte</strong>, die eine vollwertige Mietwagen-Vollkaskoversicherung (CDW) beinhaltet.
-      </label>
-      <label>
-        <input type="checkbox" id="chkBasic"> 
-        Nichts davon. Ich habe direkt auf der Website von Goldcar den billigsten Basis-Tarif gebucht.
-      </label>
+  
+    <!-- Interaktiver Rechner-Bereich (integriertes Design) -->
+  <div class="calc-box elegant-tool">
+    <h2 class="tool-title">Ihr persönlicher Schalter-Check</h2>
+    <p class="tool-subtitle">Wählen Sie Ihre aktuelle Situation aus. Das Tool erstellt daraus Ihren individuellen Leitfaden für die Fahrzeugübergabe.</p>
+
+    <div class="tool-section">
+      <div class="tool-section-title">Ihre Buchung &amp; Absicherung</div>
+      <div class="checkbox-group">
+        <label>
+          <input type="checkbox" id="chkBroker">
+          <span>Ich habe über ein Portal (z.B. Check24, Billiger-Mietwagen) gebucht und dort den Tarif <strong>"Ohne Selbstbeteiligung / Premium-Schutz"</strong> gewählt.</span>
+        </label>
+        <label>
+          <input type="checkbox" id="chkCreditCard">
+          <span>Ich besitze eine Reise-Kreditkarte, die eine vollwertige Mietwagen-Vollkaskoversicherung (CDW) beinhaltet.</span>
+        </label>
+        <label>
+          <input type="checkbox" id="chkBasic">
+          <span>Ich habe direkt auf der Website von Goldcar den günstigsten Basis-Tarif gebucht.</span>
+        </label>
+      </div>
     </div>
 
-    <button type="button" class="button-primary" id="checkBtn">Jetzt meine Situation auswerten</button>
+    <div class="tool-section">
+      <div class="tool-section-title">Zahlungsmittel für die Kaution</div>
+      <div class="checkbox-group">
+        <label>
+          <input type="checkbox" id="chkRealCC">
+          <span>Ich habe eine echte Kreditkarte (Credit) mit ausreichend Limit für die Kaution dabei.</span>
+        </label>
+        <label>
+          <input type="checkbox" id="chkDebit">
+          <span>Ich habe nur eine Debitkarte (Girocard / Visa Debit) oder gar keine Karte dabei.</span>
+        </label>
+      </div>
+    </div>
 
-    <div id="resultOutput" class="result-box"></div>
+    <div class="tool-section">
+      <div class="tool-section-title">Situation vor Ort (optional)</div>
+      <div class="checkbox-group">
+        <label>
+          <input type="checkbox" id="chkClaim">
+          <span>Der Mitarbeiter behauptet, meine externe Versicherung "gilt hier vor Ort nicht".</span>
+        </label>
+        <label>
+          <input type="checkbox" id="chkUpgrade">
+          <span>Mir wird ein "Upgrade" auf ein größeres oder besseres Auto angeboten.</span>
+        </label>
+        <label>
+          <input type="checkbox" id="chkExtras">
+          <span>Mir werden Extras wie Maut-Box, Navi oder Kindersitz aufgedrängt.</span>
+        </label>
+        <label>
+          <input type="checkbox" id="chkRefusal">
+          <span>Das Personal verweigert die Herausgabe des Autos, wenn ich keine Zusatzversicherung abschließe.</span>
+        </label>
+      </div>
+    </div>
+
+    <button type="button" class="button-elegant" id="checkBtn">Leitfaden generieren</button>
+
+    <div id="resultOutput" class="result-box-elegant" style="display:none;"></div>
   </div>
 
   <div class="info-box blue">
@@ -273,11 +534,11 @@
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Weitere interessante Themen:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="mietwagen-versicherungen-enterprise.html">Enterprise</a>
-<a href="mietwagen-versicherungen-hertz.html">Hertz</a>
+    <a href="mietwagen-versicherungen-europcar.html">Europcar</a>
+<a href="mietwagen-versicherungen-thrifty.html">Thrifty</a>
+<a href="mietwagen-versicherungen-firefly.html">Firefly</a>
 <a href="mietwagen-versicherungen-sunny-cars.html">Sunny Cars</a>
-<a href="mietwagen-versicherungen-avis.html">Avis</a>
-<a href="mietwagen-versicherungen-ok-mobility.html">OK Mobility</a>
+<a href="mietwagen-versicherungen-record-go.html">Record Go</a>
 
   </div>
 </div>
@@ -374,36 +635,94 @@ document.getElementById('checkBtn').addEventListener('click', function() {
     const chkBroker = document.getElementById('chkBroker').checked;
     const chkCreditCard = document.getElementById('chkCreditCard').checked;
     const chkBasic = document.getElementById('chkBasic').checked;
-    
+    const chkRealCC = document.getElementById('chkRealCC').checked;
+    const chkDebit = document.getElementById('chkDebit').checked;
+    const chkClaim = document.getElementById('chkClaim').checked;
+    const chkUpgrade = document.getElementById('chkUpgrade').checked;
+    const chkExtras = document.getElementById('chkExtras').checked;
+    const chkRefusal = document.getElementById('chkRefusal').checked;
+
     const resultBox = document.getElementById('resultOutput');
     resultBox.style.display = 'block';
+    resultBox.innerHTML = '';
     
-    // Reset classes
-    resultBox.classList.remove('result-safe', 'result-warning');
+    let html = '';
+    let hasStrategy = false;
 
+    // 1. HAUPTSTRATEGIE (Buchung)
     if (chkBasic && !chkBroker && !chkCreditCard) {
-        resultBox.classList.add('result-warning');
-        resultBox.innerHTML = `
-            <h3>⚠️ Achtung: Hohes Risiko</h3>
-            <p>Sie haben aktuell nur die gesetzliche Basis-Versicherung. Bei einem Kratzer oder Unfall haften Sie mit einer extrem hohen Selbstbeteiligung (oft 1.000 € bis 3.000 €).</p>
-            <p><strong>Was Sie am Schalter tun sollten:</strong> In Ihrem Fall ist es leider ratsam, die Vollkasko-Versicherung (Super CDW) von Goldcar am Schalter abzuschließen, auch wenn diese teuer ist. Das Risiko, den Urlaub mit tausenden Euro Schulden zu beenden, ist sonst zu groß.</p>
-        `;
+        html += `<h3>Ihr Status: Risiko erkannt</h3>`;
+        html += `<p>Sie haben den Basistarif ohne externen Schutz gebucht. Im Schadensfall haften Sie mit der vollen Selbstbeteiligung des Vermieters (oft 1.000 € bis 3.000 €).</p>`;
+        html += `<h4>Handlungsempfehlung:</h4>`;
+        html += `<p>In diesem spezifischen Fall ist es finanziell leider ratsam, die teure Zusatzversicherung (Super CDW) direkt am Schalter von Goldcar abzuschließen, da Sie sonst ein unkalkulierbares Risiko tragen.</p>`;
+        hasStrategy = true;
     } 
     else if (chkBroker || chkCreditCard) {
-        resultBox.classList.add('result-safe');
-        let grund = chkBroker ? "Ihren Broker (z.B. Check24)" : "Ihre Kreditkarte";
+        const quelle = chkBroker ? "Ihren Broker (z.B. Check24, Billiger-Mietwagen)" : "Ihre Reise-Kreditkarte";
+        html += `<h3>Ihr Status: Optimal abgesichert</h3>`;
+        html += `<p>Sie sind durch <strong>${quelle}</strong> bereits vollkaskoversichert. Es gibt keinen rationalen Grund, am Schalter weitere Policen abzuschließen.</p>`;
         
-        resultBox.innerHTML = `
-            <h3>✅ Sagen Sie "NEIN" zu allem am Schalter!</h3>
-            <p>Sie sind durch <strong>${grund}</strong> bereits vollständig abgesichert. Der Mitarbeiter am Schalter von Goldcar wird Ihnen wahrscheinlich trotzdem eine Versicherung anbieten wollen.</p>
-            <p><strong>Ihre Antwort am Schalter:</strong><br>
-            <em>"Nein danke, ich brauche keine Zusatzversicherungen. Bitte blocken Sie einfach die Kaution auf meiner Kreditkarte."</em></p>
-            <p><strong>Lassen Sie sich nicht verunsichern:</strong> Der Mitarbeiter könnte sagen: <em>"Aber Ihre Broker-Versicherung gilt bei uns nicht direkt, wir behalten bei einem Kratzer Ihr Geld!"</em>. Das ist faktisch richtig, aber kein Problem: Sie zahlen den Schaden vor Ort aus der geblockten Kaution und holen sich das Geld zu Hause von ${grund} wieder zurück!</p>
-        `;
-    } else {
-        resultBox.style.display = 'none';
-        alert("Bitte wählen Sie mindestens eine Option aus.");
+        html += `<h4>Ihr Standardsatz am Schalter:</h4>`;
+        html += `<div class="quote-box">Nein danke, ich benötige keine Zusatzversicherungen. Bitte buchen Sie nur den Basistarif und blocken Sie die reguläre Kaution auf meiner Karte.</div>`;
+        
+        html += `<p><strong>Wichtig:</strong> Der Mitarbeiter wird im System nur den Basistarif sehen und Sie eventuell warnen, dass Sie unversichert sind. Bleiben Sie ruhig. Er versucht lediglich, seine Provision zu steigern.</p>`;
+        hasStrategy = true;
     }
+
+    // 2. KREDITKARTEN-PROBLEM
+    if (chkDebit && (chkBroker || chkCreditCard)) {
+        html += `<h4>Achtung: Das Debitkarten-Problem</h4>`;
+        html += `<p>Viele Stationen von Goldcar akzeptieren <strong>keine Debitkarten</strong> (Girocard, Visa Debit) für die Kautionsblockung, da das Geld nicht garantiert "geblockt", sondern nur reserviert wird.</p>`;
+        html += `<p><strong>Der Trick:</strong> Wenn Sie keine echte Kreditkarte (Credit) vorlegen können, wird der Mitarbeiter argumentieren, dass Sie ohne Kaution das Auto nur mit der teuren Super-Vollkasko mitnehmen dürfen.</p>`;
+        html += `<div class="quote-box">Ich bestehe auf die im Vertrag vereinbarte Übergabe. Bitte prüfen Sie das System erneut oder rufen Sie Ihren Manager.</div>`;
+    }
+
+    // 3. TAKTIK: VERSICHERUNG GILT NICHT
+    if (chkClaim) {
+        html += `<h4>Abwehr: "Ihre Versicherung gilt hier nicht"</h4>`;
+        html += `<p>Dieser Satz ist ein halbwahrer Klassiker. Technisch gesehen hat der Mitarbeiter recht: Die Versicherung des Brokers ist eine deutsche Kostenerstattung und keine Direkt-Police beim spanischen/italienischen Vermieter.</p>`;
+        html += `<h4>Ihre Antwort:</h4>`;
+        html += `<div class="quote-box">Das ist mir bekannt. Ich akzeptiere die Blockung der Kaution und reiche im unwahrscheinlichen Schadensfall die Rechnung selbst bei meinem Broker ein. Wir brauchen hier keine Police.</div>`;
+    }
+
+    // 4. TAKTIK: UPGRADE
+    if (chkUpgrade) {
+        html += `<h4>Abwehr: Das Upgrade-Angebot</h4>`;
+        html += `<p>"Wir haben Ihr Auto nicht da, aber ich kann Ihnen kostenlos ein Upgrade auf einen SUV geben." Vorsicht! Größere Autos bedeuten oft höhere Kautions-Summen, mehr Verbrauch und im Schadensfall teure Reparaturen (die über die Selbstbeteiligung abgewickelt werden).</p>`;
+        html += `<p><strong>Strategie:</strong> Beharren Sie auf der gebuchten Klasse, es sei denn, das Upgrade ist schriftlich als 100% kostenlos (ohne höhere Kaution) bestätigt.</p>`;
+    }
+
+    // 5. TAKTIK: EXTRAS
+    if (chkExtras) {
+        html += `<h4>Abwehr: Maut-Box & Extras</h4>`;
+        html += `<p>Mitarbeiter legen oft ungefragt eine Maut-Box (Telepass/Via-T) ins Auto oder bieten Navis an. Diese Boxen kosten oft 10-15 € Grundgebühr pro Tag, egal ob Sie mautpflichtige Strecken fahren oder nicht.</p>`;
+        html += `<div class="quote-box">Bitte entfernen Sie die Maut-Box aus dem Vertrag. Ich bezahle anfallende Mautgebühren an der Station bar oder per Karte.</div>`;
+    }
+
+    // 6. NOTFALL: VERWEIGERUNG
+    if (chkRefusal) {
+        html += `<h4>Notfall: Das Auto wird verweigert</h4>`;
+        html += `<p>Wenn das Personal die Herausgabe des Fahrzeugs verweigert, weil Sie die Zusatzversicherung ablehnen: Bleiben Sie höflich, aber bestimmt.</p>`;
+        html += `<ul>`;
+        html += `<li>Machen Sie ein Foto vom Schalter und notieren Sie den Namen des Mitarbeiters.</li>`;
+        html += `<li>Rufen Sie <strong>sofort die Hotline Ihres Brokers</strong> an (nicht den Vermieter!). Der Broker kann oft direkt mit der Zentrale von Goldcar telefonieren.</li>`;
+        html += `<li>Weisen Sie darauf hin, dass die Verweigerung der Übergabe trotz gültiger Buchung und Kreditkarte eine Vertragsverletzung und Nötigung darstellt.</li>`;
+        html += `</ul>`;
+    }
+
+    // FALLBACKS / FEHLER
+    if (!hasStrategy && !chkDebit && !chkClaim && !chkUpgrade && !chkExtras && !chkRefusal) {
+         if (chkDebit || chkRealCC) {
+             html += `<h3>Bitte vervollständigen Sie Ihre Buchungsinformationen</h3>`;
+             html += `<p>Sie haben Ihr Zahlungsmittel angegeben, aber nicht Ihre Buchungsart. Bitte wählen Sie im ersten Abschnitt aus, wie Sie gebucht haben, damit wir die passende Strategie für Sie erstellen können.</p>`;
+         } else {
+             html += `<h3>Bitte wählen Sie Ihre Situation</h3>`;
+             html += `<p>Kreuzen Sie mindestens Ihre Buchungsart (erster Abschnitt) an, damit das Tool Ihren individuellen Leitfaden generieren kann.</p>`;
+         }
+    }
+
+    resultBox.innerHTML = html;
+    resultBox.scrollIntoView({behavior: "smooth", block: "center"});
 });
 </script>
 </body>

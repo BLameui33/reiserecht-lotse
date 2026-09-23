@@ -73,8 +73,7 @@
 <link rel="icon" href="/logo-lotse-fav.png">
 
   <style>
-    /* NUR SPEZIFISCHES DESIGN FÜR DIE AFFILIATE BANNER IN ROT-TÖNEN */
-    .affiliate-banner-red { 
+.affiliate-banner-red { 
   position: relative; 
   overflow: hidden;
   background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%); 
@@ -139,6 +138,224 @@
   box-shadow: 0 6px 20px rgba(139, 0, 0, 0.35); 
   color: #ffffff;
 }
+/* === SCHALTER-CHECK: NAHTLOS INS SEITENDESIGN INTEGRIERT === */
+/* Gleiche Box-Sprache wie legal-info-box / affiliate-banner: vollbreit, flach, feine Linie */
+.calc-box.elegant-tool {
+  max-width: none;
+  width: 100%;
+  margin: 30px 0 40px;
+  padding: 35px 40px;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: var(--radius-lg, 12px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  font-family: inherit; /* Serifen-Headlines der Seite bleiben erhalten */
+}
+
+.elegant-tool .tool-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.elegant-tool .tool-subtitle {
+  color: #555;
+  margin: 0 0 30px;
+}
+
+/* Abschnitts-Überschriften: dezente rote Label-Zeile statt fieldset/legend */
+.elegant-tool .tool-section {
+  margin-bottom: 28px;
+}
+
+.elegant-tool .tool-section-title {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #8B0000;
+  margin: 0 0 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* Checkbox-Zeilen: flache Karten im Seiten-Look */
+.elegant-tool .checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.elegant-tool .checkbox-group label {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin: 0;
+  padding: 14px 16px;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: var(--radius-md, 8px);
+  color: #495057;
+  line-height: 1.55;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.elegant-tool .checkbox-group label:hover {
+  border-color: #d3b3b3;
+}
+
+.elegant-tool .checkbox-group label:has(input:checked) {
+  border-color: #8B0000;
+  background: #fcf7f7;
+}
+
+/* Custom Checkbox: schlank, eckiger, dunkelrot */
+.elegant-tool .checkbox-group input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid #ced4da;
+  border-radius: 4px;
+  flex-shrink: 0;
+  margin: 2px 0 0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+  background: #fff;
+}
+
+.elegant-tool .checkbox-group input[type="checkbox"]:checked {
+  background-color: #8B0000;
+  border-color: #8B0000;
+}
+
+.elegant-tool .checkbox-group input[type="checkbox"]:checked::after {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 9px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+/* Button: identische Sprache wie .btn-affiliate-gold */
+.button-elegant {
+  display: inline-block;
+  background: #8B0000;
+  color: #ffffff;
+  border: none;
+  padding: 15px 34px;
+  font-size: 1em;
+  font-weight: 700;
+  font-family: inherit;
+  border-radius: var(--radius-md, 8px);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  box-shadow: 0 4px 15px rgba(139, 0, 0, 0.25);
+}
+
+.button-elegant:hover {
+  background: #6a0000;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(139, 0, 0, 0.35);
+  color: #ffffff;
+}
+
+/* Ergebnisbox: weiße Seiten-Box mit dunkelroter Akzentkante links */
+.result-box-elegant {
+  margin-top: 32px;
+  padding: 28px 32px;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-left: 4px solid #8B0000;
+  border-radius: var(--radius-md, 8px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
+  animation: toolFadeIn 0.4s ease;
+}
+
+@keyframes toolFadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.result-box-elegant h3 {
+  color: #8B0000;
+  margin: 0 0 16px;
+  font-size: 1.25em;
+}
+
+.result-box-elegant h4 {
+  color: #212529;
+  margin: 22px 0 10px;
+  font-size: 1.05em;
+}
+
+.result-box-elegant p {
+  color: #495057;
+  line-height: 1.65;
+  margin-bottom: 14px;
+}
+
+.result-box-elegant ul {
+  padding-left: 0;
+  list-style: none;
+  margin: 0 0 20px;
+}
+
+.result-box-elegant li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 10px;
+  color: #495057;
+  line-height: 1.6;
+}
+
+.result-box-elegant li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 6px;
+  height: 6px;
+  background: #8B0000;
+  border-radius: 50%;
+}
+
+/* Zitat-Box für die Sätze am Schalter */
+.result-box-elegant .quote-box {
+  position: relative;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  padding: 16px 20px 16px 46px;
+  margin: 16px 0;
+  font-style: italic;
+  color: #495057;
+}
+
+.result-box-elegant .quote-box::before {
+  content: '\201C';
+  font-family: Georgia, serif;
+  font-size: 3.4rem;
+  line-height: 1;
+  color: #8B0000;
+  opacity: 0.25;
+  position: absolute;
+  top: 6px;
+  left: 14px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .calc-box.elegant-tool { padding: 22px 20px; margin: 24px 0 32px; }
+  .result-box-elegant { padding: 20px 18px; }
+  .button-elegant { display: block; width: 100%; }
+}
   </style>
 </head>
 
@@ -186,25 +403,67 @@
     <p><strong>Verificado editorialmente em:</strong> <span id="pruefdatum">20.08.2026</span></p>
   </div>
   <!-- Interaktiver Rechner-Bereich (IDs & Struktur exakt beibehalten) -->
-  <div class="calc-box">
-    <div class="checkbox-group" id="insuranceCheckboxes">
-      <label>
-        <input type="checkbox" id="chkBroker"> 
-        Reservei por meio de um portal (por exemplo, Rentalcars, Auto Europe) e escolhi a tarifa <strong>"Sem franquia" / "Cobertura Premium"</strong>.
-      </label>
-      <label>
-        <input type="checkbox" id="chkCreditCard"> 
-        Paguei com um <strong>cartão de crédito de viagem</strong> que inclui seguro completo de carro alugado (CDW).
-      </label>
-      <label>
-        <input type="checkbox" id="chkBasic"> 
-        Nada disso. Reservei diretamente no site da Auto Europe a tarifa básica mais barata.
-      </label>
+  <div class="calc-box elegant-tool">
+    <h2 class="tool-title">O seu teste personalizado para o balcão de aluguer</h2>
+    <p class="tool-subtitle">Selecione a sua situação atual. A ferramenta criará o seu guia individual para a entrega do veículo.</p>
+
+    <div class="tool-section">
+      <div class="tool-section-title">A sua reserva e proteção</div>
+      <div class="checkbox-group">
+        <label>
+          <input type="checkbox" id="chkBroker">
+          <span>Reservei através de um portal (ex.: Rentalcars, Auto Europe, Kayak) e escolhi a opção <strong>"Sem franquia / Proteção Premium"</strong>.</span>
+        </label>
+        <label>
+          <input type="checkbox" id="chkCreditCard">
+          <span>Tenho um cartão de crédito de viagem que inclui um seguro de danos próprios completo (CDW) para carros de aluguer.</span>
+        </label>
+        <label>
+          <input type="checkbox" id="chkBasic">
+          <span>Reservei a tarifa básica mais económica diretamente no site da Auto Europe.</span>
+        </label>
+      </div>
     </div>
 
-    <button type="button" class="button-primary" id="checkBtn">Analisar minha situação agora</button>
+    <div class="tool-section">
+      <div class="tool-section-title">Método de pagamento para a caução</div>
+      <div class="checkbox-group">
+        <label>
+          <input type="checkbox" id="chkRealCC">
+          <span>Tenho um cartão de crédito real (Credit) com limite suficiente para o bloqueio da caução.</span>
+        </label>
+        <label>
+          <input type="checkbox" id="chkDebit">
+          <span>Apenas tenho um cartão de débito (Visa Débito / Mastercard Débito / Multibanco) ou não tenho cartão.</span>
+        </label>
+      </div>
+    </div>
 
-    <div id="resultOutput" class="result-box"></div>
+    <div class="tool-section">
+      <div class="tool-section-title">Situação no local (opcional)</div>
+      <div class="checkbox-group">
+        <label>
+          <input type="checkbox" id="chkClaim">
+          <span>O funcionário alega que o meu seguro externo "não é válido aqui".</span>
+        </label>
+        <label>
+          <input type="checkbox" id="chkUpgrade">
+          <span>Estão a oferecer-me um "upgrade" para um carro maior ou de categoria superior.</span>
+        </label>
+        <label>
+          <input type="checkbox" id="chkExtras">
+          <span>Estão a tentar vender-me extras como dispositivo de portagem (Via Verde), GPS ou cadeira de bebé.</span>
+        </label>
+        <label>
+          <input type="checkbox" id="chkRefusal">
+          <span>A equipa recusa-se a entregar o veículo se eu não contratar um seguro adicional.</span>
+        </label>
+      </div>
+    </div>
+
+    <button type="button" class="button-elegant" id="checkBtn">Gerar guia de ação</button>
+
+    <div id="resultOutput" class="result-box-elegant" style="display:none;"></div>
   </div>
 
   <div class="info-box blue">
@@ -274,11 +533,11 @@
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Outros temas interessantes:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="mietwagen-versicherungen-goldcar.html">Goldcar</a>
+    <a href="mietwagen-versicherungen-avis.html">Avis</a>
+<a href="mietwagen-versicherungen-drive-on-holidays.html">Drive on Holidays</a>
+<a href="mietwagen-versicherungen-enterprise.html">Enterprise</a>
 <a href="mietwagen-versicherungen-cael.html">CAEL Rent a Car</a>
-<a href="mietwagen-versicherungen-guerin.html">Guerin Car Rental Solutions</a>
-<a href="mietwagen-versicherungen-ok-mobility.html">OK Mobility</a>
-<a href="mietwagen-versicherungen-record-go.html">Record Go</a>
+<a href="mietwagen-versicherungen-alamo.html">Alamo</a>
 
   </div>
 </div>
@@ -374,36 +633,94 @@ document.getElementById('checkBtn').addEventListener('click', function() {
     const chkBroker = document.getElementById('chkBroker').checked;
     const chkCreditCard = document.getElementById('chkCreditCard').checked;
     const chkBasic = document.getElementById('chkBasic').checked;
-    
+    const chkRealCC = document.getElementById('chkRealCC').checked;
+    const chkDebit = document.getElementById('chkDebit').checked;
+    const chkClaim = document.getElementById('chkClaim').checked;
+    const chkUpgrade = document.getElementById('chkUpgrade').checked;
+    const chkExtras = document.getElementById('chkExtras').checked;
+    const chkRefusal = document.getElementById('chkRefusal').checked;
+
     const resultBox = document.getElementById('resultOutput');
     resultBox.style.display = 'block';
+    resultBox.innerHTML = '';
     
-    // Reset classes
-    resultBox.classList.remove('result-safe', 'result-warning');
+    let html = '';
+    let hasStrategy = false;
 
+    // 1. ESTRATÉGIA PRINCIPAL (Reserva)
     if (chkBasic && !chkBroker && !chkCreditCard) {
-        resultBox.classList.add('result-warning');
-        resultBox.innerHTML = `
-            <h3>⚠️ Atenção: alto risco</h3>
-            <p>Você tem atualmente apenas o seguro básico legal. Em caso de arranhão ou acidente, você responde com uma franquia extremamente alta (geralmente entre 1.000 € e 3.000 €).</p>
-            <p><strong>O que você deve fazer no balcão:</strong> No seu caso, infelizmente é recomendável contratar o seguro completo (Super CDW) da Auto Europe no balcão, mesmo que seja caro. Caso contrário, o risco de terminar as férias com milhares de euros em dívidas é grande demais.</p>
-        `;
+        html += `<h3>O seu estado: Risco detetado</h3>`;
+        html += `<p>Reservou a tarifa básica sem proteção externa. Em caso de danos, será responsável pelo valor total da franquia da empresa de aluguer (frequentemente entre 1.000 € e 3.000 €).</p>`;
+        html += `<h4>Recomendação:</h4>`;
+        html += `<p>Neste caso específico, do ponto de vista financeiro, é infelizmente recomendável contratar o seguro adicional (Super CDW / Isenção de franquia) diretamente no balcão da Auto Europe, caso contrário assumirá um risco financeiro elevado e imprevisível.</p>`;
+        hasStrategy = true;
     } 
     else if (chkBroker || chkCreditCard) {
-        resultBox.classList.add('result-safe');
-        let grund = chkBroker ? "seu intermediário (por exemplo, Check24)" : "seu cartão de crédito";
+        const quelle = chkBroker ? "o seu intermediário (ex.: Rentalcars, Auto Europe, Kayak)" : "o seu cartão de crédito de viagem";
+        html += `<h3>O seu estado: Proteção ideal</h3>`;
+        html += `<p>Já se encontra totalmente protegido através de <strong>${quelle}</strong>. Não existe nenhuma razão racional para contratar apólices adicionais no balcão.</p>`;
         
-        resultBox.innerHTML = `
-            <h3>✅ Diga "NÃO" a tudo no balcão!</h3>
-            <p>Você já está totalmente coberto por <strong>${grund}</strong>. O funcionário no balcão da Auto Europe provavelmente ainda assim tentará lhe oferecer um seguro.</p>
-            <p><strong>Sua resposta no balcão:</strong><br>
-            <em>"Não, obrigado, não preciso de seguros adicionais. Por favor, apenas bloqueie o depósito no meu cartão de crédito."</em></p>
-            <p><strong>Não se deixe intimidar:</strong> O funcionário pode dizer: <em>"Mas o seu seguro do intermediário não vale diretamente conosco; se houver um arranhão, ficamos com o seu dinheiro!"</em>. Isso é tecnicamente correto, mas não é problema: você paga o dano no local com o depósito bloqueado e depois recupera o dinheiro em casa com ${grund}!</p>
-        `;
-    } else {
-        resultBox.style.display = 'none';
-        alert("Por favor, selecione pelo menos uma opção.");
+        html += `<h4>A sua frase standard no balcão:</h4>`;
+        html += `<div class="quote-box">Não, obrigado/a. Não necessito de seguros adicionais. Por favor, processe apenas a tarifa básica e bloqueie a caução habitual no meu cartão.</div>`;
+        
+        html += `<p><strong>Importante:</strong> O funcionário apenas verá a tarifa básica no sistema e poderá avisá-lo/a de que está "sem cobertura". Mantenha a calma: está apenas a tentar aumentar a sua comissão de venda.</p>`;
+        hasStrategy = true;
     }
+
+    // 2. PROBLEMA DO CARTÃO DE DÉBITO
+    if (chkDebit && (chkBroker || chkCreditCard)) {
+        html += `<h4>Atenção: O problema dos cartões de débito</h4>`;
+        html += `<p>Muitas estações da Auto Europe <strong>não aceitam cartões de débito</strong> (Visa Débito, Mastercard Débito) para a retenção da caução, uma vez que o montante não é garantido através de um simples bloqueio, mas sim debitado diretamente da conta.</p>`;
+        html += `<p><strong>A tática do balcão:</strong> Se não apresentar um cartão de crédito real (Credit), o funcionário argumentará que, sem caução, só poderá levantar o carro contratando a dispendiosa cobertura total contra todos os riscos.</p>`;
+        html += `<div class="quote-box">Insisto na entrega do veículo nas condições acordadas no contrato. Por favor, verifique novamente o sistema ou consulte o responsável pela estação.</div>`;
+    }
+
+    // 3. TÁTICA: O SEGURO NÃO É VÁLIDO
+    if (chkClaim) {
+        html += `<h4>Defesa: "O seu seguro não é válido aqui"</h4>`;
+        html += `<p>Esta frase é um clássico de meias verdades. Do ponto de vista técnico, o funcionário tem parte de razão: o seguro do intermediário é uma cobertura por reembolso posterior e não uma apólice direta contratada com a rent-a-car local.</p>`;
+        html += `<h4>A sua resposta:</h4>`;
+        html += `<div class="quote-box">Tenho conhecimento disso. Aceito o bloqueio da caução no meu cartão e, no improvável caso de danos, solicitarei o reembolso diretamente ao meu intermediário. Não precisamos de contratar nenhuma apólice adicional aqui.</div>`;
+    }
+
+    // 4. TÁTICA: UPGRADE
+    if (chkUpgrade) {
+        html += `<h4>Defesa: A oferta de "Upgrade"</h4>`;
+        html += `<p>"Não temos o carro que reservou, mas posso oferecer-lhe um upgrade gratuito para um SUV." Atenção! Veículos maiores implicam frequentemente cauções mais elevadas, maior consumo de combustível e reparações mais caras em caso de danos (que são deduzidas da franquia).</p>`;
+        html += `<p><strong>Estratégia:</strong> Insista na categoria reservada, a menos que confirmem por escrito que a melhoria é 100% gratuita (sem qualquer aumento na caução habitual).</p>`;
+    }
+
+    // 5. TÁTICA: EXTRAS (VIA VERDE)
+    if (chkExtras) {
+        html += `<h4>Defesa: Dispositivo de portagem (Via Verde) e extras</h4>`;
+        html += `<p>Muitas vezes, os funcionários adicionam ao contrato, sem perguntar, o dispositivo de portagem (Via Verde) ou GPS. Em Portugal, o dispositivo Via Verde é muito prático devido às portagens exclusivamente eletrónicas (ex-SCUTs), mas verifique a taxa diária de aluguer do identificador antes de aceitar.</p>`;
+        html += `<div class="quote-box">Por favor, remova os extras não solicitados do contrato. Pagarei as portagens diretamente nas barreiras manuais ou através dos meios de pagamento a posteriori, caso não pretenda o dispositivo.</div>`;
+    }
+
+    // 6. EMERGÊNCIA: RECUSA DE ENTREGA
+    if (chkRefusal) {
+        html += `<h4>Caso de emergência: Recusam a entrega do carro</h4>`;
+        html += `<p>Se a equipa se recusar a entregar o veículo por rejeitar o seguro adicional: mantenha a calma e seja firme.</p>`;
+        html += `<ul>`;
+        html += `<li>Tire uma fotografia ao balcão e anote o nome do funcionário.</li>`;
+        html += `<li>Ligue <strong>imediatamente para a linha de apoio do seu intermediário</strong> (não para a rent-a-car!). O intermediário consegue frequentemente contactar diretamente a sede da Auto Europe.</li>`;
+        html += `<li>Mencione que a recusa de entrega com uma reserva válida e cartão de crédito adequado constitui um incumprimento contratual.</li>`;
+        html += `</ul>`;
+    }
+
+    // FALLBACKS / MENSAGENS DE ERRO
+    if (!hasStrategy && !chkDebit && !chkClaim && !chkUpgrade && !chkExtras && !chkRefusal) {
+         if (chkDebit || chkRealCC) {
+             html += `<h3>Por favor, complete as informações da sua reserva</h3>`;
+             html += `<p>Indicou o seu método de pagamento, mas não o tipo de reserva. Selecione na primeira secção como reservou para que possamos criar a estratégia adequada.</p>`;
+         } else {
+             html += `<h3>Por favor, selecione a sua situação</h3>`;
+             html += `<p>Marque pelo menos o seu tipo de reserva (primeira secção) para que a ferramenta possa gerar o seu guia personalizado.</p>`;
+         }
+    }
+
+    resultBox.innerHTML = html;
+    resultBox.scrollIntoView({behavior: "smooth", block: "center"});
 });
 </script>
 </body>

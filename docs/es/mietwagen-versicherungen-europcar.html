@@ -74,8 +74,7 @@
 <link rel="icon" href="/logo-lotse-fav.png">
 
   <style>
-    /* NUR SPEZIFISCHES DESIGN FÜR DIE AFFILIATE BANNER IN ROT-TÖNEN */
-    .affiliate-banner-red { 
+.affiliate-banner-red { 
   position: relative; 
   overflow: hidden;
   background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%); 
@@ -140,6 +139,224 @@
   box-shadow: 0 6px 20px rgba(139, 0, 0, 0.35); 
   color: #ffffff;
 }
+/* === SCHALTER-CHECK: NAHTLOS INS SEITENDESIGN INTEGRIERT === */
+/* Gleiche Box-Sprache wie legal-info-box / affiliate-banner: vollbreit, flach, feine Linie */
+.calc-box.elegant-tool {
+  max-width: none;
+  width: 100%;
+  margin: 30px 0 40px;
+  padding: 35px 40px;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: var(--radius-lg, 12px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  font-family: inherit; /* Serifen-Headlines der Seite bleiben erhalten */
+}
+
+.elegant-tool .tool-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.elegant-tool .tool-subtitle {
+  color: #555;
+  margin: 0 0 30px;
+}
+
+/* Abschnitts-Überschriften: dezente rote Label-Zeile statt fieldset/legend */
+.elegant-tool .tool-section {
+  margin-bottom: 28px;
+}
+
+.elegant-tool .tool-section-title {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #8B0000;
+  margin: 0 0 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* Checkbox-Zeilen: flache Karten im Seiten-Look */
+.elegant-tool .checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.elegant-tool .checkbox-group label {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin: 0;
+  padding: 14px 16px;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: var(--radius-md, 8px);
+  color: #495057;
+  line-height: 1.55;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.elegant-tool .checkbox-group label:hover {
+  border-color: #d3b3b3;
+}
+
+.elegant-tool .checkbox-group label:has(input:checked) {
+  border-color: #8B0000;
+  background: #fcf7f7;
+}
+
+/* Custom Checkbox: schlank, eckiger, dunkelrot */
+.elegant-tool .checkbox-group input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid #ced4da;
+  border-radius: 4px;
+  flex-shrink: 0;
+  margin: 2px 0 0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+  background: #fff;
+}
+
+.elegant-tool .checkbox-group input[type="checkbox"]:checked {
+  background-color: #8B0000;
+  border-color: #8B0000;
+}
+
+.elegant-tool .checkbox-group input[type="checkbox"]:checked::after {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 9px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+/* Button: identische Sprache wie .btn-affiliate-gold */
+.button-elegant {
+  display: inline-block;
+  background: #8B0000;
+  color: #ffffff;
+  border: none;
+  padding: 15px 34px;
+  font-size: 1em;
+  font-weight: 700;
+  font-family: inherit;
+  border-radius: var(--radius-md, 8px);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  box-shadow: 0 4px 15px rgba(139, 0, 0, 0.25);
+}
+
+.button-elegant:hover {
+  background: #6a0000;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(139, 0, 0, 0.35);
+  color: #ffffff;
+}
+
+/* Ergebnisbox: weiße Seiten-Box mit dunkelroter Akzentkante links */
+.result-box-elegant {
+  margin-top: 32px;
+  padding: 28px 32px;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-left: 4px solid #8B0000;
+  border-radius: var(--radius-md, 8px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
+  animation: toolFadeIn 0.4s ease;
+}
+
+@keyframes toolFadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.result-box-elegant h3 {
+  color: #8B0000;
+  margin: 0 0 16px;
+  font-size: 1.25em;
+}
+
+.result-box-elegant h4 {
+  color: #212529;
+  margin: 22px 0 10px;
+  font-size: 1.05em;
+}
+
+.result-box-elegant p {
+  color: #495057;
+  line-height: 1.65;
+  margin-bottom: 14px;
+}
+
+.result-box-elegant ul {
+  padding-left: 0;
+  list-style: none;
+  margin: 0 0 20px;
+}
+
+.result-box-elegant li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 10px;
+  color: #495057;
+  line-height: 1.6;
+}
+
+.result-box-elegant li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 6px;
+  height: 6px;
+  background: #8B0000;
+  border-radius: 50%;
+}
+
+/* Zitat-Box für die Sätze am Schalter */
+.result-box-elegant .quote-box {
+  position: relative;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  padding: 16px 20px 16px 46px;
+  margin: 16px 0;
+  font-style: italic;
+  color: #495057;
+}
+
+.result-box-elegant .quote-box::before {
+  content: '\201C';
+  font-family: Georgia, serif;
+  font-size: 3.4rem;
+  line-height: 1;
+  color: #8B0000;
+  opacity: 0.25;
+  position: absolute;
+  top: 6px;
+  left: 14px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .calc-box.elegant-tool { padding: 22px 20px; margin: 24px 0 32px; }
+  .result-box-elegant { padding: 20px 18px; }
+  .button-elegant { display: block; width: 100%; }
+}
   </style>
 </head>
 
@@ -187,25 +404,67 @@
     <p><strong>Revisado editorialmente el:</strong> <span id="pruefdatum">20.08.2026</span></p>
   </div>
   <!-- Interaktiver Rechner-Bereich (IDs & Struktur exakt beibehalten) -->
-  <div class="calc-box">
-    <div class="checkbox-group" id="insuranceCheckboxes">
-      <label>
-        <input type="checkbox" id="chkBroker"> 
-        He reservado a través de un portal (por ejemplo, DoYouSpain, Rentalcars) y allí he elegido la tarifa <strong>"Sin franquicia" / "Cobertura premium"</strong>.
-      </label>
-      <label>
-        <input type="checkbox" id="chkCreditCard"> 
-        Pago con una <strong>tarjeta de crédito de viaje</strong> que incluye un seguro a todo riesgo para coche de alquiler (CDW).
-      </label>
-      <label>
-        <input type="checkbox" id="chkBasic"> 
-        Nada de eso. He reservado directamente en la web de Europcar la tarifa básica más barata.
-      </label>
+  <div class="calc-box elegant-tool">
+    <h2 class="tool-title">Tu comprobación personalizada para el mostrador</h2>
+    <p class="tool-subtitle">Selecciona tu situación actual. La herramienta generará tu guía personalizada para la recogida del vehículo.</p>
+
+    <div class="tool-section">
+      <div class="tool-section-title">Tu reserva y cobertura</div>
+      <div class="checkbox-group">
+        <label>
+          <input type="checkbox" id="chkBroker">
+          <span>He reservado a través de un comparador (ej. DoYouSpain, Rentalcars, Rastreator) y elegí la opción <strong>"Sin franquicia / Cobertura Premium"</strong>.</span>
+        </label>
+        <label>
+          <input type="checkbox" id="chkCreditCard">
+          <span>Tengo una tarjeta de crédito de viajes que incluye seguro a todo riesgo completo (CDW) para coches de alquiler.</span>
+        </label>
+        <label>
+          <input type="checkbox" id="chkBasic">
+          <span>He reservado la tarifa básica más económica directamente en la web de Europcar.</span>
+        </label>
+      </div>
     </div>
 
-    <button type="button" class="button-primary" id="checkBtn">Evaluar ahora mi situación</button>
+    <div class="tool-section">
+      <div class="tool-section-title">Método de pago para la fianza</div>
+      <div class="checkbox-group">
+        <label>
+          <input type="checkbox" id="chkRealCC">
+          <span>Llevo una tarjeta de crédito real (Credit) con límite suficiente para el bloqueo de la fianza.</span>
+        </label>
+        <label>
+          <input type="checkbox" id="chkDebit">
+          <span>Solo llevo tarjeta de débito (Visa Débito / Mastercard Débito) o no llevo tarjeta.</span>
+        </label>
+      </div>
+    </div>
 
-    <div id="resultOutput" class="result-box"></div>
+    <div class="tool-section">
+      <div class="tool-section-title">Situación en el mostrador (opcional)</div>
+      <div class="checkbox-group">
+        <label>
+          <input type="checkbox" id="chkClaim">
+          <span>El empleado afirma que mi seguro externo "no es válido aquí".</span>
+        </label>
+        <label>
+          <input type="checkbox" id="chkUpgrade">
+          <span>Me ofrecen un "upgrade" (mejora) a un coche más grande o superior.</span>
+        </label>
+        <label>
+          <input type="checkbox" id="chkExtras">
+          <span>Me intentan vender extras como dispositivo de peaje (Via-T), GPS o silla infantil.</span>
+        </label>
+        <label>
+          <input type="checkbox" id="chkRefusal">
+          <span>El personal se niega a entregarme el coche si no contrato un seguro adicional.</span>
+        </label>
+      </div>
+    </div>
+
+    <button type="button" class="button-elegant" id="checkBtn">Generar guía de actuación</button>
+
+    <div id="resultOutput" class="result-box-elegant" style="display:none;"></div>
   </div>
 
   <div class="info-box blue">
@@ -275,10 +534,10 @@
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Otros temas interesantes:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="mietwagen-versicherungen-centauro.html">Centauro</a>
+    <a href="mietwagen-versicherungen-sixt.html">Sixt</a>
+<a href="mietwagen-versicherungen-goldcar.html">Goldcar</a>
+<a href="mietwagen-versicherungen-clickrent.html">ClickRent</a>
 <a href="mietwagen-versicherungen-cicar.html">CICAR (Canary Islands Car)</a>
-<a href="mietwagen-versicherungen-alamo.html">Alamo</a>
-<a href="mietwagen-versicherungen-billiger-mietwagen.html">Billiger-Mietwagen</a>
 <a href="mietwagen-versicherungen-hiper-rent-a-car.html">Hiper Rent a Car</a>
 
   </div>
@@ -376,36 +635,94 @@ document.getElementById('checkBtn').addEventListener('click', function() {
     const chkBroker = document.getElementById('chkBroker').checked;
     const chkCreditCard = document.getElementById('chkCreditCard').checked;
     const chkBasic = document.getElementById('chkBasic').checked;
-    
+    const chkRealCC = document.getElementById('chkRealCC').checked;
+    const chkDebit = document.getElementById('chkDebit').checked;
+    const chkClaim = document.getElementById('chkClaim').checked;
+    const chkUpgrade = document.getElementById('chkUpgrade').checked;
+    const chkExtras = document.getElementById('chkExtras').checked;
+    const chkRefusal = document.getElementById('chkRefusal').checked;
+
     const resultBox = document.getElementById('resultOutput');
     resultBox.style.display = 'block';
+    resultBox.innerHTML = '';
     
-    // Reset classes
-    resultBox.classList.remove('result-safe', 'result-warning');
+    let html = '';
+    let hasStrategy = false;
 
+    // 1. HAUPTSTRATEGIE (Buchung)
     if (chkBasic && !chkBroker && !chkCreditCard) {
-        resultBox.classList.add('result-warning');
-        resultBox.innerHTML = `
-            <h3>⚠️ Atención: alto riesgo</h3>
-            <p>Actualmente solo dispone del seguro básico legal. En caso de arañazo o accidente, responderá con una franquicia extremadamente alta (a menudo entre 1.000 € y 3.000 €).</p>
-            <p><strong>Qué debe hacer en el mostrador:</strong> En su caso, lamentablemente es recomendable contratar el seguro a todo riesgo (Super CDW) de Europcar en el mostrador, aunque sea caro. De lo contrario, el riesgo de terminar las vacaciones con miles de euros de deuda es demasiado alto.</p>
-        `;
+        html += `<h3>Tu estado: Riesgo detectado</h3>`;
+        html += `<p>Has reservado la tarifa básica sin protección externa. En caso de daños, serás responsable de abonar la franquicia total del alquilador (a menudo entre 1.000 € y 3.000 €).</p>`;
+        html += `<h4>Recomendación:</h4>`;
+        html += `<p>En este caso específico, lamentablemente es aconsejable desde el punto de vista financiero contratar el seguro adicional (Super CDW / Sin Franquicia) directamente en el mostrador de Europcar, ya que de lo contrario asumes un riesgo económico elevado e impredecible.</p>`;
+        hasStrategy = true;
     } 
     else if (chkBroker || chkCreditCard) {
-        resultBox.classList.add('result-safe');
-        let grund = chkBroker ? "su intermediario (por ejemplo, Check24)" : "su tarjeta de crédito";
+        const quelle = chkBroker ? "tu intermediario (ej. DoYouSpain, Rentalcars, Rastreator)" : "tu tarjeta de crédito de viajes";
+        html += `<h3>Tu estado: Cobertura óptima</h3>`;
+        html += `<p>Ya cuentas con seguro a todo riesgo a través de <strong>${quelle}</strong>. No hay ninguna razón racional para contratar pólizas adicionales en el mostrador.</p>`;
         
-        resultBox.innerHTML = `
-            <h3>✅ ¡Diga "NO" a todo en el mostrador!</h3>
-            <p>Ya está completamente cubierto por <strong>${grund}</strong>. El empleado del mostrador de Europcar probablemente intentará ofrecerle igualmente un seguro.</p>
-            <p><strong>Su respuesta en el mostrador:</strong><br>
-            <em>"No, gracias, no necesito seguros adicionales. Por favor, bloquee simplemente la fianza en mi tarjeta de crédito."</em></p>
-            <p><strong>No se deje confundir:</strong> El empleado podría decir: <em>"Pero su seguro del intermediario no es válido directamente con nosotros; si hay un arañazo, nos quedamos con su dinero"</em>. Eso es técnicamente correcto, pero no supone ningún problema: usted paga el daño allí mismo con la fianza bloqueada y luego recupera el dinero en casa de ${grund}.</p>
-        `;
-    } else {
-        resultBox.style.display = 'none';
-        alert("Seleccione al menos una opción.");
+        html += `<h4>Tu frase clave en el mostrador:</h4>`;
+        html += `<div class="quote-box">No, gracias. No necesito seguros adicionales. Por favor, tramiten solo la tarifa básica contratada y bloqueen la fianza habitual en mi tarjeta.</div>`;
+        
+        html += `<p><strong>Importante:</strong> El empleado solo verá la tarifa básica en su sistema y puede que te advierta de que estás "desprotegido". Mantén la calma: solo está intentando aumentar su comisión de venta.</p>`;
+        hasStrategy = true;
     }
+
+    // 2. KREDITKARTEN-PROBLEM
+    if (chkDebit && (chkBroker || chkCreditCard)) {
+        html += `<h4>Atención: El problema con las tarjetas de débito</h4>`;
+        html += `<p>Muchas oficinas de Europcar <strong>no aceptan tarjetas de débito</strong> (Visa Débito, Mastercard Débito) para retener la fianza, ya que el dinero no se puede "bloquear", sino que se cobra directamente.</p>`;
+        html += `<p><strong>La táctica del mostrador:</strong> Si no presentas una tarjeta de crédito real (Credit), el agente argumentará que solo puedes llevarte el coche sin fianza contratando su seguro a todo riesgo obligatorio.</p>`;
+        html += `<div class="quote-box">Insisto en la entrega en las condiciones acordadas en la reserva. Por favor, compruebe de nuevo el sistema o consulte con su responsable.</div>`;
+    }
+
+    // 3. TAKTIK: VERSICHERUNG GILT NICHT
+    if (chkClaim) {
+        html += `<h4>Respuesta a: "Su seguro no es válido aquí"</h4>`;
+        html += `<p>Esta frase es un clásico de verdades a medias. En sentido técnico, el empleado tiene parte de razón: el seguro del comparador es una cobertura por reembolso diferido y no una póliza directa contratada con la empresa de alquiler local.</p>`;
+        html += `<h4>Tu respuesta:</h4>`;
+        html += `<div class="quote-box">Lo sé. Acepto el bloqueo de la fianza en mi tarjeta y, en el improbable caso de daños, gestionaré el reembolso directamente con mi intermediario. No necesito contratar ninguna póliza adicional aquí.</div>`;
+    }
+
+    // 4. TAKTIK: UPGRADE
+    if (chkUpgrade) {
+        html += `<h4>Respuesta a: La oferta de "Upgrade"</h4>`;
+        html += `<p>"No nos queda el coche reservado, pero le ofrecemos un coche superior sin coste." ¡Atención! Los vehículos más grandes a menudo implican fianzas más altas, mayor consumo y reparaciones más caras en caso de daño (que se descuentan de la franquicia).</p>`;
+        html += `<p><strong>Estrategia:</strong> Insiste en la categoría reservada o asegúrate de que confirmen por escrito que la mejora es 100% gratuita y sin incremento de la fianza habitual.</p>`;
+    }
+
+    // 5. TAKTIK: EXTRAS
+    if (chkExtras) {
+        html += `<h4>Respuesta a: Dispositivo de peaje (Via-T) y extras</h4>`;
+        html += `<p>A menudo se añaden dispositivos de peaje (Via-T) o GPS al contrato sin preguntar. Estos dispositivos suelen incluir un coste diario de gestión, independientemente de si usas autopistas de peaje o no.</p>`;
+        html += `<div class="quote-box">Por favor, retire el dispositivo de peaje/extras del contrato. Pagaré los costes de peaje que corresponda directamente con mi tarjeta o en efectivo.</div>`;
+    }
+
+    // 6. NOTFALL: VERWEIGERUNG
+    if (chkRefusal) {
+        html += `<h4>Caso de emergencia: Se niegan a entregar el coche</h4>`;
+        html += `<p>Si el personal se niega a entregarte el vehículo por rechazar el seguro adicional: mantén la educación pero mantente firme.</p>`;
+        html += `<ul>`;
+        html += `<li>Toma una foto del mostrador y anota el nombre del empleado.</li>`;
+        html += `<li>Llama <strong>inmediatamente a la línea de atención de tu intermediario/comparador</strong> (¡no a la empresa de alquiler!). Ellos pueden contactar directamente con la oficina central de Europcar.</li>`;
+        html += `<li>Recuerda al personal que denegar la entrega teniendo una reserva válida y tarjeta de crédito supone un incumplimiento de contrato.</li>`;
+        html += `</ul>`;
+    }
+
+    // FALLBACKS / FEHLER
+    if (!hasStrategy && !chkDebit && !chkClaim && !chkUpgrade && !chkExtras && !chkRefusal) {
+         if (chkDebit || chkRealCC) {
+             html += `<h3>Por favor, completa la información de tu reserva</h3>`;
+             html += `<p>Has indicado el método de pago, pero no el tipo de reserva. Selecciona cómo has reservado en la primera sección para que podamos generar tu estrategia adecuada.</p>`;
+         } else {
+             html += `<h3>Por favor, selecciona tu situación</h3>`;
+             html += `<p>Marca al menos tu tipo de reserva (primera sección) para que la herramienta pueda generar tu guía personalizada.</p>`;
+         }
+    }
+
+    resultBox.innerHTML = html;
+    resultBox.scrollIntoView({behavior: "smooth", block: "center"});
 });
 </script>
 </body>

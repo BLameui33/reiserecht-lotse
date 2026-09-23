@@ -74,46 +74,289 @@
 <link rel="icon" href="/logo-lotse-fav.png">
 
   <style>
-    /* ONLY SPECIFIC DESIGN FOR THE AFFILIATE BANNERS IN RED TONES */
-    .affiliate-banner-red { 
-      background: linear-gradient(135deg, #aba8a8 0%, #aba8a8 100%); 
-      color: white; 
-      padding: 30px; 
-      border-radius: 8px; 
-      text-align: center; 
-      margin: 40px 0; 
-      box-shadow: 0 6px 20px rgba(183, 28, 28, 0.2);
-      border: 1px solid #aba8a8;
-    }
-    .affiliate-banner-red h3 { 
-      color: #ffeb3b; /* Yellow contrast for maximum attention */
-      margin-top: 0; 
-      font-size: 1.4em;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-    }
-    .affiliate-banner-red p {
-      font-size: 1.05em;
-      line-height: 1.5;
-      margin-bottom: 20px;
-    }
-    .btn-affiliate-gold { 
-      display: inline-block; 
-      background: #ffca28; 
-      color: #212121; 
-      text-decoration: none; 
-      padding: 15px 30px; 
-      font-size: 1.1em;
-      font-weight: 900; 
-      border-radius: 6px; 
-      transition: all 0.3s ease; 
-      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-    }
-    .btn-affiliate-gold:hover { 
-      background: #ffb300; 
-      transform: translateY(-2px);
-      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
-    }
+.affiliate-banner-red { 
+  position: relative; 
+  overflow: hidden;
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%); 
+  color: #495057; 
+  padding: 40px 30px; 
+  border-radius: var(--radius-lg, 12px); 
+  text-align: center; 
+  margin: 40px 0; 
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05); 
+  border: 1px solid #e9ecef;
+}
+
+.affiliate-banner-red::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: #8B0000; 
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, black 50%, transparent 100%);
+  mask-image: linear-gradient(90deg, transparent 0%, black 50%, transparent 100%);
+}
+
+.affiliate-banner-red h3 { 
+  color: #212529; 
+  margin-top: 0; 
+  margin-bottom: 15px;
+  font-size: 1.6em;
+  font-weight: 700;
+  letter-spacing: 0.02em; 
+}
+
+.affiliate-banner-red p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 30px; 
+  color: #555;
+  max-width: 700px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-affiliate-gold { 
+  display: inline-block; 
+  background: #8B0000; 
+  color: #ffffff; 
+  text-decoration: none; 
+  padding: 16px 36px; 
+  font-size: 1.1em;
+  font-weight: 700; 
+  border-radius: var(--radius-md, 8px); 
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease; 
+  
+  box-shadow: 0 4px 15px rgba(139, 0, 0, 0.25); 
+}
+
+/* 6. Knackiger Hover-Effekt */
+.btn-affiliate-gold:hover { 
+  background: #6a0000; 
+  transform: translateY(-2px); 
+  box-shadow: 0 6px 20px rgba(139, 0, 0, 0.35); 
+  color: #ffffff;
+}
+/* === SCHALTER-CHECK: NAHTLOS INS SEITENDESIGN INTEGRIERT === */
+/* Gleiche Box-Sprache wie legal-info-box / affiliate-banner: vollbreit, flach, feine Linie */
+.calc-box.elegant-tool {
+  max-width: none;
+  width: 100%;
+  margin: 30px 0 40px;
+  padding: 35px 40px;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: var(--radius-lg, 12px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  font-family: inherit; /* Serifen-Headlines der Seite bleiben erhalten */
+}
+
+.elegant-tool .tool-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.elegant-tool .tool-subtitle {
+  color: #555;
+  margin: 0 0 30px;
+}
+
+/* Abschnitts-Überschriften: dezente rote Label-Zeile statt fieldset/legend */
+.elegant-tool .tool-section {
+  margin-bottom: 28px;
+}
+
+.elegant-tool .tool-section-title {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #8B0000;
+  margin: 0 0 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* Checkbox-Zeilen: flache Karten im Seiten-Look */
+.elegant-tool .checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.elegant-tool .checkbox-group label {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin: 0;
+  padding: 14px 16px;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: var(--radius-md, 8px);
+  color: #495057;
+  line-height: 1.55;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.elegant-tool .checkbox-group label:hover {
+  border-color: #d3b3b3;
+}
+
+.elegant-tool .checkbox-group label:has(input:checked) {
+  border-color: #8B0000;
+  background: #fcf7f7;
+}
+
+/* Custom Checkbox: schlank, eckiger, dunkelrot */
+.elegant-tool .checkbox-group input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid #ced4da;
+  border-radius: 4px;
+  flex-shrink: 0;
+  margin: 2px 0 0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+  background: #fff;
+}
+
+.elegant-tool .checkbox-group input[type="checkbox"]:checked {
+  background-color: #8B0000;
+  border-color: #8B0000;
+}
+
+.elegant-tool .checkbox-group input[type="checkbox"]:checked::after {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 9px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+/* Button: identische Sprache wie .btn-affiliate-gold */
+.button-elegant {
+  display: inline-block;
+  background: #8B0000;
+  color: #ffffff;
+  border: none;
+  padding: 15px 34px;
+  font-size: 1em;
+  font-weight: 700;
+  font-family: inherit;
+  border-radius: var(--radius-md, 8px);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  box-shadow: 0 4px 15px rgba(139, 0, 0, 0.25);
+}
+
+.button-elegant:hover {
+  background: #6a0000;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(139, 0, 0, 0.35);
+  color: #ffffff;
+}
+
+/* Ergebnisbox: weiße Seiten-Box mit dunkelroter Akzentkante links */
+.result-box-elegant {
+  margin-top: 32px;
+  padding: 28px 32px;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-left: 4px solid #8B0000;
+  border-radius: var(--radius-md, 8px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
+  animation: toolFadeIn 0.4s ease;
+}
+
+@keyframes toolFadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.result-box-elegant h3 {
+  color: #8B0000;
+  margin: 0 0 16px;
+  font-size: 1.25em;
+}
+
+.result-box-elegant h4 {
+  color: #212529;
+  margin: 22px 0 10px;
+  font-size: 1.05em;
+}
+
+.result-box-elegant p {
+  color: #495057;
+  line-height: 1.65;
+  margin-bottom: 14px;
+}
+
+.result-box-elegant ul {
+  padding-left: 0;
+  list-style: none;
+  margin: 0 0 20px;
+}
+
+.result-box-elegant li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 10px;
+  color: #495057;
+  line-height: 1.6;
+}
+
+.result-box-elegant li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 6px;
+  height: 6px;
+  background: #8B0000;
+  border-radius: 50%;
+}
+
+/* Zitat-Box für die Sätze am Schalter */
+.result-box-elegant .quote-box {
+  position: relative;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  padding: 16px 20px 16px 46px;
+  margin: 16px 0;
+  font-style: italic;
+  color: #495057;
+}
+
+.result-box-elegant .quote-box::before {
+  content: '\201C';
+  font-family: Georgia, serif;
+  font-size: 3.4rem;
+  line-height: 1;
+  color: #8B0000;
+  opacity: 0.25;
+  position: absolute;
+  top: 6px;
+  left: 14px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .calc-box.elegant-tool { padding: 22px 20px; margin: 24px 0 32px; }
+  .result-box-elegant { padding: 20px 18px; }
+  .button-elegant { display: block; width: 100%; }
+}
   </style>
 </head>
 
@@ -161,26 +404,68 @@
     <p><strong>Editorially reviewed on:</strong> <span id="pruefdatum">19/08/2026</span></p>
   </div>
   <!-- Interactive calculator section (keep IDs & structure exactly as they are) -->
-  <div class="calc-box">
-    <div class="checkbox-group" id="insuranceCheckboxes">
+  <div class="calc-box elegant-tool">
+  <h2 class="tool-title">Your Personal Rental Desk Checker</h2>
+  <p class="tool-subtitle">Select your current situation. The tool will generate your customized rental car pickup guide.</p>
+
+  <div class="tool-section">
+    <div class="tool-section-title">Your Booking &amp; Coverage</div>
+    <div class="checkbox-group">
       <label>
-        <input type="checkbox" id="chkBroker"> 
-        I booked through a platform (e.g. Rentalcars, Zest Car Rental) and selected the <strong>"No excess" / "Premium Cover"</strong> tariff there.
+        <input type="checkbox" id="chkBroker">
+        <span>I booked through a third-party portal (e.g., Rentalcars.com, Holiday Autos, Kayak) and selected the <strong>"Zero Excess / Full Protection"</strong> plan.</span>
       </label>
       <label>
-        <input type="checkbox" id="chkCreditCard"> 
-        I am paying with a <strong>travel credit card</strong> that includes proper car hire collision damage cover (CDW).
+        <input type="checkbox" id="chkCreditCard">
+        <span>I hold a travel credit card that includes primary or secondary rental car Collision Damage Waiver (CDW / LDW).</span>
       </label>
       <label>
-        <input type="checkbox" id="chkBasic"> 
-        None of the above. I booked the cheapest basic tariff directly on the Europcar website.
+        <input type="checkbox" id="chkBasic">
+        <span>I booked the cheapest basic rate directly on the Europcar website.</span>
       </label>
     </div>
-
-    <button type="button" class="button-primary" id="checkBtn">Assess my situation now</button>
-
-    <div id="resultOutput" class="result-box"></div>
   </div>
+
+  <div class="tool-section">
+    <div class="tool-section-title">Payment Method for Security Deposit</div>
+    <div class="checkbox-group">
+      <label>
+        <input type="checkbox" id="chkRealCC">
+        <span>I have a major credit card (Credit) with a sufficient credit limit for the deposit hold.</span>
+      </label>
+      <label>
+        <input type="checkbox" id="chkDebit">
+        <span>I only have a debit card (Debit card (e.g., Visa Debit)) or no physical card with me.</span>
+      </label>
+    </div>
+  </div>
+
+  <div class="tool-section">
+    <div class="tool-section-title">Counter Situation (Optional)</div>
+    <div class="checkbox-group">
+      <label>
+        <input type="checkbox" id="chkClaim">
+        <span>The counter agent claims my external/third-party coverage "is not valid here."</span>
+      </label>
+      <label>
+        <input type="checkbox" id="chkUpgrade">
+        <span>I am offered an "upgrade" to a larger or better vehicle.</span>
+      </label>
+      <label>
+        <input type="checkbox" id="chkExtras">
+        <span>The agent is pushing extras like a toll pass, GPS, or child safety seat.</span>
+      </label>
+      <label>
+        <input type="checkbox" id="chkRefusal">
+        <span>The staff refuses to hand over the car unless I purchase additional coverage.</span>
+      </label>
+    </div>
+  </div>
+
+  <button type="button" class="button-elegant" id="checkBtn">Generate My Guide</button>
+
+  <div id="resultOutput" class="result-box-elegant" style="display:none;"></div>
+</div>
 
   <div class="info-box blue">
     <strong>Important note about the deposit at Europcar:</strong><br>
@@ -249,11 +534,11 @@
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Other topics you may find useful:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="mietwagen-versicherungen-rentalcars-com.html">Rentalcars.com</a>
-<a href="mietwagen-versicherungen-national.html">National</a>
-<a href="mietwagen-versicherungen-ok-mobility.html">OK Mobility</a>
-<a href="mietwagen-versicherungen-travelsupermarket.html">TravelSupermarket</a>
-<a href="mietwagen-versicherungen-centauro.html">Centauro</a>
+    <a href="mietwagen-versicherungen-travelsupermarket.html">TravelSupermarket</a>
+<a href="mietwagen-versicherungen-hertz.html">Hertz</a>
+<a href="mietwagen-versicherungen-alamo.html">Alamo</a>
+<a href="mietwagen-versicherungen-budget.html">Budget</a>
+<a href="mietwagen-versicherungen-auto-europe.html">Auto Europe</a>
 
   </div>
 </div>
@@ -350,36 +635,94 @@ document.getElementById('checkBtn').addEventListener('click', function() {
     const chkBroker = document.getElementById('chkBroker').checked;
     const chkCreditCard = document.getElementById('chkCreditCard').checked;
     const chkBasic = document.getElementById('chkBasic').checked;
-    
+    const chkRealCC = document.getElementById('chkRealCC').checked;
+    const chkDebit = document.getElementById('chkDebit').checked;
+    const chkClaim = document.getElementById('chkClaim').checked;
+    const chkUpgrade = document.getElementById('chkUpgrade').checked;
+    const chkExtras = document.getElementById('chkExtras').checked;
+    const chkRefusal = document.getElementById('chkRefusal').checked;
+
     const resultBox = document.getElementById('resultOutput');
     resultBox.style.display = 'block';
-    
-    // Reset classes
-    resultBox.classList.remove('result-safe', 'result-warning');
+    resultBox.innerHTML = '';
 
+    let html = '';
+    let hasStrategy = false;
+
+    // 1. MAIN STRATEGY (Booking)
     if (chkBasic && !chkBroker && !chkCreditCard) {
-        resultBox.classList.add('result-warning');
-        resultBox.innerHTML = `
-            <h3>⚠️ Warning: high risk</h3>
-            <p>You currently only have the statutory basic insurance. If the car is scratched or involved in an accident, you could be liable for an extremely high excess (often £900 to £2,600).</p>
-            <p><strong>What you should do at the desk:</strong> In your case, it is unfortunately advisable to take out Europcar's comprehensive insurance (Super CDW) at the desk, even if it is expensive. Otherwise, the risk of ending your holiday with thousands of pounds in debt is too high.</p>
-        `;
+        html += `<h3>Your Status: Risk Detected</h3>`;
+        html += `<p>You booked a basic rate without external protection. In the event of damage, you are liable for the rental company's full deductible (often £800 to £2,500).</p>`;
+        html += `<h4>Recommended Action:</h4>`;
+        html += `<p>In this specific scenario, it is financially advisable to accept the optional coverage (CDW/LDW) directly at the Europcar counter, as you would otherwise carry an unmanageable financial risk.</p>`;
+        hasStrategy = true;
     } 
     else if (chkBroker || chkCreditCard) {
-        resultBox.classList.add('result-safe');
-        let grund = chkBroker ? "your broker (e.g. Check24)" : "your credit card";
-        
-        resultBox.innerHTML = `
-            <h3>✅ Say "NO" to everything at the desk</h3>
-            <p>You are already fully covered through <strong>${grund}</strong>. The desk agent at Europcar will probably still try to sell you insurance.</p>
-            <p><strong>Your response at the desk:</strong><br>
-            <em>"No thank you, I do not need any additional insurance. Please just place the deposit hold on my credit card."</em></p>
-            <p><strong>Do not let this unsettle you:</strong> The agent may say: <em>"But your broker insurance is not directly valid with us; if there is a scratch, we will keep your money."</em> That is factually correct, but not a problem: the damage is paid from the blocked deposit on site, and you then reclaim the money from ${grund} once you are back home.</p>
-        `;
-    } else {
-        resultBox.style.display = 'none';
-        alert("Please select at least one option.");
+        const source = chkBroker ? "your booking portal (e.g., Rentalcars.com, Holiday Autos)" : "your travel credit card";
+        html += `<h3>Your Status: Fully Covered</h3>`;
+        html += `<p>You are already covered through <strong>${source}</strong>. There is no logical reason to purchase additional policies at the rental counter.</p>`;
+
+        html += `<h4>Your exact words at the counter:</h4>`;
+        html += `<div class="quote-box">"No thank you, I do not need any additional insurance or coverage. Please keep the basic rate and authorize the standard security deposit hold on my credit card."</div>`;
+
+        html += `<p><strong>Important:</strong> The counter agent will only see the basic rate in their system and may warn you that you are "uninsured." Stay calm. They are simply trying to earn a sales commission.</p>`;
+        hasStrategy = true;
     }
+
+    // 2. DEBIT CARD ISSUE
+    if (chkDebit && (chkBroker || chkCreditCard)) {
+        html += `<h4>Warning: The Debit Card Issue</h4>`;
+        html += `<p>Many Europcar locations do not accept <strong>debit cards</strong> for security deposit holds, because funds cannot be temporarily authorized in the same way as on a standard credit card.</p>`;
+        html += `<p><strong>The Trap:</strong> If you cannot present a major credit card, the agent will argue that you can only drive away if you purchase their expensive zero-deductible coverage package.</p>`;
+        html += `<div class="quote-box">"I insist on receiving the vehicle according to our agreed rental terms. Please re-check the system or speak with your station manager."</div>`;
+    }
+
+    // 3. TACTIC: INSURANCE NOT VALID
+    if (chkClaim) {
+        html += `<h4>Defense: "Your insurance isn't valid here"</h4>`;
+        html += `<p>This statement is a classic half-truth. Technically, the agent is right: third-party or portal coverage operates as a reimbursement service, not a direct insurance policy written by Europcar.</p>`;
+        html += `<h4>Your Response:</h4>`;
+        html += `<div class="quote-box">"I am aware of that. I accept placing the security deposit hold on my card and will file any claim directly with my provider in the unlikely event of damage. We do not need to add coverage here."</div>`;
+    }
+
+    // 4. TACTIC: UPGRADE
+    if (chkUpgrade) {
+        html += `<h4>Defense: The Upgrade Offer</h4>`;
+        html += `<p>"We don't have your reserved car available, but I can upgrade you to an SUV for free." Be careful! Larger vehicles often mean higher security deposit holds, lower fuel economy oder petrol consumption, and higher repair costs in case of damage.</p>`;
+        html += `<p><strong>Strategy:</strong> Insist on the booked car category unless the upgrade is explicitly confirmed in writing as 100% free with no increased deposit hold or hidden fees.</p>`;
+    }
+
+    // 5. TACTIC: EXTRAS
+    if (chkExtras) {
+        html += `<h4>Defense: Toll Passes &amp; Extras</h4>`;
+        html += `<p>Agents frequently add toll transponders / toll devices or GPS devices without asking. These toll passes often carry daily administrative fees of £8–£12, regardless of whether you drive on toll roads.</p>`;
+        html += `<div class="quote-box">"Please remove the toll pass service and extras from the agreement. I will pay any tolls directly via cash, electronic tolling, or my own payment method."</div>`;
+    }
+
+    // 6. EMERGENCY: REFUSAL
+    if (chkRefusal) {
+        html += `<h4>Emergency: Car Collection Refused</h4>`;
+        html += `<p>If the staff refuses to hand over the vehicle because you decline extra coverage: Stay polite, but firm.</p>`;
+        html += `<ul>`;
+        html += `<li>Take a photo of the counter and note the employee's name and badge number.</li>`;
+        html += `<li>Call <strong>your booking portal/broker hotline immediately</strong> (not the local rental branch). The portal can often escalate directly with Europcar corporate support.</li>`;
+        html += `<li>Point out that withholding the car despite a valid reservation and valid payment card constitutes a breach of contract.</li>`;
+        html += `</ul>`;
+    }
+
+    // FALLBACKS / ERRORS
+    if (!hasStrategy && !chkDebit && !chkClaim && !chkUpgrade && !chkExtras && !chkRefusal) {
+         if (chkDebit || chkRealCC) {
+             html += `<h3>Please complete your booking information</h3>`;
+             html += `<p>You selected a payment method, but not your booking type. Please select how you booked in the first section so we can generate the right strategy for you.</p>`;
+         } else {
+             html += `<h3>Please select your situation</h3>`;
+             html += `<p>Check at least your booking type (first section) so the tool can generate your customized guide.</p>`;
+         }
+    }
+
+    resultBox.innerHTML = html;
+    resultBox.scrollIntoView({behavior: "smooth", block: "center"});
 });
 </script>
 </body>

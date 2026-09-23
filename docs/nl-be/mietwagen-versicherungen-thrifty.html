@@ -75,8 +75,7 @@
 <link rel="icon" href="/logo-lotse-fav.png">
 
   <style>
-    /* NUR SPEZIFISCHES DESIGN FÜR DIE AFFILIATE BANNER IN ROT-TÖNEN */
-    .affiliate-banner-red { 
+.affiliate-banner-red { 
   position: relative; 
   overflow: hidden;
   background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%); 
@@ -141,6 +140,224 @@
   box-shadow: 0 6px 20px rgba(139, 0, 0, 0.35); 
   color: #ffffff;
 }
+/* === SCHALTER-CHECK: NAHTLOS INS SEITENDESIGN INTEGRIERT === */
+/* Gleiche Box-Sprache wie legal-info-box / affiliate-banner: vollbreit, flach, feine Linie */
+.calc-box.elegant-tool {
+  max-width: none;
+  width: 100%;
+  margin: 30px 0 40px;
+  padding: 35px 40px;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: var(--radius-lg, 12px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  font-family: inherit; /* Serifen-Headlines der Seite bleiben erhalten */
+}
+
+.elegant-tool .tool-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.elegant-tool .tool-subtitle {
+  color: #555;
+  margin: 0 0 30px;
+}
+
+/* Abschnitts-Überschriften: dezente rote Label-Zeile statt fieldset/legend */
+.elegant-tool .tool-section {
+  margin-bottom: 28px;
+}
+
+.elegant-tool .tool-section-title {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #8B0000;
+  margin: 0 0 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* Checkbox-Zeilen: flache Karten im Seiten-Look */
+.elegant-tool .checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.elegant-tool .checkbox-group label {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin: 0;
+  padding: 14px 16px;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: var(--radius-md, 8px);
+  color: #495057;
+  line-height: 1.55;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.elegant-tool .checkbox-group label:hover {
+  border-color: #d3b3b3;
+}
+
+.elegant-tool .checkbox-group label:has(input:checked) {
+  border-color: #8B0000;
+  background: #fcf7f7;
+}
+
+/* Custom Checkbox: schlank, eckiger, dunkelrot */
+.elegant-tool .checkbox-group input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid #ced4da;
+  border-radius: 4px;
+  flex-shrink: 0;
+  margin: 2px 0 0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+  background: #fff;
+}
+
+.elegant-tool .checkbox-group input[type="checkbox"]:checked {
+  background-color: #8B0000;
+  border-color: #8B0000;
+}
+
+.elegant-tool .checkbox-group input[type="checkbox"]:checked::after {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 9px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+/* Button: identische Sprache wie .btn-affiliate-gold */
+.button-elegant {
+  display: inline-block;
+  background: #8B0000;
+  color: #ffffff;
+  border: none;
+  padding: 15px 34px;
+  font-size: 1em;
+  font-weight: 700;
+  font-family: inherit;
+  border-radius: var(--radius-md, 8px);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  box-shadow: 0 4px 15px rgba(139, 0, 0, 0.25);
+}
+
+.button-elegant:hover {
+  background: #6a0000;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(139, 0, 0, 0.35);
+  color: #ffffff;
+}
+
+/* Ergebnisbox: weiße Seiten-Box mit dunkelroter Akzentkante links */
+.result-box-elegant {
+  margin-top: 32px;
+  padding: 28px 32px;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-left: 4px solid #8B0000;
+  border-radius: var(--radius-md, 8px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
+  animation: toolFadeIn 0.4s ease;
+}
+
+@keyframes toolFadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.result-box-elegant h3 {
+  color: #8B0000;
+  margin: 0 0 16px;
+  font-size: 1.25em;
+}
+
+.result-box-elegant h4 {
+  color: #212529;
+  margin: 22px 0 10px;
+  font-size: 1.05em;
+}
+
+.result-box-elegant p {
+  color: #495057;
+  line-height: 1.65;
+  margin-bottom: 14px;
+}
+
+.result-box-elegant ul {
+  padding-left: 0;
+  list-style: none;
+  margin: 0 0 20px;
+}
+
+.result-box-elegant li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 10px;
+  color: #495057;
+  line-height: 1.6;
+}
+
+.result-box-elegant li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 6px;
+  height: 6px;
+  background: #8B0000;
+  border-radius: 50%;
+}
+
+/* Zitat-Box für die Sätze am Schalter */
+.result-box-elegant .quote-box {
+  position: relative;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 6px;
+  padding: 16px 20px 16px 46px;
+  margin: 16px 0;
+  font-style: italic;
+  color: #495057;
+}
+
+.result-box-elegant .quote-box::before {
+  content: '\201C';
+  font-family: Georgia, serif;
+  font-size: 3.4rem;
+  line-height: 1;
+  color: #8B0000;
+  opacity: 0.25;
+  position: absolute;
+  top: 6px;
+  left: 14px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .calc-box.elegant-tool { padding: 22px 20px; margin: 24px 0 32px; }
+  .result-box-elegant { padding: 20px 18px; }
+  .button-elegant { display: block; width: 100%; }
+}
   </style>
 </head>
 
@@ -188,25 +405,67 @@
     <p><strong>Redactioneel gecontroleerd op:</strong> <span id="pruefdatum">20.08.2026</span></p>
   </div>
   <!-- Interaktiver Rechner-Bereich (IDs & Struktur exakt beibehalten) -->
-  <div class="calc-box">
-    <div class="checkbox-group" id="insuranceCheckboxes">
-      <label>
-        <input type="checkbox" id="chkBroker"> 
-        Ik heb via een portal (bijv. Sunny Cars, Rentalcars) geboekt en daar het tarief <strong>"Zonder eigen risico" / "Premium-dekking"</strong> gekozen.
-      </label>
-      <label>
-        <input type="checkbox" id="chkCreditCard"> 
-        Ik betaal met een <strong>reiscreditcard</strong> die een volwaardige allriskverzekering voor huurauto’s (CDW) bevat.
-      </label>
-      <label>
-        <input type="checkbox" id="chkBasic"> 
-        Geen van beide. Ik heb rechtstreeks op de website van Thrifty het goedkoopste basistarief geboekt.
-      </label>
+  <div class="calc-box elegant-tool">
+    <h2 class="tool-title">Uw persoonlijke baliecheck</h2>
+    <p class="tool-subtitle">Selecteer uw huidige situatie. De tool genereert een stappenplan op maat voor het ophalen van uw huurauto.</p>
+
+    <div class="tool-section">
+      <div class="tool-section-title">Uw boeking &amp; dekking</div>
+      <div class="checkbox-group">
+        <label>
+          <input type="checkbox" id="chkBroker">
+          <span>Ik heb geboekt via een tussenpersoon/platform (bijv. Sunny Cars, EasyTerra, Rentalcars, Auto Europe) en gekozen voor <strong>'Zonder eigen risico / Premium dekking'</strong>.</span>
+        </label>
+        <label>
+          <input type="checkbox" id="chkCreditCard">
+          <span>Ik heb een reiscreditcard met een volledige cascoverzekering (CDW) voor huurauto's.</span>
+        </label>
+        <label>
+          <input type="checkbox" id="chkBasic">
+          <span>Ik heb rechtstreeks via de website van Thrifty het voordeligste basistarief geboekt.</span>
+        </label>
+      </div>
     </div>
 
-    <button type="button" class="button-primary" id="checkBtn">Mijn situatie nu beoordelen</button>
+    <div class="tool-section">
+      <div class="tool-section-title">Betaalmiddel voor de borg</div>
+      <div class="checkbox-group">
+        <label>
+          <input type="checkbox" id="chkRealCC">
+          <span>Ik heb een echte creditcard (met het opschrift <strong>'CREDIT'</strong>) met voldoende limiet voor de borg bij me.</span>
+        </label>
+        <label>
+          <input type="checkbox" id="chkDebit">
+          <span>Ik heb alleen een debitcard (gewone pinpas, Bancontact, Visa Debit, Mastercard Debit) of helemaal geen kaart bij me.</span>
+        </label>
+      </div>
+    </div>
 
-    <div id="resultOutput" class="result-box"></div>
+    <div class="tool-section">
+      <div class="tool-section-title">Situatie ter plaatse (optioneel)</div>
+      <div class="checkbox-group">
+        <label>
+          <input type="checkbox" id="chkClaim">
+          <span>De medewerker beweert dat mijn externe verzekering "hier ter plaatse niet geldt".</span>
+        </label>
+        <label>
+          <input type="checkbox" id="chkUpgrade">
+          <span>Er wordt mij een "upgrade" naar een grotere of betere auto aangeboden.</span>
+        </label>
+        <label>
+          <input type="checkbox" id="chkExtras">
+          <span>Er worden mij extra's opgedrongen zoals een tolbadge, navigatie of kinderzitje.</span>
+        </label>
+        <label>
+          <input type="checkbox" id="chkRefusal">
+          <span>Het personeel weigert de auto mee te geven als ik geen aanvullende verzekering afsluit.</span>
+        </label>
+      </div>
+    </div>
+
+    <button type="button" class="button-elegant" id="checkBtn">Stappenplan genereren</button>
+
+    <div id="resultOutput" class="result-box-elegant" style="display:none;"></div>
   </div>
 
   <div class="info-box blue">
@@ -276,11 +535,11 @@
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Meer interessante onderwerpen:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="mietwagen-versicherungen-dockx-rental.html">Dockx Rental</a>
-<a href="mietwagen-versicherungen-budget.html">Budget</a>
-<a href="mietwagen-versicherungen-ok-mobility.html">OK Mobility</a>
-<a href="mietwagen-versicherungen-firefly.html">Firefly</a>
-<a href="mietwagen-versicherungen-clickrent.html">ClickRent</a>
+    <a href="mietwagen-versicherungen-firefly.html">Firefly</a>
+<a href="mietwagen-versicherungen-sunny-cars.html">Sunny Cars</a>
+<a href="mietwagen-versicherungen-centauro.html">Centauro</a>
+<a href="mietwagen-versicherungen-auto-europe.html">Auto Europe</a>
+<a href="mietwagen-versicherungen-europcar.html">Europcar</a>
 
   </div>
 </div>
@@ -377,36 +636,94 @@ document.getElementById('checkBtn').addEventListener('click', function() {
     const chkBroker = document.getElementById('chkBroker').checked;
     const chkCreditCard = document.getElementById('chkCreditCard').checked;
     const chkBasic = document.getElementById('chkBasic').checked;
-    
+    const chkRealCC = document.getElementById('chkRealCC').checked;
+    const chkDebit = document.getElementById('chkDebit').checked;
+    const chkClaim = document.getElementById('chkClaim').checked;
+    const chkUpgrade = document.getElementById('chkUpgrade').checked;
+    const chkExtras = document.getElementById('chkExtras').checked;
+    const chkRefusal = document.getElementById('chkRefusal').checked;
+
     const resultBox = document.getElementById('resultOutput');
     resultBox.style.display = 'block';
-    
-    // Reset classes
-    resultBox.classList.remove('result-safe', 'result-warning');
+    resultBox.innerHTML = '';
 
+    let html = '';
+    let hasStrategy = false;
+
+    // 1. HOOFDSTRATEGIE (Boeking)
     if (chkBasic && !chkBroker && !chkCreditCard) {
-        resultBox.classList.add('result-warning');
-        resultBox.innerHTML = `
-            <h3>⚠️ Let op: hoog risico</h3>
-            <p>U heeft momenteel alleen de wettelijke basisverzekering. Bij een kras of ongeval bent u aansprakelijk met een extreem hoog eigen risico (vaak 1.000 € tot 3.000 €).</p>
-            <p><strong>Wat u aan de balie moet doen:</strong> In uw geval is het helaas raadzaam om de allriskverzekering (Super CDW) van Thrifty aan de balie af te sluiten, ook al is deze duur. Anders is het risico te groot om uw vakantie met duizenden euro’s schuld te beëindigen.</p>
-        `;
+        html += `<h3>Uw status: Risico gedetecteerd</h3>`;
+        html += `<p>U heeft het basistarief zonder externe dekking geboekt. Bij schade bent u aansprakelijk voor het volledige eigen risico van de verhuurder (vaak tussen € 1.000 en € 3.000).</p>`;
+        html += `<h4>Aanbeveling:</h4>`;
+        html += `<p>In dit specifieke geval is het financieel helaas aan te raden om de aanvullende verzekering (Super CDW / Afkoop eigen risico) rechtstreeks aan de balie van Thrifty af te sluiten. Anders draagt u een onvoorspelbaar financieel risico.</p>`;
+        hasStrategy = true;
     } 
     else if (chkBroker || chkCreditCard) {
-        resultBox.classList.add('result-safe');
-        let grund = chkBroker ? "uw broker (bijv. Check24)" : "uw creditcard";
-        
-        resultBox.innerHTML = `
-            <h3>✅ Zeg "NEE" tegen alles aan de balie!</h3>
-            <p>U bent via <strong>${grund}</strong> al volledig gedekt. De medewerker aan de balie van Thrifty zal u waarschijnlijk toch een verzekering willen aanbieden.</p>
-            <p><strong>Uw antwoord aan de balie:</strong><br>
-            <em>"Nee bedankt, ik heb geen extra verzekeringen nodig. Blokkeer alstublieft gewoon de borg op mijn creditcard."</em></p>
-            <p><strong>Laat u niet onzeker maken:</strong> De medewerker kan zeggen: <em>"Maar uw brokerverzekering geldt hier niet direct, wij houden bij een kras uw geld in!"</em>. Dat klopt feitelijk, maar is geen probleem: u betaalt de schade ter plaatse uit de geblokkeerde borg en krijgt het geld thuis weer terug van ${grund}!</p>
-        `;
-    } else {
-        resultBox.style.display = 'none';
-        alert("Selecteer alstublieft minstens één optie.");
+        const quelle = chkBroker ? "uw tussenpersoon (bijv. Sunny Cars, EasyTerra, Rentalcars, Auto Europe)" : "uw reiscreditcard";
+        html += `<h3>Uw status: Optimaal gedekt</h3>`;
+        html += `<p>U bent via <strong>${quelle}</strong> al volledig gedekt tegen cascoschade. Er is geen enkele rationele reden om aan de balie extra polisopties af te sluiten.</p>`;
+
+        html += `<h4>Uw standaardzin aan de balie:</h4>`;
+        html += `<div class="quote-box">Nee bedankt, ik heb geen extra verzekeringen nodig. Verwerk alstublieft alleen het basistarief en blokkeer de reguliere borg op mijn creditcard.</div>`;
+
+        html += `<p><strong>Belangrijk:</strong> De baliemedewerker ziet in het systeem alleen het basistarief en zal u mogelijk waarschuwen dat u "onverzekerd" bent. Blijf rustig: de medewerker probeert alleen de verkoopcommissie te verhogen.</p>`;
+        hasStrategy = true;
     }
+
+    // 2. PROBLEEM MET DEBITCARD
+    if (chkDebit && (chkBroker || chkCreditCard)) {
+        html += `<h4>Let op: Het probleem met debitcards (pinpassen)</h4>`;
+        html += `<p>Veel locaties van Thrifty <strong>accepteren geen debitcards</strong> (zoals gewone Nederlandse pinpassen, Bancontact of Visa/Mastercard Debit) voor het blokkeren van de borg, omdat het bedrag niet gereserveerd kan worden, maar direct wordt afgeschreven.</p>`;
+        html += `<p><strong>De truc aan de balie:</strong> Als u geen echte creditcard (Credit) kunt tonen, zal de medewerker beweren dat u zonder borg de auto alleen mee krijgt als u hun dure merkverzekering afsluit.</p>`;
+        html += `<div class="quote-box">Ik sta op de overdracht van de auto zoals overeengekomen in het contract. Controleer het systeem a.u.b. nogmaals of haal uw manager erbij.</div>`;
+    }
+
+    // 3. TACTIEK: VERZEKERING GELDT NIET
+    if (chkClaim) {
+        html += `<h4>Afweer: "Uw verzekering geldt hier niet"</h4>`;
+        html += `<p>Deze uitspraak is een klassieke halve waarheid. Technisch gezien heeft de medewerker een punt: de dekking van uw tussenpersoon is een terugbetalingsregeling achteraf en geen rechtstreekse polis bij de lokale verhuurder.</p>`;
+        html += `<h4>Uw antwoord:</h4>`;
+        html += `<div class="quote-box">Dat is mij bekend. Ik ga akkoord met het blokkeren van de borg op mijn creditcard. In het zeldzame geval van schade dien ik de factuur zelf in bij mijn tussenpersoon. We hoeven hier geen extra polis af te sluiten.</div>`;
+    }
+
+    // 4. TACTIEK: UPGRADE
+    if (chkUpgrade) {
+        html += `<h4>Afweer: Het "Upgrade"-aanbod</h4>`;
+        html += `<p>"We hebben de door u geboekte auto niet staan, maar ik kan u kosteloos een upgrade naar een SUV aanbieden." Pas op! Grotere auto's betekenen vaak een hogere borgsom, een hoger brandstofverbruik en duurdere reparaties bij schade (die op uw eigen risico worden ingehouden).</p>`;
+        html += `<p><strong>Strategie:</strong> Blijf vasthouden aan de geboekte categorie, tenzij schriftelijk wordt bevestigd dat de upgrade 100% kosteloos is (zonder verhoogde borg).</p>`;
+    }
+
+    // 5. TACTIEK: EXTRA'S (TOLBADGE)
+    if (chkExtras) {
+        html += `<h4>Afweer: Tolbadge &amp; extra's</h4>`;
+        html += `<p>Medewerkers voegen vaak ongevraagd een tolbadge of navigatie aan het contract toe. Deze apparaten kosten vaak € 10 tot € 15 per dag aan administratie- of huurkosten, ongeacht of u over tolweken rijdt.</p>`;
+        html += `<div class="quote-box">Verwijder de tolbadge en niet-gevraagde extra's a.u.b. uit het contract. Eventuele tol betaal ik zelf ter plaatse contant of met mijn kaart.</div>`;
+    }
+
+    // 6. NOODGEVAL: WEIGERING
+    if (chkRefusal) {
+        html += `<h4>Noodgeval: De auto wordt geweigerd</h4>`;
+        html += `<p>Als het personeel weigert de auto mee te geven omdat u de extra verzekering afwijst: blijf beleefd, maar beslist.</p>`;
+        html += `<ul>`;
+        html += `<li>Maak een foto van de balie en noteer de naam van de medewerker.</li>`;
+        html += `<li>Bel <strong>direct de hotline van uw tussenpersoon/broker</strong> (niet de verhuurder zelf!). De tussenpersoon kan vaak rechtstreeks contact opnemen met het hoofdkantoor van Thrifty.</li>`;
+        html += `<li>Wijs erop dat het weigeren van de voertuigoverdracht bij een geldige boeking en een geschikte creditcard neerkomt op contractbreuk.</li>`;
+        html += `</ul>`;
+    }
+
+    // FALLBACKS / FOUTMELDINGEN
+    if (!hasStrategy && !chkDebit && !chkClaim && !chkUpgrade && !chkExtras && !chkRefusal) {
+         if (chkDebit || chkRealCC) {
+             html += `<h3>Vul a.u.b. uw boekingsinformatie aan</h3>`;
+             html += `<p>U heeft uw betaalmiddel opgegeven, maar nog niet hoe u heeft geboekt. Selecteer in het eerste gedeelte hoe u heeft geboekt, zodat we de juiste strategie voor u kunnen bepalen.</p>`;
+         } else {
+             html += `<h3>Selecteer a.u.b. uw situatie</h3>`;
+             html += `<p>Vink ten minste uw manier van boeken aan (eerste gedeelte), zodat de tool uw persoonlijke stappenplan kan genereren.</p>`;
+         }
+    }
+
+    resultBox.innerHTML = html;
+    resultBox.scrollIntoView({behavior: "smooth", block: "center"});
 });
 </script>
 </body>
