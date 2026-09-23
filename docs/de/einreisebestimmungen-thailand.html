@@ -145,94 +145,270 @@
   background-color: #b71c1c;
   transform: translateY(-2px);
 }
-/* === PASS TIMELINE STYLES === */
+/* === ELEGANTE ERGEBNIS-BOX === */
+.result-box {
+    margin-top: 30px;
+    padding: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+}
+
+.result-box.result-success {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+}
+
+.result-box.result-error {
+    background: #ffffff;
+    border: 1px solid #fecaca;
+}
+
+/* Header der Ergebnis-Box */
+.result-header {
+    padding: 30px 35px 25px 35px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.result-icon {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.result-success .result-icon {
+    background: #f0fdf4;
+    border: 2px solid #10b981;
+}
+
+.result-error .result-icon {
+    background: #fef2f2;
+    border: 2px solid #dc2626;
+}
+
+.result-icon svg {
+    width: 24px;
+    height: 24px;
+}
+
+.result-success .result-icon svg {
+    stroke: #10b981;
+}
+
+.result-error .result-icon svg {
+    stroke: #dc2626;
+}
+
+.result-content {
+    flex: 1;
+}
+
+.result-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin: 0 0 10px 0;
+    line-height: 1.3;
+}
+
+.result-subtitle {
+    font-size: 1rem;
+    color: #64748b;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.result-body {
+    padding: 0 35px 30px 35px;
+    font-size: 0.95rem;
+    color: #475569;
+    line-height: 1.7;
+}
+
+.result-body strong {
+    color: #1e293b;
+    font-weight: 600;
+}
+
+/* Handlungsempfehlung-Box (nur bei Fehler) */
+.action-box {
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+    border-radius: 8px;
+    padding: 20px 25px;
+    margin-top: 25px;
+}
+
+.action-box-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #991b1b;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 0 0 12px 0;
+}
+
+.action-box-text {
+    font-size: 0.95rem;
+    color: #7f1d1d;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.action-box-text strong {
+    color: #991b1b;
+    font-weight: 600;
+}
+
+/* Warnbox (für Dokumenten-Typ) */
+.warning-box {
+    background: #fffbeb;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 18px 22px;
+    margin: 25px 35px 0 35px;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.warning-icon {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+
+.warning-icon svg {
+    width: 20px;
+    height: 20px;
+    stroke: #d97706;
+    fill: none;
+    stroke-width: 2;
+}
+
+.warning-text {
+    flex: 1;
+    font-size: 0.9rem;
+    color: #92400e;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.warning-text strong {
+    color: #78350f;
+    font-weight: 600;
+}
+
+/* === ELEGANTE TIMELINE === */
 .pass-timeline-container {
     position: relative;
     background: #f8fafc;
     border: 1px solid #e2e8f0;
-    border-radius: 12px;
-    padding: 35px 15px 15px 15px;
-    margin: 25px 0 15px 0;
+    border-radius: 10px;
+    padding: 40px 20px 20px 20px;
+    margin: 30px 35px 0 35px;
 }
+
 .pass-timeline-track {
     position: relative;
-    height: 20px;
+    height: 12px;
     background: #e2e8f0;
-    border-radius: 10px;
+    border-radius: 6px;
     overflow: visible;
 }
+
 .timeline-bar {
     position: absolute;
     height: 100%;
     top: 0;
-    border-radius: 10px;
+    border-radius: 6px;
     transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .bar-trip { 
     background: #3b82f6; 
     z-index: 2; 
-    opacity: 0.9; 
-    box-shadow: 0 2px 4px rgba(59,130,246,0.3);
+    opacity: 0.85;
 }
+
 .bar-pass { 
     background: #10b981; 
     z-index: 1; 
 }
+
 .bar-pass-error {
     background: #ef4444 !important;
 }
+
 .timeline-marker {
     position: absolute;
-    top: -8px;
-    width: 3px;
-    height: 36px;
+    top: -10px;
+    width: 2px;
+    height: 32px;
     background: #dc2626;
     z-index: 3;
-    box-shadow: 0 0 6px rgba(220,38,38,0.4);
 }
+
 .timeline-marker::after {
     content: attr(data-label);
     position: absolute;
-    top: -22px;
+    top: -24px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 0.7rem;
-    font-weight: 800;
+    font-weight: 700;
     color: #dc2626;
     white-space: nowrap;
     text-transform: uppercase;
     letter-spacing: 0.05em;
 }
+
 .timeline-legend {
     display: flex;
-    gap: 15px;
+    gap: 20px;
     font-size: 0.8rem;
-    color: #475569;
-    margin-top: 15px;
+    color: #64748b;
+    margin-top: 20px;
     flex-wrap: wrap;
 }
-.legend-item { display: flex; align-items: center; gap: 6px; font-weight: 500; }
-.legend-color { width: 14px; height: 14px; border-radius: 4px; }
 
-/* === ICS DOWNLOAD BUTTON === */
-.btn-ics {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    margin-top: 20px;
-    padding: 12px 18px;
-    background: #1e293b;
-    color: #ffffff !important;
-    border-radius: 8px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 0.95rem;
-    border: none;
-    cursor: pointer;
-    transition: all 0.2s;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+.legend-item { 
+    display: flex; 
+    align-items: center; 
+    gap: 8px; 
+    font-weight: 500;
 }
-.btn-ics:hover { background: #0f172a; transform: translateY(-1px); }
+
+.legend-color { 
+    width: 16px; 
+    height: 8px; 
+    border-radius: 4px; 
+}
+
+/* Profi-Tipp Box */
+.pro-tip {
+    background: #f8fafc;
+    border-left: 3px solid #b71c1c;
+    padding: 15px 20px;
+    margin: 25px 35px 30px 35px;
+    font-size: 0.9rem;
+    color: #475569;
+    line-height: 1.6;
+}
+
+.pro-tip strong {
+    color: #1e293b;
+    font-weight: 600;
+}
 </style>
 
   <link rel="stylesheet" href="styles.css">
@@ -307,6 +483,15 @@
       <label for="returnDate">An welchem Datum fliegen Sie zurück? (Rückreisedatum)</label>
       <input type="date" id="returnDate" required style="margin-bottom: 15px; display: block; width: 100%; padding: 8px; box-sizing: border-box;">
 
+      <label for="docType" style="margin-top: 15px;">Welches Reisedokument nutzen Sie?</label>
+
+      <select id="docType" required style="margin-bottom: 15px; display: block; width: 100%; padding: 10px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 6px; font-size: 1rem; background: #fff;">
+    <option value="epass" selected>Regulärer Reisepass (ePass / Biometrisch)</option>
+    <option value="temp_pass">Vorläufiger Reisepass (Grün)</option>
+    <option value="id_card">Personalausweis</option>
+    <option value="child_pass">Kinderreisepass (älteres Modell)</option>
+</select>
+
       <label for="expiryDate" style="margin-top: 15px;">Bis wann ist Ihr Reisepass gültig? (Siehe Ausweis)</label>
       <input type="date" id="expiryDate" required style="margin-bottom: 15px; display: block; width: 100%; padding: 8px; box-sizing: border-box;">
 
@@ -375,11 +560,11 @@
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Weitere interessante Themen:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="einreisebestimmungen-guatemala.html">Guatemala</a>
+    <a href="einreisebestimmungen-kolumbien.html">Kolumbien</a>
+<a href="einreisebestimmungen-namibia.html">Namibia</a>
+<a href="einreisebestimmungen-suedkorea.html">Südkorea</a>
+<a href="einreisebestimmungen-jamaika.html">Jamaika</a>
 <a href="einreisebestimmungen-katar.html">Katar (Doha)</a>
-<a href="einreisebestimmungen-chile.html">Chile</a>
-<a href="einreisebestimmungen-mexiko.html">Mexiko</a>
-<a href="einreisebestimmungen-malaysia.html">Malaysia</a>
 
   </div>
 </div>
@@ -494,6 +679,13 @@
 </footer>
 
 <script>
+// SVG Icons (statt Emojis)
+const ICONS = {
+    success: `<svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>`,
+    error: `<svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>`,
+    warning: `<svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>`
+};
+
 // Helper: ICS Download generieren
 window.downloadICS = function(deadlineISO, country) {
     const dl = new Date(deadlineISO);
@@ -522,6 +714,7 @@ document.getElementById('passForm').addEventListener('submit', function(e) {
     const returnDateStr = document.getElementById('returnDate').value;
     const expiryDateStr = document.getElementById('expiryDate').value;
     const requiredMonths = parseInt(document.getElementById('requiredMonths').value) || 0;
+    const docType = document.getElementById('docType').value;
     
     const resultBox = document.getElementById('resultBox');
     if(!arrivalDateStr || !returnDateStr || !expiryDateStr) return;
@@ -536,35 +729,70 @@ document.getElementById('passForm').addEventListener('submit', function(e) {
     resultBox.classList.remove("result-success", "result-error");
     resultBox.setAttribute("aria-live", "polite");
 
-    // === FEHLER-VALIDIERUNGEN ===
+    // Validierungen
     if (arrivalDate > returnDate) {
         resultBox.classList.add("result-error");
-        resultBox.innerHTML = `⚠️ <strong>Eingabefehler:</strong> Das Hinreisedatum darf nicht nach dem Rückreisedatum liegen.`;
+        resultBox.innerHTML = `
+            <div class="result-header">
+                <div class="result-icon">${ICONS.error}</div>
+                <div class="result-content">
+                    <h3 class="result-title">Eingabefehler</h3>
+                    <p class="result-subtitle">Das Hinreisedatum darf nicht nach dem Rückreisedatum liegen.</p>
+                </div>
+            </div>`;
         return;
     }
     if (returnDate < today) {
         resultBox.classList.add("result-error");
-        resultBox.innerHTML = `⚠️ <strong>Eingabefehler:</strong> Das Rückreisedatum darf nicht in der Vergangenheit liegen.`;
+        resultBox.innerHTML = `
+            <div class="result-header">
+                <div class="result-icon">${ICONS.error}</div>
+                <div class="result-content">
+                    <h3 class="result-title">Eingabefehler</h3>
+                    <p class="result-subtitle">Das Rückreisedatum darf nicht in der Vergangenheit liegen.</p>
+                </div>
+            </div>`;
         return;
     }
     if (expiryDate <= returnDate) {
         resultBox.classList.add("result-error");
-        resultBox.innerHTML = `❌ <strong>Achtung, Gültigkeit unzureichend!</strong><br><br>Ihr Reisepass läuft bereits am oder vor dem Tag Ihrer Rückreise ab. Sie können die Reise so nicht antreten.`;
+        resultBox.innerHTML = `
+            <div class="result-header">
+                <div class="result-icon">${ICONS.error}</div>
+                <div class="result-content">
+                    <h3 class="result-title">Gültigkeit unzureichend</h3>
+                    <p class="result-subtitle">Ihr Reisepass läuft bereits am oder vor dem Tag Ihrer Rückreise ab. Sie können die Reise so nicht antreten.</p>
+                </div>
+            </div>`;
         return;
     }
 
-    // === BERECHNUNG DER MINDESTGÜLTIGKEIT ===
+    // Smart Warning für Dokumenten-Typ
+    let smartWarning = '';
+    if (docType === 'id_card') {
+        smartWarning = `<strong>Achtung bei Personalausweisen:</strong> Ein Personalausweis reicht in der Regel nur für EU- und Schengen-Staaten aus. Für die meisten Fernreiseziele wird am Check-in zwingend ein Reisepass verlangt.`;
+    } else if (docType === 'temp_pass') {
+        smartWarning = `<strong>Hinweis zum vorläufigen Reisepass:</strong> Nicht alle Länder (z.B. USA via ESTA oder VAE) akzeptieren den grünen, vorläufigen Reisepass oder verlangen ein spezielles Visum.`;
+    } else if (docType === 'child_pass') {
+        smartWarning = `<strong>Wichtig für Kinderreisepässe:</strong> Seit 2024 werden diese nicht mehr neu ausgestellt. Für viele Länder außerhalb Europas reicht das alte Dokument nicht mehr aus.`;
+    }
+
+    let warningHTML = smartWarning ? `
+        <div class="warning-box">
+            <div class="warning-icon">${ICONS.warning}</div>
+            <p class="warning-text">${smartWarning}</p>
+        </div>` : '';
+
+    // Mindestgültigkeit berechnen
     let minimumRequiredDate = new Date(returnDate);
     minimumRequiredDate.setMonth(minimumRequiredDate.getMonth() + requiredMonths);
     
-    // JS-Monats-Overflow absichern
     if (minimumRequiredDate.getDate() !== returnDate.getDate()) {
         minimumRequiredDate.setDate(0); 
     }
 
-    // === TIMELINE RENDERING LOGIK ===
-    const userLang = document.documentElement.lang || 'de'; 
-    
+    // Timeline berechnen
+    const userLang = document.documentElement.lang || 'de';
     const start = today.getTime();
     const bufferDate = new Date(minimumRequiredDate);
     bufferDate.setDate(bufferDate.getDate() + 30);
@@ -588,17 +816,29 @@ document.getElementById('passForm').addEventListener('submit', function(e) {
             <div class="timeline-legend">
                 <div class="legend-item"><span class="legend-color" style="background:#3b82f6"></span> Reisezeitraum</div>
                 <div class="legend-item"><span class="legend-color" style="background:#10b981"></span> Ihr Pass</div>
-                <div class="legend-item"><span class="legend-color" style="background:#dc2626; width:4px; height:14px; border-radius:0;"></span> Mindest-Gültigkeit</div>
+                <div class="legend-item"><span class="legend-color" style="background:#dc2626; width:4px; height:8px; border-radius:0;"></span> Mindest-Gültigkeit</div>
             </div>
         </div>`;
 
-    // === ERGEBNIS AUSGEBEN ===
+    // Ergebnis ausgeben
     if(expiryDate >= minimumRequiredDate) {
         resultBox.classList.add("result-success");
-        resultBox.innerHTML = `✅ <strong>Grünes Licht für Thailand!</strong><br>
-            Ihr Pass deckt den Reisezeitraum und die geforderten ${requiredMonths} Monate Nachlaufzeit problemlos ab.
-            ${timelineHTML}
-            <p style="margin-top:15px; font-size:0.9rem; color:#475569;"><strong>💡 Profi-Tipp:</strong> Machen Sie vor der Abreise ein Foto Ihres Reisepasses und speichern Sie es offline auf dem Handy oder in einer sicheren Cloud. Das hilft enorm, falls das Dokument vor Ort verloren geht.</p>`;
+        resultBox.innerHTML = `
+            ${warningHTML}
+            <div class="result-header">
+                <div class="result-icon">${ICONS.success}</div>
+                <div class="result-content">
+                    <h3 class="result-title">Einreise nach Thailand möglich</h3>
+                    <p class="result-subtitle">Ihr Reisepass ist für den geplanten Reisezeitraum gültig.</p>
+                </div>
+            </div>
+            <div class="result-body">
+                <p>Ihr Pass deckt den Reisezeitraum vom <strong>${arrivalDate.toLocaleDateString(userLang)}</strong> bis <strong>${returnDate.toLocaleDateString(userLang)}</strong> sowie die geforderten <strong>${requiredMonths} Monate</strong> Nachlaufzeit problemlos ab.</p>
+                ${timelineHTML}
+            </div>
+            <div class="pro-tip">
+                <strong>Profi-Tipp:</strong> Machen Sie vor der Abreise ein Foto Ihres Reisepasses und speichern Sie es offline auf dem Handy oder in einer sicheren Cloud. Das hilft enorm, falls das Dokument vor Ort verloren geht.
+            </div>`;
             
         resultBox.querySelector('.bar-pass').classList.remove('bar-pass-error');
 
@@ -608,24 +848,32 @@ document.getElementById('passForm').addEventListener('submit', function(e) {
         
         let reqDateFormatted = minimumRequiredDate.toLocaleDateString(userLang);
         
-        // Deadline für Behörde berechnen (Express-Pass dauert ca. 3-4 Werktage + Puffer)
         let deadlineDate = new Date(minimumRequiredDate);
         deadlineDate.setDate(deadlineDate.getDate() - 7); 
         let deadlineFormatted = deadlineDate.toLocaleDateString(userLang);
 
-        // UNIVERSALE BEHÖRDEN-EMPFEHLUNG
-        let actionText = `Kontaktieren Sie umgehend <strong>Ihre zuständige Behörde für Ausweisdokumente</strong>, um einen neuen Reisepass zu beantragen.<br>
-                          <em>Spätester Termin für einen Express-Pass:</em> <strong>${deadlineFormatted}</strong>`;
+        let icsBtn = `<button class="btn-ics" onclick="window.downloadICS('${deadlineDate.toISOString()}', 'Thailand')">📅 Termin in Kalender speichern</button>`;
 
-        let icsBtn = `<button class="btn-ics" onclick="window.downloadICS('${deadlineDate.toISOString()}', 'Thailand')">📅 Amts-Termin in Kalender speichern</button>`;
-
-        resultBox.innerHTML = `❌ <strong>Achtung, Einreise gefährdet!</strong><br><br>
-            Ihr Reisepass muss für Thailand noch bis mindestens <strong>${reqDateFormatted}</strong> gültig sein.
-            ${timelineHTML}
-            <div style="background:#fff1f2; border:1px solid #fecaca; padding:15px; border-radius:8px; margin-top:20px;">
-                <strong>Handlungsempfehlung:</strong><br>
-                ${actionText}
-                ${icsBtn}
+        resultBox.innerHTML = `
+            ${warningHTML}
+            <div class="result-header">
+                <div class="result-icon">${ICONS.error}</div>
+                <div class="result-content">
+                    <h3 class="result-title">Einreise nach Thailand nicht möglich</h3>
+                    <p class="result-subtitle">Ihr Reisepass erfüllt die Mindestgültigkeit nicht.</p>
+                </div>
+            </div>
+            <div class="result-body">
+                <p>Ihr Reisepass muss für Thailand noch bis mindestens <strong>${reqDateFormatted}</strong> gültig sein (${requiredMonths} Monate nach Rückreise).</p>
+                ${timelineHTML}
+                <div class="action-box">
+                    <h4 class="action-box-title">Handlungsempfehlung</h4>
+                    <p class="action-box-text">
+                        Kontaktieren Sie umgehend <strong>Ihre zuständige Behörde für Ausweisdokumente</strong>, um einen neuen Reisepass zu beantragen.<br>
+                        <em>Spätester Termin für einen Express-Pass:</em> <strong>${deadlineFormatted}</strong>
+                    </p>
+                    ${icsBtn}
+                </div>
             </div>`;
         
         resultBox.querySelector('.bar-pass').classList.add('bar-pass-error');
