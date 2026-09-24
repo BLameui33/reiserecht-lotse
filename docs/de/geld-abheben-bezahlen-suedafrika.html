@@ -73,33 +73,75 @@
   }
 
   /* === Rechner-Box === */
-  .calc-box fieldset {
-    border: 1px solid #eaeaea;
-    padding: 30px;
-    border-radius: 2px;
-    background: #fdfdfd;
-  }
-  .calc-box legend {
-    color: #8B0000;
-    font-weight: 600;
-    font-size: 1.05em;
-    padding: 0 12px;
-    letter-spacing: 0.02em;
-  }
-  .calc-box input[type="number"],
-  .calc-box select {
-    background: #fff;
-    border: 1px solid #ddd;
-    padding: 12px 14px;
-    font-size: 1em;
-    border-radius: 2px;
-    transition: border-color 0.2s;
-  }
-  .calc-box input[type="number"]:focus,
-  .calc-box select:focus {
-    border-color: #8B0000;
-    outline: none;
-  }
+  /* === Formular-Struktur === */
+.calc-box fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+}
+.calc-box legend {
+  color: #ffffff !important;
+}
+.form-group {
+  margin-bottom: 28px;
+}
+.form-group label {
+  display: block;
+  font-weight: 600;
+  color: #1a1a1a;
+  font-size: 1em;
+  margin-bottom: 6px;
+  letter-spacing: 0.01em;
+}
+.form-hint {
+  display: block;
+  font-size: 0.85em;
+  color: #888;
+  margin-bottom: 10px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.calc-box input[type="number"],
+.calc-box select {
+  width: 100%;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 13px 15px;
+  font-size: 1em;
+  color: #1a1a1a;
+  border-radius: 2px;
+  font-family: inherit;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.calc-box input[type="number"]:focus,
+.calc-box select:focus {
+  border-color: #8B0000;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(139, 0, 0, 0.08);
+}
+.slider-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 8px;
+}
+.slider-row input[type="range"] {
+  flex: 1;
+  accent-color: #8B0000;
+  height: 4px;
+}
+.slider-value {
+  font-weight: 700;
+  color: #8B0000;
+  font-size: 1.1em;
+  min-width: 50px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
 
   /* === Ergebnis-Box === */
   .result-box {
@@ -338,18 +380,40 @@
   }
   .feedback-note a { color: #8B0000; }
 
-  /* Übergang-Absatz zwischen Tool und Lösung */
-  .transition-paragraph {
-    font-size: 1.1em;
-    line-height: 1.8;
-    color: #333;
-    margin: 50px 0 20px 0;
-    max-width: 720px;
-  }
-  .transition-paragraph strong {
-    color: #8B0000;
-    font-weight: 600;
-  }
+  /* === Eleganter Übergang zur Lösung === */
+.transition-block {
+  margin: 80px 0 50px 0;
+  padding: 0;
+  position: relative;
+}
+.transition-lead {
+  font-size: 1.55em;
+  font-weight: 600;
+  color: #1a1a1a;
+  letter-spacing: -0.015em;
+  line-height: 1.3;
+  margin: 0 0 18px 0;
+  max-width: 680px;
+}
+.transition-lead::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #8B0000;
+  margin-bottom: 22px;
+}
+.transition-body {
+  font-size: 1.1em;
+  line-height: 1.85;
+  color: #444;
+  margin: 0;
+  max-width: 720px;
+}
+.transition-body strong {
+  color: #1a1a1a;
+  font-weight: 600;
+}
    /* Inhaltsverzeichnis */
     .toc { background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 25px 0; border: 1px solid #eee; }
     .toc p { font-weight: bold; margin-top: 0; font-size: 1.1em; color: #333; }
@@ -475,36 +539,46 @@
 <div class="calc-box">
   <form id="feeCalcForm">
     <fieldset>
-      <legend>Ihr Reisebudget & Verhalten</legend>
+  <legend>Ihr Reisebudget & Verhalten</legend>
+  
+  <div class="form-group">
+    <label for="cBudget">Ungefähres Budget vor Ort (in Euro)</label>
+    <span class="form-hint">Ausgaben für Essen, Ausflüge, Shopping, Hotel vor Ort</span>
+    <input type="number" id="cBudget" value="1500" min="100" step="100" required>
+  </div>
 
-      <label for="cBudget" style="display:block; margin-top: 10px; font-weight:600;">Ungefähres Budget vor Ort (in Euro)</label>
-      <p style="font-size: 0.85em; color: #888; margin-top: 2px; margin-bottom: 10px;">Ausgaben für Essen, Ausflüge, Shopping, Hotel vor Ort</p>
-      <input type="number" id="cBudget" value="1500" min="100" step="100" required style="width: 100%; box-sizing: border-box;">
+  <div class="form-group">
+    <label for="cDuration">Dauer Ihrer Reise (in Tagen)</label>
+    <input type="number" id="cDuration" value="10" min="1" max="365" step="1" required>
+  </div>
 
-      <label for="cDuration" style="display:block; margin-top: 20px; font-weight:600;">Dauer Ihrer Reise (in Tagen)</label>
-      <input type="number" id="cDuration" value="10" min="1" max="365" step="1" required style="width: 100%; margin-top: 8px; box-sizing: border-box;">
+  <div class="form-group">
+    <label for="cCardPercent">Anteil der Ausgaben per Karte</label>
+    <span class="form-hint">Der Rest wird als Bargeld am Automaten abgehoben.</span>
+    <div class="slider-row">
+      <input type="range" id="cCardPercent" min="0" max="100" value="60" step="10" oninput="document.getElementById('cardPercentVal').innerText = this.value + '%'">
+      <span id="cardPercentVal" class="slider-value">60%</span>
+    </div>
+  </div>
 
-      <div class="slider-container" style="margin-top: 20px;">
-        <label for="cCardPercent" style="display:block; font-weight:600;">Anteil der Ausgaben per Karte</label>
-        <p style="font-size: 0.85em; color: #888; margin-top: 2px; margin-bottom: 10px;">Der Rest wird als Bargeld am Automaten abgehoben.</p>
-        <input type="range" id="cCardPercent" min="0" max="100" value="60" step="10" style="width: 100%;" oninput="document.getElementById('cardPercentVal').innerText = this.value + '%'">
-        <div style="text-align: right; margin-top: 5px;">Karten-Anteil: <span id="cardPercentVal" class="slider-value">60%</span></div>
-      </div>
+  <div class="form-group">
+    <label for="cWithdrawals">Anzahl Bargeld-Abhebungen am Automaten</label>
+    <select id="cWithdrawals" required>
+      <option value="1">1× (nur Notgroschen)</option>
+      <option value="3" selected>3× (gelegentlich Bargeld)</option>
+      <option value="6">6× (zahle lieber alles bar)</option>
+      <option value="10">10× oder mehr</option>
+    </select>
+  </div>
 
-      <label for="cWithdrawals" style="display:block; margin-top: 20px; font-weight:600;">Anzahl Bargeld-Abhebungen am Automaten</label>
-      <select id="cWithdrawals" required style="width: 100%; margin-top: 8px; box-sizing: border-box;">
-        <option value="1">1× (nur Notgroschen)</option>
-        <option value="3" selected>3× (gelegentlich Bargeld)</option>
-        <option value="6">6× (zahle lieber alles bar)</option>
-        <option value="10">10× oder mehr</option>
-      </select>
-
-      <label for="cBankType" style="display:block; margin-top: 20px; font-weight:600;">Wo sind Sie aktuell Kunde?</label>
-      <select id="cBankType" required style="width: 100%; margin-top: 8px; margin-bottom: 20px; box-sizing: border-box;">
-        <option value="filial" selected>Traditionelle Filialbank (z. B. Sparkasse, Volksbank, Deutsche Bank)</option>
-        <option value="direkt">Klassische Direktbank (z. B. ING, Consorsbank, Comdirect)</option>
-      </select>
-    </fieldset>
+  <div class="form-group">
+    <label for="cBankType">Wo sind Sie aktuell Kunde?</label>
+    <select id="cBankType" required>
+      <option value="filial" selected>Traditionelle Filialbank (z. B. Sparkasse, Volksbank, Deutsche Bank)</option>
+      <option value="direkt">Klassische Direktbank (z. B. ING, Consorsbank, Comdirect)</option>
+    </select>
+  </div>
+</fieldset>
 
     <button type="submit" class="button-primary" id="calcFeeBtn" style="background: #8B0000; color: #fff; padding: 16px 30px; border: none; border-radius: 2px; font-size: 1.05em; font-weight: 600; cursor: pointer; width: 100%; margin-top: 25px; letter-spacing: 0.03em;">Versteckte Gebühren berechnen</button>
   </form>
@@ -512,9 +586,12 @@
   <div id="feeResultBox" class="result-box" style="display: none;"></div>
 </div>
 
-  <p class="transition-paragraph">
-  Diese Gebühren sind kein Naturgesetz. Spezialisierte <strong>Reisekreditkarten</strong> wurden exakt für diesen Zweck entwickelt: Sie verzichten weltweit auf das Auslandseinsatzentgelt und übernehmen in der Regel sogar die Automatengebühren. Für Sie als Urlauber bedeutet das: <strong>Sie zahlen in Südafrika exakt das, was auf der Rechnung steht – keinen Cent mehr.</strong>
-</p>
+ <div class="transition-block">
+  <p class="transition-lead">Diese Gebühren sind kein Naturgesetz.</p>
+  <p class="transition-body">
+    Spezialisierte Reisekreditkarten wurden exakt für diesen Zweck entwickelt: Sie verzichten weltweit auf das Auslandseinsatzentgelt und übernehmen in der Regel sogar die Automatengebühren. Für Sie als Urlauber bedeutet das: <strong>Sie zahlen in Südafrika exakt das, was auf der Rechnung steht – keinen Cent mehr.</strong>
+  </p>
+</div>
 
 <div class="solution-box" id="solutionBox">
   <h2>Dauerhaft 0 € Gebühren – der Reise-Hack</h2>
@@ -594,11 +671,11 @@
   <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
     <h3>Informationen zu weiteren Reiseländern:</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="geld-abheben-bezahlen-thailand.html">Thailand</a>
-<a href="geld-abheben-bezahlen-singapur.html">Singapur</a>
-<a href="geld-abheben-bezahlen-oman.html">Oman</a>
-<a href="geld-abheben-bezahlen-argentinien.html">Argentinien</a>
-<a href="geld-abheben-bezahlen-malaysia.html">Malaysia</a>
+      <a href="geld-abheben-bezahlen-tuerkei.html">Türkei</a>
+<a href="geld-abheben-bezahlen-kuba.html">Kuba</a>
+<a href="geld-abheben-bezahlen-jamaika.html">Jamaika</a>
+<a href="geld-abheben-bezahlen-panama.html">Panama</a>
+<a href="geld-abheben-bezahlen-tansania.html">Tansania</a>
 
     </div>
   </div>

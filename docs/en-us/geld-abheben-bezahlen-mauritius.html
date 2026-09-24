@@ -29,15 +29,400 @@
   <link rel="icon" href="/logo-lotse-fav.png">
 
   <style>
-    /* Table of Contents */
+    .ui-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.1em;
+    height: 1.1em;
+    border-radius: 50%;
+    margin-right: 0.4em;
+    vertical-align: middle;
+    font-size: 0.8em;
+    line-height: 1;
+    font-family: Georgia, serif;
+  }
+  .ui-icon.warn  { background: #8B0000; color: #fff; }
+  .ui-icon.warn::before { content: "!"; font-weight: 700; }
+  .ui-icon.check { background: #2e7d32; color: #fff; }
+  .ui-icon.check::before { content: "✓"; }
+  .ui-icon.info  { background: #555; color: #fff; }
+  .ui-icon.info::before { content: "i"; font-style: italic; }
+
+  /* === Shock-Box (edler Akzent) === */
+  .shock-box {
+    background: #ffffff;
+    border-left: 3px solid #8B0000;
+    padding: 35px 40px;
+    margin: 50px 0;
+  }
+  .shock-box h2 {
+    color: #8B0000;
+    font-size: 1.4em;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+    letter-spacing: -0.01em;
+  }
+  .shock-price {
+    font-size: 1.15em;
+    font-weight: 600;
+    color: #8B0000;
+    margin: 20px 0;
+    padding-left: 15px;
+    border-left: 2px solid #e0c0c0;
+  }
+
+  /* === Rechner-Box === */
+  /* === Formular-Struktur === */
+.calc-box fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+}
+.calc-box legend {
+  color: #ffffff !important;
+}
+.form-group {
+  margin-bottom: 28px;
+}
+.form-group label {
+  display: block;
+  font-weight: 600;
+  color: #1a1a1a;
+  font-size: 1em;
+  margin-bottom: 6px;
+  letter-spacing: 0.01em;
+}
+.form-hint {
+  display: block;
+  font-size: 0.85em;
+  color: #888;
+  margin-bottom: 10px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.calc-box input[type="number"],
+.calc-box select {
+  width: 100%;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 13px 15px;
+  font-size: 1em;
+  color: #1a1a1a;
+  border-radius: 2px;
+  font-family: inherit;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.calc-box input[type="number"]:focus,
+.calc-box select:focus {
+  border-color: #8B0000;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(139, 0, 0, 0.08);
+}
+.slider-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 8px;
+}
+.slider-row input[type="range"] {
+  flex: 1;
+  accent-color: #8B0000;
+  height: 4px;
+}
+.slider-value {
+  font-weight: 700;
+  color: #8B0000;
+  font-size: 1.1em;
+  min-width: 50px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+  /* === Ergebnis-Box === */
+  .result-box {
+    margin-top: 30px;
+    padding: 40px;
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 2px;
+    box-shadow: 0 2px 20px rgba(139, 0, 0, 0.04);
+  }
+  .result-headline {
+    color: #8B0000;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+    letter-spacing: -0.01em;
+  }
+  .result-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 30px 0 25px 0;
+  }
+  @media (max-width: 640px) {
+    .result-cards { grid-template-columns: 1fr; }
+  }
+  .result-card {
+    padding: 25px;
+    border-radius: 2px;
+    border: 1px solid #eaeaea;
+  }
+  .result-card.negative {
+    border-top: 3px solid #8B0000;
+    background: #faf5f5;
+  }
+  .result-card.positive {
+    border-top: 3px solid #2e7d32;
+    background: #f5faf6;
+  }
+  .result-card h4 {
+    margin: 0 0 8px 0;
+    font-size: 0.85em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    opacity: 0.7;
+  }
+  .result-amount {
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 8px 0;
+    letter-spacing: -0.02em;
+  }
+  .result-card.negative .result-amount { color: #8B0000; }
+  .result-card.positive .result-amount { color: #2e7d32; }
+  .result-breakdown {
+    margin-top: 20px;
+    font-size: 0.92em;
+    color: #555;
+  }
+  .result-breakdown table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .result-breakdown td {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+  }
+  .result-breakdown td:last-child {
+    text-align: right;
+    font-weight: 600;
+  }
+  .result-breakdown tr:last-child td {
+    border-bottom: none;
+    font-weight: 700;
+    color: #8B0000;
+    padding-top: 12px;
+    border-top: 1px solid #e0c0c0;
+  }
+  .result-per-day {
+    margin-top: 25px;
+    padding: 15px 20px;
+    background: #fafafa;
+    border-left: 3px solid #8B0000;
+    font-size: 0.95em;
+    color: #333;
+  }
+
+  /* === Vergleichstabelle === */
+  .comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    background: #fff;
+    font-size: 0.98em;
+  }
+  .comparison-table th {
+    padding: 18px 15px;
+    text-align: left;
+    background: #fafafa;
+    border-bottom: 2px solid #8B0000;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+  .comparison-table td {
+    padding: 16px 15px;
+    border-bottom: 1px solid #f0f0f0;
+    vertical-align: top;
+  }
+  .comparison-table tr:last-child td { border-bottom: none; }
+  .comparison-table .col-service { color: #333; }
+  .comparison-table .col-bad { color: #8B0000; }
+  .comparison-table .col-good { color: #2e7d32; font-weight: 600; }
+
+  /* === Solution / Affiliate Box === */
+  .solution-box {
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    padding: 50px 40px;
+    margin: 60px 0;
+    position: relative;
+    border-radius: 2px;
+  }
+  .solution-box::before {
+    content: "Anzeige";
+    position: absolute;
+    top: -10px;
+    left: 25px;
+    background: #fff;
+    padding: 0 12px;
+    font-size: 0.7rem;
+    color: #8B0000;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .solution-box h2 {
+    color: #1a1a1a;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+    letter-spacing: -0.01em;
+  }
+  .solution-highlight {
+    font-size: 1.4em;
+    color: #8B0000;
+    font-weight: 700;
+    margin: 25px 0 10px 0;
+    letter-spacing: -0.01em;
+  }
+  .solution-usp-list {
+    list-style: none;
+    padding: 0;
+    margin: 25px 0;
+  }
+  .solution-usp-list li {
+    padding: 10px 0;
+    padding-left: 30px;
+    position: relative;
+    border-bottom: 1px solid #f5f5f5;
+  }
+  .solution-usp-list li:last-child { border-bottom: none; }
+  .solution-usp-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #8B0000;
+  }
+  .solution-usp-list li::after {
+    content: "✓";
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 0.75em;
+    font-weight: 700;
+  }
+  .main-affiliate-btn {
+    display: inline-block;
+    background: #8B0000;
+    color: #fff !important;
+    padding: 18px 45px;
+    text-decoration: none;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 1.05em;
+    letter-spacing: 0.03em;
+    transition: background 0.2s, transform 0.2s;
+    margin-top: 10px;
+  }
+  .main-affiliate-btn:hover {
+    background: #6a0000;
+    transform: translateY(-1px);
+  }
+
+  /* === Trust & Feedback === */
+  .trust-section {
+    background: #fafafa;
+    padding: 50px 40px;
+    margin: 60px 0 0 0;
+    border-top: 1px solid #eaeaea;
+    text-align: center;
+  }
+  .trust-section h3 {
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    letter-spacing: 0.02em;
+  }
+  .trust-text {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #555;
+    line-height: 1.7;
+  }
+  .trust-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #8B0000;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid #e0c0c0;
+  }
+  .feedback-note {
+    margin-top: 25px;
+    font-size: 0.9em;
+    color: #777;
+  }
+  .feedback-note a { color: #8B0000; }
+
+  /* === Eleganter Übergang zur Lösung === */
+.transition-block {
+  margin: 80px 0 50px 0;
+  padding: 0;
+  position: relative;
+}
+.transition-lead {
+  font-size: 1.55em;
+  font-weight: 600;
+  color: #1a1a1a;
+  letter-spacing: -0.015em;
+  line-height: 1.3;
+  margin: 0 0 18px 0;
+  max-width: 680px;
+}
+.transition-lead::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #8B0000;
+  margin-bottom: 22px;
+}
+.transition-body {
+  font-size: 1.1em;
+  line-height: 1.85;
+  color: #444;
+  margin: 0;
+  max-width: 720px;
+}
+.transition-body strong {
+  color: #1a1a1a;
+  font-weight: 600;
+}
+   /* Inhaltsverzeichnis */
     .toc { background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 25px 0; border: 1px solid #eee; }
     .toc p { font-weight: bold; margin-top: 0; font-size: 1.1em; color: #333; }
     .toc ul { margin-bottom: 0; padding-left: 25px; }
     .toc li { margin-bottom: 8px; }
     .toc a { color: #1565c0; text-decoration: none; }
-    .toc a:hover { text-underline-position: from-font; text-decoration: underline; }
+    .toc a:hover { text-decoration: underline; }
 
-    /* Calculator Slider */
+    /* Rechner Slider */
     .slider-container { margin: 15px 0; }
     .slider-value { font-weight: bold; color: #8B0000; font-size: 1.1em; }
     #cCardPercent {
@@ -48,7 +433,7 @@
     .sticky-cta { position: fixed; bottom: 0; left: 0; width: 100%; background: #fff; padding: 15px; box-shadow: 0 -2px 10px rgba(0,0,0,0.1); text-align: center; z-index: 1000; transform: translateY(100%); transition: transform 0.3s ease; }
     .sticky-cta.show { transform: translateY(0); }
     .sticky-cta .button-primary { margin: 0; padding: 12px 25px; font-size: 1.1em; width: auto; display: inline-block; }
-  </style>
+</style>
 
   <script type="application/ld+json">
   {
@@ -136,107 +521,131 @@
     </ul>
   </nav>
 
-<div class="shock-box">    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Warning: Expensive conversion into Mauritian Rupee (MUR)!</h2>
+<div class="shock-box">
+   <h2>Warning: Expensive conversion into Mauritian Rupee (MUR)</h2>
     <p>You won't be paying in US Dollars in Mauritius. Every single time you swipe your standard credit or debit card, your bank tacks on a <strong>foreign transaction fee</strong> (usually 2% to 3%).</p>
-    <div class="shock-price" style="font-size: 1.2em; font-weight: bold; color: #c62828; margin: 10px 0;">On top of that, international ATM cash withdrawals often cost an extra $5.00 to $10.00 flat per transaction!</div>
+    <div class="shock-price">On top of that, international ATM cash withdrawals often cost an extra $5.00 to $10.00 flat per transaction!</div>
     <p><em>Most travelers don't even realize they are being nickeled-and-dimed until weeks later when they check their bank statement and see dozens of small fee adjustments.</em></p>
   </div>
 
-  <h2 id="rechner">Tool: What Does Your Bank Charge You Abroad?</h2>
-  <p>Estimate your local travel budget below. Based on standard market conditions, our calculator estimates how much money your current bank will likely charge you for currency exchange in Mauritius.</p>
+  <h2 id="rechner">Tool: How Much Is Your Bank Costing You on Vacation?</h2>
+<p>Estimate your travel budget. Based on standard market conditions, our calculator estimates how much money your current bank is likely charging you for currency conversion in Mauritius.</p>
 
-  <div class="highlight-box pruefdatum-box" role="note" aria-label="Redaktionell geprüft" style="margin-top: 15px; margin-bottom: 30px;">
-    <p><strong>Fact-checked on:</strong> <span id="pruefdatum">08/19/2026</span></p>
-  </div>
+<div class="highlight-box pruefdatum-box" role="note" aria-label="Editorially verified" style="margin-top: 15px; margin-bottom: 30px;">
+  <p><strong>Editorially verified on:</strong> <span id="pruefdatum">08/20/2026</span></p>
+</div>
+
+<div class="calc-box">
+  <form id="feeCalcForm">
+    <fieldset>
+  <legend>Your Travel Budget & Habits</legend>
   
-  <div class="calc-box">
-    <form id="feeCalcForm">
-      <fieldset style="border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
-        <legend style="font-weight: bold; padding: 0 10px; color: #f6f7f8;">Your Travel Budget & Habits</legend>
-        
-        <label for="cBudget" style="display:block; margin-top: 10px; font-weight:bold;">Estimated local budget (in USD):</label>
-        <p style="font-size: 0.85em; color: #666; margin-top: 2px; margin-bottom: 10px;">(Local spending on dining, tours, shopping, and hotels)</p>
-        <input type="number" id="cBudget" value="1500" min="100" step="100" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
-
-        <div class="slider-container">
-          <label for="cCardPercent" style="display:block; font-weight:bold;">What % of your budget do you expect to pay by card?</label>
-          <p style="font-size: 0.85em; color: #666; margin-top: 2px; margin-bottom: 10px;">The remaining amount will be withdrawn as cash from local ATMs.</p>
-          <input type="range" id="cCardPercent" min="0" max="100" value="60" step="10" style="width: 100%;" oninput="document.getElementById('cardPercentVal').innerText = this.value + '%'">
-          <div style="text-align: right; margin-top: 5px;">Card Share: <span id="cardPercentVal" class="slider-value">60%</span></div>
-        </div>
-
-        <label for="cWithdrawals" style="display:block; margin-top: 15px; font-weight:bold;">How many times do you plan to withdraw cash from ATMs?</label>
-        <select id="cWithdrawals" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
-          <option value="1">1x (Just emergency cash)</option>
-          <option value="3" selected>3x (Occasional cash needs)</option>
-          <option value="6">6x (Prefer carrying local cash)</option>
-          <option value="10">10x or more</option>
-        </select>
-
-        <label for="cBankType" style="display:block; font-weight:bold;">Where do you currently bank?</label>
-        <select id="cBankType" required style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
-          <option value="filial" selected>Traditional Big Bank (e.g., Chase, Bank of America, Wells Fargo)</option>
-          <option value="direkt">Online-Only Bank / Credit Union (e.g., Capital One, Chime, Ally)</option>
-        </select>
-      </fieldset>
-
-      <button type="submit" class="button-primary" id="calcFeeBtn" style="background: #8B0000; color: #fff; padding: 15px 30px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer; width: 100%; margin-top: 20px;">Calculate Hidden Fees</button>
-    </form>
-
-    <div id="feeResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #8B0000;">
-      </div>
+  <div class="form-group">
+    <label for="cBudget">Approximate budget on-site (in USD)</label>
+    <span class="form-hint">Expenses for food, excursions, shopping, local hotel</span>
+    <input type="number" id="cBudget" value="1500" min="100" step="100" required>
   </div>
 
-  <h2 id="loesung">The Solution: No-Foreign-Transaction-Fee Travel Cards</h2>
-  <p>You don't have to accept these arbitrary bank markups. Dedicated travel cards are explicitly designed to skip foreign transaction fees entirely and save you from premium exchange rates while keeping your money secure.</p>
-
-<div class="solution-box">
-    <span style="font-size: 0.75rem; color: #fff; background-color: rgba(0,0,0,0.15); padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; display: inline-block; margin-bottom: 12px; font-weight: bold;">
-        Advertising / Affiliate Disclosure
-    </span>
-    
-    <h2> The Smart Travel Hack: $0 Fees</h2>
-    <p>Sign up for a card with no foreign transaction fees before your trip. Top-tier options carry a <strong>$0 annual fee</strong> – giving you full flexibility without ongoing costs.</p>
-    
-    <div class="solution-price">0% Foreign Transaction Fees in Mauritius</div>
-    <p style="font-size: 1.1em; margin-bottom: 25px;">Always settle transactions in Mauritian Rupee (MUR) at the actual, standard wholesale Visa/Mastercard exchange rate.</p>
-    
-    <a href="#" target="_blank" rel="noopener nofollow" class="button-primary main-affiliate-btn">Compare the Best Travel Credit Cards Now</a>
-    <p style="font-size: 0.85em; color: #666; margin-top: 15px;">No annual fees • $0 out-of-network international ATM access options • Apple/Google Pay ready • Marketing Disclosure: We may receive compensation from card issuers if you click on the links provided above (Commercial Compensation Disclosure).</p>
+  <div class="form-group">
+    <label for="cDuration">Trip duration (in days)</label>
+    <input type="number" id="cDuration" value="10" min="1" max="365" step="1" required>
   </div>
+
+  <div class="form-group">
+    <label for="cCardPercent">Percentage of expenses paid by card</label>
+    <span class="form-hint">The rest will be withdrawn as cash from ATMs.</span>
+    <div class="slider-row">
+      <input type="range" id="cCardPercent" min="0" max="100" value="60" step="10" oninput="document.getElementById('cardPercentVal').innerText = this.value + '%'">
+      <span id="cardPercentVal" class="slider-value">60%</span>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="cWithdrawals">Number of cash withdrawals at ATMs</label>
+    <select id="cWithdrawals" required>
+      <option value="1">1× (emergencies only)</option>
+      <option value="3" selected>3× (occasional cash)</option>
+      <option value="6">6× (prefer paying cash)</option>
+      <option value="10">10× or more</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="cBankType">Which type of bank do you currently use?</label>
+    <select id="cBankType" required>
+      <option value="filial" selected>Traditional brick-and-mortar bank (e.g., Chase, Bank of America, Wells Fargo)</option>
+      <option value="direkt">Standard online bank (e.g., Ally, Capital One, Discover)</option>
+    </select>
+  </div>
+</fieldset>
+
+    <button type="submit" class="button-primary" id="calcFeeBtn" style="background: #8B0000; color: #fff; padding: 16px 30px; border: none; border-radius: 2px; font-size: 1.05em; font-weight: 600; cursor: pointer; width: 100%; margin-top: 25px; letter-spacing: 0.03em;">Calculate Hidden Fees</button>
+  </form>
+
+  <div id="feeResultBox" class="result-box" style="display: none;"></div>
+</div>
+
+<div class="transition-block">
+  <p class="transition-lead">These fees aren't set in stone.</p>
+  <p class="transition-body">
+    Specialized travel cards were built specifically for this purpose: they eliminate foreign transaction fees worldwide and often waive ATM fees. For you as a traveler, that means: <strong>you pay exactly what's on the bill in Mauritius – not a cent more.</strong>
+  </p>
+</div>
+
+<div class="solution-box" id="solutionBox">
+  <h2>Zero Fees Forever – The Travel Hack</h2>
+  <p>Apply for a no-fee travel card (e.g., Capital One, Charles Schwab, Revolut, or Chime) before your trip. These cards feature a <strong>$0 annual fee</strong> – for life, with no hidden catches.</p>
+
+  <div class="solution-highlight">0% Foreign Transaction Fee in Mauritius</div>
+  <p>You always pay in Mauritian Rupee (MUR) at the real, fair Visa or Mastercard exchange rate.</p>
+
+  <ul class="solution-usp-list">
+    <li>No foreign transaction fees – worldwide</li>
+    <li>$0.00 at ATMs (including in the US)</li>
+    <li>Compatible with Apple Pay and Google Pay</li>
+    <li>No annual fee, ever</li>
+  </ul>
+
+  <a href="#" target="_blank" rel="noopener nofollow" class="main-affiliate-btn">Compare the Best Travel Credit Cards</a>
+  <p style="font-size: 0.85em; color: #888; margin-top: 20px;">Ad · Comparison of multiple providers · Non-binding</p>
+</div>
 
   <div id="details" class="seo-content" style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 30px;">
-    <h2>Why Your Home Bank Is So Expensive in Mauritius</h2>
-    <p>Most standard checking accounts and credit cards in the US are optimized strictly for domestic transactions. Once you cross borders, institutions view international transactions as easy margin drivers. There are two core cost pillars you need to look out for in Mauritius:</p>
+    <h2>Why Your Main Bank Is So Expensive in Mauritius</h2>
+    <p>Most checking accounts in the US are optimized for domestic use. As soon as you travel internationally, banks use foreign transactions as a lucrative revenue stream. There are two main cost traps you need to watch out for in Mauritius:</p>
 
-    <h3>1. The Foreign Transaction Fee (FX Markups)</h3>
-    <p>Because businesses in Mauritius settle charges in Mauritian Rupee (MUR), your bank must convert that local price back to US Dollars. For running this calculation, traditional financial companies add a percentage-based markup. This typically scales from <strong>2% to 3%</strong>. Spending $1,000 on your vacation means your bank keeps up to $30 purely for managing basic data translation.</p>
+    <h3>1. The Foreign Transaction Fee</h3>
+    <p>Since transactions in Mauritius are made in Mauritian Rupee (MUR), your bank has to convert every payment (whether at a grocery store, hotel, or rental car desk) into US Dollars. For this processing step, almost all traditional banks charge a percentage mark-up. Industry standards usually range from <strong>2.00% to 3.00%</strong> (often 3% for big US banks). So if you spend the equivalent of $1,000 on vacation using your card, your bank automatically keeps up to $30 as a "processing fee".</p>
 
-    <h3>2. Flat International ATM Surcharges</h3>
-    <p>Using a standard debit card at overseas ATMs can be even more punishing. Home banks regularly hit you with a fixed out-of-network flat fee per use, entirely independent of the amount drawn. These baseline expenses typically range from <strong>$5.00 to $10.00 per withdrawal</strong>. Pulling out small amounts frequently ("just a little bit for a taxi or coffee") adds a severe, unnecessary premium to your total trip overhead.</p>
+    <h3>2. Flat Fees at ATMs</h3>
+    <p>It gets even worse when you need cash from an ATM. If you use your regular debit card or standard credit card, your bank often charges a flat fee per transaction plus international withdrawal surcharges – regardless of how much cash you withdraw. These fees often range from <strong>$5.00 to $10.00 per withdrawal</strong>. If you make several small withdrawals on vacation ("just grabbing a quick ice cream at the beach"), you'll end up paying a fortune in extra charges.</p>
 
-    <table class="comparison-table" style="width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.95em;">
-      <tr style="background: #f5f5f5;">
-        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Service in Mauritius</th>
-        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Traditional US Bank</th>
-        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">No-FX Travel Card</th>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Paying at Restaurants/Hotels</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #c62828;">approx. + 2.0% to 3.0% fee</td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #2e7d32; font-weight: bold;">0.00 % (Free)</td>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Withdrawing Cash from ATMs</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #c62828;">approx. $5.00 - $10.00 per use</td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #2e7d32; font-weight: bold;">$0.00 (Free options)</td>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Annual Card Fees</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Up to $95+ annually</td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #2e7d32; font-weight: bold;">Permanently $0</td>
-      </tr>
-    </table>
+    <table class="comparison-table">
+  <thead>
+    <tr>
+      <th class="col-service">Service in Mauritius</th>
+      <th>Traditional Brick-and-Mortar Bank</th>
+      <th>Dedicated Travel Card</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="col-service"><strong>Payment at a restaurant or hotel</strong></td>
+      <td class="col-bad">approx. 2.00% to 3.00% fee</td>
+      <td class="col-good">0.00%</td>
+    </tr>
+    <tr>
+      <td class="col-service"><strong>Withdrawing cash at an ATM</strong></td>
+      <td class="col-bad">approx. $5.00 to $10.00 per withdrawal</td>
+      <td class="col-good">$0.00</td>
+    </tr>
+    <tr>
+      <td class="col-service"><strong>Annual card fee</strong></td>
+      <td class="col-bad">often $30 to $95</td>
+      <td class="col-good">$0 forever</td>
+    </tr>
+  </tbody>
+</table>
 
     <h3 style="margin-top: 30px;">The Ultimate Merchant Trick: DCC (Dynamic Currency Conversion)</h3>
     <p>There is one specific terminal trick you must know before arriving in Mauritius: When checking out or using an ATM, the screen will ask if you prefer to be billed in your home currency (<strong>USD</strong>) or the local currency (<strong>Mauritian Rupee (MUR)</strong>). <br><br>
@@ -261,11 +670,11 @@
   <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
     <h3>Information for other travel destinations:</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="geld-abheben-bezahlen-cuba.html">Cuba</a>
-<a href="geld-abheben-bezahlen-new-zealand.html">New Zealand</a>
-<a href="geld-abheben-bezahlen-north-macedonia.html">North Macedonia</a>
-<a href="geld-abheben-bezahlen-tunisia.html">Tunisia</a>
-<a href="geld-abheben-bezahlen-thailand.html">Thailand</a>
+      <a href="geld-abheben-bezahlen-nepal.html">Nepal</a>
+<a href="geld-abheben-bezahlen-morocco.html">Morocco</a>
+<a href="geld-abheben-bezahlen-egypt.html">Egypt</a>
+<a href="geld-abheben-bezahlen-taiwan.html">Taiwan</a>
+<a href="geld-abheben-bezahlen-laos.html">Laos</a>
 
     </div>
   </div>
@@ -368,83 +777,95 @@ document.addEventListener('DOMContentLoaded', function() {
     form.addEventListener('submit', function(e) {
       e.preventDefault();
 
-      // 1. Collect inputs
-      const budget = parseFloat(document.getElementById('cBudget').value) || 0;
+      const budget      = parseFloat(document.getElementById('cBudget').value) || 0;
+      const duration    = parseInt(document.getElementById('cDuration').value) || 1;
       const cardPercent = parseFloat(document.getElementById('cCardPercent').value) || 0;
       const withdrawals = parseInt(document.getElementById('cWithdrawals').value) || 0;
-      const bankType = document.getElementById('cBankType').value;
+      const bankType    = document.getElementById('cBankType').value;
 
-      const budgetOnCard = budget * (cardPercent / 100);
+      const budgetMitKarte = budget * (cardPercent / 100);
+      const budgetBar      = budget * ((100 - cardPercent) / 100);
 
-      // 2. US Market fee conditions
-      let feePercentLow = 0;
-      let feePercentHigh = 0;
-      let atmFeeLow = 0;
-      let atmFeeHigh = 0;
-
+      let feePercentLow, feePercentHigh, atmFeeLow, atmFeeHigh;
       if (bankType === 'filial') {
-        feePercentLow = 0.0200; // 2.0%
-        feePercentHigh = 0.0300; // 3.0%
-        atmFeeLow = 5.00; // $5 flat
-        atmFeeHigh = 10.00; // $10 flat
+        feePercentLow = 0.0200; feePercentHigh = 0.0300;
+        atmFeeLow = 5.00;       atmFeeHigh = 10.00;
       } else {
-        feePercentLow = 0.0000; // Credit Unions / No-FX Online Checkings often 0%
-        feePercentHigh = 0.0100; // 1.0%
-        atmFeeLow = 0.00; 
-        atmFeeHigh = 5.00;
+        feePercentLow = 0.0100; feePercentHigh = 0.0200;
+        atmFeeLow = 3.00;       atmFeeHigh = 5.00;
       }
 
-      // 3. Calculation
-      const costPercentLow = budgetOnCard * feePercentLow;
-      const costPercentHigh = budgetOnCard * feePercentHigh;
-      
-      const costAtmLow = withdrawals * atmFeeLow;
-      const costAtmHigh = withdrawals * atmFeeHigh;
+      const fxLow  = budgetMitKarte * feePercentLow;
+      const fxHigh = budgetMitKarte * feePercentHigh;
+      const atmLow  = withdrawals * atmFeeLow;
+      const atmHigh = withdrawals * atmFeeHigh;
 
-      const totalLow = costPercentLow + costAtmLow;
-      const totalHigh = costPercentHigh + costAtmHigh;
+      const totalLow  = fxLow  + atmLow;
+      const totalHigh = fxHigh + atmHigh;
 
-      // 4. US Formatting
-      const formatCurrency = (val) => val.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
-      
-      const textTotalLow = formatCurrency(totalLow);
-      const textTotalHigh = formatCurrency(totalHigh);
+      const perDayLow  = totalLow  / duration;
+      const perDayHigh = totalHigh / duration;
 
-      // 5. Output template string updates
+      const fmt = (v) => v.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+
       resultBox.style.display = 'block';
       resultBox.innerHTML = `
-        <h3 style="color: #c62828; margin-top: 0; font-size: 1.4em;">Your Estimated Fee Profile:</h3>
-        <p style="font-size: 1.1em;">With a local budget of ${formatCurrency(budget)} (${cardPercent}% card usage) and ${withdrawals} ATM withdrawals, your current home bank will likely charge:</p>
-        
-        <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
-          <div style="flex: 1; min-width: 250px; padding: 20px; background: #ffebee; border: 2px solid #c62828; border-radius: 6px;">
-            <h4 style="color: #b71c1c; margin-top: 0; font-size: 1.1em;">Your Current Account</h4>
-            <p style="margin-bottom: 5px; font-size: 0.9em; color: #555;">Foreign Transaction & Surcharges:</p>
-            <span style="font-size: 1.6em; font-weight: 900; color: #c62828;">${textTotalLow} to ${textTotalHigh}</span>
-            <p style="font-size: 0.85em; color: #b71c1c; margin-top: 10px; font-weight: bold;">⚠️ This money is completely lost to bank overhead.</p>
+        <h3 class="result-headline">Your Estimated Fee Trap</h3>
+        <p style="color: #555; margin: 0 0 10px 0;">
+          For a budget of ${fmt(budget)} over ${duration} days (${cardPercent}% by card, ${withdrawals} withdrawals):
+        </p>
+
+        <div class="result-cards">
+          <div class="result-card negative">
+            <h4>Your Current Bank</h4>
+            <div class="result-amount">${fmt(totalLow)} – ${fmt(totalHigh)}</div>
+            <p style="font-size: 0.9em; color: #8B0000; margin: 0; font-weight: 600;">Money lost to fees</p>
           </div>
-          
-          <div style="flex: 1; min-width: 250px; padding: 20px; background: #f1f8e9; border: 2px solid #2e7d32; border-radius: 6px;">
-            <h4 style="color: #2e7d32; margin-top: 0; font-size: 1.1em;">With a Travel Card</h4>
-            <p style="margin-bottom: 5px; font-size: 0.9em; color: #555;">Pay & withdraw cash globally for free:</p>
-            <span style="font-size: 1.8em; font-weight: 900; color: #2e7d32;">$0.00</span>
-            <p style="font-size: 0.85em; color: #2e7d32; margin-top: 10px; font-weight: bold;">✅ You keep up to ${textTotalHigh} in your pocket!</p>
+          <div class="result-card positive">
+            <h4>With a Travel Credit Card</h4>
+            <div class="result-amount">$0.00</div>
+            <p style="font-size: 0.9em; color: #2e7d32; margin: 0; font-weight: 600;">You save up to ${fmt(totalHigh)}</p>
           </div>
         </div>
-        
-        <p style="margin-top: 25px; text-align: center;">
-          <button type="button" onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth', block: 'center'});" style="background: #8B0000; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">Secure a Fee-Free Card & Save Money</button>
+
+        <div class="result-breakdown">
+          <table>
+            <tr>
+              <td>Foreign transaction fee (card payments totaling ${fmt(budgetMitKarte)})</td>
+              <td>${fmt(fxLow)} – ${fmt(fxHigh)}</td>
+            </tr>
+            <tr>
+              <td>ATM fees (${withdrawals}× withdrawal${withdrawals > 1 ? 's' : ''})</td>
+              <td>${fmt(atmLow)} – ${fmt(atmHigh)}</td>
+            </tr>
+            <tr>
+              <td>Total fees</td>
+              <td>${fmt(totalLow)} – ${fmt(totalHigh)}</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="result-per-day">
+          <strong>Broken down by day:</strong> That amounts to around <strong>${fmt(perDayLow)} to ${fmt(perDayHigh)} per day</strong> – for a service you can get completely free with a travel card.
+        </div>
+
+        <p style="margin-top: 30px; text-align: center;">
+          <button type="button" id="ctaScrollBtn" style="background: #8B0000; color: #fff; padding: 14px 35px; border: none; border-radius: 2px; font-size: 1em; font-weight: 600; cursor: pointer; letter-spacing: 0.03em;">Get Your Free Travel Card</button>
         </p>
       `;
+
+      document.getElementById('ctaScrollBtn').addEventListener('click', function() {
+        document.getElementById('solutionBox').scrollIntoView({ behavior: 'smooth', block: 'center' });
+      });
 
       resultBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     });
   }
 
-  // Sticky CTA Behavior
+  // Sticky CTA
   const stickyCta = document.getElementById('stickyCta');
   const mainAffiliateBtn = document.querySelector('.main-affiliate-btn');
-  
+
   if(stickyCta && mainAffiliateBtn) {
     window.addEventListener('scroll', function() {
       const btnRect = mainAffiliateBtn.getBoundingClientRect();

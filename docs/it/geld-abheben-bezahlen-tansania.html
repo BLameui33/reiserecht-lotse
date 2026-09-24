@@ -28,7 +28,392 @@
   <link rel="icon" href="/logo-lotse-fav.png">
 
   <style>
-    /* Inhaltsverzeichnis */
+    .ui-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.1em;
+    height: 1.1em;
+    border-radius: 50%;
+    margin-right: 0.4em;
+    vertical-align: middle;
+    font-size: 0.8em;
+    line-height: 1;
+    font-family: Georgia, serif;
+  }
+  .ui-icon.warn  { background: #8B0000; color: #fff; }
+  .ui-icon.warn::before { content: "!"; font-weight: 700; }
+  .ui-icon.check { background: #2e7d32; color: #fff; }
+  .ui-icon.check::before { content: "✓"; }
+  .ui-icon.info  { background: #555; color: #fff; }
+  .ui-icon.info::before { content: "i"; font-style: italic; }
+
+  /* === Shock-Box (edler Akzent) === */
+  .shock-box {
+    background: #ffffff;
+    border-left: 3px solid #8B0000;
+    padding: 35px 40px;
+    margin: 50px 0;
+  }
+  .shock-box h2 {
+    color: #8B0000;
+    font-size: 1.4em;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+    letter-spacing: -0.01em;
+  }
+  .shock-price {
+    font-size: 1.15em;
+    font-weight: 600;
+    color: #8B0000;
+    margin: 20px 0;
+    padding-left: 15px;
+    border-left: 2px solid #e0c0c0;
+  }
+
+  /* === Rechner-Box === */
+  /* === Formular-Struktur === */
+.calc-box fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+}
+.calc-box legend {
+  color: #ffffff !important;
+}
+.form-group {
+  margin-bottom: 28px;
+}
+.form-group label {
+  display: block;
+  font-weight: 600;
+  color: #1a1a1a;
+  font-size: 1em;
+  margin-bottom: 6px;
+  letter-spacing: 0.01em;
+}
+.form-hint {
+  display: block;
+  font-size: 0.85em;
+  color: #888;
+  margin-bottom: 10px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.calc-box input[type="number"],
+.calc-box select {
+  width: 100%;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 13px 15px;
+  font-size: 1em;
+  color: #1a1a1a;
+  border-radius: 2px;
+  font-family: inherit;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.calc-box input[type="number"]:focus,
+.calc-box select:focus {
+  border-color: #8B0000;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(139, 0, 0, 0.08);
+}
+.slider-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 8px;
+}
+.slider-row input[type="range"] {
+  flex: 1;
+  accent-color: #8B0000;
+  height: 4px;
+}
+.slider-value {
+  font-weight: 700;
+  color: #8B0000;
+  font-size: 1.1em;
+  min-width: 50px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+  /* === Ergebnis-Box === */
+  .result-box {
+    margin-top: 30px;
+    padding: 40px;
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 2px;
+    box-shadow: 0 2px 20px rgba(139, 0, 0, 0.04);
+  }
+  .result-headline {
+    color: #8B0000;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+    letter-spacing: -0.01em;
+  }
+  .result-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 30px 0 25px 0;
+  }
+  @media (max-width: 640px) {
+    .result-cards { grid-template-columns: 1fr; }
+  }
+  .result-card {
+    padding: 25px;
+    border-radius: 2px;
+    border: 1px solid #eaeaea;
+  }
+  .result-card.negative {
+    border-top: 3px solid #8B0000;
+    background: #faf5f5;
+  }
+  .result-card.positive {
+    border-top: 3px solid #2e7d32;
+    background: #f5faf6;
+  }
+  .result-card h4 {
+    margin: 0 0 8px 0;
+    font-size: 0.85em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    opacity: 0.7;
+  }
+  .result-amount {
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 8px 0;
+    letter-spacing: -0.02em;
+  }
+  .result-card.negative .result-amount { color: #8B0000; }
+  .result-card.positive .result-amount { color: #2e7d32; }
+  .result-breakdown {
+    margin-top: 20px;
+    font-size: 0.92em;
+    color: #555;
+  }
+  .result-breakdown table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .result-breakdown td {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+  }
+  .result-breakdown td:last-child {
+    text-align: right;
+    font-weight: 600;
+  }
+  .result-breakdown tr:last-child td {
+    border-bottom: none;
+    font-weight: 700;
+    color: #8B0000;
+    padding-top: 12px;
+    border-top: 1px solid #e0c0c0;
+  }
+  .result-per-day {
+    margin-top: 25px;
+    padding: 15px 20px;
+    background: #fafafa;
+    border-left: 3px solid #8B0000;
+    font-size: 0.95em;
+    color: #333;
+  }
+
+  /* === Vergleichstabelle === */
+  .comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    background: #fff;
+    font-size: 0.98em;
+  }
+  .comparison-table th {
+    padding: 18px 15px;
+    text-align: left;
+    background: #fafafa;
+    border-bottom: 2px solid #8B0000;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+  .comparison-table td {
+    padding: 16px 15px;
+    border-bottom: 1px solid #f0f0f0;
+    vertical-align: top;
+  }
+  .comparison-table tr:last-child td { border-bottom: none; }
+  .comparison-table .col-service { color: #333; }
+  .comparison-table .col-bad { color: #8B0000; }
+  .comparison-table .col-good { color: #2e7d32; font-weight: 600; }
+
+  /* === Solution / Affiliate Box === */
+  .solution-box {
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    padding: 50px 40px;
+    margin: 60px 0;
+    position: relative;
+    border-radius: 2px;
+  }
+  .solution-box::before {
+    content: "Anzeige";
+    position: absolute;
+    top: -10px;
+    left: 25px;
+    background: #fff;
+    padding: 0 12px;
+    font-size: 0.7rem;
+    color: #8B0000;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .solution-box h2 {
+    color: #1a1a1a;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+    letter-spacing: -0.01em;
+  }
+  .solution-highlight {
+    font-size: 1.4em;
+    color: #8B0000;
+    font-weight: 700;
+    margin: 25px 0 10px 0;
+    letter-spacing: -0.01em;
+  }
+  .solution-usp-list {
+    list-style: none;
+    padding: 0;
+    margin: 25px 0;
+  }
+  .solution-usp-list li {
+    padding: 10px 0;
+    padding-left: 30px;
+    position: relative;
+    border-bottom: 1px solid #f5f5f5;
+  }
+  .solution-usp-list li:last-child { border-bottom: none; }
+  .solution-usp-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #8B0000;
+  }
+  .solution-usp-list li::after {
+    content: "✓";
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 0.75em;
+    font-weight: 700;
+  }
+  .main-affiliate-btn {
+    display: inline-block;
+    background: #8B0000;
+    color: #fff !important;
+    padding: 18px 45px;
+    text-decoration: none;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 1.05em;
+    letter-spacing: 0.03em;
+    transition: background 0.2s, transform 0.2s;
+    margin-top: 10px;
+  }
+  .main-affiliate-btn:hover {
+    background: #6a0000;
+    transform: translateY(-1px);
+  }
+
+  /* === Trust & Feedback === */
+  .trust-section {
+    background: #fafafa;
+    padding: 50px 40px;
+    margin: 60px 0 0 0;
+    border-top: 1px solid #eaeaea;
+    text-align: center;
+  }
+  .trust-section h3 {
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    letter-spacing: 0.02em;
+  }
+  .trust-text {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #555;
+    line-height: 1.7;
+  }
+  .trust-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #8B0000;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid #e0c0c0;
+  }
+  .feedback-note {
+    margin-top: 25px;
+    font-size: 0.9em;
+    color: #777;
+  }
+  .feedback-note a { color: #8B0000; }
+
+  /* === Eleganter Übergang zur Lösung === */
+.transition-block {
+  margin: 80px 0 50px 0;
+  padding: 0;
+  position: relative;
+}
+.transition-lead {
+  font-size: 1.55em;
+  font-weight: 600;
+  color: #1a1a1a;
+  letter-spacing: -0.015em;
+  line-height: 1.3;
+  margin: 0 0 18px 0;
+  max-width: 680px;
+}
+.transition-lead::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #8B0000;
+  margin-bottom: 22px;
+}
+.transition-body {
+  font-size: 1.1em;
+  line-height: 1.85;
+  color: #444;
+  margin: 0;
+  max-width: 720px;
+}
+.transition-body strong {
+  color: #1a1a1a;
+  font-weight: 600;
+}
+   /* Inhaltsverzeichnis */
     .toc { background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 25px 0; border: 1px solid #eee; }
     .toc p { font-weight: bold; margin-top: 0; font-size: 1.1em; color: #333; }
     .toc ul { margin-bottom: 0; padding-left: 25px; }
@@ -47,7 +432,7 @@
     .sticky-cta { position: fixed; bottom: 0; left: 0; width: 100%; background: #fff; padding: 15px; box-shadow: 0 -2px 10px rgba(0,0,0,0.1); text-align: center; z-index: 1000; transform: translateY(100%); transition: transform 0.3s ease; }
     .sticky-cta.show { transform: translateY(0); }
     .sticky-cta .button-primary { margin: 0; padding: 12px 25px; font-size: 1.1em; width: auto; display: inline-block; }
-  </style>
+</style>
 
   <script type="application/ld+json">
   {
@@ -135,107 +520,131 @@
     </ul>
   </nav>
 
-<div class="shock-box">    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Attenzione: conversione costosa in Scellino tanzaniano (TZS)!</h2>
+<div class="shock-box"> 
+   <h2>Attenzione: conversione costosa in Scellino tanzaniano (TZS)</h2>
     <p>In Tanzania non si paga in euro. Ogni volta che usi la tua normale carta della Intesa Sanpaolo, UniCredit o di una banca diretta, la tua banca applica una cosiddetta <strong>commissione per operazioni in valuta estera</strong> (di solito dall'1,75% al 2,00%).</p>
-    <div class="shock-price" style="font-size: 1.2em; font-weight: bold; color: #c62828; margin: 10px 0;">Inoltre, al bancomat spesso si pagano forfettariamente da 5,00 € a 7,50 € per ogni prelievo!</div>
+    <div class="shock-price">Inoltre, al bancomat spesso si pagano forfettariamente da 5,00 € a 7,50 € per ogni prelievo!</div>
     <p><em>Molti vacanzieri si accorgono di questa lenta fregatura solo settimane dopo, quando controllano l'estratto conto a casa e vedono addebitate decine di piccole "commissioni in valuta estera".</em></p>
   </div>
 
-  <h2 id="rechner">Strumento: quanto ti costa la tua banca in vacanza?</h2>
-  <p>Stima il tuo budget di viaggio. Il nostro calcolatore determina, in base alle condizioni di mercato, quanto denaro la tua banca attuale probabilmente ti sottrarrà per il cambio valuta in Tanzania.</p>
+  <h2 id="rechner">Tool: Quanto ti costa la tua banca in vacanza?</h2>
+<p>Calcola il tuo budget di viaggio. Il nostro calcolatore stima, sulla base delle condizioni standard di mercato, quanti soldi la tua attuale banca ti addebiterà probabilmente per il cambio valuta in Tanzania.</p>
 
-  <div class="highlight-box pruefdatum-box" role="note" aria-label="Verificato editorialmente" style="margin-top: 15px; margin-bottom: 30px;">
-    <p><strong>Verificato editorialmente il:</strong> <span id="pruefdatum">20.08.2026</span></p>
-  </div>
+<div class="highlight-box pruefdatum-box" role="note" aria-label="Verificato dalla redazione" style="margin-top: 15px; margin-bottom: 30px;">
+  <p><strong>Verificato dalla redazione il:</strong> <span id="pruefdatum">20/08/2026</span></p>
+</div>
+
+<div class="calc-box">
+  <form id="feeCalcForm">
+    <fieldset>
+  <legend>Il tuo budget di viaggio e abitudini</legend>
   
-  <div class="calc-box">
-    <form id="feeCalcForm">
-      <fieldset style="border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
-        <legend style="font-weight: bold; padding: 0 10px; color: #f6f7f8;">Il tuo budget di viaggio e il tuo comportamento</legend>
-        
-        <label for="cBudget" style="display:block; margin-top: 10px; font-weight:bold;">Budget approssimativo in loco (in euro):</label>
-        <p style="font-size: 0.85em; color: #666; margin-top: 2px; margin-bottom: 10px;">(Spese per cibo, escursioni, shopping, hotel in loco)</p>
-        <input type="number" id="cBudget" value="1500" min="100" step="100" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
-
-        <div class="slider-container">
-          <label for="cCardPercent" style="display:block; font-weight:bold;">Quanta % del budget pensi di pagare con carta?</label>
-          <p style="font-size: 0.85em; color: #666; margin-top: 2px; margin-bottom: 10px;">Il resto verrà prelevato in contanti al bancomat.</p>
-          <input type="range" id="cCardPercent" min="0" max="100" value="60" step="10" style="width: 100%;" oninput="document.getElementById('cardPercentVal').innerText = this.value + '%'">
-          <div style="text-align: right; margin-top: 5px;">Quota carta: <span id="cardPercentVal" class="slider-value">60%</span></div>
-        </div>
-
-        <label for="cWithdrawals" style="display:block; margin-top: 15px; font-weight:bold;">Quante volte prevedi di prelevare contanti al bancomat?</label>
-        <select id="cWithdrawals" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
-          <option value="1">1x (solo fondo di emergenza)</option>
-          <option value="3" selected>3x (contanti occasionali)</option>
-          <option value="6">6x (preferisco pagare tutto in contanti)</option>
-          <option value="10">10x o più</option>
-        </select>
-
-        <label for="cBankType" style="display:block; font-weight:bold;">Dove sei attualmente cliente?</label>
-        <select id="cBankType" required style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
-          <option value="filial" selected>Banca tradizionale con filiali (es. Intesa Sanpaolo, UniCredit, Poste Italiane)</option>
-          <option value="direkt">Banca diretta classica (es. ING, Consorsbank, Comdirect)</option>
-        </select>
-      </fieldset>
-
-      <button type="submit" class="button-primary" id="calcFeeBtn" style="background: #8B0000; color: #fff; padding: 15px 30px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer; width: 100%; margin-top: 20px;">Calcola le commissioni nascoste</button>
-    </form>
-
-    <div id="feeResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #8B0000;">
-      </div>
+  <div class="form-group">
+    <label for="cBudget">Budget approssimativo sul posto (in Euro)</label>
+    <span class="form-hint">Spese per cibo, escursioni, shopping, hotel sul posto</span>
+    <input type="number" id="cBudget" value="1500" min="100" step="100" required>
   </div>
 
-  <h2 id="loesung">La soluzione: una carta di credito da viaggio gratuita per sempre</h2>
-  <p>Non devi accettare questa fregatura bancaria. Le speciali "carte di credito travel" sono state sviluppate proprio per questo scopo: rinunciano completamente alla commissione per operazioni in valuta estera in tutto il mondo e coprono persino le commissioni per i prelievi agli sportelli automatici di altre banche.</p>
-
-<div class="solution-box">
-    <span style="font-size: 0.75rem; color: #fff; background-color: rgba(0,0,0,0.15); padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; display: inline-block; margin-bottom: 12px; font-weight: bold;">
-        Annuncio / raccomandazione pubblicitaria
-    </span>
-    
-    <h2> Il trucco di viaggio intelligente: 0€ di commissioni</h2>
-    <p>Richiedi prima della vacanza una carta di credito da viaggio senza commissioni (ad es. Barclays, DKB, TF Bank o N26). Queste carte costano <strong>0 € di canone annuale</strong> — per tutta la vita.</p>
-    
-    <div class="solution-price">0% di commissione per operazioni in valuta estera in Tanzania</div>
-    <p style="font-size: 1.1em; margin-bottom: 25px;">Paga sempre in Scellino tanzaniano (TZS) al vero tasso di cambio equo Visa/Mastercard.</p>
-    
-    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" class="button-primary main-affiliate-btn">Confronta ora le migliori carte di credito da viaggio</a>
-    <p style="font-size: 0.85em; color: #666; margin-top: 15px;">Sempre gratuita • 0€ al bancomat in tutto il mondo • compatibile con Apple/Google Pay</p>
+  <div class="form-group">
+    <label for="cDuration">Durata del viaggio (in giorni)</label>
+    <input type="number" id="cDuration" value="10" min="1" max="365" step="1" required>
   </div>
+
+  <div class="form-group">
+    <label for="cCardPercent">Quota delle spese pagata con carta</label>
+    <span class="form-hint">Il resto verrà prelevato in contanti allo sportello bancomat (ATM).</span>
+    <div class="slider-row">
+      <input type="range" id="cCardPercent" min="0" max="100" value="60" step="10" oninput="document.getElementById('cardPercentVal').innerText = this.value + '%'">
+      <span id="cardPercentVal" class="slider-value">60%</span>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="cWithdrawals">Numero di prelievi in contanti allo sportello (ATM)</label>
+    <select id="cWithdrawals" required>
+      <option value="1">1× (solo per emergenze)</option>
+      <option value="3" selected>3× (contanti occasionali)</option>
+      <option value="6">6× (preferisco pagare tutto in contanti)</option>
+      <option value="10">10× o più</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="cBankType">Di quale banca sei cliente?</label>
+    <select id="cBankType" required>
+      <option value="filial" selected>Banca tradizionale con filiali (ad es. Intesa Sanpaolo, UniCredit, Banco BPM)</option>
+      <option value="direkt">Banca online diretta (ad es. Fineco, ING, BBVA)</option>
+    </select>
+  </div>
+</fieldset>
+
+    <button type="submit" class="button-primary" id="calcFeeBtn" style="background: #8B0000; color: #fff; padding: 16px 30px; border: none; border-radius: 2px; font-size: 1.05em; font-weight: 600; cursor: pointer; width: 100%; margin-top: 25px; letter-spacing: 0.03em;">Calcola le commissioni nascoste</button>
+  </form>
+
+  <div id="feeResultBox" class="result-box" style="display: none;"></div>
+</div>
+
+<div class="transition-block">
+  <p class="transition-lead">Queste commissioni non sono una tassa inevitabile.</p>
+  <p class="transition-body">
+    Le carte da viaggio specializzate sono state pensate esattamente per questo scopo: azzerano le commissioni per le transazioni estere in tutto il mondo e spesso evitano anche le commissioni di prelievo. Per te in vacanza questo significa: <strong>in Tanzania paghi esattamente ciò che c'è scritto sul conto – non un centesimo in più.</strong>
+  </p>
+</div>
+
+<div class="solution-box" id="solutionBox">
+  <h2>0 € di commissioni per sempre – il trick per i viaggi</h2>
+  <p>Richiedi prima delle vacanze una carta da viaggio gratuita (ad es. Revolut, N26 o BBVA). Queste carte hanno <strong>0 € di canone annuo</strong> – per sempre e senza condizioni nascoste.</p>
+
+  <div class="solution-highlight">0% di commissioni sul cambio valuta in Tanzania</div>
+  <p>Paghi in Scellino tanzaniano (TZS) sempre al tasso di cambio reale e trasparente di Visa o Mastercard.</p>
+
+  <ul class="solution-usp-list">
+    <li>Nessuna commissione per i pagamenti all'estero – in tutto il mondo</li>
+    <li>0,00 € ai bancomat (inclusa l'Italia)</li>
+    <li>Compatibile con Apple Pay e Google Pay</li>
+    <li>Nessun canone annuo, per sempre</li>
+  </ul>
+
+  <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" class="main-affiliate-btn">Confronta le migliori carte da viaggio</a>
+  <p style="font-size: 0.85em; color: #888; margin-top: 20px;">Pubblicità · Confronto tra più fornitori · Senza impegno</p>
+</div>
 
   <div id="details" class="seo-content" style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 30px;">
-    <h2>Perché la tua banca in Tanzania è così costosa</h2>
-    <p>La maggior parte dei conti correnti in Germania è ottimizzata per l'uso all'interno della zona euro (area SEPA). Non appena esci da quest'area, le banche sfruttano la situazione come fonte di guadagno. Ci sono due principali trappole di costo che devi conoscere in Tanzania:</p>
+    <h2>Perché la tua banca principale costa così tanto in Tanzania</h2>
+    <p>La maggior parte dei conti correnti in Italia è ottimizzata per l'uso all'interno della zona euro (area SEPA). Non appena si esce da quest'area, le banche ne approfittano come redditizia fonte di guadagno. Ci sono due trappole sui costi principali che devi conoscere in Tanzania:</p>
 
     <h3>1. La commissione per operazioni in valuta estera</h3>
-    <p>Poiché in Tanzania si paga in Scellino tanzaniano (TZS), la tua banca deve convertire ogni pagamento (che sia al supermercato, in hotel o per l'auto a noleggio) in euro. Per questa operazione contabile interna, quasi tutte le banche tradizionali applicano un sovrapprezzo percentuale. In genere, il settore applica <strong>dall'1,75% al 2,00%</strong>. Quindi, se spendi l'equivalente di 1.000 euro in vacanza con la carta, la tua banca trattiene automaticamente fino a 20 euro come "commissione di elaborazione".</p>
+    <p>Dato che in Tanzania si paga in Scellino tanzaniano (TZS), la tua banca deve convertire ogni pagamento (al supermercato, in hotel o per il noleggio auto) in Euro. Per questa operazione contabile interna, quasi tutte le banche tradizionali applicano una maggiorazione percentuale. In media si aggira tra l'<strong>1,75% e il 2,00%</strong>. Se quindi spendi l'equivalente di 1.000 euro in vacanza con la carta, la tua banca si trattiene automaticamente fino a 20 euro come "commissione di gestione".</p>
 
-    <h3>2. Commissioni forfettarie al bancomat</h3>
-    <p>La situazione diventa ancora più pesante quando hai bisogno di contanti al bancomat. Se usi la tua normale Girocard (ex carta EC) o una carta di credito standard, la tua banca spesso addebita una tariffa fissa per operazione, indipendentemente da quanto prelevi. Queste commissioni sono spesso di <strong>almeno 5,00 € fino a 7,50 € per prelievo</strong>. Chi in vacanza preleva spesso piccoli importi ("solo un attimo per un gelato in spiaggia") finisce per spendere una fortuna in commissioni.</p>
+    <h3>2. Commissioni fisse allo sportello bancomat (ATM)</h3>
+    <p>La situazione diventa ancora più critica se hai bisogno di contanti allo sportello. Se utilizzi la tua normale carta di debito (Bancomat) o una carta di credito standard, la tua banca addebita spesso una quota fissa per ogni operazione – indipendentemente da quanto denaro prelevi. Queste commissioni vanno spesso da <strong>almeno 5,00 € a 7,50 € per ciascun prelievo</strong>. Chi in vacanza preleva spesso piccole somme ("solo per un gelato in spiaggia") finisce per pagare una fortuna in commissioni.</p>
 
-    <table class="comparison-table" style="width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.95em;">
-      <tr style="background: #f5f5f5;">
-        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Servizio in Tanzania</th>
-        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Banca tradizionale con filiali</th>
-        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Vera carta di credito da viaggio</th>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Pagamento al ristorante/hotel</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #c62828;">circa + 1,75% fino a 2,00% di commissione</td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #2e7d32; font-weight: bold;">0,00 % (gratuito)</td>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Prelievo di contanti al bancomat</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #c62828;">circa 5,00 € - 7,50 € per prelievo</td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #2e7d32; font-weight: bold;">0,00 € (gratuito)</td>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Canone annuale della carta</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Spesso da 30 € a 80 € all'anno</td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #2e7d32; font-weight: bold;">0 € per sempre</td>
-      </tr>
-    </table>
+    <table class="comparison-table">
+  <thead>
+    <tr>
+      <th class="col-service">Servizio in Tanzania</th>
+      <th>Banca tradizionale con filiali</th>
+      <th>Carta da viaggio dedicata</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="col-service"><strong>Pagamento al ristorante o in hotel</strong></td>
+      <td class="col-bad">circa dall'1,75% al 2,00% di commissione</td>
+      <td class="col-good">0,00%</td>
+    </tr>
+    <tr>
+      <td class="col-service"><strong>Prelievo di contanti al bancomat</strong></td>
+      <td class="col-bad">circa da 5,00 € a 7,50 € per prelievo</td>
+      <td class="col-good">0,00 €</td>
+    </tr>
+    <tr>
+      <td class="col-service"><strong>Canone annuo della carta</strong></td>
+      <td class="col-bad">spesso da 30 € a 80 €</td>
+      <td class="col-good">0 € per sempre</td>
+    </tr>
+  </tbody>
+</table>
 
     <h3 style="margin-top: 30px;">La trappola turistica assoluta: DCC (Dynamic Currency Conversion)</h3>
     <p>Devi assolutamente conoscere un trucco in Tanzania: quando paghi con carta o prelevi contanti, il terminale o il bancomat spesso ti chiede se vuoi addebitare nella valuta locale (Scellino tanzaniano (TZS)) o in <strong>euro (EUR)</strong>. <br><br>
@@ -260,11 +669,11 @@
   <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
     <h3>Informazioni su altre destinazioni di viaggio:</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="geld-abheben-bezahlen-tuerkei.html">Turchia</a>
-<a href="geld-abheben-bezahlen-indonesien.html">Indonesia</a>
-<a href="geld-abheben-bezahlen-japan.html">Giappone</a>
-<a href="geld-abheben-bezahlen-mauritius.html">Mauritius</a>
-<a href="geld-abheben-bezahlen-philippinen.html">Filippine</a>
+      <a href="geld-abheben-bezahlen-costa-rica.html">Costa Rica</a>
+<a href="geld-abheben-bezahlen-sri-lanka.html">Sri Lanka</a>
+<a href="geld-abheben-bezahlen-panama.html">Panama</a>
+<a href="geld-abheben-bezahlen-norwegen.html">Norvegia</a>
+<a href="geld-abheben-bezahlen-schweiz.html">Svizzera</a>
 
     </div>
   </div>
@@ -364,93 +773,101 @@ document.addEventListener('DOMContentLoaded', function() {
   const resultBox = document.getElementById('feeResultBox');
 
   if(form) {
-    // Modificato: reagisce a 'submit', così i campi obbligatori HTML5 (required, min) vengono applicati
     form.addEventListener('submit', function(e) {
-      e.preventDefault(); // Impedisce il ricaricamento della pagina
+      e.preventDefault();
 
-      // 1. Valori dal modulo
-      const budget = parseFloat(document.getElementById('cBudget').value) || 0;
+      const budget      = parseFloat(document.getElementById('cBudget').value) || 0;
+      const duration    = parseInt(document.getElementById('cDuration').value) || 1;
       const cardPercent = parseFloat(document.getElementById('cCardPercent').value) || 0;
       const withdrawals = parseInt(document.getElementById('cWithdrawals').value) || 0;
-      const bankType = document.getElementById('cBankType').value;
+      const bankType    = document.getElementById('cBankType').value;
 
-      // Nuova funzione: calcola la quota su cui si applicano effettivamente le commissioni in valuta estera
       const budgetMitKarte = budget * (cardPercent / 100);
+      const budgetBar      = budget * ((100 - cardPercent) / 100);
 
-      // 2. Valori stimati per il calcolo (intervallo da/a)
-      let feePercentLow = 0;
-      let feePercentHigh = 0;
-      let atmFeeLow = 0;
-      let atmFeeHigh = 0;
-
+      let feePercentLow, feePercentHigh, atmFeeLow, atmFeeHigh;
       if (bankType === 'filial') {
-        feePercentLow = 0.0175; // 1,75%
-        feePercentHigh = 0.0200; // 2,00%
-        atmFeeLow = 5.00;
-        atmFeeHigh = 7.50;
+        feePercentLow = 0.0175; feePercentHigh = 0.0200;
+        atmFeeLow = 5.00;       atmFeeHigh = 7.50;
       } else {
-        feePercentLow = 0.0175; 
-        feePercentHigh = 0.0199; 
-        atmFeeLow = 4.90;
-        atmFeeHigh = 6.00;
+        feePercentLow = 0.0175; feePercentHigh = 0.0199;
+        atmFeeLow = 4.90;       atmFeeHigh = 6.00;
       }
 
-      // 3. Calcolo (la percentuale si applica ora solo alla quota pagata con carta)
-      const costPercentLow = budgetMitKarte * feePercentLow;
-      const costPercentHigh = budgetMitKarte * feePercentHigh;
-      
-      const costAtmLow = withdrawals * atmFeeLow;
-      const costAtmHigh = withdrawals * atmFeeHigh;
+      const fxLow  = budgetMitKarte * feePercentLow;
+      const fxHigh = budgetMitKarte * feePercentHigh;
+      const atmLow  = withdrawals * atmFeeLow;
+      const atmHigh = withdrawals * atmFeeHigh;
 
-      const totalLow = costPercentLow + costAtmLow;
-      const totalHigh = costPercentHigh + costAtmHigh;
+      const totalLow  = fxLow  + atmLow;
+      const totalHigh = fxHigh + atmHigh;
 
-      // 4. Formattazione
-      const formatCurrency = (val) => val.toLocaleString('de-DE', { style: 'currency', currency: 'EUR' });
-      
-      const textTotalLow = formatCurrency(totalLow);
-      const textTotalHigh = formatCurrency(totalHigh);
+      const perDayLow  = totalLow  / duration;
+      const perDayHigh = totalHigh / duration;
 
-      // 5. Output
+      const fmt = (v) => v.toLocaleString('it-IT', { style: 'currency', currency: 'EUR' });
+
       resultBox.style.display = 'block';
       resultBox.innerHTML = `
-        <h3 style="color: #c62828; margin-top: 0; font-size: 1.4em;">La tua trappola di commissioni stimata:</h3>
-        <p style="font-size: 1.1em;">Con un budget di ${formatCurrency(budget)} (${cardPercent}% carta) e ${withdrawals} prelievi, la tua banca probabilmente ti addebiterà:</p>
-        
-        <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
-          <div style="flex: 1; min-width: 250px; padding: 20px; background: #ffebee; border: 2px solid #c62828; border-radius: 6px;">
-            <h4 style="color: #b71c1c; margin-top: 0; font-size: 1.1em;">La tua banca attuale</h4>
-            <p style="margin-bottom: 5px; font-size: 0.9em; color: #555;">Commissioni in valuta estera e bancomat:</p>
-            <span style="font-size: 1.6em; font-weight: 900; color: #c62828;">${textTotalLow} fino a ${textTotalHigh}</span>
-            <p style="font-size: 0.85em; color: #b71c1c; margin-top: 10px; font-weight: bold;">⚠️ Il denaro è completamente perso!</p>
+        <h3 class="result-headline">La tua stima delle commissioni nascoste</h3>
+        <p style="color: #555; margin: 0 0 10px 0;">
+          Con un budget di ${fmt(budget)} per ${duration} giorni (${cardPercent}% con carta, ${withdrawals} prelievi):
+        </p>
+
+        <div class="result-cards">
+          <div class="result-card negative">
+            <h4>La tua attuale banca</h4>
+            <div class="result-amount">${fmt(totalLow)} – ${fmt(totalHigh)}</div>
+            <p style="font-size: 0.9em; color: #8B0000; margin: 0; font-weight: 600;">Denaro perso in commissioni</p>
           </div>
-          
-          <div style="flex: 1; min-width: 250px; padding: 20px; background: #f1f8e9; border: 2px solid #2e7d32; border-radius: 6px;">
-            <h4 style="color: #2e7d32; margin-top: 0; font-size: 1.1em;">Con una carta di credito da viaggio</h4>
-            <p style="margin-bottom: 5px; font-size: 0.9em; color: #555;">Pagare e prelevare gratuitamente in tutto il mondo:</p>
-            <span style="font-size: 1.8em; font-weight: 900; color: #2e7d32;">0,00 €</span>
-            <p style="font-size: 0.85em; color: #2e7d32; margin-top: 10px; font-weight: bold;">✅ Risparmi fino a ${textTotalHigh}!</p>
+          <div class="result-card positive">
+            <h4>Con una carta da viaggio</h4>
+            <div class="result-amount">0,00 €</div>
+            <p style="font-size: 0.9em; color: #2e7d32; margin: 0; font-weight: 600;">Risparmi fino a ${fmt(totalHigh)}</p>
           </div>
         </div>
-        
-        <p style="margin-top: 25px; text-align: center;">
-          <button type="button" onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth', block: 'center'});" style="background: #8B0000; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">Ottieni ora la carta gratuita e risparmia denaro</button>
+
+        <div class="result-breakdown">
+          <table>
+            <tr>
+              <td>Commissione cambio valuta (pagamenti con carta pari a ${fmt(budgetMitKarte)})</td>
+              <td>${fmt(fxLow)} – ${fmt(fxHigh)}</td>
+            </tr>
+            <tr>
+              <td>Commissioni bancomat (${withdrawals}× prelievi)</td>
+              <td>${fmt(atmLow)} – ${fmt(atmHigh)}</td>
+            </tr>
+            <tr>
+              <td>Totale commissioni</td>
+              <td>${fmt(totalLow)} – ${fmt(totalHigh)}</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="result-per-day">
+          <strong>Distribuito sul tuo viaggio:</strong> Corrisponde a circa <strong>da ${fmt(perDayLow)} a ${fmt(perDayHigh)} al giorno</strong> – per un servizio che con una carta da viaggio otterresti in modo completamente gratuito.
+        </div>
+
+        <p style="margin-top: 30px; text-align: center;">
+          <button type="button" id="ctaScrollBtn" style="background: #8B0000; color: #fff; padding: 14px 35px; border: none; border-radius: 2px; font-size: 1em; font-weight: 600; cursor: pointer; letter-spacing: 0.03em;">Ottieni una carta da viaggio gratuita</button>
         </p>
       `;
 
-      // 6. UX: scorrimento morbido verso il risultato
+      document.getElementById('ctaScrollBtn').addEventListener('click', function() {
+        document.getElementById('solutionBox').scrollIntoView({ behavior: 'smooth', block: 'center' });
+      });
+
       resultBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     });
   }
 
-  // Sticky CTA Logic (si mostra solo quando l'utente scorre verso il basso)
+  // Sticky CTA
   const stickyCta = document.getElementById('stickyCta');
   const mainAffiliateBtn = document.querySelector('.main-affiliate-btn');
-  
+
   if(stickyCta && mainAffiliateBtn) {
     window.addEventListener('scroll', function() {
       const btnRect = mainAffiliateBtn.getBoundingClientRect();
-      // Quando il pulsante principale esce verso l'alto dalla schermata, mostra la barra sticky
       if (btnRect.top < 0) {
         stickyCta.classList.add('show');
       } else {

@@ -29,7 +29,392 @@
   <link rel="icon" href="/logo-lotse-fav.png">
 
   <style>
-    /* Inhaltsverzeichnis */
+    .ui-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.1em;
+    height: 1.1em;
+    border-radius: 50%;
+    margin-right: 0.4em;
+    vertical-align: middle;
+    font-size: 0.8em;
+    line-height: 1;
+    font-family: Georgia, serif;
+  }
+  .ui-icon.warn  { background: #8B0000; color: #fff; }
+  .ui-icon.warn::before { content: "!"; font-weight: 700; }
+  .ui-icon.check { background: #2e7d32; color: #fff; }
+  .ui-icon.check::before { content: "✓"; }
+  .ui-icon.info  { background: #555; color: #fff; }
+  .ui-icon.info::before { content: "i"; font-style: italic; }
+
+  /* === Shock-Box (edler Akzent) === */
+  .shock-box {
+    background: #ffffff;
+    border-left: 3px solid #8B0000;
+    padding: 35px 40px;
+    margin: 50px 0;
+  }
+  .shock-box h2 {
+    color: #8B0000;
+    font-size: 1.4em;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+    letter-spacing: -0.01em;
+  }
+  .shock-price {
+    font-size: 1.15em;
+    font-weight: 600;
+    color: #8B0000;
+    margin: 20px 0;
+    padding-left: 15px;
+    border-left: 2px solid #e0c0c0;
+  }
+
+  /* === Rechner-Box === */
+  /* === Formular-Struktur === */
+.calc-box fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+}
+.calc-box legend {
+  color: #ffffff !important;
+}
+.form-group {
+  margin-bottom: 28px;
+}
+.form-group label {
+  display: block;
+  font-weight: 600;
+  color: #1a1a1a;
+  font-size: 1em;
+  margin-bottom: 6px;
+  letter-spacing: 0.01em;
+}
+.form-hint {
+  display: block;
+  font-size: 0.85em;
+  color: #888;
+  margin-bottom: 10px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.calc-box input[type="number"],
+.calc-box select {
+  width: 100%;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 13px 15px;
+  font-size: 1em;
+  color: #1a1a1a;
+  border-radius: 2px;
+  font-family: inherit;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.calc-box input[type="number"]:focus,
+.calc-box select:focus {
+  border-color: #8B0000;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(139, 0, 0, 0.08);
+}
+.slider-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 8px;
+}
+.slider-row input[type="range"] {
+  flex: 1;
+  accent-color: #8B0000;
+  height: 4px;
+}
+.slider-value {
+  font-weight: 700;
+  color: #8B0000;
+  font-size: 1.1em;
+  min-width: 50px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+  /* === Ergebnis-Box === */
+  .result-box {
+    margin-top: 30px;
+    padding: 40px;
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 2px;
+    box-shadow: 0 2px 20px rgba(139, 0, 0, 0.04);
+  }
+  .result-headline {
+    color: #8B0000;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+    letter-spacing: -0.01em;
+  }
+  .result-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 30px 0 25px 0;
+  }
+  @media (max-width: 640px) {
+    .result-cards { grid-template-columns: 1fr; }
+  }
+  .result-card {
+    padding: 25px;
+    border-radius: 2px;
+    border: 1px solid #eaeaea;
+  }
+  .result-card.negative {
+    border-top: 3px solid #8B0000;
+    background: #faf5f5;
+  }
+  .result-card.positive {
+    border-top: 3px solid #2e7d32;
+    background: #f5faf6;
+  }
+  .result-card h4 {
+    margin: 0 0 8px 0;
+    font-size: 0.85em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    opacity: 0.7;
+  }
+  .result-amount {
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 8px 0;
+    letter-spacing: -0.02em;
+  }
+  .result-card.negative .result-amount { color: #8B0000; }
+  .result-card.positive .result-amount { color: #2e7d32; }
+  .result-breakdown {
+    margin-top: 20px;
+    font-size: 0.92em;
+    color: #555;
+  }
+  .result-breakdown table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .result-breakdown td {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+  }
+  .result-breakdown td:last-child {
+    text-align: right;
+    font-weight: 600;
+  }
+  .result-breakdown tr:last-child td {
+    border-bottom: none;
+    font-weight: 700;
+    color: #8B0000;
+    padding-top: 12px;
+    border-top: 1px solid #e0c0c0;
+  }
+  .result-per-day {
+    margin-top: 25px;
+    padding: 15px 20px;
+    background: #fafafa;
+    border-left: 3px solid #8B0000;
+    font-size: 0.95em;
+    color: #333;
+  }
+
+  /* === Vergleichstabelle === */
+  .comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    background: #fff;
+    font-size: 0.98em;
+  }
+  .comparison-table th {
+    padding: 18px 15px;
+    text-align: left;
+    background: #fafafa;
+    border-bottom: 2px solid #8B0000;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+  .comparison-table td {
+    padding: 16px 15px;
+    border-bottom: 1px solid #f0f0f0;
+    vertical-align: top;
+  }
+  .comparison-table tr:last-child td { border-bottom: none; }
+  .comparison-table .col-service { color: #333; }
+  .comparison-table .col-bad { color: #8B0000; }
+  .comparison-table .col-good { color: #2e7d32; font-weight: 600; }
+
+  /* === Solution / Affiliate Box === */
+  .solution-box {
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    padding: 50px 40px;
+    margin: 60px 0;
+    position: relative;
+    border-radius: 2px;
+  }
+  .solution-box::before {
+    content: "Anzeige";
+    position: absolute;
+    top: -10px;
+    left: 25px;
+    background: #fff;
+    padding: 0 12px;
+    font-size: 0.7rem;
+    color: #8B0000;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .solution-box h2 {
+    color: #1a1a1a;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+    letter-spacing: -0.01em;
+  }
+  .solution-highlight {
+    font-size: 1.4em;
+    color: #8B0000;
+    font-weight: 700;
+    margin: 25px 0 10px 0;
+    letter-spacing: -0.01em;
+  }
+  .solution-usp-list {
+    list-style: none;
+    padding: 0;
+    margin: 25px 0;
+  }
+  .solution-usp-list li {
+    padding: 10px 0;
+    padding-left: 30px;
+    position: relative;
+    border-bottom: 1px solid #f5f5f5;
+  }
+  .solution-usp-list li:last-child { border-bottom: none; }
+  .solution-usp-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #8B0000;
+  }
+  .solution-usp-list li::after {
+    content: "✓";
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 0.75em;
+    font-weight: 700;
+  }
+  .main-affiliate-btn {
+    display: inline-block;
+    background: #8B0000;
+    color: #fff !important;
+    padding: 18px 45px;
+    text-decoration: none;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 1.05em;
+    letter-spacing: 0.03em;
+    transition: background 0.2s, transform 0.2s;
+    margin-top: 10px;
+  }
+  .main-affiliate-btn:hover {
+    background: #6a0000;
+    transform: translateY(-1px);
+  }
+
+  /* === Trust & Feedback === */
+  .trust-section {
+    background: #fafafa;
+    padding: 50px 40px;
+    margin: 60px 0 0 0;
+    border-top: 1px solid #eaeaea;
+    text-align: center;
+  }
+  .trust-section h3 {
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    letter-spacing: 0.02em;
+  }
+  .trust-text {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #555;
+    line-height: 1.7;
+  }
+  .trust-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #8B0000;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid #e0c0c0;
+  }
+  .feedback-note {
+    margin-top: 25px;
+    font-size: 0.9em;
+    color: #777;
+  }
+  .feedback-note a { color: #8B0000; }
+
+  /* === Eleganter Übergang zur Lösung === */
+.transition-block {
+  margin: 80px 0 50px 0;
+  padding: 0;
+  position: relative;
+}
+.transition-lead {
+  font-size: 1.55em;
+  font-weight: 600;
+  color: #1a1a1a;
+  letter-spacing: -0.015em;
+  line-height: 1.3;
+  margin: 0 0 18px 0;
+  max-width: 680px;
+}
+.transition-lead::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #8B0000;
+  margin-bottom: 22px;
+}
+.transition-body {
+  font-size: 1.1em;
+  line-height: 1.85;
+  color: #444;
+  margin: 0;
+  max-width: 720px;
+}
+.transition-body strong {
+  color: #1a1a1a;
+  font-weight: 600;
+}
+   /* Inhaltsverzeichnis */
     .toc { background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 25px 0; border: 1px solid #eee; }
     .toc p { font-weight: bold; margin-top: 0; font-size: 1.1em; color: #333; }
     .toc ul { margin-bottom: 0; padding-left: 25px; }
@@ -48,7 +433,7 @@
     .sticky-cta { position: fixed; bottom: 0; left: 0; width: 100%; background: #fff; padding: 15px; box-shadow: 0 -2px 10px rgba(0,0,0,0.1); text-align: center; z-index: 1000; transform: translateY(100%); transition: transform 0.3s ease; }
     .sticky-cta.show { transform: translateY(0); }
     .sticky-cta .button-primary { margin: 0; padding: 12px 25px; font-size: 1.1em; width: auto; display: inline-block; }
-  </style>
+</style>
 
   <script type="application/ld+json">
   {
@@ -136,107 +521,131 @@
     </ul>
   </nav>
 
-<div class="shock-box">    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Atenção: conversão cara em Balboa panamenho (PAB)!</h2>
+<div class="shock-box">
+   <h2> Atenção: conversão cara em Balboa panamenho (PAB)</h2>
     <p>Em Panamá não paga em euros. Sempre que usa o seu cartão normal da caixa, do banco local ou de um banco digital, o seu banco cobra uma chamada <strong>taxa de utilização no estrangeiro</strong> (normalmente 1,75% a 2,00%).</p>
-    <div class="shock-price" style="font-size: 1.2em; font-weight: bold; color: #c62828; margin: 10px 0;">Além disso, os multibancos cobram muitas vezes uma taxa fixa de 5,00 € a 7,50 € por levantamento!</div>
+    <div class="shock-price">Além disso, os multibancos cobram muitas vezes uma taxa fixa de 5,00 € a 7,50 € por levantamento!</div>
     <p><em>Muitos turistas só se apercebem desta exploração silenciosa semanas depois, quando verificam o extrato bancário em casa e veem dezenas de pequenas "taxas de moeda estrangeira" debitadas.</em></p>
   </div>
 
-  <h2 id="rechner">Ferramenta: quanto lhe custa o seu banco nas férias?</h2>
-  <p>Estime o seu orçamento de viagem. A nossa calculadora determina, com base em condições de mercado habituais, quanto dinheiro o seu banco atual provavelmente lhe vai cobrar pela conversão de moeda em Panamá.</p>
+  <h2 id="rechner">Ferramenta: Quanto lhe custa o seu banco nas férias?</h2>
+<p>Estime o seu orçamento de viagem. A nossa calculadora determina, com base nas condições de mercado habituais, quanto dinheiro o seu banco atual provavelmente lhe irá cobrar pelo câmbio de moeda em Panamá.</p>
 
-  <div class="highlight-box pruefdatum-box" role="note" aria-label="Verificado editorialmente" style="margin-top: 15px; margin-bottom: 30px;">
-    <p><strong>Verificado editorialmente em:</strong> <span id="pruefdatum">20.08.2026</span></p>
-  </div>
+<div class="highlight-box pruefdatum-box" role="note" aria-label="Verificado pela redação" style="margin-top: 15px; margin-bottom: 30px;">
+  <p><strong>Verificado pela redação em:</strong> <span id="pruefdatum">20/08/2026</span></p>
+</div>
+
+<div class="calc-box">
+  <form id="feeCalcForm">
+    <fieldset>
+  <legend>O seu orçamento de viagem e hábitos</legend>
   
-  <div class="calc-box">
-    <form id="feeCalcForm">
-      <fieldset style="border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
-        <legend style="font-weight: bold; padding: 0 10px; color: #f6f7f8;">O seu orçamento de viagem e comportamento</legend>
-        
-        <label for="cBudget" style="display:block; margin-top: 10px; font-weight:bold;">Orçamento aproximado no local (em euros):</label>
-        <p style="font-size: 0.85em; color: #666; margin-top: 2px; margin-bottom: 10px;">(Despesas com refeições, excursões, compras, hotel no local)</p>
-        <input type="number" id="cBudget" value="1500" min="100" step="100" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
-
-        <div class="slider-container">
-          <label for="cCardPercent" style="display:block; font-weight:bold;">Que percentagem do orçamento estima pagar com cartão?</label>
-          <p style="font-size: 0.85em; color: #666; margin-top: 2px; margin-bottom: 10px;">O restante será levantado em dinheiro no multibanco.</p>
-          <input type="range" id="cCardPercent" min="0" max="100" value="60" step="10" style="width: 100%;" oninput="document.getElementById('cardPercentVal').innerText = this.value + '%'">
-          <div style="text-align: right; margin-top: 5px;">Percentagem com cartão: <span id="cardPercentVal" class="slider-value">60%</span></div>
-        </div>
-
-        <label for="cWithdrawals" style="display:block; margin-top: 15px; font-weight:bold;">Com que frequência prevê levantar dinheiro no multibanco?</label>
-        <select id="cWithdrawals" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
-          <option value="1">1x (apenas dinheiro de reserva)</option>
-          <option value="3" selected>3x (dinheiro ocasional)</option>
-          <option value="6">6x (prefiro pagar tudo em dinheiro)</option>
-          <option value="10">10x ou mais</option>
-        </select>
-
-        <label for="cBankType" style="display:block; font-weight:bold;">Qual é o seu banco atual?</label>
-        <select id="cBankType" required style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
-          <option value="filial" selected>Banco tradicional com balcões (ex.: Caixa Geral de Depósitos (CGD), Millennium bcp, Banco BPI)</option>
-          <option value="direkt">Banco digital clássico</option>
-        </select>
-      </fieldset>
-
-      <button type="submit" class="button-primary" id="calcFeeBtn" style="background: #8B0000; color: #fff; padding: 15px 30px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer; width: 100%; margin-top: 20px;">Calcular taxas ocultas</button>
-    </form>
-
-    <div id="feeResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #8B0000;">
-      </div>
+  <div class="form-group">
+    <label for="cBudget">Orçamento aproximado no local (em euros)</label>
+    <span class="form-hint">Despesas de alimentação, excursões, compras, hotel no local</span>
+    <input type="number" id="cBudget" value="1500" min="100" step="100" required>
   </div>
 
-  <h2 id="loesung">A solução: um cartão de crédito de viagem permanentemente gratuito</h2>
-  <p>Não precisa aceitar esta exploração bancária. Os cartões de crédito de viagem foram criados exatamente para este fim: eliminam por completo a taxa de utilização no estrangeiro em todo o mundo e até assumem as taxas de levantamento em caixas multibanco de terceiros.</p>
-
-<div class="solution-box">
-    <span style="font-size: 0.75rem; color: #fff; background-color: rgba(0,0,0,0.15); padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; display: inline-block; margin-bottom: 12px; font-weight: bold;">
-        Anúncio / recomendação publicitária
-    </span>
-    
-    <h2> O truque de viagem inteligente: 0€ de taxas</h2>
-    <p>Peça antes da sua viagem um cartão de crédito de viagem sem taxas (por exemplo, Barclays, DKB, TF Bank ou N26). Estes cartões custam <strong>0 € de anuidade</strong> — para toda a vida.</p>
-    
-    <div class="solution-price">0% de taxa de câmbio em Panamá</div>
-    <p style="font-size: 1.1em; margin-bottom: 25px;">Pague sempre em Balboa panamenho (PAB) à taxa de câmbio real e justa da Visa/Mastercard.</p>
-    
-    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" class="button-primary main-affiliate-btn">Comparar agora os melhores cartões de viagem</a>
-    <p style="font-size: 0.85em; color: #666; margin-top: 15px;">Sempre gratuito • 0€ no multibanco em todo o mundo • compatível com Apple/Google Pay</p>
+  <div class="form-group">
+    <label for="cDuration">Duração da sua viagem (em dias)</label>
+    <input type="number" id="cDuration" value="10" min="1" max="365" step="1" required>
   </div>
+
+  <div class="form-group">
+    <label for="cCardPercent">Percentagem das despesas pagas com cartão</label>
+    <span class="form-hint">O restante será levantado em numerário no caixa automático (ATM).</span>
+    <div class="slider-row">
+      <input type="range" id="cCardPercent" min="0" max="100" value="60" step="10" oninput="document.getElementById('cardPercentVal').innerText = this.value + '%'">
+      <span id="cardPercentVal" class="slider-value">60%</span>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="cWithdrawals">Número de levantamentos de dinheiro no caixa automático</label>
+    <select id="cWithdrawals" required>
+      <option value="1">1× (apenas para emergências)</option>
+      <option value="3" selected>3× (dinheiro pontual)</option>
+      <option value="6">6× (prefiro pagar tudo em dinheiro)</option>
+      <option value="10">10× ou mais</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="cBankType">Onde é cliente atualmente?</label>
+    <select id="cBankType" required>
+      <option value="filial" selected>Banco tradicional com balcões (ex.: Caixa Geral de Depósitos, Millennium BCP, Banco Santander)</option>
+      <option value="direkt">Banco 100% digital / banco online (ex.: ActivoBank, moey!, Revolut)</option>
+    </select>
+  </div>
+</fieldset>
+
+    <button type="submit" class="button-primary" id="calcFeeBtn" style="background: #8B0000; color: #fff; padding: 16px 30px; border: none; border-radius: 2px; font-size: 1.05em; font-weight: 600; cursor: pointer; width: 100%; margin-top: 25px; letter-spacing: 0.03em;">Calcular comissões ocultas</button>
+  </form>
+
+  <div id="feeResultBox" class="result-box" style="display: none;"></div>
+</div>
+
+<div class="transition-block">
+  <p class="transition-lead">Estas comissões não são uma fatalidade.</p>
+  <p class="transition-body">
+    Os cartões de viagem específicos foram desenvolvidos exatamente para este fim: isentam a comissão de transação internacional em todo o mundo e, por norma, evitam também as taxas dos caixas automáticos. Para si, enquanto viajante, isto significa: <strong>em Panamá paga exatamente o que está na fatura – nem mais um cêntimo.</strong>
+  </p>
+</div>
+
+<div class="solution-box" id="solutionBox">
+  <h2>0 € de comissões para sempre – o truque para as viagens</h2>
+  <p>Peça um cartão de viagem sem comissões antes das suas férias (ex.: Revolut, N26, moey! ou WiZink). Estes cartões têm <strong>0 € de anuidade</strong> – para toda a vida e sem condições ocultas.</p>
+
+  <div class="solution-highlight">0 % de comissão de câmbio em Panamá</div>
+  <p>Paga em Balboa panamenho (PAB) sempre à taxa de câmbio real e justa da Visa ou Mastercard.</p>
+
+  <ul class="solution-usp-list">
+    <li>Sem comissões de transação internacional – em todo o mundo</li>
+    <li>0,00 € no caixa automático (incluindo Portugal)</li>
+    <li>Compatível com Apple Pay e Google Pay</li>
+    <li>Sem anuidade, para sempre</li>
+  </ul>
+
+  <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" class="main-affiliate-btn">Comparar os melhores cartões para viajar</a>
+  <p style="font-size: 0.85em; color: #888; margin-top: 20px;">Publicidade · Comparação de vários prestadores · sem compromisso</p>
+</div>
 
   <div id="details" class="seo-content" style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 30px;">
-    <h2>Porque é que o seu banco em Panamá é tão caro</h2>
-    <p>A maioria das contas à ordem na Alemanha está otimizada para utilização dentro da zona euro (área SEPA). Assim que sai desta área, os bancos aproveitam isso como uma fonte lucrativa de receitas. Existem duas principais armadilhas de custos que precisa de conhecer em Panamá:</p>
+    <h2>Por que razão o seu banco habitual é tão caro em Panamá</h2>
+    <p>A maioria das contas à ordem em Portugal está otimizada para utilização na zona euro (espaço SEPA). Assim que sai desta zona, os bancos usam isso como uma fonte de receita rentável. Existem duas principais armadilhas de custos que precisa de conhecer em Panamá:</p>
 
-    <h3>1. A taxa de utilização no estrangeiro (taxa de câmbio)</h3>
-    <p>Como em Panamá se paga em Balboa panamenho (PAB), o seu banco tem de converter cada pagamento (seja no supermercado, no hotel ou no aluguer de carro) para euros. Por este processo interno de contabilização, quase todos os bancos tradicionais cobram uma sobretaxa percentual. Esta situa-se normalmente entre <strong>1,75 % e 2,00 %</strong>. Portanto, se gastar o equivalente a 1.000 euros nas férias com cartão, o seu banco retém automaticamente até 20 euros como "taxa de processamento".</p>
+    <h3>1. A comissão de transação internacional (comissão de câmbio)</h3>
+    <p>Como em Panamá se paga em Balboa panamenho (PAB), o seu banco tem de converter cada pagamento (no supermercado, no hotel ou no aluguer de carro) para euros. Para este processo contabilístico interno, quase todos os bancos tradicionais cobram uma margem percentual. Esta situa-se habitualmente no mercado entre <strong>1,75% e 2,00%</strong>. Se gastar o equivalente a 1.000 euros em férias com o cartão, o seu banco retém automaticamente até 20 euros como "comissão de processamento".</p>
 
-    <h3>2. Taxas fixas no multibanco</h3>
-    <p>A situação torna-se ainda mais dramática quando precisa de dinheiro no multibanco. Se usar o seu cartão bancário normal ou um cartão de crédito standard, o seu banco cobra muitas vezes uma taxa fixa por operação — independentemente do montante levantado. Estas taxas situam-se muitas vezes em <strong>pelo menos 5,00 € a 7,50 € por levantamento</strong>. Quem levanta pequenas quantias com frequência nas férias ("só para comprar um gelado na praia") acaba por pagar taxas absurdas.</p>
+    <h3>2. Comissões fixas no caixa automático</h3>
+    <p>A situação torna-se ainda mais dramática se precisar de levantar dinheiro no caixa automático. Se utilizar o seu cartão de débito normal (Multibanco) ou um cartão de crédito standard, o seu banco habitual cobra frequentemente um valor fixo por operação – independentemente do montante que levantar. Estas comissões situam-se muitas vezes entre <strong>pelo menos 5,00 € e 7,50 € por levantamento</strong>. Quem costuma levantar pequenas quantias durante as férias ("apenas para um gelado na praia"), acaba por pagar uma fortuna em comissões.</p>
 
-    <table class="comparison-table" style="width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.95em;">
-      <tr style="background: #f5f5f5;">
-        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Serviço em Panamá</th>
-        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Banco tradicional com balcões</th>
-        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Cartão de viagem verdadeiro</th>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Pagamento no restaurante/hotel</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #c62828;">aprox. + 1,75% a 2,00% de taxa</td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #2e7d32; font-weight: bold;">0,00 % (gratuito)</td>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Levantamento de dinheiro no multibanco</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #c62828;">aprox. 5,00 € - 7,50 € por levantamento</td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #2e7d32; font-weight: bold;">0,00 € (gratuito)</td>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Anuidade do cartão</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Muitas vezes 30 € a 80 € por ano</td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #2e7d32; font-weight: bold;">0 € para sempre</td>
-      </tr>
-    </table>
+    <table class="comparison-table">
+  <thead>
+    <tr>
+      <th class="col-service">Serviço em Panamá</th>
+      <th>Banco tradicional com balcões</th>
+      <th>Cartão de viagem dedicado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="col-service"><strong>Pagamento no restaurante ou hotel</strong></td>
+      <td class="col-bad">cerca de 1,75% a 2,00% de comissão</td>
+      <td class="col-good">0,00%</td>
+    </tr>
+    <tr>
+      <td class="col-service"><strong>Levantar dinheiro no caixa automático</strong></td>
+      <td class="col-bad">cerca de 5,00 € a 7,50 € por levantamento</td>
+      <td class="col-good">0,00 €</td>
+    </tr>
+    <tr>
+      <td class="col-service"><strong>Anuidade do cartão</strong></td>
+      <td class="col-bad">frequentemente 30 € a 80 €</td>
+      <td class="col-good">0 € para sempre</td>
+    </tr>
+  </tbody>
+</table>
 
     <h3 style="margin-top: 30px;">A armadilha turística absoluta: DCC (Dynamic Currency Conversion)</h3>
     <p>Há um truque que precisa de conhecer em Panamá: quando paga com cartão ou levanta dinheiro, o terminal de pagamento ou o multibanco pergunta muitas vezes se pretende ser cobrado na moeda local (Balboa panamenho (PAB)) ou em <strong>euros (EUR)</strong>. <br><br>
@@ -261,10 +670,10 @@
   <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
     <h3>Informações sobre outros destinos de viagem:</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="geld-abheben-bezahlen-madagaskar.html">Madagáscar</a>
-<a href="geld-abheben-bezahlen-marokko.html">Marrocos</a>
-<a href="geld-abheben-bezahlen-nepal.html">Nepal</a>
-<a href="geld-abheben-bezahlen-aegypten.html">Egito</a>
+      <a href="geld-abheben-bezahlen-mauritius.html">Maurício</a>
+<a href="geld-abheben-bezahlen-japan.html">Japão</a>
+<a href="geld-abheben-bezahlen-malediven.html">Maldivas</a>
+<a href="geld-abheben-bezahlen-bahamas.html">Bahamas</a>
 <a href="geld-abheben-bezahlen-indien.html">Índia</a>
 
     </div>
@@ -365,93 +774,101 @@ document.addEventListener('DOMContentLoaded', function() {
   const resultBox = document.getElementById('feeResultBox');
 
   if(form) {
-    // Geändert: Reagiert auf 'submit', damit die HTML5 Pflichtfelder (required, min) greifen
     form.addEventListener('submit', function(e) {
-      e.preventDefault(); // Verhindert das Neuladen der Seite
+      e.preventDefault();
 
-      // 1. Werte aus dem Formular
-      const budget = parseFloat(document.getElementById('cBudget').value) || 0;
+      const budget      = parseFloat(document.getElementById('cBudget').value) || 0;
+      const duration    = parseInt(document.getElementById('cDuration').value) || 1;
       const cardPercent = parseFloat(document.getElementById('cCardPercent').value) || 0;
       const withdrawals = parseInt(document.getElementById('cWithdrawals').value) || 0;
-      const bankType = document.getElementById('cBankType').value;
+      const bankType    = document.getElementById('cBankType').value;
 
-      // Neues Feature: Anteil berechnen, auf den überhaupt Fremdwährungsgebühren anfallen
       const budgetMitKarte = budget * (cardPercent / 100);
+      const budgetBar      = budget * ((100 - cardPercent) / 100);
 
-      // 2. Schätzwerte für die Kalkulation (Range von/bis)
-      let feePercentLow = 0;
-      let feePercentHigh = 0;
-      let atmFeeLow = 0;
-      let atmFeeHigh = 0;
-
+      let feePercentLow, feePercentHigh, atmFeeLow, atmFeeHigh;
       if (bankType === 'filial') {
-        feePercentLow = 0.0175; // 1,75%
-        feePercentHigh = 0.0200; // 2,00%
-        atmFeeLow = 5.00;
-        atmFeeHigh = 7.50;
+        feePercentLow = 0.0175; feePercentHigh = 0.0200;
+        atmFeeLow = 5.00;       atmFeeHigh = 7.50;
       } else {
-        feePercentLow = 0.0175; 
-        feePercentHigh = 0.0199; 
-        atmFeeLow = 4.90;
-        atmFeeHigh = 6.00;
+        feePercentLow = 0.0175; feePercentHigh = 0.0199;
+        atmFeeLow = 4.90;       atmFeeHigh = 6.00;
       }
 
-      // 3. Berechnung (Prozentsatz greift jetzt nur noch auf den Kartenanteil)
-      const costPercentLow = budgetMitKarte * feePercentLow;
-      const costPercentHigh = budgetMitKarte * feePercentHigh;
-      
-      const costAtmLow = withdrawals * atmFeeLow;
-      const costAtmHigh = withdrawals * atmFeeHigh;
+      const fxLow  = budgetMitKarte * feePercentLow;
+      const fxHigh = budgetMitKarte * feePercentHigh;
+      const atmLow  = withdrawals * atmFeeLow;
+      const atmHigh = withdrawals * atmFeeHigh;
 
-      const totalLow = costPercentLow + costAtmLow;
-      const totalHigh = costPercentHigh + costAtmHigh;
+      const totalLow  = fxLow  + atmLow;
+      const totalHigh = fxHigh + atmHigh;
 
-      // 4. Formatierung
-      const formatCurrency = (val) => val.toLocaleString('de-DE', { style: 'currency', currency: 'EUR' });
-      
-      const textTotalLow = formatCurrency(totalLow);
-      const textTotalHigh = formatCurrency(totalHigh);
+      const perDayLow  = totalLow  / duration;
+      const perDayHigh = totalHigh / duration;
 
-      // 5. Ausgabe
+      const fmt = (v) => v.toLocaleString('pt-PT', { style: 'currency', currency: 'EUR' });
+
       resultBox.style.display = 'block';
       resultBox.innerHTML = `
-        <h3 style="color: #c62828; margin-top: 0; font-size: 1.4em;">A sua armadilha de taxas estimada:</h3>
-        <p style="font-size: 1.1em;">Com um orçamento de ${formatCurrency(budget)} (${cardPercent}% com cartão) e ${withdrawals} levantamentos, o seu banco provavelmente cobrará:</p>
-        
-        <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
-          <div style="flex: 1; min-width: 250px; padding: 20px; background: #ffebee; border: 2px solid #c62828; border-radius: 6px;">
-            <h4 style="color: #b71c1c; margin-top: 0; font-size: 1.1em;">O seu banco atual</h4>
-            <p style="margin-bottom: 5px; font-size: 0.9em; color: #555;">Taxas de câmbio e de multibanco:</p>
-            <span style="font-size: 1.6em; font-weight: 900; color: #c62828;">${textTotalLow} até ${textTotalHigh}</span>
-            <p style="font-size: 0.85em; color: #b71c1c; margin-top: 10px; font-weight: bold;">⚠️ O dinheiro está completamente perdido!</p>
+        <h3 class="result-headline">A sua estimativa de armadilha de comissões</h3>
+        <p style="color: #555; margin: 0 0 10px 0;">
+          Com um orçamento de ${fmt(budget)} ao longo de ${duration} dias (${cardPercent}% com cartão, ${withdrawals} levantamentos):
+        </p>
+
+        <div class="result-cards">
+          <div class="result-card negative">
+            <h4>O seu banco atual</h4>
+            <div class="result-amount">${fmt(totalLow)} – ${fmt(totalHigh)}</div>
+            <p style="font-size: 0.9em; color: #8B0000; margin: 0; font-weight: 600;">Dinheiro perdido em comissões</p>
           </div>
-          
-          <div style="flex: 1; min-width: 250px; padding: 20px; background: #f1f8e9; border: 2px solid #2e7d32; border-radius: 6px;">
-            <h4 style="color: #2e7d32; margin-top: 0; font-size: 1.1em;">Com cartão de viagem</h4>
-            <p style="margin-bottom: 5px; font-size: 0.9em; color: #555;">Pagar e levantar gratuitamente em todo o mundo:</p>
-            <span style="font-size: 1.8em; font-weight: 900; color: #2e7d32;">0,00 €</span>
-            <p style="font-size: 0.85em; color: #2e7d32; margin-top: 10px; font-weight: bold;">✅ Poupa até ${textTotalHigh}!</p>
+          <div class="result-card positive">
+            <h4>Com cartão de viagem</h4>
+            <div class="result-amount">0,00 €</div>
+            <p style="font-size: 0.9em; color: #2e7d32; margin: 0; font-weight: 600;">Poupe até ${fmt(totalHigh)}</p>
           </div>
         </div>
-        
-        <p style="margin-top: 25px; text-align: center;">
-          <button type="button" onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth', block: 'center'});" style="background: #8B0000; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">Garantir agora o cartão gratuito & poupar dinheiro</button>
+
+        <div class="result-breakdown">
+          <table>
+            <tr>
+              <td>Comissão de câmbio (pagamentos com cartão no valor de ${fmt(budgetMitKarte)})</td>
+              <td>${fmt(fxLow)} – ${fmt(fxHigh)}</td>
+            </tr>
+            <tr>
+              <td>Comissões de caixa automático (${withdrawals}× levantamentos)</td>
+              <td>${fmt(atmLow)} – ${fmt(atmHigh)}</td>
+            </tr>
+            <tr>
+              <td>Total das comissões</td>
+              <td>${fmt(totalLow)} – ${fmt(totalHigh)}</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="result-per-day">
+          <strong>Dividido pela sua viagem:</strong> Isto corresponde a cerca de <strong>${fmt(perDayLow)} a ${fmt(perDayHigh)} por dia</strong> – por um serviço que, com um cartão de viagem, obtém de forma totalmente gratuita.
+        </div>
+
+        <p style="margin-top: 30px; text-align: center;">
+          <button type="button" id="ctaScrollBtn" style="background: #8B0000; color: #fff; padding: 14px 35px; border: none; border-radius: 2px; font-size: 1em; font-weight: 600; cursor: pointer; letter-spacing: 0.03em;">Garantir cartão de viagem gratuito</button>
         </p>
       `;
 
-      // 6. UX: Sanftes scrollen zum Ergebnis
+      document.getElementById('ctaScrollBtn').addEventListener('click', function() {
+        document.getElementById('solutionBox').scrollIntoView({ behavior: 'smooth', block: 'center' });
+      });
+
       resultBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     });
   }
 
-  // Sticky CTA Logic (Blendet sich erst ein, wenn der User nach unten scrollt)
+  // Sticky CTA
   const stickyCta = document.getElementById('stickyCta');
   const mainAffiliateBtn = document.querySelector('.main-affiliate-btn');
-  
+
   if(stickyCta && mainAffiliateBtn) {
     window.addEventListener('scroll', function() {
       const btnRect = mainAffiliateBtn.getBoundingClientRect();
-      // Wenn der Haupt-Button nach oben aus dem Bild scrollt, blende Sticky Bar ein
       if (btnRect.top < 0) {
         stickyCta.classList.add('show');
       } else {

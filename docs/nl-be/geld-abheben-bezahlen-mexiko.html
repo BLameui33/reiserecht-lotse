@@ -28,7 +28,392 @@
   <link rel="icon" href="/logo-lotse-fav.png">
 
   <style>
-    /* Inhaltsverzeichnis */
+    .ui-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.1em;
+    height: 1.1em;
+    border-radius: 50%;
+    margin-right: 0.4em;
+    vertical-align: middle;
+    font-size: 0.8em;
+    line-height: 1;
+    font-family: Georgia, serif;
+  }
+  .ui-icon.warn  { background: #8B0000; color: #fff; }
+  .ui-icon.warn::before { content: "!"; font-weight: 700; }
+  .ui-icon.check { background: #2e7d32; color: #fff; }
+  .ui-icon.check::before { content: "✓"; }
+  .ui-icon.info  { background: #555; color: #fff; }
+  .ui-icon.info::before { content: "i"; font-style: italic; }
+
+  /* === Shock-Box (edler Akzent) === */
+  .shock-box {
+    background: #ffffff;
+    border-left: 3px solid #8B0000;
+    padding: 35px 40px;
+    margin: 50px 0;
+  }
+  .shock-box h2 {
+    color: #8B0000;
+    font-size: 1.4em;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+    letter-spacing: -0.01em;
+  }
+  .shock-price {
+    font-size: 1.15em;
+    font-weight: 600;
+    color: #8B0000;
+    margin: 20px 0;
+    padding-left: 15px;
+    border-left: 2px solid #e0c0c0;
+  }
+
+  /* === Rechner-Box === */
+  /* === Formular-Struktur === */
+.calc-box fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+}
+.calc-box legend {
+  color: #ffffff !important;
+}
+.form-group {
+  margin-bottom: 28px;
+}
+.form-group label {
+  display: block;
+  font-weight: 600;
+  color: #1a1a1a;
+  font-size: 1em;
+  margin-bottom: 6px;
+  letter-spacing: 0.01em;
+}
+.form-hint {
+  display: block;
+  font-size: 0.85em;
+  color: #888;
+  margin-bottom: 10px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.calc-box input[type="number"],
+.calc-box select {
+  width: 100%;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 13px 15px;
+  font-size: 1em;
+  color: #1a1a1a;
+  border-radius: 2px;
+  font-family: inherit;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.calc-box input[type="number"]:focus,
+.calc-box select:focus {
+  border-color: #8B0000;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(139, 0, 0, 0.08);
+}
+.slider-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 8px;
+}
+.slider-row input[type="range"] {
+  flex: 1;
+  accent-color: #8B0000;
+  height: 4px;
+}
+.slider-value {
+  font-weight: 700;
+  color: #8B0000;
+  font-size: 1.1em;
+  min-width: 50px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+  /* === Ergebnis-Box === */
+  .result-box {
+    margin-top: 30px;
+    padding: 40px;
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 2px;
+    box-shadow: 0 2px 20px rgba(139, 0, 0, 0.04);
+  }
+  .result-headline {
+    color: #8B0000;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+    letter-spacing: -0.01em;
+  }
+  .result-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 30px 0 25px 0;
+  }
+  @media (max-width: 640px) {
+    .result-cards { grid-template-columns: 1fr; }
+  }
+  .result-card {
+    padding: 25px;
+    border-radius: 2px;
+    border: 1px solid #eaeaea;
+  }
+  .result-card.negative {
+    border-top: 3px solid #8B0000;
+    background: #faf5f5;
+  }
+  .result-card.positive {
+    border-top: 3px solid #2e7d32;
+    background: #f5faf6;
+  }
+  .result-card h4 {
+    margin: 0 0 8px 0;
+    font-size: 0.85em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    opacity: 0.7;
+  }
+  .result-amount {
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 8px 0;
+    letter-spacing: -0.02em;
+  }
+  .result-card.negative .result-amount { color: #8B0000; }
+  .result-card.positive .result-amount { color: #2e7d32; }
+  .result-breakdown {
+    margin-top: 20px;
+    font-size: 0.92em;
+    color: #555;
+  }
+  .result-breakdown table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .result-breakdown td {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+  }
+  .result-breakdown td:last-child {
+    text-align: right;
+    font-weight: 600;
+  }
+  .result-breakdown tr:last-child td {
+    border-bottom: none;
+    font-weight: 700;
+    color: #8B0000;
+    padding-top: 12px;
+    border-top: 1px solid #e0c0c0;
+  }
+  .result-per-day {
+    margin-top: 25px;
+    padding: 15px 20px;
+    background: #fafafa;
+    border-left: 3px solid #8B0000;
+    font-size: 0.95em;
+    color: #333;
+  }
+
+  /* === Vergleichstabelle === */
+  .comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    background: #fff;
+    font-size: 0.98em;
+  }
+  .comparison-table th {
+    padding: 18px 15px;
+    text-align: left;
+    background: #fafafa;
+    border-bottom: 2px solid #8B0000;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+  .comparison-table td {
+    padding: 16px 15px;
+    border-bottom: 1px solid #f0f0f0;
+    vertical-align: top;
+  }
+  .comparison-table tr:last-child td { border-bottom: none; }
+  .comparison-table .col-service { color: #333; }
+  .comparison-table .col-bad { color: #8B0000; }
+  .comparison-table .col-good { color: #2e7d32; font-weight: 600; }
+
+  /* === Solution / Affiliate Box === */
+  .solution-box {
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    padding: 50px 40px;
+    margin: 60px 0;
+    position: relative;
+    border-radius: 2px;
+  }
+  .solution-box::before {
+    content: "Anzeige";
+    position: absolute;
+    top: -10px;
+    left: 25px;
+    background: #fff;
+    padding: 0 12px;
+    font-size: 0.7rem;
+    color: #8B0000;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .solution-box h2 {
+    color: #1a1a1a;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+    letter-spacing: -0.01em;
+  }
+  .solution-highlight {
+    font-size: 1.4em;
+    color: #8B0000;
+    font-weight: 700;
+    margin: 25px 0 10px 0;
+    letter-spacing: -0.01em;
+  }
+  .solution-usp-list {
+    list-style: none;
+    padding: 0;
+    margin: 25px 0;
+  }
+  .solution-usp-list li {
+    padding: 10px 0;
+    padding-left: 30px;
+    position: relative;
+    border-bottom: 1px solid #f5f5f5;
+  }
+  .solution-usp-list li:last-child { border-bottom: none; }
+  .solution-usp-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #8B0000;
+  }
+  .solution-usp-list li::after {
+    content: "✓";
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 0.75em;
+    font-weight: 700;
+  }
+  .main-affiliate-btn {
+    display: inline-block;
+    background: #8B0000;
+    color: #fff !important;
+    padding: 18px 45px;
+    text-decoration: none;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 1.05em;
+    letter-spacing: 0.03em;
+    transition: background 0.2s, transform 0.2s;
+    margin-top: 10px;
+  }
+  .main-affiliate-btn:hover {
+    background: #6a0000;
+    transform: translateY(-1px);
+  }
+
+  /* === Trust & Feedback === */
+  .trust-section {
+    background: #fafafa;
+    padding: 50px 40px;
+    margin: 60px 0 0 0;
+    border-top: 1px solid #eaeaea;
+    text-align: center;
+  }
+  .trust-section h3 {
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    letter-spacing: 0.02em;
+  }
+  .trust-text {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #555;
+    line-height: 1.7;
+  }
+  .trust-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #8B0000;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid #e0c0c0;
+  }
+  .feedback-note {
+    margin-top: 25px;
+    font-size: 0.9em;
+    color: #777;
+  }
+  .feedback-note a { color: #8B0000; }
+
+  /* === Eleganter Übergang zur Lösung === */
+.transition-block {
+  margin: 80px 0 50px 0;
+  padding: 0;
+  position: relative;
+}
+.transition-lead {
+  font-size: 1.55em;
+  font-weight: 600;
+  color: #1a1a1a;
+  letter-spacing: -0.015em;
+  line-height: 1.3;
+  margin: 0 0 18px 0;
+  max-width: 680px;
+}
+.transition-lead::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #8B0000;
+  margin-bottom: 22px;
+}
+.transition-body {
+  font-size: 1.1em;
+  line-height: 1.85;
+  color: #444;
+  margin: 0;
+  max-width: 720px;
+}
+.transition-body strong {
+  color: #1a1a1a;
+  font-weight: 600;
+}
+   /* Inhaltsverzeichnis */
     .toc { background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 25px 0; border: 1px solid #eee; }
     .toc p { font-weight: bold; margin-top: 0; font-size: 1.1em; color: #333; }
     .toc ul { margin-bottom: 0; padding-left: 25px; }
@@ -47,7 +432,7 @@
     .sticky-cta { position: fixed; bottom: 0; left: 0; width: 100%; background: #fff; padding: 15px; box-shadow: 0 -2px 10px rgba(0,0,0,0.1); text-align: center; z-index: 1000; transform: translateY(100%); transition: transform 0.3s ease; }
     .sticky-cta.show { transform: translateY(0); }
     .sticky-cta .button-primary { margin: 0; padding: 12px 25px; font-size: 1.1em; width: auto; display: inline-block; }
-  </style>
+</style>
 
   <script type="application/ld+json">
   {
@@ -135,107 +520,130 @@
     </ul>
   </nav>
 
-<div class="shock-box">    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Let op: dure omrekening in Mexicaanse peso (MXN)!</h2>
+<div class="shock-box">    <h2> Let op: dure omrekening in Mexicaanse peso (MXN)</h2>
     <p>In Mexico betaalt u niet in euro's. Elke keer dat u uw gewone kaart van de spaarbank, coöperatieve bank of directe bank gebruikt, rekent uw bank een zogenoemde <strong>foreign transaction fee</strong> aan (meestal 1,75% tot 2,00%).</p>
-    <div class="shock-price" style="font-size: 1.2em; font-weight: bold; color: #c62828; margin: 10px 0;">Daarnaast rekenen geldautomaten vaak een vast bedrag van 5,00 € tot 7,50 € per opname!</div>
+    <div class="shock-price">Daarnaast rekenen geldautomaten vaak een vast bedrag van 5,00 € tot 7,50 € per opname!</div>
     <p><em>Veel vakantiegangers merken deze sluipende afzetterij pas weken later op, wanneer ze thuis hun afschrift controleren en er tientallen kleine "vreemdevalutakosten" zijn afgeschreven.</em></p>
   </div>
 
-  <h2 id="rechner">Tool: Wat kost uw bank u op vakantie?</h2>
-  <p>Schat uw reisbudget in. Onze calculator bepaalt op basis van gangbare marktvoorwaarden hoeveel geld uw huidige bank u waarschijnlijk zal afnemen voor het omwisselen van valuta in Mexico.</p>
+  <h2 id="rechner">Tool: Wat kost uw bank u tijdens de vakantie?</h2>
+<p>Schat uw reisbudget in. Onze calculator berekent op basis van marktconforme voorwaarden hoeveel geld uw huidige bank u vermoedelijk afhandig zal maken voor het wisselen van valuta in Mexico.</p>
 
-  <div class="highlight-box pruefdatum-box" role="note" aria-label="Redactioneel gecontroleerd" style="margin-top: 15px; margin-bottom: 30px;">
-    <p><strong>Redactioneel gecontroleerd op:</strong> <span id="pruefdatum">20.08.2026</span></p>
-  </div>
+<div class="highlight-box pruefdatum-box" role="note" aria-label="Redactioneel gecontroleerd" style="margin-top: 15px; margin-bottom: 30px;">
+  <p><strong>Redactioneel gecontroleerd op:</strong> <span id="pruefdatum">20.08.2026</span></p>
+</div>
+
+<div class="calc-box">
+  <form id="feeCalcForm">
+    <fieldset>
+  <legend>Uw reisbudget & gedrag</legend>
   
-  <div class="calc-box">
-    <form id="feeCalcForm">
-      <fieldset style="border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
-        <legend style="font-weight: bold; padding: 0 10px; color: #f6f7f8;">Uw reisbudget & gedrag</legend>
-        
-        <label for="cBudget" style="display:block; margin-top: 10px; font-weight:bold;">Geschat budget ter plaatse (in euro):</label>
-        <p style="font-size: 0.85em; color: #666; margin-top: 2px; margin-bottom: 10px;">(Uitgaven voor eten, uitstapjes, shoppen, hotel ter plaatse)</p>
-        <input type="number" id="cBudget" value="1500" min="100" step="100" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
-
-        <div class="slider-container">
-          <label for="cCardPercent" style="display:block; font-weight:bold;">Hoeveel % van het budget betaalt u naar schatting met kaart?</label>
-          <p style="font-size: 0.85em; color: #666; margin-top: 2px; margin-bottom: 10px;">De rest wordt als contant geld uit de automaat gehaald.</p>
-          <input type="range" id="cCardPercent" min="0" max="100" value="60" step="10" style="width: 100%;" oninput="document.getElementById('cardPercentVal').innerText = this.value + '%'">
-          <div style="text-align: right; margin-top: 5px;">Kaartaandeel: <span id="cardPercentVal" class="slider-value">60%</span></div>
-        </div>
-
-        <label for="cWithdrawals" style="display:block; margin-top: 15px; font-weight:bold;">Hoe vaak zult u naar verwachting contant geld uit een automaat opnemen?</label>
-        <select id="cWithdrawals" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
-          <option value="1">1x (alleen noodgeld)</option>
-          <option value="3" selected>3x (af en toe contant geld)</option>
-          <option value="6">6x (betaal liever alles contant)</option>
-          <option value="10">10x of meer</option>
-        </select>
-
-        <label for="cBankType" style="display:block; font-weight:bold;">Bij welke bank bent u momenteel klant?</label>
-        <select id="cBankType" required style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
-          <option value="filial" selected>Traditionele filiaalbank (bijv. BNP Paribas Fortis, KBC Bank, Belfius)</option>
-          <option value="direkt">Klassieke directe bank</option>
-        </select>
-      </fieldset>
-
-      <button type="submit" class="button-primary" id="calcFeeBtn" style="background: #8B0000; color: #fff; padding: 15px 30px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer; width: 100%; margin-top: 20px;">Verborgen kosten berekenen</button>
-    </form>
-
-    <div id="feeResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #8B0000;">
-      </div>
+  <div class="form-group">
+    <label for="cBudget">Geschat budget ter plaatse (in euro)</label>
+    <span class="form-hint">Uitgaven voor eten, uitstapjes, winkelen, hotel ter plaatse</span>
+    <input type="number" id="cBudget" value="1500" min="100" step="100" required>
   </div>
 
-  <h2 id="loesung">De oplossing: een permanent gratis reiscreditcard</h2>
-  <p>U hoeft deze bankafzetterij niet te accepteren. Speciale "travel creditcards" zijn precies voor dit doel ontwikkeld: ze rekenen wereldwijd helemaal geen foreign transaction fee aan en nemen zelfs de kosten voor opnames bij vreemde geldautomaten over.</p>
-
-<div class="solution-box">
-    <span style="font-size: 0.75rem; color: #fff; background-color: rgba(0,0,0,0.15); padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; display: inline-block; margin-bottom: 12px; font-weight: bold;">
-        Advertentie / reclame-aanbeveling
-    </span>
-    
-    <h2> De slimme reis-hack: €0 kosten</h2>
-    <p>Vraag vóór uw vakantie een gratis reiscreditcard aan (bijv. Barclays, DKB, TF Bank of N26). Deze kaarten kosten <strong>€0 jaarlijkse kosten</strong> – levenslang.</p>
-    
-    <div class="solution-price">0% vreemdevalutakosten in Mexico</div>
-    <p style="font-size: 1.1em; margin-bottom: 25px;">Betaal in Mexicaanse peso (MXN) altijd tegen de echte, eerlijke Visa/Mastercard-wisselkoers.</p>
-    
-    <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" class="button-primary main-affiliate-btn">Vergelijk nu de beste reiscreditcards</a>
-    <p style="font-size: 0.85em; color: #666; margin-top: 15px;">Permanent gratis • €0 bij geldautomaten wereldwijd • geschikt voor Apple/Google Pay</p>
+  <div class="form-group">
+    <label for="cDuration">Duur van uw reis (in dagen)</label>
+    <input type="number" id="cDuration" value="10" min="1" max="365" step="1" required>
   </div>
 
-  <div id="details" class="seo-content" style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 30px;">
+  <div class="form-group">
+    <label for="cCardPercent">Aandeel van de uitgaven per kaart</label>
+    <span class="form-hint">De rest wordt als contant geld opgenomen bij de automaat.</span>
+    <div class="slider-row">
+      <input type="range" id="cCardPercent" min="0" max="100" value="60" step="10" oninput="document.getElementById('cardPercentVal').innerText = this.value + '%'">
+      <span id="cardPercentVal" class="slider-value">60%</span>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="cWithdrawals">Aantal contante opnames bij de automaat</label>
+    <select id="cWithdrawals" required>
+      <option value="1">1× (alleen noodreserve)</option>
+      <option value="3" selected>3× (af en toe contant geld)</option>
+      <option value="6">6× (betaal het liefst alles contant)</option>
+      <option value="10">10× of meer</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="cBankType">Bij welke bank bent u momenteel klant?</label>
+    <select id="cBankType" required>
+      <option value="filial" selected>Traditionele grootbank (bijv. ABN AMRO, ING, KBC)</option>
+      <option value="direkt">Klassieke online bank / challenger (bijv. Knab, ASN Bank, RegioBank)</option>
+    </select>
+  </div>
+</fieldset>
+
+    <button type="submit" class="button-primary" id="calcFeeBtn" style="background: #8B0000; color: #fff; padding: 16px 30px; border: none; border-radius: 2px; font-size: 1.05em; font-weight: 600; cursor: pointer; width: 100%; margin-top: 25px; letter-spacing: 0.03em;">Verborgen kosten berekenen</button>
+  </form>
+
+  <div id="feeResultBox" class="result-box" style="display: none;"></div>
+</div>
+
+ <div class="transition-block">
+  <p class="transition-lead">Deze kosten zijn geen onveranderlijke wetmatigheid.</p>
+  <p class="transition-body">
+    Gespecialiseerde reiskredietkaarten zijn exact voor dit doel ontwikkeld: ze rekenen wereldwijd geen commissie voor vreemde valuta en nemen in de regel zelfs de geldautomaatkosten voor hun rekening. Voor u als vakantieganger betekent dit: <strong>U betaalt in Mexico exact wat op de rekening staat – geen cent meer.</strong>
+  </p>
+</div>
+
+<div class="solution-box" id="solutionBox">
+  <h2>Permanente 0 € kosten – de reishack</h2>
+  <p>Vraag voorafgaand aan uw vakantie een gratis reiskredietkaart aan (bijv. N26, Revolut of Knab). Deze kaarten kosten <strong>0 € jaarbijdrage</strong> – levenslang en zonder verborgen voorwaarden.</p>
+
+  <div class="solution-highlight">0% koersopslag in Mexico</div>
+  <p>U betaalt in Mexico altijd tegen de echte, eerlijke Visa- of Mastercard-wisselkoers.</p>
+
+  <ul class="solution-usp-list">
+    <li>Geen commissie voor vreemde valuta – wereldwijd</li>
+    <li>0,00 € bij de geldautomaat (incl. eigen land)</li>
+    <li>Geschikt voor Apple Pay en Google Pay</li>
+    <li>Geen jaarbijdrage, permanent</li>
+  </ul>
+
+  <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow" class="main-affiliate-btn">Beste reiskredietkaarten vergelijken</a>
+  <p style="font-size: 0.85em; color: #888; margin-top: 20px;">Advertentie · Vergelijking van meerdere aanbieders · vrijblijvend</p>
+</div>
+
+ <div id="details" class="seo-content" style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 30px;">
     <h2>Waarom uw huisbank in Mexico zo duur is</h2>
-    <p>De meeste betaalrekeningen in Duitsland zijn geoptimaliseerd voor gebruik binnen de eurozone (SEPA-gebied). Zodra u dit gebied verlaat, gebruiken banken dit als een lucratieve inkomstenbron. Er zijn twee belangrijke kostenvalkuilen die u in Mexico moet kennen:</p>
+    <p>De meeste betaalrekeningen zijn geoptimaliseerd voor gebruik binnen de eurozone (SEPA-zone). Zodra u dit gebied verlaat, gebruiken banken dit als een lucratieve inkomstenbron. Er zijn twee belangrijke kostenvalkuilen die u in Mexico moet kennen:</p>
 
-    <h3>1. De foreign transaction fee (vreemdevalutakosten)</h3>
-    <p>Omdat in Mexico in Mexicaanse peso (MXN) wordt betaald, moet uw bank elke betaling (of het nu in de supermarkt, in het hotel of bij de huurauto is) omrekenen naar euro's. Voor deze interne boekingshandeling rekenen bijna alle klassieke banken een procentuele toeslag. Die ligt in de branche doorgaans tussen <strong>1,75% en 2,00%</strong>. Als u dus omgerekend 1.000 euro op vakantie met kaart uitgeeft, houdt uw bank automatisch tot 20 euro in als "verwerkingskosten".</p>
+    <h3>1. De koersopslag voor vreemde valuta (commissie bij buitenlands gebruik)</h3>
+    <p>Omdat er in Mexico in Mexicaanse peso (MXN) wordt betaald, moet uw bank elke betaling (of het nu in de supermarkt, het hotel of voor een huurauto is) omrekenen naar euro's. Voor deze interne boekingshandeling rekenen bijna alle klassieke banken een procentuele opslag. Deze ligt volgens de branchestandaard tussen <strong>1,75% en 2,00%</strong>. Als u dus tijdens uw vakantie omgerekend 1.000 euro per kaart uitgeeft, houdt uw bank automatisch tot 20 euro in als "verwerkingskosten".</p>
 
     <h3>2. Vaste kosten bij de geldautomaat</h3>
-    <p>Nog dramatischer wordt het wanneer u contant geld nodig heeft bij een automaat. Gebruikt u uw gewone betaalkaart (vroeger EC-kaart) of standaard creditcard, dan rekent uw huisbank vaak een vast bedrag per transactie aan – ongeacht hoeveel geld u opneemt. Deze kosten liggen vaak op <strong>minstens 5,00 € tot 7,50 € per opname</strong>. Wie op vakantie vaker kleine bedragen opneemt ("even snel voor een ijsje op het strand"), betaalt zich blauw aan kosten.</p>
+    <p>Nog dramatischer wordt het wanneer u contant geld nodig heeft bij de automaat. Als u uw normale betaalpas (pinpas) of standaard creditcard gebruikt, berekent uw huisbank vaak een vast bedrag per handeling – ongeacht hoeveel geld u opneemt. Deze kosten liggen vaak rond de <strong>minstens 5,00 € tot 7,50 € per opname</strong>. Wie tijdens de vakantie vaker kleine bedragen pint ("even snel voor een ijsje op het strand"), betaalt zich scheel aan kosten.</p>
 
-    <table class="comparison-table" style="width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.95em;">
-      <tr style="background: #f5f5f5;">
-        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Dienst in Mexico</th>
-        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Klassieke filiaalbank</th>
-        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Echte reiscreditcard</th>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Betaling in restaurant/hotel</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #c62828;">ca. + 1,75% tot 2,00% kosten</td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #2e7d32; font-weight: bold;">0,00 % (gratis)</td>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Geld opnemen bij de automaat</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #c62828;">ca. 5,00 € - 7,50 € per opname</td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #2e7d32; font-weight: bold;">0,00 € (gratis)</td>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Jaarlijkse kaartkosten</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Vaak 30 € tot 80 € per jaar</td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #2e7d32; font-weight: bold;">Permanent 0 €</td>
-      </tr>
-    </table>
+    <table class="comparison-table">
+  <thead>
+    <tr>
+      <th class="col-service">Dienst in Mexico</th>
+      <th>Klassieke grootbank</th>
+      <th>Echte reiskredietkaart</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="col-service"><strong>Betaling in restaurant of hotel</strong></td>
+      <td class="col-bad">ca. 1,75% tot 2,00% kosten</td>
+      <td class="col-good">0,00%</td>
+    </tr>
+    <tr>
+      <td class="col-service"><strong>Geld opnemen bij de automaat</strong></td>
+      <td class="col-bad">ca. 5,00 € tot 7,50 € per opname</td>
+      <td class="col-good">0,00%</td>
+    </tr>
+    <tr>
+      <td class="col-service"><strong>Jaarbijdrage van de kaart</strong></td>
+      <td class="col-bad">vaak 30 € tot 80 €</td>
+      <td class="col-good">permanent 0 €</td>
+    </tr>
+  </tbody>
+</table>
 
     <h3 style="margin-top: 30px;">De absolute toeristenval: DCC (Dynamic Currency Conversion)</h3>
     <p>Een truc die u in Mexico absoluut moet kennen: wanneer u met een kaart betaalt of geld opneemt, vraagt het kaartleestoestel of de automaat vaak of u in de lokale valuta (Mexicaanse peso (MXN)) of in <strong>euro (EUR)</strong> wilt afrekenen. <br><br>
@@ -260,11 +668,11 @@
   <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
     <h3>Informatie over andere reislanden:</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="geld-abheben-bezahlen-chile.html">Chili</a>
-<a href="geld-abheben-bezahlen-saudi-arabien.html">Saoedi-Arabië</a>
-<a href="geld-abheben-bezahlen-tansania.html">Tanzania</a>
-<a href="geld-abheben-bezahlen-grossbritannien.html">Groot-Brittannië</a>
-<a href="geld-abheben-bezahlen-albanien.html">Albanië</a>
+      <a href="geld-abheben-bezahlen-saudi-arabien.html">Saoedi-Arabië</a>
+<a href="geld-abheben-bezahlen-costa-rica.html">Costa Rica</a>
+<a href="geld-abheben-bezahlen-singapur.html">Singapore</a>
+<a href="geld-abheben-bezahlen-malaysia.html">Maleisië</a>
+<a href="geld-abheben-bezahlen-malediven.html">Maldiven</a>
 
     </div>
   </div>
@@ -365,93 +773,101 @@ document.addEventListener('DOMContentLoaded', function() {
   const resultBox = document.getElementById('feeResultBox');
 
   if(form) {
-    // Gewijzigd: reageert op 'submit', zodat de HTML5 verplichte velden (required, min) werken
     form.addEventListener('submit', function(e) {
-      e.preventDefault(); // Voorkomt het herladen van de pagina
+      e.preventDefault();
 
-      // 1. Waarden uit het formulier
-      const budget = parseFloat(document.getElementById('cBudget').value) || 0;
+      const budget      = parseFloat(document.getElementById('cBudget').value) || 0;
+      const duration    = parseInt(document.getElementById('cDuration').value) || 1;
       const cardPercent = parseFloat(document.getElementById('cCardPercent').value) || 0;
       const withdrawals = parseInt(document.getElementById('cWithdrawals').value) || 0;
-      const bankType = document.getElementById('cBankType').value;
+      const bankType    = document.getElementById('cBankType').value;
 
-      // Nieuwe functie: aandeel berekenen waarop überhaupt vreemdevalutakosten van toepassing zijn
       const budgetMitKarte = budget * (cardPercent / 100);
+      const budgetBar      = budget * ((100 - cardPercent) / 100);
 
-      // 2. Schatwaarden voor de berekening (range van/tot)
-      let feePercentLow = 0;
-      let feePercentHigh = 0;
-      let atmFeeLow = 0;
-      let atmFeeHigh = 0;
-
+      let feePercentLow, feePercentHigh, atmFeeLow, atmFeeHigh;
       if (bankType === 'filial') {
-        feePercentLow = 0.0175; // 1,75%
-        feePercentHigh = 0.0200; // 2,00%
-        atmFeeLow = 5.00;
-        atmFeeHigh = 7.50;
+        feePercentLow = 0.0175; feePercentHigh = 0.0200;
+        atmFeeLow = 5.00;       atmFeeHigh = 7.50;
       } else {
-        feePercentLow = 0.0175; 
-        feePercentHigh = 0.0199; 
-        atmFeeLow = 4.90;
-        atmFeeHigh = 6.00;
+        feePercentLow = 0.0175; feePercentHigh = 0.0199;
+        atmFeeLow = 4.90;       atmFeeHigh = 6.00;
       }
 
-      // 3. Berekening (percentage geldt nu alleen nog voor het kaartgedeelte)
-      const costPercentLow = budgetMitKarte * feePercentLow;
-      const costPercentHigh = budgetMitKarte * feePercentHigh;
-      
-      const costAtmLow = withdrawals * atmFeeLow;
-      const costAtmHigh = withdrawals * atmFeeHigh;
+      const fxLow  = budgetMitKarte * feePercentLow;
+      const fxHigh = budgetMitKarte * feePercentHigh;
+      const atmLow  = withdrawals * atmFeeLow;
+      const atmHigh = withdrawals * atmFeeHigh;
 
-      const totalLow = costPercentLow + costAtmLow;
-      const totalHigh = costPercentHigh + costAtmHigh;
+      const totalLow  = fxLow  + atmLow;
+      const totalHigh = fxHigh + atmHigh;
 
-      // 4. Opmaak
-      const formatCurrency = (val) => val.toLocaleString('de-DE', { style: 'currency', currency: 'EUR' });
-      
-      const textTotalLow = formatCurrency(totalLow);
-      const textTotalHigh = formatCurrency(totalHigh);
+      const perDayLow  = totalLow  / duration;
+      const perDayHigh = totalHigh / duration;
 
-      // 5. Uitvoer
+      const fmt = (v) => v.toLocaleString('nl-NL', { style: 'currency', currency: 'EUR' });
+
       resultBox.style.display = 'block';
       resultBox.innerHTML = `
-        <h3 style="color: #c62828; margin-top: 0; font-size: 1.4em;">Uw geschatte kostenvalkuil:</h3>
-        <p style="font-size: 1.1em;">Bij een budget van ${formatCurrency(budget)} (${cardPercent}% kaart) en ${withdrawals} opnames rekent uw huisbank u naar verwachting:</p>
-        
-        <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
-          <div style="flex: 1; min-width: 250px; padding: 20px; background: #ffebee; border: 2px solid #c62828; border-radius: 6px;">
-            <h4 style="color: #b71c1c; margin-top: 0; font-size: 1.1em;">Uw huidige bank</h4>
-            <p style="margin-bottom: 5px; font-size: 0.9em; color: #555;">Vreemdevaluta- & automaatkosten:</p>
-            <span style="font-size: 1.6em; font-weight: 900; color: #c62828;">${textTotalLow} tot ${textTotalHigh}</span>
-            <p style="font-size: 0.85em; color: #b71c1c; margin-top: 10px; font-weight: bold;">⚠️ Het geld is volledig verloren!</p>
+        <h3 class="result-headline">Uw geschatte kostenvalkuil</h3>
+        <p style="color: #555; margin: 0 0 10px 0;">
+          Bij een budget van ${fmt(budget)} over ${duration} dagen (${cardPercent}% per kaart, ${withdrawals} opnames):
+        </p>
+
+        <div class="result-cards">
+          <div class="result-card negative">
+            <h4>Uw huidige bank</h4>
+            <div class="result-amount">${fmt(totalLow)} – ${fmt(totalHigh)}</div>
+            <p style="font-size: 0.9em; color: #8B0000; margin: 0; font-weight: 600;">Verloren geld door kosten</p>
           </div>
-          
-          <div style="flex: 1; min-width: 250px; padding: 20px; background: #f1f8e9; border: 2px solid #2e7d32; border-radius: 6px;">
-            <h4 style="color: #2e7d32; margin-top: 0; font-size: 1.1em;">Met reiscreditcard</h4>
-            <p style="margin-bottom: 5px; font-size: 0.9em; color: #555;">Wereldwijd gratis betalen & opnemen:</p>
-            <span style="font-size: 1.8em; font-weight: 900; color: #2e7d32;">0,00 €</span>
-            <p style="font-size: 0.85em; color: #2e7d32; margin-top: 10px; font-weight: bold;">✅ U bespaart tot ${textTotalHigh}!</p>
+          <div class="result-card positive">
+            <h4>Met reiskredietkaart</h4>
+            <div class="result-amount">0,00 €</div>
+            <p style="font-size: 0.9em; color: #2e7d32; margin: 0; font-weight: 600;">U bespaart tot ${fmt(totalHigh)}</p>
           </div>
         </div>
-        
-        <p style="margin-top: 25px; text-align: center;">
-          <button type="button" onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth', block: 'center'});" style="background: #8B0000; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">Nu gratis kaart veiligstellen & geld besparen</button>
+
+        <div class="result-breakdown">
+          <table>
+            <tr>
+              <td>Koersopslag vreemde valuta (betaalpas-/kaartbetalingen t.w.v. ${fmt(budgetMitKarte)})</td>
+              <td>${fmt(fxLow)} – ${fmt(fxHigh)}</td>
+            </tr>
+            <tr>
+              <td>Geldautomaatkosten (${withdrawals}× opname)</td>
+              <td>${fmt(atmLow)} – ${fmt(atmHigh)}</td>
+            </tr>
+            <tr>
+              <td>Totaal aan kosten</td>
+              <td>${fmt(totalLow)} – ${fmt(totalHigh)}</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="result-per-day">
+          <strong>Omgerekend naar uw reis:</strong> Dat komt neer op ongeveer <strong>${fmt(perDayLow)} tot ${fmt(perDayHigh)} per dag</strong> – voor een dienst die u bij een reiskredietkaart volledig kosteloos krijgt.
+        </div>
+
+        <p style="margin-top: 30px; text-align: center;">
+          <button type="button" id="ctaScrollBtn" style="background: #8B0000; color: #fff; padding: 14px 35px; border: none; border-radius: 2px; font-size: 1em; font-weight: 600; cursor: pointer; letter-spacing: 0.03em;">Gratis reiskredietkaart veiligstellen</button>
         </p>
       `;
 
-      // 6. UX: zacht scrollen naar het resultaat
+      document.getElementById('ctaScrollBtn').addEventListener('click', function() {
+        document.getElementById('solutionBox').scrollIntoView({ behavior: 'smooth', block: 'center' });
+      });
+
       resultBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     });
   }
 
-  // Sticky CTA Logic (wordt pas zichtbaar wanneer de gebruiker naar beneden scrolt)
+  // Sticky CTA
   const stickyCta = document.getElementById('stickyCta');
   const mainAffiliateBtn = document.querySelector('.main-affiliate-btn');
-  
+
   if(stickyCta && mainAffiliateBtn) {
     window.addEventListener('scroll', function() {
       const btnRect = mainAffiliateBtn.getBoundingClientRect();
-      // Wanneer de hoofdknop uit beeld naar boven scrolt, toon de sticky balk
       if (btnRect.top < 0) {
         stickyCta.classList.add('show');
       } else {

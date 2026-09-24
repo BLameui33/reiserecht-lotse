@@ -30,7 +30,392 @@
   <link rel="icon" href="/logo-lotse-fav.png">
 
   <style>
-    /* Table of contents */
+    .ui-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.1em;
+    height: 1.1em;
+    border-radius: 50%;
+    margin-right: 0.4em;
+    vertical-align: middle;
+    font-size: 0.8em;
+    line-height: 1;
+    font-family: Georgia, serif;
+  }
+  .ui-icon.warn  { background: #8B0000; color: #fff; }
+  .ui-icon.warn::before { content: "!"; font-weight: 700; }
+  .ui-icon.check { background: #2e7d32; color: #fff; }
+  .ui-icon.check::before { content: "✓"; }
+  .ui-icon.info  { background: #555; color: #fff; }
+  .ui-icon.info::before { content: "i"; font-style: italic; }
+
+  /* === Shock-Box (edler Akzent) === */
+  .shock-box {
+    background: #ffffff;
+    border-left: 3px solid #8B0000;
+    padding: 35px 40px;
+    margin: 50px 0;
+  }
+  .shock-box h2 {
+    color: #8B0000;
+    font-size: 1.4em;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+    letter-spacing: -0.01em;
+  }
+  .shock-price {
+    font-size: 1.15em;
+    font-weight: 600;
+    color: #8B0000;
+    margin: 20px 0;
+    padding-left: 15px;
+    border-left: 2px solid #e0c0c0;
+  }
+
+  /* === Rechner-Box === */
+  /* === Formular-Struktur === */
+.calc-box fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+}
+.calc-box legend {
+  color: #ffffff !important;
+}
+.form-group {
+  margin-bottom: 28px;
+}
+.form-group label {
+  display: block;
+  font-weight: 600;
+  color: #1a1a1a;
+  font-size: 1em;
+  margin-bottom: 6px;
+  letter-spacing: 0.01em;
+}
+.form-hint {
+  display: block;
+  font-size: 0.85em;
+  color: #888;
+  margin-bottom: 10px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.calc-box input[type="number"],
+.calc-box select {
+  width: 100%;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 13px 15px;
+  font-size: 1em;
+  color: #1a1a1a;
+  border-radius: 2px;
+  font-family: inherit;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.calc-box input[type="number"]:focus,
+.calc-box select:focus {
+  border-color: #8B0000;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(139, 0, 0, 0.08);
+}
+.slider-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 8px;
+}
+.slider-row input[type="range"] {
+  flex: 1;
+  accent-color: #8B0000;
+  height: 4px;
+}
+.slider-value {
+  font-weight: 700;
+  color: #8B0000;
+  font-size: 1.1em;
+  min-width: 50px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+  /* === Ergebnis-Box === */
+  .result-box {
+    margin-top: 30px;
+    padding: 40px;
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 2px;
+    box-shadow: 0 2px 20px rgba(139, 0, 0, 0.04);
+  }
+  .result-headline {
+    color: #8B0000;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+    letter-spacing: -0.01em;
+  }
+  .result-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 30px 0 25px 0;
+  }
+  @media (max-width: 640px) {
+    .result-cards { grid-template-columns: 1fr; }
+  }
+  .result-card {
+    padding: 25px;
+    border-radius: 2px;
+    border: 1px solid #eaeaea;
+  }
+  .result-card.negative {
+    border-top: 3px solid #8B0000;
+    background: #faf5f5;
+  }
+  .result-card.positive {
+    border-top: 3px solid #2e7d32;
+    background: #f5faf6;
+  }
+  .result-card h4 {
+    margin: 0 0 8px 0;
+    font-size: 0.85em;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    opacity: 0.7;
+  }
+  .result-amount {
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 8px 0;
+    letter-spacing: -0.02em;
+  }
+  .result-card.negative .result-amount { color: #8B0000; }
+  .result-card.positive .result-amount { color: #2e7d32; }
+  .result-breakdown {
+    margin-top: 20px;
+    font-size: 0.92em;
+    color: #555;
+  }
+  .result-breakdown table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .result-breakdown td {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+  }
+  .result-breakdown td:last-child {
+    text-align: right;
+    font-weight: 600;
+  }
+  .result-breakdown tr:last-child td {
+    border-bottom: none;
+    font-weight: 700;
+    color: #8B0000;
+    padding-top: 12px;
+    border-top: 1px solid #e0c0c0;
+  }
+  .result-per-day {
+    margin-top: 25px;
+    padding: 15px 20px;
+    background: #fafafa;
+    border-left: 3px solid #8B0000;
+    font-size: 0.95em;
+    color: #333;
+  }
+
+  /* === Vergleichstabelle === */
+  .comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    background: #fff;
+    font-size: 0.98em;
+  }
+  .comparison-table th {
+    padding: 18px 15px;
+    text-align: left;
+    background: #fafafa;
+    border-bottom: 2px solid #8B0000;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+  .comparison-table td {
+    padding: 16px 15px;
+    border-bottom: 1px solid #f0f0f0;
+    vertical-align: top;
+  }
+  .comparison-table tr:last-child td { border-bottom: none; }
+  .comparison-table .col-service { color: #333; }
+  .comparison-table .col-bad { color: #8B0000; }
+  .comparison-table .col-good { color: #2e7d32; font-weight: 600; }
+
+  /* === Solution / Affiliate Box === */
+  .solution-box {
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    padding: 50px 40px;
+    margin: 60px 0;
+    position: relative;
+    border-radius: 2px;
+  }
+  .solution-box::before {
+    content: "Anzeige";
+    position: absolute;
+    top: -10px;
+    left: 25px;
+    background: #fff;
+    padding: 0 12px;
+    font-size: 0.7rem;
+    color: #8B0000;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .solution-box h2 {
+    color: #1a1a1a;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+    letter-spacing: -0.01em;
+  }
+  .solution-highlight {
+    font-size: 1.4em;
+    color: #8B0000;
+    font-weight: 700;
+    margin: 25px 0 10px 0;
+    letter-spacing: -0.01em;
+  }
+  .solution-usp-list {
+    list-style: none;
+    padding: 0;
+    margin: 25px 0;
+  }
+  .solution-usp-list li {
+    padding: 10px 0;
+    padding-left: 30px;
+    position: relative;
+    border-bottom: 1px solid #f5f5f5;
+  }
+  .solution-usp-list li:last-child { border-bottom: none; }
+  .solution-usp-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #8B0000;
+  }
+  .solution-usp-list li::after {
+    content: "✓";
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 0.75em;
+    font-weight: 700;
+  }
+  .main-affiliate-btn {
+    display: inline-block;
+    background: #8B0000;
+    color: #fff !important;
+    padding: 18px 45px;
+    text-decoration: none;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 1.05em;
+    letter-spacing: 0.03em;
+    transition: background 0.2s, transform 0.2s;
+    margin-top: 10px;
+  }
+  .main-affiliate-btn:hover {
+    background: #6a0000;
+    transform: translateY(-1px);
+  }
+
+  /* === Trust & Feedback === */
+  .trust-section {
+    background: #fafafa;
+    padding: 50px 40px;
+    margin: 60px 0 0 0;
+    border-top: 1px solid #eaeaea;
+    text-align: center;
+  }
+  .trust-section h3 {
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    letter-spacing: 0.02em;
+  }
+  .trust-text {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #555;
+    line-height: 1.7;
+  }
+  .trust-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #8B0000;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid #e0c0c0;
+  }
+  .feedback-note {
+    margin-top: 25px;
+    font-size: 0.9em;
+    color: #777;
+  }
+  .feedback-note a { color: #8B0000; }
+
+  /* === Eleganter Übergang zur Lösung === */
+.transition-block {
+  margin: 80px 0 50px 0;
+  padding: 0;
+  position: relative;
+}
+.transition-lead {
+  font-size: 1.55em;
+  font-weight: 600;
+  color: #1a1a1a;
+  letter-spacing: -0.015em;
+  line-height: 1.3;
+  margin: 0 0 18px 0;
+  max-width: 680px;
+}
+.transition-lead::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #8B0000;
+  margin-bottom: 22px;
+}
+.transition-body {
+  font-size: 1.1em;
+  line-height: 1.85;
+  color: #444;
+  margin: 0;
+  max-width: 720px;
+}
+.transition-body strong {
+  color: #1a1a1a;
+  font-weight: 600;
+}
+   /* Inhaltsverzeichnis */
     .toc { background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 25px 0; border: 1px solid #eee; }
     .toc p { font-weight: bold; margin-top: 0; font-size: 1.1em; color: #333; }
     .toc ul { margin-bottom: 0; padding-left: 25px; }
@@ -38,7 +423,7 @@
     .toc a { color: #1565c0; text-decoration: none; }
     .toc a:hover { text-decoration: underline; }
 
-    /* Calculator slider */
+    /* Rechner Slider */
     .slider-container { margin: 15px 0; }
     .slider-value { font-weight: bold; color: #8B0000; font-size: 1.1em; }
     #cCardPercent {
@@ -49,7 +434,7 @@
     .sticky-cta { position: fixed; bottom: 0; left: 0; width: 100%; background: #fff; padding: 15px; box-shadow: 0 -2px 10px rgba(0,0,0,0.1); text-align: center; z-index: 1000; transform: translateY(100%); transition: transform 0.3s ease; }
     .sticky-cta.show { transform: translateY(0); }
     .sticky-cta .button-primary { margin: 0; padding: 12px 25px; font-size: 1.1em; width: auto; display: inline-block; }
-  </style>
+</style>
 
   <script type="application/ld+json">
   {
@@ -137,107 +522,131 @@
     </ul>
   </nav>
 
-<div class="shock-box">    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Warning: expensive conversion into Costa Rican Colón (CRC)!</h2>
+<div class="shock-box">   
+  <h2>Warning: expensive conversion into Costa Rican Colón (CRC)</h2>
     <p>In Costa Rica, you do not pay in pounds. Every time you use your normal bank card, your bank may charge a so-called <strong>foreign transaction fee</strong> (usually 1.75% to 2.00%).</p>
-    <div class="shock-price" style="font-size: 1.2em; font-weight: bold; color: #c62828; margin: 10px 0;">On top of that, ATMs often charge a flat fee of £4.50 to £6.50 per withdrawal.</div>
+    <div class="shock-price">On top of that, ATMs often charge a flat fee of £4.50 to £6.50 per withdrawal.</div>
     <p><em>Many holidaymakers only notice this creeping drain on their money weeks later, when they check their bank statement at home and find dozens of small foreign currency charges.</em></p>
   </div>
 
-  <h2 id="rechner">Tool: what will your bank charge you on holiday?</h2>
-  <p>Estimate your travel budget. Based on typical market conditions, our calculator works out how much your current bank is likely to charge you for currency conversion in Costa Rica.</p>
+ <h2 id="rechner">Tool: How Much Is Your Bank Costing You on Holiday?</h2>
+<p>Estimate your travel budget. Based on standard market conditions, our calculator estimates how much money your current bank is likely charging you for currency conversion in Costa Rica.</p>
 
-  <div class="highlight-box pruefdatum-box" role="note" aria-label="Editorially checked" style="margin-top: 15px; margin-bottom: 30px;">
-    <p><strong>Editorially checked on:</strong> <span id="pruefdatum">19/08/2026</span></p>
-  </div>
+<div class="highlight-box pruefdatum-box" role="note" aria-label="Editorially verified" style="margin-top: 15px; margin-bottom: 30px;">
+  <p><strong>Editorially verified on:</strong> <span id="pruefdatum">20/08/2026</span></p>
+</div>
+
+<div class="calc-box">
+  <form id="feeCalcForm">
+    <fieldset>
+  <legend>Your Travel Budget & Habits</legend>
   
-  <div class="calc-box">
-    <form id="feeCalcForm">
-      <fieldset style="border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
-        <legend style="font-weight: bold; padding: 0 10px; color: #f6f7f8;">Your travel budget & behaviour</legend>
-        
-        <label for="cBudget" style="display:block; margin-top: 10px; font-weight:bold;">Approximate budget on the ground (in pounds):</label>
-        <p style="font-size: 0.85em; color: #666; margin-top: 2px; margin-bottom: 10px;">(Spending on food, excursions, shopping and accommodation locally)</p>
-        <input type="number" id="cBudget" value="1500" min="100" step="100" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
-
-        <div class="slider-container">
-          <label for="cCardPercent" style="display:block; font-weight:bold;">Roughly what percentage of your budget will you pay by card?</label>
-          <p style="font-size: 0.85em; color: #666; margin-top: 2px; margin-bottom: 10px;">The rest will be withdrawn as cash from an ATM.</p>
-          <input type="range" id="cCardPercent" min="0" max="100" value="60" step="10" style="width: 100%;" oninput="document.getElementById('cardPercentVal').innerText = this.value + '%'">
-          <div style="text-align: right; margin-top: 5px;">Card share: <span id="cardPercentVal" class="slider-value">60%</span></div>
-        </div>
-
-        <label for="cWithdrawals" style="display:block; margin-top: 15px; font-weight:bold;">How often are you likely to withdraw cash from an ATM?</label>
-        <select id="cWithdrawals" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
-          <option value="1">1x (emergency cash only)</option>
-          <option value="3" selected>3x (occasional cash use)</option>
-          <option value="6">6x (I prefer paying cash for everything)</option>
-          <option value="10">10x or more</option>
-        </select>
-
-        <label for="cBankType" style="display:block; font-weight:bold;">Who do you currently bank with?</label>
-        <select id="cBankType" required style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
-          <option value="filial" selected>Traditional high street bank</option>
-          <option value="direkt">Online/direct bank</option>
-        </select>
-      </fieldset>
-
-      <button type="submit" class="button-primary" id="calcFeeBtn" style="background: #8B0000; color: #fff; padding: 15px 30px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer; width: 100%; margin-top: 20px;">Calculate hidden charges</button>
-    </form>
-
-    <div id="feeResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #8B0000;">
-      </div>
+  <div class="form-group">
+    <label for="cBudget">Approximate budget on-site (in GBP)</label>
+    <span class="form-hint">Expenses for food, excursions, shopping, local hotel</span>
+    <input type="number" id="cBudget" value="1500" min="100" step="100" required>
   </div>
 
-  <h2 id="loesung">The solution: a permanently fee-free travel credit card</h2>
-  <p>You do not have to put up with these bank charges. Specialist travel credit cards are designed for exactly this purpose: they waive foreign transaction fees worldwide and may even cover charges for withdrawals at third-party ATMs, depending on the provider’s terms.</p>
-
-<div class="solution-box">
-    <span style="font-size: 0.75rem; color: #fff; background-color: rgba(0,0,0,0.15); padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; display: inline-block; margin-bottom: 12px; font-weight: bold;">
-        Advertisement / Promotional recommendation
-    </span>
-    
-    <h2> The smart travel hack: £0 fees</h2>
-    <p>Apply for a fee-free travel credit card before your holiday (for example Barclays, DKB, TF Bank or N26). These cards often come with a <strong>£0 annual fee</strong> on a long-term basis.</p>
-    
-    <div class="solution-price">0% foreign transaction fee in Costa Rica</div>
-    <p style="font-size: 1.1em; margin-bottom: 25px;">Pay in Costa Rican Colón (CRC) using the genuine, fair Visa/Mastercard exchange rate.</p>
-    
-    <a href="#" target="_blank" rel="noopener nofollow" class="button-primary main-affiliate-btn">Compare the best travel credit cards now</a>
-    <p style="font-size: 0.85em; color: #666; margin-top: 15px;">Permanently fee-free • £0 at ATMs worldwide • Apple/Google Pay compatible</p>
+  <div class="form-group">
+    <label for="cDuration">Trip duration (in days)</label>
+    <input type="number" id="cDuration" value="10" min="1" max="365" step="1" required>
   </div>
+
+  <div class="form-group">
+    <label for="cCardPercent">Percentage of expenses paid by card</label>
+    <span class="form-hint">The rest will be withdrawn as cash from ATMs.</span>
+    <div class="slider-row">
+      <input type="range" id="cCardPercent" min="0" max="100" value="60" step="10" oninput="document.getElementById('cardPercentVal').innerText = this.value + '%'">
+      <span id="cardPercentVal" class="slider-value">60%</span>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="cWithdrawals">Number of cash withdrawals at ATMs</label>
+    <select id="cWithdrawals" required>
+      <option value="1">1× (emergencies only)</option>
+      <option value="3" selected>3× (occasional cash)</option>
+      <option value="6">6× (prefer paying cash)</option>
+      <option value="10">10× or more</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="cBankType">Which type of bank do you currently use?</label>
+    <select id="cBankType" required>
+      <option value="filial" selected>Traditional High Street bank (e.g., HSBC, Barclays, Lloyds, NatWest)</option>
+      <option value="direkt">Standard online/direct bank (e.g., First Direct, Santander, Nationwide)</option>
+    </select>
+  </div>
+</fieldset>
+
+    <button type="submit" class="button-primary" id="calcFeeBtn" style="background: #8B0000; color: #fff; padding: 16px 30px; border: none; border-radius: 2px; font-size: 1.05em; font-weight: 600; cursor: pointer; width: 100%; margin-top: 25px; letter-spacing: 0.03em;">Calculate Hidden Fees</button>
+  </form>
+
+  <div id="feeResultBox" class="result-box" style="display: none;"></div>
+</div>
+
+<div class="transition-block">
+  <p class="transition-lead">These fees aren't set in stone.</p>
+  <p class="transition-body">
+    Specialized travel cards were built specifically for this purpose: they eliminate foreign transaction fees worldwide and often waive ATM fees. For you as a traveler, that means: <strong>you pay exactly what's on the bill in Costa Rica – not a penny more.</strong>
+  </p>
+</div>
+
+<div class="solution-box" id="solutionBox">
+  <h2>Zero Fees Forever – The Travel Hack</h2>
+  <p>Apply for a fee-free travel card (e.g., Barclaycard, Monzo, Starling Bank, or Revolut) before your trip. These cards feature a <strong>£0 annual fee</strong> – for life, with no hidden catches.</p>
+
+  <div class="solution-highlight">0% Foreign Transaction Fee in Costa Rica</div>
+  <p>You always pay in Costa Rican Colón (CRC) at the real, fair Visa or Mastercard exchange rate.</p>
+
+  <ul class="solution-usp-list">
+    <li>No foreign transaction fees – worldwide</li>
+    <li>£0.00 at ATMs (including in the UK)</li>
+    <li>Compatible with Apple Pay and Google Pay</li>
+    <li>No annual fee, ever</li>
+  </ul>
+
+  <a href="#" target="_blank" rel="noopener nofollow" class="main-affiliate-btn">Compare the Best Travel Credit Cards</a>
+  <p style="font-size: 0.85em; color: #888; margin-top: 20px;">Ad · Comparison of multiple providers · Non-binding</p>
+</div>
 
   <div id="details" class="seo-content" style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 30px;">
-    <h2>Why your bank is so expensive in Costa Rica</h2>
-    <p>Most current accounts are optimised for use within the UK or familiar payment areas. As soon as you travel beyond that, banks often turn it into a lucrative source of income. There are two main cost traps you need to know about in Costa Rica:</p>
+    <h2>Why Your Main Bank Is So Expensive in Costa Rica</h2>
+    <p>Most current accounts in the UK are optimized for domestic use. As soon as you travel internationally, banks use foreign transactions as a lucrative revenue stream. There are two main cost traps you need to watch out for in Costa Rica:</p>
 
-    <h3>1. The foreign transaction fee</h3>
-    <p>As payments in Costa Rica are made in Costa Rican Colón (CRC), your bank has to convert every transaction into pounds, whether in a supermarket, hotel or car hire office. For this internal processing step, almost all traditional banks add a percentage surcharge. The industry norm is around <strong>1.75% to 2.00%</strong>. So if you spend the equivalent of £1,000 by card on holiday, your bank may automatically keep up to £20 as a processing charge.</p>
+    <h3>1. The Foreign Transaction Fee</h3>
+    <p>Since transactions in Costa Rica are made in Costa Rican Colón (CRC), your bank has to convert every payment (whether at a grocery store, hotel, or rental car desk) into British Pounds. For this processing step, almost all traditional banks charge a percentage mark-up. Industry standards usually range from <strong>2.75% to 3.00%</strong> (often 2.99% for major UK High Street banks). So if you spend the equivalent of £1,000 on holiday using your card, your bank automatically keeps up to £30 as a "non-sterling transaction fee".</p>
 
-    <h3>2. Flat ATM charges</h3>
-    <p>It becomes even more expensive if you need cash from an ATM. If you use your normal debit card or a standard credit card, your bank will often charge a fixed fee per transaction, regardless of how much you withdraw. These charges are often <strong>at least £4.50 to £6.50 per withdrawal</strong>. If you keep taking out small amounts while away, the fees quickly add up.</p>
+    <h3>2. Flat Fees & Cash Surcharges at ATMs</h3>
+    <p>It gets even worse when you need cash from an ATM. If you use your regular debit card or standard credit card, your bank often charges a flat cash fee per transaction plus international withdrawal surcharges – regardless of how much cash you withdraw. These fees often range from <strong>£1.50 to £5.00 per withdrawal</strong> (or around 2%–3% of the amount withdrawn). If you make several small withdrawals on holiday ("just grabbing a quick ice cream at the beach"), you'll end up paying a fortune in extra charges.</p>
 
-    <table class="comparison-table" style="width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.95em;">
-      <tr style="background: #f5f5f5;">
-        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Service in Costa Rica</th>
-        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Traditional high street bank</th>
-        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Genuine travel credit card</th>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Payment in restaurants/hotels</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #c62828;">approx. + 1.75% to 2.00% fee</td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #2e7d32; font-weight: bold;">0.00% (free)</td>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Cash withdrawal at an ATM</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #c62828;">approx. £4.50 - £6.50 per withdrawal</td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #2e7d32; font-weight: bold;">£0.00 (free)</td>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Annual card fee</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Often £25 to £70 per year</td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #2e7d32; font-weight: bold;">Permanently £0</td>
-      </tr>
-    </table>
+    <table class="comparison-table">
+  <thead>
+    <tr>
+      <th class="col-service">Service in Costa Rica</th>
+      <th>Traditional High Street Bank</th>
+      <th>Dedicated Travel Card</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="col-service"><strong>Payment at a restaurant or hotel</strong></td>
+      <td class="col-bad">approx. 2.75% to 3.00% fee</td>
+      <td class="col-good">0.00%</td>
+    </tr>
+    <tr>
+      <td class="col-service"><strong>Withdrawing cash at an ATM</strong></td>
+      <td class="col-bad">approx. £1.50 to £5.00 per withdrawal</td>
+      <td class="col-good">£0.00</td>
+    </tr>
+    <tr>
+      <td class="col-service"><strong>Annual card fee</strong></td>
+      <td class="col-bad">often £0 to £35</td>
+      <td class="col-good">£0 forever</td>
+    </tr>
+  </tbody>
+</table>
 
     <h3 style="margin-top: 30px;">The ultimate tourist trap: DCC (Dynamic Currency Conversion)</h3>
     <p>There is one trick you absolutely need to know in Costa Rica: when you pay by card or withdraw cash, the card terminal or ATM will often ask whether you want to be charged in the local currency (Costa Rican Colón (CRC)) or in <strong>pounds sterling (GBP)</strong>. <br><br>
@@ -262,11 +671,11 @@
   <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
     <h3>Information on other travel destinations:</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="geld-abheben-bezahlen-australien.html">Australia</a>
-<a href="geld-abheben-bezahlen-brasilien.html">Brazil</a>
-<a href="geld-abheben-bezahlen-malaysia.html">Malaysia</a>
-<a href="geld-abheben-bezahlen-oman.html">Oman</a>
-<a href="geld-abheben-bezahlen-kanada.html">Canada</a>
+      <a href="geld-abheben-bezahlen-kuba.html">Cuba</a>
+<a href="geld-abheben-bezahlen-philippinen.html">Philippines</a>
+<a href="geld-abheben-bezahlen-usa.html">United States</a>
+<a href="geld-abheben-bezahlen-mexiko.html">Mexico</a>
+<a href="geld-abheben-bezahlen-kolumbien.html">Colombia</a>
 
     </div>
   </div>
@@ -367,93 +776,101 @@ document.addEventListener('DOMContentLoaded', function() {
   const resultBox = document.getElementById('feeResultBox');
 
   if(form) {
-    // Changed: responds to 'submit' so that the HTML5 required fields (required, min) are applied
     form.addEventListener('submit', function(e) {
-      e.preventDefault(); // Prevents the page from reloading
+      e.preventDefault();
 
-      // 1. Values from the form
-      const budget = parseFloat(document.getElementById('cBudget').value) || 0;
+      const budget      = parseFloat(document.getElementById('cBudget').value) || 0;
+      const duration    = parseInt(document.getElementById('cDuration').value) || 1;
       const cardPercent = parseFloat(document.getElementById('cCardPercent').value) || 0;
       const withdrawals = parseInt(document.getElementById('cWithdrawals').value) || 0;
-      const bankType = document.getElementById('cBankType').value;
+      const bankType    = document.getElementById('cBankType').value;
 
-      // New feature: calculate the share to which foreign transaction fees actually apply
       const budgetMitKarte = budget * (cardPercent / 100);
+      const budgetBar      = budget * ((100 - cardPercent) / 100);
 
-      // 2. Estimated values for the calculation (range from/to)
-      let feePercentLow = 0;
-      let feePercentHigh = 0;
-      let atmFeeLow = 0;
-      let atmFeeHigh = 0;
-
+      let feePercentLow, feePercentHigh, atmFeeLow, atmFeeHigh;
       if (bankType === 'filial') {
-        feePercentLow = 0.0175; // 1.75%
-        feePercentHigh = 0.0200; // 2.00%
-        atmFeeLow = 4.50;
-        atmFeeHigh = 6.50;
+        feePercentLow = 0.0275; feePercentHigh = 0.0299;
+        atmFeeLow = 2.00;       atmFeeHigh = 4.50;
       } else {
-        feePercentLow = 0.0175; 
-        feePercentHigh = 0.0199; 
-        atmFeeLow = 4.25;
-        atmFeeHigh = 5.50;
+        feePercentLow = 0.0150; feePercentHigh = 0.0275;
+        atmFeeLow = 1.50;       atmFeeHigh = 3.00;
       }
 
-      // 3. Calculation (the percentage now only applies to the card share)
-      const costPercentLow = budgetMitKarte * feePercentLow;
-      const costPercentHigh = budgetMitKarte * feePercentHigh;
-      
-      const costAtmLow = withdrawals * atmFeeLow;
-      const costAtmHigh = withdrawals * atmFeeHigh;
+      const fxLow  = budgetMitKarte * feePercentLow;
+      const fxHigh = budgetMitKarte * feePercentHigh;
+      const atmLow  = withdrawals * atmFeeLow;
+      const atmHigh = withdrawals * atmFeeHigh;
 
-      const totalLow = costPercentLow + costAtmLow;
-      const totalHigh = costPercentHigh + costAtmHigh;
+      const totalLow  = fxLow  + atmLow;
+      const totalHigh = fxHigh + atmHigh;
 
-      // 4. Formatting
-      const formatCurrency = (val) => val.toLocaleString('en-GB', { style: 'currency', currency: 'GBP' });
-      
-      const textTotalLow = formatCurrency(totalLow);
-      const textTotalHigh = formatCurrency(totalHigh);
+      const perDayLow  = totalLow  / duration;
+      const perDayHigh = totalHigh / duration;
 
-      // 5. Output
+      const fmt = (v) => v.toLocaleString('en-GB', { style: 'currency', currency: 'GBP' });
+
       resultBox.style.display = 'block';
       resultBox.innerHTML = `
-        <h3 style="color: #c62828; margin-top: 0; font-size: 1.4em;">Your estimated fees trap:</h3>
-        <p style="font-size: 1.1em;">With a budget of ${formatCurrency(budget)} (${cardPercent}% by card) and ${withdrawals} withdrawals, your bank is likely to charge you:</p>
-        
-        <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
-          <div style="flex: 1; min-width: 250px; padding: 20px; background: #ffebee; border: 2px solid #c62828; border-radius: 6px;">
-            <h4 style="color: #b71c1c; margin-top: 0; font-size: 1.1em;">Your current bank</h4>
-            <p style="margin-bottom: 5px; font-size: 0.9em; color: #555;">Foreign transaction & ATM charges:</p>
-            <span style="font-size: 1.6em; font-weight: 900; color: #c62828;">${textTotalLow} to ${textTotalHigh}</span>
-            <p style="font-size: 0.85em; color: #b71c1c; margin-top: 10px; font-weight: bold;">⚠️ This money is completely lost!</p>
+        <h3 class="result-headline">Your Estimated Fee Trap</h3>
+        <p style="color: #555; margin: 0 0 10px 0;">
+          For a budget of ${fmt(budget)} over ${duration} days (${cardPercent}% by card, ${withdrawals} withdrawals):
+        </p>
+
+        <div class="result-cards">
+          <div class="result-card negative">
+            <h4>Your Current Bank</h4>
+            <div class="result-amount">${fmt(totalLow)} – ${fmt(totalHigh)}</div>
+            <p style="font-size: 0.9em; color: #8B0000; margin: 0; font-weight: 600;">Money lost to fees</p>
           </div>
-          
-          <div style="flex: 1; min-width: 250px; padding: 20px; background: #f1f8e9; border: 2px solid #2e7d32; border-radius: 6px;">
-            <h4 style="color: #2e7d32; margin-top: 0; font-size: 1.1em;">With a travel credit card</h4>
-            <p style="margin-bottom: 5px; font-size: 0.9em; color: #555;">Pay and withdraw cash worldwide for free:</p>
-            <span style="font-size: 1.8em; font-weight: 900; color: #2e7d32;">£0.00</span>
-            <p style="font-size: 0.85em; color: #2e7d32; margin-top: 10px; font-weight: bold;">✅ You save up to ${textTotalHigh}!</p>
+          <div class="result-card positive">
+            <h4>With a Travel Credit Card</h4>
+            <div class="result-amount">£0.00</div>
+            <p style="font-size: 0.9em; color: #2e7d32; margin: 0; font-weight: 600;">You save up to ${fmt(totalHigh)}</p>
           </div>
         </div>
-        
-        <p style="margin-top: 25px; text-align: center;">
-          <button type="button" onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth', block: 'center'});" style="background: #8B0000; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">Get a free card now & save money</button>
+
+        <div class="result-breakdown">
+          <table>
+            <tr>
+              <td>Foreign transaction fee (card payments totaling ${fmt(budgetMitKarte)})</td>
+              <td>${fmt(fxLow)} – ${fmt(fxHigh)}</td>
+            </tr>
+            <tr>
+              <td>ATM fees (${withdrawals}× withdrawal${withdrawals > 1 ? 's' : ''})</td>
+              <td>${fmt(atmLow)} – ${fmt(atmHigh)}</td>
+            </tr>
+            <tr>
+              <td>Total fees</td>
+              <td>${fmt(totalLow)} – ${fmt(totalHigh)}</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="result-per-day">
+          <strong>Broken down by day:</strong> That amounts to around <strong>${fmt(perDayLow)} to ${fmt(perDayHigh)} per day</strong> – for a service you can get completely free with a travel card.
+        </div>
+
+        <p style="margin-top: 30px; text-align: center;">
+          <button type="button" id="ctaScrollBtn" style="background: #8B0000; color: #fff; padding: 14px 35px; border: none; border-radius: 2px; font-size: 1em; font-weight: 600; cursor: pointer; letter-spacing: 0.03em;">Get Your Free Travel Card</button>
         </p>
       `;
 
-      // 6. UX: smooth scroll to the result
+      document.getElementById('ctaScrollBtn').addEventListener('click', function() {
+        document.getElementById('solutionBox').scrollIntoView({ behavior: 'smooth', block: 'center' });
+      });
+
       resultBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     });
   }
 
-  // Sticky CTA logic (only appears once the user scrolls down)
+  // Sticky CTA
   const stickyCta = document.getElementById('stickyCta');
   const mainAffiliateBtn = document.querySelector('.main-affiliate-btn');
-  
+
   if(stickyCta && mainAffiliateBtn) {
     window.addEventListener('scroll', function() {
       const btnRect = mainAffiliateBtn.getBoundingClientRect();
-      // If the main button scrolls out of view upwards, show the sticky bar
       if (btnRect.top < 0) {
         stickyCta.classList.add('show');
       } else {
