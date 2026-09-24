@@ -6,7 +6,7 @@
   <meta name="description" content="Flug storniert oder verpasst? Fordern Sie Ihre Steuern, Flughafen- und Sicherheitsgebühren von der Airline zurück. Unser Ratgeber und Musterbrief-Generator helfen.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <!-- SEO & Internationalisierung -->
+  
   <link rel="canonical" href="https://www.fix-my-trip.com/de/steuern-info.html">
 <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/steuern-info.html">
 <link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/steuern-info.html">
@@ -19,13 +19,13 @@
 <link rel="alternate" hreflang="en-gb" href="https://www.fix-my-trip.com/en-gb/steuern-info.html">
 <link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/de/steuern-info.html">
 
-  <!-- Bibliothek für die PDF-Generierung aus HTML -->
+  
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
   
   <link rel="stylesheet" href="styles.css">
 <link rel="icon" href="/logo-lotse-fav.png">
 
-  <!-- FAQ Schema.org JSON-LD für Rich Snippets bei Google -->
+  
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -82,14 +82,14 @@
     Dieses Tool ist ein <strong>automatisierter Musterbrief-Generator</strong> (Hilfe zur Selbsthilfe). Es fügt Ihre Daten lediglich in juristische Standardvorlagen ein. Es findet <strong>keine individuelle Prüfung</strong> Ihres Falls statt. Dieser kostenlose Service ersetzt keine anwaltliche Rechtsberatung. Die Nutzung erfolgt auf eigene Verantwortung, eine Erfolgsgarantie wird nicht übernommen.
 </div>
 
-  <!-- DAS IST DER MAGISCHE BEREICH FÜR DIE INTERNE VERLINKUNG -->
+  
   <div class="router-box">
     <h2 style="margin-top: 0; color: #1565c0;">Rückforderung generieren</h2>
     <p>Wählen Sie Ihre Fluggesellschaft aus, um ein rechtssicheres Forderungsschreiben auf Erstattung Ihrer Steuern & Gebühren zu erstellen (100% kostenlos):</p>
     
     <select id="airlineSelect">
       <option value="">-- Bitte Fluggesellschaft wählen --</option>
-      <!-- Das Skript fügt hier die Airlines als Options ein -->
+      
       <option value="steuern-gebuehren-zurueckfordern-lufthansa.html">Deutsche Lufthansa AG</option>
 <option value="steuern-gebuehren-zurueckfordern-ryanair.html">Ryanair DAC</option>
 <option value="steuern-gebuehren-zurueckfordern-eurowings.html">Eurowings GmbH</option>
@@ -193,7 +193,7 @@
 <option value="steuern-gebuehren-zurueckfordern-avianca.html">Avianca</option>
 <option value="steuern-gebuehren-zurueckfordern-andere-airline.html">Andere Airline (Allgemeines Formular)</option>
 
-      <!-- Fallback für Airlines, die nicht in der Liste sind -->
+      
       <option value="steuern-gebuehren-erstattung-allgemein.html">Meine Airline ist nicht dabei (Allgemeines Formular)</option>
     </select>
     
@@ -313,7 +313,7 @@
   <p>Damit die Airline Ihre Erstattung nicht durch fiktive Gebühren oder Ausreden verzögert, sollten Sie diese Punkte beachten:</p>
   
   <div class="checklist-box" id="checklistToPrint">
-  <!-- Optional: Eine versteckte oder sichtbare Überschrift, die nur im PDF gut aussieht -->
+  
   <h3 style="margin-top:0; color:#8e231f;">Checkliste</h3>
 
     <ul>
@@ -376,7 +376,7 @@
         </span>
     </p>
 
-    <!-- Umlaut in URL entfernt! -->
+    
     <a href="ueber-uns.html" class="trust-link">
         Details zur rechtlichen Methodik & Redaktion erfahren →
     </a>
@@ -421,18 +421,18 @@ function generateChecklistPDF(filename) {
     const element = document.getElementById('checklistToPrint');
     
     const opt = {
-        margin:       15, // 15mm Rand rundherum
+        margin:       15, 
         filename:     filename,
         image:        { type: 'jpeg', quality: 0.98 },
         html2canvas:  { 
-            scale: 2, // Hohe Auflösung
-            scrollY: 0, // WICHTIG: Fixt das Problem mit der leeren Seite!
-            windowWidth: document.documentElement.offsetWidth // Stellt sicher, dass die Breite stimmt
+            scale: 2, 
+            scrollY: 0, 
+            windowWidth: document.documentElement.offsetWidth 
         },
         jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
     };
 
-    // PDF generieren
+    
     html2pdf().set(opt).from(element).save();
 }
 </script>

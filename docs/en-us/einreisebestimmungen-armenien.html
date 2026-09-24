@@ -101,7 +101,7 @@
     ]
   }
   </script>
-  <style>/* Container für die Affiliate-Box */
+  <style>
 .cta-affiliate-box {
   border: 2px solid #babbbc;
   background: linear-gradient(to bottom right, #f1f3f5, #f1f3f5);
@@ -146,7 +146,7 @@
   background-color: #b71c1c;
   transform: translateY(-2px);
 }
-/* === ELEGANTE ERGEBNIS-BOX === */
+
 .result-box {
     margin-top: 30px;
     padding: 0;
@@ -166,7 +166,7 @@
     border: 1px solid #fecaca;
 }
 
-/* Header der Ergebnis-Box */
+
 .result-header {
     padding: 30px 35px 25px 35px;
     display: flex;
@@ -239,7 +239,7 @@
     font-weight: 600;
 }
 
-/* Handlungsempfehlung-Box (nur bei Fehler) */
+
 .action-box {
     background: #fef2f2;
     border: 1px solid #fecaca;
@@ -269,7 +269,7 @@
     font-weight: 600;
 }
 
-/* Warnbox (für Dokumenten-Typ) */
+
 .warning-box {
     background: #fffbeb;
     border: 1px solid #fde68a;
@@ -309,7 +309,7 @@
     font-weight: 600;
 }
 
-/* === ELEGANTE TIMELINE === */
+
 .pass-timeline-container {
     position: relative;
     background: #f8fafc;
@@ -395,7 +395,7 @@
     border-radius: 4px; 
 }
 
-/* Profi-Tipp Box */
+
 .pro-tip {
     background: #f8fafc;
     border-left: 3px solid #b71c1c;
@@ -410,10 +410,10 @@
     color: #1e293b;
     font-weight: 600;
 }
-/* === RESPONSIVE DESIGN FÜR MOBIL === */
+
 @media (max-width: 768px) {
     
-    /* Ergebnis-Box kompakter */
+    
     .result-header {
         padding: 20px 20px 15px 20px;
         gap: 15px;
@@ -442,7 +442,7 @@
         font-size: 0.9rem;
     }
     
-    /* Warnbox kompakter */
+    
     .warning-box {
         padding: 12px 15px;
         margin: 15px 20px 0 20px;
@@ -464,7 +464,7 @@
         line-height: 1.5;
     }
     
-    /* Timeline mobil-optimiert */
+    
     .pass-timeline-container {
         padding: 30px 15px 15px 15px;
         margin: 20px 20px 0 20px;
@@ -496,14 +496,14 @@
         height: 6px;
     }
     
-    /* Profi-Tipp kompakter */
+    
     .pro-tip {
         padding: 12px 15px;
         margin: 20px 20px 20px 20px;
         font-size: 0.85rem;
     }
     
-    /* Action-Box kompakter */
+    
     .action-box {
         padding: 15px 18px;
         margin-top: 20px;
@@ -518,7 +518,7 @@
         font-size: 0.9rem;
     }
     
-    /* ICS Button mobil */
+    
     .btn-ics {
         padding: 10px 15px;
         font-size: 0.85rem;
@@ -528,7 +528,7 @@
     }
 }
 
-/* Extra kleine Screens (iPhone SE etc.) */
+
 @media (max-width: 375px) {
     .result-header {
         padding: 15px 15px 12px 15px;
@@ -616,7 +616,7 @@
   <h2>Visa Information for Armenia</h2>
   <p>U.S. citizens can enter Armenia visa-free for tourism. No visa is generally required for a tourist stay. Your passport should be valid for at least 6 months at entry and have sufficient blank pages. Please note that entry requirements can change on short notice, and different rules may apply for longer stays, work, or other travel purposes.</p>
 
-  <!-- OPTIMIERTE AFFILIATE PLATZIERUNG -->
+  
   <div class="cta-affiliate-box">
     <span class="text-hinweis-grau">Advertisement / Recommended Option</span>
     Tip for your trip to Armenia: With the right credit card you can often save money on the road — for example on cash withdrawal fees and when paying in foreign currency. Compare cards now for trips that offer fee-free purchases worldwide and good conditions abroad: <strong><a href='#'></a></strong>.
@@ -709,11 +709,11 @@
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Other Helpful Resources:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="einreisebestimmungen-anderes-land-allgemein.html">Other Travel Destination (General Requirements)</a>
-<a href="einreisebestimmungen-tansania.html">Tanzania (Zanzibar)</a>
-<a href="einreisebestimmungen-barbados.html">Barbados</a>
-<a href="einreisebestimmungen-jordanien.html">Jordan</a>
-<a href="einreisebestimmungen-costa-rica.html">Costa Rica</a>
+    <a href="einreisebestimmungen-barbados.html">Barbados</a>
+<a href="einreisebestimmungen-chile.html">Chile</a>
+<a href="einreisebestimmungen-uganda.html">Uganda</a>
+<a href="einreisebestimmungen-laos.html">Laos</a>
+<a href="einreisebestimmungen-australien.html">Australia</a>
 
   </div>
 </div>
@@ -828,13 +828,13 @@
 </footer>
 
 <script>
-// SVG icons (instead of emojis)
+
 const ICONS = {
     success: `<svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>`,
     error: `<svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>`
 };
 
-// Helper: Generate ICS download
+
 window.downloadICS = function(deadlineISO, country) {
     const dl = new Date(deadlineISO);
     const format = (d) => d.toISOString().replace(/-|:|\.\d{3}/g, '');
@@ -858,7 +858,7 @@ window.downloadICS = function(deadlineISO, country) {
 document.getElementById('passForm').addEventListener('submit', function(e) {
     e.preventDefault();
 
-    // 1. Read input values
+    
     const arrivalDateStr = document.getElementById('arrivalDate').value;
     const returnDateStr = document.getElementById('returnDate').value;
     const expiryDateStr = document.getElementById('expiryDate').value;
@@ -877,7 +877,7 @@ document.getElementById('passForm').addEventListener('submit', function(e) {
     resultBox.classList.remove("result-success", "result-error");
     resultBox.setAttribute("aria-live", "polite");
 
-    // 2. Validations
+    
     if (arrivalDate > returnDate) {
         resultBox.classList.add("result-error");
         resultBox.innerHTML = `
@@ -915,16 +915,16 @@ document.getElementById('passForm').addEventListener('submit', function(e) {
         return;
     }
 
-    // 3. Calculate minimum required validity
+    
     let minimumRequiredDate = new Date(returnDate);
     minimumRequiredDate.setMonth(minimumRequiredDate.getMonth() + requiredMonths);
 
-    // Prevent JS month overflow (e.g., Jan 31 + 1 month)
+    
     if (minimumRequiredDate.getDate() !== returnDate.getDate()) {
         minimumRequiredDate.setDate(0); 
     }
 
-    // 4. Calculate timeline
+    
     const userLang = document.documentElement.lang || 'en';
     const start = today.getTime();
     const bufferDate = new Date(minimumRequiredDate);
@@ -953,7 +953,7 @@ document.getElementById('passForm').addEventListener('submit', function(e) {
             </div>
         </div>`;
 
-    // 5. Output result
+    
     if(expiryDate >= minimumRequiredDate) {
         resultBox.classList.add("result-success");
         resultBox.innerHTML = `

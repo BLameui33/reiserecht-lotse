@@ -101,7 +101,7 @@
     ]
   }
   </script>
-  <style>/* Container für die Affiliate-Box */
+  <style>
 .cta-affiliate-box {
   border: 2px solid #babbbc;
   background: linear-gradient(to bottom right, #f1f3f5, #f1f3f5);
@@ -146,7 +146,7 @@
   background-color: #b71c1c;
   transform: translateY(-2px);
 }
-/* === ELEGANTE ERGEBNIS-BOX === */
+
 .result-box {
     margin-top: 30px;
     padding: 0;
@@ -166,7 +166,7 @@
     border: 1px solid #fecaca;
 }
 
-/* Header der Ergebnis-Box */
+
 .result-header {
     padding: 30px 35px 25px 35px;
     display: flex;
@@ -239,7 +239,7 @@
     font-weight: 600;
 }
 
-/* Handlungsempfehlung-Box (nur bei Fehler) */
+
 .action-box {
     background: #fef2f2;
     border: 1px solid #fecaca;
@@ -269,7 +269,7 @@
     font-weight: 600;
 }
 
-/* Warnbox (für Dokumenten-Typ) */
+
 .warning-box {
     background: #fffbeb;
     border: 1px solid #fde68a;
@@ -309,7 +309,7 @@
     font-weight: 600;
 }
 
-/* === ELEGANTE TIMELINE === */
+
 .pass-timeline-container {
     position: relative;
     background: #f8fafc;
@@ -395,7 +395,7 @@
     border-radius: 4px; 
 }
 
-/* Profi-Tipp Box */
+
 .pro-tip {
     background: #f8fafc;
     border-left: 3px solid #b71c1c;
@@ -410,10 +410,10 @@
     color: #1e293b;
     font-weight: 600;
 }
-/* === RESPONSIVE DESIGN FÜR MOBIL === */
+
 @media (max-width: 768px) {
     
-    /* Ergebnis-Box kompakter */
+    
     .result-header {
         padding: 20px 20px 15px 20px;
         gap: 15px;
@@ -442,7 +442,7 @@
         font-size: 0.9rem;
     }
     
-    /* Warnbox kompakter */
+    
     .warning-box {
         padding: 12px 15px;
         margin: 15px 20px 0 20px;
@@ -464,7 +464,7 @@
         line-height: 1.5;
     }
     
-    /* Timeline mobil-optimiert */
+    
     .pass-timeline-container {
         padding: 30px 15px 15px 15px;
         margin: 20px 20px 0 20px;
@@ -496,14 +496,14 @@
         height: 6px;
     }
     
-    /* Profi-Tipp kompakter */
+    
     .pro-tip {
         padding: 12px 15px;
         margin: 20px 20px 20px 20px;
         font-size: 0.85rem;
     }
     
-    /* Action-Box kompakter */
+    
     .action-box {
         padding: 15px 18px;
         margin-top: 20px;
@@ -518,7 +518,7 @@
         font-size: 0.9rem;
     }
     
-    /* ICS Button mobil */
+    
     .btn-ics {
         padding: 10px 15px;
         font-size: 0.85rem;
@@ -528,7 +528,7 @@
     }
 }
 
-/* Extra kleine Screens (iPhone SE etc.) */
+
 @media (max-width: 375px) {
     .result-header {
         padding: 15px 15px 12px 15px;
@@ -616,7 +616,7 @@
   <h2>Visa Information for India</h2>
   <p>U.S. citizens generally need a visa for tourist entry into India. Visa-free entry or a visa on arrival is not typically available for U.S. tourists. For vacation travel, the e-visa is recommended and should be applied for online before departure. Your passport should be valid for at least six months at entry and generally have at least two blank pages for entry and exit stamps. The final decision on entry always rests with Indian border authorities, and requirements can change on short notice.</p>
 
-  <!-- OPTIMIERTE AFFILIATE PLATZIERUNG -->
+  
   <div class="cta-affiliate-box">
     <span class="text-hinweis-grau">Advertisement / Recommended Option</span>
     <strong>Travel tip for India:</strong> Anyone wanting to save smartly in India should compare travel credit cards before departure. This helps you find cards that let you pay fee-free worldwide and significantly reduce fees for cash withdrawals abroad — especially useful for trips to India. : <a href='#'>Compare travel credit cards now</a>.
@@ -709,11 +709,11 @@
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Other Helpful Resources:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="einreisebestimmungen-china.html">China</a>
+    <a href="einreisebestimmungen-philippinen.html">Philippines</a>
+<a href="einreisebestimmungen-nepal.html">Nepal</a>
+<a href="einreisebestimmungen-neuseeland.html">New Zealand</a>
+<a href="einreisebestimmungen-suedkorea.html">South Korea</a>
 <a href="einreisebestimmungen-thailand.html">Thailand</a>
-<a href="einreisebestimmungen-uk.html">United Kingdom</a>
-<a href="einreisebestimmungen-guatemala.html">Guatemala</a>
-<a href="einreisebestimmungen-bolivien.html">Bolivia</a>
 
   </div>
 </div>
@@ -828,13 +828,13 @@
 </footer>
 
 <script>
-// SVG icons (instead of emojis)
+
 const ICONS = {
     success: `<svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>`,
     error: `<svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>`
 };
 
-// Helper: Generate ICS download
+
 window.downloadICS = function(deadlineISO, country) {
     const dl = new Date(deadlineISO);
     const format = (d) => d.toISOString().replace(/-|:|\.\d{3}/g, '');
@@ -858,7 +858,7 @@ window.downloadICS = function(deadlineISO, country) {
 document.getElementById('passForm').addEventListener('submit', function(e) {
     e.preventDefault();
 
-    // 1. Read input values
+    
     const arrivalDateStr = document.getElementById('arrivalDate').value;
     const returnDateStr = document.getElementById('returnDate').value;
     const expiryDateStr = document.getElementById('expiryDate').value;
@@ -877,7 +877,7 @@ document.getElementById('passForm').addEventListener('submit', function(e) {
     resultBox.classList.remove("result-success", "result-error");
     resultBox.setAttribute("aria-live", "polite");
 
-    // 2. Validations
+    
     if (arrivalDate > returnDate) {
         resultBox.classList.add("result-error");
         resultBox.innerHTML = `
@@ -915,16 +915,16 @@ document.getElementById('passForm').addEventListener('submit', function(e) {
         return;
     }
 
-    // 3. Calculate minimum required validity
+    
     let minimumRequiredDate = new Date(returnDate);
     minimumRequiredDate.setMonth(minimumRequiredDate.getMonth() + requiredMonths);
 
-    // Prevent JS month overflow (e.g., Jan 31 + 1 month)
+    
     if (minimumRequiredDate.getDate() !== returnDate.getDate()) {
         minimumRequiredDate.setDate(0); 
     }
 
-    // 4. Calculate timeline
+    
     const userLang = document.documentElement.lang || 'en';
     const start = today.getTime();
     const bufferDate = new Date(minimumRequiredDate);
@@ -953,7 +953,7 @@ document.getElementById('passForm').addEventListener('submit', function(e) {
             </div>
         </div>`;
 
-    // 5. Output result
+    
     if(expiryDate >= minimumRequiredDate) {
         resultBox.classList.add("result-success");
         resultBox.innerHTML = `
