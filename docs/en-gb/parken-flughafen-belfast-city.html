@@ -22,6 +22,487 @@
   <link rel="icon" href="/logo-lotse-fav.png">
 
   <style>
+    /* =========================================
+   PARKEN-TOOL: DESIGN-SYSTEM
+   ========================================= */
+
+/* Shock-Box */
+.shock-box {
+  background: #fbf0f0;
+  border-left: 3px solid #8B0000;
+  padding: 35px 40px;
+  margin: 40px 0;
+}
+
+.shock-box h2 {
+  color: #8B0000;
+  margin: 0 0 15px 0;
+}
+
+.shock-box p {
+  color: #333;
+  line-height: 1.7;
+  margin: 0 0 15px 0;
+}
+
+.shock-price {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #8B0000;
+  margin: 20px 0;
+  padding: 15px 0;
+  border-top: 1px solid rgba(139, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(139, 0, 0, 0.2);
+}
+
+.shock-context {
+  font-style: italic;
+  color: #555;
+  font-size: 0.95em;
+}
+
+/* Calculator */
+.calc-box {
+  border: 1px solid #e6e6e6;
+  border-top: 3px solid #8B0000;
+  padding: 45px 50px;
+  margin: 60px 0;
+}
+
+.calc-box h2 {
+  margin: 0 0 10px 0;
+}
+
+.calc-subtitle {
+  color: #666;
+  font-size: 1.05em;
+  line-height: 1.6;
+  margin: 0 0 35px 0;
+  max-width: 700px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+  font-size: 0.92em;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 13px 15px;
+  font-size: 1em;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  background: #fcfcfc;
+  color: #1a1a1a;
+  font-family: inherit;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #8B0000;
+  background: #ffffff;
+}
+
+.button-primary,
+.button-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  width: auto;
+  padding: 14px 32px;
+  background: #8B0000;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: inherit;
+  transition: background 0.2s ease;
+}
+
+.button-primary:hover,
+.button-cta:hover {
+  background: #6d0000;
+}
+
+/* Ergebnis-Box */
+.result-box {
+  margin-top: 45px;
+  padding-top: 40px;
+  border-top: 1px solid #e6e6e6;
+  animation: fadeIn 0.4s ease-out;
+  scroll-margin-top: 100px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.result-eyebrow {
+  display: inline-block;
+  font-size: 0.72em;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #8B0000;
+  background: #fbf0f0;
+  padding: 6px 14px;
+  border-radius: 999px;
+  margin-bottom: 15px;
+}
+
+.result-header h3 {
+  margin: 0 0 8px 0;
+}
+
+.result-demand {
+  color: #555;
+  font-size: 1.05em;
+  margin: 0 0 35px 0;
+}
+
+.result-comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 35px;
+}
+
+.result-card {
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.card-header {
+  padding: 20px 28px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.card-header.option-weak {
+  background: #f7f7f7;
+}
+
+.card-header.option-strong {
+  background: #ffffff;
+  border-top: 3px solid #8B0000;
+}
+
+.card-header h4 {
+  margin: 0 0 3px 0;
+  font-size: 1.05em;
+  color: #1a1a1a;
+}
+
+.card-subtitle {
+  font-size: 0.83em;
+  color: #888;
+}
+
+.card-body {
+  padding: 28px;
+}
+
+.card-body p {
+  margin: 0 0 15px 0;
+  line-height: 1.65;
+  color: #444;
+  font-size: 0.95em;
+}
+
+.card-body p:last-child { margin-bottom: 0; }
+
+.card-intro {
+  color: #555 !important;
+}
+
+.highlight-negative,
+.highlight-positive {
+  background: #fbf0f0;
+  border-left: 3px solid #8B0000;
+  padding: 12px 16px !important;
+  color: #1a1a1a !important;
+  font-size: 1.3em !important;
+  font-weight: 600;
+}
+
+.highlight-positive {
+  background: #f7f7f7;
+}
+
+.highlight-negative strong,
+.highlight-positive strong {
+  color: #8B0000;
+}
+
+.card-note {
+  font-size: 0.86em !important;
+  color: #888 !important;
+  font-style: italic;
+  border-top: 1px solid #eeeeee;
+  padding-top: 12px;
+}
+
+/* Brücke zum Lösungsblock */
+.result-bridge {
+  margin-top: 40px;
+  padding-top: 28px;
+  border-top: 1px solid #e6e6e6;
+  text-align: center;
+}
+
+.bridge-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: none;
+  border: none;
+  padding: 0;
+  color: #8B0000;
+  font-family: inherit;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.bridge-link:hover {
+  border-bottom-color: #8B0000;
+}
+
+/* Solution-Box */
+.solution-box {
+  border: 1px solid #e6e6e6;
+  padding: 45px 50px;
+  margin: 60px 0;
+  scroll-margin-top: 100px;
+}
+
+.solution-badge {
+  display: inline-block;
+  font-size: 0.72em;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #8B0000;
+  background: #fbf0f0;
+  padding: 6px 14px;
+  border-radius: 999px;
+  margin-bottom: 20px;
+}
+
+.solution-box h2 {
+  margin: 0 0 15px 0;
+}
+
+.solution-intro {
+  color: #444;
+  font-size: 1.05em;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 0 35px 0;
+}
+
+.solution-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 50px;
+  padding: 30px 0;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 30px;
+}
+
+.price-label {
+  display: block;
+  font-size: 0.75em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #888;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.price-value {
+  display: block;
+  font-size: 2.2em;
+  font-weight: 700;
+  color: #8B0000;
+  line-height: 1.2;
+}
+
+.package-value {
+  display: block;
+  font-size: 1.15em;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.solution-benefits {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.solution-benefits li {
+  position: relative;
+  padding: 9px 0 9px 24px;
+  color: #444;
+  line-height: 1.55;
+}
+
+.solution-benefits li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  color: #8B0000;
+  font-weight: 700;
+}
+
+/* Vergleichs-Tabelle */
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px 0;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.comparison-table thead {
+  background: #f7f7f7;
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: 18px 22px;
+  text-align: left;
+  border-bottom: 1px solid #f0f0f0;
+  vertical-align: top;
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+.comparison-table th {
+  font-weight: 600;
+  color: #1a1a1a;
+  font-size: 0.85em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-bottom: 2px solid #e8e8e8;
+}
+
+.comparison-table th.option-strong {
+  color: #8B0000;
+  border-bottom: 2px solid #8B0000;
+}
+
+.comparison-table th.option-weak {
+  color: #666;
+}
+
+.comparison-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.comparison-table td:first-child {
+  font-weight: 500;
+  color: #1a1a1a;
+  background: #fafafa;
+  width: 20%;
+}
+
+.comparison-table tbody tr:hover {
+  background: #fafafa;
+}
+
+/* Mobile: Tabelle als Cards */
+@media (max-width: 760px) {
+  .comparison-table,
+  .comparison-table tbody,
+  .comparison-table tr,
+  .comparison-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .comparison-table thead {
+    display: none;
+  }
+
+  .comparison-table tbody tr {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    margin-bottom: 18px;
+    overflow: hidden;
+  }
+
+  .comparison-table td {
+    border-bottom: 1px solid #eeeeee;
+    padding: 14px 18px;
+  }
+
+  .comparison-table tbody tr td:last-child {
+    border-bottom: none;
+  }
+
+  .comparison-table td:first-child {
+    width: 100%;
+    background: #f7f7f7;
+    font-weight: 700;
+    color: #1a1a1a;
+  }
+
+  .comparison-table td:not(:first-child)::before {
+    content: attr(data-label);
+    display: block;
+    font-size: 0.72em;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #888;
+    margin-bottom: 6px;
+  }
+
+  .comparison-table td.cell-strong {
+    border-left: 3px solid #8B0000;
+  }
+
+  .comparison-table td.cell-strong::before {
+    color: #8B0000;
+  }
+}
+
+/* Mobile: Form & Grid */
+@media (max-width: 860px) {
+  .calc-box,
+  .solution-box { padding: 30px 25px; }
+  .form-grid,
+  .result-comparison,
+  .solution-grid { grid-template-columns: 1fr; gap: 20px; }
+}
+
     /* Table of contents */
     .toc { background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 25px 0; border: 1px solid #eee; }
     .toc p { font-weight: bold; margin-top: 0; font-size: 1.1em; color: #333; }
@@ -123,11 +604,16 @@
     </ul>
   </nav>
 
-<div class="shock-box">    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Warning: expensive walk-up terminal rate!</h2>
-    <p>Airport operators charge a premium for being close to the gate. If you drive into the official car parks right by the terminal without booking online in advance, you will be hit with the airport’s eye-watering standard rates.</p>
-    <div class="shock-price" style="font-size: 1.5em; font-weight: bold; color: #c62828; margin: 10px 0;">Cost: up to 280 € for 14 days!</div>
-    <p><em>For context: some people can already fly return for that price. Parking can quickly end up costing more than the actual flight ticket. And all because your car is sitting on a grey concrete space while you are away.</em></p>
+<div class="shock-box">
+  <h2>Warning: Eye-Watering Walk-Up Rates at the Terminal</h2>
+  <p>Airport operators charge a premium for the convenience of parking near the gate. If you drive into the official terminal car park without a prior online booking, you'll be hit with the airport's highest standard rates.</p>
+  <div class="shock-price">
+    Cost: Up to 280 € for 14 days
   </div>
+  <p class="shock-context">
+    <em>To put that in perspective: For that price, many travellers could book a return flight. The parking bill alone can exceed the cost of your flight – just for leaving your car sitting in a concrete yard whilst you're away.</em>
+  </p>
+</div>
 
   <h2 id="rechner">Tool: how much will parking cost on your travel dates?</h2>
   <p>Find out the estimated standard parking charges at Belfast City (George Best) Airport for the length of your trip and how much money you could save with a certified alternative parking provider.</p>
@@ -137,76 +623,97 @@
   </div>
   
   <div class="calc-box">
-    <!-- IMPORTANT: use form instead of div and listen for submit -->
-    <form id="parkingCalcForm">
-      <fieldset style="border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
-        <legend style="font-weight: bold; padding: 0 10px; color: #f6f7f8;">Your travel details</legend>
-        
-        <label for="pDays" style="display:block; margin-top: 10px; font-weight:bold;">Trip length (in days):</label>
-        <input type="number" id="pDays" value="14" min="1" max="90" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+  <h2>Parking Cost Calculator</h2>
+  <p class="calc-subtitle">Find out in seconds how much you'll actually pay to park at Belfast City (George Best) Airport and how much you can save with a certified off-site car park.</p>
+  
+  <form id="parkingCalcForm">
+    <div class="form-grid">
+      <div class="form-group">
+        <label for="pDays">Trip Duration (Days)</label>
+        <input type="number" id="pDays" value="14" min="1" max="90" required>
+      </div>
 
-        <label for="pType" style="display:block; font-weight:bold;">Preferred parking type:</label>
-        <select id="pType" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
-          <option value="standard" selected>Standard parking space (outdoor/covered)</option>
-          <option value="valet">Valet parking (direct vehicle handover at the terminal)</option>
+      <div class="form-group">
+        <label for="pType">Parking Type</label>
+        <select id="pType" required>
+          <option value="standard" selected>Standard (Outdoor/Covered)</option>
+          <option value="valet">Valet Parking (Meet & Greet)</option>
         </select>
-      </fieldset>
+      </div>
+    </div>
 
-      <!-- type="submit" for validation -->
-      <button type="submit" class="button-primary" id="calcParkingBtn" style="background: #8B0000; color: #fff; padding: 15px 30px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer; width: 100%; margin-top: 20px;">Calculate parking charges & savings</button>
-    </form>
+    <button type="submit" class="button-primary" id="calcParkingBtn">Calculate Costs & Savings</button>
+  </form>
 
-    <div id="parkingResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #8B0000;">
-      <!-- JS content -->
+  <div id="parkingResultBox" class="result-box" style="display: none;"></div>
+</div>
+
+  
+<div class="solution-box">
+  <span class="solution-badge">Sponsored Recommendation</span>
+  <h2>Certified Shuttle or Meet & Greet Parking</h2>
+  <p class="solution-intro">
+    Instead of handing the airport operator your hard-earned money, savvy travellers use off-site car parks just minutes from Belfast City (George Best) Airport. You park your car in a secure, CCTV-monitored site. A complimentary shuttle bus takes you straight to the terminal in minutes and collects you on your return.
+  </p>
+  
+  <div class="solution-grid">
+    <div class="solution-price-col">
+      <span class="price-label">Starting Price</span>
+      <span class="price-value">from 45 £</span>
+      <span class="price-label" style="margin-top: 20px;">Included Service</span>
+      <span class="package-value">Free Shuttle Transfer</span>
+    </div>
+    
+    <div class="solution-benefits-col">
+      <ul class="solution-benefits">
+        <li>24/7 security, CCTV coverage, and fenced premises</li>
+        <li>Free cancellation up to 24 hours before arrival</li>
+        <li>Certified providers with top customer ratings</li>
+      </ul>
     </div>
   </div>
-
-  <h2 id="loesung">The solution: certified shuttle or valet parking</h2>
-  <p>Instead of handing unnecessary money to the airport operator, savvy travellers use alternative car parks close to Belfast City (George Best) Airport. You leave your car on a secure, CCTV-monitored site. A free shuttle bus takes you directly to the terminal in just a few minutes and collects you again when you return.</p>
-
-<div class="solution-box">    <!-- NEW: Affiliate notice -->
-    <span style="font-size: 0.75rem; color: #fff; background-color: rgba(0,0,0,0.15); padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; display: inline-block; margin-bottom: 12px; font-weight: bold;">
-        Advertisement / promotional recommendation
-    </span>
-
-    <h2> The smart travel hack: park safely & cheaply</h2>
-    <p>Through verified comparison portals, you can book your monitored parking space in advance, including a free shuttle transfer or exclusive valet service. No hidden costs, no stress on departure day.</p>
-    
-    <div class="solution-price">from 45 £</div>
-    <p style="font-size: 1.1em; margin-bottom: 25px;"><strong>Certified parking spaces</strong> near Belfast City (George Best) Airport with top ratings.</p>
-    
-    <a href="https://www.purpleparking.com" target="_blank" rel="noopener nofollow" class="button-primary main-affiliate-btn">Compare cheap parking at BHD Airport</a>
-    <p style="font-size: 0.85em; color: #666; margin-top: 15px;">Free shuttle included • 24/7 monitored • Often free cancellation up to 24 hours before arrival</p>
-  </div>
+  
+  <a href="https://www.purpleparking.com" target="_blank" rel="noopener nofollow" class="button-cta">
+    Compare Parking Deals
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M5 12h14M12 5l7 7-7 7"/>
+    </svg>
+  </a>
+</div>
 
   <div id="details" class="seo-content" style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 30px;">
     <h2>Why parking directly at the terminal is a pricing trap</h2>
     <p>Airport operators shamelessly exploit passengers’ desire for convenience. The car parks directly next to the departure halls (Terminal 1 & 2) are aimed primarily at business travellers whose company covers the cost, or at people dropping off and collecting passengers. Families parking there for a two-week summer holiday often pay more than for an extra hotel room. Even the airports’ so-called “saver rates” on distant outdoor car parks are usually more expensive than offers from independent private parking operators nearby.</p>
 
-    <h3>Official terminal parking vs alternative shuttle service</h3>
-    <p>Many holidaymakers are hesitant about parking outside the airport grounds. However, a direct comparison shows that the alternatives are not only cheaper, but often even more convenient:</p>
-    <table class="comparison-table" style="width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.95em;">
-      <tr style="background: #f5f5f5;">
-        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Criterion</th>
-        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Official terminal parking</th>
-        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Certified alternative car park</th>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Cost (example: 14 days)</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #c62828; font-weight: bold;">approx. £155 – £260</td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #2e7d32; font-weight: bold;">approx. £45 – £70</td>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Carrying luggage</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Often long walks through huge multi-storey car parks and across levels to check-in.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">The shuttle bus loads your luggage at the car and drops you directly outside the correct departure hall.</td>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Security</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Publicly accessible car parks that anyone can enter without checks.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Fenced, locked sites accessible only to customers and staff.</td>
-      </tr>
-    </table>
+    <h3>Official Terminal Parking vs. Off-Site Shuttle Service</h3>
+<p>Many travellers worry about parking outside the airport grounds. But a direct comparison shows that off-site options are not only cheaper – they're often more comfortable:</p>
+
+<table class="comparison-table">
+  <thead>
+    <tr>
+      <th>Criterion</th>
+      <th class="option-weak">Official Terminal Car Park</th>
+      <th class="option-strong">Certified Off-Site Car Park</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Cost (Example: 14 Days)</strong></td>
+      <td data-label="Official Terminal Car Park">£150 – £250</td>
+      <td data-label="Certified Off-Site Car Park" class="cell-strong">£40 – £70</td>
+    </tr>
+    <tr>
+      <td><strong>Luggage Handling</strong></td>
+      <td data-label="Official Terminal Car Park">Long walks through massive multi-storey car parks and up lifts to reach check-in.</td>
+      <td data-label="Certified Off-Site Car Park" class="cell-strong">The shuttle loads your luggage at the car and drops you right in front of the correct terminal.</td>
+    </tr>
+    <tr>
+      <td><strong>Security</strong></td>
+      <td data-label="Official Terminal Car Park">Public car parks anyone can walk into without any checks.</td>
+      <td data-label="Certified Off-Site Car Park" class="cell-strong">Fenced, gated sites accessible only to customers and staff.</td>
+    </tr>
+  </tbody>
+</table>
 
     <h3 style="margin-top: 30px;">The luxury hack: valet parking at Belfast City (George Best) Airport</h3>
     <p>If you think maximum convenience is unaffordable, try a <strong>valet service</strong>. You drive your car straight to the departure hall at Belfast City (George Best) Airport. A trained and insured member of staff from the parking operator will already be waiting for you there. You get out, take your luggage and can head straight to check-in. While you are checking in, the driver takes your car to the secure off-site car park. When you return, your car will be waiting for you at the terminal, ready to drive away. The surprising part: with alternative providers, this service is often still significantly cheaper than ordinary self-parking in the official terminal car park.</p>
@@ -229,11 +736,11 @@
   <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
     <h3>Other interesting topics:</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="parken-flughafen-london-gatwick.html">London Gatwick</a>
-<a href="parken-flughafen-east-midlands.html">East Midlands</a>
-<a href="parken-flughafen-southampton.html">Southampton</a>
-<a href="parken-flughafen-leeds-bradford.html">Leeds Bradford</a>
-<a href="parken-flughafen-exeter.html">Exeter</a>
+      <a href="parken-flughafen-london-heathrow.html">London Heathrow</a>
+<a href="parken-flughafen-liverpool.html">Liverpool John Lennon</a>
+<a href="parken-flughafen-london-city.html">London City</a>
+<a href="parken-flughafen-manchester.html">Manchester</a>
+<a href="parken-flughafen-edinburgh.html">Edinburgh</a>
 
     </div>
   </div>
@@ -335,35 +842,30 @@ document.addEventListener('DOMContentLoaded', function() {
   const resultBox = document.getElementById('parkingResultBox');
 
   if(form) {
-    // Switched to 'submit' for native validation
     form.addEventListener('submit', function(e) {
       e.preventDefault();
 
-      // 1. Read values from the form
       const days = parseInt(document.getElementById('pDays').value) || 1;
       const parkingType = document.getElementById('pType').value;
 
-      // 2. Dynamic price calculation from the JSON (injected by build.js)
       let baseTerminalRate = parseFloat("10.7") || 22.00;
       let baseAlternativeRate = parseFloat("3.2") || 5.00;
 
       if (parkingType === 'valet') {
-        baseTerminalRate = parseFloat("10.7") * 1.3 || 30.00; // Valet terminal equivalent 
-        baseAlternativeRate = parseFloat("3.2") * 1.5 || 9.00;  // Alternative valet rate
+        baseTerminalRate = parseFloat("10.7") * 1.3 || 30.00;
+        baseAlternativeRate = parseFloat("3.2") * 1.5 || 9.00;
       }
 
-      // 3. Generate price range
       let totalTerminalCostLow = days * (baseTerminalRate * 0.85);
       let totalTerminalCostHigh = days * (baseTerminalRate * 1.15);
-
-      let totalAlternativeCost = (days * baseAlternativeRate) + 15; 
+      let totalAlternativeCost = (days * baseAlternativeRate) + 15;
       
       if(totalAlternativeCost < 39) totalAlternativeCost = 39;
       
       let avgTerminal = (totalTerminalCostLow + totalTerminalCostHigh) / 2;
       let savings = avgTerminal - totalAlternativeCost;
 
-      // 4. Format as currency
+      // GB-Formatierung: Währung in £
       const formatCurrency = (val) => val.toLocaleString('en-GB', { style: 'currency', currency: 'GBP' });
 
       const formattedTerminalLow = formatCurrency(totalTerminalCostLow);
@@ -371,41 +873,72 @@ document.addEventListener('DOMContentLoaded', function() {
       const formattedAlternative = formatCurrency(totalAlternativeCost);
       const formattedSavings = formatCurrency(savings);
 
-      // 5. Output result in the box and display it
       resultBox.style.display = 'block';
       resultBox.innerHTML = `
-        <h3 style="color: #c62828; margin-top: 0; font-size: 1.4em;">Your result for ${days} days of parking:</h3>
-        <p style="font-size: 1.1em;">If you simply turn up, you are likely to pay outrageous airport charges. Use the alternative instead.</p>
-        
-        <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
-          <!-- Shock box: terminal -->
-          <div style="flex: 1; min-width: 250px; padding: 20px; background: #ffebee; border: 2px solid #c62828; border-radius: 6px;">
-            <h4 style="color: #b71c1c; margin-top: 0; font-size: 1.1em;">Official terminal car park</h4>
-            <p style="margin-bottom: 10px; font-size: 0.9em; color: #555;">Walk-up rate on site (estimate):</p>
-            <span style="font-size: 1.6em; font-weight: 900; color: #c62828;">approx. ${formattedTerminalLow} to ${formattedTerminalHigh}</span>
-            <p style="font-size: 0.85em; color: #b71c1c; margin-top: 10px; font-weight: bold;">⚠️ A complete rip-off at the payment machine!</p>
-          </div>
-          
-          <!-- Solution box: alternative -->
-          <div style="flex: 1; min-width: 250px; padding: 20px; background: #f1f8e9; border: 2px solid #2e7d32; border-radius: 6px;">
-            <h4 style="color: #2e7d32; margin-top: 0; font-size: 1.1em;">Certified alternative parking</h4>
-            <p style="margin-bottom: 10px; font-size: 0.9em; color: #555;">With shuttle / valet service:</p>
-            <span style="font-size: 1.8em; font-weight: 900; color: #2e7d32;">from ${formattedAlternative}</span>
-            <p style="font-size: 0.85em; color: #2e7d32; margin-top: 10px; font-weight: bold;">✅ Your saving: approx. ${formattedSavings}!</p>
-          </div>
+        <div class="result-header">
+          <span class="result-eyebrow">Your Personal Analysis</span>
+          <h3>Parking Costs for ${days} Days at Belfast City (George Best) Airport</h3>
+          <p class="result-demand">If you drive in without a booking, you'll face eye-watering fees.</p>
         </div>
         
-        <p style="margin-top: 25px; text-align: center;">
-          <button type="button" onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth', block: 'center'});" style="background: #8B0000; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">Save over ${formatCurrency(savings - 10)} now & secure your parking space</button>
-        </p>
+        <div class="result-comparison">
+          <div class="result-card">
+            <div class="card-header option-weak">
+              <h4>Official Terminal Car Park</h4>
+              <span class="card-subtitle">Walk-up rate on site</span>
+            </div>
+            <div class="card-body">
+              <p class="card-intro">
+                Without an online booking, you always pay the highest daily rate.
+              </p>
+              <p class="highlight-negative">
+                approx. <strong>${formattedTerminalLow} to ${formattedTerminalHigh}</strong>
+              </p>
+              <p class="card-note">
+                That's pure daylight robbery at the barrier. For that amount, many travellers could book a return flight.
+              </p>
+            </div>
+          </div>
+
+          <div class="result-card">
+            <div class="card-header option-strong">
+              <h4>Certified Off-Site Car Park</h4>
+              <span class="card-subtitle">With shuttle or Meet & Greet</span>
+            </div>
+            <div class="card-body">
+              <p class="card-intro">
+                A fixed price before your trip. No surprises, full cost control.
+              </p>
+              <p class="highlight-positive">
+                from <strong>${formattedAlternative}</strong>
+              </p>
+              <p class="card-note">
+                Your savings: approx. ${formattedSavings} – plus a handy shuttle service.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="result-bridge">
+          <button type="button" class="bridge-link" id="bridgeToSolution">
+            Find the right parking deal for Belfast City (George Best)
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 5v14M5 12l7 7 7-7"/>
+            </svg>
+          </button>
+        </div>
       `;
 
-      // 6. Smooth scroll to the result
-      resultBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      document.getElementById('bridgeToSolution').addEventListener('click', function() {
+        document.querySelector('.solution-box').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+
+      setTimeout(function() {
+        resultBox.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 80);
     });
   }
 
-  // Sticky CTA Logic
   const stickyCta = document.getElementById('stickyCta');
   const mainAffiliateBtn = document.querySelector('.main-affiliate-btn');
   

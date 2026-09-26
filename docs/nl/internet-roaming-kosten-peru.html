@@ -41,7 +41,7 @@
   }
   </script>
 
-  <!-- FAQ Schema voor Google Rich Snippets -->
+  
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -74,6 +74,451 @@
     ]
   }
   </script>
+
+  <style>
+
+.calc-box,
+.solution-box,
+.result-box {
+  max-width: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  text-align: left !important;
+  background: #ffffff !important;
+  color: #333333 !important;
+  box-shadow: none !important;
+}
+
+.calc-box {
+  border: 1px solid #e6e6e6;
+  border-top: 3px solid #8B0000;
+  padding: 45px 50px;
+  margin: 60px 0 !important;
+}
+
+.calc-box h2 {
+  margin: 0 0 10px 0;
+}
+
+.calc-subtitle {
+  color: #666;
+  font-size: 1.05em;
+  line-height: 1.6;
+  margin: 0 0 35px 0;
+  max-width: 700px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+  font-size: 0.92em;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 13px 15px;
+  font-size: 1em;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  background: #fcfcfc;
+  color: #1a1a1a;
+  font-family: inherit;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #8B0000;
+  background: #ffffff;
+}
+
+.button-primary,
+.button-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  width: auto;
+  padding: 14px 32px;
+  background: #8B0000;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: inherit;
+  transition: background 0.2s ease;
+}
+
+.button-primary:hover,
+.button-cta:hover {
+  background: #6d0000;
+}
+
+.result-box {
+  margin-top: 45px !important;
+  padding-top: 40px;
+  border-top: 1px solid #e6e6e6;
+  animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.result-eyebrow {
+  display: inline-block;
+  font-size: 0.72em;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #8B0000;
+  background: #fbf0f0;
+  padding: 6px 14px;
+  border-radius: 999px;
+  margin-bottom: 15px;
+}
+
+.result-header h3 {
+  margin: 0 0 8px 0;
+}
+
+.result-demand {
+  color: #555;
+  font-size: 1.05em;
+  margin: 0 0 35px 0;
+}
+
+.result-demand strong {
+  color: #8B0000;
+}
+
+.result-comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 35px;
+}
+
+.result-card {
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.card-header {
+  padding: 20px 28px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.card-header.option-weak {
+  background: #f7f7f7;
+}
+
+.card-header.option-strong {
+  background: #ffffff;
+  border-top: 3px solid #8B0000;
+}
+
+.card-header h4 {
+  margin: 0 0 3px 0;
+  font-size: 1.05em;
+  color: #1a1a1a;
+}
+
+.card-subtitle {
+  font-size: 0.83em;
+  color: #888;
+}
+
+.card-body {
+  padding: 28px;
+}
+
+.card-body p {
+  margin: 0 0 15px 0;
+  line-height: 1.65;
+  color: #444;
+  font-size: 0.95em;
+}
+
+.card-body p:last-child { margin-bottom: 0; }
+
+.highlight-negative,
+.highlight-positive {
+  background: #fbf0f0;
+  border-left: 3px solid #8B0000;
+  padding: 12px 16px !important;
+  color: #1a1a1a !important;
+}
+
+.highlight-positive {
+  background: #f7f7f7;
+}
+
+.highlight-negative strong { color: #8B0000; }
+
+.card-price {
+  font-size: 1.35em;
+  color: #1a1a1a !important;
+}
+
+.card-price strong { color: #8B0000; }
+
+.card-note {
+  font-size: 0.86em !important;
+  color: #888 !important;
+  font-style: italic;
+  border-top: 1px solid #eeeeee;
+  padding-top: 12px;
+}
+
+
+
+.result-bridge {
+  margin-top: 40px;
+  padding-top: 28px;
+  border-top: 1px solid #e6e6e6;
+  text-align: center;
+}
+
+.bridge-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: none;
+  border: none;
+  padding: 0;
+  color: #8B0000;
+  font-family: inherit;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.bridge-link:hover {
+  border-bottom-color: #8B0000;
+}
+
+.solution-box {
+  scroll-margin-top: 100px;
+}
+
+.result-solution-text strong {
+  color: #1a1a1a;
+}
+
+.result-box {
+  scroll-margin-top: 100px;
+}
+
+@media (max-width: 860px) {
+  .result-solution {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.solution-box {
+  border: 1px solid #e6e6e6;
+  padding: 45px 50px;
+  margin: 60px 0 !important;
+}
+
+.solution-badge {
+  display: inline-block;
+  font-size: 0.72em;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #8B0000;
+  background: #fbf0f0;
+  padding: 6px 14px;
+  border-radius: 999px;
+  margin-bottom: 20px;
+}
+
+.solution-box h2 {
+  margin: 0 0 15px 0;
+}
+
+.solution-intro {
+  color: #444;
+  font-size: 1.05em;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 0 35px 0;
+}
+
+.solution-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 50px;
+  padding: 30px 0;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 30px;
+}
+
+.price-label {
+  display: block;
+  font-size: 0.75em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #888;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.price-value {
+  display: block;
+  font-size: 2.2em;
+  font-weight: 700;
+  color: #8B0000;
+  line-height: 1.2;
+}
+
+.package-value {
+  display: block;
+  font-size: 1.15em;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.solution-benefits {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.solution-benefits li {
+  position: relative;
+  padding: 9px 0 9px 24px;
+  color: #444;
+  line-height: 1.55;
+}
+
+.solution-benefits li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  color: #8B0000;
+  font-weight: 700;
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: 16px 22px;
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.6;
+  font-size: 0.95em;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.comparison-table thead th {
+  background: #f7f7f7;
+  font-size: 0.8em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #555;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.comparison-table thead th.option-strong {
+  color: #8B0000;
+  border-bottom: 2px solid #8B0000;
+}
+
+.comparison-table td:first-child {
+  width: 18%;
+  color: #1a1a1a;
+}
+
+
+@media (max-width: 860px) {
+  .calc-box,
+  .solution-box { padding: 30px 25px; }
+  .form-grid,
+  .result-comparison,
+  .solution-grid { grid-template-columns: 1fr; gap: 20px; }
+  .result-conclusion { flex-direction: column; align-items: flex-start; }
+}
+
+@media (max-width: 760px) {
+  .comparison-table,
+  .comparison-table tbody,
+  .comparison-table tr,
+  .comparison-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .comparison-table thead {
+    display: none;
+  }
+
+  .comparison-table tbody tr {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    margin-bottom: 18px;
+    overflow: hidden;
+  }
+
+  .comparison-table td {
+    border-bottom: 1px solid #eeeeee;
+    padding: 14px 18px;
+  }
+
+  .comparison-table tbody tr td:last-child {
+    border-bottom: none;
+  }
+
+  .comparison-table td:first-child {
+    width: 100%;
+    background: #f7f7f7;
+    font-weight: 700;
+    color: #1a1a1a;
+  }
+
+  .comparison-table td:not(:first-child)::before {
+    content: attr(data-label);
+    display: block;
+    font-size: 0.72em;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #888;
+    margin-bottom: 6px;
+  }
+
+  .comparison-table td.cell-strong {
+    border-left: 3px solid #8B0000;
+  }
+
+  .comparison-table td.cell-strong::before {
+    color: #8B0000;
+  }
+}
+  </style>
 </head>
 
 <body>
@@ -85,7 +530,7 @@
 
 <div class="page-container">
 
-  <!-- Above the Fold: Klare Problemansprache und Neugier wecken -->
+  
   <h1>Mobiel & internet in Peru: de kostenval omzeilen</h1>
   
   <div class="back-to-hub-banner">
@@ -102,13 +547,13 @@
 
   <p>U plant een onvergetelijke reis naar <strong>Peru</strong> en wilt ter plaatse ook Google Maps gebruiken voor navigatie, vakantiefoto's via WhatsApp versturen of 's avonds ontspannen surfen? Let op: wie hier onvoorbereid het vliegtuig instapt, krijgt na terugkomst vaak een nare verrassing in de vorm van een torenhoge telefoonrekening.</p>
 
-<div class="shock-box">    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Let op: geen gratis EU-roaming!</h2>
-    <p>Het handige "roam-like-at-home", dat u uit andere EU-landen kent, geldt hier niet! Als u uw normale Duitse simkaart in Peru voor internet activeert, gelden de standaardtarieven voor het buitenland van aanbieders zoals Telekom, Vodafone of o2.</p>
+<div class="shock-box">    <h2 style="color: #b71c1c; margin-top: 0;">Let op: geen gratis EU-roaming!</h2>
+    <p>Het handige "roam-like-at-home", dat u uit andere EU-landen kent, geldt hier niet! Als u uw normale Duitse simkaart in Peru voor internet activeert, gelden de standaardtarieven voor het buitenland van aanbieders zoals KPN, Odido of Vodafone.</p>
     <div class="shock-price" style="font-size: 1.5em; font-weight: bold; color: #c62828; margin: 10px 0;">Kosten: tot 1,99 € per megabyte (MB)!</div>
     <p><em>Ter illustratie: een korte video van 10 seconden die iemand u via WhatsApp stuurt, verbruikt ca. 15 MB. Alleen dat al kan u in Peru meer dan 20 euro kosten. Een korte YouTube-video? Sneller dan u denkt bent u 100 euro kwijt.</em></p>
   </div>
 
-  <!-- NEUES TOOL: Datenvolumen & Schock-Rechner -->
+  
   <h2>Tool: hoeveel datavolume heeft u nodig op vakantie?</h2>
   <p>Ontdek hoeveel gigabyte (GB) u echt nodig heeft voor uw reis en vergelijk de kosten tussen uw huidige provider en een moderne eSIM.</p>
 
@@ -117,96 +562,113 @@
   </div>
   
   <div class="calc-box">
-    <form id="dataCalcForm">
-      <fieldset>
-        <legend>Uw gebruiksgedrag</legend>
-        
-        <label>Reisduur (in dagen):</label>
-        <input type="number" id="cDays" value="14" min="1" required>
+  <h2>Roamingkosten calculator</h2>
+  <p class="calc-subtitle">Bereken binnen enkele seconden je daadwerkelijke dataverbruik voor Peru en ontdek de kostenval van je mobiele provider.</p>
 
-        <label>Google Maps & navigatie (gebruik per dag):</label>
-        <select id="cMaps" required>
-          <option value="15">Weinig (ca. 15 min)</option>
-          <option value="60" selected>Gemiddeld (ca. 1 uur)</option>
-          <option value="120">Veel (roadtrip / meer dan 2 uur)</option>
+  <form id="dataCalcForm">
+    <div class="form-grid">
+      <div class="form-group">
+        <label for="cDays">Reisduur (dagen)</label>
+        <input type="number" id="cDays" value="14" min="1" max="365" required>
+      </div>
+
+      <div class="form-group">
+        <label for="cUsage">Gebruiksprofiel</label>
+        <select id="cUsage" required>
+          <option value="light">Licht: Maps, e-mails, WhatsApp</option>
+          <option value="normal" selected>Gemiddeld: Social media, navigatie</option>
+          <option value="heavy">Intensief: Streaming, thuiswerken</option>
         </select>
+      </div>
 
-        <label>Social media & WhatsApp (scrollen door foto's/video's per dag):</label>
-        <select id="cSocial" required>
-          <option value="30">Af en toe (ca. 30 min)</option>
-          <option value="90" selected>Regelmatig (ca. 1,5 uur)</option>
-          <option value="180">Intensief (ca. 3 uur)</option>
-        </select>
-
-        <label>Videostreaming (Netflix, YouTube per dag):</label>
+      <div class="form-group">
+        <label for="cVideo">Videostreaming per dag</label>
         <select id="cVideo" required>
-          <option value="0" selected>Helemaal niet (gebruik hotel-wifi)</option>
-          <option value="60">Ca. 1 uur (bijv. 's avonds)</option>
-          <option value="120">Meer dan 2 uur</option>
+          <option value="0">Helemaal niet (alleen wifi in hotel)</option>
+          <option value="1" selected>Tot 1 uur</option>
+          <option value="2">1 tot 3 uur</option>
+          <option value="4">Meer dan 3 uur</option>
         </select>
-      </fieldset>
+      </div>
+    </div>
 
-      <button type="button" class="button-primary" id="calcDataBtn">Gigabyte & kosten berekenen</button>
-    </form>
+    <button type="button" class="button-primary" id="calcDataBtn">Analyse starten</button>
+  </form>
 
-    <!-- Ergebnisbereich für das JS -->
-    <div id="dataResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #8B0000;">
-      <!-- JS injected Content: Benötigte GB, Roaming-Kosten (>1000€) vs eSIM Kosten -->
+  <div id="dataResultBox" class="result-box" style="display: none;"></div>
+</div>
+
+<div class="solution-box">
+  <span class="solution-badge">Advertentie / Aanbeveling</span>
+  <h2>De oplossing: eSIM voor Peru</h2>
+  <p class="solution-intro">
+    In plaats van op de luchthaven te zoeken naar veel te dure winkels, installeer je vóór vertrek een digitale simkaart. Je scant simpelweg een QR-code en hebt bij landing direct bereik – terwijl je eigen mobiele nummer actief blijft voor belangrijke SMS-berichten (bijv. voor internetbankieren).
+  </p>
+
+  <div class="solution-grid">
+    <div class="solution-price-col">
+      <span class="price-label">Jouw instapprijs</span>
+      <span class="price-value">vanaf 6,00 $</span>
+      <span class="price-label" style="margin-top: 20px;">Het inbegrepen pakket</span>
+      <span class="package-value">1 GB voor 7 dagen</span>
+    </div>
+
+    <div class="solution-benefits-col">
+      <ul class="solution-benefits">
+        <li>Installatie in minder dan 3 minuten via de app</li>
+        <li>Prepaid zonder abonnement – volledige kostencontrole</li>
+        <li>Gebruik van het sterkste lokale netwerk in Peru</li>
+      </ul>
     </div>
   </div>
 
-  <!-- Die Lösung & Affiliate Einbindung -->
-  <h2>De oplossing: een digitale eSIM voor Peru</h2>
-  <p>In plaats van op de luchthaven moeizaam op zoek te gaan naar een veel te dure telefoonwinkel, daar in de rij te staan en uw paspoort te laten inscannen, downloadt u gewoon al vóór vertrek een <strong>eSIM (een digitale simkaart)</strong> op uw smartphone. U scant alleen een QR-code en heeft bij aankomst direct bereik.</p>
+  <a href="https://esim.holafly.com" target="_blank" rel="noopener nofollow" class="button-cta">
+    Bekijk tarieven & pakketten
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M5 12h14M12 5l7 7-7 7"/>
+    </svg>
+  </a>
+</div>
 
-<div class="solution-box">    <h2> De slimme reis-hack: Holafly</h2>
-    <p>Met marktleider <strong>Holafly</strong> laadt u uw datapakket als app direct op uw telefoon. De truc: uw Duitse nummer blijft op de achtergrond actief voor inkomende oproepen of sms'jes (belangrijk voor online bankieren!).</p>
-    
-    <span style="font-size: 0.75rem; color: #fff; background-color: rgba(0,0,0,0.15); padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; display: inline-block; margin-bottom: 12px; font-weight: bold;">
-        Advertentie / reclame-aanbeveling
-    </span>
-    
-    <div class="solution-price">vanaf 6,00 $</div>
-    <p style="font-size: 1.1em; margin-bottom: 25px;"><strong>Beste prijs-kwaliteitpakket:</strong> 1 GB voor 7 dagen in het sterkste lokale netwerk van Peru.</p>
-    
-    <a href="https://esim.holafly.com" target="_blank" rel="noopener nofollow" class="button-primary" style="background: #ffb300; color: #000; display: inline-block; padding: 15px 30px; text-decoration: none; border-radius: 6px; font-size: 1.2em;">Bekijk nu Holafly eSIM-tarieven</a>
-    <p style="font-size: 0.85em; color: #666; margin-top: 15px;">Installatie in 3 minuten • Prepaid (geen abonnementsval) • 100% kostencontrole</p>
-  </div>
-
-  <!-- Umfassender SEO Content Bereich -->
+  
   <div class="seo-content" style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 30px;">
-    <h2>Waarom lokaal roaming zo duur is</h2>
-    <p>Wanneer u de EU verlaat, gelden de strenge EU-roamingregels niet meer. Uw Duitse netwerkaanbieder moet zich nu "inloggen" bij de lokale mobiele netwerkexploitanten in Peru. Deze interconnectiekosten zijn voor contractklanten vaak astronomisch hoog. Ook speciale "reis-pakketten" (travel-surfpassen) die Vodafone of Telekom via sms aanbieden, zijn meestal pure oplichting: vaak krijgt u daar voor 15 tot 30 euro belachelijke 500 MB tot 1 GB voor maximaal 24 uur of een week.</p>
+    <h2>Waarom lokaal roamen zo duur is</h2>
+    <p>Zodra je buiten de EU reist, gelden de strenge EU-roamingregels niet meer. Je mobiele provider moet dan capaciteit "huren" bij de lokale netwerkexploitanten in Peru. Deze interconnectievergoedingen zijn voor abonnees vaak torenhoog. Ook speciale "reisbundels" of "voordeelpassen" die providers via SMS aanbieden, zijn meestal erg duur: vaak krijg je voor 15 tot 30 euro een schamele 500 MB tot 1 GB die slechts 24 uur of hooguit een week geldig is.</p>
 
-    <h3>Lokale plastic sim vs. eSIM</h3>
-    <p>Veel backpackers kochten vroeger op de luchthaven een lokale prepaid-simkaart van plastic. Dat heeft echter drie grote nadelen die een eSIM oplost:</p>
-    <table class="comparison-table" style="width: 100%; border-collapse: collapse; margin-top: 15px;">
-      <tr style="background: #f5f5f5;">
-        <th style="padding: 10px; border: 1px solid #ddd;">Criteria</th>
-        <th style="padding: 10px; border: 1px solid #ddd;">Lokale plastic sim</th>
-        <th style="padding: 10px; border: 1px solid #ddd;">Reis-eSIM (Holafly)</th>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;">Bereikbaarheid</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Uw Duitse sim moet eruit. U bent onder uw nummer <strong>niet</strong> bereikbaar (geen bank-sms'jes!).</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Beide kaarten (dual-sim) zijn actief. U surft lokaal, maar blijft telefonisch bereikbaar op uw Duitse nummer.</td>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;">Tijdsinvestering</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Lange zoektocht & wachttijd op de luchthaven na de lange vlucht.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Wordt al gemakkelijk in Duitsland via de app geïnstalleerd.</td>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;">Gegevensbescherming</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Identiteitsdocumenten moeten vaak in dubieuze winkels worden gekopieerd.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Geen overleg van identiteitsdocumenten ter plaatse nodig.</td>
-      </tr>
-    </table>
+    <h3>Lokale fysieke simkaart vs. eSIM</h3>
+<p>Veel reizigers kochten vroeger op de luchthaven een lokale prepaid-simkaart. Dat heeft echter grote nadelen die een eSIM eenvoudig oplost:</p>
+
+<table class="comparison-table">
+  <thead>
+    <tr>
+      <th>Criterium</th>
+      <th class="option-weak">Lokale fysieke simkaart</th>
+      <th class="option-strong">Holafly eSIM</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Bereikbaarheid</strong></td>
+      <td data-label="Lokale fysieke simkaart">Je eigen simkaart moet worden verwijderd. Je bent niet bereikbaar op je eigen nummer (geen bank-SMS!).</td>
+      <td data-label="Holafly eSIM" class="cell-strong">Beide kaarten zijn actief (Dual-SIM). Je surft lokaal en blijft telefonisch bereikbaar.</td>
+    </tr>
+    <tr>
+      <td><strong>Tijdsbesteding</strong></td>
+      <td data-label="Lokale fysieke simkaart">Lange zoektocht en wachttijden op de luchthaven na een lange vlucht.</td>
+      <td data-label="Holafly eSIM" class="cell-strong">Eenvoudige installatie al vóór vertrek via de app.</td>
+    </tr>
+    <tr>
+      <td><strong>Privacy & gegevens</strong></td>
+      <td data-label="Lokale fysieke simkaart">Identiteitsbewijzen moeten vaak in twijfelachtige winkels worden gekopieerd.</td>
+      <td data-label="Holafly eSIM" class="cell-strong">Geen kopie van identiteitsbewijs ter plaatse nodig.</td>
+    </tr>
+  </tbody>
+</table>
 
     <h3 style="margin-top: 30px;">Veiligheid op openbare wifi</h3>
     <p>Veel reizigers denken: <em>"Ik heb geen data-sim nodig, ik gebruik gewoon de gratis wifi in het hotel of bij Starbucks."</em> Dit is vanuit veiligheidsoogpunt zeer zorgwekkend. Open netwerken kunnen probleemloos door criminelen worden gemanipuleerd (man-in-the-middle-aanvallen) om uw wachtwoorden of onlinebankgegevens te onderscheppen. Met een eigen 4G/5G-dataverbinding via eSIM surft u in een gesloten, veilig netwerk en bent u bovendien niet gebonden aan de nabijheid van een café wanneer u in Peru een Uber wilt bestellen of de weg moet zoeken.</p>
     
-    <!-- FAQ Bereich -->
+    
     <h2 style="margin-top: 40px;">Veelgestelde vragen (FAQ) over eSIM in Peru</h2>
     <details style="background: #fafafa; border: 1px solid #ddd; padding: 10px 15px; margin-bottom: 10px; border-radius: 4px;">
       <summary style="font-weight: bold; cursor: pointer;">Kan ik mijn WhatsApp-nummer behouden?</summary>
@@ -224,11 +686,11 @@
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Meer interessante onderwerpen:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="internet-roaming-kosten-tunesien.html">Tunesië</a>
-<a href="internet-roaming-kosten-malaysia.html">Maleisië</a>
-<a href="internet-roaming-kosten-china.html">China</a>
-<a href="internet-roaming-kosten-singapur.html">Singapore</a>
-<a href="internet-roaming-kosten-usa.html">VS</a>
+    <a href="internet-roaming-kosten-dominikanische-republik.html">Dominicaanse Republiek</a>
+<a href="internet-roaming-kosten-aegypten.html">Egypte</a>
+<a href="internet-roaming-kosten-philippinen.html">Filipijnen</a>
+<a href="internet-roaming-kosten-bahamas.html">Bahama's</a>
+<a href="internet-roaming-kosten-indien.html">India</a>
 
   </div>
 </div>
@@ -245,7 +707,7 @@
         </span>
     </p>
 
-    <!-- Umlaut in URL entfernt! -->
+    
     <a href="ueber-uns.html" class="trust-link">
         Details over de juridische methodiek & redactie bekijken →
     </a>
@@ -326,58 +788,101 @@ document.addEventListener('DOMContentLoaded', function() {
 
   if(calcBtn) {
     calcBtn.addEventListener('click', function() {
-      // 1. Werte aus dem Formular auslesen
       const days = parseInt(document.getElementById('cDays').value) || 1;
-      const mapsMin = parseInt(document.getElementById('cMaps').value) || 0;
-      const socialMin = parseInt(document.getElementById('cSocial').value) || 0;
-      const videoMin = parseInt(document.getElementById('cVideo').value) || 0;
+      const usage = document.getElementById('cUsage').value;
+      const videoHours = parseInt(document.getElementById('cVideo').value) || 0;
 
-      // 2. Verbrauchsschätzung in MB pro Minute (Realistische Schätzwerte)
-      // Maps: ca. 1 MB/Min | Social Media: ca. 3 MB/Min | Video (SD): ca. 15 MB/Min
-      const mbPerMinMaps = 1;   
-      const mbPerMinSocial = 3; 
-      const mbPerMinVideo = 15; 
+            const usageProfiles = {
+        light: { base: 0.5, social: 0.1, maps: 0.2 },
+        normal: { base: 1.2, social: 0.3, maps: 0.3 },
+        heavy: { base: 2.5, social: 0.5, maps: 0.4 }
+      };
 
-      // 3. Berechnung des Datenvolumens
-      const dailyMB = (mapsMin * mbPerMinMaps) + (socialMin * mbPerMinSocial) + (videoMin * mbPerMinVideo);
-      const totalMB = dailyMB * days;
-      const totalGB = (totalMB / 1024).toFixed(1);
+      const profile = usageProfiles[usage];
+      const videoGB = videoHours * 1.5;
+      const dailyGB = profile.base + profile.social + profile.maps + videoGB;
+      const totalGB = (dailyGB * days).toFixed(1);
+      const totalMB = totalGB * 1024;
 
-      // 4. Roaming-Schock-Kalkulation (Angenommen: 0,99 € pro MB im Standard-Tarif Zone 2/3)
-      const roamingCostPerMB = 0.99;
-      let totalRoamingCost = totalMB * roamingCostPerMB;
-      
-      // Formatierung als Währung (z.B. 1.543,50 €)
-      const formattedRoamingCost = totalRoamingCost.toLocaleString('de-DE', { style: 'currency', currency: 'EUR' });
+            const roamingText = '1,99 €';
+      const roamingNum = parseFloat(roamingText.replace(/[^\d,\.]/g, '').replace(',', '.')) || 0.99;
+      const roamingCurrency = roamingText.match(/[\€\$\£\¥]/)?.[0] || '€';
 
-      // 5. Ergebnis in der Box ausgeben und anzeigen
+            const costCutoff = 59.90;
+      const dataForCutoffGB = ((costCutoff / roamingNum) / 1024).toFixed(2);
+      const theoreticalCost = totalMB * roamingNum;
+
+            const esimPrice = '6,00 $';
+      const esimVolume = '1 GB voor 7 dagen';
+
+      const formatNumber = (num) => num.toLocaleString('nl-NL', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+
       resultBox.style.display = 'block';
       resultBox.innerHTML = `
-        <h3 style="color: #c62828; margin-top: 0; font-size: 1.4em;">Uw resultaat voor ${days} dagen:</h3>
-        <p style="font-size: 1.1em;">U heeft naar verwachting <strong>ca. ${totalGB} GB</strong> datavolume nodig voor deze periode.</p>
-        
-        <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
-          <!-- Schock-Box: Roaming -->
-          <div style="flex: 1; min-width: 250px; padding: 20px; background: #ffebee; border: 2px solid #c62828; border-radius: 6px;">
-            <h4 style="color: #b71c1c; margin-top: 0; font-size: 1.1em;">Klassiek roaming</h4>
-            <p style="margin-bottom: 10px; font-size: 0.9em; color: #555;">Zonder speciaal pakket (ca. 0,99 € / MB):</p>
-            <span style="font-size: 1.8em; font-weight: 900; color: #c62828;">${formattedRoamingCost}</span>
-            <p style="font-size: 0.85em; color: #b71c1c; margin-top: 10px; font-weight: bold;">⚠️ Absolute kostenval!</p>
+        <div class="result-header">
+          <span class="result-eyebrow">Je persoonlijke analyse</span>
+          <h3>Dataverbruik voor ${days} dagen in Peru</h3>
+          <p class="result-demand">Je geschatte verbruik: <strong>${totalGB} GB</strong></p>
+        </div>
+
+        <div class="result-comparison">
+          <div class="result-card">
+            <div class="card-header option-weak">
+              <h4>Binnenlandse providers</h4>
+              <span class="card-subtitle">KPN, Odido, Vodafone, Proximus, Orange, Base (Zone 3/4)</span>
+            </div>
+            <div class="card-body">
+              <p class="warning-text">
+                Volgens de EU-regelgeving moeten providers dataroaming automatisch blokkeren bij ca. <strong>${formatNumber(costCutoff)} ${roamingCurrency}</strong>. 
+              </p>
+              <p class="highlight-negative">
+                Voor dit bedrag krijg je in Peru echter slechts <strong>${dataForCutoffGB} GB</strong> (bij ${roamingText}/MB). 
+              </p>
+              <p class="card-note">
+                Dat is slechts een fractie van je benodigde ${totalGB} GB. Zou je de blokkade handmatig opheffen, dan zouden de kosten oplopen tot <strong>${formatNumber(theoreticalCost)} ${roamingCurrency}</strong>.
+              </p>
+            </div>
           </div>
-          
-          <!-- Lösungs-Box: eSIM -->
-          <div style="flex: 1; min-width: 250px; padding: 20px; background: #f1f8e9; border: 2px solid #2e7d32; border-radius: 6px;">
-            <h4 style="color: #2e7d32; margin-top: 0; font-size: 1.1em;">Digitale eSIM</h4>
-            <p style="margin-bottom: 10px; font-size: 0.9em; color: #555;">Met voldoende GB-pakket:</p>
-            <span style="font-size: 1.8em; font-weight: 900; color: #2e7d32;">vanaf ca. 4,50 €</span>
-            <p style="font-size: 0.85em; color: #2e7d32; margin-top: 10px; font-weight: bold;">✅ 100% kostencontrole</p>
+
+          <div class="result-card">
+            <div class="card-header option-strong">
+              <h4>Holafly eSIM</h4>
+              <span class="card-subtitle">Digitale simkaart</span>
+            </div>
+            <div class="card-body">
+              <p class="card-intro">
+                Je betaalt vooraf een vaste prijs. Geen blokkade, geen verrassingen.
+              </p>
+              <p class="highlight-positive">
+                Pakket: <strong>${esimVolume}</strong>
+              </p>
+              <p class="card-price">
+                Vanaf <strong>${esimPrice}</strong>
+              </p>
+              <p class="card-note">
+                Volledige kostencontrole en direct te gebruiken bij landing.
+              </p>
+            </div>
           </div>
         </div>
-        
-        <p style="margin-top: 25px; text-align: center;">
-          <button onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth'});" style="background: #8B0000; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">Bekijk nu het voordelige alternatief</button>
-        </p>
+
+        <div class="result-bridge">
+          <button type="button" class="bridge-link" id="bridgeToSolution">
+            Naar het passende eSIM-pakket voor Peru
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 5v14M5 12l7 7 7-7"/>
+            </svg>
+          </button>
+        </div>
       `;
+
+            document.getElementById('bridgeToSolution').addEventListener('click', function() {
+        document.querySelector('.solution-box').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+
+            setTimeout(function() {
+        resultBox.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 80);
     });
   }
 });

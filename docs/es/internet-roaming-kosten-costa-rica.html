@@ -40,7 +40,7 @@
   }
   </script>
 
-  <!-- FAQ Schema para Google Rich Snippets -->
+  
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -73,6 +73,451 @@
     ]
   }
   </script>
+
+  <style>
+
+.calc-box,
+.solution-box,
+.result-box {
+  max-width: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  text-align: left !important;
+  background: #ffffff !important;
+  color: #333333 !important;
+  box-shadow: none !important;
+}
+
+.calc-box {
+  border: 1px solid #e6e6e6;
+  border-top: 3px solid #8B0000;
+  padding: 45px 50px;
+  margin: 60px 0 !important;
+}
+
+.calc-box h2 {
+  margin: 0 0 10px 0;
+}
+
+.calc-subtitle {
+  color: #666;
+  font-size: 1.05em;
+  line-height: 1.6;
+  margin: 0 0 35px 0;
+  max-width: 700px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+  font-size: 0.92em;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 13px 15px;
+  font-size: 1em;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  background: #fcfcfc;
+  color: #1a1a1a;
+  font-family: inherit;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #8B0000;
+  background: #ffffff;
+}
+
+.button-primary,
+.button-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  width: auto;
+  padding: 14px 32px;
+  background: #8B0000;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: inherit;
+  transition: background 0.2s ease;
+}
+
+.button-primary:hover,
+.button-cta:hover {
+  background: #6d0000;
+}
+
+.result-box {
+  margin-top: 45px !important;
+  padding-top: 40px;
+  border-top: 1px solid #e6e6e6;
+  animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.result-eyebrow {
+  display: inline-block;
+  font-size: 0.72em;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #8B0000;
+  background: #fbf0f0;
+  padding: 6px 14px;
+  border-radius: 999px;
+  margin-bottom: 15px;
+}
+
+.result-header h3 {
+  margin: 0 0 8px 0;
+}
+
+.result-demand {
+  color: #555;
+  font-size: 1.05em;
+  margin: 0 0 35px 0;
+}
+
+.result-demand strong {
+  color: #8B0000;
+}
+
+.result-comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 35px;
+}
+
+.result-card {
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.card-header {
+  padding: 20px 28px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.card-header.option-weak {
+  background: #f7f7f7;
+}
+
+.card-header.option-strong {
+  background: #ffffff;
+  border-top: 3px solid #8B0000;
+}
+
+.card-header h4 {
+  margin: 0 0 3px 0;
+  font-size: 1.05em;
+  color: #1a1a1a;
+}
+
+.card-subtitle {
+  font-size: 0.83em;
+  color: #888;
+}
+
+.card-body {
+  padding: 28px;
+}
+
+.card-body p {
+  margin: 0 0 15px 0;
+  line-height: 1.65;
+  color: #444;
+  font-size: 0.95em;
+}
+
+.card-body p:last-child { margin-bottom: 0; }
+
+.highlight-negative,
+.highlight-positive {
+  background: #fbf0f0;
+  border-left: 3px solid #8B0000;
+  padding: 12px 16px !important;
+  color: #1a1a1a !important;
+}
+
+.highlight-positive {
+  background: #f7f7f7;
+}
+
+.highlight-negative strong { color: #8B0000; }
+
+.card-price {
+  font-size: 1.35em;
+  color: #1a1a1a !important;
+}
+
+.card-price strong { color: #8B0000; }
+
+.card-note {
+  font-size: 0.86em !important;
+  color: #888 !important;
+  font-style: italic;
+  border-top: 1px solid #eeeeee;
+  padding-top: 12px;
+}
+
+
+
+.result-bridge {
+  margin-top: 40px;
+  padding-top: 28px;
+  border-top: 1px solid #e6e6e6;
+  text-align: center;
+}
+
+.bridge-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: none;
+  border: none;
+  padding: 0;
+  color: #8B0000;
+  font-family: inherit;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.bridge-link:hover {
+  border-bottom-color: #8B0000;
+}
+
+.solution-box {
+  scroll-margin-top: 100px;
+}
+
+.result-solution-text strong {
+  color: #1a1a1a;
+}
+
+.result-box {
+  scroll-margin-top: 100px;
+}
+
+@media (max-width: 860px) {
+  .result-solution {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.solution-box {
+  border: 1px solid #e6e6e6;
+  padding: 45px 50px;
+  margin: 60px 0 !important;
+}
+
+.solution-badge {
+  display: inline-block;
+  font-size: 0.72em;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #8B0000;
+  background: #fbf0f0;
+  padding: 6px 14px;
+  border-radius: 999px;
+  margin-bottom: 20px;
+}
+
+.solution-box h2 {
+  margin: 0 0 15px 0;
+}
+
+.solution-intro {
+  color: #444;
+  font-size: 1.05em;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 0 35px 0;
+}
+
+.solution-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 50px;
+  padding: 30px 0;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 30px;
+}
+
+.price-label {
+  display: block;
+  font-size: 0.75em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #888;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.price-value {
+  display: block;
+  font-size: 2.2em;
+  font-weight: 700;
+  color: #8B0000;
+  line-height: 1.2;
+}
+
+.package-value {
+  display: block;
+  font-size: 1.15em;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.solution-benefits {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.solution-benefits li {
+  position: relative;
+  padding: 9px 0 9px 24px;
+  color: #444;
+  line-height: 1.55;
+}
+
+.solution-benefits li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  color: #8B0000;
+  font-weight: 700;
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: 16px 22px;
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.6;
+  font-size: 0.95em;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.comparison-table thead th {
+  background: #f7f7f7;
+  font-size: 0.8em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #555;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.comparison-table thead th.option-strong {
+  color: #8B0000;
+  border-bottom: 2px solid #8B0000;
+}
+
+.comparison-table td:first-child {
+  width: 18%;
+  color: #1a1a1a;
+}
+
+
+@media (max-width: 860px) {
+  .calc-box,
+  .solution-box { padding: 30px 25px; }
+  .form-grid,
+  .result-comparison,
+  .solution-grid { grid-template-columns: 1fr; gap: 20px; }
+  .result-conclusion { flex-direction: column; align-items: flex-start; }
+}
+
+@media (max-width: 760px) {
+  .comparison-table,
+  .comparison-table tbody,
+  .comparison-table tr,
+  .comparison-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .comparison-table thead {
+    display: none;
+  }
+
+  .comparison-table tbody tr {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    margin-bottom: 18px;
+    overflow: hidden;
+  }
+
+  .comparison-table td {
+    border-bottom: 1px solid #eeeeee;
+    padding: 14px 18px;
+  }
+
+  .comparison-table tbody tr td:last-child {
+    border-bottom: none;
+  }
+
+  .comparison-table td:first-child {
+    width: 100%;
+    background: #f7f7f7;
+    font-weight: 700;
+    color: #1a1a1a;
+  }
+
+  .comparison-table td:not(:first-child)::before {
+    content: attr(data-label);
+    display: block;
+    font-size: 0.72em;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #888;
+    margin-bottom: 6px;
+  }
+
+  .comparison-table td.cell-strong {
+    border-left: 3px solid #8B0000;
+  }
+
+  .comparison-table td.cell-strong::before {
+    color: #8B0000;
+  }
+}
+  </style>
 </head>
 
 <body>
@@ -84,7 +529,7 @@
 
 <div class="page-container">
 
-  <!-- Above the Fold: mensaje claro del problema y despertar curiosidad -->
+  
   <h1>Móvil e Internet en Costa Rica: evita la trampa de costes</h1>
   
   <div class="back-to-hub-banner">
@@ -101,13 +546,13 @@
 
   <p>¿Estás planeando un viaje inolvidable a <strong>Costa Rica</strong> y quieres usar Google Maps para orientarte, enviar fotos de vacaciones por WhatsApp o navegar tranquilamente por la noche? Cuidado: quien sube al avión sin prepararse se lleva a menudo una desagradable sorpresa al volver en forma de una factura de móvil desorbitada.</p>
 
-<div class="shock-box">    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Atención: ¡no hay roaming gratuito en la UE!</h2>
-    <p>El cómodo "roam like at home", que conoces de otros países de la UE, aquí no se aplica. Si activas tu SIM alemana habitual en Costa Rica para Internet, se aplican las tarifas estándar de uso en el extranjero de proveedores como Telekom, Vodafone u o2.</p>
+<div class="shock-box">    <h2 style="color: #b71c1c; margin-top: 0;">Atención: ¡no hay roaming gratuito en la UE!</h2>
+    <p>El cómodo "roam like at home", que conoces de otros países de la UE, aquí no se aplica. Si activas tu SIM alemana habitual en Costa Rica para Internet, se aplican las tarifas estándar de uso en el extranjero de proveedores como Movistar, Orange u Yoigo.</p>
     <div class="shock-price" style="font-size: 1.5em; font-weight: bold; color: #c62828; margin: 10px 0;">Coste: ¡hasta 2,49 € por megabyte (MB)!</div>
     <p><em>Para ponerlo en contexto: un vídeo corto de 10 segundos que alguien te envía por WhatsApp consume aprox. 15 MB. Solo eso puede costarte más de 20 euros en Costa Rica. ¿Un vídeo corto de YouTube? Más rápido de lo que imaginas, se van 100 euros.</em></p>
   </div>
 
-  <!-- NUEVA HERRAMIENTA: volumen de datos y calculadora de impacto -->
+  
   <h2>Herramienta: ¿Cuánto volumen de datos necesitas en vacaciones?</h2>
   <p>Descubre cuántos gigabytes (GB) necesitas realmente para tu viaje y compara los costes entre tu proveedor actual y una eSIM moderna.</p>
 
@@ -116,96 +561,113 @@
   </div>
   
   <div class="calc-box">
-    <form id="dataCalcForm">
-      <fieldset>
-        <legend>Tu uso habitual</legend>
-        
-        <label>Duración del viaje (en días):</label>
-        <input type="number" id="cDays" value="14" min="1" required>
+  <h2>Calculadora de costes de roaming</h2>
+  <p class="calc-subtitle">Calcule en segundos sus necesidades reales de datos para Costa Rica y evite las trampas de costes de su operador móvil.</p>
+  
+  <form id="dataCalcForm">
+    <div class="form-grid">
+      <div class="form-group">
+        <label for="cDays">Duración del viaje (días)</label>
+        <input type="number" id="cDays" value="14" min="1" max="365" required>
+      </div>
 
-        <label>Google Maps y navegación (uso por día):</label>
-        <select id="cMaps" required>
-          <option value="15">Poco (aprox. 15 min)</option>
-          <option value="60" selected>Medio (aprox. 1 hora)</option>
-          <option value="120">Mucho (road trip / más de 2 horas)</option>
+      <div class="form-group">
+        <label for="cUsage">Perfil de uso</label>
+        <select id="cUsage" required>
+          <option value="light">Bajo: Mapas, emails, WhatsApp</option>
+          <option value="normal" selected>Medio: Redes sociales, navegación</option>
+          <option value="heavy">Intenso: Streaming, teletrabajo</option>
         </select>
+      </div>
 
-        <label>Redes sociales y WhatsApp (desplazarse por fotos/vídeos al día):</label>
-        <select id="cSocial" required>
-          <option value="30">Ocasionalmente (aprox. 30 min)</option>
-          <option value="90" selected>Con regularidad (aprox. 1,5 horas)</option>
-          <option value="180">Intensivo (aprox. 3 horas)</option>
-        </select>
-
-        <label>Streaming de vídeo (Netflix, YouTube al día):</label>
+      <div class="form-group">
+        <label for="cVideo">Streaming de vídeo al día</label>
         <select id="cVideo" required>
-          <option value="0" selected>Nada (uso el Wi‑Fi del hotel)</option>
-          <option value="60">Aprox. 1 hora (p. ej., por la noche)</option>
-          <option value="120">Más de 2 horas</option>
+          <option value="0">Sin vídeo (solo Wi-Fi del hotel)</option>
+          <option value="1" selected>Hasta 1 hora</option>
+          <option value="2">De 1 a 3 horas</option>
+          <option value="4">Más de 3 horas</option>
         </select>
-      </fieldset>
+      </div>
+    </div>
 
-      <button type="button" class="button-primary" id="calcDataBtn">Calcular gigabytes y costes</button>
-    </form>
+    <button type="button" class="button-primary" id="calcDataBtn">Iniciar análisis</button>
+  </form>
 
-    <!-- Área de resultados para el JS -->
-    <div id="dataResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #8B0000;">
-      <!-- Contenido inyectado por JS: GB necesarios, costes de roaming (>1000€) vs costes eSIM -->
+  <div id="dataResultBox" class="result-box" style="display: none;"></div>
+</div>
+  
+<div class="solution-box">
+  <span class="solution-badge">Anuncio / Recomendación patrocinada</span>
+  <h2>La solución: eSIM para Costa Rica</h2>
+  <p class="solution-intro">
+    En lugar de buscar tiendas caras en el aeropuerto, instale una tarjeta SIM digital antes de despegar. Solo tiene que escanear un código QR y tendrá conexión inmediatamente al aterrizar, mientras su número español permanece activo para SMS importantes (p. ej., banca online).
+  </p>
+  
+  <div class="solution-grid">
+    <div class="solution-price-col">
+      <span class="price-label">Precio desde</span>
+      <span class="price-value">desde 8,50 $</span>
+      <span class="price-label" style="margin-top: 20px;">El paquete incluido</span>
+      <span class="package-value">1 GB durante 7 días</span>
+    </div>
+    
+    <div class="solution-benefits-col">
+      <ul class="solution-benefits">
+        <li>Instalación en menos de 3 minutos a través de la app</li>
+        <li>Prepago sin suscripción: control total del gasto</li>
+        <li>Uso en la red local más potente de Costa Rica</li>
+      </ul>
     </div>
   </div>
+  
+  <a href="https://esim.holafly.com" target="_blank" rel="noopener nofollow" class="button-cta">
+    Ver tarifas y paquetes
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M5 12h14M12 5l7 7-7 7"/>
+    </svg>
+  </a>
+</div>
 
-  <!-- La solución y la integración de afiliación -->
-  <h2>La solución: una eSIM digital para Costa Rica</h2>
-  <p>En lugar de buscar con esfuerzo en el aeropuerto una tienda de móviles carísima, hacer cola allí y dejar que escaneen tu pasaporte, simplemente descarga una <strong>eSIM (una tarjeta SIM digital)</strong> en tu smartphone antes de volar. Solo escaneas un código QR y tendrás cobertura en cuanto aterrices.</p>
-
-<div class="solution-box">    <h2> El truco de viaje inteligente: Holafly</h2>
-    <p>Con el líder del mercado <strong>Holafly</strong>, descargas tu paquete de datos como una app directamente en el móvil. La ventaja: tu número alemán sigue activo en segundo plano para llamadas entrantes o SMS (¡importante para la banca online!).</p>
-    
-    <span style="font-size: 0.75rem; color: #fff; background-color: rgba(0,0,0,0.15); padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; display: inline-block; margin-bottom: 12px; font-weight: bold;">
-        Anuncio / recomendación publicitaria
-    </span>
-    
-    <div class="solution-price">desde 8,50 $</div>
-    <p style="font-size: 1.1em; margin-bottom: 25px;"><strong>Mejor relación calidad-precio:</strong> 1 GB durante 7 días en la red local más potente de Costa Rica.</p>
-    
-    <a href="https://esim.holafly.com" target="_blank" rel="noopener nofollow" class="button-primary" style="background: #ffb300; color: #000; display: inline-block; padding: 15px 30px; text-decoration: none; border-radius: 6px; font-size: 1.2em;">Ver ahora las tarifas eSIM de Holafly</a>
-    <p style="font-size: 0.85em; color: #666; margin-top: 15px;">Instalación en 3 minutos • Prepago (sin trampa de suscripción) • 100% control de costes</p>
-  </div>
-
-  <!-- Área de contenido SEO completa -->
+  
   <div class="seo-content" style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 30px;">
-    <h2>Por qué el roaming local es tan caro</h2>
-    <p>Cuando sales de la UE, las estrictas normas de roaming de la UE dejan de aplicarse. Tu proveedor alemán ahora tiene que "conectarse" a los operadores de red locales en Costa Rica. Estas tarifas de interconexión suelen ser astronómicamente altas para los clientes con contrato. Incluso los llamados "paquetes de viaje" (pases Travel-Surf) que Vodafone o Telekom ofrecen por SMS suelen ser un auténtico abuso: a menudo recibes por 15 a 30 euros unos ridículos 500 MB a 1 GB durante un máximo de 24 horas o una semana.</p>
+    <h2>Por qué el roaming fuera de la UE es tan caro</h2>
+    <p>Cuando viaja fuera de la Unión Europea, las estrictas regulaciones europeas de roaming ya no se aplican. Su operador móvil español debe "alquilar" acceso a las redes locales en Costa Rica. Estas tarifas de interconexión suelen ser astronómicas para los clientes con contrato. Además, los paquetes especiales de viaje (bonos de datos) que ofrecen operadores como Movistar, Vodafone u Orange suelen ser excesivamente caros: a menudo pagará entre 15 y 30 euros por apenas 500 MB o 1 GB válidos durante un máximo de 24 horas o una semana.</p>
 
     <h3>SIM física local vs. eSIM</h3>
-    <p>Antes, muchos mochileros compraban en el aeropuerto una SIM local prepago de plástico. Sin embargo, eso tiene tres grandes inconvenientes que una eSIM resuelve:</p>
-    <table class="comparison-table" style="width: 100%; border-collapse: collapse; margin-top: 15px;">
-      <tr style="background: #f5f5f5;">
-        <th style="padding: 10px; border: 1px solid #ddd;">Criterio</th>
-        <th style="padding: 10px; border: 1px solid #ddd;">SIM física local</th>
-        <th style="padding: 10px; border: 1px solid #ddd;">eSIM de viaje (Holafly)</th>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;">Disponibilidad</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Tienes que sacar tu SIM alemana. <strong>No</strong> estás localizable en tu número (¡sin SMS del banco!).</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Ambas tarjetas (Dual SIM) están activas. Navegas con la red local, pero sigues siendo localizable por teléfono en tu número alemán.</td>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;">Tiempo necesario</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Larga búsqueda y espera en el aeropuerto después del vuelo largo.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Se instala cómodamente en casa, en Alemania, mediante la app.</td>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;">Protección de datos</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">A menudo hay que copiar documentos de identidad en tiendas poco fiables.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">No es necesario presentar documentos de identidad en el lugar.</td>
-      </tr>
-    </table>
+<p>Muchos viajeros solían comprar una SIM prepago local al llegar al aeropuerto. Sin embargo, esto tiene importantes inconvenientes que una eSIM soluciona:</p>
+
+<table class="comparison-table">
+  <thead>
+    <tr>
+      <th>Criterio</th>
+      <th class="option-weak">SIM física local</th>
+      <th class="option-strong">Holafly eSIM</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Disponibilidad</strong></td>
+      <td data-label="SIM física local">Debe retirar su SIM española. No estará localizable en su número (¡no recibirá SMS bancarios!).</td>
+      <td data-label="Holafly eSIM" class="cell-strong">Ambas tarjetas permanecen activas (Dual SIM). Navega de forma local y sigue localizable para llamadas y SMS.</td>
+    </tr>
+    <tr>
+      <td><strong>Tiempo necesario</strong></td>
+      <td data-label="SIM física local">Largas colas y tiempo perdido buscando tiendas en el aeropuerto tras un vuelo largo.</td>
+      <td data-label="Holafly eSIM" class="cell-strong">Cómoda instalación desde España antes de viajar a través de la app.</td>
+    </tr>
+    <tr>
+      <td><strong>Protección de datos</strong></td>
+      <td data-label="SIM física local">A menudo debe permitir que fotocopien sus documentos de identidad en tiendas poco fiables.</td>
+      <td data-label="Holafly eSIM" class="cell-strong">No es necesario presentar documentos de identidad en el destino.</td>
+    </tr>
+  </tbody>
+</table>
 
     <h3 style="margin-top: 30px;">Seguridad en el Wi‑Fi público</h3>
     <p>Muchos viajeros piensan: <em>"No necesito una SIM de datos, simplemente usaré el Wi‑Fi gratis del hotel o de Starbucks."</em> Esto es muy preocupante desde el punto de vista de la seguridad. Las redes abiertas pueden ser manipuladas fácilmente por delincuentes (ataques de intermediario) para robar tus contraseñas o datos de banca online. Con una conexión de datos propia 4G/5G mediante eSIM navegas en una red cerrada y segura, y además no dependes de estar cerca de una cafetería cuando necesites pedir un Uber o buscar el camino en Costa Rica.</p>
     
-    <!-- Área de FAQ -->
+    
     <h2 style="margin-top: 40px;">Preguntas frecuentes (FAQ) sobre la eSIM en Costa Rica</h2>
     <details style="background: #fafafa; border: 1px solid #ddd; padding: 10px 15px; margin-bottom: 10px; border-radius: 4px;">
       <summary style="font-weight: bold; cursor: pointer;">¿Puedo conservar mi número de WhatsApp?</summary>
@@ -223,11 +685,11 @@
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Otros temas interesantes:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="internet-roaming-kosten-tunesien.html">Túnez</a>
-<a href="internet-roaming-kosten-philippinen.html">Filipinas</a>
-<a href="internet-roaming-kosten-schweiz.html">Suiza</a>
-<a href="internet-roaming-kosten-aegypten.html">Egipto</a>
-<a href="internet-roaming-kosten-japan.html">Japón</a>
+    <a href="internet-roaming-kosten-china.html">China</a>
+<a href="internet-roaming-kosten-peru.html">Perú</a>
+<a href="internet-roaming-kosten-tunesien.html">Túnez</a>
+<a href="internet-roaming-kosten-kreuzfahrt.html">Crucero (barco)</a>
+<a href="internet-roaming-kosten-sri-lanka.html">Sri Lanka</a>
 
   </div>
 </div>
@@ -244,7 +706,7 @@
         </span>
     </p>
 
-    <!-- Umlaut in URL entfernt! -->
+    
     <a href="ueber-uns.html" class="trust-link">
         Conoce los detalles sobre la metodología jurídica y la redacción →
     </a>
@@ -325,58 +787,101 @@ document.addEventListener('DOMContentLoaded', function() {
 
   if(calcBtn) {
     calcBtn.addEventListener('click', function() {
-      // 1. Leer los valores del formulario
       const days = parseInt(document.getElementById('cDays').value) || 1;
-      const mapsMin = parseInt(document.getElementById('cMaps').value) || 0;
-      const socialMin = parseInt(document.getElementById('cSocial').value) || 0;
-      const videoMin = parseInt(document.getElementById('cVideo').value) || 0;
+      const usage = document.getElementById('cUsage').value;
+      const videoHours = parseInt(document.getElementById('cVideo').value) || 0;
 
-      // 2. Estimación del consumo en MB por minuto (valores realistas)
-      // Maps: aprox. 1 MB/min | Redes sociales: aprox. 3 MB/min | Vídeo (SD): aprox. 15 MB/min
-      const mbPerMinMaps = 1;   
-      const mbPerMinSocial = 3; 
-      const mbPerMinVideo = 15; 
+            const usageProfiles = {
+        light: { base: 0.5, social: 0.1, maps: 0.2 },
+        normal: { base: 1.2, social: 0.3, maps: 0.3 },
+        heavy: { base: 2.5, social: 0.5, maps: 0.4 }
+      };
 
-      // 3. Cálculo del volumen de datos
-      const dailyMB = (mapsMin * mbPerMinMaps) + (socialMin * mbPerMinSocial) + (videoMin * mbPerMinVideo);
-      const totalMB = dailyMB * days;
-      const totalGB = (totalMB / 1024).toFixed(1);
+      const profile = usageProfiles[usage];
+      const videoGB = videoHours * 1.5;
+      const dailyGB = profile.base + profile.social + profile.maps + videoGB;
+      const totalGB = (dailyGB * days).toFixed(1);
+      const totalMB = totalGB * 1024;
 
-      // 4. Cálculo del impacto del roaming (supuesto: 0,99 € por MB en la tarifa estándar zona 2/3)
-      const roamingCostPerMB = 0.99;
-      let totalRoamingCost = totalMB * roamingCostPerMB;
-      
-      // Formato como moneda (p. ej., 1.543,50 €)
-      const formattedRoamingCost = totalRoamingCost.toLocaleString('de-DE', { style: 'currency', currency: 'EUR' });
+            const roamingText = '2,49 €';
+      const roamingNum = parseFloat(roamingText.replace(/[^\d,\.]/g, '').replace(',', '.')) || 0.99;
+      const roamingCurrency = roamingText.match(/[\€\$\£\¥]/)?.[0] || '€';
 
-      // 5. Mostrar el resultado en el recuadro
+            const costCutoff = 59.90;
+      const dataForCutoffGB = ((costCutoff / roamingNum) / 1024).toFixed(2);
+      const theoreticalCost = totalMB * roamingNum;
+
+            const esimPrice = '8,50 $';
+      const esimVolume = '1 GB durante 7 días';
+
+      const formatNumber = (num) => num.toLocaleString('es-ES', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+
       resultBox.style.display = 'block';
       resultBox.innerHTML = `
-        <h3 style="color: #c62828; margin-top: 0; font-size: 1.4em;">Tu resultado para ${days} días:</h3>
-        <p style="font-size: 1.1em;">Probablemente necesitarás <strong>aprox. ${totalGB} GB</strong> de datos para este periodo.</p>
-        
-        <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
-          <!-- Recuadro de impacto: roaming -->
-          <div style="flex: 1; min-width: 250px; padding: 20px; background: #ffebee; border: 2px solid #c62828; border-radius: 6px;">
-            <h4 style="color: #b71c1c; margin-top: 0; font-size: 1.1em;">Roaming clásico</h4>
-            <p style="margin-bottom: 10px; font-size: 0.9em; color: #555;">Sin paquete especial (aprox. 0,99 € / MB):</p>
-            <span style="font-size: 1.8em; font-weight: 900; color: #c62828;">${formattedRoamingCost}</span>
-            <p style="font-size: 0.85em; color: #b71c1c; margin-top: 10px; font-weight: bold;">⚠️ ¡Trampa de costes absoluta!</p>
-          </div>
-          
-          <!-- Recuadro de solución: eSIM -->
-          <div style="flex: 1; min-width: 250px; padding: 20px; background: #f1f8e9; border: 2px solid #2e7d32; border-radius: 6px;">
-            <h4 style="color: #2e7d32; margin-top: 0; font-size: 1.1em;">eSIM digital</h4>
-            <p style="margin-bottom: 10px; font-size: 0.9em; color: #555;">Con un paquete de GB suficiente:</p>
-            <span style="font-size: 1.8em; font-weight: 900; color: #2e7d32;">desde aprox. 4,50 €</span>
-            <p style="font-size: 0.85em; color: #2e7d32; margin-top: 10px; font-weight: bold;">✅ 100% control de costes</p>
-          </div>
+        <div class="result-header">
+          <span class="result-eyebrow">Su análisis personal</span>
+          <h3>Necesidad de datos para ${days} días en Costa Rica</h3>
+          <p class="result-demand">Su consumo estimado: <strong>${totalGB} GB</strong></p>
         </div>
         
-        <p style="margin-top: 25px; text-align: center;">
-          <button onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth'});" style="background: #8B0000; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">Ver ahora la alternativa barata</button>
-        </p>
+        <div class="result-comparison">
+          <div class="result-card">
+            <div class="card-header option-weak">
+              <h4>Operadores móviles españoles</h4>
+              <span class="card-subtitle">Movistar, Vodafone, Orange, Yoigo (Zona 3/4)</span>
+            </div>
+            <div class="card-body">
+              <p class="warning-text">
+                Según el reglamento de la UE, los operadores deben bloquear automáticamente el roaming de datos al llegar a aprox. <strong>${formatNumber(costCutoff)} ${roamingCurrency}</strong>. 
+              </p>
+              <p class="highlight-negative">
+                Sin embargo, por esta cantidad solo obtendrá <strong>${dataForCutoffGB} GB</strong> en Costa Rica (a ${roamingText}/MB). 
+              </p>
+              <p class="card-note">
+                Esto es solo una pequeña fracción de su necesidad de ${totalGB} GB. Si desactivara el límite manualmente, el coste ascendería a <strong>${formatNumber(theoreticalCost)} ${roamingCurrency}</strong>.
+              </p>
+            </div>
+          </div>
+
+          <div class="result-card">
+            <div class="card-header option-strong">
+              <h4>Holafly eSIM</h4>
+              <span class="card-subtitle">Tarjeta SIM digital</span>
+            </div>
+            <div class="card-body">
+              <p class="card-intro">
+                Paga un precio fijo antes de viajar. Sin bloqueos ni sorpresas.
+              </p>
+              <p class="highlight-positive">
+                Paquete: <strong>${esimVolume}</strong>
+              </p>
+              <p class="card-price">
+                Desde <strong>${esimPrice}</strong>
+              </p>
+              <p class="card-note">
+                Control total del gasto y conexión inmediata al aterrizar.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="result-bridge">
+          <button type="button" class="bridge-link" id="bridgeToSolution">
+            Ver paquetes eSIM para Costa Rica
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 5v14M5 12l7 7-7 7"/>
+            </svg>
+          </button>
+        </div>
       `;
+
+            document.getElementById('bridgeToSolution').addEventListener('click', function() {
+        document.querySelector('.solution-box').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+
+            setTimeout(function() {
+        resultBox.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 80);
     });
   }
 });

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="pt">
 <head>
   <meta charset="UTF-8">
-  <title>Turquia Internet: Roaming-Falle gratis umgehen</title>
+  <title>Turquia Internet: Evitar a armadilha do roaming gratuitamente</title>
 
-  <meta name="description" content="Achtung Kostenfalle: So teuer ist Roaming in Turquia wirklich. Nutzen Sie unseren Datenrechner und surfen Sie mit einer eSIM ab 4,50 $ ohne Limit.">
+  <meta name="description" content="Atenção à armadilha de custos: Veja quão caro é realmente o roaming em Turquia. Utilize a nossa calculadora de dados e navegue com um eSIM a partir de 4,50 $ sem limite.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
   <link rel="canonical" href="https://www.fix-my-trip.com/pt/internet-roaming-kosten-tuerkei.html">
@@ -27,10 +27,10 @@
   {
     "@context": "https://schema.org",
     "@type": "WebApplication",
-    "name": "eSIM & Roaming-Datenrechner: Turquia",
+    "name": "eSIM & Calculadora de Dados de Roaming: Turquia",
     "applicationCategory": "UtilitiesApplication",
     "operatingSystem": "All",
-    "description": "Interaktiver Rechner zur Ermittlung des benötigten Datenvolumens im Urlaub und Preisvergleich von Roaming-Kosten in Turquia.",
+    "description": "Calculadora interativa para determinar o volume de dados necessário nas férias e comparação de preços dos custos de roaming em Turquia.",
     "offers": {
       "@type": "Offer",
       "price": "0.00",
@@ -47,259 +47,721 @@
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Kann ich meine WhatsApp-Nummer in Turquia behalten?",
+        "name": "Posso manter o meu número do WhatsApp em Turquia?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ja, absolut! WhatsApp ist an Ihre normale deutsche Handynummer geknüpft. Wenn Sie eine eSIM rein für das mobile Internet nutzen, fragt WhatsApp Sie nicht nach einer Änderung. Sie schreiben und telefonieren über WhatsApp genau wie immer – nur eben über das günstige Datennetz der eSIM."
+          "text": "Sim, com certeza! O WhatsApp está associado ao seu número de telemóvel português normal. Se utilizar um eSIM exclusivamente para a Internet móvel, o WhatsApp não lhe pedirá qualquer alteração. Pode enviar mensagens e fazer chamadas pelo WhatsApp exatamente como sempre – apenas através da rede de dados económica do eSIM."
         }
       },
       {
         "@type": "Question",
-        "name": "Unterstützt mein Smartphone digitale eSIMs?",
+        "name": "O meu smartphone suporta eSIMs digitais?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Die meisten modernen Smartphones haben einen eSIM-Chip fest verbaut. Dazu gehören alle iPhones ab dem iPhone XS (und neuer), alle Samsung Galaxy S-Modelle ab dem S20 sowie alle Google Pixel ab dem Pixel 3. Wenn Ihr Handy jünger als 3-4 Jahre ist, funktioniert es in der Regel problemlos."
+          "text": "A maioria dos smartphones modernos tem um chip eSIM integrado. Isto inclui todos os iPhones a partir do iPhone XS (e mais recentes), todos os modelos Samsung Galaxy S a partir do S20 e todos os Google Pixel a partir do Pixel 3. Se o seu telemóvel tiver menos de 3 a 4 anos, geralmente funciona sem problemas."
         }
       },
       {
         "@type": "Question",
-        "name": "Ist das kostenlose Hotel-WLAN keine gute Alternative?",
+        "name": "O Wi-Fi gratuito do hotel não é uma boa alternativa?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Öffentliches WLAN in Hotels oder Cafés ist oft unverschlüsselt und ein leichtes Ziel für Hacker, um Passwörter oder Kreditkartendaten abzufangen. Zudem ist die Verbindung oft extrem langsam. Eine eigene Datenverbindung via eSIM ist deutlich sicherer und funktioniert auch unterwegs am Strand oder bei Ausflügen."
+          "text": "O Wi-Fi público em hotéis ou cafés é frequentemente não encriptado e um alvo fácil para hackers intercetarem palavras-passe ou dados do cartão de crédito. Além disso, a ligação é muitas vezes extremamente lenta. Uma ligação de dados própria através de eSIM é significativamente mais segura e funciona também em movimento, na praia ou em excursões."
         }
       }
     ]
   }
   </script>
+
+  <style>
+
+.calc-box,
+.solution-box,
+.result-box {
+  max-width: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  text-align: left !important;
+  background: #ffffff !important;
+  color: #333333 !important;
+  box-shadow: none !important;
+}
+
+.calc-box {
+  border: 1px solid #e6e6e6;
+  border-top: 3px solid #8B0000;
+  padding: 45px 50px;
+  margin: 60px 0 !important;
+}
+
+.calc-box h2 {
+  margin: 0 0 10px 0;
+}
+
+.calc-subtitle {
+  color: #666;
+  font-size: 1.05em;
+  line-height: 1.6;
+  margin: 0 0 35px 0;
+  max-width: 700px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+  font-size: 0.92em;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 13px 15px;
+  font-size: 1em;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  background: #fcfcfc;
+  color: #1a1a1a;
+  font-family: inherit;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #8B0000;
+  background: #ffffff;
+}
+
+.button-primary,
+.button-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  width: auto;
+  padding: 14px 32px;
+  background: #8B0000;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: inherit;
+  transition: background 0.2s ease;
+}
+
+.button-primary:hover,
+.button-cta:hover {
+  background: #6d0000;
+}
+
+.result-box {
+  margin-top: 45px !important;
+  padding-top: 40px;
+  border-top: 1px solid #e6e6e6;
+  animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.result-eyebrow {
+  display: inline-block;
+  font-size: 0.72em;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #8B0000;
+  background: #fbf0f0;
+  padding: 6px 14px;
+  border-radius: 999px;
+  margin-bottom: 15px;
+}
+
+.result-header h3 {
+  margin: 0 0 8px 0;
+}
+
+.result-demand {
+  color: #555;
+  font-size: 1.05em;
+  margin: 0 0 35px 0;
+}
+
+.result-demand strong {
+  color: #8B0000;
+}
+
+.result-comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 35px;
+}
+
+.result-card {
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.card-header {
+  padding: 20px 28px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.card-header.option-weak {
+  background: #f7f7f7;
+}
+
+.card-header.option-strong {
+  background: #ffffff;
+  border-top: 3px solid #8B0000;
+}
+
+.card-header h4 {
+  margin: 0 0 3px 0;
+  font-size: 1.05em;
+  color: #1a1a1a;
+}
+
+.card-subtitle {
+  font-size: 0.83em;
+  color: #888;
+}
+
+.card-body {
+  padding: 28px;
+}
+
+.card-body p {
+  margin: 0 0 15px 0;
+  line-height: 1.65;
+  color: #444;
+  font-size: 0.95em;
+}
+
+.card-body p:last-child { margin-bottom: 0; }
+
+.highlight-negative,
+.highlight-positive {
+  background: #fbf0f0;
+  border-left: 3px solid #8B0000;
+  padding: 12px 16px !important;
+  color: #1a1a1a !important;
+}
+
+.highlight-positive {
+  background: #f7f7f7;
+}
+
+.highlight-negative strong { color: #8B0000; }
+
+.card-price {
+  font-size: 1.35em;
+  color: #1a1a1a !important;
+}
+
+.card-price strong { color: #8B0000; }
+
+.card-note {
+  font-size: 0.86em !important;
+  color: #888 !important;
+  font-style: italic;
+  border-top: 1px solid #eeeeee;
+  padding-top: 12px;
+}
+
+
+
+.result-bridge {
+  margin-top: 40px;
+  padding-top: 28px;
+  border-top: 1px solid #e6e6e6;
+  text-align: center;
+}
+
+.bridge-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: none;
+  border: none;
+  padding: 0;
+  color: #8B0000;
+  font-family: inherit;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.bridge-link:hover {
+  border-bottom-color: #8B0000;
+}
+
+.solution-box {
+  scroll-margin-top: 100px;
+}
+
+.result-solution-text strong {
+  color: #1a1a1a;
+}
+
+.result-box {
+  scroll-margin-top: 100px;
+}
+
+@media (max-width: 860px) {
+  .result-solution {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.solution-box {
+  border: 1px solid #e6e6e6;
+  padding: 45px 50px;
+  margin: 60px 0 !important;
+}
+
+.solution-badge {
+  display: inline-block;
+  font-size: 0.72em;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #8B0000;
+  background: #fbf0f0;
+  padding: 6px 14px;
+  border-radius: 999px;
+  margin-bottom: 20px;
+}
+
+.solution-box h2 {
+  margin: 0 0 15px 0;
+}
+
+.solution-intro {
+  color: #444;
+  font-size: 1.05em;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 0 35px 0;
+}
+
+.solution-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 50px;
+  padding: 30px 0;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 30px;
+}
+
+.price-label {
+  display: block;
+  font-size: 0.75em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #888;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.price-value {
+  display: block;
+  font-size: 2.2em;
+  font-weight: 700;
+  color: #8B0000;
+  line-height: 1.2;
+}
+
+.package-value {
+  display: block;
+  font-size: 1.15em;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.solution-benefits {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.solution-benefits li {
+  position: relative;
+  padding: 9px 0 9px 24px;
+  color: #444;
+  line-height: 1.55;
+}
+
+.solution-benefits li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  color: #8B0000;
+  font-weight: 700;
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: 16px 22px;
+  text-align: left;
+  vertical-align: top;
+  line-height: 1.6;
+  font-size: 0.95em;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.comparison-table thead th {
+  background: #f7f7f7;
+  font-size: 0.8em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #555;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.comparison-table thead th.option-strong {
+  color: #8B0000;
+  border-bottom: 2px solid #8B0000;
+}
+
+.comparison-table td:first-child {
+  width: 18%;
+  color: #1a1a1a;
+}
+
+
+@media (max-width: 860px) {
+  .calc-box,
+  .solution-box { padding: 30px 25px; }
+  .form-grid,
+  .result-comparison,
+  .solution-grid { grid-template-columns: 1fr; gap: 20px; }
+  .result-conclusion { flex-direction: column; align-items: flex-start; }
+}
+
+@media (max-width: 760px) {
+  .comparison-table,
+  .comparison-table tbody,
+  .comparison-table tr,
+  .comparison-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .comparison-table thead {
+    display: none;
+  }
+
+  .comparison-table tbody tr {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    margin-bottom: 18px;
+    overflow: hidden;
+  }
+
+  .comparison-table td {
+    border-bottom: 1px solid #eeeeee;
+    padding: 14px 18px;
+  }
+
+  .comparison-table tbody tr td:last-child {
+    border-bottom: none;
+  }
+
+  .comparison-table td:first-child {
+    width: 100%;
+    background: #f7f7f7;
+    font-weight: 700;
+    color: #1a1a1a;
+  }
+
+  .comparison-table td:not(:first-child)::before {
+    content: attr(data-label);
+    display: block;
+    font-size: 0.72em;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #888;
+    margin-bottom: 6px;
+  }
+
+  .comparison-table td.cell-strong {
+    border-left: 3px solid #8B0000;
+  }
+
+  .comparison-table td.cell-strong::before {
+    color: #8B0000;
+  }
+}
+  </style>
 </head>
 
 <body>
 
 <header class="site-header">
   <a href="index.html" class="site-logo">Fix my Trip</a>
-  <span style="font-size: 0.9em; color: #666;">Clever reisen ohne Kostenfallen</span>
+  <span style="font-size: 0.9em; color: #666;">Viajar com inteligência sem armadilhas de custos</span>
 </header>
 
 <div class="page-container">
 
   
-  <h1>Handy & Internet in Turquia: Die Kostenfalle umgehen</h1>
+  <h1>Telemóvel e Internet em Turquia: Evitar a armadilha dos custos</h1>
   
   <div class="back-to-hub-banner">
   <a href="esim-roaming-info.html">
-    <span class="arrow">&larr;</span> Zurück zur Übersicht: Roaming-Kosten aller Länder
+    <span class="arrow">&larr;</span> Voltar à visão geral: Custos de roaming de todos os países
   </a>
 </div>
 
   <div class="usp-bar">
-    <div class="usp-item">Live-Datenvolumen-Rechner</div>
-    <div class="usp-item">Aktuelle Roaming-Preise</div>
-    <div class="usp-item">Der beste eSIM Anbieter im Test</div>
+    <div class="usp-item">Calculadora de volume de dados em tempo real</div>
+    <div class="usp-item">Preços de roaming atualizados</div>
+    <div class="usp-item">O melhor fornecedor de eSIM em teste</div>
   </div>
 
-  <p>Sie planen eine unvergessliche Reise nach <strong>Turquia</strong> und möchten auch vor Ort Google Maps zur Navigation nutzen, Urlaubsbilder per WhatsApp verschicken oder abends entspannt surfen? Vorsicht: Wer hier unvorbereitet in den Flieger steigt, erlebt nach der Rückkehr oft eine böse Überraschung in Form einer horrenden Handyrechnung.</p>
+  <p>Está a planear uma viagem inesquecível a <strong>Turquia</strong> e quer utilizar o Google Maps no local para navegação, enviar fotos das férias pelo WhatsApp ou navegar tranquilamente na Internet à noite? Atenção: quem embarca no avião sem preparação prévia é frequentemente surpreendido no regresso por uma fatura de telemóvel exorbitante.</p>
 
-<div class="shock-box">    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Achtung: Kein kostenloses EU-Roaming!</h2>
-    <p>Das bequeme "Roam-like-at-home", das Sie aus dem EU-Ausland kennen, gilt hier nicht! Wenn Sie Ihre normale deutsche SIM-Karte in Turquia für das Internet aktivieren, greifen die Standard-Auslandstarife von Anbietern wie Telekom, Vodafone oder o2.</p>
-    <div class="shock-price" style="font-size: 1.5em; font-weight: bold; color: #c62828; margin: 10px 0;">Kosten: bis zu 0,99 € pro Megabyte (MB)!</div>
-    <p><em>Zur Einordnung: Ein kurzes 10-sekündiges Video, das Ihnen jemand bei WhatsApp schickt, verbraucht ca. 15 MB. Das allein kann Sie in Turquia über 20 Euro kosten. Ein kurzes YouTube-Video? Schneller als Sie denken sind 100 Euro weg.</em></p>
+<div class="shock-box">    <h2 style="color: #b71c1c; margin-top: 0;">Atenção: Sem roaming gratuito da UE!</h2>
+    <p>O cómodo "Roam-like-at-home", que conhece dos outros países da UE, não se aplica aqui! Se ativar o seu cartão SIM português normal para a Internet em Turquia, aplicar-se-ão os tarifários internacionais padrão de operadoras como MEO, NOS ou Vodafone.</p>
+    <div class="shock-price" style="font-size: 1.5em; font-weight: bold; color: #c62828; margin: 10px 0;">Custos: até 0,99 € por megabyte (MB)!</div>
+    <p><em>Para ter uma ideia: um vídeo curto de 10 segundos enviado por alguém no WhatsApp consome cerca de 15 MB. Só isso pode custar-lhe mais de 20 euros em Turquia. Um vídeo curto no YouTube? Mais depressa do que pensa, 100 euros desaparecem.</em></p>
   </div>
 
   
-  <h2>Tool: Wie viel Datenvolumen brauchen Sie im Urlaub?</h2>
-  <p>Finden Sie heraus, wie viel Gigabyte (GB) Sie für Ihre Reise wirklich benötigen und vergleichen Sie die Kosten zwischen Ihrem aktuellen Provider und einer modernen eSIM.</p>
+  <h2>Ferramenta: De quanto volume de dados precisa nas férias?</h2>
+  <p>Descubra de quantos gigabytes (GB) realmente precisa para a sua viagem e compare os custos entre a sua operadora atual e um eSIM moderno.</p>
 
-  <div class="highlight-box pruefdatum-box" role="note" aria-label="Redaktionell geprüft" style="margin-top: 15px; margin-bottom: 30px;">
-    <p><strong>Redaktionell geprüft am:</strong> <span id="pruefdatum">20.08.2026</span></p>
+  <div class="highlight-box pruefdatum-box" role="note" aria-label="Verificado pela redação" style="margin-top: 15px; margin-bottom: 30px;">
+    <p><strong>Verificado pela redação em:</strong> <span id="pruefdatum">20.08.2026</span></p>
   </div>
   
   <div class="calc-box">
-    <form id="dataCalcForm">
-      <fieldset>
-        <legend>Ihr Nutzungsverhalten</legend>
-        
-        <label>Reisedauer (in Tagen):</label>
-        <input type="number" id="cDays" value="14" min="1" required>
+  <h2>Calculadora de Custos de Roaming</h2>
+  <p class="calc-subtitle">Determine em segundos as suas necessidades reais de dados para Turquia e a armadilha de custos da sua operadora de rede móvel.</p>
+  
+  <form id="dataCalcForm">
+    <div class="form-grid">
+      <div class="form-group">
+        <label for="cDays">Duração da viagem (dias)</label>
+        <input type="number" id="cDays" value="14" min="1" max="365" required>
+      </div>
 
-        <label>Google Maps & Navigation (Nutzung pro Tag):</label>
-        <select id="cMaps" required>
-          <option value="15">Wenig (ca. 15 Min)</option>
-          <option value="60" selected>Mittel (ca. 1 Stunde)</option>
-          <option value="120">Viel (Roadtrip / über 2 Stunden)</option>
+      <div class="form-group">
+        <label for="cUsage">Perfil de utilização</label>
+        <select id="cUsage" required>
+          <option value="light">Baixo: Maps, e-mails, WhatsApp</option>
+          <option value="normal" selected>Médio: Redes sociais, navegação</option>
+          <option value="heavy">Intensivo: Streaming, trabalho remoto</option>
         </select>
+      </div>
 
-        <label>Social Media & WhatsApp (Bilder/Videos scrollen pro Tag):</label>
-        <select id="cSocial" required>
-          <option value="30">Gelegentlich (ca. 30 Min)</option>
-          <option value="90" selected>Regelmäßig (ca. 1,5 Stunden)</option>
-          <option value="180">Intensiv (ca. 3 Stunden)</option>
-        </select>
-
-        <label>Video Streaming (Netflix, YouTube pro Tag):</label>
+      <div class="form-group">
+        <label for="cVideo">Streaming de vídeo por dia</label>
         <select id="cVideo" required>
-          <option value="0" selected>Gar nicht (nutze Hotel-WLAN)</option>
-          <option value="60">Ca. 1 Stunde (z z.B. Abends)</option>
-          <option value="120">Über 2 Stunden</option>
+          <option value="0">Nenhum (apenas Wi-Fi do hotel)</option>
+          <option value="1" selected>Até 1 hora</option>
+          <option value="2">1 a 3 horas</option>
+          <option value="4">Mais de 3 horas</option>
         </select>
-      </fieldset>
+      </div>
+    </div>
 
-      <button type="button" class="button-primary" id="calcDataBtn">Gigabyte & Kosten berechnen</button>
-    </form>
+    <button type="button" class="button-primary" id="calcDataBtn">Iniciar análise</button>
+  </form>
 
+  <div id="dataResultBox" class="result-box" style="display: none;"></div>
+</div>
+  
+<div class="solution-box">
+  <span class="solution-badge">Anúncio / Recomendação publicitária</span>
+  <h2>A solução: eSIM para Turquia</h2>
+  <p class="solution-intro">
+    Em vez de procurar lojas caríssimas no aeroporto, instale um cartão SIM digital antes de descolar. Basta digitalizar um código QR e terá rede imediatamente ao aterrar – enquanto o seu número de telemóvel português permanece ativo para SMS importantes (por exemplo, homebanking).
+  </p>
+  
+  <div class="solution-grid">
+    <div class="solution-price-col">
+      <span class="price-label">O seu preço inicial</span>
+      <span class="price-value">a partir de 4,50 $</span>
+      <span class="price-label" style="margin-top: 20px;">O pacote incluído</span>
+      <span class="package-value">1 GB por 7 dias</span>
+    </div>
     
-    <div id="dataResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #8B0000;">
-      
+    <div class="solution-benefits-col">
+      <ul class="solution-benefits">
+        <li>Instalação em menos de 3 minutos via aplicação</li>
+        <li>Pré-pago sem fidelização – controlo total de custos</li>
+        <li>Utilização na rede local mais forte de Turquia</li>
+      </ul>
     </div>
   </div>
-
   
-  <h2>Die Lösung: Eine digitale eSIM für Turquia</h2>
-  <p>Anstatt am Flughafen mühsam nach einem überteuerten Handyshop zu suchen, dort Schlange zu stehen und Ihren Reisepass einscannen zu lassen, laden Sie sich einfach schon vor dem Abflug eine <strong>eSIM (eine digitale SIM-Karte)</strong> auf Ihr Smartphone. Sie scannen lediglich einen QR-Code und haben bei der Landung sofort Empfang.</p>
-
-<div class="solution-box">    <h2> Der smarte Reise-Hack: Holafly</h2>
-    <p>Mit dem Marktführer <strong>Holafly</strong> laden Sie sich Ihr Datenpaket als App direkt aufs Handy. Der Clou: Ihre deutsche Rufnummer bleibt für eingehende Anrufe oder SMS (wichtig für Online-Banking!) im Hintergrund aktiv!</p>
-    
-    <span style="font-size: 0.75rem; color: #fff; background-color: rgba(0,0,0,0.15); padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; display: inline-block; margin-bottom: 12px; font-weight: bold;">
-        Anzeige / Werbeempfehlung
-    </span>
-    
-    <div class="solution-price">ab 4,50 $</div>
-    <p style="font-size: 1.1em; margin-bottom: 25px;"><strong>Bestes Preis-Leistungs-Paket:</strong> 1 GB por 7 dias im stärksten lokalen Netz von Turquia.</p>
-    
-    <a href="https://esim.holafly.com" target="_blank" rel="noopener nofollow" class="button-primary" style="background: #ffb300; color: #000; display: inline-block; padding: 15px 30px; text-decoration: none; border-radius: 6px; font-size: 1.2em;">Jetzt Holafly eSIM Tarife ansehen</a>
-    <p style="font-size: 0.85em; color: #666; margin-top: 15px;">Installation in 3 Minuten • Prepaid (keine Abofalle) • 100% Kostenkontrolle</p>
-  </div>
+  <a href="https://esim.holafly.com" target="_blank" rel="noopener nofollow" class="button-cta">
+    Ver tarifários e pacotes
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M5 12h14M12 5l7 7-7 7"/>
+    </svg>
+  </a>
+</div>
 
   
   <div class="seo-content" style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 30px;">
-    <h2>Warum lokales Roaming so teuer ist</h2>
-    <p>Wenn Sie das EU-Ausland verlassen, gelten die strengen EU-Roaming-Regulierungen nicht mehr. Ihr deutscher Netzanbieter muss sich nun bei den lokalen Funknetzbetreibern in Turquia "einmieten". Diese Interconnection-Gebühren sind für Laufzeitkunden oft astronomisch hoch. Auch spezielle "Reise-Pakete" (Travel-Surf-Pässe), die Vodafone oder die Telekom per SMS anbieten, sind meist reine Abzocke: Oft erhalten Sie dort für 15 bis 30 Euro lächerliche 500 MB bis 1 GB für maximal 24 Stunden oder eine Woche.</p>
+    <h2>Por que razão o roaming local é tão caro</h2>
+    <p>Quando sai da União Europeia, as rigorosas regulamentações da UE sobre roaming deixam de se aplicar. A sua operadora portuguesa precisa agora de "alugar" acesso às operadoras de rede móvel locais em Turquia. Estas taxas de interligação são frequentemente astronómicas para clientes com contrato. Também os "pacotes de viagem" especiais (passes de roaming) oferecidos via SMS por operadoras como a MEO, NOS ou Vodafone são, na sua maioria, verdadeiras armadilhas: por 15 a 30 euros, recebe frequentemente uma quantidade ridícula de 500 MB a 1 GB por um período máximo de 24 horas ou uma semana.</p>
 
-    <h3>Lokale Plastik-SIM vs. eSIM</h3>
-    <p>Viele Backpacker kauften sich früher am Flughafen eine lokale Prepaid-SIM-Karte aus Plastik. Das hat jedoch drei gewaltige Nachteile, die eine eSIM löst:</p>
-    <table class="comparison-table" style="width: 100%; border-collapse: collapse; margin-top: 15px;">
-      <tr style="background: #f5f5f5;">
-        <th style="padding: 10px; border: 1px solid #ddd;">Kriterium</th>
-        <th style="padding: 10px; border: 1px solid #ddd;">Lokale Plastik-SIM</th>
-        <th style="padding: 10px; border: 1px solid #ddd;">Reise eSIM (Holafly)</th>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;">Erreichbarkeit</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Ihre dt. SIM muss raus. Sie sind unter Ihrer Nummer <strong>nicht</strong> erreichbar (keine Banking-SMS!).</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Beide Karten (Dual-SIM) sind aktiv. Sie surfen lokal, bleiben aber telefonisch unter dt. Nummer erreichbar.</td>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;">Zeitaufwand</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Lange Suche & Wartezeit am Flughafen nach dem langen Flug.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Wird bequem schon in Deutschland per App installiert.</td>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;">Datenschutz</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Ausweisdokumente müssen oft in zwielichtigen Shops kopiert werden.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Keine Vorlage von Ausweisdokumenten vor Ort notwendig.</td>
-      </tr>
-    </table>
+    <h3>Cartão SIM físico local vs. eSIM</h3>
+<p>Muitos viajantes costumavam comprar um cartão SIM pré-pago local no aeroporto. No entanto, isso tem enormes desvantagens que o eSIM resolve:</p>
 
-    <h3 style="margin-top: 30px;">Sicherheit im öffentlichen WLAN</h3>
-    <p>Viele Reisende denken sich: <em>"Ich brauche keine Daten-SIM, ich nutze einfach das Gratis-WLAN im Hotel oder bei Starbucks."</em> Dies ist sicherheitstechnisch hochgradig bedenklich. Offene Netzwerke können problemlos von Kriminellen manipuliert werden (Man-in-the-Middle-Angriffe), um Ihre Passwörter oder Online-Banking-Daten abzugreifen. Mit einer eigenen 4G/5G-Datenverbindung via eSIM surfen Sie in einem geschlossenen, sicheren Netz und sind zudem nicht an die Nähe eines Cafés gebunden, wenn Sie in Turquia ein Uber rufen oder nach dem Weg suchen müssen.</p>
+<table class="comparison-table">
+  <thead>
+    <tr>
+      <th>Critério</th>
+      <th class="option-weak">Cartão SIM físico local</th>
+      <th class="option-strong">eSIM Holafly</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Acessibilidade</strong></td>
+      <td data-label="Cartão SIM físico local">O seu cartão SIM português tem de ser removido. Não estará contactável no seu número (sem SMS do banco!).</td>
+      <td data-label="eSIM Holafly" class="cell-strong">Ambos os cartões estão ativos (Dual SIM). Navega na Internet localmente e continua contactável por telefone.</td>
+    </tr>
+    <tr>
+      <td><strong>Tempo necessário</strong></td>
+      <td data-label="Cartão SIM físico local">Procura longa e tempo de espera no aeroporto após um voo longo.</td>
+      <td data-label="eSIM Holafly" class="cell-strong">Instalação confortável ainda em Portugal através da aplicação.</td>
+    </tr>
+    <tr>
+      <td><strong>Proteção de dados</strong></td>
+      <td data-label="Cartão SIM físico local">Os documentos de identificação têm frequentemente de ser fotocopiados em lojas duvidosas.</td>
+      <td data-label="eSIM Holafly" class="cell-strong">Não é necessária qualquer apresentação de documentos de identificação no local.</td>
+    </tr>
+  </tbody>
+</table>
+
+    <h3 style="margin-top: 30px;">Segurança no Wi-Fi público</h3>
+    <p>Muitos viajantes pensam: <em>"Não preciso de um SIM de dados, vou simplesmente usar o Wi-Fi gratuito do hotel ou do Starbucks."</em> Do ponto de vista da segurança, isto é altamente preocupante. As redes abertas podem ser facilmente manipuladas por criminosos (ataques do tipo Man-in-the-Middle) para capturar as suas palavras-passe ou dados de acesso ao banco. Com a sua própria ligação de dados 4G/5G via eSIM, navega numa rede fechada e segura, sem depender da proximidade de um café quando precisar de chamar um Uber ou procurar o caminho em Turquia.</p>
     
     
-    <h2 style="margin-top: 40px;">Häufige Fragen (FAQ) zur eSIM in Turquia</h2>
+    <h2 style="margin-top: 40px;">Perguntas frequentes (FAQ) sobre o eSIM em Turquia</h2>
     <details style="background: #fafafa; border: 1px solid #ddd; padding: 10px 15px; margin-bottom: 10px; border-radius: 4px;">
-      <summary style="font-weight: bold; cursor: pointer;">Kann ich meine WhatsApp-Nummer behalten?</summary>
-      <p style="margin-top: 10px; color: #555;"><strong>Ja, absolut!</strong> WhatsApp ist fest an Ihre installierte App geknüpft, nicht an die physische Karte, die aktuell das Internet liefert. Wenn Sie die eSIM für das Datennetz nutzen, fragt WhatsApp nicht nach einer Änderung. Sie schreiben, telefonieren und senden Bilder über WhatsApp wie immer – nur viel günstiger.</p>
+      <summary style="font-weight: bold; cursor: pointer;">Posso manter o meu número do WhatsApp?</summary>
+      <p style="margin-top: 10px; color: #555;"><strong>Sim, com certeza!</strong> O WhatsApp está diretamente associado à sua aplicação instalada, e não ao cartão físico que fornece a Internet no momento. Quando utiliza o eSIM para a rede de dados, o WhatsApp não pede qualquer alteração. Envia mensagens, faz chamadas e envia fotos pelo WhatsApp como sempre – apenas muito mais barato.</p>
     </details>
     <details style="background: #fafafa; border: 1px solid #ddd; padding: 10px 15px; margin-bottom: 10px; border-radius: 4px;">
-      <summary style="font-weight: bold; cursor: pointer;">Unterstützt mein aktuelles Smartphone eSIMs?</summary>
-      <p style="margin-top: 10px; color: #555;">Fast alle modernen Smartphones sind eSIM-fähig. Dazu gehören alle Apple iPhones ab dem Modell XS (inklusive 11, 12, 13, 14, 15), die Samsung Galaxy S-Klasse ab dem S20 sowie alle Google Pixel Geräte ab dem Pixel 3. Eine detaillierte Kompatibilitätsliste finden Sie direkt in der Holafly App.</p>
+      <summary style="font-weight: bold; cursor: pointer;">O meu smartphone atual suporta eSIMs?</summary>
+      <p style="margin-top: 10px; color: #555;">Quase todos os smartphones modernos são compatíveis com eSIM. Isto includes todos os iPhones da Apple a partir do modelo XS (incluindo 11, 12, 13, 14, 15), a gama Samsung Galaxy S a partir do S20, bem como todos os dispositivos Google Pixel a partir do Pixel 3. Pode encontrar uma lista detalhada de compatibilidade diretamente na aplicação Holafly.</p>
     </details>
     <details style="background: #fafafa; border: 1px solid #ddd; padding: 10px 15px; margin-bottom: 10px; border-radius: 4px;">
-      <summary style="font-weight: bold; cursor: pointer;">Wann sollte ich die eSIM kaufen und installieren?</summary>
-      <p style="margin-top: 10px; color: #555;">Laden Sie die Holafly App herunter und installieren Sie die eSIM am besten <strong>1 bis 2 Tage vor Ihrem Abflug</strong> ganz entspannt im heimischen WLAN. Das Paket wird (je nach Tarif) in der Regel erst dann aktiviert und die Tage beginnen zu zählen, wenn sich die eSIM zum ersten Mal mit einem Sendemast in Turquia verbindet.</p>
+      <summary style="font-weight: bold; cursor: pointer;">Quando devo comprar e instalar o eSIM?</summary>
+      <p style="margin-top: 10px; color: #555;">Transfira a aplicação da Holafly e instale o eSIM preferencialmente <strong>1 a 2 dias antes da sua partida</strong>, tranquilamente no Wi-Fi de sua casa. O pacote (dependendo do tarifário) é geralmente ativado e a contagem dos dias só começa quando o eSIM se liga pela primeira vez a uma antena em Turquia.</p>
     </details>
   </div>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
-  <h3>Weitere interessante Themen:</h3>
+  <h3>Outros tópicos do seu interesse:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="internet-roaming-kosten-australien.html">Austrália</a>
-<a href="internet-roaming-kosten-aegypten.html">Egito</a>
-<a href="internet-roaming-kosten-philippinen.html">Filipinas</a>
-<a href="internet-roaming-kosten-argentinien.html">Argentina</a>
-<a href="internet-roaming-kosten-indien.html">Índia</a>
+    <a href="internet-roaming-kosten-vietnam.html">Vietnã</a>
+<a href="internet-roaming-kosten-mauritius.html">Maurício</a>
+<a href="internet-roaming-kosten-usa.html">EUA</a>
+<a href="internet-roaming-kosten-kanada.html">Canadá</a>
+<a href="internet-roaming-kosten-costa-rica.html">Costa Rica</a>
 
   </div>
 </div>
 </div>
 
 <div class="trust-section">
-    <h3>Expertise im Reiserecht & Fahrgastrechten</h3>
+    <h3>Especialização em Direito do Turismo e Direitos dos Passageiros</h3>
     <p class="trust-text">
-        Unsere Ratgeber und Generatoren basieren auf der strikten Auswertung aktueller EU-Verordnungen (wie EG 261/2004), BGH-Urteilen und dem nationalen Reiserecht. 
-        Sie werden von Marc (Projektleitung) & Team entwickelt, um Reisenden eine rechtssichere Durchsetzung gegenüber Airlines und Reiseveranstaltern zu ermöglichen.
+        Os nossos guias e geradores baseiam-se na análise rigorosa dos regulamentos atuais da UE (como o Regulamento CE 261/2004), na jurisprudência dos tribunais e na legislação nacional do turismo. 
+        São desenvolvidos por Marc (Líder de Projeto) & equipa para permitir aos viajantes uma reivindicação juridicamente segura perante companhias aéreas e operadores turísticos.
         <br><br>
         <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
-            Wichtiger Hinweis: Unsere Tools bieten Hilfe zur Selbsthilfe bei Flugverspätung, Hotelmängeln oder Zugausfällen. Sie ersetzen keine individuelle Rechtsberatung durch einen Anwalt.
+            Nota importante: As nossas ferramentas oferecem apoio para autoajuda em casos de atrasos de voos, deficiências no hotel ou cancelamentos de comboios. Não substituem o aconselhamento jurídico individual por parte de um advogado.
         </span>
     </p>
 
     
     <a href="ueber-uns.html" class="trust-link">
-        Details zur rechtlichen Methodik & Redaktion erfahren →
+        Saiba mais detalhes sobre a metodologia jurídica e a redação →
     </a>
 
     <div class="lotse-card">
     <p>
-        <strong>Problem mit dem Flug, der Bahn oder dem Hotel?</strong><br>
-        Fix-My-Trip prüft in wenigen Schritten Ihren Anspruch auf Entschädigung, Ticket-Erstattung oder Reisepreisminderung. <br>
-        <em>Ein Service von Fix my Trip.</em>
+        <strong>Problemas com o voo, comboio ou hotel?</strong><br>
+        O Fix-My-Trip verifica em poucos passos o seu direito a indemnização, reembolso de bilhetes ou redução do preço da viagem. <br>
+        <em>Um serviço de Fix my Trip.</em>
     </p>
 </div>
 
 <p class="feedback-note">
-    💡 <strong>Fehler im Tool entdeckt?</strong> Da wir als automatisiertes Portal keine individuelle Rechtsberatung leisten, helfen Sie uns enorm, wenn Sie Bugs oder veraltete Anbieter melden: 
-    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Feedback an unsere Zentrale senden</a>.
+    💡 <strong>Encontrou um erro na ferramenta?</strong> Como portal automatizado, não prestamos aconselhamento jurídico individual, pelo que nos ajuda imenso se comunicar erros ou operadoras desatualizadas: 
+    <a href="mailto:info@kassen-lotse.de?subject=Feedback%20Fix-My-Trip" style="color: #777; text-decoration: underline;">Enviar feedback para a nossa central</a>.
 </p>
 </div>
 
 <section class="site-niche-directory">
     <div class="niche-directory-container">
-        <h2 class="niche-directory-title">Weitere Themenbereiche entdecken</h2>
+        <h2 class="niche-directory-title">Descobrir outras áreas temáticas</h2>
         <p class="niche-directory-intro">
-            Egal ob Flugverspätung, Hotelmangel oder Roaming-Falle – unsere Experten haben für fast jede Reise-Nische den passenden Leitfaden und Musterschreiben vorbereitet.
+            Quer se trate de um atraso de voo, deficiência no hotel ou armadilha de roaming – os nossos especialistas prepararam o guia e a minuta adequados para quase todas as situações de viagem.
         </p>
         
         <div class="niche-directory-grid">
             <div class="niche-directory-group">
-                <h3>Flug &amp; Flughafen</h3>
+                <h3>Voo &amp; Aeroporto</h3>
                 <ul>
-                    <li><a href="flugverspaetung-info.html">Flugverspätung &amp; Ausfall</a></li>
-                    <li><a href="steuern-info.html">Flugsteuern zurückfordern</a></li>
-                    <li><a href="gepaeck-info.html">Gepäckverlust &amp; Koffer-Schäden</a></li>
+                    <li><a href="flugverspaetung-info.html">Atrasos de voo &amp; cancelamentos</a></li>
+                    <li><a href="steuern-info.html">Reclamar taxas aeroportuárias</a></li>
+                    <li><a href="gepaeck-info.html">Perda de bagagem &amp; danos em malas</a></li>
                     
                 </ul>
             </div>
 
             <div class="niche-directory-group">
-                <h3>Unterkunft &amp; Pauschalreise</h3>
+                <h3>Alojamento &amp; Pacotes Turísticos</h3>
                 <ul>
-                    <li><a href="hotel-maengel-info.html">Hotelmängel &amp; Baulärm</a></li>
-                    <li><a href="storno-info.html">Reise stornieren (Kosten)</a></li>
-                    <li><a href="ferienhaus-maengel-info.html">Ferienhäuser &amp; Fewos</a></li>
-                    <li><a href="airbnb-probleme-info.html">Airbnb Problemlösungen</a></li>
-                    <li><a href="kreuzfahrt-minderung.html">Kreuzfahrt-Mängel</a></li>
+                    <li><a href="hotel-maengel-info.html">Deficiências no hotel &amp; ruído de obras</a></li>
+                    <li><a href="storno-info.html">Cancelar viagem (custos)</a></li>
+                    <li><a href="ferienhaus-maengel-info.html">Casas de férias &amp; apartamentos</a></li>
+                    <li><a href="airbnb-probleme-info.html">Soluções de problemas na Airbnb</a></li>
+                    <li><a href="kreuzfahrt-minderung.html">Deficiências em cruzeiros</a></li>
                 </ul>
             </div>
 
             <div class="niche-directory-group">
-                <h3>Reise-Vorbereitung &amp; Mobilität</h3>
+                <h3>Preparação de viagem &amp; Mobilidade</h3>
                 <ul>
-                    <li><a href="zugverspaetung-info.html">Zugverspätung &amp; Bahnrechte</a></li>
-                    <li><a href="einreise-info.html">Einreisebestimmungen &amp; Visum</a></li>
-                    <li><a href="esim-roaming-info.html">eSIM &amp; Roaming-Kosten</a></li>
-                    <li><a href="mietwagen-info.html">Mietwagen-Versicherungen</a></li>
+                    <li><a href="zugverspaetung-info.html">Atrasos de comboio &amp; direitos dos passageiros</a></li>
+                    <li><a href="einreise-info.html">Requisitos de entrada &amp; vistos</a></li>
+                    <li><a href="esim-roaming-info.html">eSIM &amp; custos de roaming</a></li>
+                    <li><a href="mietwagen-info.html">Seguros de carros de aluguer</a></li>
                     
-                    <li><a href="reisekreditkarten-info.html">Reisekreditkarten-Vergleich</a></li>
+                    <li><a href="reisekreditkarten-info.html">Comparação de cartões de crédito para viagem</a></li>
                 </ul>
             </div>
         </div>
@@ -309,10 +771,10 @@
 <footer>
     <p>&copy; 2026 Fix-my-Trip.com</p>
     <nav>
-        <a href="ueber-uns.html">Über uns</a> | 
-        <a href="index.html">Startseite</a> | 
-        <a href="impressum.html">Impressum</a> | 
-        <a href="datenschutz.html">Datenschutz</a>
+        <a href="ueber-uns.html">Sobre nós</a> | 
+        <a href="index.html">Página inicial</a> | 
+        <a href="impressum.html">Ficha técnica</a> | 
+        <a href="datenschutz.html">Política de privacidade</a>
     </nav>
 </footer>
 
@@ -323,58 +785,101 @@ document.addEventListener('DOMContentLoaded', function() {
 
   if(calcBtn) {
     calcBtn.addEventListener('click', function() {
-      
       const days = parseInt(document.getElementById('cDays').value) || 1;
-      const mapsMin = parseInt(document.getElementById('cMaps').value) || 0;
-      const socialMin = parseInt(document.getElementById('cSocial').value) || 0;
-      const videoMin = parseInt(document.getElementById('cVideo').value) || 0;
+      const usage = document.getElementById('cUsage').value;
+      const videoHours = parseInt(document.getElementById('cVideo').value) || 0;
 
-      
-      
-      const mbPerMinMaps = 1;   
-      const mbPerMinSocial = 3; 
-      const mbPerMinVideo = 15; 
+            const usageProfiles = {
+        light: { base: 0.5, social: 0.1, maps: 0.2 },
+        normal: { base: 1.2, social: 0.3, maps: 0.3 },
+        heavy: { base: 2.5, social: 0.5, maps: 0.4 }
+      };
 
-      
-      const dailyMB = (mapsMin * mbPerMinMaps) + (socialMin * mbPerMinSocial) + (videoMin * mbPerMinVideo);
-      const totalMB = dailyMB * days;
-      const totalGB = (totalMB / 1024).toFixed(1);
+      const profile = usageProfiles[usage];
+      const videoGB = videoHours * 1.5;
+      const dailyGB = profile.base + profile.social + profile.maps + videoGB;
+      const totalGB = (dailyGB * days).toFixed(1);
+      const totalMB = totalGB * 1024;
 
-      
-      const roamingCostPerMB = 0.99;
-      let totalRoamingCost = totalMB * roamingCostPerMB;
-      
-      
-      const formattedRoamingCost = totalRoamingCost.toLocaleString('de-DE', { style: 'currency', currency: 'EUR' });
+            const roamingText = '0,99 €';
+      const roamingNum = parseFloat(roamingText.replace(/[^\d,\.]/g, '').replace(',', '.')) || 0.99;
+      const roamingCurrency = roamingText.match(/[\€\$\£\¥]/)?.[0] || '€';
 
-      
+            const costCutoff = 59.90;
+      const dataForCutoffGB = ((costCutoff / roamingNum) / 1024).toFixed(2);
+      const theoreticalCost = totalMB * roamingNum;
+
+            const esimPrice = '4,50 $';
+      const esimVolume = '1 GB por 7 dias';
+
+      const formatNumber = (num) => num.toLocaleString('pt-PT', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+
       resultBox.style.display = 'block';
       resultBox.innerHTML = `
-        <h3 style="color: #c62828; margin-top: 0; font-size: 1.4em;">Ihr Ergebnis für ${days} Tage:</h3>
-        <p style="font-size: 1.1em;">Sie benötigen voraussichtlich <strong>ca. ${totalGB} GB</strong> Datenvolumen für diesen Zeitraum.</p>
-        
-        <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
-          
-          <div style="flex: 1; min-width: 250px; padding: 20px; background: #ffebee; border: 2px solid #c62828; border-radius: 6px;">
-            <h4 style="color: #b71c1c; margin-top: 0; font-size: 1.1em;">Klassisches Roaming</h4>
-            <p style="margin-bottom: 10px; font-size: 0.9em; color: #555;">Ohne Spezialpaket (ca. 0,99 € / MB):</p>
-            <span style="font-size: 1.8em; font-weight: 900; color: #c62828;">${formattedRoamingCost}</span>
-            <p style="font-size: 0.85em; color: #b71c1c; margin-top: 10px; font-weight: bold;">⚠️ Absolute Kostenfalle!</p>
-          </div>
-          
-          
-          <div style="flex: 1; min-width: 250px; padding: 20px; background: #f1f8e9; border: 2px solid #2e7d32; border-radius: 6px;">
-            <h4 style="color: #2e7d32; margin-top: 0; font-size: 1.1em;">Digitale eSIM</h4>
-            <p style="margin-bottom: 10px; font-size: 0.9em; color: #555;">Mit ausreichendem GB-Paket:</p>
-            <span style="font-size: 1.8em; font-weight: 900; color: #2e7d32;">ab ca. 4,50 €</span>
-            <p style="font-size: 0.85em; color: #2e7d32; margin-top: 10px; font-weight: bold;">✅ 100% Kostenkontrolle</p>
-          </div>
+        <div class="result-header">
+          <span class="result-eyebrow">A sua análise pessoal</span>
+          <h3>Necessidade de dados para ${days} dias em Turquia</h3>
+          <p class="result-demand">O seu consumo estimado: <strong>${totalGB} GB</strong></p>
         </div>
         
-        <p style="margin-top: 25px; text-align: center;">
-          <button onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth'});" style="background: #8B0000; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">Jetzt günstige Alternative ansehen</button>
-        </p>
+        <div class="result-comparison">
+          <div class="result-card">
+            <div class="card-header option-weak">
+              <h4>Operadoras de rede móvel portuguesas</h4>
+              <span class="card-subtitle">MEO, NOS, Vodafone (Zona 3/4)</span>
+            </div>
+            <div class="card-body">
+              <p class="warning-text">
+                Segundo o regulamento da UE, as operadoras têm de bloquear automaticamente o roaming de dados por volta dos <strong>${formatNumber(costCutoff)} ${roamingCurrency}</strong>. 
+              </p>
+              <p class="highlight-negative">
+                Por este montante, no entanto, recebe em Turquia apenas <strong>${dataForCutoffGB} GB</strong> (a ${roamingText}/MB). 
+              </p>
+              <p class="card-note">
+                Isto é apenas uma fração das suas necessidades de ${totalGB} GB. Se desativasse o bloqueio manualmente, os custos seriam de <strong>${formatNumber(theoreticalCost)} ${roamingCurrency}</strong>.
+              </p>
+            </div>
+          </div>
+
+          <div class="result-card">
+            <div class="card-header option-strong">
+              <h4>eSIM Holafly</h4>
+              <span class="card-subtitle">Cartão SIM digital</span>
+            </div>
+            <div class="card-body">
+              <p class="card-intro">
+                Paga um preço fixo antes da viagem. Sem bloqueios, sem surpresas.
+              </p>
+              <p class="highlight-positive">
+                Pacote: <strong>${esimVolume}</strong>
+              </p>
+              <p class="card-price">
+                A partir de <strong>${esimPrice}</strong>
+              </p>
+              <p class="card-note">
+                Controlo total de custos e utilização imediata ao aterrar.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="result-bridge">
+          <button type="button" class="bridge-link" id="bridgeToSolution">
+            Ir para o pacote eSIM adequado para Turquia
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 5v14M5 12l7 7-7 7"/>
+            </svg>
+          </button>
+        </div>
       `;
+
+            document.getElementById('bridgeToSolution').addEventListener('click', function() {
+        document.querySelector('.solution-box').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+
+            setTimeout(function() {
+        resultBox.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 80);
     });
   }
 });

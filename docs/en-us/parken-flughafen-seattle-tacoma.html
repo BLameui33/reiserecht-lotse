@@ -22,6 +22,488 @@
   <link rel="icon" href="/logo-lotse-fav.png">
 
   <style>
+
+    /* =========================================
+   PARKEN-TOOL: DESIGN-SYSTEM
+   ========================================= */
+
+/* Shock-Box */
+.shock-box {
+  background: #fbf0f0;
+  border-left: 3px solid #8B0000;
+  padding: 35px 40px;
+  margin: 40px 0;
+}
+
+.shock-box h2 {
+  color: #8B0000;
+  margin: 0 0 15px 0;
+}
+
+.shock-box p {
+  color: #333;
+  line-height: 1.7;
+  margin: 0 0 15px 0;
+}
+
+.shock-price {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #8B0000;
+  margin: 20px 0;
+  padding: 15px 0;
+  border-top: 1px solid rgba(139, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(139, 0, 0, 0.2);
+}
+
+.shock-context {
+  font-style: italic;
+  color: #555;
+  font-size: 0.95em;
+}
+
+/* Calculator */
+.calc-box {
+  border: 1px solid #e6e6e6;
+  border-top: 3px solid #8B0000;
+  padding: 45px 50px;
+  margin: 60px 0;
+}
+
+.calc-box h2 {
+  margin: 0 0 10px 0;
+}
+
+.calc-subtitle {
+  color: #666;
+  font-size: 1.05em;
+  line-height: 1.6;
+  margin: 0 0 35px 0;
+  max-width: 700px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+  font-size: 0.92em;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 13px 15px;
+  font-size: 1em;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  background: #fcfcfc;
+  color: #1a1a1a;
+  font-family: inherit;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #8B0000;
+  background: #ffffff;
+}
+
+.button-primary,
+.button-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  width: auto;
+  padding: 14px 32px;
+  background: #8B0000;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: inherit;
+  transition: background 0.2s ease;
+}
+
+.button-primary:hover,
+.button-cta:hover {
+  background: #6d0000;
+}
+
+/* Ergebnis-Box */
+.result-box {
+  margin-top: 45px;
+  padding-top: 40px;
+  border-top: 1px solid #e6e6e6;
+  animation: fadeIn 0.4s ease-out;
+  scroll-margin-top: 100px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.result-eyebrow {
+  display: inline-block;
+  font-size: 0.72em;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #8B0000;
+  background: #fbf0f0;
+  padding: 6px 14px;
+  border-radius: 999px;
+  margin-bottom: 15px;
+}
+
+.result-header h3 {
+  margin: 0 0 8px 0;
+}
+
+.result-demand {
+  color: #555;
+  font-size: 1.05em;
+  margin: 0 0 35px 0;
+}
+
+.result-comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 35px;
+}
+
+.result-card {
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.card-header {
+  padding: 20px 28px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.card-header.option-weak {
+  background: #f7f7f7;
+}
+
+.card-header.option-strong {
+  background: #ffffff;
+  border-top: 3px solid #8B0000;
+}
+
+.card-header h4 {
+  margin: 0 0 3px 0;
+  font-size: 1.05em;
+  color: #1a1a1a;
+}
+
+.card-subtitle {
+  font-size: 0.83em;
+  color: #888;
+}
+
+.card-body {
+  padding: 28px;
+}
+
+.card-body p {
+  margin: 0 0 15px 0;
+  line-height: 1.65;
+  color: #444;
+  font-size: 0.95em;
+}
+
+.card-body p:last-child { margin-bottom: 0; }
+
+.card-intro {
+  color: #555 !important;
+}
+
+.highlight-negative,
+.highlight-positive {
+  background: #fbf0f0;
+  border-left: 3px solid #8B0000;
+  padding: 12px 16px !important;
+  color: #1a1a1a !important;
+  font-size: 1.3em !important;
+  font-weight: 600;
+}
+
+.highlight-positive {
+  background: #f7f7f7;
+}
+
+.highlight-negative strong,
+.highlight-positive strong {
+  color: #8B0000;
+}
+
+.card-note {
+  font-size: 0.86em !important;
+  color: #888 !important;
+  font-style: italic;
+  border-top: 1px solid #eeeeee;
+  padding-top: 12px;
+}
+
+/* Brücke zum Lösungsblock */
+.result-bridge {
+  margin-top: 40px;
+  padding-top: 28px;
+  border-top: 1px solid #e6e6e6;
+  text-align: center;
+}
+
+.bridge-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: none;
+  border: none;
+  padding: 0;
+  color: #8B0000;
+  font-family: inherit;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.bridge-link:hover {
+  border-bottom-color: #8B0000;
+}
+
+/* Solution-Box */
+.solution-box {
+  border: 1px solid #e6e6e6;
+  padding: 45px 50px;
+  margin: 60px 0;
+  scroll-margin-top: 100px;
+}
+
+.solution-badge {
+  display: inline-block;
+  font-size: 0.72em;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #8B0000;
+  background: #fbf0f0;
+  padding: 6px 14px;
+  border-radius: 999px;
+  margin-bottom: 20px;
+}
+
+.solution-box h2 {
+  margin: 0 0 15px 0;
+}
+
+.solution-intro {
+  color: #444;
+  font-size: 1.05em;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 0 35px 0;
+}
+
+.solution-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 50px;
+  padding: 30px 0;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 30px;
+}
+
+.price-label {
+  display: block;
+  font-size: 0.75em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #888;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.price-value {
+  display: block;
+  font-size: 2.2em;
+  font-weight: 700;
+  color: #8B0000;
+  line-height: 1.2;
+}
+
+.package-value {
+  display: block;
+  font-size: 1.15em;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.solution-benefits {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.solution-benefits li {
+  position: relative;
+  padding: 9px 0 9px 24px;
+  color: #444;
+  line-height: 1.55;
+}
+
+.solution-benefits li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  color: #8B0000;
+  font-weight: 700;
+}
+
+/* Vergleichs-Tabelle */
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px 0;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.comparison-table thead {
+  background: #f7f7f7;
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: 18px 22px;
+  text-align: left;
+  border-bottom: 1px solid #f0f0f0;
+  vertical-align: top;
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+.comparison-table th {
+  font-weight: 600;
+  color: #1a1a1a;
+  font-size: 0.85em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-bottom: 2px solid #e8e8e8;
+}
+
+.comparison-table th.option-strong {
+  color: #8B0000;
+  border-bottom: 2px solid #8B0000;
+}
+
+.comparison-table th.option-weak {
+  color: #666;
+}
+
+.comparison-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.comparison-table td:first-child {
+  font-weight: 500;
+  color: #1a1a1a;
+  background: #fafafa;
+  width: 20%;
+}
+
+.comparison-table tbody tr:hover {
+  background: #fafafa;
+}
+
+/* Mobile: Tabelle als Cards */
+@media (max-width: 760px) {
+  .comparison-table,
+  .comparison-table tbody,
+  .comparison-table tr,
+  .comparison-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .comparison-table thead {
+    display: none;
+  }
+
+  .comparison-table tbody tr {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    margin-bottom: 18px;
+    overflow: hidden;
+  }
+
+  .comparison-table td {
+    border-bottom: 1px solid #eeeeee;
+    padding: 14px 18px;
+  }
+
+  .comparison-table tbody tr td:last-child {
+    border-bottom: none;
+  }
+
+  .comparison-table td:first-child {
+    width: 100%;
+    background: #f7f7f7;
+    font-weight: 700;
+    color: #1a1a1a;
+  }
+
+  .comparison-table td:not(:first-child)::before {
+    content: attr(data-label);
+    display: block;
+    font-size: 0.72em;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #888;
+    margin-bottom: 6px;
+  }
+
+  .comparison-table td.cell-strong {
+    border-left: 3px solid #8B0000;
+  }
+
+  .comparison-table td.cell-strong::before {
+    color: #8B0000;
+  }
+}
+
+/* Mobile: Form & Grid */
+@media (max-width: 860px) {
+  .calc-box,
+  .solution-box { padding: 30px 25px; }
+  .form-grid,
+  .result-comparison,
+  .solution-grid { grid-template-columns: 1fr; gap: 20px; }
+}
+
     /* Table of Contents */
     .toc { background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 25px 0; border: 1px solid #eee; }
     .toc p { font-weight: bold; margin-top: 0; font-size: 1.1em; color: #333; }
@@ -123,11 +605,16 @@
     </ul>
   </nav>
 
-<div class="shock-box">    <h2 style="color: #b71c1c; margin-top: 0;">⚠️ Warning: Expensive Drive-Up Rates!</h2>
-    <p>Airport operators charge a premium for the convenience of parking close to the gate. If you enter the official parking garages directly at the terminal without a prior online reservation, astronomical standard rates apply.</p>
-    <div class="shock-price" style="font-size: 1.5em; font-weight: bold; color: #c62828; margin: 10px 0;">Cost: Up to 280 € for 14 days!</div>
-    <p><em>To put that in perspective: For this price, some people can book a round-trip flight. The cost of parking quickly exceeds the cost of the actual plane ticket. And that's just to leave your car sitting on a slab of concrete while you enjoy your trip.</em></p>
+<div class="shock-box">
+  <h2>Warning: Sky-High Walk-Up Rates at the Terminal</h2>
+  <p>Airport operators charge a premium for the convenience of parking near the gate. If you drive into the official terminal parking garage without a prior online reservation, you'll be hit with the airport's highest standard rates.</p>
+  <div class="shock-price">
+    Cost: Up to 280 € for 14 days
   </div>
+  <p class="shock-context">
+    <em>To put that in perspective: For that price, many travelers could book a round-trip flight. The parking bill alone can exceed the cost of your airfare – just for leaving your car sitting in a concrete lot while you're away.</em>
+  </p>
+</div>
 
   <h2 id="rechner">Tool: How much will parking cost for your trip dates?</h2>
   <p>Find out the estimated regular parking fees at Seattle-Tacoma for the duration of your trip and see how much money you can save by using a certified alternative parking lot.</p>
@@ -137,76 +624,97 @@
   </div>
   
   <div class="calc-box">
-    <!-- IMPORTANT: use form instead of div and listen to submit -->
-    <form id="parkingCalcForm">
-      <fieldset style="border: 1px solid #ddd; padding: 20px; border-radius: 8px;">
-        <legend style="font-weight: bold; padding: 0 10px; color: #f6f7f8;">Your Travel Details</legend>
-        
-        <label for="pDays" style="display:block; margin-top: 10px; font-weight:bold;">Duration of trip (in days):</label>
-        <input type="number" id="pDays" value="14" min="1" max="90" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
+  <h2>Parking Cost Calculator</h2>
+  <p class="calc-subtitle">Find out in seconds how much you'll actually pay to park at Seattle-Tacoma Airport and how much you can save with a certified off-site parking lot.</p>
+  
+  <form id="parkingCalcForm">
+    <div class="form-grid">
+      <div class="form-group">
+        <label for="pDays">Trip Duration (Days)</label>
+        <input type="number" id="pDays" value="14" min="1" max="90" required>
+      </div>
 
-        <label for="pType" style="display:block; font-weight:bold;">Desired Parking Type:</label>
-        <select id="pType" required style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box;">
-          <option value="standard" selected>Standard Spot (Outdoor/Covered)</option>
-          <option value="valet">Valet Parking (Direct vehicle handover at the terminal)</option>
+      <div class="form-group">
+        <label for="pType">Parking Type</label>
+        <select id="pType" required>
+          <option value="standard" selected>Standard (Outdoor/Covered)</option>
+          <option value="valet">Valet Parking (Direct Handoff)</option>
         </select>
-      </fieldset>
+      </div>
+    </div>
 
-      <!-- type="submit" for validation -->
-      <button type="submit" class="button-primary" id="calcParkingBtn" style="background: #8B0000; color: #fff; padding: 15px 30px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer; width: 100%; margin-top: 20px;">Calculate Parking Fees & Savings</button>
-    </form>
+    <button type="submit" class="button-primary" id="calcParkingBtn">Calculate Costs & Savings</button>
+  </form>
 
-    <div id="parkingResultBox" class="result-box" style="display: none; margin-top: 20px; padding: 20px; border-radius: 6px; background: #fff; border: 2px solid #8B0000;">
-      <!-- JS Content -->
+  <div id="parkingResultBox" class="result-box" style="display: none;"></div>
+</div>
+
+  
+<div class="solution-box">
+  <span class="solution-badge">Sponsored Recommendation</span>
+  <h2>Certified Shuttle or Valet Parking</h2>
+  <p class="solution-intro">
+    Instead of handing the airport operator your hard-earned money, smart travelers use off-site parking lots just minutes from Seattle-Tacoma Airport. You park your car in a secure, video-monitored lot. A complimentary shuttle bus takes you straight to the terminal in minutes and picks you up when you return.
+  </p>
+  
+  <div class="solution-grid">
+    <div class="solution-price-col">
+      <span class="price-label">Starting Price</span>
+      <span class="price-value">from $154</span>
+      <span class="price-label" style="margin-top: 20px;">Included Service</span>
+      <span class="package-value">Free Shuttle Transfer</span>
+    </div>
+    
+    <div class="solution-benefits-col">
+      <ul class="solution-benefits">
+        <li>24/7 security, video surveillance, and fenced premises</li>
+        <li>Free cancellation up to 24 hours before arrival</li>
+        <li>Certified providers with top customer ratings</li>
+      </ul>
     </div>
   </div>
-
-  <h2 id="loesung">The Solution: Certified Shuttle or Valet Parking</h2>
-  <p>Instead of throwing unnecessary money at the airport operator, smart travelers use alternative parking lots in the immediate vicinity of Seattle-Tacoma. You park your car on a secure, video-monitored lot. A free shuttle bus takes you directly to the terminal in just a few minutes and picks you up when you return.</p>
-
-<div class="solution-box">    <!-- NEW: Affiliate Notice -->
-    <span style="font-size: 0.75rem; color: #fff; background-color: rgba(0,0,0,0.15); padding: 3px 8px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; display: inline-block; margin-bottom: 12px; font-weight: bold;">
-        Advertisement / Sponsored Link
-    </span>
-
-    <h2> The Smart Travel Hack: Safe & Cheap Parking</h2>
-    <p>Using verified comparison portals, you can book your secure parking spot, including free shuttle transfer or exclusive valet service, in advance. No hidden costs, no stress on departure day!</p>
-    
-    <div class="solution-price">from $154</div>
-    <p style="font-size: 1.1em; margin-bottom: 25px;"><strong>Certified parking lots</strong> near Seattle-Tacoma with top ratings.</p>
-    
-    <a href="https://www.way.com" target="_blank" rel="noopener nofollow" class="button-primary main-affiliate-btn">Compare affordable parking at SEA</a>
-    <p style="font-size: 0.85em; color: #666; margin-top: 15px;">Free shuttle included • 24/7 security • Often free cancellation up to 24h before arrival</p>
-  </div>
+  
+  <a href="https://www.way.com" target="_blank" rel="noopener nofollow" class="button-cta">
+    Compare Parking Deals
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M5 12h14M12 5l7 7-7 7"/>
+    </svg>
+  </a>
+</div>
 
   <div id="details" class="seo-content" style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 30px;">
     <h2>Why Parking Directly at the Terminal is a Price Trap</h2>
     <p>Airport operators shamelessly exploit the convenience of passengers. The parking garages right next to the departure halls are primarily aimed at business travelers whose companies cover the costs, or at people doing short pick-ups and drop-offs. If you park there as a family for a two-week summer vacation, you often pay more than for an extra hotel room. Even the so-called "economy lots" on distant official airport property are usually more expensive than independent, private parking operators in the surrounding area.</p>
 
-    <h3>Official On-Site Parking vs. Alternative Shuttle Service</h3>
-    <p>Many vacationers hesitate to park outside the official airport grounds. However, a direct comparison shows that the alternatives are not only cheaper, but often much more comfortable:</p>
-    <table class="comparison-table" style="width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 0.95em;">
-      <tr style="background: #f5f5f5;">
-        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Criteria</th>
-        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Official Terminal Parking</th>
-        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Certified Alternative Parking</th>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Costs (e.g., 14 Days)</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #c62828; font-weight: bold;">approx. $180 – $300</td>
-        <td style="padding: 10px; border: 1px solid #ddd; color: #2e7d32; font-weight: bold;">approx. $50 – $80</td>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Hauling Luggage</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Often long walks through huge garages and across floors to get to check-in.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">The shuttle bus driver helps load your luggage and drops you off directly at the correct departure hall.</td>
-      </tr>
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Security</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Publicly accessible garages where anyone can walk in without being checked.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Fenced, locked properties that are only accessible to customers and staff.</td>
-      </tr>
-    </table>
+    <h3>Official Terminal Parking vs. Off-Site Shuttle Service</h3>
+<p>Many travelers worry about parking outside the airport grounds. But a direct comparison shows that off-site options are not only cheaper – they're often more comfortable:</p>
+
+<table class="comparison-table">
+  <thead>
+    <tr>
+      <th>Criterion</th>
+      <th class="option-weak">Official Terminal Parking</th>
+      <th class="option-strong">Certified Off-Site Parking</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Cost (Example: 14 Days)</strong></td>
+      <td data-label="Official Terminal Parking">$180 – $300</td>
+      <td data-label="Certified Off-Site Parking" class="cell-strong">$50 – $80</td>
+    </tr>
+    <tr>
+      <td><strong>Luggage Handling</strong></td>
+      <td data-label="Official Terminal Parking">Long walks through massive parking garages and up elevators to reach check-in.</td>
+      <td data-label="Certified Off-Site Parking" class="cell-strong">The shuttle loads your bags at the car and drops you right in front of the correct terminal.</td>
+    </tr>
+    <tr>
+      <td><strong>Security</strong></td>
+      <td data-label="Official Terminal Parking">Public parking garages anyone can walk into without any checks.</td>
+      <td data-label="Certified Off-Site Parking" class="cell-strong">Fenced, gated lots accessible only to customers and staff.</td>
+    </tr>
+  </tbody>
+</table>
 
     <h3 style="margin-top: 30px;">The Luxury Hack: Valet Parking at Seattle-Tacoma</h3>
     <p>If you think maximum comfort is unaffordable, you should try the <strong>Valet Service</strong>. You drive your car directly to the departure hall at Seattle-Tacoma. A trained and insured employee from the parking provider will be waiting for you. You step out, grab your luggage, and head straight to check-in. While you are checking in, the driver takes your car to the secure lot nearby. Upon your return, your car is waiting for you at the terminal, ready to go. The amazing part: This premium service from alternative providers is often still significantly cheaper than standard self-parking in the official terminal garage!</p>
@@ -229,11 +737,11 @@
   <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
     <h3>Discover other related topics:</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="parken-flughafen-chicago-ohare.html">Chicago O'Hare</a>
-<a href="parken-flughafen-boston-logan.html">Boston Logan</a>
-<a href="parken-flughafen-new-york-jfk.html">New York JFK</a>
+      <a href="parken-flughafen-detroit-metro.html">Detroit Metropolitan</a>
+<a href="parken-flughafen-salt-lake-city.html">Salt Lake City</a>
 <a href="parken-flughafen-san-francisco.html">San Francisco</a>
-<a href="parken-flughafen-detroit-metro.html">Detroit Metropolitan</a>
+<a href="parken-flughafen-houston-george-bush.html">George Bush Intercontinental (Houston)</a>
+<a href="parken-flughafen-boston-logan.html">Boston Logan</a>
 
     </div>
   </div>
@@ -336,35 +844,29 @@ document.addEventListener('DOMContentLoaded', function() {
   const resultBox = document.getElementById('parkingResultBox');
 
   if(form) {
-    // Umgestellt auf 'submit' für native Validierung
     form.addEventListener('submit', function(e) {
       e.preventDefault();
 
-      // 1. Werte aus dem Formular auslesen
       const days = parseInt(document.getElementById('pDays').value) || 1;
       const parkingType = document.getElementById('pType').value;
 
-      // 2. Dynamische Preiskalkulation aus der JSON (wird durch build.js injiziert)
       let baseTerminalRate = parseFloat("37") || 22.00;
       let baseAlternativeRate = parseFloat("11") || 5.00;
 
       if (parkingType === 'valet') {
-        baseTerminalRate = parseFloat("37") * 1.3 || 30.00; // Valet-Terminal-Äquivalent 
-        baseAlternativeRate = parseFloat("11") * 1.5 || 9.00;  // Alternativer Valet-Tarif
+        baseTerminalRate = parseFloat("37") * 1.3 || 30.00;
+        baseAlternativeRate = parseFloat("11") * 1.5 || 9.00;
       }
 
-      // 3. Von-Bis Spanne generieren
       let totalTerminalCostLow = days * (baseTerminalRate * 0.85);
       let totalTerminalCostHigh = days * (baseTerminalRate * 1.15);
-
-      let totalAlternativeCost = (days * baseAlternativeRate) + 15; 
+      let totalAlternativeCost = (days * baseAlternativeRate) + 15;
       
       if(totalAlternativeCost < 39) totalAlternativeCost = 39;
       
       let avgTerminal = (totalTerminalCostLow + totalTerminalCostHigh) / 2;
       let savings = avgTerminal - totalAlternativeCost;
 
-      // 4. Formatierung als Währung (Angepasst für USA)
       const formatCurrency = (val) => val.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
 
       const formattedTerminalLow = formatCurrency(totalTerminalCostLow);
@@ -372,41 +874,72 @@ document.addEventListener('DOMContentLoaded', function() {
       const formattedAlternative = formatCurrency(totalAlternativeCost);
       const formattedSavings = formatCurrency(savings);
 
-      // 5. Ergebnis in der Box ausgeben und anzeigen (Text für USA übersetzt)
       resultBox.style.display = 'block';
       resultBox.innerHTML = `
-        <h3 style="color: #c62828; margin-top: 0; font-size: 1.4em;">Your result for a ${days}-day parking duration:</h3>
-        <p style="font-size: 1.1em;">If you just drive up to the airport, you will likely pay astronomical fees. Use the alternative!</p>
-        
-        <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
-          <!-- Schock-Box: Terminal -->
-          <div style="flex: 1; min-width: 250px; padding: 20px; background: #ffebee; border: 2px solid #c62828; border-radius: 6px;">
-            <h4 style="color: #b71c1c; margin-top: 0; font-size: 1.1em;">Official Terminal Garage</h4>
-            <p style="margin-bottom: 10px; font-size: 0.9em; color: #555;">Drive-up rate on-site (Estimate):</p>
-            <span style="font-size: 1.6em; font-weight: 900; color: #c62828;">approx. ${formattedTerminalLow} to ${formattedTerminalHigh}</span>
-            <p style="font-size: 0.85em; color: #b71c1c; margin-top: 10px; font-weight: bold;">⚠️ Pure rip-off at the gate!</p>
-          </div>
-          
-          <!-- Lösungs-Box: Alternative -->
-          <div style="flex: 1; min-width: 250px; padding: 20px; background: #f1f8e9; border: 2px solid #2e7d32; border-radius: 6px;">
-            <h4 style="color: #2e7d32; margin-top: 0; font-size: 1.1em;">Certified Alternative Lot</h4>
-            <p style="margin-bottom: 10px; font-size: 0.9em; color: #555;">With Shuttle- / Valet Service:</p>
-            <span style="font-size: 1.8em; font-weight: 900; color: #2e7d32;">from ${formattedAlternative}</span>
-            <p style="font-size: 0.85em; color: #2e7d32; margin-top: 10px; font-weight: bold;">✅ Your savings: approx. ${formattedSavings}!</p>
-          </div>
+        <div class="result-header">
+          <span class="result-eyebrow">Your Personal Analysis</span>
+          <h3>Parking Costs for ${days} Days at Seattle-Tacoma Airport</h3>
+          <p class="result-demand">If you drive in without a reservation, you'll face sky-high fees.</p>
         </div>
         
-        <p style="margin-top: 25px; text-align: center;">
-          <button type="button" onclick="document.querySelector('.solution-box').scrollIntoView({behavior: 'smooth', block: 'center'});" style="background: #8B0000; color: #fff; padding: 12px 25px; border: none; border-radius: 4px; font-size: 1.1em; cursor: pointer;">Save over ${formatCurrency(savings - 10)} & secure your spot now</button>
-        </p>
+        <div class="result-comparison">
+          <div class="result-card">
+            <div class="card-header option-weak">
+              <h4>Official Terminal Garage</h4>
+              <span class="card-subtitle">Walk-up rate on site</span>
+            </div>
+            <div class="card-body">
+              <p class="card-intro">
+                Without an online reservation, you always pay the highest daily rate.
+              </p>
+              <p class="highlight-negative">
+                approx. <strong>${formattedTerminalLow} to ${formattedTerminalHigh}</strong>
+              </p>
+              <p class="card-note">
+                That's pure price-gouging at the kiosk. For that amount, many travelers could book a round-trip flight.
+              </p>
+            </div>
+          </div>
+
+          <div class="result-card">
+            <div class="card-header option-strong">
+              <h4>Certified Off-Site Lot</h4>
+              <span class="card-subtitle">With shuttle or valet service</span>
+            </div>
+            <div class="card-body">
+              <p class="card-intro">
+                A fixed price before your trip. No surprises, full cost control.
+              </p>
+              <p class="highlight-positive">
+                from <strong>${formattedAlternative}</strong>
+              </p>
+              <p class="card-note">
+                Your savings: approx. ${formattedSavings} – plus a convenient shuttle service.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="result-bridge">
+          <button type="button" class="bridge-link" id="bridgeToSolution">
+            Find the right parking deal for Seattle-Tacoma
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 5v14M5 12l7 7 7-7"/>
+            </svg>
+          </button>
+        </div>
       `;
 
-      // 6. Sanftes Scrollen zum Ergebnis
-      resultBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      document.getElementById('bridgeToSolution').addEventListener('click', function() {
+        document.querySelector('.solution-box').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+
+      setTimeout(function() {
+        resultBox.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 80);
     });
   }
 
-  // Sticky CTA Logic
   const stickyCta = document.getElementById('stickyCta');
   const mainAffiliateBtn = document.querySelector('.main-affiliate-btn');
   
