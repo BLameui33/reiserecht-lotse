@@ -273,11 +273,11 @@ België</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Meer interessante onderwerpen:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="ferienhaus-reklamation-beschwerde-ardennes-etape-nl.html">Ardennes-Etape (Avenir Lux S.A.)</a>
-<a href="ferienhaus-reklamation-beschwerde-traum-ferienwohnungen.html">Traum-Ferienwohnungen</a>
-<a href="ferienhaus-reklamation-beschwerde-allgemein.html">Allgemeines Formular</a>
-<a href="ferienhaus-reklamation-beschwerde-bestfewo.html">BestFewo</a>
-<a href="ferienhaus-reklamation-beschwerde-dancenter.html">DanCenter</a>
+    <a href="ferienhaus-reklamation-beschwerde-atraveo.html">Atraveo</a>
+<a href="ferienhaus-reklamation-beschwerde-ardennes-etape-nl.html">Ardennes-Etape (Avenir Lux S.A.)</a>
+<a href="ferienhaus-reklamation-beschwerde-fewo-direkt.html">FeWo-direkt (Vrbo)</a>
+<a href="ferienhaus-reklamation-beschwerde-casamundo.html">Casamundo</a>
+<a href="ferienhaus-reklamation-beschwerde-ourthe-somme-nl.html">Ourthe & Somme (Vakantiehuizen NV)</a>
 
   </div>
 </div>
@@ -729,11 +729,33 @@ document.getElementById('donateOverlay').addEventListener('click', function(e) {
 });
 
 // --- KOPIER-BUTTON LOGIK ---
+function copyText(textArea) {
+    if (navigator.clipboard && window.isSecureContext) {
+        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
+    }
+    return legacyCopy(textArea);
+}
+
+function legacyCopy(textArea) {
+    return new Promise((resolve, reject) => {
+        const wasReadonly = textArea.hasAttribute('readonly');
+        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
+        textArea.focus();
+        textArea.select();
+        textArea.setSelectionRange(0, 999999);
+        let ok = false;
+        try { ok = document.execCommand('copy'); } catch (e) {}
+        if (wasReadonly) textArea.setAttribute('readonly', '');
+        textArea.blur();
+        ok ? resolve() : reject();
+    });
+}
+
 document.getElementById('copyToClipboardBtn').addEventListener('click', function() {
     const textArea = document.getElementById('plainTextResult');
     
     // Text in die Zwischenablage schreiben
-    navigator.clipboard.writeText(textArea.value).then(() => {
+copyText(textArea).then(() => {
         const btn = this;
         const originalText = btn.innerHTML;
         

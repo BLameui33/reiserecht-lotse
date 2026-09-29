@@ -275,10 +275,10 @@
   <h3>Meer interessante onderwerpen:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="hotel-reklamation-beschwerde-corendon-belgie-nl.html">Corendon International Travel (Belgium)</a>
-<a href="hotel-reklamation-beschwerde-prijsvrij-nl.html">Prijsvrij Vakanties</a>
-<a href="hotel-reklamation-beschwerde-club-med-belgie-nl.html">Club Med Belgium</a>
-<a href="hotel-reklamation-beschwerde-landal-greenparks-nl.html">Landal GreenParks</a>
-<a href="hotel-reklamation-beschwerde-fram-belgie-nl.html">FRAM</a>
+<a href="hotel-reklamation-beschwerde-src-reizen-nl.html">SRC Reizen</a>
+<a href="hotel-reklamation-beschwerde-sunweb-belgie-nl.html">Sunweb Group (Sunweb Belgium)</a>
+<a href="hotel-reklamation-beschwerde-oad-nl.html">OAD</a>
+<a href="hotel-reklamation-beschwerde-center-parcs-europe-nl.html">Center Parcs Europe</a>
 
   </div>
 </div>
@@ -750,11 +750,33 @@ document.getElementById('donateOverlay').addEventListener('click', function(e) {
 });
 
 // --- KOPIER-BUTTON LOGIK ---
+function copyText(textArea) {
+    if (navigator.clipboard && window.isSecureContext) {
+        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
+    }
+    return legacyCopy(textArea);
+}
+
+function legacyCopy(textArea) {
+    return new Promise((resolve, reject) => {
+        const wasReadonly = textArea.hasAttribute('readonly');
+        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
+        textArea.focus();
+        textArea.select();
+        textArea.setSelectionRange(0, 999999);
+        let ok = false;
+        try { ok = document.execCommand('copy'); } catch (e) {}
+        if (wasReadonly) textArea.setAttribute('readonly', '');
+        textArea.blur();
+        ok ? resolve() : reject();
+    });
+}
+
 document.getElementById('copyToClipboardBtn').addEventListener('click', function() {
     const textArea = document.getElementById('plainTextResult');
     
     // Text in die Zwischenablage schreiben
-    navigator.clipboard.writeText(textArea.value).then(() => {
+copyText(textArea).then(() => {
         const btn = this;
         const originalText = btn.innerHTML;
         

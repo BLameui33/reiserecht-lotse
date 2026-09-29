@@ -296,11 +296,11 @@ Japan</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Discover other related topics:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="flugverspaetung-entschaedigung-british-airways.html">British Airways Plc</a>
-<a href="flugverspaetung-entschaedigung-sun-country-airlines.html">Sun Country Airlines, Inc.</a>
-<a href="flugverspaetung-entschaedigung-hawaiian-airlines.html">Hawaiian Airlines, Inc.</a>
-<a href="flugverspaetung-entschaedigung-korean-air.html">Korean Air Lines Co., Ltd.</a>
-<a href="flugverspaetung-entschaedigung-singapore-airlines.html">Singapore Airlines Limited</a>
+    <a href="flugverspaetung-entschaedigung-korean-air.html">Korean Air Lines Co., Ltd.</a>
+<a href="flugverspaetung-entschaedigung-air-france.html">Société Air France</a>
+<a href="flugverspaetung-entschaedigung-air-canada.html">Air Canada</a>
+<a href="flugverspaetung-entschaedigung-icelandair.html">Icelandair ehf.</a>
+<a href="flugverspaetung-entschaedigung-klm.html">Koninklijke Luchtvaart Maatschappij N.V. (KLM)</a>
 
   </div>
 </div>
@@ -751,11 +751,33 @@ outputArea.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
 // --- KOPIER-BUTTON LOGIK ---
+function copyText(textArea) {
+    if (navigator.clipboard && window.isSecureContext) {
+        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
+    }
+    return legacyCopy(textArea);
+}
+
+function legacyCopy(textArea) {
+    return new Promise((resolve, reject) => {
+        const wasReadonly = textArea.hasAttribute('readonly');
+        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
+        textArea.focus();
+        textArea.select();
+        textArea.setSelectionRange(0, 999999);
+        let ok = false;
+        try { ok = document.execCommand('copy'); } catch (e) {}
+        if (wasReadonly) textArea.setAttribute('readonly', '');
+        textArea.blur();
+        ok ? resolve() : reject();
+    });
+}
+
 document.getElementById('copyToClipboardBtn').addEventListener('click', function() {
     const textArea = document.getElementById('plainTextResult');
     
     // Text in die Zwischenablage schreiben
-    navigator.clipboard.writeText(textArea.value).then(() => {
+copyText(textArea).then(() => {
         const btn = this;
         const originalText = btn.innerHTML;
         

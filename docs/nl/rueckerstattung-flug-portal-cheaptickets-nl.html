@@ -242,11 +242,11 @@ Hoekenrode 3
   <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
     <h3>Andere portals & hulpmiddelen:</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="rueckerstattung-flug-portal-mytrip.html">Mytrip</a>
-<a href="rueckerstattung-flug-portal-trip-com.html">Trip.com</a>
-<a href="rueckerstattung-flug-portal-gotogate.html">Gotogate</a>
-<a href="rueckerstattung-flug-portal-allgemein.html">Ander vluchtportaal (Algemeen sjabloon)</a>
-<a href="rueckerstattung-flug-portal-budgetair-nl.html">BudgetAir.nl</a>
+      <a href="rueckerstattung-flug-portal-kiwi-com.html">Kiwi.com</a>
+<a href="rueckerstattung-flug-portal-vliegwinkel-nl.html">Vliegwinkel.nl</a>
+<a href="rueckerstattung-flug-portal-mytrip.html">Mytrip</a>
+<a href="rueckerstattung-flug-portal-booking-flights.html">Booking.com Flights</a>
+<a href="rueckerstattung-flug-portal-vliegtickets-nl.html">Vliegtickets.nl</a>
 
     </div>
   </div>
@@ -510,11 +510,33 @@ document.getElementById('donateOverlay').addEventListener('click', function(e) {
 });
 
 // --- KOPIER-BUTTON LOGIK ---
+function copyText(textArea) {
+    if (navigator.clipboard && window.isSecureContext) {
+        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
+    }
+    return legacyCopy(textArea);
+}
+
+function legacyCopy(textArea) {
+    return new Promise((resolve, reject) => {
+        const wasReadonly = textArea.hasAttribute('readonly');
+        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
+        textArea.focus();
+        textArea.select();
+        textArea.setSelectionRange(0, 999999);
+        let ok = false;
+        try { ok = document.execCommand('copy'); } catch (e) {}
+        if (wasReadonly) textArea.setAttribute('readonly', '');
+        textArea.blur();
+        ok ? resolve() : reject();
+    });
+}
+
 document.getElementById('copyToClipboardBtn').addEventListener('click', function() {
     const textArea = document.getElementById('plainTextResult');
     
     // Text in die Zwischenablage schreiben
-    navigator.clipboard.writeText(textArea.value).then(() => {
+copyText(textArea).then(() => {
         const btn = this;
         const originalText = btn.innerHTML;
         

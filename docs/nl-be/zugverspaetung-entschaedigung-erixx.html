@@ -326,11 +326,11 @@ Duitsland</textarea>
   <div class="popular-links" style="margin-top: 40px; padding: 20px; background: #f9f9f9; border-radius: 8px;">
     <h3>Andere aanbieders & regio's:</h3>
     <div class="link-grid">
-      <a href="zugverspaetung-entschaedigung-flixtrain.html">FlixTrain</a>
-<a href="zugverspaetung-entschaedigung-cd.html">ČD (České dráhy)</a>
-<a href="zugverspaetung-entschaedigung-pkp.html">PKP Intercity</a>
-<a href="zugverspaetung-entschaedigung-deutsche-bahn.html">Deutsche Bahn</a>
-<a href="zugverspaetung-entschaedigung-ns.html">NS (Nederlandse Spoorwegen)</a>
+      <a href="zugverspaetung-entschaedigung-mav.html">MÁV-START</a>
+<a href="zugverspaetung-entschaedigung-ice.html">ICE (Deutsche Bahn)</a>
+<a href="zugverspaetung-entschaedigung-trenitalia.html">Trenitalia</a>
+<a href="zugverspaetung-entschaedigung-nordwestbahn.html">NordWestBahn</a>
+<a href="zugverspaetung-entschaedigung-oebb.html">ÖBB (Österreichische Bundesbahnen)</a>
 
     </div>
   </div>
@@ -743,11 +743,33 @@ document.getElementById('donateOverlay').addEventListener('click', function(e) {
 });
 
 // --- KOPIER-BUTTON LOGIK ---
+function copyText(textArea) {
+    if (navigator.clipboard && window.isSecureContext) {
+        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
+    }
+    return legacyCopy(textArea);
+}
+
+function legacyCopy(textArea) {
+    return new Promise((resolve, reject) => {
+        const wasReadonly = textArea.hasAttribute('readonly');
+        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
+        textArea.focus();
+        textArea.select();
+        textArea.setSelectionRange(0, 999999);
+        let ok = false;
+        try { ok = document.execCommand('copy'); } catch (e) {}
+        if (wasReadonly) textArea.setAttribute('readonly', '');
+        textArea.blur();
+        ok ? resolve() : reject();
+    });
+}
+
 document.getElementById('copyToClipboardBtn').addEventListener('click', function() {
     const textArea = document.getElementById('plainTextResult');
     
     // Text in die Zwischenablage schreiben
-    navigator.clipboard.writeText(textArea.value).then(() => {
+copyText(textArea).then(() => {
         const btn = this;
         const originalText = btn.innerHTML;
         

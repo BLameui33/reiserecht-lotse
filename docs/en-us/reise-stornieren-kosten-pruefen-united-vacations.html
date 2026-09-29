@@ -271,11 +271,11 @@ USA</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Discover other related topics:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="reise-stornieren-kosten-pruefen-contiki.html">Contiki US (The Travel Corporation)</a>
-<a href="reise-stornieren-kosten-pruefen-ahi-travel.html">AHI Travel</a>
-<a href="reise-stornieren-kosten-pruefen-ef-go-ahead-tours.html">EF Go Ahead Tours</a>
-<a href="reise-stornieren-kosten-pruefen-jetblue-vacations.html">JetBlue Vacations</a>
-<a href="reise-stornieren-kosten-pruefen-abercrombie-kent.html">Abercrombie & Kent USA, LLC</a>
+    <a href="reise-stornieren-kosten-pruefen-ef-go-ahead-tours.html">EF Go Ahead Tours</a>
+<a href="reise-stornieren-kosten-pruefen-insight-vacations.html">Insight Vacations (The Travel Corporation)</a>
+<a href="reise-stornieren-kosten-pruefen-delta-vacations.html">Delta Vacations (MLT Vacations, LLC)</a>
+<a href="reise-stornieren-kosten-pruefen-overseas-adventure-travel.html">Overseas Adventure Travel (O.A.T.)</a>
+<a href="reise-stornieren-kosten-pruefen-gate-1-travel.html">Gate 1 Travel</a>
 
   </div>
 </div>
@@ -701,11 +701,33 @@ document.getElementById('donateOverlay').addEventListener('click', function(e) {
 });
 
 // --- KOPIER-BUTTON LOGIK ---
+function copyText(textArea) {
+    if (navigator.clipboard && window.isSecureContext) {
+        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
+    }
+    return legacyCopy(textArea);
+}
+
+function legacyCopy(textArea) {
+    return new Promise((resolve, reject) => {
+        const wasReadonly = textArea.hasAttribute('readonly');
+        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
+        textArea.focus();
+        textArea.select();
+        textArea.setSelectionRange(0, 999999);
+        let ok = false;
+        try { ok = document.execCommand('copy'); } catch (e) {}
+        if (wasReadonly) textArea.setAttribute('readonly', '');
+        textArea.blur();
+        ok ? resolve() : reject();
+    });
+}
+
 document.getElementById('copyToClipboardBtn').addEventListener('click', function() {
     const textArea = document.getElementById('plainTextResult');
     
     // Text in die Zwischenablage schreiben
-    navigator.clipboard.writeText(textArea.value).then(() => {
+copyText(textArea).then(() => {
         const btn = this;
         const originalText = btn.innerHTML;
         

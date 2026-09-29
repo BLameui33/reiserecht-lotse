@@ -245,11 +245,11 @@ Plaça Ernest Lluch i Martín, 5
   <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
     <h3>Más plantillas, derechos y directrices:</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="letzte-mahnung-nachdruck-msc-cruceros.html">MSC Cruceros</a>
-<a href="letzte-mahnung-nachdruck-iryo.html">Iryo</a>
-<a href="letzte-mahnung-nachdruck-lastminute-com-espana.html">lastminute.com España</a>
-<a href="letzte-mahnung-nachdruck-viajes-el-corte-ingles.html">Viajes El Corte Inglés</a>
-<a href="letzte-mahnung-nachdruck-ouigo-espana.html">Ouigo España</a>
+      <a href="letzte-mahnung-nachdruck-wizz-air.html">Wizz Air</a>
+<a href="letzte-mahnung-nachdruck-silversea-cruceros.html">Silversea Cruceros</a>
+<a href="letzte-mahnung-nachdruck-only-apartments.html">Only Apartments</a>
+<a href="letzte-mahnung-nachdruck-tui-espana.html">TUI España</a>
+<a href="letzte-mahnung-nachdruck-politours.html">Politours</a>
 
     </div>
   </div>
@@ -502,9 +502,31 @@ document.getElementById('mahnungForm').addEventListener('submit', function(e) {
 });
 
 // --- LÓGICA DEL BOTÓN DE COPIAR ---
+function copyText(textArea) {
+    if (navigator.clipboard && window.isSecureContext) {
+        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
+    }
+    return legacyCopy(textArea);
+}
+
+function legacyCopy(textArea) {
+    return new Promise((resolve, reject) => {
+        const wasReadonly = textArea.hasAttribute('readonly');
+        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
+        textArea.focus();
+        textArea.select();
+        textArea.setSelectionRange(0, 999999);
+        let ok = false;
+        try { ok = document.execCommand('copy'); } catch (e) {}
+        if (wasReadonly) textArea.setAttribute('readonly', '');
+        textArea.blur();
+        ok ? resolve() : reject();
+    });
+}
+
 document.getElementById('copyToClipboardBtn').addEventListener('click', function() {
     const textArea = document.getElementById('plainTextResult');
-    navigator.clipboard.writeText(textArea.value).then(() => {
+copyText(textArea).then(() => {
         const btn = this;
         const originalText = btn.innerHTML;
         btn.innerHTML = "¡Copiado con éxito!";

@@ -268,11 +268,11 @@ Nederland</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Andere interessante onderwerpen:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="reise-stornieren-kosten-pruefen-landal-greenparks-nl.html">Landal GreenParks</a>
-<a href="reise-stornieren-kosten-pruefen-stip-reizen-nl.html">Stip Reizen</a>
-<a href="reise-stornieren-kosten-pruefen-tjingo-nl.html">Tjingo</a>
-<a href="reise-stornieren-kosten-pruefen-vakantiediscounter-nl.html">De VakantieDiscounter</a>
-<a href="reise-stornieren-kosten-pruefen-prijsvrij-nl.html">Prijsvrij Vakanties</a>
+    <a href="reise-stornieren-kosten-pruefen-prijsvrij-nl.html">Prijsvrij Vakanties</a>
+<a href="reise-stornieren-kosten-pruefen-fox-reizen-nl.html">Fox Reizen</a>
+<a href="reise-stornieren-kosten-pruefen-ander-veranstalter-nl.html">Uw reisorganisator</a>
+<a href="reise-stornieren-kosten-pruefen-neckermann-belgie-nl.html">Neckermann Belgium SA</a>
+<a href="reise-stornieren-kosten-pruefen-summit-travel-nl.html">Summit Travel</a>
 
   </div>
 </div>
@@ -699,11 +699,33 @@ document.getElementById('donateOverlay').addEventListener('click', function(e) {
 });
 
 // --- KOPIER-BUTTON LOGIK ---
+function copyText(textArea) {
+    if (navigator.clipboard && window.isSecureContext) {
+        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
+    }
+    return legacyCopy(textArea);
+}
+
+function legacyCopy(textArea) {
+    return new Promise((resolve, reject) => {
+        const wasReadonly = textArea.hasAttribute('readonly');
+        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
+        textArea.focus();
+        textArea.select();
+        textArea.setSelectionRange(0, 999999);
+        let ok = false;
+        try { ok = document.execCommand('copy'); } catch (e) {}
+        if (wasReadonly) textArea.setAttribute('readonly', '');
+        textArea.blur();
+        ok ? resolve() : reject();
+    });
+}
+
 document.getElementById('copyToClipboardBtn').addEventListener('click', function() {
     const textArea = document.getElementById('plainTextResult');
     
     // Text in die Zwischenablage schreiben
-    navigator.clipboard.writeText(textArea.value).then(() => {
+copyText(textArea).then(() => {
         const btn = this;
         const originalText = btn.innerHTML;
         

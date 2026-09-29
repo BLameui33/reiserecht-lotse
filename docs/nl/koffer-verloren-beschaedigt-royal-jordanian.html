@@ -305,11 +305,11 @@ Jordanië</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Meer interessante onderwerpen:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="koffer-verloren-beschaedigt-singapore-airlines.html">Singapore Airlines</a>
-<a href="koffer-verloren-beschaedigt-easyjet.html">easyJet Airline Company Limited</a>
-<a href="koffer-verloren-beschaedigt-air-india.html">Air India Limited</a>
-<a href="koffer-verloren-beschaedigt-air-algerie.html">Air Algérie</a>
-<a href="koffer-verloren-beschaedigt-tunisair.html">Tunisair</a>
+    <a href="koffer-verloren-beschaedigt-swiss.html">Swiss International Air Lines AG</a>
+<a href="koffer-verloren-beschaedigt-singapore-airlines.html">Singapore Airlines</a>
+<a href="koffer-verloren-beschaedigt-transavia.html">Transavia France S.A.S.</a>
+<a href="koffer-verloren-beschaedigt-discover-airlines.html">EW Discover GmbH</a>
+<a href="koffer-verloren-beschaedigt-garuda-indonesia.html">Garuda Indonesia</a>
 
   </div>
 </div>
@@ -714,11 +714,33 @@ document.getElementById('donateOverlay').addEventListener('click', function(e) {
 });
 
 // --- KOPIER-BUTTON LOGIK ---
+function copyText(textArea) {
+    if (navigator.clipboard && window.isSecureContext) {
+        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
+    }
+    return legacyCopy(textArea);
+}
+
+function legacyCopy(textArea) {
+    return new Promise((resolve, reject) => {
+        const wasReadonly = textArea.hasAttribute('readonly');
+        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
+        textArea.focus();
+        textArea.select();
+        textArea.setSelectionRange(0, 999999);
+        let ok = false;
+        try { ok = document.execCommand('copy'); } catch (e) {}
+        if (wasReadonly) textArea.setAttribute('readonly', '');
+        textArea.blur();
+        ok ? resolve() : reject();
+    });
+}
+
 document.getElementById('copyToClipboardBtn').addEventListener('click', function() {
     const textArea = document.getElementById('plainTextResult');
     
     // Text in die Zwischenablage schreiben
-    navigator.clipboard.writeText(textArea.value).then(() => {
+copyText(textArea).then(() => {
         const btn = this;
         const originalText = btn.innerHTML;
         

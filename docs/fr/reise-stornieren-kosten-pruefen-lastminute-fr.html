@@ -268,11 +268,11 @@ France</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Autres thèmes intéressants :</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="reise-stornieren-kosten-pruefen-tui-france-marmara.html">TUI France (Marques Marmara, Lookéa, Nouvelles Frontières)</a>
-<a href="reise-stornieren-kosten-pruefen-voyageurs-du-monde.html">Voyageurs du Monde SA</a>
-<a href="reise-stornieren-kosten-pruefen-opodo-fr.html">GO Voyages SAS (opodo.fr)</a>
+    <a href="reise-stornieren-kosten-pruefen-selectour.html">Selectour (GIE Selectour)</a>
+<a href="reise-stornieren-kosten-pruefen-cdiscount-voyages.html">Cdiscount Voyages</a>
+<a href="reise-stornieren-kosten-pruefen-comptoir-des-voyages.html">Comptoir des Voyages (groupe Voyageurs du Monde)</a>
+<a href="reise-stornieren-kosten-pruefen-evaneos.html">Evaneos SA</a>
 <a href="reise-stornieren-kosten-pruefen-hotels-com.html">Hotels.com (groupe Expedia)</a>
-<a href="reise-stornieren-kosten-pruefen-fnac-voyages.html">Fnac Voyages (exploité par le groupe Karavel)</a>
 
   </div>
 </div>
@@ -699,11 +699,33 @@ document.getElementById('donateOverlay').addEventListener('click', function(e) {
 });
 
 // --- KOPIER-BUTTON LOGIK ---
+function copyText(textArea) {
+    if (navigator.clipboard && window.isSecureContext) {
+        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
+    }
+    return legacyCopy(textArea);
+}
+
+function legacyCopy(textArea) {
+    return new Promise((resolve, reject) => {
+        const wasReadonly = textArea.hasAttribute('readonly');
+        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
+        textArea.focus();
+        textArea.select();
+        textArea.setSelectionRange(0, 999999);
+        let ok = false;
+        try { ok = document.execCommand('copy'); } catch (e) {}
+        if (wasReadonly) textArea.setAttribute('readonly', '');
+        textArea.blur();
+        ok ? resolve() : reject();
+    });
+}
+
 document.getElementById('copyToClipboardBtn').addEventListener('click', function() {
     const textArea = document.getElementById('plainTextResult');
     
     // Text in die Zwischenablage schreiben
-    navigator.clipboard.writeText(textArea.value).then(() => {
+copyText(textArea).then(() => {
         const btn = this;
         const originalText = btn.innerHTML;
         

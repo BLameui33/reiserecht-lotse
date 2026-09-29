@@ -270,11 +270,11 @@ United Kingdom</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Other topics you may find useful:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="reise-stornieren-kosten-pruefen-travelsupermarket.html">TravelSupermarket</a>
-<a href="reise-stornieren-kosten-pruefen-travelup.html">TravelUp</a>
-<a href="reise-stornieren-kosten-pruefen-iglu-travel.html">Iglu Travel</a>
-<a href="reise-stornieren-kosten-pruefen-opodo.html">Opodo</a>
-<a href="reise-stornieren-kosten-pruefen-southall-travel.html">Southall Travel</a>
+    <a href="reise-stornieren-kosten-pruefen-trailfinders.html">Trailfinders</a>
+<a href="reise-stornieren-kosten-pruefen-barrhead-travel.html">Barrhead Travel</a>
+<a href="reise-stornieren-kosten-pruefen-hays-travel.html">Hays Travel</a>
+<a href="reise-stornieren-kosten-pruefen-spabreaks-com.html">SpaBreaks.com</a>
+<a href="reise-stornieren-kosten-pruefen-netflights.html">Netflights</a>
 
   </div>
 </div>
@@ -701,11 +701,33 @@ document.getElementById('donateOverlay').addEventListener('click', function(e) {
 });
 
 // --- COPY BUTTON LOGIC ---
+function copyText(textArea) {
+    if (navigator.clipboard && window.isSecureContext) {
+        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
+    }
+    return legacyCopy(textArea);
+}
+
+function legacyCopy(textArea) {
+    return new Promise((resolve, reject) => {
+        const wasReadonly = textArea.hasAttribute('readonly');
+        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
+        textArea.focus();
+        textArea.select();
+        textArea.setSelectionRange(0, 999999);
+        let ok = false;
+        try { ok = document.execCommand('copy'); } catch (e) {}
+        if (wasReadonly) textArea.setAttribute('readonly', '');
+        textArea.blur();
+        ok ? resolve() : reject();
+    });
+}
+
 document.getElementById('copyToClipboardBtn').addEventListener('click', function() {
     const textArea = document.getElementById('plainTextResult');
     
     // Write text to clipboard
-    navigator.clipboard.writeText(textArea.value).then(() => {
+copyText(textArea).then(() => {
         const btn = this;
         const originalText = btn.innerHTML;
         

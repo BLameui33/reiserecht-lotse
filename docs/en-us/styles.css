@@ -2924,5 +2924,50 @@ footer div a:hover {
   background-color: var(--primary-dark) !important; 
   transform: translateY(-2px) !important; 
   box-shadow: 0 6px 16px rgba(178, 34, 34, 0.35) !important; 
-  text-decoration: none !important;
+   text-decoration: none !important;
+}
+
+/* --------------------------------------------------------------------------
+   Fix für Kopier-Textausgabe auf mobilen Geräten überlappung
+   -------------------------------------------------------------------------- */
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#textOutputArea {
+  width: 100% !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+  overflow: hidden;
+}
+
+#textOutputArea * {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+#plainTextResult {
+  width: 100% !important;
+  min-width: 0 !important;
+  font-size: 16px !important; /* verhindert Auto-Zoom auf iOS */
+}
+
+@media (max-width: 600px) {
+  #textOutputArea {
+    padding: 18px !important;
+    margin-top: 25px !important;
+  }
+
+  /* Textblock im Header darf schrumpfen statt zu überlaufen */
+  #textOutputArea > div:first-child > div {
+    min-width: 0 !important;
+    flex: 1 1 100% !important;
+  }
+
+  #copyToClipboardBtn {
+    width: 100%;
+    white-space: normal !important;
+  }
 }

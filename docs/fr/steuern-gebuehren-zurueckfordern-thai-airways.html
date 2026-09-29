@@ -271,11 +271,11 @@ Thaïlande</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Autres sujets intéressants :</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="steuern-gebuehren-zurueckfordern-sky-express.html">SKY express S.A.</a>
-<a href="steuern-gebuehren-zurueckfordern-wideroe.html">Widerøe's Flyveselskap AS</a>
-<a href="steuern-gebuehren-zurueckfordern-royal-air-maroc.html">Royal Air Maroc</a>
-<a href="steuern-gebuehren-zurueckfordern-ita-airways.html">Italia Trasporto Aereo S.p.A. (Headquarter)</a>
-<a href="steuern-gebuehren-zurueckfordern-gulf-air.html">Gulf Air</a>
+    <a href="steuern-gebuehren-zurueckfordern-smartwings.html">Smartwings a.s.</a>
+<a href="steuern-gebuehren-zurueckfordern-tap-air-portugal.html">TAP Air Portugal</a>
+<a href="steuern-gebuehren-zurueckfordern-austrian-airlines.html">Austrian Airlines AG</a>
+<a href="steuern-gebuehren-zurueckfordern-iberia.html">IBERIA LAE SA Operadora Unipersonal</a>
+<a href="steuern-gebuehren-zurueckfordern-air-france.html">Air France</a>
 
   </div>
 </div>
@@ -664,11 +664,33 @@ document.getElementById('donateOverlay').addEventListener('click', function(e) {
 });
 
 // --- KOPIER-BUTTON LOGIK ---
+function copyText(textArea) {
+    if (navigator.clipboard && window.isSecureContext) {
+        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
+    }
+    return legacyCopy(textArea);
+}
+
+function legacyCopy(textArea) {
+    return new Promise((resolve, reject) => {
+        const wasReadonly = textArea.hasAttribute('readonly');
+        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
+        textArea.focus();
+        textArea.select();
+        textArea.setSelectionRange(0, 999999);
+        let ok = false;
+        try { ok = document.execCommand('copy'); } catch (e) {}
+        if (wasReadonly) textArea.setAttribute('readonly', '');
+        textArea.blur();
+        ok ? resolve() : reject();
+    });
+}
+
 document.getElementById('copyToClipboardBtn').addEventListener('click', function() {
     const textArea = document.getElementById('plainTextResult');
     
     // Text in die Zwischenablage schreiben
-    navigator.clipboard.writeText(textArea.value).then(() => {
+copyText(textArea).then(() => {
         const btn = this;
         const originalText = btn.innerHTML;
         

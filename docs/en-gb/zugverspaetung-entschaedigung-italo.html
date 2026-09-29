@@ -292,11 +292,11 @@ Italy</textarea>
   <div class="popular-links" style="margin-top: 40px; padding: 20px; background: #f9f9f9; border-radius: 8px;">
         <h3>More providers & regions:</h3>
         <div class="link-grid">
-            <a href="zugverspaetung-entschaedigung-deutsche-bahn.html">Deutsche Bahn (incl. ICE)</a>
-<a href="zugverspaetung-entschaedigung-greater-anglia.html">Greater Anglia</a>
-<a href="zugverspaetung-entschaedigung-pkp.html">PKP Intercity</a>
-<a href="zugverspaetung-entschaedigung-transpennine-express.html">TransPennine Express</a>
-<a href="zugverspaetung-entschaedigung-heathrow-express.html">Heathrow Express</a>
+            <a href="zugverspaetung-entschaedigung-heathrow-express.html">Heathrow Express</a>
+<a href="zugverspaetung-entschaedigung-nightjet.html">Nightjet (ÖBB)</a>
+<a href="zugverspaetung-entschaedigung-lumo.html">Lumo</a>
+<a href="zugverspaetung-entschaedigung-elizabeth-line.html">Elizabeth line</a>
+<a href="zugverspaetung-entschaedigung-cp.html">CP (Comboios de Portugal)</a>
 
         </div>
     </div>
@@ -702,11 +702,33 @@ document.getElementById('donateOverlay').addEventListener('click', function(e) {
 });
 
 // --- COPY BUTTON LOGIC ---
+function copyText(textArea) {
+    if (navigator.clipboard && window.isSecureContext) {
+        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
+    }
+    return legacyCopy(textArea);
+}
+
+function legacyCopy(textArea) {
+    return new Promise((resolve, reject) => {
+        const wasReadonly = textArea.hasAttribute('readonly');
+        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
+        textArea.focus();
+        textArea.select();
+        textArea.setSelectionRange(0, 999999);
+        let ok = false;
+        try { ok = document.execCommand('copy'); } catch (e) {}
+        if (wasReadonly) textArea.setAttribute('readonly', '');
+        textArea.blur();
+        ok ? resolve() : reject();
+    });
+}
+
 document.getElementById('copyToClipboardBtn').addEventListener('click', function() {
     const textArea = document.getElementById('plainTextResult');
     
     // Write text to clipboard
-    navigator.clipboard.writeText(textArea.value).then(() => {
+copyText(textArea).then(() => {
         const btn = this;
         const originalText = btn.innerHTML;
         

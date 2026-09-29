@@ -305,11 +305,11 @@ Verenigde Arabische Emiraten</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Meer interessante onderwerpen:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="flugverspaetung-entschaedigung-klm.html">KLM Royal Dutch Airlines</a>
-<a href="flugverspaetung-entschaedigung-qantas-airways.html">Qantas Airways Limited</a>
-<a href="flugverspaetung-entschaedigung-egyptair.html">EgyptAir</a>
-<a href="flugverspaetung-entschaedigung-avianca.html">Avianca</a>
-<a href="flugverspaetung-entschaedigung-pegasus-airlines.html">Pegasus Airlines</a>
+    <a href="flugverspaetung-entschaedigung-rwandair.html">RwandAir Ltd.</a>
+<a href="flugverspaetung-entschaedigung-vueling.html">Vueling Airlines S.A.</a>
+<a href="flugverspaetung-entschaedigung-etihad-airways.html">Etihad Airways</a>
+<a href="flugverspaetung-entschaedigung-ana.html">ANA Holdings Inc. (All Nippon Airways)</a>
+<a href="flugverspaetung-entschaedigung-air-algerie.html">Air Algérie</a>
 
   </div>
 </div>
@@ -761,11 +761,33 @@ outputArea.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
 // --- KOPIER-BUTTON LOGIK ---
+function copyText(textArea) {
+    if (navigator.clipboard && window.isSecureContext) {
+        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
+    }
+    return legacyCopy(textArea);
+}
+
+function legacyCopy(textArea) {
+    return new Promise((resolve, reject) => {
+        const wasReadonly = textArea.hasAttribute('readonly');
+        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
+        textArea.focus();
+        textArea.select();
+        textArea.setSelectionRange(0, 999999);
+        let ok = false;
+        try { ok = document.execCommand('copy'); } catch (e) {}
+        if (wasReadonly) textArea.setAttribute('readonly', '');
+        textArea.blur();
+        ok ? resolve() : reject();
+    });
+}
+
 document.getElementById('copyToClipboardBtn').addEventListener('click', function() {
     const textArea = document.getElementById('plainTextResult');
     
     // Text in die Zwischenablage schreiben
-    navigator.clipboard.writeText(textArea.value).then(() => {
+copyText(textArea).then(() => {
         const btn = this;
         const originalText = btn.innerHTML;
         

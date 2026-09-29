@@ -243,11 +243,11 @@ Chester CH1 2RS</textarea>
   <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
     <h3>Further Templates, Rights & Guidelines:</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="letzte-mahnung-nachdruck-ebookers.html">ebookers</a>
-<a href="letzte-mahnung-nachdruck-expedia.html">Expedia</a>
+      <a href="letzte-mahnung-nachdruck-james-villa-holidays.html">James Villa Holidays</a>
+<a href="letzte-mahnung-nachdruck-lastminute-com.html">lastminute.com</a>
 <a href="letzte-mahnung-nachdruck-fred-olsen-cruise-lines.html">Fred. Olsen Cruise Lines</a>
-<a href="letzte-mahnung-nachdruck-klm.html">KLM</a>
-<a href="letzte-mahnung-nachdruck-sas.html">SAS Scandinavian Airlines</a>
+<a href="letzte-mahnung-nachdruck-martin-randall-travel.html">Martin Randall Travel</a>
+<a href="letzte-mahnung-nachdruck-wizz-air.html">Wizz Air</a>
 
     </div>
   </div>
@@ -500,9 +500,31 @@ document.getElementById('mahnungForm').addEventListener('submit', function(e) {
 });
 
 // --- COPY BUTTON LOGIC ---
+function copyText(textArea) {
+    if (navigator.clipboard && window.isSecureContext) {
+        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
+    }
+    return legacyCopy(textArea);
+}
+
+function legacyCopy(textArea) {
+    return new Promise((resolve, reject) => {
+        const wasReadonly = textArea.hasAttribute('readonly');
+        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
+        textArea.focus();
+        textArea.select();
+        textArea.setSelectionRange(0, 999999);
+        let ok = false;
+        try { ok = document.execCommand('copy'); } catch (e) {}
+        if (wasReadonly) textArea.setAttribute('readonly', '');
+        textArea.blur();
+        ok ? resolve() : reject();
+    });
+}
+
 document.getElementById('copyToClipboardBtn').addEventListener('click', function() {
     const textArea = document.getElementById('plainTextResult');
-    navigator.clipboard.writeText(textArea.value).then(() => {
+copyText(textArea).then(() => {
         const btn = this;
         const originalText = btn.innerHTML;
         btn.innerHTML = "Successfully copied!";
