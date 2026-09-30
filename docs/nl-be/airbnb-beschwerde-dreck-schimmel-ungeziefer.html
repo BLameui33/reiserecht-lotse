@@ -274,11 +274,11 @@
 <div class="crosslink-box" style="background: #fffafb; border: 1px solid #ffebee; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3 style="color: #ff385c;">Meer Airbnb-probleemoplossingen:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="airbnb-beschwerde-allgemein.html">Algemeen Airbnb-probleem</a>
-<a href="airbnb-beschwerde-kaution-unrechtmaessig-einbehalten.html">Borg onrechtmatig ingehouden</a>
+    <a href="airbnb-beschwerde-falsche-angaben-fake-fotos.html">Onjuiste informatie & nepfoto's</a>
 <a href="airbnb-beschwerde-ausstattung-fehlt-defekt.html">Ontbrekende voorzieningen (wifi, zwembad, airco)</a>
 <a href="airbnb-beschwerde-aircover-abgelehnt-geld-zurueck.html">AirCover-kopersbescherming afgewezen</a>
-<a href="airbnb-beschwerde-falsche-angaben-fake-fotos.html">Onjuiste informatie & nepfoto's</a>
+<a href="airbnb-beschwerde-kaution-unrechtmaessig-einbehalten.html">Borg onrechtmatig ingehouden</a>
+<a href="airbnb-beschwerde-gastgeber-storniert-kurzfristig.html">Annulering door de host</a>
 
   </div>
 </div>
@@ -707,15 +707,17 @@ function copyText(textArea) {
 
 function legacyCopy(textArea) {
     return new Promise((resolve, reject) => {
-        const wasReadonly = textArea.hasAttribute('readonly');
-        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
-        textArea.focus();
-        textArea.select();
-        textArea.setSelectionRange(0, 999999);
+        const ta = document.createElement('textarea');
+        ta.value = textArea.value;
+        ta.setAttribute('contenteditable', 'true');
+        ta.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;font-size:16px;-webkit-user-select:text;user-select:text;';
+        document.body.appendChild(ta);
+        ta.focus();
+        ta.select();
+        ta.setSelectionRange(0, ta.value.length);
         let ok = false;
         try { ok = document.execCommand('copy'); } catch (e) {}
-        if (wasReadonly) textArea.setAttribute('readonly', '');
-        textArea.blur();
+        document.body.removeChild(ta);
         ok ? resolve() : reject();
     });
 }

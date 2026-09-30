@@ -304,11 +304,11 @@ Egypt</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Other interesting topics:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="flugverspaetung-entschaedigung-corendon-airlines.html">Corendon Airlines</a>
-<a href="flugverspaetung-entschaedigung-emirates.html">Emirates</a>
-<a href="flugverspaetung-entschaedigung-south-african-airways.html">South African Airways</a>
-<a href="flugverspaetung-entschaedigung-andere-airline.html">Other Airline</a>
-<a href="flugverspaetung-entschaedigung-air-france.html">Air France</a>
+    <a href="flugverspaetung-entschaedigung-eva-air.html">EVA Air</a>
+<a href="flugverspaetung-entschaedigung-jet2.html">Jet2.com</a>
+<a href="flugverspaetung-entschaedigung-malaysia-airlines.html">Malaysia Airlines</a>
+<a href="flugverspaetung-entschaedigung-norwegian-air-shuttle.html">Norwegian</a>
+<a href="flugverspaetung-entschaedigung-aer-lingus.html">Aer Lingus</a>
 
   </div>
 </div>
@@ -769,15 +769,17 @@ function copyText(textArea) {
 
 function legacyCopy(textArea) {
     return new Promise((resolve, reject) => {
-        const wasReadonly = textArea.hasAttribute('readonly');
-        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
-        textArea.focus();
-        textArea.select();
-        textArea.setSelectionRange(0, 999999);
+        const ta = document.createElement('textarea');
+        ta.value = textArea.value;
+        ta.setAttribute('contenteditable', 'true');
+        ta.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;font-size:16px;-webkit-user-select:text;user-select:text;';
+        document.body.appendChild(ta);
+        ta.focus();
+        ta.select();
+        ta.setSelectionRange(0, ta.value.length);
         let ok = false;
         try { ok = document.execCommand('copy'); } catch (e) {}
-        if (wasReadonly) textArea.setAttribute('readonly', '');
-        textArea.blur();
+        document.body.removeChild(ta);
         ok ? resolve() : reject();
     });
 }

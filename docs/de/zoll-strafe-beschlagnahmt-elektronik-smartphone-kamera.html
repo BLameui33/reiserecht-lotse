@@ -227,11 +227,11 @@
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Weitere interessante Themen:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="zoll-strafe-beschlagnahmt-waffen-messer-pfefferspray.html">Waffen, Messer & Pfefferspray</a>
-<a href="zoll-strafe-beschlagnahmt-nahrungsergaenzungsmittel-sportler.html">Nahrungsergänzungsmittel (Sport & Fitness)</a>
+    <a href="zoll-strafe-beschlagnahmt-pflanzen-samen-blumenzwiebeln.html">Pflanzen & Saatgut</a>
+<a href="zoll-strafe-beschlagnahmt-lebensmittel-fleisch-milchprodukte.html">Lebensmittel (Fleisch & Milchprodukte)</a>
 <a href="zoll-strafe-beschlagnahmt-hund-haustier-einfuhr.html">Haustiere (Hunde & Katzen)</a>
-<a href="zoll-strafe-beschlagnahmt-kfz-ersatzteile-tuning.html">Autoteile & Tuning-Zubehör</a>
-<a href="zoll-strafe-beschlagnahmt-alkohol-spirituosen-freimenge.html">Alkohol & Spirituosen</a>
+<a href="zoll-strafe-beschlagnahmt-fake-markenkleidung-plagiate.html">Fake-Markenkleidung / Plagiate</a>
+<a href="zoll-strafe-beschlagnahmt-artenschutz-souvenirs-elfenbein-korallen.html">Artengeschützte Souvenirs (Korallen, Elfenbein)</a>
 
   </div>
 </div>
@@ -620,15 +620,17 @@ function copyText(textArea) {
 
 function legacyCopy(textArea) {
     return new Promise((resolve, reject) => {
-        const wasReadonly = textArea.hasAttribute('readonly');
-        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
-        textArea.focus();
-        textArea.select();
-        textArea.setSelectionRange(0, 999999);
+        const ta = document.createElement('textarea');
+        ta.value = textArea.value;
+        ta.setAttribute('contenteditable', 'true');
+        ta.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;font-size:16px;-webkit-user-select:text;user-select:text;';
+        document.body.appendChild(ta);
+        ta.focus();
+        ta.select();
+        ta.setSelectionRange(0, ta.value.length);
         let ok = false;
         try { ok = document.execCommand('copy'); } catch (e) {}
-        if (wasReadonly) textArea.setAttribute('readonly', '');
-        textArea.blur();
+        document.body.removeChild(ta);
         ok ? resolve() : reject();
     });
 }

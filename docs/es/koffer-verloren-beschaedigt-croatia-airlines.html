@@ -305,11 +305,11 @@ Croacia</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Otros temas de interés:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="koffer-verloren-beschaedigt-united-airlines.html">United Airlines, Inc.</a>
-<a href="koffer-verloren-beschaedigt-tui-airways-uk.html">TUI UK Limited (TUI Airways)</a>
-<a href="koffer-verloren-beschaedigt-emirates.html">Emirates</a>
-<a href="koffer-verloren-beschaedigt-srilankan-airlines.html">SriLankan Airlines</a>
-<a href="koffer-verloren-beschaedigt-malaysia-airlines.html">Malaysia Airlines</a>
+    <a href="koffer-verloren-beschaedigt-air-astana.html">Air Astana JSC</a>
+<a href="koffer-verloren-beschaedigt-air-india.html">Air India Limited</a>
+<a href="koffer-verloren-beschaedigt-transavia.html">Transavia France S.A.S.</a>
+<a href="koffer-verloren-beschaedigt-nouvelair.html">Nouvelair Tunisie S.A.</a>
+<a href="koffer-verloren-beschaedigt-air-france.html">Air France</a>
 
   </div>
 </div>
@@ -728,15 +728,17 @@ function copyText(textArea) {
 
 function legacyCopy(textArea) {
     return new Promise((resolve, reject) => {
-        const wasReadonly = textArea.hasAttribute('readonly');
-        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
-        textArea.focus();
-        textArea.select();
-        textArea.setSelectionRange(0, 999999);
+        const ta = document.createElement('textarea');
+        ta.value = textArea.value;
+        ta.setAttribute('contenteditable', 'true');
+        ta.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;font-size:16px;-webkit-user-select:text;user-select:text;';
+        document.body.appendChild(ta);
+        ta.focus();
+        ta.select();
+        ta.setSelectionRange(0, ta.value.length);
         let ok = false;
         try { ok = document.execCommand('copy'); } catch (e) {}
-        if (wasReadonly) textArea.setAttribute('readonly', '');
-        textArea.blur();
+        document.body.removeChild(ta);
         ok ? resolve() : reject();
     });
 }

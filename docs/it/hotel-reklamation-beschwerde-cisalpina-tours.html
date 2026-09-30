@@ -276,11 +276,11 @@ Italia</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Altri argomenti interessanti:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="hotel-reklamation-beschwerde-monarco-viaggi.html">Monarco Viaggi S.a.s. di Michelangelo Crippa & C.</a>
-<a href="hotel-reklamation-beschwerde-nel-sole-travel.html">Nel Sole Travel Srls.</a>
-<a href="hotel-reklamation-beschwerde-francorosso.html">Francorosso S.p.A.</a>
-<a href="hotel-reklamation-beschwerde-gruppo-uvet.html">Gruppo Uvet S.p.A.</a>
-<a href="hotel-reklamation-beschwerde-veratour.html">Veratour S.p.A.</a>
+    <a href="hotel-reklamation-beschwerde-eves.html">Eves Agenzia Viaggi e Turismo S.r.l.</a>
+<a href="hotel-reklamation-beschwerde-swan-tour.html">Swan Tour S.p.A.</a>
+<a href="hotel-reklamation-beschwerde-basho-viaggi.html">Basho Viaggi S.r.l.</a>
+<a href="hotel-reklamation-beschwerde-santanna-viaggi.html">Santanna Viaggi di Giustizieri Omar</a>
+<a href="hotel-reklamation-beschwerde-bluvacanze.html">Bluvacanze S.p.A.</a>
 
   </div>
 </div>
@@ -761,15 +761,17 @@ function copyText(textArea) {
 
 function legacyCopy(textArea) {
     return new Promise((resolve, reject) => {
-        const wasReadonly = textArea.hasAttribute('readonly');
-        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
-        textArea.focus();
-        textArea.select();
-        textArea.setSelectionRange(0, 999999);
+        const ta = document.createElement('textarea');
+        ta.value = textArea.value;
+        ta.setAttribute('contenteditable', 'true');
+        ta.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;font-size:16px;-webkit-user-select:text;user-select:text;';
+        document.body.appendChild(ta);
+        ta.focus();
+        ta.select();
+        ta.setSelectionRange(0, ta.value.length);
         let ok = false;
         try { ok = document.execCommand('copy'); } catch (e) {}
-        if (wasReadonly) textArea.setAttribute('readonly', '');
-        textArea.blur();
+        document.body.removeChild(ta);
         ok ? resolve() : reject();
     });
 }

@@ -250,11 +250,11 @@ London EC1N 2SW</textarea>
   <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
     <h3>Further Templates, Rights & Guidelines:</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="letzte-mahnung-nachdruck-iberia.html">Iberia</a>
-<a href="letzte-mahnung-nachdruck-loganair.html">Loganair</a>
-<a href="letzte-mahnung-nachdruck-marella-cruises.html">Marella Cruises</a>
-<a href="letzte-mahnung-nachdruck-emirates.html">Emirates</a>
-<a href="letzte-mahnung-nachdruck-jet2.html">Jet2.com</a>
+      <a href="letzte-mahnung-nachdruck-british-airways.html">British Airways</a>
+<a href="letzte-mahnung-nachdruck-austrian-airlines.html">Austrian Airlines</a>
+<a href="letzte-mahnung-nachdruck-easyjet-holidays.html">easyJet holidays</a>
+<a href="letzte-mahnung-nachdruck-swiss.html">Swiss</a>
+<a href="letzte-mahnung-nachdruck-riviera-travel.html">Riviera Travel</a>
 
     </div>
   </div>
@@ -516,15 +516,17 @@ function copyText(textArea) {
 
 function legacyCopy(textArea) {
     return new Promise((resolve, reject) => {
-        const wasReadonly = textArea.hasAttribute('readonly');
-        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
-        textArea.focus();
-        textArea.select();
-        textArea.setSelectionRange(0, 999999);
+        const ta = document.createElement('textarea');
+        ta.value = textArea.value;
+        ta.setAttribute('contenteditable', 'true');
+        ta.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;font-size:16px;-webkit-user-select:text;user-select:text;';
+        document.body.appendChild(ta);
+        ta.focus();
+        ta.select();
+        ta.setSelectionRange(0, ta.value.length);
         let ok = false;
         try { ok = document.execCommand('copy'); } catch (e) {}
-        if (wasReadonly) textArea.setAttribute('readonly', '');
-        textArea.blur();
+        document.body.removeChild(ta);
         ok ? resolve() : reject();
     });
 }

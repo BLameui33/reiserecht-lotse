@@ -278,10 +278,10 @@ France</textarea>
   <h3>Autres sujets intéressants :</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="hotel-reklamation-beschwerde-auchan-voyages.html">Auchan Voyages (Havas Voyages)</a>
-<a href="hotel-reklamation-beschwerde-club-med.html">Club Méditerranée S.A.</a>
-<a href="hotel-reklamation-beschwerde-leclerc-voyages.html">E.Leclerc Voyages S.A.S.</a>
+<a href="hotel-reklamation-beschwerde-sunelia.html">Sunelia S.A.S.</a>
+<a href="hotel-reklamation-beschwerde-tui-france.html">TUI France S.A.</a>
 <a href="hotel-reklamation-beschwerde-salaun-holidays.html">Salaün Holidays S.A.S.</a>
-<a href="hotel-reklamation-beschwerde-vacances-directes.html">Vacances Directes S.A.S.</a>
+<a href="hotel-reklamation-beschwerde-nouvelles-frontieres.html">Nouvelles Frontières (TUI France)</a>
 
   </div>
 </div>
@@ -753,15 +753,17 @@ function copyText(textArea) {
 
 function legacyCopy(textArea) {
     return new Promise((resolve, reject) => {
-        const wasReadonly = textArea.hasAttribute('readonly');
-        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
-        textArea.focus();
-        textArea.select();
-        textArea.setSelectionRange(0, 999999);
+        const ta = document.createElement('textarea');
+        ta.value = textArea.value;
+        ta.setAttribute('contenteditable', 'true');
+        ta.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;font-size:16px;-webkit-user-select:text;user-select:text;';
+        document.body.appendChild(ta);
+        ta.focus();
+        ta.select();
+        ta.setSelectionRange(0, ta.value.length);
         let ok = false;
         try { ok = document.execCommand('copy'); } catch (e) {}
-        if (wasReadonly) textArea.setAttribute('readonly', '');
-        textArea.blur();
+        document.body.removeChild(ta);
         ok ? resolve() : reject();
     });
 }

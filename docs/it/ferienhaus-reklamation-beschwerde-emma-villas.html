@@ -273,11 +273,11 @@ Italia</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Altri argomenti interessanti:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="ferienhaus-reklamation-beschwerde-naturhaeuschen.html">Naturhäuschen</a>
+    <a href="ferienhaus-reklamation-beschwerde-casamundo.html">Casamundo</a>
+<a href="ferienhaus-reklamation-beschwerde-ferienwohnungen-de.html">Ferienwohnungen.de</a>
 <a href="ferienhaus-reklamation-beschwerde-novasol.html">Novasol</a>
-<a href="ferienhaus-reklamation-beschwerde-holidu.html">Holidu</a>
-<a href="ferienhaus-reklamation-beschwerde-booking.html">Booking.com</a>
-<a href="ferienhaus-reklamation-beschwerde-dancenter.html">DanCenter</a>
+<a href="ferienhaus-reklamation-beschwerde-allgemein.html">Allgemeines Formular</a>
+<a href="ferienhaus-reklamation-beschwerde-e-domizil.html">e-domizil</a>
 
   </div>
 </div>
@@ -736,15 +736,17 @@ function copyText(textArea) {
 
 function legacyCopy(textArea) {
     return new Promise((resolve, reject) => {
-        const wasReadonly = textArea.hasAttribute('readonly');
-        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
-        textArea.focus();
-        textArea.select();
-        textArea.setSelectionRange(0, 999999);
+        const ta = document.createElement('textarea');
+        ta.value = textArea.value;
+        ta.setAttribute('contenteditable', 'true');
+        ta.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;font-size:16px;-webkit-user-select:text;user-select:text;';
+        document.body.appendChild(ta);
+        ta.focus();
+        ta.select();
+        ta.setSelectionRange(0, ta.value.length);
         let ok = false;
         try { ok = document.execCommand('copy'); } catch (e) {}
-        if (wasReadonly) textArea.setAttribute('readonly', '');
-        textArea.blur();
+        document.body.removeChild(ta);
         ok ? resolve() : reject();
     });
 }

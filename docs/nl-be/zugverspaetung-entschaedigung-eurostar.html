@@ -327,11 +327,11 @@ Verenigd Koninkrijk</textarea>
   <div class="popular-links" style="margin-top: 40px; padding: 20px; background: #f9f9f9; border-radius: 8px;">
     <h3>Andere aanbieders & regio's:</h3>
     <div class="link-grid">
-      <a href="zugverspaetung-entschaedigung-hlb.html">HLB (Hessische Landesbahn)</a>
-<a href="zugverspaetung-entschaedigung-avlo.html">Avlo (Renfe)</a>
-<a href="zugverspaetung-entschaedigung-sncf.html">SNCF (Société Nationale des Chemins de fer Français)</a>
-<a href="zugverspaetung-entschaedigung-erixx.html">erixx</a>
-<a href="zugverspaetung-entschaedigung-trenitalia.html">Trenitalia</a>
+      <a href="zugverspaetung-entschaedigung-cp.html">CP (Comboios de Portugal)</a>
+<a href="zugverspaetung-entschaedigung-metronom.html">metronom</a>
+<a href="zugverspaetung-entschaedigung-ouigo-espana.html">OUIGO España</a>
+<a href="zugverspaetung-entschaedigung-odeg.html">ODEG (Ostdeutsche Eisenbahn)</a>
+<a href="zugverspaetung-entschaedigung-sncb.html">SNCB / NMBS (Belgische Bahn)</a>
 
     </div>
   </div>
@@ -753,15 +753,17 @@ function copyText(textArea) {
 
 function legacyCopy(textArea) {
     return new Promise((resolve, reject) => {
-        const wasReadonly = textArea.hasAttribute('readonly');
-        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
-        textArea.focus();
-        textArea.select();
-        textArea.setSelectionRange(0, 999999);
+        const ta = document.createElement('textarea');
+        ta.value = textArea.value;
+        ta.setAttribute('contenteditable', 'true');
+        ta.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;font-size:16px;-webkit-user-select:text;user-select:text;';
+        document.body.appendChild(ta);
+        ta.focus();
+        ta.select();
+        ta.setSelectionRange(0, ta.value.length);
         let ok = false;
         try { ok = document.execCommand('copy'); } catch (e) {}
-        if (wasReadonly) textArea.setAttribute('readonly', '');
-        textArea.blur();
+        document.body.removeChild(ta);
         ok ? resolve() : reject();
     });
 }

@@ -326,11 +326,11 @@ Allemagne</textarea>
   <div class="popular-links" style="margin-top: 40px; padding: 20px; background: #f9f9f9; border-radius: 8px;">
     <h3>Autres prestataires et régions :</h3>
     <div class="link-grid">
-      <a href="zugverspaetung-entschaedigung-national-express.html">National Express</a>
-<a href="zugverspaetung-entschaedigung-ouigo-espana.html">OUIGO España</a>
-<a href="zugverspaetung-entschaedigung-vlexx.html">vlexx</a>
-<a href="zugverspaetung-entschaedigung-ns.html">NS (Nederlandse Spoorwegen)</a>
-<a href="zugverspaetung-entschaedigung-agilis.html">agilis</a>
+      <a href="zugverspaetung-entschaedigung-cd.html">ČD (České dráhy)</a>
+<a href="zugverspaetung-entschaedigung-ice.html">ICE (Deutsche Bahn)</a>
+<a href="zugverspaetung-entschaedigung-cp.html">CP (Comboios de Portugal)</a>
+<a href="zugverspaetung-entschaedigung-ave.html">AVE (Renfe)</a>
+<a href="zugverspaetung-entschaedigung-nightjet.html">Nightjet (ÖBB)</a>
 
     </div>
   </div>
@@ -763,15 +763,17 @@ function copyText(textArea) {
 
 function legacyCopy(textArea) {
     return new Promise((resolve, reject) => {
-        const wasReadonly = textArea.hasAttribute('readonly');
-        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
-        textArea.focus();
-        textArea.select();
-        textArea.setSelectionRange(0, 999999);
+        const ta = document.createElement('textarea');
+        ta.value = textArea.value;
+        ta.setAttribute('contenteditable', 'true');
+        ta.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;font-size:16px;-webkit-user-select:text;user-select:text;';
+        document.body.appendChild(ta);
+        ta.focus();
+        ta.select();
+        ta.setSelectionRange(0, ta.value.length);
         let ok = false;
         try { ok = document.execCommand('copy'); } catch (e) {}
-        if (wasReadonly) textArea.setAttribute('readonly', '');
-        textArea.blur();
+        document.body.removeChild(ta);
         ok ? resolve() : reject();
     });
 }

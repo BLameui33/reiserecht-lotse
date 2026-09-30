@@ -272,11 +272,11 @@ Deutschland</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Weitere interessante Themen:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="reise-stornieren-kosten-pruefen-hlx.html">HLX Touristik GmbH</a>
-<a href="reise-stornieren-kosten-pruefen-bavaria-fernreisen.html">Bavaria Fernreisen GmbH</a>
-<a href="reise-stornieren-kosten-pruefen-ltur.html">ltur GmbH</a>
+    <a href="reise-stornieren-kosten-pruefen-eti.html">Express Travel International GmbH</a>
 <a href="reise-stornieren-kosten-pruefen-gebeco.html">Gebeco GmbH & Co. KG</a>
 <a href="reise-stornieren-kosten-pruefen-byebye.html">BYEBYE GmbH</a>
+<a href="reise-stornieren-kosten-pruefen-dertour.html">DERTOUR Deutschland GmbH</a>
+<a href="reise-stornieren-kosten-pruefen-bucher-reisen.html">Bucher Reisen (ANEX Tour GmbH)</a>
 
   </div>
 </div>
@@ -704,15 +704,17 @@ function copyText(textArea) {
 
 function legacyCopy(textArea) {
     return new Promise((resolve, reject) => {
-        const wasReadonly = textArea.hasAttribute('readonly');
-        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
-        textArea.focus();
-        textArea.select();
-        textArea.setSelectionRange(0, 999999);
+        const ta = document.createElement('textarea');
+        ta.value = textArea.value;
+        ta.setAttribute('contenteditable', 'true');
+        ta.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;font-size:16px;-webkit-user-select:text;user-select:text;';
+        document.body.appendChild(ta);
+        ta.focus();
+        ta.select();
+        ta.setSelectionRange(0, ta.value.length);
         let ok = false;
         try { ok = document.execCommand('copy'); } catch (e) {}
-        if (wasReadonly) textArea.setAttribute('readonly', '');
-        textArea.blur();
+        document.body.removeChild(ta);
         ok ? resolve() : reject();
     });
 }

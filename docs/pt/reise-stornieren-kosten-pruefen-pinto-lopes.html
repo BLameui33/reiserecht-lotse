@@ -268,11 +268,11 @@ Portugal</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Outros temas interessantes:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="reise-stornieren-kosten-pruefen-netviagens.html">Netviagens</a>
-<a href="reise-stornieren-kosten-pruefen-booking-com.html">Booking.com B.V.</a>
-<a href="reise-stornieren-kosten-pruefen-skyscanner.html">Skyscanner Ltd</a>
-<a href="reise-stornieren-kosten-pruefen-lusanova.html">Lusanova - Excursões e Turismo, Lda.</a>
-<a href="reise-stornieren-kosten-pruefen-anderer-vermittler.html">Ihren Reisevermittler</a>
+    <a href="reise-stornieren-kosten-pruefen-skyscanner.html">Skyscanner Ltd</a>
+<a href="reise-stornieren-kosten-pruefen-expedia.html">Expedia, Inc.</a>
+<a href="reise-stornieren-kosten-pruefen-top-atlantico.html">Top Atlântico (Viagens e Turismo, S.A.)</a>
+<a href="reise-stornieren-kosten-pruefen-portimar.html">Portimar - Agência de Viagens e Turismo, Lda.</a>
+<a href="reise-stornieren-kosten-pruefen-club-tour.html">Club Tour - Viagens e Turismo, S.A.</a>
 
   </div>
 </div>
@@ -707,15 +707,17 @@ function copyText(textArea) {
 
 function legacyCopy(textArea) {
     return new Promise((resolve, reject) => {
-        const wasReadonly = textArea.hasAttribute('readonly');
-        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
-        textArea.focus();
-        textArea.select();
-        textArea.setSelectionRange(0, 999999);
+        const ta = document.createElement('textarea');
+        ta.value = textArea.value;
+        ta.setAttribute('contenteditable', 'true');
+        ta.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;font-size:16px;-webkit-user-select:text;user-select:text;';
+        document.body.appendChild(ta);
+        ta.focus();
+        ta.select();
+        ta.setSelectionRange(0, ta.value.length);
         let ok = false;
         try { ok = document.execCommand('copy'); } catch (e) {}
-        if (wasReadonly) textArea.setAttribute('readonly', '');
-        textArea.blur();
+        document.body.removeChild(ta);
         ok ? resolve() : reject();
     });
 }

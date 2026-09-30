@@ -254,10 +254,10 @@ France</textarea>
     <h3>Further Templates, Rights & Guidelines:</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
       <a href="letzte-mahnung-nachdruck-klm.html">KLM</a>
-<a href="letzte-mahnung-nachdruck-msc-cruises.html">MSC Cruises</a>
-<a href="letzte-mahnung-nachdruck-ebookers.html">ebookers</a>
-<a href="letzte-mahnung-nachdruck-martin-randall-travel.html">Martin Randall Travel</a>
-<a href="letzte-mahnung-nachdruck-lastminute-com.html">lastminute.com</a>
+<a href="letzte-mahnung-nachdruck-exodus-travels.html">Exodus Travels</a>
+<a href="letzte-mahnung-nachdruck-eurostar.html">Eurostar</a>
+<a href="letzte-mahnung-nachdruck-virgin-atlantic.html">Virgin Atlantic</a>
+<a href="letzte-mahnung-nachdruck-wizz-air.html">Wizz Air</a>
 
     </div>
   </div>
@@ -519,15 +519,17 @@ function copyText(textArea) {
 
 function legacyCopy(textArea) {
     return new Promise((resolve, reject) => {
-        const wasReadonly = textArea.hasAttribute('readonly');
-        textArea.removeAttribute('readonly');   // iOS braucht das zum Markieren
-        textArea.focus();
-        textArea.select();
-        textArea.setSelectionRange(0, 999999);
+        const ta = document.createElement('textarea');
+        ta.value = textArea.value;
+        ta.setAttribute('contenteditable', 'true');
+        ta.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;font-size:16px;-webkit-user-select:text;user-select:text;';
+        document.body.appendChild(ta);
+        ta.focus();
+        ta.select();
+        ta.setSelectionRange(0, ta.value.length);
         let ok = false;
         try { ok = document.execCommand('copy'); } catch (e) {}
-        if (wasReadonly) textArea.setAttribute('readonly', '');
-        textArea.blur();
+        document.body.removeChild(ta);
         ok ? resolve() : reject();
     });
 }
