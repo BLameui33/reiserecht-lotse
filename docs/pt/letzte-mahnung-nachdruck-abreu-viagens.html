@@ -244,11 +244,11 @@ Av. da Liberdade, 160
   <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
     <h3>Outras minutas, direitos e diretrizes:</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="letzte-mahnung-nachdruck-ouigo-espana.html">Ouigo España</a>
-<a href="letzte-mahnung-nachdruck-norwegian.html">Norwegian</a>
+      <a href="letzte-mahnung-nachdruck-iryo.html">iryo</a>
+<a href="letzte-mahnung-nachdruck-euroatlantic-airways.html">EuroAtlantic Airways</a>
+<a href="letzte-mahnung-nachdruck-destinos-tour-operador.html">Destinos Tour Operador</a>
+<a href="letzte-mahnung-nachdruck-ouigo-espana.html">Ouigo España</a>
 <a href="letzte-mahnung-nachdruck-edreams.html">eDreams</a>
-<a href="letzte-mahnung-nachdruck-vueling.html">Vueling</a>
-<a href="letzte-mahnung-nachdruck-mstravel.html">MSTravel</a>
 
     </div>
   </div>
@@ -503,10 +503,20 @@ document.getElementById('mahnungForm').addEventListener('submit', function(e) {
 
 // --- KOPIER-BUTTON LOGIK ---
 function copyText(textArea) {
-    if (navigator.clipboard && window.isSecureContext) {
-        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
-    }
-    return legacyCopy(textArea);
+    return new Promise((resolve, reject) => {
+        // 1. Zuerst klassisch und synchron im Klick (iOS-tauglich)
+        legacyCopy(textArea).then(resolve).catch(() => {
+            // 2. Reserve: moderne API, aber mit Timeout gegen Hängen
+            if (navigator.clipboard && window.isSecureContext) {
+                const timer = setTimeout(reject, 1500);
+                navigator.clipboard.writeText(textArea.value)
+                    .then(() => { clearTimeout(timer); resolve(); })
+                    .catch(() => { clearTimeout(timer); reject(); });
+            } else {
+                reject();
+            }
+        });
+    });
 }
 
 function legacyCopy(textArea) {

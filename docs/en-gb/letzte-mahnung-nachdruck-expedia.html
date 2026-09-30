@@ -253,11 +253,11 @@ USA</textarea>
   <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
     <h3>Further Templates, Rights & Guidelines:</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="letzte-mahnung-nachdruck-booking-com.html">Booking.com</a>
-<a href="letzte-mahnung-nachdruck-vrbo.html">Vrbo</a>
-<a href="letzte-mahnung-nachdruck-jet2.html">Jet2.com</a>
+      <a href="letzte-mahnung-nachdruck-norwegian.html">Norwegian</a>
 <a href="letzte-mahnung-nachdruck-sas.html">SAS Scandinavian Airlines</a>
-<a href="letzte-mahnung-nachdruck-cunard.html">Cunard</a>
+<a href="letzte-mahnung-nachdruck-great-rail-journeys.html">Great Rail Journeys</a>
+<a href="letzte-mahnung-nachdruck-marella-cruises.html">Marella Cruises</a>
+<a href="letzte-mahnung-nachdruck-sykes-cottages.html">Sykes Holiday Cottages</a>
 
     </div>
   </div>
@@ -511,10 +511,20 @@ document.getElementById('mahnungForm').addEventListener('submit', function(e) {
 
 // --- COPY BUTTON LOGIC ---
 function copyText(textArea) {
-    if (navigator.clipboard && window.isSecureContext) {
-        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
-    }
-    return legacyCopy(textArea);
+    return new Promise((resolve, reject) => {
+        // 1. Zuerst klassisch und synchron im Klick (iOS-tauglich)
+        legacyCopy(textArea).then(resolve).catch(() => {
+            // 2. Reserve: moderne API, aber mit Timeout gegen Hängen
+            if (navigator.clipboard && window.isSecureContext) {
+                const timer = setTimeout(reject, 1500);
+                navigator.clipboard.writeText(textArea.value)
+                    .then(() => { clearTimeout(timer); resolve(); })
+                    .catch(() => { clearTimeout(timer); reject(); });
+            } else {
+                reject();
+            }
+        });
+    });
 }
 
 function legacyCopy(textArea) {

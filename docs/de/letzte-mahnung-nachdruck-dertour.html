@@ -244,11 +244,11 @@ Emil-von-Behring-Straße 6
   <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
     <h3>Weitere Vorlagen, Rechte & Richtlinien:</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="letzte-mahnung-nachdruck-tui-deutschland.html">TUI Deutschland</a>
-<a href="letzte-mahnung-nachdruck-check24-reisen.html">CHECK24 Reisen</a>
-<a href="letzte-mahnung-nachdruck-air-france.html">Air France</a>
-<a href="letzte-mahnung-nachdruck-norwegian.html">Norwegian</a>
-<a href="letzte-mahnung-nachdruck-westbahn.html">Westbahn</a>
+      <a href="letzte-mahnung-nachdruck-meiers-weltreisen.html">Meiers Weltreisen</a>
+<a href="letzte-mahnung-nachdruck-ab-in-den-urlaub.html">ab-in-den-urlaub.de</a>
+<a href="letzte-mahnung-nachdruck-its-reisen.html">ITS Reisen</a>
+<a href="letzte-mahnung-nachdruck-msc-kreuzfahrten.html">MSC Kreuzfahrten</a>
+<a href="letzte-mahnung-nachdruck-alltours.html">Alltours</a>
 
     </div>
   </div>
@@ -503,10 +503,20 @@ document.getElementById('mahnungForm').addEventListener('submit', function(e) {
 
 // --- KOPIER-BUTTON LOGIK ---
 function copyText(textArea) {
-    if (navigator.clipboard && window.isSecureContext) {
-        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
-    }
-    return legacyCopy(textArea);
+    return new Promise((resolve, reject) => {
+        // 1. Zuerst klassisch und synchron im Klick (iOS-tauglich)
+        legacyCopy(textArea).then(resolve).catch(() => {
+            // 2. Reserve: moderne API, aber mit Timeout gegen Hängen
+            if (navigator.clipboard && window.isSecureContext) {
+                const timer = setTimeout(reject, 1500);
+                navigator.clipboard.writeText(textArea.value)
+                    .then(() => { clearTimeout(timer); resolve(); })
+                    .catch(() => { clearTimeout(timer); reject(); });
+            } else {
+                reject();
+            }
+        });
+    });
 }
 
 function legacyCopy(textArea) {

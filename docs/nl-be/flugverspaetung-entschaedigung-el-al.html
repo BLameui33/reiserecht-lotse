@@ -302,11 +302,11 @@ België</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Meer interessante onderwerpen:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="flugverspaetung-entschaedigung-tuifly.html">TUIfly GmbH</a>
-<a href="flugverspaetung-entschaedigung-andere-airline.html">Airlines</a>
-<a href="flugverspaetung-entschaedigung-flyone.html">FLYONE</a>
-<a href="flugverspaetung-entschaedigung-malaysia-airlines.html">Malaysia Airlines</a>
-<a href="flugverspaetung-entschaedigung-easyjet.html">easyJet Airline Company Limited</a>
+    <a href="flugverspaetung-entschaedigung-andere-airline.html">Airlines</a>
+<a href="flugverspaetung-entschaedigung-helvetic-airways.html">Helvetic Airways AG</a>
+<a href="flugverspaetung-entschaedigung-royal-air-maroc.html">Royal Air Maroc</a>
+<a href="flugverspaetung-entschaedigung-bulgaria-air.html">Bulgaria Air</a>
+<a href="flugverspaetung-entschaedigung-klm.html">KLM Royal Dutch Airlines</a>
 
   </div>
 </div>
@@ -759,10 +759,20 @@ outputArea.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
 // --- KOPIER-BUTTON LOGIK ---
 function copyText(textArea) {
-    if (navigator.clipboard && window.isSecureContext) {
-        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
-    }
-    return legacyCopy(textArea);
+    return new Promise((resolve, reject) => {
+        // 1. Zuerst klassisch und synchron im Klick (iOS-tauglich)
+        legacyCopy(textArea).then(resolve).catch(() => {
+            // 2. Reserve: moderne API, aber mit Timeout gegen Hängen
+            if (navigator.clipboard && window.isSecureContext) {
+                const timer = setTimeout(reject, 1500);
+                navigator.clipboard.writeText(textArea.value)
+                    .then(() => { clearTimeout(timer); resolve(); })
+                    .catch(() => { clearTimeout(timer); reject(); });
+            } else {
+                reject();
+            }
+        });
+    });
 }
 
 function legacyCopy(textArea) {

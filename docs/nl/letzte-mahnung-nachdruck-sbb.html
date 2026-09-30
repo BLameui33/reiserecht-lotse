@@ -248,11 +248,11 @@ Zwitserland</textarea>
   <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
     <h3>Meer sjablonen, rechten & richtlijnen:</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="letzte-mahnung-nachdruck-hapag-lloyd-cruises.html">Hapag-Lloyd Cruises</a>
-<a href="letzte-mahnung-nachdruck-anwb-reizen.html">ANWB Reizen</a>
+      <a href="letzte-mahnung-nachdruck-iberia.html">Iberia</a>
+<a href="letzte-mahnung-nachdruck-d-reizen.html">D-reizen</a>
+<a href="letzte-mahnung-nachdruck-etihad-airways.html">Etihad Airways</a>
 <a href="letzte-mahnung-nachdruck-djoser.html">Djoser</a>
-<a href="letzte-mahnung-nachdruck-iberia.html">Iberia</a>
-<a href="letzte-mahnung-nachdruck-turkish-airlines.html">Turkish Airlines</a>
+<a href="letzte-mahnung-nachdruck-vakanties-nl.html">Vakanties.nl</a>
 
     </div>
   </div>
@@ -507,10 +507,20 @@ document.getElementById('mahnungForm').addEventListener('submit', function(e) {
 
 // --- KOPIER-BUTTON LOGIK ---
 function copyText(textArea) {
-    if (navigator.clipboard && window.isSecureContext) {
-        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
-    }
-    return legacyCopy(textArea);
+    return new Promise((resolve, reject) => {
+        // 1. Zuerst klassisch und synchron im Klick (iOS-tauglich)
+        legacyCopy(textArea).then(resolve).catch(() => {
+            // 2. Reserve: moderne API, aber mit Timeout gegen Hängen
+            if (navigator.clipboard && window.isSecureContext) {
+                const timer = setTimeout(reject, 1500);
+                navigator.clipboard.writeText(textArea.value)
+                    .then(() => { clearTimeout(timer); resolve(); })
+                    .catch(() => { clearTimeout(timer); reject(); });
+            } else {
+                reject();
+            }
+        });
+    });
 }
 
 function legacyCopy(textArea) {

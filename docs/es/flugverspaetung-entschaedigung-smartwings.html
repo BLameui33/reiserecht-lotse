@@ -302,10 +302,10 @@ República Checa</textarea>
   <h3>Otros temas interesantes:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="flugverspaetung-entschaedigung-latam-airlines.html">LATAM Airlines</a>
-<a href="flugverspaetung-entschaedigung-air-algerie.html">Air Algérie</a>
-<a href="flugverspaetung-entschaedigung-lot-polish-airlines.html">LOT Polish Airlines</a>
-<a href="flugverspaetung-entschaedigung-pegasus-airlines.html">Pegasus Airlines</a>
-<a href="flugverspaetung-entschaedigung-wideroe.html">Widerøe's Flyveselskap AS</a>
+<a href="flugverspaetung-entschaedigung-turkish-airlines.html">Turkish Airlines</a>
+<a href="flugverspaetung-entschaedigung-norwegian-air-shuttle.html">Norwegian Air Shuttle ASA</a>
+<a href="flugverspaetung-entschaedigung-china-southern-airlines.html">China Southern Airlines</a>
+<a href="flugverspaetung-entschaedigung-brussels-airlines.html">Brussels Airlines SA/NV</a>
 
   </div>
 </div>
@@ -756,10 +756,20 @@ outputArea.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
 // --- KOPIER-BUTTON LOGIK ---
 function copyText(textArea) {
-    if (navigator.clipboard && window.isSecureContext) {
-        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
-    }
-    return legacyCopy(textArea);
+    return new Promise((resolve, reject) => {
+        // 1. Zuerst klassisch und synchron im Klick (iOS-tauglich)
+        legacyCopy(textArea).then(resolve).catch(() => {
+            // 2. Reserve: moderne API, aber mit Timeout gegen Hängen
+            if (navigator.clipboard && window.isSecureContext) {
+                const timer = setTimeout(reject, 1500);
+                navigator.clipboard.writeText(textArea.value)
+                    .then(() => { clearTimeout(timer); resolve(); })
+                    .catch(() => { clearTimeout(timer); reject(); });
+            } else {
+                reject();
+            }
+        });
+    });
 }
 
 function legacyCopy(textArea) {

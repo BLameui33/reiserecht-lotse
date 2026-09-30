@@ -247,10 +247,10 @@
   <h3>Discover other related topics:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="credit-card-chargeback-united-airlines.html">United Airlines, Inc.</a>
-<a href="credit-card-chargeback-booking-com.html">Booking.com B.V.</a>
-<a href="credit-card-chargeback-red-roof-inn.html">Red Roof Inn, Inc.</a>
-<a href="credit-card-chargeback-contiki.html">Contiki Holidays (The Travel Corporation)</a>
-<a href="credit-card-chargeback-la-quinta.html">La Quinta Inns & Suites (Wyndham Hotels & Resorts)</a>
+<a href="credit-card-chargeback-celebrity-cruises.html">Celebrity Cruises Inc. (Royal Caribbean Group)</a>
+<a href="credit-card-chargeback-cosmos-tours.html">Cosmos (The Travel Corporation)</a>
+<a href="credit-card-chargeback-other-provider.html">Other Provider / Airline</a>
+<a href="credit-card-chargeback-trafalgar.html">Trafalgar Tours (The Travel Corporation)</a>
 
   </div>
 </div>
@@ -687,10 +687,20 @@ Cardholder`;
 
 // --- KOPIER-BUTTON LOGIK ---
 function copyText(textArea) {
-    if (navigator.clipboard && window.isSecureContext) {
-        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
-    }
-    return legacyCopy(textArea);
+    return new Promise((resolve, reject) => {
+        // 1. Zuerst klassisch und synchron im Klick (iOS-tauglich)
+        legacyCopy(textArea).then(resolve).catch(() => {
+            // 2. Reserve: moderne API, aber mit Timeout gegen Hängen
+            if (navigator.clipboard && window.isSecureContext) {
+                const timer = setTimeout(reject, 1500);
+                navigator.clipboard.writeText(textArea.value)
+                    .then(() => { clearTimeout(timer); resolve(); })
+                    .catch(() => { clearTimeout(timer); reject(); });
+            } else {
+                reject();
+            }
+        });
+    });
 }
 
 function legacyCopy(textArea) {

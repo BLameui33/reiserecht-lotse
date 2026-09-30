@@ -246,11 +246,11 @@
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Discover other related topics:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="credit-card-chargeback-trip-com.html">Trip.com Group Limited</a>
-<a href="credit-card-chargeback-avis.html">Avis Rent A Car System, LLC (Avis Budget Group)</a>
-<a href="credit-card-chargeback-funjet-vacations.html">Funjet Vacations (Travel Impressions / MyVacationSite)</a>
-<a href="credit-card-chargeback-alaska-airlines.html">Alaska Airlines, Inc.</a>
-<a href="credit-card-chargeback-sixt-rent-a-car.html">Sixt Rent a Car, LLC</a>
+    <a href="credit-card-chargeback-royal-caribbean.html">Royal Caribbean International (Royal Caribbean Group)</a>
+<a href="credit-card-chargeback-southwest-vacations.html">Southwest Vacations</a>
+<a href="credit-card-chargeback-best-western.html">Best Western Hotels & Resorts</a>
+<a href="credit-card-chargeback-kayak.html">Kayak Software Corporation</a>
+<a href="credit-card-chargeback-hawaiian-airlines.html">Hawaiian Airlines, Inc.</a>
 
   </div>
 </div>
@@ -687,10 +687,20 @@ Cardholder`;
 
 // --- KOPIER-BUTTON LOGIK ---
 function copyText(textArea) {
-    if (navigator.clipboard && window.isSecureContext) {
-        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
-    }
-    return legacyCopy(textArea);
+    return new Promise((resolve, reject) => {
+        // 1. Zuerst klassisch und synchron im Klick (iOS-tauglich)
+        legacyCopy(textArea).then(resolve).catch(() => {
+            // 2. Reserve: moderne API, aber mit Timeout gegen Hängen
+            if (navigator.clipboard && window.isSecureContext) {
+                const timer = setTimeout(reject, 1500);
+                navigator.clipboard.writeText(textArea.value)
+                    .then(() => { clearTimeout(timer); resolve(); })
+                    .catch(() => { clearTimeout(timer); reject(); });
+            } else {
+                reject();
+            }
+        });
+    });
 }
 
 function legacyCopy(textArea) {

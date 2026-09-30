@@ -253,11 +253,11 @@ Oostenrijk</textarea>
   <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
     <h3>Meer sjablonen, rechten & richtlijnen:</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="letzte-mahnung-nachdruck-ns-international.html">NS International (Amsterdam – Brussel)</a>
-<a href="letzte-mahnung-nachdruck-sunweb.html">Sunweb</a>
-<a href="letzte-mahnung-nachdruck-hapag-lloyd-cruises.html">Hapag-Lloyd Cruises</a>
+      <a href="letzte-mahnung-nachdruck-sncf-voyageurs.html">SNCF Voyageurs (TGV INOUI / OUIGO)</a>
+<a href="letzte-mahnung-nachdruck-british-airways.html">British Airways</a>
+<a href="letzte-mahnung-nachdruck-qatar-airways.html">Qatar Airways</a>
+<a href="letzte-mahnung-nachdruck-lufthansa.html">Lufthansa</a>
 <a href="letzte-mahnung-nachdruck-expedia.html">Expedia</a>
-<a href="letzte-mahnung-nachdruck-thomas-cook.html">Thomas Cook (Belgium)</a>
 
     </div>
   </div>
@@ -512,10 +512,20 @@ document.getElementById('mahnungForm').addEventListener('submit', function(e) {
 
 // --- KOPIER-BUTTON LOGIK ---
 function copyText(textArea) {
-    if (navigator.clipboard && window.isSecureContext) {
-        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
-    }
-    return legacyCopy(textArea);
+    return new Promise((resolve, reject) => {
+        // 1. Zuerst klassisch und synchron im Klick (iOS-tauglich)
+        legacyCopy(textArea).then(resolve).catch(() => {
+            // 2. Reserve: moderne API, aber mit Timeout gegen Hängen
+            if (navigator.clipboard && window.isSecureContext) {
+                const timer = setTimeout(reject, 1500);
+                navigator.clipboard.writeText(textArea.value)
+                    .then(() => { clearTimeout(timer); resolve(); })
+                    .catch(() => { clearTimeout(timer); reject(); });
+            } else {
+                reject();
+            }
+        });
+    });
 }
 
 function legacyCopy(textArea) {

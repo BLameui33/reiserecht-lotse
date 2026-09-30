@@ -303,11 +303,11 @@ Alemanha</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Outros temas interessantes:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="flugverspaetung-entschaedigung-air-dolomiti.html">Air Dolomiti S.p.A.</a>
+    <a href="flugverspaetung-entschaedigung-air-france.html">Air France</a>
+<a href="flugverspaetung-entschaedigung-bulgaria-air.html">Bulgaria Air</a>
+<a href="flugverspaetung-entschaedigung-iberia.html">IBERIA LAE SA Operadora Unipersonal</a>
 <a href="flugverspaetung-entschaedigung-american-airlines.html">American Airlines</a>
-<a href="flugverspaetung-entschaedigung-transavia.html">Transavia France S.A.S.</a>
-<a href="flugverspaetung-entschaedigung-edelweiss-air.html">Edelweiss Air AG</a>
-<a href="flugverspaetung-entschaedigung-sunexpress.html">SunExpress</a>
+<a href="flugverspaetung-entschaedigung-vietnam-airlines.html">Vietnam Airlines</a>
 
   </div>
 </div>
@@ -759,10 +759,20 @@ outputArea.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
 // --- KOPIER-BUTTON LOGIK ---
 function copyText(textArea) {
-    if (navigator.clipboard && window.isSecureContext) {
-        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
-    }
-    return legacyCopy(textArea);
+    return new Promise((resolve, reject) => {
+        // 1. Zuerst klassisch und synchron im Klick (iOS-tauglich)
+        legacyCopy(textArea).then(resolve).catch(() => {
+            // 2. Reserve: moderne API, aber mit Timeout gegen Hängen
+            if (navigator.clipboard && window.isSecureContext) {
+                const timer = setTimeout(reject, 1500);
+                navigator.clipboard.writeText(textArea.value)
+                    .then(() => { clearTimeout(timer); resolve(); })
+                    .catch(() => { clearTimeout(timer); reject(); });
+            } else {
+                reject();
+            }
+        });
+    });
 }
 
 function legacyCopy(textArea) {

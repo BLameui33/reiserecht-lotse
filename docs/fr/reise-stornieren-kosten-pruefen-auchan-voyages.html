@@ -268,11 +268,11 @@ France</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Autres thèmes intéressants :</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="reise-stornieren-kosten-pruefen-agoda.html">Agoda Company Pte. Ltd. (Booking Holdings)</a>
-<a href="reise-stornieren-kosten-pruefen-opodo-fr.html">GO Voyages SAS (opodo.fr)</a>
-<a href="reise-stornieren-kosten-pruefen-lastminute-fr.html">Bravofly SAS (lastminute.com)</a>
-<a href="reise-stornieren-kosten-pruefen-leclerc-voyages.html">Leclerc Voyages (Siplec SAS)</a>
-<a href="reise-stornieren-kosten-pruefen-weekendesk.html">Weekendesk SAS</a>
+    <a href="reise-stornieren-kosten-pruefen-voyage-prive.html">Voyage Privé (VPG)</a>
+<a href="reise-stornieren-kosten-pruefen-govoyages.html">GO Voyages SAS (govoyages.com)</a>
+<a href="reise-stornieren-kosten-pruefen-fnac-voyages.html">Fnac Voyages (exploité par le groupe Karavel)</a>
+<a href="reise-stornieren-kosten-pruefen-autre-intermediaire.html">Votre agence de voyages</a>
+<a href="reise-stornieren-kosten-pruefen-misterfly.html">MisterFly SAS</a>
 
   </div>
 </div>
@@ -700,10 +700,20 @@ document.getElementById('donateOverlay').addEventListener('click', function(e) {
 
 // --- KOPIER-BUTTON LOGIK ---
 function copyText(textArea) {
-    if (navigator.clipboard && window.isSecureContext) {
-        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
-    }
-    return legacyCopy(textArea);
+    return new Promise((resolve, reject) => {
+        // 1. Zuerst klassisch und synchron im Klick (iOS-tauglich)
+        legacyCopy(textArea).then(resolve).catch(() => {
+            // 2. Reserve: moderne API, aber mit Timeout gegen Hängen
+            if (navigator.clipboard && window.isSecureContext) {
+                const timer = setTimeout(reject, 1500);
+                navigator.clipboard.writeText(textArea.value)
+                    .then(() => { clearTimeout(timer); resolve(); })
+                    .catch(() => { clearTimeout(timer); reject(); });
+            } else {
+                reject();
+            }
+        });
+    });
 }
 
 function legacyCopy(textArea) {

@@ -303,11 +303,11 @@ Taiwán</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Otros temas interesantes:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="flugverspaetung-entschaedigung-iberia.html">IBERIA LAE SA Operadora Unipersonal</a>
-<a href="flugverspaetung-entschaedigung-austrian-airlines.html">Austrian Airlines AG</a>
-<a href="flugverspaetung-entschaedigung-tui-airways-uk.html">TUI UK Limited (TUI Airways)</a>
-<a href="flugverspaetung-entschaedigung-kenya-airways.html">Kenya Airways</a>
-<a href="flugverspaetung-entschaedigung-thai-airways.html">THAI AIRWAYS International Public Company Ltd.</a>
+    <a href="flugverspaetung-entschaedigung-cathay-pacific.html">Cathay Pacific</a>
+<a href="flugverspaetung-entschaedigung-avianca.html">Avianca</a>
+<a href="flugverspaetung-entschaedigung-discover-airlines.html">EW Discover GmbH</a>
+<a href="flugverspaetung-entschaedigung-etihad-airways.html">Etihad Airways</a>
+<a href="flugverspaetung-entschaedigung-brussels-airlines.html">Brussels Airlines SA/NV</a>
 
   </div>
 </div>
@@ -758,10 +758,20 @@ outputArea.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
 // --- KOPIER-BUTTON LOGIK ---
 function copyText(textArea) {
-    if (navigator.clipboard && window.isSecureContext) {
-        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
-    }
-    return legacyCopy(textArea);
+    return new Promise((resolve, reject) => {
+        // 1. Zuerst klassisch und synchron im Klick (iOS-tauglich)
+        legacyCopy(textArea).then(resolve).catch(() => {
+            // 2. Reserve: moderne API, aber mit Timeout gegen Hängen
+            if (navigator.clipboard && window.isSecureContext) {
+                const timer = setTimeout(reject, 1500);
+                navigator.clipboard.writeText(textArea.value)
+                    .then(() => { clearTimeout(timer); resolve(); })
+                    .catch(() => { clearTimeout(timer); reject(); });
+            } else {
+                reject();
+            }
+        });
+    });
 }
 
 function legacyCopy(textArea) {

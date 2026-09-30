@@ -243,11 +243,11 @@ Luton LU2 9TN</textarea>
   <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
     <h3>Further Templates, Rights & Guidelines:</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="letzte-mahnung-nachdruck-first-choice.html">First Choice</a>
-<a href="letzte-mahnung-nachdruck-easyjet-holidays.html">easyJet holidays</a>
-<a href="letzte-mahnung-nachdruck-vrbo.html">Vrbo</a>
-<a href="letzte-mahnung-nachdruck-iberia.html">Iberia</a>
-<a href="letzte-mahnung-nachdruck-british-airways.html">British Airways</a>
+      <a href="letzte-mahnung-nachdruck-msc-cruises.html">MSC Cruises</a>
+<a href="letzte-mahnung-nachdruck-jet2.html">Jet2.com</a>
+<a href="letzte-mahnung-nachdruck-james-villa-holidays.html">James Villa Holidays</a>
+<a href="letzte-mahnung-nachdruck-ryanair.html">Ryanair</a>
+<a href="letzte-mahnung-nachdruck-wizz-air.html">Wizz Air</a>
 
     </div>
   </div>
@@ -501,10 +501,20 @@ document.getElementById('mahnungForm').addEventListener('submit', function(e) {
 
 // --- COPY BUTTON LOGIC ---
 function copyText(textArea) {
-    if (navigator.clipboard && window.isSecureContext) {
-        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
-    }
-    return legacyCopy(textArea);
+    return new Promise((resolve, reject) => {
+        // 1. Zuerst klassisch und synchron im Klick (iOS-tauglich)
+        legacyCopy(textArea).then(resolve).catch(() => {
+            // 2. Reserve: moderne API, aber mit Timeout gegen Hängen
+            if (navigator.clipboard && window.isSecureContext) {
+                const timer = setTimeout(reject, 1500);
+                navigator.clipboard.writeText(textArea.value)
+                    .then(() => { clearTimeout(timer); resolve(); })
+                    .catch(() => { clearTimeout(timer); reject(); });
+            } else {
+                reject();
+            }
+        });
+    });
 }
 
 function legacyCopy(textArea) {

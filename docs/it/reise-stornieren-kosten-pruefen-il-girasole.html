@@ -268,11 +268,11 @@ Italia</textarea>
 <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
   <h3>Altri argomenti interessanti:</h3>
   <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="reise-stornieren-kosten-pruefen-gattinoni.html">Gattinoni Travel Network S.r.l.</a>
-<a href="reise-stornieren-kosten-pruefen-turisanda.html">Turisanda S.p.A.</a>
-<a href="reise-stornieren-kosten-pruefen-maurizio-levi.html">I Viaggi di Maurizio Levi S.r.l.</a>
-<a href="reise-stornieren-kosten-pruefen-la-citta-del-sole.html">La Città del Sole Viaggi Srl</a>
-<a href="reise-stornieren-kosten-pruefen-cisalpina-tours.html">Cisalpina Tours S.p.A.</a>
+    <a href="reise-stornieren-kosten-pruefen-turisanda.html">Turisanda S.p.A.</a>
+<a href="reise-stornieren-kosten-pruefen-gattinoni.html">Gattinoni Travel Network S.r.l.</a>
+<a href="reise-stornieren-kosten-pruefen-bluvacanze.html">Bluvacanze S.p.A.</a>
+<a href="reise-stornieren-kosten-pruefen-horizon-travel.html">Horizon Travel Viaggi S.r.l.</a>
+<a href="reise-stornieren-kosten-pruefen-basho-viaggi.html">Basho Viaggi S.r.l.</a>
 
   </div>
 </div>
@@ -699,10 +699,20 @@ document.getElementById('donateOverlay').addEventListener('click', function(e) {
 
 // --- KOPIER-BUTTON LOGIK ---
 function copyText(textArea) {
-    if (navigator.clipboard && window.isSecureContext) {
-        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
-    }
-    return legacyCopy(textArea);
+    return new Promise((resolve, reject) => {
+        // 1. Zuerst klassisch und synchron im Klick (iOS-tauglich)
+        legacyCopy(textArea).then(resolve).catch(() => {
+            // 2. Reserve: moderne API, aber mit Timeout gegen Hängen
+            if (navigator.clipboard && window.isSecureContext) {
+                const timer = setTimeout(reject, 1500);
+                navigator.clipboard.writeText(textArea.value)
+                    .then(() => { clearTimeout(timer); resolve(); })
+                    .catch(() => { clearTimeout(timer); reject(); });
+            } else {
+                reject();
+            }
+        });
+    });
 }
 
 function legacyCopy(textArea) {

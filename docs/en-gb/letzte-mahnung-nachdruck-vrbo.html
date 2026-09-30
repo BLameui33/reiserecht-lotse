@@ -248,11 +248,11 @@ London W2 1AF</textarea>
   <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
     <h3>Further Templates, Rights & Guidelines:</h3>
     <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="letzte-mahnung-nachdruck-klm.html">KLM</a>
-<a href="letzte-mahnung-nachdruck-marella-cruises.html">Marella Cruises</a>
-<a href="letzte-mahnung-nachdruck-loganair.html">Loganair</a>
-<a href="letzte-mahnung-nachdruck-sas.html">SAS Scandinavian Airlines</a>
+      <a href="letzte-mahnung-nachdruck-loveholidays.html">loveholidays</a>
+<a href="letzte-mahnung-nachdruck-klm.html">KLM</a>
 <a href="letzte-mahnung-nachdruck-martin-randall-travel.html">Martin Randall Travel</a>
+<a href="letzte-mahnung-nachdruck-airbnb.html">Airbnb</a>
+<a href="letzte-mahnung-nachdruck-travel-republic.html">Travel Republic</a>
 
     </div>
   </div>
@@ -506,10 +506,20 @@ document.getElementById('mahnungForm').addEventListener('submit', function(e) {
 
 // --- COPY BUTTON LOGIC ---
 function copyText(textArea) {
-    if (navigator.clipboard && window.isSecureContext) {
-        return navigator.clipboard.writeText(textArea.value).catch(() => legacyCopy(textArea));
-    }
-    return legacyCopy(textArea);
+    return new Promise((resolve, reject) => {
+        // 1. Zuerst klassisch und synchron im Klick (iOS-tauglich)
+        legacyCopy(textArea).then(resolve).catch(() => {
+            // 2. Reserve: moderne API, aber mit Timeout gegen Hängen
+            if (navigator.clipboard && window.isSecureContext) {
+                const timer = setTimeout(reject, 1500);
+                navigator.clipboard.writeText(textArea.value)
+                    .then(() => { clearTimeout(timer); resolve(); })
+                    .catch(() => { clearTimeout(timer); reject(); });
+            } else {
+                reject();
+            }
+        });
+    });
 }
 
 function legacyCopy(textArea) {
