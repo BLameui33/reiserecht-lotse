@@ -2979,3 +2979,23 @@ html, body {
   -webkit-user-select: text !important;
   user-select: text !important;
 }
+
+/* --------------------------------------------------------------------------
+   Hinweis zu Airline-Info Fluggastrechte (kleingedruckt)
+   -------------------------------------------------------------------------- */
+.airline-scope-note {
+  font-size: 0.8rem;
+  color: #6c757d;
+  margin-top: 4px;
+  margin-bottom: 14px;
+  line-height: 1.35;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .airline-scope-note {
+    font-size: 0.72rem;
+    line-height: 1.25;
+    margin-bottom: 10px;
+  }
+}
