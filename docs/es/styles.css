@@ -6,7 +6,7 @@
 /* --------------------------------------------------------------------------
    GOOGLE FONTS IMPORT
    -------------------------------------------------------------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap');
+
 
 
 /* --------------------------------------------------------------------------
@@ -64,8 +64,8 @@
   --radius-lg:        12px;
 
   /* Fonts */
-  --font-display:     'Merriweather', Georgia, serif;
-  --font-body:        'Source Sans 3', 'Segoe UI', Helvetica, Arial, sans-serif;
+  --font-display:     Georgia, 'Times New Roman', serif;
+  --font-body:        system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
 
