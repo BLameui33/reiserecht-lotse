@@ -8,46 +8,18 @@
    WOFF2, Subset "latin", Ablage: /fonts/
    -------------------------------------------------------------------------- */
 @font-face {
-  font-family: 'Source Sans 3';
-  src: url('/fonts/source-sans-3-400.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Source Sans 3';
-  src: url('/fonts/source-sans-3-600.woff2') format('woff2');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Source Sans 3';
-  src: url('/fonts/source-sans-3-700.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
   font-family: 'Source Serif 4';
-  src: url('/fonts/source-serif-4-600.woff2') format('woff2');
+  src: url('fonts/source-serif-4-600.woff2') format('woff2');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Source Serif 4';
-  src: url('/fonts/source-serif-4-700.woff2') format('woff2');
+  src: url('fonts/source-serif-4-700.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
-}
-
-/* Logo als Serifen-Masthead → wirkt editorial/seriös und nutzt die 700er Serif */
-.site-logo,
-.site-footer__logo {
-  font-family: var(--font-display);
-  font-weight: 700;
 }
 
 
@@ -147,9 +119,16 @@ h1, h2, h3, h4 {
   letter-spacing: 0;
 }
 
-h1 { font-size: 2em; margin-bottom: 0.5em; }
-h2 { font-size: 1.55em; margin-bottom: 0.45em; }
-h3 { font-size: 1.2em; margin-bottom: 0.4em; }
+h1 {
+  font-size: clamp(1.9rem, 3.2vw + 0.9rem, 2.7rem);
+  font-weight: 700;        
+  line-height: 1.15;
+  letter-spacing: -0.015em;
+  text-wrap: balance;      
+  margin-bottom: 0.5em;
+}
+h2 { font-size: 1.7em;  font-weight: 600; line-height: 1.25; margin-bottom: 0.45em; }
+h3 { font-size: 1.25em; font-weight: 600; margin-bottom: 0.4em; }
 
 p { margin: 0 0 1em; }
 
@@ -916,8 +895,7 @@ details > div {
 
   .usp-bar { flex-direction: column; gap: 8px; }
 
-  h1 { font-size: 1.55em; }
-  h2 { font-size: 1.3em; }
+ 
 
   .button-primary { padding: 15px; font-size: 1em; }
 
