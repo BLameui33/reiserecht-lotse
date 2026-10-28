@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Schadevergoeding claimen: Inventarislijst bij bagageschade (PDF)</title>
+
+  <meta name="description" content="Koffer kwijt of beschadigd? Selecteer de inhoud van uw koffer, bereken de dagwaarde en maak gratis een inventarislijst inclusief claimbrief voor de luchtvaartmaatschappij of reisverzekering.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="canonical" href="https://www.fix-my-trip.com/nl/so-to/gepaeck-inventarliste-schadenersatz.html">
+
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="it" href="https://www.fix-my-trip.com/it/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="nl" href="https://www.fix-my-trip.com/nl/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="pt" href="https://www.fix-my-trip.com/pt/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="en-gb" href="https://www.fix-my-trip.com/en-gb/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="en-us" href="https://www.fix-my-trip.com/en-us/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/en-gb/so-to/gepaeck-inventarliste-schadenersatz.html">
+
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <style>
+    /* Inventarliste-Schadensersatz */
+    #gepaeckForm select { width: 100%; padding: 10px; font-size: 1em; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; background: #fff; margin-bottom: 12px; }
+    #gepaeckForm input[type="date"] { width: 100%; padding: 10px; font-size: 1em; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 12px; }
+    .kk-table-wrap { overflow-x: auto; margin: 20px 0; }
+    .kk-table { width: 100%; border-collapse: collapse; font-size: 0.95em; }
+    .kk-table th, .kk-table td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #e3e3e3; vertical-align: top; }
+    .kk-table th { background: #faf3f3; color: #891818; }
+    .kk-chip-list { display: flex; flex-wrap: wrap; gap: 8px; margin: 15px 0; padding: 0; list-style: none; }
+    .kk-chip-list li { background: #f7f7f7; border: 1px solid #e5e5e5; border-radius: 20px; padding: 5px 14px; font-size: 0.9em; color: #444; }
+    .kk-route-text { font-size: 0.95em; font-weight: normal; line-height: 1.5; margin-top: 8px; }
+    .kk-hidden { display: none; }
+
+    /* Inventar-Bereich */
+    .inv-cat { margin: 18px 0 6px; font-size: 0.9em; font-weight: 600; color: #891818; }
+    .inv-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .inv-chip { background: #f7f7f7; border: 1px solid #ddd; border-radius: 20px; padding: 6px 14px; font-size: 0.9em; color: #333; cursor: pointer; font-family: inherit; }
+    .inv-chip:hover { border-color: #891818; color: #891818; }
+    .inv-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0 10px; }
+    .inv-btn { background: #fff; border: 1px solid #891818; color: #891818; border-radius: 6px; padding: 9px 16px; font-size: 0.95em; cursor: pointer; font-family: inherit; }
+    .inv-btn:hover { background: #faf3f3; }
+    .inv-empty { color: #777; font-size: 0.95em; padding: 15px 0; }
+    .inv-row { display: grid; grid-template-columns: 2.2fr 0.7fr 1fr 0.8fr 0.9fr 1fr auto; gap: 8px; align-items: end; padding: 12px 0; border-bottom: 1px solid #eee; }
+    .inv-row label { display: block; font-size: 0.75em; color: #777; margin: 0 0 3px; font-weight: normal; }
+    .inv-row input { width: 100%; box-sizing: border-box; padding: 8px; font-size: 0.95em; border: 1px solid #ccc; border-radius: 4px; margin: 0; }
+    .inv-val { font-weight: 600; padding: 8px 0; white-space: nowrap; }
+    .inv-del { background: none; border: none; color: #891818; font-size: 1.4em; cursor: pointer; padding: 4px 8px; line-height: 1; }
+    .inv-row.is-notkauf .inv-hide-nk { visibility: hidden; }
+    @media (max-width: 720px) {
+      .inv-row { grid-template-columns: 1fr 1fr; }
+      .inv-row .inv-name { grid-column: 1 / -1; }
+      .inv-row .inv-end { grid-column: 1 / -1; display: flex; justify-content: space-between; align-items: center; }
+    }
+  
+    /* Affiliate-Box (oben, vor dem Formular) */
+    .kk-ad-top { position: relative; background: #fff; border: 1px solid #e6d3d3; border-radius: 8px; padding: 26px 28px 22px; margin: 28px 0; box-shadow: 0 6px 22px rgba(137, 24, 24, 0.07); }
+    .kk-ad-label { position: absolute; top: 10px; right: 12px; font-size: 0.7rem; color: #666; background: #eee; padding: 2px 6px; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .kk-ad-title { margin: 0 0 8px; padding-right: 70px; font-size: 1.25em; font-weight: 700; color: #891818; line-height: 1.3; }
+    .kk-ad-text { margin: 0 0 14px; font-size: 0.98em; color: #444; line-height: 1.55; }
+    .kk-ad-points { list-style: none; margin: 0 0 18px; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+    .kk-ad-points li { background: #faf3f3; color: #6f1313; border-radius: 20px; padding: 6px 14px; font-size: 0.88em; }
+    .kk-ad-btn { display: inline-block; background: #891818; color: #fff !important; font-weight: 700; font-size: 1.02em; text-decoration: none; padding: 15px 30px; border-radius: 6px; box-shadow: 0 4px 12px rgba(137, 24, 24, 0.25); transition: background 0.2s; }
+    .kk-ad-btn:hover { background: #6f1313; }
+    .kk-ad-note { margin: 14px 0 0; font-size: 0.78em; color: #777; line-height: 1.5; }
+    @media (max-width: 600px) { .kk-ad-top { padding: 22px 18px 18px; } .kk-ad-btn { display: block; text-align: center; padding: 16px 12px; } }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Bagage-inventarislijst met dagwaarde: Generator voor schadeclaims bij luchtvaartmaatschappij en reisverzekering",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "All",
+    "description": "Gratis generator voor de inventarislijst bij verloren of beschadigde bagage, inclusief berekening van de dagwaarde en een claimbrief. Geen juridisch advies.",
+    "offers": { "@type": "Offer", "price": "0.00", "priceCurrency": "EUR" }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Hoeveel geld krijg ik van de luchtvaartmaatschappij voor verloren bagage?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Voor ingecheckte ruimbagage is de luchtvaartmaatschappij op grond van het Verdrag van Montreal in beginsel aansprakelijk zonder dat schuld hoeft te worden bewezen, maar slechts tot een maximumbedrag van 1.519 SDR (Speciale Trekkingsrechten) per passagier. Dat komt, afhankelijk van de wisselkoers, neer op ongeveer 1.800 tot 1.950 euro. Meestal wordt de dagwaarde van de spullen vergoed, niet de nieuwwaarde."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wordt de nieuwwaarde of de dagwaarde vergoed?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Meestal de dagwaarde, dus de waarde van het voorwerp op het moment van verlies, rekening houdend met de leeftijd en slijtage. Daarom berekent de tool de dagwaarde op basis van de nieuwprijs, de leeftijd en een waardevermindering per jaar, die u zelf kunt aanpassen."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Met welke termijnen moet ik rekening houden bij bagageschade?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bij beschadigde bagage moet u de schade uiterlijk zeven dagen na ontvangst schriftelijk melden. Bij vertraagde bagage binnen 21 dagen nadat deze is afgeleverd. Wordt de bagage als verloren beschouwd (als deze na 21 dagen niet is opgedoken), dan kunt u uw claim indienen. Een eventuele rechtszaak moet binnen twee jaar worden gestart. Meld elke schade bovendien altijd direct op de luchthaven."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wat als ik geen aankoopbewijzen meer heb?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Verzamel als alternatief bankafschriften, online bestelbevestigingen, garantiebewijzen, foto's of screenshots van merk- en modelgegevens. Hoe beter u uw claims kunt onderbouwen, hoe groter de kans dat de luchtvaartmaatschappij ze accepteert. Een vergoeding zonder bewijs is echter niet gegarandeerd."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kan ik waardevolle spullen en elektronica in mijn ingecheckte koffer vergoed krijgen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Veel vervoersvoorwaarden sluiten waardevolle spullen, contant geld of elektronica in ingecheckte bagage uit van aansprakelijkheid, of adviseren om deze in de handbagage mee te nemen. Of dergelijke uitsluitingen in een specifiek geval geldig zijn, staat ter discussie. Een bagageverzekering kan hier uitkomst bieden, mits de polisvoorwaarden deze spullen dekken."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wat geldt er bij vertraagde bagage en noodzakelijke aankopen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Voor redelijke vervangende aankopen wegens vertraagde aflevering kunt u een vergoeding claimen, mits u de bonnetjes bewaart. Het maximale aansprakelijkheidsbedrag geldt gezamenlijk voor verlies, beschadiging en vertraging. Koop alleen het hoognodige en meld de vertraging direct op de luchthaven."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script src="../../js/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="../index.html" class="site-logo">Fix my Trip</a>
+  <span style="font-size: 0.9em; color: #666;">Uw rechten bij pakketreizen</span>
+</header>
+
+<div class="page-container">
+
+  <h1>Bagage verloren of beschadigd: Inventarislijst met dagwaarde maken en schadevergoeding claimen</h1>
+
+  <div class="usp-bar">
+    <div class="usp-item">Kofferinhoud met één klik selecteren</div>
+    <div class="usp-item">Live dagwaarde-calculator</div>
+    <div class="usp-item">Voor airline en reisverzekering</div>
+    <div class="usp-item">Gegevens blijven in uw browser</div>
+  </div>
+
+  <p>Uw koffer is weg of beschadigd aangekomen, en de luchtvaartmaatschappij vraagt om een gespecificeerde lijst van alle voorwerpen? Vaak is juist die tabelvorm een struikelblok. Hier klikt u uw kleding, elektronica en waardevolle spullen eenvoudig aan, past u de prijs en leeftijd aan en krijgt u een kant-en-klare <strong>inventarislijst met dagwaarde</strong> plus de bijpassende claimbrief als PDF.</p>
+
+  <div class="info-box warning">
+    <strong>Eerst op de luchthaven melden:</strong> Laat de schade of het verlies registreren bij de balie van de airline of de afhandelaar (het zogenaamde "PIR" - Property Irregularity Report) voordat u de bagagehal verlaat, en noteer het referentienummer. Bij <strong>beschadigde bagage</strong> moet u dit bovendien uiterlijk binnen <strong>7 dagen</strong> na ontvangst schriftelijk melden. Bij <strong>vertraging binnen 21 dagen</strong> na aflevering. Maak direct foto's van de koffer en de schade.
+  </div>
+
+  <div class="kk-ad-top">
+    <span class="kk-ad-label">Advertentie</span>
+    <p class="kk-ad-title">Beter verzekerd op uw volgende reis: Creditcards met bagagedekking vergelijken</p>
+    <p class="kk-ad-text">Sommige creditcards voor op reis bevatten een bagageverzekering, vaak samen met een reisverzekering. De gratis vergelijking laat zien welke kaart bij u past.</p>
+    <ul class="kk-ad-points"><li>Geselecteerde kaarten met reisbagageverzekering</li><li>Deels zonder jaarbijdrage en wisselkoersopslag</li><li>Gratis en vrijblijvend vergelijken</li></ul>
+    <a href="#" class="kk-ad-btn" target="_blank" rel="noopener nofollow sponsored">Creditcards met bagagedekking vergelijken</a>
+    <p class="kk-ad-note">Advertentielink. Geldt voor toekomstige reizen, niet met terugwerkende kracht voor uw huidige zaak. Dekkingen, voorwaarden (bijv. de reis betalen met de kaart) en uitsluitingen verschillen per kaart.</p>
+  </div>
+
+  <div class="legal-info-box">
+    <strong>Belangrijke disclaimer</strong><br>
+    Deze tool is een <strong>geautomatiseerde brief-generator</strong> (hulpmiddel voor zelfhulp). Het plaatst uw gegevens in een algemeen sjabloon. De berekende dagwaardes zijn gebaseerd op <strong>richtlijnen die u zelf kunt aanpassen</strong>, en vormen geen bindende taxatie. De luchtvaartmaatschappij of verzekeraar beslist zelf welke bedragen zij erkennen. Er vindt geen inhoudelijke controle van uw specifieke zaak plaats en er is geen garantie op succes. Vermeld uitsluitend spullen die daadwerkelijk in de bagage zaten en vul alles <strong>naar waarheid in</strong>.
+  </div>
+
+  <div class="highlight-box pruefdatum-box" role="note" aria-label="Redactioneel gecontroleerd" style="margin-top: 15px; margin-bottom: 30px;">
+    <p><strong>Redactioneel gecontroleerd op:</strong> <span id="pruefdatum">26-10-2026</span></p>
+  </div>
+
+  <form id="gepaeckForm" novalidate>
+
+    <fieldset>
+      <legend>1. Soort schade en termijnen</legend>
+
+      <label for="fEmpf">Aan wie is de brief gericht?</label>
+      <select id="fEmpf">
+        <option value="airline">Luchtvaartmaatschappij (Schadevergoeding volgens Verdrag van Montreal)</option>
+        <option value="versicherung">Reisbagageverzekering (Claim indienen)</option>
+      </select>
+
+      <label for="fSchaden">Wat is er gebeurd?</label>
+      <select id="fSchaden">
+        <option value="verloren">Bagage is verloren gegaan (niet afgeleverd)</option>
+        <option value="beschaedigt">Bagage of inhoud is beschadigd</option>
+        <option value="verspaetet">Bagage was vertraagd, ik moest noodzakelijke aankopen doen</option>
+      </select>
+
+      <label for="fAnkunft" id="fAnkunftLabel">Datum van uw aankomst (bij beschadiging: datum ontvangst bagage):</label>
+      <input type="date" id="fAnkunft">
+
+      <div class="calc-banner" id="fristBanner" aria-live="polite">
+        Uw tijdvenster:<br>
+        <span id="fristTitle" style="font-size: 0.6em;"></span>
+        <div class="kk-route-text" id="fristText"></div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>2. Kofferinhoud: Voorwerpen selecteren</legend>
+      <p style="font-size: 0.9em; color: #666; margin-top: 0;">Klik op een voorwerp om het aan de lijst toe te voegen. De voorgestelde prijzen zijn slechts voorbeelden. <strong>Vervang deze door uw daadwerkelijke aankoopprijzen</strong> en vul de leeftijd in.</p>
+
+      <div id="presetArea"></div>
+
+      <div class="inv-actions">
+        <button type="button" class="inv-btn" id="addCustom">Eigen voorwerp toevoegen</button>
+        <button type="button" class="inv-btn" id="addNotkauf">Noodzakelijke aankoop met bon toevoegen</button>
+      </div>
+
+      <div id="invList"></div>
+      <div class="inv-empty" id="invEmpty">Nog geen voorwerpen geselecteerd.</div>
+
+      <div class="calc-banner">
+        Dagwaarde van uw overzicht:<br>
+        <span id="liveAmount">0,00 €</span>
+        <div style="font-size: 0.5em; font-weight: normal; margin-top: 5px;" id="liveSub">0 items, Nieuwwaarde 0,00 €</div>
+        <div class="kk-route-text" id="limitText"></div>
+      </div>
+      <p style="font-size: 0.85em; color: #666;">Berekening: Dagwaarde = Nieuwprijs x Aantal x (1 - Waardevermindering per jaar x Leeftijd), met een minimum van 10 % van de nieuwprijs. Noodzakelijke aankopen worden tegen de waarde op de bon berekend. De waardevermindering kunt u per voorwerp aanpassen.</p>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. Vlucht en Bagage</legend>
+
+      <label for="aName" id="aNameLabel">Luchtvaartmaatschappij:</label>
+      <input type="text" id="aName" list="empfListe" placeholder="bijv. Naam van de airline" autocomplete="off">
+      <datalist id="empfListe">
+        <option value="KLM"><option value="Transavia"><option value="TUI fly"><option value="Corendon"><option value="easyJet"><option value="Ryanair"><option value="Lufthansa"><option value="Eurowings"><option value="Vueling"><option value="Iberia"><option value="British Airways"><option value="Air France"><option value="Turkish Airlines"><option value="Emirates"><option value="Pegasus"><option value="SunExpress"><option value="SWISS"><option value="Austrian Airlines"><option value="SAS"><option value="Finnair"><option value="TAP Air Portugal"><option value="LOT">
+      </datalist>
+      <datalist id="versListe">
+        <option value="ANWB"><option value="Centraal Beheer"><option value="Interpolis"><option value="FBTO"><option value="Univé"><option value="Allianz Direct"><option value="Europeesche Verzekeringen"><option value="Nationale-Nederlanden"><option value="InShared">
+      </datalist>
+
+      <label for="aAdresse">Adres of e-mail van de ontvanger (optioneel):</label>
+      <textarea id="aAdresse" rows="2" placeholder="bijv. Contactformulier, e-mail of postadres volgens de website of polis"></textarea>
+
+      <div id="versGroup" class="kk-hidden">
+        <label for="fPolice">Polis- of contractnummer:</label>
+        <input type="text" id="fPolice" placeholder="volgens polisblad">
+      </div>
+
+      <label for="fFlugnr">Vluchtnummer:</label>
+      <input type="text" id="fFlugnr" placeholder="bijv. KL1234">
+
+      <label for="fFlugDatum">Datum van de vlucht:</label>
+      <input type="date" id="fFlugDatum">
+
+      <label for="fVon">Luchthaven van vertrek:</label>
+      <input type="text" id="fVon" placeholder="bijv. Amsterdam Schiphol">
+
+      <label for="fNach">Bestemming:</label>
+      <input type="text" id="fNach" placeholder="bijv. Barcelona">
+
+      <label for="fBag">Bagagelabelnummer (Bag Tag, 10 cijfers):</label>
+      <input type="text" id="fBag" placeholder="bijv. 0220123456">
+
+      <label for="fPIR">Referentienummer van het rapport op de luchthaven (PIR, optioneel):</label>
+      <input type="text" id="fPIR" placeholder="bijv. AMSKL12345">
+
+      <label for="fMelde">Datum van de melding op de luchthaven (optioneel):</label>
+      <input type="date" id="fMelde">
+
+      <label for="fSchilderung">Korte beschrijving in uw eigen woorden (optioneel):</label>
+      <textarea id="fSchilderung" rows="4" placeholder="bijv. De koffer kwam aan met een gescheurde zijnaad en kapotte wieltjes. Meerdere voorwerpen binnenin zijn vernield."></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>4. Bijgevoegde documenten</legend>
+      <p style="font-size: 0.9em; color: #666; margin-top: 0;">Vink aan wat u bij uw brief voegt. De inventarislijst wordt altijd toegevoegd.</p>
+      <div class="checkbox-group" id="anlagenBoxen">
+        <label><input type="checkbox" checked data-text="Kopie van het schaderapport (PIR) of de vermissingsmelding"> Schaderapport (PIR) / Vermissingsmelding</label>
+        <label><input type="checkbox" checked data-text="Kopie van het bagagelabel (Bag Tag) en de instapkaart"> Bagagelabel (Bag Tag) en instapkaart</label>
+        <label><input type="checkbox" data-text="Aankoopbewijzen of bankafschriften van de vermelde voorwerpen"> Aankoopbewijzen / Bankafschriften</label>
+        <label><input type="checkbox" data-text="Foto's van de beschadigde bagage en de schade"> Foto's van de bagage en de schade</label>
+        <label><input type="checkbox" data-text="Bonnen van vervangende aankopen (noodaankopen)"> Bonnen van vervangende aankopen</label>
+        <label><input type="checkbox" data-text="Boekingsbevestiging of vliegticket"> Boekingsbevestiging / Vliegticket</label>
+        <label><input type="checkbox" data-text="Offerte voor reparatie of reparatiebon"> Reparatiefactuur / Offerte</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>5. Uw gegevens en bankrekening</legend>
+      <label for="sName">Uw voor- en achternaam:</label>
+      <input type="text" id="sName" placeholder="bijv. Jan Jansen">
+      <label for="sStrasse">Straat en huisnummer:</label>
+      <input type="text" id="sStrasse" placeholder="bijv. Hoofdstraat 1">
+      <label for="sPLZOrt">Postcode en Plaats:</label>
+      <input type="text" id="sPLZOrt" placeholder="bijv. 1011 AB Amsterdam">
+      <label for="bIBAN">IBAN voor de terugbetaling:</label>
+      <input type="text" id="bIBAN" placeholder="NL...">
+    </fieldset>
+
+    <div class="submit-area">
+      <p class="submit-disclaimer">
+        Door op "PDF genereren" te klikken bevestigt u dat uw gegevens naar waarheid zijn ingevuld, dat deze geautomatiseerde service<br>geen juridisch advies is en dat u de claim op eigen verantwoordelijkheid indient.
+      </p>
+      <button type="submit" class="button-primary">Inventarislijst en brief als PDF genereren</button>
+    </div>
+  </form>
+
+  <!-- Text-Output Box -->
+  <div id="textOutputArea" style="display: none; margin-top: 40px; background: #ffffff; padding: 35px; border: 1px solid #f5c6c6; border-top: 5px solid #aa3131; border-radius: 8px; box-shadow: 0 10px 30px rgba(137, 24, 24, 0.08); box-sizing: border-box;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-wrap: wrap; gap: 15px;">
+      <div style="flex: 1; min-width: 250px;">
+        <h3 style="margin: 0 0 5px 0; color: #aa3131; font-size: 1.4em;">Uw kant-en-klare tekst</h3>
+        <p style="margin: 0; font-size: 0.95em; color: #666; line-height: 1.4;">Biedt de airline of verzekeraar alleen een online formulier aan? Kopieer de brief en de inventarislijst met één klik en plak ze daar in.</p>
+      </div>
+      <button type="button" id="copyToClipboardBtn" style="background: #aa3131; color: #ffffff; border: none; padding: 12px 24px; font-size: 1em; font-weight: bold; border-radius: 6px; cursor: pointer; transition: background 0.3s; box-shadow: 0 4px 10px rgba(137, 24, 24, 0.2); white-space: nowrap;">
+        Tekst kopiëren
+      </button>
+    </div>
+    <textarea id="plainTextResult" rows="16" style="width: 100%; padding: 20px; font-family: 'Courier New', Courier, monospace; font-size: 0.9em; line-height: 1.6; color: #333; background: #fdfdfd; border: 1px solid #e0e0e0; border-radius: 6px; resize: vertical; box-sizing: border-box;" readonly></textarea>
+  </div>
+
+  <!-- SEO Content -->
+  <div class="seo-content">
+    <h2>Bagage verloren of beschadigd: Waar u recht op heeft en wat u moet doen</h2>
+    <p>Bij vliegreizen is de luchtvaartmaatschappij volgens het <strong>Verdrag van Montreal</strong> aansprakelijk voor vernietiging, verlies, beschadiging of vertraging van ingecheckte bagage. Zij zijn hier in principe aansprakelijk voor, zonder dat u schuld hoeft te bewijzen (Artikel 17). De aansprakelijkheid is echter wel beperkt: het maximale bedrag bedraagt <strong>1.519 Speciale Trekkingsrechten (SDR) per passagier</strong>. Dit komt, afhankelijk van de wisselkoers, neer op grofweg 1.800 tot 1.950 euro. Dit maximale bedrag geldt gezamenlijk voor verlies, beschadiging en vertraging.</p>
+
+    <div class="kk-table-wrap">
+      <table class="kk-table">
+        <thead>
+          <tr><th>Geval</th><th>Belangrijkste termijn</th><th>Wat u moet doen</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Bagage beschadigd</td><td>Schriftelijke melding uiterlijk 7 dagen na ontvangst (Art. 31 VM)</td><td>Ter plekke een PIR-rapport laten opmaken, foto's maken, daarna schriftelijk melden</td></tr>
+          <tr><td>Bagage vertraagd</td><td>Schriftelijke melding binnen 21 dagen na aflevering</td><td>Vertraging direct melden, bonnen van noodaankopen bewaren en aankopen redelijk houden</td></tr>
+          <tr><td>Bagage verloren</td><td>Wordt na 21 dagen zonder aflevering als verloren beschouwd, daarna claims indienen</td><td>Verlies melden, inventarislijst maken, bonnen verzamelen</td></tr>
+          <tr><td>Rechtszaak bij afwijzing</td><td>Twee jaar na aankomst (of geplande aankomst) (Art. 35 VM)</td><td>Overweeg eerst een geschillencommissie of het Europees Consumenten Centrum (ECC) in te schakelen</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Eerste stappen op de luchthaven</h3>
+    <p>Voordat u de bagagehal verlaat, gaat u naar de balie van de luchtvaartmaatschappij of de bagageafhandelaar om een schaderapport of vermissingsrapport te laten opmaken (in de branche een "Property Irregularity Report" of PIR genoemd). Noteer het referentienummer en bewaar uw bagagelabel en instapkaart goed. Maak bij beschadigde bagage nog op de bagageband foto's van de koffer en de inhoud. Als de bagage kwijt is, zoek dan eventueel een foto van de koffer op die u nog heeft.</p>
+
+    <h3>Dagwaarde in plaats van nieuwwaarde</h3>
+    <p>De luchtvaartmaatschappij vergoedt doorgaans niet de nieuwprijs, maar de <strong>dagwaarde</strong> van de spullen op het moment van het verlies. Hoe ouder en vaker gebruikt een voorwerp is, hoe lager de waarde. Onze tool berekent de dagwaarde op basis van de nieuwprijs, de leeftijd en een jaarlijkse waardevermindering. De vooraf ingestelde percentages zijn richtlijnen die in de praktijk vaak worden gebruikt, maar het is geen officiële tabel. U kunt alle waardes zelf aanpassen.</p>
+
+    <div class="kk-table-wrap">
+      <table class="kk-table">
+        <thead>
+          <tr><th>Categorie</th><th>Vooringestelde waardevermindering per jaar</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Kleding en schoenen</td><td>25 %</td></tr>
+          <tr><td>Verzorging en cosmetica</td><td>50 %</td></tr>
+          <tr><td>Elektronica</td><td>25 %</td></tr>
+          <tr><td>Sport en vrije tijd</td><td>15 %</td></tr>
+          <tr><td>Koffers en tassen</td><td>15 %</td></tr>
+          <tr><td>Horloges, sieraden en accessoires</td><td>10 %</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Bewijzen verzamelen als aankoopbonnen ontbreken</h3>
+    <p>De luchtvaartmaatschappij zal om bewijsstukken vragen. Als u geen kassabonnen meer heeft, kunnen bankafschriften, afschriften van uw creditcard, online bestelbevestigingen, garantiebewijzen, foto's van de spullen of screenshots van productpagina's helpen. Noteer merken en modellen zo exact mogelijk. Hoe beter uw claim onderbouwd is, des te groter de kans dat deze wordt geaccepteerd.</p>
+
+    <h3>Waardevolle spullen en elektronica in de koffer</h3>
+    <p>Veel vervoersvoorwaarden sluiten waardevolle spullen, contant geld, sieraden of elektronica in ingecheckte bagage uit van aansprakelijkheid, of adviseren om deze in de handbagage mee te nemen. Of zulke uitsluitingen in een individueel geval geldig zijn, is voer voor discussie. Voor <strong>handbagage</strong> is de airline volgens het verdrag overigens alleen aansprakelijk als hen schuld treft. Een reisbagageverzekering, of afhankelijk van de polis uw inboedelverzekering, kan hier uitkomst bieden. Controleer hierbij wel de maximale dekking voor waardevolle spullen.</p>
+
+    <h3>Vertraagde bagage: Noodzakelijke aankopen</h3>
+    <p>Als uw bagage pas na enkele dagen arriveert, mag u de meest noodzakelijke spullen ter vervanging kopen, zoals kleding en toiletartikelen. Koop alleen het hoognodige (redelijkheid is belangrijk), bewaar alle bonnen en meld de vertraging direct op de luchthaven. In onze tool kunt u noodaankopen registreren via "Noodzakelijke aankoop met bon toevoegen". Deze tellen voor het exacte bonbedrag mee in de opstelling.</p>
+
+    <h3>Reisbagageverzekering of luchtvaartmaatschappij: Welke route?</h3>
+    <p>U kunt zowel bij de airline als bij uw verzekering aankloppen, maar u mag niet dubbel gecompenseerd worden voor dezelfde schade. Vaak eist een verzekeraar dat u de schade eerst bij de luchtvaartmaatschappij claimt. Kies bovenaan de tool de juiste ontvanger; de brief past zich daar op aan. Informeer de verzekering later over wat de airline eventueel al heeft vergoed.</p>
+
+    <h3>Pakketreis in plaats van losse vlucht</h3>
+    <p>Als de vlucht onderdeel is van een pakketreis, kan ontbrekende bagage ook een gebrek aan de reis opleveren. Neem in dat geval ook contact op met uw reisorganisator. Er kan dan recht bestaan op een prijsverlaging of schadevergoeding. Meer informatie vindt u in onze <a href="../hotel-maengel-info.html">Gids voor gebreken tijdens de reis</a> en de algemene <a href="../gepaeck-info.html">Bagage-gids</a>.</p>
+
+    <h3>Als de airline afwijst of niet reageert</h3>
+    <p>Vraag altijd om een schriftelijke onderbouwing. Komt u er niet uit, dan kunt u bijvoorbeeld de Inspectie Leefomgeving en Transport (ILT) inschakelen, het Europees Consumenten Centrum (ECC), of (bij een pakketreis) de Geschillencommissie Reizen. Onze handleiding voor het indienen van een klacht vindt u onder <a href="../beschwerde-anleitungen-info.html">Tips voor klachten & geschillen</a>.</p>
+
+    <h3>Voor deze airlines kunt u de inventarislijst gebruiken</h3>
+    <ul class="kk-chip-list">
+      <li>KLM</li><li>Transavia</li><li>TUI fly</li><li>Corendon</li><li>easyJet</li><li>Ryanair</li><li>Lufthansa</li><li>Eurowings</li><li>Vueling</li><li>Iberia</li><li>British Airways</li><li>Air France</li><li>Turkish Airlines</li><li>Emirates</li><li>Pegasus</li><li>SunExpress</li><li>SWISS</li><li>Austrian Airlines</li><li>SAS</li><li>Finnair</li><li>TAP Air Portugal</li><li>LOT</li>
+    </ul>
+
+    <h3>Voor deze reisverzekeraars</h3>
+    <ul class="kk-chip-list">
+      <li>ANWB</li><li>Centraal Beheer</li><li>Interpolis</li><li>FBTO</li><li>Univé</li><li>Allianz Direct</li><li>Europeesche Verzekeringen</li><li>Nationale-Nederlanden</li><li>InShared</li>
+    </ul>
+    <p style="font-size: 0.85em; color: #666;">Er is geen enkele band tussen Fix my Trip en de genoemde bedrijven. De vermelding is uitsluitend bedoeld ter oriëntatie.</p>
+
+    <div class="faq-section">
+      <h2>Veelgestelde vragen (FAQ) over bagageschade</h2>
+
+      <details>
+        <summary>Hoeveel geld krijg ik van de luchtvaartmaatschappij voor verloren bagage?</summary>
+        <p>Voor ingecheckte ruimbagage is de luchtvaartmaatschappij op grond van het Verdrag van Montreal in beginsel aansprakelijk zonder dat schuld hoeft te worden bewezen, maar slechts tot een maximumbedrag van 1.519 SDR per passagier. Dat is omgerekend circa 1.800 tot 1.950 euro. Meestal wordt de dagwaarde van de spullen vergoed, niet de nieuwprijs.</p>
+      </details>
+
+      <details>
+        <summary>Wordt de nieuwwaarde of de dagwaarde vergoed?</summary>
+        <p>In de regel wordt de dagwaarde vergoed. Dit is de waarde van het voorwerp op het moment van verlies, waarbij rekening wordt gehouden met de leeftijd en slijtage. Daarom berekent deze tool de dagwaarde op basis van de nieuwprijs, de leeftijd en een jaarlijkse waardevermindering (die u naar eigen inzicht kunt bijstellen).</p>
+      </details>
+
+      <details>
+        <summary>Met welke termijnen moet ik rekening houden bij bagageschade?</summary>
+        <p>Bij beschadigde bagage moet u de schade uiterlijk zeven dagen na ontvangst schriftelijk melden. Bij vertraagde bagage binnen 21 dagen na ontvangst. Als de bagage na 21 dagen nog niet is gevonden, wordt deze als verloren beschouwd en kunt u uw claim definitief indienen. Rechtszaken moeten binnen twee jaar worden gestart. Zorg er ook voor dat u de schade of vermissing direct op de luchthaven meldt.</p>
+      </details>
+
+      <details>
+        <summary>Wat als ik geen aankoopbewijzen meer heb?</summary>
+        <p>Verzamel dan bankafschriften, online bestelbevestigingen, garantiebewijzen of duidelijke foto's waarop de spullen (inclusief merk en model) te zien zijn. Hoe specifieker en beter onderbouwd uw lijst, des te groter de kans op vergoeding. Een volledige vergoeding zonder enige vorm van bewijs is niet gegarandeerd.</p>
+      </details>
+
+      <details>
+        <summary>Kan ik waardevolle spullen en elektronica in mijn ingecheckte koffer vergoed krijgen?</summary>
+        <p>Veel vervoersvoorwaarden van airlines sluiten aansprakelijkheid voor waardevolle spullen (zoals elektronica, sieraden, contant geld) in ruimbagage uit, of adviseren dit in de handbagage mee te nemen. Of een dergelijke uitsluiting in uw specifieke zaak standhoudt, is vaak voer voor juridische discussie. Een reisbagageverzekering dekt deze items mogelijk wel, mits u aan hun voorwaarden voldoet.</p>
+      </details>
+
+      <details>
+        <summary>Wat geldt er bij vertraagde bagage en noodaankopen?</summary>
+        <p>U kunt een redelijke vergoeding krijgen voor noodzakelijke vervangende aankopen zolang uw bagage vertraagd is. Bewaar hiervoor altijd de originele kassabonnen. Let op: het maximale aansprakelijkheidsbedrag geldt voor de totale schade (dus verlies, schade én vertraging samen). Koop alleen het broodnodige en zorg voor een PIR-rapport vanaf de luchthaven.</p>
+      </details>
+    </div>
+  </div>
+
+  <div class="airline-hinweisbox">
+    <h3>Belangrijke tips vóór het verzenden</h3>
+    <p>Stuur alleen kopieën van uw bonnen en bewijsstukken op; bewaar altijd de originelen. Zorg ervoor dat uw claim of brief is voorzien van een tijdstempel (via e-mail, een online formulier met ontvangstbevestiging, of een aangetekende brief). Als de airline of verzekering een eigen digitaal formulier aanbiedt, kunt u de gegevens van uw inventarislijst overnemen en onze PDF als bijlage toevoegen.</p>
+  </div>
+
+  <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
+    <h3>Andere interessante onderwerpen:</h3>
+    <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
+      <a href="../gepaeck-info.html">Bagageverlies &amp; Koffer-schade</a>
+      <a href="../flugverspaetung-info.html">Vluchtvertraging &amp; Annulering</a>
+      <a href="ersatzbefoerderung-fristsetzung.html">Vervangend vervoer (Trein, Taxi)</a>
+      <a href="kreditkarte-geld-zurueckholen.html">Geld terughalen (Chargeback)</a>
+      <a href="../beschwerde-anleitungen-info.html">Tips voor klachten &amp; Geschillen</a>
+    </div>
+  </div>
+
+  <aside class="legal-sources-box" aria-labelledby="sources-title-gepaeck">
+    <h3 id="sources-title-gepaeck" class="sources-heading">Juridische basis en Informatiebronnen</h3>
+    <p class="sources-intro">De inhoud van deze pagina is gebaseerd op de volgende openbaar toegankelijke bronnen. Maximale aansprakelijkheidsbedragen worden regelmatig bijgesteld, controleer altijd de actuele stand.</p>
+    <ul class="sources-list">
+      <li>
+        <strong>Verdrag van Montreal (VM), in het bijzonder artikelen 17, 19, 22, 31 en 35</strong>:
+        Regelt de aansprakelijkheid, de maximumbedragen, de termijnen voor het indienen van een claim en de tweejarige verjaringstermijn bij bagageschade. Het huidige maximum voor bagage ligt op 1.519 SDR (Bijzondere Trekkingsrechten).
+        <br>
+        <a href="https://www.icao.int" target="_blank" rel="noopener noreferrer" class="source-link">Informatie van de Internationale Burgerluchtvaartorganisatie (ICAO)</a>
+      </li>
+      <li>
+        <strong>Verordening (EG) Nr. 889/2002 (Wijziging van Verordening (EG) Nr. 2027/97)</strong>:
+        Vertaalt de regels van het Verdrag van Montreal naar luchtvaartmaatschappijen uit de EU.
+        <br>
+        <a href="https://eur-lex.europa.eu/eli/reg/2002/889/oj" target="_blank" rel="noopener noreferrer" class="source-link">Tekst op EUR-Lex</a>
+      </li>
+      <li>
+        <strong>Europees Consumenten Centrum (ECC) / Geschillencommissies</strong>:
+        Buitengerechtelijke geschillenbeslechting voor consumenten in Nederland en de EU.
+        <br>
+        <a href="https://www.eccnederland.nl/" target="_blank" rel="noopener noreferrer" class="source-link">Informatie van het ECC Nederland</a>
+      </li>
+      <li>
+        <strong>Inspectie Leefomgeving en Transport (ILT)</strong>:
+        Informatie over passagiersrechten en handhaving in Nederland.
+        <br>
+        <a href="https://www.ilent.nl/" target="_blank" rel="noopener noreferrer" class="source-link">Informatie van de ILT</a>
+      </li>
+    </ul>
+  </aside>
+</div>
+
+<div class="trust-section">
+  <h3>Over deze pagina</h3>
+  <p class="trust-text">
+    Onze gidsen en generatoren zijn gebaseerd op de analyse van actuele EU-verordeningen, internationale verdragen en het nationale consumentenrecht. Ze worden ontwikkeld door Marc (projectleiding) &amp; team, om reizigers een gestructureerd hulpmiddel te bieden voor zelfhulp bij reisproblemen.
+    <br><br>
+    <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+      Belangrijke disclaimer: Deze pagina biedt geen individueel juridisch of verzekeringsadvies. De getoonde dagwaardes zijn inschattingen; uiteindelijk beslist de airline of de verzekeraar bindend.
+    </span>
+  </p>
+
+  <a href="../ueber-uns.html" class="trust-link">Details over onze methodiek &amp; redactie &rarr;</a>
+
+  <div class="lotse-card">
+    <p>
+      <strong>Problemen met een vlucht, trein of hotel?</strong><br>
+      Fix-My-Trip controleert in een paar stappen uw recht op compensatie, ticket-restitutie of prijsvermindering. <br>
+      <em>Een service van Fix my Trip.</em>
+    </p>
+  </div>
+
+  <p class="feedback-note">
+    <strong>Fout in de tool ontdekt?</strong> Aangezien we als geautomatiseerd portaal geen individueel advies geven, helpt u ons enorm door bugs of verouderde informatie te melden:
+    <a href="mailto:support@fix-my-trip.com" style="color: #777; text-decoration: underline;">Feedback naar ons sturen</a>.
+  </p>
+</div>
+
+<section class="site-niche-directory">
+  <div class="niche-directory-container">
+    <h2 class="niche-directory-title">Andere categorieën ontdekken</h2>
+    <p class="niche-directory-intro">
+      Of het nu gaat om een vertraagde vlucht, een probleem in uw hotel of bagageschade - hier vindt u voor vrijwel elke reissituatie een handige gids en de juiste voorbeeldbrief.
+    </p>
+
+    <div class="niche-directory-grid">
+      <div class="niche-directory-group">
+        <h3>Vlucht &amp; Luchthaven</h3>
+        <ul>
+          <li><a href="../flugverspaetung-info.html">Vluchtvertraging &amp; Annulering</a></li>
+          <li><a href="ersatzbefoerderung-fristsetzung.html">Vervangend vervoer (Trein, Taxi)</a></li>
+          <li><a href="gepaeck-inventarliste-schadenersatz.html">Bagage-inventaris &amp; Dagwaarde</a></li>
+          <li><a href="../steuern-info.html">Vliegbelasting terugvragen</a></li>
+          <li><a href="../gepaeck-info.html">Bagageverlies &amp; Koffer-schade</a></li>
+        </ul>
+      </div>
+
+      <div class="niche-directory-group">
+        <h3>Accommodatie &amp; Pakketreis</h3>
+        <ul>
+          <li><a href="../hotel-maengel-info.html">Hotelgebreken &amp; Bouwlawaai</a></li>
+          <li><a href="../storno-info.html">Reis annuleren (Kosten)</a></li>
+          <li><a href="../ferienhaus-maengel-info.html">Vakantiehuizen &amp; -appartementen</a></li>
+          <li><a href="../airbnb-probleme-info.html">Airbnb problemen oplossen</a></li>
+          <li><a href="../kreuzfahrt-minderung.html">Cruise-gebreken</a></li>
+        </ul>
+      </div>
+
+      <div class="niche-directory-group">
+        <h3>Reis-voorbereiding &amp; Mobiliteit</h3>
+        <ul>
+          <li><a href="../zugverspaetung-info.html">Treinvertraging &amp; Reizigersrechten</a></li>
+          <li><a href="kreditkarte-geld-zurueckholen.html">Geld terughalen (Chargeback)</a></li>
+          <li><a href="auslandskrankenschein-kostenerstattung.html">Medische kosten buitenland</a></li>
+          <li><a href="../esim-roaming-info.html">eSIM &amp; Roaming-kosten</a></li>
+          <li><a href="../mietwagen-info.html">Huurauto-verzekeringen</a></li>
+          <li><a href="../reisekreditkarten-info.html">Reis-creditcards vergelijken</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 Fix-my-Trip.com</p>
+  <nav>
+    <a href="../ueber-uns.html">Over ons</a> |
+    <a href="../index.html">Startpagina</a> |
+    <a href="../impressum.html">Impressum</a> |
+    <a href="../datenschutz.html">Privacybeleid</a>
+  </nav>
+</footer>
+
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Sluiten">&times;</button>
+    <h2>Uw documenten zijn klaar</h2>
+    <p class="sub">De PDF is op uw apparaat aangemaakt.<br>Uw gegevens zijn niet naar ons verzonden.</p>
+    <div class="donate-hint">
+      Deze service is en blijft <strong>100 % gratis</strong>. Als het u geholpen heeft, waarderen we een kleine, vrijwillige bijdrage, zodat Fix my Trip ook voor andere reizigers gratis kan blijven.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Snelkeuze:</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Eigen bedrag invoeren ..." oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Nu 5 € doneren</button>
+    <button class="btn-skip" onclick="closeOverlay()">Nee bedankt, ik sluit dit venster</button>
+    <p class="paypal-note">Vrijwillig &amp; veilig via PayPal</p>
+    <div style="margin-top: 22px; padding-top: 14px; border-top: 1px solid #eee; text-align: left;">
+      <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">Advertentie / Partnerlink</span>
+      <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;"><strong style="color:#333;">P.S.: Gaat u binnenkort weer vliegen?</strong> Sommige creditcards hebben standaard een bagageverzekering, zodat u bij een volgend koffer-probleem gedekt bent.<br>
+        <a href="#" target="_blank" rel="noopener nofollow sponsored" style="color: #891818; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Reis-creditcards vergelijken</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+const pad = n => String(n).padStart(2, '0');
+function fmtMoney(n) { return n.toFixed(2).replace('.', ','); }
+function fmtDate(d) { return d.toLocaleDateString('nl-NL', {day: '2-digit', month: '2-digit', year: 'numeric'}); }
+function fmtIso(s) { return fmtDate(new Date(s + 'T00:00:00')); }
+function daysSince(dateStr) {
+  const d = new Date(dateStr + 'T00:00:00');
+  const t = new Date(); t.setHours(0, 0, 0, 0);
+  return Math.round((t - d) / 86400000);
+}
+
+/* ---------- Vorlagen für Gegenstände ---------- */
+const PRESETS = [
+  { cat: 'Kleding', rate: 25, list: [['T-shirt', 20], ['Overhemd / Blouse', 40], ['Trui', 50], ['Broek / Jeans', 70], ['Jurk / Rok', 60], ['Jas', 120], ['Ondergoed (Stuk)', 15], ['Sokken (Paar)', 8], ['Zwemkleding', 40], ['Pyjama', 40], ['Sportkleding', 45], ['Muts / Sjaal', 25]] },
+  { cat: 'Schoenen', rate: 25, list: [['Schoenen (Paar)', 90], ['Sandalen / Slippers', 35], ['Sportschoenen', 100]] },
+  { cat: 'Verzorging en Cosmetica', rate: 50, list: [['Cosmetica / Verzorging (Set)', 60], ['Parfum', 70]] },
+  { cat: 'Elektronica', rate: 25, list: [['Laptop', 900], ['Tablet', 450], ['Camera', 600], ['Koptelefoon', 150], ['E-reader', 120], ['Powerbank', 30], ['Oplader / Kabels (Set)', 40], ['Scheerapparaat / Föhn', 70]] },
+  { cat: 'Horloges, sieraden en accessoires', rate: 10, list: [['Horloge', 300], ['Sieraden', 200], ['Zonnebril', 120], ['Handtas / Rugzak', 120], ['Portemonnee', 50]] },
+  { cat: 'Sport en vrije tijd', rate: 15, list: [['Strandlaken', 25], ['Boek', 15], ['Yogamat', 30], ['Fietshelm', 70], ['Duikuitrusting (Set)', 500], ['Speelgoed (Kind)', 25]] },
+  { cat: 'Bagagestuk', rate: 15, list: [['Koffer / Reistas', 150]] }
+];
+
+let items = [];
+let nextId = 1;
+
+/* Preset-Chips aufbauen */
+(function buildPresets() {
+  const area = $('presetArea');
+  PRESETS.forEach(group => {
+    const h = document.createElement('div');
+    h.className = 'inv-cat';
+    h.textContent = group.cat;
+    area.appendChild(h);
+    const wrap = document.createElement('div');
+    wrap.className = 'inv-chips';
+    group.list.forEach(([name, price]) => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'inv-chip';
+      b.textContent = name;
+      b.addEventListener('click', () => addItem(name, price, group.rate, false));
+      wrap.appendChild(b);
+    });
+    area.appendChild(wrap);
+  });
+})();
+
+function zeitwert(it) {
+  const qty = Math.max(0, it.qty || 0);
+  const price = Math.max(0, it.price || 0);
+  if (it.notkauf) return Math.round(price * qty * 100) / 100;
+  const factor = Math.max(0.10, 1 - ((it.rate || 0) / 100) * Math.max(0, it.age || 0));
+  return Math.round(price * qty * factor * 100) / 100;
+}
+function neuwert(it) { return Math.round(Math.max(0, it.price || 0) * Math.max(0, it.qty || 0) * 100) / 100; }
+
+function addItem(name, price, rate, notkauf) {
+  items.push({ id: nextId++, name: name, qty: 1, price: price, age: 2, rate: rate, notkauf: notkauf });
+  renderItems();
+}
+$('addCustom').addEventListener('click', () => addItem('', 0, 20, false));
+$('addNotkauf').addEventListener('click', () => addItem('', 0, 0, true));
+
+function renderItems() {
+  const list = $('invList');
+  list.innerHTML = '';
+  items.forEach(it => {
+    const row = document.createElement('div');
+    row.className = 'inv-row' + (it.notkauf ? ' is-notkauf' : '');
+    row.innerHTML =
+      '<div class="inv-name"><label>' + (it.notkauf ? 'Noodaankoop (Omschrijving)' : 'Voorwerp') + '</label><input type="text" data-f="name" placeholder="Omschrijving"></div>' +
+      '<div><label>Aantal</label><input type="number" min="1" step="1" data-f="qty"></div>' +
+      '<div><label>' + (it.notkauf ? 'Bedrag volgens bon (EUR)' : 'Nieuwprijs p. st. (EUR)') + '</label><input type="number" min="0" step="0.01" data-f="price"></div>' +
+      '<div class="inv-hide-nk"><label>Leeftijd (Jaren)</label><input type="number" min="0" step="0.5" data-f="age"></div>' +
+      '<div class="inv-hide-nk"><label>Waardedaling %/jr</label><input type="number" min="0" max="100" step="1" data-f="rate"></div>' +
+      '<div class="inv-end"><div><label>Dagwaarde</label><div class="inv-val" data-f="val"></div></div><button type="button" class="inv-del" aria-label="Item verwijderen" title="Verwijderen">&times;</button></div>';
+    row.querySelectorAll('input[data-f]').forEach(inp => {
+      const f = inp.getAttribute('data-f');
+      inp.value = it[f] === 0 && f !== 'qty' && f !== 'price' ? 0 : it[f];
+      if (f === 'name') inp.value = it.name;
+      inp.addEventListener('input', () => {
+        it[f] = (f === 'name') ? inp.value : parseFloat(inp.value);
+        if (f !== 'name' && isNaN(it[f])) it[f] = 0;
+        row.querySelector('[data-f="val"]').textContent = fmtMoney(zeitwert(it)) + ' €';
+        updateTotals();
+      });
+    });
+    row.querySelector('[data-f="val"]').textContent = fmtMoney(zeitwert(it)) + ' €';
+    row.querySelector('.inv-del').addEventListener('click', () => { items = items.filter(x => x.id !== it.id); renderItems(); });
+    list.appendChild(row);
+  });
+  $('invEmpty').classList.toggle('kk-hidden', items.length > 0);
+  updateTotals();
+}
+
+function totals() {
+  let z = 0, n = 0;
+  items.forEach(it => { z += zeitwert(it); n += neuwert(it); });
+  return { zeit: Math.round(z * 100) / 100, neu: Math.round(n * 100) / 100 };
+}
+
+function updateTotals() {
+  const t = totals();
+  $('liveAmount').textContent = t.zeit.toLocaleString('nl-NL', { style: 'currency', currency: 'EUR' });
+  $('liveSub').textContent = items.length + ' items, Nieuwwaarde ' + t.neu.toLocaleString('nl-NL', { style: 'currency', currency: 'EUR' });
+  $('limitText').textContent = (t.zeit > 1800 && $('fEmpf').value === 'airline')
+    ? 'Uw inventarisatie ligt mogelijk boven het maximale aansprakelijkheidsbedrag van de luchtvaartmaatschappij (1.519 SDR, momenteel circa 1.800 tot 1.950 euro afhankelijk van de koers). Bedragen die hierboven vallen, worden in de regel niet vergoed door de airline. Een reisverzekering kan hier uitkomst bieden.'
+    : 'Maximale aansprakelijkheid van de airline bij bagage: 1.519 SDR per passagier, momenteel circa 1.800 tot 1.950 euro, afhankelijk van de wisselkoers.';
+}
+
+/* ---------- Fristen-Check und UI ---------- */
+function updateFrist() {
+  const art = $('fSchaden').value;
+  const d = $('fAnkunft').value;
+  const titles = {
+    beschaedigt: 'Meldingstermijn bij beschadiging: 7 dagen na ontvangst',
+    verspaetet: 'Meldingstermijn bij vertraging: 21 dagen na aflevering',
+    verloren: 'Bagage geldt na 21 dagen zonder aflevering als verloren'
+  };
+  $('fristTitle').textContent = titles[art];
+  if (!d) { $('fristText').textContent = 'Vul de datum in, dan laten we zien hoeveel dagen u nog heeft.'; return; }
+  const days = daysSince(d);
+  if (days < 0) { $('fristText').textContent = 'De datum ligt in de toekomst. Controleer uw invoer a.u.b.'; return; }
+  let s = 'Sinds de gekozen datum zijn er ' + days + ' dagen verstreken. ';
+  if (art === 'beschaedigt') {
+    s += days <= 7 ? 'U heeft nog ' + (7 - days) + ' dagen voor de schriftelijke melding. Verstuur deze het liefst direct.' : 'De 7-dagentermijn is verstreken. Meld de schade desondanks zo snel mogelijk schriftelijk, uw claim kan hierdoor wel in gevaar komen. Heeft u de schade al op de luchthaven gemeld, vermeld dit dan in de brief.';
+  } else if (art === 'verspaetet') {
+    s += days <= 21 ? 'U heeft nog ' + (21 - days) + ' dagen voor de schriftelijke claim. Verzamel uw bonnen voor noodzakelijke aankopen.' : 'De 21-dagentermijn is verstreken. Meld de vertraging alsnog zo snel mogelijk schriftelijk.';
+  } else {
+    s += days >= 21 ? 'De bagage wordt als verloren beschouwd; u kunt nu uw claim indienen. De termijn voor het starten van een rechtszaak bedraagt twee jaar.' : 'Tot de 21e dag kan de bagage nog opduiken (nog ' + (21 - days) + ' dagen te gaan). Maak toch alvast uw inventarislijst en verzamel bonnetjes van eventuele noodaankopen.';
+  }
+  $('fristText').textContent = s;
+}
+
+function updateUI() {
+  const vers = $('fEmpf').value === 'versicherung';
+  $('versGroup').classList.toggle('kk-hidden', !vers);
+  $('aNameLabel').textContent = vers ? 'Reisbagageverzekeraar:' : 'Luchtvaartmaatschappij:';
+  $('aName').setAttribute('list', vers ? 'versListe' : 'empfListe');
+  $('fAnkunftLabel').textContent = $('fSchaden').value === 'beschaedigt'
+    ? 'Datum ontvangst van de bagage:'
+    : ($('fSchaden').value === 'verspaetet' ? 'Datum waarop u de bagage heeft teruggekregen:' : 'Datum van uw aankomst (geplande ontvangst bagage):');
+  updateFrist();
+  updateTotals();
+}
+['fEmpf', 'fSchaden', 'fAnkunft'].forEach(id => { $(id).addEventListener('change', updateUI); $(id).addEventListener('input', updateUI); });
+updateUI();
+
+/* ---------- Schreiben und PDF ---------- */
+const SCHADEN_LABEL = { verloren: 'Verlies', beschaedigt: 'Beschadiging', verspaetet: 'Vertraging met noodaankopen' };
+
+function validate(list) {
+  const missing = list.filter(([id]) => !$(id).value.trim()).map(([, label]) => label);
+  if (missing.length) { alert('Vul a.u.b. de volgende velden in: ' + missing.join(', ') + '.'); return false; }
+  return true;
+}
+
+document.getElementById('gepaeckForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  const req = [['aName', 'Ontvanger'], ['fFlugnr', 'Vluchtnummer'], ['fFlugDatum', 'Datum van de vlucht'], ['fVon', 'Luchthaven van vertrek'], ['fNach', 'Bestemming'], ['fBag', 'Bagagelabelnummer'], ['sName', 'Uw naam'], ['sStrasse', 'Straat'], ['sPLZOrt', 'Postcode en plaats'], ['bIBAN', 'IBAN']];
+  if (!validate(req)) return;
+  if (items.length === 0) { alert('Voeg minstens één voorwerp toe aan de lijst.'); return; }
+  const bad = items.filter(it => !it.name.trim() || !(it.price > 0) || !(it.qty > 0));
+  if (bad.length) { alert('Vul alle regels volledig in (Omschrijving, aantal en prijs zijn verplicht) of verwijder lege regels.'); return; }
+
+  const art = $('fSchaden').value;
+  const empfTyp = $('fEmpf').value;
+  const empf = $('aName').value.trim();
+  const empfAdr = $('aAdresse').value.trim();
+  const police = $('fPolice').value.trim();
+  const flugnr = $('fFlugnr').value.trim();
+  const flugDatum = fmtIso($('fFlugDatum').value);
+  const von = $('fVon').value.trim();
+  const nach = $('fNach').value.trim();
+  const bag = $('fBag').value.trim();
+  const pir = $('fPIR').value.trim();
+  const melde = $('fMelde').value ? fmtIso($('fMelde').value) : '';
+  const ankunft = $('fAnkunft').value ? fmtIso($('fAnkunft').value) : '';
+  const schilderung = $('fSchilderung').value.trim();
+  const sName = $('sName').value.trim();
+  const sStrasse = $('sStrasse').value.trim();
+  const sPLZOrt = $('sPLZOrt').value.trim();
+  const iban = $('bIBAN').value.trim();
+  const t = totals();
+  const zeitStr = fmtMoney(t.zeit) + ' EUR';
+  const neuStr = fmtMoney(t.neu) + ' EUR';
+
+  const todayStr = fmtDate(new Date());
+  const dl14 = new Date(); dl14.setDate(dl14.getDate() + 14);
+  const dlStr = fmtDate(dl14);
+
+  const anlagenZeilen = ['Inventarislijst met dagwaardes (Bijlage 1)'];
+  document.querySelectorAll('#anlagenBoxen input[type="checkbox"]').forEach(cb => { if (cb.checked) anlagenZeilen.push(cb.getAttribute('data-text')); });
+  const anlagenNum = anlagenZeilen.map((a, i) => (i + 1) + '. ' + a);
+
+  let betreff, facts = [], paras = [];
+  const artText = { verloren: 'verloren', beschaedigt: 'beschadigde', verspaetet: 'vertraagde' }[art];
+
+  facts.push(['Vlucht:', flugnr + ', ' + von + ' - ' + nach]);
+  facts.push(['Vluchtdatum:', flugDatum]);
+  facts.push(['Bagagelabel-nr.:', bag]);
+  if (pir) facts.push(['Schaderapport (PIR):', pir]);
+  facts.push(['Soort schade:', SCHADEN_LABEL[art]]);
+  if (empfTyp === 'versicherung' && police) facts.push(['Polisnummer:', police]);
+  facts.push(['Totaal dagwaarde:', zeitStr]);
+
+  const sachverhalt = {
+    verloren: 'mijn ingecheckte bagage (bagagelabel-nr. ' + bag + ') is bij de bovengenoemde vlucht niet bij mij aangekomen' + (ankunft ? ' (geplande aankomst: ' + ankunft + ')' : '') + '. ' + (melde ? 'Ik heb het verlies op ' + melde + ' op de luchthaven gemeld' + (pir ? ' (Referentie: ' + pir + ')' : '') + '. ' : '') + 'De bagage is tot op heden niet bij mij afgeleverd.',
+    beschaedigt: 'mijn ingecheckte bagage (bagagelabel-nr. ' + bag + ') is na de bovengenoemde vlucht beschadigd aan mij afgeleverd' + (ankunft ? ' (afleverdatum: ' + ankunft + ')' : '') + '. ' + (melde ? 'Ik heb de schade op ' + melde + ' op de luchthaven gemeld' + (pir ? ' (Referentie: ' + pir + ')' : '') + '. ' : '') + 'Hierbij stel ik u uitdrukkelijk en schriftelijk in kennis van deze schade.',
+    verspaetet: 'mijn ingecheckte bagage (bagagelabel-nr. ' + bag + ') is na de bovengenoemde vlucht met vertraging afgeleverd' + (ankunft ? ' (ontvangst op: ' + ankunft + ')' : '') + '. ' + (melde ? 'Ik heb de vertraging op ' + melde + ' op de luchthaven gemeld' + (pir ? ' (Referentie: ' + pir + ')' : '') + '. ' : '') + 'Hierbij stel ik u uitdrukkelijk en schriftelijk in kennis van de geleden schade. Tijdens de vertraging heb ik noodzakelijke vervangende aankopen moeten doen.'
+  }[art];
+
+  if (empfTyp === 'airline') {
+    betreff = 'Claim inzake ' + artText + ' reisbagage - Vlucht ' + flugnr + ' op ' + flugDatum;
+    paras.push(sachverhalt);
+    if (schilderung) paras.push('Aanvullende toelichting: ' + schilderung);
+    paras.push('U bent hiervoor aansprakelijk op grond van het Verdrag van Montreal (Art. 17 lid 2, bij vertraging Art. 19 VM). De betreffende voorwerpen staan vermeld op de bijgevoegde inventarislijst (Bijlage 1). De totale dagwaarde bedraagt ' + zeitStr + ' (Nieuwwaarde: ' + neuStr + '). De waardering is gebaseerd op de aanschafprijs, leeftijd en reguliere waardevermindering.');
+    paras.push('Ik verzoek u vriendelijk mij een schadevergoeding ter hoogte van ' + zeitStr + ' te betalen, tot maximaal het aansprakelijkheidsbedrag volgens Art. 22 lid 2 VM. Graag ontvang ik de betaling uiterlijk op ' + dlStr + ' op de volgende bankrekening:\nNaam rekeninghouder: ' + sName + '\nIBAN: ' + iban);
+  } else {
+    betreff = 'Claim reisbagageverzekering - ' + SCHADEN_LABEL[art] + ' - Vlucht ' + flugnr + ' op ' + flugDatum;
+    paras.push(sachverhalt);
+    if (schilderung) paras.push('Aanvullende toelichting: ' + schilderung);
+    paras.push('De betreffende voorwerpen staan vermeld op de bijgevoegde inventarislijst (Bijlage 1). De totale dagwaarde bedraagt ' + zeitStr + ' (Nieuwwaarde: ' + neuStr + '). Ik verzoek u mijn claim in behandeling te nemen en tot uitkering over te gaan conform de polisvoorwaarden. Graag ontvang ik de betaling uiterlijk op ' + dlStr + ' op de volgende bankrekening:\nNaam rekeninghouder: ' + sName + '\nIBAN: ' + iban);
+    paras.push('Er is tot op heden geen vergoeding door de luchtvaartmaatschappij uitgekeerd voor deze zelfde spullen. Ik zal u uiteraard informeren mocht hier verandering in komen.');
+  }
+  const abschluss = 'Ik verklaar hierbij dat deze gegevens naar waarheid zijn ingevuld en dat de vermelde voorwerpen zich in de bagage bevonden. Ik ontvang graag een bevestiging van ontvangst van deze brief. Mocht u verdere documenten nodig hebben, dan verneem ik dat graag.';
+
+  /* Inventar-Klartext */
+  const invText = items.map((it, i) => {
+    const nm = (it.name.trim() + (it.notkauf ? ' (Noodaankoop)' : '')).slice(0, 34).padEnd(34);
+    const detail = it.notkauf ? ('Bon: ' + fmtMoney(it.price)) : (it.qty + 'x ' + fmtMoney(it.price) + ', ' + it.age + ' jr.');
+    return String(i + 1).padStart(2, ' ') + '. ' + nm + ' ' + detail.padEnd(22) + ' ' + fmtMoney(zeitwert(it)) + ' EUR';
+  }).join('\n');
+
+  let plain = sName + '\n' + sStrasse + '\n' + sPLZOrt + '\n\n' + empf + (empfAdr ? '\n' + empfAdr : '') + '\n\nDatum: ' + todayStr + '\n\n' +
+    'Betreft: ' + betreff + '\n' + facts.map(f => f[0] + ' ' + f[1]).join('\n') + '\n\nGeachte heer/mevrouw,\n\n' + paras.join('\n\n') +
+    '\n\nBijlagen:\n' + anlagenNum.join('\n') + '\n\n' + abschluss + '\n\nMet vriendelijke groet,\n' + sName +
+    '\n\n----------------------------------------\nBIJLAGE 1: INVENTARISLIJST\n----------------------------------------\n' + invText +
+    '\n----------------------------------------\nNieuwwaarde totaal: ' + neuStr + '\nDagwaarde totaal: ' + zeitStr +
+    '\n\nBerekening: Dagwaarde = Nieuwprijs x Aantal x (1 - Waardevermindering p. j. x Leeftijd), minimaal 10 % van de nieuwprijs. Noodaankopen volgens kassabon.';
+
+  /* PDF */
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF();
+  const pageH = 297, marginBottom = 20, lineH = 6;
+  function ensure(y, needed) { if (y + (needed || lineH) > pageH - marginBottom) { doc.addPage(); return 30; } return y; }
+  function write(text, y, x, width) {
+    const lines = doc.splitTextToSize(text, width || 160);
+    lines.forEach(l => { y = ensure(y); doc.text(l, x || 25, y); y += lineH; });
+    return y;
+  }
+
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(8);
+  doc.setTextColor(100, 100, 100);
+  doc.text(sName + ' - ' + sStrasse + ' - ' + sPLZOrt, 25, 45);
+  doc.setLineWidth(0.2);
+  doc.setDrawColor(150, 150, 150);
+  doc.line(25, 46.5, 95, 46.5);
+
+  doc.setFontSize(11);
+  doc.setTextColor(0, 0, 0);
+  doc.text(doc.splitTextToSize(empf + (empfAdr ? '\n' + empfAdr : ''), 80), 25, 53);
+
+  doc.setFontSize(10);
+  doc.text('Afzender:', 130, 45);
+  doc.setFont('helvetica', 'bold');
+  doc.text(sName, 130, 50);
+  doc.setFont('helvetica', 'normal');
+  doc.text(sStrasse, 130, 55);
+  doc.text(sPLZOrt, 130, 60);
+  doc.text('Datum: ' + todayStr, 185, 80, { align: 'right' });
+
+  doc.setFontSize(12);
+  doc.setFont('helvetica', 'bold');
+  const betreffLines = doc.splitTextToSize(betreff, 160);
+  doc.text(betreffLines, 25, 95);
+
+  doc.setFontSize(10.5);
+  let fy = 95 + betreffLines.length * 6 + 4;
+  facts.forEach(f => {
+    doc.setFont('helvetica', 'bold');
+    doc.text(f[0], 25, fy);
+    doc.setFont('helvetica', 'normal');
+    doc.text(doc.splitTextToSize(f[1], 100), 75, fy);
+    fy += 5.5;
+  });
+  doc.setDrawColor(0, 0, 0);
+  doc.line(25, fy, 185, fy);
+
+  let y = fy + 12;
+  doc.setFontSize(11);
+  y = write('Geachte heer/mevrouw,', y); y += 3;
+  paras.forEach(p => { y = write(p, y); y += 3; });
+
+  doc.setFont('helvetica', 'bold');
+  y = ensure(y); doc.text('Bijlagen:', 25, y); y += lineH;
+  doc.setFont('helvetica', 'normal');
+  anlagenNum.forEach(a => { y = write(a, y, 30, 150); });
+  y += 3;
+  y = write(abschluss, y); y += 10;
+
+  y = ensure(y, 40);
+  doc.text('Met vriendelijke groet,', 25, y);
+  y += 25;
+  doc.setLineWidth(0.5);
+  doc.line(25, y, 80, y);
+  doc.line(100, y, 185, y);
+  doc.setFontSize(9);
+  doc.setTextColor(100, 100, 100);
+  doc.text('Plaats, Datum', 25, y + 5);
+  doc.text('Handtekening (' + sName + ')', 100, y + 5);
+
+  /* Anlage 1: Inventarliste */
+  doc.addPage();
+  doc.setTextColor(0, 0, 0);
+  y = 30;
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(13);
+  doc.text('Bijlage 1: Inventarislijst', 25, y); y += 7;
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(9);
+  doc.text(sName + ' | Bagagelabel-nr. ' + bag + ' | Vlucht ' + flugnr + ' op ' + flugDatum, 25, y); y += 8;
+
+  function tableHeader() {
+    doc.setFont('helvetica', 'bold');
+    doc.setFontSize(9.5);
+    doc.text('Nr.', 25, y);
+    doc.text('Voorwerp', 33, y);
+    doc.text('Aantal', 112, y, { align: 'right' });
+    doc.text('Prijs/st.', 135, y, { align: 'right' });
+    doc.text('Leeftijd', 153, y, { align: 'right' });
+    doc.text('Dagwaarde', 185, y, { align: 'right' });
+    y += 2;
+    doc.setLineWidth(0.3);
+    doc.line(25, y, 185, y);
+    y += 5;
+    doc.setFont('helvetica', 'normal');
+  }
+  tableHeader();
+  items.forEach((it, i) => {
+    const nameLines = doc.splitTextToSize(it.name.trim() + (it.notkauf ? ' (Noodaankoop, Bon)' : ''), 72);
+    const h = nameLines.length * 5 + 2;
+    if (y + h > pageH - marginBottom) { doc.addPage(); y = 30; tableHeader(); }
+    doc.setFontSize(9.5);
+    doc.text(String(i + 1), 25, y);
+    doc.text(nameLines, 33, y);
+    doc.text(String(it.qty), 112, y, { align: 'right' });
+    doc.text(fmtMoney(it.price), 135, y, { align: 'right' });
+    doc.text(it.notkauf ? '-' : (it.age + ' jr.'), 153, y, { align: 'right' });
+    doc.text(fmtMoney(zeitwert(it)), 185, y, { align: 'right' });
+    y += h;
+  });
+  y += 2;
+  if (y + 24 > pageH - marginBottom) { doc.addPage(); y = 30; }
+  doc.setLineWidth(0.3);
+  doc.line(25, y, 185, y); y += 6;
+  doc.setFont('helvetica', 'normal');
+  doc.text('Nieuwwaarde totaal:', 135, y, { align: 'right' });
+  doc.text(neuStr, 185, y, { align: 'right' }); y += 6;
+  doc.setFont('helvetica', 'bold');
+  doc.text('Dagwaarde totaal:', 135, y, { align: 'right' });
+  doc.text(zeitStr, 185, y, { align: 'right' }); y += 10;
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(8.5);
+  doc.setTextColor(100, 100, 100);
+  const note = doc.splitTextToSize('Berekening: Dagwaarde = Nieuwprijs x Aantal x (1 - Waardevermindering per jaar x Leeftijd), minimaal 10 % van de nieuwprijs. Noodaankopen zijn tegen het bon-bedrag meegerekend. De waardebepaling is gebaseerd op een eigen inschatting van de afzender.', 160);
+  doc.text(note, 25, y);
+
+  const out = $('textOutputArea');
+  out.style.display = 'block';
+  $('plainTextResult').value = plain;
+  out.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+  doc.save('Bagage_Inventarislijst_' + empf.replace(/[^a-zA-Z0-9]/g, '_') + '_' + bag.replace(/[^a-zA-Z0-9]/g, '') + '.pdf');
+  setTimeout(() => $('donateOverlay').classList.add('active'), 800);
+});
+
+/* ---------- Donatie-Overlay ---------- */
+const PAYPAL_EMAIL = 'info@kassen-lotse.de';
+let donateAmount = 5;
+
+function selectPreset(amount, btn) {
+  donateAmount = amount;
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  $('customAmount').value = '';
+  $('customAmount').classList.remove('selected-custom');
+  updateDonateButton();
+}
+function handleCustomInput(input) {
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  const val = parseFloat(input.value);
+  if (val && val >= 1) { donateAmount = val; input.classList.add('selected-custom'); }
+  else { donateAmount = 0; input.classList.remove('selected-custom'); }
+  updateDonateButton();
+}
+function updateDonateButton() {
+  const btn = $('btnDonate');
+  if (donateAmount >= 1) {
+    btn.textContent = 'Nu ' + (donateAmount % 1 === 0 ? donateAmount : donateAmount.toFixed(2)) + ' € doneren';
+    btn.disabled = false;
+  } else {
+    btn.textContent = 'Bedrag invoeren';
+    btn.disabled = true;
+  }
+}
+function openPayPal() {
+  if (donateAmount < 1) return;
+  const url = 'https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=' + encodeURIComponent(PAYPAL_EMAIL) + '&amount=' + donateAmount.toFixed(2) + '&currency_code=EUR&item_name=Ondersteuning+Fix+my+Trip&no_note=1&no_shipping=1';
+  window.open(url, '_blank');
+  closeOverlay();
+}
+function closeOverlay() { $('donateOverlay').classList.remove('active'); }
+$('donateOverlay').addEventListener('click', function(e) { if (e.target === this) closeOverlay(); });
+
+/* ---------- Kopieer-Button ---------- */
+function legacyCopy(textArea) {
+  return new Promise((resolve, reject) => {
+    const ta = document.createElement('textarea');
+    ta.value = textArea.value;
+    ta.setAttribute('contenteditable', 'true');
+    ta.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;font-size:16px;-webkit-user-select:text;user-select:text;';
+    document.body.appendChild(ta);
+    ta.focus(); ta.select(); ta.setSelectionRange(0, ta.value.length);
+    let ok = false;
+    try { ok = document.execCommand('copy'); } catch (err) {}
+    document.body.removeChild(ta);
+    ok ? resolve() : reject();
+  });
+}
+function copyText(textArea) {
+  return new Promise((resolve, reject) => {
+    legacyCopy(textArea).then(resolve).catch(() => {
+      if (navigator.clipboard && window.isSecureContext) {
+        const timer = setTimeout(reject, 1500);
+        navigator.clipboard.writeText(textArea.value)
+          .then(() => { clearTimeout(timer); resolve(); })
+          .catch(() => { clearTimeout(timer); reject(); });
+      } else { reject(); }
+    });
+  });
+}
+$('copyToClipboardBtn').addEventListener('click', function() {
+  const btn = this;
+  copyText($('plainTextResult')).then(() => {
+    const original = btn.innerHTML;
+    btn.innerHTML = 'Succesvol gekopieerd';
+    btn.style.background = '#2e7d32';
+    setTimeout(() => { btn.innerHTML = original; btn.style.background = '#aa3131'; }, 3000);
+  }).catch(() => {
+    alert('Fout bij kopiëren. Selecteer de tekst a.u.b. handmatig.');
+  });
+});
+</script>
+
+</body>
+</html>

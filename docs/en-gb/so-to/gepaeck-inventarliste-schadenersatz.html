@@ -1,0 +1,1054 @@
+--- START OF FILE Paste October 28, 2026 - 3:11PM ---
+
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <title>Claim Compensation: Baggage Inventory List for Damaged/Lost Luggage (PDF)</title>
+
+  <meta name="description" content="Suitcase lost or damaged? Click on your luggage contents, calculate the current value, and create a free inventory list along with a compensation claim letter for your airline or travel insurance.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="canonical" href="https://www.fix-my-trip.com/en-gb/so-to/gepaeck-inventarliste-schadenersatz.html">
+
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="it" href="https://www.fix-my-trip.com/it/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="nl" href="https://www.fix-my-trip.com/nl/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="pt" href="https://www.fix-my-trip.com/pt/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="en-gb" href="https://www.fix-my-trip.com/en-gb/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="en-us" href="https://www.fix-my-trip.com/en-us/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/en-gb/so-to/gepaeck-inventarliste-schadenersatz.html">
+
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <style>
+    /* Inventarliste-Schadensersatz */
+    #gepaeckForm select { width: 100%; padding: 10px; font-size: 1em; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; background: #fff; margin-bottom: 12px; }
+    #gepaeckForm input[type="date"] { width: 100%; padding: 10px; font-size: 1em; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 12px; }
+    .kk-table-wrap { overflow-x: auto; margin: 20px 0; }
+    .kk-table { width: 100%; border-collapse: collapse; font-size: 0.95em; }
+    .kk-table th, .kk-table td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #e3e3e3; vertical-align: top; }
+    .kk-table th { background: #faf3f3; color: #891818; }
+    .kk-chip-list { display: flex; flex-wrap: wrap; gap: 8px; margin: 15px 0; padding: 0; list-style: none; }
+    .kk-chip-list li { background: #f7f7f7; border: 1px solid #e5e5e5; border-radius: 20px; padding: 5px 14px; font-size: 0.9em; color: #444; }
+    .kk-route-text { font-size: 0.95em; font-weight: normal; line-height: 1.5; margin-top: 8px; }
+    .kk-hidden { display: none; }
+
+    /* Inventar-Bereich */
+    .inv-cat { margin: 18px 0 6px; font-size: 0.9em; font-weight: 600; color: #891818; }
+    .inv-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .inv-chip { background: #f7f7f7; border: 1px solid #ddd; border-radius: 20px; padding: 6px 14px; font-size: 0.9em; color: #333; cursor: pointer; font-family: inherit; }
+    .inv-chip:hover { border-color: #891818; color: #891818; }
+    .inv-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0 10px; }
+    .inv-btn { background: #fff; border: 1px solid #891818; color: #891818; border-radius: 6px; padding: 9px 16px; font-size: 0.95em; cursor: pointer; font-family: inherit; }
+    .inv-btn:hover { background: #faf3f3; }
+    .inv-empty { color: #777; font-size: 0.95em; padding: 15px 0; }
+    .inv-row { display: grid; grid-template-columns: 2.2fr 0.7fr 1fr 0.8fr 0.9fr 1fr auto; gap: 8px; align-items: end; padding: 12px 0; border-bottom: 1px solid #eee; }
+    .inv-row label { display: block; font-size: 0.75em; color: #777; margin: 0 0 3px; font-weight: normal; }
+    .inv-row input { width: 100%; box-sizing: border-box; padding: 8px; font-size: 0.95em; border: 1px solid #ccc; border-radius: 4px; margin: 0; }
+    .inv-val { font-weight: 600; padding: 8px 0; white-space: nowrap; }
+    .inv-del { background: none; border: none; color: #891818; font-size: 1.4em; cursor: pointer; padding: 4px 8px; line-height: 1; }
+    .inv-row.is-notkauf .inv-hide-nk { visibility: hidden; }
+    @media (max-width: 720px) {
+      .inv-row { grid-template-columns: 1fr 1fr; }
+      .inv-row .inv-name { grid-column: 1 / -1; }
+      .inv-row .inv-end { grid-column: 1 / -1; display: flex; justify-content: space-between; align-items: center; }
+    }
+  
+    /* Affiliate-Box (oben, vor dem Formular) */
+    .kk-ad-top { position: relative; background: #fff; border: 1px solid #e6d3d3; border-radius: 8px; padding: 26px 28px 22px; margin: 28px 0; box-shadow: 0 6px 22px rgba(137, 24, 24, 0.07); }
+    .kk-ad-label { position: absolute; top: 10px; right: 12px; font-size: 0.7rem; color: #666; background: #eee; padding: 2px 6px; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .kk-ad-title { margin: 0 0 8px; padding-right: 70px; font-size: 1.25em; font-weight: 700; color: #891818; line-height: 1.3; }
+    .kk-ad-text { margin: 0 0 14px; font-size: 0.98em; color: #444; line-height: 1.55; }
+    .kk-ad-points { list-style: none; margin: 0 0 18px; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+    .kk-ad-points li { background: #faf3f3; color: #6f1313; border-radius: 20px; padding: 6px 14px; font-size: 0.88em; }
+    .kk-ad-btn { display: inline-block; background: #891818; color: #fff !important; font-weight: 700; font-size: 1.02em; text-decoration: none; padding: 15px 30px; border-radius: 6px; box-shadow: 0 4px 12px rgba(137, 24, 24, 0.25); transition: background 0.2s; }
+    .kk-ad-btn:hover { background: #6f1313; }
+    .kk-ad-note { margin: 14px 0 0; font-size: 0.78em; color: #777; line-height: 1.5; }
+    @media (max-width: 600px) { .kk-ad-top { padding: 22px 18px 18px; } .kk-ad-btn { display: block; text-align: center; padding: 16px 12px; } }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Baggage Inventory List with Current Value: Compensation Generator for Airlines and Insurance",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "All",
+    "description": "Free generator for an inventory list when baggage is lost or damaged, including current value calculation and a compensation claim letter. No legal advice.",
+    "offers": { "@type": "Offer", "price": "0.00", "priceCurrency": "GBP" }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much compensation can I get from the airline for lost luggage?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For checked baggage, the airline is strictly liable under the Montreal Convention without requiring proof of fault, but only up to a maximum limit of 1,519 Special Drawing Rights (SDR) per passenger. Depending on exchange rates, this is roughly £1,500 to £1,650. Generally, the current value (depreciated value) of the items is reimbursed, not the original new price."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Will I be reimbursed for the new value or the current value?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "As a rule, the current value is reimbursed, meaning the value of the item at the time of loss, taking into account its age and wear. This tool calculates the current value based on the original price, age, and an annual depreciation rate that you can adjust."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the deadlines for a baggage claim?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For damaged baggage, you must submit a written claim no later than seven days after receiving it; for delayed baggage, within 21 days after it is made available to you. If the baggage is considered lost because it has not turned up after 21 days, you can claim compensation. Any court action must be brought within two years. Always report any issue immediately at the airport as well."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What if I no longer have the purchase receipts?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "As an alternative, collect bank or credit card statements, online order confirmations, warranty cards, photos, or screenshots with brand and model details. The more verifiable your information is, the more likely the airline will accept it. A refund without receipts is not guaranteed."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I claim compensation for valuables and electronics in my checked luggage?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Many conditions of carriage exclude valuables, cash, or electronics in checked baggage from liability, or recommend carrying them in hand luggage. The enforceability of such exclusions in individual cases is debated. A travel insurance policy can bridge this gap, provided its terms cover valuables."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What applies to delayed luggage and emergency purchases?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can demand reimbursement for reasonable essential purchases made due to a delay in delivery, provided you keep the receipts. The maximum liability limit for baggage applies collectively to loss, damage, and delay. Buy only the absolute necessities and report the delay immediately at the airport."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script src="../../js/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="../index.html" class="site-logo">Fix my Trip</a>
+  <span style="font-size: 0.9em; color: #666;">Your rights for package holidays</span>
+</header>
+
+<div class="page-container">
+
+  <h1>Lost or damaged baggage: Create an inventory list with current value and claim compensation</h1>
+
+  <div class="usp-bar">
+    <div class="usp-item">Select luggage contents with one click</div>
+    <div class="usp-item">Live current value calculator</div>
+    <div class="usp-item">For airlines and travel insurance</div>
+    <div class="usp-item">Data remains in your browser</div>
+  </div>
+
+  <p>Has your suitcase disappeared or arrived damaged, and the airline is requesting an itemised list of everything inside? This is exactly where many struggle with standard spreadsheets. With this tool, you can simply select your clothes, electronics, and valuables, adjust the price and age, and instantly receive a complete <strong>inventory list with depreciated current values</strong>, along with the appropriate compensation claim letter as a PDF.</p>
+
+  <div class="info-box warning">
+    <strong>Report at the airport first:</strong> Before leaving the baggage reclaim area, have the airline or handling agent record the damage or loss (Property Irregularity Report, or "PIR") and write down the reference number. For <strong>damaged baggage</strong>, you must also report the damage in writing no later than <strong>7 days</strong> after receipt; for <strong>delays, 21 days</strong> after the luggage is returned. Photograph the suitcase and any damage immediately.
+  </div>
+
+  <div class="kk-ad-top">
+    <span class="kk-ad-label">Advertisement</span>
+    <p class="kk-ad-title">Better protected on your next trip: Compare travel credit cards with baggage protection</p>
+    <p class="kk-ad-text">Some travel credit cards include baggage insurance, often along with overseas medical insurance. A free comparison shows which card suits you best.</p>
+    <ul class="kk-ad-points"><li>Selected cards with travel baggage insurance</li><li>Some with no annual fee or foreign transaction fees</li><li>Compare for free and without obligation</li></ul>
+    <a href="#" class="kk-ad-btn" target="_blank" rel="noopener nofollow sponsored">Compare travel credit cards with baggage protection</a>
+    <p class="kk-ad-note">Ad link. Applies to future trips, not retroactively to your current case. Benefits, requirements (e.g. paying for the trip with the card), and exclusions vary depending on the card.</p>
+  </div>
+
+  <div class="legal-info-box">
+    <strong>Important notice regarding usage</strong><br>
+    This tool is an <strong>automated letter generator</strong> (a self-help tool). It places your provided details into a general template. The calculated current values are based on <strong>standard reference guidelines that you can adjust</strong>, and they are not a legally binding valuation. The airline and insurer will decide for themselves which amounts they accept. There is no individual assessment of your case, and no guarantee of success. Please only list items that were actually in the luggage and provide <strong>truthful information</strong>.
+  </div>
+
+  <div class="highlight-box pruefdatum-box" role="note" aria-label="Editorially checked" style="margin-top: 15px; margin-bottom: 30px;">
+    <p><strong>Editorially checked on:</strong> <span id="pruefdatum">26/10/2026</span></p>
+  </div>
+
+  <form id="gepaeckForm" novalidate>
+
+    <fieldset>
+      <legend>1. Type of Claim and Deadlines</legend>
+
+      <label for="fEmpf">Who is this letter addressed to?</label>
+      <select id="fEmpf">
+        <option value="airline">Airline (Compensation under the Montreal Convention)</option>
+        <option value="versicherung">Travel Baggage Insurance (Insurance Claim)</option>
+      </select>
+
+      <label for="fSchaden">What happened?</label>
+      <select id="fSchaden">
+        <option value="verloren">Baggage is lost (not delivered)</option>
+        <option value="beschaedigt">Baggage or its contents were damaged</option>
+        <option value="verspaetet">Baggage was delayed, I had to buy emergency items</option>
+      </select>
+
+      <label for="fAnkunft" id="fAnkunftLabel">Date of your arrival (for damage: date baggage was handed over):</label>
+      <input type="date" id="fAnkunft">
+
+      <div class="calc-banner" id="fristBanner" aria-live="polite">
+        Your time window:<br>
+        <span id="fristTitle" style="font-size: 0.6em;"></span>
+        <div class="kk-route-text" id="fristText"></div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>2. Luggage Contents: Select Items</legend>
+      <p style="font-size: 0.9em; color: #666; margin-top: 0;">Click on an item to add it to the list. The suggested prices are placeholders only. <strong>Please replace them with your actual purchase prices</strong> and enter the age.</p>
+
+      <div id="presetArea"></div>
+
+      <div class="inv-actions">
+        <button type="button" class="inv-btn" id="addCustom">Add custom item</button>
+        <button type="button" class="inv-btn" id="addNotkauf">Add emergency purchase (with receipt)</button>
+      </div>
+
+      <div id="invList"></div>
+      <div class="inv-empty" id="invEmpty">No items selected yet.</div>
+
+      <div class="calc-banner">
+        Current value of your inventory:<br>
+        <span id="liveAmount">£0.00</span>
+        <div style="font-size: 0.5em; font-weight: normal; margin-top: 5px;" id="liveSub">0 items, Original value £0.00</div>
+        <div class="kk-route-text" id="limitText"></div>
+      </div>
+      <p style="font-size: 0.85em; color: #666;">Calculation: Current value = Original price x Qty x (1 - Depreciation per year x Age), minimum 10% of the new price. Emergency purchases are assessed at the receipt value. You can adjust the depreciation rate for each item.</p>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. Flight and Baggage Details</legend>
+
+      <label for="aName" id="aNameLabel">Airline:</label>
+      <input type="text" id="aName" list="empfListe" placeholder="e.g. Airline name" autocomplete="off">
+      <datalist id="empfListe">
+        <option value="British Airways"><option value="easyJet"><option value="Ryanair"><option value="Virgin Atlantic"><option value="Jet2"><option value="TUI Airways"><option value="Loganair"><option value="Wizz Air"><option value="Lufthansa"><option value="KLM"><option value="Air France"><option value="Emirates"><option value="Qatar Airways"><option value="Turkish Airlines"><option value="Vueling"><option value="Iberia"><option value="TAP Air Portugal"><option value="SWISS">
+      </datalist>
+      <datalist id="versListe">
+        <option value="Aviva"><option value="Direct Line"><option value="AXA"><option value="Churchill"><option value="Admiral"><option value="Post Office"><option value="Staysure"><option value="LV="><option value="AllClear">
+      </datalist>
+
+      <label for="aAdresse">Address or Email of the recipient (optional):</label>
+      <textarea id="aAdresse" rows="2" placeholder="e.g. Contact form, Email, or Postal address as per website/policy"></textarea>
+
+      <div id="versGroup" class="kk-hidden">
+        <label for="fPolice">Policy or Agreement Number:</label>
+        <input type="text" id="fPolice" placeholder="as stated in your policy">
+      </div>
+
+      <label for="fFlugnr">Flight number:</label>
+      <input type="text" id="fFlugnr" placeholder="e.g. BA1234">
+
+      <label for="fFlugDatum">Date of the flight:</label>
+      <input type="date" id="fFlugDatum">
+
+      <label for="fVon">Departure airport:</label>
+      <input type="text" id="fVon" placeholder="e.g. London Heathrow">
+
+      <label for="fNach">Destination airport:</label>
+      <input type="text" id="fNach" placeholder="e.g. Palma de Mallorca">
+
+      <label for="fBag">Baggage Tag Number (Bag Tag, usually 10 digits):</label>
+      <input type="text" id="fBag" placeholder="e.g. 0220123456">
+
+      <label for="fPIR">Reference of the airport damage report (PIR, optional):</label>
+      <input type="text" id="fPIR" placeholder="e.g. LHRBA12345">
+
+      <label for="fMelde">Date the issue was reported at the airport (optional):</label>
+      <input type="date" id="fMelde">
+
+      <label for="fSchilderung">Brief description in your own words (optional):</label>
+      <textarea id="fSchilderung" rows="4" placeholder="e.g. The suitcase arrived with a torn side seam and a broken wheel housing. Several items inside were destroyed."></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>4. Attached Documents</legend>
+      <p style="font-size: 0.9em; color: #666; margin-top: 0;">Tick the documents you are attaching to the letter. The inventory list is always included.</p>
+      <div class="checkbox-group" id="anlagenBoxen">
+        <label><input type="checkbox" checked data-text="Copy of the Property Irregularity Report (PIR) / loss report"> Property Irregularity Report (PIR) / Loss Report</label>
+        <label><input type="checkbox" checked data-text="Copy of the Baggage Tag and Boarding Pass"> Baggage Tag and Boarding Pass</label>
+        <label><input type="checkbox" data-text="Purchase receipts or bank statements for the listed items"> Purchase receipts / Bank statements</label>
+        <label><input type="checkbox" data-text="Photos of the damaged luggage and the damages"> Photos of the luggage and damages</label>
+        <label><input type="checkbox" data-text="Receipts for emergency purchases"> Receipts for emergency purchases</label>
+        <label><input type="checkbox" data-text="Booking confirmation or flight ticket"> Booking confirmation / Flight ticket</label>
+        <label><input type="checkbox" data-text="Repair estimate or repair invoice"> Repair estimate / Repair invoice</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>5. Your Details and Bank Information</legend>
+      <label for="sName">Your First and Last Name:</label>
+      <input type="text" id="sName" placeholder="e.g. John Smith">
+      <label for="sStrasse">Street and House Number:</label>
+      <input type="text" id="sStrasse" placeholder="e.g. 10 High Street">
+      <label for="sPLZOrt">Postcode and City/Town:</label>
+      <input type="text" id="sPLZOrt" placeholder="e.g. SW1A 1AA London">
+      <label for="bIBAN">Account Number & Sort Code (or IBAN):</label>
+      <input type="text" id="bIBAN" placeholder="e.g. 12345678 / 12-34-56">
+    </fieldset>
+
+    <div class="submit-area">
+      <p class="submit-disclaimer">
+        By clicking "Generate PDF", you confirm that your information is truthful, this automated service<br>does not constitute legal advice, and you are submitting the claim on your own responsibility.
+      </p>
+      <button type="submit" class="button-primary">Generate Inventory List and Letter as PDF</button>
+    </div>
+  </form>
+
+  <!-- Text-Output Box -->
+  <div id="textOutputArea" style="display: none; margin-top: 40px; background: #ffffff; padding: 35px; border: 1px solid #f5c6c6; border-top: 5px solid #aa3131; border-radius: 8px; box-shadow: 0 10px 30px rgba(137, 24, 24, 0.08); box-sizing: border-box;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-wrap: wrap; gap: 15px;">
+      <div style="flex: 1; min-width: 250px;">
+        <h3 style="margin: 0 0 5px 0; color: #aa3131; font-size: 1.4em;">Your finished text</h3>
+        <p style="margin: 0; font-size: 0.95em; color: #666; line-height: 1.4;">Does the airline or insurance company only offer an online form? Copy the letter and inventory list with one click and paste both into their form.</p>
+      </div>
+      <button type="button" id="copyToClipboardBtn" style="background: #aa3131; color: #ffffff; border: none; padding: 12px 24px; font-size: 1em; font-weight: bold; border-radius: 6px; cursor: pointer; transition: background 0.3s; box-shadow: 0 4px 10px rgba(137, 24, 24, 0.2); white-space: nowrap;">
+        Copy text
+      </button>
+    </div>
+    <textarea id="plainTextResult" rows="16" style="width: 100%; padding: 20px; font-family: 'Courier New', Courier, monospace; font-size: 0.9em; line-height: 1.6; color: #333; background: #fdfdfd; border: 1px solid #e0e0e0; border-radius: 6px; resize: vertical; box-sizing: border-box;" readonly></textarea>
+  </div>
+
+  <!-- SEO Content -->
+  <div class="seo-content">
+    <h2>Lost or damaged luggage: What you are entitled to and what to do</h2>
+    <p>On flights, the airline is liable under the <strong>Montreal Convention</strong> for the destruction, loss, damage, or delay of checked baggage, generally without you needing to prove fault (Article 17). However, the liability is limited: the maximum amount is <strong>1,519 Special Drawing Rights (SDR) per passenger</strong>. Depending on the exchange rate, this equates to roughly £1,500 to £1,650. This amount applies collectively to loss, damage, and delay.</p>
+
+    <div class="kk-table-wrap">
+      <table class="kk-table">
+        <thead>
+          <tr><th>Case</th><th>Key Deadline</th><th>What you should do</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Baggage damaged</td><td>Written notice no later than 7 days after receipt (Art. 31 MC)</td><td>Get a damage report (PIR) at the airport, take photos, then submit a written claim</td></tr>
+          <tr><td>Baggage delayed</td><td>Written notice within 21 days after it is made available to you</td><td>Report the delay immediately, keep receipts for essential purchases and keep them reasonable</td></tr>
+          <tr><td>Baggage lost</td><td>Considered lost after 21 days without delivery, you can then claim</td><td>Report the loss, create an inventory list, collect receipts</td></tr>
+          <tr><td>Legal action if rejected</td><td>Two years from arrival or scheduled arrival (Art. 35 MC)</td><td>Use ADR (Alternative Dispute Resolution) beforehand, see notes below</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>First steps at the airport</h3>
+    <p>Before you leave the baggage claim area, go to the airline or handling agent's desk and ask them to file a Property Irregularity Report (PIR). Note down the reference number and keep your baggage tag and boarding pass. For damaged luggage, photograph the suitcase and contents while still at the carousel; for lost luggage, try to find a photo of the suitcase you took previously, if you have one.</p>
+
+    <h3>Current value instead of original price</h3>
+    <p>Airlines usually do not reimburse the new price, but rather the <strong>current value (actual cash value)</strong> of the items at the time of loss. The older and more heavily used an item is, the lower its value. The tool calculates the current value from the original price, age, and an annual depreciation rate. The preset percentages are standard guidelines often used in practice, but they do not constitute a legally binding table. You can adjust every value.</p>
+
+    <div class="kk-table-wrap">
+      <table class="kk-table">
+        <thead>
+          <tr><th>Category</th><th>Preset Annual Depreciation</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Clothing and Shoes</td><td>25 %</td></tr>
+          <tr><td>Care and Cosmetics</td><td>50 %</td></tr>
+          <tr><td>Electronics</td><td>25 %</td></tr>
+          <tr><td>Sports and Leisure</td><td>15 %</td></tr>
+          <tr><td>Suitcases and Bags</td><td>15 %</td></tr>
+          <tr><td>Watches, Jewellery, and Accessories</td><td>10 %</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Collect proofs when receipts are missing</h3>
+    <p>The airline will ask for evidence. If store receipts are missing, bank or credit card statements, online order confirmations, warranty cards, photos showing you with the items, or screenshots of the product pages will help. Note the brand and model as precisely as possible. The more verifiable the details, the better the chances they will be accepted.</p>
+
+    <h3>Valuables and electronics in the suitcase</h3>
+    <p>Many terms and conditions of carriage exclude valuables, cash, jewellery, or electronics in checked baggage from liability, or strongly advise carrying them in hand luggage. Whether such clauses are legally effective in individual cases is highly debated. For <strong>hand luggage</strong>, the airline is only liable if they were at fault. A travel baggage insurance policy might close this gap. Check their exclusions and maximum limits for valuables.</p>
+
+    <h3>Delayed luggage: Emergency purchases</h3>
+    <p>If your luggage arrives days late, you are allowed to purchase absolute essentials as replacements, for example, clothing and toiletries. Keep your purchases reasonable, hold onto all receipts, and report the delay immediately at the airport. In the tool, you record emergency purchases via "Add emergency purchase (with receipt)". They are entered into the statement at the receipt amount.</p>
+
+    <h3>Travel baggage insurance or airline: Which route?</h3>
+    <p>You can use either the airline or your insurance, but you cannot be compensated twice for the same damage (unjust enrichment). Often, the insurance company will first ask for proof that you have reported the damage to the airline. Select the recipient at the top of the form, and the letter adapts. Inform the insurance company later what the airline has reimbursed.</p>
+
+    <h3>Package holidays instead of individual flights</h3>
+    <p>If the flight is part of a package holiday, missing luggage can also be considered a holiday defect. In this case, you should also contact your tour operator, as you might be entitled to a price reduction. You can find hints in our <a href="../hotel-maengel-info.html">Guide to Holiday Defects</a> and in the general <a href="../gepaeck-info.html">Baggage Guide</a>.</p>
+
+    <h3>If the airline refuses or does not respond</h3>
+    <p>Demand a written explanation. Afterwards, you can contact an Alternative Dispute Resolution (ADR) body approved by the CAA (like CEDR or AviationADR) which handles disputes with airlines. You can find our guide to submitting claims under <a href="../beschwerde-anleitungen-info.html">Claim Tips &amp; ADR/Mediation</a>.</p>
+
+    <h3>Airlines you can use this inventory list for</h3>
+    <ul class="kk-chip-list">
+      <li>British Airways</li><li>easyJet</li><li>Ryanair</li><li>Virgin Atlantic</li><li>Jet2</li><li>TUI Airways</li><li>Loganair</li><li>Wizz Air</li><li>Lufthansa</li><li>KLM</li><li>Air France</li><li>Emirates</li><li>Qatar Airways</li><li>Turkish Airlines</li><li>Vueling</li><li>Iberia</li><li>TAP Air Portugal</li><li>SWISS</li>
+    </ul>
+
+    <h3>For these travel insurers</h3>
+    <ul class="kk-chip-list">
+      <li>Aviva</li><li>Direct Line</li><li>AXA</li><li>Churchill</li><li>Admiral</li><li>Post Office</li><li>Staysure</li><li>LV=</li><li>AllClear</li>
+    </ul>
+    <p style="font-size: 0.85em; color: #666;">There is no affiliation between Fix my Trip and the mentioned companies. This list is for guidance only.</p>
+
+    <div class="faq-section">
+      <h2>Frequently Asked Questions (FAQ) about Baggage Claims</h2>
+
+      <details>
+        <summary>How much compensation can I get from the airline for lost luggage?</summary>
+        <p>For checked baggage, the airline is strictly liable under the Montreal Convention without requiring proof of fault, but only up to a maximum limit of 1,519 Special Drawing Rights (SDR) per passenger. Depending on exchange rates, this is roughly £1,500 to £1,650. Generally, the current value of the items is reimbursed, not the new price.</p>
+      </details>
+
+      <details>
+        <summary>Will I be reimbursed for the new value or the current value?</summary>
+        <p>As a rule, the current value is reimbursed, meaning the value of the item at the time of loss, taking into account its age and wear. This tool calculates the current value based on the original price, age, and an annual depreciation rate that you can adjust.</p>
+      </details>
+
+      <details>
+        <summary>What are the deadlines for a baggage claim?</summary>
+        <p>For damaged baggage, you must submit a written claim no later than seven days after receiving it; for delayed baggage, within 21 days after it is made available to you. If the baggage is considered lost because it has not turned up after 21 days, you can claim compensation. Any court action must be brought within two years. Always report any issue immediately at the airport as well.</p>
+      </details>
+
+      <details>
+        <summary>What if I no longer have the purchase receipts?</summary>
+        <p>As an alternative, collect bank or credit card statements, online order confirmations, warranty cards, photos, or screenshots with brand and model details. The more verifiable your information is, the more likely the airline will accept it. A refund without receipts is not guaranteed.</p>
+      </details>
+
+      <details>
+        <summary>Can I claim compensation for valuables and electronics in my checked luggage?</summary>
+        <p>Many conditions of carriage exclude valuables, cash, or electronics in checked baggage from liability, or recommend carrying them in hand luggage. The enforceability of such exclusions in individual cases is debated. A travel insurance policy can bridge this gap, provided its terms cover valuables.</p>
+      </details>
+
+      <details>
+        <summary>What applies to delayed luggage and emergency purchases?</summary>
+        <p>You can demand reimbursement for reasonable essential purchases made due to a delay in delivery, provided you keep the receipts. The maximum liability limit for baggage applies collectively to loss, damage, and delay. Buy only the absolute necessities and report the delay immediately at the airport.</p>
+      </details>
+    </div>
+  </div>
+
+  <div class="airline-hinweisbox">
+    <h3>Important notes before sending</h3>
+    <p>Send only copies of your receipts and keep the originals. Secure your message with a timestamp (Email, online form with confirmation receipt, or registered mail) and ask for an acknowledgment of receipt. If the airline or insurance company offers its own form, copy the items from the inventory list into it and attach the PDF list as a supporting document.</p>
+  </div>
+
+  <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
+    <h3>Other interesting topics:</h3>
+    <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
+      <a href="../gepaeck-info.html">Lost &amp; Damaged Baggage</a>
+      <a href="../flugverspaetung-info.html">Flight Delay &amp; Cancellation</a>
+      <a href="ersatzbefoerderung-fristsetzung.html">Alternative Transport</a>
+      <a href="kreditkarte-geld-zurueckholen.html">Reclaim Payment (Chargeback)</a>
+      <a href="../beschwerde-anleitungen-info.html">Claim Tips &amp; ADR/Mediation</a>
+    </div>
+  </div>
+
+  <aside class="legal-sources-box" aria-labelledby="sources-title-gepaeck">
+    <h3 id="sources-title-gepaeck" class="sources-heading">Legal basis and Information Sources</h3>
+    <p class="sources-intro">The contents of this page are based on the following publicly accessible sources. Liability limits are regularly adjusted, please check for the current limits.</p>
+    <ul class="sources-list">
+      <li>
+        <strong>Montreal Convention (MC), specifically Articles 17, 19, 22, 31, and 35</strong>:
+        Regulates liability, limits of liability, notice periods, and the two-year time limit for bringing claims for baggage damage. The limit for checked baggage is 1,519 SDR.
+        <br>
+        <a href="https://www.icao.int" target="_blank" rel="noopener noreferrer" class="source-link">Information from the International Civil Aviation Organization (ICAO)</a>
+      </li>
+      <li>
+        <strong>The Carriage by Air Acts (Implementation of the Montreal Convention 1999) Order 2002 / Retained EU Law</strong>:
+        Transfers the rules of the Montreal Convention into UK law for UK and EU airlines.
+      </li>
+      <li>
+        <strong>Alternative Dispute Resolution (e.g. CEDR / AviationADR)</strong>:
+        Out-of-court dispute resolution for conflicts with airlines.
+        <br>
+        <a href="https://www.cedr.com/consumer/" target="_blank" rel="noopener noreferrer" class="source-link">Information on CEDR Aviation Adjudication</a>
+      </li>
+      <li>
+        <strong>Civil Aviation Authority (CAA)</strong>:
+        Information on air passenger rights in the UK.
+        <br>
+        <a href="https://www.caa.co.uk" target="_blank" rel="noopener noreferrer" class="source-link">Information from the UK Civil Aviation Authority</a>
+      </li>
+    </ul>
+  </aside>
+</div>
+
+<div class="trust-section">
+  <h3>About this page</h3>
+  <p class="trust-text">
+    Our guides and generators are based on the evaluation of current retained EU regulations, international conventions, and national travel law. They are developed by Marc (Project Lead) &amp; Team to provide travellers with structured self-help for travel problems.
+    <br><br>
+    <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+      Important Note: This page does not provide individual legal or insurance advice. Current values are estimates; the binding decision lies with the airline or insurer.
+    </span>
+  </p>
+
+  <a href="../ueber-uns.html" class="trust-link">Learn more about our methodology &amp; editorial team &rarr;</a>
+
+  <div class="lotse-card">
+    <p>
+      <strong>Problem with your flight, train, or hotel?</strong><br>
+      Fix-My-Trip checks your entitlement to compensation, ticket refunds, or price reductions in just a few steps. <br>
+      <em>A service by Fix my Trip.</em>
+    </p>
+  </div>
+
+  <p class="feedback-note">
+    <strong>Spotted an error in the tool?</strong> Since we do not provide individual advice as an automated portal, it helps us enormously if you report bugs or outdated information:
+    <a href="mailto:support@fix-my-trip.com" style="color: #777; text-decoration: underline;">Send feedback to our editorial team</a>.
+  </p>
+</div>
+
+<section class="site-niche-directory">
+  <div class="niche-directory-container">
+    <h2 class="niche-directory-title">Discover other topics</h2>
+    <p class="niche-directory-intro">
+      Whether it's a flight delay, a hotel defect, or damaged baggage – here you will find the right guide and the right template letter for almost every travel situation.
+    </p>
+
+    <div class="niche-directory-grid">
+      <div class="niche-directory-group">
+        <h3>Flight &amp; Airport</h3>
+        <ul>
+          <li><a href="../flugverspaetung-info.html">Flight Delay &amp; Cancellation</a></li>
+          <li><a href="ersatzbefoerderung-fristsetzung.html">Alternative Transport (Train, Taxi)</a></li>
+          <li><a href="gepaeck-inventarliste-schadenersatz.html">Baggage Inventory &amp; Current Value</a></li>
+          <li><a href="../steuern-info.html">Claim Back Flight Taxes</a></li>
+          <li><a href="../gepaeck-info.html">Lost &amp; Damaged Baggage</a></li>
+          <li><a href="../flughafen-parken-info.html">Airport Parking Fees</a></li>
+          <li><a href="../ota-rueckerstattung-info.html">Flight Booking Portals (OTA)</a></li>
+        </ul>
+      </div>
+
+      <div class="niche-directory-group">
+        <h3>Accommodation &amp; Package Holidays</h3>
+        <ul>
+          <li><a href="../hotel-maengel-info.html">Hotel Defects &amp; Construction Noise</a></li>
+          <li><a href="../storno-info.html">Cancel a Trip (Costs)</a></li>
+          <li><a href="../ferienhaus-maengel-info.html">Holiday Homes &amp; Apartments</a></li>
+          <li><a href="../airbnb-probleme-info.html">Airbnb Problem Solutions</a></li>
+          <li><a href="../kreuzfahrt-minderung.html">Cruise Defects</a></li>
+        </ul>
+      </div>
+
+      <div class="niche-directory-group">
+        <h3>Travel Prep &amp; Mobility</h3>
+        <ul>
+          <li><a href="../zugverspaetung-info.html">Train Delays &amp; Rail Rights</a></li>
+          <li><a href="kreditkarte-geld-zurueckholen.html">Reclaim Payment (Card, Direct Debit)</a></li>
+          <li><a href="auslandskrankenschein-kostenerstattung.html">Medical Expense Reimbursement</a></li>
+          <li><a href="../esim-roaming-info.html">eSIM &amp; Roaming Costs</a></li>
+          <li><a href="../mietwagen-info.html">Rental Car Insurance</a></li>
+          <li><a href="../reisekreditkarten-info.html">Travel Credit Card Comparison</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 Fix-my-Trip.com</p>
+  <nav>
+    <a href="../ueber-uns.html">About Us</a> |
+    <a href="../index.html">Home</a> |
+    <a href="../impressum.html">Legal Notice</a> |
+    <a href="../datenschutz.html">Privacy Policy</a>
+  </nav>
+</footer>
+
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Close">&times;</button>
+    <h2>Your documents are ready</h2>
+    <p class="sub">The PDF has been generated on your device.<br>Your data has not been transmitted to us.</p>
+    <div class="donate-hint">
+      This service is and will remain <strong>100% free</strong>. If it has helped you, we would be delighted to receive a small voluntary contribution so that Fix my Trip can remain free for other travellers too.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Quick selection:</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">£3</button>
+      <button onclick="selectPreset(5, this)" class="selected">£5</button>
+      <button onclick="selectPreset(10, this)">£10</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">£</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Enter custom amount ..." oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Donate £5 now</button>
+    <button class="btn-skip" onclick="closeOverlay()">No thanks, I'll close the window</button>
+    <p class="paypal-note">Voluntary &amp; secure via PayPal</p>
+    <div style="margin-top: 22px; padding-top: 14px; border-top: 1px solid #eee; text-align: left;">
+      <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">Advertisement / Ad link</span>
+      <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;"><strong style="color:#333;">P.S.: Are you flying again soon?</strong> Some travel credit cards include baggage insurance, so you're covered next time you face luggage issues.<br>
+        <a href="#" target="_blank" rel="noopener nofollow sponsored" style="color: #891818; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Compare travel credit cards</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+const pad = n => String(n).padStart(2, '0');
+function fmtMoney(n) { return n.toFixed(2); } // Using dot for GBP
+function fmtDate(d) { return d.toLocaleDateString('en-GB', {day: '2-digit', month: '2-digit', year: 'numeric'}); }
+function fmtIso(s) { return fmtDate(new Date(s + 'T00:00:00')); }
+function daysSince(dateStr) {
+  const d = new Date(dateStr + 'T00:00:00');
+  const t = new Date(); t.setHours(0, 0, 0, 0);
+  return Math.round((t - d) / 86400000);
+}
+
+/* ---------- Vorlagen für Gegenstände ---------- */
+const PRESETS = [
+  { cat: 'Clothing', rate: 25, list: [['T-Shirt', 20], ['Shirt / Blouse', 40], ['Jumper / Sweater', 50], ['Trousers / Jeans', 70], ['Dress / Skirt', 60], ['Jacket / Coat', 120], ['Underwear (Item)', 15], ['Socks (Pair)', 8], ['Swimwear', 40], ['Pyjamas', 40], ['Sportswear', 45], ['Hat / Scarf', 25]] },
+  { cat: 'Shoes', rate: 25, list: [['Shoes (Pair)', 90], ['Sandals / Flip-flops', 35], ['Trainers / Sports shoes', 100]] },
+  { cat: 'Care and Cosmetics', rate: 50, list: [['Cosmetics / Toiletries (Set)', 60], ['Perfume', 70]] },
+  { cat: 'Electronics', rate: 25, list: [['Laptop', 900], ['Tablet', 450], ['Camera', 600], ['Headphones', 150], ['E-Reader', 120], ['Powerbank', 30], ['Chargers / Cables (Set)', 40], ['Electric shaver / Hairdryer', 70]] },
+  { cat: 'Watches, Jewellery, and Accessories', rate: 10, list: [['Watch', 300], ['Jewellery', 200], ['Sunglasses', 120], ['Handbag / Backpack', 120], ['Wallet / Purse', 50]] },
+  { cat: 'Sports and Leisure', rate: 15, list: [['Beach towel', 25], ['Book', 15], ['Yoga mat', 30], ['Bicycle helmet', 70], ['Diving equipment (Set)', 500], ['Toy (Child)', 25]] },
+  { cat: 'Baggage item', rate: 15, list: [['Suitcase / Travel bag', 150]] }
+];
+
+let items = [];
+let nextId = 1;
+
+/* Preset-Chips aufbauen */
+(function buildPresets() {
+  const area = $('presetArea');
+  PRESETS.forEach(group => {
+    const h = document.createElement('div');
+    h.className = 'inv-cat';
+    h.textContent = group.cat;
+    area.appendChild(h);
+    const wrap = document.createElement('div');
+    wrap.className = 'inv-chips';
+    group.list.forEach(([name, price]) => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'inv-chip';
+      b.textContent = name;
+      b.addEventListener('click', () => addItem(name, price, group.rate, false));
+      wrap.appendChild(b);
+    });
+    area.appendChild(wrap);
+  });
+})();
+
+function zeitwert(it) {
+  const qty = Math.max(0, it.qty || 0);
+  const price = Math.max(0, it.price || 0);
+  if (it.notkauf) return Math.round(price * qty * 100) / 100;
+  const factor = Math.max(0.10, 1 - ((it.rate || 0) / 100) * Math.max(0, it.age || 0));
+  return Math.round(price * qty * factor * 100) / 100;
+}
+function neuwert(it) { return Math.round(Math.max(0, it.price || 0) * Math.max(0, it.qty || 0) * 100) / 100; }
+
+function addItem(name, price, rate, notkauf) {
+  items.push({ id: nextId++, name: name, qty: 1, price: price, age: 2, rate: rate, notkauf: notkauf });
+  renderItems();
+}
+$('addCustom').addEventListener('click', () => addItem('', 0, 20, false));
+$('addNotkauf').addEventListener('click', () => addItem('', 0, 0, true));
+
+function renderItems() {
+  const list = $('invList');
+  list.innerHTML = '';
+  items.forEach(it => {
+    const row = document.createElement('div');
+    row.className = 'inv-row' + (it.notkauf ? ' is-notkauf' : '');
+    row.innerHTML =
+      '<div class="inv-name"><label>' + (it.notkauf ? 'Emergency Purchase (Description)' : 'Item') + '</label><input type="text" data-f="name" placeholder="Description"></div>' +
+      '<div><label>Qty</label><input type="number" min="1" step="1" data-f="qty"></div>' +
+      '<div><label>' + (it.notkauf ? 'Amount per receipt (£)' : 'New price per unit (£)') + '</label><input type="number" min="0" step="0.01" data-f="price"></div>' +
+      '<div class="inv-hide-nk"><label>Age (Years)</label><input type="number" min="0" step="0.5" data-f="age"></div>' +
+      '<div class="inv-hide-nk"><label>Depreciation %/yr</label><input type="number" min="0" max="100" step="1" data-f="rate"></div>' +
+      '<div class="inv-end"><div><label>Current Value</label><div class="inv-val" data-f="val"></div></div><button type="button" class="inv-del" aria-label="Remove item" title="Remove">&times;</button></div>';
+    row.querySelectorAll('input[data-f]').forEach(inp => {
+      const f = inp.getAttribute('data-f');
+      inp.value = it[f] === 0 && f !== 'qty' && f !== 'price' ? 0 : it[f];
+      if (f === 'name') inp.value = it.name;
+      inp.addEventListener('input', () => {
+        it[f] = (f === 'name') ? inp.value : parseFloat(inp.value);
+        if (f !== 'name' && isNaN(it[f])) it[f] = 0;
+        row.querySelector('[data-f="val"]').textContent = '£' + fmtMoney(zeitwert(it));
+        updateTotals();
+      });
+    });
+    row.querySelector('[data-f="val"]').textContent = '£' + fmtMoney(zeitwert(it));
+    row.querySelector('.inv-del').addEventListener('click', () => { items = items.filter(x => x.id !== it.id); renderItems(); });
+    list.appendChild(row);
+  });
+  $('invEmpty').classList.toggle('kk-hidden', items.length > 0);
+  updateTotals();
+}
+
+function totals() {
+  let z = 0, n = 0;
+  items.forEach(it => { z += zeitwert(it); n += neuwert(it); });
+  return { zeit: Math.round(z * 100) / 100, neu: Math.round(n * 100) / 100 };
+}
+
+function updateTotals() {
+  const t = totals();
+  $('liveAmount').textContent = t.zeit.toLocaleString('en-GB', { style: 'currency', currency: 'GBP' });
+  $('liveSub').textContent = items.length + ' Items, Original value ' + t.neu.toLocaleString('en-GB', { style: 'currency', currency: 'GBP' });
+  $('limitText').textContent = (t.zeit > 1650 && $('fEmpf').value === 'airline')
+    ? 'Your inventory total might exceed the airline\'s maximum liability limit (1,519 SDR, currently roughly £1,500 to £1,650 depending on the exchange rate). Airlines generally do not reimburse amounts beyond this. A travel baggage insurance policy can help here.'
+    : 'Airline\'s maximum liability limit for baggage: 1,519 SDR per passenger, currently roughly £1,500 to £1,650 depending on the exchange rate.';
+}
+
+/* ---------- Fristen-Check und UI ---------- */
+function updateFrist() {
+  const art = $('fSchaden').value;
+  const d = $('fAnkunft').value;
+  const titles = {
+    beschaedigt: 'Notice period for damage: 7 days after receipt',
+    verspaetet: 'Notice period for delay: 21 days after delivery',
+    verloren: 'Baggage is considered lost after 21 days without delivery'
+  };
+  $('fristTitle').textContent = titles[art];
+  if (!d) { $('fristText').textContent = 'Enter the date, then we will show you how many days you have left.'; return; }
+  const days = daysSince(d);
+  if (days < 0) { $('fristText').textContent = 'The date is in the future. Please check your input.'; return; }
+  let s = days + ' days have passed since the selected date. ';
+  if (art === 'beschaedigt') {
+    s += days <= 7 ? 'You have ' + (7 - days) + ' days left to submit the written claim. Send it as soon as possible.' : 'The 7-day limit has been exceeded. You should still report the damage in writing immediately, but your claims may be compromised. If the airline acted wilfully or you already reported it at the airport, mention this in the letter.';
+  } else if (art === 'verspaetet') {
+    s += days <= 21 ? 'You have ' + (21 - days) + ' days left to submit the written claim. Keep all receipts for emergency purchases.' : 'The 21-day limit has been exceeded. You should still report the delay in writing immediately.';
+  } else {
+    s += days >= 21 ? 'The baggage is considered legally lost. You can now assert your claims. The strict time limit for taking court action is two years.' : 'The baggage might still be found before the 21st day (you have ' + (21 - days) + ' days remaining). However, you should still record the contents now and collect receipts for emergency purchases.';
+  }
+  $('fristText').textContent = s;
+}
+
+function updateUI() {
+  const vers = $('fEmpf').value === 'versicherung';
+  $('versGroup').classList.toggle('kk-hidden', !vers);
+  $('aNameLabel').textContent = vers ? 'Travel Insurance Provider:' : 'Airline:';
+  $('aName').setAttribute('list', vers ? 'versListe' : 'empfListe');
+  $('fAnkunftLabel').textContent = $('fSchaden').value === 'beschaedigt'
+    ? 'Date the baggage was handed over:'
+    : ($('fSchaden').value === 'verspaetet' ? 'Date you got the delayed baggage back:' : 'Date of your arrival (scheduled baggage delivery):');
+  updateFrist();
+  updateTotals();
+}
+['fEmpf', 'fSchaden', 'fAnkunft'].forEach(id => { $(id).addEventListener('change', updateUI); $(id).addEventListener('input', updateUI); });
+updateUI();
+
+/* ---------- Schreiben und PDF ---------- */
+const SCHADEN_LABEL = { verloren: 'Loss', beschaedigt: 'Damage', verspaetet: 'Delay with emergency purchases' };
+
+function validate(list) {
+  const missing = list.filter(([id]) => !$(id).value.trim()).map(([, label]) => label);
+  if (missing.length) { alert('Please fill in: ' + missing.join(', ') + '.'); return false; }
+  return true;
+}
+
+document.getElementById('gepaeckForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  const req = [['aName', 'Recipient'], ['fFlugnr', 'Flight number'], ['fFlugDatum', 'Date of flight'], ['fVon', 'Departure airport'], ['fNach', 'Destination airport'], ['fBag', 'Baggage Tag Number'], ['sName', 'Your Name'], ['sStrasse', 'Street'], ['sPLZOrt', 'Postcode and City/Town'], ['bIBAN', 'Account Number & Sort Code']];
+  if (!validate(req)) return;
+  if (items.length === 0) { alert('Please add at least one item to the list.'); return; }
+  const bad = items.filter(it => !it.name.trim() || !(it.price > 0) || !(it.qty > 0));
+  if (bad.length) { alert('Please complete all items (Description, Quantity, and Price must be filled) or remove empty rows.'); return; }
+
+  const art = $('fSchaden').value;
+  const empfTyp = $('fEmpf').value;
+  const empf = $('aName').value.trim();
+  const empfAdr = $('aAdresse').value.trim();
+  const police = $('fPolice').value.trim();
+  const flugnr = $('fFlugnr').value.trim();
+  const flugDatum = fmtIso($('fFlugDatum').value);
+  const von = $('fVon').value.trim();
+  const nach = $('fNach').value.trim();
+  const bag = $('fBag').value.trim();
+  const pir = $('fPIR').value.trim();
+  const melde = $('fMelde').value ? fmtIso($('fMelde').value) : '';
+  const ankunft = $('fAnkunft').value ? fmtIso($('fAnkunft').value) : '';
+  const schilderung = $('fSchilderung').value.trim();
+  const sName = $('sName').value.trim();
+  const sStrasse = $('sStrasse').value.trim();
+  const sPLZOrt = $('sPLZOrt').value.trim();
+  const iban = $('bIBAN').value.trim();
+  const t = totals();
+  const zeitStr = '£' + fmtMoney(t.zeit);
+  const neuStr = '£' + fmtMoney(t.neu);
+
+  const todayStr = fmtDate(new Date());
+  const dl14 = new Date(); dl14.setDate(dl14.getDate() + 14);
+  const dlStr = fmtDate(dl14);
+
+  const anlagenZeilen = ['Inventory list with current values (Appendix 1)'];
+  document.querySelectorAll('#anlagenBoxen input[type="checkbox"]').forEach(cb => { if (cb.checked) anlagenZeilen.push(cb.getAttribute('data-text')); });
+  const anlagenNum = anlagenZeilen.map((a, i) => (i + 1) + '. ' + a);
+
+  let betreff, facts = [], paras = [];
+  const artText = { verloren: 'lost', beschaedigt: 'damaged', verspaetet: 'delayed' }[art];
+
+  facts.push(['Flight:', flugnr + ', ' + von + ' - ' + nach]);
+  facts.push(['Flight date:', flugDatum]);
+  facts.push(['Baggage Tag No.:', bag]);
+  if (pir) facts.push(['PIR Reference:', pir]);
+  facts.push(['Type of claim:', SCHADEN_LABEL[art]]);
+  if (empfTyp === 'versicherung' && police) facts.push(['Policy Number:', police]);
+  facts.push(['Total current value:', zeitStr]);
+
+  const sachverhalt = {
+    verloren: 'my checked baggage (Baggage Tag No. ' + bag + ') failed to arrive with me on the above-mentioned flight' + (ankunft ? ' (scheduled arrival: ' + ankunft + ')' : '') + '. ' + (melde ? 'I reported the loss at the airport on ' + melde + (pir ? ' (Reference: ' + pir + ')' : '') + '. ' : '') + 'The baggage has still not been delivered to me to this day.',
+    beschaedigt: 'my checked baggage (Baggage Tag No. ' + bag + ') arrived damaged on the above-mentioned flight' + (ankunft ? ' (baggage handed over on ' + ankunft + ')' : '') + '. ' + (melde ? 'I reported the damage at the airport on ' + melde + (pir ? ' (Reference: ' + pir + ')' : '') + '. ' : '') + 'I am hereby officially reporting the damage in writing.',
+    verspaetet: 'my checked baggage (Baggage Tag No. ' + bag + ') was delivered delayed on the above-mentioned flight' + (ankunft ? ' (returned on ' + ankunft + ')' : '') + '. ' + (melde ? 'I reported the delay at the airport on ' + melde + (pir ? ' (Reference: ' + pir + ')' : '') + '. ' : '') + 'I am hereby officially reporting the damage in writing. During the delay, I had to purchase essential replacement items.'
+  }[art];
+
+  if (empfTyp === 'airline') {
+    betreff = 'Compensation claim for ' + artText + ' baggage - Flight ' + flugnr + ' on ' + flugDatum;
+    paras.push(sachverhalt);
+    if (schilderung) paras.push('Additional description: ' + schilderung);
+    paras.push('You are liable for this under the Montreal Convention (Art. 17 para. 2, or for delay Art. 19 MC). The affected items are detailed in the attached inventory list (Appendix 1). The total current value is ' + zeitStr + ' (Original value: ' + neuStr + '). The valuations are based on purchase price, age, and customary depreciation.');
+    paras.push('I ask you to pay me compensation in the amount of ' + zeitStr + ', up to the maximum liability limit under Art. 22 para. 2 MC, by ' + dlStr + ' to the following account:\nAccount Holder: ' + sName + '\nAccount No. & Sort Code (or IBAN): ' + iban);
+  } else {
+    betreff = 'Travel Baggage Insurance Claim - ' + SCHADEN_LABEL[art] + ' - Flight ' + flugnr + ' on ' + flugDatum;
+    paras.push(sachverhalt);
+    if (schilderung) paras.push('Additional description: ' + schilderung);
+    paras.push('The affected items are detailed in the attached inventory list (Appendix 1). The total current value is ' + zeitStr + ' (Original value: ' + neuStr + '). I kindly ask you to review this and make the payment in accordance with the policy terms by ' + dlStr + ' to the following account:\nAccount Holder: ' + sName + '\nAccount No. & Sort Code (or IBAN): ' + iban);
+    paras.push('I have not yet received any compensation from the airline for these exact same items. I will inform you immediately if they make a payment.');
+  }
+  const abschluss = 'I confirm that the details provided are truthful and the listed items were in the baggage. Please acknowledge receipt of this letter and let me know if any further documents are required.';
+
+  /* Inventar-Klartext */
+  const invText = items.map((it, i) => {
+    const nm = (it.name.trim() + (it.notkauf ? ' (Emergency)' : '')).slice(0, 34).padEnd(34);
+    const detail = it.notkauf ? ('Receipt: £' + fmtMoney(it.price)) : (it.qty + 'x £' + fmtMoney(it.price) + ', ' + it.age + ' Yrs');
+    return String(i + 1).padStart(2, ' ') + '. ' + nm + ' ' + detail.padEnd(22) + ' £' + fmtMoney(zeitwert(it));
+  }).join('\n');
+
+  let plain = sName + '\n' + sStrasse + '\n' + sPLZOrt + '\n\n' + empf + (empfAdr ? '\n' + empfAdr : '') + '\n\nDate: ' + todayStr + '\n\n' +
+    'Subject: ' + betreff + '\n' + facts.map(f => f[0] + ' ' + f[1]).join('\n') + '\n\nDear Sir/Madam,\n\n' + paras.join('\n\n') +
+    '\n\nAttachments:\n' + anlagenNum.join('\n') + '\n\n' + abschluss + '\n\nYours faithfully,\n' + sName +
+    '\n\n----------------------------------------\nAPPENDIX 1: INVENTORY LIST\n----------------------------------------\n' + invText +
+    '\n----------------------------------------\nOriginal value total: ' + neuStr + '\nCurrent value total: ' + zeitStr +
+    '\n\nCalculation: Current value = Original price x Qty x (1 - Depreciation p.a. x Age), minimum 10 % of the original price. Emergency purchases at receipt amount.';
+
+  /* PDF */
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF();
+  const pageH = 297, marginBottom = 20, lineH = 6;
+  function ensure(y, needed) { if (y + (needed || lineH) > pageH - marginBottom) { doc.addPage(); return 30; } return y; }
+  function write(text, y, x, width) {
+    const lines = doc.splitTextToSize(text, width || 160);
+    lines.forEach(l => { y = ensure(y); doc.text(l, x || 25, y); y += lineH; });
+    return y;
+  }
+
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(8);
+  doc.setTextColor(100, 100, 100);
+  doc.text(sName + ' - ' + sStrasse + ' - ' + sPLZOrt, 25, 45);
+  doc.setLineWidth(0.2);
+  doc.setDrawColor(150, 150, 150);
+  doc.line(25, 46.5, 95, 46.5);
+
+  doc.setFontSize(11);
+  doc.setTextColor(0, 0, 0);
+  doc.text(doc.splitTextToSize(empf + (empfAdr ? '\n' + empfAdr : ''), 80), 25, 53);
+
+  doc.setFontSize(10);
+  doc.text('Sender:', 130, 45);
+  doc.setFont('helvetica', 'bold');
+  doc.text(sName, 130, 50);
+  doc.setFont('helvetica', 'normal');
+  doc.text(sStrasse, 130, 55);
+  doc.text(sPLZOrt, 130, 60);
+  doc.text('Date: ' + todayStr, 185, 80, { align: 'right' });
+
+  doc.setFontSize(12);
+  doc.setFont('helvetica', 'bold');
+  const betreffLines = doc.splitTextToSize(betreff, 160);
+  doc.text(betreffLines, 25, 95);
+
+  doc.setFontSize(10.5);
+  let fy = 95 + betreffLines.length * 6 + 4;
+  facts.forEach(f => {
+    doc.setFont('helvetica', 'bold');
+    doc.text(f[0], 25, fy);
+    doc.setFont('helvetica', 'normal');
+    doc.text(doc.splitTextToSize(f[1], 100), 75, fy);
+    fy += 5.5;
+  });
+  doc.setDrawColor(0, 0, 0);
+  doc.line(25, fy, 185, fy);
+
+  let y = fy + 12;
+  doc.setFontSize(11);
+  y = write('Dear Sir/Madam,', y); y += 3;
+  paras.forEach(p => { y = write(p, y); y += 3; });
+
+  doc.setFont('helvetica', 'bold');
+  y = ensure(y); doc.text('Attachments:', 25, y); y += lineH;
+  doc.setFont('helvetica', 'normal');
+  anlagenNum.forEach(a => { y = write(a, y, 30, 150); });
+  y += 3;
+  y = write(abschluss, y); y += 10;
+
+  y = ensure(y, 40);
+  doc.text('Yours faithfully,', 25, y);
+  y += 25;
+  doc.setLineWidth(0.5);
+  doc.line(25, y, 80, y);
+  doc.line(100, y, 185, y);
+  doc.setFontSize(9);
+  doc.setTextColor(100, 100, 100);
+  doc.text('Place, Date', 25, y + 5);
+  doc.text('Signature (' + sName + ')', 100, y + 5);
+
+  /* Anlage 1: Inventarliste */
+  doc.addPage();
+  doc.setTextColor(0, 0, 0);
+  y = 30;
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(13);
+  doc.text('Appendix 1: Inventory List', 25, y); y += 7;
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(9);
+  doc.text(sName + ' | Bag Tag No. ' + bag + ' | Flight ' + flugnr + ' on ' + flugDatum, 25, y); y += 8;
+
+  function tableHeader() {
+    doc.setFont('helvetica', 'bold');
+    doc.setFontSize(9.5);
+    doc.text('No.', 25, y);
+    doc.text('Item', 33, y);
+    doc.text('Qty', 112, y, { align: 'right' });
+    doc.text('Price/Unit', 135, y, { align: 'right' });
+    doc.text('Age', 153, y, { align: 'right' });
+    doc.text('Current Value', 185, y, { align: 'right' });
+    y += 2;
+    doc.setLineWidth(0.3);
+    doc.line(25, y, 185, y);
+    y += 5;
+    doc.setFont('helvetica', 'normal');
+  }
+  tableHeader();
+  items.forEach((it, i) => {
+    const nameLines = doc.splitTextToSize(it.name.trim() + (it.notkauf ? ' (Emergency, Receipt)' : ''), 72);
+    const h = nameLines.length * 5 + 2;
+    if (y + h > pageH - marginBottom) { doc.addPage(); y = 30; tableHeader(); }
+    doc.setFontSize(9.5);
+    doc.text(String(i + 1), 25, y);
+    doc.text(nameLines, 33, y);
+    doc.text(String(it.qty), 112, y, { align: 'right' });
+    doc.text('£' + fmtMoney(it.price), 135, y, { align: 'right' });
+    doc.text(it.notkauf ? '-' : (it.age + ' Yrs'), 153, y, { align: 'right' });
+    doc.text('£' + fmtMoney(zeitwert(it)), 185, y, { align: 'right' });
+    y += h;
+  });
+  y += 2;
+  if (y + 24 > pageH - marginBottom) { doc.addPage(); y = 30; }
+  doc.setLineWidth(0.3);
+  doc.line(25, y, 185, y); y += 6;
+  doc.setFont('helvetica', 'normal');
+  doc.text('Original value total:', 135, y, { align: 'right' });
+  doc.text(neuStr, 185, y, { align: 'right' }); y += 6;
+  doc.setFont('helvetica', 'bold');
+  doc.text('Current value total:', 135, y, { align: 'right' });
+  doc.text(zeitStr, 185, y, { align: 'right' }); y += 10;
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(8.5);
+  doc.setTextColor(100, 100, 100);
+  const note = doc.splitTextToSize('Calculation: Current value = Original price x Qty x (1 - Depreciation per year x Age), minimum 10 % of the original price. Emergency purchases are assessed at the receipt amount. The valuations are based on the sender\'s own assessment.', 160);
+  doc.text(note, 25, y);
+
+  const out = $('textOutputArea');
+  out.style.display = 'block';
+  $('plainTextResult').value = plain;
+  out.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+  doc.save('Baggage_Inventory_List_' + empf.replace(/[^a-zA-Z0-9]/g, '_') + '_' + bag.replace(/[^a-zA-Z0-9]/g, '') + '.pdf');
+  setTimeout(() => $('donateOverlay').classList.add('active'), 800);
+});
+
+/* ---------- Spenden-Overlay ---------- */
+const PAYPAL_EMAIL = 'info@kassen-lotse.de';
+let donateAmount = 5;
+
+function selectPreset(amount, btn) {
+  donateAmount = amount;
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  $('customAmount').value = '';
+  $('customAmount').classList.remove('selected-custom');
+  updateDonateButton();
+}
+function handleCustomInput(input) {
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  const val = parseFloat(input.value);
+  if (val && val >= 1) { donateAmount = val; input.classList.add('selected-custom'); }
+  else { donateAmount = 0; input.classList.remove('selected-custom'); }
+  updateDonateButton();
+}
+function updateDonateButton() {
+  const btn = $('btnDonate');
+  if (donateAmount >= 1) {
+    btn.textContent = 'Donate £' + (donateAmount % 1 === 0 ? donateAmount : donateAmount.toFixed(2)) + ' now';
+    btn.disabled = false;
+  } else {
+    btn.textContent = 'Enter amount';
+    btn.disabled = true;
+  }
+}
+function openPayPal() {
+  if (donateAmount < 1) return;
+  const url = 'https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=' + encodeURIComponent(PAYPAL_EMAIL) + '&amount=' + donateAmount.toFixed(2) + '&currency_code=GBP&item_name=Support+Fix+my+Trip&no_note=1&no_shipping=1';
+  window.open(url, '_blank');
+  closeOverlay();
+}
+function closeOverlay() { $('donateOverlay').classList.remove('active'); }
+$('donateOverlay').addEventListener('click', function(e) { if (e.target === this) closeOverlay(); });
+
+/* ---------- Kopier-Button ---------- */
+function legacyCopy(textArea) {
+  return new Promise((resolve, reject) => {
+    const ta = document.createElement('textarea');
+    ta.value = textArea.value;
+    ta.setAttribute('contenteditable', 'true');
+    ta.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;font-size:16px;-webkit-user-select:text;user-select:text;';
+    document.body.appendChild(ta);
+    ta.focus(); ta.select(); ta.setSelectionRange(0, ta.value.length);
+    let ok = false;
+    try { ok = document.execCommand('copy'); } catch (err) {}
+    document.body.removeChild(ta);
+    ok ? resolve() : reject();
+  });
+}
+function copyText(textArea) {
+  return new Promise((resolve, reject) => {
+    legacyCopy(textArea).then(resolve).catch(() => {
+      if (navigator.clipboard && window.isSecureContext) {
+        const timer = setTimeout(reject, 1500);
+        navigator.clipboard.writeText(textArea.value)
+          .then(() => { clearTimeout(timer); resolve(); })
+          .catch(() => { clearTimeout(timer); reject(); });
+      } else { reject(); }
+    });
+  });
+}
+$('copyToClipboardBtn').addEventListener('click', function() {
+  const btn = this;
+  copyText($('plainTextResult')).then(() => {
+    const original = btn.innerHTML;
+    btn.innerHTML = 'Copied successfully';
+    btn.style.background = '#2e7d32';
+    setTimeout(() => { btn.innerHTML = original; btn.style.background = '#aa3131'; }, 3000);
+  }).catch(() => {
+    alert('Error copying. Please highlight and copy the text manually.');
+  });
+});
+</script>
+
+</body>
+</html>

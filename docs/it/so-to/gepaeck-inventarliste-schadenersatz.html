@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Richiedere risarcimento: Inventario per danni al bagaglio (PDF)</title>
+
+  <meta name="description" content="Valigia smarrita o danneggiata? Clicca sul contenuto del tuo bagaglio, calcola il valore attuale e crea gratuitamente la distinta d'inventario e la lettera di risarcimento per la compagnia aerea o l'assicurazione bagaglio.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="canonical" href="https://www.fix-my-trip.com/it/so-to/gepaeck-inventarliste-schadenersatz.html">
+
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="it" href="https://www.fix-my-trip.com/it/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="nl" href="https://www.fix-my-trip.com/nl/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="pt" href="https://www.fix-my-trip.com/pt/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="en-gb" href="https://www.fix-my-trip.com/en-gb/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="en-us" href="https://www.fix-my-trip.com/en-us/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/en-gb/so-to/gepaeck-inventarliste-schadenersatz.html">
+
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <style>
+    /* Inventarliste-Schadensersatz */
+    #gepaeckForm select { width: 100%; padding: 10px; font-size: 1em; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; background: #fff; margin-bottom: 12px; }
+    #gepaeckForm input[type="date"] { width: 100%; padding: 10px; font-size: 1em; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 12px; }
+    .kk-table-wrap { overflow-x: auto; margin: 20px 0; }
+    .kk-table { width: 100%; border-collapse: collapse; font-size: 0.95em; }
+    .kk-table th, .kk-table td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #e3e3e3; vertical-align: top; }
+    .kk-table th { background: #faf3f3; color: #891818; }
+    .kk-chip-list { display: flex; flex-wrap: wrap; gap: 8px; margin: 15px 0; padding: 0; list-style: none; }
+    .kk-chip-list li { background: #f7f7f7; border: 1px solid #e5e5e5; border-radius: 20px; padding: 5px 14px; font-size: 0.9em; color: #444; }
+    .kk-route-text { font-size: 0.95em; font-weight: normal; line-height: 1.5; margin-top: 8px; }
+    .kk-hidden { display: none; }
+
+    /* Inventar-Bereich */
+    .inv-cat { margin: 18px 0 6px; font-size: 0.9em; font-weight: 600; color: #891818; }
+    .inv-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .inv-chip { background: #f7f7f7; border: 1px solid #ddd; border-radius: 20px; padding: 6px 14px; font-size: 0.9em; color: #333; cursor: pointer; font-family: inherit; }
+    .inv-chip:hover { border-color: #891818; color: #891818; }
+    .inv-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0 10px; }
+    .inv-btn { background: #fff; border: 1px solid #891818; color: #891818; border-radius: 6px; padding: 9px 16px; font-size: 0.95em; cursor: pointer; font-family: inherit; }
+    .inv-btn:hover { background: #faf3f3; }
+    .inv-empty { color: #777; font-size: 0.95em; padding: 15px 0; }
+    .inv-row { display: grid; grid-template-columns: 2.2fr 0.7fr 1fr 0.8fr 0.9fr 1fr auto; gap: 8px; align-items: end; padding: 12px 0; border-bottom: 1px solid #eee; }
+    .inv-row label { display: block; font-size: 0.75em; color: #777; margin: 0 0 3px; font-weight: normal; }
+    .inv-row input { width: 100%; box-sizing: border-box; padding: 8px; font-size: 0.95em; border: 1px solid #ccc; border-radius: 4px; margin: 0; }
+    .inv-val { font-weight: 600; padding: 8px 0; white-space: nowrap; }
+    .inv-del { background: none; border: none; color: #891818; font-size: 1.4em; cursor: pointer; padding: 4px 8px; line-height: 1; }
+    .inv-row.is-notkauf .inv-hide-nk { visibility: hidden; }
+    @media (max-width: 720px) {
+      .inv-row { grid-template-columns: 1fr 1fr; }
+      .inv-row .inv-name { grid-column: 1 / -1; }
+      .inv-row .inv-end { grid-column: 1 / -1; display: flex; justify-content: space-between; align-items: center; }
+    }
+  
+    /* Affiliate-Box (oben, vor dem Formular) */
+    .kk-ad-top { position: relative; background: #fff; border: 1px solid #e6d3d3; border-radius: 8px; padding: 26px 28px 22px; margin: 28px 0; box-shadow: 0 6px 22px rgba(137, 24, 24, 0.07); }
+    .kk-ad-label { position: absolute; top: 10px; right: 12px; font-size: 0.7rem; color: #666; background: #eee; padding: 2px 6px; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .kk-ad-title { margin: 0 0 8px; padding-right: 70px; font-size: 1.25em; font-weight: 700; color: #891818; line-height: 1.3; }
+    .kk-ad-text { margin: 0 0 14px; font-size: 0.98em; color: #444; line-height: 1.55; }
+    .kk-ad-points { list-style: none; margin: 0 0 18px; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+    .kk-ad-points li { background: #faf3f3; color: #6f1313; border-radius: 20px; padding: 6px 14px; font-size: 0.88em; }
+    .kk-ad-btn { display: inline-block; background: #891818; color: #fff !important; font-weight: 700; font-size: 1.02em; text-decoration: none; padding: 15px 30px; border-radius: 6px; box-shadow: 0 4px 12px rgba(137, 24, 24, 0.25); transition: background 0.2s; }
+    .kk-ad-btn:hover { background: #6f1313; }
+    .kk-ad-note { margin: 14px 0 0; font-size: 0.78em; color: #777; line-height: 1.5; }
+    @media (max-width: 600px) { .kk-ad-top { padding: 22px 18px 18px; } .kk-ad-btn { display: block; text-align: center; padding: 16px 12px; } }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Inventario bagaglio con valore attuale: Generatore di risarcimento per compagnie aeree e assicurazioni",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "All",
+    "description": "Generatore gratuito per la lista d'inventario in caso di bagagli smarriti o danneggiati, comprensivo di calcolo del valore attuale e lettera di risarcimento. Nessuna consulenza legale.",
+    "offers": { "@type": "Offer", "price": "0.00", "priceCurrency": "EUR" }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quanti soldi riceverò dalla compagnia aerea per il bagaglio smarrito?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Per il bagaglio da stiva, la compagnia aerea è responsabile oggettivamente ai sensi della Convenzione di Montreal, ma solo fino a un limite massimo di 1.519 Diritti Speciali di Prelievo (DSP) per passeggero. A seconda del tasso di cambio, ciò corrisponde a circa 1.800 - 1.950 euro. Di norma viene rimborsato il valore attuale degli oggetti, non il prezzo di acquisto."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Viene rimborsato il valore a nuovo o il valore attuale?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Di solito viene rimborsato il valore attuale, ovvero il valore dell'oggetto al momento dello smarrimento, tenendo conto dell'età e dell'usura. Per questo motivo lo strumento calcola il valore attuale partendo dal prezzo a nuovo, dall'età e da un deprezzamento annuo che è possibile personalizzare."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quali sono le scadenze da rispettare per i danni ai bagagli?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In caso di bagaglio danneggiato, è necessario segnalare il danno per iscritto entro sette giorni dal ricevimento; per il bagaglio in ritardo, entro 21 giorni dalla consegna. Se il bagaglio è considerato smarrito (poiché non è stato ritrovato dopo 21 giorni), puoi far valere i tuoi diritti di risarcimento. Eventuali azioni legali devono essere intraprese entro due anni. Segnala sempre e immediatamente ogni danno anche in aeroporto."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Cosa succede se non ho più gli scontrini d'acquisto?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In alternativa, raccogli estratti conto, conferme di ordini online, certificati di garanzia, foto o screenshot indicanti marca e modello. Più le tue indicazioni sono verificabili, più è probabile che la compagnia aerea le accetti. Un rimborso senza prove d'acquisto non è garantito."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso ottenere il rimborso di oggetti di valore ed elettronica nel bagaglio da stiva?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Molte condizioni di trasporto escludono dalla responsabilità oggetti di valore, contanti o elettronica nel bagaglio registrato, o raccomandano di portarli nel bagaglio a mano. La validità di tali esclusioni nel singolo caso è dibattuta. Un'assicurazione bagaglio può colmare questa lacuna, purché le sue condizioni coprano gli oggetti di valore."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Cosa vale per i bagagli in ritardo e gli acquisti di prima necessità?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Puoi richiedere il rimborso per acquisti sostitutivi ragionevoli causati dalla ritardata consegna, a condizione di conservare gli scontrini. Il limite massimo di responsabilità per i bagagli si applica complessivamente per smarrimento, danno e ritardo. Acquista solo il necessario e segnala immediatamente il ritardo in aeroporto."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script src="../../js/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="../index.html" class="site-logo">Fix my Trip</a>
+  <span style="font-size: 0.9em; color: #666;">I tuoi diritti nei pacchetti turistici</span>
+</header>
+
+<div class="page-container">
+
+  <h1>Bagaglio smarrito o danneggiato: Crea la distinta d'inventario con valore attuale e richiedi il risarcimento</h1>
+
+  <div class="usp-bar">
+    <div class="usp-item">Seleziona il contenuto con un clic</div>
+    <div class="usp-item">Calcolatore del valore attuale live</div>
+    <div class="usp-item">Per compagnie aeree e assicurazioni bagaglio</div>
+    <div class="usp-item">I dati rimangono nel tuo browser</div>
+  </div>
+
+  <p>La tua valigia è scomparsa o è arrivata danneggiata, e la compagnia aerea richiede un elenco dettagliato di tutti gli oggetti? Spesso questa fase diventa complicata per via della formattazione tabellare richiesta. Qui puoi semplicemente selezionare i tuoi vestiti, apparecchi elettronici e oggetti di valore, modificare il prezzo e l'età e ottenere un <strong>inventario completo con valore attuale (residuo)</strong> e la relativa lettera di richiesta risarcimento in formato PDF.</p>
+
+  <div class="info-box warning">
+    <strong>Segnala prima in aeroporto:</strong> Prima di lasciare l'area di ritiro bagagli, fai registrare lo smarrimento o il danno presso lo sportello della compagnia aerea o dell'operatore aeroportuale (creando il rapporto PIR - Property Irregularity Report) e annota il numero di riferimento. In caso di <strong>bagaglio danneggiato</strong>, il danno deve essere segnalato anche per iscritto entro <strong>7 giorni</strong> dal ricevimento, in caso di <strong>ritardo entro 21 giorni</strong> dalla consegna. Fotografa immediatamente la valigia e i danni.
+  </div>
+
+  <div class="kk-ad-top">
+    <span class="kk-ad-label">Annuncio</span>
+    <p class="kk-ad-title">Più protetto per il tuo prossimo viaggio: Confronta le carte di credito con protezione bagagli</p>
+    <p class="kk-ad-text">Alcune carte di credito includono un'assicurazione per il bagaglio, a volte insieme all'assicurazione sanitaria per l'estero. Il confronto gratuito ti mostra quale carta è più adatta a te.</p>
+    <ul class="kk-ad-points"><li>Carte selezionate con assicurazione bagaglio</li><li>A volte senza canone annuo e senza commissioni per transazioni estere</li><li>Confronto gratuito e senza impegno</li></ul>
+    <a href="#" class="kk-ad-btn" target="_blank" rel="noopener nofollow sponsored">Confronta le carte di credito di viaggio</a>
+    <p class="kk-ad-note">Link pubblicitario. Valido per viaggi futuri, non retroattivamente per il tuo caso attuale. Le coperture, i requisiti (es. pagamento del viaggio con la carta) e le esclusioni variano da carta a carta.</p>
+  </div>
+
+  <div class="legal-info-box">
+    <strong>Avviso importante per l'utilizzo</strong><br>
+    Questo strumento è un <strong>generatore automatico di lettere</strong> (aiuto all'auto-aiuto). Inserisce i tuoi dati in un modello generale. I valori attuali calcolati si basano su <strong>valori di riferimento che puoi modificare</strong> e non costituiscono una valutazione vincolante. La compagnia aerea e le assicurazioni decidono autonomamente quali importi riconoscere. Non viene effettuato alcun esame del singolo caso e non vi è alcuna garanzia di successo. Ti preghiamo di elencare esclusivamente gli oggetti che erano effettivamente nel bagaglio e di fornire <strong>informazioni veritiere</strong>.
+  </div>
+
+  <div class="highlight-box pruefdatum-box" role="note" aria-label="Verificato dalla redazione" style="margin-top: 15px; margin-bottom: 30px;">
+    <p><strong>Verificato dalla redazione il:</strong> <span id="pruefdatum">26.10.2026</span></p>
+  </div>
+
+  <form id="gepaeckForm" novalidate>
+
+    <fieldset>
+      <legend>1. Sinistro e scadenze</legend>
+
+      <label for="fEmpf">A chi è indirizzata la lettera?</label>
+      <select id="fEmpf">
+        <option value="airline">Compagnia aerea (Risarcimento danni secondo la Convenzione di Montreal)</option>
+        <option value="versicherung">Assicurazione bagaglio (Richiesta di indennizzo)</option>
+      </select>
+
+      <label for="fSchaden">Cosa è successo?</label>
+      <select id="fSchaden">
+        <option value="verloren">Il bagaglio è andato smarrito (non consegnato)</option>
+        <option value="beschaedigt">Il bagaglio o il contenuto è stato danneggiato</option>
+        <option value="verspaetet">Il bagaglio è arrivato in ritardo, ho dovuto fare acquisti (acquisti di prima necessità)</option>
+      </select>
+
+      <label for="fAnkunft" id="fAnkunftLabel">Data del tuo arrivo (in caso di danni: data di consegna del bagaglio):</label>
+      <input type="date" id="fAnkunft">
+
+      <div class="calc-banner" id="fristBanner" aria-live="polite">
+        Il tuo tempo a disposizione:<br>
+        <span id="fristTitle" style="font-size: 0.6em;"></span>
+        <div class="kk-route-text" id="fristText"></div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>2. Contenuto della valigia: Seleziona oggetti</legend>
+      <p style="font-size: 0.9em; color: #666; margin-top: 0;">Clicca su un oggetto per aggiungerlo alla lista. I prezzi suggeriti sono solo indicativi. <strong>Ti preghiamo di sostituirli con i tuoi prezzi di acquisto reali</strong> e di inserire l'età degli oggetti.</p>
+
+      <div id="presetArea"></div>
+
+      <div class="inv-actions">
+        <button type="button" class="inv-btn" id="addCustom">Aggiungi oggetto personalizzato</button>
+        <button type="button" class="inv-btn" id="addNotkauf">Aggiungi acquisto di prima necessità con scontrino</button>
+      </div>
+
+      <div id="invList"></div>
+      <div class="inv-empty" id="invEmpty">Ancora nessun oggetto selezionato.</div>
+
+      <div class="calc-banner">
+        Valore attuale del tuo elenco:<br>
+        <span id="liveAmount">0,00 €</span>
+        <div style="font-size: 0.5em; font-weight: normal; margin-top: 5px;" id="liveSub">0 Posizioni, Valore a nuovo 0,00 €</div>
+        <div class="kk-route-text" id="limitText"></div>
+      </div>
+      <p style="font-size: 0.85em; color: #666;">Calcolo: Valore attuale = Prezzo a nuovo x Quantità x (1 - Svalutazione annua x Età), minimo 10 % del prezzo a nuovo. Gli acquisti di prima necessità vengono inseriti per l'importo indicato sullo scontrino. Puoi modificare la svalutazione per ogni singolo oggetto.</p>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. Volo e Bagaglio</legend>
+
+      <label for="aName" id="aNameLabel">Compagnia aerea:</label>
+      <input type="text" id="aName" list="empfListe" placeholder="es. Nome della compagnia aerea" autocomplete="off">
+      <datalist id="empfListe">
+        <option value="ITA Airways"><option value="Ryanair"><option value="easyJet"><option value="Wizz Air"><option value="Vueling"><option value="Lufthansa"><option value="Eurowings"><option value="Air France"><option value="KLM"><option value="Iberia"><option value="British Airways"><option value="Turkish Airlines"><option value="Emirates"><option value="TAP Air Portugal"><option value="Austrian Airlines"><option value="SWISS"><option value="Condor"><option value="Volotea"><option value="Neos"><option value="Discover Airlines"><option value="TUIfly"><option value="Pegasus"><option value="SunExpress"><option value="Corendon"><option value="Transavia"><option value="SAS"><option value="Finnair"><option value="LOT">
+      </datalist>
+      <datalist id="versListe">
+        <option value="Allianz Global Assistance"><option value="Europ Assistance"><option value="Columbus Assicurazioni"><option value="AXA Partners"><option value="Generali"><option value="UnipolSai"><option value="Ima Italia Assistance"><option value="Coverwise"><option value="Holins">
+      </datalist>
+
+      <label for="aAdresse">Indirizzo o e-mail del destinatario (opzionale):</label>
+      <textarea id="aAdresse" rows="2" placeholder="es. Modulo di contatto, e-mail o indirizzo postale come da sito web o polizza"></textarea>
+
+      <div id="versGroup" class="kk-hidden">
+        <label for="fPolice">Numero di polizza o contratto:</label>
+        <input type="text" id="fPolice" placeholder="come da polizza">
+      </div>
+
+      <label for="fFlugnr">Numero di volo:</label>
+      <input type="text" id="fFlugnr" placeholder="es. AZ1234">
+
+      <label for="fFlugDatum">Data del volo:</label>
+      <input type="date" id="fFlugDatum">
+
+      <label for="fVon">Luogo di partenza:</label>
+      <input type="text" id="fVon" placeholder="es. Roma Fiumicino">
+
+      <label for="fNach">Destinazione:</label>
+      <input type="text" id="fNach" placeholder="es. Milano Linate">
+
+      <label for="fBag">Numero etichetta bagaglio (Bag Tag, 10 cifre):</label>
+      <input type="text" id="fBag" placeholder="es. 0220123456">
+
+      <label for="fPIR">Riferimento del Rapporto di Irregolarità Bagaglio (PIR, opzionale):</label>
+      <input type="text" id="fPIR" placeholder="es. FCOAZ12345">
+
+      <label for="fMelde">Data della denuncia in aeroporto (opzionale):</label>
+      <input type="date" id="fMelde">
+
+      <label for="fSchilderung">Breve descrizione con parole tue (opzionale):</label>
+      <textarea id="fSchilderung" rows="4" placeholder="es. La valigia è arrivata con la cucitura laterale strappata e lo scomparto delle ruote rotto. Diversi oggetti all'interno sono distrutti."></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>4. Documenti allegati</legend>
+      <p style="font-size: 0.9em; color: #666; margin-top: 0;">Spunta ciò che allegherai alla lettera. La lista d'inventario è sempre inclusa.</p>
+      <div class="checkbox-group" id="anlagenBoxen">
+        <label><input type="checkbox" checked data-text="Copia del Rapporto di Irregolarità Bagaglio (PIR) o denuncia smarrimento"> Rapporto di Irregolarità (PIR) / Denuncia smarrimento</label>
+        <label><input type="checkbox" checked data-text="Copia dell'etichetta bagaglio (Bag Tag) e della carta d'imbarco"> Etichetta bagaglio (Bag Tag) e carta d'imbarco</label>
+        <label><input type="checkbox" data-text="Scontrini o estratti conto per gli oggetti elencati"> Scontrini / Estratti conto</label>
+        <label><input type="checkbox" data-text="Foto del bagaglio danneggiato e dei danni interni"> Foto del bagaglio e dei danni</label>
+        <label><input type="checkbox" data-text="Scontrini per acquisti sostitutivi (acquisti di prima necessità)"> Scontrini per acquisti sostitutivi</label>
+        <label><input type="checkbox" data-text="Conferma di prenotazione o biglietto aereo"> Conferma di prenotazione / Biglietto aereo</label>
+        <label><input type="checkbox" data-text="Preventivo o ricevuta di riparazione"> Preventivo / Ricevuta di riparazione</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>5. I tuoi dati e coordinate bancarie</legend>
+      <label for="sName">Il tuo Nome e Cognome:</label>
+      <input type="text" id="sName" placeholder="es. Mario Rossi">
+      <label for="sStrasse">Indirizzo e numero civico:</label>
+      <input type="text" id="sStrasse" placeholder="es. Via Roma 1">
+      <label for="sPLZOrt">CAP e Città:</label>
+      <input type="text" id="sPLZOrt" placeholder="es. 00100 Roma">
+      <label for="bIBAN">IBAN per il rimborso:</label>
+      <input type="text" id="bIBAN" placeholder="IT...">
+    </fieldset>
+
+    <div class="submit-area">
+      <p class="submit-disclaimer">
+        Cliccando su "Genera inventario e lettera in PDF" confermi che i tuoi dati sono veritieri, che questo servizio automatico<br>non costituisce consulenza legale e che presenti la richiesta sotto la tua responsabilità.
+      </p>
+      <button type="submit" class="button-primary">Genera inventario e lettera in PDF</button>
+    </div>
+  </form>
+
+  <!-- Text-Output Box -->
+  <div id="textOutputArea" style="display: none; margin-top: 40px; background: #ffffff; padding: 35px; border: 1px solid #f5c6c6; border-top: 5px solid #aa3131; border-radius: 8px; box-shadow: 0 10px 30px rgba(137, 24, 24, 0.08); box-sizing: border-box;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-wrap: wrap; gap: 15px;">
+      <div style="flex: 1; min-width: 250px;">
+        <h3 style="margin: 0 0 5px 0; color: #aa3131; font-size: 1.4em;">Il tuo testo è pronto</h3>
+        <p style="margin: 0; font-size: 0.95em; color: #666; line-height: 1.4;">La compagnia aerea o l'assicurazione offre solo un modulo online? Copia la lettera e la lista d'inventario con un clic e incollale lì.</p>
+      </div>
+      <button type="button" id="copyToClipboardBtn" style="background: #aa3131; color: #ffffff; border: none; padding: 12px 24px; font-size: 1em; font-weight: bold; border-radius: 6px; cursor: pointer; transition: background 0.3s; box-shadow: 0 4px 10px rgba(137, 24, 24, 0.2); white-space: nowrap;">
+        Copia testo
+      </button>
+    </div>
+    <textarea id="plainTextResult" rows="16" style="width: 100%; padding: 20px; font-family: 'Courier New', Courier, monospace; font-size: 0.9em; line-height: 1.6; color: #333; background: #fdfdfd; border: 1px solid #e0e0e0; border-radius: 6px; resize: vertical; box-sizing: border-box;" readonly></textarea>
+  </div>
+
+  <!-- SEO Content -->
+  <div class="seo-content">
+    <h2>Bagaglio smarrito o danneggiato: Cosa ti spetta e come procedere</h2>
+    <p>Nei viaggi aerei, la compagnia aerea è responsabile ai sensi della <strong>Convenzione di Montreal</strong> per la distruzione, lo smarrimento, il danneggiamento e il ritardo dei bagagli registrati e, in linea di principio, senza che sia necessario dimostrare alcuna colpa (Articolo 17). Tuttavia, la responsabilità è limitata: il massimale è fissato a <strong>1.519 Diritti Speciali di Prelievo (DSP) per passeggero</strong>. A seconda del tasso di cambio, ciò equivale all'incirca a 1.800 - 1.950 euro. Tale importo si applica congiuntamente in caso di perdita, danneggiamento e ritardo.</p>
+
+    <div class="kk-table-wrap">
+      <table class="kk-table">
+        <thead>
+          <tr><th>Caso</th><th>Scadenza principale</th><th>Cosa dovresti fare</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Bagaglio danneggiato</td><td>Denuncia scritta al più tardi 7 giorni dal ricevimento (Art. 31 MÜ)</td><td>Fai redigere il PIR in aeroporto, scatta foto, poi invia reclamo scritto</td></tr>
+          <tr><td>Bagaglio in ritardo</td><td>Denuncia scritta entro 21 giorni dalla consegna effettiva</td><td>Segnala subito il ritardo, conserva scontrini per acquisti primari</td></tr>
+          <tr><td>Bagaglio smarrito</td><td>Si considera smarrito dopo 21 giorni senza consegna, dopodiché far valere i diritti</td><td>Segnala lo smarrimento, crea la lista inventario, conserva scontrini</td></tr>
+          <tr><td>Azione legale se respinto</td><td>Due anni dall'arrivo o arrivo previsto (Art. 35 MÜ)</td><td>In Italia puoi avvalerti prima della piattaforma ConciliaWeb (ART) o ENAC, vedi sotto</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Primi passi in aeroporto</h3>
+    <p>Prima di uscire dall'area ritiro bagagli, recati allo sportello della compagnia aerea o della società di handling aeroportuale e fai compilare un rapporto di danneggiamento o smarrimento (nel settore è chiamato "Property Irregularity Report", in breve PIR). Annota il numero di riferimento e conserva l'etichetta del bagaglio e la carta d'imbarco. In caso di bagaglio danneggiato, fotografa la valigia e il suo contenuto ancora sul nastro trasportatore; se la valigia è andata persa, conserva una foto del bagaglio, se disponibile.</p>
+
+    <h3>Valore attuale invece del prezzo a nuovo</h3>
+    <p>Di norma la compagnia aerea non rimborsa il prezzo a nuovo, ma il <strong>valore attuale</strong> degli oggetti al momento della perdita. Più un oggetto è vecchio e usato, più basso sarà il suo valore. Lo strumento calcola il valore attuale a partire dal prezzo a nuovo, dall'età e dalla svalutazione annuale. Le percentuali predefinite sono valori orientativi spesso utilizzati nella prassi, ma non costituiscono una tabella ufficiale. Puoi modificare ogni singolo valore.</p>
+
+    <div class="kk-table-wrap">
+      <table class="kk-table">
+        <thead>
+          <tr><th>Categoria</th><th>Svalutazione annuale preimpostata</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Abbigliamento e scarpe</td><td>25 %</td></tr>
+          <tr><td>Cura del corpo e cosmetici</td><td>50 %</td></tr>
+          <tr><td>Elettronica</td><td>25 %</td></tr>
+          <tr><td>Sport e tempo libero</td><td>15 %</td></tr>
+          <tr><td>Valigie e borse</td><td>15 %</td></tr>
+          <tr><td>Orologi, gioielli e accessori</td><td>10 %</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Raccogliere prove in assenza di scontrini</h3>
+    <p>La compagnia aerea richiederà delle prove. In assenza di scontrini, possono essere d'aiuto estratti conto bancari, resoconti della carta di credito, conferme di ordini online, certificati di garanzia, foto con gli oggetti o screenshot delle pagine dei prodotti. Prendi nota della marca e del modello nel modo più accurato possibile. Più i dettagli sono verificabili, maggiori sono le probabilità che vengano accettati.</p>
+
+    <h3>Oggetti di valore ed elettronica in valigia</h3>
+    <p>Molte condizioni generali di trasporto escludono la responsabilità per oggetti di valore, contanti, gioielli o apparecchiature elettroniche nel bagaglio registrato, o raccomandano di portarli nel bagaglio a mano. Resta dubbio se tali clausole siano valide in ogni singolo caso. Per il <strong>bagaglio a mano</strong>, la compagnia aerea è responsabile ai sensi della Convenzione solo in caso di colpa. Un'assicurazione bagaglio (o la polizza casa, se prevede estensioni) può colmare questa lacuna. Verifica eventuali esclusioni e limiti massimi per gli oggetti di valore.</p>
+
+    <h3>Bagaglio in ritardo: acquisti di prima necessità</h3>
+    <p>Se il tuo bagaglio arriva dopo giorni, hai diritto ad acquistare l'indispensabile, come ad esempio vestiti e articoli per l'igiene. Acquista in modo ragionevole, conserva tutti gli scontrini e segnala immediatamente il ritardo in aeroporto. Nello strumento puoi inserire questi acquisti tramite "Aggiungi acquisto di prima necessità con scontrino". Verranno calcolati in base all'importo della ricevuta.</p>
+
+    <h3>Assicurazione bagagli o compagnia aerea: quale via?</h3>
+    <p>Puoi rivolgerti alla compagnia aerea e all'assicurazione, ma non puoi essere rimborsato due volte per lo stesso danno. Spesso l'assicurazione richiede prima la prova di aver denunciato il danno alla compagnia aerea. Seleziona in alto il destinatario e la lettera si adatterà di conseguenza. Successivamente, comunica all'assicurazione l'importo rimborsato dalla compagnia aerea.</p>
+
+    <h3>Pacchetto turistico rispetto al volo singolo</h3>
+    <p>Se il volo fa parte di un pacchetto turistico (Pauschalreise), la mancanza del bagaglio può rappresentare un difetto del viaggio ai sensi del Codice del Turismo italiano. In tal caso, contatta anche il tuo tour operator, in quanto potrebbe spettarti una riduzione del prezzo. Trovi suggerimenti nella nostra <a href="../hotel-maengel-info.html">guida sui difetti del viaggio</a> e nella nostra guida generale sui <a href="../gepaeck-info.html">bagagli</a>.</p>
+
+    <h3>Se la compagnia aerea rifiuta o non risponde</h3>
+    <p>Richiedi una motivazione scritta. Successivamente in Italia, puoi rivolgerti all'<strong>ENAC</strong> (Ente Nazionale per l'Aviazione Civile) per segnalare violazioni, o utilizzare piattaforme ADR come <strong>ConciliaWeb</strong> (Autorità di Regolazione dei Trasporti) per la risoluzione extragiudiziale delle controversie. Trovi le nostre guide per presentare reclamo sotto <a href="../beschwerde-anleitungen-info.html">Consigli per l'invio e conciliazione</a>.</p>
+
+    <h3>Puoi usare l'inventario per queste compagnie aeree</h3>
+    <ul class="kk-chip-list">
+      <li>ITA Airways</li><li>Ryanair</li><li>easyJet</li><li>Wizz Air</li><li>Vueling</li><li>Lufthansa</li><li>Air France</li><li>KLM</li><li>Iberia</li><li>British Airways</li><li>Volotea</li><li>Neos</li><li>Eurowings</li><li>Turkish Airlines</li><li>Emirates</li><li>TAP Air Portugal</li><li>SWISS</li><li>Austrian Airlines</li><li>Pegasus</li><li>Transavia</li><li>SAS</li><li>Finnair</li><li>LOT</li>
+    </ul>
+
+    <h3>Per queste compagnie assicurative</h3>
+    <ul class="kk-chip-list">
+      <li>Allianz Global Assistance</li><li>Europ Assistance</li><li>Columbus Assicurazioni</li><li>AXA Assistance</li><li>Generali</li><li>UnipolSai</li><li>Ima Italia Assistance</li><li>Coverwise</li><li>Holins</li>
+    </ul>
+    <p style="font-size: 0.85em; color: #666;">Tra Fix my Trip e le società citate non vi è alcun collegamento. La menzione serve solo a scopo di orientamento.</p>
+
+    <div class="faq-section">
+      <h2>Domande Frequenti (FAQ) sui Danni al Bagaglio</h2>
+
+      <details>
+        <summary>Quanti soldi ricevo dalla compagnia aerea per il bagaglio smarrito?</summary>
+        <p>Per il bagaglio registrato, la compagnia aerea è responsabile ai sensi della Convenzione di Montreal indipendentemente dalla colpa, ma solo fino a un limite massimo di 1.519 Diritti Speciali di Prelievo (DSP) per passeggero. A seconda del tasso di cambio, corrispondono a circa 1.800 - 1.950 euro. Di norma viene rimborsato il valore attuale degli oggetti, non il prezzo a nuovo.</p>
+      </details>
+
+      <details>
+        <summary>Viene rimborsato il valore a nuovo o il valore attuale?</summary>
+        <p>Di solito il valore attuale, ovvero il valore dell'oggetto al momento dello smarrimento, tenendo conto dell'età e dell'usura. Per questo motivo, lo strumento calcola il valore attuale in base al prezzo a nuovo, all'età e a una svalutazione annua che puoi modificare.</p>
+      </details>
+
+      <details>
+        <summary>Quali scadenze devo rispettare in caso di danni al bagaglio?</summary>
+        <p>In caso di bagaglio danneggiato, devi denunciare il danno per iscritto entro 7 giorni dal ricevimento, in caso di bagaglio in ritardo entro 21 giorni dalla consegna. Se il bagaglio è considerato smarrito perché non è stato ritrovato dopo 21 giorni, puoi far valere i tuoi diritti. Eventuali azioni legali devono essere avviate entro due anni. Denuncia sempre ogni danno immediatamente anche in aeroporto.</p>
+      </details>
+
+      <details>
+        <summary>Cosa succede se non ho più gli scontrini d'acquisto?</summary>
+        <p>In alternativa, raccogli estratti conto bancari, conferme d'ordine online, certificati di garanzia, foto o screenshot dei modelli e delle marche. Più le tue informazioni sono tracciabili, più è probabile che la compagnia aerea le accetti. Un rimborso senza scontrini non è garantito.</p>
+      </details>
+
+      <details>
+        <summary>Posso essere rimborsato per oggetti di valore ed elettronica nel bagaglio da stiva?</summary>
+        <p>Molte condizioni di trasporto escludono la responsabilità per oggetti di valore, contanti o apparecchiature elettroniche nel bagaglio registrato, o raccomandano di portarli nel bagaglio a mano. La validità di tali esclusioni nei singoli casi è oggetto di dibattito. Un'assicurazione bagaglio può colmare questa lacuna, se le sue condizioni coprono gli oggetti di valore.</p>
+      </details>
+
+      <details>
+        <summary>Cosa si applica in caso di bagaglio in ritardo e acquisti di prima necessità?</summary>
+        <p>Puoi richiedere il rimborso per acquisti sostitutivi ragionevoli dovuti al ritardo nella consegna, purché tu conservi gli scontrini. Il limite massimo di responsabilità per i bagagli si applica congiuntamente a smarrimento, danneggiamento e ritardo. Acquista solo il necessario e segnala il ritardo immediatamente in aeroporto.</p>
+      </details>
+    </div>
+  </div>
+
+  <div class="airline-hinweisbox">
+    <h3>Avvertenze importanti prima dell'invio</h3>
+    <p>Invia solo copie dei tuoi scontrini e conserva gli originali. Assicurati che il tuo messaggio abbia una marcatura temporale (e-mail, modulo online con conferma o raccomandata A/R) e chiedi conferma di ricezione. Se la compagnia aerea o l'assicurazione offrono un proprio modulo, inserisci le posizioni della lista dell'inventario lì e allega in aggiunta la lista PDF.</p>
+  </div>
+
+  <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
+    <h3>Altri argomenti interessanti:</h3>
+    <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
+      <a href="../gepaeck-info.html">Smarrimento bagagli &amp; Danni alle valigie</a>
+      <a href="../flugverspaetung-info.html">Ritardo &amp; Cancellazione volo</a>
+      <a href="ersatzbefoerderung-fristsetzung.html">Trasporto alternativo (Treno, Taxi)</a>
+      <a href="kreditkarte-geld-zurueckholen.html">Recuperare pagamento (Carta, Addebito)</a>
+      <a href="../beschwerde-anleitungen-info.html">Consigli invio &amp; Conciliazione</a>
+    </div>
+  </div>
+
+  <aside class="legal-sources-box" aria-labelledby="sources-title-gepaeck">
+    <h3 id="sources-title-gepaeck" class="sources-heading">Basi legali e fonti di informazione</h3>
+    <p class="sources-intro">I contenuti di questa pagina si basano sulle seguenti fonti pubbliche. I limiti massimi di responsabilità vengono adeguati periodicamente, si prega di verificare lo stato attuale.</p>
+    <ul class="sources-list">
+      <li>
+        <strong>Convenzione di Montreal (MÜ), in particolare gli articoli 17, 19, 22, 31 e 35</strong>:
+        Regola la responsabilità, i limiti massimi, i termini di denuncia e il termine di decadenza di due anni in caso di danni ai bagagli. Il limite massimo per il bagaglio è di 1.519 DSP.
+        <br>
+        <a href="https://www.icao.int" target="_blank" rel="noopener noreferrer" class="source-link">Informazioni dell'Organizzazione Internazionale dell'Aviazione Civile (ICAO)</a>
+      </li>
+      <li>
+        <strong>Regolamento (CE) n. 889/2002 (Modifica del Regolamento (CE) n. 2027/97)</strong>:
+        Estende le regole della Convenzione di Montreal alle compagnie aeree dell'UE.
+        <br>
+        <a href="https://eur-lex.europa.eu/eli/reg/2002/889/oj" target="_blank" rel="noopener noreferrer" class="source-link">Testo su EUR-Lex</a>
+      </li>
+      <li>
+        <strong>Autorità di Regolazione dei Trasporti (ART) e ConciliaWeb</strong>:
+        Risoluzione extragiudiziale delle controversie con le compagnie aeree in Italia.
+        <br>
+        <a href="https://www.autorita-trasporti.it/" target="_blank" rel="noopener noreferrer" class="source-link">Informazioni dell'Autorità di Regolazione dei Trasporti</a>
+      </li>
+      <li>
+        <strong>ENAC - Ente Nazionale per l'Aviazione Civile</strong>:
+        Informazioni sui diritti dei passeggeri in Italia.
+        <br>
+        <a href="https://www.enac.gov.it" target="_blank" rel="noopener noreferrer" class="source-link">Informazioni dell'ENAC</a>
+      </li>
+    </ul>
+  </aside>
+</div>
+
+<div class="trust-section">
+  <h3>Su questo sito</h3>
+  <p class="trust-text">
+    Le nostre guide e i generatori si basano sull'analisi degli attuali regolamenti UE, convenzioni internazionali e diritto turistico nazionale (Codice del Turismo). Sono sviluppati da Marc (responsabile del progetto) &amp; il team, per offrire ai viaggiatori un aiuto strutturato nella risoluzione di problemi legati al viaggio.
+    <br><br>
+    <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+      Avviso importante: Questa pagina non fornisce consulenze legali o assicurative individuali. I valori attuali sono stime; le compagnie aeree e le assicurazioni prendono decisioni in modo vincolante.
+    </span>
+  </p>
+
+  <a href="../ueber-uns.html" class="trust-link">Scopri di più sulla metodologia e redazione &rarr;</a>
+
+  <div class="lotse-card">
+    <p>
+      <strong>Problemi con volo, treno o hotel?</strong><br>
+      Fix-My-Trip verifica in pochi passi il tuo diritto a risarcimenti, rimborsi del biglietto o riduzioni del prezzo del viaggio. <br>
+      <em>Un servizio di Fix my Trip.</em>
+    </p>
+  </div>
+
+  <p class="feedback-note">
+    <strong>Hai trovato un errore nello strumento?</strong> Poiché siamo un portale automatizzato e non forniamo consulenze personalizzate, ci aiuti moltissimo se ci segnali bug o informazioni obsolete:
+    <a href="mailto:support@fix-my-trip.com" style="color: #777; text-decoration: underline;">Invia un feedback alla nostra centrale</a>.
+  </p>
+</div>
+
+<section class="site-niche-directory">
+  <div class="niche-directory-container">
+    <h2 class="niche-directory-title">Scopri altre aree tematiche</h2>
+    <p class="niche-directory-intro">
+      Che si tratti di un ritardo del volo, di un difetto in hotel o di danni al bagaglio, qui troverai la guida adeguata e la lettera modello giusta per quasi tutte le situazioni di viaggio.
+    </p>
+
+    <div class="niche-directory-grid">
+      <div class="niche-directory-group">
+        <h3>Volo &amp; Aeroporto</h3>
+        <ul>
+          <li><a href="../flugverspaetung-info.html">Ritardo &amp; Cancellazione volo</a></li>
+          <li><a href="ersatzbefoerderung-fristsetzung.html">Trasporto alternativo (Treno, Taxi)</a></li>
+          <li><a href="gepaeck-inventarliste-schadenersatz.html">Inventario bagagli &amp; Valore attuale</a></li>
+          <li><a href="../steuern-info.html">Richiedere rimborso tasse aeroportuali</a></li>
+          <li><a href="../gepaeck-info.html">Smarrimento bagagli &amp; Danni alle valigie</a></li>
+          <li><a href="../flughafen-parken-info.html">Tariffe parcheggio aeroporto</a></li>
+          <li><a href="../ota-rueckerstattung-info.html">Portali di prenotazione voli (OTA)</a></li>
+        </ul>
+      </div>
+
+      <div class="niche-directory-group">
+        <h3>Alloggi &amp; Pacchetti Vacanze</h3>
+        <ul>
+          <li><a href="../hotel-maengel-info.html">Difetti in hotel &amp; Rumore da cantiere</a></li>
+          <li><a href="../storno-info.html">Annullare un viaggio (Costi)</a></li>
+          <li><a href="../ferienhaus-maengel-info.html">Case vacanze &amp; Appartamenti</a></li>
+          <li><a href="../airbnb-probleme-info.html">Soluzioni problemi Airbnb</a></li>
+          <li><a href="../kreuzfahrt-minderung.html">Difetti durante crociere</a></li>
+        </ul>
+      </div>
+
+      <div class="niche-directory-group">
+        <h3>Preparazione Viaggio &amp; Mobilità</h3>
+        <ul>
+          <li><a href="../zugverspaetung-info.html">Ritardo treni &amp; Diritti ferroviari</a></li>
+          <li><a href="kreditkarte-geld-zurueckholen.html">Recuperare pagamento (Carta, Addebito)</a></li>
+          <li><a href="auslandskrankenschein-kostenerstattung.html">Rimborso cure mediche all'estero</a></li>
+          <li><a href="../esim-roaming-info.html">Costi eSIM &amp; Roaming</a></li>
+          <li><a href="../mietwagen-info.html">Assicurazioni auto a noleggio</a></li>
+          <li><a href="../zoll-info.html">Dogana &amp; Regole di importazione</a></li>
+          <li><a href="../reisekreditkarten-info.html">Confronto carte di credito per viaggiare</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 Fix-my-Trip.com</p>
+  <nav>
+    <a href="../ueber-uns.html">Chi siamo</a> |
+    <a href="../index.html">Home</a> |
+    <a href="../impressum.html">Note legali</a> |
+    <a href="../datenschutz.html">Privacy Policy</a>
+  </nav>
+</footer>
+
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Chiudi">&times;</button>
+    <h2>I tuoi documenti sono pronti</h2>
+    <p class="sub">Il PDF è stato creato sul tuo dispositivo.<br>I tuoi dati non sono stati inviati a noi.</p>
+    <div class="donate-hint">
+      Questo servizio è e resterà <strong>gratuito al 100%</strong>. Se ti è stato utile, saremo felici di ricevere un piccolo supporto volontario, così Fix my Trip potrà rimanere gratuito anche per altri viaggiatori.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Selezione rapida:</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Inserisci importo libero ..." oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Dona 5 € ora</button>
+    <button class="btn-skip" onclick="closeOverlay()">No grazie, chiudo la finestra</button>
+    <p class="paypal-note">Volontario &amp; sicuro via PayPal</p>
+    <div style="margin-top: 22px; padding-top: 14px; border-top: 1px solid #eee; text-align: left;">
+      <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">Annuncio / Link pubblicitario</span>
+      <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;"><strong style="color:#333;">P.S.: Tornerai presto a volare?</strong> Alcune carte di credito includono un'assicurazione bagaglio, per proteggerti dai prossimi disagi con le valigie.<br>
+        <a href="#" target="_blank" rel="noopener nofollow sponsored" style="color: #891818; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Confronta carte di credito per viaggi</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+const pad = n => String(n).padStart(2, '0');
+function fmtMoney(n) { return n.toFixed(2).replace('.', ','); }
+function fmtDate(d) { return d.toLocaleDateString('it-IT', {day: '2-digit', month: '2-digit', year: 'numeric'}); }
+function fmtIso(s) { return fmtDate(new Date(s + 'T00:00:00')); }
+function daysSince(dateStr) {
+  const d = new Date(dateStr + 'T00:00:00');
+  const t = new Date(); t.setHours(0, 0, 0, 0);
+  return Math.round((t - d) / 86400000);
+}
+
+/* ---------- Vorlagen für Gegenstände ---------- */
+const PRESETS = [
+  { cat: 'Abbigliamento', rate: 25, list: [['Maglietta / T-Shirt', 20], ['Camicia / Camicetta', 40], ['Maglione', 50], ['Pantaloni / Jeans', 70], ['Abito / Gonna', 60], ['Giacca', 120], ['Intimo (pezzo)', 15], ['Calzini (paio)', 8], ['Costume da bagno', 40], ['Pigiama', 40], ['Abbigliamento sportivo', 45], ['Cappello / Sciarpa', 25]] },
+  { cat: 'Scarpe', rate: 25, list: [['Scarpe (paio)', 90], ['Sandali / Infradito', 35], ['Scarpe sportive', 100]] },
+  { cat: 'Cura del corpo e cosmetici', rate: 50, list: [['Cosmetici / Prodotti (Set)', 60], ['Profumo', 70]] },
+  { cat: 'Elettronica', rate: 25, list: [['Computer portatile / Laptop', 900], ['Tablet', 450], ['Fotocamera', 600], ['Cuffie', 150], ['E-Reader', 120], ['Powerbank', 30], ['Caricabatterie / Cavi (Set)', 40], ['Rasoio elettrico / Asciugacapelli', 70]] },
+  { cat: 'Orologi, gioielli e accessori', rate: 10, list: [['Orologio da polso', 300], ['Gioielli', 200], ['Occhiali da sole', 120], ['Borsa / Zaino', 120], ['Portafoglio', 50]] },
+  { cat: 'Sport e tempo libero', rate: 15, list: [['Telo mare', 25], ['Libro', 15], ['Tappetino Yoga', 30], ['Casco da bici', 70], ['Attrezzatura da sub (Set)', 500], ['Giocattolo (Bambino)', 25]] },
+  { cat: 'Bagaglio', rate: 15, list: [['Valigia / Borsa da viaggio', 150]] }
+];
+
+let items = [];
+let nextId = 1;
+
+/* Preset-Chips aufbauen */
+(function buildPresets() {
+  const area = $('presetArea');
+  PRESETS.forEach(group => {
+    const h = document.createElement('div');
+    h.className = 'inv-cat';
+    h.textContent = group.cat;
+    area.appendChild(h);
+    const wrap = document.createElement('div');
+    wrap.className = 'inv-chips';
+    group.list.forEach(([name, price]) => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'inv-chip';
+      b.textContent = name;
+      b.addEventListener('click', () => addItem(name, price, group.rate, false));
+      wrap.appendChild(b);
+    });
+    area.appendChild(wrap);
+  });
+})();
+
+function zeitwert(it) {
+  const qty = Math.max(0, it.qty || 0);
+  const price = Math.max(0, it.price || 0);
+  if (it.notkauf) return Math.round(price * qty * 100) / 100;
+  const factor = Math.max(0.10, 1 - ((it.rate || 0) / 100) * Math.max(0, it.age || 0));
+  return Math.round(price * qty * factor * 100) / 100;
+}
+function neuwert(it) { return Math.round(Math.max(0, it.price || 0) * Math.max(0, it.qty || 0) * 100) / 100; }
+
+function addItem(name, price, rate, notkauf) {
+  items.push({ id: nextId++, name: name, qty: 1, price: price, age: 2, rate: rate, notkauf: notkauf });
+  renderItems();
+}
+$('addCustom').addEventListener('click', () => addItem('', 0, 20, false));
+$('addNotkauf').addEventListener('click', () => addItem('', 0, 0, true));
+
+function renderItems() {
+  const list = $('invList');
+  list.innerHTML = '';
+  items.forEach(it => {
+    const row = document.createElement('div');
+    row.className = 'inv-row' + (it.notkauf ? ' is-notkauf' : '');
+    row.innerHTML =
+      '<div class="inv-name"><label>' + (it.notkauf ? 'Acquisto prima necessità (Descrizione)' : 'Oggetto') + '</label><input type="text" data-f="name" placeholder="Descrizione"></div>' +
+      '<div><label>Quantità</label><input type="number" min="1" step="1" data-f="qty"></div>' +
+      '<div><label>' + (it.notkauf ? 'Importo scontrino (EUR)' : 'Prezzo a nuovo cad. (EUR)') + '</label><input type="number" min="0" step="0.01" data-f="price"></div>' +
+      '<div class="inv-hide-nk"><label>Età (Anni)</label><input type="number" min="0" step="0.5" data-f="age"></div>' +
+      '<div class="inv-hide-nk"><label>Svalutazione %/Anno</label><input type="number" min="0" max="100" step="1" data-f="rate"></div>' +
+      '<div class="inv-end"><div><label>Valore attuale</label><div class="inv-val" data-f="val"></div></div><button type="button" class="inv-del" aria-label="Rimuovi posizione" title="Rimuovi">&times;</button></div>';
+    row.querySelectorAll('input[data-f]').forEach(inp => {
+      const f = inp.getAttribute('data-f');
+      inp.value = it[f] === 0 && f !== 'qty' && f !== 'price' ? 0 : it[f];
+      if (f === 'name') inp.value = it.name;
+      inp.addEventListener('input', () => {
+        it[f] = (f === 'name') ? inp.value : parseFloat(inp.value);
+        if (f !== 'name' && isNaN(it[f])) it[f] = 0;
+        row.querySelector('[data-f="val"]').textContent = fmtMoney(zeitwert(it)) + ' €';
+        updateTotals();
+      });
+    });
+    row.querySelector('[data-f="val"]').textContent = fmtMoney(zeitwert(it)) + ' €';
+    row.querySelector('.inv-del').addEventListener('click', () => { items = items.filter(x => x.id !== it.id); renderItems(); });
+    list.appendChild(row);
+  });
+  $('invEmpty').classList.toggle('kk-hidden', items.length > 0);
+  updateTotals();
+}
+
+function totals() {
+  let z = 0, n = 0;
+  items.forEach(it => { z += zeitwert(it); n += neuwert(it); });
+  return { zeit: Math.round(z * 100) / 100, neu: Math.round(n * 100) / 100 };
+}
+
+function updateTotals() {
+  const t = totals();
+  $('liveAmount').textContent = t.zeit.toLocaleString('it-IT', { style: 'currency', currency: 'EUR' });
+  $('liveSub').textContent = items.length + ' Posizioni, Valore a nuovo ' + t.neu.toLocaleString('it-IT', { style: 'currency', currency: 'EUR' });
+  $('limitText').textContent = (t.zeit > 1800 && $('fEmpf').value === 'airline')
+    ? 'Il tuo elenco potrebbe superare il limite massimo di responsabilità della compagnia aerea (1.519 DSP, attualmente circa 1.800 - 1.950 euro a seconda del cambio). Di norma la compagnia aerea non rimborsa importi superiori. Un\'assicurazione bagaglio può essere d\'aiuto.'
+    : 'Limite massimo di responsabilità della compagnia aerea per i bagagli: 1.519 DSP per passeggero, attualmente circa 1.800 - 1.950 euro a seconda del cambio.';
+}
+
+/* ---------- Fristen-Check und UI ---------- */
+function updateFrist() {
+  const art = $('fSchaden').value;
+  const d = $('fAnkunft').value;
+  const titles = {
+    beschaedigt: 'Termine di denuncia per danni: 7 giorni dal ricevimento',
+    verspaetet: 'Termine di denuncia per ritardo: 21 giorni dalla consegna',
+    verloren: 'Il bagaglio è considerato smarrito dopo 21 giorni senza consegna'
+  };
+  $('fristTitle').textContent = titles[art];
+  if (!d) { $('fristText').textContent = 'Inserisci la data e ti mostreremo quanti giorni ti restano.'; return; }
+  const days = daysSince(d);
+  if (days < 0) { $('fristText').textContent = 'La data è nel futuro. Verifica l\'inserimento.'; return; }
+  let s = 'Dalla data selezionata sono trascorsi ' + days + ' giorni. ';
+  if (art === 'beschaedigt') {
+    s += days <= 7 ? 'Hai ancora ' + (7 - days) + ' giorni per presentare denuncia scritta. Inviala il prima possibile.' : 'Il termine di 7 giorni è scaduto. Denuncia comunque il danno per iscritto tempestivamente, tuttavia i tuoi diritti potrebbero essere a rischio. Se hai già effettuato la denuncia in aeroporto, segnalalo nella lettera.';
+  } else if (art === 'verspaetet') {
+    s += days <= 21 ? 'Hai ancora ' + (21 - days) + ' giorni per la denuncia scritta. Raccogli gli scontrini per gli acquisti di prima necessità.' : 'Il termine di 21 giorni è scaduto. Denuncia comunque il ritardo per iscritto immediatamente.';
+  } else {
+    s += days >= 21 ? 'Il bagaglio è considerato smarrito, puoi far valere i tuoi diritti ora. Il termine di decadenza per le azioni legali è di due anni.' : 'Fino al 21° giorno il bagaglio potrebbe ancora essere ritrovato (restano ' + (21 - days) + ' giorni). Registra comunque il contenuto fin da ora e raccogli gli scontrini per acquisti sostitutivi.';
+  }
+  $('fristText').textContent = s;
+}
+
+function updateUI() {
+  const vers = $('fEmpf').value === 'versicherung';
+  $('versGroup').classList.toggle('kk-hidden', !vers);
+  $('aNameLabel').textContent = vers ? 'Compagnia di assicurazione bagaglio:' : 'Compagnia aerea:';
+  $('aName').setAttribute('list', vers ? 'versListe' : 'empfListe');
+  $('fAnkunftLabel').textContent = $('fSchaden').value === 'beschaedigt'
+    ? 'Data di consegna del bagaglio:'
+    : ($('fSchaden').value === 'verspaetet' ? 'Data in cui hai riavuto il bagaglio:' : 'Data del tuo arrivo (consegna bagagli prevista):');
+  updateFrist();
+  updateTotals();
+}
+['fEmpf', 'fSchaden', 'fAnkunft'].forEach(id => { $(id).addEventListener('change', updateUI); $(id).addEventListener('input', updateUI); });
+updateUI();
+
+/* ---------- Schreiben und PDF ---------- */
+const SCHADEN_LABEL = { verloren: 'Smarrimento', beschaedigt: 'Danneggiamento', verspaetet: 'Ritardo con acquisti di prima necessità' };
+
+function validate(list) {
+  const missing = list.filter(([id]) => !$(id).value.trim()).map(([, label]) => label);
+  if (missing.length) { alert('Si prega di completare: ' + missing.join(', ') + '.'); return false; }
+  return true;
+}
+
+document.getElementById('gepaeckForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  const req = [['aName', 'Destinatario'], ['fFlugnr', 'Numero di volo'], ['fFlugDatum', 'Data del volo'], ['fVon', 'Luogo di partenza'], ['fNach', 'Destinazione'], ['fBag', 'Numero etichetta bagaglio'], ['sName', 'Il tuo nome'], ['sStrasse', 'Indirizzo'], ['sPLZOrt', 'CAP e Città'], ['bIBAN', 'IBAN']];
+  if (!validate(req)) return;
+  if (items.length === 0) { alert('Si prega di aggiungere almeno un oggetto alla lista.'); return; }
+  const bad = items.filter(it => !it.name.trim() || !(it.price > 0) || !(it.qty > 0));
+  if (bad.length) { alert('Si prega di completare tutte le posizioni (Descrizione, Quantità e Prezzo devono essere compilati) oppure rimuovere le righe vuote.'); return; }
+
+  const art = $('fSchaden').value;
+  const empfTyp = $('fEmpf').value;
+  const empf = $('aName').value.trim();
+  const empfAdr = $('aAdresse').value.trim();
+  const police = $('fPolice').value.trim();
+  const flugnr = $('fFlugnr').value.trim();
+  const flugDatum = fmtIso($('fFlugDatum').value);
+  const von = $('fVon').value.trim();
+  const nach = $('fNach').value.trim();
+  const bag = $('fBag').value.trim();
+  const pir = $('fPIR').value.trim();
+  const melde = $('fMelde').value ? fmtIso($('fMelde').value) : '';
+  const ankunft = $('fAnkunft').value ? fmtIso($('fAnkunft').value) : '';
+  const schilderung = $('fSchilderung').value.trim();
+  const sName = $('sName').value.trim();
+  const sStrasse = $('sStrasse').value.trim();
+  const sPLZOrt = $('sPLZOrt').value.trim();
+  const iban = $('bIBAN').value.trim();
+  const t = totals();
+  const zeitStr = fmtMoney(t.zeit) + ' EUR';
+  const neuStr = fmtMoney(t.neu) + ' EUR';
+
+  const todayStr = fmtDate(new Date());
+  const dl14 = new Date(); dl14.setDate(dl14.getDate() + 14);
+  const dlStr = fmtDate(dl14);
+
+  const anlagenZeilen = ['Distinta inventario con valori attuali (Allegato 1)'];
+  document.querySelectorAll('#anlagenBoxen input[type="checkbox"]').forEach(cb => { if (cb.checked) anlagenZeilen.push(cb.getAttribute('data-text')); });
+  const anlagenNum = anlagenZeilen.map((a, i) => (i + 1) + '. ' + a);
+
+  let betreff, facts = [], paras = [];
+  const artText = { verloren: 'smarrito', beschaedigt: 'danneggiato', verspaetet: 'consegnato in ritardo' }[art];
+
+  facts.push(['Volo:', flugnr + ', ' + von + ' - ' + nach]);
+  facts.push(['Data volo:', flugDatum]);
+  facts.push(['N. Etichetta bagaglio:', bag]);
+  if (pir) facts.push(['Rapporto Irregolarità (PIR):', pir]);
+  facts.push(['Tipo di danno:', SCHADEN_LABEL[art]]);
+  if (empfTyp === 'versicherung' && police) facts.push(['Numero di polizza:', police]);
+  facts.push(['Valore attuale totale:', zeitStr]);
+
+  const sachverhalt = {
+    verloren: 'il mio bagaglio registrato (etichetta n. ' + bag + ') non mi è stato consegnato in occasione del volo sopra indicato' + (ankunft ? ' (arrivo previsto: ' + ankunft + ')' : '') + '. ' + (melde ? 'Ho denunciato lo smarrimento il ' + melde + ' in aeroporto' + (pir ? ' (Riferimento: ' + pir + ')' : '') + '. ' : '') + 'Ad oggi, il bagaglio non mi è stato ancora consegnato.',
+    beschaedigt: 'il mio bagaglio registrato (etichetta n. ' + bag + ') è arrivato danneggiato in occasione del volo sopra indicato' + (ankunft ? ' (consegna bagagli il ' + ankunft + ')' : '') + '. ' + (melde ? 'Ho denunciato il danno il ' + melde + ' in aeroporto' + (pir ? ' (Riferimento: ' + pir + ')' : '') + '. ' : '') + 'Con la presente formalizzo espressamente per iscritto la denuncia del danno.',
+    verspaetet: 'il mio bagaglio registrato (etichetta n. ' + bag + ') è stato consegnato in ritardo in occasione del volo sopra indicato' + (ankunft ? ' (riottenuto il ' + ankunft + ')' : '') + '. ' + (melde ? 'Ho segnalato il ritardo il ' + melde + ' in aeroporto' + (pir ? ' (Riferimento: ' + pir + ')' : '') + '. ' : '') + 'Con la presente formalizzo espressamente per iscritto la denuncia del danno. Durante il ritardo, ho dovuto acquistare oggetti di prima necessità.'
+  }[art];
+
+  if (empfTyp === 'airline') {
+    betreff = 'Richiesta di risarcimento per bagaglio ' + artText + ' - Volo ' + flugnr + ' del ' + flugDatum;
+    paras.push(sachverhalt);
+    if (schilderung) paras.push('Descrizione aggiuntiva: ' + schilderung);
+    paras.push('Siete responsabili in merito ai sensi della Convenzione di Montreal (Art. 17 par. 2, in caso di ritardo Art. 19 MÜ). Gli oggetti interessati sono dettagliati nell\'elenco allegato (Allegato 1). Il valore attuale totale è di ' + zeitStr + ' (Valore a nuovo: ' + neuStr + '). Le stime si basano su prezzo d\'acquisto, età e deprezzamento ordinario.');
+    paras.push('Vi invito pertanto a risarcirmi la somma di ' + zeitStr + ', nei limiti massimi di responsabilità previsti dall\'Art. 22 comma 2 MÜ, effettuando il bonifico entro e non oltre il ' + dlStr + ' sulle seguenti coordinate bancarie:\nIntestatario: ' + sName + '\nIBAN: ' + iban);
+  } else {
+    betreff = 'Richiesta di indennizzo assicurazione bagaglio - ' + SCHADEN_LABEL[art] + ' - Volo ' + flugnr + ' del ' + flugDatum;
+    paras.push(sachverhalt);
+    if (schilderung) paras.push('Descrizione aggiuntiva: ' + schilderung);
+    paras.push('Gli oggetti interessati sono elencati nell\'inventario allegato (Allegato 1). Il valore attuale totale ammonta a ' + zeitStr + ' (Valore a nuovo: ' + neuStr + '). Chiedo la valutazione e la liquidazione del sinistro conformemente alle condizioni di polizza e il bonifico entro il ' + dlStr + ' sul seguente conto:\nIntestatario: ' + sName + '\nIBAN: ' + iban);
+    paras.push('Fino ad ora non è stato erogato alcun risarcimento dalla compagnia aerea per gli stessi oggetti. Vi informerò in caso di un eventuale rimborso da parte loro.');
+  }
+  const abschluss = 'Dichiaro che le informazioni fornite sono veritiere e che gli oggetti elencati si trovavano nel bagaglio. Vi prego di confermare la ricezione della presente comunicazione e di farmi sapere se sono necessari ulteriori documenti.';
+
+  /* Inventar-Klartext */
+  const invText = items.map((it, i) => {
+    const nm = (it.name.trim() + (it.notkauf ? ' (Acquisto prima necessità)' : '')).slice(0, 34).padEnd(34);
+    const detail = it.notkauf ? ('Scontrino: ' + fmtMoney(it.price)) : (it.qty + 'x ' + fmtMoney(it.price) + ', ' + it.age + ' Anni');
+    return String(i + 1).padStart(2, ' ') + '. ' + nm + ' ' + detail.padEnd(22) + ' ' + fmtMoney(zeitwert(it)) + ' EUR';
+  }).join('\n');
+
+  let plain = sName + '\n' + sStrasse + '\n' + sPLZOrt + '\n\n' + empf + (empfAdr ? '\n' + empfAdr : '') + '\n\nData: ' + todayStr + '\n\n' +
+    'Oggetto: ' + betreff + '\n' + facts.map(f => f[0] + ' ' + f[1]).join('\n') + '\n\nGentili Signore e Signori / Spettabile Assistenza Clienti,\n\n' + paras.join('\n\n') +
+    '\n\nAllegati:\n' + anlagenNum.join('\n') + '\n\n' + abschluss + '\n\nCordiali saluti,\n' + sName +
+    '\n\n----------------------------------------\nALLEGATO 1: LISTA INVENTARIO\n----------------------------------------\n' + invText +
+    '\n----------------------------------------\nValore a nuovo totale: ' + neuStr + '\nValore attuale totale: ' + zeitStr +
+    '\n\nCalcolo: Valore attuale = Prezzo a nuovo x Quantità x (1 - Svalutazione annua x Età), minimo 10 % del prezzo a nuovo. Acquisti sostitutivi per l\'importo scontrino.';
+
+  /* PDF */
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF();
+  const pageH = 297, marginBottom = 20, lineH = 6;
+  function ensure(y, needed) { if (y + (needed || lineH) > pageH - marginBottom) { doc.addPage(); return 30; } return y; }
+  function write(text, y, x, width) {
+    const lines = doc.splitTextToSize(text, width || 160);
+    lines.forEach(l => { y = ensure(y); doc.text(l, x || 25, y); y += lineH; });
+    return y;
+  }
+
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(8);
+  doc.setTextColor(100, 100, 100);
+  doc.text(sName + ' - ' + sStrasse + ' - ' + sPLZOrt, 25, 45);
+  doc.setLineWidth(0.2);
+  doc.setDrawColor(150, 150, 150);
+  doc.line(25, 46.5, 95, 46.5);
+
+  doc.setFontSize(11);
+  doc.setTextColor(0, 0, 0);
+  doc.text(doc.splitTextToSize(empf + (empfAdr ? '\n' + empfAdr : ''), 80), 25, 53);
+
+  doc.setFontSize(10);
+  doc.text('Mittente:', 130, 45);
+  doc.setFont('helvetica', 'bold');
+  doc.text(sName, 130, 50);
+  doc.setFont('helvetica', 'normal');
+  doc.text(sStrasse, 130, 55);
+  doc.text(sPLZOrt, 130, 60);
+  doc.text('Data: ' + todayStr, 185, 80, { align: 'right' });
+
+  doc.setFontSize(12);
+  doc.setFont('helvetica', 'bold');
+  const betreffLines = doc.splitTextToSize(betreff, 160);
+  doc.text(betreffLines, 25, 95);
+
+  doc.setFontSize(10.5);
+  let fy = 95 + betreffLines.length * 6 + 4;
+  facts.forEach(f => {
+    doc.setFont('helvetica', 'bold');
+    doc.text(f[0], 25, fy);
+    doc.setFont('helvetica', 'normal');
+    doc.text(doc.splitTextToSize(f[1], 100), 80, fy);
+    fy += 5.5;
+  });
+  doc.setDrawColor(0, 0, 0);
+  doc.line(25, fy, 185, fy);
+
+  let y = fy + 12;
+  doc.setFontSize(11);
+  y = write('Gentili Signore e Signori / Spett.le Assicurazione,', y); y += 3;
+  paras.forEach(p => { y = write(p, y); y += 3; });
+
+  doc.setFont('helvetica', 'bold');
+  y = ensure(y); doc.text('Allegati:', 25, y); y += lineH;
+  doc.setFont('helvetica', 'normal');
+  anlagenNum.forEach(a => { y = write(a, y, 30, 150); });
+  y += 3;
+  y = write(abschluss, y); y += 10;
+
+  y = ensure(y, 40);
+  doc.text('Cordiali saluti', 25, y);
+  y += 25;
+  doc.setLineWidth(0.5);
+  doc.line(25, y, 80, y);
+  doc.line(100, y, 185, y);
+  doc.setFontSize(9);
+  doc.setTextColor(100, 100, 100);
+  doc.text('Luogo, Data', 25, y + 5);
+  doc.text('Firma (' + sName + ')', 100, y + 5);
+
+  /* Anlage 1: Inventarliste */
+  doc.addPage();
+  doc.setTextColor(0, 0, 0);
+  y = 30;
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(13);
+  doc.text('Allegato 1: Lista Inventario', 25, y); y += 7;
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(9);
+  doc.text(sName + ' | Etichetta Bagaglio ' + bag + ' | Volo ' + flugnr + ' del ' + flugDatum, 25, y); y += 8;
+
+  function tableHeader() {
+    doc.setFont('helvetica', 'bold');
+    doc.setFontSize(9.5);
+    doc.text('N.', 25, y);
+    doc.text('Oggetto', 33, y);
+    doc.text('Qtà', 112, y, { align: 'right' });
+    doc.text('Prezzo/Pz.', 135, y, { align: 'right' });
+    doc.text('Età', 153, y, { align: 'right' });
+    doc.text('Val. Attuale', 185, y, { align: 'right' });
+    y += 2;
+    doc.setLineWidth(0.3);
+    doc.line(25, y, 185, y);
+    y += 5;
+    doc.setFont('helvetica', 'normal');
+  }
+  tableHeader();
+  items.forEach((it, i) => {
+    const nameLines = doc.splitTextToSize(it.name.trim() + (it.notkauf ? ' (Acquisto necess., Scontrino)' : ''), 72);
+    const h = nameLines.length * 5 + 2;
+    if (y + h > pageH - marginBottom) { doc.addPage(); y = 30; tableHeader(); }
+    doc.setFontSize(9.5);
+    doc.text(String(i + 1), 25, y);
+    doc.text(nameLines, 33, y);
+    doc.text(String(it.qty), 112, y, { align: 'right' });
+    doc.text(fmtMoney(it.price), 135, y, { align: 'right' });
+    doc.text(it.notkauf ? '-' : (it.age + ' Anni'), 153, y, { align: 'right' });
+    doc.text(fmtMoney(zeitwert(it)), 185, y, { align: 'right' });
+    y += h;
+  });
+  y += 2;
+  if (y + 24 > pageH - marginBottom) { doc.addPage(); y = 30; }
+  doc.setLineWidth(0.3);
+  doc.line(25, y, 185, y); y += 6;
+  doc.setFont('helvetica', 'normal');
+  doc.text('Valore a nuovo tot.:', 135, y, { align: 'right' });
+  doc.text(neuStr, 185, y, { align: 'right' }); y += 6;
+  doc.setFont('helvetica', 'bold');
+  doc.text('Valore attuale tot.:', 135, y, { align: 'right' });
+  doc.text(zeitStr, 185, y, { align: 'right' }); y += 10;
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(8.5);
+  doc.setTextColor(100, 100, 100);
+  const note = doc.splitTextToSize('Calcolo: Valore attuale = Prezzo a nuovo x Quantità x (1 - Svalutazione annua x Età), minimo 10 % del prezzo a nuovo. Gli acquisti di prima necessità vengono inseriti per l\'importo scontrino. Le stime di valore si basano sulla valutazione del mittente.', 160);
+  doc.text(note, 25, y);
+
+  const out = $('textOutputArea');
+  out.style.display = 'block';
+  $('plainTextResult').value = plain;
+  out.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+  doc.save('Inventario_Bagagli_' + empf.replace(/[^a-zA-Z0-9]/g, '_') + '_' + bag.replace(/[^a-zA-Z0-9]/g, '') + '.pdf');
+  setTimeout(() => $('donateOverlay').classList.add('active'), 800);
+});
+
+/* ---------- Spenden-Overlay ---------- */
+const PAYPAL_EMAIL = 'info@kassen-lotse.de';
+let donateAmount = 5;
+
+function selectPreset(amount, btn) {
+  donateAmount = amount;
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  $('customAmount').value = '';
+  $('customAmount').classList.remove('selected-custom');
+  updateDonateButton();
+}
+function handleCustomInput(input) {
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  const val = parseFloat(input.value);
+  if (val && val >= 1) { donateAmount = val; input.classList.add('selected-custom'); }
+  else { donateAmount = 0; input.classList.remove('selected-custom'); }
+  updateDonateButton();
+}
+function updateDonateButton() {
+  const btn = $('btnDonate');
+  if (donateAmount >= 1) {
+    btn.textContent = 'Dona ora ' + (donateAmount % 1 === 0 ? donateAmount : donateAmount.toFixed(2)) + ' €';
+    btn.disabled = false;
+  } else {
+    btn.textContent = 'Inserisci importo';
+    btn.disabled = true;
+  }
+}
+function openPayPal() {
+  if (donateAmount < 1) return;
+  const url = 'https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=' + encodeURIComponent(PAYPAL_EMAIL) + '&amount=' + donateAmount.toFixed(2) + '&currency_code=EUR&item_name=Supporto+Fix+my+Trip&no_note=1&no_shipping=1';
+  window.open(url, '_blank');
+  closeOverlay();
+}
+function closeOverlay() { $('donateOverlay').classList.remove('active'); }
+$('donateOverlay').addEventListener('click', function(e) { if (e.target === this) closeOverlay(); });
+
+/* ---------- Kopier-Button ---------- */
+function legacyCopy(textArea) {
+  return new Promise((resolve, reject) => {
+    const ta = document.createElement('textarea');
+    ta.value = textArea.value;
+    ta.setAttribute('contenteditable', 'true');
+    ta.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;font-size:16px;-webkit-user-select:text;user-select:text;';
+    document.body.appendChild(ta);
+    ta.focus(); ta.select(); ta.setSelectionRange(0, ta.value.length);
+    let ok = false;
+    try { ok = document.execCommand('copy'); } catch (err) {}
+    document.body.removeChild(ta);
+    ok ? resolve() : reject();
+  });
+}
+function copyText(textArea) {
+  return new Promise((resolve, reject) => {
+    legacyCopy(textArea).then(resolve).catch(() => {
+      if (navigator.clipboard && window.isSecureContext) {
+        const timer = setTimeout(reject, 1500);
+        navigator.clipboard.writeText(textArea.value)
+          .then(() => { clearTimeout(timer); resolve(); })
+          .catch(() => { clearTimeout(timer); reject(); });
+      } else { reject(); }
+    });
+  });
+}
+$('copyToClipboardBtn').addEventListener('click', function() {
+  const btn = this;
+  copyText($('plainTextResult')).then(() => {
+    const original = btn.innerHTML;
+    btn.innerHTML = 'Copiato con successo';
+    btn.style.background = '#2e7d32';
+    setTimeout(() => { btn.innerHTML = original; btn.style.background = '#aa3131'; }, 3000);
+  }).catch(() => {
+    alert('Errore durante la copia. Si prega di selezionare il testo manualmente.');
+  });
+});
+</script>
+
+</body>
+</html>

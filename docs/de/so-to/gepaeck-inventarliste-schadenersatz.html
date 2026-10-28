@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Schadenersatz fordern: Inventarliste bei Gepäckschaden (PDF)</title>
+
+  <meta name="description" content="Koffer verloren oder beschädigt? Klicken Sie Ihre Kofferinhalte an, berechnen Sie den Zeitwert und erstellen Sie kostenlos die Inventarliste samt Schadenersatzschreiben für Airline oder Reisegepäckversicherung.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="canonical" href="https://www.fix-my-trip.com/de/so-to/gepaeck-inventarliste-schadenersatz.html">
+
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="it" href="https://www.fix-my-trip.com/it/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="nl" href="https://www.fix-my-trip.com/nl/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="pt" href="https://www.fix-my-trip.com/pt/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="en-gb" href="https://www.fix-my-trip.com/en-gb/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="en-us" href="https://www.fix-my-trip.com/en-us/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/en-gb/so-to/gepaeck-inventarliste-schadenersatz.html">
+
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <style>
+    /* Inventarliste-Schadensersatz */
+    #gepaeckForm select { width: 100%; padding: 10px; font-size: 1em; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; background: #fff; margin-bottom: 12px; }
+    #gepaeckForm input[type="date"] { width: 100%; padding: 10px; font-size: 1em; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 12px; }
+    .kk-table-wrap { overflow-x: auto; margin: 20px 0; }
+    .kk-table { width: 100%; border-collapse: collapse; font-size: 0.95em; }
+    .kk-table th, .kk-table td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #e3e3e3; vertical-align: top; }
+    .kk-table th { background: #faf3f3; color: #891818; }
+    .kk-chip-list { display: flex; flex-wrap: wrap; gap: 8px; margin: 15px 0; padding: 0; list-style: none; }
+    .kk-chip-list li { background: #f7f7f7; border: 1px solid #e5e5e5; border-radius: 20px; padding: 5px 14px; font-size: 0.9em; color: #444; }
+    .kk-route-text { font-size: 0.95em; font-weight: normal; line-height: 1.5; margin-top: 8px; }
+    .kk-hidden { display: none; }
+
+    /* Inventar-Bereich */
+    .inv-cat { margin: 18px 0 6px; font-size: 0.9em; font-weight: 600; color: #891818; }
+    .inv-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .inv-chip { background: #f7f7f7; border: 1px solid #ddd; border-radius: 20px; padding: 6px 14px; font-size: 0.9em; color: #333; cursor: pointer; font-family: inherit; }
+    .inv-chip:hover { border-color: #891818; color: #891818; }
+    .inv-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0 10px; }
+    .inv-btn { background: #fff; border: 1px solid #891818; color: #891818; border-radius: 6px; padding: 9px 16px; font-size: 0.95em; cursor: pointer; font-family: inherit; }
+    .inv-btn:hover { background: #faf3f3; }
+    .inv-empty { color: #777; font-size: 0.95em; padding: 15px 0; }
+    .inv-row { display: grid; grid-template-columns: 2.2fr 0.7fr 1fr 0.8fr 0.9fr 1fr auto; gap: 8px; align-items: end; padding: 12px 0; border-bottom: 1px solid #eee; }
+    .inv-row label { display: block; font-size: 0.75em; color: #777; margin: 0 0 3px; font-weight: normal; }
+    .inv-row input { width: 100%; box-sizing: border-box; padding: 8px; font-size: 0.95em; border: 1px solid #ccc; border-radius: 4px; margin: 0; }
+    .inv-val { font-weight: 600; padding: 8px 0; white-space: nowrap; }
+    .inv-del { background: none; border: none; color: #891818; font-size: 1.4em; cursor: pointer; padding: 4px 8px; line-height: 1; }
+    .inv-row.is-notkauf .inv-hide-nk { visibility: hidden; }
+    @media (max-width: 720px) {
+      .inv-row { grid-template-columns: 1fr 1fr; }
+      .inv-row .inv-name { grid-column: 1 / -1; }
+      .inv-row .inv-end { grid-column: 1 / -1; display: flex; justify-content: space-between; align-items: center; }
+    }
+  
+    /* Affiliate-Box (oben, vor dem Formular) */
+    .kk-ad-top { position: relative; background: #fff; border: 1px solid #e6d3d3; border-radius: 8px; padding: 26px 28px 22px; margin: 28px 0; box-shadow: 0 6px 22px rgba(137, 24, 24, 0.07); }
+    .kk-ad-label { position: absolute; top: 10px; right: 12px; font-size: 0.7rem; color: #666; background: #eee; padding: 2px 6px; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .kk-ad-title { margin: 0 0 8px; padding-right: 70px; font-size: 1.25em; font-weight: 700; color: #891818; line-height: 1.3; }
+    .kk-ad-text { margin: 0 0 14px; font-size: 0.98em; color: #444; line-height: 1.55; }
+    .kk-ad-points { list-style: none; margin: 0 0 18px; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+    .kk-ad-points li { background: #faf3f3; color: #6f1313; border-radius: 20px; padding: 6px 14px; font-size: 0.88em; }
+    .kk-ad-btn { display: inline-block; background: #891818; color: #fff !important; font-weight: 700; font-size: 1.02em; text-decoration: none; padding: 15px 30px; border-radius: 6px; box-shadow: 0 4px 12px rgba(137, 24, 24, 0.25); transition: background 0.2s; }
+    .kk-ad-btn:hover { background: #6f1313; }
+    .kk-ad-note { margin: 14px 0 0; font-size: 0.78em; color: #777; line-height: 1.5; }
+    @media (max-width: 600px) { .kk-ad-top { padding: 22px 18px 18px; } .kk-ad-btn { display: block; text-align: center; padding: 16px 12px; } }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Gepäck-Inventarliste mit Zeitwert: Generator für Schadenersatz bei Airline und Reisegepäckversicherung",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "All",
+    "description": "Kostenloser Generator für die Inventarliste bei verlorenem oder beschädigtem Reisegepäck inklusive Zeitwert-Berechnung und Schadenersatzschreiben. Keine Rechtsberatung.",
+    "offers": { "@type": "Offer", "price": "0.00", "priceCurrency": "EUR" }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Wie viel Geld bekomme ich für verlorenes Gepäck von der Airline?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bei aufgegebenem Reisegepäck haftet die Airline nach dem Montrealer Übereinkommen grundsätzlich ohne Verschulden, aber nur bis zu einem Höchstbetrag von 1.519 Sonderziehungsrechten je Fluggast. Das entspricht je nach Kurs grob 1.800 bis 1.950 Euro. Ersetzt wird in der Regel der Zeitwert der Gegenstände, nicht der Neupreis."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wird der Neuwert oder der Zeitwert erstattet?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In der Regel der Zeitwert, also der Wert des Gegenstands zum Zeitpunkt des Verlusts unter Berücksichtigung von Alter und Abnutzung. Deshalb berechnet das Tool den Zeitwert aus Neupreis, Alter und einem Wertverlust pro Jahr, den Sie anpassen können."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Welche Fristen muss ich beim Gepäckschaden beachten?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Bei beschädigtem Gepäck müssen Sie den Schaden spätestens sieben Tage nach Erhalt schriftlich anzeigen, bei verspätetem Gepäck binnen 21 Tagen nach Zurverfügungstellung. Gilt das Gepäck als verloren, weil es nach 21 Tagen nicht aufgetaucht ist, können Sie Ihre Ansprüche geltend machen. Klagen müssen innerhalb von zwei Jahren erhoben werden. Melden Sie jeden Schaden zusätzlich sofort am Flughafen."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Was ist, wenn ich keine Kaufbelege mehr habe?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sammeln Sie ersatzweise Kontoauszüge, Online-Bestellbestätigungen, Garantiekarten, Fotos oder Screenshots von Marken- und Modellangaben. Je nachvollziehbarer Ihre Angaben sind, desto eher akzeptiert die Airline sie. Eine Erstattung ohne Belege ist nicht garantiert."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kann ich Wertsachen und Elektronik im aufgegebenen Koffer ersetzt bekommen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Viele Beförderungsbedingungen schließen Wertsachen, Bargeld oder Elektronik im aufgegebenen Gepäck von der Haftung aus oder empfehlen, sie im Handgepäck zu führen. Ob solche Ausschlüsse im Einzelfall wirksam sind, ist umstritten. Eine Reisegepäckversicherung kann hier eine Lücke schließen, sofern deren Bedingungen Wertsachen abdecken."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Was gilt bei verspätetem Gepäck und Notkäufen?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Für angemessene Ersatzkäufe wegen verspäteter Auslieferung können Sie Ersatz verlangen, wenn Sie die Belege aufbewahren. Der Haftungshöchstbetrag für Gepäck gilt gemeinsam für Verlust, Beschädigung und Verspätung. Kaufen Sie nur das Nötigste und melden Sie die Verspätung sofort am Flughafen."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script src="../../js/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="../index.html" class="site-logo">Fix my Trip</a>
+  <span style="font-size: 0.9em; color: #666;">Ihr Recht bei Pauschalreisen</span>
+</header>
+
+<div class="page-container">
+
+  <h1>Gepäck verloren oder beschädigt: Inventarliste mit Zeitwert erstellen und Schadenersatz fordern</h1>
+
+  <div class="usp-bar">
+    <div class="usp-item">Kofferinhalt per Klick auswählen</div>
+    <div class="usp-item">Zeitwert-Rechner live</div>
+    <div class="usp-item">Für Airline und Reisegepäckversicherung</div>
+    <div class="usp-item">Daten bleiben in Ihrem Browser</div>
+  </div>
+
+  <p>Ihr Koffer ist weg oder kam beschädigt an, und die Airline verlangt eine Aufstellung aller Gegenstände? Genau das scheitert oft an der Tabellenform. Hier klicken Sie Ihre Kleidung, Elektronik und Wertsachen einfach an, passen Preis und Alter an und erhalten eine fertige <strong>Inventarliste mit Zeitwert</strong> sowie das passende Schadenersatzschreiben als PDF.</p>
+
+  <div class="info-box warning">
+    <strong>Zuerst am Flughafen melden:</strong> Lassen Sie den Schaden oder Verlust vor dem Verlassen des Gepäckbereichs bei der Airline oder dem Bodenabfertiger aufnehmen (Schadensprotokoll, auch "PIR" genannt) und notieren Sie die Referenznummer. Bei <strong>beschädigtem Gepäck</strong> muss der Schaden zusätzlich spätestens <strong>7 Tage</strong> nach Erhalt schriftlich angezeigt werden, bei <strong>Verspätung 21 Tage</strong> nach Zurverfügungstellung. Fotografieren Sie Koffer und Schäden sofort.
+  </div>
+
+  <div class="kk-ad-top">
+    <span class="kk-ad-label">Anzeige</span>
+    <p class="kk-ad-title">Nächste Reise besser abgesichert: Reisekreditkarten mit Gepäckschutz vergleichen</p>
+    <p class="kk-ad-text">Einige Reisekreditkarten enthalten eine Reisegepäckversicherung, teils zusammen mit Auslandskrankenversicherung. Der kostenlose Vergleich zeigt, welche Karte zu Ihnen passt.</p>
+    <ul class="kk-ad-points"><li>Ausgewählte Karten mit Reisegepäckversicherung</li><li>Teils ohne Jahresgebühr und Auslandseinsatzentgelt</li><li>Kostenlos und unverbindlich vergleichen</li></ul>
+    <a href="https://www.tarifcheck.com/YKQ2R5K" class="kk-ad-btn" target="_blank" rel="noopener nofollow sponsored">Reisekreditkarten mit Gepäckschutz vergleichen</a>
+    <p class="kk-ad-note">Werbelink. Gilt für künftige Reisen, nicht rückwirkend für Ihren aktuellen Fall. Leistungen, Voraussetzungen (z. B. Bezahlung der Reise mit der Karte) und Ausschlüsse unterscheiden sich je Karte.</p>
+  </div>
+
+  <div class="legal-info-box">
+    <strong>Wichtiger Hinweis zur Nutzung</strong><br>
+    Dieses Tool ist ein <strong>automatisierter Schreiben-Generator</strong> (Hilfe zur Selbsthilfe). Es setzt Ihre Angaben in eine allgemeine Vorlage ein. Die berechneten Zeitwerte beruhen auf <strong>Richtwerten, die Sie anpassen können</strong>, und sind keine verbindliche Bewertung. Airline und Versicherer entscheiden selbst, welche Beträge sie anerkennen. Es findet keine Prüfung Ihres Einzelfalls statt, eine Erfolgsgarantie gibt es nicht. Bitte listen Sie ausschließlich Gegenstände auf, die tatsächlich im Gepäck waren, und machen Sie <strong>wahrheitsgemäße Angaben</strong>.
+  </div>
+
+  <div class="highlight-box pruefdatum-box" role="note" aria-label="Redaktionell geprüft" style="margin-top: 15px; margin-bottom: 30px;">
+    <p><strong>Redaktionell geprüft am:</strong> <span id="pruefdatum">26.10.2026</span></p>
+  </div>
+
+  <form id="gepaeckForm" novalidate>
+
+    <fieldset>
+      <legend>1. Schadensfall und Fristen</legend>
+
+      <label for="fEmpf">An wen richtet sich das Schreiben?</label>
+      <select id="fEmpf">
+        <option value="airline">Fluggesellschaft (Schadenersatz nach Montrealer Übereinkommen)</option>
+        <option value="versicherung">Reisegepäckversicherung (Leistungsantrag)</option>
+      </select>
+
+      <label for="fSchaden">Was ist passiert?</label>
+      <select id="fSchaden">
+        <option value="verloren">Gepäck ist verloren gegangen (nicht ausgeliefert)</option>
+        <option value="beschaedigt">Gepäck oder Inhalt wurde beschädigt</option>
+        <option value="verspaetet">Gepäck kam verspätet, ich musste Ersatz kaufen (Notkäufe)</option>
+      </select>
+
+      <label for="fAnkunft" id="fAnkunftLabel">Datum Ihrer Ankunft (bei Beschädigung: Datum der Gepäckausgabe):</label>
+      <input type="date" id="fAnkunft">
+
+      <div class="calc-banner" id="fristBanner" aria-live="polite">
+        Ihr Zeitfenster:<br>
+        <span id="fristTitle" style="font-size: 0.6em;"></span>
+        <div class="kk-route-text" id="fristText"></div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>2. Kofferinhalt: Gegenstände auswählen</legend>
+      <p style="font-size: 0.9em; color: #666; margin-top: 0;">Klicken Sie auf einen Gegenstand, um ihn der Liste hinzuzufügen. Die vorgeschlagenen Preise sind nur Platzhalter. <strong>Bitte ersetzen Sie sie durch Ihre tatsächlichen Anschaffungspreise</strong> und tragen Sie das Alter ein.</p>
+
+      <div id="presetArea"></div>
+
+      <div class="inv-actions">
+        <button type="button" class="inv-btn" id="addCustom">Eigenen Gegenstand hinzufügen</button>
+        <button type="button" class="inv-btn" id="addNotkauf">Notkauf mit Beleg hinzufügen</button>
+      </div>
+
+      <div id="invList"></div>
+      <div class="inv-empty" id="invEmpty">Noch keine Gegenstände ausgewählt.</div>
+
+      <div class="calc-banner">
+        Zeitwert Ihrer Aufstellung:<br>
+        <span id="liveAmount">0,00 €</span>
+        <div style="font-size: 0.5em; font-weight: normal; margin-top: 5px;" id="liveSub">0 Positionen, Neuwert 0,00 €</div>
+        <div class="kk-route-text" id="limitText"></div>
+      </div>
+      <p style="font-size: 0.85em; color: #666;">Berechnung: Zeitwert = Neupreis x Menge x (1 - Wertverlust pro Jahr x Alter), mindestens 10 % des Neupreises. Notkäufe werden zum belegten Betrag angesetzt. Den Wertverlust können Sie je Gegenstand anpassen.</p>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. Flug und Gepäck</legend>
+
+      <label for="aName" id="aNameLabel">Fluggesellschaft:</label>
+      <input type="text" id="aName" list="empfListe" placeholder="z. B. Name der Airline" autocomplete="off">
+      <datalist id="empfListe">
+        <option value="Lufthansa"><option value="Eurowings"><option value="Discover Airlines"><option value="Condor"><option value="TUIfly"><option value="Ryanair"><option value="easyJet"><option value="Wizz Air"><option value="Vueling"><option value="Iberia"><option value="Austrian Airlines"><option value="SWISS"><option value="KLM"><option value="Air France"><option value="British Airways"><option value="Turkish Airlines"><option value="Emirates"><option value="Pegasus"><option value="SunExpress"><option value="Corendon"><option value="Transavia"><option value="SAS"><option value="Finnair"><option value="ITA Airways"><option value="TAP Air Portugal"><option value="LOT">
+      </datalist>
+      <datalist id="versListe">
+        <option value="Allianz Reiseversicherung"><option value="ADAC Versicherung"><option value="HanseMerkur"><option value="ERGO Reiseversicherung"><option value="Europäische Reiseversicherung"><option value="Barmenia"><option value="Würzburger Versicherung"><option value="AXA"><option value="Generali">
+      </datalist>
+
+      <label for="aAdresse">Anschrift oder E-Mail des Empfängers (optional):</label>
+      <textarea id="aAdresse" rows="2" placeholder="z. B. Kontaktformular, E-Mail oder Postanschrift laut Website bzw. Police"></textarea>
+
+      <div id="versGroup" class="kk-hidden">
+        <label for="fPolice">Versicherungsschein- bzw. Vertragsnummer:</label>
+        <input type="text" id="fPolice" placeholder="laut Police">
+      </div>
+
+      <label for="fFlugnr">Flugnummer:</label>
+      <input type="text" id="fFlugnr" placeholder="z. B. XX1234">
+
+      <label for="fFlugDatum">Datum des Fluges:</label>
+      <input type="date" id="fFlugDatum">
+
+      <label for="fVon">Abflugort:</label>
+      <input type="text" id="fVon" placeholder="z. B. Hamburg">
+
+      <label for="fNach">Zielort:</label>
+      <input type="text" id="fNach" placeholder="z. B. Palma de Mallorca">
+
+      <label for="fBag">Gepäckschein-Nummer (Bag Tag, 10 Ziffern):</label>
+      <input type="text" id="fBag" placeholder="z. B. 0220123456">
+
+      <label for="fPIR">Referenz des Schadensprotokolls vom Flughafen (PIR, optional):</label>
+      <input type="text" id="fPIR" placeholder="z. B. HAMXX12345">
+
+      <label for="fMelde">Datum der Meldung am Flughafen (optional):</label>
+      <input type="date" id="fMelde">
+
+      <label for="fSchilderung">Kurze Schilderung in eigenen Worten (optional):</label>
+      <textarea id="fSchilderung" rows="4" placeholder="z. B. Der Koffer kam mit aufgerissener Seitennaht und gebrochenem Rollenfach an. Mehrere Gegenstände im Inneren sind zerstört."></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>4. Beigefügte Unterlagen</legend>
+      <p style="font-size: 0.9em; color: #666; margin-top: 0;">Haken Sie an, was Sie dem Schreiben beilegen. Die Inventarliste ist immer enthalten.</p>
+      <div class="checkbox-group" id="anlagenBoxen">
+        <label><input type="checkbox" checked data-text="Kopie des Schadensprotokolls (PIR) bzw. der Verlustmeldung"> Schadensprotokoll (PIR) / Verlustmeldung</label>
+        <label><input type="checkbox" checked data-text="Kopie des Gepäckscheins (Bag Tag) und der Bordkarte"> Gepäckschein (Bag Tag) und Bordkarte</label>
+        <label><input type="checkbox" data-text="Kaufbelege bzw. Kontoauszüge zu den aufgeführten Gegenständen"> Kaufbelege / Kontoauszüge</label>
+        <label><input type="checkbox" data-text="Fotos des beschädigten Gepäcks und der Schäden"> Fotos des Gepäcks und der Schäden</label>
+        <label><input type="checkbox" data-text="Belege über Ersatzkäufe (Notkäufe)"> Belege über Ersatzkäufe (Notkäufe)</label>
+        <label><input type="checkbox" data-text="Buchungsbestätigung bzw. Flugticket"> Buchungsbestätigung / Flugticket</label>
+        <label><input type="checkbox" data-text="Kostenvoranschlag bzw. Reparaturbeleg"> Kostenvoranschlag / Reparaturbeleg</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>5. Ihre Daten und Bankverbindung</legend>
+      <label for="sName">Ihr Vor- und Nachname:</label>
+      <input type="text" id="sName" placeholder="z. B. Max Mustermann">
+      <label for="sStrasse">Straße und Hausnummer:</label>
+      <input type="text" id="sStrasse" placeholder="z. B. Musterstraße 1">
+      <label for="sPLZOrt">PLZ und Ort:</label>
+      <input type="text" id="sPLZOrt" placeholder="z. B. 20095 Hamburg">
+      <label for="bIBAN">IBAN für die Erstattung:</label>
+      <input type="text" id="bIBAN" placeholder="DE...">
+    </fieldset>
+
+    <div class="submit-area">
+      <p class="submit-disclaimer">
+        Mit Klick auf "PDF generieren" bestätigen Sie, dass Ihre Angaben wahrheitsgemäß sind, dieser automatisierte Service<br>keine Rechtsberatung darstellt und Sie die Forderung eigenverantwortlich stellen.
+      </p>
+      <button type="submit" class="button-primary">Inventarliste und Schreiben als PDF generieren</button>
+    </div>
+  </form>
+
+  <!-- Text-Output Box -->
+  <div id="textOutputArea" style="display: none; margin-top: 40px; background: #ffffff; padding: 35px; border: 1px solid #f5c6c6; border-top: 5px solid #aa3131; border-radius: 8px; box-shadow: 0 10px 30px rgba(137, 24, 24, 0.08); box-sizing: border-box;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-wrap: wrap; gap: 15px;">
+      <div style="flex: 1; min-width: 250px;">
+        <h3 style="margin: 0 0 5px 0; color: #aa3131; font-size: 1.4em;">Ihr fertiger Text</h3>
+        <p style="margin: 0; font-size: 0.95em; color: #666; line-height: 1.4;">Bietet die Airline oder Versicherung nur ein Online-Formular an? Kopieren Sie Schreiben und Inventarliste mit einem Klick und fügen Sie beides dort ein.</p>
+      </div>
+      <button type="button" id="copyToClipboardBtn" style="background: #aa3131; color: #ffffff; border: none; padding: 12px 24px; font-size: 1em; font-weight: bold; border-radius: 6px; cursor: pointer; transition: background 0.3s; box-shadow: 0 4px 10px rgba(137, 24, 24, 0.2); white-space: nowrap;">
+        Text kopieren
+      </button>
+    </div>
+    <textarea id="plainTextResult" rows="16" style="width: 100%; padding: 20px; font-family: 'Courier New', Courier, monospace; font-size: 0.9em; line-height: 1.6; color: #333; background: #fdfdfd; border: 1px solid #e0e0e0; border-radius: 6px; resize: vertical; box-sizing: border-box;" readonly></textarea>
+  </div>
+
+  <!-- SEO Content -->
+  <div class="seo-content">
+    <h2>Gepäck verloren oder beschädigt: Das steht Ihnen zu und so gehen Sie vor</h2>
+    <p>Bei Flugreisen haftet die Fluggesellschaft nach dem <strong>Montrealer Übereinkommen</strong> für Zerstörung, Verlust, Beschädigung und Verspätung von aufgegebenem Reisegepäck, und zwar grundsätzlich ohne dass ein Verschulden nachgewiesen werden muss (Artikel 17). Die Haftung ist aber begrenzt: So liegt der Höchstbetrag bei <strong>1.519 Sonderziehungsrechten (SZR) je Fluggast</strong>. Das sind je nach Wechselkurs grob 1.800 bis 1.950 Euro. Dieser Betrag gilt gemeinsam für Verlust, Beschädigung und Verspätung.</p>
+
+    <div class="kk-table-wrap">
+      <table class="kk-table">
+        <thead>
+          <tr><th>Fall</th><th>Wichtigste Frist</th><th>Was Sie tun sollten</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Gepäck beschädigt</td><td>Schriftliche Anzeige spätestens 7 Tage nach Erhalt (Art. 31 MÜ)</td><td>Vor Ort Schadensprotokoll aufnehmen lassen, fotografieren, danach schriftlich anzeigen</td></tr>
+          <tr><td>Gepäck verspätet</td><td>Schriftliche Anzeige binnen 21 Tagen nach Zurverfügungstellung</td><td>Verspätung sofort melden, Notkäufe belegen und angemessen halten</td></tr>
+          <tr><td>Gepäck verloren</td><td>Gilt nach 21 Tagen ohne Auslieferung als verloren, dann Ansprüche geltend machen</td><td>Verlust melden, Inventarliste erstellen, Belege sammeln</td></tr>
+          <tr><td>Klage bei Ablehnung</td><td>Zwei Jahre ab Ankunft bzw. geplanter Ankunft (Art. 35 MÜ)</td><td>Vorher Schlichtung nutzen, siehe Hinweise unten</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Erste Schritte am Flughafen</h3>
+    <p>Gehen Sie, bevor Sie den Gepäckbereich verlassen, zum Schalter der Airline oder des Bodenabfertigers und lassen Sie ein Schadens- oder Verlustprotokoll aufnehmen (in der Branche "Property Irregularity Report", kurz PIR). Notieren Sie die Referenznummer und bewahren Sie Gepäckschein und Bordkarte auf. Bei beschädigtem Gepäck fotografieren Sie Koffer und Inhalt noch am Band, bei verlorenem Gepäck sichern Sie ein Foto des Koffers, falls vorhanden.</p>
+
+    <h3>Zeitwert statt Neupreis</h3>
+    <p>Die Airline ersetzt in der Regel nicht den Neupreis, sondern den <strong>Zeitwert</strong> der Gegenstände zum Zeitpunkt des Verlusts. Je älter und stärker genutzt ein Gegenstand ist, desto niedriger der Wert. Das Tool berechnet den Zeitwert aus Neupreis, Alter und einem jährlichen Wertverlust. Die voreingestellten Prozentsätze sind Orientierungswerte, die in der Praxis häufig verwendet werden, aber keine amtliche Tabelle darstellen. Sie können jeden Wert anpassen.</p>
+
+    <div class="kk-table-wrap">
+      <table class="kk-table">
+        <thead>
+          <tr><th>Kategorie</th><th>Voreingestellter Wertverlust pro Jahr</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Kleidung und Schuhe</td><td>25 %</td></tr>
+          <tr><td>Pflege und Kosmetik</td><td>50 %</td></tr>
+          <tr><td>Elektronik</td><td>25 %</td></tr>
+          <tr><td>Sport und Freizeit</td><td>15 %</td></tr>
+          <tr><td>Koffer und Taschen</td><td>15 %</td></tr>
+          <tr><td>Uhren, Schmuck und Accessoires</td><td>10 %</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Belege sammeln, wenn die Kaufbelege fehlen</h3>
+    <p>Die Airline wird Nachweise verlangen. Fehlen Kassenzettel, helfen Kontoauszüge und Kreditkartenabrechnungen, Online-Bestellbestätigungen, Garantiekarten, Fotos mit den Gegenständen oder Screenshots der Produktseiten. Notieren Sie Marke und Modell möglichst genau. Je nachvollziehbarer die Angaben, desto besser sind die Chancen, dass sie anerkannt werden.</p>
+
+    <h3>Wertsachen und Elektronik im Koffer</h3>
+    <p>Viele Beförderungsbedingungen schließen Wertsachen, Bargeld, Schmuck oder Elektronik im aufgegebenen Gepäck von der Haftung aus oder raten, diese im Handgepäck mitzuführen. Ob solche Klauseln im Einzelfall wirksam sind, ist umstritten. Für <strong>Handgepäck</strong> haftet die Airline nach dem Übereinkommen nur bei Verschulden. Eine Reisegepäckversicherung oder, je nach Vertrag, die Außenversicherung der Hausratversicherung kann eine Lücke schließen. Prüfen Sie dort Ausschlüsse und Höchstgrenzen für Wertsachen.</p>
+
+    <h3>Verspätetes Gepäck: Notkäufe</h3>
+    <p>Kommt Ihr Gepäck erst nach Tagen, dürfen Sie das Nötigste ersatzweise kaufen, zum Beispiel Kleidung und Hygieneartikel. Kaufen Sie angemessen, behalten Sie alle Belege und melden Sie die Verspätung sofort am Flughafen. Im Tool erfassen Sie Notkäufe über "Notkauf mit Beleg hinzufügen". Sie gehen zum belegten Betrag in die Aufstellung ein.</p>
+
+    <h3>Reisegepäckversicherung oder Airline: Welcher Weg?</h3>
+    <p>Sie können Airline und Versicherung nutzen, aber nicht doppelt für denselben Schaden entschädigt werden. Häufig verlangt die Versicherung zunächst den Nachweis, dass Sie den Schaden bei der Airline angezeigt haben. Wählen Sie oben den Empfänger, das Schreiben passt sich an. Teilen Sie der Versicherung später mit, was die Airline erstattet hat.</p>
+
+    <h3>Pauschalreise statt Einzelflug</h3>
+    <p>Wenn der Flug Teil einer Pauschalreise ist, kann fehlendes Gepäck zusätzlich ein Reisemangel sein. Wenden Sie sich dann auch an Ihren Reiseveranstalter, hier gibt es unter Umständen eine Minderung. Hinweise finden Sie in unserem <a href="../hotel-maengel-info.html">Ratgeber zu Reisemängeln</a> und im allgemeinen <a href="../gepaeck-info.html">Gepäck-Ratgeber</a>.</p>
+
+    <h3>Wenn die Airline ablehnt oder nicht reagiert</h3>
+    <p>Fordern Sie eine schriftliche Begründung. Anschließend können Sie die Schlichtungsstelle für den öffentlichen Personenverkehr (söp) einschalten, die auch für Streitigkeiten mit Fluggesellschaften zuständig ist. Unseren Leitfaden zum Einreichen finden Sie unter <a href="../beschwerde-anleitungen-info.html">Einreich-Tipps und Schlichtung</a>.</p>
+
+    <h3>Für diese Airlines können Sie die Inventarliste nutzen</h3>
+    <ul class="kk-chip-list">
+      <li>Lufthansa</li><li>Eurowings</li><li>Discover Airlines</li><li>Condor</li><li>TUIfly</li><li>Ryanair</li><li>easyJet</li><li>Wizz Air</li><li>Vueling</li><li>Iberia</li><li>Austrian Airlines</li><li>SWISS</li><li>KLM</li><li>Air France</li><li>British Airways</li><li>Turkish Airlines</li><li>Emirates</li><li>Pegasus</li><li>SunExpress</li><li>Corendon</li><li>Transavia</li><li>SAS</li><li>Finnair</li><li>ITA Airways</li><li>TAP Air Portugal</li><li>LOT</li>
+    </ul>
+
+    <h3>Für diese Reisegepäckversicherer</h3>
+    <ul class="kk-chip-list">
+      <li>Allianz Reiseversicherung</li><li>ADAC</li><li>HanseMerkur</li><li>ERGO Reiseversicherung</li><li>Europäische Reiseversicherung</li><li>Barmenia</li><li>Würzburger</li><li>AXA</li><li>Generali</li>
+    </ul>
+    <p style="font-size: 0.85em; color: #666;">Zwischen Fix my Trip und den genannten Unternehmen besteht keine Verbindung. Die Nennung dient allein der Orientierung.</p>
+
+    <div class="faq-section">
+      <h2>Häufige Fragen (FAQ) zu Gepäckschäden</h2>
+
+      <details>
+        <summary>Wie viel Geld bekomme ich für verlorenes Gepäck von der Airline?</summary>
+        <p>Bei aufgegebenem Reisegepäck haftet die Airline nach dem Montrealer Übereinkommen grundsätzlich ohne Verschulden, aber nur bis zu einem Höchstbetrag von 1.519 Sonderziehungsrechten je Fluggast. Das entspricht je nach Kurs grob 1.800 bis 1.950 Euro. Ersetzt wird in der Regel der Zeitwert der Gegenstände, nicht der Neupreis.</p>
+      </details>
+
+      <details>
+        <summary>Wird der Neuwert oder der Zeitwert erstattet?</summary>
+        <p>In der Regel der Zeitwert, also der Wert des Gegenstands zum Zeitpunkt des Verlusts unter Berücksichtigung von Alter und Abnutzung. Deshalb berechnet das Tool den Zeitwert aus Neupreis, Alter und einem Wertverlust pro Jahr, den Sie anpassen können.</p>
+      </details>
+
+      <details>
+        <summary>Welche Fristen muss ich beim Gepäckschaden beachten?</summary>
+        <p>Bei beschädigtem Gepäck müssen Sie den Schaden spätestens sieben Tage nach Erhalt schriftlich anzeigen, bei verspätetem Gepäck binnen 21 Tagen nach Zurverfügungstellung. Gilt das Gepäck als verloren, weil es nach 21 Tagen nicht aufgetaucht ist, können Sie Ihre Ansprüche geltend machen. Klagen müssen innerhalb von zwei Jahren erhoben werden. Melden Sie jeden Schaden zusätzlich sofort am Flughafen.</p>
+      </details>
+
+      <details>
+        <summary>Was ist, wenn ich keine Kaufbelege mehr habe?</summary>
+        <p>Sammeln Sie ersatzweise Kontoauszüge, Online-Bestellbestätigungen, Garantiekarten, Fotos oder Screenshots von Marken- und Modellangaben. Je nachvollziehbarer Ihre Angaben sind, desto eher akzeptiert die Airline sie. Eine Erstattung ohne Belege ist nicht garantiert.</p>
+      </details>
+
+      <details>
+        <summary>Kann ich Wertsachen und Elektronik im aufgegebenen Koffer ersetzt bekommen?</summary>
+        <p>Viele Beförderungsbedingungen schließen Wertsachen, Bargeld oder Elektronik im aufgegebenen Gepäck von der Haftung aus oder empfehlen, sie im Handgepäck zu führen. Ob solche Ausschlüsse im Einzelfall wirksam sind, ist umstritten. Eine Reisegepäckversicherung kann hier eine Lücke schließen, sofern deren Bedingungen Wertsachen abdecken.</p>
+      </details>
+
+      <details>
+        <summary>Was gilt bei verspätetem Gepäck und Notkäufen?</summary>
+        <p>Für angemessene Ersatzkäufe wegen verspäteter Auslieferung können Sie Ersatz verlangen, wenn Sie die Belege aufbewahren. Der Haftungshöchstbetrag für Gepäck gilt gemeinsam für Verlust, Beschädigung und Verspätung. Kaufen Sie nur das Nötigste und melden Sie die Verspätung sofort am Flughafen.</p>
+      </details>
+    </div>
+  </div>
+
+  <div class="airline-hinweisbox">
+    <h3>Wichtige Hinweise vor dem Absenden</h3>
+    <p>Senden Sie nur Kopien Ihrer Belege und behalten Sie die Originale. Sichern Sie Ihre Nachricht mit einem Zeitstempel (E-Mail, Online-Formular mit Bestätigung oder Einschreiben) und lassen Sie sich den Eingang bestätigen. Bieten Airline oder Versicherung ein eigenes Formular an, tragen Sie die Positionen aus der Inventarliste dort ein und hängen Sie die PDF-Liste zusätzlich an.</p>
+  </div>
+
+  <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
+    <h3>Weitere interessante Themen:</h3>
+    <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
+      <a href="../gepaeck-info.html">Gepäckverlust &amp; Koffer-Schäden</a>
+      <a href="../flugverspaetung-info.html">Flugverspätung &amp; Ausfall</a>
+      <a href="ersatzbefoerderung-fristsetzung.html">Ersatzbeförderung</a>
+      <a href="kreditkarte-geld-zurueckholen.html">Zahlung zurückholen</a>
+      <a href="../beschwerde-anleitungen-info.html">Einreich-Tipps &amp; Schlichtung</a>
+    </div>
+  </div>
+
+  <aside class="legal-sources-box" aria-labelledby="sources-title-gepaeck">
+    <h3 id="sources-title-gepaeck" class="sources-heading">Rechtsgrundlagen und Informationsquellen</h3>
+    <p class="sources-intro">Die Inhalte dieser Seite beruhen auf den folgenden öffentlich zugänglichen Quellen. Haftungshöchstbeträge werden regelmäßig angepasst, bitte prüfen Sie den aktuellen Stand.</p>
+    <ul class="sources-list">
+      <li>
+        <strong>Montrealer Übereinkommen (MÜ), insbesondere Artikel 17, 19, 22, 31 und 35</strong>:
+        Regelt Haftung, Haftungshöchstbeträge, Anzeigefristen und die zweijährige Ausschlussfrist bei Gepäckschäden. Der Höchstbetrag für Reisegepäck liegt bei 1.519 SZR.
+        <br>
+        <a href="https://www.icao.int" target="_blank" rel="noopener noreferrer" class="source-link">Informationen der Internationalen Zivilluftfahrt-Organisation (ICAO)</a>
+      </li>
+      <li>
+        <strong>Verordnung (EG) Nr. 889/2002 (Änderung der Verordnung (EG) Nr. 2027/97)</strong>:
+        Überträgt die Regeln des Montrealer Übereinkommens auf Fluggesellschaften der EU.
+        <br>
+        <a href="https://eur-lex.europa.eu/eli/reg/2002/889/oj" target="_blank" rel="noopener noreferrer" class="source-link">Text auf EUR-Lex</a>
+      </li>
+      <li>
+        <strong>Schlichtungsstelle Reise & Verkehr e.V.</strong>:
+        Außergerichtliche Streitbeilegung bei Streitigkeiten mit Fluggesellschaften.
+        <br>
+        <a href="https://www.schlichtung-reise-und-verkehr.de/" target="_blank" rel="noopener noreferrer" class="source-link">Informationen der Schlichtungsstelle Reise & Verkehr e.V.</a>
+      </li>
+      <li>
+        <strong>Luftfahrt-Bundesamt (LBA)</strong>:
+        Informationen zu Fluggastrechten in Deutschland.
+        <br>
+        <a href="https://www.lba.de" target="_blank" rel="noopener noreferrer" class="source-link">Informationen des Luftfahrt-Bundesamtes</a>
+      </li>
+    </ul>
+  </aside>
+</div>
+
+<div class="trust-section">
+  <h3>Über diese Seite</h3>
+  <p class="trust-text">
+    Unsere Ratgeber und Generatoren basieren auf der Auswertung aktueller EU-Verordnungen, internationaler Übereinkommen und nationalem Reiserecht. Sie werden von Marc (Projektleitung) &amp; Team entwickelt, um Reisenden eine strukturierte Selbsthilfe bei Reiseproblemen zu ermöglichen.
+    <br><br>
+    <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+      Wichtiger Hinweis: Diese Seite gibt keine individuelle Rechts- oder Versicherungsberatung. Zeitwerte sind Schätzungen, verbindlich entscheiden Airline bzw. Versicherer.
+    </span>
+  </p>
+
+  <a href="../ueber-uns.html" class="trust-link">Details zur Methodik &amp; Redaktion erfahren &rarr;</a>
+
+  <div class="lotse-card">
+    <p>
+      <strong>Problem mit dem Flug, der Bahn oder dem Hotel?</strong><br>
+      Fix-My-Trip prüft in wenigen Schritten Ihren Anspruch auf Entschädigung, Ticket-Erstattung oder Reisepreisminderung. <br>
+      <em>Ein Service von Fix my Trip.</em>
+    </p>
+  </div>
+
+  <p class="feedback-note">
+    <strong>Fehler im Tool entdeckt?</strong> Da wir als automatisiertes Portal keine individuelle Beratung leisten, helfen Sie uns enorm, wenn Sie Bugs oder veraltete Angaben melden:
+    <a href="mailto:support@fix-my-trip.com" style="color: #777; text-decoration: underline;">Feedback an unsere Zentrale senden</a>.
+  </p>
+</div>
+
+<section class="site-niche-directory">
+  <div class="niche-directory-container">
+    <h2 class="niche-directory-title">Weitere Themenbereiche entdecken</h2>
+    <p class="niche-directory-intro">
+      Egal ob Flugverspätung, Hotelmangel oder Gepäckschaden - hier finden Sie für fast jede Reise-Situation den passenden Leitfaden und das passende Musterschreiben.
+    </p>
+
+    <div class="niche-directory-grid">
+      <div class="niche-directory-group">
+        <h3>Flug &amp; Flughafen</h3>
+        <ul>
+          <li><a href="../flugverspaetung-info.html">Flugverspätung &amp; Ausfall</a></li>
+          <li><a href="ersatzbefoerderung-fristsetzung.html">Ersatzbeförderung (Zug, Taxi)</a></li>
+          <li><a href="gepaeck-inventarliste-schadenersatz.html">Gepäck-Inventarliste &amp; Zeitwert</a></li>
+          <li><a href="../steuern-info.html">Flugsteuern zurückfordern</a></li>
+          <li><a href="../gepaeck-info.html">Gepäckverlust &amp; Koffer-Schäden</a></li>
+          <li><a href="../flughafen-parken-info.html">Flughafen-Parkgebühren</a></li>
+          <li><a href="../ota-rueckerstattung-info.html">Flug-Buchungsportale (OTA)</a></li>
+        </ul>
+      </div>
+
+      <div class="niche-directory-group">
+        <h3>Unterkunft &amp; Pauschalreise</h3>
+        <ul>
+          <li><a href="../hotel-maengel-info.html">Hotelmängel &amp; Baulärm</a></li>
+          <li><a href="../storno-info.html">Reise stornieren (Kosten)</a></li>
+          <li><a href="../ferienhaus-maengel-info.html">Ferienhäuser &amp; Fewos</a></li>
+          <li><a href="../airbnb-probleme-info.html">Airbnb Problemlösungen</a></li>
+          <li><a href="../kreuzfahrt-minderung.html">Kreuzfahrt-Mängel</a></li>
+        </ul>
+      </div>
+
+      <div class="niche-directory-group">
+        <h3>Reise-Vorbereitung &amp; Mobilität</h3>
+        <ul>
+          <li><a href="../zugverspaetung-info.html">Zugverspätung &amp; Bahnrechte</a></li>
+          <li><a href="kreditkarte-geld-zurueckholen.html">Zahlung zurückholen (Karte, Lastschrift)</a></li>
+          <li><a href="auslandskrankenschein-kostenerstattung.html">Auslandsbehandlung erstatten</a></li>
+          <li><a href="../esim-roaming-info.html">eSIM &amp; Roaming-Kosten</a></li>
+          <li><a href="../mietwagen-info.html">Mietwagen-Versicherungen</a></li>
+          <li><a href="../zoll-info.html">Zoll &amp; Einfuhrregeln</a></li>
+          <li><a href="../reisekreditkarten-info.html">Reisekreditkarten-Vergleich</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 Fix-my-Trip.com</p>
+  <nav>
+    <a href="../ueber-uns.html">Über uns</a> |
+    <a href="../index.html">Startseite</a> |
+    <a href="../impressum.html">Impressum</a> |
+    <a href="../datenschutz.html">Datenschutz</a>
+  </nav>
+</footer>
+
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Schließen">&times;</button>
+    <h2>Ihre Unterlagen sind fertig</h2>
+    <p class="sub">Das PDF wurde auf Ihrem Gerät erstellt.<br>Ihre Angaben wurden nicht an uns übertragen.</p>
+    <div class="donate-hint">
+      Dieser Service ist und bleibt <strong>100 % kostenlos</strong>. Wenn er Ihnen geholfen hat, freuen wir uns über eine kleine freiwillige Unterstützung, damit Fix my Trip auch für andere Reisende kostenlos bleibt.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Schnellauswahl:</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Eigener Betrag eingeben ..." oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Jetzt 5 € spenden</button>
+    <button class="btn-skip" onclick="closeOverlay()">Nein danke, ich schließe das Fenster</button>
+    <p class="paypal-note">Freiwillig &amp; sicher über PayPal</p>
+    <div style="margin-top: 22px; padding-top: 14px; border-top: 1px solid #eee; text-align: left;">
+      <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">Anzeige / Werbelink</span>
+      <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;"><strong style="color:#333;">P.S.: Fliegen Sie bald wieder?</strong> Einige Reisekreditkarten enthalten eine Reisegepäckversicherung, damit Sie beim nächsten Koffer-Ärger abgesichert sind.<br>
+        <a href="https://www.tarifcheck.com/YKQ2R5K" target="_blank" rel="noopener nofollow sponsored" style="color: #891818; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Reisekreditkarten vergleichen</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+const pad = n => String(n).padStart(2, '0');
+function fmtMoney(n) { return n.toFixed(2).replace('.', ','); }
+function fmtDate(d) { return d.toLocaleDateString('de-DE', {day: '2-digit', month: '2-digit', year: 'numeric'}); }
+function fmtIso(s) { return fmtDate(new Date(s + 'T00:00:00')); }
+function daysSince(dateStr) {
+  const d = new Date(dateStr + 'T00:00:00');
+  const t = new Date(); t.setHours(0, 0, 0, 0);
+  return Math.round((t - d) / 86400000);
+}
+
+/* ---------- Vorlagen für Gegenstände ---------- */
+const PRESETS = [
+  { cat: 'Kleidung', rate: 25, list: [['T-Shirt', 20], ['Hemd / Bluse', 40], ['Pullover', 50], ['Hose / Jeans', 70], ['Kleid / Rock', 60], ['Jacke', 120], ['Unterwäsche (Stück)', 15], ['Socken (Paar)', 8], ['Badebekleidung', 40], ['Schlafanzug', 40], ['Sportbekleidung', 45], ['Mütze / Schal', 25]] },
+  { cat: 'Schuhe', rate: 25, list: [['Schuhe (Paar)', 90], ['Sandalen / Flip-Flops', 35], ['Sportschuhe', 100]] },
+  { cat: 'Pflege und Kosmetik', rate: 50, list: [['Kosmetik / Pflegeprodukte (Set)', 60], ['Parfum', 70]] },
+  { cat: 'Elektronik', rate: 25, list: [['Laptop', 900], ['Tablet', 450], ['Kamera', 600], ['Kopfhörer', 150], ['E-Reader', 120], ['Powerbank', 30], ['Ladegeräte / Kabel (Set)', 40], ['Elektrorasierer / Haartrockner', 70]] },
+  { cat: 'Uhren, Schmuck und Accessoires', rate: 10, list: [['Armbanduhr', 300], ['Schmuck', 200], ['Sonnenbrille', 120], ['Handtasche / Rucksack', 120], ['Geldbörse', 50]] },
+  { cat: 'Sport und Freizeit', rate: 15, list: [['Strandtuch', 25], ['Buch', 15], ['Yogamatte', 30], ['Fahrradhelm', 70], ['Tauchausrüstung (Set)', 500], ['Spielzeug (Kind)', 25]] },
+  { cat: 'Gepäckstück', rate: 15, list: [['Koffer / Reisetasche', 150]] }
+];
+
+let items = [];
+let nextId = 1;
+
+/* Preset-Chips aufbauen */
+(function buildPresets() {
+  const area = $('presetArea');
+  PRESETS.forEach(group => {
+    const h = document.createElement('div');
+    h.className = 'inv-cat';
+    h.textContent = group.cat;
+    area.appendChild(h);
+    const wrap = document.createElement('div');
+    wrap.className = 'inv-chips';
+    group.list.forEach(([name, price]) => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'inv-chip';
+      b.textContent = name;
+      b.addEventListener('click', () => addItem(name, price, group.rate, false));
+      wrap.appendChild(b);
+    });
+    area.appendChild(wrap);
+  });
+})();
+
+function zeitwert(it) {
+  const qty = Math.max(0, it.qty || 0);
+  const price = Math.max(0, it.price || 0);
+  if (it.notkauf) return Math.round(price * qty * 100) / 100;
+  const factor = Math.max(0.10, 1 - ((it.rate || 0) / 100) * Math.max(0, it.age || 0));
+  return Math.round(price * qty * factor * 100) / 100;
+}
+function neuwert(it) { return Math.round(Math.max(0, it.price || 0) * Math.max(0, it.qty || 0) * 100) / 100; }
+
+function addItem(name, price, rate, notkauf) {
+  items.push({ id: nextId++, name: name, qty: 1, price: price, age: 2, rate: rate, notkauf: notkauf });
+  renderItems();
+}
+$('addCustom').addEventListener('click', () => addItem('', 0, 20, false));
+$('addNotkauf').addEventListener('click', () => addItem('', 0, 0, true));
+
+function renderItems() {
+  const list = $('invList');
+  list.innerHTML = '';
+  items.forEach(it => {
+    const row = document.createElement('div');
+    row.className = 'inv-row' + (it.notkauf ? ' is-notkauf' : '');
+    row.innerHTML =
+      '<div class="inv-name"><label>' + (it.notkauf ? 'Notkauf (Bezeichnung)' : 'Gegenstand') + '</label><input type="text" data-f="name" placeholder="Bezeichnung"></div>' +
+      '<div><label>Menge</label><input type="number" min="1" step="1" data-f="qty"></div>' +
+      '<div><label>' + (it.notkauf ? 'Betrag laut Beleg (EUR)' : 'Neupreis je Stück (EUR)') + '</label><input type="number" min="0" step="0.01" data-f="price"></div>' +
+      '<div class="inv-hide-nk"><label>Alter (Jahre)</label><input type="number" min="0" step="0.5" data-f="age"></div>' +
+      '<div class="inv-hide-nk"><label>Wertverlust %/Jahr</label><input type="number" min="0" max="100" step="1" data-f="rate"></div>' +
+      '<div class="inv-end"><div><label>Zeitwert</label><div class="inv-val" data-f="val"></div></div><button type="button" class="inv-del" aria-label="Position entfernen" title="Entfernen">&times;</button></div>';
+    row.querySelectorAll('input[data-f]').forEach(inp => {
+      const f = inp.getAttribute('data-f');
+      inp.value = it[f] === 0 && f !== 'qty' && f !== 'price' ? 0 : it[f];
+      if (f === 'name') inp.value = it.name;
+      inp.addEventListener('input', () => {
+        it[f] = (f === 'name') ? inp.value : parseFloat(inp.value);
+        if (f !== 'name' && isNaN(it[f])) it[f] = 0;
+        row.querySelector('[data-f="val"]').textContent = fmtMoney(zeitwert(it)) + ' €';
+        updateTotals();
+      });
+    });
+    row.querySelector('[data-f="val"]').textContent = fmtMoney(zeitwert(it)) + ' €';
+    row.querySelector('.inv-del').addEventListener('click', () => { items = items.filter(x => x.id !== it.id); renderItems(); });
+    list.appendChild(row);
+  });
+  $('invEmpty').classList.toggle('kk-hidden', items.length > 0);
+  updateTotals();
+}
+
+function totals() {
+  let z = 0, n = 0;
+  items.forEach(it => { z += zeitwert(it); n += neuwert(it); });
+  return { zeit: Math.round(z * 100) / 100, neu: Math.round(n * 100) / 100 };
+}
+
+function updateTotals() {
+  const t = totals();
+  $('liveAmount').textContent = t.zeit.toLocaleString('de-DE', { style: 'currency', currency: 'EUR' });
+  $('liveSub').textContent = items.length + ' Positionen, Neuwert ' + t.neu.toLocaleString('de-DE', { style: 'currency', currency: 'EUR' });
+  $('limitText').textContent = (t.zeit > 1800 && $('fEmpf').value === 'airline')
+    ? 'Ihre Aufstellung liegt möglicherweise über dem Haftungshöchstbetrag der Airline (1.519 SZR, derzeit grob 1.800 bis 1.950 Euro je nach Kurs). Darüber hinausgehende Beträge erstattet die Airline in der Regel nicht. Eine Reisegepäckversicherung kann hier helfen.'
+    : 'Haftungshöchstbetrag der Airline bei Gepäck: 1.519 SZR je Fluggast, derzeit grob 1.800 bis 1.950 Euro je nach Kurs.';
+}
+
+/* ---------- Fristen-Check und UI ---------- */
+function updateFrist() {
+  const art = $('fSchaden').value;
+  const d = $('fAnkunft').value;
+  const titles = {
+    beschaedigt: 'Anzeigefrist bei Beschädigung: 7 Tage nach Erhalt',
+    verspaetet: 'Anzeigefrist bei Verspätung: 21 Tage nach Zurverfügungstellung',
+    verloren: 'Gepäck gilt nach 21 Tagen ohne Auslieferung als verloren'
+  };
+  $('fristTitle').textContent = titles[art];
+  if (!d) { $('fristText').textContent = 'Tragen Sie das Datum ein, dann zeigen wir, wie viele Tage Ihnen bleiben.'; return; }
+  const days = daysSince(d);
+  if (days < 0) { $('fristText').textContent = 'Das Datum liegt in der Zukunft. Bitte prüfen Sie Ihre Eingabe.'; return; }
+  let s = 'Seit dem gewählten Datum sind ' + days + ' Tage vergangen. ';
+  if (art === 'beschaedigt') {
+    s += days <= 7 ? 'Sie haben noch ' + (7 - days) + ' Tage für die schriftliche Anzeige. Senden Sie sie möglichst sofort.' : 'Die 7-Tage-Frist ist überschritten. Zeigen Sie den Schaden dennoch umgehend schriftlich an, Ansprüche können jedoch gefährdet sein. Ist die Airline mit einem Arglist-Vorwurf konfrontiert oder haben Sie bereits am Flughafen gemeldet, nennen Sie das im Schreiben.';
+  } else if (art === 'verspaetet') {
+    s += days <= 21 ? 'Sie haben noch ' + (21 - days) + ' Tage für die schriftliche Anzeige. Sammeln Sie Belege für Notkäufe.' : 'Die 21-Tage-Frist ist überschritten. Zeigen Sie die Verspätung dennoch umgehend schriftlich an.';
+  } else {
+    s += days >= 21 ? 'Das Gepäck gilt als verloren, Sie können Ihre Ansprüche jetzt geltend machen. Die Ausschlussfrist für Klagen beträgt zwei Jahre.' : 'Bis zum 21. Tag kann das Gepäck noch auftauchen (noch ' + (21 - days) + ' Tage). Erfassen Sie den Inhalt trotzdem schon jetzt und sammeln Sie Belege für Notkäufe.';
+  }
+  $('fristText').textContent = s;
+}
+
+function updateUI() {
+  const vers = $('fEmpf').value === 'versicherung';
+  $('versGroup').classList.toggle('kk-hidden', !vers);
+  $('aNameLabel').textContent = vers ? 'Reisegepäckversicherer:' : 'Fluggesellschaft:';
+  $('aName').setAttribute('list', vers ? 'versListe' : 'empfListe');
+  $('fAnkunftLabel').textContent = $('fSchaden').value === 'beschaedigt'
+    ? 'Datum der Gepäckausgabe:'
+    : ($('fSchaden').value === 'verspaetet' ? 'Datum, an dem Sie das Gepäck zurückerhalten haben:' : 'Datum Ihrer Ankunft (geplante Gepäckausgabe):');
+  updateFrist();
+  updateTotals();
+}
+['fEmpf', 'fSchaden', 'fAnkunft'].forEach(id => { $(id).addEventListener('change', updateUI); $(id).addEventListener('input', updateUI); });
+updateUI();
+
+/* ---------- Schreiben und PDF ---------- */
+const SCHADEN_LABEL = { verloren: 'Verlust', beschaedigt: 'Beschädigung', verspaetet: 'Verspätung mit Notkäufen' };
+
+function validate(list) {
+  const missing = list.filter(([id]) => !$(id).value.trim()).map(([, label]) => label);
+  if (missing.length) { alert('Bitte ergänzen Sie: ' + missing.join(', ') + '.'); return false; }
+  return true;
+}
+
+document.getElementById('gepaeckForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  const req = [['aName', 'Empfänger'], ['fFlugnr', 'Flugnummer'], ['fFlugDatum', 'Datum des Fluges'], ['fVon', 'Abflugort'], ['fNach', 'Zielort'], ['fBag', 'Gepäckschein-Nummer'], ['sName', 'Ihr Name'], ['sStrasse', 'Straße'], ['sPLZOrt', 'PLZ und Ort'], ['bIBAN', 'IBAN']];
+  if (!validate(req)) return;
+  if (items.length === 0) { alert('Bitte fügen Sie mindestens einen Gegenstand zur Liste hinzu.'); return; }
+  const bad = items.filter(it => !it.name.trim() || !(it.price > 0) || !(it.qty > 0));
+  if (bad.length) { alert('Bitte vervollständigen Sie alle Positionen (Bezeichnung, Menge und Preis müssen ausgefüllt sein) oder entfernen Sie leere Zeilen.'); return; }
+
+  const art = $('fSchaden').value;
+  const empfTyp = $('fEmpf').value;
+  const empf = $('aName').value.trim();
+  const empfAdr = $('aAdresse').value.trim();
+  const police = $('fPolice').value.trim();
+  const flugnr = $('fFlugnr').value.trim();
+  const flugDatum = fmtIso($('fFlugDatum').value);
+  const von = $('fVon').value.trim();
+  const nach = $('fNach').value.trim();
+  const bag = $('fBag').value.trim();
+  const pir = $('fPIR').value.trim();
+  const melde = $('fMelde').value ? fmtIso($('fMelde').value) : '';
+  const ankunft = $('fAnkunft').value ? fmtIso($('fAnkunft').value) : '';
+  const schilderung = $('fSchilderung').value.trim();
+  const sName = $('sName').value.trim();
+  const sStrasse = $('sStrasse').value.trim();
+  const sPLZOrt = $('sPLZOrt').value.trim();
+  const iban = $('bIBAN').value.trim();
+  const t = totals();
+  const zeitStr = fmtMoney(t.zeit) + ' EUR';
+  const neuStr = fmtMoney(t.neu) + ' EUR';
+
+  const todayStr = fmtDate(new Date());
+  const dl14 = new Date(); dl14.setDate(dl14.getDate() + 14);
+  const dlStr = fmtDate(dl14);
+
+  const anlagenZeilen = ['Inventarliste mit Zeitwerten (Anlage 1)'];
+  document.querySelectorAll('#anlagenBoxen input[type="checkbox"]').forEach(cb => { if (cb.checked) anlagenZeilen.push(cb.getAttribute('data-text')); });
+  const anlagenNum = anlagenZeilen.map((a, i) => (i + 1) + '. ' + a);
+
+  let betreff, facts = [], paras = [];
+  const artText = { verloren: 'verlorenes', beschaedigt: 'beschädigtes', verspaetet: 'verspätet ausgeliefertes' }[art];
+
+  facts.push(['Flug:', flugnr + ', ' + von + ' - ' + nach]);
+  facts.push(['Flugdatum:', flugDatum]);
+  facts.push(['Gepäckschein-Nr.:', bag]);
+  if (pir) facts.push(['Schadensprotokoll (PIR):', pir]);
+  facts.push(['Schadenart:', SCHADEN_LABEL[art]]);
+  if (empfTyp === 'versicherung' && police) facts.push(['Versicherungsnummer:', police]);
+  facts.push(['Zeitwert gesamt:', zeitStr]);
+
+  const sachverhalt = {
+    verloren: 'mein aufgegebenes Reisegepäck (Gepäckschein-Nr. ' + bag + ') ist bei dem oben genannten Flug nicht bei mir angekommen' + (ankunft ? ' (geplante Ankunft: ' + ankunft + ')' : '') + '. ' + (melde ? 'Ich habe den Verlust am ' + melde + ' am Flughafen gemeldet' + (pir ? ' (Referenz: ' + pir + ')' : '') + '. ' : '') + 'Das Gepäck wurde mir bis heute nicht ausgeliefert.',
+    beschaedigt: 'mein aufgegebenes Reisegepäck (Gepäckschein-Nr. ' + bag + ') ist bei dem oben genannten Flug beschädigt bei mir angekommen' + (ankunft ? ' (Gepäckausgabe am ' + ankunft + ')' : '') + '. ' + (melde ? 'Ich habe den Schaden am ' + melde + ' am Flughafen gemeldet' + (pir ? ' (Referenz: ' + pir + ')' : '') + '. ' : '') + 'Hiermit zeige ich den Schaden ausdrücklich schriftlich an.',
+    verspaetet: 'mein aufgegebenes Reisegepäck (Gepäckschein-Nr. ' + bag + ') wurde bei dem oben genannten Flug verspätet ausgeliefert' + (ankunft ? ' (Rückerhalt am ' + ankunft + ')' : '') + '. ' + (melde ? 'Ich habe die Verspätung am ' + melde + ' am Flughafen gemeldet' + (pir ? ' (Referenz: ' + pir + ')' : '') + '. ' : '') + 'Hiermit zeige ich den Schaden ausdrücklich schriftlich an. Während der Verspätung musste ich notwendige Gegenstände ersatzweise kaufen.'
+  }[art];
+
+  if (empfTyp === 'airline') {
+    betreff = 'Schadenersatz für ' + artText + ' Reisegepäck - Flug ' + flugnr + ' am ' + flugDatum;
+    paras.push(sachverhalt);
+    if (schilderung) paras.push('Ergänzende Schilderung: ' + schilderung);
+    paras.push('Sie haften hierfür nach dem Montrealer Übereinkommen (Art. 17 Abs. 2, bei Verspätung Art. 19 MÜ). Die betroffenen Gegenstände ergeben sich aus der beigefügten Inventarliste (Anlage 1). Der Zeitwert beträgt insgesamt ' + zeitStr + ' (Neuwert: ' + neuStr + '). Die Wertansätze beruhen auf Anschaffungspreis, Alter und üblicher Wertminderung.');
+    paras.push('Ich fordere Sie auf, mir Schadenersatz in Höhe von ' + zeitStr + ', höchstens bis zum Haftungshöchstbetrag nach Art. 22 Abs. 2 MÜ, bis zum ' + dlStr + ' auf folgendes Konto zu zahlen:\nKontoinhaber: ' + sName + '\nIBAN: ' + iban);
+  } else {
+    betreff = 'Leistungsantrag Reisegepäckversicherung - ' + SCHADEN_LABEL[art] + ' - Flug ' + flugnr + ' am ' + flugDatum;
+    paras.push(sachverhalt);
+    if (schilderung) paras.push('Ergänzende Schilderung: ' + schilderung);
+    paras.push('Die betroffenen Gegenstände ergeben sich aus der beigefügten Inventarliste (Anlage 1). Der Zeitwert beträgt insgesamt ' + zeitStr + ' (Neuwert: ' + neuStr + '). Ich bitte um Prüfung und Leistung nach Maßgabe der Versicherungsbedingungen und um Überweisung bis zum ' + dlStr + ' auf folgendes Konto:\nKontoinhaber: ' + sName + '\nIBAN: ' + iban);
+    paras.push('Eine Entschädigung der Fluggesellschaft für dieselben Gegenstände ist bislang nicht erfolgt. Ich werde Sie über eine solche Leistung informieren.');
+  }
+  const abschluss = 'Ich versichere, dass meine Angaben wahrheitsgemäß sind und die aufgeführten Gegenstände im Gepäck waren. Bitte bestätigen Sie mir den Eingang dieses Schreibens und teilen Sie mir mit, falls weitere Unterlagen benötigt werden.';
+
+  /* Inventar-Klartext */
+  const invText = items.map((it, i) => {
+    const nm = (it.name.trim() + (it.notkauf ? ' (Notkauf)' : '')).slice(0, 34).padEnd(34);
+    const detail = it.notkauf ? ('Beleg: ' + fmtMoney(it.price)) : (it.qty + 'x ' + fmtMoney(it.price) + ', ' + it.age + ' J.');
+    return String(i + 1).padStart(2, ' ') + '. ' + nm + ' ' + detail.padEnd(22) + ' ' + fmtMoney(zeitwert(it)) + ' EUR';
+  }).join('\n');
+
+  let plain = sName + '\n' + sStrasse + '\n' + sPLZOrt + '\n\n' + empf + (empfAdr ? '\n' + empfAdr : '') + '\n\nDatum: ' + todayStr + '\n\n' +
+    'Betreff: ' + betreff + '\n' + facts.map(f => f[0] + ' ' + f[1]).join('\n') + '\n\nSehr geehrte Damen und Herren,\n\n' + paras.join('\n\n') +
+    '\n\nAnlagen:\n' + anlagenNum.join('\n') + '\n\n' + abschluss + '\n\nMit freundlichen Grüßen\n' + sName +
+    '\n\n----------------------------------------\nANLAGE 1: INVENTARLISTE\n----------------------------------------\n' + invText +
+    '\n----------------------------------------\nNeuwert gesamt: ' + neuStr + '\nZeitwert gesamt: ' + zeitStr +
+    '\n\nBerechnung: Zeitwert = Neupreis x Menge x (1 - Wertverlust p. a. x Alter), mindestens 10 % des Neupreises. Notkäufe zum belegten Betrag.';
+
+  /* PDF */
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF();
+  const pageH = 297, marginBottom = 20, lineH = 6;
+  function ensure(y, needed) { if (y + (needed || lineH) > pageH - marginBottom) { doc.addPage(); return 30; } return y; }
+  function write(text, y, x, width) {
+    const lines = doc.splitTextToSize(text, width || 160);
+    lines.forEach(l => { y = ensure(y); doc.text(l, x || 25, y); y += lineH; });
+    return y;
+  }
+
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(8);
+  doc.setTextColor(100, 100, 100);
+  doc.text(sName + ' - ' + sStrasse + ' - ' + sPLZOrt, 25, 45);
+  doc.setLineWidth(0.2);
+  doc.setDrawColor(150, 150, 150);
+  doc.line(25, 46.5, 95, 46.5);
+
+  doc.setFontSize(11);
+  doc.setTextColor(0, 0, 0);
+  doc.text(doc.splitTextToSize(empf + (empfAdr ? '\n' + empfAdr : ''), 80), 25, 53);
+
+  doc.setFontSize(10);
+  doc.text('Absender:', 130, 45);
+  doc.setFont('helvetica', 'bold');
+  doc.text(sName, 130, 50);
+  doc.setFont('helvetica', 'normal');
+  doc.text(sStrasse, 130, 55);
+  doc.text(sPLZOrt, 130, 60);
+  doc.text('Datum: ' + todayStr, 185, 80, { align: 'right' });
+
+  doc.setFontSize(12);
+  doc.setFont('helvetica', 'bold');
+  const betreffLines = doc.splitTextToSize(betreff, 160);
+  doc.text(betreffLines, 25, 95);
+
+  doc.setFontSize(10.5);
+  let fy = 95 + betreffLines.length * 6 + 4;
+  facts.forEach(f => {
+    doc.setFont('helvetica', 'bold');
+    doc.text(f[0], 25, fy);
+    doc.setFont('helvetica', 'normal');
+    doc.text(doc.splitTextToSize(f[1], 100), 75, fy);
+    fy += 5.5;
+  });
+  doc.setDrawColor(0, 0, 0);
+  doc.line(25, fy, 185, fy);
+
+  let y = fy + 12;
+  doc.setFontSize(11);
+  y = write('Sehr geehrte Damen und Herren,', y); y += 3;
+  paras.forEach(p => { y = write(p, y); y += 3; });
+
+  doc.setFont('helvetica', 'bold');
+  y = ensure(y); doc.text('Anlagen:', 25, y); y += lineH;
+  doc.setFont('helvetica', 'normal');
+  anlagenNum.forEach(a => { y = write(a, y, 30, 150); });
+  y += 3;
+  y = write(abschluss, y); y += 10;
+
+  y = ensure(y, 40);
+  doc.text('Mit freundlichen Grüßen', 25, y);
+  y += 25;
+  doc.setLineWidth(0.5);
+  doc.line(25, y, 80, y);
+  doc.line(100, y, 185, y);
+  doc.setFontSize(9);
+  doc.setTextColor(100, 100, 100);
+  doc.text('Ort, Datum', 25, y + 5);
+  doc.text('Unterschrift (' + sName + ')', 100, y + 5);
+
+  /* Anlage 1: Inventarliste */
+  doc.addPage();
+  doc.setTextColor(0, 0, 0);
+  y = 30;
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(13);
+  doc.text('Anlage 1: Inventarliste', 25, y); y += 7;
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(9);
+  doc.text(sName + ' | Gepäckschein-Nr. ' + bag + ' | Flug ' + flugnr + ' am ' + flugDatum, 25, y); y += 8;
+
+  function tableHeader() {
+    doc.setFont('helvetica', 'bold');
+    doc.setFontSize(9.5);
+    doc.text('Nr.', 25, y);
+    doc.text('Gegenstand', 33, y);
+    doc.text('Menge', 112, y, { align: 'right' });
+    doc.text('Preis/Stk.', 135, y, { align: 'right' });
+    doc.text('Alter', 153, y, { align: 'right' });
+    doc.text('Zeitwert', 185, y, { align: 'right' });
+    y += 2;
+    doc.setLineWidth(0.3);
+    doc.line(25, y, 185, y);
+    y += 5;
+    doc.setFont('helvetica', 'normal');
+  }
+  tableHeader();
+  items.forEach((it, i) => {
+    const nameLines = doc.splitTextToSize(it.name.trim() + (it.notkauf ? ' (Notkauf, Beleg)' : ''), 72);
+    const h = nameLines.length * 5 + 2;
+    if (y + h > pageH - marginBottom) { doc.addPage(); y = 30; tableHeader(); }
+    doc.setFontSize(9.5);
+    doc.text(String(i + 1), 25, y);
+    doc.text(nameLines, 33, y);
+    doc.text(String(it.qty), 112, y, { align: 'right' });
+    doc.text(fmtMoney(it.price), 135, y, { align: 'right' });
+    doc.text(it.notkauf ? '-' : (it.age + ' J.'), 153, y, { align: 'right' });
+    doc.text(fmtMoney(zeitwert(it)), 185, y, { align: 'right' });
+    y += h;
+  });
+  y += 2;
+  if (y + 24 > pageH - marginBottom) { doc.addPage(); y = 30; }
+  doc.setLineWidth(0.3);
+  doc.line(25, y, 185, y); y += 6;
+  doc.setFont('helvetica', 'normal');
+  doc.text('Neuwert gesamt:', 135, y, { align: 'right' });
+  doc.text(neuStr, 185, y, { align: 'right' }); y += 6;
+  doc.setFont('helvetica', 'bold');
+  doc.text('Zeitwert gesamt:', 135, y, { align: 'right' });
+  doc.text(zeitStr, 185, y, { align: 'right' }); y += 10;
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(8.5);
+  doc.setTextColor(100, 100, 100);
+  const note = doc.splitTextToSize('Berechnung: Zeitwert = Neupreis x Menge x (1 - Wertverlust pro Jahr x Alter), mindestens 10 % des Neupreises. Notkäufe sind zum belegten Betrag angesetzt. Die Wertansätze beruhen auf eigener Einschätzung des Absenders.', 160);
+  doc.text(note, 25, y);
+
+  const out = $('textOutputArea');
+  out.style.display = 'block';
+  $('plainTextResult').value = plain;
+  out.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+  doc.save('Gepaeck_Inventarliste_' + empf.replace(/[^a-zA-Z0-9]/g, '_') + '_' + bag.replace(/[^a-zA-Z0-9]/g, '') + '.pdf');
+  setTimeout(() => $('donateOverlay').classList.add('active'), 800);
+});
+
+/* ---------- Spenden-Overlay ---------- */
+const PAYPAL_EMAIL = 'info@kassen-lotse.de';
+let donateAmount = 5;
+
+function selectPreset(amount, btn) {
+  donateAmount = amount;
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  $('customAmount').value = '';
+  $('customAmount').classList.remove('selected-custom');
+  updateDonateButton();
+}
+function handleCustomInput(input) {
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  const val = parseFloat(input.value);
+  if (val && val >= 1) { donateAmount = val; input.classList.add('selected-custom'); }
+  else { donateAmount = 0; input.classList.remove('selected-custom'); }
+  updateDonateButton();
+}
+function updateDonateButton() {
+  const btn = $('btnDonate');
+  if (donateAmount >= 1) {
+    btn.textContent = 'Jetzt ' + (donateAmount % 1 === 0 ? donateAmount : donateAmount.toFixed(2)) + ' € spenden';
+    btn.disabled = false;
+  } else {
+    btn.textContent = 'Betrag eingeben';
+    btn.disabled = true;
+  }
+}
+function openPayPal() {
+  if (donateAmount < 1) return;
+  const url = 'https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=' + encodeURIComponent(PAYPAL_EMAIL) + '&amount=' + donateAmount.toFixed(2) + '&currency_code=EUR&item_name=Fix my Trip+Unterst%C3%BCtzung&no_note=1&no_shipping=1';
+  window.open(url, '_blank');
+  closeOverlay();
+}
+function closeOverlay() { $('donateOverlay').classList.remove('active'); }
+$('donateOverlay').addEventListener('click', function(e) { if (e.target === this) closeOverlay(); });
+
+/* ---------- Kopier-Button ---------- */
+function legacyCopy(textArea) {
+  return new Promise((resolve, reject) => {
+    const ta = document.createElement('textarea');
+    ta.value = textArea.value;
+    ta.setAttribute('contenteditable', 'true');
+    ta.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;font-size:16px;-webkit-user-select:text;user-select:text;';
+    document.body.appendChild(ta);
+    ta.focus(); ta.select(); ta.setSelectionRange(0, ta.value.length);
+    let ok = false;
+    try { ok = document.execCommand('copy'); } catch (err) {}
+    document.body.removeChild(ta);
+    ok ? resolve() : reject();
+  });
+}
+function copyText(textArea) {
+  return new Promise((resolve, reject) => {
+    legacyCopy(textArea).then(resolve).catch(() => {
+      if (navigator.clipboard && window.isSecureContext) {
+        const timer = setTimeout(reject, 1500);
+        navigator.clipboard.writeText(textArea.value)
+          .then(() => { clearTimeout(timer); resolve(); })
+          .catch(() => { clearTimeout(timer); reject(); });
+      } else { reject(); }
+    });
+  });
+}
+$('copyToClipboardBtn').addEventListener('click', function() {
+  const btn = this;
+  copyText($('plainTextResult')).then(() => {
+    const original = btn.innerHTML;
+    btn.innerHTML = 'Erfolgreich kopiert';
+    btn.style.background = '#2e7d32';
+    setTimeout(() => { btn.innerHTML = original; btn.style.background = '#aa3131'; }, 3000);
+  }).catch(() => {
+    alert('Fehler beim Kopieren. Bitte markieren Sie den Text manuell.');
+  });
+});
+</script>
+
+</body>
+</html>

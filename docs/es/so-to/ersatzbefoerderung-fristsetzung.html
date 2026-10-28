@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>¿Vuelo cancelado? Exigir tren o taxi alternativo (PDF)</title>
+
+  <meta name="description" content="¿La aerolínea no ofrece alternativas? Reserve un tren o taxi usted mismo: Generador gratuito para establecer plazos y solicitar el reembolso de gastos en 1 min.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="canonical" href="https://www.fix-my-trip.com/es/so-to/ersatzbefoerderung-fristsetzung.html">
+
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/so-to/ersatzbefoerderung-fristsetzung.html">
+<link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/so-to/ersatzbefoerderung-fristsetzung.html">
+<link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/so-to/ersatzbefoerderung-fristsetzung.html">
+<link rel="alternate" hreflang="it" href="https://www.fix-my-trip.com/it/so-to/ersatzbefoerderung-fristsetzung.html">
+<link rel="alternate" hreflang="nl" href="https://www.fix-my-trip.com/nl/so-to/ersatzbefoerderung-fristsetzung.html">
+<link rel="alternate" hreflang="pt" href="https://www.fix-my-trip.com/pt/so-to/ersatzbefoerderung-fristsetzung.html">
+<link rel="alternate" hreflang="en-gb" href="https://www.fix-my-trip.com/en-gb/so-to/ersatzbefoerderung-fristsetzung.html">
+<link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/en-gb/so-to/ersatzbefoerderung-fristsetzung.html">
+
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <style>
+    /* Ersatzbeförderung-Taxi-Zug */
+    #ersatzForm select { width: 100%; padding: 10px; font-size: 1em; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; background: #fff; margin-bottom: 12px; }
+    #ersatzForm input[type="date"], #ersatzForm input[type="time"] { width: 100%; padding: 10px; font-size: 1em; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 12px; }
+    .kk-table-wrap { overflow-x: auto; margin: 20px 0; }
+    .kk-table { width: 100%; border-collapse: collapse; font-size: 0.95em; }
+    .kk-table th, .kk-table td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #e3e3e3; vertical-align: top; }
+    .kk-table th { background: #faf3f3; color: #891818; }
+    .kk-chip-list { display: flex; flex-wrap: wrap; gap: 8px; margin: 15px 0; padding: 0; list-style: none; }
+    .kk-chip-list li { background: #f7f7f7; border: 1px solid #e5e5e5; border-radius: 20px; padding: 5px 14px; font-size: 0.9em; color: #444; }
+    .kk-route-text { font-size: 0.95em; font-weight: normal; line-height: 1.5; margin-top: 8px; }
+    .kk-hidden { display: none; }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Exigir transporte alternativo: Establecimiento de plazos y reembolso por cancelación de vuelo",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "All",
+    "description": "Generador gratuito de escritos para dar un plazo a la aerolínea para un transporte alternativo tras una cancelación y para el posterior reembolso de gastos si viaja por su cuenta en tren, taxi o coche de alquiler. No es asesoramiento legal.",
+    "offers": { "@type": "Offer", "price": "0.00", "priceCurrency": "EUR" }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Puedo reservar un tren o un taxi yo mismo si cancelan mi vuelo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No siempre es seguro que la aerolínea reembolse los gastos. Lo mejor es dar a la aerolínea un plazo razonable por escrito para que ofrezca un transporte alternativo y solo reservar por su cuenta si no le ofrecen nada razonable. Documente todo y mantenga los gastos dentro de unos límites lógicos."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué plazo se considera razonable?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No hay un plazo fijo establecido por ley. Lo razonable depende de la situación, la urgencia y la disponibilidad de alternativas. En el aeropuerto se suelen dar plazos de entre una y tres horas. No confíe en promesas verbales, deje constancia del plazo por escrito."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Tengo derecho a un transporte alternativo si hay un retraso?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "En caso de un simple retraso, el Reglamento de Derechos de los Pasajeros prevé principalmente el derecho de atención y, a partir de cinco horas de retraso, el reembolso del billete. El derecho a un transporte alternativo según el Reglamento existe sobre todo en caso de cancelación y denegación de embarque. Aun así, pida a la aerolínea que le reubique en otro vuelo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿La aerolínea me tiene que pagar comida y hotel?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "En caso de cancelación, denegación de embarque o grandes retrasos, la aerolínea debe ofrecer derecho de atención: comidas y refrescos, dos medios de comunicación y, si es necesario, alojamiento en un hotel y los traslados. Esto se aplica, en principio, incluso en circunstancias extraordinarias como mal tiempo o huelgas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Es lo mismo la compensación económica que el reembolso de los gastos alternativos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. La compensación económica fija del artículo 7 del Reglamento (de 250 a 600 euros) es un derecho independiente que depende de la distancia del vuelo y de si hubo circunstancias extraordinarias. El reembolso de los gastos de su transporte alternativo se puede reclamar de forma adicional."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué debo hacer si reservé un viaje combinado?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Póngase en contacto también con su turoperador o guía turístico. En los viajes combinados, se aplican además las normativas de la Ley de Consumidores y Usuarios, y el turoperador es su socio contractual para solucionar el problema."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script src="../../js/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="../index.html" class="site-logo">Fix my Trip</a>
+  <span style="font-size: 0.9em; color: #666;">Sus derechos en viajes combinados</span>
+</header>
+
+<div class="page-container">
+
+  <h1>Vuelo cancelado: Exigir transporte alternativo en tren o taxi y solicitar el reembolso</h1>
+
+  <div class="usp-bar">
+    <div class="usp-item">Plazo establecido en minutos</div>
+    <div class="usp-item">Calculadora de plazos en vivo</div>
+    <div class="usp-item">Reembolso de gastos a posteriori</div>
+    <div class="usp-item">Sus datos no salen de su navegador</div>
+  </div>
+
+  <p>¿Han cancelado su vuelo y la aerolínea no le ofrece una alternativa viable? Con esta herramienta podrá dejar constancia por escrito de que exige un <strong>transporte alternativo</strong> y establecer un plazo para que la aerolínea cumpla. Si no le ofrecen nada razonable, puede organizar el viaje por su cuenta (por ejemplo, en tren, taxi o coche de alquiler) y reclamar posteriormente los gastos justificados con nuestro segundo modelo de escrito.</p>
+
+  <div class="info-box warning">
+    <strong>¿Poco tiempo? Siga estos pasos:</strong> Seleccione abajo "Estoy atrapado ahora mismo", rellene los campos obligatorios y copie el texto generado. Envíelo por correo electrónico, chat o formulario de contacto de la aerolínea y haga una captura de pantalla como prueba. En caso de peligro inminente o problemas médicos, diríjase primero al personal del aeropuerto o llame al <strong>112</strong>.
+  </div>
+
+  <div class="legal-info-box">
+    <strong>Aviso importante sobre el uso</strong><br>
+    Esta herramienta es un <strong>generador automático de escritos</strong> (ayuda de autogestión). Inserta sus datos en una plantilla general. <strong>No se realiza un análisis de su caso concreto</strong>. El hecho de que la aerolínea reembolse los gastos de un viaje organizado por usted mismo depende de cada caso, especialmente de que el plazo y los costes sean razonables. No hay garantía de éxito. Este servicio no sustituye el asesoramiento de un abogado.
+  </div>
+
+  <div class="highlight-box pruefdatum-box" role="note" aria-label="Revisado por redacción" style="margin-top: 15px; margin-bottom: 30px;">
+    <p><strong>Revisado por redacción el:</strong> <span id="pruefdatum">26.10.2026</span></p>
+  </div>
+
+  <form id="ersatzForm" novalidate>
+
+    <fieldset>
+      <legend>1. Su situación</legend>
+
+      <label for="fPhase">¿Qué necesita en este momento?</label>
+      <select id="fPhase">
+        <option value="vorort">Estoy atrapado ahora mismo: Dar un plazo para un transporte alternativo</option>
+        <option value="nachher">He pagado el transporte alternativo: Exigir el reembolso de los gastos</option>
+      </select>
+
+      <label for="fStoerung">¿Qué ha ocurrido?</label>
+      <select id="fStoerung">
+        <option value="annulliert">Mi vuelo ha sido cancelado</option>
+        <option value="nichtbefoerdert">Me han denegado el embarque (ej. overbooking)</option>
+        <option value="anschluss">He perdido mi vuelo de conexión debido a un retraso (una sola reserva)</option>
+        <option value="verspaetet">Mi vuelo tiene más de 5 horas de retraso</option>
+      </select>
+
+      <div id="vorortFrist">
+        <label for="fUhrzeit">Hora actual (hora local):</label>
+        <input type="time" id="fUhrzeit">
+
+        <label for="fFristH">Plazo deseado para la aerolínea:</label>
+        <select id="fFristH">
+          <option value="1">1 hora</option>
+          <option value="2" selected>2 horas</option>
+          <option value="3">3 horas</option>
+          <option value="4">4 horas</option>
+        </select>
+      </div>
+
+      <div class="calc-banner" id="routeBanner" aria-live="polite">
+        <span id="bannerLabel">Su plazo termina a las:</span><br>
+        <span id="liveDeadline">--:-- h</span>
+        <div class="kk-route-text" id="routeText" style="font-size: 0.5em;"></div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>2. Vuelo y Aerolínea</legend>
+
+      <label for="aName">Aerolínea:</label>
+      <input type="text" id="aName" list="airlineListe" placeholder="ej. Nombre de la aerolínea" autocomplete="off">
+      <datalist id="airlineListe">
+        <option value="Iberia">
+        <option value="Vueling">
+        <option value="Air Europa">
+        <option value="Volotea">
+        <option value="Binter Canarias">
+        <option value="Ryanair">
+        <option value="easyJet">
+        <option value="Lufthansa">
+        <option value="Air France">
+        <option value="KLM">
+        <option value="Wizz Air">
+        <option value="British Airways">
+        <option value="TAP Air Portugal">
+        <option value="ITA Airways">
+        <option value="Turkish Airlines">
+        <option value="Emirates">
+        <option value="Eurowings">
+        <option value="Condor">
+        <option value="Pegasus">
+        <option value="Transavia">
+        <option value="SAS">
+        <option value="Finnair">
+      </datalist>
+
+      <label for="aKontakt">Dirección o email de la aerolínea (opcional):</label>
+      <textarea id="aKontakt" rows="2" placeholder="ej. Formulario web, email o dirección postal según la web de la aerolínea"></textarea>
+
+      <label for="fFlugnr">Número de vuelo:</label>
+      <input type="text" id="fFlugnr" placeholder="ej. IB1234">
+
+      <label for="fDatum">Fecha del vuelo programado:</label>
+      <input type="date" id="fDatum">
+
+      <label for="fVon">Aeropuerto de salida:</label>
+      <input type="text" id="fVon" placeholder="ej. Madrid">
+
+      <label for="fNach">Destino final de su viaje:</label>
+      <input type="text" id="fNach" placeholder="ej. Barcelona">
+
+      <label for="fPNR">Localizador (6 caracteres) o número de billete:</label>
+      <input type="text" id="fPNR" placeholder="ej. AB12CD">
+
+      <label for="fPass">Nombre(s) de los pasajeros:</label>
+      <input type="text" id="fPass" placeholder="ej. Juan Pérez, María García">
+    </fieldset>
+
+    <!-- Phase 1 -->
+    <fieldset id="phase1Box">
+      <legend>3. Su exigencia a la aerolínea</legend>
+
+      <label for="fWunsch">¿Qué transporte alternativo le conviene?</label>
+      <select id="fWunsch">
+        <option value="un transporte alternativo adecuado lo antes posible">Cualquier transporte alternativo adecuado</option>
+        <option value="un vuelo alternativo, incluso con otra aerolínea">Vuelo alternativo, incluso con otra aerolínea</option>
+        <option value="un transporte en tren">Tren</option>
+        <option value="un transporte en taxi o coche de alquiler">Taxi o coche de alquiler</option>
+        <option value="un transporte en autobús">Autobús</option>
+      </select>
+
+      <div class="checkbox-group">
+        <label><input type="checkbox" id="fBetreuung" checked> Exigir además el derecho de atención (comida, bebida y, si es necesario, hotel con traslados)</label>
+      </div>
+
+      <label for="fTel">Su número de móvil para contacto (opcional):</label>
+      <input type="text" id="fTel" placeholder="+34 ...">
+
+      <label for="fMail">Su dirección de correo electrónico (opcional):</label>
+      <input type="text" id="fMail" placeholder="nombre@ejemplo.es">
+    </fieldset>
+
+    <!-- Phase 2 -->
+    <fieldset id="phase2Box" class="kk-hidden">
+      <legend>3. Transporte alternativo organizado por usted</legend>
+
+      <label for="fFristZeit">¿Cuándo estableció el plazo a la aerolínea? (Fecha y hora)</label>
+      <input type="text" id="fFristZeit" placeholder="ej. 03.08.2026, 14:10 h, por email">
+
+      <label for="fAntwort">¿Cómo reaccionó la aerolínea?</label>
+      <select id="fAntwort">
+        <option value="keine">No recibí respuesta dentro del plazo</option>
+        <option value="nichts_zumutbares">No me ofrecieron ninguna alternativa razonable</option>
+        <option value="zu_spaet">La oferta llegó muy tarde y ya no era viable para mí</option>
+        <option value="abgelehnt">Me denegaron el transporte alternativo</option>
+      </select>
+
+      <label for="fMittel">¿Qué medio de transporte utilizó al final?</label>
+      <select id="fMittel">
+        <option value="Tren">Tren</option>
+        <option value="Taxi">Taxi</option>
+        <option value="Coche de alquiler">Coche de alquiler</option>
+        <option value="Autobús">Autobús</option>
+        <option value="Vuelo alternativo">Vuelo alternativo</option>
+        <option value="Otro medio de transporte">Otro medio de transporte</option>
+      </select>
+
+      <label for="fStrecke">Trayecto y fecha del viaje alternativo:</label>
+      <input type="text" id="fStrecke" placeholder="ej. Tren Madrid - Valencia, 03.08.2026">
+
+      <label for="fKosten">Coste total (Euros):</label>
+      <input type="number" step="0.01" id="fKosten" placeholder="ej. 128.50">
+
+      <label for="bIBAN">IBAN para el reembolso:</label>
+      <input type="text" id="bIBAN" placeholder="ES...">
+
+      <div class="checkbox-group" id="anlagenBoxen">
+        <label><input type="checkbox" checked data-text="Recibo de pago o billete del transporte alternativo"> Billete y recibo de pago del transporte alternativo</label>
+        <label><input type="checkbox" checked data-text="Confirmación de reserva del vuelo original"> Confirmación de reserva del vuelo original</label>
+        <label><input type="checkbox" data-text="Prueba del establecimiento del plazo (captura de pantalla o email)"> Prueba del establecimiento del plazo (Captura / Email)</label>
+        <label><input type="checkbox" data-text="Confirmación de la cancelación o denegación de embarque"> Confirmación de la cancelación o denegación de embarque</label>
+        <label><input type="checkbox" data-text="Fotos de la pantalla de información u otras pruebas de la incidencia"> Fotos de la pantalla del aeropuerto / otras pruebas</label>
+      </div>
+    </fieldset>
+
+    <fieldset id="datenBox">
+      <legend>4. Sus datos</legend>
+      <label for="sName">Su nombre y apellidos:</label>
+      <input type="text" id="sName" placeholder="ej. Juan Pérez">
+      <label for="sStrasse">Calle y número (para el PDF):</label>
+      <input type="text" id="sStrasse" placeholder="ej. Calle Mayor 1">
+      <label for="sPLZOrt">Código postal y ciudad (para el PDF):</label>
+      <input type="text" id="sPLZOrt" placeholder="ej. 28013 Madrid">
+    </fieldset>
+
+    <div class="submit-area">
+      <p class="submit-disclaimer">
+        Al hacer clic en "Generar escrito" confirma que sus datos son veraces, que este servicio automatizado<br>no constituye asesoramiento legal y que usted realiza la reclamación bajo su propia responsabilidad.
+      </p>
+      <button type="submit" class="button-primary" id="submitBtn">Generar escrito (Texto y PDF)</button>
+    </div>
+  </form>
+
+  <!-- Text-Output Box -->
+  <div id="textOutputArea" style="display: none; margin-top: 40px; background: #ffffff; padding: 35px; border: 1px solid #f5c6c6; border-top: 5px solid #aa3131; border-radius: 8px; box-shadow: 0 10px 30px rgba(137, 24, 24, 0.08); box-sizing: border-box;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-wrap: wrap; gap: 15px;">
+      <div style="flex: 1; min-width: 250px;">
+        <h3 style="margin: 0 0 5px 0; color: #aa3131; font-size: 1.4em;">Su texto generado</h3>
+        <p style="margin: 0; font-size: 0.95em; color: #666; line-height: 1.4;">Copie el texto y envíelo a la aerolínea por email, chat o formulario web. Haga una captura de pantalla del mensaje con la hora como comprobante.</p>
+      </div>
+      <button type="button" id="copyToClipboardBtn" style="background: #aa3131; color: #ffffff; border: none; padding: 12px 24px; font-size: 1em; font-weight: bold; border-radius: 6px; cursor: pointer; transition: background 0.3s; box-shadow: 0 4px 10px rgba(137, 24, 24, 0.2); white-space: nowrap;">
+        Copiar texto
+      </button>
+    </div>
+    <textarea id="plainTextResult" rows="14" style="width: 100%; padding: 20px; font-family: 'Courier New', Courier, monospace; font-size: 0.95em; line-height: 1.6; color: #333; background: #fdfdfd; border: 1px solid #e0e0e0; border-radius: 6px; resize: vertical; box-sizing: border-box;" readonly></textarea>
+  </div>
+
+  <!-- SEO Content -->
+  <div class="seo-content">
+    <h2>Vuelo cancelado: Qué le debe la aerolínea y cómo lograr un transporte alternativo</h2>
+    <p>Si su vuelo es cancelado, según el Reglamento de Derechos de los Pasajeros de la UE (Reglamento (CE) nº 261/2004), usted tiene derecho a elegir, independientemente de la causa: el reembolso del billete o la <strong>conducción hasta el destino final</strong> en condiciones de transporte comparables, ya sea lo más rápidamente posible o en una fecha posterior que le convenga (Artículo 8). A esto se añade el derecho de atención (Artículo 9). En la práctica, las aerolíneas a menudo no actúan, especialmente en el aeropuerto o cuando las líneas telefónicas están colapsadas. Precisamente para eso sirve establecer un plazo por escrito.</p>
+
+    <div class="kk-table-wrap">
+      <table class="kk-table">
+        <thead>
+          <tr><th>Situación</th><th>Lo que prevé el Reglamento</th><th>En la práctica</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Cancelación</td><td>Reembolso o transporte alternativo (Art. 8), Atención (Art. 9), posible compensación económica (Art. 7)</td><td>Exigir a la aerolínea que ofrezca un transporte alternativo, darle un plazo</td></tr>
+          <tr><td>Denegación de embarque (ej. overbooking)</td><td>Igual que en la cancelación, posible compensación económica</td><td>Exigir confirmación por escrito de la denegación de embarque</td></tr>
+          <tr><td>Retraso de 5 horas o más</td><td>Reembolso del billete (Art. 6 en relación con el Art. 8), Atención (Art. 9)</td><td>El transporte alternativo no es un derecho automático, pero merece la pena preguntar</td></tr>
+          <tr><td>Retraso menor (según distancia, a partir de 2 o 4 horas)</td><td>Derecho de atención (Art. 9)</td><td>No hay derecho a transporte alternativo por ley, pero sí derecho a manutención</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Transporte alternativo en tren, taxi o coche de alquiler</h3>
+    <p>La aerolínea puede organizar en principio la continuación del viaje con otro medio de transporte, siempre que sea razonable y usted llegue a su destino en un tiempo prudencial. Esto suele ser la solución más rápida para trayectos cortos o en aeropuertos de conexión. Lo importante es que la aerolínea tome la decisión o acceda a ella. Por tanto, exija un <strong>transporte alternativo concreto con hora de salida</strong> y mencione qué medio de transporte le parece viable.</p>
+
+    <h3>Establecer un plazo: Por qué es importante</h3>
+    <p>Quien reserva por su cuenta sin darle a la aerolínea la oportunidad de solucionar el problema, se arriesga a que no le reembolsen los gastos. El establecimiento de un plazo por escrito demuestra que le dio a la aerolínea la oportunidad de cumplir con su deber. No existe un plazo mínimo fijado por ley. Lo determinante es lo que sea justificable según las circunstancias, por ejemplo, la urgencia con la que deba llegar o la rapidez con la que se agoten las alternativas. En el aeropuerto, lo habitual es de una a tres horas. Utilice la calculadora en vivo de arriba para insertar inmediatamente la hora en el texto.</p>
+
+    <h3>Reservar por su cuenta: Riesgos y precaución con los costes</h3>
+    <p>El reembolso de los viajes alternativos organizados por uno mismo no es siempre seguro. Las aerolíneas a menudo lo rechazan si los costes son desproporcionados (por ejemplo, clase business en lugar de turista, taxi para distancias muy largas en lugar de tren) o si falta la fijación de un plazo. Por lo tanto, elija la opción razonable más barata que le lleve a su destino en un tiempo adecuado y conserve los billetes y recibos de pago.</p>
+
+    <h3>Esto es lo que debe documentar in situ</h3>
+    <p>Fotos de las pantallas de información con la hora, capturas de pantalla de la app de la aerolínea o del email de cancelación, la confirmación por escrito de la incidencia, nombres y declaraciones del personal, el mensaje con el plazo y la hora de envío, así como los precios de las alternativas en el momento de la reserva. Solicite además un certificado de cancelación por escrito que indique el motivo.</p>
+
+    <h3>Compensación económica y plazos de prescripción</h3>
+    <p>Los gastos del transporte alternativo se deben distinguir de la compensación económica a tanto alzado (Artículo 7). Ésta asciende a 250, 400 o 600 euros, según la distancia, y no se aplica, entre otras cosas, si hubo circunstancias extraordinarias. Puede comprobar si tiene derecho a ella en nuestra guía sobre <a href="../flugverspaetung-info.html">retrasos y cancelaciones de vuelos</a>. En España, las reclamaciones bajo este Reglamento prescriben generalmente a los 5 años (según el Código Civil). No obstante, presente la reclamación lo antes posible.</p>
+
+    <h3>Viajes combinados frente a vuelos sueltos</h3>
+    <p>Si el vuelo forma parte de un viaje combinado (paquete vacacional), diríjase también a su turoperador o al guía en el lugar. En este caso le asisten derechos adicionales de la Ley General para la Defensa de los Consumidores y Usuarios. Encontrará más información en nuestra <a href="../hotel-maengel-info.html">guía sobre problemas en viajes</a>.</p>
+
+    <h3>Puede utilizar este escrito para las siguientes aerolíneas</h3>
+    <ul class="kk-chip-list">
+      <li>Iberia</li><li>Vueling</li><li>Air Europa</li><li>Volotea</li><li>Binter Canarias</li><li>Ryanair</li><li>easyJet</li><li>Lufthansa</li><li>Air France</li><li>KLM</li><li>Wizz Air</li><li>British Airways</li><li>TAP Air Portugal</li><li>ITA Airways</li><li>Turkish Airlines</li><li>Emirates</li><li>Eurowings</li><li>Condor</li><li>Pegasus</li><li>Transavia</li><li>SAS</li><li>Finnair</li>
+    </ul>
+    <p style="font-size: 0.85em; color: #666;">No existe ningún vínculo entre Fix my Trip y las empresas mencionadas. Su mención es meramente orientativa. El Reglamento de Derechos de los Pasajeros se aplica, independientemente del nombre de la aerolínea, a los vuelos que salen de aeropuertos de la UE y a los vuelos de aerolíneas con licencia de la UE hacia la UE.</p>
+
+    <div class="faq-section">
+      <h2>Preguntas frecuentes (FAQ) sobre el transporte alternativo</h2>
+
+      <details>
+        <summary>¿Puedo reservar un tren o un taxi yo mismo si cancelan mi vuelo?</summary>
+        <p>No siempre es seguro que la aerolínea reembolse los gastos. Lo mejor es dar a la aerolínea un plazo razonable por escrito para que ofrezca un transporte alternativo y solo reservar por su cuenta si no le ofrecen nada razonable. Documente todo y mantenga los gastos dentro de unos límites lógicos.</p>
+      </details>
+
+      <details>
+        <summary>¿Qué plazo se considera razonable?</summary>
+        <p>No hay un plazo fijo establecido por ley. Lo razonable depende de la situación, la urgencia y la disponibilidad de alternativas. En el aeropuerto se suelen dar plazos de entre una y tres horas. No confíe en promesas verbales, deje constancia del plazo por escrito.</p>
+      </details>
+
+      <details>
+        <summary>¿Tengo derecho a un transporte alternativo si hay un retraso?</summary>
+        <p>En caso de un simple retraso, el Reglamento de Derechos de los Pasajeros prevé principalmente el derecho de atención y, a partir de cinco horas de retraso, el reembolso del billete. El derecho a un transporte alternativo según el Reglamento existe sobre todo en caso de cancelación y denegación de embarque. Aun así, pida a la aerolínea que le reubique en otro vuelo.</p>
+      </details>
+
+      <details>
+        <summary>¿La aerolínea me tiene que pagar comida y hotel?</summary>
+        <p>En caso de cancelación, denegación de embarque o grandes retrasos, la aerolínea debe ofrecer derecho de atención: comidas y refrescos, dos medios de comunicación y, si es necesario, alojamiento en un hotel y los traslados. Esto se aplica, en principio, incluso en circunstancias extraordinarias como mal tiempo o huelgas.</p>
+      </details>
+
+      <details>
+        <summary>¿Es lo mismo la compensación económica que el reembolso de los gastos alternativos?</summary>
+        <p>No. La compensación económica fija del artículo 7 del Reglamento (de 250 a 600 euros) es un derecho independiente que depende de la distancia del vuelo y de si hubo circunstancias extraordinarias. El reembolso de los gastos de su transporte alternativo se puede reclamar de forma adicional.</p>
+      </details>
+
+      <details>
+        <summary>¿Qué debo hacer si reservé un viaje combinado?</summary>
+        <p>Póngase en contacto también con su turoperador o guía turístico. En los viajes combinados, se aplican además las normativas de la Ley de Consumidores y Usuarios, y el turoperador es su socio contractual para solucionar el problema.</p>
+      </details>
+    </div>
+  </div>
+
+  <div class="airline-hinweisbox">
+    <h3>Indicaciones importantes antes del envío</h3>
+    <p>Envíe el escrito dándole un plazo a través de un canal que deje registro de la hora (email, formulario de contacto con acuse de recibo, chat con historial). Reserve alternativas solo si realmente necesita continuar el viaje de inmediato, y prefiera tarifas flexibles. Conserve los documentos originales y envíe a la aerolínea posteriormente solo copias.</p>
+  </div>
+
+  <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
+    <h3>Otros temas de interés:</h3>
+    <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
+      <a href="../flugverspaetung-info.html">Retrasos y cancelaciones</a>
+      <a href="../gepaeck-info.html">Pérdida de equipaje</a>
+      <a href="../ota-rueckerstattung-info.html">Agencias de viajes online (OTA)</a>
+      <a href="kreditkarte-geld-zurueckholen.html">Recuperar pagos con tarjeta</a>
+      <a href="../beschwerde-anleitungen-info.html">Consejos para reclamaciones</a>
+    </div>
+  </div>
+
+  <aside class="legal-sources-box" aria-labelledby="sources-title-ersatz">
+    <h3 id="sources-title-ersatz" class="sources-heading">Bases legales y fuentes de información</h3>
+    <p class="sources-intro">El contenido de esta página se basa en las siguientes fuentes de acceso público. No obstante, siempre prevalecerá el caso concreto.</p>
+    <ul class="sources-list">
+      <li>
+        <strong>Reglamento (CE) nº 261/2004 (Derechos de los pasajeros aéreos)</strong>:
+        Regula las normas comunes sobre compensación y asistencia a los pasajeros en caso de denegación de embarque, cancelación y gran retraso, especialmente los artículos 7 (Compensación), 8 (Reembolso o transporte alternativo) y 9 (Derecho de atención).
+        <br>
+        <a href="https://eur-lex.europa.eu/eli/reg/2004/261/oj" target="_blank" rel="noopener noreferrer" class="source-link">Texto en EUR-Lex</a>
+      </li>
+      <li>
+        <strong>Agencia Estatal de Seguridad Aérea (AESA)</strong>:
+        Autoridad española competente para velar por el cumplimiento de los derechos de los pasajeros.
+        <br>
+        <a href="https://www.seguridadaerea.gob.es/" target="_blank" rel="noopener noreferrer" class="source-link">Información de AESA</a>
+      </li>
+      <li>
+        <strong>Resolución alternativa de litigios de AESA</strong>:
+        Mecanismo extrajudicial para la resolución de conflictos con compañías aéreas.
+        <br>
+        <a href="https://www.seguridadaerea.gob.es/es/ambitos/derechos-de-los-pasajeros/resolucion-alternativa-de-litigios" target="_blank" rel="noopener noreferrer" class="source-link">Información sobre resolución de litigios de AESA</a>
+      </li>
+    </ul>
+  </aside>
+</div>
+
+<div class="trust-section">
+  <h3>Sobre esta página</h3>
+  <p class="trust-text">
+    Nuestras guías y generadores se basan en el análisis de los reglamentos actuales de la UE, la jurisprudencia y el derecho nacional de consumo. Son desarrollados por Marc (Director del proyecto) y su equipo para ofrecer a los viajeros una herramienta de autoayuda estructurada frente a problemas en sus viajes.
+    <br><br>
+    <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+      Aviso importante: Esta página no ofrece asesoramiento legal individual. El reembolso de un transporte alternativo organizado por el usuario depende de cada caso concreto.
+    </span>
+  </p>
+
+  <a href="../ueber-uns.html" class="trust-link">Más detalles sobre nuestra metodología y redacción &rarr;</a>
+
+  <div class="lotse-card">
+    <p>
+      <strong>¿Problemas con el vuelo, el tren o el hotel?</strong><br>
+      Fix-My-Trip comprueba en pocos pasos si tiene derecho a una compensación económica, al reembolso del billete o a una reducción del precio del viaje. <br>
+      <em>Un servicio de Fix my Trip.</em>
+    </p>
+  </div>
+
+  <p class="feedback-note">
+    <strong>¿Ha encontrado algún error en la herramienta?</strong> Dado que como portal automatizado no prestamos asesoramiento individualizado, nos ayuda enormemente si nos informa de errores de funcionamiento o de datos desactualizados:
+    <a href="mailto:support@fix-my-trip.com" style="color: #777; text-decoration: underline;">Enviar feedback a nuestra sede central</a>.
+  </p>
+</div>
+
+<section class="site-niche-directory">
+  <div class="niche-directory-container">
+    <h2 class="niche-directory-title">Descubrir otras temáticas</h2>
+    <p class="niche-directory-intro">
+      Ya sea un retraso del vuelo, deficiencias en el hotel o transporte alternativo: aquí encontrará la guía y el modelo de reclamación adecuados para casi cualquier situación de viaje.
+    </p>
+
+    <div class="niche-directory-grid">
+      <div class="niche-directory-group">
+        <h3>Vuelo y Aeropuerto</h3>
+        <ul>
+          <li><a href="../flugverspaetung-info.html">Retrasos y cancelaciones</a></li>
+          <li><a href="ersatzbefoerderung-fristsetzung.html">Transporte alternativo (Tren, Taxi)</a></li>
+          <li><a href="../steuern-info.html">Recuperar tasas aeroportuarias</a></li>
+          <li><a href="../gepaeck-info.html">Pérdida y daños de equipaje</a></li>
+        </ul>
+      </div>
+
+      <div class="niche-directory-group">
+        <h3>Alojamiento y Viajes Combinados</h3>
+        <ul>
+          <li><a href="../hotel-maengel-info.html">Deficiencias y ruidos en hoteles</a></li>
+          <li><a href="../storno-info.html">Gastos de cancelación de viajes</a></li>
+          <li><a href="../ferienhaus-maengel-info.html">Casas y apartamentos vacacionales</a></li>
+          <li><a href="../airbnb-probleme-info.html">Solución de problemas en Airbnb</a></li>
+          <li><a href="../kreuzfahrt-minderung.html">Deficiencias en cruceros</a></li>
+        </ul>
+      </div>
+
+      <div class="niche-directory-group">
+        <h3>Preparativos y Movilidad</h3>
+        <ul>
+          <li><a href="../zugverspaetung-info.html">Retrasos y derechos en trenes</a></li>
+          <li><a href="kreditkarte-geld-zurueckholen.html">Recuperar pagos (Tarjetas, Recibos)</a></li>
+          <li><a href="auslandskrankenschein-kostenerstattung.html">Reembolso gastos médicos extranjero</a></li>
+          <li><a href="../esim-roaming-info.html">Costes de Roaming y eSIM</a></li>
+          <li><a href="../mietwagen-info.html">Seguros para coches de alquiler</a></li>
+          <li><a href="../reisekreditkarten-info.html">Comparador de tarjetas de viaje</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 Fix-my-Trip.com</p>
+  <nav>
+    <a href="../ueber-uns.html">Sobre nosotros</a> |
+    <a href="../index.html">Inicio</a> |
+    <a href="../impressum.html">Aviso Legal</a> |
+    <a href="../datenschutz.html">Privacidad</a>
+  </nav>
+</footer>
+
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Cerrar">&times;</button>
+    <h2>Su documento está listo</h2>
+    <p class="sub">El PDF se ha generado en su dispositivo.<br>Sus datos no nos han sido enviados.</p>
+    <div class="donate-hint">
+      Este servicio es y seguirá siendo <strong>100 % gratuito</strong>. Si le ha sido de ayuda, agradeceríamos un pequeño apoyo voluntario para que Fix my Trip siga siendo gratuito para otros viajeros.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Selección rápida:</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Introducir otro importe ..." oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Donar 5 € ahora</button>
+    <button class="btn-skip" onclick="closeOverlay()">No, gracias, cierro la ventana</button>
+    <p class="paypal-note">Voluntario y seguro a través de PayPal</p>
+  </div>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+
+/* ---------- Hilfsfunktionen ---------- */
+const pad = n => String(n).padStart(2, '0');
+function fmtDate(d) { return d.toLocaleDateString('es-ES', {day: '2-digit', month: '2-digit', year: 'numeric'}); }
+function fmtIso(s) { return fmtDate(new Date(s + 'T00:00:00')); }
+function fmtMoney(n) { return n.toFixed(2).replace('.', ','); }
+
+function nowTimeStr() { const n = new Date(); return pad(n.getHours()) + ':' + pad(n.getMinutes()); }
+$('fUhrzeit').value = nowTimeStr();
+const heute = new Date();
+$('fDatum').value = heute.getFullYear() + '-' + pad(heute.getMonth() + 1) + '-' + pad(heute.getDate());
+
+/* Frist = Basiszeit (heute, Uhrzeit) + Stunden */
+function calcDeadline() {
+  const t = $('fUhrzeit').value;
+  if (!t) return null;
+  const [h, m] = t.split(':').map(Number);
+  const base = new Date(); base.setHours(h, m, 0, 0);
+  const dl = new Date(base.getTime() + parseInt($('fFristH').value, 10) * 3600000);
+  return dl;
+}
+function deadlineText(dl) {
+  const sameDay = dl.toDateString() === new Date().toDateString();
+  return pad(dl.getHours()) + ':' + pad(dl.getMinutes()) + ' h' + (sameDay ? '' : ' del ' + fmtDate(dl));
+}
+
+const HINTS = {
+  annulliert: 'En caso de cancelación, según el artículo 8 del Reglamento, puede exigir la conducción hasta el destino final.',
+  nichtbefoerdert: 'En caso de denegación de embarque, también puede exigir transporte alternativo. Pida confirmación por escrito de la denegación.',
+  anschluss: 'Si ha perdido la conexión de una misma reserva, pida a la aerolínea que le reubique hasta su destino. El derecho a esto depende del caso concreto.',
+  verspaetet: 'En retrasos superiores a cinco horas, el Reglamento prevé sobre todo el reembolso del billete. Pedir transporte alternativo es una solicitud, no un derecho garantizado en todos los casos.'
+};
+
+function updateUI() {
+  const phase = $('fPhase').value;
+  const p1 = phase === 'vorort';
+  $('phase1Box').classList.toggle('kk-hidden', !p1);
+  $('phase2Box').classList.toggle('kk-hidden', p1);
+  $('vorortFrist').classList.toggle('kk-hidden', !p1);
+  $('submitBtn').textContent = p1 ? 'Generar escrito de plazo (Texto y PDF)' : 'Generar solicitud de reembolso (Texto y PDF)';
+
+  if (p1) {
+    $('bannerLabel').textContent = 'Su plazo termina a las:';
+    const dl = calcDeadline();
+    $('liveDeadline').textContent = dl ? deadlineText(dl) : '--:-- h';
+  } else {
+    $('bannerLabel').textContent = 'Su próximo paso:';
+    $('liveDeadline').textContent = 'Exigir reembolso';
+  }
+  $('routeText').textContent = HINTS[$('fStoerung').value];
+}
+['fPhase', 'fStoerung', 'fUhrzeit', 'fFristH'].forEach(id => { $(id).addEventListener('change', updateUI); $(id).addEventListener('input', updateUI); });
+updateUI();
+
+/* ---------- Texte ---------- */
+const STOERUNG = {
+  annulliert: 'ha sido cancelado',
+  nichtbefoerdert: 'no pudo ser abordado por mí debido a denegación de embarque',
+  anschluss: 'no pudo ser alcanzado por el retraso de un vuelo anterior en la misma reserva',
+  verspaetet: 'sufre un retraso de más de cinco horas'
+};
+const ANTWORT = {
+  keine: 'Dentro del plazo establecido no obtuve respuesta.',
+  nichts_zumutbares: 'Dentro del plazo establecido no se me ofreció ningún transporte alternativo razonable.',
+  zu_spaet: 'Se me hizo una oferta demasiado tarde, por lo que dejó de ser una opción viable para mí.',
+  abgelehnt: 'Se me denegó un transporte alternativo.'
+};
+
+function validate(list) {
+  const missing = list.filter(([id]) => !$(id).value.trim()).map(([, label]) => label);
+  if (missing.length) { alert('Por favor complete: ' + missing.join(', ') + '.'); return false; }
+  return true;
+}
+
+document.getElementById('ersatzForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  const phase = $('fPhase').value;
+  const p1 = phase === 'vorort';
+
+  const base = [['aName', 'Aerolínea'], ['fFlugnr', 'Número de vuelo'], ['fDatum', 'Fecha del vuelo'], ['fVon', 'Aeropuerto de salida'], ['fNach', 'Destino final'], ['fPNR', 'Localizador'], ['fPass', 'Pasajeros'], ['sName', 'Su nombre']];
+  const extra = p1 ? [['fUhrzeit', 'Hora']] : [['fFristZeit', 'Momento en que estableció el plazo'], ['fStrecke', 'Trayecto del viaje alternativo'], ['fKosten', 'Coste total'], ['bIBAN', 'IBAN'], ['sStrasse', 'Calle'], ['sPLZOrt', 'Código postal y ciudad']];
+  if (!validate(base.concat(extra))) return;
+
+  const airline = $('aName').value.trim();
+  const airlineAdr = $('aKontakt').value.trim();
+  const flugnr = $('fFlugnr').value.trim();
+  const datum = fmtIso($('fDatum').value);
+  const von = $('fVon').value.trim();
+  const nach = $('fNach').value.trim();
+  const pnr = $('fPNR').value.trim();
+  const pass = $('fPass').value.trim();
+  const sName = $('sName').value.trim();
+  const sStrasse = $('sStrasse').value.trim();
+  const sPLZOrt = $('sPLZOrt').value.trim();
+  const stoerung = $('fStoerung').value;
+
+  const todayStr = fmtDate(new Date());
+  let betreff, paras = [], facts = [], abschluss, anlagenZeilen = [];
+
+  facts.push(['Vuelo:', flugnr + ', ' + von + ' - ' + nach]);
+  facts.push(['Fecha:', datum]);
+  facts.push(['Localizador:', pnr]);
+  facts.push(['Pasajero(s):', pass]);
+
+  if (p1) {
+    const dl = calcDeadline();
+    const dlStr = deadlineText(dl);
+    const wunsch = $('fWunsch').value;
+    const tel = $('fTel').value.trim();
+    const mail = $('fMail').value.trim();
+
+    betreff = 'Establecimiento de plazo para transporte alternativo - Vuelo ' + flugnr + ' el ' + datum;
+    paras.push('mi vuelo arriba indicado de ' + von + ' a ' + nach + ' ' + STOERUNG[stoerung] + '. Por la presente les solicito la conducción hasta mi destino final ' + nach + ' en condiciones de transporte comparables y lo más rápidamente posible (Art. 8 del Reglamento (CE) nº 261/2004). Considero viable ' + wunsch + '.');
+    paras.push('Para ello, les otorgo un plazo hasta las ' + dlStr + '. Les ruego que antes de dicha hora me comuniquen por escrito una alternativa de transporte concreta con su correspondiente hora de salida.');
+    paras.push('De no recibir una oferta razonable dentro de dicho plazo, procederé a organizar el viaje por mi cuenta y les reclamaré los gastos justificados correspondientes. Todo ello sin perjuicio de mi derecho a reclamar la compensación económica estipulada en el Art. 7 del Reglamento.');
+    if ($('fBetreuung').checked) {
+      paras.push('Hasta que se produzca mi salida, solicito asimismo que se me preste el derecho de atención dispuesto en el Art. 9 del Reglamento (comida y refrescos, medios de comunicación y, si procede, alojamiento en hotel y los traslados oportunos).');
+    }
+    paras.push('Además, ruego me confirmen por escrito la incidencia y su motivo.' + ((tel || mail) ? ' Pueden localizarme en: ' + [tel, mail].filter(Boolean).join(' / ') + '.' : ''));
+    abschluss = 'Quedo a la espera de su pronta respuesta.';
+  } else {
+    const kosten = parseFloat($('fKosten').value) || 0;
+    const mittel = $('fMittel').value;
+    const strecke = $('fStrecke').value.trim();
+    const fristZeit = $('fFristZeit').value.trim();
+    const iban = $('bIBAN').value.trim();
+    const dl14 = new Date(); dl14.setDate(dl14.getDate() + 14);
+
+    document.querySelectorAll('#anlagenBoxen input[type="checkbox"]').forEach(cb => { if (cb.checked) anlagenZeilen.push(cb.getAttribute('data-text')); });
+    if (anlagenZeilen.length === 0) { alert('Por favor, marque al menos un documento adjunto.'); return; }
+    anlagenZeilen = anlagenZeilen.map((a, i) => (i + 1) + '. ' + a);
+
+    betreff = 'Reclamación de gastos por transporte alternativo auto-organizado - Vuelo ' + flugnr + ' el ' + datum;
+    facts.push(['Coste alternativa:', fmtMoney(kosten) + ' EUR (' + mittel + ')']);
+
+    paras.push('mi vuelo arriba indicado de ' + von + ' a ' + nach + ' ' + STOERUNG[stoerung] + '. El pasado ' + fristZeit + ' les otorgué un plazo para que me ofrecieran un transporte alternativo a mi destino final. ' + ANTWORT[$('fAntwort').value]);
+    paras.push('A la vista de la situación, procedí a organizar la continuación de mi viaje por mis propios medios: ' + strecke + ' (' + mittel + '). Los gastos incurridos ascienden a ' + fmtMoney(kosten) + ' EUR. He tratado en todo momento de buscar una alternativa razonable y económica.');
+    paras.push('Les insto a que me reembolsen dicha cantidad, basándome en el Reglamento (CE) nº 261/2004 y en la normativa aplicable, ingresando el importe a más tardar el ' + fmtDate(dl14) + ' en la siguiente cuenta bancaria:\nTitular de la cuenta: ' + sName + '\nIBAN: ' + iban);
+    paras.push('Me reservo expresamente el derecho a reclamar la compensación económica del Art. 7 del Reglamento, así como el reembolso de cualquier otro gasto adicional.');
+    abschluss = 'Ruego acuse de recibo del presente escrito.';
+  }
+
+  /* Klartext */
+  let plain = 'Asunto: ' + betreff + '\n' + facts.map(f => f[0] + ' ' + f[1]).join('\n') + '\n\nEstimados señores,\n\n' + paras.join('\n\n');
+  if (anlagenZeilen.length) plain += '\n\nDocumentos adjuntos:\n' + anlagenZeilen.join('\n');
+  plain += '\n\n' + abschluss + '\n\nAtentamente,\n' + sName;
+
+  /* PDF */
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF();
+  const pageH = 297, marginBottom = 20, lineH = 6;
+  function ensure(y, needed) { if (y + (needed || lineH) > pageH - marginBottom) { doc.addPage(); return 30; } return y; }
+  function write(text, y, x, width) {
+    const lines = doc.splitTextToSize(text, width || 160);
+    lines.forEach(l => { y = ensure(y); doc.text(l, x || 25, y); y += lineH; });
+    return y;
+  }
+
+  doc.setFont('helvetica', 'normal');
+  if (sStrasse && sPLZOrt) {
+    doc.setFontSize(8);
+    doc.setTextColor(100, 100, 100);
+    doc.text(sName + ' - ' + sStrasse + ' - ' + sPLZOrt, 25, 45);
+    doc.setLineWidth(0.2);
+    doc.setDrawColor(150, 150, 150);
+    doc.line(25, 46.5, 95, 46.5);
+  }
+  doc.setFontSize(11);
+  doc.setTextColor(0, 0, 0);
+  doc.text(doc.splitTextToSize(airline + (airlineAdr ? '\n' + airlineAdr : ''), 80), 25, 53);
+
+  doc.setFontSize(10);
+  doc.text('Remitente:', 130, 45);
+  doc.setFont('helvetica', 'bold');
+  doc.text(sName, 130, 50);
+  doc.setFont('helvetica', 'normal');
+  if (sStrasse) doc.text(sStrasse, 130, 55);
+  if (sPLZOrt) doc.text(sPLZOrt, 130, 60);
+  doc.text('Fecha: ' + todayStr, 185, 80, { align: 'right' });
+
+  doc.setFontSize(12);
+  doc.setFont('helvetica', 'bold');
+  const betreffLines = doc.splitTextToSize(betreff, 160);
+  doc.text(betreffLines, 25, 95);
+
+  doc.setFontSize(10.5);
+  let fy = 95 + betreffLines.length * 6 + 4;
+  facts.forEach(f => {
+    doc.setFont('helvetica', 'bold');
+    doc.text(f[0], 25, fy);
+    doc.setFont('helvetica', 'normal');
+    doc.text(doc.splitTextToSize(f[1], 100), 75, fy);
+    fy += 5.5;
+  });
+  doc.setDrawColor(0, 0, 0);
+  doc.line(25, fy, 185, fy);
+
+  let y = fy + 12;
+  doc.setFontSize(11);
+  y = write('Estimados señores,', y); y += 3;
+  paras.forEach(p => { y = write(p, y); y += 3; });
+
+  if (anlagenZeilen.length) {
+    doc.setFont('helvetica', 'bold');
+    y = ensure(y); doc.text('Documentos adjuntos:', 25, y); y += lineH;
+    doc.setFont('helvetica', 'normal');
+    anlagenZeilen.forEach(a => { y = write(a, y, 30, 150); });
+    y += 3;
+  }
+  y = write(abschluss, y); y += 10;
+
+  y = ensure(y, 40);
+  doc.text('Atentamente,', 25, y);
+  y += 25;
+  doc.setLineWidth(0.5);
+  doc.line(25, y, 80, y);
+  doc.line(100, y, 185, y);
+  doc.setFontSize(9);
+  doc.setTextColor(100, 100, 100);
+  doc.text('Lugar, Fecha', 25, y + 5);
+  doc.text('Firma (' + sName + ')', 100, y + 5);
+
+  const out = $('textOutputArea');
+  out.style.display = 'block';
+  $('plainTextResult').value = plain;
+  out.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+  doc.save((p1 ? 'Plazo_TransporteAlternativo_' : 'Reembolso_TransporteAlternativo_') + airline.replace(/[^a-zA-Z0-9]/g, '_') + '.pdf');
+
+  /* Spenden-Overlay nur nach dem zweiten Schreiben, nicht am Flughafen */
+  if (!p1) setTimeout(() => $('donateOverlay').classList.add('active'), 800);
+});
+
+/* ---------- Spenden-Overlay ---------- */
+const PAYPAL_EMAIL = 'info@kassen-lotse.de';
+let donateAmount = 5;
+
+function selectPreset(amount, btn) {
+  donateAmount = amount;
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  $('customAmount').value = '';
+  $('customAmount').classList.remove('selected-custom');
+  updateDonateButton();
+}
+function handleCustomInput(input) {
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  const val = parseFloat(input.value);
+  if (val && val >= 1) { donateAmount = val; input.classList.add('selected-custom'); }
+  else { donateAmount = 0; input.classList.remove('selected-custom'); }
+  updateDonateButton();
+}
+function updateDonateButton() {
+  const btn = $('btnDonate');
+  if (donateAmount >= 1) {
+    btn.textContent = 'Donar ' + (donateAmount % 1 === 0 ? donateAmount : donateAmount.toFixed(2)) + ' € ahora';
+    btn.disabled = false;
+  } else {
+    btn.textContent = 'Introducir importe';
+    btn.disabled = true;
+  }
+}
+function openPayPal() {
+  if (donateAmount < 1) return;
+  const url = 'https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=' + encodeURIComponent(PAYPAL_EMAIL) + '&amount=' + donateAmount.toFixed(2) + '&currency_code=EUR&item_name=Fix my Trip+Unterst%C3%BCtzung&no_note=1&no_shipping=1';
+  window.open(url, '_blank');
+  closeOverlay();
+}
+function closeOverlay() { $('donateOverlay').classList.remove('active'); }
+$('donateOverlay').addEventListener('click', function(e) { if (e.target === this) closeOverlay(); });
+
+/* ---------- Kopier-Button ---------- */
+function legacyCopy(textArea) {
+  return new Promise((resolve, reject) => {
+    const ta = document.createElement('textarea');
+    ta.value = textArea.value;
+    ta.setAttribute('contenteditable', 'true');
+    ta.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;font-size:16px;-webkit-user-select:text;user-select:text;';
+    document.body.appendChild(ta);
+    ta.focus(); ta.select(); ta.setSelectionRange(0, ta.value.length);
+    let ok = false;
+    try { ok = document.execCommand('copy'); } catch (err) {}
+    document.body.removeChild(ta);
+    ok ? resolve() : reject();
+  });
+}
+function copyText(textArea) {
+  return new Promise((resolve, reject) => {
+    legacyCopy(textArea).then(resolve).catch(() => {
+      if (navigator.clipboard && window.isSecureContext) {
+        const timer = setTimeout(reject, 1500);
+        navigator.clipboard.writeText(textArea.value)
+          .then(() => { clearTimeout(timer); resolve(); })
+          .catch(() => { clearTimeout(timer); reject(); });
+      } else { reject(); }
+    });
+  });
+}
+$('copyToClipboardBtn').addEventListener('click', function() {
+  const btn = this;
+  copyText($('plainTextResult')).then(() => {
+    const original = btn.innerHTML;
+    btn.innerHTML = 'Copiado con éxito';
+    btn.style.background = '#2e7d32';
+    setTimeout(() => { btn.innerHTML = original; btn.style.background = '#aa3131'; }, 3000);
+  }).catch(() => {
+    alert('Error al copiar. Por favor, seleccione y copie el texto manualmente.');
+  });
+});
+</script>
+
+</body>
+</html>

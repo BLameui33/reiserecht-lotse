@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+  <meta charset="UTF-8">
+  <title>Exigir indemnização: Lista de inventário por danos em bagagem (PDF)</title>
+
+  <meta name="description" content="Mala perdida ou danificada? Clique no conteúdo da sua mala, calcule o valor atual e crie gratuitamente a lista de inventário juntamente com a carta de reclamação para a companhia aérea ou seguro.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="canonical" href="https://www.fix-my-trip.com/pt/so-to/gepaeck-inventarliste-schadenersatz.html">
+
+  <link rel="alternate" hreflang="de" href="https://www.fix-my-trip.com/de/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="es" href="https://www.fix-my-trip.com/es/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="fr" href="https://www.fix-my-trip.com/fr/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="it" href="https://www.fix-my-trip.com/it/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="nl" href="https://www.fix-my-trip.com/nl/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="pt" href="https://www.fix-my-trip.com/pt/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="en-gb" href="https://www.fix-my-trip.com/en-gb/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="en-us" href="https://www.fix-my-trip.com/en-us/so-to/gepaeck-inventarliste-schadenersatz.html">
+<link rel="alternate" hreflang="x-default" href="https://www.fix-my-trip.com/en-gb/so-to/gepaeck-inventarliste-schadenersatz.html">
+
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <style>
+    /* Inventarliste-Schadensersatz */
+    #gepaeckForm select { width: 100%; padding: 10px; font-size: 1em; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; background: #fff; margin-bottom: 12px; }
+    #gepaeckForm input[type="date"] { width: 100%; padding: 10px; font-size: 1em; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 12px; }
+    .kk-table-wrap { overflow-x: auto; margin: 20px 0; }
+    .kk-table { width: 100%; border-collapse: collapse; font-size: 0.95em; }
+    .kk-table th, .kk-table td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #e3e3e3; vertical-align: top; }
+    .kk-table th { background: #faf3f3; color: #891818; }
+    .kk-chip-list { display: flex; flex-wrap: wrap; gap: 8px; margin: 15px 0; padding: 0; list-style: none; }
+    .kk-chip-list li { background: #f7f7f7; border: 1px solid #e5e5e5; border-radius: 20px; padding: 5px 14px; font-size: 0.9em; color: #444; }
+    .kk-route-text { font-size: 0.95em; font-weight: normal; line-height: 1.5; margin-top: 8px; }
+    .kk-hidden { display: none; }
+
+    /* Inventar-Bereich */
+    .inv-cat { margin: 18px 0 6px; font-size: 0.9em; font-weight: 600; color: #891818; }
+    .inv-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .inv-chip { background: #f7f7f7; border: 1px solid #ddd; border-radius: 20px; padding: 6px 14px; font-size: 0.9em; color: #333; cursor: pointer; font-family: inherit; }
+    .inv-chip:hover { border-color: #891818; color: #891818; }
+    .inv-actions { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0 10px; }
+    .inv-btn { background: #fff; border: 1px solid #891818; color: #891818; border-radius: 6px; padding: 9px 16px; font-size: 0.95em; cursor: pointer; font-family: inherit; }
+    .inv-btn:hover { background: #faf3f3; }
+    .inv-empty { color: #777; font-size: 0.95em; padding: 15px 0; }
+    .inv-row { display: grid; grid-template-columns: 2.2fr 0.7fr 1fr 0.8fr 0.9fr 1fr auto; gap: 8px; align-items: end; padding: 12px 0; border-bottom: 1px solid #eee; }
+    .inv-row label { display: block; font-size: 0.75em; color: #777; margin: 0 0 3px; font-weight: normal; }
+    .inv-row input { width: 100%; box-sizing: border-box; padding: 8px; font-size: 0.95em; border: 1px solid #ccc; border-radius: 4px; margin: 0; }
+    .inv-val { font-weight: 600; padding: 8px 0; white-space: nowrap; }
+    .inv-del { background: none; border: none; color: #891818; font-size: 1.4em; cursor: pointer; padding: 4px 8px; line-height: 1; }
+    .inv-row.is-notkauf .inv-hide-nk { visibility: hidden; }
+    @media (max-width: 720px) {
+      .inv-row { grid-template-columns: 1fr 1fr; }
+      .inv-row .inv-name { grid-column: 1 / -1; }
+      .inv-row .inv-end { grid-column: 1 / -1; display: flex; justify-content: space-between; align-items: center; }
+    }
+  
+    /* Affiliate-Box (oben, vor dem Formular) */
+    .kk-ad-top { position: relative; background: #fff; border: 1px solid #e6d3d3; border-radius: 8px; padding: 26px 28px 22px; margin: 28px 0; box-shadow: 0 6px 22px rgba(137, 24, 24, 0.07); }
+    .kk-ad-label { position: absolute; top: 10px; right: 12px; font-size: 0.7rem; color: #666; background: #eee; padding: 2px 6px; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .kk-ad-title { margin: 0 0 8px; padding-right: 70px; font-size: 1.25em; font-weight: 700; color: #891818; line-height: 1.3; }
+    .kk-ad-text { margin: 0 0 14px; font-size: 0.98em; color: #444; line-height: 1.55; }
+    .kk-ad-points { list-style: none; margin: 0 0 18px; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+    .kk-ad-points li { background: #faf3f3; color: #6f1313; border-radius: 20px; padding: 6px 14px; font-size: 0.88em; }
+    .kk-ad-btn { display: inline-block; background: #891818; color: #fff !important; font-weight: 700; font-size: 1.02em; text-decoration: none; padding: 15px 30px; border-radius: 6px; box-shadow: 0 4px 12px rgba(137, 24, 24, 0.25); transition: background 0.2s; }
+    .kk-ad-btn:hover { background: #6f1313; }
+    .kk-ad-note { margin: 14px 0 0; font-size: 0.78em; color: #777; line-height: 1.5; }
+    @media (max-width: 600px) { .kk-ad-top { padding: 22px 18px 18px; } .kk-ad-btn { display: block; text-align: center; padding: 16px 12px; } }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Lista de Inventário de Bagagem com Valor Atual: Gerador de Indemnização para Companhia Aérea e Seguradora",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "All",
+    "description": "Gerador gratuito para a lista de inventário em caso de perda ou dano de bagagem, incluindo cálculo do valor atual e carta de reclamação. Sem aconselhamento jurídico.",
+    "offers": { "@type": "Offer", "price": "0.00", "priceCurrency": "EUR" }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quanto dinheiro recebo da companhia aérea por bagagem perdida?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No caso de bagagem de porão, a companhia aérea é responsável, por princípio e sem necessidade de prova de culpa, ao abrigo da Convenção de Montreal, mas apenas até um limite máximo de 1.519 Direitos de Saque Especiais por passageiro. Dependendo da taxa de câmbio, isto equivale a cerca de 1.800 a 1.950 euros. Por norma, é reembolsado o valor atual (comercial) dos bens, e não o preço de novo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Serei reembolsado pelo valor em novo ou pelo valor atual?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Por regra, pelo valor atual, ou seja, o valor do objeto no momento da perda, tendo em conta a sua idade e desgaste. Por este motivo, a ferramenta calcula o valor atual a partir do preço de novo, idade e uma depreciação anual que pode ajustar."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Que prazos devo respeitar em caso de danos na bagagem?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No caso de bagagem danificada, deve comunicar o dano por escrito no prazo máximo de sete dias após a receção; no caso de atraso na bagagem, no prazo de 21 dias após ter sido colocada à sua disposição. Se a bagagem for considerada perdida por não ter aparecido após 21 dias, pode fazer valer os seus direitos. As ações judiciais devem ser interpostas num prazo de dois anos. Comunique sempre qualquer dano imediatamente no aeroporto."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "O que acontece se já não tiver os recibos de compra?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Em alternativa, reúna extratos bancários, confirmações de encomendas online, cartões de garantia, fotografias ou capturas de ecrã com a marca e o modelo. Quanto mais transparentes e detalhadas forem as suas informações, maior será a probabilidade de a companhia aérea as aceitar. O reembolso sem recibos não é garantido."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso ser reembolsado por objetos de valor e eletrónica na bagagem de porão?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Muitas condições de transporte excluem objetos de valor, dinheiro ou aparelhos eletrónicos da responsabilidade na bagagem de porão ou recomendam que sejam transportados na bagagem de mão. A eficácia de tais exclusões em casos individuais é controversa. Um seguro de bagagem pode preencher esta lacuna, desde que as suas condições cubram objetos de valor."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quais são as regras para atrasos de bagagem e compras de emergência?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pode exigir o reembolso de compras de substituição razoáveis devido a atraso na entrega, desde que guarde os recibos. O limite máximo de responsabilidade por bagagem aplica-se em conjunto à perda, dano e atraso. Compre apenas o estritamente necessário e comunique o atraso imediatamente no aeroporto."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script src="../../js/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <a href="../index.html" class="site-logo">Fix my Trip</a>
+  <span style="font-size: 0.9em; color: #666;">Os seus direitos em viagens organizadas</span>
+</header>
+
+<div class="page-container">
+
+  <h1>Bagagem perdida ou danificada: Criar lista de inventário com valor atual e exigir indemnização</h1>
+
+  <div class="usp-bar">
+    <div class="usp-item">Selecione o conteúdo da mala com um clique</div>
+    <div class="usp-item">Calculadora de valor atual em tempo real</div>
+    <div class="usp-item">Para Companhia Aérea e Seguradora</div>
+    <div class="usp-item">Os dados permanecem no seu navegador</div>
+  </div>
+
+  <p>A sua mala desapareceu ou chegou danificada e a companhia aérea exige uma lista detalhada de todos os objetos? É exatamente aqui que o formato em tabela muitas vezes falha. Com esta ferramenta, basta clicar na sua roupa, dispositivos eletrónicos e objetos de valor, ajustar o preço e a idade, e obterá uma <strong>lista de inventário com valor atual</strong> pronta a usar, bem como a carta de reclamação adequada em PDF.</p>
+
+  <div class="info-box warning">
+    <strong>Comunique primeiro no aeroporto:</strong> Antes de sair da zona de recolha de bagagem, peça à companhia aérea ou ao agente de assistência em escala para registar o dano ou perda (Relatório de Irregularidade de Bagagem, também designado por "PIR") e anote o número de referência. Em caso de <strong>bagagem danificada</strong>, o dano também deve ser comunicado por escrito, o mais tardar, <strong>7 dias</strong> após a receção; em caso de <strong>atraso, 21 dias</strong> após a devolução. Fotografe a mala e os danos imediatamente.
+  </div>
+
+  <div class="kk-ad-top">
+    <span class="kk-ad-label">Anúncio</span>
+    <p class="kk-ad-title">Próxima viagem mais segura: Compare cartões de crédito com seguro de bagagem</p>
+    <p class="kk-ad-text">Alguns cartões de crédito para viagens incluem seguro de bagagem, por vezes associado a um seguro de saúde internacional. A nossa comparação gratuita mostra qual o cartão que melhor se adequa a si.</p>
+    <ul class="kk-ad-points"><li>Cartões selecionados com seguro de bagagem</li><li>Em alguns casos sem anuidade ou taxa de utilização no estrangeiro</li><li>Compare de forma gratuita e sem compromisso</li></ul>
+    <a href="#" class="kk-ad-btn" target="_blank" rel="noopener nofollow sponsored">Comparar cartões de crédito com proteção de bagagem</a>
+    <p class="kk-ad-note">Link patrocinado. Aplica-se a viagens futuras, não com efeitos retroativos ao seu caso atual. As coberturas, requisitos (ex: pagamento da viagem com o cartão) e exclusões variam consoante o cartão.</p>
+  </div>
+
+  <div class="legal-info-box">
+    <strong>Aviso importante de utilização</strong><br>
+    Esta ferramenta é um <strong>gerador automatizado de cartas</strong> (ferramenta de autoajuda). Utiliza os seus dados numa minuta geral. Os valores atuais calculados baseiam-se em <strong>valores de referência que pode ajustar</strong> e não constituem uma avaliação vinculativa. A companhia aérea e a seguradora decidem por si próprias quais os montantes que reconhecem. Não existe uma análise individual do seu caso, nem garantia de sucesso. Liste apenas os objetos que estavam efetivamente na bagagem e preste <strong>declarações verdadeiras</strong>.
+  </div>
+
+  <div class="highlight-box pruefdatum-box" role="note" aria-label="Verificado editorialmente" style="margin-top: 15px; margin-bottom: 30px;">
+    <p><strong>Verificado pela redação a:</strong> <span id="pruefdatum">26.10.2026</span></p>
+  </div>
+
+  <form id="gepaeckForm" novalidate>
+
+    <fieldset>
+      <legend>1. Detalhes do sinistro e prazos</legend>
+
+      <label for="fEmpf">A quem se destina a carta?</label>
+      <select id="fEmpf">
+        <option value="airline">Companhia Aérea (Indemnização nos termos da Convenção de Montreal)</option>
+        <option value="versicherung">Seguro de Viagem/Bagagem (Participação de sinistro)</option>
+      </select>
+
+      <label for="fSchaden">O que aconteceu?</label>
+      <select id="fSchaden">
+        <option value="verloren">A bagagem extraviou-se (não foi entregue)</option>
+        <option value="beschaedigt">A bagagem ou o seu conteúdo foi danificado</option>
+        <option value="verspaetet">A bagagem chegou com atraso, tive de fazer compras de emergência</option>
+      </select>
+
+      <label for="fAnkunft" id="fAnkunftLabel">Data da sua chegada (em caso de dano: data de entrega da bagagem):</label>
+      <input type="date" id="fAnkunft">
+
+      <div class="calc-banner" id="fristBanner" aria-live="polite">
+        O seu prazo de tempo:<br>
+        <span id="fristTitle" style="font-size: 0.6em;"></span>
+        <div class="kk-route-text" id="fristText"></div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>2. Conteúdo da mala: Selecionar objetos</legend>
+      <p style="font-size: 0.9em; color: #666; margin-top: 0;">Clique num objeto para o adicionar à lista. Os preços sugeridos são apenas exemplos. <strong>Substitua-os pelos seus preços de aquisição reais</strong> e introduza a idade do artigo.</p>
+
+      <div id="presetArea"></div>
+
+      <div class="inv-actions">
+        <button type="button" class="inv-btn" id="addCustom">Adicionar objeto personalizado</button>
+        <button type="button" class="inv-btn" id="addNotkauf">Adicionar compra de emergência (c/ recibo)</button>
+      </div>
+
+      <div id="invList"></div>
+      <div class="inv-empty" id="invEmpty">Ainda não selecionou nenhum objeto.</div>
+
+      <div class="calc-banner">
+        Valor atual do seu inventário:<br>
+        <span id="liveAmount">0,00 €</span>
+        <div style="font-size: 0.5em; font-weight: normal; margin-top: 5px;" id="liveSub">0 artigos, Valor em novo 0,00 €</div>
+        <div class="kk-route-text" id="limitText"></div>
+      </div>
+      <p style="font-size: 0.85em; color: #666;">Cálculo: Valor atual = Preço em novo x Quantidade x (1 - Depreciação anual x Idade), com um mínimo de 10% do preço de novo. As compras de emergência são calculadas pelo valor do recibo. Pode ajustar a taxa de depreciação para cada artigo.</p>
+    </fieldset>
+
+    <fieldset>
+      <legend>3. Voo e Bagagem</legend>
+
+      <label for="aName" id="aNameLabel">Companhia aérea:</label>
+      <input type="text" id="aName" list="empfListe" placeholder="ex. Nome da Companhia Aérea" autocomplete="off">
+      <datalist id="empfListe">
+        <option value="TAP Air Portugal"><option value="SATA Azores Airlines"><option value="easyJet"><option value="Ryanair"><option value="Iberia"><option value="Vueling"><option value="Lufthansa"><option value="Air France"><option value="KLM"><option value="British Airways"><option value="SWISS"><option value="Emirates"><option value="Wizz Air"><option value="Turkish Airlines"><option value="Binter Canarias"><option value="Transavia"><option value="ITA Airways"><option value="Condor"><option value="Discover Airlines">
+      </datalist>
+      <datalist id="versListe">
+        <option value="Fidelidade"><option value="Tranquilidade"><option value="Allianz Portugal"><option value="Lusitania"><option value="Mapfre"><option value="Ocidental"><option value="Zurich Portugal"><option value="InterMundial"><option value="IATI Seguros">
+      </datalist>
+
+      <label for="aAdresse">Morada ou E-mail do destinatário (opcional):</label>
+      <textarea id="aAdresse" rows="2" placeholder="ex. Formulário de contacto, E-mail ou Morada postal conforme o site ou apólice"></textarea>
+
+      <div id="versGroup" class="kk-hidden">
+        <label for="fPolice">Número da Apólice ou Contrato de Seguro:</label>
+        <input type="text" id="fPolice" placeholder="conforme a sua apólice">
+      </div>
+
+      <label for="fFlugnr">Número do voo:</label>
+      <input type="text" id="fFlugnr" placeholder="ex. TP1234">
+
+      <label for="fFlugDatum">Data do voo:</label>
+      <input type="date" id="fFlugDatum">
+
+      <label for="fVon">Aeroporto de partida:</label>
+      <input type="text" id="fVon" placeholder="ex. Lisboa">
+
+      <label for="fNach">Aeroporto de destino:</label>
+      <input type="text" id="fNach" placeholder="ex. Londres Heathrow">
+
+      <label for="fBag">Número da Etiqueta de Bagagem (Bag Tag, 10 dígitos):</label>
+      <input type="text" id="fBag" placeholder="ex. 0220123456">
+
+      <label for="fPIR">Referência do Relatório de Irregularidade no aeroporto (PIR, opcional):</label>
+      <input type="text" id="fPIR" placeholder="ex. LISXX12345">
+
+      <label for="fMelde">Data da comunicação no aeroporto (opcional):</label>
+      <input type="date" id="fMelde">
+
+      <label for="fSchilderung">Breve descrição pelas suas próprias palavras (opcional):</label>
+      <textarea id="fSchilderung" rows="4" placeholder="ex. A mala chegou com a costura lateral rasgada e a pega partida. Vários objetos no interior ficaram destruídos."></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>4. Documentos em anexo</legend>
+      <p style="font-size: 0.9em; color: #666; margin-top: 0;">Assinale o que vai anexar à carta. A lista de inventário está sempre incluída.</p>
+      <div class="checkbox-group" id="anlagenBoxen">
+        <label><input type="checkbox" checked data-text="Cópia do Relatório de Irregularidade (PIR) ou declaração de perda"> Relatório de Irregularidade (PIR) / Declaração de Perda</label>
+        <label><input type="checkbox" checked data-text="Cópia da Etiqueta de Bagagem (Bag Tag) e do Cartão de Embarque"> Etiqueta de Bagagem (Bag Tag) e Cartão de Embarque</label>
+        <label><input type="checkbox" data-text="Recibos de compra ou extratos bancários dos objetos listados"> Recibos de compra / Extratos bancários</label>
+        <label><input type="checkbox" data-text="Fotografias da bagagem danificada e dos danos"> Fotografias da bagagem e dos danos</label>
+        <label><input type="checkbox" data-text="Recibos das compras de emergência"> Recibos das compras de emergência</label>
+        <label><input type="checkbox" data-text="Confirmação de reserva ou bilhete de avião"> Confirmação de reserva / Bilhete de avião</label>
+        <label><input type="checkbox" data-text="Orçamento de reparação ou fatura de conserto"> Orçamento de reparação / Fatura de conserto</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>5. Os seus dados e dados bancários</legend>
+      <label for="sName">O seu Nome e Apelido:</label>
+      <input type="text" id="sName" placeholder="ex. João da Silva">
+      <label for="sStrasse">Morada (Rua, n.º e andar):</label>
+      <input type="text" id="sStrasse" placeholder="ex. Rua Augusta, 1">
+      <label for="sPLZOrt">Código Postal e Localidade:</label>
+      <input type="text" id="sPLZOrt" placeholder="ex. 1000-100 Lisboa">
+      <label for="bIBAN">IBAN para o reembolso:</label>
+      <input type="text" id="bIBAN" placeholder="PT50...">
+    </fieldset>
+
+    <div class="submit-area">
+      <p class="submit-disclaimer">
+        Ao clicar em "Gerar PDF", confirma que os seus dados são verdadeiros, que este serviço automatizado<br>não constitui aconselhamento jurídico e que apresenta a reclamação sob a sua própria responsabilidade.
+      </p>
+      <button type="submit" class="button-primary">Gerar Lista de Inventário e Carta em PDF</button>
+    </div>
+  </form>
+
+  <!-- Text-Output Box -->
+  <div id="textOutputArea" style="display: none; margin-top: 40px; background: #ffffff; padding: 35px; border: 1px solid #f5c6c6; border-top: 5px solid #aa3131; border-radius: 8px; box-shadow: 0 10px 30px rgba(137, 24, 24, 0.08); box-sizing: border-box;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; flex-wrap: wrap; gap: 15px;">
+      <div style="flex: 1; min-width: 250px;">
+        <h3 style="margin: 0 0 5px 0; color: #aa3131; font-size: 1.4em;">O seu texto final</h3>
+        <p style="margin: 0; font-size: 0.95em; color: #666; line-height: 1.4;">A companhia aérea ou seguradora oferece apenas um formulário online? Copie a carta e a lista de inventário com um clique e cole ambas lá.</p>
+      </div>
+      <button type="button" id="copyToClipboardBtn" style="background: #aa3131; color: #ffffff; border: none; padding: 12px 24px; font-size: 1em; font-weight: bold; border-radius: 6px; cursor: pointer; transition: background 0.3s; box-shadow: 0 4px 10px rgba(137, 24, 24, 0.2); white-space: nowrap;">
+        Copiar texto
+      </button>
+    </div>
+    <textarea id="plainTextResult" rows="16" style="width: 100%; padding: 20px; font-family: 'Courier New', Courier, monospace; font-size: 0.9em; line-height: 1.6; color: #333; background: #fdfdfd; border: 1px solid #e0e0e0; border-radius: 6px; resize: vertical; box-sizing: border-box;" readonly></textarea>
+  </div>
+
+  <!-- SEO Content -->
+  <div class="seo-content">
+    <h2>Bagagem perdida ou danificada: Os seus direitos e como proceder</h2>
+    <p>Nas viagens aéreas, a companhia aérea é responsável, nos termos da <strong>Convenção de Montreal</strong>, pela destruição, perda, danos e atrasos na bagagem registada (de porão), em regra sem necessidade de prova de culpa (Artigo 17.º). Contudo, a responsabilidade é limitada: o limite máximo atual é de <strong>1.519 Direitos de Saque Especiais (DSE) por passageiro</strong>. Dependendo da taxa de câmbio, isto equivale a cerca de 1.800 a 1.950 euros. Este montante aplica-se globalmente a perdas, danos e atrasos.</p>
+
+    <div class="kk-table-wrap">
+      <table class="kk-table">
+        <thead>
+          <tr><th>Situação</th><th>Prazo mais importante</th><th>O que deve fazer</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Bagagem danificada</td><td>Reclamação por escrito num prazo máximo de 7 dias após a receção (Art. 31.º CM)</td><td>Pedir o registo do auto de irregularidade (PIR) no local, tirar fotografias e, em seguida, formalizar a reclamação por escrito</td></tr>
+          <tr><td>Bagagem atrasada</td><td>Reclamação por escrito num prazo de 21 dias após ser colocada à sua disposição</td><td>Comunicar o atraso imediatamente, guardar os recibos de compras de emergência (que devem ser razoáveis)</td></tr>
+          <tr><td>Bagagem perdida</td><td>É considerada perdida após 21 dias sem entrega; deve então exigir os seus direitos</td><td>Comunicar a perda, criar a lista de inventário, reunir recibos</td></tr>
+          <tr><td>Ação judicial em caso de recusa</td><td>Dois anos a partir da data de chegada ou data prevista de chegada (Art. 35.º CM)</td><td>Recorrer previamente a meios de resolução alternativa de litígios, ver notas abaixo</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Primeiros passos no aeroporto</h3>
+    <p>Antes de sair da zona de recolha de bagagem, dirija-se ao balcão da companhia aérea ou do agente de assistência em escala (handling) e solicite a elaboração de um relatório de danos ou perda (no setor conhecido como "Property Irregularity Report" ou PIR). Anote o número de referência e guarde a etiqueta de bagagem e o cartão de embarque. Se a bagagem estiver danificada, tire fotografias da mala e do conteúdo ainda junto ao tapete rolante; se estiver perdida, tente arranjar uma fotografia da sua mala, caso tenha alguma.</p>
+
+    <h3>Valor atual em vez de valor de aquisição</h3>
+    <p>A companhia aérea não reembolsa normalmente o preço de novo, mas sim o <strong>valor atual</strong> dos objetos no momento da perda. Quanto mais antigo e usado for um objeto, menor será o seu valor. A ferramenta calcula o valor atual com base no preço de novo, idade e numa desvalorização anual. As percentagens predefinidas são valores de referência frequentemente utilizados na prática, mas não representam uma tabela oficial. Pode ajustar cada valor.</p>
+
+    <div class="kk-table-wrap">
+      <table class="kk-table">
+        <thead>
+          <tr><th>Categoria</th><th>Desvalorização anual predefinida</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Vestuário e Calçado</td><td>25 %</td></tr>
+          <tr><td>Cuidados e Cosmética</td><td>50 %</td></tr>
+          <tr><td>Eletrónica</td><td>25 %</td></tr>
+          <tr><td>Desporto e Lazer</td><td>15 %</td></tr>
+          <tr><td>Malas e Sacos</td><td>15 %</td></tr>
+          <tr><td>Relógios, Joias e Acessórios</td><td>10 %</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Reunir provas quando faltam recibos</h3>
+    <p>A companhia aérea exigirá comprovativos. Se faltarem faturas, extratos bancários, extratos do cartão de crédito, confirmações de encomendas online, cartões de garantia, fotografias suas com os objetos ou capturas de ecrã das páginas dos produtos podem ajudar. Anote a marca e o modelo com a maior precisão possível. Quanto mais credíveis forem as informações, maiores serão as hipóteses de serem aceites.</p>
+
+    <h3>Objetos de valor e eletrónica na mala</h3>
+    <p>Muitas condições de transporte excluem da responsabilidade objetos de valor, dinheiro, joias ou eletrónica despachados na bagagem de porão, ou aconselham a transportá-los na bagagem de mão. A validade jurídica de tais cláusulas em casos específicos pode ser controversa. Relativamente à <strong>bagagem de mão</strong>, a companhia aérea apenas é responsável em caso de culpa provada. Um seguro de viagem/bagagem pode cobrir esta lacuna, desde que as suas condições não excluam objetos de valor. Verifique sempre os limites máximos e exclusões nas suas apólices.</p>
+
+    <h3>Bagagem atrasada: Compras de emergência</h3>
+    <p>Se a sua bagagem chegar vários dias depois, tem o direito de comprar artigos de primeira necessidade, tais como roupa e artigos de higiene. Faça compras razoáveis e proporcionais, guarde todos os recibos e reporte o atraso imediatamente no aeroporto. Na ferramenta, registe estas compras através de "Adicionar compra de emergência (c/ recibo)". Estes entrarão na lista com o valor exato do recibo.</p>
+
+    <h3>Seguro de bagagem ou Companhia Aérea: Qual o caminho a seguir?</h3>
+    <p>Pode acionar a companhia aérea ou a seguradora, mas não pode ser indemnizado duas vezes pelo mesmo dano (enriquecimento sem causa). Fielmente, a seguradora exige como primeiro passo a prova de que participou o sinistro à companhia aérea. Escolha o destinatário no topo da página, e a carta adaptar-se-á. Mais tarde, informe a seguradora sobre o montante eventualmente reembolsado pela companhia aérea.</p>
+
+    <h3>Viagem organizada vs. Voo individual</h3>
+    <p>Se o voo fizer parte de uma viagem organizada (pacote turístico), a falta de bagagem também pode constituir um defeito na viagem. Nesses casos, contacte também o seu operador turístico ou agência de viagens, pois poderá ter direito a uma redução do preço da viagem. Encontrará mais informações no nosso <a href="../hotel-maengel-info.html">Guia sobre defeitos em viagens</a> e no nosso <a href="../gepaeck-info.html">Guia geral sobre bagagem</a>.</p>
+
+    <h3>O que fazer se a Companhia Aérea recusar ou não responder?</h3>
+    <p>Exija sempre uma justificação por escrito. Se o problema persistir, pode recorrer à Autoridade Nacional da Aviação Civil (ANAC) ou a um Centro de Arbitragem de Conflitos de Consumo, que têm competência para mediar conflitos com companhias aéreas. Pode consultar os nossos conselhos em <a href="../beschwerde-anleitungen-info.html">Dicas para apresentar reclamações e mediação</a>.</p>
+
+    <h3>Pode usar esta lista de inventário para estas Companhias Aéreas:</h3>
+    <ul class="kk-chip-list">
+      <li>TAP Air Portugal</li><li>SATA Azores Airlines</li><li>easyJet</li><li>Ryanair</li><li>Lufthansa</li><li>Iberia</li><li>Vueling</li><li>Air France</li><li>KLM</li><li>British Airways</li><li>SWISS</li><li>Emirates</li><li>Wizz Air</li><li>Turkish Airlines</li><li>Binter Canarias</li><li>Transavia</li><li>ITA Airways</li><li>Condor</li><li>Discover Airlines</li>
+    </ul>
+
+    <h3>E para estas Seguradoras:</h3>
+    <ul class="kk-chip-list">
+      <li>Fidelidade</li><li>Tranquilidade</li><li>Allianz Portugal</li><li>Lusitania</li><li>Mapfre</li><li>Ocidental</li><li>Zurich Portugal</li><li>InterMundial</li><li>IATI Seguros</li>
+    </ul>
+    <p style="font-size: 0.85em; color: #666;">Não existe qualquer ligação comercial entre o Fix my Trip e as empresas mencionadas. A listagem serve apenas para fins de orientação.</p>
+
+    <div class="faq-section">
+      <h2>Perguntas Frequentes (FAQ) sobre Danos em Bagagem</h2>
+
+      <details>
+        <summary>Quanto dinheiro recebo da companhia aérea por bagagem perdida?</summary>
+        <p>No caso de bagagem de porão, a companhia aérea é responsável, por princípio e sem necessidade de prova de culpa, ao abrigo da Convenção de Montreal, mas apenas até um limite máximo de 1.519 Direitos de Saque Especiais por passageiro. Dependendo da taxa de câmbio, isto equivale a cerca de 1.800 a 1.950 euros. Por norma, é reembolsado o valor atual (comercial) dos bens, e não o preço de novo.</p>
+      </details>
+
+      <details>
+        <summary>Serei reembolsado pelo valor em novo ou pelo valor atual?</summary>
+        <p>Por regra, pelo valor atual, ou seja, o valor do objeto no momento da perda, tendo em conta a sua idade e desgaste. Por este motivo, a ferramenta calcula o valor atual a partir do preço de novo, idade e uma depreciação anual que pode ajustar.</p>
+      </details>
+
+      <details>
+        <summary>Que prazos devo respeitar em caso de danos na bagagem?</summary>
+        <p>No caso de bagagem danificada, deve comunicar o dano por escrito no prazo máximo de sete dias após a receção; no caso de atraso na bagagem, no prazo de 21 dias após ter sido colocada à sua disposição. Se a bagagem for considerada perdida por não ter aparecido após 21 dias, pode fazer valer os seus direitos. As ações judiciais devem ser interpostas num prazo de dois anos. Comunique sempre qualquer dano imediatamente no aeroporto.</p>
+      </details>
+
+      <details>
+        <summary>O que acontece se já não tiver os recibos de compra?</summary>
+        <p>Em alternativa, reúna extratos bancários, confirmações de encomendas online, cartões de garantia, fotografias ou capturas de ecrã com a marca e o modelo. Quanto mais transparentes e detalhadas forem as suas informações, maior será a probabilidade de a companhia aérea as aceitar. O reembolso sem recibos não é garantido.</p>
+      </details>
+
+      <details>
+        <summary>Posso ser reembolsado por objetos de valor e eletrónica na bagagem de porão?</summary>
+        <p>Muitas condições de transporte excluem objetos de valor, dinheiro ou aparelhos eletrónicos da responsabilidade na bagagem de porão ou recomendam que sejam transportados na bagagem de mão. A eficácia de tais exclusões em casos individuais é controversa. Um seguro de bagagem pode preencher esta lacuna, desde que as suas condições cubram objetos de valor.</p>
+      </details>
+
+      <details>
+        <summary>Quais são as regras para atrasos de bagagem e compras de emergência?</summary>
+        <p>Pode exigir o reembolso de compras de substituição razoáveis devido a atraso na entrega, desde que guarde os recibos. O limite máximo de responsabilidade por bagagem aplica-se em conjunto à perda, dano e atraso. Compre apenas o estritamente necessário e comunique o atraso imediatamente no aeroporto.</p>
+      </details>
+    </div>
+  </div>
+
+  <div class="airline-hinweisbox">
+    <h3>Avisos importantes antes do envio</h3>
+    <p>Envie apenas cópias dos seus recibos e guarde sempre os originais. Certifique-se de que regista e guarda um comprovativo com carimbo de data/hora (E-mail, formulário online com email de confirmação ou carta registada com aviso de receção). Se a companhia aérea ou seguradora oferecer um formulário próprio, insira lá os artigos da sua lista de inventário e anexe a lista PDF como documento de suporte.</p>
+  </div>
+
+  <div class="crosslink-box" style="background: #f9f9f9; padding: 20px; border-radius: 8px; margin: 40px 0;">
+    <h3>Outros tópicos de interesse:</h3>
+    <div class="seo-link-cloud" style="display: flex; flex-wrap: wrap; gap: 10px;">
+      <a href="../gepaeck-info.html">Perda e Danos na Bagagem</a>
+      <a href="../flugverspaetung-info.html">Atrasos &amp; Cancelamentos de Voos</a>
+      <a href="ersatzbefoerderung-fristsetzung.html">Transporte Alternativo</a>
+      <a href="kreditkarte-geld-zurueckholen.html">Recuperar Dinheiro (Chargeback)</a>
+      <a href="../beschwerde-anleitungen-info.html">Dicas para Reclamações &amp; Arbitragem</a>
+    </div>
+  </div>
+
+  <aside class="legal-sources-box" aria-labelledby="sources-title-gepaeck">
+    <h3 id="sources-title-gepaeck" class="sources-heading">Bases Legais e Fontes de Informação</h3>
+    <p class="sources-intro">O conteúdo desta página baseia-se nas seguintes fontes de acesso público. Os limites máximos de responsabilidade são ajustados regularmente, por isso verifique a versão atualizada.</p>
+    <ul class="sources-list">
+      <li>
+        <strong>Convenção de Montreal (CM), em particular Artigos 17.º, 19.º, 22.º, 31.º e 35.º</strong>:
+        Regula a responsabilidade civil, os limites de indemnização, os prazos de notificação e o prazo de caducidade de dois anos para ações judiciais em danos de bagagem. O limite para bagagem de porão é de 1.519 DSE.
+        <br>
+        <a href="https://www.icao.int" target="_blank" rel="noopener noreferrer" class="source-link">Informações da Organização da Aviação Civil Internacional (OACI/ICAO)</a>
+      </li>
+      <li>
+        <strong>Regulamento (CE) n.º 889/2002 (alteração do Regulamento (CE) n.º 2027/97)</strong>:
+        Aplica as regras da Convenção de Montreal às companhias aéreas da União Europeia.
+        <br>
+        <a href="https://eur-lex.europa.eu/eli/reg/2002/889/oj" target="_blank" rel="noopener noreferrer" class="source-link">Texto no EUR-Lex</a>
+      </li>
+      <li>
+        <strong>Centros de Arbitragem de Conflitos de Consumo / CEC Portugal</strong>:
+        Resolução extrajudicial de litígios relacionados com transportes e companhias aéreas.
+        <br>
+        <a href="https://cec.consumidor.pt/" target="_blank" rel="noopener noreferrer" class="source-link">Informações do Centro Europeu do Consumidor Portugal</a>
+      </li>
+      <li>
+        <strong>Autoridade Nacional da Aviação Civil (ANAC)</strong>:
+        Informações sobre os direitos dos passageiros aéreos em Portugal.
+        <br>
+        <a href="https://www.anac.pt" target="_blank" rel="noopener noreferrer" class="source-link">Informações da Autoridade Nacional da Aviação Civil</a>
+      </li>
+    </ul>
+  </aside>
+</div>
+
+<div class="trust-section">
+  <h3>Sobre esta página</h3>
+  <p class="trust-text">
+    Os nossos guias e geradores baseiam-se na análise rigorosa dos regulamentos atuais da UE, convenções internacionais e do direito nacional. São desenvolvidos pela equipa de especialistas do Fix my Trip, com o objetivo de fornecer aos viajantes ferramentas estruturadas para resolverem os seus problemas de viagem.
+    <br><br>
+    <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+      Aviso Importante: Esta página não fornece aconselhamento jurídico ou de seguros individualizado. Os valores atuais sugeridos são estimativas; a decisão vinculativa cabe sempre à companhia aérea ou seguradora.
+    </span>
+  </p>
+
+  <a href="../ueber-uns.html" class="trust-link">Descubra mais sobre a nossa metodologia &amp; equipa editorial &rarr;</a>
+
+  <div class="lotse-card">
+    <p>
+      <strong>Problemas com o seu voo, comboio ou hotel?</strong><br>
+      O Fix-My-Trip verifica o seu direito a indemnizações, reembolso de bilhetes ou redução do preço da viagem em apenas alguns passos. <br>
+      <em>Um serviço fornecido pelo Fix my Trip.</em>
+    </p>
+  </div>
+
+  <p class="feedback-note">
+    <strong>Encontrou algum erro na ferramenta?</strong> Como não prestamos aconselhamento individual de forma automatizada, ajuda-nos imenso se reportar bugs ou informações desatualizadas:
+    <a href="mailto:support@fix-my-trip.com" style="color: #777; text-decoration: underline;">Enviar feedback para a nossa redação</a>.
+  </p>
+</div>
+
+<section class="site-niche-directory">
+  <div class="niche-directory-container">
+    <h2 class="niche-directory-title">Descubra mais tópicos</h2>
+    <p class="niche-directory-intro">
+      Seja um atraso de voo, falhas no hotel ou danos na bagagem - aqui encontrará o guia adequado e a minuta certa para quase todas as situações de viagem.
+    </p>
+
+    <div class="niche-directory-grid">
+      <div class="niche-directory-group">
+        <h3>Voos &amp; Aeroportos</h3>
+        <ul>
+          <li><a href="../flugverspaetung-info.html">Atrasos &amp; Cancelamentos de Voo</a></li>
+          <li><a href="ersatzbefoerderung-fristsetzung.html">Transporte Alternativo (Comboio, Táxi)</a></li>
+          <li><a href="gepaeck-inventarliste-schadenersatz.html">Inventário de Bagagem &amp; Valor Atual</a></li>
+          <li><a href="../steuern-info.html">Reembolso de Taxas Aeroportuárias</a></li>
+          <li><a href="../gepaeck-info.html">Perda &amp; Danos na Bagagem</a></li>
+        </ul>
+      </div>
+
+      <div class="niche-directory-group">
+        <h3>Alojamento &amp; Pacotes Turísticos</h3>
+        <ul>
+          <li><a href="../hotel-maengel-info.html">Defeitos no Hotel &amp; Ruído de Obras</a></li>
+          <li><a href="../storno-info.html">Cancelamento de Viagem (Custos)</a></li>
+          <li><a href="../ferienhaus-maengel-info.html">Casas de Férias &amp; Alojamento Local</a></li>
+          <li><a href="../airbnb-probleme-info.html">Resolução de Problemas no Airbnb</a></li>
+          <li><a href="../kreuzfahrt-minderung.html">Defeitos em Cruzeiros</a></li>
+        </ul>
+      </div>
+
+      <div class="niche-directory-group">
+        <h3>Preparação &amp; Mobilidade</h3>
+        <ul>
+          <li><a href="../zugverspaetung-info.html">Atrasos de Comboio &amp; Direitos</a></li>
+          <li><a href="kreditkarte-geld-zurueckholen.html">Recuperar Dinheiro (Cartão, Débito Direto)</a></li>
+          <li><a href="auslandskrankenschein-kostenerstattung.html">Reembolso de Despesas Médicas</a></li>
+          <li><a href="../esim-roaming-info.html">eSIM &amp; Custos de Roaming</a></li>
+          <li><a href="../mietwagen-info.html">Seguros para Carros de Aluguer</a></li>
+          <li><a href="../reisekreditkarten-info.html">Comparação de Cartões para Viagens</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 Fix-my-Trip.com</p>
+  <nav>
+    <a href="../ueber-uns.html">Sobre nós</a> |
+    <a href="../index.html">Página inicial</a> |
+    <a href="../impressum.html">Aviso legal</a> |
+    <a href="../datenschutz.html">Política de Privacidade</a>
+  </nav>
+</footer>
+
+<div class="overlay" id="donateOverlay">
+  <div class="donate-modal">
+    <button class="close-x" onclick="closeOverlay()" aria-label="Fechar">&times;</button>
+    <h2>Os seus documentos estão prontos</h2>
+    <p class="sub">O PDF foi criado no seu dispositivo.<br>Os seus dados não foram transmitidos para nós.</p>
+    <div class="donate-hint">
+      Este serviço é e continuará a ser <strong>100% gratuito</strong>. Se o ajudámos, ficaríamos muito gratos com um pequeno apoio voluntário, para que o Fix my Trip possa continuar gratuito para outros viajantes.
+    </div>
+    <p style="font-size: 0.85em; font-weight: 600; color: #777; margin: 0 0 10px;">Seleção rápida:</p>
+    <div class="donate-amounts">
+      <button onclick="selectPreset(3, this)">3 €</button>
+      <button onclick="selectPreset(5, this)" class="selected">5 €</button>
+      <button onclick="selectPreset(10, this)">10 €</button>
+    </div>
+    <div class="custom-amount-wrapper">
+      <span class="currency-symbol">€</span>
+      <input type="number" id="customAmount" min="1" step="1" placeholder="Inserir outro valor..." oninput="handleCustomInput(this)">
+    </div>
+    <button class="btn-donate" id="btnDonate" onclick="openPayPal()">Doar agora 5 €</button>
+    <button class="btn-skip" onclick="closeOverlay()">Não, obrigado, vou fechar a janela</button>
+    <p class="paypal-note">Voluntário &amp; seguro via PayPal</p>
+    <div style="margin-top: 22px; padding-top: 14px; border-top: 1px solid #eee; text-align: left;">
+      <span style="font-size: 0.65rem; color: #888; text-transform: uppercase; letter-spacing: 0.05em; display: block; margin-bottom: 5px;">Anúncio / Link patrocinado</span>
+      <p style="margin: 0; font-size: 0.85em; color: #555; line-height: 1.4;"><strong style="color:#333;">P.S.: Vai voar de novo em breve?</strong> Alguns cartões de crédito para viagem incluem seguro de bagagem, para estar protegido na sua próxima contrariedade.<br>
+        <a href="#" target="_blank" rel="noopener nofollow sponsored" style="color: #891818; font-weight: bold; text-decoration: underline; margin-top: 5px; display: inline-block;">Comparar cartões de crédito para viagens</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+const $ = id => document.getElementById(id);
+const pad = n => String(n).padStart(2, '0');
+function fmtMoney(n) { return n.toFixed(2).replace('.', ','); }
+function fmtDate(d) { return d.toLocaleDateString('pt-PT', {day: '2-digit', month: '2-digit', year: 'numeric'}); }
+function fmtIso(s) { return fmtDate(new Date(s + 'T00:00:00')); }
+function daysSince(dateStr) {
+  const d = new Date(dateStr + 'T00:00:00');
+  const t = new Date(); t.setHours(0, 0, 0, 0);
+  return Math.round((t - d) / 86400000);
+}
+
+/* ---------- Vorlagen für Gegenstände ---------- */
+const PRESETS = [
+  { cat: 'Vestuário', rate: 25, list: [['T-Shirt', 20], ['Camisa / Blusa', 40], ['Camisola', 50], ['Calças / Jeans', 70], ['Vestido / Saia', 60], ['Casaco', 120], ['Roupa interior (unid.)', 15], ['Meias (par)', 8], ['Roupa de banho', 40], ['Pijama', 40], ['Roupa de desporto', 45], ['Gorro / Cachecol', 25]] },
+  { cat: 'Calçado', rate: 25, list: [['Sapatos (par)', 90], ['Sandálias / Chinelos', 35], ['Ténis / Sapatilhas', 100]] },
+  { cat: 'Cuidados e Cosmética', rate: 50, list: [['Cosmética / Produtos de Higiene (Kit)', 60], ['Perfume', 70]] },
+  { cat: 'Eletrónica', rate: 25, list: [['Portátil / Laptop', 900], ['Tablet', 450], ['Máquina Fotográfica', 600], ['Auscultadores', 150], ['E-Reader', 120], ['Powerbank', 30], ['Carregadores / Cabos (Kit)', 40], ['Máq. barbear elét. / Secador de cabelo', 70]] },
+  { cat: 'Relógios, Joias e Acessórios', rate: 10, list: [['Relógio de pulso', 300], ['Joias', 200], ['Óculos de sol', 120], ['Mala de senhora / Mochila', 120], ['Carteira', 50]] },
+  { cat: 'Desporto e Lazer', rate: 15, list: [['Toalha de praia', 25], ['Livro', 15], ['Tapete de Yoga', 30], ['Capacete de bicicleta', 70], ['Material de mergulho (Kit)', 500], ['Brinquedo (criança)', 25]] },
+  { cat: 'Bagagem', rate: 15, list: [['Mala de porão / Saco de viagem', 150]] }
+];
+
+let items = [];
+let nextId = 1;
+
+/* Preset-Chips aufbauen */
+(function buildPresets() {
+  const area = $('presetArea');
+  PRESETS.forEach(group => {
+    const h = document.createElement('div');
+    h.className = 'inv-cat';
+    h.textContent = group.cat;
+    area.appendChild(h);
+    const wrap = document.createElement('div');
+    wrap.className = 'inv-chips';
+    group.list.forEach(([name, price]) => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'inv-chip';
+      b.textContent = name;
+      b.addEventListener('click', () => addItem(name, price, group.rate, false));
+      wrap.appendChild(b);
+    });
+    area.appendChild(wrap);
+  });
+})();
+
+function zeitwert(it) {
+  const qty = Math.max(0, it.qty || 0);
+  const price = Math.max(0, it.price || 0);
+  if (it.notkauf) return Math.round(price * qty * 100) / 100;
+  const factor = Math.max(0.10, 1 - ((it.rate || 0) / 100) * Math.max(0, it.age || 0));
+  return Math.round(price * qty * factor * 100) / 100;
+}
+function neuwert(it) { return Math.round(Math.max(0, it.price || 0) * Math.max(0, it.qty || 0) * 100) / 100; }
+
+function addItem(name, price, rate, notkauf) {
+  items.push({ id: nextId++, name: name, qty: 1, price: price, age: 2, rate: rate, notkauf: notkauf });
+  renderItems();
+}
+$('addCustom').addEventListener('click', () => addItem('', 0, 20, false));
+$('addNotkauf').addEventListener('click', () => addItem('', 0, 0, true));
+
+function renderItems() {
+  const list = $('invList');
+  list.innerHTML = '';
+  items.forEach(it => {
+    const row = document.createElement('div');
+    row.className = 'inv-row' + (it.notkauf ? ' is-notkauf' : '');
+    row.innerHTML =
+      '<div class="inv-name"><label>' + (it.notkauf ? 'Compra de emergência (Descrição)' : 'Objeto') + '</label><input type="text" data-f="name" placeholder="Descrição"></div>' +
+      '<div><label>Qtd</label><input type="number" min="1" step="1" data-f="qty"></div>' +
+      '<div><label>' + (it.notkauf ? 'Valor no recibo (€)' : 'Preço novo / un. (€)') + '</label><input type="number" min="0" step="0.01" data-f="price"></div>' +
+      '<div class="inv-hide-nk"><label>Idade (Anos)</label><input type="number" min="0" step="0.5" data-f="age"></div>' +
+      '<div class="inv-hide-nk"><label>Desvaloriz. %/Ano</label><input type="number" min="0" max="100" step="1" data-f="rate"></div>' +
+      '<div class="inv-end"><div><label>Valor atual</label><div class="inv-val" data-f="val"></div></div><button type="button" class="inv-del" aria-label="Remover item" title="Remover">&times;</button></div>';
+    row.querySelectorAll('input[data-f]').forEach(inp => {
+      const f = inp.getAttribute('data-f');
+      inp.value = it[f] === 0 && f !== 'qty' && f !== 'price' ? 0 : it[f];
+      if (f === 'name') inp.value = it.name;
+      inp.addEventListener('input', () => {
+        it[f] = (f === 'name') ? inp.value : parseFloat(inp.value);
+        if (f !== 'name' && isNaN(it[f])) it[f] = 0;
+        row.querySelector('[data-f="val"]').textContent = fmtMoney(zeitwert(it)) + ' €';
+        updateTotals();
+      });
+    });
+    row.querySelector('[data-f="val"]').textContent = fmtMoney(zeitwert(it)) + ' €';
+    row.querySelector('.inv-del').addEventListener('click', () => { items = items.filter(x => x.id !== it.id); renderItems(); });
+    list.appendChild(row);
+  });
+  $('invEmpty').classList.toggle('kk-hidden', items.length > 0);
+  updateTotals();
+}
+
+function totals() {
+  let z = 0, n = 0;
+  items.forEach(it => { z += zeitwert(it); n += neuwert(it); });
+  return { zeit: Math.round(z * 100) / 100, neu: Math.round(n * 100) / 100 };
+}
+
+function updateTotals() {
+  const t = totals();
+  $('liveAmount').textContent = t.zeit.toLocaleString('pt-PT', { style: 'currency', currency: 'EUR' });
+  $('liveSub').textContent = items.length + ' Artigos, Valor em novo ' + t.neu.toLocaleString('pt-PT', { style: 'currency', currency: 'EUR' });
+  $('limitText').textContent = (t.zeit > 1800 && $('fEmpf').value === 'airline')
+    ? 'A sua lista pode ultrapassar o limite máximo de responsabilidade da companhia aérea (1.519 DSE, atualmente aprox. 1.800 a 1.950 euros consoante o câmbio). Por norma, as companhias aéreas não reembolsam valores acima deste limite. Um seguro de bagagem pode ajudar neste caso.'
+    : 'Limite máximo de responsabilidade da companhia aérea por bagagem: 1.519 DSE por passageiro, atualmente cerca de 1.800 a 1.950 euros consoante o câmbio.';
+}
+
+/* ---------- Fristen-Check und UI ---------- */
+function updateFrist() {
+  const art = $('fSchaden').value;
+  const d = $('fAnkunft').value;
+  const titles = {
+    beschaedigt: 'Prazo de reclamação por danos: 7 dias após a receção',
+    verspaetet: 'Prazo de reclamação por atraso: 21 dias após a entrega',
+    verloren: 'A bagagem é considerada perdida após 21 dias sem entrega'
+  };
+  $('fristTitle').textContent = titles[art];
+  if (!d) { $('fristText').textContent = 'Introduza a data para mostrarmos quantos dias ainda lhe restam.'; return; }
+  const days = daysSince(d);
+  if (days < 0) { $('fristText').textContent = 'A data inserida encontra-se no futuro. Por favor, verifique os seus dados.'; return; }
+  let s = 'Passaram-se ' + days + ' dias desde a data escolhida. ';
+  if (art === 'beschaedigt') {
+    s += days <= 7 ? 'Tem ainda ' + (7 - days) + ' dias para enviar a reclamação por escrito. Envie-a o mais rápido possível.' : 'O prazo de 7 dias já foi ultrapassado. Ainda assim, apresente a reclamação por escrito o quanto antes, embora os seus direitos possam estar comprometidos. Se tiver razões para alegar má-fé da companhia aérea ou se já tiver preenchido o auto no aeroporto, mencione-o na carta.';
+  } else if (art === 'verspaetet') {
+    s += days <= 21 ? 'Tem ainda ' + (21 - days) + ' dias para enviar a reclamação por escrito. Guarde bem todos os recibos das compras de emergência.' : 'O prazo de 21 dias já foi ultrapassado. Ainda assim, apresente a reclamação por atraso o quanto antes.';
+  } else {
+    s += days >= 21 ? 'A bagagem é legalmente considerada perdida. Pode agora reclamar os seus direitos de indemnização. O prazo limite (caducidade) para interpor uma ação judicial é de dois anos.' : 'Até ao 21.º dia, a bagagem ainda pode aparecer (faltam ' + (21 - days) + ' dias). No entanto, já pode ir criando a lista de inventário e guardando os recibos das compras de emergência.';
+  }
+  $('fristText').textContent = s;
+}
+
+function updateUI() {
+  const vers = $('fEmpf').value === 'versicherung';
+  $('versGroup').classList.toggle('kk-hidden', !vers);
+  $('aNameLabel').textContent = vers ? 'Companhia de Seguros:' : 'Companhia Aérea:';
+  $('aName').setAttribute('list', vers ? 'versListe' : 'empfListe');
+  $('fAnkunftLabel').textContent = $('fSchaden').value === 'beschaedigt'
+    ? 'Data em que a bagagem lhe foi entregue:'
+    : ($('fSchaden').value === 'verspaetet' ? 'Data em que recebeu a bagagem atrasada:' : 'Data da sua chegada (ou chegada planeada da bagagem):');
+  updateFrist();
+  updateTotals();
+}
+['fEmpf', 'fSchaden', 'fAnkunft'].forEach(id => { $(id).addEventListener('change', updateUI); $(id).addEventListener('input', updateUI); });
+updateUI();
+
+/* ---------- Schreiben und PDF ---------- */
+const SCHADEN_LABEL = { verloren: 'Perda', beschaedigt: 'Danos', verspaetet: 'Atraso com compras de emergência' };
+
+function validate(list) {
+  const missing = list.filter(([id]) => !$(id).value.trim()).map(([, label]) => label);
+  if (missing.length) { alert('Por favor, preencha: ' + missing.join(', ') + '.'); return false; }
+  return true;
+}
+
+document.getElementById('gepaeckForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  const req = [['aName', 'Destinatário'], ['fFlugnr', 'Número do Voo'], ['fFlugDatum', 'Data do Voo'], ['fVon', 'Aeroporto de Partida'], ['fNach', 'Aeroporto de Destino'], ['fBag', 'Número da Etiqueta de Bagagem'], ['sName', 'O Seu Nome'], ['sStrasse', 'Morada'], ['sPLZOrt', 'Código Postal e Localidade'], ['bIBAN', 'IBAN']];
+  if (!validate(req)) return;
+  if (items.length === 0) { alert('Por favor, adicione pelo menos um objeto à lista.'); return; }
+  const bad = items.filter(it => !it.name.trim() || !(it.price > 0) || !(it.qty > 0));
+  if (bad.length) { alert('Por favor, preencha todos os campos dos objetos (Descrição, Quantidade e Preço são obrigatórios) ou remova as linhas vazias.'); return; }
+
+  const art = $('fSchaden').value;
+  const empfTyp = $('fEmpf').value;
+  const empf = $('aName').value.trim();
+  const empfAdr = $('aAdresse').value.trim();
+  const police = $('fPolice').value.trim();
+  const flugnr = $('fFlugnr').value.trim();
+  const flugDatum = fmtIso($('fFlugDatum').value);
+  const von = $('fVon').value.trim();
+  const nach = $('fNach').value.trim();
+  const bag = $('fBag').value.trim();
+  const pir = $('fPIR').value.trim();
+  const melde = $('fMelde').value ? fmtIso($('fMelde').value) : '';
+  const ankunft = $('fAnkunft').value ? fmtIso($('fAnkunft').value) : '';
+  const schilderung = $('fSchilderung').value.trim();
+  const sName = $('sName').value.trim();
+  const sStrasse = $('sStrasse').value.trim();
+  const sPLZOrt = $('sPLZOrt').value.trim();
+  const iban = $('bIBAN').value.trim();
+  const t = totals();
+  const zeitStr = fmtMoney(t.zeit) + ' EUR';
+  const neuStr = fmtMoney(t.neu) + ' EUR';
+
+  const todayStr = fmtDate(new Date());
+  const dl14 = new Date(); dl14.setDate(dl14.getDate() + 14);
+  const dlStr = fmtDate(dl14);
+
+  const anlagenZeilen = ['Lista de inventário com valores atuais (Anexo 1)'];
+  document.querySelectorAll('#anlagenBoxen input[type="checkbox"]').forEach(cb => { if (cb.checked) anlagenZeilen.push(cb.getAttribute('data-text')); });
+  const anlagenNum = anlagenZeilen.map((a, i) => (i + 1) + '. ' + a);
+
+  let betreff, facts = [], paras = [];
+  const artText = { verloren: 'perdida', beschaedigt: 'danificada', verspaetet: 'entregue com atraso' }[art];
+
+  facts.push(['Voo:', flugnr + ', ' + von + ' - ' + nach]);
+  facts.push(['Data do voo:', flugDatum]);
+  facts.push(['N.º da Etiqueta da Bagagem:', bag]);
+  if (pir) facts.push(['Auto de Irregularidade (PIR):', pir]);
+  facts.push(['Tipo de dano:', SCHADEN_LABEL[art]]);
+  if (empfTyp === 'versicherung' && police) facts.push(['Número da Apólice:', police]);
+  facts.push(['Valor atual total:', zeitStr]);
+
+  const sachverhalt = {
+    verloren: 'a minha bagagem registada (Etiqueta de Bagagem n.º ' + bag + ') não me foi entregue no voo acima mencionado' + (ankunft ? ' (chegada prevista: ' + ankunft + ')' : '') + '. ' + (melde ? 'Comuniquei a perda no dia ' + melde + ' no aeroporto' + (pir ? ' (Referência: ' + pir + ')' : '') + '. ' : '') + 'A bagagem não me foi entregue até à presente data.',
+    beschaedigt: 'a minha bagagem registada (Etiqueta de Bagagem n.º ' + bag + ') chegou danificada após o voo acima mencionado' + (ankunft ? ' (data da entrega: ' + ankunft + ')' : '') + '. ' + (melde ? 'Comuniquei o dano no dia ' + melde + ' no aeroporto' + (pir ? ' (Referência: ' + pir + ')' : '') + '. ' : '') + 'Venho por este meio comunicar formalmente e por escrito a existência dos referidos danos.',
+    verspaetet: 'a minha bagagem registada (Etiqueta de Bagagem n.º ' + bag + ') foi entregue com atraso relativamente ao voo acima mencionado' + (ankunft ? ' (data da devolução: ' + ankunft + ')' : '') + '. ' + (melde ? 'Comuniquei o atraso no dia ' + melde + ' no aeroporto' + (pir ? ' (Referência: ' + pir + ')' : '') + '. ' : '') + 'Venho por este meio apresentar formalmente e por escrito o meu pedido de indemnização, uma vez que durante o atraso tive de adquirir artigos de primeira necessidade.'
+  }[art];
+
+  if (empfTyp === 'airline') {
+    betreff = 'Pedido de indemnização por bagagem ' + artText + ' - Voo ' + flugnr + ' em ' + flugDatum;
+    paras.push(sachverhalt);
+    if (schilderung) paras.push('Descrição adicional: ' + schilderung);
+    paras.push('A vossa companhia é responsável por estes danos nos termos da Convenção de Montreal (Artigo 17.º, n.º 2; ou, em caso de atraso, Artigo 19.º). Os objetos afetados encontram-se detalhados na lista de inventário em anexo (Anexo 1). O valor atual (comercial) ascende a um total de ' + zeitStr + ' (Valor de aquisição: ' + neuStr + '). Estes valores têm por base o preço de aquisição original, a idade dos bens e a desvalorização habitual pelo uso.');
+    paras.push('Solicito o pagamento da indemnização correspondente no valor de ' + zeitStr + ', até ao limite máximo de responsabilidade fixado no Art. 22.º, n.º 2 da Convenção de Montreal. O pagamento deverá ser efetuado até ao dia ' + dlStr + ' para a seguinte conta bancária:\nTitular da Conta: ' + sName + '\nIBAN: ' + iban);
+  } else {
+    betreff = 'Participação de Sinistro ao Seguro de Viagem/Bagagem - ' + SCHADEN_LABEL[art] + ' - Voo ' + flugnr + ' em ' + flugDatum;
+    paras.push(sachverhalt);
+    if (schilderung) paras.push('Descrição adicional: ' + schilderung);
+    paras.push('Os bens e artigos afetados encontram-se especificados na lista de inventário em anexo (Anexo 1). O valor atual perfaz um total de ' + zeitStr + ' (Valor em novo: ' + neuStr + '). Solicito a vossa análise atenta e o respetivo reembolso, em conformidade com as Condições Gerais da Apólice. A transferência deverá ser efetuada até ao dia ' + dlStr + ' para a seguinte conta:\nTitular da Conta: ' + sName + '\nIBAN: ' + iban);
+    paras.push('Até à presente data, não recebi qualquer indemnização da companhia aérea referente aos mesmos artigos. Caso venha a receber, informarei a vossa companhia prontamente.');
+  }
+  const abschluss = 'Declaro, sob compromisso de honra, que as informações aqui prestadas são verdadeiras e que todos os bens descritos se encontravam na bagagem. Agradeço que confirmem a receção desta carta e me informem caso seja necessária documentação adicional.';
+
+  /* Inventar-Klartext */
+  const invText = items.map((it, i) => {
+    const nm = (it.name.trim() + (it.notkauf ? ' (Emergência)' : '')).slice(0, 34).padEnd(34);
+    const detail = it.notkauf ? ('Recibo: ' + fmtMoney(it.price)) : (it.qty + 'x ' + fmtMoney(it.price) + ', ' + it.age + ' Anos');
+    return String(i + 1).padStart(2, ' ') + '. ' + nm + ' ' + detail.padEnd(22) + ' ' + fmtMoney(zeitwert(it)) + ' EUR';
+  }).join('\n');
+
+  let plain = sName + '\n' + sStrasse + '\n' + sPLZOrt + '\n\n' + empf + (empfAdr ? '\n' + empfAdr : '') + '\n\nData: ' + todayStr + '\n\n' +
+    'Assunto: ' + betreff + '\n' + facts.map(f => f[0] + ' ' + f[1]).join('\n') + '\n\nExmos. Senhores,\n\n' + paras.join('\n\n') +
+    '\n\nAnexos:\n' + anlagenNum.join('\n') + '\n\n' + abschluss + '\n\nCom os melhores cumprimentos,\n' + sName +
+    '\n\n----------------------------------------\nANEXO 1: LISTA DE INVENTÁRIO\n----------------------------------------\n' + invText +
+    '\n----------------------------------------\nValor em Novo Total: ' + neuStr + '\nValor Atual Total: ' + zeitStr +
+    '\n\nCálculo: Valor atual = Preço em novo x Qtd x (1 - Desvalorização ao ano x Idade), mín. 10 % do preço novo. Compras de emergência com base no valor do recibo.';
+
+  /* PDF */
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF();
+  const pageH = 297, marginBottom = 20, lineH = 6;
+  function ensure(y, needed) { if (y + (needed || lineH) > pageH - marginBottom) { doc.addPage(); return 30; } return y; }
+  function write(text, y, x, width) {
+    const lines = doc.splitTextToSize(text, width || 160);
+    lines.forEach(l => { y = ensure(y); doc.text(l, x || 25, y); y += lineH; });
+    return y;
+  }
+
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(8);
+  doc.setTextColor(100, 100, 100);
+  doc.text(sName + ' - ' + sStrasse + ' - ' + sPLZOrt, 25, 45);
+  doc.setLineWidth(0.2);
+  doc.setDrawColor(150, 150, 150);
+  doc.line(25, 46.5, 95, 46.5);
+
+  doc.setFontSize(11);
+  doc.setTextColor(0, 0, 0);
+  doc.text(doc.splitTextToSize(empf + (empfAdr ? '\n' + empfAdr : ''), 80), 25, 53);
+
+  doc.setFontSize(10);
+  doc.text('Remetente:', 130, 45);
+  doc.setFont('helvetica', 'bold');
+  doc.text(sName, 130, 50);
+  doc.setFont('helvetica', 'normal');
+  doc.text(sStrasse, 130, 55);
+  doc.text(sPLZOrt, 130, 60);
+  doc.text('Data: ' + todayStr, 185, 80, { align: 'right' });
+
+  doc.setFontSize(12);
+  doc.setFont('helvetica', 'bold');
+  const betreffLines = doc.splitTextToSize(betreff, 160);
+  doc.text(betreffLines, 25, 95);
+
+  doc.setFontSize(10.5);
+  let fy = 95 + betreffLines.length * 6 + 4;
+  facts.forEach(f => {
+    doc.setFont('helvetica', 'bold');
+    doc.text(f[0], 25, fy);
+    doc.setFont('helvetica', 'normal');
+    doc.text(doc.splitTextToSize(f[1], 100), 80, fy); // Changed X slightly for longer PT labels
+    fy += 5.5;
+  });
+  doc.setDrawColor(0, 0, 0);
+  doc.line(25, fy, 185, fy);
+
+  let y = fy + 12;
+  doc.setFontSize(11);
+  y = write('Exmos. Senhores,', y); y += 3;
+  paras.forEach(p => { y = write(p, y); y += 3; });
+
+  doc.setFont('helvetica', 'bold');
+  y = ensure(y); doc.text('Anexos:', 25, y); y += lineH;
+  doc.setFont('helvetica', 'normal');
+  anlagenNum.forEach(a => { y = write(a, y, 30, 150); });
+  y += 3;
+  y = write(abschluss, y); y += 10;
+
+  y = ensure(y, 40);
+  doc.text('Com os melhores cumprimentos,', 25, y);
+  y += 25;
+  doc.setLineWidth(0.5);
+  doc.line(25, y, 80, y);
+  doc.line(100, y, 185, y);
+  doc.setFontSize(9);
+  doc.setTextColor(100, 100, 100);
+  doc.text('Local, Data', 25, y + 5);
+  doc.text('Assinatura (' + sName + ')', 100, y + 5);
+
+  /* Anlage 1: Inventarliste */
+  doc.addPage();
+  doc.setTextColor(0, 0, 0);
+  y = 30;
+  doc.setFont('helvetica', 'bold');
+  doc.setFontSize(13);
+  doc.text('Anexo 1: Lista de Inventário', 25, y); y += 7;
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(9);
+  doc.text(sName + ' | Etiqueta de Bagagem ' + bag + ' | Voo ' + flugnr + ' em ' + flugDatum, 25, y); y += 8;
+
+  function tableHeader() {
+    doc.setFont('helvetica', 'bold');
+    doc.setFontSize(9.5);
+    doc.text('N.º', 25, y);
+    doc.text('Artigo', 33, y);
+    doc.text('Qtd', 112, y, { align: 'right' });
+    doc.text('Preço/Un.', 135, y, { align: 'right' });
+    doc.text('Idade', 153, y, { align: 'right' });
+    doc.text('Valor Atual', 185, y, { align: 'right' });
+    y += 2;
+    doc.setLineWidth(0.3);
+    doc.line(25, y, 185, y);
+    y += 5;
+    doc.setFont('helvetica', 'normal');
+  }
+  tableHeader();
+  items.forEach((it, i) => {
+    const nameLines = doc.splitTextToSize(it.name.trim() + (it.notkauf ? ' (Emergência, Recibo)' : ''), 72);
+    const h = nameLines.length * 5 + 2;
+    if (y + h > pageH - marginBottom) { doc.addPage(); y = 30; tableHeader(); }
+    doc.setFontSize(9.5);
+    doc.text(String(i + 1), 25, y);
+    doc.text(nameLines, 33, y);
+    doc.text(String(it.qty), 112, y, { align: 'right' });
+    doc.text(fmtMoney(it.price), 135, y, { align: 'right' });
+    doc.text(it.notkauf ? '-' : (it.age + ' Anos'), 153, y, { align: 'right' });
+    doc.text(fmtMoney(zeitwert(it)), 185, y, { align: 'right' });
+    y += h;
+  });
+  y += 2;
+  if (y + 24 > pageH - marginBottom) { doc.addPage(); y = 30; }
+  doc.setLineWidth(0.3);
+  doc.line(25, y, 185, y); y += 6;
+  doc.setFont('helvetica', 'normal');
+  doc.text('Valor em novo total:', 135, y, { align: 'right' });
+  doc.text(neuStr, 185, y, { align: 'right' }); y += 6;
+  doc.setFont('helvetica', 'bold');
+  doc.text('Valor atual total:', 135, y, { align: 'right' });
+  doc.text(zeitStr, 185, y, { align: 'right' }); y += 10;
+  doc.setFont('helvetica', 'normal');
+  doc.setFontSize(8.5);
+  doc.setTextColor(100, 100, 100);
+  const note = doc.splitTextToSize('Cálculo: Valor atual = Preço em novo x Quantidade x (1 - Desvalorização anual x Idade), com um limite mínimo de 10% do preço de novo. As compras de emergência são avaliadas pelo valor comprovado no recibo. As estimativas de valor baseiam-se na avaliação e declaração pessoal do remetente.', 160);
+  doc.text(note, 25, y);
+
+  const out = $('textOutputArea');
+  out.style.display = 'block';
+  $('plainTextResult').value = plain;
+  out.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+  doc.save('Inventario_Bagagem_' + empf.replace(/[^a-zA-Z0-9]/g, '_') + '_' + bag.replace(/[^a-zA-Z0-9]/g, '') + '.pdf');
+  setTimeout(() => $('donateOverlay').classList.add('active'), 800);
+});
+
+/* ---------- Spenden-Overlay ---------- */
+const PAYPAL_EMAIL = 'info@kassen-lotse.de';
+let donateAmount = 5;
+
+function selectPreset(amount, btn) {
+  donateAmount = amount;
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  $('customAmount').value = '';
+  $('customAmount').classList.remove('selected-custom');
+  updateDonateButton();
+}
+function handleCustomInput(input) {
+  document.querySelectorAll('.donate-amounts button').forEach(b => b.classList.remove('selected'));
+  const val = parseFloat(input.value);
+  if (val && val >= 1) { donateAmount = val; input.classList.add('selected-custom'); }
+  else { donateAmount = 0; input.classList.remove('selected-custom'); }
+  updateDonateButton();
+}
+function updateDonateButton() {
+  const btn = $('btnDonate');
+  if (donateAmount >= 1) {
+    btn.textContent = 'Doar agora ' + (donateAmount % 1 === 0 ? donateAmount : donateAmount.toFixed(2)) + ' €';
+    btn.disabled = false;
+  } else {
+    btn.textContent = 'Inserir valor';
+    btn.disabled = true;
+  }
+}
+function openPayPal() {
+  if (donateAmount < 1) return;
+  const url = 'https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=' + encodeURIComponent(PAYPAL_EMAIL) + '&amount=' + donateAmount.toFixed(2) + '&currency_code=EUR&item_name=Apoio+ao+Fix+my+Trip&no_note=1&no_shipping=1';
+  window.open(url, '_blank');
+  closeOverlay();
+}
+function closeOverlay() { $('donateOverlay').classList.remove('active'); }
+$('donateOverlay').addEventListener('click', function(e) { if (e.target === this) closeOverlay(); });
+
+/* ---------- Kopier-Button ---------- */
+function legacyCopy(textArea) {
+  return new Promise((resolve, reject) => {
+    const ta = document.createElement('textarea');
+    ta.value = textArea.value;
+    ta.setAttribute('contenteditable', 'true');
+    ta.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;font-size:16px;-webkit-user-select:text;user-select:text;';
+    document.body.appendChild(ta);
+    ta.focus(); ta.select(); ta.setSelectionRange(0, ta.value.length);
+    let ok = false;
+    try { ok = document.execCommand('copy'); } catch (err) {}
+    document.body.removeChild(ta);
+    ok ? resolve() : reject();
+  });
+}
+function copyText(textArea) {
+  return new Promise((resolve, reject) => {
+    legacyCopy(textArea).then(resolve).catch(() => {
+      if (navigator.clipboard && window.isSecureContext) {
+        const timer = setTimeout(reject, 1500);
+        navigator.clipboard.writeText(textArea.value)
+          .then(() => { clearTimeout(timer); resolve(); })
+          .catch(() => { clearTimeout(timer); reject(); });
+      } else { reject(); }
+    });
+  });
+}
+$('copyToClipboardBtn').addEventListener('click', function() {
+  const btn = this;
+  copyText($('plainTextResult')).then(() => {
+    const original = btn.innerHTML;
+    btn.innerHTML = 'Copiado com sucesso';
+    btn.style.background = '#2e7d32';
+    setTimeout(() => { btn.innerHTML = original; btn.style.background = '#aa3131'; }, 3000);
+  }).catch(() => {
+    alert('Erro ao copiar. Por favor, selecione e copie o texto manualmente.');
+  });
+});
+</script>
+
+</body>
+</html>
