@@ -792,7 +792,7 @@ document.getElementById('gepaeckForm').addEventListener('submit', function(e) {
 
   facts.push(['Vuelo:', flugnr + ', ' + von + ' - ' + nach]);
   facts.push(['Fecha del vuelo:', flugDatum]);
-  facts.push(['Etiqueta de equipaje (Bag Tag):', bag]);
+  facts.push(['Etiqueta de equipaje:', bag]);
   if (pir) facts.push(['Parte de Irregularidad (PIR):', pir]);
   facts.push(['Tipo de incidencia:', SCHADEN_LABEL[art]]);
   if (empfTyp === 'versicherung' && police) facts.push(['Número de póliza:', police]);
