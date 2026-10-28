@@ -598,11 +598,7 @@ const CONFIG = {
   affiliateUrl: '',           // leer = Link aus dem HTML. Pro Land hier überschreiben
   paypalEmail: 'info@kassen-lotse.de',
 
-  /* Aktuelle Insolvenzfälle: bei Bedarf eintragen, leere Liste = nichts sichtbar.
-     Beispiel:
-     { name: 'Beispiel Reisen GmbH', since: '01.11.2026',
-       note: 'Pauschalreisen sind über den Sicherungsgeber abgesichert. Bitte dessen Hinweise beachten.',
-       url: 'https://example.org/info', urlLabel: 'Informationen des Sicherungsgebers' } */
+  /* Aktuelle Insolvenzfälle: bei Bedarf eintragen, leere Liste = nichts sichtbar. */
   activeCases: [],
 
   /* Länderspezifische Formulierungen im Schreiben (bei Übersetzung anpassen) */
@@ -892,13 +888,52 @@ document.getElementById('insoForm').addEventListener('submit', function(e) {
     betreff + '\n' + facts.map(f => f[0] + ' ' + f[1]).join('\n') + '\n\n' + T.greeting + '\n\n' + paras.join('\n\n') +
     '\n\n' + T.attachments + '\n' + anlagenNum.join('\n') + '\n\n' + closing + '\n\n' + T.closing + '\n' + sName;
 
-  /* PDF */
+  /* PDF Generierung (Fix für Umbrüche & geschützte Leerzeichen) */
   const { jsPDF } = window.jspdf;
   const pdf = new jsPDF();
   const pageH = 297, marginBottom = 20, lineH = 6;
   function ensure(y, needed) { if (y + (needed || lineH) > pageH - marginBottom) { pdf.addPage(); return 30; } return y; }
+  
+  // Hilfsfunktion: Bereinigt geschützte Leerzeichen und bricht notfalls lange Wörter hart um
+  function getWrappedLines(text, width) {
+    const cleanText = String(text).replace(/[\u00A0\u202F]/g, ' ');
+    let lines = pdf.splitTextToSize(cleanText, width);
+    let finalLines = [];
+    lines.forEach(line => {
+        if (pdf.getTextWidth(line) > width) {
+            let words = line.split(' ');
+            let currentLine = '';
+            words.forEach(word => {
+                let testLine = currentLine ? currentLine + ' ' + word : word;
+                if (pdf.getTextWidth(testLine) > width) {
+                    if (currentLine) finalLines.push(currentLine);
+                    currentLine = '';
+                    while (pdf.getTextWidth(word) > width) {
+                        for (let i = word.length - 1; i > 0; i--) {
+                            let sub = word.substring(0, i);
+                            if (pdf.getTextWidth(sub) <= width) {
+                                finalLines.push(sub);
+                                word = word.substring(i);
+                                break;
+                            }
+                        }
+                    }
+                    currentLine = word;
+                } else {
+                    currentLine = testLine;
+                }
+            });
+            if (currentLine) finalLines.push(currentLine);
+        } else {
+            finalLines.push(line);
+        }
+    });
+    return finalLines;
+  }
+
   function write(text, y, x, width) {
-    const lines = pdf.splitTextToSize(text, width || 160);
+    const w = width || 160;
+    const lines = getWrappedLines(text, w);
     lines.forEach(l => { y = ensure(y); pdf.text(l, x || 25, y); y += lineH; });
     return y;
   }
@@ -906,27 +941,27 @@ document.getElementById('insoForm').addEventListener('submit', function(e) {
   pdf.setFont('helvetica', 'normal');
   pdf.setFontSize(8);
   pdf.setTextColor(100, 100, 100);
-  pdf.text(sName + ' - ' + sStrasse + ' - ' + sPLZOrt, 25, 45);
+  pdf.text(getWrappedLines(sName + ' - ' + sStrasse + ' - ' + sPLZOrt, 70), 25, 45);
   pdf.setLineWidth(0.2);
   pdf.setDrawColor(150, 150, 150);
   pdf.line(25, 46.5, 95, 46.5);
 
   pdf.setFontSize(11);
   pdf.setTextColor(0, 0, 0);
-  pdf.text(pdf.splitTextToSize(empf + (empfAdr ? '\n' + empfAdr : ''), 80), 25, 53);
+  pdf.text(getWrappedLines(empf + (empfAdr ? '\n' + empfAdr : ''), 80), 25, 53);
 
   pdf.setFontSize(10);
   pdf.text(T.sender, 130, 45);
   pdf.setFont('helvetica', 'bold');
-  pdf.text(sName, 130, 50);
+  pdf.text(getWrappedLines(sName, 55), 130, 50);
   pdf.setFont('helvetica', 'normal');
-  pdf.text(sStrasse, 130, 55);
-  pdf.text(sPLZOrt, 130, 60);
+  pdf.text(getWrappedLines(sStrasse, 55), 130, 55);
+  pdf.text(getWrappedLines(sPLZOrt, 55), 130, 60);
   pdf.text(tpl(T.dateLabel, { date: todayStr }), 185, 80, { align: 'right' });
 
   pdf.setFontSize(12);
   pdf.setFont('helvetica', 'bold');
-  const betreffLines = pdf.splitTextToSize(betreff, 160);
+  const betreffLines = getWrappedLines(betreff, 160);
   pdf.text(betreffLines, 25, 95);
 
   pdf.setFontSize(10.5);
@@ -934,10 +969,16 @@ document.getElementById('insoForm').addEventListener('submit', function(e) {
   facts.forEach(f => {
     pdf.setFont('helvetica', 'bold');
     pdf.text(f[0], 25, fy);
+    const labelWidth = pdf.getTextWidth(f[0]);
     pdf.setFont('helvetica', 'normal');
-    const vl = pdf.splitTextToSize(f[1], 100);
-    pdf.text(vl, 75, fy);
-    fy += Math.max(5.5, vl.length * 5);
+    
+    // Dynamische Berechnung, damit lange Labels die Werte nicht überdecken
+    const valueX = 25 + Math.max(labelWidth + 5, 55);
+    const valueWidth = 185 - valueX;
+    
+    const lines = getWrappedLines(f[1], valueWidth);
+    pdf.text(lines, valueX, fy);
+    fy += Math.max(5.5, lines.length * 5);
   });
   pdf.setDrawColor(0, 0, 0);
   pdf.line(25, fy, 185, fy);

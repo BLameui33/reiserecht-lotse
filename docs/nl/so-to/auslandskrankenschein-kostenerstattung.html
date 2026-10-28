@@ -610,7 +610,7 @@ document.getElementById('erstattungsForm').addEventListener('submit', function(e
   const sPLZOrt = $('sPLZOrt').value.trim();
   const iban = $('bIBAN').value.trim();
 
-  const nummerLabel = vers === 'gkv' ? 'Polisnummer/Relatienummer' : (vers === 'pkv' ? 'Polisnummer' : 'Polisnummer');
+  const nummerLabel = vers === 'gkv' ? 'Polis- / Relatienummer' : (vers === 'pkv' ? 'Polisnummer' : 'Polisnummer');
   const betragStr = fmtMoney(betrag) + ' ' + waehrung;
   const euroStr = (waehrung !== 'EUR' && euroRaw > 0) ? ' (Tegenwaarde volgens bankafschrift: ' + fmtMoney(euroRaw) + ' EUR)' : '';
 

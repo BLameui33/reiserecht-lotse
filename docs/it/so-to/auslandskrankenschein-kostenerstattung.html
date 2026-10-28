@@ -613,7 +613,7 @@ document.getElementById('erstattungsForm').addEventListener('submit', function(e
   const sPLZOrt = $('sPLZOrt').value.trim();
   const iban = $('bIBAN').value.trim();
 
-  const nummerLabel = vers === 'gkv' ? 'Cod. Fiscale / Tessera Sanitaria' : (vers === 'pkv' ? 'Numero di polizza' : 'Numero di polizza');
+  const nummerLabel = vers === 'gkv' ? 'Cod. Fiscale / Tess. San.' : (vers === 'pkv' ? 'Numero di polizza' : 'Numero di polizza');
   const betragStr = fmtMoney(betrag) + ' ' + waehrung;
   const euroStr = (waehrung !== 'EUR' && euroRaw > 0) ? ' (Controvalore secondo addebito bancario: ' + fmtMoney(euroRaw) + ' EUR)' : '';
 
