@@ -1,0 +1,198 @@
+[
+  {
+    "name": "FlixBus",
+    "slug": "flixbus",
+    "adresse": "Flix SE\nFriedenheimer Brücke 16\n80639 München\nDeutschland",
+    "land": "Deutschland",
+    "infobox": "<p>FlixBus ist ein Fernbus-Anbieter mit einem europaweiten Liniennetz und verbindet Städte in Deutschland mit zahlreichen Zielen im europäischen Ausland. Bei Annullierung, Überbuchung oder einer Abfahrtsverspätung von mehr als 120 Minuten gelten auf Linienfahrten ab 250 Kilometern die EU-Fahrgastrechte nach der Verordnung (EU) Nr. 181/2011: Sie können zwischen Weiterfahrt und Erstattung des Fahrpreises wählen, und wird Ihnen diese Wahl nicht angeboten, kommt eine Entschädigung von 50 % des Fahrpreises hinzu. Die Betreibergesellschaft Flix SE hat ihren Sitz in München; Beschwerden sollten innerhalb von drei Monaten nach der Fahrt eingehen. Bei Betreuungsleistungen wie Verpflegung und Hotel gelten die Grenzen von bis zu zwei Nächten und 80 Euro pro Nacht.</p><!--opt-->",
+    "portal_url": "https://www.flixbus.de",
+    "stelle_name": "Eisenbahn-Bundesamt (EBA)",
+    "stelle_url": "https://www.eisenbahn-bundesamt.de"
+  },
+  {
+    "name": "National Express",
+    "slug": "national-express",
+    "adresse": "National Express House\n Mill Lane, Digbeth\n Birmingham, B5 6DD\n Vereinigtes Königreich",
+    "land": "Vereinigtes Königreich",
+    "infobox": "<p>National Express ist ein Fernbus-Anbieter mit einem landesweiten Liniennetz und Verbindungen zu Flughäfen und größeren Städten. Auf Linienfahrten ab 250 Kilometern gelten die EU-Fahrgastrechte nach der Verordnung (EU) Nr. 181/2011: Bei Annullierung, Überbuchung oder mehr als 120 Minuten Abfahrtsverspätung können Sie zwischen Weiterfahrt und Fahrpreiserstattung wählen, und wird Ihnen diese Wahl nicht angeboten, kommt eine Entschädigung von 50 % des Fahrpreises hinzu. Beschwerden sollten innerhalb von drei Monaten nach der Fahrt beim Unternehmen eingehen. Im Vereinigten Königreich gilt eine inhaltlich vergleichbare nationale Regelung.</p><!--opt-->",
+    "portal_url": "https://www.nationalexpress.com",
+    "stelle_name": "Nationale Durchsetzungsstelle (Vereinigtes Königreich)",
+    "stelle_url": "https://europa.eu/youreurope/",
+    "_pruefen": "Adresse und Portal-Deeplink prüfen, ggf. nationale Durchsetzungsstelle (Vereinigtes Königreich) eintragen"
+  },
+  {
+    "name": "Megabus",
+    "slug": "megabus",
+    "adresse": "Megabus Ltd\n 100 Mill Lane\n Digbeth\n Birmingham, B5 6DD\n Vereinigtes Königreich",
+    "land": "Vereinigtes Königreich",
+    "infobox": "<p>Megabus ist ein Fernbus-Anbieter mit Fokus auf preisgünstige Verbindungen zwischen größeren Städten. Auf Linienfahrten ab 250 Kilometern gelten die EU-Fahrgastrechte nach der Verordnung (EU) Nr. 181/2011: Bei Annullierung, Überbuchung oder mehr als 120 Minuten Abfahrtsverspätung können Sie zwischen Weiterfahrt und Fahrpreiserstattung wählen, und wird Ihnen diese Wahl nicht angeboten, kommt eine Entschädigung von 50 % des Fahrpreises hinzu. Beschwerden sollten innerhalb von drei Monaten nach der Fahrt beim Unternehmen eingehen. Im Vereinigten Königreich gilt eine inhaltlich vergleichbare nationale Regelung.</p><!--opt-->",
+    "portal_url": "https://uk.megabus.com",
+    "stelle_name": "Nationale Durchsetzungsstelle (Vereinigtes Königreich)",
+    "stelle_url": "https://europa.eu/youreurope/",
+    "_pruefen": "Adresse und Portal-Deeplink prüfen, ggf. nationale Durchsetzungsstelle (Vereinigtes Königreich) eintragen"
+  },
+  {
+    "name": "Scottish Citylink",
+    "slug": "scottish-citylink",
+    "adresse": "Buchanan Bus Station\nKillermont Street\nGlasgow, G2 3NW\nSchottland, Vereinigtes Königreich",
+    "land": "Vereinigtes Königreich",
+    "infobox": "<p>Scottish Citylink ist ein Fernbus-Anbieter mit Linien in Schottland und Verbindungen in angrenzende Regionen. Auf Linienfahrten ab 250 Kilometern gelten die EU-Fahrgastrechte nach der Verordnung (EU) Nr. 181/2011: Bei Annullierung, Überbuchung oder mehr als 120 Minuten Abfahrtsverspätung können Sie zwischen Weiterfahrt und Fahrpreiserstattung wählen, und wird Ihnen diese Wahl nicht angeboten, kommt eine Entschädigung von 50 % des Fahrpreises hinzu. Beschwerden sollten innerhalb von drei Monaten nach der Fahrt beim Unternehmen eingehen. Im Vereinigten Königreich gilt eine inhaltlich vergleichbare nationale Regelung.</p><!--opt-->",
+    "portal_url": "https://www.citylink.co.uk",
+    "stelle_name": "Nationale Durchsetzungsstelle (Vereinigtes Königreich)",
+    "stelle_url": "https://europa.eu/youreurope/",
+    "_pruefen": "Adresse und Portal-Deeplink prüfen, ggf. nationale Durchsetzungsstelle (Vereinigtes Königreich) eintragen"
+  },
+  {
+    "name": "BlaBlaCar Bus",
+    "slug": "blablacar-bus",
+    "adresse": "Comuto Pro / Comuto SA\n84, avenue de la République\n75011 Paris\nFrankreich",
+    "land": "Frankreich",
+    "infobox": "<p>BlaBlaCar Bus ist ein Fernbus-Anbieter mit Linien zwischen größeren Städten in Frankreich und grenzüberschreitenden Verbindungen in Nachbarländer. Auf Linienfahrten ab 250 Kilometern gelten die EU-Fahrgastrechte nach der Verordnung (EU) Nr. 181/2011: Bei Annullierung, Überbuchung oder mehr als 120 Minuten Abfahrtsverspätung können Sie zwischen Weiterfahrt und Fahrpreiserstattung wählen, und wird Ihnen diese Wahl nicht angeboten, kommt eine Entschädigung von 50 % des Fahrpreises hinzu. Beschwerden sollten innerhalb von drei Monaten nach der Fahrt beim Unternehmen eingehen.</p><!--opt-->",
+    "portal_url": "https://www.blablacar.com",
+    "stelle_name": "Nationale Durchsetzungsstellen in der EU",
+    "stelle_url": "https://europa.eu/youreurope/",
+    "_pruefen": "Adresse und Portal-Deeplink prüfen, ggf. nationale Durchsetzungsstelle (Frankreich) eintragen"
+  },
+  {
+    "name": "ALSA",
+    "slug": "alsa",
+    "adresse": "Calle Josefa Valcárcel\n20, 28027 Madrid\nSpain",
+    "land": "Spanien",
+    "infobox": "<p>ALSA ist ein großer Busbetreiber mit Fernverkehrslinien im Heimatland und internationalen Verbindungen nach Europa und Nordafrika. Auf Linienfahrten ab 250 Kilometern gelten die EU-Fahrgastrechte nach der Verordnung (EU) Nr. 181/2011: Bei Annullierung, Überbuchung oder mehr als 120 Minuten Abfahrtsverspätung können Sie zwischen Weiterfahrt und Fahrpreiserstattung wählen, und wird Ihnen diese Wahl nicht angeboten, kommt eine Entschädigung von 50 % des Fahrpreises hinzu. Beschwerden sollten innerhalb von drei Monaten nach der Fahrt beim Unternehmen eingehen.</p><!--opt-->",
+    "portal_url": "https://www.alsa.com",
+    "stelle_name": "Nationale Durchsetzungsstellen in der EU",
+    "stelle_url": "https://europa.eu/youreurope/",
+    "_pruefen": "Adresse und Portal-Deeplink prüfen, ggf. nationale Durchsetzungsstelle (Spanien) eintragen"
+  },
+  {
+    "name": "Avanza Bus",
+    "slug": "avanza",
+    "adresse": "Calle San Norberto 48–50\n28021 Madrid\nSpanien",
+    "land": "Spanien",
+    "infobox": "<p>Avanza ist ein Busbetreiber mit Fernverkehrslinien, die vor allem Madrid mit Regionen in Zentral- und Südspanien verbinden. Auf Linienfahrten ab 250 Kilometern gelten die EU-Fahrgastrechte nach der Verordnung (EU) Nr. 181/2011: Bei Annullierung, Überbuchung oder mehr als 120 Minuten Abfahrtsverspätung können Sie zwischen Weiterfahrt und Fahrpreiserstattung wählen, und wird Ihnen diese Wahl nicht angeboten, kommt eine Entschädigung von 50 % des Fahrpreises hinzu. Beschwerden sollten innerhalb von drei Monaten nach der Fahrt beim Unternehmen eingehen.</p><!--opt-->",
+    "portal_url": "https://avanzabus.com",
+    "stelle_name": "Nationale Durchsetzungsstellen in der EU",
+    "stelle_url": "https://europa.eu/youreurope/",
+    "_pruefen": "Adresse und Portal-Deeplink prüfen, ggf. nationale Durchsetzungsstelle (Spanien) eintragen"
+  },
+  {
+    "name": "Monbus",
+    "slug": "monbus",
+    "adresse": "Calle Cotón de Arriba, nº 2\n27297 Lugo (Galicien)\nSpanien",
+    "land": "Spanien",
+    "infobox": "<p>Monbus ist ein Busbetreiber mit Linienverkehr vor allem im Nordwesten und in Katalonien sowie weiteren Fernverbindungen. Auf Linienfahrten ab 250 Kilometern gelten die EU-Fahrgastrechte nach der Verordnung (EU) Nr. 181/2011: Bei Annullierung, Überbuchung oder mehr als 120 Minuten Abfahrtsverspätung können Sie zwischen Weiterfahrt und Fahrpreiserstattung wählen, und wird Ihnen diese Wahl nicht angeboten, kommt eine Entschädigung von 50 % des Fahrpreises hinzu. Beschwerden sollten innerhalb von drei Monaten nach der Fahrt beim Unternehmen eingehen.</p><!--opt-->",
+    "portal_url": "https://www.monbus.es",
+    "stelle_name": "Nationale Durchsetzungsstellen in der EU",
+    "stelle_url": "https://europa.eu/youreurope/",
+    "_pruefen": "Adresse und Portal-Deeplink prüfen, ggf. nationale Durchsetzungsstelle (Spanien) eintragen"
+  },
+  {
+    "name": "Socibus",
+    "slug": "socibus",
+    "adresse": "Calle de Méndez Álvaro, 83\n28045 Madrid\nSpanien",
+    "land": "Spanien",
+    "infobox": "<p>Socibus ist ein Fernbus-Anbieter mit Linien zwischen Madrid und Andalusien. Auf Linienfahrten ab 250 Kilometern gelten die EU-Fahrgastrechte nach der Verordnung (EU) Nr. 181/2011: Bei Annullierung, Überbuchung oder mehr als 120 Minuten Abfahrtsverspätung können Sie zwischen Weiterfahrt und Fahrpreiserstattung wählen, und wird Ihnen diese Wahl nicht angeboten, kommt eine Entschädigung von 50 % des Fahrpreises hinzu. Beschwerden sollten innerhalb von drei Monaten nach der Fahrt beim Unternehmen eingehen.</p><!--opt-->",
+    "portal_url": "https://www.socibus.es",
+    "stelle_name": "Nationale Durchsetzungsstellen in der EU",
+    "stelle_url": "https://europa.eu/youreurope/",
+    "_pruefen": "Adresse und Portal-Deeplink prüfen, ggf. nationale Durchsetzungsstelle (Spanien) eintragen"
+  },
+  {
+    "name": "Itabus",
+    "slug": "itabus",
+    "adresse": "Via Casilina, 1\n00182 Rom (RM)\nItalien",
+    "land": "Italien",
+    "infobox": "<p>Itabus ist ein Fernbus-Anbieter mit einer eigenen Flotte und Linien zwischen größeren Städten. Auf Linienfahrten ab 250 Kilometern gelten die EU-Fahrgastrechte nach der Verordnung (EU) Nr. 181/2011: Bei Annullierung, Überbuchung oder mehr als 120 Minuten Abfahrtsverspätung können Sie zwischen Weiterfahrt und Fahrpreiserstattung wählen, und wird Ihnen diese Wahl nicht angeboten, kommt eine Entschädigung von 50 % des Fahrpreises hinzu. Beschwerden sollten innerhalb von drei Monaten nach der Fahrt beim Unternehmen eingehen.</p><!--opt-->",
+    "portal_url": "https://www.itabus.it",
+    "stelle_name": "Nationale Durchsetzungsstellen in der EU",
+    "stelle_url": "https://europa.eu/youreurope/",
+    "_pruefen": "Adresse und Portal-Deeplink prüfen, ggf. nationale Durchsetzungsstelle (Italien) eintragen"
+  },
+  {
+    "name": "MarinoBus",
+    "slug": "marinobus",
+    "adresse": "Largo Francesco Saverio Nitti 67\n70022 Altamura (BA)\nItaly",
+    "land": "Italien",
+    "infobox": "<p>MarinoBus ist ein Fernbus-Anbieter mit Verbindungen vor allem zwischen Nord- und Süditalien. Auf Linienfahrten ab 250 Kilometern gelten die EU-Fahrgastrechte nach der Verordnung (EU) Nr. 181/2011: Bei Annullierung, Überbuchung oder mehr als 120 Minuten Abfahrtsverspätung können Sie zwischen Weiterfahrt und Fahrpreiserstattung wählen, und wird Ihnen diese Wahl nicht angeboten, kommt eine Entschädigung von 50 % des Fahrpreises hinzu. Beschwerden sollten innerhalb von drei Monaten nach der Fahrt beim Unternehmen eingehen.</p><!--opt-->",
+    "portal_url": "https://www.marinobus.it",
+    "stelle_name": "Nationale Durchsetzungsstellen in der EU",
+    "stelle_url": "https://europa.eu/youreurope/",
+    "_pruefen": "Adresse und Portal-Deeplink prüfen, ggf. nationale Durchsetzungsstelle (Italien) eintragen"
+  },
+  {
+    "name": "BusCenter",
+    "slug": "buscenter",
+    "adresse": "BUS CENTER S.R.L.\nVia Parigi, 11\n00185 Roma (RM)\nItalien",
+    "land": "Italien",
+    "infobox": "<p>BusCenter ist ein Fernbus-Anbieter mit Linien auf Sizilien sowie zwischen Sizilien und dem Festland. Auf Linienfahrten ab 250 Kilometern gelten die EU-Fahrgastrechte nach der Verordnung (EU) Nr. 181/2011: Bei Annullierung, Überbuchung oder mehr als 120 Minuten Abfahrtsverspätung können Sie zwischen Weiterfahrt und Fahrpreiserstattung wählen, und wird Ihnen diese Wahl nicht angeboten, kommt eine Entschädigung von 50 % des Fahrpreises hinzu. Beschwerden sollten innerhalb von drei Monaten nach der Fahrt beim Unternehmen eingehen.</p><!--opt-->",
+    "portal_url": "https://buscenter.travel/condizioni-di-trasporto-buscenter/",
+    "stelle_name": "Nationale Durchsetzungsstellen in der EU",
+    "stelle_url": "https://europa.eu/youreurope/",
+    "_pruefen": "Adresse und Portal-Deeplink prüfen, ggf. nationale Durchsetzungsstelle (Italien) eintragen"
+  },
+  {
+    "name": "Rede Expressos",
+    "slug": "rede-expressos",
+    "adresse": "Praça Marechal Humberto Delgado\n1500-423 Lisboa\nPortugal",
+    "land": "Portugal",
+    "infobox": "<p>Rede Expressos ist ein Fernbus-Netzwerk mit flächendeckenden Linien; dazu gehören auch Marken wie EVA Transportes und Renex. Auf Linienfahrten ab 250 Kilometern gelten die EU-Fahrgastrechte nach der Verordnung (EU) Nr. 181/2011: Bei Annullierung, Überbuchung oder mehr als 120 Minuten Abfahrtsverspätung können Sie zwischen Weiterfahrt und Fahrpreiserstattung wählen, und wird Ihnen diese Wahl nicht angeboten, kommt eine Entschädigung von 50 % des Fahrpreises hinzu. Beschwerden sollten innerhalb von drei Monaten nach der Fahrt beim Unternehmen eingehen.</p><!--opt-->",
+    "portal_url": "https://rede-expressos.pt",
+    "stelle_name": "Nationale Durchsetzungsstellen in der EU",
+    "stelle_url": "https://europa.eu/youreurope/",
+    "_pruefen": "Adresse und Portal-Deeplink prüfen, ggf. nationale Durchsetzungsstelle (Portugal) eintragen"
+  },
+  {
+    "name": "Gipsyy",
+    "slug": "gipsyy",
+    "adresse": "Rua São Francisco 660\n2645-019 Lissabon\nPortugal",
+    "land": "Portugal",
+    "infobox": "<p>Gipsyy ist ein Low-Cost-Fernbus-Anbieter mit Linien auf den Hauptachsen, zum Beispiel zwischen Lissabon und Porto. Auf Linienfahrten ab 250 Kilometern gelten die EU-Fahrgastrechte nach der Verordnung (EU) Nr. 181/2011: Bei Annullierung, Überbuchung oder mehr als 120 Minuten Abfahrtsverspätung können Sie zwischen Weiterfahrt und Fahrpreiserstattung wählen, und wird Ihnen diese Wahl nicht angeboten, kommt eine Entschädigung von 50 % des Fahrpreises hinzu. Beschwerden sollten innerhalb von drei Monaten nach der Fahrt beim Unternehmen eingehen.</p><!--opt-->",
+    "portal_url": "https://gipsyy.com/en/about",
+    "stelle_name": "Nationale Durchsetzungsstellen in der EU",
+    "stelle_url": "https://europa.eu/youreurope/",
+    "_pruefen": "Adresse und Portal-Deeplink prüfen, ggf. nationale Durchsetzungsstelle (Portugal) eintragen"
+  },
+  {
+    "name": "RegioJet",
+    "slug": "regiojet",
+    "adresse": "nám. Svobody 86/17\n602 00 Brno-město\nTschechien",
+    "land": "Tschechien",
+    "infobox": "<p>RegioJet ist ein Verkehrsunternehmen, das neben Zugverbindungen auch Fernbus-Linien in Mitteleuropa betreibt. Auf Linienfahrten ab 250 Kilometern gelten die EU-Fahrgastrechte nach der Verordnung (EU) Nr. 181/2011: Bei Annullierung, Überbuchung oder mehr als 120 Minuten Abfahrtsverspätung können Sie zwischen Weiterfahrt und Fahrpreiserstattung wählen, und wird Ihnen diese Wahl nicht angeboten, kommt eine Entschädigung von 50 % des Fahrpreises hinzu. Beschwerden sollten innerhalb von drei Monaten nach der Fahrt beim Unternehmen eingehen.</p><!--opt-->",
+    "portal_url": "https://www.regiojet.com",
+    "stelle_name": "Nationale Durchsetzungsstellen in der EU",
+    "stelle_url": "https://europa.eu/youreurope/",
+    "_pruefen": "Adresse und Portal-Deeplink prüfen, ggf. nationale Durchsetzungsstelle (Tschechien) eintragen"
+  },
+  {
+    "name": "Omio",
+    "slug": "omio",
+    "adresse": "Warschauer Platz 12\n10245 Berlin\nDeutschland",
+    "land": "Deutschland",
+    "infobox": "<p>Omio ist eine Buchungsplattform, über die Bus-, Bahn- und Flugtickets verschiedener Anbieter in Europa gebucht werden können. Bei einer Buchung über eine Vermittlungsplattform ist der Beförderer, der auf Ihrem Ticket steht, für die Fahrt verantwortlich. Auf Linienfahrten ab 250 Kilometern gelten die EU-Fahrgastrechte nach der Verordnung (EU) Nr. 181/2011: Bei Annullierung, Überbuchung oder mehr als 120 Minuten Abfahrtsverspätung können Sie zwischen Weiterfahrt und Fahrpreiserstattung wählen, und wird Ihnen diese Wahl nicht angeboten, kommt eine Entschädigung von 50 % des Fahrpreises hinzu. Beschwerden sollten innerhalb von drei Monaten nach der Fahrt eingehen; richten Sie sie an den Beförderer und bei Bedarf zusätzlich an die Plattform, über die Sie gebucht haben.</p><!--opt-->",
+    "portal_url": "https://www.omio.de",
+    "stelle_name": "Nationale Durchsetzungsstellen in der EU",
+    "stelle_url": "https://europa.eu/youreurope/",
+    "_pruefen": "Adresse und Portal-Deeplink prüfen; Vermittler, nicht Beförderer – Beschwerdeweg (Plattform vs. Beförderer) klären"
+  },
+  {
+    "name": "Trainline",
+    "slug": "trainline",
+    "adresse": "1 Stonecutter St\nLondon EC4A 4AH\nVereinigtes Königreich",
+    "land": "Vereinigtes Königreich",
+    "infobox": "<p>Trainline ist eine Buchungsplattform, über die Bus- und Bahntickets verschiedener Anbieter in Europa gebucht werden können. Bei einer Buchung über eine Vermittlungsplattform ist der Beförderer, der auf Ihrem Ticket steht, für die Fahrt verantwortlich. Auf Linienfahrten ab 250 Kilometern gelten die EU-Fahrgastrechte nach der Verordnung (EU) Nr. 181/2011: Bei Annullierung, Überbuchung oder mehr als 120 Minuten Abfahrtsverspätung können Sie zwischen Weiterfahrt und Fahrpreiserstattung wählen, und wird Ihnen diese Wahl nicht angeboten, kommt eine Entschädigung von 50 % des Fahrpreises hinzu. Beschwerden sollten innerhalb von drei Monaten nach der Fahrt eingehen; richten Sie sie an den Beförderer und bei Bedarf zusätzlich an die Plattform, über die Sie gebucht haben.</p><!--opt-->",
+    "portal_url": "https://www.thetrainline.com",
+    "stelle_name": "Nationale Durchsetzungsstellen in der EU",
+    "stelle_url": "https://europa.eu/youreurope/",
+    "_pruefen": "Adresse und Portal-Deeplink prüfen; Vermittler, nicht Beförderer – Beschwerdeweg (Plattform vs. Beförderer) klären"
+  },
+  {
+    "name": "Fernbus (allgemein)",
+    "slug": "allgemein",
+    "adresse": "Musterstraße 123\n12345 Musterstadt\nDeutschland",
+    "land": "Deutschland",
+    "infobox": "<p>Dieses allgemeine Formular eignet sich für Fernbus-Anbieter, die nicht gesondert aufgeführt sind. Für Linienfahrten ab 250 Kilometern gelten die EU-Fahrgastrechte nach der Verordnung (EU) Nr. 181/2011: Bei Annullierung, Überbuchung oder mehr als 120 Minuten Abfahrtsverspätung können Sie zwischen Weiterfahrt und Fahrpreiserstattung wählen, und bietet der Anbieter diese Wahl nicht an, kommt eine Entschädigung von 50 % des Fahrpreises hinzu. Tragen Sie die Anschrift des Anbieters aus Ihren Ticketunterlagen oder dem Impressum ein.</p><!--opt-->",
+    "portal_url": "https://www.eisenbahn-bundesamt.de",
+    "stelle_name": "Eisenbahn-Bundesamt (EBA)",
+    "stelle_url": "https://www.eisenbahn-bundesamt.de"
+  }
+]

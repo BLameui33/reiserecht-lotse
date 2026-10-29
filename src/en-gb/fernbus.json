@@ -1,0 +1,198 @@
+[
+  {
+    "name": "FlixBus",
+    "slug": "flixbus",
+    "adresse": "Flix SE\nFriedenheimer Brücke 16\n80639 Munich\nGermany",
+    "land": "Germany",
+    "infobox": "<p>FlixBus is a long-distance coach operator with a Europe-wide scheduled network, connecting cities in Germany with numerous destinations across Europe. For scheduled journeys over 250 km, UK passenger rights apply (under The Bus and Coach Passengers Rights Regulations 2013 / retained EU Regulation 181/2011): In the event of cancellation, overbooking, or a departure delay of more than 120 minutes, you can choose between continuing your journey or a full refund of the ticket price. If this choice is not offered, you are entitled to compensation of 50% of the ticket price. The operating company Flix SE is based in Munich; complaints should be submitted within three months of the journey. For care services such as meals and hotels, limits apply up to two nights and £80/€80 per night.</p><!--opt-->",
+    "portal_url": "https://www.flixbus.de",
+    "stelle_name": "Bus Appeals Body (Bus Users UK)",
+    "stelle_url": "https://www.bususers.org/complaints/"
+  },
+  {
+    "name": "National Express",
+    "slug": "national-express",
+    "adresse": "National Express House\n Mill Lane, Digbeth\n Birmingham, B5 6DD\n United Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>National Express is a long-distance coach operator with a nationwide scheduled network and connections to airports and major cities. For scheduled journeys over 250 km, UK passenger rights apply under The Bus and Coach Passengers Rights Regulations 2013: In the event of cancellation, overbooking, or a departure delay of more than 120 minutes, you can choose between continuing your journey or a full refund of the ticket price. If this choice is not offered, you are entitled to compensation of 50% of the ticket price. Complaints should be submitted to the operator within three months of the journey.</p><!--opt-->",
+    "portal_url": "https://www.nationalexpress.com",
+    "stelle_name": "Bus Appeals Body (Bus Users UK)",
+    "stelle_url": "https://www.bususers.org/complaints/",
+    "_pruefen": "Verify address and portal deep link; insert national enforcement body (UK) if applicable"
+  },
+  {
+    "name": "Megabus",
+    "slug": "megabus",
+    "adresse": "Megabus Ltd\n 100 Mill Lane\n Digbeth\n Birmingham, B5 6DD\n United Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>Megabus is a long-distance coach operator focusing on budget-friendly connections between major cities. For scheduled journeys over 250 km, UK passenger rights apply under The Bus and Coach Passengers Rights Regulations 2013: In the event of cancellation, overbooking, or a departure delay of more than 120 minutes, you can choose between continuing your journey or a full refund of the ticket price. If this choice is not offered, you are entitled to compensation of 50% of the ticket price. Complaints should be submitted to the operator within three months of the journey.</p><!--opt-->",
+    "portal_url": "https://uk.megabus.com",
+    "stelle_name": "Bus Appeals Body (Bus Users UK)",
+    "stelle_url": "https://www.bususers.org/complaints/",
+    "_pruefen": "Verify address and portal deep link; insert national enforcement body (UK) if applicable"
+  },
+  {
+    "name": "Scottish Citylink",
+    "slug": "scottish-citylink",
+    "adresse": "Buchanan Bus Station\nKillermont Street\nGlasgow, G2 3NW\nScotland, United Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>Scottish Citylink is a long-distance coach operator with routes in Scotland and connections to adjacent regions. For scheduled journeys over 250 km, UK passenger rights apply under The Bus and Coach Passengers Rights Regulations 2013: In the event of cancellation, overbooking, or a departure delay of more than 120 minutes, you can choose between continuing your journey or a full refund of the ticket price. If this choice is not offered, you are entitled to compensation of 50% of the ticket price. Complaints should be submitted to the operator within three months of the journey.</p><!--opt-->",
+    "portal_url": "https://www.citylink.co.uk",
+    "stelle_name": "Bus Appeals Body (Bus Users UK)",
+    "stelle_url": "https://www.bususers.org/complaints/",
+    "_pruefen": "Verify address and portal deep link; insert national enforcement body (UK) if applicable"
+  },
+  {
+    "name": "BlaBlaCar Bus",
+    "slug": "blablacar-bus",
+    "adresse": "Comuto Pro / Comuto SA\n84, avenue de la République\n75011 Paris\nFrance",
+    "land": "France",
+    "infobox": "<p>BlaBlaCar Bus is a long-distance coach operator with routes between major cities in France and cross-border connections to neighbouring countries. For scheduled journeys over 250 km, UK passenger rights apply (under The Bus and Coach Passengers Rights Regulations 2013) when travelling to or from the UK: In the event of cancellation, overbooking, or a departure delay of more than 120 minutes, you can choose between continuing your journey or a full refund of the ticket price. If this choice is not offered, you are entitled to compensation of 50% of the ticket price. Complaints should be submitted to the operator within three months of the journey.</p><!--opt-->",
+    "portal_url": "https://www.blablacar.com",
+    "stelle_name": "Bus Appeals Body (Bus Users UK)",
+    "stelle_url": "https://www.bususers.org/complaints/",
+    "_pruefen": "Verify address and portal deep link; insert national enforcement body (France) if applicable"
+  },
+  {
+    "name": "ALSA",
+    "slug": "alsa",
+    "adresse": "Calle Josefa Valcárcel\n20, 28027 Madrid\nSpain",
+    "land": "Spain",
+    "infobox": "<p>ALSA is a major coach operator with long-distance routes in its home country and international connections to Europe and North Africa. For scheduled journeys over 250 km, UK passenger rights apply (under The Bus and Coach Passengers Rights Regulations 2013) when travelling to or from the UK: In the event of cancellation, overbooking, or a departure delay of more than 120 minutes, you can choose between continuing your journey or a full refund of the ticket price. If this choice is not offered, you are entitled to compensation of 50% of the ticket price. Complaints should be submitted to the operator within three months of the journey.</p><!--opt-->",
+    "portal_url": "https://www.alsa.com",
+    "stelle_name": "Bus Appeals Body (Bus Users UK)",
+    "stelle_url": "https://www.bususers.org/complaints/",
+    "_pruefen": "Verify address and portal deep link; insert national enforcement body (Spain) if applicable"
+  },
+  {
+    "name": "Avanza Bus",
+    "slug": "avanza",
+    "adresse": "Calle San Norberto 48–50\n28021 Madrid\nSpain",
+    "land": "Spain",
+    "infobox": "<p>Avanza is a coach operator with long-distance routes primarily connecting Madrid with regions in central and southern Spain. For scheduled journeys over 250 km, UK passenger rights apply (under The Bus and Coach Passengers Rights Regulations 2013) when travelling to or from the UK: In the event of cancellation, overbooking, or a departure delay of more than 120 minutes, you can choose between continuing your journey or a full refund of the ticket price. If this choice is not offered, you are entitled to compensation of 50% of the ticket price. Complaints should be submitted to the operator within three months of the journey.</p><!--opt-->",
+    "portal_url": "https://avanzabus.com",
+    "stelle_name": "Bus Appeals Body (Bus Users UK)",
+    "stelle_url": "https://www.bususers.org/complaints/",
+    "_pruefen": "Verify address and portal deep link; insert national enforcement body (Spain) if applicable"
+  },
+  {
+    "name": "Monbus",
+    "slug": "monbus",
+    "adresse": "Calle Cotón de Arriba, nº 2\n27297 Lugo (Galicia)\nSpain",
+    "land": "Spain",
+    "infobox": "<p>Monbus is a coach operator with scheduled services mainly in the north-west and in Catalonia, as well as other long-distance connections. For scheduled journeys over 250 km, UK passenger rights apply (under The Bus and Coach Passengers Rights Regulations 2013) when travelling to or from the UK: In the event of cancellation, overbooking, or a departure delay of more than 120 minutes, you can choose between continuing your journey or a full refund of the ticket price. If this choice is not offered, you are entitled to compensation of 50% of the ticket price. Complaints should be submitted to the operator within three months of the journey.</p><!--opt-->",
+    "portal_url": "https://www.monbus.es",
+    "stelle_name": "Bus Appeals Body (Bus Users UK)",
+    "stelle_url": "https://www.bususers.org/complaints/",
+    "_pruefen": "Verify address and portal deep link; insert national enforcement body (Spain) if applicable"
+  },
+  {
+    "name": "Socibus",
+    "slug": "socibus",
+    "adresse": "Calle de Méndez Álvaro, 83\n28045 Madrid\nSpain",
+    "land": "Spain",
+    "infobox": "<p>Socibus is a long-distance coach operator with routes between Madrid and Andalusia. For scheduled journeys over 250 km, UK passenger rights apply (under The Bus and Coach Passengers Rights Regulations 2013) when travelling to or from the UK: In the event of cancellation, overbooking, or a departure delay of more than 120 minutes, you can choose between continuing your journey or a full refund of the ticket price. If this choice is not offered, you are entitled to compensation of 50% of the ticket price. Complaints should be submitted to the operator within three months of the journey.</p><!--opt-->",
+    "portal_url": "https://www.socibus.es",
+    "stelle_name": "Bus Appeals Body (Bus Users UK)",
+    "stelle_url": "https://www.bususers.org/complaints/",
+    "_pruefen": "Verify address and portal deep link; insert national enforcement body (Spain) if applicable"
+  },
+  {
+    "name": "Itabus",
+    "slug": "itabus",
+    "adresse": "Via Casilina, 1\n00182 Rome (RM)\nItaly",
+    "land": "Italy",
+    "infobox": "<p>Itabus is a long-distance coach operator with its own fleet and routes between major cities. For scheduled journeys over 250 km, UK passenger rights apply (under The Bus and Coach Passengers Rights Regulations 2013) when travelling to or from the UK: In the event of cancellation, overbooking, or a departure delay of more than 120 minutes, you can choose between continuing your journey or a full refund of the ticket price. If this choice is not offered, you are entitled to compensation of 50% of the ticket price. Complaints should be submitted to the operator within three months of the journey.</p><!--opt-->",
+    "portal_url": "https://www.itabus.it",
+    "stelle_name": "Bus Appeals Body (Bus Users UK)",
+    "stelle_url": "https://www.bususers.org/complaints/",
+    "_pruefen": "Verify address and portal deep link; insert national enforcement body (Italy) if applicable"
+  },
+  {
+    "name": "MarinoBus",
+    "slug": "marinobus",
+    "adresse": "Largo Francesco Saverio Nitti 67\n70022 Altamura (BA)\nItaly",
+    "land": "Italy",
+    "infobox": "<p>MarinoBus is a long-distance coach operator with connections mainly between Northern and Southern Italy. For scheduled journeys over 250 km, UK passenger rights apply (under The Bus and Coach Passengers Rights Regulations 2013) when travelling to or from the UK: In the event of cancellation, overbooking, or a departure delay of more than 120 minutes, you can choose between continuing your journey or a full refund of the ticket price. If this choice is not offered, you are entitled to compensation of 50% of the ticket price. Complaints should be submitted to the operator within three months of the journey.</p><!--opt-->",
+    "portal_url": "https://www.marinobus.it",
+    "stelle_name": "Bus Appeals Body (Bus Users UK)",
+    "stelle_url": "https://www.bususers.org/complaints/",
+    "_pruefen": "Verify address and portal deep link; insert national enforcement body (Italy) if applicable"
+  },
+  {
+    "name": "BusCenter",
+    "slug": "buscenter",
+    "adresse": "BUS CENTER S.R.L.\nVia Parigi, 11\n00185 Rome (RM)\nItaly",
+    "land": "Italy",
+    "infobox": "<p>BusCenter is a long-distance coach operator with routes in Sicily, as well as between Sicily and the mainland. For scheduled journeys over 250 km, UK passenger rights apply (under The Bus and Coach Passengers Rights Regulations 2013) when travelling to or from the UK: In the event of cancellation, overbooking, or a departure delay of more than 120 minutes, you can choose between continuing your journey or a full refund of the ticket price. If this choice is not offered, you are entitled to compensation of 50% of the ticket price. Complaints should be submitted to the operator within three months of the journey.</p><!--opt-->",
+    "portal_url": "https://buscenter.travel/condizioni-di-trasporto-buscenter/",
+    "stelle_name": "Bus Appeals Body (Bus Users UK)",
+    "stelle_url": "https://www.bususers.org/complaints/",
+    "_pruefen": "Verify address and portal deep link; insert national enforcement body (Italy) if applicable"
+  },
+  {
+    "name": "Rede Expressos",
+    "slug": "rede-expressos",
+    "adresse": "Praça Marechal Humberto Delgado\n1500-423 Lisbon\nPortugal",
+    "land": "Portugal",
+    "infobox": "<p>Rede Expressos is a long-distance coach network with comprehensive routes; it also includes brands such as EVA Transportes and Renex. For scheduled journeys over 250 km, UK passenger rights apply (under The Bus and Coach Passengers Rights Regulations 2013) when travelling to or from the UK: In the event of cancellation, overbooking, or a departure delay of more than 120 minutes, you can choose between continuing your journey or a full refund of the ticket price. If this choice is not offered, you are entitled to compensation of 50% of the ticket price. Complaints should be submitted to the operator within three months of the journey.</p><!--opt-->",
+    "portal_url": "https://rede-expressos.pt",
+    "stelle_name": "Bus Appeals Body (Bus Users UK)",
+    "stelle_url": "https://www.bususers.org/complaints/",
+    "_pruefen": "Verify address and portal deep link; insert national enforcement body (Portugal) if applicable"
+  },
+  {
+    "name": "Gipsyy",
+    "slug": "gipsyy",
+    "adresse": "Rua São Francisco 660\n2645-019 Lisbon\nPortugal",
+    "land": "Portugal",
+    "infobox": "<p>Gipsyy is a low-cost long-distance coach operator with routes on main axes, for example between Lisbon and Porto. For scheduled journeys over 250 km, UK passenger rights apply (under The Bus and Coach Passengers Rights Regulations 2013) when travelling to or from the UK: In the event of cancellation, overbooking, or a departure delay of more than 120 minutes, you can choose between continuing your journey or a full refund of the ticket price. If this choice is not offered, you are entitled to compensation of 50% of the ticket price. Complaints should be submitted to the operator within three months of the journey.</p><!--opt-->",
+    "portal_url": "https://gipsyy.com/en/about",
+    "stelle_name": "Bus Appeals Body (Bus Users UK)",
+    "stelle_url": "https://www.bususers.org/complaints/",
+    "_pruefen": "Verify address and portal deep link; insert national enforcement body (Portugal) if applicable"
+  },
+  {
+    "name": "RegioJet",
+    "slug": "regiojet",
+    "adresse": "nám. Svobody 86/17\n602 00 Brno-město\nCzech Republic",
+    "land": "Czech Republic",
+    "infobox": "<p>RegioJet is a transport company that, in addition to rail connections, also operates long-distance coach routes in Central Europe. For scheduled journeys over 250 km, UK passenger rights apply (under The Bus and Coach Passengers Rights Regulations 2013) when travelling to or from the UK: In the event of cancellation, overbooking, or a departure delay of more than 120 minutes, you can choose between continuing your journey or a full refund of the ticket price. If this choice is not offered, you are entitled to compensation of 50% of the ticket price. Complaints should be submitted to the operator within three months of the journey.</p><!--opt-->",
+    "portal_url": "https://www.regiojet.com",
+    "stelle_name": "Bus Appeals Body (Bus Users UK)",
+    "stelle_url": "https://www.bususers.org/complaints/",
+    "_pruefen": "Verify address and portal deep link; insert national enforcement body (Czech Republic) if applicable"
+  },
+  {
+    "name": "Omio",
+    "slug": "omio",
+    "adresse": "Warschauer Platz 12\n10245 Berlin\nGermany",
+    "land": "Germany",
+    "infobox": "<p>Omio is a booking platform where coach, train, and flight tickets from various operators in Europe can be booked. When booking via an intermediary platform, the carrier named on your ticket is responsible for the journey. For scheduled journeys over 250 km, UK passenger rights apply (under The Bus and Coach Passengers Rights Regulations 2013) when travelling to or from the UK: In the event of cancellation, overbooking, or a departure delay of more than 120 minutes, you can choose between continuing your journey or a full refund of the ticket price. If this choice is not offered, you are entitled to compensation of 50% of the ticket price. Complaints should be submitted within three months of the journey; direct them to the carrier and, if necessary, additionally to the platform through which you booked.</p><!--opt-->",
+    "portal_url": "https://www.omio.de",
+    "stelle_name": "Bus Appeals Body (Bus Users UK)",
+    "stelle_url": "https://www.bususers.org/complaints/",
+    "_pruefen": "Verify address and portal deep link; intermediary, not carrier – clarify complaint route (platform vs. carrier)"
+  },
+  {
+    "name": "Trainline",
+    "slug": "trainline",
+    "adresse": "1 Stonecutter St\nLondon EC4A 4AH\nUnited Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>Trainline is a booking platform where coach and train tickets from various operators in Europe can be booked. When booking via an intermediary platform, the carrier named on your ticket is responsible for the journey. For scheduled journeys over 250 km, UK passenger rights apply (under The Bus and Coach Passengers Rights Regulations 2013) when travelling to or from the UK: In the event of cancellation, overbooking, or a departure delay of more than 120 minutes, you can choose between continuing your journey or a full refund of the ticket price. If this choice is not offered, you are entitled to compensation of 50% of the ticket price. Complaints should be submitted within three months of the journey; direct them to the carrier and, if necessary, additionally to the platform through which you booked.</p><!--opt-->",
+    "portal_url": "https://www.thetrainline.com",
+    "stelle_name": "Bus Appeals Body (Bus Users UK)",
+    "stelle_url": "https://www.bususers.org/complaints/",
+    "_pruefen": "Verify address and portal deep link; intermediary, not carrier – clarify complaint route (platform vs. carrier)"
+  },
+  {
+    "name": "Long-distance Coach (General)",
+    "slug": "allgemein",
+    "adresse": "1 Example Street\nLondon\nEC1A 1BB\nUnited Kingdom",
+    "land": "United Kingdom",
+    "infobox": "<p>This general form is suitable for long-distance coach operators that are not listed separately. For scheduled journeys over 250 km, UK passenger rights apply under The Bus and Coach Passengers Rights Regulations 2013: In the event of cancellation, overbooking, or a departure delay of more than 120 minutes, you can choose between continuing your journey or a full refund of the ticket price, and if the operator does not offer this choice, compensation of 50% of the ticket price is added. Enter the operator's address from your ticket documents or legal notice (imprint).</p><!--opt-->",
+    "portal_url": "#",
+    "stelle_name": "Bus Appeals Body (Bus Users UK)",
+    "stelle_url": "https://www.bususers.org/complaints/"
+  }
+]

@@ -17,7 +17,7 @@ const CONFIG = {
     disabledSilos: ['visum'],   // Einreise: vorerst auf Eis gelegt
 
     // Aufräumen: Nicht mehr generierte .html-Dateien aus docs/<lang>/ löschen
-    cleanup: true,              // false = Aufräumen komplett AUS (es wird nie etwas gelöscht)
+    cleanup: false,              // false = Aufräumen komplett AUS (es wird nie etwas gelöscht oder auf true für aufräumen)
     cleanupDryRun: false,       // true = nur anzeigen, was gelöscht würde
 
     // Handgepflegte Seiten, die NIE gelöscht werden (gilt für docs/<lang>/).
@@ -46,7 +46,7 @@ const SILO_LANG_EXCEPTIONS = {
 
 // Silos, die für bestimmte Sprachen gesperrt sind
 const SILO_LANG_BLOCKS = {
-    'en-us': ['bahn', 'steuern', 'ferienhaus']
+    'en-us': ['bahn', 'steuern', 'ferienhaus', 'fernbus']
 };
 
 // Prüft, ob ein Silo für die aktuelle Sprache übersprungen werden soll
@@ -797,6 +797,38 @@ function buildEngine() {
             }
         } else {
             console.log(`   ⏭️  Silo [Eskalation] wird für [${lang.toUpperCase()}] übersprungen (keine JSON gefunden).`);
+        }
+
+        // =====================================================================
+        // SILO 15: FERNBUS (de, es, fr, it, fr-be, nl-be, pt, en-gb, nl — nicht en-us)
+        // =====================================================================
+        if (!isExcludedForLang('fernbus', lang) && srcExists('fernbus.json')) {
+            const fernbusAnbieter = readJson('fernbus.json');
+            const fernbusTpl = loadTemplate('fernbus-master.html');
+            let optFernbus = "", linkFernbus = "";
+
+            fernbusAnbieter.forEach(b => {
+                const fFernbus = `fernbus-verspaetung-entschaedigung-${b.slug}.html`;
+                const crossFernbus = generateCrossLinks(fernbusAnbieter, b, item => `fernbus-verspaetung-entschaedigung-${item.slug}.html`, item => item.name);
+                const content = fernbusTpl
+                    .replace(/\{\{BUS_NAME\}\}/g, b.name)
+                    .replace(/\{\{BUS_ADRESSE\}\}/g, b.adresse || '')
+                    .replace(/\{\{DATEINAME\}\}/g, fFernbus)
+                    .replace(/\{\{BELIEBTE_LINKS\}\}/g, crossFernbus)
+                    .replace(/\{\{PORTAL_URL\}\}/g, b.portal_url || '#')
+                    .replace(/\{\{BUS_INFOBOX\}\}/g, b.infobox || '')
+                    .replace(/\{\{STELLE_NAME\}\}/g, b.stelle_name || '')
+                    .replace(/\{\{STELLE_URL\}\}/g, b.stelle_url || '#');
+                write(fFernbus, injectSEO(content, lang, fFernbus, 'fernbus.json', b.slug, 'fernbus'));
+                optFernbus += `<option value="${fFernbus}">${b.name}</option>\n`;
+                linkFernbus += `<a href="${fFernbus}">${b.name}</a>\n`;
+            });
+
+            if (srcExists('hub-fernbus-master.html')) {
+                write('fernbus-info.html', injectSEO(loadTemplate('hub-fernbus-master.html').replace(/\{\{BUS_OPTIONS\}\}/g, optFernbus).replace(/\{\{BUS_LINKS\}\}/g, linkFernbus), lang, 'fernbus-info.html', null, null, 'fernbus'));
+            }
+        } else {
+            console.log(`   ⏭️  Silo [Fernbus] wird für [${lang.toUpperCase()}] übersprungen.`);
         }
 
         // =====================================================================

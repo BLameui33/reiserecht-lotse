@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <title>Coach delay &amp; cancellation: claim your refund (PDF)</title>
+  <meta name="description" content="Coach cancelled, overbooked or delayed by more than 2 hours? Your rights under EU Regulation 181/2011: ticket refund, 50 % compensation, refreshments and hotel. With a free PDF generator.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {{SEO_LINKS}}
+
+  <!-- Bibliothek für die PDF-Generierung aus HTML -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <style>
+    .kk-table-wrap { overflow-x: auto; margin: 20px 0; }
+    .kk-table { width: 100%; border-collapse: collapse; font-size: 0.95em; }
+    .kk-table th, .kk-table td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #e3e3e3; vertical-align: top; }
+    .kk-table th { background: #faf3f3; color: #891818; }
+
+    /* Affiliate-Box (oben) */
+    .kk-ad-top { position: relative; background: #fff; border: 1px solid #e6d3d3; border-radius: 8px; padding: 26px 28px 22px; margin: 28px 0; box-shadow: 0 6px 22px rgba(137, 24, 24, 0.07); }
+    .kk-ad-label { position: absolute; top: 10px; right: 12px; font-size: 0.7rem; color: #666; background: #eee; padding: 2px 6px; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .kk-ad-title { margin: 0 0 8px; padding-right: 70px; font-size: 1.25em; font-weight: 700; color: #891818; line-height: 1.3; }
+    .kk-ad-text { margin: 0 0 14px; font-size: 0.98em; color: #444; line-height: 1.55; }
+    .kk-ad-points { list-style: none; margin: 0 0 18px; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+    .kk-ad-points li { background: #faf3f3; color: #6f1313; border-radius: 20px; padding: 6px 14px; font-size: 0.88em; }
+    .kk-ad-btn { display: inline-block; background: #891818; color: #fff !important; font-weight: 700; font-size: 1.02em; text-decoration: none; padding: 15px 30px; border-radius: 6px; box-shadow: 0 4px 12px rgba(137, 24, 24, 0.25); transition: background 0.2s; }
+    .kk-ad-btn:hover { background: #6f1313; }
+    .kk-ad-note { margin: 14px 0 0; font-size: 0.78em; color: #777; line-height: 1.5; }
+    @media (max-width: 600px) { .kk-ad-top { padding: 22px 18px 18px; } .kk-ad-btn { display: block; text-align: center; padding: 16px 12px; } }
+  </style>
+
+  <!-- FAQ Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "When do I get 50 % of the ticket price back for a coach?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When your journey has been cancelled, was overbooked, or the departure was delayed by more than 120 minutes and the coach operator offered you neither onward travel nor a refund of the ticket price. The 50 % is paid on top of the refund. The prerequisite is a scheduled service with a planned route of at least 250 kilometres."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does arrival delay count for coaches?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Unlike rail, EU Regulation 181/2011 is based on delay at departure, cancellation and overbooking. A delay during the journey, for example due to traffic, does not give rise to a claim under the Regulation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long do I have to submit my complaint?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Complaints should reach the carrier within three months of the journey. The company should state within one month how it is handling the complaint and respond conclusively at the latest after three months."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Coach delay &amp; cancellation: how to claim a refund and 50 % compensation</h1>
+
+  <p>A cancelled coach or a departure delayed by hours is annoying, but you are not without rights: for scheduled journeys from 250 kilometres, <strong>EU Regulation 181/2011</strong> applies. It obliges operators such as FlixBus &amp; Co. to offer you the choice between onward travel and a ticket refund in the event of cancellation, overbooking and a departure delay of more than 120 minutes. If they fail to do so, <strong>50 % of the ticket price</strong> is added as compensation.</p>
+
+  <p>Important: unlike rail, what counts for coaches is the <strong>delay at departure</strong>, not the arrival time. The generator below calculates your claim and produces the formal request, including reimbursement for refreshments and hotel.</p>
+
+  <div class="kk-ad-top">
+    <span class="kk-ad-label">Advertisement</span>
+    <p class="kk-ad-title">Getting your ticket price back made easier: compare travel credit cards</p>
+    <p class="kk-ad-text">If you pay for tickets by credit card, you can also request a chargeback through your bank when a journey is cancelled. Some travel credit cards also include travel insurance. The free comparison shows which card suits you.</p>
+    <ul class="kk-ad-points">
+      <li>Chargeback possible with card payment</li>
+      <li>Selected cards with travel insurance</li>
+      <li>Free and non-binding comparison</li>
+    </ul>
+    <a href="#" class="kk-ad-btn" target="_blank" rel="noopener nofollow sponsored">Compare travel credit cards</a>
+    <p class="kk-ad-note">Advertising link. Applies to future travel, not retroactively to your current case. Terms, requirements and exclusions vary significantly between providers. If you enter into a contract, we may receive a commission; there are no additional costs for you.</p>
+  </div>
+
+  <div class="legal-info-box">
+    <strong>Important notice on use</strong><br>
+    This tool is an <strong>automated template letter generator</strong> (self-help aid). It merely inserts your data into standard legal templates. <strong>No individual review</strong> of your case takes place. This free service does not replace legal advice from a solicitor. Use is at your own risk, and no guarantee of success is given.
+  </div>
+
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Generate PDF request</h2>
+    <p>Select your coach operator to create a form including the appropriate recipient address:</p>
+
+    <select id="busSelect">
+      <option value="">-- Please select a coach operator --</option>
+      {{BUS_OPTIONS}}
+      <option value="fernbus-entschaedigung-allgemein.html">My operator is not listed (general form)</option>
+    </select>
+
+    <button onclick="routeToGenerator()" class="btn-route">Go to the generator for this operator</button>
+  </div>
+
+  <h2 style="margin-top: 40px;">Your coach rights at a glance</h2>
+  <div class="kk-table-wrap">
+    <table class="kk-table">
+      <thead>
+        <tr><th>Situation</th><th>Your entitlement (Regulation (EU) 181/2011)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Cancellation, overbooking or departure delay of more than 120 minutes</td><td>Choice between onward travel at no extra cost and a refund of the ticket price</td></tr>
+        <tr><td>Operator does not offer this choice</td><td>In addition, 50 % of the ticket price as compensation</td></tr>
+        <tr><td>Departure delay of more than 90 minutes from the bus station, journey of more than 3 hours</td><td>Snack, meals or refreshments</td></tr>
+        <tr><td>Overnight stay necessary</td><td>Up to two nights, a maximum of 80 euros per night, including transfers, not in the event of severe weather or natural disasters</td></tr>
+        <tr><td>Information about the disruption</td><td>At the latest 30 minutes after the scheduled departure</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p style="font-size: 0.9em; color: #666;">Entitlements to compensation and assistance apply in principle only to scheduled services with a planned route from 250 kilometres.</p>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Operator selection: direct forms</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{BUS_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Checklist: immediate help at the stop</h2>
+  <p>If you are currently stranded, secure your entitlements with these steps:</p>
+
+  <div class="checklist-box" id="checklistToPrint">
+    <h3 style="margin-top:0; color:#8e231f;">Checklist for coach cancellation or delay</h3>
+    <ul>
+      <li><strong>Demand information:</strong> The carrier must inform you about the disruption at the latest 30 minutes after the scheduled departure. Ask if nothing is forthcoming.</li>
+      <li><strong>Declare your right of choice:</strong> State in writing whether you want onward travel or a refund, and save the message as a screenshot.</li>
+      <li><strong>Secure evidence:</strong> Photograph the display, take screenshots of the app showing the time, and note the scheduled and actual departure.</li>
+      <li><strong>Use the assistance:</strong> With a delay of more than 90 minutes from the bus station (journey of more than 3 hours), you are entitled to refreshments and, if necessary, a hotel.</li>
+      <li><strong>Keep receipts:</strong> Receipts for food, hotel (up to 80 euros per night, two nights) and transfers, plus the ticket and proof of payment.</li>
+      <li><strong>Keep an eye on the deadline:</strong> Submit your complaint within three months of the journey.</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('checkliste-fernbus-ausfall.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+    Generate &amp; save the checklist as PDF
+  </button>
+
+  <h2 style="margin-top: 40px;">Case examples: when the operator has to pay</h2>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Example 1: Journey cancelled, no offer</h3>
+    <p>A traveller has booked a journey from Hamburg to Berlin for 30 euros (around 290 kilometres). The coach is cancelled and no onward travel or refund is offered.<br>
+    <strong>Result:</strong> They can claim a refund of the 30-euro ticket price and, in addition, <strong>50 % compensation (15 euros)</strong>, 45 euros in total.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Example 2: Replacement coach offered after 150 minutes</h3>
+    <p>The departure is delayed by 150 minutes. The operator offers to continue the journey with a replacement coach or to receive the ticket price back.<br>
+    <strong>Result:</strong> As the passenger was offered the choice, <strong>the 50 % compensation does not apply</strong>. They can choose between onward travel and a refund, and are entitled to refreshments if the scheduled journey lasts more than three hours.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Example 3: Cancellation due to severe weather and overnight stay</h3>
+    <p>Because of a severe storm, the night coach is cancelled, and onward travel is only possible the next day.<br>
+    <strong>Result:</strong> A refund or onward travel remain possible. However, the operator does not have to cover <strong>hotel costs</strong> in the event of adverse weather conditions or natural disasters. Refreshments are still due.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">FAQ: your coach rights in detail</h2>
+
+  <div class="faq-item">
+    <div class="faq-question">When do I get 50 % of the ticket price back for a coach?</div>
+    <div class="faq-answer">When your journey has been cancelled, was overbooked, or the departure was delayed by more than 120 minutes and the coach operator offered you neither onward travel nor a refund of the ticket price. The 50 % is paid on top of the refund. The prerequisite is a scheduled service with a planned route of at least 250 kilometres.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Does arrival delay count for coaches?</div>
+    <div class="faq-answer">No. Unlike rail, EU Regulation 181/2011 is based on delay at departure, cancellation and overbooking. A delay during the journey, for example due to traffic, does not give rise to a claim under the Regulation.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">How long do I have to submit my complaint?</div>
+    <div class="faq-answer">Complaints should reach the carrier within three months of the journey. The company should state within one month how it is handling the complaint and respond conclusively at the latest after three months.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+  <h3>Expertise in travel law &amp; passenger rights</h3>
+  <p class="trust-text">
+    Our guides and generators are based on the analysis of current EU regulations (such as Regulation 181/2011), national transport and travel law and public administrative information. They are developed by Marc (project lead) &amp; team to enable travellers to enforce their rights against transport companies in a structured way.
+    <br><br>
+    <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+      Important notice: Our tools offer self-help aid for flight delays, hotel defects, coach and train cancellations. They do not replace individual legal advice from a solicitor.
+    </span>
+  </p>
+
+  <a href="ueber-uns.html" class="trust-link">Learn more about the legal methodology &amp; editorial team &rarr;</a>
+
+  <div class="lotse-card">
+    <p>
+      <strong>Problem with your flight, train or hotel?</strong><br>
+      Fix-My-Trip checks in just a few steps your entitlement to compensation, ticket refund or travel price reduction. <br>
+      <em>A service by Fix my Trip.</em>
+    </p>
+  </div>
+
+  <p class="feedback-note">
+    <strong>Found a bug in the tool?</strong> As an automated portal, we do not provide individual legal advice, so you help us enormously by reporting bugs or outdated operators:
+    <a href="mailto:support@fix-my-trip.com" style="color: #777; text-decoration: underline;">Send feedback to our head office</a>.
+  </p>
+</div>
+
+<footer>
+  <p>&copy; 2026 Fix-my-Trip.com</p>
+  <nav>
+    <a href="ueber-uns.html">About us</a> |
+    <a href="index.html">Home</a> |
+    <a href="impressum.html">Legal notice</a> |
+    <a href="datenschutz.html">Privacy policy</a>
+  </nav>
+</footer>
+
+<script>
+function routeToGenerator() {
+  const selectElement = document.getElementById('busSelect');
+  const targetUrl = selectElement.value;
+  if (targetUrl) {
+    window.location.href = targetUrl;
+  } else {
+    alert("Please select an operator from the list first.");
+  }
+}
+
+function generateChecklistPDF(filename) {
+  const element = document.getElementById('checklistToPrint');
+  const opt = {
+    margin: 15,
+    filename: filename,
+    image: { type: 'jpeg', quality: 0.98 },
+    html2canvas: { scale: 2, scrollY: 0, windowWidth: document.documentElement.offsetWidth },
+    jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+  };
+  html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

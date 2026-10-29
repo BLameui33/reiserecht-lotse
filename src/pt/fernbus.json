@@ -1,0 +1,198 @@
+[
+  {
+    "name": "FlixBus",
+    "slug": "flixbus",
+    "adresse": "Flix SE\nFriedenheimer Brücke 16\n80639 Munique\nAlemanha",
+    "land": "Alemanha",
+    "infobox": "<p>A FlixBus é uma operadora de autocarros de longo curso com uma rede de linhas em toda a Europa e liga cidades na Alemanha a vários destinos no estrangeiro. Em caso de cancelamento, overbooking ou um atraso na partida superior a 120 minutos, aplicam-se os direitos dos passageiros da UE nos termos do Regulamento (UE) n.º 181/2011 para viagens regulares com mais de 250 quilómetros: pode escolher entre continuar a viagem ou o reembolso do preço do bilhete e, se esta opção não lhe for oferecida, acresce uma indemnização de 50 % do preço do bilhete. A empresa operadora Flix SE tem sede em Munique; as reclamações devem ser apresentadas no prazo de três meses após a viagem. Para os serviços de assistência, como refeições e alojamento, aplicam-se os limites de até duas noites e 80 euros por noite.</p><!--opt-->",
+    "portal_url": "https://www.flixbus.de",
+    "stelle_name": "Autoridade da Mobilidade e dos Transportes (AMT)",
+    "stelle_url": "https://www.amt-autoridade.pt"
+  },
+  {
+    "name": "National Express",
+    "slug": "national-express",
+    "adresse": "National Express House\n Mill Lane, Digbeth\n Birmingham, B5 6DD\n Reino Unido",
+    "land": "Reino Unido",
+    "infobox": "<p>A National Express é uma operadora de autocarros de longo curso com uma rede nacional e ligações a aeroportos e grandes cidades. Nas viagens regulares com mais de 250 km, aplicam-se os direitos dos passageiros da UE nos termos do Regulamento (UE) n.º 181/2011: Em caso de cancelamento, overbooking ou um atraso na partida superior a 120 minutos, pode escolher entre continuar a viagem ou o reembolso do preço do bilhete e, se esta opção não lhe for oferecida, acresce uma indemnização de 50 % do preço do bilhete. As reclamações devem ser apresentadas à empresa no prazo de três meses após a viagem. No Reino Unido, aplica-se uma regulamentação nacional de teor semelhante.</p><!--opt-->",
+    "portal_url": "https://www.nationalexpress.com",
+    "stelle_name": "Autoridade da Mobilidade e dos Transportes (AMT)",
+    "stelle_url": "https://www.amt-autoridade.pt",
+    "_pruefen": "Verificar o endereço e o link do portal; inserir, se necessário, o organismo nacional de execução (Reino Unido)"
+  },
+  {
+    "name": "Megabus",
+    "slug": "megabus",
+    "adresse": "Megabus Ltd\n 100 Mill Lane\n Digbeth\n Birmingham, B5 6DD\n Reino Unido",
+    "land": "Reino Unido",
+    "infobox": "<p>A Megabus é uma operadora de autocarros de longo curso focada em ligações económicas entre grandes cidades. Nas viagens regulares com mais de 250 km, aplicam-se os direitos dos passageiros da UE nos termos do Regulamento (UE) n.º 181/2011: Em caso de cancelamento, overbooking ou um atraso na partida superior a 120 minutos, pode escolher entre continuar a viagem ou o reembolso do preço do bilhete e, se esta opção não lhe for oferecida, acresce uma indemnização de 50 % do preço do bilhete. As reclamações devem ser apresentadas à empresa no prazo de três meses após a viagem. No Reino Unido, aplica-se uma regulamentação nacional de teor semelhante.</p><!--opt-->",
+    "portal_url": "https://uk.megabus.com",
+    "stelle_name": "Autoridade da Mobilidade e dos Transportes (AMT)",
+    "stelle_url": "https://www.amt-autoridade.pt",
+    "_pruefen": "Verificar o endereço e o link do portal; inserir, se necessário, o organismo nacional de execução (Reino Unido)"
+  },
+  {
+    "name": "Scottish Citylink",
+    "slug": "scottish-citylink",
+    "adresse": "Buchanan Bus Station\nKillermont Street\nGlasgow, G2 3NW\nEscócia, Reino Unido",
+    "land": "Reino Unido",
+    "infobox": "<p>A Scottish Citylink é uma operadora de autocarros de longo curso com linhas na Escócia e ligações a regiões vizinhas. Nas viagens regulares com mais de 250 km, aplicam-se os direitos dos passageiros da UE nos termos do Regulamento (UE) n.º 181/2011: Em caso de cancelamento, overbooking ou um atraso na partida superior a 120 minutos, pode escolher entre continuar a viagem ou o reembolso do preço do bilhete e, se esta opção não lhe for oferecida, acresce uma indemnização de 50 % do preço do bilhete. As reclamações devem ser apresentadas à empresa no prazo de três meses após a viagem. No Reino Unido, aplica-se uma regulamentação nacional de teor semelhante.</p><!--opt-->",
+    "portal_url": "https://www.citylink.co.uk",
+    "stelle_name": "Autoridade da Mobilidade e dos Transportes (AMT)",
+    "stelle_url": "https://www.amt-autoridade.pt",
+    "_pruefen": "Verificar o endereço e o link do portal; inserir, se necessário, o organismo nacional de execução (Reino Unido)"
+  },
+  {
+    "name": "BlaBlaCar Bus",
+    "slug": "blablacar-bus",
+    "adresse": "Comuto Pro / Comuto SA\n84, avenue de la République\n75011 Paris\nFrança",
+    "land": "França",
+    "infobox": "<p>A BlaBlaCar Bus é uma operadora de autocarros de longo curso com linhas entre grandes cidades em França e ligações transfronteiriças para países vizinhos. Nas viagens regulares com mais de 250 km, aplicam-se os direitos dos passageiros da UE nos termos do Regulamento (UE) n.º 181/2011: Em caso de cancelamento, overbooking ou um atraso na partida superior a 120 minutos, pode escolher entre continuar a viagem ou o reembolso do preço do bilhete e, se esta opção não lhe for oferecida, acresce uma indemnização de 50 % do preço do bilhete. As reclamações devem ser apresentadas à empresa no prazo de três meses após a viagem.</p><!--opt-->",
+    "portal_url": "https://www.blablacar.com",
+    "stelle_name": "Autoridade da Mobilidade e dos Transportes (AMT)",
+    "stelle_url": "https://www.amt-autoridade.pt",
+    "_pruefen": "Verificar o endereço e o link do portal; inserir, se necessário, o organismo nacional de execução (França)"
+  },
+  {
+    "name": "ALSA",
+    "slug": "alsa",
+    "adresse": "Calle Josefa Valcárcel\n20, 28027 Madrid\nEspanha",
+    "land": "Espanha",
+    "infobox": "<p>A ALSA é uma grande operadora de autocarros com linhas de longo curso no seu país de origem e ligações internacionais para a Europa e Norte de África. Nas viagens regulares com mais de 250 km, aplicam-se os direitos dos passageiros da UE nos termos do Regulamento (UE) n.º 181/2011: Em caso de cancelamento, overbooking ou um atraso na partida superior a 120 minutos, pode escolher entre continuar a viagem ou o reembolso do preço do bilhete e, se esta opção não lhe for oferecida, acresce uma indemnização de 50 % do preço do bilhete. As reclamações devem ser apresentadas à empresa no prazo de três meses após a viagem.</p><!--opt-->",
+    "portal_url": "https://www.alsa.com",
+    "stelle_name": "Autoridade da Mobilidade e dos Transportes (AMT)",
+    "stelle_url": "https://www.amt-autoridade.pt",
+    "_pruefen": "Verificar o endereço e o link do portal; inserir, se necessário, o organismo nacional de execução (Espanha)"
+  },
+  {
+    "name": "Avanza Bus",
+    "slug": "avanza",
+    "adresse": "Calle San Norberto 48–50\n28021 Madrid\nEspanha",
+    "land": "Espanha",
+    "infobox": "<p>A Avanza é uma operadora de autocarros com linhas de longo curso que ligam principalmente Madrid a regiões no centro e sul de Espanha. Nas viagens regulares com mais de 250 km, aplicam-se os direitos dos passageiros da UE nos termos do Regulamento (UE) n.º 181/2011: Em caso de cancelamento, overbooking ou um atraso na partida superior a 120 minutos, pode escolher entre continuar a viagem ou o reembolso do preço do bilhete e, se esta opção não lhe for oferecida, acresce uma indemnização de 50 % do preço do bilhete. As reclamações devem ser apresentadas à empresa no prazo de três meses após a viagem.</p><!--opt-->",
+    "portal_url": "https://avanzabus.com",
+    "stelle_name": "Autoridade da Mobilidade e dos Transportes (AMT)",
+    "stelle_url": "https://www.amt-autoridade.pt",
+    "_pruefen": "Verificar o endereço e o link do portal; inserir, se necessário, o organismo nacional de execução (Espanha)"
+  },
+  {
+    "name": "Monbus",
+    "slug": "monbus",
+    "adresse": "Calle Cotón de Arriba, nº 2\n27297 Lugo (Galiza)\nEspanha",
+    "land": "Espanha",
+    "infobox": "<p>A Monbus é uma operadora de autocarros com serviço de linha principalmente no noroeste e na Catalunha, bem como outras ligações de longo curso. Nas viagens regulares com mais de 250 km, aplicam-se os direitos dos passageiros da UE nos termos do Regulamento (UE) n.º 181/2011: Em caso de cancelamento, overbooking ou um atraso na partida superior a 120 minutos, pode escolher entre continuar a viagem ou o reembolso do preço do bilhete e, se esta opção não lhe for oferecida, acresce uma indemnização de 50 % do preço do bilhete. As reclamações devem ser apresentadas à empresa no prazo de três meses após a viagem.</p><!--opt-->",
+    "portal_url": "https://www.monbus.es",
+    "stelle_name": "Autoridade da Mobilidade e dos Transportes (AMT)",
+    "stelle_url": "https://www.amt-autoridade.pt",
+    "_pruefen": "Verificar o endereço e o link do portal; inserir, se necessário, o organismo nacional de execução (Espanha)"
+  },
+  {
+    "name": "Socibus",
+    "slug": "socibus",
+    "adresse": "Calle de Méndez Álvaro, 83\n28045 Madrid\nEspanha",
+    "land": "Espanha",
+    "infobox": "<p>A Socibus é uma operadora de autocarros de longo curso com linhas entre Madrid e a Andaluzia. Nas viagens regulares com mais de 250 km, aplicam-se os direitos dos passageiros da UE nos termos do Regulamento (UE) n.º 181/2011: Em caso de cancelamento, overbooking ou um atraso na partida superior a 120 minutos, pode escolher entre continuar a viagem ou o reembolso do preço do bilhete e, se esta opção não lhe for oferecida, acresce uma indemnização de 50 % do preço do bilhete. As reclamações devem ser apresentadas à empresa no prazo de três meses após a viagem.</p><!--opt-->",
+    "portal_url": "https://www.socibus.es",
+    "stelle_name": "Autoridade da Mobilidade e dos Transportes (AMT)",
+    "stelle_url": "https://www.amt-autoridade.pt",
+    "_pruefen": "Verificar o endereço e o link do portal; inserir, se necessário, o organismo nacional de execução (Espanha)"
+  },
+  {
+    "name": "Itabus",
+    "slug": "itabus",
+    "adresse": "Via Casilina, 1\n00182 Roma (RM)\nItália",
+    "land": "Itália",
+    "infobox": "<p>A Itabus é uma operadora de autocarros de longo curso com frota própria e linhas entre grandes cidades. Nas viagens regulares com mais de 250 km, aplicam-se os direitos dos passageiros da UE nos termos do Regulamento (UE) n.º 181/2011: Em caso de cancelamento, overbooking ou um atraso na partida superior a 120 minutos, pode escolher entre continuar a viagem ou o reembolso do preço do bilhete e, se esta opção não lhe for oferecida, acresce uma indemnização de 50 % do preço do bilhete. As reclamações devem ser apresentadas à empresa no prazo de três meses após a viagem.</p><!--opt-->",
+    "portal_url": "https://www.itabus.it",
+    "stelle_name": "Autoridade da Mobilidade e dos Transportes (AMT)",
+    "stelle_url": "https://www.amt-autoridade.pt",
+    "_pruefen": "Verificar o endereço e o link do portal; inserir, se necessário, o organismo nacional de execução (Itália)"
+  },
+  {
+    "name": "MarinoBus",
+    "slug": "marinobus",
+    "adresse": "Largo Francesco Saverio Nitti 67\n70022 Altamura (BA)\nItália",
+    "land": "Itália",
+    "infobox": "<p>A MarinoBus é uma operadora de autocarros de longo curso com ligações principalmente entre o norte e o sul de Itália. Nas viagens regulares com mais de 250 km, aplicam-se os direitos dos passageiros da UE nos termos do Regulamento (UE) n.º 181/2011: Em caso de cancelamento, overbooking ou um atraso na partida superior a 120 minutos, pode escolher entre continuar a viagem ou o reembolso do preço do bilhete e, se esta opção não lhe for oferecida, acresce uma indemnização de 50 % do preço do bilhete. As reclamações devem ser apresentadas à empresa no prazo de três meses após a viagem.</p><!--opt-->",
+    "portal_url": "https://www.marinobus.it",
+    "stelle_name": "Autoridade da Mobilidade e dos Transportes (AMT)",
+    "stelle_url": "https://www.amt-autoridade.pt",
+    "_pruefen": "Verificar o endereço e o link do portal; inserir, se necessário, o organismo nacional de execução (Itália)"
+  },
+  {
+    "name": "BusCenter",
+    "slug": "buscenter",
+    "adresse": "BUS CENTER S.R.L.\nVia Parigi, 11\n00185 Roma (RM)\nItália",
+    "land": "Itália",
+    "infobox": "<p>A BusCenter é uma operadora de autocarros de longo curso com linhas na Sicília, bem como entre a Sicília e o continente. Nas viagens regulares com mais de 250 km, aplicam-se os direitos dos passageiros da UE nos termos do Regulamento (UE) n.º 181/2011: Em caso de cancelamento, overbooking ou um atraso na partida superior a 120 minutos, pode escolher entre continuar a viagem ou o reembolso do preço do bilhete e, se esta opção não lhe for oferecida, acresce uma indemnização de 50 % do preço do bilhete. As reclamações devem ser apresentadas à empresa no prazo de três meses após a viagem.</p><!--opt-->",
+    "portal_url": "https://buscenter.travel/condizioni-di-trasporto-buscenter/",
+    "stelle_name": "Autoridade da Mobilidade e dos Transportes (AMT)",
+    "stelle_url": "https://www.amt-autoridade.pt",
+    "_pruefen": "Verificar o endereço e o link do portal; inserir, se necessário, o organismo nacional de execução (Itália)"
+  },
+  {
+    "name": "Rede Expressos",
+    "slug": "rede-expressos",
+    "adresse": "Praça Marechal Humberto Delgado\n1500-423 Lisboa\nPortugal",
+    "land": "Portugal",
+    "infobox": "<p>A Rede Expressos é uma rede de autocarros de longo curso com linhas abrangentes; inclui também marcas como a EVA Transportes e a Renex. Nas viagens regulares com mais de 250 km, aplicam-se os direitos dos passageiros da UE nos termos do Regulamento (UE) n.º 181/2011: Em caso de cancelamento, overbooking ou um atraso na partida superior a 120 minutos, pode escolher entre continuar a viagem ou o reembolso do preço do bilhete e, se esta opção não lhe for oferecida, acresce uma indemnização de 50 % do preço do bilhete. As reclamações devem ser apresentadas à empresa no prazo de três meses após a viagem.</p><!--opt-->",
+    "portal_url": "https://rede-expressos.pt",
+    "stelle_name": "Autoridade da Mobilidade e dos Transportes (AMT)",
+    "stelle_url": "https://www.amt-autoridade.pt",
+    "_pruefen": "Verificar o endereço e o link do portal; inserir, se necessário, o organismo nacional de execução (Portugal)"
+  },
+  {
+    "name": "Gipsyy",
+    "slug": "gipsyy",
+    "adresse": "Rua São Francisco 660\n2645-019 Lisboa\nPortugal",
+    "land": "Portugal",
+    "infobox": "<p>A Gipsyy é uma operadora de autocarros de longo curso low-cost com linhas nos principais eixos, por exemplo, entre Lisboa e o Porto. Nas viagens regulares com mais de 250 km, aplicam-se os direitos dos passageiros da UE nos termos do Regulamento (UE) n.º 181/2011: Em caso de cancelamento, overbooking ou um atraso na partida superior a 120 minutos, pode escolher entre continuar a viagem ou o reembolso do preço do bilhete e, se esta opção não lhe for oferecida, acresce uma indemnização de 50 % do preço do bilhete. As reclamações devem ser apresentadas à empresa no prazo de três meses após a viagem.</p><!--opt-->",
+    "portal_url": "https://gipsyy.com/en/about",
+    "stelle_name": "Autoridade da Mobilidade e dos Transportes (AMT)",
+    "stelle_url": "https://www.amt-autoridade.pt",
+    "_pruefen": "Verificar o endereço e o link do portal; inserir, se necessário, o organismo nacional de execução (Portugal)"
+  },
+  {
+    "name": "RegioJet",
+    "slug": "regiojet",
+    "adresse": "nám. Svobody 86/17\n602 00 Brno-město\nRepública Checa",
+    "land": "República Checa",
+    "infobox": "<p>A RegioJet é uma empresa de transportes que, para além das ligações ferroviárias, também opera linhas de autocarros de longo curso na Europa Central. Nas viagens regulares com mais de 250 km, aplicam-se os direitos dos passageiros da UE nos termos do Regulamento (UE) n.º 181/2011: Em caso de cancelamento, overbooking ou um atraso na partida superior a 120 minutos, pode escolher entre continuar a viagem ou o reembolso do preço do bilhete e, se esta opção não lhe for oferecida, acresce uma indemnização de 50 % do preço do bilhete. As reclamações devem ser apresentadas à empresa no prazo de três meses após a viagem.</p><!--opt-->",
+    "portal_url": "https://www.regiojet.com",
+    "stelle_name": "Autoridade da Mobilidade e dos Transportes (AMT)",
+    "stelle_url": "https://www.amt-autoridade.pt",
+    "_pruefen": "Verificar o endereço e o link do portal; inserir, se necessário, o organismo nacional de execução (República Checa)"
+  },
+  {
+    "name": "Omio",
+    "slug": "omio",
+    "adresse": "Warschauer Platz 12\n10245 Berlim\nAlemanha",
+    "land": "Alemanha",
+    "infobox": "<p>A Omio é uma plataforma de reservas onde podem ser comprados bilhetes de autocarro, comboio e avião de várias operadoras na Europa. Ao reservar através de uma plataforma de intermediação, a transportadora indicada no seu bilhete é a responsável pela viagem. Nas viagens regulares com mais de 250 km, aplicam-se os direitos dos passageiros da UE nos termos do Regulamento (UE) n.º 181/2011: Em caso de cancelamento, overbooking ou um atraso na partida superior a 120 minutos, pode escolher entre continuar a viagem ou o reembolso do preço do bilhete e, se esta opção não lhe for oferecida, acresce uma indemnização de 50 % do preço do bilhete. As reclamações devem ser apresentadas no prazo de três meses após a viagem; dirija-as à transportadora e, se necessário, também à plataforma onde fez a reserva.</p><!--opt-->",
+    "portal_url": "https://www.omio.de",
+    "stelle_name": "Autoridade da Mobilidade e dos Transportes (AMT)",
+    "stelle_url": "https://www.amt-autoridade.pt",
+    "_pruefen": "Verificar o endereço e o link do portal; intermediário, não transportadora – esclarecer a via de reclamação (plataforma vs. transportadora)"
+  },
+  {
+    "name": "Trainline",
+    "slug": "trainline",
+    "adresse": "1 Stonecutter St\nLondon EC4A 4AH\nReino Unido",
+    "land": "Reino Unido",
+    "infobox": "<p>A Trainline é uma plataforma de reservas onde podem ser comprados bilhetes de autocarro e comboio de várias operadoras na Europa. Ao reservar através de uma plataforma de intermediação, a transportadora indicada no seu bilhete é a responsável pela viagem. Nas viagens regulares com mais de 250 km, aplicam-se os direitos dos passageiros da UE nos termos do Regulamento (UE) n.º 181/2011: Em caso de cancelamento, overbooking ou um atraso na partida superior a 120 minutos, pode escolher entre continuar a viagem ou o reembolso do preço do bilhete e, se esta opção não lhe for oferecida, acresce uma indemnização de 50 % do preço do bilhete. As reclamações devem ser apresentadas no prazo de três meses após a viagem; dirija-as à transportadora e, se necessário, também à plataforma onde fez a reserva.</p><!--opt-->",
+    "portal_url": "https://www.thetrainline.com",
+    "stelle_name": "Autoridade da Mobilidade e dos Transportes (AMT)",
+    "stelle_url": "https://www.amt-autoridade.pt",
+    "_pruefen": "Verificar o endereço e o link do portal; intermediário, não transportadora – esclarecer a via de reclamação (plataforma vs. transportadora)"
+  },
+  {
+    "name": "Autocarros de longo curso (geral)",
+    "slug": "allgemein",
+    "adresse": "Rua Exemplo 123\n1234-567 Cidade Exemplo\nPortugal",
+    "land": "Portugal",
+    "infobox": "<p>Este formulário geral é adequado para operadoras de autocarros de longo curso não listadas separadamente. Nas viagens regulares com mais de 250 km, aplicam-se os direitos dos passageiros da UE nos termos do Regulamento (UE) n.º 181/2011: Em caso de cancelamento, overbooking ou um atraso na partida superior a 120 minutos, pode escolher entre continuar a viagem ou o reembolso do preço do bilhete e, se a operadora não oferecer esta opção, acresce uma indemnização de 50 % do preço do bilhete. Introduza a morada da operadora constante dos seus documentos de viagem ou dos dados legais da empresa.</p><!--opt-->",
+    "portal_url": "#",
+    "stelle_name": "Autoridade da Mobilidade e dos Transportes (AMT)",
+    "stelle_url": "https://www.amt-autoridade.pt"
+  }
+]

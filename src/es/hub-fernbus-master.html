@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Retraso y cancelación de autobús de larga distancia: Reclamar reembolso (PDF)</title>
+  <meta name="description" content="¿Autobús de larga distancia cancelado, sobrevendido o con más de 2 horas de retraso? Sus derechos según el Reglamento (UE) 181/2011: reembolso del billete, indemnización del 50%, avituallamiento y hotel. Con generador de PDF gratuito.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {{SEO_LINKS}}
+
+  <!-- Bibliothek für die PDF-Generierung aus HTML -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="/logo-lotse-fav.png">
+
+  <style>
+    .kk-table-wrap { overflow-x: auto; margin: 20px 0; }
+    .kk-table { width: 100%; border-collapse: collapse; font-size: 0.95em; }
+    .kk-table th, .kk-table td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #e3e3e3; vertical-align: top; }
+    .kk-table th { background: #faf3f3; color: #891818; }
+
+    /* Affiliate-Box (oben) */
+    .kk-ad-top { position: relative; background: #fff; border: 1px solid #e6d3d3; border-radius: 8px; padding: 26px 28px 22px; margin: 28px 0; box-shadow: 0 6px 22px rgba(137, 24, 24, 0.07); }
+    .kk-ad-label { position: absolute; top: 10px; right: 12px; font-size: 0.7rem; color: #666; background: #eee; padding: 2px 6px; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .kk-ad-title { margin: 0 0 8px; padding-right: 70px; font-size: 1.25em; font-weight: 700; color: #891818; line-height: 1.3; }
+    .kk-ad-text { margin: 0 0 14px; font-size: 0.98em; color: #444; line-height: 1.55; }
+    .kk-ad-points { list-style: none; margin: 0 0 18px; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+    .kk-ad-points li { background: #faf3f3; color: #6f1313; border-radius: 20px; padding: 6px 14px; font-size: 0.88em; }
+    .kk-ad-btn { display: inline-block; background: #891818; color: #fff !important; font-weight: 700; font-size: 1.02em; text-decoration: none; padding: 15px 30px; border-radius: 6px; box-shadow: 0 4px 12px rgba(137, 24, 24, 0.25); transition: background 0.2s; }
+    .kk-ad-btn:hover { background: #6f1313; }
+    .kk-ad-note { margin: 14px 0 0; font-size: 0.78em; color: #777; line-height: 1.5; }
+    @media (max-width: 600px) { .kk-ad-top { padding: 22px 18px 18px; } .kk-ad-btn { display: block; text-align: center; padding: 16px 12px; } }
+  </style>
+
+  <!-- FAQ Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Cuándo me devuelven el 50% del precio del billete en un autobús de larga distancia?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Cuando su viaje ha sido cancelado, ha habido sobreventa o la salida se ha retrasado más de 120 minutos y el operador de autobús no le ha ofrecido ni la continuación del viaje ni el reembolso del precio del billete. El 50% se suma al reembolso. El requisito es un servicio regular con un recorrido programado de al menos 250 kilómetros."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuenta el retraso en la llegada en los autobuses de larga distancia?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. A diferencia del tren, el Reglamento (UE) 181/2011 se basa en el retraso en la salida, la cancelación y la sobreventa. Un retraso durante el trayecto, por ejemplo por atasco, no genera derecho según el reglamento."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Cuánto tiempo tengo para presentar mi reclamación?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Las reclamaciones deben recibirse por el transportista dentro de los tres meses posteriores al viaje. La empresa debe comunicar en el plazo de un mes cómo gestiona la reclamación y responder de forma concluyente a más tardar a los tres meses."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="site-logo">Fix my Trip</a>
+</header>
+
+<div class="hub-content">
+  <h1>Retraso y cancelación de autobús de larga distancia: Cómo reclamar el reembolso y la indemnización del 50%</h1>
+
+  <p>Un autobús de larga distancia cancelado o una salida con horas de retraso es molesto, pero no carece de derechos: Para viajes regulares a partir de 250 kilómetros se aplica el <strong>Reglamento (UE) 181/2011</strong>. Obliga a los operadores como FlixBus & Co. en caso de cancelación, sobreventa y retraso en la salida de más de 120 minutos a ofrecerle la elección entre continuar el viaje o el reembolso del billete. Si no lo hacen, se añade el <strong>50% del precio del billete</strong> como indemnización.</p>
+
+  <p>Importante: A diferencia del tren, en los autobuses de larga distancia cuenta el <strong>retraso en la salida</strong>, no la hora de llegada. El generador de abajo calcula su reclamación y crea la solicitud formal, incluido el reembolso de avituallamiento y hotel.</p>
+
+  <div class="kk-ad-top">
+    <span class="kk-ad-label">Anuncio</span>
+    <p class="kk-ad-title">Recuperar el precio del billete más fácil: comparar tarjetas de crédito de viaje</p>
+    <p class="kk-ad-text">Quien paga los billetes con tarjeta de crédito puede solicitar además un contracargo a través del banco en caso de un viaje cancelado. Algunas tarjetas de crédito de viaje incluyen también seguros de viaje. La comparación gratuita muestra qué tarjeta se adapta a usted.</p>
+    <ul class="kk-ad-points">
+      <li>Posible contracargo con pago con tarjeta</li>
+      <li>Tarjetas seleccionadas con seguros de viaje</li>
+      <li>Comparación gratuita y sin compromiso</li>
+    </ul>
+    <a href="#" class="kk-ad-btn" target="_blank" rel="noopener nofollow sponsored">Comparar tarjetas de crédito de viaje</a>
+    <p class="kk-ad-note">Enlace publicitario. Válido para viajes futuros, no retroactivo para su caso actual. Las condiciones, requisitos y exclusiones varían significativamente según el proveedor. En caso de contratación, podemos recibir una comisión, sin coste adicional para usted.</p>
+  </div>
+
+  <div class="legal-info-box">
+    <strong>Aviso importante sobre el uso</strong><br>
+    Esta herramienta es un <strong>generador automatizado de cartas modelo</strong> (ayuda para la autoayuda). Solo inserta sus datos en plantillas jurídicas estándar. <strong>No se realiza una revisión individual</strong> de su caso. Este servicio gratuito no sustituye el asesoramiento jurídico de un abogado. El uso es bajo su propia responsabilidad, no se garantiza el éxito.
+  </div>
+
+  <div class="router-box">
+    <h2 style="margin-top: 0; color: #1565c0;">Generar solicitud en PDF</h2>
+    <p>Seleccione su operador de autobús de larga distancia para crear un formulario con la dirección del destinatario correspondiente:</p>
+
+    <select id="busSelect">
+      <option value="">-- Por favor, seleccione operador de autobús --</option>
+      {{BUS_OPTIONS}}
+      <option value="fernbus-entschaedigung-allgemein.html">Mi operador no está en la lista (Formulario general)</option>
+    </select>
+
+    <button onclick="routeToGenerator()" class="btn-route">Ir al generador para este operador</button>
+  </div>
+
+  <h2 style="margin-top: 40px;">Sus derechos en autobús de larga distancia de un vistazo</h2>
+  <div class="kk-table-wrap">
+    <table class="kk-table">
+      <thead>
+        <tr><th>Situación</th><th>Su derecho (Reglamento (UE) 181/2011)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Cancelación, sobreventa o retraso en la salida superior a 120 minutos</td><td>Elección entre continuar el viaje sin coste adicional y reembolso del precio del billete</td></tr>
+        <tr><td>El operador no ofrece esta elección</td><td>Además, 50% del precio del billete como indemnización</td></tr>
+        <tr><td>Retraso en la salida superior a 90 minutos desde la estación de autobuses, viaje de más de 3 horas</td><td>Refrigerio, comidas o refrescos</td></tr>
+        <tr><td>Necesidad de pernoctar</td><td>Hasta dos noches, máximo 80 euros por noche, incluido traslado, no en caso de mal tiempo o catástrofes naturales</td></tr>
+        <tr><td>Información sobre la incidencia</td><td>A más tardar 30 minutos después de la salida programada</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p style="font-size: 0.9em; color: #666;">Los derechos a indemnización y asistencia se aplican fundamentalmente solo en servicios regulares con un recorrido programado a partir de 250 kilómetros.</p>
+
+  <div class="all-items-section" style="margin-top: 50px; border-top: 2px solid #eee; padding-top: 30px;">
+    <h2>Selección de operadores: Formularios directos</h2>
+    <div class="link-grid" style="column-count: 2; column-gap: 20px; line-height: 1.8;">
+      {{BUS_LINKS}}
+    </div>
+  </div>
+
+  <h2 style="margin-top: 40px;">Lista de verificación: Ayuda inmediata en la parada</h2>
+  <p>Si actualmente está atrapado, asegure sus derechos con estos pasos:</p>
+
+  <div class="checklist-box" id="checklistToPrint">
+    <h3 style="margin-top:0; color:#8e231f;">Lista de verificación en caso de cancelación o retraso de autobús de larga distancia</h3>
+    <ul>
+      <li><strong>Solicitar información:</strong> El transportista debe informarle sobre la incidencia a más tardar 30 minutos después de la salida programada. Pregunte si no recibe nada.</li>
+      <li><strong>Declarar el derecho de elección:</strong> Comuníquese por escrito si desea continuar el viaje o el reembolso, y guarde el mensaje como captura de pantalla.</li>
+      <li><strong>Asegurar pruebas:</strong> Fotografíe el panel de información, haga capturas de pantalla de la aplicación con la hora y anote la salida programada y la real.</li>
+      <li><strong>Utilizar la asistencia:</strong> En caso de retraso superior a 90 minutos desde la estación de autobuses (viaje de más de 3 horas), tiene derecho a avituallamiento y, si es necesario, a un hotel.</li>
+      <li><strong>Conservar recibos:</strong> Facturas de comidas, hotel (hasta 80 euros por noche, dos noches) y traslado, además del billete y el comprobante de pago.</li>
+      <li><strong>Tenga en cuenta el plazo:</strong> Presente su reclamación dentro de los tres meses posteriores al viaje.</li>
+    </ul>
+  </div>
+  <button onclick="generateChecklistPDF('checkliste-fernbus-ausfall.pdf')" class="btn-download" data-html2canvas-ignore="true" style="border:none; cursor:pointer;">
+    Generar y guardar la lista de verificación en PDF
+  </button>
+
+  <h2 style="margin-top: 40px;">Casos prácticos: Cuándo debe pagar el operador</h2>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Ejemplo 1: Viaje cancelado, sin oferta</h3>
+    <p>Un viajero ha reservado un viaje de Hamburgo a Berlín por 30 euros (aproximadamente 290 kilómetros). El autobús se cancela, no se le ofrece continuar el viaje ni el reembolso.<br>
+    <strong>Resultado:</strong> Puede solicitar el reembolso del precio del billete de 30 euros y además una <strong>indemnización del 50% (15 euros)</strong>, en total 45 euros.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Ejemplo 2: Autobús de sustitución ofrecido después de 150 minutos</h3>
+    <p>La salida se retrasa 150 minutos. El operador ofrece continuar el viaje en un autobús de sustitución o recuperar el precio del billete.<br>
+    <strong>Resultado:</strong> Como se le ha ofrecido la elección al pasajero, <strong>no se aplica la indemnización del 50%</strong>. Puede elegir entre continuar el viaje y el reembolso, y tiene derecho a avituallamiento si el viaje programado dura más de tres horas.</p>
+  </div>
+
+  <div class="case-study">
+    <h3 style="margin-top: 0;">Ejemplo 3: Cancelación por mal tiempo y pernoctación</h3>
+    <p>Debido a una fuerte tormenta, el autobús nocturno se cancela, la continuación del viaje solo es posible al día siguiente.<br>
+    <strong>Resultado:</strong> El reembolso o la continuación del viaje siguen siendo posibles. Sin embargo, el operador no tiene que cubrir los <strong>gastos de hotel</strong> en caso de condiciones meteorológicas adversas o catástrofes naturales. El avituallamiento sigue correspondiendo.</p>
+  </div>
+
+  <h2 style="margin-top: 40px;">Preguntas frecuentes: Sus derechos en autobús de larga distancia en detalle</h2>
+
+  <div class="faq-item">
+    <div class="faq-question">¿Cuándo me devuelven el 50% del precio del billete en un autobús de larga distancia?</div>
+    <div class="faq-answer">Cuando su viaje ha sido cancelado, ha habido sobreventa o la salida se ha retrasado más de 120 minutos y el operador de autobús no le ha ofrecido ni la continuación del viaje ni el reembolso del precio del billete. El 50% se suma al reembolso. El requisito es un servicio regular con un recorrido programado de al menos 250 kilómetros.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">¿Cuenta el retraso en la llegada en los autobuses de larga distancia?</div>
+    <div class="faq-answer">No. A diferencia del tren, el Reglamento (UE) 181/2011 se basa en el retraso en la salida, la cancelación y la sobreventa. Un retraso durante el trayecto, por ejemplo por atasco, no genera derecho según el reglamento.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">¿Cuánto tiempo tengo para presentar mi reclamación?</div>
+    <div class="faq-answer">Las reclamaciones deben recibirse por el transportista dentro de los tres meses posteriores al viaje. La empresa debe comunicar en el plazo de un mes cómo gestiona la reclamación y responder de forma concluyente a más tardar a los tres meses.</div>
+  </div>
+
+</div>
+
+<div class="trust-section">
+  <h3>Experiencia en derecho de viajes y derechos de los pasajeros</h3>
+  <p class="trust-text">
+    Nuestras guías y generadores se basan en la evaluación de reglamentos de la UE actuales (como el Reglamento 181/2011), derecho nacional de transporte y viajes e información administrativa pública. Son desarrollados por Marc (dirección del proyecto) y equipo para permitir a los viajeros una aplicación estructurada frente a las empresas de transporte.
+    <br><br>
+    <span style="font-style: italic; font-size: 0.85em; opacity: 0.8;">
+      Aviso importante: Nuestras herramientas ofrecen ayuda para la autoayuda en casos de retraso de vuelos, defectos en hoteles, cancelaciones de autobuses y trenes. No sustituyen el asesoramiento jurídico individual de un abogado.
+    </span>
+  </p>
+
+  <a href="ueber-uns.html" class="trust-link">Conocer detalles sobre la metodología jurídica y la redacción &rarr;</a>
+
+  <div class="lotse-card">
+    <p>
+      <strong>¿Problema con el vuelo, el tren o el hotel?</strong><br>
+      Fix-My-Trip comprueba en pocos pasos su derecho a indemnización, reembolso de billetes o reducción del precio del viaje. <br>
+      <em>Un servicio de Fix my Trip.</em>
+    </p>
+  </div>
+
+  <p class="feedback-note">
+    <strong>¿Ha encontrado un error en la herramienta?</strong> Como portal automatizado no ofrecemos asesoramiento jurídico individual, nos ayuda enormemente si nos informa de errores o proveedores desactualizados:
+    <a href="mailto:support@fix-my-trip.com" style="color: #777; text-decoration: underline;">Enviar comentarios a nuestra central</a>.
+  </p>
+</div>
+
+<footer>
+  <p>&copy; 2026 Fix-my-Trip.com</p>
+  <nav>
+    <a href="ueber-uns.html">Sobre nosotros</a> |
+    <a href="index.html">Página de inicio</a> |
+    <a href="impressum.html">Aviso legal</a> |
+    <a href="datenschutz.html">Protección de datos</a>
+  </nav>
+</footer>
+
+<script>
+function routeToGenerator() {
+  const selectElement = document.getElementById('busSelect');
+  const targetUrl = selectElement.value;
+  if (targetUrl) {
+    window.location.href = targetUrl;
+  } else {
+    alert("Por favor, seleccione primero un operador de la lista.");
+  }
+}
+
+function generateChecklistPDF(filename) {
+  const element = document.getElementById('checklistToPrint');
+  const opt = {
+    margin: 15,
+    filename: filename,
+    image: { type: 'jpeg', quality: 0.98 },
+    html2canvas: { scale: 2, scrollY: 0, windowWidth: document.documentElement.offsetWidth },
+    jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+  };
+  html2pdf().set(opt).from(element).save();
+}
+</script>
+
+</body>
+</html>

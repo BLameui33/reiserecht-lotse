@@ -1,0 +1,198 @@
+[
+  {
+    "name": "FlixBus",
+    "slug": "flixbus",
+    "adresse": "Flix SE\nFriedenheimer Brücke 16\n80639 Múnich\nAlemania",
+    "land": "Alemania",
+    "infobox": "<p>FlixBus es un operador de autobuses de larga distancia con una red de líneas en toda Europa y conecta ciudades en Alemania con numerosos destinos en el extranjero. En caso de cancelación, sobreventa o un retraso en la salida de más de 120 minutos, en los viajes de línea de más de 250 kilómetros se aplican los derechos de los pasajeros de la UE conforme al Reglamento (UE) n.º 181/2011: puede elegir entre continuar el viaje o el reembolso del precio del billete, y si no se le ofrece esta opción, se añadirá una indemnización del 50 % del precio del billete. La empresa operadora Flix SE tiene su sede en Múnich; las reclamaciones deben presentarse en un plazo de tres meses después del viaje. En cuanto a los servicios de asistencia como comida y hotel, se aplican los límites de hasta dos noches y 80 euros por noche.</p><!--opt-->",
+    "portal_url": "https://www.flixbus.de",
+    "stelle_name": "Dirección General de Transporte Terrestre (DGTT)",
+    "stelle_url": "https://www.transportes.gob.es/transporte-terrestre/derechos-de-los-pasajeros/derechos-de-los-viajeros-de-autobus-y-autocar-en-la-union-europea"
+  },
+  {
+    "name": "National Express",
+    "slug": "national-express",
+    "adresse": "National Express House\n Mill Lane, Digbeth\n Birmingham, B5 6DD\n Reino Unido",
+    "land": "Reino Unido",
+    "infobox": "<p>National Express es un operador de autobuses de larga distancia con una red de líneas nacional y conexiones a aeropuertos y grandes ciudades. En los viajes de línea de más de 250 kilómetros se aplican los derechos de los pasajeros de la UE conforme al Reglamento (UE) n.º 181/2011: En caso de cancelación, sobreventa o un retraso en la salida de más de 120 minutos, puede elegir entre continuar el viaje o el reembolso del precio del billete, y si no se le ofrece esta opción, se añadirá una indemnización del 50 % del precio del billete. Las reclamaciones deben presentarse a la empresa en un plazo de tres meses después del viaje. En el Reino Unido se aplica una normativa nacional de contenido comparable.</p><!--opt-->",
+    "portal_url": "https://www.nationalexpress.com",
+    "stelle_name": "Dirección General de Transporte Terrestre (DGTT)",
+    "stelle_url": "https://www.transportes.gob.es/transporte-terrestre/derechos-de-los-pasajeros/derechos-de-los-viajeros-de-autobus-y-autocar-en-la-union-europea",
+    "_pruefen": "Verificar dirección y enlace al portal; introducir la autoridad nacional de ejecución (Reino Unido) si es necesario."
+  },
+  {
+    "name": "Megabus",
+    "slug": "megabus",
+    "adresse": "Megabus Ltd\n 100 Mill Lane\n Digbeth\n Birmingham, B5 6DD\n Reino Unido",
+    "land": "Reino Unido",
+    "infobox": "<p>Megabus es un operador de autobuses de larga distancia centrado en conexiones económicas entre grandes ciudades. En los viajes de línea de más de 250 kilómetros se aplican los derechos de los pasajeros de la UE conforme al Reglamento (UE) n.º 181/2011: En caso de cancelación, sobreventa o un retraso en la salida de más de 120 minutos, puede elegir entre continuar el viaje o el reembolso del precio del billete, y si no se le ofrece esta opción, se añadirá una indemnización del 50 % del precio del billete. Las reclamaciones deben presentarse a la empresa en un plazo de tres meses después del viaje. En el Reino Unido se aplica una normativa nacional de contenido comparable.</p><!--opt-->",
+    "portal_url": "https://uk.megabus.com",
+    "stelle_name": "Dirección General de Transporte Terrestre (DGTT)",
+    "stelle_url": "https://www.transportes.gob.es/transporte-terrestre/derechos-de-los-pasajeros/derechos-de-los-viajeros-de-autobus-y-autocar-en-la-union-europea",
+    "_pruefen": "Verificar dirección y enlace al portal; introducir la autoridad nacional de ejecución (Reino Unido) si es necesario."
+  },
+  {
+    "name": "Scottish Citylink",
+    "slug": "scottish-citylink",
+    "adresse": "Buchanan Bus Station\nKillermont Street\nGlasgow, G2 3NW\nEscocia, Reino Unido",
+    "land": "Reino Unido",
+    "infobox": "<p>Scottish Citylink es un operador de autobuses de larga distancia con líneas en Escocia y conexiones a regiones colindantes. En los viajes de línea de más de 250 kilómetros se aplican los derechos de los pasajeros de la UE conforme al Reglamento (UE) n.º 181/2011: En caso de cancelación, sobreventa o un retraso en la salida de más de 120 minutos, puede elegir entre continuar el viaje o el reembolso del precio del billete, y si no se le ofrece esta opción, se añadirá una indemnización del 50 % del precio del billete. Las reclamaciones deben presentarse a la empresa en un plazo de tres meses después del viaje. En el Reino Unido se aplica una normativa nacional de contenido comparable.</p><!--opt-->",
+    "portal_url": "https://www.citylink.co.uk",
+    "stelle_name": "Dirección General de Transporte Terrestre (DGTT)",
+    "stelle_url": "https://www.transportes.gob.es/transporte-terrestre/derechos-de-los-pasajeros/derechos-de-los-viajeros-de-autobus-y-autocar-en-la-union-europea",
+    "_pruefen": "Verificar dirección y enlace al portal; introducir la autoridad nacional de ejecución (Reino Unido) si es necesario."
+  },
+  {
+    "name": "BlaBlaCar Bus",
+    "slug": "blablacar-bus",
+    "adresse": "Comuto Pro / Comuto SA\n84, avenue de la République\n75011 París\nFrancia",
+    "land": "Francia",
+    "infobox": "<p>BlaBlaCar Bus es un operador de autobuses de larga distancia con líneas entre grandes ciudades en Francia y conexiones transfronterizas a países vecinos. En los viajes de línea de más de 250 kilómetros se aplican los derechos de los pasajeros de la UE conforme al Reglamento (UE) n.º 181/2011: En caso de cancelación, sobreventa o un retraso en la salida de más de 120 minutos, puede elegir entre continuar el viaje o el reembolso del precio del billete, y si no se le ofrece esta opción, se añadirá una indemnización del 50 % del precio del billete. Las reclamaciones deben presentarse a la empresa en un plazo de tres meses después del viaje.</p><!--opt-->",
+    "portal_url": "https://www.blablacar.com",
+    "stelle_name": "Dirección General de Transporte Terrestre (DGTT)",
+    "stelle_url": "https://www.transportes.gob.es/transporte-terrestre/derechos-de-los-pasajeros/derechos-de-los-viajeros-de-autobus-y-autocar-en-la-union-europea",
+    "_pruefen": "Verificar dirección y enlace al portal; introducir la autoridad nacional de ejecución (Francia) si es necesario."
+  },
+  {
+    "name": "ALSA",
+    "slug": "alsa",
+    "adresse": "Calle Josefa Valcárcel\n20, 28027 Madrid\nEspaña",
+    "land": "España",
+    "infobox": "<p>ALSA es un gran operador de autobuses con líneas de larga distancia en su país de origen y conexiones internacionales a Europa y el norte de África. En los viajes de línea de más de 250 kilómetros se aplican los derechos de los pasajeros de la UE conforme al Reglamento (UE) n.º 181/2011: En caso de cancelación, sobreventa o un retraso en la salida de más de 120 minutos, puede elegir entre continuar el viaje o el reembolso del precio del billete, y si no se le ofrece esta opción, se añadirá una indemnización del 50 % del precio del billete. Las reclamaciones deben presentarse a la empresa en un plazo de tres meses después del viaje.</p><!--opt-->",
+    "portal_url": "https://www.alsa.com",
+    "stelle_name": "Dirección General de Transporte Terrestre (DGTT)",
+    "stelle_url": "https://www.transportes.gob.es/transporte-terrestre/derechos-de-los-pasajeros/derechos-de-los-viajeros-de-autobus-y-autocar-en-la-union-europea",
+    "_pruefen": "Verificar dirección y enlace al portal; introducir la autoridad nacional de ejecución (España) si es necesario."
+  },
+  {
+    "name": "Avanza Bus",
+    "slug": "avanza",
+    "adresse": "Calle San Norberto 48–50\n28021 Madrid\nEspaña",
+    "land": "España",
+    "infobox": "<p>Avanza es un operador de autobuses con líneas de larga distancia que conectan principalmente Madrid con regiones en el centro y sur de España. En los viajes de línea de más de 250 kilómetros se aplican los derechos de los pasajeros de la UE conforme al Reglamento (UE) n.º 181/2011: En caso de cancelación, sobreventa o un retraso en la salida de más de 120 minutos, puede elegir entre continuar el viaje o el reembolso del precio del billete, y si no se le ofrece esta opción, se añadirá una indemnización del 50 % del precio del billete. Las reclamaciones deben presentarse a la empresa en un plazo de tres meses después del viaje.</p><!--opt-->",
+    "portal_url": "https://avanzabus.com",
+    "stelle_name": "Dirección General de Transporte Terrestre (DGTT)",
+    "stelle_url": "https://www.transportes.gob.es/transporte-terrestre/derechos-de-los-pasajeros/derechos-de-los-viajeros-de-autobus-y-autocar-en-la-union-europea",
+    "_pruefen": "Verificar dirección y enlace al portal; introducir la autoridad nacional de ejecución (España) si es necesario."
+  },
+  {
+    "name": "Monbus",
+    "slug": "monbus",
+    "adresse": "Calle Cotón de Arriba, nº 2\n27297 Lugo (Galicia)\nEspaña",
+    "land": "España",
+    "infobox": "<p>Monbus es un operador de autobuses con servicio de línea principalmente en el noroeste y en Cataluña, así como otras conexiones de larga distancia. En los viajes de línea de más de 250 kilómetros se aplican los derechos de los pasajeros de la UE conforme al Reglamento (UE) n.º 181/2011: En caso de cancelación, sobreventa o un retraso en la salida de más de 120 minutos, puede elegir entre continuar el viaje o el reembolso del precio del billete, y si no se le ofrece esta opción, se añadirá una indemnización del 50 % del precio del billete. Las reclamaciones deben presentarse a la empresa en un plazo de tres meses después del viaje.</p><!--opt-->",
+    "portal_url": "https://www.monbus.es",
+    "stelle_name": "Dirección General de Transporte Terrestre (DGTT)",
+    "stelle_url": "https://www.transportes.gob.es/transporte-terrestre/derechos-de-los-pasajeros/derechos-de-los-viajeros-de-autobus-y-autocar-en-la-union-europea",
+    "_pruefen": "Verificar dirección y enlace al portal; introducir la autoridad nacional de ejecución (España) si es necesario."
+  },
+  {
+    "name": "Socibus",
+    "slug": "socibus",
+    "adresse": "Calle de Méndez Álvaro, 83\n28045 Madrid\nEspaña",
+    "land": "España",
+    "infobox": "<p>Socibus es un operador de autobuses de larga distancia con líneas entre Madrid y Andalucía. En los viajes de línea de más de 250 kilómetros se aplican los derechos de los pasajeros de la UE conforme al Reglamento (UE) n.º 181/2011: En caso de cancelación, sobreventa o un retraso en la salida de más de 120 minutos, puede elegir entre continuar el viaje o el reembolso del precio del billete, y si no se le ofrece esta opción, se añadirá una indemnización del 50 % del precio del billete. Las reclamaciones deben presentarse a la empresa en un plazo de tres meses después del viaje.</p><!--opt-->",
+    "portal_url": "https://www.socibus.es",
+    "stelle_name": "Dirección General de Transporte Terrestre (DGTT)",
+    "stelle_url": "https://www.transportes.gob.es/transporte-terrestre/derechos-de-los-pasajeros/derechos-de-los-viajeros-de-autobus-y-autocar-en-la-union-europea",
+    "_pruefen": "Verificar dirección y enlace al portal; introducir la autoridad nacional de ejecución (España) si es necesario."
+  },
+  {
+    "name": "Itabus",
+    "slug": "itabus",
+    "adresse": "Via Casilina, 1\n00182 Roma (RM)\nItalia",
+    "land": "Italia",
+    "infobox": "<p>Itabus es un operador de autobuses de larga distancia con flota propia y líneas entre grandes ciudades. En los viajes de línea de más de 250 kilómetros se aplican los derechos de los pasajeros de la UE conforme al Reglamento (UE) n.º 181/2011: En caso de cancelación, sobreventa o un retraso en la salida de más de 120 minutos, puede elegir entre continuar el viaje o el reembolso del precio del billete, y si no se le ofrece esta opción, se añadirá una indemnización del 50 % del precio del billete. Las reclamaciones deben presentarse a la empresa en un plazo de tres meses después del viaje.</p><!--opt-->",
+    "portal_url": "https://www.itabus.it",
+    "stelle_name": "Dirección General de Transporte Terrestre (DGTT)",
+    "stelle_url": "https://www.transportes.gob.es/transporte-terrestre/derechos-de-los-pasajeros/derechos-de-los-viajeros-de-autobus-y-autocar-en-la-union-europea",
+    "_pruefen": "Verificar dirección y enlace al portal; introducir la autoridad nacional de ejecución (Italia) si es necesario."
+  },
+  {
+    "name": "MarinoBus",
+    "slug": "marinobus",
+    "adresse": "Largo Francesco Saverio Nitti 67\n70022 Altamura (BA)\nItalia",
+    "land": "Italia",
+    "infobox": "<p>MarinoBus es un operador de autobuses de larga distancia con conexiones principalmente entre el norte y el sur de Italia. En los viajes de línea de más de 250 kilómetros se aplican los derechos de los pasajeros de la UE conforme al Reglamento (UE) n.º 181/2011: En caso de cancelación, sobreventa o un retraso en la salida de más de 120 minutos, puede elegir entre continuar el viaje o el reembolso del precio del billete, y si no se le ofrece esta opción, se añadirá una indemnización del 50 % del precio del billete. Las reclamaciones deben presentarse a la empresa en un plazo de tres meses después del viaje.</p><!--opt-->",
+    "portal_url": "https://www.marinobus.it",
+    "stelle_name": "Dirección General de Transporte Terrestre (DGTT)",
+    "stelle_url": "https://www.transportes.gob.es/transporte-terrestre/derechos-de-los-pasajeros/derechos-de-los-viajeros-de-autobus-y-autocar-en-la-union-europea",
+    "_pruefen": "Verificar dirección y enlace al portal; introducir la autoridad nacional de ejecución (Italia) si es necesario."
+  },
+  {
+    "name": "BusCenter",
+    "slug": "buscenter",
+    "adresse": "BUS CENTER S.R.L.\nVia Parigi, 11\n00185 Roma (RM)\nItalia",
+    "land": "Italia",
+    "infobox": "<p>BusCenter es un operador de autobuses de larga distancia con líneas en Sicilia, así como entre Sicilia y la península italiana. En los viajes de línea de más de 250 kilómetros se aplican los derechos de los pasajeros de la UE conforme al Reglamento (UE) n.º 181/2011: En caso de cancelación, sobreventa o un retraso en la salida de más de 120 minutos, puede elegir entre continuar el viaje o el reembolso del precio del billete, y si no se le ofrece esta opción, se añadirá una indemnización del 50 % del precio del billete. Las reclamaciones deben presentarse a la empresa en un plazo de tres meses después del viaje.</p><!--opt-->",
+    "portal_url": "https://buscenter.travel/condizioni-di-trasporto-buscenter/",
+    "stelle_name": "Dirección General de Transporte Terrestre (DGTT)",
+    "stelle_url": "https://www.transportes.gob.es/transporte-terrestre/derechos-de-los-pasajeros/derechos-de-los-viajeros-de-autobus-y-autocar-en-la-union-europea",
+    "_pruefen": "Verificar dirección y enlace al portal; introducir la autoridad nacional de ejecución (Italia) si es necesario."
+  },
+  {
+    "name": "Rede Expressos",
+    "slug": "rede-expressos",
+    "adresse": "Praça Marechal Humberto Delgado\n1500-423 Lisboa\nPortugal",
+    "land": "Portugal",
+    "infobox": "<p>Rede Expressos es una red de autobuses de larga distancia con líneas que cubren todo el país; también incluye marcas como EVA Transportes y Renex. En los viajes de línea de más de 250 kilómetros se aplican los derechos de los pasajeros de la UE conforme al Reglamento (UE) n.º 181/2011: En caso de cancelación, sobreventa o un retraso en la salida de más de 120 minutos, puede elegir entre continuar el viaje o el reembolso del precio del billete, y si no se le ofrece esta opción, se añadirá una indemnización del 50 % del precio del billete. Las reclamaciones deben presentarse a la empresa en un plazo de tres meses después del viaje.</p><!--opt-->",
+    "portal_url": "https://rede-expressos.pt",
+    "stelle_name": "Dirección General de Transporte Terrestre (DGTT)",
+    "stelle_url": "https://www.transportes.gob.es/transporte-terrestre/derechos-de-los-pasajeros/derechos-de-los-viajeros-de-autobus-y-autocar-en-la-union-europea",
+    "_pruefen": "Verificar dirección y enlace al portal; introducir la autoridad nacional de ejecución (Portugal) si es necesario."
+  },
+  {
+    "name": "Gipsyy",
+    "slug": "gipsyy",
+    "adresse": "Rua São Francisco 660\n2645-019 Lisboa\nPortugal",
+    "land": "Portugal",
+    "infobox": "<p>Gipsyy es un operador de autobuses de larga distancia de bajo coste con líneas en las rutas principales, por ejemplo, entre Lisboa y Oporto. En los viajes de línea de más de 250 kilómetros se aplican los derechos de los pasajeros de la UE conforme al Reglamento (UE) n.º 181/2011: En caso de cancelación, sobreventa o un retraso en la salida de más de 120 minutos, puede elegir entre continuar el viaje o el reembolso del precio del billete, y si no se le ofrece esta opción, se añadirá una indemnización del 50 % del precio del billete. Las reclamaciones deben presentarse a la empresa en un plazo de tres meses después del viaje.</p><!--opt-->",
+    "portal_url": "https://gipsyy.com/en/about",
+    "stelle_name": "Dirección General de Transporte Terrestre (DGTT)",
+    "stelle_url": "https://www.transportes.gob.es/transporte-terrestre/derechos-de-los-pasajeros/derechos-de-los-viajeros-de-autobus-y-autocar-en-la-union-europea",
+    "_pruefen": "Verificar dirección y enlace al portal; introducir la autoridad nacional de ejecución (Portugal) si es necesario."
+  },
+  {
+    "name": "RegioJet",
+    "slug": "regiojet",
+    "adresse": "nám. Svobody 86/17\n602 00 Brno-město\nRepública Checa",
+    "land": "República Checa",
+    "infobox": "<p>RegioJet es una empresa de transporte que, además de conexiones ferroviarias, opera líneas de autobuses de larga distancia en Europa Central. En los viajes de línea de más de 250 kilómetros se aplican los derechos de los pasajeros de la UE conforme al Reglamento (UE) n.º 181/2011: En caso de cancelación, sobreventa o un retraso en la salida de más de 120 minutos, puede elegir entre continuar el viaje o el reembolso del precio del billete, y si no se le ofrece esta opción, se añadirá una indemnización del 50 % del precio del billete. Las reclamaciones deben presentarse a la empresa en un plazo de tres meses después del viaje.</p><!--opt-->",
+    "portal_url": "https://www.regiojet.com",
+    "stelle_name": "Dirección General de Transporte Terrestre (DGTT)",
+    "stelle_url": "https://www.transportes.gob.es/transporte-terrestre/derechos-de-los-pasajeros/derechos-de-los-viajeros-de-autobus-y-autocar-en-la-union-europea",
+    "_pruefen": "Verificar dirección y enlace al portal; introducir la autoridad nacional de ejecución (República Checa) si es necesario."
+  },
+  {
+    "name": "Omio",
+    "slug": "omio",
+    "adresse": "Warschauer Platz 12\n10245 Berlín\nAlemania",
+    "land": "Alemania",
+    "infobox": "<p>Omio es una plataforma de reservas a través de la cual se pueden reservar billetes de autobús, tren y avión de varios operadores en Europa. Al reservar a través de una plataforma intermediaria, el transportista que figura en su billete es el responsable del viaje. En los viajes de línea de más de 250 kilómetros se aplican los derechos de los pasajeros de la UE conforme al Reglamento (UE) n.º 181/2011: En caso de cancelación, sobreventa o un retraso en la salida de más de 120 minutos, puede elegir entre continuar el viaje o el reembolso del precio del billete, y si no se le ofrece esta opción, se añadirá una indemnización del 50 % del precio del billete. Las reclamaciones deben presentarse en un plazo de tres meses después del viaje; diríjalas al transportista y, si es necesario, también a la plataforma a través de la cual realizó la reserva.</p><!--opt-->",
+    "portal_url": "https://www.omio.de",
+    "stelle_name": "Dirección General de Transporte Terrestre (DGTT)",
+    "stelle_url": "https://www.transportes.gob.es/transporte-terrestre/derechos-de-los-pasajeros/derechos-de-los-viajeros-de-autobus-y-autocar-en-la-union-europea",
+    "_pruefen": "Verificar dirección y enlace al portal; intermediario, no transportista – aclarar la vía de reclamación (plataforma vs. transportista)."
+  },
+  {
+    "name": "Trainline",
+    "slug": "trainline",
+    "adresse": "1 Stonecutter St\nLondres EC4A 4AH\nReino Unido",
+    "land": "Reino Unido",
+    "infobox": "<p>Trainline es una plataforma de reservas a través de la cual se pueden reservar billetes de autobús y tren de varios operadores en Europa. Al reservar a través de una plataforma intermediaria, el transportista que figura en su billete es el responsable del viaje. En los viajes de línea de más de 250 kilómetros se aplican los derechos de los pasajeros de la UE conforme al Reglamento (UE) n.º 181/2011: En caso de cancelación, sobreventa o un retraso en la salida de más de 120 minutos, puede elegir entre continuar el viaje o el reembolso del precio del billete, y si no se le ofrece esta opción, se añadirá una indemnización del 50 % del precio del billete. Las reclamaciones deben presentarse en un plazo de tres meses después del viaje; diríjalas al transportista y, si es necesario, también a la plataforma a través de la cual realizó la reserva.</p><!--opt-->",
+    "portal_url": "https://www.thetrainline.com",
+    "stelle_name": "Dirección General de Transporte Terrestre (DGTT)",
+    "stelle_url": "https://www.transportes.gob.es/transporte-terrestre/derechos-de-los-pasajeros/derechos-de-los-viajeros-de-autobus-y-autocar-en-la-union-europea",
+    "_pruefen": "Verificar dirección y enlace al portal; intermediario, no transportista – aclarar la vía de reclamación (plataforma vs. transportista)."
+  },
+  {
+    "name": "Autobús de larga distancia (general)",
+    "slug": "allgemein",
+    "adresse": "Calle Ejemplo 123\n12345 Ciudad Ejemplo\nEspaña",
+    "land": "España",
+    "infobox": "<p>Este formulario general es adecuado para operadores de autobuses de larga distancia que no aparecen en la lista. Para los viajes de línea de más de 250 kilómetros se aplican los derechos de los pasajeros de la UE conforme al Reglamento (UE) n.º 181/2011: En caso de cancelación, sobreventa o un retraso en la salida de más de 120 minutos, puede elegir entre continuar el viaje o el reembolso del precio del billete, y si el operador no ofrece esta opción, se añadirá una indemnización del 50 % del precio del billete. Introduzca la dirección del operador que figura en los documentos de su billete o en el aviso legal.</p><!--opt-->",
+    "portal_url": "#",
+    "stelle_name": "Dirección General de Transporte Terrestre (DGTT)",
+    "stelle_url": "https://www.transportes.gob.es/transporte-terrestre/derechos-de-los-pasajeros/derechos-de-los-viajeros-de-autobus-y-autocar-en-la-union-europea"
+  }
+]

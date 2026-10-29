@@ -1,0 +1,198 @@
+[
+  {
+    "name": "FlixBus",
+    "slug": "flixbus",
+    "adresse": "Flix SE\nFriedenheimer Brücke 16\n80639 München\nAllemagne",
+    "land": "Allemagne",
+    "infobox": "<p>FlixBus est un opérateur d'autocars longue distance avec un réseau de lignes régulières à l'échelle européenne et relie des villes en Allemagne à de nombreuses destinations à l'étranger. En cas d'annulation, de surréservation ou d'un retard au départ de plus de 120 minutes, les droits des passagers de l'UE conformément au règlement (UE) n° 181/2011 s'appliquent aux voyages en ligne régulière de plus de 250 kilomètres : vous pouvez choisir entre la poursuite du voyage et le remboursement du prix du billet, et si ce choix ne vous est pas proposé, une indemnisation de 50 % du prix du billet s'ajoute. La société d'exploitation Flix SE a son siège à Munich ; les réclamations doivent être soumises dans les trois mois suivant le voyage. En ce qui concerne les services d'assistance tels que la restauration et l'hôtel, les limites s'appliquent jusqu'à deux nuits et 80 euros par nuit.</p><!--opt-->",
+    "portal_url": "https://www.flixbus.de",
+    "stelle_name": "Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF)",
+    "stelle_url": "http://mobilit.belgium.be/en/road/passagiersrechten"
+  },
+  {
+    "name": "National Express",
+    "slug": "national-express",
+    "adresse": "National Express House\n Mill Lane, Digbeth\n Birmingham, B5 6DD\n Royaume-Uni",
+    "land": "Royaume-Uni",
+    "infobox": "<p>National Express est un opérateur d'autocars longue distance avec un réseau national et des connexions vers les aéroports et les grandes villes. Pour les voyages en ligne régulière de plus de 250 kilomètres, les droits des passagers de l'UE s'appliquent conformément au règlement (UE) n° 181/2011 : en cas d'annulation, de surréservation ou d'un retard au départ de plus de 120 minutes, vous pouvez choisir entre la poursuite du voyage et le remboursement du prix du billet, et si ce choix ne vous est pas proposé, une indemnisation de 50 % du prix du billet s'ajoute. Les réclamations doivent être soumises à l'entreprise dans les trois mois suivant le voyage. Au Royaume-Uni, une réglementation nationale au contenu comparable s'applique.</p><!--opt-->",
+    "portal_url": "https://www.nationalexpress.com",
+    "stelle_name": "Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF)",
+    "stelle_url": "http://mobilit.belgium.be/en/road/passagiersrechten",
+    "_pruefen": "Vérifier l'adresse et le lien profond du portail, insérer le cas échéant l'organisme national d'exécution (Royaume-Uni)"
+  },
+  {
+    "name": "Megabus",
+    "slug": "megabus",
+    "adresse": "Megabus Ltd\n 100 Mill Lane\n Digbeth\n Birmingham, B5 6DD\n Royaume-Uni",
+    "land": "Royaume-Uni",
+    "infobox": "<p>Megabus est un opérateur d'autocars longue distance axé sur les liaisons à bas prix entre les grandes villes. Pour les voyages en ligne régulière de plus de 250 kilomètres, les droits des passagers de l'UE s'appliquent conformément au règlement (UE) n° 181/2011 : en cas d'annulation, de surréservation ou d'un retard au départ de plus de 120 minutes, vous pouvez choisir entre la poursuite du voyage et le remboursement du prix du billet, et si ce choix ne vous est pas proposé, une indemnisation de 50 % du prix du billet s'ajoute. Les réclamations doivent être soumises à l'entreprise dans les trois mois suivant le voyage. Au Royaume-Uni, une réglementation nationale au contenu comparable s'applique.</p><!--opt-->",
+    "portal_url": "https://uk.megabus.com",
+    "stelle_name": "Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF)",
+    "stelle_url": "http://mobilit.belgium.be/en/road/passagiersrechten",
+    "_pruefen": "Vérifier l'adresse et le lien profond du portail, insérer le cas échéant l'organisme national d'exécution (Royaume-Uni)"
+  },
+  {
+    "name": "Scottish Citylink",
+    "slug": "scottish-citylink",
+    "adresse": "Buchanan Bus Station\nKillermont Street\nGlasgow, G2 3NW\nÉcosse, Royaume-Uni",
+    "land": "Royaume-Uni",
+    "infobox": "<p>Scottish Citylink est un opérateur d'autocars longue distance avec des lignes en Écosse et des connexions vers les régions voisines. Pour les voyages en ligne régulière de plus de 250 kilomètres, les droits des passagers de l'UE s'appliquent conformément au règlement (UE) n° 181/2011 : en cas d'annulation, de surréservation ou d'un retard au départ de plus de 120 minutes, vous pouvez choisir entre la poursuite du voyage et le remboursement du prix du billet, et si ce choix ne vous est pas proposé, une indemnisation de 50 % du prix du billet s'ajoute. Les réclamations doivent être soumises à l'entreprise dans les trois mois suivant le voyage. Au Royaume-Uni, une réglementation nationale au contenu comparable s'applique.</p><!--opt-->",
+    "portal_url": "https://www.citylink.co.uk",
+    "stelle_name": "Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF)",
+    "stelle_url": "http://mobilit.belgium.be/en/road/passagiersrechten",
+    "_pruefen": "Vérifier l'adresse et le lien profond du portail, insérer le cas échéant l'organisme national d'exécution (Royaume-Uni)"
+  },
+  {
+    "name": "BlaBlaCar Bus",
+    "slug": "blablacar-bus",
+    "adresse": "Comuto Pro / Comuto SA\n84, avenue de la République\n75011 Paris\nFrankreich",
+    "land": "Frankreich",
+    "infobox": "<p>BlaBlaCar Bus est un opérateur d'autocars longue distance avec des lignes entre les grandes villes en France et des liaisons transfrontalières vers les pays voisins. Pour les voyages en ligne régulière de plus de 250 kilomètres, les droits des passagers de l'UE s'appliquent conformément au règlement (UE) n° 181/2011 : en cas d'annulation, de surréservation ou d'un retard au départ de plus de 120 minutes, vous pouvez choisir entre la poursuite du voyage et le remboursement du prix du billet, et si ce choix ne vous est pas proposé, une indemnisation de 50 % du prix du billet s'ajoute. Les réclamations doivent être soumises à l'entreprise dans les trois mois suivant le voyage.</p><!--opt-->",
+    "portal_url": "https://www.blablacar.com",
+    "stelle_name": "Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF)",
+    "stelle_url": "http://mobilit.belgium.be/en/road/passagiersrechten",
+    "_pruefen": "Vérifier l'adresse et le lien profond du portail, insérer le cas échéant l'organisme national d'exécution (France)"
+  },
+  {
+    "name": "ALSA",
+    "slug": "alsa",
+    "adresse": "Calle Josefa Valcárcel\n20, 28027 Madrid\nEspagne",
+    "land": "Espagne",
+    "infobox": "<p>ALSA est un grand opérateur de bus avec des lignes longue distance dans son pays d'origine et des connexions internationales vers l'Europe et l'Afrique du Nord. Pour les voyages en ligne régulière de plus de 250 kilomètres, les droits des passagers de l'UE s'appliquent conformément au règlement (UE) n° 181/2011 : en cas d'annulation, de surréservation ou d'un retard au départ de plus de 120 minutes, vous pouvez choisir entre la poursuite du voyage et le remboursement du prix du billet, et si ce choix ne vous est pas proposé, une indemnisation de 50 % du prix du billet s'ajoute. Les réclamations doivent être soumises à l'entreprise dans les trois mois suivant le voyage.</p><!--opt-->",
+    "portal_url": "https://www.alsa.com",
+    "stelle_name": "Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF)",
+    "stelle_url": "http://mobilit.belgium.be/en/road/passagiersrechten",
+    "_pruefen": "Vérifier l'adresse et le lien profond du portail, insérer le cas échéant l'organisme national d'exécution (Espagne)"
+  },
+  {
+    "name": "Avanza Bus",
+    "slug": "avanza",
+    "adresse": "Calle San Norberto 48–50\n28021 Madrid\nEspagne",
+    "land": "Espagne",
+    "infobox": "<p>Avanza est un opérateur de bus avec des lignes longue distance qui relient principalement Madrid aux régions du centre et du sud de l'Espagne. Pour les voyages en ligne régulière de plus de 250 kilomètres, les droits des passagers de l'UE s'appliquent conformément au règlement (UE) n° 181/2011 : en cas d'annulation, de surréservation ou d'un retard au départ de plus de 120 minutes, vous pouvez choisir entre la poursuite du voyage et le remboursement du prix du billet, et si ce choix ne vous est pas proposé, une indemnisation de 50 % du prix du billet s'ajoute. Les réclamations doivent être soumises à l'entreprise dans les trois mois suivant le voyage.</p><!--opt-->",
+    "portal_url": "https://avanzabus.com",
+    "stelle_name": "Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF)",
+    "stelle_url": "http://mobilit.belgium.be/en/road/passagiersrechten",
+    "_pruefen": "Vérifier l'adresse et le lien profond du portail, insérer le cas échéant l'organisme national d'exécution (Espagne)"
+  },
+  {
+    "name": "Monbus",
+    "slug": "monbus",
+    "adresse": "Calle Cotón de Arriba, nº 2\n27297 Lugo (Galice)\nEspagne",
+    "land": "Espagne",
+    "infobox": "<p>Monbus est un opérateur de bus avec un service de ligne principalement dans le nord-ouest et en Catalogne, ainsi que d'autres liaisons longue distance. Pour les voyages en ligne régulière de plus de 250 kilomètres, les droits des passagers de l'UE s'appliquent conformément au règlement (UE) n° 181/2011 : en cas d'annulation, de surréservation ou d'un retard au départ de plus de 120 minutes, vous pouvez choisir entre la poursuite du voyage et le remboursement du prix du billet, et si ce choix ne vous est pas proposé, une indemnisation de 50 % du prix du billet s'ajoute. Les réclamations doivent être soumises à l'entreprise dans les trois mois suivant le voyage.</p><!--opt-->",
+    "portal_url": "https://www.monbus.es",
+    "stelle_name": "Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF)",
+    "stelle_url": "http://mobilit.belgium.be/en/road/passagiersrechten",
+    "_pruefen": "Vérifier l'adresse et le lien profond du portail, insérer le cas échéant l'organisme national d'exécution (Espagne)"
+  },
+  {
+    "name": "Socibus",
+    "slug": "socibus",
+    "adresse": "Calle de Méndez Álvaro, 83\n28045 Madrid\nEspagne",
+    "land": "Espagne",
+    "infobox": "<p>Socibus est un opérateur d'autocars longue distance avec des lignes entre Madrid et l'Andalousie. Pour les voyages en ligne régulière de plus de 250 kilomètres, les droits des passagers de l'UE s'appliquent conformément au règlement (UE) n° 181/2011 : en cas d'annulation, de surréservation ou d'un retard au départ de plus de 120 minutes, vous pouvez choisir entre la poursuite du voyage et le remboursement du prix du billet, et si ce choix ne vous est pas proposé, une indemnisation de 50 % du prix du billet s'ajoute. Les réclamations doivent être soumises à l'entreprise dans les trois mois suivant le voyage.</p><!--opt-->",
+    "portal_url": "https://www.socibus.es",
+    "stelle_name": "Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF)",
+    "stelle_url": "http://mobilit.belgium.be/en/road/passagiersrechten",
+    "_pruefen": "Vérifier l'adresse et le lien profond du portail, insérer le cas échéant l'organisme national d'exécution (Espagne)"
+  },
+  {
+    "name": "Itabus",
+    "slug": "itabus",
+    "adresse": "Via Casilina, 1\n00182 Rome (RM)\nItalie",
+    "land": "Italie",
+    "infobox": "<p>Itabus est un opérateur d'autocars longue distance avec sa propre flotte et des lignes entre les grandes villes. Pour les voyages en ligne régulière de plus de 250 kilomètres, les droits des passagers de l'UE s'appliquent conformément au règlement (UE) n° 181/2011 : en cas d'annulation, de surréservation ou d'un retard au départ de plus de 120 minutes, vous pouvez choisir entre la poursuite du voyage et le remboursement du prix du billet, et si ce choix ne vous est pas proposé, une indemnisation de 50 % du prix du billet s'ajoute. Les réclamations doivent être soumises à l'entreprise dans les trois mois suivant le voyage.</p><!--opt-->",
+    "portal_url": "https://www.itabus.it",
+    "stelle_name": "Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF)",
+    "stelle_url": "http://mobilit.belgium.be/en/road/passagiersrechten",
+    "_pruefen": "Vérifier l'adresse et le lien profond du portail, insérer le cas échéant l'organisme national d'exécution (Italie)"
+  },
+  {
+    "name": "MarinoBus",
+    "slug": "marinobus",
+    "adresse": "Largo Francesco Saverio Nitti 67\n70022 Altamura (BA)\nItalie",
+    "land": "Italie",
+    "infobox": "<p>MarinoBus est un opérateur d'autocars longue distance avec des liaisons principalement entre le nord et le sud de l'Italie. Pour les voyages en ligne régulière de plus de 250 kilomètres, les droits des passagers de l'UE s'appliquent conformément au règlement (UE) n° 181/2011 : en cas d'annulation, de surréservation ou d'un retard au départ de plus de 120 minutes, vous pouvez choisir entre la poursuite du voyage et le remboursement du prix du billet, et si ce choix ne vous est pas proposé, une indemnisation de 50 % du prix du billet s'ajoute. Les réclamations doivent être soumises à l'entreprise dans les trois mois suivant le voyage.</p><!--opt-->",
+    "portal_url": "https://www.marinobus.it",
+    "stelle_name": "Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF)",
+    "stelle_url": "http://mobilit.belgium.be/en/road/passagiersrechten",
+    "_pruefen": "Vérifier l'adresse et le lien profond du portail, insérer le cas échéant l'organisme national d'exécution (Italie)"
+  },
+  {
+    "name": "BusCenter",
+    "slug": "buscenter",
+    "adresse": "BUS CENTER S.R.L.\nVia Parigi, 11\n00185 Rome (RM)\nItalie",
+    "land": "Italie",
+    "infobox": "<p>BusCenter est un opérateur d'autocars longue distance avec des lignes en Sicile, ainsi qu'entre la Sicile et le continent. Pour les voyages en ligne régulière de plus de 250 kilomètres, les droits des passagers de l'UE s'appliquent conformément au règlement (UE) n° 181/2011 : en cas d'annulation, de surréservation ou d'un retard au départ de plus de 120 minutes, vous pouvez choisir entre la poursuite du voyage et le remboursement du prix du billet, et si ce choix ne vous est pas proposé, une indemnisation de 50 % du prix du billet s'ajoute. Les réclamations doivent être soumises à l'entreprise dans les trois mois suivant le voyage.</p><!--opt-->",
+    "portal_url": "https://buscenter.travel/condizioni-di-trasporto-buscenter/",
+    "stelle_name": "Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF)",
+    "stelle_url": "http://mobilit.belgium.be/en/road/passagiersrechten",
+    "_pruefen": "Vérifier l'adresse et le lien profond du portail, insérer le cas échéant l'organisme national d'exécution (Italie)"
+  },
+  {
+    "name": "Rede Expressos",
+    "slug": "rede-expressos",
+    "adresse": "Praça Marechal Humberto Delgado\n1500-423 Lisbonne\nPortugal",
+    "land": "Portugal",
+    "infobox": "<p>Rede Expressos est un réseau d'autocars longue distance avec des lignes couvrant tout le pays ; il comprend également des marques telles que EVA Transportes et Renex. Pour les voyages en ligne régulière de plus de 250 kilomètres, les droits des passagers de l'UE s'appliquent conformément au règlement (UE) n° 181/2011 : en cas d'annulation, de surréservation ou d'un retard au départ de plus de 120 minutes, vous pouvez choisir entre la poursuite du voyage et le remboursement du prix du billet, et si ce choix ne vous est pas proposé, une indemnisation de 50 % du prix du billet s'ajoute. Les réclamations doivent être soumises à l'entreprise dans les trois mois suivant le voyage.</p><!--opt-->",
+    "portal_url": "https://rede-expressos.pt",
+    "stelle_name": "Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF)",
+    "stelle_url": "http://mobilit.belgium.be/en/road/passagiersrechten",
+    "_pruefen": "Vérifier l'adresse et le lien profond du portail, insérer le cas échéant l'organisme national d'exécution (Portugal)"
+  },
+  {
+    "name": "Gipsyy",
+    "slug": "gipsyy",
+    "adresse": "Rua São Francisco 660\n2645-019 Lisbonne\nPortugal",
+    "land": "Portugal",
+    "infobox": "<p>Gipsyy est un opérateur d'autocars longue distance à bas prix avec des lignes sur les axes principaux, par exemple entre Lisbonne et Porto. Pour les voyages en ligne régulière de plus de 250 kilomètres, les droits des passagers de l'UE s'appliquent conformément au règlement (UE) n° 181/2011 : en cas d'annulation, de surréservation ou d'un retard au départ de plus de 120 minutes, vous pouvez choisir entre la poursuite du voyage et le remboursement du prix du billet, et si ce choix ne vous est pas proposé, une indemnisation de 50 % du prix du billet s'ajoute. Les réclamations doivent être soumises à l'entreprise dans les trois mois suivant le voyage.</p><!--opt-->",
+    "portal_url": "https://gipsyy.com/en/about",
+    "stelle_name": "Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF)",
+    "stelle_url": "http://mobilit.belgium.be/en/road/passagiersrechten",
+    "_pruefen": "Vérifier l'adresse et le lien profond du portail, insérer le cas échéant l'organisme national d'exécution (Portugal)"
+  },
+  {
+    "name": "RegioJet",
+    "slug": "regiojet",
+    "adresse": "nám. Svobody 86/17\n602 00 Brno-město\nRépublique tchèque",
+    "land": "République tchèque",
+    "infobox": "<p>RegioJet est une entreprise de transport qui, en plus des liaisons ferroviaires, exploite des lignes d'autocars longue distance en Europe centrale. Pour les voyages en ligne régulière de plus de 250 kilomètres, les droits des passagers de l'UE s'appliquent conformément au règlement (UE) n° 181/2011 : en cas d'annulation, de surréservation ou d'un retard au départ de plus de 120 minutes, vous pouvez choisir entre la poursuite du voyage et le remboursement du prix du billet, et si ce choix ne vous est pas proposé, une indemnisation de 50 % du prix du billet s'ajoute. Les réclamations doivent être soumises à l'entreprise dans les trois mois suivant le voyage.</p><!--opt-->",
+    "portal_url": "https://www.regiojet.com",
+    "stelle_name": "Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF)",
+    "stelle_url": "http://mobilit.belgium.be/en/road/passagiersrechten",
+    "_pruefen": "Vérifier l'adresse et le lien profond du portail, insérer le cas échéant l'organisme national d'exécution (République tchèque)"
+  },
+  {
+    "name": "Omio",
+    "slug": "omio",
+    "adresse": "Warschauer Platz 12\n10245 Berlin\nAllemagne",
+    "land": "Allemagne",
+    "infobox": "<p>Omio est une plateforme de réservation permettant de réserver des billets de bus, de train et d'avion de divers opérateurs en Europe. Lors d'une réservation via une plateforme intermédiaire, le transporteur figurant sur votre billet est responsable du voyage. Pour les voyages en ligne régulière de plus de 250 kilomètres, les droits des passagers de l'UE s'appliquent conformément au règlement (UE) n° 181/2011 : en cas d'annulation, de surréservation ou d'un retard au départ de plus de 120 minutes, vous pouvez choisir entre la poursuite du voyage et le remboursement du prix du billet, et si ce choix ne vous est pas proposé, une indemnisation de 50 % du prix du billet s'ajoute. Les réclamations doivent être soumises dans les trois mois suivant le voyage ; adressez-les au transporteur et, si nécessaire, également à la plateforme via laquelle vous avez effectué la réservation.</p><!--opt-->",
+    "portal_url": "https://www.omio.de",
+    "stelle_name": "Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF)",
+    "stelle_url": "http://mobilit.belgium.be/en/road/passagiersrechten",
+    "_pruefen": "Vérifier l'adresse et le lien profond du portail ; intermédiaire, pas transporteur – clarifier la voie de réclamation (plateforme vs. transporteur)"
+  },
+  {
+    "name": "Trainline",
+    "slug": "trainline",
+    "adresse": "1 Stonecutter St\nLondon EC4A 4AH\nRoyaume-Uni",
+    "land": "Royaume-Uni",
+    "infobox": "<p>Trainline est une plateforme de réservation permettant de réserver des billets de bus et de train de divers opérateurs en Europe. Lors d'une réservation via une plateforme intermédiaire, le transporteur figurant sur votre billet est responsable du voyage. Pour les voyages en ligne régulière de plus de 250 kilomètres, les droits des passagers de l'UE s'appliquent conformément au règlement (UE) n° 181/2011 : en cas d'annulation, de surréservation ou d'un retard au départ de plus de 120 minutes, vous pouvez choisir entre la poursuite du voyage et le remboursement du prix du billet, et si ce choix ne vous est pas proposé, une indemnisation de 50 % du prix du billet s'ajoute. Les réclamations doivent être soumises dans les trois mois suivant le voyage ; adressez-les au transporteur et, si nécessaire, également à la plateforme via laquelle vous avez effectué la réservation.</p><!--opt-->",
+    "portal_url": "https://www.thetrainline.com",
+    "stelle_name": "Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF)",
+    "stelle_url": "http://mobilit.belgium.be/en/road/passagiersrechten",
+    "_pruefen": "Vérifier l'adresse et le lien profond du portail ; intermédiaire, pas transporteur – clarifier la voie de réclamation (plateforme vs. transporteur)"
+  },
+  {
+    "name": "Autocar longue distance (général)",
+    "slug": "allgemein",
+    "adresse": "Rue de la Station 123\n1000 Bruxelles\nBelgique",
+    "land": "Belgique",
+    "infobox": "<p>Ce formulaire général convient aux opérateurs d'autocars longue distance qui ne sont pas listés séparément. Pour les voyages en ligne régulière de plus de 250 kilomètres, les droits des passagers de l'UE s'appliquent conformément au règlement (UE) n° 181/2011 : en cas d'annulation, de surréservation ou d'un retard au départ de plus de 120 minutes, vous pouvez choisir entre la poursuite du voyage et le remboursement du prix du billet, et si l'opérateur ne propose pas ce choix, une indemnisation de 50 % du prix du billet s'ajoute. Saisissez l'adresse de l'opérateur figurant sur vos documents de voyage ou dans les mentions légales.</p><!--opt-->",
+    "portal_url": "#",
+    "stelle_name": "Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF)",
+    "stelle_url": "http://mobilit.belgium.be/en/road/passagiersrechten"
+  }
+]
